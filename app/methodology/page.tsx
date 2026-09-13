@@ -91,12 +91,22 @@ function Pending() {
 }
 
 /** Coder agreement from the second-coder match test. Injected later; defaults to "not yet published". */
-function KappaBlock({ kappa }: { kappa: LiveNumbers["kappa"] }) {
+function PrefilterLine({ prefilter }: { prefilter: LiveNumbers["prefilter"] }) {
+  if (prefilter === NOT_YET_PUBLISHED) return <p className="note">Prefilter check: <Pending /></p>;
+  return (
+    <p className="note">
+      Prefilter check: the census finder set {prefilter.rejects_total} statements aside as not forecasts and sent {prefilter.to_code_total} to the coders. Coder B re-read a seeded sample of {prefilter.sample_size} of the set-aside statements and admitted {prefilter.sample_admitted}, an estimated {prefilter.estimated_missed} missed forecasts in the whole set-aside group.
+    </p>
+  );
+}
+
+function KappaBlock({ kappa, prefilter }: { kappa: LiveNumbers["kappa"]; prefilter: LiveNumbers["prefilter"] }) {
   if (kappa === NOT_YET_PUBLISHED) {
     return (
-      <p className="note" style={S.block}>
-        Coder agreement (kappa) per field: <Pending />
-      </p>
+      <div style={S.block}>
+        <p className="note">Coder agreement (kappa) per field: <Pending /></p>
+        <PrefilterLine prefilter={prefilter} />
+      </div>
     );
   }
   const fields: [string, number | null][] = [["admit", kappa.admit], ["event", kappa.event], ["deadline", kappa.deadline], ["bin", kappa.bin], ["asserts", kappa.asserts]];
@@ -104,6 +114,7 @@ function KappaBlock({ kappa }: { kappa: LiveNumbers["kappa"] }) {
     <div style={S.block}>
       <p className="note">Coder agreement (kappa) on {kappa.n_pairs} double-coded statements.{kappa.note ? ` ${kappa.note}` : ""}</p>
       <Table columns={["field", "kappa"]} rows={fields.map(([f, v]) => [f, <span key={f} style={S.num}>{fmtOrNull(v, fmt2)}</span>])} widths={["40%"]} />
+      <PrefilterLine prefilter={prefilter} />
     </div>
   );
 }
@@ -294,7 +305,7 @@ function MethodologyView({ live, asOf }: { live: LiveNumbers; asOf: string }) {
 
         <Card id="hindsight" wide title="Coders never see outcomes, and resolvers never see probabilities." sub="control · what it stops · where it lives" src="Hindsight controls · lib/data/schema.ts · data/rules">
           <Table columns={["#", "control", "where"]} widths={["5%", "70%"]} rows={M.hindsight.map((h) => [<span key={h.id} style={S.id}>{h.id}</span>, h.control, <span key={`${h.id}-w`} className="note">{h.where}</span>])} />
-          <KappaBlock kappa={live.kappa} />
+          <KappaBlock kappa={live.kappa} prefilter={live.prefilter} />
         </Card>
 
         <Card id="sensitivity" wide title="The headline is shown again under seven alternative rules." sub={`variant · what changes · null below ${T.min_clusters_headline} clusters`} src={`Sensitivity · data/rules/lexicon.json sensitivity_maps · v${M.lexicon.version}`}>
@@ -360,7 +371,10 @@ export default function MethodologyPage() {
   const snap = getScores();
   const ds = getDataset();
   const a = snap.agreement;
-  const live: LiveNumbers = a.admission.n + a.event.n === 0 ? DEFAULT_LIVE : {
+  const prefilterPath = path.join(process.cwd(), "data", "intake", "prefilter-audit.json");
+  const prefilter: LiveNumbers["prefilter"] = fs.existsSync(prefilterPath) ? (JSON.parse(fs.readFileSync(prefilterPath, "utf8")) as LiveNumbers["prefilter"]) : NOT_YET_PUBLISHED;
+  const live: LiveNumbers = a.admission.n + a.event.n === 0 ? { ...DEFAULT_LIVE, prefilter } : {
+    prefilter,
     kappa: { n_pairs: a.admission.n, admit: a.admission.kappa, event: a.event.kappa, deadline: a.deadline.kappa, bin: a.bin.weighted_kappa, asserts: null, note: `event and deadline on ${a.event.n} admitted items; bin on ${a.bin.n}; ${a.recheck.n} outcomes rechecked, ${a.recheck.upheld} upheld` },
     sensitivity: ds.forecasters.map((f) => {
       const s = snap.forecasters[f.slug];

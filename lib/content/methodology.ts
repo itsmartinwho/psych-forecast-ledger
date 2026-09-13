@@ -49,12 +49,16 @@ export interface SensitivityLive {
   rows: { id: SensitivityId; value: number | null; n_clusters: number }[];
 }
 
+/** The prefilter audit: coder B re-read a seeded sample of the statements the census finder set aside. */
+export interface PrefilterLive { sample_size: number; sample_admitted: number; rejects_total: number; to_code_total: number; estimated_missed: number }
+
 export interface LiveNumbers {
   kappa: KappaLive | NotYetPublished;
   sensitivity: SensitivityLive[] | NotYetPublished;
+  prefilter: PrefilterLive | NotYetPublished;
 }
 
-export const DEFAULT_LIVE: LiveNumbers = { kappa: NOT_YET_PUBLISHED, sensitivity: NOT_YET_PUBLISHED };
+export const DEFAULT_LIVE: LiveNumbers = { kappa: NOT_YET_PUBLISHED, sensitivity: NOT_YET_PUBLISHED, prefilter: NOT_YET_PUBLISHED };
 
 // ---- content types ---------------------------------------------------------------------------
 export interface Rule { id: string; group: "intake" | "scoring" | "reporting"; rule: string; rationale: string }
