@@ -1,0 +1,70 @@
+// Glossary as typed data. One term, one meaning, used the same way on every page. Pure.
+export interface GlossaryTerm { term: string; definition: string; see?: string[] }
+
+export const GLOSSARY: GlossaryTerm[] = [
+  { term: "admitted", definition: "A statement that passed intake: sincere, the person's own claim, forward-looking, inside the five areas, and not excluded by a reason code. Only admitted statements become items.", see: ["reason code", "item"] },
+  { term: "affiliated", definition: "A flag on an item where a third party decides the event but the person has a disclosed role, stake, employment, board seat or trial site in an entity named in the event. Scored and flagged; the headline is shown with and without.", see: ["non-affiliated block"] },
+  { term: "anchor table", definition: "The fixed table that turns the person's own words ('by 2026', 'Q2', 'within two years') into a deadline. The coder never invents a date.", see: ["deadline", "undated panel"] },
+  { term: "area", definition: "One of five topic classes: regulatory decisions, clinical trial outcomes, company and market outcomes, payer and policy, practice adoption. Every event has one area." },
+  { term: "as-of date", definition: "The date the scores were computed for, read from data/VERSION. An item is scored only when its deadline is on or before this date.", see: ["window-close scoring"] },
+  { term: "asserts", definition: "Whether the statement says the event will happen (true) or will not (false). Items store p on the side of the event happening; asserts is informational.", see: ["denial"] },
+  { term: "base rate", definition: "The probability a published external study gives an event of that class and stage, fixed at intake. Halved when the item window is shorter than the class median time to decision. Never learned from the ledger's own items.", see: ["halving rule", "reference row"] },
+  { term: "bin", definition: "One of five lexicon steps: A 'will' 0.90, B 'probably' 0.70, C 'may' 0.50, D 'unlikely' 0.30, E 'never' 0.10. A stated number goes to the nearest bin for calibration only.", see: ["lexicon"] },
+  { term: "bootstrap interval", definition: "The 2.5 and 97.5 percentiles of a statistic over many resamples of the clusters with replacement, drawn with a seeded generator so every run gives the same interval. It shows how much the number could move if the events were redrawn.", see: ["cluster"] },
+  { term: "Brier score", definition: "The squared gap between a probability and the outcome, (p - o)^2. 0 is perfect, 0.25 is the constant coin flip, 1 is confidently wrong. Lower is better.", see: ["cluster Brier", "mean Brier"] },
+  { term: "calibration", definition: "For each bin, the share of events that happened against the probability the bin claims. A person is calibrated when 'will' events happen about 90 percent of the time and 'may' events about half the time." },
+  { term: "cluster", definition: "All of one person's items on one registry event. A cluster is one observation in every metric, so a claim repeated six times still gets one vote.", see: ["cluster Brier"] },
+  { term: "cluster Brier", definition: "The mean of the item Brier scores of the scored items in a cluster.", see: ["cluster", "Brier score"] },
+  { term: "coin flip", definition: "The constant 0.25, the Brier score of saying 0.50 on every item. Drawn as a reference line; not a row on the leaderboard." },
+  { term: "compound split", definition: "'A and B' becomes two registry events and two clusters; 'A or B' stays one event. Each split is logged at intake." },
+  { term: "concentration", definition: "The largest share of a person's scored items that sit on one event. High concentration means the score leans on one program." },
+  { term: "corrections log", definition: "The public list of every change to a published number or rule, with the version it moved from and to." },
+  { term: "coverage tier", definition: "How completely a person's claims were collected: A complete archive, B archive plus search, C search-built. Ranks are shown only inside one tier." },
+  { term: "deadline", definition: "The date by which the event must happen for the item to be true. It comes only from the person's words through the anchor table.", see: ["anchor table"] },
+  { term: "denial", definition: "A statement that the event will not happen. Its probability on the event side is 1 minus the bin value.", see: ["asserts"] },
+  { term: "evidence tier", definition: "How much resolved evidence a person has: T0 fewer than 10 clusters (counts only), T1 10 to 29 (provisional), T2 30 or more (full).", see: ["cluster"] },
+  { term: "extreme share", definition: "The share of admitted items in bin A or E, or with a stated probability at or beyond 0.85 or 0.15. A measure of how bold the person's words are." },
+  { term: "freeze", definition: "A release of the data files with a sha256 hash of each. Scores are recomputed from the frozen files only, so nothing can change after the outcomes are looked up." },
+  { term: "halving rule", definition: "When the item window is shorter than the base-rate class's median time to decision, the base rate is halved. The halved value is an upper bound that favours the person.", see: ["base rate"] },
+  { term: "headline panel", definition: "All admitted items with a deadline. The headline score is computed on this panel only.", see: ["undated panel"] },
+  { term: "hindsight scan", definition: "A second read of each item for outcome words in the coding. The item is marked clean, flagged or reviewed." },
+  { term: "hit rate", definition: "The share of clusters where the person was on the right side of 0.50. Items at exactly 0.50 are left out. Reported with a Wilson interval." },
+  { term: "item", definition: "An admitted statement with its intake fields: event, deadline, probability, tags. An item carries no outcome fields; the outcome lives on the registry event.", see: ["admitted", "registry event"] },
+  { term: "kappa", definition: "Cohen's kappa: agreement between two coders beyond chance, from -1 to 1. Reported for admit, event, deadline, bin and asserts from the second-coder match test." },
+  { term: "known true", definition: "An item whose event has already happened but whose deadline has not passed. Shown as 'known true, enters on <deadline>'; pending in every metric until then.", see: ["pending", "window-close scoring"] },
+  { term: "leave-one-out change", definition: "The largest change in the mean Brier when one cluster is removed. A stability check next to the interval." },
+  { term: "lexicon", definition: "The fixed five-bin table that turns a phrase into a probability. The strongest phrase in the claim sentence decides; coders never read tone.", see: ["bin"] },
+  { term: "market reference", definition: "The last public prediction-market price up to 7 days before the statement, on a question whose deadline is within one quarter of the item's. Used for the market row and market skill.", see: ["reference row"] },
+  { term: "mean Brier", definition: "The mean of the cluster Brier scores over a person's resolved clusters. The headline number.", see: ["cluster Brier"] },
+  { term: "Murphy decomposition", definition: "The mean Brier split into reliability (how far the words were from the truth), resolution (how much the words sorted outcomes) and uncertainty (how hard the events were): B = REL - RES + UNC." },
+  { term: "non-affiliated block", definition: "The headline metrics recomputed on clusters with no affiliated item. Shown only when both sides have enough clusters.", see: ["affiliated"] },
+  { term: "not admitted", definition: "A statement that failed intake for a logged reason code. Listed and counted, never scored.", see: ["reason code"] },
+  { term: "outcome", definition: "1 if the registry event happened on or before the item's deadline, 0 if it did not. Written by a resolver who never sees p." },
+  { term: "paired comparison", definition: "For two people, the difference in cluster Brier on the events they both predicted, averaged over those events with a bootstrap interval. The only comparison that holds the events fixed." },
+  { term: "panel", definition: "One of two separate pools of items: headline (dated) and undated. Panels are never pooled.", see: ["headline panel", "undated panel"] },
+  { term: "pending", definition: "An item whose deadline has not passed. Counted, never scored.", see: ["known true"] },
+  { term: "prospective", definition: "An item coded and frozen before its outcome was public. The prospective share says how much of a score is free of hindsight.", see: ["retrospective"] },
+  { term: "reason code", definition: "The logged reason a statement was not admitted: VAGUE, CONTROL, REPORT, NORMATIVE, THIRD_PARTY, SATIRE, KNOWN, OUT_OF_AREA, NOT_FORECAST, DUPLICATE.", see: ["not admitted"] },
+  { term: "re-dating", definition: "The same person naming a new deadline for the same event. Each deadline is its own item inside one cluster; the maximum number of distinct deadlines in one cluster is reported." },
+  { term: "reference row", definition: "A leaderboard row that is not a person: the base rate or the market, scored with its own probability on the same clusters. Shows what a rule of thumb would have scored.", see: ["base rate", "market reference"] },
+  { term: "registry event", definition: "A proposition written from a template on the asset, with a resolution criterion and a named public source, before the outcome is looked up. The same event resolves every person's items on it.", see: ["template"] },
+  { term: "resolved", definition: "A cluster with at least one scored item. Only resolved clusters count toward n." },
+  { term: "retrospective", definition: "An item coded after its outcome was public. All release 1.0 items from 2021 to mid-2026 carry this tag.", see: ["prospective"] },
+  { term: "scoreable share", definition: "Admitted headline items divided by sincere statements, with a Wilson interval. The share of what the person said that could be checked." },
+  { term: "sensitivity panel", definition: "The headline mean Brier recomputed under alternative rules: softer lexicon ends, Kent words, flat 0.75, non-affiliated only, prospective only, undated pooled, leave one out." },
+  { term: "skill score", definition: "1 minus the person's Brier divided by a reference Brier on the same clusters. Positive beats the reference; 0 equals it.", see: ["base rate", "market reference"] },
+  { term: "template", definition: "One of eight fixed forms for a registry event (drug approval, device authorization, trial result, rule or policy, court outcome, company event, coverage decision, quantity threshold), each with its own criterion and source type.", see: ["registry event"] },
+  { term: "timing", definition: "For items scored false whose event later happened: the months between the deadline and the outcome date. Median and quartiles are reported." },
+  { term: "undated panel", definition: "Items with no deadline in the person's words, scored on a uniform 24-month window from the statement date. Never pooled with the headline panel.", see: ["headline panel"] },
+  { term: "void", definition: "An item that cannot be scored: the coders disagreed (AMBIGUOUS), the condition was unmet, or the source never published (UNRESOLVABLE). Counted, never scored." },
+  { term: "Wilson interval", definition: "A 95 percent interval for a share that stays inside 0 and 1 and behaves well at small n. Used for hit rate and scoreable share." },
+  { term: "window-close scoring", definition: "An item enters the score only when its deadline has passed and the outcome is true or false. A claim already known true still waits for its deadline.", see: ["as-of date", "known true"] },
+];
+
+/** Alphabetical, case-insensitive, for rendering. */
+export const GLOSSARY_SORTED: GlossaryTerm[] = [...GLOSSARY].sort((a, b) => a.term.toLowerCase().localeCompare(b.term.toLowerCase()));
+
+export function defineTerm(term: string): GlossaryTerm | undefined {
+  const key = term.toLowerCase();
+  return GLOSSARY.find((g) => g.term.toLowerCase() === key);
+}

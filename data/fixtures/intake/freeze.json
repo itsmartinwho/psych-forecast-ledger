@@ -1,0 +1,35 @@
+{
+  "releases": [
+    {
+      "release": "fixture-1.0",
+      "frozen_at": "2026-09-13",
+      "files": [
+        {
+          "path": "intake/owen.json",
+          "sha256": "2042ede8c319992acbcf99ac5aeec4802a70c4dc7783e5532c86a081ba86379a"
+        },
+        {
+          "path": "intake/angermayer.json",
+          "sha256": "cb4de4492981da16ece4271bc3e4ea9ce6df82f080322ce4760a5754d3fa6198"
+        },
+        {
+          "path": "intake/doblin.json",
+          "sha256": "12a7dd792822d9b029aed3a81372f1cc1c14e15ac344485926f2de6d4535956a"
+        },
+        {
+          "path": "intake/coder-b/owen.json",
+          "sha256": "01d226babde3891a743e0ccbeef184a7e04397ad22bc5157fa123779954b62c4"
+        },
+        {
+          "path": "intake/coder-b/angermayer.json",
+          "sha256": "cf6aa70a9c6862d775594ca156cd9d7732ef274260dde07ea2ad51bdaddcb0e0"
+        },
+        {
+          "path": "intake/coder-b/doblin.json",
+          "sha256": "dc0412f1b8a7adc4187f79e9502a24bc9c085db8861007f9553e1102aab99fac"
+        }
+      ],
+      "note": "Fixture release: every intake file hashed at generation time."
+    }
+  ]
+}

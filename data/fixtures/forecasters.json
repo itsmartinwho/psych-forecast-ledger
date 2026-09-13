@@ -1,0 +1,153 @@
+[
+  {
+    "slug": "owen",
+    "name": "Owen Scott Muir",
+    "short": "Muir",
+    "kind": "person",
+    "archetype": "clinician",
+    "role": "Psychiatrist; Chief Medical Officer, Radial; author of The Frontier Psychiatrists",
+    "bio": "Child, adolescent, and adult psychiatrist. Co-founded Fermata, an interventional psychiatry clinic, then joined Radial as Chief Medical Officer; also works with Neurolief. Writes The Frontier Psychiatrists on Substack. Fixture copy of data/forecasters.json.",
+    "channels": [
+      {
+        "label": "The Frontier Psychiatrists",
+        "url": "https://thefrontierpsychiatrists.substack.com"
+      }
+    ],
+    "affiliations": [
+      {
+        "entity": "Radial",
+        "role": "Chief Medical Officer"
+      },
+      {
+        "entity": "Neurolief",
+        "role": "executive and advisor",
+        "note": "Relivion device"
+      },
+      {
+        "entity": "Fermata",
+        "role": "co-founder"
+      }
+    ],
+    "coverage": {
+      "tier": "A",
+      "corpus": "Every Substack post, free and paid, from May 2021 to the as-of date (fixture).",
+      "period": {
+        "from": "2021-05-01",
+        "to": "2026-09-13"
+      },
+      "sources": [
+        {
+          "label": "The Frontier Psychiatrists (Substack)",
+          "url": "https://thefrontierpsychiatrists.substack.com"
+        }
+      ],
+      "search_strings": []
+    },
+    "hero": true
+  },
+  {
+    "slug": "angermayer",
+    "name": "Christian Angermayer",
+    "short": "Angermayer",
+    "kind": "person",
+    "archetype": "investor",
+    "role": "Founder, Apeiron Investment Group; co-founder and chairman, atai Life Sciences; early Compass Pathways investor",
+    "bio": "German investor. Seed investor and long-time large shareholder in Compass Pathways (COMP360 psilocybin); co-founded atai Life Sciences in 2018. Public voice on X, LinkedIn, Substack, conferences, and podcasts. Fixture copy of data/forecasters.json.",
+    "channels": [
+      {
+        "label": "Substack",
+        "url": "https://christianangermayer.substack.com"
+      },
+      {
+        "label": "X",
+        "url": "https://x.com/C_Angermayer"
+      }
+    ],
+    "affiliations": [
+      {
+        "entity": "atai Life Sciences",
+        "role": "co-founder and chairman"
+      },
+      {
+        "entity": "Compass Pathways",
+        "role": "investor"
+      },
+      {
+        "entity": "Apeiron Investment Group",
+        "role": "founder"
+      }
+    ],
+    "coverage": {
+      "tier": "C",
+      "corpus": "Ad hoc: Substack, X, shareholder letters, and interviews found by search (fixture).",
+      "period": {
+        "from": "2018-01-01",
+        "to": "2026-09-13"
+      },
+      "sources": [
+        {
+          "label": "Substack",
+          "url": "https://christianangermayer.substack.com"
+        },
+        {
+          "label": "Interviews and podcasts",
+          "note": "verbatim transcripts only"
+        }
+      ],
+      "search_strings": [
+        "\"Angermayer\" psilocybin approval",
+        "\"Angermayer\" predicts"
+      ]
+    },
+    "hero": false
+  },
+  {
+    "slug": "doblin",
+    "name": "Rick Doblin",
+    "short": "Doblin",
+    "kind": "person",
+    "archetype": "advocate",
+    "role": "Founder and president, MAPS; founder of MAPS PBC (later Lykos Therapeutics)",
+    "bio": "Founded the Multidisciplinary Association for Psychedelic Studies in 1986. Founded MAPS Public Benefit Corporation, renamed Lykos Therapeutics in 2024, which received a complete response letter for MDMA-assisted therapy in August 2024; left the Lykos board afterwards. Fixture copy of data/forecasters.json.",
+    "channels": [
+      {
+        "label": "MAPS bulletins",
+        "url": "https://maps.org/news/bulletin/"
+      }
+    ],
+    "affiliations": [
+      {
+        "entity": "MAPS",
+        "role": "founder and president"
+      },
+      {
+        "entity": "Lykos Therapeutics",
+        "role": "founder, former board member",
+        "to": "2024-08-31",
+        "note": "MAPS PBC until January 2024"
+      }
+    ],
+    "coverage": {
+      "tier": "C",
+      "corpus": "Ad hoc: MAPS bulletins, conference talks, podcasts, and press interviews found by search (fixture).",
+      "period": {
+        "from": "2017-01-01",
+        "to": "2026-09-13"
+      },
+      "sources": [
+        {
+          "label": "MAPS bulletins",
+          "url": "https://maps.org/news/bulletin/"
+        },
+        {
+          "label": "Press interviews with direct quotes"
+        }
+      ],
+      "search_strings": [
+        "\"Doblin\" MDMA approval",
+        "\"Doblin\" predicts"
+      ]
+    },
+    "hero": false
+  }
+]

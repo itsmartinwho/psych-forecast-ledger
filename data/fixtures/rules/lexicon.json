@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "note": "Five symmetric bins applied to what the forecaster asserts. A denial of E takes 1 minus the bin value. A stated number overrides the map (a range takes its midpoint; 'at least x' takes x). A qualified phrase around a number ('substantially more than 50/50') is a phrase and takes the qualifier's bin. The strongest phrase in the claim sentence decides; coders never read tone.",
+  "bins": [
+    { "bin": "A", "p": 0.9, "label": "will", "phrases": ["will", "is going to", "certain", "certainly", "definitely", "obviously", "no doubt", "guaranteed", "inevitable", "is coming", "shall", "won't be long"] },
+    { "bin": "B", "p": 0.7, "label": "probably", "phrases": ["probably", "likely", "I expect", "expect", "I think", "I believe", "I bet", "my bet", "on track", "should (predictive, not normative)", "I suspect", "my guess", "I anticipate", "more likely than not", "substantially more than 50/50"] },
+    { "bin": "C", "p": 0.5, "label": "may", "phrases": ["may", "could", "might", "possible", "possibly", "maybe", "perhaps", "50-50", "coin flip", "would not surprise me", "it is conceivable"] },
+    { "bin": "D", "p": 0.3, "label": "unlikely", "phrases": ["unlikely", "I doubt", "doubtful", "do not expect", "probably not", "I am skeptical that", "hard to see"] },
+    { "bin": "E", "p": 0.1, "label": "never", "phrases": ["never", "will not", "won't", "no chance", "impossible", "not going to", "there is no way", "cannot"] }
+  ],
+  "sensitivity_maps": {
+    "kent": { "A": 0.93, "B": 0.75, "C": 0.5, "D": 0.25, "E": 0.07 },
+    "ends85": { "A": 0.85, "B": 0.7, "C": 0.5, "D": 0.3, "E": 0.15 },
+    "flat75": { "A": 0.75, "B": 0.75, "C": 0.5, "D": 0.25, "E": 0.25 }
+  },
+  "sources": [
+    "Lichtenstein S, Newman JR (1967). Empirical scaling of common verbal phrases associated with numerical probabilities. Psychonomic Science 9:563-564.",
+    "Kent S (1964). Words of estimative probability. Studies in Intelligence 8(4).",
+    "Budescu DV, Broomell S, Por HH (2009). Improving communication of uncertainty in the reports of the IPCC. Psychological Science 20:299-308.",
+    "Reagan RT, Mosteller F, Youtz C (1989). Quantitative meanings of verbal probability expressions. Journal of Applied Psychology 74:433-442.",
+    "Wallsten TS, Budescu DV, Rapoport A, Zwick R, Forsyth B (1986). Measuring the vague meanings of probability terms. JEP: General 115:348-365."
+  ]
+}

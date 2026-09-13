@@ -1,0 +1,113 @@
+[
+  {
+    "id": "angermayer-0001",
+    "forecaster": "angermayer",
+    "statement_date": "2018-10-03",
+    "quote": "Fixture paraphrase: COMP360 psilocybin will likely win FDA approval for treatment-resistant depression by 2021.",
+    "source": {
+      "url": "https://example.org/angermayer/angermayer-0001",
+      "title": "Business Insider interview, October 2018 (fixture)",
+      "type": "press"
+    },
+    "extraction": {
+      "run": "fixture-1",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory"
+    },
+    "status": "admitted",
+    "coders": {
+      "a_admit": true,
+      "b_admit": true
+    }
+  },
+  {
+    "id": "angermayer-0002",
+    "forecaster": "angermayer",
+    "statement_date": "2021-07-15",
+    "quote": "Fixture paraphrase: in late 2021 Compass Pathways plans to release its phase 2b data, which I believe could be a great boost.",
+    "source": {
+      "url": "https://example.org/angermayer/angermayer-0002",
+      "title": "Psychedelic Finance interview, July 2021 (fixture)",
+      "type": "interview"
+    },
+    "extraction": {
+      "run": "fixture-1",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial"
+    },
+    "status": "admitted",
+    "coders": {
+      "a_admit": true,
+      "b_admit": true
+    }
+  },
+  {
+    "id": "angermayer-0003",
+    "forecaster": "angermayer",
+    "statement_date": "2022-02-22",
+    "quote": "Fixture paraphrase: more than a billion people have mental health problems; a billion-dollar market is emerging.",
+    "source": {
+      "url": "https://example.org/angermayer/angermayer-0003",
+      "title": "German press interview, February 2022 (fixture)",
+      "type": "press"
+    },
+    "extraction": {
+      "run": "fixture-1",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other"
+    },
+    "status": "not_admitted",
+    "reason_code": "VAGUE"
+  },
+  {
+    "id": "angermayer-0004",
+    "forecaster": "angermayer",
+    "statement_date": "2024-03-01",
+    "quote": "Fixture paraphrase: atai will start its first phase 3 trial by the end of 2025.",
+    "source": {
+      "url": "https://example.org/angermayer/angermayer-0004",
+      "title": "Shareholder letter, March 2024 (fixture)",
+      "type": "filing"
+    },
+    "extraction": {
+      "run": "fixture-1",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other"
+    },
+    "status": "not_admitted",
+    "reason_code": "CONTROL"
+  },
+  {
+    "id": "angermayer-0005",
+    "forecaster": "angermayer",
+    "statement_date": "2023-03-10",
+    "quote": "Fixture paraphrase: analysts at the bank say atai could triple within two years.",
+    "source": {
+      "url": "https://example.org/angermayer/angermayer-0005",
+      "title": "X post, March 2023 (fixture)",
+      "type": "tweet"
+    },
+    "extraction": {
+      "run": "fixture-1",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other"
+    },
+    "status": "not_admitted",
+    "reason_code": "THIRD_PARTY"
+  }
+]

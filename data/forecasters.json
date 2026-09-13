@@ -1,55 +1,98 @@
 [
   {
-    "id": "owen", "name": "Owen Scott Muir", "kind": "person", "archetype": "clinician", "hero": true,
+    "slug": "owen",
+    "name": "Owen Scott Muir",
+    "short": "Muir",
+    "kind": "person",
+    "archetype": "clinician",
     "role": "Psychiatrist; Chief Medical Officer, Radial; author of The Frontier Psychiatrists",
-    "bio": "Child, adolescent, and adult psychiatrist. Co-founded Fermata (Brooklyn), an interventional psychiatry clinic, then joined Radial as Chief Medical Officer; also works with Neurolief. Writes The Frontier Psychiatrists on Substack (about 1,100 posts since May 2021) on interventional psychiatry, psychedelics, payers, and health policy.",
-    "corpus_tier": "A",
-    "corpus": [
-      { "label": "The Frontier Psychiatrists (Substack, all posts)", "url": "https://thefrontierpsychiatrists.substack.com", "type": "substack_free", "search_strings": [] }
+    "bio": "Child, adolescent and adult psychiatrist. Co-founded Fermata, an interventional psychiatry clinic in Brooklyn, then joined Radial as Chief Medical Officer; also works with Neurolief. Writes The Frontier Psychiatrists on Substack (1,126 posts since May 2021) on interventional psychiatry, psychedelics, payers and health policy.",
+    "channels": [
+      { "label": "The Frontier Psychiatrists (Substack)", "url": "https://thefrontierpsychiatrists.substack.com" }
     ],
     "affiliations": [
       { "entity": "Radial", "role": "Chief Medical Officer", "aliases": ["Radial Health"] },
       { "entity": "Neurolief", "role": "executive and advisor", "aliases": ["Relivion", "Proliv Rx", "eCOT-AS"] },
       { "entity": "Fermata", "role": "co-founder", "aliases": ["Fermata Health"] },
-      { "entity": "Acacia Clinics", "role": "trial site partner", "aliases": [] },
+      { "entity": "Acacia Clinics", "role": "clinician and trial site", "aliases": ["Acacia"] },
       { "entity": "Ampa", "role": "trial site", "aliases": ["ONE-D"] },
-      { "entity": "Psyrin", "role": "trial site", "aliases": [] },
-      { "entity": "Videra Health", "role": "investigator", "aliases": ["TDscreen", "TDetect"] },
+      { "entity": "Psyrin", "role": "strategic advisor", "aliases": [] },
+      { "entity": "Videra Health", "role": "strategic advisor", "aliases": ["TDscreen", "TDetect"] },
+      { "entity": "Yung Sidekick", "role": "strategic advisor", "aliases": ["Yung Therapist Sidekick"] },
+      { "entity": "Outro Health", "role": "advisor", "aliases": ["Outro"] },
+      { "entity": "iRxReminder", "role": "Chief Medical Officer (2024)", "aliases": [] },
+      { "entity": "Osmind", "role": "spouse employed", "aliases": [] },
       { "entity": "RAMHT", "role": "organizer", "aliases": ["Rapid-Acting Mental Health Treatment"] }
-    ]
+    ],
+    "coverage": {
+      "tier": "A",
+      "corpus": "The full archive of The Frontier Psychiatrists on Substack, every post from 2021-05-06 to 2026-09-11, free and paid, read in full through the Substack API (free) and the subscriber session (paid). Restacks of other authors are excluded.",
+      "period": { "from": "2021-05-06", "to": "2026-09-11" },
+      "sources": [
+        { "label": "Substack archive API", "url": "https://thefrontierpsychiatrists.substack.com/api/v1/archive", "note": "1,126 posts: 927 free, 176 paid, 23 founding" }
+      ],
+      "search_strings": []
+    },
+    "hero": true
   },
   {
-    "id": "angermayer", "name": "Christian Angermayer", "kind": "person", "archetype": "investor", "hero": false,
+    "slug": "angermayer",
+    "name": "Christian Angermayer",
+    "short": "Angermayer",
+    "kind": "person",
+    "archetype": "investor",
     "role": "Founder, Apeiron Investment Group; co-founder and chairman, atai Life Sciences; early Compass Pathways investor",
-    "bio": "German investor. Seed investor and long-time large shareholder in Compass Pathways (COMP360 psilocybin); co-founded atai Life Sciences in 2018, which merged with Beckley Psytech in 2025 and agreed to be acquired by Eli Lilly in July 2026. Public voice on X, LinkedIn, Substack, conferences, and podcasts.",
-    "corpus_tier": "C",
-    "corpus": [
-      { "label": "Substack", "url": "https://christianangermayer.substack.com", "type": "own_post", "search_strings": [] },
-      { "label": "X (@C_Angermayer)", "url": "https://x.com/C_Angermayer", "type": "social", "search_strings": [] },
-      { "label": "atai shareholder letters and releases", "url": "https://ir.atai.life", "type": "press_release", "search_strings": [] },
-      { "label": "Interviews and podcasts (verbatim transcripts)", "type": "interview", "search_strings": ["\"Angermayer\" psilocybin approval", "\"Angermayer\" MDMA 2024", "\"Angermayer\" predicts", "\"Angermayer\" FDA by 2030"] }
+    "bio": "German investor. Seed investor and long-time large shareholder in Compass Pathways (COMP360 psilocybin); co-founded atai Life Sciences in 2018, which merged with Beckley Psytech in 2025 and agreed to be acquired by Eli Lilly in July 2026. Speaks on X, LinkedIn, Substack, conferences and podcasts.",
+    "channels": [
+      { "label": "Substack", "url": "https://christianangermayer.substack.com" },
+      { "label": "X", "url": "https://x.com/C_Angermayer" },
+      { "label": "atai investor relations", "url": "https://ir.atai.life" }
     ],
     "affiliations": [
-      { "entity": "atai Life Sciences", "role": "co-founder and chairman", "aliases": ["atai", "AtaiBeckley", "Beckley Psytech", "BPL-003", "VLS-01", "EMP-01", "PCN-101"] },
+      { "entity": "atai Life Sciences", "role": "co-founder and chairman", "aliases": ["atai", "AtaiBeckley", "Beckley Psytech", "BPL-003", "VLS-01", "EMP-01", "PCN-101", "Perception Neuroscience", "Recognify", "DemeRx"] },
       { "entity": "Compass Pathways", "role": "investor", "aliases": ["COMP360", "Compass"] },
-      { "entity": "Apeiron Investment Group", "role": "founder", "aliases": [] }
-    ]
+      { "entity": "Apeiron Investment Group", "role": "founder", "aliases": ["Apeiron"] }
+    ],
+    "coverage": {
+      "tier": "C",
+      "corpus": "Ad hoc collection from public statements (own posts, verbatim interviews, dated press quotes). Rows are shown and counted; no headline number until the declared tier-B corpus (own Substack, X and LinkedIn posts, atai shareholder letters, verbatim transcripts) is read in full.",
+      "period": { "from": "2018-01-01", "to": "2026-09-13" },
+      "sources": [
+        { "label": "Own Substack", "url": "https://christianangermayer.substack.com" },
+        { "label": "X posts", "url": "https://x.com/C_Angermayer" },
+        { "label": "atai shareholder letters and press releases", "url": "https://ir.atai.life" },
+        { "label": "Interviews and podcasts with verbatim transcripts" }
+      ],
+      "search_strings": ["\"Angermayer\" psilocybin approval", "\"Angermayer\" MDMA 2024", "\"Angermayer\" predicts", "\"Angermayer\" FDA by 2030", "\"Angermayer\" Compass Pathways 2021"]
+    },
+    "hero": false
   },
   {
-    "id": "doblin", "name": "Rick Doblin", "kind": "person", "archetype": "advocate", "hero": false,
+    "slug": "doblin",
+    "name": "Rick Doblin",
+    "short": "Doblin",
+    "kind": "person",
+    "archetype": "advocate",
     "role": "Founder and president, MAPS; founder of MAPS PBC (later Lykos Therapeutics)",
-    "bio": "Founded the Multidisciplinary Association for Psychedelic Studies in 1986 and led it for decades. Founded MAPS Public Benefit Corporation, renamed Lykos Therapeutics in 2024, which received a complete response letter for MDMA-assisted therapy in August 2024; left the Lykos board afterwards. Public voice in MAPS bulletins, conferences, and podcasts.",
-    "corpus_tier": "C",
-    "corpus": [
-      { "label": "MAPS bulletins and 'From the desk of Rick Doblin'", "url": "https://maps.org/news/bulletin/", "type": "own_post", "search_strings": [] },
-      { "label": "Conference talks and podcasts (verbatim transcripts)", "type": "conference", "search_strings": ["\"Doblin\" MDMA approval 2021", "\"Doblin\" FDA approval 2023", "\"Doblin\" 2035", "\"Doblin\" predicts"] },
-      { "label": "Press interviews with direct quotes", "type": "interview", "search_strings": [] }
+    "bio": "Founded the Multidisciplinary Association for Psychedelic Studies in 1986 and led it for decades. Founded MAPS Public Benefit Corporation, renamed Lykos Therapeutics in 2024, which received a complete response letter for MDMA-assisted therapy in August 2024; left the Lykos board afterwards. Speaks in MAPS bulletins, conferences and podcasts.",
+    "channels": [
+      { "label": "MAPS bulletins", "url": "https://maps.org/news/bulletin/" }
     ],
     "affiliations": [
       { "entity": "MAPS", "role": "founder and president", "aliases": ["Multidisciplinary Association for Psychedelic Studies"] },
       { "entity": "Lykos Therapeutics", "role": "founder, former board member", "to": "2024-08-31", "aliases": ["MAPS PBC", "MAPS Public Benefit Corporation", "Resilient Pharmaceuticals", "midomafetamine", "MDMA-assisted therapy"] }
-    ]
-  },
-  { "id": "base-rate", "name": "Base rate", "kind": "reference", "archetype": "reference", "hero": false, "role": "Published base rate by event class and stage, fixed at intake", "bio": "A reference row scored on the same items where a published base rate exists (BIO/Informa/QLS 2011-2020, Wong 2019, Daval 2023, Sacks 2014 and others). Halved when the item window is shorter than the class median time to decision.", "corpus": [], "affiliations": [] },
-  { "id": "market", "name": "Market", "kind": "reference", "archetype": "reference", "hero": false, "role": "Prediction-market price up to 7 days before the statement", "bio": "A reference row scored only on items with a matching public market question (Metaculus, Manifold, Polymarket, Kalshi) whose deadline is within one quarter of the item's.", "corpus": [], "affiliations": [] }
+    ],
+    "coverage": {
+      "tier": "C",
+      "corpus": "Ad hoc collection from public statements (MAPS bulletins, conference talks, podcasts and press with direct quotes). Rows are shown and counted; no headline number until the declared tier-B corpus (MAPS bulletins and email updates, verbatim podcast and conference transcripts, MAPS and Lykos releases) is read in full.",
+      "period": { "from": "2016-01-01", "to": "2026-09-13" },
+      "sources": [
+        { "label": "MAPS bulletins and From the Desk of Rick Doblin", "url": "https://maps.org/news/bulletin/" },
+        { "label": "Conference talks and podcasts with verbatim transcripts" },
+        { "label": "Press interviews with direct quotes" }
+      ],
+      "search_strings": ["\"Doblin\" MDMA approval 2021", "\"Doblin\" FDA approval 2023", "\"Doblin\" 2035", "\"Doblin\" predicts", "\"Doblin\" net zero trauma 2070"]
+    },
+    "hero": false
+  }
 ]

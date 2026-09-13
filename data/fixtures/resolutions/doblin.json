@@ -1,0 +1,62 @@
+[
+  {
+    "event_id": "E-0001",
+    "state": "not_occurred",
+    "date": null,
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+      {
+        "url": "https://example.org/evidence/mdma-crl",
+        "title": "FDA issues complete response letter for midomafetamine (fixture)",
+        "publisher": "fixture",
+        "date": "2024-08-09",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "note": "No approval through the as-of date. CRL on 2024-08-09; resubmission pending.",
+    "resolver": "resolver-fixture",
+    "resolved_at": "2026-09-13",
+    "version": 1
+  },
+  {
+    "event_id": "E-0003",
+    "state": "occurred",
+    "date": "2021-05-03",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+      {
+        "url": "https://example.org/evidence/mapp1-topline",
+        "title": "MAPP1 topline: primary endpoint met (fixture)",
+        "publisher": "fixture",
+        "date": "2021-05-03",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "note": "Topline release 2021-05-03; publication followed on 2021-05-10.",
+    "resolver": "resolver-fixture",
+    "resolved_at": "2026-09-13",
+    "version": 1
+  },
+  {
+    "event_id": "E-0010",
+    "state": "not_occurred",
+    "date": null,
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+      {
+        "url": "https://example.org/evidence/ema-mdma",
+        "title": "EMA: no marketing authorization for midomafetamine (fixture)",
+        "publisher": "fixture",
+        "date": "2026-09-13",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "note": "No European Commission decision through the as-of date.",
+    "resolver": "resolver-fixture",
+    "resolved_at": "2026-09-13",
+    "version": 1
+  }
+]

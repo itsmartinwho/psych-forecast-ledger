@@ -28,7 +28,7 @@ export const Forecaster = z.object({
   role: z.string().max(200),
   bio: z.string().max(700),
   channels: z.array(z.object({ label: z.string(), url: Url })),
-  affiliations: z.array(z.object({ entity: z.string(), role: z.string(), from: IsoDate.optional(), to: IsoDate.optional(), note: z.string().max(300).optional() })),
+  affiliations: z.array(z.object({ entity: z.string(), role: z.string(), aliases: z.array(z.string()).default([]), from: IsoDate.optional(), to: IsoDate.optional(), note: z.string().max(300).optional() })),
   coverage: z.object({
     tier: CoverageTier,
     corpus: z.string().max(600),

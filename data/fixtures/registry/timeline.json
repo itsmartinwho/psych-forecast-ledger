@@ -1,0 +1,72 @@
+[
+  {
+    "id": "T-0001",
+    "date": "2021-05-03",
+    "area": "clinical_trial",
+    "entity": "MAPS PBC",
+    "event": "MAPP1 topline: primary endpoint met (fixture).",
+    "outcome_type": "trial_readout_positive",
+    "source_url": "https://example.org/timeline/mapp1",
+    "source_org": "MAPS",
+    "confidence": "high",
+    "registry_event_ids": [
+      "E-0003"
+    ]
+  },
+  {
+    "id": "T-0002",
+    "date": "2021-11-09",
+    "area": "clinical_trial",
+    "entity": "Compass Pathways",
+    "event": "COMP360 phase 2b topline reported (fixture).",
+    "outcome_type": "trial_readout_positive",
+    "source_url": "https://example.org/timeline/comp360-2b",
+    "source_org": "Compass Pathways",
+    "confidence": "high",
+    "registry_event_ids": [
+      "E-0011"
+    ]
+  },
+  {
+    "id": "T-0003",
+    "date": "2024-08-09",
+    "area": "regulatory",
+    "entity": "FDA",
+    "event": "Complete response letter for midomafetamine (fixture).",
+    "outcome_type": "crl",
+    "source_url": "https://example.org/timeline/mdma-crl",
+    "source_org": "Lykos Therapeutics",
+    "confidence": "high",
+    "registry_event_ids": [
+      "E-0001"
+    ]
+  },
+  {
+    "id": "T-0004",
+    "date": "2024-11-19",
+    "area": "regulatory",
+    "entity": "DEA",
+    "event": "Third temporary extension of telemedicine flexibilities (fixture).",
+    "outcome_type": "extension",
+    "source_url": "https://example.org/timeline/dea-extension",
+    "source_org": "Federal Register",
+    "confidence": "high",
+    "registry_event_ids": [
+      "E-0006"
+    ]
+  },
+  {
+    "id": "T-0005",
+    "date": "2025-01-21",
+    "area": "regulatory",
+    "entity": "FDA",
+    "event": "Spravato approved as monotherapy for TRD (fixture).",
+    "outcome_type": "approval",
+    "source_url": "https://example.org/timeline/spravato-mono",
+    "source_org": "FDA",
+    "confidence": "high",
+    "registry_event_ids": [
+      "E-0007"
+    ]
+  }
+]

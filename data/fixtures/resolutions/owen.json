@@ -1,0 +1,102 @@
+[
+  {
+    "event_id": "E-0002",
+    "state": "not_occurred",
+    "date": null,
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+      {
+        "url": "https://example.org/evidence/comp360-status",
+        "title": "COMP360 rolling NDA submission in progress (fixture)",
+        "publisher": "fixture",
+        "date": "2026-09-13",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "note": "No approval through the as-of date.",
+    "resolver": "resolver-fixture",
+    "resolved_at": "2026-09-13",
+    "version": 1
+  },
+  {
+    "event_id": "E-0006",
+    "state": "occurred",
+    "date": "2024-11-19",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+      {
+        "url": "https://example.org/evidence/dea-third-extension",
+        "title": "Third temporary extension of telemedicine flexibilities (fixture)",
+        "publisher": "Federal Register",
+        "date": "2024-11-19",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "note": "Extension published 2024-11-19.",
+    "resolver": "resolver-fixture",
+    "resolved_at": "2026-09-13",
+    "version": 1
+  },
+  {
+    "event_id": "E-0007",
+    "state": "occurred",
+    "date": "2025-01-21",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+      {
+        "url": "https://example.org/evidence/spravato-mono",
+        "title": "FDA approves Spravato as monotherapy (fixture)",
+        "publisher": "FDA",
+        "date": "2025-01-21",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "note": "Supplemental approval dated 2025-01-21.",
+    "resolver": "resolver-fixture",
+    "resolved_at": "2026-09-13",
+    "version": 1
+  },
+  {
+    "event_id": "E-0009",
+    "state": "occurred",
+    "date": "2025-09-15",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+      {
+        "url": "https://example.org/evidence/relivion-mdd",
+        "title": "FDA clears Relivion for MDD (fixture)",
+        "publisher": "FDA",
+        "date": "2025-09-15",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "note": "Fixture decision date.",
+    "resolver": "resolver-fixture",
+    "resolved_at": "2026-09-13",
+    "version": 1
+  },
+  {
+    "event_id": "E-0012",
+    "state": "not_occurred",
+    "date": null,
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+      {
+        "url": "https://example.org/evidence/cobenfy-adjunct",
+        "title": "No adjunctive indication for Cobenfy (fixture)",
+        "publisher": "fixture",
+        "date": "2026-09-13",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "note": "No supplemental approval through the as-of date.",
+    "resolver": "resolver-fixture",
+    "resolved_at": "2026-09-13",
+    "version": 1
+  }
+]

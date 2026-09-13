@@ -1,0 +1,80 @@
+[
+  {
+    "id": "angermayer-0001",
+    "forecaster": "angermayer",
+    "statement_date": "2018-10-03",
+    "quote": "Fixture paraphrase: COMP360 psilocybin will likely win FDA approval for treatment-resistant depression by 2021.",
+    "source": {
+      "url": "https://example.org/angermayer/angermayer-0001",
+      "title": "Business Insider interview, October 2018 (fixture)",
+      "type": "press"
+    },
+    "area": "regulatory",
+    "event_id": "E-0002",
+    "condition_event_id": null,
+    "asserts": true,
+    "deadline": "2021-12-31",
+    "deadline_origin": "anchor",
+    "deadline_text": "by 2021",
+    "panel": "headline",
+    "p": 0.7,
+    "p_origin": "lexicon",
+    "bin": "B",
+    "phrase": "likely",
+    "stated_number": null,
+    "tags": [
+      "affiliated",
+      "retrospective"
+    ],
+    "base_rate": {
+      "class": "phase2_to_approval_all",
+      "p_raw": 0.15,
+      "p": 0.075,
+      "halved": true,
+      "median_months": 72
+    },
+    "market_ref_id": null,
+    "coder": "coder-a-fixture",
+    "rule_version": "1.0.0",
+    "intake_at": "2026-09-13",
+    "hindsight_scan": "clean",
+    "version": 1,
+    "history": []
+  },
+  {
+    "id": "angermayer-0002",
+    "forecaster": "angermayer",
+    "statement_date": "2021-07-15",
+    "quote": "Fixture paraphrase: in late 2021 Compass Pathways plans to release its phase 2b data, which I believe could be a great boost.",
+    "source": {
+      "url": "https://example.org/angermayer/angermayer-0002",
+      "title": "Psychedelic Finance interview, July 2021 (fixture)",
+      "type": "interview"
+    },
+    "area": "clinical_trial",
+    "event_id": "E-0011",
+    "condition_event_id": null,
+    "asserts": true,
+    "deadline": "2021-12-31",
+    "deadline_origin": "anchor",
+    "deadline_text": "late 2021",
+    "panel": "headline",
+    "p": 0.7,
+    "p_origin": "lexicon",
+    "bin": "B",
+    "phrase": "I believe",
+    "stated_number": null,
+    "tags": [
+      "affiliated",
+      "retrospective"
+    ],
+    "base_rate": null,
+    "market_ref_id": null,
+    "coder": "coder-a-fixture",
+    "rule_version": "1.0.0",
+    "intake_at": "2026-09-13",
+    "hindsight_scan": "clean",
+    "version": 1,
+    "history": []
+  }
+]

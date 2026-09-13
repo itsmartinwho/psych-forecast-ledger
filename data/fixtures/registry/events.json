@@ -1,0 +1,260 @@
+[
+  {
+    "id": "E-0001",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA-assisted therapy)",
+    "entity": "FDA",
+    "title": "FDA approves MDMA-assisted therapy for PTSD",
+    "proposition": "FDA approves midomafetamine (MDMA-assisted therapy) for PTSD.",
+    "criterion": "TRUE on the date of the FDA approval letter for midomafetamine for PTSD. A complete response letter is not an approval.",
+    "resolution_source": {
+      "name": "Drugs@FDA",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": "phase3_to_approval_psychiatry",
+    "market_ref_id": "M-001",
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0002",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "COMP360 psilocybin",
+    "entity": "FDA",
+    "title": "FDA approves COMP360 for treatment-resistant depression",
+    "proposition": "FDA approves COMP360 (psilocybin) for treatment-resistant depression or major depressive disorder.",
+    "criterion": "TRUE on the date of the FDA approval letter. A rolling submission or a filing acceptance is not an approval.",
+    "resolution_source": {
+      "name": "Drugs@FDA",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": "phase3_to_approval_psychiatry",
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0003",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "MAPP1 (MDMA phase 3)",
+    "entity": "MAPS PBC",
+    "title": "MAPP1 meets its primary endpoint",
+    "proposition": "MAPS PBC reports that MAPP1 met its primary endpoint (CAPS-5 change vs placebo).",
+    "criterion": "TRUE on the date of the sponsor's topline release or the first publication reporting the primary endpoint as met.",
+    "resolution_source": {
+      "name": "Sponsor topline release; Nature Medicine",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0004",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "asset": "at-home depression treatment devices",
+    "entity": "FDA",
+    "title": "Three or more at-home depression treatment devices authorized in the US",
+    "proposition": "The count of FDA-authorized at-home depression treatment devices on the US market is at or beyond 3 by the period end.",
+    "criterion": "Resolved on the FDA 510(k) and De Novo databases: devices with a home-use indication for depression that are marketed in the US. Realized values are stored, not scored.",
+    "resolution_source": {
+      "name": "FDA 510(k) and De Novo databases",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": {
+      "metric": "FDA-authorized at-home depression treatment devices on the US market",
+      "threshold": 3,
+      "direction": ">=",
+      "unit": "devices",
+      "series": "FDA 510(k) and De Novo databases, fixture count"
+    },
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0005",
+    "template": "court_outcome",
+    "area": "payer_policy",
+    "asset": "ERISA mental health parity suit",
+    "entity": "US federal courts",
+    "title": "First ERISA suit citing mental health parity is filed",
+    "proposition": "A lawsuit under ERISA that pleads mental health parity violations is filed in a US federal court.",
+    "criterion": "TRUE on the docket date of the first complaint that pleads a fiduciary breach under ERISA grounded in mental health parity.",
+    "resolution_source": {
+      "name": "CourtListener / PACER",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0006",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "DEA telemedicine flexibilities",
+    "entity": "DEA",
+    "title": "DEA extends telemedicine flexibilities beyond 2024",
+    "proposition": "DEA publishes a rule extending the COVID-era telemedicine flexibilities for controlled substances past 2024-12-31.",
+    "criterion": "TRUE on the Federal Register publication date of an extension rule.",
+    "resolution_source": {
+      "name": "Federal Register",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": "dea_telemedicine_extension",
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0007",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "esketamine (Spravato) monotherapy",
+    "entity": "FDA",
+    "title": "FDA approves Spravato as monotherapy for TRD",
+    "proposition": "FDA approves esketamine nasal spray as a monotherapy for treatment-resistant depression.",
+    "criterion": "TRUE on the date of the FDA supplemental approval letter that adds the monotherapy indication.",
+    "resolution_source": {
+      "name": "Drugs@FDA",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": "nda_submitted_to_approval",
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0008",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "asset": "accelerated TMS",
+    "entity": "national commercial payer",
+    "title": "A national payer covers accelerated TMS in outpatient clinics",
+    "proposition": "A national commercial payer publishes a coverage policy for accelerated TMS protocols in the outpatient setting.",
+    "criterion": "TRUE on the effective date of a published payer policy bulletin that covers an accelerated TMS protocol.",
+    "resolution_source": {
+      "name": "Payer policy bulletins",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0009",
+    "template": "device_authorization",
+    "area": "regulatory",
+    "asset": "Relivion (Neurolief)",
+    "entity": "FDA",
+    "title": "FDA clears Relivion for major depressive disorder",
+    "proposition": "FDA grants clearance or De Novo authorization for Relivion for major depressive disorder.",
+    "criterion": "TRUE on the decision date in the FDA 510(k) or De Novo database with a depression indication.",
+    "resolution_source": {
+      "name": "FDA 510(k) / De Novo database",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": "device_510k_clearance_after_submission",
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0010",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA-assisted therapy)",
+    "entity": "EMA",
+    "title": "EMA approves MDMA-assisted therapy for PTSD",
+    "proposition": "The European Commission grants marketing authorization for midomafetamine for PTSD.",
+    "criterion": "TRUE on the date of the European Commission decision.",
+    "resolution_source": {
+      "name": "EMA / Union Register",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0011",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "COMP360 phase 2b",
+    "entity": "Compass Pathways",
+    "title": "Compass reports COMP360 phase 2b topline",
+    "proposition": "Compass Pathways reports topline results of its phase 2b COMP360 trial in treatment-resistant depression.",
+    "criterion": "TRUE on the date of the sponsor's topline press release.",
+    "resolution_source": {
+      "name": "Sponsor press release",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  },
+  {
+    "id": "E-0012",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "Cobenfy (xanomeline-trospium) adjunctive",
+    "entity": "FDA",
+    "title": "FDA approves Cobenfy as adjunctive treatment for schizophrenia",
+    "proposition": "FDA approves xanomeline-trospium as an adjunctive treatment for schizophrenia.",
+    "criterion": "TRUE on the date of the FDA supplemental approval letter for the adjunctive indication.",
+    "resolution_source": {
+      "name": "Drugs@FDA",
+      "url": "https://example.org/resolution-source"
+    },
+    "base_rate_class": "phase3_to_approval_all",
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "fixture",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+  }
+]
