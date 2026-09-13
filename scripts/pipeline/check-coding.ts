@@ -12,8 +12,9 @@ const iso = (s: unknown) => typeof s === "string" && /^\d{4}-\d{2}-\d{2}$/.test(
 let exit = 0;
 for (const file of process.argv.slice(2)) {
   const problems: string[] = [];
-  type Rec = { id: string; admit: boolean; [k: string]: unknown };
-  let out: { records?: Rec[]; [k: string]: unknown };
+  type Ev = { ref: string; template: string; area: string; criterion?: string; resolution_source?: { name?: string } | null; [k: string]: unknown };
+  type Rec = { id: string; admit: unknown; reason_code: string; event: Ev | null; condition?: Ev | null; deadline?: string | null; deadline_origin?: string | null; asserts?: unknown; bin?: string | null; p_stated?: number | null };
+  let out: { coder?: string; records?: Rec[] };
   try { out = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { console.log(`${file}: INVALID JSON ${(e as Error).message}`); exit = 1; continue; }
   const coder = String(out.coder ?? "").toUpperCase();
   const m = /coder-[abc]-(.+)\.json$/.exec(path.basename(file));
@@ -34,19 +35,19 @@ for (const file of process.argv.slice(2)) {
       else if (ev.ref.startsWith("new:")) {
         if (!TEMPLATES.has(ev.template)) problems.push(`${r.id}: new event needs a valid template (${ev.template})`);
         if (!AREAS.has(ev.area)) problems.push(`${r.id}: new event needs a valid area (${ev.area})`);
-        for (const k of ["asset", "entity", "title", "proposition"]) if (typeof ev[k] !== "string" || !ev[k].trim()) problems.push(`${r.id}: new event missing ${k}`);
+        for (const k of ["asset", "entity", "title", "proposition"]) if (typeof ev[k] !== "string" || !(ev[k] as string).trim()) problems.push(`${r.id}: new event missing ${k}`);
         if (coder === "A" || coder === "C") { if (typeof ev.criterion !== "string" || ev.criterion.length < 20) problems.push(`${r.id}: new event needs a criterion`); if (!ev.resolution_source || typeof ev.resolution_source.name !== "string") problems.push(`${r.id}: new event needs resolution_source.name`); }
       }
       if (r.deadline !== null && r.deadline !== undefined) {
         if (!iso(r.deadline)) problems.push(`${r.id}: deadline must be yyyy-mm-dd or null (${r.deadline})`);
         else if (dates.get(base) && r.deadline <= dates.get(base)!) problems.push(`${r.id}: deadline ${r.deadline} is not after the statement date ${dates.get(base)}`);
-        if (!ORIGINS.has(r.deadline_origin)) problems.push(`${r.id}: deadline_origin must be stated|anchor|table when a deadline is set`);
+        if (!ORIGINS.has(r.deadline_origin ?? "")) problems.push(`${r.id}: deadline_origin must be stated|anchor|table when a deadline is set`);
       }
       if (typeof r.asserts !== "boolean") problems.push(`${r.id}: asserts must be boolean`);
       const hasBin = r.bin !== null && r.bin !== undefined;
       const hasP = r.p_stated !== null && r.p_stated !== undefined;
       if (!hasBin && !hasP) problems.push(`${r.id}: needs bin or p_stated`);
-      if (hasBin && !BINS.has(r.bin)) problems.push(`${r.id}: bin must be A to E (${r.bin})`);
+      if (hasBin && !BINS.has(r.bin ?? "")) problems.push(`${r.id}: bin must be A to E (${r.bin})`);
       if (hasP && (typeof r.p_stated !== "number" || r.p_stated <= 0 || r.p_stated >= 1)) problems.push(`${r.id}: p_stated must be a number in (0, 1)`);
       if (r.condition && (typeof r.condition.ref !== "string")) problems.push(`${r.id}: condition needs a ref`);
     }

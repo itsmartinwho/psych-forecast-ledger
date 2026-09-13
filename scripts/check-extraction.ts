@@ -14,7 +14,7 @@ const textOf = (slug: string): string | null => {
 let totalOk = 0, totalBad = 0;
 for (const file of process.argv.slice(2)) {
   type Post = { slug: string; [k: string]: unknown };
-  let j: { packet?: string; posts?: Post[]; [k: string]: unknown };
+  let j: { packet?: string; posts?: Post[]; statements?: { post_slug: string; quote?: string }[] };
   try { j = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { console.log(`${file}: INVALID JSON ${(e as Error).message}`); continue; }
   const packetName: string = j.packet ?? path.basename(file, ".json") + ".md";
   const idx: { packet: string; posts?: Post[] }[] = JSON.parse(fs.readFileSync(path.join(ROOT, "data/raw/packets", packetName.replace(/-\d+\.md$/, "-index.json")), "utf8"));
