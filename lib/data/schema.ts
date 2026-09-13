@@ -221,6 +221,7 @@ export const Item = z.object({
   panel: Panel,
   p: z.number().min(0.01).max(0.99),
   p_origin: POrigin,
+  p_note: z.string().max(200).optional(),   // e.g. "coder B bin C; mean of 0.70 and 0.50"
   bin: Bin.nullable(),
   phrase: z.string().max(120).nullable(),
   stated_number: z.string().max(60).nullable(),
