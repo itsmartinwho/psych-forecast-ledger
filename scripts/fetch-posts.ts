@@ -45,13 +45,13 @@ async function main() {
       };
       fs.writeFileSync(file, JSON.stringify(rec));
       done++;
-      if (done % 25 === 0) console.error(`${done} fetched, ${skipped} skipped, ${failed.length} failed, ${retryCount} retries, ${Math.round((Date.now() - started) / 1000)}s`);
+      if (done % 25 === 0) console.error(`${done} fetched, ${skipped} skipped, ${failed.length} failed, ${retryCount()} retries, ${Math.round((Date.now() - started) / 1000)}s`);
     } catch (e) {
       failed.push(row.slug);
       console.error(`FAILED ${row.slug}: ${(e as Error).message}`);
     }
   }
-  console.error(`DONE fetched=${done} skipped=${skipped} failed=${failed.length} retries=${retryCount}`);
+  console.error(`DONE fetched=${done} skipped=${skipped} failed=${failed.length} retries=${retryCount()}`);
   if (failed.length) console.error("failed slugs:", failed.join(", "));
 }
 main().catch((e) => { console.error(e); process.exit(1); });

@@ -4,7 +4,8 @@ export const UA =
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 let lastRequestAt = 0;
-export const stats = { requests: 0, retries: 0 };
+let retries = 0;
+export function retryCount(): number { return retries; }
 
 export async function getJson<T>(url: string, opts: { minGapMs?: number; maxTries?: number } = {}): Promise<T> {
   const minGap = opts.minGapMs ?? 1000;
@@ -13,10 +14,9 @@ export async function getJson<T>(url: string, opts: { minGapMs?: number; maxTrie
     const wait = lastRequestAt + minGap - Date.now();
     if (wait > 0) await sleep(wait);
     lastRequestAt = Date.now();
-    stats.requests++;
     const res = await fetch(url, { headers: { "User-Agent": UA, Accept: "application/json" } });
     if (res.status === 429 || res.status >= 500) {
-      stats.retries++;
+      retries++;
       if (attempt + 1 >= maxTries) throw new Error(`HTTP ${res.status} after ${maxTries} tries: ${url}`);
       const retryAfter = Number(res.headers.get("retry-after"));
       const backoff = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : Math.min(60_000, 2000 * 2 ** attempt);
