@@ -5,6 +5,7 @@ import path from "node:path";
 import { PALETTE } from "@/lib/tokens";
 import { DEFAULT_LIVE, METHODOLOGY, NOT_YET_PUBLISHED, fmt2, fmt3, type LiveNumbers } from "@/lib/content/methodology";
 import { GLOSSARY_SORTED } from "@/lib/content/glossary";
+import { Shell } from "@/components/layout/Shell";
 import { getDataset } from "@/lib/data/cached";
 import { getScores } from "@/lib/data/scores";
 
@@ -160,7 +161,7 @@ function MethodologyView({ live, asOf }: { live: LiveNumbers; asOf: string }) {
   const v = M.version.version;
   const T = M.thresholds;
   return (
-    <main className="shell">
+    <div className="methodology">
       <header>
         <p className="eyebrow">Methodology · rules v{v} · as of {asOf}</p>
         <h1 style={S.h1}>How a quote becomes a score</h1>
@@ -351,7 +352,7 @@ function MethodologyView({ live, asOf }: { live: LiveNumbers; asOf: string }) {
           />
         </Card>
       </div>
-    </main>
+    </div>
   );
 }
 
@@ -378,5 +379,5 @@ export default function MethodologyPage() {
       };
     }),
   };
-  return <MethodologyView live={live} asOf={readAsOf()} />;
+  return <Shell current="/methodology" dataVersion={ds.version.as_of} ruleVersion={ds.version.version}><MethodologyView live={live} asOf={readAsOf()} /></Shell>;
 }
