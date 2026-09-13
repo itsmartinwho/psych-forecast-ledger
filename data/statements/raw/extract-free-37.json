@@ -1,0 +1,484 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-37.md",
+  "posts": [
+    {
+      "slug": "can-mdma-at-be-saved-part-ii",
+      "read": true,
+      "statements_found": 3,
+      "note": "Part II of the MDMA-AT series, written after the June 2024 FDA Advisory Committee. Mostly historical and ethical argument against Doblin's idea that all MDMA-AT therapists take MDMA. Logged: one implicit regulatory claim (required safety data missing), one general causal claim about therapist doubt, one own-newsletter plan. Truisms about physicians and PTSD criterion A were not logged."
+    },
+    {
+      "slug": "why-science-is-often-bad",
+      "read": true,
+      "statements_found": 3,
+      "note": "Essay on Ioannidis and publication bias. Generic claims that published results will not replicate and that psychedelic-medicine findings are biased toward falsehood are logged as borderline; the negative-results journal line is a joke (sincere=false). 'Every SSRI for depression? Sorry.' is present-tense and was not logged."
+    },
+    {
+      "slug": "bad-touch-saving-mdma-part-v",
+      "read": true,
+      "statements_found": 3,
+      "note": "Part V on touch and boundary violations in the MDMA-AT manual. Key item is the conditional projection of 6,600 assaulted patients at a scale of 1,000,000 treated. The cited figure '25% of psychiatrists will be the victims of stalking' is a prevalence statistic and was not logged. The plea not to mainstream therapeutic touch is normative and was not logged."
+    },
+    {
+      "slug": "my-life-as-reimagined-in-an-apple",
+      "read": true,
+      "statements_found": 1,
+      "note": "Satirical Apple WWDC keynote parody; the future-tense lines (living forever in an Apple Private Cloud, sleep score will improve, avatar models living on) are fiction. One jab about Apple's 30% cut of subscriptions is logged with sincere=false."
+    },
+    {
+      "slug": "saving-mdma-and-other-psychedelic",
+      "read": true,
+      "statements_found": 5,
+      "note": "Part VI, a staffing model for psychedelic medicine written from the Clinical TMS Society meeting in London. Logged: physicians on site, 100% of psychedelic medicines with a REMS, REMS-as-IP profitability, MDMA will have a place at the table, and the next-installment plan. The MDHub.ai ambient-scribe line is a present-tense product claim, not logged."
+    },
+    {
+      "slug": "focus-on-the-details-committees-in",
+      "read": true,
+      "statements_found": 3,
+      "note": "Essay on medical committees, CPT codes and the TMS medically unlikely edit, celebrating Carlene MacMillan. Logged: the call that the negative AdCom is likely to doom MDMA-AT approval, and two payer changes with effective dates after the post (Category III CPT codes for SAINT/fMRI-guided accelerated TMS and the MUE allowing two TMS treatments a day, both July 1, 2024). 'Thus will never get paid' describes the old MUE rule and was not logged; 'accelerated TMS works better than once daily TMS' is a present efficacy opinion, not logged."
+    },
+    {
+      "slug": "done-yes-it-is",
+      "read": true,
+      "statements_found": 2,
+      "note": "Reaction to the DOJ indictment of Done executives for alleged Adderall distribution. Two statements that more prosecutions of telehealth controlled-substance prescribers are coming (the second restates the first). 'Buckle up, Bloomineers?' is a question and was not logged."
+    },
+    {
+      "slug": "al-lewis-weighs-in-on-lyra-health",
+      "read": true,
+      "statements_found": 2,
+      "note": "Republished Al Lewis column attacking Aon's Lyra Health cost analysis, with the author's Acacia Clinics plug. Logged: Lewis's hedged claim that Lyra's reputation could be damaged (own_claim=false) and the author's own closing line about ERISA lawsuits reaching employers. Lewis's bet offer and present-tense cost estimates were not logged."
+    },
+    {
+      "slug": "what-went-wrong-mdma-on-the-carlat",
+      "read": true,
+      "statements_found": 1,
+      "note": "Share of a two-part Carlat Psychiatry Podcast on the MAPS/Lykos trials. One weak statement that this is not the last word on MDMA-AT. The clozapine approval history is past analysis."
+    },
+    {
+      "slug": "warning-labels-for-social-media-are-0fa",
+      "read": true,
+      "statements_found": 0,
+      "note": "Podcast blurb for the prior column against Surgeon General warning labels on social media; sarcasm and a ChatGPT prompt, no forward-looking statements."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "can-mdma-at-be-saved-part-ii",
+      "quote": "The more therapists who are exposed to the biasing experience of psychedelic treatment, the fewer of them will have as much doubt as will be useful some of the time",
+      "context": "Arguing against Rick Doblin's proposal that every therapist administering MDMA-AT should first take MDMA, the author claims that wider therapist exposure to psychedelics will reduce the clinical doubt that is useful when treatments fail. General causal claim conditional on that policy.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Rick Doblin",
+        "MAPS",
+        "Lykos Therapeutics",
+        "MDMA-AT",
+        "MDMA"
+      ],
+      "note": "Borderline: a general causal prediction about therapist behavior, not a dated event. Logged for recall."
+    },
+    {
+      "post_slug": "can-mdma-at-be-saved-part-ii",
+      "quote": "Doblin’s vision for spiritual healing, gassed up by MDMA, sold as a combo therapy product, was missing the traditional safety assessments required by the FDA to approve any drug —including the necessary liver, heart, and kidney safety, as well as evaluations of addiction risk, that need to be there for a new drug to be approved",
+      "context": "After the FDA Advisory Committee meeting on Lykos Therapeutics' MDMA-AT application (June 2024), the author says the program lacks the standard safety assessments (liver, heart, kidney, addiction risk) that the FDA requires before approving any new drug. Implicit doubt that MDMA-AT is approved as submitted.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "need to be there for a new drug to be approved",
+      "entities": [
+        "FDA",
+        "Lykos Therapeutics",
+        "MAPS PBC",
+        "Rick Doblin",
+        "MDMA-AT",
+        "MDMA"
+      ],
+      "note": "Implicit regulatory call: states that required safety data are missing rather than predicting the FDA decision outright. Later coder decides whether it counts."
+    },
+    {
+      "post_slug": "can-mdma-at-be-saved-part-ii",
+      "quote": "Stay tuned for part III.",
+      "context": "Closing line: the author promises a Part III of his MDMA-AT series in The Frontier Psychiatrists newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter publishing plan (CONTROL candidate)."
+    },
+    {
+      "post_slug": "why-science-is-often-bad",
+      "quote": "Much of it is beyond bad writing—that is, the published results will not turn out to replicate! It’s factually false.",
+      "context": "Opening of an essay on Ioannidis and publication bias: the author asserts that much of the published science he reads for the newsletter is false and will fail to replicate, citing the STAR*D reanalysis as an example.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will not",
+      "entities": [
+        "John Ioannidis",
+        "STAR*D"
+      ],
+      "note": "Generic claim about published science as a whole, not a specific study or date. Borderline."
+    },
+    {
+      "post_slug": "why-science-is-often-bad",
+      "quote": "My “journal of negative results and duplications of prior work” will do very poorly, when it comes to an impact factor.",
+      "context": "Illustrating publication bias toward positive findings, the author jokes that a hypothetical journal devoted to negative results and replications would have a very poor impact factor.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will do very poorly",
+      "entities": [],
+      "note": "Joke about a journal that does not exist; the underlying point about publication bias is sincere, the forecast is not a real expectation."
+    },
+    {
+      "post_slug": "why-science-is-often-bad",
+      "quote": "Unfortunately, the more exciting a scientific field, like, again, psychedelic medicine? This also biases our outcomes to falsehood",
+      "context": "The author applies Ioannidis's corollaries (greater financial interests and hotter fields make findings less likely to be true) to psychedelic medicine, implying its research findings are more likely to prove false. Dan Karlin (CMO, Mind Medicine) is quoted nearby on disclosures.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "biases our outcomes to falsehood",
+      "entities": [
+        "John Ioannidis",
+        "Dan Karlin",
+        "Mind Medicine"
+      ],
+      "note": "Implicit: predicts psychedelic-medicine findings will not hold up, via Ioannidis's hot-field and conflict-of-interest corollaries. Not dated."
+    },
+    {
+      "post_slug": "bad-touch-saving-mdma-part-v",
+      "quote": "MDMA and other psychedelics hold the promise to break through to hope. However, caution is warranted.",
+      "context": "In a passage on how difficult and dangerous psychotherapy is for patients and therapists, the author grants that MDMA and other psychedelics may deliver a breakthrough to hope, with a caution hedge. Part V of the MDMA-AT series.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "hold the promise",
+      "entities": [
+        "MDMA"
+      ],
+      "note": "Hedged statement of therapeutic potential; borderline as a forecast."
+    },
+    {
+      "post_slug": "bad-touch-saving-mdma-part-v",
+      "quote": "Even that 0.66% rate, at the scale of 1,000,000 patients treated, would be… 6,600 additional sexually assaulted patients—by their therapists",
+      "context": "The author takes the one sexual boundary violation known from the MAPS Phase 3 MDMA-AT sample (two studies, n = 150) as a 0.66% rate and projects that, if MDMA-AT were deployed to 1,000,000 patients, about 6,600 additional patients would be sexually assaulted by their therapists. Conditional numeric projection about MDMA-AT at scale.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "would be",
+      "entities": [
+        "MAPS",
+        "Lykos Therapeutics",
+        "MDMA-AT",
+        "Rick Doblin",
+        "Meaghan Buisson"
+      ],
+      "note": "Conditional numeric projection from a single Phase 3 case; the preceding sentence is a question, the projection itself is the author's own claim."
+    },
+    {
+      "post_slug": "bad-touch-saving-mdma-part-v",
+      "quote": "That is what we will address in part VI.",
+      "context": "Closing line: the author promises that Part VI of the series will address how to avoid these risks while letting psychedelic medicine proceed through an appropriate regulatory process.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter publishing plan (CONTROL candidate)."
+    },
+    {
+      "post_slug": "my-life-as-reimagined-in-an-apple",
+      "quote": "If they had their way, 30% of the subscription price of this newsletter would go to them also. And whether it's free, or whether it's paid, they're going to get theirs.",
+      "context": "Closing of a satirical parody of an Apple WWDC keynote. The author jabs that Apple takes a 30% cut and will get its share of this newsletter's subscriptions regardless.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "going to get theirs",
+      "entities": [
+        "Apple",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Satire; a jab at Apple's App Store cut rather than a real forecast. Other future-tense lines in the piece are pure fiction and were not logged."
+    },
+    {
+      "post_slug": "saving-mdma-and-other-psychedelic",
+      "quote": "Physicians will be needed, and on site, for these psychedelic treatments.",
+      "context": "Part VI proposes a staffing model for psychedelic medicine: nurses monitor patients while they are under the drug, therapists work afterward, and physicians must be on site, by analogy with the on-site REMS certification required for esketamine.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "will be needed",
+      "entities": [
+        "FDA",
+        "Esketamine"
+      ],
+      "note": "Reads both as a prediction of how psychedelic treatment will be staffed and as the author's recommendation."
+    },
+    {
+      "post_slug": "saving-mdma-and-other-psychedelic",
+      "quote": "We require REMS (Risk Evaluation and Mitigation Strategy) certification on site for Esketamine, and 100% of these medicines will come to market with one of these REMS on the FDA-label.",
+      "context": "The author predicts that every psychedelic medicine that reaches the market will carry an FDA Risk Evaluation and Mitigation Strategy on its label, as esketamine does. He then compares the REMS-as-intellectual-property model to Jazz Pharmaceuticals' Xyrem.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "100% ... will",
+      "entities": [
+        "FDA",
+        "Esketamine",
+        "Jazz Pharmaceuticals",
+        "Xyrem"
+      ],
+      "note": "Numeric (100%) regulatory call covering all psychedelic medicines."
+    },
+    {
+      "post_slug": "saving-mdma-and-other-psychedelic",
+      "quote": "The more controlled the substance, the more restrictive the REMS, the more this approach becomes a meaningful barrier to entry for competition. Thus, this has the potential to be a profitable product without having to rely on selling tons of expensive therapy training to therapists.",
+      "context": "Business-model claim: owning the REMS and risk-mitigation intellectual property (as Jazz Pharmaceuticals did with Xyrem/sodium oxybate) can make a psychedelic drug a profitable, competition-protected product without selling therapist training, which the author says looks like NXIVM or Scientology.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "has the potential",
+      "entities": [
+        "Jazz Pharmaceuticals",
+        "Xyrem",
+        "FDA"
+      ],
+      "note": "Hedged business-model forecast, generic to psychedelic sponsors rather than a named company."
+    },
+    {
+      "post_slug": "saving-mdma-and-other-psychedelic",
+      "quote": "We need more excellent treatments, and I believe MDMA will have a place at the table.",
+      "context": "Written from the Clinical TMS Society meeting while listening to Dr. Rodriguez from Stanford present on MDMA for OCD paired with ExRP therapy; the author expects MDMA to find a role in psychiatric treatment despite his criticism of MDMA-AT.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "I believe ... will",
+      "entities": [
+        "MDMA",
+        "Dr. Rodriguez (Stanford)",
+        "Clinical TMS Society"
+      ],
+      "note": "Positive call on MDMA's eventual clinical role; no date or indication specified."
+    },
+    {
+      "post_slug": "saving-mdma-and-other-psychedelic",
+      "quote": "The next installment will recommend technology solutions to augment the above assertions about staffing of psychedelic medicines.",
+      "context": "Closing line: the author plans a next installment of the series on technology solutions for psychedelic medicine staffing. Earlier in the post: today's article pertains to staffing, and we will get to technology thereafter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter publishing plan (CONTROL candidate)."
+    },
+    {
+      "post_slug": "focus-on-the-details-committees-in",
+      "quote": "An advisory committee strongly weighing in against the approval by the subsequent FDA committee is likely to doom this FDA approval at this stage.",
+      "context": "In an essay on consensus and committees in medicine, the author points to the dissenting FDA Advisory Committee vote on Lykos Therapeutics' MDMA-AT data (June 2024) and predicts that the negative advisory vote is likely to doom FDA approval of MDMA-AT at this stage.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "at this stage",
+      "confidence_phrase": "is likely to doom",
+      "entities": [
+        "FDA",
+        "FDA Advisory Committee",
+        "Lykos Therapeutics",
+        "MDMA-AT"
+      ],
+      "note": "Direct regulatory call on the MDMA-AT application after the negative advisory committee."
+    },
+    {
+      "post_slug": "focus-on-the-details-committees-in",
+      "quote": "as of July 1, 2024, there are category three CPT codes that describe Stanford accelerated intelligent neural modulation treatment and fMRI guided accelerated treatments. So now the conversation can be had with a payer about what they would pay for that thing.",
+      "context": "Reports that Category III CPT codes for SAINT (Stanford accelerated intelligent neuromodulation) and fMRI-guided accelerated TMS take effect July 1, 2024, after the 2024-06-15 post date, which will let providers negotiate payment with payers. Credits the Clinical TMS Society, APA and AMA committee process and Carlene MacMillan.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "as of July 1, 2024",
+      "confidence_phrase": "there are",
+      "entities": [
+        "AMA",
+        "CPT",
+        "SAINT",
+        "Clinical TMS Society",
+        "American Psychiatric Association",
+        "Carlene MacMillan"
+      ],
+      "note": "Reports an already-decided code change with a future effective date rather than a prediction; logged for the dated payer claim. Later coder decides."
+    },
+    {
+      "post_slug": "focus-on-the-details-committees-in",
+      "quote": "Starting July 1, 2024, up to two TMS treatments can be provided in one day. It's not 10, but it's not one.",
+      "context": "CMS granted the Clinical TMS Society insurance committee's request (co-chaired by Carlene MacMillan) to change the medically unlikely edit (MUE) so that two TMS treatments in one day can be reimbursed from July 1, 2024, after the post date. Preceded by: That is changing, at least a little bit, too.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "Starting July 1, 2024",
+      "confidence_phrase": "can be provided",
+      "entities": [
+        "CMS",
+        "Clinical TMS Society",
+        "Carlene MacMillan",
+        "MUE"
+      ],
+      "note": "Reports a granted MUE change with a future effective date rather than a prediction; logged for the dated payer claim."
+    },
+    {
+      "post_slug": "done-yes-it-is",
+      "quote": "The unsettling part of this indictment by the DOJ, for the rest of telehealth prescribing of control substances, is that the DOJ tried to make it as clear as possible that there's more coming, maybe.",
+      "context": "After the DOJ arrested the CEO/founder and Chief Medical Officer of ADHD telehealth platform Done for alleged illegal distribution of Adderall (its first criminal drug distribution prosecution of a digital health company), the author reads the press release framing and AG Merrick Garland's quote as a signal that more prosecutions of telehealth controlled-substance prescribers are coming.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "maybe",
+      "entities": [
+        "DOJ",
+        "Done",
+        "Merrick Garland"
+      ],
+      "note": "Enforcement forecast, hedged with maybe; restated later in the post."
+    },
+    {
+      "post_slug": "done-yes-it-is",
+      "quote": "“First” prosecution doesn't sound like last prosecution.",
+      "context": "The author notes other companies prescribe controlled substances over the internet with varying scrupulosity and concludes from the DOJ's word first that further prosecutions will follow; followed by Buckle up, Bloomineers?",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "doesn't sound like last",
+      "entities": [
+        "DOJ",
+        "Done"
+      ],
+      "note": "Restates the more-coming call above. The Bloomineers line is a question and was not logged separately."
+    },
+    {
+      "post_slug": "al-lewis-weighs-in-on-lyra-health",
+      "quote": "Paying off consultants (who coincidentally also send them business) to pretend otherwise could damage that reputation.",
+      "context": "Inside Al Lewis's republished open letter to Aon chief actuary Ron Ozminkowski about the Aon Lyra Cost Efficiency Results report: Lewis says Lyra Health was considered a legitimate vendor and warns that paying consultants for savings claims could damage that reputation. The author republishes the column with permission and endorses its critique.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "could",
+      "entities": [
+        "Al Lewis",
+        "Aon",
+        "Ron Ozminkowski",
+        "Lyra Health",
+        "Validation Institute"
+      ],
+      "note": "Third-party (Al Lewis) hedged forecast in a republished column; the author endorses the column overall but does not restate this specific claim."
+    },
+    {
+      "post_slug": "al-lewis-weighs-in-on-lyra-health",
+      "quote": "For employers, perhaps having a bit more rigor will go better in subsequent discovery when the endless ERISA lawsuits land on your desk too?",
+      "context": "The author's own closing line after the Al Lewis column on Aon's Lyra analysis: employers who rely on weak vendor analyses face discovery in ERISA lawsuits, which he expects to be endless and to reach employers.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "perhaps ... when the endless ERISA lawsuits land",
+      "entities": [
+        "Aon",
+        "Lyra Health",
+        "ERISA"
+      ],
+      "note": "Phrased as a question but asserts that ERISA lawsuits against employer health plans are coming. Legal/benefits area."
+    },
+    {
+      "post_slug": "what-went-wrong-mdma-on-the-carlat",
+      "quote": "This is not the last word on MDMA-AT, MDMA, or any other psychedelic medicine.",
+      "context": "Post sharing a two-part Carlat Psychiatry Podcast on what went wrong in the MAPS/Lykos trials reviewed by the FDA Advisory Committee. The author says the MDMA-AT story is not over and recalls that the FDA set a high bar for clozapine (safety monitoring, superiority, treatment-resistant patients).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "not the last word",
+      "entities": [
+        "MDMA-AT",
+        "MDMA",
+        "MAPS",
+        "Lykos Therapeutics",
+        "FDA",
+        "Carlat Psychiatry Podcast"
+      ],
+      "note": "Weak forward-looking statement. The clozapine analogy implies the FDA may demand a similar bar for MDMA-AT, but the author does not say so directly."
+    }
+  ]
+}

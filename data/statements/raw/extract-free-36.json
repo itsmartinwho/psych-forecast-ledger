@@ -1,0 +1,409 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-36.md",
+  "posts": [
+    {
+      "slug": "owen-muir-centric-updates",
+      "read": true,
+      "statements_found": 6,
+      "note": "Roles/updates post. Normative lines ('employer groups need to get serious about compliance', 'treatments need to be better') not logged."
+    },
+    {
+      "slug": "we-made-inpatient-psychiatric-treatment",
+      "read": true,
+      "statements_found": 7,
+      "note": "Hospital payment models and the NTAP add-on for SAINT. Two footnote items logged (DRG back-solving; 2025 Nobel joke with sincere=false)."
+    },
+    {
+      "slug": "the-carlat-report-wounded-healer",
+      "read": true,
+      "statements_found": 0,
+      "note": "Review of the Carlat Report 'Wounded Healers' podcast series; no forward-looking claims."
+    },
+    {
+      "slug": "psychiatrically-hospitalized-in-silicon",
+      "read": true,
+      "statements_found": 1,
+      "note": "Guest post by David Carreon, M.D. (CEO, Acacia Clinics); the one statement is his (own_claim=false). Fictional cost scenario ('Sarah') not logged."
+    },
+    {
+      "slug": "trouble-sleeping-is-driving-obesity",
+      "read": true,
+      "statements_found": 0,
+      "note": "Antihistamines, sleep and obesity. General clinical claims ('too little sleep will kill you') read as truisms, not forecasts."
+    },
+    {
+      "slug": "i-feel-like-a-loser-right-after-winning",
+      "read": true,
+      "statements_found": 0,
+      "note": "Essay on narcissism. General claims about founders ('will be correct' some of the time) are truisms; nothing dated or specific."
+    },
+    {
+      "slug": "mdma-now-everyone-is-interested-in",
+      "read": true,
+      "statements_found": 1,
+      "note": "Explainer on FDA phases and labels using a fictional 'water' drug; only the own-newsletter readership call logged."
+    },
+    {
+      "slug": "i-have-a-cold",
+      "read": true,
+      "statements_found": 0,
+      "note": "Personal essay on colds and the contagion of ideas; same-day personal plans ('everything by Zoom') not logged."
+    },
+    {
+      "slug": "can-mdma-at-be-saved-part-i",
+      "read": true,
+      "statements_found": 5,
+      "note": "Part I on the FDA advisory committee votes against MDMA-AT. 'The delay in the approval of MDMA harms me personally' presupposes delay but is not a call; not logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "owen-muir-centric-updates",
+      "quote": "I'm thrilled to announce that I'll be attending the thinc360 conference in Washington, DC, next week, as my team at Acacia Clinics is in the running for the best mental health value award!",
+      "context": "Opening 'updates' post (2024-05-23) listing the author's roles. He announces he will attend the thinc360 conference in Washington, DC the following week because his team at Acacia Clinics (where he is SVP Strategy) is a finalist for the best mental health value award.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "next week",
+      "confidence_phrase": "I'll be",
+      "entities": [
+        "thinc360",
+        "Acacia Clinics"
+      ],
+      "note": "Personal attendance plan plus a pending award for the author's own organization (Acacia Clinics); low-stakes, own-org item."
+    },
+    {
+      "post_slug": "owen-muir-centric-updates",
+      "quote": "I see a future that has less suffering, more effective treatments, more rapidly deployed, faster acting, safer, with less inpatient psychiatric hospitalization and dramatically less restraint and seclusion",
+      "context": "Closing section of the 'updates' post on why the author works so many gigs. He describes the future he sees: less suffering, more effective and faster-acting treatments deployed more rapidly, less inpatient psychiatric hospitalization, and dramatically less restraint and seclusion.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "I see a future",
+      "entities": [],
+      "note": "Vision statement; the next sentences ('I want to see people get well') frame it as an agenda or wish more than a prediction. Logged for recall."
+    },
+    {
+      "post_slug": "owen-muir-centric-updates",
+      "quote": "I think technology can get us there when compassion and sense are augmented.",
+      "context": "Same closing section of the 'updates' post. After stating his aim of less death and desperation and more hope, the author says technology can get us to that better world when compassion and sense are augmented.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I think ... can",
+      "entities": [],
+      "note": "Vague, hedged belief that technology will deliver a better mental health future; no specific event or horizon."
+    },
+    {
+      "post_slug": "owen-muir-centric-updates",
+      "quote": "I imagine we're going to have lawsuits for mental health parity violations",
+      "context": "Discussion of the Consolidated Appropriations Act of 2021 and the ERISA fiduciary duty of employers. The author notes that several lawsuits by employees against employer groups already exist, as he argued they would, and then predicts lawsuits for mental health parity violations, which he says is also part of the law thanks to the (Affordable) Care Act.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "I imagine we're going to",
+      "entities": [
+        "Consolidated Appropriations Act of 2021",
+        "ERISA",
+        "Accountable Care Act"
+      ],
+      "note": "Author frames this as continuing an earlier call that predicted the current ERISA fiduciary lawsuits ('arguments I've made long before those lawsuits were filed')."
+    },
+    {
+      "post_slug": "owen-muir-centric-updates",
+      "quote": "I don't see any way towards parity of better treatments. There just aren't enough treaters to keep up with the demand for (albeit ineffective) treatment.",
+      "context": "Same passage on parity and employer fiduciary duty. The author says he sees no path to parity of better treatments because there are not enough treaters to meet the demand even for the current (in his view ineffective) treatment, so the underlying assumptions of what is possible must change.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "I don't see any way",
+      "entities": [],
+      "note": "Negative call about access to better treatments under parity; the reason given (treater shortage) is present-tense analysis."
+    },
+    {
+      "post_slug": "owen-muir-centric-updates",
+      "quote": "Magnus Medical is a commercial-stage medical device company that is bringing SAINT neuromodulation to the market.",
+      "context": "List of the author's consulting clients in the 'updates' post. Magnus Medical, one of them, is described as a commercial-stage medical device company that is bringing SAINT neuromodulation to the market.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Magnus Medical",
+        "SAINT"
+      ],
+      "note": "Descriptive company blurb rather than an explicit forecast; logged as borderline. Author is a paid consultant to Magnus Medical."
+    },
+    {
+      "post_slug": "we-made-inpatient-psychiatric-treatment",
+      "quote": "it's really hard to imagine you're gonna adopt some novel treatment that will reduce the number of paid days in your hospital.",
+      "context": "Post on hospital payment models (DRG vs per diem vs IPF PPS) and the 2024 CMS New Technology Add-On Payment for SAINT. The author argues that under per diem contracting, which pays psychiatric hospitals by the day, a hospital is unlikely to adopt a novel treatment such as SAINT that would reduce the number of paid days.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "it's really hard to imagine you're gonna",
+      "entities": [
+        "SAINT"
+      ],
+      "note": "Conditional on per-diem contracting; an incentive argument rather than a dated call."
+    },
+    {
+      "post_slug": "we-made-inpatient-psychiatric-treatment",
+      "quote": "However, if your setting is paid a bundled amount, like every other hospital, stay because your hospital uses the IPF PPS contracting system, and there is an add-on payment to account for the cost of treatment like SAINT —the New Technology Add-on Payment system (NTAP) under medicare—it makes all the financial sense in the world to do the new thing. You get paid more. You probably get the patient out the door faster. That's better for them, and it's better for your hospital financially.",
+      "context": "Same post. The author argues that where a psychiatric hospital is paid a bundled amount under IPF PPS and Medicare adds a New Technology Add-on Payment (NTAP) covering a treatment like SAINT, adopting the new treatment pays more, probably discharges the patient faster, and benefits both the patient and the hospital financially.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "probably",
+      "entities": [
+        "SAINT",
+        "NTAP",
+        "Medicare",
+        "IPF PPS"
+      ],
+      "note": "Compound conditional claim: more pay plus probable faster discharge for hospitals under IPF PPS with the NTAP add-on."
+    },
+    {
+      "post_slug": "we-made-inpatient-psychiatric-treatment",
+      "quote": "That is beginning to change— MUSC, for example, has one of its hospital's first comercial Magnus Medical SAINT systems.",
+      "context": "Same post. The author says rapid-acting treatments like SAINT are easier to access at outpatient clinics (Fermata in New York, Acacia Clinics in California) than in most hospitals, but that this is beginning to change, citing MUSC having one of the first commercial Magnus Medical SAINT systems in a hospital.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "is beginning to change",
+      "entities": [
+        "MUSC",
+        "Magnus Medical",
+        "SAINT",
+        "Fermata",
+        "Acacia Clinics"
+      ],
+      "note": "Trend call on inpatient hospital adoption of SAINT; the author has ties to Fermata, Acacia Clinics and Magnus Medical."
+    },
+    {
+      "post_slug": "we-made-inpatient-psychiatric-treatment",
+      "quote": "Psychedelic medicines are likely going to need to follow a similar path to payment in the hospital setting.",
+      "context": "Same post, after arguing that the NTAP add-on payment finally gives psychiatric hospitals a financial route to adopt SAINT. The author states that psychedelic medicines will likely need to follow a similar payment path (add-on payments under bundled hospital payment) to be used in the hospital setting.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "likely going to need to",
+      "entities": [
+        "Medicare",
+        "NTAP"
+      ],
+      "note": "Hedged call on future payment mechanics for psychedelic medicines in hospitals."
+    },
+    {
+      "post_slug": "we-made-inpatient-psychiatric-treatment",
+      "quote": "Here are the CPT codes to inquire about—they go into effect on July 1st!",
+      "context": "Same post, call to action. The author urges readers to ask in writing whether their plan covers fMRI-guided accelerated neuromodulation and points to the new Category III CPT codes, which he says go into effect on July 1st (2024).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "on July 1st",
+      "confidence_phrase": "none",
+      "entities": [
+        "Category III CPT codes",
+        "SAINT"
+      ],
+      "note": "Dated scheduled event stated as fact: new Category III CPT codes for accelerated neuromodulation effective July 1, 2024."
+    },
+    {
+      "post_slug": "we-made-inpatient-psychiatric-treatment",
+      "quote": "any decent machine learning engineer can back-solve DRG multipliers based on claims data. So, good luck keeping that Private and proprietary.",
+      "context": "Footnote 2 of the hospital payment post, about the DRG multipliers that third-party payers treat as proprietary. The author says any decent machine learning engineer can back-solve them from claims data, so payers will not manage to keep them private.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "can ... good luck",
+      "entities": [
+        "DRG"
+      ],
+      "note": "Sarcastic framing ('good luck') but sincere; implies proprietary DRG multipliers will not stay secret. No horizon."
+    },
+    {
+      "post_slug": "we-made-inpatient-psychiatric-treatment",
+      "quote": "When do I not suggest Dr. Williams receive the 2025 Nobel prize in medicine?",
+      "context": "Footnote 3 of the hospital payment post. In the body the author jokes about his 'emotional conflict of interest' and asks whether he will suggest Nolan Ryan Williams, M.D. (developer of SAINT) receive a Nobel prize; the footnote asks when he does not suggest Dr. Williams receive the 2025 Nobel prize in medicine.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "2025",
+      "confidence_phrase": "none",
+      "entities": [
+        "Nolan Ryan Williams, M.D.",
+        "Nobel prize in medicine"
+      ],
+      "note": "Rhetorical question and running joke; a wish rather than a prediction. Logged only because it names a dated event (2025 Nobel prize in medicine)."
+    },
+    {
+      "post_slug": "psychiatrically-hospitalized-in-silicon",
+      "quote": "This is the way of the future.",
+      "context": "Guest post by David Carreon, M.D., CEO of Acacia Clinics, introduced by the author. After a cost walk-through of a fictional patient's coerced hospitalization and PHP/IOP aftercare, Carreon describes a real patient with four hospitalizations in four months who remitted after accelerated, neuro-navigated TMS and stopped going to the hospital, and declares this the way of the future.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "is the way of the future",
+      "entities": [
+        "Acacia Clinics",
+        "Magnus Medical",
+        "SAINT",
+        "David Carreon"
+      ],
+      "note": "Guest author's claim; the newsletter author (SVP Strategy at Acacia) introduces and thanks him without explicit endorsement. Refers to accelerated TMS replacing hospitalization."
+    },
+    {
+      "post_slug": "mdma-now-everyone-is-interested-in",
+      "quote": "I’m so excited that the FDA approval process is now cool, and I’m sure I’m going to get a ton more readers thanks to this turn of events!",
+      "context": "Explainer on the FDA drug approval process, written as MDMA-AT (Lykos) reaches the FDA and mainstream outlets (CBS, STAT, ABC7, NY Times) cover it. The author closes by saying he is sure he is going to gain many more readers because the FDA approval process is now cool.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I'm sure I'm going to",
+      "entities": [
+        "FDA",
+        "MDMA-AT",
+        "Lykos",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter readership growth call; light-hearted but reads as a real expectation."
+    },
+    {
+      "post_slug": "can-mdma-at-be-saved-part-i",
+      "quote": "I believe MDMA, Ibogaine, Psilocybin, and other psychedelic compounds will eventually deliver us from the purgatory of crappy treatments for PTSD.",
+      "context": "Part I of a series on the FDA advisory committee meeting of 2024-06-04, where the committee voted against MDMA-AT (Lykos Therapeutics) for PTSD. The author, who says he has PTSD himself and no stake in this modality winning, states his belief that MDMA, ibogaine, psilocybin and other psychedelic compounds will eventually deliver better treatments for PTSD than the current standard of care.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "eventually",
+      "confidence_phrase": "I believe ... will eventually",
+      "entities": [
+        "MDMA",
+        "Ibogaine",
+        "Psilocybin",
+        "Lykos Therapeutics",
+        "FDA"
+      ],
+      "note": "Long-horizon call hedged only by 'eventually'; covers a class of compounds, not one product or one regulatory decision."
+    },
+    {
+      "post_slug": "can-mdma-at-be-saved-part-i",
+      "quote": "Of course, there were some other extraordinary “non-standard” events in this trial of a non-standard drug, which we will discuss tomorrow. And don’t worry, by the end of this series I will lay out a path forward following this traumatic hearing.",
+      "context": "Closing of Part I of the MDMA-AT series. The author says he will discuss other non-standard events in the Lykos trial in the next day's post and will lay out a path forward for MDMA-AT by the end of the series.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "tomorrow; by the end of this series",
+      "confidence_phrase": "will",
+      "entities": [
+        "Lykos Therapeutics",
+        "MDMA-AT",
+        "FDA",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Compound content plan for the author's own newsletter series (next-day post; a path forward by series end)."
+    },
+    {
+      "post_slug": "can-mdma-at-be-saved-part-i",
+      "quote": "This is not a serious therapy manual, nor a serious therapy adherence manual, and the FDA doesn't regulate therapy. It will not be particularly attuned to that issue, but I'm here to tell you— it's a fact.",
+      "context": "Part I of the MDMA-AT series, after comparing the Lykos MDMA-AT therapy manual and adherence manual unfavorably with the validated MBT adherence scale. The author says the FDA does not regulate therapy and will not be particularly attuned to the weakness of the therapy manual, though he insists the weakness is a fact.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "will not be",
+      "entities": [
+        "FDA",
+        "Lykos Therapeutics",
+        "MDMA-AT"
+      ],
+      "note": "Borderline: a prediction about the FDA's attention during its MDMA-AT review, close to a description of the agency's remit."
+    },
+    {
+      "post_slug": "can-mdma-at-be-saved-part-i",
+      "quote": "I think it would be a great therapy manual for combination with a compound like MDMA, in that it would meaningfully address the issues with borderline personality disorder that were coming up in the trial, as well as having a structure to address trauma.",
+      "context": "Part I of the MDMA-AT series. The author introduces mentalization-based treatment (MBT), whose adherence manual he knows well, and says it would be a great therapy to combine with a compound like MDMA because it would address the borderline personality disorder issues seen in the Lykos trial and has a structure for trauma.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "I think it would",
+      "entities": [
+        "MDMA",
+        "Lykos Therapeutics",
+        "MBT"
+      ],
+      "note": "Hypothetical proposal (what a future trial design could use), not a call on an event; forward-looking only as a conditional."
+    },
+    {
+      "post_slug": "can-mdma-at-be-saved-part-i",
+      "quote": "Just because the FDA accepts your New Drug Application for review does not mean they think it's a good idea, nor are they likely to approve it.",
+      "context": "Part I of the MDMA-AT series, 'Submitted data' section, discussing Breakthrough Status and the FDA's acceptance of the Lykos New Drug Application. The author states as a general point that FDA acceptance of an NDA for review does not mean the agency thinks it is a good idea, nor that it is likely to approve it.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "nor are they likely to",
+      "entities": [
+        "FDA",
+        "Lykos Therapeutics",
+        "MDMA-AT"
+      ],
+      "note": "General statement about the FDA process; in context it hints at doubt about MDMA-AT approval but is not an explicit call on it."
+    }
+  ]
+}

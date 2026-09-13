@@ -1,0 +1,796 @@
+{
+ "packet": "code-52.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-2364",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "The clinics that become the outpatient distribution centers become the “distribution channel” for these medicines",
+   "context": "Summary: clinics will be the distribution channel for psychedelic medicines; the sentence continues with the normative point that dispensing must be economically viable for individual clinics and large operators alike.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Compound sentence; the normative second half is not logged."
+  },
+  {
+   "id": "owen-2365",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "the current “psychedelic therapy” category III codes only allow for up to 6 hours of total monitoring, which may not be enough for the programs you’re considering for some of these compounds.",
+   "context": "Section A: existing CPT category III psychedelic therapy codes cap monitoring at 6 hours, which the author expects may be insufficient for the REMS programs FDA is considering for some compounds.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "may not be enough",
+   "entities": [
+    "FDA",
+    "CPT category III codes"
+   ],
+   "finder_note": "Hedged call."
+  },
+  {
+   "id": "owen-2366",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "The REMS program will drive the reimbursement infrastructure. ... The current reimbursement infrastructure used by ketamine is a workaround that didn't involve creating a robust new code set, which will almost certainly need to be the case to encompass all the psychedelic treatments that are coming.",
+   "context": "Section A: the FDA REMS design for each psychedelic will determine how the reimbursement infrastructure is built.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will drive",
+   "entities": [
+    "FDA",
+    "REMS"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-2367",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "The current reimbursement infrastructure used by ketamine is a workaround that didn’t involve creating a robust new code set, which will almost certainly need to be the case to encompass all the psychedelic treatments that are coming.",
+   "context": "Section A: a new billing code set will almost certainly be needed for the coming psychedelic treatments; ketamine's existing-code workaround will not scale.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will almost certainly",
+   "entities": [
+    "ketamine",
+    "CMS"
+   ],
+   "finder_note": "Also asserts that psychedelic treatments 'are coming'."
+  },
+  {
+   "id": "owen-2368",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Nearly every psychedelic in late-stage development (psilocybin, MDMA, LSD, ibogaine, methylone and more ) all will need complexity based billing and longer monitoring–thanks to the longer acting effects compared to ketamine and esketamine– more similar to surgical procedures than current psychiatric practice.",
+   "context": "Section 2 (billing time limit of about two hours): late-stage psychedelics will need complexity-based billing and longer monitoring than ketamine and esketamine, more like surgical procedures.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will need",
+   "entities": [
+    "psilocybin",
+    "MDMA",
+    "LSD",
+    "ibogaine",
+    "methylone",
+    "ketamine",
+    "esketamine"
+   ],
+   "finder_note": "Restates the longer-monitoring call from cut-the-doctors-in-on-psychedelics."
+  },
+  {
+   "id": "owen-2369",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "It would be commercially and clinically disastrous for patients to have approved medicines that had no plausible means of reimbursement in the clinic itself",
+   "context": "Section 2: warning about the consequence if psychedelics are approved without a clinic reimbursement pathway.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "would be",
+   "entities": [],
+   "finder_note": "Conditional warning; borderline."
+  },
+  {
+   "id": "owen-2370",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Waiting for post-approval rate negotiation, payer by payer and code by code, is itself an access barrier measured in years.",
+   "context": "Recommendation 3: payment pathways should be set concurrent with approval; if rate negotiation waits until after approval, access is delayed by years.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "years",
+   "confidence_phrase": "none",
+   "entities": [
+    "CMS",
+    "FDA"
+   ],
+   "finder_note": "Conditional consequence claim inside a recommendation."
+  },
+  {
+   "id": "owen-2371",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "It would also be acceptable to use the current category III codes for therapy and a G/J Code to account for the “buy-and-bill” activity ONLY, that is likely to be necessary.",
+   "context": "Recommendation 3: the author expects buy-and-bill (the clinic purchases and dispenses the drug) will likely be necessary for psychedelics.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is likely to be necessary",
+   "entities": [
+    "CMS"
+   ],
+   "finder_note": "Hedged forecast embedded in a recommendation."
+  },
+  {
+   "id": "owen-2372",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "as well as the capital necessary to acquire what are likely to be expensive drugs.",
+   "context": "Recommendation 4: psychedelic drugs are expected to be expensive, so clinics will need capital to acquire them.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "are likely to be",
+   "entities": [],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-2373",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "These rates need to take into account the fact that these drugs are likely to rise in price, and a drug price multiplier may need to be included in the calculation.",
+   "context": "Recommendation 4: psychedelic drug prices are expected to rise over time, so reimbursement rates may need a drug price multiplier.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "are likely to rise",
+   "entities": [],
+   "finder_note": "Normative frame with an embedded price forecast."
+  },
+  {
+   "id": "owen-2374",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Coverage decisions will require economic data on the cost utility of these compounds",
+   "context": "Section 5: payers will require cost-utility data before covering psychedelics, in keeping with the TCET program and the not-yet-passed Breakthrough Treatments Act.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will require",
+   "entities": [
+    "TCET",
+    "Breakthrough Treatments Act",
+    "CMS"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-2375",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "that would undercut financial support for these new treatments in the minds of financial markets, thus limiting future innovation.",
+   "context": "Section 6: if psychedelics repeat esketamine's years-long ramp to commercial viability, financial markets would withdraw support and future innovation would be limited.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [
+    "esketamine"
+   ],
+   "finder_note": "Conditional call built on the esketamine analogy."
+  },
+  {
+   "id": "owen-2376",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "What is acceptable according to Medicare is likely to be followed by other payors",
+   "context": "Section 6: private payers will likely follow Medicare's standards on prescriber type, training and certification for psychedelic treatments.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is likely to be followed",
+   "entities": [
+    "Medicare"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-2377",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "it may be teams of Psychiatrist and other health professionals, including other physician, practice types that may be involved in the dispensing of these medications.",
+   "context": "Section 6: the author expects psychedelic dispensing may involve teams of psychiatrists and other health professionals rather than psychiatrists alone.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "may be ... may be involved",
+   "entities": [],
+   "finder_note": "Hedged; embedded in a normative sentence about prescriber definitions."
+  },
+  {
+   "id": "owen-2378",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "A second out capable clinic will require dedicated treatment, per-patient rooms occupied for most of our working dayt, with monitoring personnel, secure, drug storage, compliant with rims and DEA requirements, audiovisual, and IT infrastructure for audit monitoring will also be required.",
+   "context": "Section C: forecast of what a psychedelic-capable clinic will require: per-patient rooms occupied most of the day, monitoring staff, secure drug storage compliant with REMS and DEA rules, audiovisual and IT infrastructure for audits. Source text contains typos ('dayt', 'rims').",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will require",
+   "entities": [
+    "DEA",
+    "REMS"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-2379",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "If reimbursement does not count for them, the only entities able to observe the losses will be large, vertically, integrated organizations, the same organizations that have come under significant criticism recently.",
+   "context": "Section C: conditional: if reimbursement ignores clinic capital and operating costs, only large vertically integrated organizations will be able to absorb the losses.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will be",
+   "entities": [],
+   "finder_note": "Conditional call."
+  },
+  {
+   "id": "owen-2380",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Given set and setting are likely to be crucial factors of the deployment of these treatments",
+   "context": "Section C: the author expects set and setting to be crucial in the deployment of psychedelic treatments.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are likely to be",
+   "entities": [],
+   "finder_note": "Hedged and hard to resolve; borderline."
+  },
+  {
+   "id": "owen-2381",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Independently owned, and physician lead practices are a bulwark against further inadvisable market consolidation, which these medications, rolled out without concern for the underlying economics, could make more common place.",
+   "context": "Section C: psychedelic medications rolled out without regard to clinic economics could accelerate market consolidation.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [],
+   "finder_note": "Conditional call."
+  },
+  {
+   "id": "owen-2382",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Payment model should be tested against a simple question: can an independent practice deliver these treatments at the rates set for by payers without losing money? If the answer is no, access will narrow, regardless of how many products the FDA approves.",
+   "context": "Section C: if independent practices cannot deliver psychedelic treatments at payer rates without losing money, patient access will narrow despite FDA approvals.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will narrow",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Conditional call."
+  },
+  {
+   "id": "owen-2383",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Blanket in-person requirements across all phases of care would function as a geographic access restriction without a corresponding safety benefit.",
+   "context": "Section D (telehealth): if FDA requires in-person care for screening, preparation and follow-up as well as administration, it would restrict geographic access without a safety benefit.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "would function",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Conditional call."
+  },
+  {
+   "id": "owen-2384",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "For the first time in psychiatry, a class of medicines cannot reach patients without clinicians and clinical infrastructure in the loop.",
+   "context": "Conclusion: psychedelic medicines will require clinicians and clinical infrastructure to reach patients.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Restatement of the leverage claim from cut-the-doctors-in-on-psychedelics."
+  },
+  {
+   "id": "owen-2385",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "That is an opportunity to build a delivery and payment system better aligned with patient outcomes than the rebate-driven pharmacy-benefit model it will not use anyway.",
+   "context": "Conclusion: psychedelic therapies will not use the rebate-driven pharmacy-benefit model.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will not",
+   "entities": [],
+   "finder_note": "Restates the no-retail-pharmacy call."
+  },
+  {
+   "id": "owen-2386",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "they are the questions that will determine whether approved psychedelic therapies reach the patients the clinical trials were run for.",
+   "context": "Conclusion: reimbursement architecture, session-length billing ceilings and clinic-level economics will determine whether approved psychedelic therapies reach patients.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will determine",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-2387",
+   "forecaster": "owen",
+   "statement_date": "2026-08-28",
+   "quote": "Our next live event is in September—on the 14th. 5pm in New Orleans.",
+   "context": "RAMHT's next live event: September 14th, 5pm, New Orleans (BK Historic House and Gardens).",
+   "post_title": "Remission of Depression in One Day on Soft White Underbelly ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/remission-of-depression-in-one-day",
+   "area_guess": "other",
+   "horizon_text": "in September—on the 14th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Own-organization event announcement."
+  },
+  {
+   "id": "owen-2388",
+   "forecaster": "owen",
+   "statement_date": "2026-08-29",
+   "quote": "You were a big hit, so I’m sure you’d be welcome back.",
+   "context": "Owen (interviewer) to Nogga Schwartz, Radial technician, about Nogga's solo interview on Mark Laita's Soft White Underbelly YouTube channel. Owen predicts Nogga would be invited back to the channel.",
+   "post_title": "Behind the Scenes at Soft White Underbelly: A Conversation with Radial’s Nogga Schwartz",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/behind-the-scenes-at-soft-white-underbelly",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I’m sure",
+   "entities": [
+    "Nogga Schwartz",
+    "Soft White Underbelly",
+    "Mark Laita",
+    "Radial"
+   ],
+   "finder_note": "Social prediction about a return invitation; low forecast value."
+  },
+  {
+   "id": "owen-2390",
+   "forecaster": "owen",
+   "statement_date": "2026-09-01",
+   "quote": "RAMHT New Orleans is coming up on September 14th.",
+   "context": "Announcement of the RAMHT (author's own event series) New Orleans event at the Historic BK House & Gardens, 5-9pm, with free Eventbrite tickets; sponsors listed include Neurolief and Radial. Post dated 2026-09-01.",
+   "post_title": "Owen Muir Joins the DTRA Download Podcast ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-joins-the-dtra-download",
+   "area_guess": "other",
+   "horizon_text": "September 14th",
+   "confidence_phrase": "is coming up",
+   "entities": [
+    "RAMHT",
+    "Eventbrite",
+    "Neurolief",
+    "Radial"
+   ],
+   "finder_note": "Own-event announcement; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-2391",
+   "forecaster": "owen",
+   "statement_date": "2026-09-01",
+   "quote": "We’ll be sharing more details on speakers, rapid-fire talks and panel discussions on the RAMHT website and LinkedIn page",
+   "context": "RAMHT New Orleans (September 14th) event announcement; the author promises upcoming details on speakers, rapid-fire talks and panel discussions via the RAMHT website and LinkedIn page.",
+   "post_title": "Owen Muir Joins the DTRA Download Podcast ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-joins-the-dtra-download",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "We’ll be",
+   "entities": [
+    "RAMHT",
+    "LinkedIn"
+   ],
+   "finder_note": "Own-activity content promise; CONTROL candidate."
+  },
+  {
+   "id": "owen-2392",
+   "forecaster": "owen",
+   "statement_date": "2026-09-01",
+   "quote": "Also, we will have special guests. And surprises.",
+   "context": "RAMHT New Orleans event (September 14th) promotion; the author says the event will have special guests and surprises.",
+   "post_title": "Owen Muir Joins the DTRA Download Podcast ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-joins-the-dtra-download",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "we will have",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Own-event detail; CONTROL candidate. Event date September 14th given earlier in the post."
+  },
+  {
+   "id": "owen-2393",
+   "forecaster": "owen",
+   "statement_date": "2026-09-01",
+   "quote": "And maybe….just maybe… embarrassing merch, for me, personally.",
+   "context": "RAMHT New Orleans event (September 14th) promotion; the author hedges that the event may include merchandise embarrassing to him personally.",
+   "post_title": "Owen Muir Joins the DTRA Download Podcast ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-joins-the-dtra-download",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "maybe….just maybe…",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Playful tease but reads as a real hedge; low forecast value; CONTROL candidate."
+  },
+  {
+   "id": "owen-2394",
+   "forecaster": "owen",
+   "statement_date": "2026-09-03",
+   "quote": "the promise of accelerated transcranial magnetic stimulation, particularly the SNT approach, in bipolar depression. It does look like that's likely to work—but somebody has to do a large enough trial, submitted to the FDA, to change the label",
+   "context": "Author's own call that accelerated TMS, specifically the SNT (Stanford Neuromodulation Therapy, SAINT) approach, is likely to prove effective for bipolar depression. Set up by a review of the short list of FDA-labeled options for acute bipolar depression (all atypical antipsychotics) and the me-too drug problem.",
+   "post_title": "Something “New” Is Proven Useful In Bipolar Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/something-new-is-proven-useful-in",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "likely to work",
+   "entities": [
+    "SNT",
+    "accelerated TMS",
+    "FDA"
+   ],
+   "finder_note": "Restatement of an earlier call the author references ('I've previously written'). Efficacy claim; the label-change pathway is logged separately."
+  },
+  {
+   "id": "owen-2395",
+   "forecaster": "owen",
+   "statement_date": "2026-09-03",
+   "quote": "somebody has to do a large enough trial, submitted to the FDA, to change the label, and that just starts the conversation with payers about coverage.",
+   "context": "Continuation of the SNT-in-bipolar-depression point: the author says an FDA label change for accelerated TMS in bipolar depression requires a sufficiently large trial submitted to the FDA, and that a label change only begins the payer coverage conversation, so coverage will lag any label.",
+   "post_title": "Something “New” Is Proven Useful In Bipolar Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/something-new-is-proven-useful-in",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "has to",
+   "entities": [
+    "FDA",
+    "SNT",
+    "accelerated TMS",
+    "payers"
+   ],
+   "finder_note": "Conditional pathway claim; 'has to' reads as necessity (no label without a large trial), not advice. Compound: label change plus payer coverage lag."
+  },
+  {
+   "id": "owen-2396",
+   "forecaster": "owen",
+   "statement_date": "2026-09-03",
+   "quote": "Today we have more data, that's hopeful, but unlikely to lead to meaningful coverage, because the academic researchers chose to study something. I bring you: IV ketamine. For bipolar depression.",
+   "context": "The KET-BD randomized trial (IV ketamine vs midazolam, 3 Ontario sites, July 2022 to November 2025) showed a significant MADRS benefit in treatment-resistant bipolar depression; the author forecasts this academic data is unlikely to lead to meaningful payer coverage of IV ketamine for bipolar depression.",
+   "post_title": "Something “New” Is Proven Useful In Bipolar Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/something-new-is-proven-useful-in",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "IV ketamine",
+    "KET-BD",
+    "payers"
+   ],
+   "finder_note": "Negative call on coverage; reasoning given is that an investigator-led study of a generic drug does not move payers."
+  },
+  {
+   "id": "owen-2397",
+   "forecaster": "owen",
+   "statement_date": "2026-09-03",
+   "quote": "Bipolar depression is more of an unmeetable need, at least in Pharma and med device—because between two pitches, the founder who promises to go after a market 5x bigger wins, all things being equal.",
+   "context": "Structural market claim: because the unipolar depression market is about 5x the bipolar market (author cites a $1.7b bipolar estimate), founders will pitch new treatments as MDD products and bipolar depression will stay underserved by pharma and med-device development. Related sentence: 'You're going to say it works for major depressive disorder a.k.a. unipolar depression, instead of bipolar depression.'",
+   "post_title": "Something “New” Is Proven Useful In Bipolar Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/something-new-is-proven-useful-in",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "wins, all things being equal",
+   "entities": [
+    "Pharma",
+    "med device"
+   ],
+   "finder_note": "Ongoing structural claim rather than a dated event; implies continued lack of bipolar-depression-specific development. Borderline."
+  },
+  {
+   "id": "owen-2398",
+   "forecaster": "owen",
+   "statement_date": "2026-09-03",
+   "quote": "This will be less true financially than it will be emotionally, but I'm OK with that.",
+   "context": "Closing pitch to investors: the author says he will tell anyone deciding which company to fund that a company aiming to make a big dent in bipolar disorder is a good idea, then concedes the case is weaker financially than emotionally, i.e., he expects the financial return to be less compelling than the emotional one.",
+   "post_title": "Something “New” Is Proven Useful In Bipolar Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/something-new-is-proven-useful-in",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will be",
+   "entities": [],
+   "finder_note": "Soft forecast about returns on bipolar-focused investment; borderline."
+  },
+  {
+   "id": "owen-2399",
+   "forecaster": "owen",
+   "statement_date": "2026-09-04",
+   "quote": "We were just on the phone yesterday talking about how, to your point, we’ll be questioning why we ever did this with SSRIs. We studied them for six weeks and then prescribed them for 20 years.",
+   "context": "Owen (author), disclosing that he advises Mark Horowitz's company Outro Health and spoke with co-founder Brandon the day before, endorses Randy Pardell's forecast that the field will look back on long-term SSRI prescribing as a mistake.",
+   "post_title": "Dr. Randy Pardell Paves the Way For Accessible TMS",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-randy-pardell-paves-the-way-for",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "we’ll be",
+   "entities": [
+    "SSRIs",
+    "Outro Health",
+    "Mark Horowitz",
+    "Brandon"
+   ],
+   "finder_note": "Author's endorsed restatement of Randy Pardell's forecast (Pardell's version logged separately with own_claim false)."
+  },
+  {
+   "id": "owen-2400",
+   "forecaster": "owen",
+   "statement_date": "2026-09-04",
+   "quote": "help them catch up with what you've described as a tidal wave of change over many years, all in the direction of more TMS, not less? Every time TMS has been evaluated, eventually it's determined that this is a great option and more people should have access to it.",
+   "context": "Owen's question to Randy Pardell about advice for payers; he characterizes payer and regulator evaluations of TMS as a 'tidal wave of change over many years, all in the direction of more TMS, not less', a universal pattern that implies future TMS evaluations will also end favorably.",
+   "post_title": "Dr. Randy Pardell Paves the Way For Accessible TMS",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-randy-pardell-paves-the-way-for",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "Every time",
+   "entities": [
+    "TMS"
+   ],
+   "finder_note": "Generalization from a past pattern; the forward-looking reading is implicit. Borderline."
+  },
+  {
+   "id": "owen-2401",
+   "forecaster": "owen",
+   "statement_date": "2026-09-04",
+   "quote": "a donation to the Foundation for the Advancement of Clinical TMS means more people get access to TMS treatment at a lower cost to them, and there’ll be more research supporting the next person who needs it",
+   "context": "Owen's closing call to action after the interview: donations to FACTMS (the foundation Randy Pardell heads and Carlene MacMillan sits on the board of) will translate into more patient access to TMS at lower cost and more research funding.",
+   "post_title": "Dr. Randy Pardell Paves the Way For Accessible TMS",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-randy-pardell-paves-the-way-for",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "there’ll be",
+   "entities": [
+    "Foundation for the Advancement of Clinical TMS",
+    "FACTMS",
+    "TMS",
+    "Carlene MacMillan"
+   ],
+   "finder_note": "Conditional on donations; fundraising call to action; low forecast value."
+  },
+  {
+   "id": "owen-2409",
+   "forecaster": "owen",
+   "statement_date": "2026-09-07",
+   "quote": "I have a multi-part article on the Lindsay Clancy case coming up soon.",
+   "context": "Author's newsletter plans: a multi-part article on the Lindsay Clancy case is forthcoming in The Frontier Psychiatrists.",
+   "post_title": "I'm Surprised at How Well this Interview Went.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-surprised-at-how-well-this-interview",
+   "area_guess": "other",
+   "horizon_text": "soon",
+   "confidence_phrase": "coming up soon",
+   "entities": [
+    "Lindsay Clancy",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; CONTROL candidate."
+  },
+  {
+   "id": "owen-2410",
+   "forecaster": "owen",
+   "statement_date": "2026-09-07",
+   "quote": "We also have exciting coverage regarding RAMHT New Orleans on September 14th.",
+   "context": "Author promises newsletter coverage of the RAMHT New Orleans event on September 14th (author's own event series).",
+   "post_title": "I'm Surprised at How Well this Interview Went.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-surprised-at-how-well-this-interview",
+   "area_guess": "other",
+   "horizon_text": "September 14th",
+   "confidence_phrase": "We also have",
+   "entities": [
+    "RAMHT",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-event and newsletter promise; CONTROL candidate."
+  },
+  {
+   "id": "owen-2411",
+   "forecaster": "owen",
+   "statement_date": "2026-09-07",
+   "quote": "There is a psychedelic open comment period that same day!",
+   "context": "Author notes that a psychedelic-related regulatory open comment period falls on September 14th, the same day as RAMHT New Orleans; the agency and docket are not named.",
+   "post_title": "I'm Surprised at How Well this Interview Went.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-surprised-at-how-well-this-interview",
+   "area_guess": "regulatory",
+   "horizon_text": "that same day",
+   "confidence_phrase": "There is",
+   "entities": [],
+   "finder_note": "Regulatory calendar item; agency not named; 'that same day' refers to September 14th. Low forecast value."
+  }
+ ]
+}

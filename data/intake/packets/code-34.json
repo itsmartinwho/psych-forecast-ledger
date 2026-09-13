@@ -1,0 +1,824 @@
+{
+ "packet": "code-34.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1519",
+   "forecaster": "owen",
+   "statement_date": "2025-01-15",
+   "quote": "For me, in 2023, the above still holds. We need more evidence and novel treatments, and as you can see above, they're coming",
+   "context": "After quoting a 2013 review on alpha agonists (clonidine, guanfacine) that ends 'a long-acting form of clonidine ... is in the process of being developed for use in ADHD', the author endorses it and says novel ADHD treatments and more evidence are coming.",
+   "post_title": "What is \"Adult ADHD\"?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-is-adult-adhd",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in 2023",
+   "confidence_phrase": "they're coming",
+   "entities": [
+    "clonidine",
+    "guanfacine",
+    "Intuniv (guanfacine XR)"
+   ],
+   "finder_note": "Endorsed restatement of the 2013 review's development claim plus the author's own general expectation. Written in 2023 and re-published 2025-01-15."
+  },
+  {
+   "id": "owen-1520",
+   "forecaster": "owen",
+   "statement_date": "2025-01-15",
+   "quote": "We need more evidence and novel treatments, and as you can see above, they're coming, but the awareness of what already exists is also important.",
+   "context": "Novel ADHD treatments (TMS, the Monarch eTNS device, LSD derivatives in MindMed-sponsored trials) are coming and promise better efficacy with fewer side effects. Note: this is a rerun of a 2023 article.",
+   "post_title": "What is \"Adult ADHD\"?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-is-adult-adhd",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "MindMed",
+    "Monarch eTNS",
+    "TMS",
+    "ADHD"
+   ],
+   "finder_note": "hint: MindMed MM-120 ADHD program status and FDA approvals of new ADHD treatments 2025-2026"
+  },
+  {
+   "id": "owen-1521",
+   "forecaster": "owen",
+   "statement_date": "2025-01-16",
+   "quote": "Well don't you know, someone might decide to yank the safe harbor that makes this otherwise completely illegal activity completely legal, and then just let the chips fall they may?",
+   "context": "Reacting to the FTC report that CVS Caremark, Express Scripts and Optum Rx marked up specialty generics by $7.3 billion (2017-2022). Setup: 'If I was in an incoming administration, that had already demonstrated some hostility towards Pharmacy Benefit Managers, and I was trying to slash expenses?' The author speculates the administration might remove the PBM rebate safe harbor.",
+   "post_title": "Pharmacy Benefit Managers Hiked Generic Drug Costs by $7.3b",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/pharmacy-benefit-managers-hiked-generic",
+   "area_guess": "payer_policy",
+   "horizon_text": "incoming administration",
+   "confidence_phrase": "might",
+   "entities": [
+    "Federal Trade Commission",
+    "CVS Caremark",
+    "Express Scripts (Cigna)",
+    "Optum Rx (UnitedHealth)",
+    "incoming administration",
+    "pharmacy benefit managers"
+   ],
+   "finder_note": "Hedged conditional; the author immediately adds 'I don't know. It's not up to me.' The safe harbor refers to the anti-kickback safe harbor for PBM rebates."
+  },
+  {
+   "id": "owen-1522",
+   "forecaster": "owen",
+   "statement_date": "2025-01-16",
+   "quote": "But if I had been that chief executive officer of a PBM subsidiary of a major payer who has been accused of lying to Congress , I might be a little less comfortable today than I was the prior day.",
+   "context": "Closing thought after the FTC report: the author implies that PBM executives (one accused of lying to Congress) now face greater political and legal risk.",
+   "post_title": "Pharmacy Benefit Managers Hiked Generic Drug Costs by $7.3b",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/pharmacy-benefit-managers-hiked-generic",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "pharmacy benefit managers",
+    "Congress",
+    "Federal Trade Commission"
+   ],
+   "finder_note": "Indirect: phrased as present discomfort ('today'), the implied call is rising trouble for PBM executives. Borderline forward-looking."
+  },
+  {
+   "id": "owen-1523",
+   "forecaster": "owen",
+   "statement_date": "2025-01-17",
+   "quote": "my article is still working its way into the journal",
+   "context": "The author mentions he had to issue a correction this past year about retracted MDMA papers and that his correction article is still in the publication pipeline; he expects it to appear.",
+   "post_title": "How Date a Supermodel, Thanks To Academic Fraud in Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-date-a-supermodel-thanks-to-academic",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "MDMA"
+   ],
+   "finder_note": "Trivial; about the author's own academic publication (journal unnamed)."
+  },
+  {
+   "id": "owen-1524",
+   "forecaster": "owen",
+   "statement_date": "2025-01-17",
+   "quote": "Although it will be hard for Andrew Wakefield to get another academic gig",
+   "context": "Discussing Andrew Wakefield's retracted 1998 Lancet MMR-autism paper; the author expects Wakefield will find it hard to get another academic position.",
+   "post_title": "How Date a Supermodel, Thanks To Academic Fraud in Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-date-a-supermodel-thanks-to-academic",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will be hard",
+   "entities": [
+    "Andrew Wakefield",
+    "The Lancet"
+   ],
+   "finder_note": "First clause of a compound sentence; the second clause is logged separately."
+  },
+  {
+   "id": "owen-1525",
+   "forecaster": "owen",
+   "statement_date": "2025-01-17",
+   "quote": "most academic fraud will never be discovered—the most likely outcome for fraudsters is a long and successful career.",
+   "context": "Essay on incentives for academic fraud (Ariely, Gino, Wakefield, paid authorship, Elsevier margins). The author predicts most fraud stays undetected and fraudsters typically enjoy long, successful careers.",
+   "post_title": "How Date a Supermodel, Thanks To Academic Fraud in Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-date-a-supermodel-thanks-to-academic",
+   "area_guess": "other",
+   "horizon_text": "never",
+   "confidence_phrase": "will never; most likely",
+   "entities": [
+    "Andrew Wakefield",
+    "Francesca Gino",
+    "Dan Ariely"
+   ],
+   "finder_note": "Compound general claim about academic fraud detection and fraudsters' careers; not about a specific named event."
+  },
+  {
+   "id": "owen-1526",
+   "forecaster": "owen",
+   "statement_date": "2025-01-17",
+   "quote": "And he might even be responsible for her eventual death",
+   "context": "On Andrew Wakefield's relationship with Elle Macpherson, who was diagnosed with breast cancer in 2018 while with Wakefield, 'a strong advocate of this ideology'. The author speculates that Wakefield's anti-mainstream-medicine influence could contribute to Macpherson's eventual death.",
+   "post_title": "How Date a Supermodel, Thanks To Academic Fraud in Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-date-a-supermodel-thanks-to-academic",
+   "area_guess": "other",
+   "horizon_text": "eventual",
+   "confidence_phrase": "might",
+   "entities": [
+    "Andrew Wakefield",
+    "Elle Macpherson"
+   ],
+   "finder_note": "Speculative and hedged; concerns a public figure's health outcome. Logged for recall."
+  },
+  {
+   "id": "owen-1527",
+   "forecaster": "owen",
+   "statement_date": "2025-01-19",
+   "quote": "It’s possible TikTok will be Jesus-like, resurrected, if not by God, then by The D*nald.",
+   "context": "Opening of a poem written 'in memory of TikTok' on 2025-01-19, the day the app went dark under the US divest-or-ban law. The author says Donald Trump ('The D*nald') may bring TikTok back.",
+   "post_title": "Eulogy For TikTok",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/eulogy-for-tiktok",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "It’s possible",
+   "entities": [
+    "TikTok",
+    "Donald Trump",
+    "Capitol Hill"
+   ],
+   "finder_note": "Satirical religious framing but a sincere hedged expectation. Followed by the question 'Will a new religion spring forth?', which is not logged."
+  },
+  {
+   "id": "owen-1528",
+   "forecaster": "owen",
+   "statement_date": "2025-01-19",
+   "quote": "A commercial hit, It will not be.",
+   "context": "The author says his TikTok eulogy poem will not be a commercial hit, contrasting poetry with money-making video content; he then plugs his poetry books.",
+   "post_title": "Eulogy For TikTok",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/eulogy-for-tiktok",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will not",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Self-deprecating call about the author's own work (newsletter; CONTROL candidate)."
+  },
+  {
+   "id": "owen-1529",
+   "forecaster": "owen",
+   "statement_date": "2025-01-19",
+   "quote": "He's gonna do something, that's gonna have some dubious legal basis, but who cares.",
+   "context": "Same-day follow-up after Trump's 'early morning Sunday magic' brought TikTok back online. 'He' is Donald Trump; the author expects Trump to take an action on TikTok that rests on a dubious legal basis.",
+   "post_title": "TikTok is Risen!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tiktok-is-risen",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "gonna",
+   "entities": [
+    "Donald Trump",
+    "TikTok"
+   ],
+   "finder_note": "Compound: Trump will act, and the action's legal basis will be dubious. Post date 2025-01-19, the day before the inauguration."
+  },
+  {
+   "id": "owen-1530",
+   "forecaster": "owen",
+   "statement_date": "2025-01-19",
+   "quote": "There will be videos celebrating.",
+   "context": "After TikTok's return the author predicts users will post videos celebrating it.",
+   "post_title": "TikTok is Risen!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tiktok-is-risen",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "TikTok"
+   ],
+   "finder_note": "Trivial call."
+  },
+  {
+   "id": "owen-1531",
+   "forecaster": "owen",
+   "statement_date": "2025-01-19",
+   "quote": "Honestly, this may go down in the annals of the most pointless lawmaking, and law undoing, that I can possibly imagine.",
+   "context": "On the TikTok ban saga: Congress passed the law, the Supreme Court upheld it, and the president then unilaterally dismissed its impact. The author expects the episode to be remembered as among the most pointless lawmaking and law-undoing.",
+   "post_title": "TikTok is Risen!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tiktok-is-risen",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "TikTok",
+    "Congress",
+    "Supreme Court",
+    "Donald Trump"
+   ],
+   "finder_note": "Soft call about future historical judgment rather than a checkable event. Borderline."
+  },
+  {
+   "id": "owen-1533",
+   "forecaster": "owen",
+   "statement_date": "2025-01-20",
+   "quote": "Martin Luther King had a dream, and it will take longer to realize it.",
+   "context": "Closing section of an inauguration-day essay (2025-01-20) on white privilege, policing, guns and mental illness. The author asserts that MLK's dream of racial justice will take longer to realize, with no date given.",
+   "post_title": "I Had (Past Tense) A Dream",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-had-past-tense-a-dream",
+   "area_guess": "other",
+   "horizon_text": "longer",
+   "confidence_phrase": "will",
+   "entities": [
+    "Martin Luther King"
+   ],
+   "finder_note": "Vague, undated rhetorical claim; likely unresolvable. Logged for recall."
+  },
+  {
+   "id": "owen-1534",
+   "forecaster": "owen",
+   "statement_date": "2025-01-20",
+   "quote": "White privilege will, eventually, turn on you , like a viper, the second you try to get in its way .",
+   "context": "Same essay. General claim that the system of white privilege will eventually harm even the white people who benefit from it, once they oppose it. Illustrated earlier with the example of a white grandparent whose grandchild is Black and mentally ill.",
+   "post_title": "I Had (Past Tense) A Dream",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-had-past-tense-a-dream",
+   "area_guess": "other",
+   "horizon_text": "eventually",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Rhetorical generalization about a social system, not a dated event; borderline forecast."
+  },
+  {
+   "id": "owen-1535",
+   "forecaster": "owen",
+   "statement_date": "2025-01-20",
+   "quote": "We will all be judged by the content of our character; the question is only when .",
+   "context": "Final line of the essay, echoing MLK. Moral assertion that judgment on character will come at an unknown time; followed by a call to hold each other accountable now.",
+   "post_title": "I Had (Past Tense) A Dream",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-had-past-tense-a-dream",
+   "area_guess": "other",
+   "horizon_text": "the question is only when",
+   "confidence_phrase": "will",
+   "entities": [
+    "Martin Luther King"
+   ],
+   "finder_note": "Moral aphorism, likely unresolvable. Logged for recall."
+  },
+  {
+   "id": "owen-1538",
+   "forecaster": "owen",
+   "statement_date": "2025-01-23",
+   "quote": "So we will see if this piece of information pans out. But it looks as if United has another reduction in force, on top of the several rounds they had in 2024.",
+   "context": "Breaking-news aside inserted just before publishing a satirical UnitedHealth piece. An unconfirmed 'UHC insider' tip (screenshot not in text) suggests UnitedHealth Group is running another round of layoffs after several rounds in 2024.",
+   "post_title": "Triumph of the Willful",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/triumph-of-the-willful",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "it looks as if",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthcare"
+   ],
+   "finder_note": "Based on an unconfirmed insider tip; the claim is that a new UHC reduction in force is under way and will be confirmed."
+  },
+  {
+   "id": "owen-1540",
+   "forecaster": "owen",
+   "statement_date": "2025-01-23",
+   "quote": "it's the time scale that I'm not entirely clear on. It could take… Any amount of time… which might limit the immediacy of the relief individuals would feel?",
+   "context": "Immediately follows the ironic profession of belief in Witty's vow. The author's actual expectation: UHC's prior-authorization reduction has no stated timescale and may bring no immediate relief. He adds that Optum's podcast is titled 'Until It's Fixed', again with no timescale.",
+   "post_title": "Triumph of the Willful",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/triumph-of-the-willful",
+   "area_guess": "payer_policy",
+   "horizon_text": "Any amount of time",
+   "confidence_phrase": "could",
+   "entities": [
+    "Andrew Witty",
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "Optum"
+   ],
+   "finder_note": "Rhetorical question form inside a satire, but reads as the author's real skepticism about the speed of UHC prior-auth relief."
+  },
+  {
+   "id": "owen-1543",
+   "forecaster": "owen",
+   "statement_date": "2025-01-23",
+   "quote": "every time I write anything about United healthcare, everybody who's got a Google news alert about it is gonna get my article in their inbox.",
+   "context": "The author notes that his newsletter is now indexed by Google News as a news source, and claims that every future article he writes about UnitedHealthcare will reach everyone with a Google News alert for the company.",
+   "post_title": "Triumph of the Willful",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/triumph-of-the-willful",
+   "area_guess": "other",
+   "horizon_text": "every time",
+   "confidence_phrase": "is gonna",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Google News",
+    "UnitedHealthcare"
+   ],
+   "finder_note": "About the author's own newsletter (CONTROL candidate). Boastful tone inside a satire, but the indexing claim reads as sincere."
+  },
+  {
+   "id": "owen-1544",
+   "forecaster": "owen",
+   "statement_date": "2025-01-23",
+   "quote": "O.K., maybe there was an inauguration this week, which may impact public markets.",
+   "context": "Aside within the satire, conceding an 'unforeseen circumstance' other than the author's mockery that could explain UnitedHealth's share-price movement and earnings: the presidential inauguration may affect public markets.",
+   "post_title": "Triumph of the Willful",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/triumph-of-the-willful",
+   "area_guess": "company_market",
+   "horizon_text": "this week",
+   "confidence_phrase": "may",
+   "entities": [
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Ironic understatement in an aside; vague, low forecast value."
+  },
+  {
+   "id": "owen-1545",
+   "forecaster": "owen",
+   "statement_date": "2025-01-25",
+   "quote": "We should not fail to imagine what it's like to live under that kind of threat. It's gonna be true for a lot of people soon.",
+   "context": "Essay condemning those who cheered the murder of the UnitedHealthcare CEO and defending the dignity of health-plan employees, who a colleague at UnitedHealth says are receiving constant death threats. The author predicts that living under threat of violence will soon be true for many people.",
+   "post_title": "Standing Up For Human Dignity, Especially at UnitedHealth Group",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/standing-up-for-human-dignity-especially",
+   "area_guess": "other",
+   "horizon_text": "soon",
+   "confidence_phrase": "gonna",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthcare"
+   ],
+   "finder_note": "First sentence is normative; the second is the prediction. Referent ('that kind of threat') is threat of political violence."
+  },
+  {
+   "id": "owen-1546",
+   "forecaster": "owen",
+   "statement_date": "2025-01-25",
+   "quote": "Ironically, I'm probably also going to get death threats for saying even this.",
+   "context": "Same essay. The author predicts that he himself will receive death threats for defending the dignity and safety of UnitedHealth employees.",
+   "post_title": "Standing Up For Human Dignity, Especially at UnitedHealth Group",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/standing-up-for-human-dignity-especially",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "Owen Scott Muir",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "About the author personally; self-referential and hard to verify."
+  },
+  {
+   "id": "owen-1547",
+   "forecaster": "owen",
+   "statement_date": "2025-01-26",
+   "quote": "It is a tale Told by an idiot, full of promises and vitriol, Reforming nothing.",
+   "context": "Macbeth 'Tomorrow, and tomorrow' parody marking Vivek Ramaswamy's departure from DOGE (the Department of Government Efficiency), where he was to cut 'unnecessary regulations'. The verse likens the regulatory-reform effort to a Theranos-style founder and concludes it reforms nothing.",
+   "post_title": "Flowers for Ramaswamy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/flowers-for-ramaswamy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Vivek Ramaswamy",
+    "DOGE",
+    "Elon Musk"
+   ],
+   "finder_note": "Parody verse (line breaks collapsed); reads as sincere cynicism that DOGE's deregulation push will accomplish nothing. Borderline sincere flag."
+  },
+  {
+   "id": "owen-1548",
+   "forecaster": "owen",
+   "statement_date": "2025-01-26",
+   "quote": "Our best luck to Mr. R. In whatever run for public office he chooses for himself in the great state of Ohio.",
+   "context": "Closing well-wish after Ramaswamy's exit from DOGE. Presupposes that Ramaswamy will run for public office in Ohio.",
+   "post_title": "Flowers for Ramaswamy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/flowers-for-ramaswamy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Vivek Ramaswamy",
+    "Ohio"
+   ],
+   "finder_note": "Well-wish with an embedded expectation (a run for office in Ohio); no explicit prediction verb."
+  },
+  {
+   "id": "owen-1550",
+   "forecaster": "owen",
+   "statement_date": "2025-01-28",
+   "quote": "I really do think “Theranos” tech—what they actually built—is a hot opportunity for investors in health tech, if it weren’t for the obvious imprisoned-founder problem.",
+   "context": "Republished 'classic' essay titled 'Theranos Was a Good Investment [and still is!]'. The author asserts, explicitly not just as clickbait, that the technology Theranos actually built (a fingerstick single-test device) is undervalued and a hot opportunity for health-tech investors, absent the imprisoned-founder problem.",
+   "post_title": "Theranos Was a Good Investment [and still is!]",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/theranos-was-a-good-investment-and",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I really do think",
+   "entities": [
+    "Theranos",
+    "Elizabeth Holmes"
+   ],
+   "finder_note": "Investment-thesis claim with an implicit forecast of value; title says Theranos 'still is' a good investment. Republished older essay."
+  },
+  {
+   "id": "owen-1551",
+   "forecaster": "owen",
+   "statement_date": "2025-01-28",
+   "quote": "don’t think this is not normal Silicon Valley behavior. It is. ... And it will continue till we demand otherwise",
+   "context": "Closing argument of the Theranos essay: fake-it-till-you-make-it and near-fraud are normal Silicon Valley behavior, and the author predicts this will continue until the public demands verification, for example a public ledger of startup finances and governance.",
+   "post_title": "Theranos Was a Good Investment [and still is!]",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/theranos-was-a-good-investment-and",
+   "area_guess": "company_market",
+   "horizon_text": "till we demand otherwise",
+   "confidence_phrase": "will",
+   "entities": [
+    "Silicon Valley",
+    "Theranos",
+    "FTX",
+    "Sam Bankman-Fried"
+   ],
+   "finder_note": "Open-ended horizon, conditional on public demand. An image caption sits between the two joined parts. Republished older essay."
+  },
+  {
+   "id": "owen-1553",
+   "forecaster": "owen",
+   "statement_date": "2025-01-28",
+   "quote": "And it will continue till we demand otherwise—and use verification in public, I don’t know, like on a blockchain or something",
+   "context": "Fake-it-till-you-make-it near-fraud behavior in Silicon Valley startups will continue until the public demands transparent verification of startup finances and governance.",
+   "post_title": "Theranos Was a Good Investment [and still is!]",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/theranos-was-a-good-investment-and",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Silicon Valley startups",
+    "Theranos",
+    "FTX"
+   ],
+   "finder_note": "hint: Ongoing record of startup fraud prosecutions and disclosure reforms; largely unfalsifiable as stated"
+  },
+  {
+   "id": "owen-1554",
+   "forecaster": "owen",
+   "statement_date": "2025-01-29",
+   "quote": "Unless of course, H5N1, Marburg, or some other fearsome plague rears its ugly head. We might be dragged back to our primeval state, yet again?",
+   "context": "Essay on the 430 BC plague of Athens and the collapse of social norms that Thucydides described, written 'for no particular reason'. The author hints that a new plague (H5N1, Marburg or another) could drag modern society back into the same fear-driven breakdown.",
+   "post_title": "The Plague of Athens",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-plague-of-athens",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "H5N1",
+    "Marburg"
+   ],
+   "finder_note": "Conditional, rhetorical-question form; the pandemic-risk hint is the sincere kernel of an otherwise historical essay."
+  },
+  {
+   "id": "owen-1555",
+   "forecaster": "owen",
+   "statement_date": "2025-02-01",
+   "quote": "An important note: I'm highly dubious that, absent a much larger data set, we would see a difference.",
+   "context": "Discussion of the Mughal/Young et al. 2025 meta-analysis (JCPP Advances) of therapeutic interventions after adolescent self-harm. The pooled data showed no difference in mortality. The author doubts that a mortality difference would appear in future work unless the data set were much larger, because death and suicide are rare outcomes in youth.",
+   "post_title": "Does \"Help\" for Kids After Self-Harm Reduce Suicide Risk?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-help-for-kids-after-self-harm",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "highly dubious",
+   "entities": [
+    "Mughal et al. 2025 meta-analysis",
+    "JCPP Advances"
+   ],
+   "finder_note": "Doubt about a future research readout; conditional on data set size."
+  },
+  {
+   "id": "owen-1556",
+   "forecaster": "owen",
+   "statement_date": "2025-02-01",
+   "quote": "The good news is that we could do these psychotherapeutic things in hospitals, and they might be effective.",
+   "context": "After stating there is no evidence that medication-focused psychiatric hospitalization saves the lives of youth after self-harm, the author says the psychotherapies covered by the meta-analysis could be delivered inside hospitals and might be effective there.",
+   "post_title": "Does \"Help\" for Kids After Self-Harm Reduce Suicide Risk?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-help-for-kids-after-self-harm",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "could ... might",
+   "entities": [],
+   "finder_note": "Hedged claim about a possible practice change; no timeline."
+  },
+  {
+   "id": "owen-1557",
+   "forecaster": "owen",
+   "statement_date": "2025-02-01",
+   "quote": "Of course, there is a corollary: They may not want to pay for care that doesn't work, and honestly, I think that's a good idea.",
+   "context": "Follows the line 'We need to get insurance companies to actually pay for this sort of care' (specialized psychotherapy for self-harming youth). The author expects insurers may refuse to pay for non-specialized, ineffective care, and endorses that.",
+   "post_title": "Does \"Help\" for Kids After Self-Harm Reduce Suicide Risk?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-help-for-kids-after-self-harm",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "may not",
+   "entities": [
+    "insurance companies"
+   ],
+   "finder_note": "The preceding sentence is a normative call for insurers to pay; this part is the hedged expectation about payer behaviour."
+  },
+  {
+   "id": "owen-1558",
+   "forecaster": "owen",
+   "statement_date": "2025-02-01",
+   "quote": "We should be profoundly ashamed that we have not created any brain-based interventions that met the bar for reducing self-harm and suicide, and we should diligently work to do so. This also will take funding.",
+   "context": "Closing section: no biological (drug or device) intervention met the inclusion criteria of the meta-analysis. The author calls for developing brain-based interventions for youth self-harm and says this will require funding.",
+   "post_title": "Does \"Help\" for Kids After Self-Harm Reduce Suicide Risk?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-help-for-kids-after-self-harm",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Mostly a normative call; the forward-looking part is 'This also will take funding'. Near-truism, low forecast value."
+  },
+  {
+   "id": "owen-1559",
+   "forecaster": "owen",
+   "statement_date": "2025-02-01",
+   "quote": "We know that we need to include families in the specialized therapies for self-harming youth , and if we do both of those things, we can reduce the rate of suicide attempts.",
+   "context": "Summary of the meta-analysis findings: group therapy alone is not enough and family involvement is needed. Conditional claim that doing both (specialized therapy plus family inclusion) reduces suicide attempts.",
+   "post_title": "Does \"Help\" for Kids After Self-Harm Reduce Suicide Risk?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-help-for-kids-after-self-harm",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "can",
+   "entities": [],
+   "finder_note": "Borderline: a conditional capability claim derived from the meta-analysis rather than a dated forecast. Logged for recall; low forecast value."
+  },
+  {
+   "id": "owen-1560",
+   "forecaster": "owen",
+   "statement_date": "2025-02-03",
+   "quote": "One of the very exciting things about working on the sharpest part of the bleeding edge of neuromodulation is how fast and furious new data is coming about, and since these methods are safe, able to change practice rapidly.",
+   "context": "Opening line of the post on TMS for anorexia nervosa. The author claims that new neuromodulation data, because the methods are safe, can change clinical practice rapidly.",
+   "post_title": "Could rTMS Be A Novel Treatment For Anorexia Nervosa?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-rtms-be-a-novel-treatment-for",
+   "area_guess": "practice_adoption",
+   "horizon_text": "rapidly",
+   "confidence_phrase": "able to",
+   "entities": [
+    "neuromodulation",
+    "TMS"
+   ],
+   "finder_note": "General claim about the pace of practice change from neuromodulation data; borderline forward-looking."
+  },
+  {
+   "id": "owen-1561",
+   "forecaster": "owen",
+   "statement_date": "2025-02-03",
+   "quote": "With transcranial magnetic stimulation, we might have a new effective treatment toolkit!",
+   "context": "Introducing the Bahadori et al. 2025 meta-analysis (Eating and Weight Disorders) of TMS in anorexia nervosa (9 studies, 129 participants). The author suggests TMS might become a new effective treatment for anorexia nervosa.",
+   "post_title": "Could rTMS Be A Novel Treatment For Anorexia Nervosa?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-rtms-be-a-novel-treatment-for",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "TMS",
+    "anorexia nervosa",
+    "Bahadori et al. 2025 meta-analysis"
+   ],
+   "finder_note": "Hedged efficacy/adoption call for TMS in anorexia nervosa."
+  },
+  {
+   "id": "owen-1562",
+   "forecaster": "owen",
+   "statement_date": "2025-02-03",
+   "quote": "For scientists, clinicians, and patients struggling with AN, rTMS seems like a promising option.",
+   "context": "Conclusion after reviewing the meta-analysis results (marginal BMI gain, larger EDE-Q effect, the TIARA trial as the largest study). The author judges rTMS a promising option for anorexia nervosa (AN).",
+   "post_title": "Could rTMS Be A Novel Treatment For Anorexia Nervosa?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-rtms-be-a-novel-treatment-for",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "seems like a promising option",
+   "entities": [
+    "rTMS",
+    "anorexia nervosa"
+   ],
+   "finder_note": "Present-tense appraisal with an implied expectation of future clinical use; borderline."
+  },
+  {
+   "id": "owen-1563",
+   "forecaster": "owen",
+   "statement_date": "2025-02-03",
+   "quote": "Of course, this means that it will be submitted— and denied—by most payors because there is no FDA label, and even if there were, it would still be considered experimental and unproven, much like parachutes.",
+   "context": "Immediately after calling rTMS a promising option for anorexia nervosa. The author predicts that most payors will deny rTMS claims for anorexia because there is no FDA label, and that even with a label payors would still treat it as experimental and unproven.",
+   "post_title": "Could rTMS Be A Novel Treatment For Anorexia Nervosa?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-rtms-be-a-novel-treatment-for",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "FDA",
+    "payors",
+    "rTMS",
+    "anorexia nervosa"
+   ],
+   "finder_note": "Compound claim: denial by most payors, plus continued 'experimental' status even if FDA labeled. 'Much like parachutes' is sarcasm; the claim reads as sincere."
+  },
+  {
+   "id": "owen-1565",
+   "forecaster": "owen",
+   "statement_date": "2025-02-04",
+   "quote": "This is part one of a two-part conversation, and thank you for reading, and thank you for listening.",
+   "context": "Announcement of the author's appearance on Greg Malzberg's PsychoFarm podcast (YouTube), recorded the day before. Part one is out; a part two is implied to follow.",
+   "post_title": "Owen Muir, M.D, DFAACAP Joins the PsychoFarm Podcast",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-md-dfaacap-joins-the-psychfarm",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "PsychoFarm podcast",
+    "Greg Malzberg",
+    "Owen Muir"
+   ],
+   "finder_note": "Own-content announcement; implies a second episode will be released. Low forecast value; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1566",
+   "forecaster": "owen",
+   "statement_date": "2025-02-05",
+   "quote": "About half of what you learn will turn out to be wrong, later; because science progresses. You just don’t know which half.",
+   "context": "Rerun of an older post on medical education (neurosurgeons and adult ADHD). In the section on the basic science curriculum, the author asserts that about half of what medical students learn will later prove wrong.",
+   "post_title": "How Much Do Neurosurgeons Learn About Adult ADHD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-much-do-neurosurgeons-learn-about-c4d",
+   "area_guess": "other",
+   "horizon_text": "later",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Common aphorism about medical knowledge; near-truism, low forecast value. Post is a rerun of an earlier article."
+  },
+  {
+   "id": "owen-1567",
+   "forecaster": "owen",
+   "statement_date": "2025-02-05",
+   "quote": "You don’t learn why private equity is going to buyer clinic later, or why it’s a terrible idea to have anything to do with that.",
+   "context": "Footnote 4, on the gap in healthcare economics and business teaching in medical school. The author asserts that private equity is going to buy the future doctor's clinic later. 'buyer clinic' is a typo for 'buy your clinic'.",
+   "post_title": "How Much Do Neurosurgeons Learn About Adult ADHD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-much-do-neurosurgeons-learn-about-c4d",
+   "area_guess": "company_market",
+   "horizon_text": "later",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "private equity"
+   ],
+   "finder_note": "Sardonic footnote aside; reads as a sincere expectation that private equity will acquire physician clinics. Post is a rerun."
+  }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-paid-02.md",
+  "posts": [
+    {
+      "slug": "louboutins-are-the-best-shoes-we",
+      "read": true,
+      "statements_found": 6,
+      "note": "NYT/DBT critique (4,521 words incl. 29 footnotes). Two clear payer/evidence calls; four borderline general or personal statements logged with flags."
+    },
+    {
+      "slug": "memes",
+      "read": true,
+      "statements_found": 1,
+      "note": "Meme thread; one own-newsletter content plan (One Medical mix-up piece may appear later)."
+    },
+    {
+      "slug": "professor-muirs-application-to-teach",
+      "read": true,
+      "statements_found": 0,
+      "note": "Organic chemistry explainer; no forward-looking claims about the world."
+    },
+    {
+      "slug": "its-the-end-of-telehealth-as-we-know-92b",
+      "read": true,
+      "statements_found": 3,
+      "note": "DEA inspection update from a Tennessee correspondent; restatement of the earlier 'End of Telehealth' call plus R.E.M. parody lyric and a free-release plan."
+    },
+    {
+      "slug": "upcoming-live-audio-events",
+      "read": true,
+      "statements_found": 2,
+      "note": "Event announcements (Clubhouse Sunday Nov 6; Twitter Spaces Monday Nov 14). Embedded PA SPACES lineup tweet is third-party and not logged."
+    },
+    {
+      "slug": "facebook-ai-responds-to-crisis-response",
+      "read": true,
+      "statements_found": 0,
+      "note": "77-word thread post about a Facebook bot reply; nothing forward-looking."
+    },
+    {
+      "slug": "theranos-is-a-great-investment-opportunity",
+      "read": true,
+      "statements_found": 4,
+      "note": "Investment-opportunity essay; valuation claims about Theranos tech and a call that Silicon Valley near-fraud will continue. Wishes about Holmes/SBF punishment not logged."
+    },
+    {
+      "slug": "we-made-a-mistake-a-shocking-leak",
+      "read": true,
+      "statements_found": 1,
+      "note": "Fictional parody interview with Amazon M&A about One Medical and The Rings of Power; one borderline skeptical claim by the author's character logged."
+    },
+    {
+      "slug": "there-was-a-tornado-once",
+      "read": true,
+      "statements_found": 1,
+      "note": "Personal short story; only the author's note about working on a book is forward-looking. Radio forecast inside the story is narrative, not logged."
+    },
+    {
+      "slug": "greta-thunberg-vs-littledickenergy",
+      "read": true,
+      "statements_found": 0,
+      "note": "Andrew Tate / NPD essay; normative calls for NPD research not logged; 'may or may not prove to be actually true' is non-committal and not logged."
+    },
+    {
+      "slug": "in-defense-of-ted-cruz",
+      "read": true,
+      "statements_found": 0,
+      "note": "Uvalde grief essay; normative and general statements only."
+    },
+    {
+      "slug": "an-mds-guide-to-super-charging-your",
+      "read": true,
+      "statements_found": 0,
+      "note": "ADHD timer-cube how-to; advice and description of own practice only."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "louboutins-are-the-best-shoes-we",
+      "quote": "It may be an excellent treatment for others. But given current payment models, it’s really unlikely that we’re gonna find out anytime soon.",
+      "context": "DBT (dialectical behavior therapy) for suicidal adolescents. The author argues DBT is shown superior only within study samples meeting strict inclusion criteria. He predicts that, under current payment (insurance reimbursement) models, evidence on whether DBT works for broader populations will not arrive anytime soon.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "anytime soon",
+      "confidence_phrase": "really unlikely",
+      "entities": [
+        "DBT",
+        "dialectical behavior therapy",
+        "New York Times"
+      ],
+      "note": "Negative call on future evidence generation for DBT beyond trial samples; hinges on payment models."
+    },
+    {
+      "post_slug": "louboutins-are-the-best-shoes-we",
+      "quote": "Then, predictably, they will be demoralized when they can’t get their insurance to pay for it. Which I’m here to promise you, it won’t. Not without a fight.",
+      "context": "After the NYT piece holds DBT up as 'the best tool we have' for self-harming and suicidal teens, the author predicts families will be demoralized because insurance will not pay for DBT, not without a fight.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "I’m here to promise you, it won’t",
+      "entities": [
+        "DBT",
+        "New York Times",
+        "insurance companies"
+      ],
+      "note": "Compound: families demoralized + insurers will not pay for DBT; 'Not without a fight' qualifier."
+    },
+    {
+      "post_slug": "louboutins-are-the-best-shoes-we",
+      "quote": "I am bullish on teams in healthcare.",
+      "context": "While explaining why DBT is expensive (weekly individual therapy, multi-family groups, coaching calls, a large team), the author states a general positive expectation about team-based care in healthcare.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "bullish",
+      "entities": [
+        "DBT"
+      ],
+      "note": "Borderline: general stance with no resolvable claim."
+    },
+    {
+      "post_slug": "louboutins-are-the-best-shoes-we",
+      "quote": "A healthcare system that can only profit off of the expensive is the one that will feature endless expense.",
+      "context": "Setup: GPM (General Psychiatric Management for BPD) is designed to be inexpensive and scalable, so no one profits enough to promote it. The author then states that a profit-driven system will keep featuring endless expense, illustrated by a 5-year stock chart of a company profiting from expensive care.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "GPM",
+        "General Psychiatric Management",
+        "UnitedHealthcare"
+      ],
+      "note": "Borderline: structural claim close to a truism; implies cheap scalable treatments like GPM will not get investment."
+    },
+    {
+      "post_slug": "louboutins-are-the-best-shoes-we",
+      "quote": "We spend $4.6 trillion a year, and more every year, on healthcare in the US.",
+      "context": "Closing argument that the US could find a few billion dollars for the most effective treatment for suicidal kids. States that US healthcare spending is $4.6 trillion a year and grows every year.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "every year",
+      "confidence_phrase": "none",
+      "entities": [
+        "US healthcare spending"
+      ],
+      "note": "Borderline trend statement: implies US healthcare spending keeps rising each year."
+    },
+    {
+      "post_slug": "louboutins-are-the-best-shoes-we",
+      "quote": "To be clear, I take a lot of calls from suicidal patients, and will take many more I’m sure in the course of my life.",
+      "context": "Footnote 17, about DBT coaching calls available at any hour. The author says he takes many calls from suicidal patients, expects to take many more over his life, and notes he generally is not paid for them.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "in the course of my life",
+      "confidence_phrase": "I’m sure",
+      "entities": [
+        "Owen Scott Muir"
+      ],
+      "note": "Personal-activity statement; low forecast value."
+    },
+    {
+      "post_slug": "memes",
+      "quote": "I have a slightly absurd piece that didn’t make the cut about the One Medical acquisition being a mix up. It may show up later, if my editor can figure out what to do with it.",
+      "context": "Meme thread post. The author says a satirical piece about the Amazon acquisition of One Medical being a mix-up did not make the cut and may be published in the newsletter later, if his editor can place it.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "later",
+      "confidence_phrase": "may",
+      "entities": [
+        "One Medical",
+        "Amazon",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content plan, conditional on editor; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "its-the-end-of-telehealth-as-we-know-92b",
+      "quote": "This “hit single” will be released a bit later to my free subscribers as well!",
+      "context": "Paid-subscriber update on DEA in-person inspections of controlled-substance prescribers. The author says this post will later be released to free subscribers too.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "a bit later",
+      "confidence_phrase": "will",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter publishing plan; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "its-the-end-of-telehealth-as-we-know-92b",
+      "quote": "So, to recap, my conclusions from the initial article seem to be holding up! In states other than New York, the DEA continues to flex its regulatory muscle, and perform in-person evaluations of existing prescriber addresses.",
+      "context": "After a Tennessee physician reports a DEA drop-in visit asking about a real office for Ryan Haight purposes, controlled-substance storage and records location, the author says the conclusions of his earlier 'End of Telehealth' article hold up: the DEA is doing in-person inspections of prescriber addresses beyond New York.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "seem to be holding up",
+      "entities": [
+        "DEA",
+        "New York",
+        "Tennessee",
+        "Ryan Haight Act"
+      ],
+      "note": "Restatement/confirmation of the earlier End-of-Telehealth call; present tense 'continues' makes it borderline forward-looking."
+    },
+    {
+      "post_slug": "its-the-end-of-telehealth-as-we-know-92b",
+      "quote": "It’s the end of telehealth as we know it, it’s the end of telehealth as we know it, it’s the end of telehealth as we know it, and I feel…",
+      "context": "Closing R.E.M. parody echoing the post title. Underlying claim: DEA enforcement of in-person requirements for controlled-substance prescribers (inspections of new license holders' physical locations) ends telehealth-only prescribing as practiced during the pandemic.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "DEA",
+        "R.E.M.",
+        "telehealth"
+      ],
+      "note": "Parody lyric and title; underlying claim reads sincere. Ends 'fined?'. Same call as the prior 'End of Telehealth' post."
+    },
+    {
+      "post_slug": "upcoming-live-audio-events",
+      "quote": "Don’t miss this Sunday back In full effect on the Human Behavior Club on the Clubhouse app. Sunday November 6th, 8pm:",
+      "context": "Event announcement written in third person: the author will host a Human Behavior Club conversation about mental health on Clubhouse on Sunday November 6, 2022 at 8pm.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Sunday November 6th, 8pm",
+      "confidence_phrase": "none",
+      "entities": [
+        "Owen Scott Muir",
+        "Human Behavior Club",
+        "Clubhouse"
+      ],
+      "note": "Own event announcement; low forecast value; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "upcoming-live-audio-events",
+      "quote": "And he will be appearing on the Monday evening stage of Twitter spaces with his dear friend BTabs, psychedelic enthusiast and neurologist, extraordinaire. Monday Nov 14th, 6PM.",
+      "context": "Event announcement: the author will appear on a PA Spaces / PA Med Monday Twitter Spaces session with BTabs (neurologist) on Monday November 14, 2022 at 6PM. An embedded PA SPACES tweet lists @ScottMuirMD for 11/14.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Monday Nov 14th, 6PM",
+      "confidence_phrase": "will",
+      "entities": [
+        "Owen Scott Muir",
+        "BTabs",
+        "Twitter Spaces",
+        "PA Spaces"
+      ],
+      "note": "Own event announcement; the PA SPACES lineup tweet is third-party and not logged separately."
+    },
+    {
+      "post_slug": "theranos-is-a-great-investment-opportunity",
+      "quote": "I really do think “Theranos” tech—what they actually built—is a hot opportunity for investors in health tech, if it weren’t for the obvious imprisoned-founder problem.",
+      "context": "Opening of 'Theranos is a Great Investment Opportunity!'. The author asserts that the technology Theranos actually built (the Edison, plausibly able to do one or two fingerstick tests) is a hot opportunity for health-tech investors, setting aside Elizabeth Holmes's conviction.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "I really do think",
+      "entities": [
+        "Theranos",
+        "Elizabeth Holmes",
+        "Edison"
+      ],
+      "note": "Title claim of the post; conditional aside about the imprisoned founder. Weakly resolvable investment-opportunity claim."
+    },
+    {
+      "post_slug": "theranos-is-a-great-investment-opportunity",
+      "quote": "Theranos’ technology is nothing if not undervalued at this point.",
+      "context": "Following 'Did Theranos succeed as a company? Well, no. That's why it's a great investment opportunity!' The author claims the Theranos technology is undervalued, implying future upside for a buyer of the IP.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "at this point",
+      "confidence_phrase": "nothing if not",
+      "entities": [
+        "Theranos"
+      ],
+      "note": "Valuation claim in present tense implying future upside; borderline. Restated later as 'A one-test Theranos machine would be awesome.'"
+    },
+    {
+      "post_slug": "theranos-is-a-great-investment-opportunity",
+      "quote": "At the end of the day, I think the technology that Theranos actually built—the ability to do even one reliable test that people might need with a fingerstick in a Walgreens—is actually pretty valuable.",
+      "context": "Conclusion of the essay after condemning Holmes's lies to investors and patient harm. The author restates that a one-test fingerstick device deployable in a Walgreens is valuable, citing Covid, STD and glucose testing as use cases.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "I think",
+      "entities": [
+        "Theranos",
+        "Walgreens"
+      ],
+      "note": "Restates the opening investment-opportunity claim in narrower form (one reliable fingerstick test)."
+    },
+    {
+      "post_slug": "theranos-is-a-great-investment-opportunity",
+      "quote": "don’t think this is not normal Silicon Valley behavior. It is. ... And it will continue till we demand otherwise—and use verification in public, I don’t know, like on a blockchain or something",
+      "context": "After discussing Elizabeth Holmes and Sam Bankman-Fried (FTX), the author says fake-it-till-you-make-it and near-fraud are normal Silicon Valley startup behavior and will continue until the public demands verification, such as a public ledger of startup finances and governance.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "till we demand otherwise",
+      "confidence_phrase": "will continue",
+      "entities": [
+        "Silicon Valley",
+        "Elizabeth Holmes",
+        "Theranos",
+        "Sam Bankman-Fried",
+        "FTX"
+      ],
+      "note": "Joined across an image caption. Conditional persistence call: startup near-fraud persists absent public verification."
+    },
+    {
+      "post_slug": "we-made-a-mistake-a-shocking-leak",
+      "quote": "Medicare Advantage plans, traditional payers like Optum, the traditional wizards like Sauron and Gandalf, all together using one platform solution? Owen: I mean, you don’t.",
+      "context": "Parody transcript of a fictitious meeting with Amazon's head of healthcare M&A about the One Medical acquisition and The Rings of Power. 'Amazon' asks how to get plans, payers and providers all onto one platform; the author's character answers that you don't, a negative call on any single unifying healthcare interoperability platform.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Amazon",
+        "One Medical",
+        "Optum",
+        "Medicare Advantage"
+      ],
+      "note": "Fictional interview (subtitle: 'Originally a parody, now kinda accurate'). Author's own character speaks; underlying skepticism reads sincere. Borderline."
+    },
+    {
+      "post_slug": "there-was-a-tornado-once",
+      "quote": "Author’s note: I’m working on a book. Maybe more than one. This is a story. We will see where it ends up.",
+      "context": "Author's note atop a personal short story about a childhood tornado in Morris, Connecticut. The author says he is working on a book, possibly more than one, and this story is part of that effort.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "Maybe",
+      "entities": [
+        "Owen Scott Muir"
+      ],
+      "note": "Personal project statement implying a future book; low forecast value; coder may mark CONTROL."
+    }
+  ]
+}

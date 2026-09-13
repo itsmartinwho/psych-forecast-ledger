@@ -1,0 +1,500 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-65.md",
+  "posts": [
+    {
+      "slug": "effective-treatment-for-antisocial",
+      "read": true,
+      "statements_found": 3,
+      "note": "MBT-ASPD (MOAM) trial review. Normative 'we should get this approach to more offenders' calls not logged; replication and revolution calls logged."
+    },
+    {
+      "slug": "can-rtms-be-used-as-a-maintenance",
+      "read": true,
+      "statements_found": 1,
+      "note": "MAINT-R maintenance rTMS vs lithium review; one 'more TMS data is coming' call to payer reviewers."
+    },
+    {
+      "slug": "ketamine-in-the-land-of-taylor-swift",
+      "read": true,
+      "statements_found": 0,
+      "note": "182-word podcast blurb on an interview with Irfan Handoo; no forward-looking claims."
+    },
+    {
+      "slug": "how-can-we-treat-bipolar-disorder",
+      "read": true,
+      "statements_found": 1,
+      "note": "Nigeria lecture post; one borderline normative item about TMS and the WHO essential medicines list. Radial boilerplate is present-tense."
+    },
+    {
+      "slug": "news-blast-comp360-hhs-wants-to-simplify",
+      "read": true,
+      "statements_found": 5,
+      "note": "COMP360 topline, HHS/CMS prior-auth pledges, Carlat podcast. Two dated third-party insurer pledges logged with own_claim false; author's skepticism logged separately."
+    },
+    {
+      "slug": "a-mini-tender-offer-for-unitedhealth",
+      "read": true,
+      "statements_found": 1,
+      "note": "Podcast post on Tutanota's mini-tender offer for UnitedHealth; one borderline assessment that the scheme probably works. Illustrative $330 share-price scenario not logged."
+    },
+    {
+      "slug": "what-is-bipolar-disorder",
+      "read": true,
+      "statements_found": 0,
+      "note": "Educational essay on episodicity in bipolar disorder; general scientific claims only, no forecasts."
+    },
+    {
+      "slug": "why-isnt-becks-colors-heralded-as",
+      "read": true,
+      "statements_found": 0,
+      "note": "Music essay on Beck's Colors; no forward-looking claims."
+    },
+    {
+      "slug": "transcranial-focused-ultrasound-tfus-578",
+      "read": true,
+      "statements_found": 4,
+      "note": "tFUS introduction as Sanmai leaves stealth; four hedged efficacy and capability calls."
+    },
+    {
+      "slug": "are-brain-circuits-driving-depression",
+      "read": true,
+      "statements_found": 4,
+      "note": "H1-coil circuit mapping review; four items including a 'future Nobel' aside and a 'depression may be a solved problem shortly' call."
+    },
+    {
+      "slug": "the-prior-authorization-of-the-declaration",
+      "read": true,
+      "statements_found": 0,
+      "note": "Parody dialogue between a payer reviewer and a Founding Father; no sincere forward-looking claims."
+    },
+    {
+      "slug": "i-finally-wrote-an-opening-chapter",
+      "read": true,
+      "statements_found": 1,
+      "note": "Fiction chapter; only the author's hedged intention to continue the novel logged. Fictional forecasts (character dying) not logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "effective-treatment-for-antisocial",
+      "quote": "I haven't edited it together yet. I guess that is next.",
+      "context": "Opening of a post reviewing a randomized trial of mentalization-based treatment for antisocial personality disorder. The author says he recorded a podcast take on the study but has not edited it yet; editing it is his next task. Own newsletter activity.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "next",
+      "confidence_phrase": "I guess",
+      "entities": [
+        "Owen Muir",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-activity intention about a podcast episode; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "effective-treatment-for-antisocial",
+      "quote": "The replication will be challenging, and it is also a moral imperative.",
+      "context": "Closing paragraph on the MOAM randomized controlled trial (Fonagy et al., Lancet Psychiatry 2025) of mentalization-based treatment (MBT-ASPD) for antisocial personality disorder in male offenders on probation in England and Wales (effect size 0.74, fewer offences at year 3). The author expects replication of the trial to be difficult and calls it a moral imperative.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "will be",
+      "entities": [
+        "Mentalization-Based Treatment (MBT)",
+        "MBT-ASPD",
+        "MOAM trial",
+        "Peter Fonagy",
+        "Anthony Bateman",
+        "Anna Freud Centre"
+      ],
+      "note": "Compound: forecast (replication will be challenging) plus a normative clause (moral imperative). Author is an official MBT supervisor."
+    },
+    {
+      "post_slug": "effective-treatment-for-antisocial",
+      "quote": "This is a revolution, assuming it replicates, and if only decision makers notice.",
+      "context": "Final sentence of the same post. Conditional call: the MBT-ASPD result is a revolution in the treatment of violent offenders if the trial replicates and if decision makers notice. Implies future uptake depends on replication and on policymaker attention.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "assuming it replicates, and if only",
+      "entities": [
+        "Mentalization-Based Treatment (MBT)",
+        "MBT-ASPD",
+        "MOAM trial",
+        "Peter Fonagy"
+      ],
+      "note": "Conditional on replication and on decision-maker attention; no date. Preceding 'we should get this approach to many more offenders' is normative and not logged."
+    },
+    {
+      "post_slug": "can-rtms-be-used-as-a-maintenance",
+      "quote": "Peer Reviewers working diligently at major payors? Sharpen your denial skills; even more excellent data on TMS is coming your way.",
+      "context": "Closing line of a post on the MAINT-R trial (Noda et al., JAMA Netw Open 2025), which found once-weekly 1 Hz rTMS as effective as low-dose lithium for preventing depression relapse, with fewer adverse events. The author tells payer peer reviewers that more strong TMS data is coming, after asserting maintenance TMS is no longer 'Experimental and Unproven'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "is coming",
+      "entities": [
+        "rTMS",
+        "TMS",
+        "MAINT-R trial",
+        "lithium",
+        "BrainsWay",
+        "payors"
+      ],
+      "note": "Undated call that further TMS evidence will arrive; author is a BrainsWay trial investigator and Radial co-founder."
+    },
+    {
+      "post_slug": "how-can-we-treat-bipolar-disorder",
+      "quote": "TMS is not on that list, yet. Maybe, I posit, it should be?",
+      "context": "Post about a lecture on bipolar disorder given to clinicians at Gracehill Hospital in Nigeria. Discussing the WHO essential medicines list, the author notes that ECT and lithium are listed but TMS is not 'yet', and posits that it should be. The 'yet' carries a weak implicit expectation that TMS will be added.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": true,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "yet",
+      "confidence_phrase": "Maybe, I posit",
+      "entities": [
+        "WHO",
+        "TMS",
+        "ECT",
+        "lithium",
+        "Nigeria",
+        "Gracehill Hospital"
+      ],
+      "note": "Mostly normative; 'yet' implies a weak expectation that TMS joins the WHO essential list. Borderline."
+    },
+    {
+      "post_slug": "news-blast-comp360-hhs-wants-to-simplify",
+      "quote": "This is an outcome I can believe, and I look forward to reading the paper, impatiently.",
+      "context": "News item on Compass Pathways' COMP360 (synthetic psilocybin) meeting its primary endpoint in one of its two FDA approval trials (MADRS mean difference -3.6 points). The author finds the modest, placebo-adjusted effect credible, judges the blind held, and expects a full paper to be published, which he anticipates reading.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "look forward to",
+      "entities": [
+        "COMP360",
+        "Compass Pathways",
+        "psilocybin",
+        "FDA",
+        "Burton Tabaac"
+      ],
+      "note": "Implicit expectation that the COMP360 trial paper will be published; low forecast value. Also congratulates Compass on a 'serious achievement'."
+    },
+    {
+      "post_slug": "news-blast-comp360-hhs-wants-to-simplify",
+      "quote": "we have an announcement from HHS and CMS that a new day is almost here, sorta, when it comes to prior authorization.",
+      "context": "Third news item: HHS and CMS (Robert F. Kennedy Jr. and Mehmet Oz) announced voluntary insurer pledges to simplify prior authorization. The author frames the announcement skeptically as 'a new day is almost here, sorta', signalling doubt that the pledges will bring real change.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "almost here",
+      "confidence_phrase": "sorta",
+      "entities": [
+        "HHS",
+        "CMS",
+        "Robert F. Kennedy Jr.",
+        "Mehmet Oz",
+        "prior authorization"
+      ],
+      "note": "Author's skeptical restatement of a government announcement; 'sorta' and 'who knows what to make of this' mark low confidence."
+    },
+    {
+      "post_slug": "news-blast-comp360-hhs-wants-to-simplify",
+      "quote": "Reduce the volume of medical services subject to prior authorization by January 1, 2026.",
+      "context": "Bullet quoted from the HHS/CMS press release listing pledges by participating insurers (Aetna, AHIP, BCBSA, CareFirst, Centene, Cigna, Elevance, GuideWell, Highmark, Humana, Kaiser Permanente, UnitedHealthcare). Dated pledge to cut the volume of services that need prior authorization by January 1, 2026. The author does not adopt it; he compares the insurers to teenagers taking a purity pledge.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "by January 1, 2026",
+      "confidence_phrase": "pledged to",
+      "entities": [
+        "Aetna",
+        "AHIP",
+        "Blue Cross Blue Shield Association",
+        "CareFirst BlueCross BlueShield",
+        "Centene",
+        "The Cigna Group",
+        "Elevance Health",
+        "GuideWell",
+        "Highmark Health",
+        "Humana",
+        "Kaiser Permanente",
+        "UnitedHealthcare",
+        "HHS",
+        "CMS"
+      ],
+      "note": "Third-party pledge quoted from a press release; author is skeptical (purity-pledge analogy). Not the author's own forecast."
+    },
+    {
+      "post_slug": "news-blast-comp360-hhs-wants-to-simplify",
+      "quote": "Expand real-time responses to minimize delays in care with real-time approvals for most requests by 2027.",
+      "context": "Bullet quoted from the same HHS/CMS press release of insurer pledges: real-time prior authorization approvals for most requests by 2027. The author does not adopt the pledge and signals doubt that plans will keep it.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "by 2027",
+      "confidence_phrase": "pledged to",
+      "entities": [
+        "Aetna",
+        "AHIP",
+        "Blue Cross Blue Shield Association",
+        "CareFirst BlueCross BlueShield",
+        "Centene",
+        "The Cigna Group",
+        "Elevance Health",
+        "GuideWell",
+        "Highmark Health",
+        "Humana",
+        "Kaiser Permanente",
+        "UnitedHealthcare",
+        "HHS",
+        "CMS"
+      ],
+      "note": "Third-party pledge quoted from a press release; author is skeptical. Not the author's own forecast."
+    },
+    {
+      "post_slug": "news-blast-comp360-hhs-wants-to-simplify",
+      "quote": "Much like the purity pledge for teens, we will see if health plans can hold it together or will resort to other solutions.",
+      "context": "Author's closing verdict on the insurer prior-authorization pledges announced by HHS/CMS. He likens the pledges to a teen purity pledge and says we will see whether health plans keep their commitments or 'resort to other solutions'; the analogy implies he expects them not to hold.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "we will see if",
+      "entities": [
+        "Aetna",
+        "AHIP",
+        "Blue Cross Blue Shield Association",
+        "CareFirst BlueCross BlueShield",
+        "Centene",
+        "The Cigna Group",
+        "Elevance Health",
+        "GuideWell",
+        "Highmark Health",
+        "Humana",
+        "Kaiser Permanente",
+        "UnitedHealthcare",
+        "HHS",
+        "CMS",
+        "prior authorization"
+      ],
+      "note": "Stated as uncertainty, but the purity-pledge analogy ('reluctant teenage boys asked to hold out till marriage') implies an expectation that plans will not keep the pledges."
+    },
+    {
+      "post_slug": "a-mini-tender-offer-for-unitedhealth",
+      "quote": "This probably works pretty well for them—a lot of people aren't paying attention, and people have heard United is not doing well on the news.",
+      "context": "Podcast post on Tutanota LLC's mini-tender offer to buy one percent of UnitedHealth Group at $325 a share, a price that only executes if the market price exceeds $325 at closing. The author explains the scheme profits from inattentive shareholders and judges that it probably works well for Tutanota, given negative news about United and a share price near $300.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "probably",
+      "entities": [
+        "Tutanota LLC",
+        "UnitedHealth Group",
+        "UnitedHealthcare",
+        "Bank of America",
+        "Intel",
+        "Home Depot"
+      ],
+      "note": "Borderline: assessment of an ongoing scheme; the outcome of the current UNH offer lies after the post date. Also 'And it probably works!'."
+    },
+    {
+      "post_slug": "transcranial-focused-ultrasound-tfus-578",
+      "quote": "It could heal deep regions of the brain that have required surgery in the past, non-invasively. It could do a lot of things.",
+      "context": "Post introducing transcranial focused ultrasound (tFUS) as Jay Sanguinetti's company Sanmai leaves stealth. The author says tFUS could non-invasively heal deep brain regions that previously required surgery, and could do many other things.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "could",
+      "entities": [
+        "tFUS",
+        "Sanmai",
+        "Jay Sanguinetti"
+      ],
+      "note": "Capability claim about an emerging modality; no date."
+    },
+    {
+      "post_slug": "transcranial-focused-ultrasound-tfus-578",
+      "quote": "It might heal depression, as we see in this graphic from a recent RCT",
+      "context": "Same tFUS post. Hedged call that tFUS might treat depression, citing a graphic from a recent randomized controlled trial (not reproduced in the text).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "might",
+      "entities": [
+        "tFUS",
+        "Sanmai"
+      ],
+      "note": "Hedged efficacy call; the cited RCT graphic is not in the text."
+    },
+    {
+      "post_slug": "transcranial-focused-ultrasound-tfus-578",
+      "quote": "It might heal anxiety",
+      "context": "Same tFUS post. Hedged call that tFUS might treat anxiety, supported by a quoted pilot study of low-intensity focused ultrasound in treatment-resistant generalized anxiety disorder (Mahdavi et al., 2023; 32 percent remission).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "might",
+      "entities": [
+        "tFUS",
+        "Sanmai",
+        "Mahdavi et al. 2023",
+        "generalized anxiety disorder"
+      ],
+      "note": "Hedged efficacy call based on a small pilot study."
+    },
+    {
+      "post_slug": "transcranial-focused-ultrasound-tfus-578",
+      "quote": "It might heal PTSD ... And dozens of other brain disorders besides.",
+      "context": "Same tFUS post. Hedged call that tFUS might treat PTSD (citing Barksdale et al., 2025, amygdala neuromodulation) and dozens of other brain disorders.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "might",
+      "entities": [
+        "tFUS",
+        "Sanmai",
+        "Barksdale et al. 2025",
+        "PTSD"
+      ],
+      "note": "Quote joins two adjacent lines separated by a footnote marker and a graphic. Broad, undated call."
+    },
+    {
+      "post_slug": "are-brain-circuits-driving-depression",
+      "quote": "Along with senior author and future Nobel prize recipient Nolan Williams, M.D.",
+      "context": "Opening paragraph of a post on lesion-network mapping and H-coil TMS placement. In passing, the author calls Nolan Williams (senior author of the SNT/SAINT trial, 79 percent remission) a 'future Nobel prize recipient'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "future",
+      "confidence_phrase": "future",
+      "entities": [
+        "Nolan Williams",
+        "SAINT",
+        "SNT trial",
+        "Nobel Prize",
+        "Stanford"
+      ],
+      "note": "Reads as admiring hyperbole but is a literal forward-looking call; sincerity uncertain. Author is an investigator on a SAINT post-marketing study."
+    },
+    {
+      "post_slug": "are-brain-circuits-driving-depression",
+      "quote": "What Shan’s data suggest is that we can do even better if we place these coils in just the right spot.",
+      "context": "After reviewing Baldi and Siddiqi's retrospective McLean Hospital study (Neuropsychopharmacology 2025) showing that H1-coil e-field overlap with a causal depression circuit correlates with dTMS response (r = 0.41), the author asserts that outcomes can be improved beyond the 78 percent remission of the accelerated TMS trial if coils are placed in the right spot.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "suggest is that we can",
+      "entities": [
+        "Shan Siddiqi (spelled 'Siqqiqi' in post)",
+        "Samantha Baldi",
+        "McLean Hospital",
+        "H1 coil",
+        "dTMS",
+        "BrainsWay",
+        "Harvard"
+      ],
+      "note": "Conditional on precise coil placement; based on retrospective data that the study authors say needs prospective validation."
+    },
+    {
+      "post_slug": "are-brain-circuits-driving-depression",
+      "quote": "It is also plausible that this coil placement could be determined for H-coils at a lower cost and with more available structural MRI options versus expensive fMRI.",
+      "context": "Same post. The author says it is plausible that optimal H-coil placement could be determined with cheaper, more available structural MRI instead of the expensive fMRI neuronavigation that SAINT requires.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "plausible ... could",
+      "entities": [
+        "H-coil",
+        "dTMS",
+        "structural MRI",
+        "fMRI",
+        "SAINT"
+      ],
+      "note": "Hedged technology and cost call; no date."
+    },
+    {
+      "post_slug": "are-brain-circuits-driving-depression",
+      "quote": "More work needs to be done, but depression may be a solved problem for the vast majority of people shortly, if only insurance keeps up.",
+      "context": "Closing line of the post. After the accelerated TMS trial (87.8 percent response, 78.0 percent remission) and the circuit-targeting data, the author says depression may be a solved problem for the vast majority of people 'shortly', conditional on insurance keeping up.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "shortly",
+      "confidence_phrase": "may be",
+      "entities": [
+        "TMS",
+        "dTMS",
+        "BrainsWay",
+        "insurance",
+        "depression"
+      ],
+      "note": "Big-picture call; conditional on payer coverage; 'shortly' is undated."
+    },
+    {
+      "post_slug": "i-finally-wrote-an-opening-chapter",
+      "quote": "some fiction, which begins a book—a novel—I may or may not keep working on.",
+      "context": "Post in which the author publishes the opening chapter of a novel. He says he may or may not keep working on the book and asks readers to be his accountability buddies.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "may or may not",
+      "entities": [
+        "Owen Muir",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-activity, maximally hedged; low forecast value. Coder may mark CONTROL. The fictional chapter itself holds no sincere forecasts."
+    }
+  ]
+}

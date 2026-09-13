@@ -1,0 +1,832 @@
+{
+ "packet": "code-47.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-2110",
+   "forecaster": "owen",
+   "statement_date": "2026-02-27",
+   "quote": "This is why I think time-to-event trials in bipolar disorder are great. My dream outcome measure is time-to-girlfriend. ... It would work in schizophrenia, too!",
+   "context": "Interview with Ahmed Tahseen, section 'Time-to-Event Trials and the Outcomes That Matter'. The author argues for time-to-event endpoints (time to romantic relationship, time to job, time to feeling okay) in bipolar disorder trials and asserts the same design would work in schizophrenia trials; he imagines a fictional drug 'Goplexitol' improving time to relationship by 3.1 months.",
+   "post_title": "Ahmed Tahseen, M.D. on Bipolar Mania, Clinical Trials, and Friendship's Role in Getting Well",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ahmed-tahseen-md-on-bipolar-mania",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "would work",
+   "entities": [
+    "Ahmed Tahseen"
+   ],
+   "finder_note": "Borderline: hypothetical trial-design claim (time-to-event endpoints would work in schizophrenia), not a dated call. The 'Goplexitol' ad is a joke."
+  },
+  {
+   "id": "owen-2113",
+   "forecaster": "owen",
+   "statement_date": "2026-03-03",
+   "quote": "The posterior of the head—where the precuneous lives, is lightly enervated and has precious little muscle to worry about contracting. It might prove more effective and almost certainly would be more tolerable.",
+   "context": "The author's editorial note after Leucter's talk: right OFC targets are painful; the precuneus and posterior cingulate at the back of the head are lightly innervated. The author predicts a posterior midline (precuneus) target might prove more effective than OFC and would almost certainly be more tolerable.",
+   "post_title": "Three Perspectives on Personalizing TMS Targets",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/three-perspectives-on-personalizing",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might prove ... almost certainly",
+   "entities": [
+    "Andy Leucter"
+   ],
+   "finder_note": "Compound: hedged efficacy call plus near-certain tolerability call for a target not yet in clinical use."
+  },
+  {
+   "id": "owen-2115",
+   "forecaster": "owen",
+   "statement_date": "2026-03-03",
+   "quote": "There is a clinical signal potentially sitting in this unmapped territory, and the field has largely walked past it.",
+   "context": "Close of the Hanlon talk summary on the midline strip: after 177 trials, large portions of the midline remain unstudied, and tolerability mapping shows most zones are well tolerated. The author's summary asserts a clinical signal potentially exists in the unstudied midline zones.",
+   "post_title": "Three Perspectives on Personalizing TMS Targets",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/three-perspectives-on-personalizing",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "potentially",
+   "entities": [
+    "Colleen Hanlon"
+   ],
+   "finder_note": "Author's summary of Hanlon's closing; he restates it in his own voice in the 2026-03-10 post."
+  },
+  {
+   "id": "owen-2116",
+   "forecaster": "owen",
+   "statement_date": "2026-03-03",
+   "quote": "these are all pieces of a future precision psychiatry workflow that does not yet fully exist.",
+   "context": "'A Pattern Worth Naming' section. The author lists Zangen's symptom clusters, evoked-response predictors, connectivity-based individualization and Leucter's measurement-based augmentation as pieces of a future precision psychiatry workflow for TMS target selection.",
+   "post_title": "Three Perspectives on Personalizing TMS Targets",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/three-perspectives-on-personalizing",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Abraham Zangen",
+    "Andy Leucter"
+   ],
+   "finder_note": "Implies such a workflow will be built; borderline."
+  },
+  {
+   "id": "owen-2117",
+   "forecaster": "owen",
+   "statement_date": "2026-03-03",
+   "quote": "The midline, it turns out, is not just the space between the targets we already know. It’s where the next generation of the field is likely to be built.",
+   "context": "Closing line of the post. The author predicts the next generation of TMS and neuromodulation will be built on midline (medial and frontopolar) cortical targets.",
+   "post_title": "Three Perspectives on Personalizing TMS Targets",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/three-perspectives-on-personalizing",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "Author's own field-direction call."
+  },
+  {
+   "id": "owen-2118",
+   "forecaster": "owen",
+   "statement_date": "2026-03-05",
+   "quote": "Because now a lot of users might start making accounts pretending to be way older than they actually are. And no age check actually works, because they just get their parents to do it for them.” I want to pause here, because this is correct. The circumvention literature on age-gating bears it out.",
+   "context": "Interview with the author's daughter Quinn (9) about appearing on the Hard Fork podcast. On Australia's ban of social platforms for young users, Quinn predicts users will make accounts claiming to be older and that no age check works because parents complete it. The author endorses this ('this is correct'), then asks 'So you think the Australia ban is going to backfire?' and she answers 'Yeah.'",
+   "post_title": "I Let My 9-Year-Old Make Her Case for Being on HardFork.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-let-my-9-year-old-make-her-case",
+   "area_guess": "other",
+   "horizon_text": "now",
+   "confidence_phrase": "might start",
+   "entities": [
+    "Australia (under-age social media ban)",
+    "Google",
+    "Hard Fork",
+    "Quinn Muir"
+   ],
+   "finder_note": "Daughter's claim adopted by the author ('this is correct'). Compound: age-check circumvention plus the ban will backfire. Tech policy, not psychiatry."
+  },
+  {
+   "id": "owen-2121",
+   "forecaster": "owen",
+   "statement_date": "2026-03-08",
+   "quote": "Today, he brings us part one of a series on “how to open a TMS clinic.”",
+   "context": "Owen's editorial intro to Ben Spielberg's guest column on opening a TMS clinic. He frames it as part one of a series, implying further installments in this newsletter.",
+   "post_title": "How to Open a Transcranial Magnetic Stimulation (TMS) Clinic",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-open-a-transcranial-magnetic",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Ben Spielberg",
+    "The Frontier Psychiatrists",
+    "Stella",
+    "Soulstice"
+   ],
+   "finder_note": "Implicit newsletter-programming promise that the series continues; guest author later promises part 2 on staffing."
+  },
+  {
+   "id": "owen-2128",
+   "forecaster": "owen",
+   "statement_date": "2026-03-10",
+   "quote": "supporting the idea that connectivity mapping could one day guide not just target selection but coil orientation and dosing as well.",
+   "context": "Individualization section. In a sixty-participant fMRI study, frontopolar-to-reward connectivity predicted cue reactivity. The author says this supports the idea that connectivity mapping could one day guide target selection, coil orientation and dosing.",
+   "post_title": "Mapping the Untapped Frontier of Midline Brain Stimulation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mapping-the-untapped-frontier-of",
+   "area_guess": "practice_adoption",
+   "horizon_text": "one day",
+   "confidence_phrase": "could one day",
+   "entities": [],
+   "finder_note": "Relays the presenter's idea in the author's own framing."
+  },
+  {
+   "id": "owen-2129",
+   "forecaster": "owen",
+   "statement_date": "2026-03-10",
+   "quote": "The midline story suggests there may be a significant clinical signal sitting right in front of us — or rather, right above the nasion.",
+   "context": "'What Nobody Has Tried Yet' section. Large portions of the midline strip are unstudied after 177 trials and tolerability probing shows most zones are tolerable; the author suggests a significant clinical signal may sit in the unstimulated midline cortex.",
+   "post_title": "Mapping the Untapped Frontier of Midline Brain Stimulation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mapping-the-untapped-frontier-of",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may be",
+   "entities": [],
+   "finder_note": "Restates the 2026-03-03 post's claim in the author's own voice."
+  },
+  {
+   "id": "owen-2131",
+   "forecaster": "owen",
+   "statement_date": "2026-03-10",
+   "quote": "For those of us in interventional psychiatry, the midline is no longer just the space between the targets we already know. It may be the next frontier!",
+   "context": "Closing line. The author's hedged call that midline cortical targets may be the next frontier of interventional psychiatry.",
+   "post_title": "Mapping the Untapped Frontier of Midline Brain Stimulation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mapping-the-untapped-frontier-of",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may be",
+   "entities": [],
+   "finder_note": "Restatement of the 2026-03-03 closing call, hedged from 'likely' to 'may'."
+  },
+  {
+   "id": "owen-2132",
+   "forecaster": "owen",
+   "statement_date": "2026-03-12",
+   "quote": "No longer can we consider fiddling with medicines a job. That is right—psychopharmacology is already dead, it just might take a while to stop wiggling.",
+   "context": "Owen's manifesto introducing Brain Medicine: he declares psychopharmacology (medication-fiddling as the job of psychiatry) dead, with its decline taking a while to become visible.",
+   "post_title": "Introducing Brain Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/introducing-brain-medicine-and-open",
+   "area_guess": "practice_adoption",
+   "horizon_text": "a while",
+   "confidence_phrase": "already dead; might take a while",
+   "entities": [],
+   "finder_note": "Negative call on psychopharmacology as a practice; hyperbolic but sincere framing."
+  },
+  {
+   "id": "owen-2133",
+   "forecaster": "owen",
+   "statement_date": "2026-03-12",
+   "quote": "So too with “chemical imbalances” fixed with chemicals. These will go the way of humoral imbalances, addressed with bloodletting.",
+   "context": "Owen compares the chemical-imbalance model of mental illness to the four humors and predicts it will be abandoned like humoral theory and bloodletting.",
+   "post_title": "Introducing Brain Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/introducing-brain-medicine-and-open",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Call that the chemical-imbalance explanatory model and chemical fixes will be discarded."
+  },
+  {
+   "id": "owen-2135",
+   "forecaster": "owen",
+   "statement_date": "2026-03-12",
+   "quote": "An etiological approach will continue to shift more psychiatric patients to the care of neurologists who are untrained in psychiatric management. At the same time, this new era of diagnostic biomarkers and neuroscience-based precision treatments requires skills not readily available to those trained in psychiatry.",
+   "context": "Block quote from Josh Brown, M.D., which Owen presents as the definition of Brain Medicine, the new framework he is unveiling: neurology and psychiatry converge and psychiatric patients shift to neurologists.",
+   "post_title": "Introducing Brain Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/introducing-brain-medicine-and-open",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "inevitably; will continue",
+   "entities": [
+    "Josh Brown, M.D."
+   ],
+   "finder_note": "Quoted third party (Josh Brown); author adopts the framework ('thanks to Josh Brown') so logged as endorsed restatement."
+  },
+  {
+   "id": "owen-2136",
+   "forecaster": "owen",
+   "statement_date": "2026-03-12",
+   "quote": "This is happening again. It’s called Brain Medicine , thanks to Josh Brown, M.D:",
+   "context": "After describing how new medical specialties (sleep medicine, emergency medicine) form when a domain becomes specialized, Owen asserts the same is happening now with Brain Medicine as a new discipline.",
+   "post_title": "Introducing Brain Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/introducing-brain-medicine-and-open",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Josh Brown, M.D."
+   ],
+   "finder_note": "Present-progressive framing; implied call is that Brain Medicine becomes a recognized specialty. Author adds 'And it's here, already.'"
+  },
+  {
+   "id": "owen-2137",
+   "forecaster": "owen",
+   "statement_date": "2026-03-13",
+   "quote": "More about the remarkable Mr. Athens, dear readers, soon.",
+   "context": "Owen closes the essay about his father's stroke by promising a future newsletter piece about his cousin Chris Athens.",
+   "post_title": "The Luckiest Stroke of All Time",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-luckiest-stroke-of-all-time",
+   "area_guess": "other",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "Chris Athens"
+   ],
+   "finder_note": "Newsletter content promise."
+  },
+  {
+   "id": "owen-2138",
+   "forecaster": "owen",
+   "statement_date": "2026-03-19",
+   "quote": "The most important reason, though, is that I’m highly likely to be involved as a voice in the regulatory process. I’ve been to the FDA three times this year already, and my concern is whether I’m giving up some of my credibility as a scientist.",
+   "context": "Tricycle Day interview excerpt: Owen explains why he has never taken psychedelics, saying he is highly likely to be involved as a voice in the psychedelic regulatory process (he has been to the FDA three times this year).",
+   "post_title": "I Did A Guest Psychonaut POV Interview...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-a-guest-psychonaut-pov-interview",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "highly likely",
+   "entities": [
+    "FDA",
+    "Tricycle Day",
+    "Radial"
+   ],
+   "finder_note": "Call about the author's own future role in psychedelic regulation."
+  },
+  {
+   "id": "owen-2139",
+   "forecaster": "owen",
+   "statement_date": "2026-03-19",
+   "quote": "“By significantly reducing the time and travel, and improving time to remission, accelerated protocols like SWIFT may help more patients start and complete safe and effective treatment,” said Radial Chief Medical Officer and Co-founder Owen Muir, MD, in a statement.",
+   "context": "Owen's own statement to HCP Live, quoted in his media-hits list, about the SWIFT accelerated dTMS protocol for MDD at Radial helping more patients start and complete treatment.",
+   "post_title": "I Did A Guest Psychonaut POV Interview...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-a-guest-psychonaut-pov-interview",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "SWIFT",
+    "Radial",
+    "dTMS",
+    "HCP Live"
+   ],
+   "finder_note": "Author's press statement about his own organization's protocol (Radial); quoted from HCP Live."
+  },
+  {
+   "id": "owen-2140",
+   "forecaster": "owen",
+   "statement_date": "2026-03-19",
+   "quote": "I’ll be attending the BRaSS Summit next week and speaking at many events soon, including RAMHT SF MAY 2026.",
+   "context": "Owen's closing schedule note: attending the BRaSS Summit next week and speaking at events including RAMHT SF in May 2026.",
+   "post_title": "I Did A Guest Psychonaut POV Interview...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-a-guest-psychonaut-pov-interview",
+   "area_guess": "other",
+   "horizon_text": "next week; soon; MAY 2026",
+   "confidence_phrase": "I’ll be",
+   "entities": [
+    "BRaSS Summit",
+    "RAMHT"
+   ],
+   "finder_note": "Author's own schedule; RAMHT is an author-affiliated organization."
+  },
+  {
+   "id": "owen-2143",
+   "forecaster": "owen",
+   "statement_date": "2026-03-20",
+   "quote": "April 15th, there’s a community launch event specifically to rally support for keeping Caravan of Dreams open — mark it down .",
+   "context": "Owen announces an April 15 community launch event to support Caravan of Dreams, the East 6th Street vegan restaurant at risk of closing that hosts the Sunday maker space.",
+   "post_title": "From Peru to OpenClaw: One Nurse's Journey to the Frontier of Community and AI ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/from-peru-to-openclaw-one-nurses",
+   "area_guess": "other",
+   "horizon_text": "April 15th",
+   "confidence_phrase": "none",
+   "entities": [
+    "Caravan of Dreams"
+   ],
+   "finder_note": "Event announcement; the setup states the restaurant is at risk of closing."
+  },
+  {
+   "id": "owen-2145",
+   "forecaster": "owen",
+   "statement_date": "2026-03-20",
+   "quote": "Claude code could also recreate Luma entirely.",
+   "context": "In dialogue about AI agents handling community logistics like recurring Luma invites, Owen speculates that Claude Code could recreate the Luma event platform entirely; Michelle agrees an independent Luma is possible.",
+   "post_title": "From Peru to OpenClaw: One Nurse's Journey to the Frontier of Community and AI ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/from-peru-to-openclaw-one-nurses",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "Claude Code",
+    "Luma",
+    "Palantir"
+   ],
+   "finder_note": "Capability speculation rather than a dated call; borderline."
+  },
+  {
+   "id": "owen-2147",
+   "forecaster": "owen",
+   "statement_date": "2026-03-21",
+   "quote": "I’m working on a book I can’t publish anytime soon",
+   "context": "Owen explains that the interview with his mother Vita is part of a book he is writing, which he cannot publish anytime soon; he is using Claude to rearrange his writing.",
+   "post_title": "Life, Death, and Equanimity.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/life-death-and-equanimity",
+   "area_guess": "other",
+   "horizon_text": "anytime soon",
+   "confidence_phrase": "can’t",
+   "entities": [
+    "Vita Muir",
+    "Claude"
+   ],
+   "finder_note": "Negative near-term call about the author's own book publication."
+  },
+  {
+   "id": "owen-2148",
+   "forecaster": "owen",
+   "statement_date": "2026-03-21",
+   "quote": "This interview will show up again, transfigured, in future writing.",
+   "context": "Owen says the grief interview with his mother Vita will reappear, reworked, in his future writing (the book).",
+   "post_title": "Life, Death, and Equanimity.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/life-death-and-equanimity",
+   "area_guess": "other",
+   "horizon_text": "future writing",
+   "confidence_phrase": "will",
+   "entities": [
+    "Vita Muir"
+   ],
+   "finder_note": "Author's own writing plan."
+  },
+  {
+   "id": "owen-2152",
+   "forecaster": "owen",
+   "statement_date": "2026-03-25",
+   "quote": "As I’ve written before, Josh Brown wrote about the coming of Brain Medicine, and he’s really on to something. Just a few years back, Drs. Nolan Williams and Shan Siddiqi saw the need for a new intersectional discipline in medicine. They decided to make it happen.",
+   "context": "Opening of the author's report from the Brain Stimulation as a Subspecialty Symposium (BRaSSS). The author endorses Josh Brown's forecast that 'Brain Medicine' is coming as a discipline, linking it to Nolan Williams and Shan Siddiqi's push for a new intersectional specialty; he adds that Helen Mayberg is a giant in 'the field that isn’t even officially a field yet'.",
+   "post_title": "She Found the Spot",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/she-found-the-spot",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "he’s really on to something",
+   "entities": [
+    "Josh Brown",
+    "Nolan Williams",
+    "Shan Siddiqi",
+    "Helen Mayberg",
+    "BRaSSS"
+   ],
+   "finder_note": "Endorsed restatement of Josh Brown's forecast; the author says he has written this before."
+  },
+  {
+   "id": "owen-2155",
+   "forecaster": "owen",
+   "statement_date": "2026-03-27",
+   "quote": "Yours truly, furiously taking notes on the future anyway!",
+   "context": "Bracketed aside right after Brandon Bentzley (Magnus Medical, Salma Health) stresses that the personalized continuation protocol (wearable monitoring plus rescue days of SAINT) is experimental and carries no FDA label. The author signals he regards closed-loop SAINT continuation as the future of treatment-resistant depression care.",
+   "post_title": "Wait, Automated, Personalized Remission with SAINT Might Be A Thing?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/wait-automated-personalized-remission",
+   "area_guess": "practice_adoption",
+   "horizon_text": "the future",
+   "confidence_phrase": "none",
+   "entities": [
+    "Brandon Bentzley",
+    "Magnus Medical",
+    "Salma Health",
+    "SAINT",
+    "FDA"
+   ],
+   "finder_note": "Borderline: jocular aside with an implicit expectation and no specific claim."
+  },
+  {
+   "id": "owen-2156",
+   "forecaster": "owen",
+   "statement_date": "2026-03-27",
+   "quote": "You can see Salma, Radial, Definium, NRx, Beckley Clinical, Ampa, SimplePractice, GrayMatters Health, MDhub, Psyrin, and more teams speak live and in person on the first night of the APA annual meeting at RAMHT 2026 SF—May Edition!",
+   "context": "Closing promotion. The author's own event, RAMHT 2026 San Francisco (May edition), is scheduled for the first night of the APA annual meeting, with the listed companies speaking.",
+   "post_title": "Wait, Automated, Personalized Remission with SAINT Might Be A Thing?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/wait-automated-personalized-remission",
+   "area_guess": "other",
+   "horizon_text": "on the first night of the APA annual meeting at RAMHT 2026 SF—May Edition",
+   "confidence_phrase": "You can see",
+   "entities": [
+    "RAMHT",
+    "APA",
+    "Salma Health",
+    "Radial",
+    "Definium",
+    "NRx",
+    "Beckley Clinical",
+    "Ampa",
+    "SimplePractice",
+    "GrayMatters Health",
+    "MDhub",
+    "Psyrin"
+   ],
+   "finder_note": "Author's own organization (RAMHT, Radial, Ampa, Psyrin); event and speaker lineup commitment."
+  },
+  {
+   "id": "owen-2158",
+   "forecaster": "owen",
+   "statement_date": "2026-03-29",
+   "quote": "The collaboration has already yielded one accepted publication, but you will have to join Radial at CTMSS to read more.",
+   "context": "Closing note. The Radial and Mount Sinai (Figee, Kopell) DBS collaboration has an accepted publication; the author says Radial will present it at the CTMSS meeting, where a Radial poster was accepted.",
+   "post_title": "Dr. Martijn Figee on the Psychiatry-Neurosurgery Collaboration that is Changing Everything",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-martijn-figee-on-the-psychiatry",
+   "area_guess": "other",
+   "horizon_text": "at CTMSS",
+   "confidence_phrase": "will have to",
+   "entities": [
+    "Radial",
+    "CTMSS",
+    "Mount Sinai",
+    "Martijn Figee",
+    "Brian Kopell"
+   ],
+   "finder_note": "Author's own organization (Radial); conference presentation commitment."
+  },
+  {
+   "id": "owen-2159",
+   "forecaster": "owen",
+   "statement_date": "2026-03-31",
+   "quote": "It is now pretty clear to me that AI is going to be a huge technology. Chatbots are good, but agents? Holy cow.",
+   "context": "After arguing that AI companies have thin margins and subsidize users, the author reports that Claude Code fixed the image files for his book Inessential Pharmacology, and concludes that AI, especially agentic AI, will be a huge technology.",
+   "post_title": "AI Won't Replace Me!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ai-wont-replace-me",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "pretty clear to me that ... is going to be",
+   "entities": [
+    "Claude Code",
+    "Nvidia",
+    "Meta"
+   ],
+   "finder_note": "Post title is 'AI Won’t Replace Me!'. The essay's economics section calls AI profitability an open question before this reversal."
+  },
+  {
+   "id": "owen-2160",
+   "forecaster": "owen",
+   "statement_date": "2026-03-31",
+   "quote": "AI will absolutely replace a lot of things I do every day, but I would rather not be doing. It is already doing so. That will, predictably, change me.",
+   "context": "The author predicts AI will take over many of his own daily tasks (the tedious ones) and that this will change him, in tension with the post title 'AI Won’t Replace Me!'.",
+   "post_title": "AI Won't Replace Me!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ai-wont-replace-me",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will absolutely ... predictably",
+   "entities": [
+    "Claude Code"
+   ],
+   "finder_note": "Compound: task replacement plus personal change."
+  },
+  {
+   "id": "owen-2161",
+   "forecaster": "owen",
+   "statement_date": "2026-03-31",
+   "quote": "And it will change you, and it will change our kids. It will replace us with our future selves, who will have to think hard to imagine how it used to be. Savor this moment, the end of an era—it will never be so hard to do boring things ever again.",
+   "context": "Continuation of the AI essay; the author extends the prediction to readers and to his 9-year-old twins: AI will change everyone so much that the pre-AI way of working will be hard to imagine.",
+   "post_title": "AI Won't Replace Me!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ai-wont-replace-me",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Broad societal claim with no date."
+  },
+  {
+   "id": "owen-2162",
+   "forecaster": "owen",
+   "statement_date": "2026-03-31",
+   "quote": "Savor this moment, the end of an era—it will never be so hard to do boring things ever again.",
+   "context": "The author declares the present the end of an era: because of agentic AI, tedious tasks will never again be as hard as they are now.",
+   "post_title": "AI Won't Replace Me!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ai-wont-replace-me",
+   "area_guess": "other",
+   "horizon_text": "never ... ever again",
+   "confidence_phrase": "will never",
+   "entities": [],
+   "finder_note": "Negative absolute call ('never')."
+  },
+  {
+   "id": "owen-2168",
+   "forecaster": "owen",
+   "statement_date": "2026-04-06",
+   "quote": "You can even comment guessing who you think the company is, and I'm never gonna confirm or deny the answer.",
+   "context": "Introduction to a post recounting a peer-to-peer review call with an unnamed reviewer at a redacted insurance company. The author keeps the insurer's identity secret and states he will never confirm or deny reader guesses about which company it is.",
+   "post_title": "I Apparently Failed to Obtain Prior Authorization to Learn My \"Peer Reviewer's\" Identity.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-apparently-failed-to-obtain-prior",
+   "area_guess": "other",
+   "horizon_text": "never",
+   "confidence_phrase": "never gonna",
+   "entities": [
+    "Owen Muir"
+   ],
+   "finder_note": "Trivial statement of the author's own future conduct in a playful frame; low forecast value."
+  },
+  {
+   "id": "owen-2170",
+   "forecaster": "owen",
+   "statement_date": "2026-04-07",
+   "quote": "I have another live event coming up, Rapid Acting Mental Health Treatment, a.k.a. RAMHT 2026 APA . It's happening on May 16th, in San Francisco, and you can get your tickets now.",
+   "context": "Opening paragraph of a post recommending the Drug Story podcast. The author announces his own live event RAMHT 2026 APA (co-created with Grady Hannah) for May 16, 2026 in San Francisco.",
+   "post_title": "I Really Like This Podcast Called \"Drug Story\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-really-like-this-podcast-called",
+   "area_guess": "other",
+   "horizon_text": "May 16th",
+   "confidence_phrase": "It's happening",
+   "entities": [
+    "RAMHT",
+    "Owen Muir",
+    "Grady Hannah",
+    "American Psychiatric Association"
+   ],
+   "finder_note": "Own-event announcement; CONTROL candidate. Restated in posts 6, 7, 8, 9 and 11 of this packet."
+  },
+  {
+   "id": "owen-2171",
+   "forecaster": "owen",
+   "statement_date": "2026-04-07",
+   "quote": "Neurolief raises another $6M from lead investor BrainsWay to bring ProlivRx to market.",
+   "context": "Bullet in a list of 'recent media hits' at the end of the post. Neurolief (the author is its Chief Medical Officer) raised $6M from BrainsWay; the stated purpose is to bring the ProlivRx at-home neuromodulation device to market.",
+   "post_title": "I Really Like This Podcast Called \"Drug Story\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-really-like-this-podcast-called",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Neurolief",
+    "BrainsWay",
+    "ProlivRx"
+   ],
+   "finder_note": "Purpose clause in a news bullet, not an explicit prediction; own organization (CONTROL candidate)."
+  },
+  {
+   "id": "owen-2172",
+   "forecaster": "owen",
+   "statement_date": "2026-04-07",
+   "quote": "have joined the club as sponsors (among others to be announced!) of our next events",
+   "context": "Closing paragraph about RAMHT, 'the live-action version of this newsletter'. The author lists Salma Health, Beckley Clinical, NRx, Graymatters Health, Ampa Health, Simple Practice, Emobot, Psyrin, Videra Health and Definium Therapeutics as sponsors of the next RAMHT events and says more sponsors will be announced.",
+   "post_title": "I Really Like This Podcast Called \"Drug Story\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-really-like-this-podcast-called",
+   "area_guess": "other",
+   "horizon_text": "next events",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Salma Health",
+    "Beckley Clinical",
+    "NRx",
+    "Graymatters Health",
+    "Ampa Health",
+    "Simple Practice",
+    "Emobot",
+    "Psyrin",
+    "Videra Health",
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Own-event sponsorship claim plus a promise of further sponsor announcements; CONTROL candidate."
+  },
+  {
+   "id": "owen-2173",
+   "forecaster": "owen",
+   "statement_date": "2026-04-07",
+   "quote": "We will be bringing more tools for advocacy to the masses!",
+   "context": "Final sentence of the RAMHT sponsor paragraph. The author promises that RAMHT/the newsletter will bring more advocacy tools to a broad audience.",
+   "post_title": "I Really Like This Podcast Called \"Drug Story\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-really-like-this-podcast-called",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "RAMHT",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Vague own-activity promise; low forecast value."
+  },
+  {
+   "id": "owen-2174",
+   "forecaster": "owen",
+   "statement_date": "2026-04-09",
+   "quote": "I had a blast working with Rob on this article, and there's more to come from us",
+   "context": "After excerpting a Healio article on ketamine and AMPA receptor PET imaging co-written with Rob Glatter, M.D., the author says more co-authored work from the two of them is coming.",
+   "post_title": "Writing Together is a Great Way to Make Friends",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/writing-together-is-a-great-way-to",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "there's more to come",
+   "entities": [
+    "Owen Muir",
+    "Rob Glatter",
+    "Healio"
+   ],
+   "finder_note": "Own-activity promise; low forecast value."
+  },
+  {
+   "id": "owen-2175",
+   "forecaster": "owen",
+   "statement_date": "2026-04-10",
+   "quote": "Dear readers, I am trying to get Trent to chime in also. It is likely to take your urging as well.",
+   "context": "Introduction to an interview with the author's daughter Quinn on her 10th birthday. The author wants his son Trent to appear in the newsletter too and predicts it will take readers' urging to make that happen.",
+   "post_title": "An Interview with My Daughter Two Days Before She Turns 10",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-interview-with-my-daughter-two",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Trent Muir",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Personal/family item; hedged; low forecast value."
+  },
+  {
+   "id": "owen-2176",
+   "forecaster": "owen",
+   "statement_date": "2026-04-13",
+   "quote": "I am very aware this is not going to be the kind of birthday they want much longer.",
+   "context": "Opening of a family essay. The author's twins chose to spend their 10th birthday with their parents instead of a party with friends; he predicts they will not want that kind of birthday for much longer.",
+   "post_title": "Humility v. Ambition in My Ten-Year-Old Twins",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/humility-v-ambition-in-my-ten-year",
+   "area_guess": "other",
+   "horizon_text": "much longer",
+   "confidence_phrase": "is not going to be",
+   "entities": [
+    "Trent Muir",
+    "Quinn Muir"
+   ],
+   "finder_note": "Personal/family prediction; not resolvable from public sources."
+  },
+  {
+   "id": "owen-2177",
+   "forecaster": "owen",
+   "statement_date": "2026-04-13",
+   "quote": "This excuse is going to run out quickly.",
+   "context": "The author's son Trent declines to use a knife for dinner prep, saying 'Come on, Dad, I'm not even 10!' The author predicts this excuse will stop working soon because Trent has just turned 10.",
+   "post_title": "Humility v. Ambition in My Ten-Year-Old Twins",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/humility-v-ambition-in-my-ten-year",
+   "area_guess": "other",
+   "horizon_text": "quickly",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "Trent Muir"
+   ],
+   "finder_note": "Personal/family remark; trivial."
+  },
+  {
+   "id": "owen-2179",
+   "forecaster": "owen",
+   "statement_date": "2026-04-14",
+   "quote": "On May 16, 2026, on the first night of the American Psychiatric Association Annual Meeting, we return to San Francisco to have rapid conversations about rapid-acting treatments and assessments.",
+   "context": "Promotional post for RAMHT (Rapid-Acting Mental Health Treatment), 'a Grady Hannah and The Frontier Psychiatrists production'. The author states the event returns to San Francisco on May 16, 2026, the first night of the APA Annual Meeting.",
+   "post_title": "Rapid-Acting Mental Health Treatment Returns on May 16, 2026!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-bd4",
+   "area_guess": "other",
+   "horizon_text": "On May 16, 2026",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Grady Hannah",
+    "American Psychiatric Association",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-event date announcement; CONTROL candidate; restates the May 16 date given in post 2."
+  }
+ ]
+}

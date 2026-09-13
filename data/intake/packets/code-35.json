@@ -1,0 +1,831 @@
+{
+ "packet": "code-35.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1568",
+   "forecaster": "owen",
+   "statement_date": "2025-02-07",
+   "quote": "We don't have a regular family dinner every other night all week, sure , because between the two doctors who are these children's parents, there's just no way that's gonna happen anytime soon.",
+   "context": "Parenting essay. The author says his household has Sunday dinner but no regular weeknight family dinner, and predicts that will not change anytime soon because both parents are doctors.",
+   "post_title": "Advice For Dads",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/advice-for-dads",
+   "area_guess": "other",
+   "horizon_text": "anytime soon",
+   "confidence_phrase": "no way that's gonna happen",
+   "entities": [
+    "Owen Muir"
+   ],
+   "finder_note": "Personal household prediction; low forecast value."
+  },
+  {
+   "id": "owen-1569",
+   "forecaster": "owen",
+   "statement_date": "2025-02-07",
+   "quote": "But show up for something, no matter how literally pedestrian, regularly. That way, when it matters, you will have some credibility.",
+   "context": "Closing advice to fathers: do something with your kids regularly (the author walks his twins to school every day). Conditional prediction that regular presence yields credibility when the important moments come.",
+   "post_title": "Advice For Dads",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/advice-for-dads",
+   "area_guess": "other",
+   "horizon_text": "when it matters",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Parenting advice with a conditional predictive reading; generic life claim, low forecast value."
+  },
+  {
+   "id": "owen-1570",
+   "forecaster": "owen",
+   "statement_date": "2025-02-07",
+   "quote": "This Thursday, we have the next hearing in that court case.",
+   "context": "Closing of the essay about dentist Dr. Jonathan Okon. The author says he filed a suit against the mother of a former patient who has harassed him for years, and that the next hearing is this Thursday (post dated Friday 2025-02-07).",
+   "post_title": "The Best Dentist of All Time",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-dentist-of-all-time",
+   "area_guess": "other",
+   "horizon_text": "This Thursday",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Muir"
+   ],
+   "finder_note": "Own legal-calendar item; low forecast value."
+  },
+  {
+   "id": "owen-1571",
+   "forecaster": "owen",
+   "statement_date": "2025-02-07",
+   "quote": "It doesn't matter what the problem is with my teeth; Dr. Okon will ensure I'm OK.",
+   "context": "Personal expectation about the author's dentist, Dr. Jonathan Okon, after the story of daily lidocaine injections for dry socket: whatever the future dental problem, Dr. Okon will take care of it.",
+   "post_title": "The Best Dentist of All Time",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-dentist-of-all-time",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Jonathan Okon"
+   ],
+   "finder_note": "Personal expectation, not a market or clinical forecast; low value."
+  },
+  {
+   "id": "owen-1572",
+   "forecaster": "owen",
+   "statement_date": "2025-02-09",
+   "quote": "In psychiatry, maybe as our field embraces circuit-based explanations, it’s possible we will get more comfortable embracing durable circuit-based therapeutics like DBS?",
+   "context": "Conclusion of an overview of deep brain stimulation for OCD (FDA humanitarian device exemption; Graat/Figee 2017 and Dufault 2025 meta-analyses). The author suggests psychiatry may adopt circuit-based therapeutics such as DBS more widely as circuit-based explanations take hold.",
+   "post_title": "Deep Brain Stimulation (DBS) For Obsessive Compulsive Disorder (OCD)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deep-brain-stimulation-dbs-for-obsessive",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "maybe ... it's possible",
+   "entities": [
+    "DBS",
+    "OCD",
+    "FDA"
+   ],
+   "finder_note": "Hedged and phrased as a question; reads as a sincere tentative expectation about practice adoption."
+  },
+  {
+   "id": "owen-1573",
+   "forecaster": "owen",
+   "statement_date": "2025-02-09",
+   "quote": "I’m headed to a consultation with one of my patients in the very near future. Stay tuned.",
+   "context": "Final lines of the DBS overview. The author says he will soon attend a DBS consultation with one of his patients and signals follow-up coverage in the newsletter.",
+   "post_title": "Deep Brain Stimulation (DBS) For Obsessive Compulsive Disorder (OCD)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deep-brain-stimulation-dbs-for-obsessive",
+   "area_guess": "other",
+   "horizon_text": "in the very near future",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Muir"
+   ],
+   "finder_note": "Own-activity announcement; implies a future newsletter follow-up. Low forecast value; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1574",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "it's entirely within the role of possible that the Streisand Effect ... gets renamed the Lamar effect before this is all done",
+   "context": "Opening of a post about UnitedHealth Group (UHG) hiring defamation firm Clare Locke to send a threatening letter to plastic surgeon Elisabeth Potter over her Instagram/TikTok claims about a mid-surgery prior-authorization call. The author expects the legal threat to backfire and spread the story further (Streisand effect), jokingly renamed the Lamar effect after the Drake/Kendrick Lamar dispute.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "before this is all done",
+   "confidence_phrase": "entirely within the role of possible",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter",
+    "Clare Locke",
+    "Kendrick Lamar",
+    "Drake"
+   ],
+   "finder_note": "Hyperbole: the literal renaming is a joke; the sincere expectation is that UHG's legal threat backfires and amplifies Potter's claims. Footnote marker skipped with ' ... '."
+  },
+  {
+   "id": "owen-1575",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "why I think this United case against a physician is a loser, from a legal standpoint",
+   "context": "Thesis of the post. UHG, through Clare Locke, sent a defamation threat letter to Dr. Elisabeth Potter. The author judges that any defamation case UHG brings against her would lose in court.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I think",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter",
+    "Clare Locke"
+   ],
+   "finder_note": "Restated as 'why this is such a loser of a case for UHG'. Legal-outcome call conditional on a suit being filed."
+  },
+  {
+   "id": "owen-1576",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "Thus, the defense of this particular physician would cost her zero dollars, unless maybe, if she lost, she would have to pay up. But more likely, the defense would be covered by a third-party like Chubb.",
+   "context": "The author asserts that defamation defenses are almost always covered by the defendant's homeowners insurance, so Dr. Potter's defense against a UHG suit would cost her nothing and would most likely be paid by an insurer such as Chubb.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "would ... more likely",
+   "entities": [
+    "Elisabeth Potter",
+    "Chubb",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Conditional on UHG filing suit."
+  },
+  {
+   "id": "owen-1577",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "This is a horrible state of affairs, because it makes it endlessly more likely that there will be more political violence against healthcare executives",
+   "context": "Aside about the celebrity treatment Luigi Mangione (accused of killing the UnitedHealthcare CEO) receives in prison. The author predicts this makes further political violence against healthcare executives more likely.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "endlessly more likely",
+   "entities": [
+    "Luigi Mangione",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Compound sentence; continues into the hunker-down prediction logged separately."
+  },
+  {
+   "id": "owen-1578",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "it's only going get them to hunker down, ensuring that only the most profit driven and antisocial individuals choose to take the next open job at the healthcare behemoth",
+   "context": "Same aside on violence against executives. The author restates his earlier argument that the threat of violence will make insurers hunker down, so only the most profit-driven and antisocial people will take the next open executive job at UHG.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "company_market",
+   "horizon_text": "the next open job",
+   "confidence_phrase": "only going",
+   "entities": [
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Restatement of an earlier call ('as I've argued before')."
+  },
+  {
+   "id": "owen-1579",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "If this case were to go to court, it would be determined by a jury, and if you can find a jury of 12 Americans who are willing to let united off the hook and penalize a doctor, for saying something, anything about United? Good luck.",
+   "context": "Conditional call: if UHG's defamation case against Dr. Potter went to a jury trial, the author expects no jury of 12 Americans would side with UHG against a doctor.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "Good luck",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter"
+   ],
+   "finder_note": "Rhetorical 'Good luck' carries the confidence; reads as near-certain that UHG would lose before a jury."
+  },
+  {
+   "id": "owen-1580",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "Were they to file this as a lawsuit, the doctor would immediately move to file an anti-SLAPP motion (if she lives in a state, like NYS, with this kind of law).",
+   "context": "Conditional prediction of Dr. Potter's legal response if UHG files a defamation suit: an immediate anti-SLAPP (strategic lawsuit against public participation) motion. The author later repeats that this is 'the obvious first step for the doctor in question should a lawsuit be filed'.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "would immediately",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter",
+    "New York State"
+   ],
+   "finder_note": "Conditional on filing and on the doctor's state having an anti-SLAPP law."
+  },
+  {
+   "id": "owen-1581",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "They're actually establishing, in their threatening letter, the grounds for dismissing their subsequent case, because it is very clearly aimed at limiting the public participation of the physician to speak out against the practices of United.",
+   "context": "The author argues the Clare Locke letter itself supplies the grounds to dismiss any later UHG suit as a SLAPP. He adds that it would be impossible to argue the matter is not one of public concern.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "very clearly",
+   "entities": [
+    "UnitedHealth Group",
+    "Clare Locke",
+    "Elisabeth Potter"
+   ],
+   "finder_note": "Predicts dismissal grounds for a not-yet-filed case."
+  },
+  {
+   "id": "owen-1582",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "Essentially, by saying “it was your error” united is establishing the non-maliciousness of the statement on the part of the doctor, which would make their subsequent case, which should be clear they haven't filed yet, impossible to win.",
+   "context": "The author reasons that UHG's letter, by blaming the dispute on the doctor's ordering mistake, undercuts any showing of actual malice, so a future defamation case by UHG against Dr. Potter would be impossible to win.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "impossible to win",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter"
+   ],
+   "finder_note": "Conditional on a suit being filed."
+  },
+  {
+   "id": "owen-1583",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "It is impossible to believe this case, if it were ever filed, would not be dismissed as a blatant strategic lawsuit against public participation, but most importantly, beyond that, if it ever went to trial, the whole matter would be subject to relentless discovery.",
+   "context": "Two conditional calls about a UHG defamation suit against Dr. Potter: if filed, it would be dismissed as a SLAPP; if it went to trial, UHG would face relentless discovery.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "if it were ever filed",
+   "confidence_phrase": "impossible to believe ... would not",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter"
+   ],
+   "finder_note": "Compound conditional; dismissal and discovery predictions."
+  },
+  {
+   "id": "owen-1584",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "they would subpoena every record the insurance company ever had about this case, and probably about a bunch of other cases. It will be working to establish the pattern of behavior on the part of UnitedHealth Group in asking for prior authorizations at unreasonable times.",
+   "context": "Conditional on a trial: the author predicts Dr. Potter's defense would subpoena UHG's records on this and other cases to establish a pattern of unreasonable prior-authorization demands and misleading coverage representations to doctors.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "would ... probably ... will be",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter"
+   ],
+   "finder_note": "Conditional on the case going to trial."
+  },
+  {
+   "id": "owen-1585",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "To establish that she's doing this for her own personal gain would also be quite the lift",
+   "context": "The author assesses UHG's letter claim that Dr. Potter defamed the company for personal gain: proving personal benefit plus knowing, malicious falsehood would be very hard for UHG.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "would also be quite the lift",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter"
+   ],
+   "finder_note": "Borderline: legal-burden analysis with a predictive reading (UHG would fail to prove it)."
+  },
+  {
+   "id": "owen-1586",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "they're probably stuck with demonstrating actual financial damages specifically related to this doctor statements, which is going to be close to impossible",
+   "context": "The author argues no per se defamation category applies to UHG, so it would have to prove specific financial damages caused by Dr. Potter's statements, which he predicts is nearly impossible given the company's size and general public opprobrium.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "probably ... going to be close to impossible",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter",
+    "Clare Locke"
+   ],
+   "finder_note": "Conditional on a suit being filed."
+  },
+  {
+   "id": "owen-1587",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "Never will be more emboldened than when United send lawyers after doctor to do reconstructive surgery after breast cancer",
+   "context": "After screenshots of hateful comments the author received for opposing the murder of UHG's executive, he says the internet's haters will never be more emboldened than by UHG sending lawyers after a breast reconstruction surgeon. Predictive reading: the legal threat will inflame online hostility toward UHG.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "never",
+   "confidence_phrase": "Never will be more",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter"
+   ],
+   "finder_note": "Garbled sentence; borderline forecast about online reaction."
+  },
+  {
+   "id": "owen-1588",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "Yes, the doctor and question is absolutely gonna voluntarily take down her videos, and issue a public apology for ever having falsely claim that UnitedHealth Group called her and asked her to do anything. Oh, wait, that's absolutely not what's gonna happen",
+   "context": "Closing section. Sarcastic setup followed by the sincere call: Dr. Potter will not take down her videos or issue the public apology that the Clare Locke letter demands.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "absolutely not what's gonna happen",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter",
+    "Clare Locke"
+   ],
+   "finder_note": "First sentence is sarcasm; the sincere claim is its negation: Potter will not comply with the takedown/apology demand."
+  },
+  {
+   "id": "owen-1590",
+   "forecaster": "owen",
+   "statement_date": "2025-02-12",
+   "quote": "This is the third similarly designed trial. Yes, there will be criticisms",
+   "context": "Intro to the third randomized trial of accelerated iTBS (SAINT-style) for bipolar depression (Appelbaum et al., UCSD, JAMA Network Open 2025). The author says there will be criticisms, then supplies his own: failed randomization (age and sex imbalance) and an ATHF-based treatment-resistance criterion he calls unserious.",
+   "post_title": "Rapid Treatment of Bipolar Depression with Accelerated TMS: Third Time's the Charm?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-treatment-of-bipolar-depression",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Appelbaum et al.",
+    "UCSD",
+    "JAMA Network Open",
+    "SAINT",
+    "Magnus Medical"
+   ],
+   "finder_note": "Borderline: may refer to the criticisms the author is about to make in this article rather than to external reception of the trial."
+  },
+  {
+   "id": "owen-1592",
+   "forecaster": "owen",
+   "statement_date": "2025-02-16",
+   "quote": "Editors note: When…",
+   "context": "Footnote 3 by the editor (Owen Muir) on Chris Aiken's line 'if he takes the reins at NIH'. The author corrects 'if' to 'When', asserting that Jay Bhattacharya, nominated by Donald Trump in December 2024, will become NIH director.",
+   "post_title": "The Journal of Dubious Methods and Questionable Findings",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-journal-of-dubious-methods-and",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "When",
+   "entities": [
+    "Jay Bhattacharya",
+    "NIH",
+    "Donald Trump"
+   ],
+   "finder_note": "Call carried by a one-word footnote; the author expects Bhattacharya to be confirmed as NIH director."
+  },
+  {
+   "id": "owen-1593",
+   "forecaster": "owen",
+   "statement_date": "2025-02-17",
+   "quote": "I’ll speak at ATA NEXUS 2025 in New Orleans, May 3-6 (with Loren Larson of Videra Health and Jonathan Downar, M.D. of Ampa Health",
+   "context": "Conference schedule block at the top of the post, written from Japan en route to Brain Stimulation 2025 in Kobe. The author plans to speak at ATA NEXUS 2025 in New Orleans with Loren Larson (Videra Health) and Jonathan Downar (Ampa Health).",
+   "post_title": "A Mid-Century Modern ADHD Medical Device?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-mid-century-modern-adhd-medical",
+   "area_guess": "other",
+   "horizon_text": "May 3-6",
+   "confidence_phrase": "I'll",
+   "entities": [
+    "ATA NEXUS 2025",
+    "Loren Larson",
+    "Videra Health",
+    "Jonathan Downar",
+    "Ampa Health"
+   ],
+   "finder_note": "Own-activity announcement involving Videra and Ampa; coder may mark CONTROL. Same block repeats in a-manifesto-for-creating-intellectual."
+  },
+  {
+   "id": "owen-1594",
+   "forecaster": "owen",
+   "statement_date": "2025-02-17",
+   "quote": "I’ll host Rapid Acting Mental Health Treatment — 2025 / Los Angeles with Grady Hannah on May 18th.",
+   "context": "Same conference schedule block. The author plans to host the Rapid Acting Mental Health Treatment (RAMHT) 2025 event in Los Angeles with Grady Hannah on May 18.",
+   "post_title": "A Mid-Century Modern ADHD Medical Device?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-mid-century-modern-adhd-medical",
+   "area_guess": "other",
+   "horizon_text": "May 18th",
+   "confidence_phrase": "I'll",
+   "entities": [
+    "Rapid Acting Mental Health Treatment (RAMHT)",
+    "Grady Hannah"
+   ],
+   "finder_note": "Own-organization event (RAMHT); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1595",
+   "forecaster": "owen",
+   "statement_date": "2025-02-17",
+   "quote": "I’ll be presenting data at APA 2025 , also in Los Angeles, May 17-21.",
+   "context": "Same conference schedule block. The author plans to present data at the APA 2025 annual meeting in Los Angeles.",
+   "post_title": "A Mid-Century Modern ADHD Medical Device?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-mid-century-modern-adhd-medical",
+   "area_guess": "other",
+   "horizon_text": "May 17-21",
+   "confidence_phrase": "I'll be",
+   "entities": [
+    "APA 2025"
+   ],
+   "finder_note": "Own-activity announcement; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1596",
+   "forecaster": "owen",
+   "statement_date": "2025-02-17",
+   "quote": "I’ll be attending any maybe presenting data (This seems likely—I was a co-author on 10% of posters in 2024…) at CTMSS 2025 in San Diego, June 12-14.",
+   "context": "Same conference schedule block. The author plans to attend CTMSS 2025 in San Diego and thinks it likely he will present data, citing co-authorship of 10% of posters in 2024.",
+   "post_title": "A Mid-Century Modern ADHD Medical Device?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-mid-century-modern-adhd-medical",
+   "area_guess": "other",
+   "horizon_text": "June 12-14",
+   "confidence_phrase": "maybe ... This seems likely",
+   "entities": [
+    "CTMSS 2025"
+   ],
+   "finder_note": "Own-activity announcement; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1597",
+   "forecaster": "owen",
+   "statement_date": "2025-02-17",
+   "quote": "I’ll be attending and maybe presenting a ton at AACAP 2025 , October 20-25, in Chicago.",
+   "context": "Same conference schedule block. The author plans to attend AACAP 2025 in Chicago and may present many items there.",
+   "post_title": "A Mid-Century Modern ADHD Medical Device?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-mid-century-modern-adhd-medical",
+   "area_guess": "other",
+   "horizon_text": "October 20-25",
+   "confidence_phrase": "maybe",
+   "entities": [
+    "AACAP 2025"
+   ],
+   "finder_note": "Own-activity announcement; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1598",
+   "forecaster": "owen",
+   "statement_date": "2025-02-18",
+   "quote": "I’m never going to get a gun—I know how that ends for people like me.",
+   "context": "Essay on feeling safe in Japan versus New York. The author states a personal commitment never to own a gun, citing that the most likely victim of gun violence is oneself with one's own gun.",
+   "post_title": "Tokyo Dispatch: Feeling Inexplicably Safe",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tokyo-dispatch-feeling-inexplicably",
+   "area_guess": "other",
+   "horizon_text": "never",
+   "confidence_phrase": "never going to",
+   "entities": [
+    "Owen Scott Muir"
+   ],
+   "finder_note": "Personal-life commitment; low forecast value."
+  },
+  {
+   "id": "owen-1599",
+   "forecaster": "owen",
+   "statement_date": "2025-02-19",
+   "quote": "I’ll speak at ATA NEXUS 2025 in New Orleans, May 3-6 (with Loren Larson of Videra Health and Jonathan Downar, M.D. of Ampa Health",
+   "context": "Conference schedule block at the top of the post, written from Japan en route to Brain Stimulation 2025 in Kobe. The author plans to speak at ATA NEXUS 2025 in New Orleans with Loren Larson (Videra Health) and Jonathan Downar (Ampa Health).",
+   "post_title": "A Manifesto for Creating Intellectual Property Worth Anything",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-manifesto-for-creating-intellectual",
+   "area_guess": "other",
+   "horizon_text": "May 3-6",
+   "confidence_phrase": "I'll",
+   "entities": [
+    "ATA NEXUS 2025",
+    "Loren Larson",
+    "Videra Health",
+    "Jonathan Downar",
+    "Ampa Health"
+   ],
+   "finder_note": "Repeat of the schedule block from a-mid-century-modern-adhd-medical (2025-02-17); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1600",
+   "forecaster": "owen",
+   "statement_date": "2025-02-19",
+   "quote": "I’ll host Rapid Acting Mental Health Treatment — 2025 / Los Angeles with Grady Hannah on May 18th.",
+   "context": "Same conference schedule block. The author plans to host the Rapid Acting Mental Health Treatment (RAMHT) 2025 event in Los Angeles with Grady Hannah on May 18.",
+   "post_title": "A Manifesto for Creating Intellectual Property Worth Anything",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-manifesto-for-creating-intellectual",
+   "area_guess": "other",
+   "horizon_text": "May 18th",
+   "confidence_phrase": "I'll",
+   "entities": [
+    "Rapid Acting Mental Health Treatment (RAMHT)",
+    "Grady Hannah"
+   ],
+   "finder_note": "Repeat of the schedule block from the 2025-02-17 post; own-organization event (RAMHT); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1601",
+   "forecaster": "owen",
+   "statement_date": "2025-02-19",
+   "quote": "I’ll be presenting data at APA 2025 , also in Los Angeles, May 17-21.",
+   "context": "Same conference schedule block. The author plans to present data at the APA 2025 annual meeting in Los Angeles.",
+   "post_title": "A Manifesto for Creating Intellectual Property Worth Anything",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-manifesto-for-creating-intellectual",
+   "area_guess": "other",
+   "horizon_text": "May 17-21",
+   "confidence_phrase": "I'll be",
+   "entities": [
+    "APA 2025"
+   ],
+   "finder_note": "Repeat of the schedule block from the 2025-02-17 post; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1602",
+   "forecaster": "owen",
+   "statement_date": "2025-02-19",
+   "quote": "I’ll be attending any maybe presenting data (This seems likely—I was a co-author on 10% of posters in 2024…) at CTMSS 2025 in San Diego, June 12-14.",
+   "context": "Same conference schedule block. The author plans to attend CTMSS 2025 in San Diego and thinks it likely he will present data, citing co-authorship of 10% of posters in 2024.",
+   "post_title": "A Manifesto for Creating Intellectual Property Worth Anything",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-manifesto-for-creating-intellectual",
+   "area_guess": "other",
+   "horizon_text": "June 12-14",
+   "confidence_phrase": "maybe ... This seems likely",
+   "entities": [
+    "CTMSS 2025"
+   ],
+   "finder_note": "Repeat of the schedule block from the 2025-02-17 post; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1603",
+   "forecaster": "owen",
+   "statement_date": "2025-02-19",
+   "quote": "I’ll be attending and maybe presenting a ton at AACAP 2025 , October 20-25, in Chicago.",
+   "context": "Same conference schedule block. The author plans to attend AACAP 2025 in Chicago and may present many items there.",
+   "post_title": "A Manifesto for Creating Intellectual Property Worth Anything",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-manifesto-for-creating-intellectual",
+   "area_guess": "other",
+   "horizon_text": "October 20-25",
+   "confidence_phrase": "maybe",
+   "entities": [
+    "AACAP 2025"
+   ],
+   "finder_note": "Repeat of the schedule block from the 2025-02-17 post; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1604",
+   "forecaster": "owen",
+   "statement_date": "2025-02-20",
+   "quote": "We are—right now—providing TMS treatment and, soon to be more, in a local community in Ben’s beloved home of Horry County.",
+   "context": "Podcast post recorded with Ben Greenzweig, Executive Director of the non-profit Living Water Brain Treatment Center in Myrtle Beach, South Carolina. The author says they currently provide TMS there and that more treatments will come soon to Horry County, which has 400,000 residents and under 30 psychiatric inpatient beds.",
+   "post_title": "How Did Rapid Remission from Depression Become the New Standard of Care?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-brain-stimulation-for-depression",
+   "area_guess": "practice_adoption",
+   "horizon_text": "soon",
+   "confidence_phrase": "soon to be more",
+   "entities": [
+    "Living Water Brain Treatment Center",
+    "Ben Greenzweig",
+    "Horry County",
+    "Myrtle Beach",
+    "TMS"
+   ],
+   "finder_note": "Author writes 'We', suggesting his own involvement in the center; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1605",
+   "forecaster": "owen",
+   "statement_date": "2025-02-21",
+   "quote": "Jonathan’s story ends well, I promise. ... He has more to say, stay tuned!",
+   "context": "Author's outro after guest Jonathan Rosenberg's first-person account of depression (he enrolled in an accelerated TMS study). The author promises the story will be continued in a later installment and that it ends well.",
+   "post_title": "A Clinical Trial Participant Tells His Story of Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-clinical-trial-participant-tells",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I promise",
+   "entities": [
+    "Jonathan Rosenberg",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1606",
+   "forecaster": "owen",
+   "statement_date": "2025-02-23",
+   "quote": "But at this meeting, a bunch of scientist, many of whom are also practicing physicians, will be sharing data around the role of non-medication treatments for brain disorders.",
+   "context": "Author is in Kobe, Japan to present data at the Brain Stimulation conference. He states that at this meeting scientists will share data on non-medication (brain stimulation) treatments for brain disorders, mainly depression.",
+   "post_title": "Antidepressants Driving Obesity, Again",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/antidepressants-driving-obesity-again",
+   "area_guess": "other",
+   "horizon_text": "at this meeting",
+   "confidence_phrase": "will",
+   "entities": [
+    "Brain Stimulation conference",
+    "Owen Muir"
+   ],
+   "finder_note": "Near-term event statement about a conference the author is attending; low forecast value."
+  },
+  {
+   "id": "owen-1607",
+   "forecaster": "owen",
+   "statement_date": "2025-02-23",
+   "quote": "Psychiatry could be a discipline in which people come to a doctor for help with their problems, and the doctor prescribes a treatment. And that treatment? Wait for it. It might not be a pill. It might be something else entirely. It might be a treatment that stimulates the brain, and relieves the depression, and does not include a daily oral medication that causes risk of weight gain, movement disorders, emotional blunting, sexual side effects, and a range of other problems.",
+   "context": "Setup to the Annals of Internal Medicine antidepressant weight-gain study. The author sketches a possible future for psychiatry in which brain stimulation, not a daily pill, is the prescribed treatment for depression.",
+   "post_title": "Antidepressants Driving Obesity, Again",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/antidepressants-driving-obesity-again",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "could ... might",
+   "entities": [
+    "brain stimulation",
+    "oral antidepressants"
+   ],
+   "finder_note": "Vision statement with hedges; borderline between forecast and advocacy. Author has a commercial stake in brain stimulation clinics."
+  },
+  {
+   "id": "owen-1608",
+   "forecaster": "owen",
+   "statement_date": "2025-02-23",
+   "quote": "We could use brain stimulation as a first line treatment, we could do research about brain stimulation as a first line treatment, we'd have to pay for it though.",
+   "context": "Same setup: the author argues brain stimulation could become a first-line depression treatment and could be researched as such, conditional on payment for it.",
+   "post_title": "Antidepressants Driving Obesity, Again",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/antidepressants-driving-obesity-again",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "brain stimulation"
+   ],
+   "finder_note": "Possibility claim with a payment condition; borderline advocacy. Related to the preceding vision statement."
+  },
+  {
+   "id": "owen-1609",
+   "forecaster": "owen",
+   "statement_date": "2025-02-24",
+   "quote": "The harder we train as explainers, and story tellers, the better we might be at getting the understanding of our work to the world.",
+   "context": "Author's challenge to academic journals and scientists to require a funny video or meme alongside each paper (citing NEJM partnering with Dr. Glaucomflecken). Conditional expectation that training in storytelling improves public understanding of science.",
+   "post_title": "The Problem With Scientists' Explanations of Science",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-problem-with-scientists-explanations",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "NEJM",
+    "Dr. Glaucomflecken"
+   ],
+   "finder_note": "Generic conditional with no specific resolvable state; borderline. Logged for recall."
+  }
+ ]
+}

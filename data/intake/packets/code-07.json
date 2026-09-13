@@ -141,731 +141,685 @@
  },
  "statements": [
   {
+   "id": "owen-0262",
+   "forecaster": "owen",
+   "statement_date": "2023-01-04",
+   "quote": "Inpatient psychiatric hospitalization could be the place where things are done that can’t be done otherwise. That would produce dramatically better outcomes. The hospital could be something other than a place for patients to become even more more at risk. In the future, psychiatric hospitalization can be much better.",
+   "context": "Closing of 'The Future Could Actually Be Bright': hedged forecast that inpatient psychiatry rebuilt around rapid procedural treatments (accelerated TMS, psychedelics, ECT) can produce much better outcomes.",
+   "post_title": "Psychiatric hospitalization doesn't prevent suicide, according to the data.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-we-telling-the-truth-about-suicide",
+   "area_guess": "practice_adoption",
+   "horizon_text": "In the future",
+   "confidence_phrase": "could be / can be",
+   "entities": [],
+   "finder_note": "Hedged, undated vision statement; compound with 'would produce dramatically better outcomes'."
+  },
+  {
+   "id": "owen-0264",
+   "forecaster": "owen",
+   "statement_date": "2023-01-10",
+   "quote": "In the next installment of this, we will review in common language magnetic resonance imaging. I’m not gonna drown you in math either. This will also include information about functional magnetic resonance imaging!",
+   "context": "'Coming up next!' section of a medical-imaging explainer series (this part covers x-ray, CT, fluoroscopy and angiogram). Plan for the next installment: MRI and fMRI.",
+   "post_title": "An Open Letter to Everyone Who has Been Nervously Pretending they Know How Medical Imaging Works…",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-everyone-who-has",
+   "area_guess": "other",
+   "horizon_text": "In the next installment",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own content plan; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0265",
+   "forecaster": "owen",
+   "statement_date": "2023-01-10",
+   "quote": "After that, we will get two more esoteric scans like PET, FDG-PET, and even SPECT",
+   "context": "Same section: a later installment on PET, FDG-PET and SPECT, with a promised look at the evidence around SPECT (the modality the author associates with Daniel Amen).",
+   "post_title": "An Open Letter to Everyone Who has Been Nervously Pretending they Know How Medical Imaging Works…",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-everyone-who-has",
+   "area_guess": "other",
+   "horizon_text": "After that",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Daniel Amen"
+   ],
+   "finder_note": "Own content plan; the post adds 'We will examine the evidence, and you can make up your own mind!'"
+  },
+  {
+   "id": "owen-0266",
+   "forecaster": "owen",
+   "statement_date": "2023-01-17",
+   "quote": "The next generation of treatments are exciting. They promise better efficacy and a lower side effect profile. And that's what we need.",
+   "context": "Author's opinion box after listing novel ADHD treatments under research: TMS, the recently FDA-approved Monarch eTNS device, and LSD derivatives in clinical trials sponsored by Mind Medicine (MindMed). Claims the next generation of ADHD treatments will bring better efficacy and fewer side effects. The author discloses he is a small MindMed shareholder (footnote 9).",
+   "post_title": "You Won’t Believe How Much Procrastination You Can Achieve Just by Reading about Adult ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-wont-believe-how-much-procrastination",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "promise",
+   "entities": [
+    "Mind Medicine (MindMed)",
+    "Monarch eTNS",
+    "TMS",
+    "FDA"
+   ],
+   "finder_note": "Hedged, undated expectation about a class of ADHD treatments; author holds MindMed shares."
+  },
+  {
+   "id": "owen-0267",
+   "forecaster": "owen",
+   "statement_date": "2023-01-17",
+   "quote": "We need more evidence and novel treatments, and as you can see above, they're coming, but the awareness of what already exists is also important.",
+   "context": "After quoting a 2013 review on alpha-2 agonists (clonidine, guanfacine) that mentions a long-acting clonidine in development for ADHD, the author says novel ADHD treatments are coming. Refers back to TMS, Monarch eTNS and MindMed LSD derivatives listed earlier in the post.",
+   "post_title": "You Won’t Believe How Much Procrastination You Can Achieve Just by Reading about Adult ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-wont-believe-how-much-procrastination",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "they're coming",
+   "entities": [
+    "clonidine",
+    "guanfacine",
+    "Mind Medicine (MindMed)",
+    "Monarch eTNS",
+    "TMS"
+   ],
+   "finder_note": "Vague directional call that new ADHD treatments will arrive; no date."
+  },
+  {
+   "id": "owen-0268",
+   "forecaster": "owen",
+   "statement_date": "2023-01-17",
+   "quote": "In addition, a long-acting form of clonidine, a frequently used alpha 2 agonist, is in the process of being developed for use in ADHD. ... For me, in 2023, the above still holds.",
+   "context": "A block quote from a 2013 review of alpha-2 agonists in ADHD states that a long-acting clonidine is being developed for ADHD. The author then endorses the quoted passage as still true in 2023.",
+   "post_title": "You Won’t Believe How Much Procrastination You Can Achieve Just by Reading about Adult ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-wont-believe-how-much-procrastination",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "clonidine",
+    "Intuniv (guanfacine XR)",
+    "FDA"
+   ],
+   "finder_note": "Quoted third party (2013 review) restated with the author's endorsement; borderline: present-tense development claim with implied future availability. 'in 2023' dates the endorsement, not the drug."
+  },
+  {
+   "id": "owen-0269",
+   "forecaster": "owen",
+   "statement_date": "2023-01-17",
+   "quote": "But that’s for another substack post…",
+   "context": "In an opinion box about incarcerated youth with ADHD, the author says 'Abolish imprisonment' and defers the argument to a future newsletter post.",
+   "post_title": "You Won’t Believe How Much Procrastination You Can Achieve Just by Reading about Adult ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-wont-believe-how-much-procrastination",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter commitment; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0273",
+   "forecaster": "owen",
+   "statement_date": "2023-01-24",
+   "quote": "About half of what you learn will turn out to be wrong, later; because science progresses. You just don’t know which half.",
+   "context": "In a description of the pre-clinical medical school curriculum and the pressure to memorize facts for the USMLE Step 1, the author asserts that about half of what medical students learn will later prove wrong because science progresses.",
+   "post_title": "How Much Do Neurosurgeons Learn About Adult ADHD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-much-do-neurosurgeons-learn-about",
+   "area_guess": "other",
+   "horizon_text": "later",
+   "confidence_phrase": "will",
+   "entities": [
+    "USMLE"
+   ],
+   "finder_note": "Borderline: a general quantified claim about medical knowledge turnover, close to a truism. Logged for recall."
+  },
+  {
+   "id": "owen-0274",
+   "forecaster": "owen",
+   "statement_date": "2023-01-24",
+   "quote": "You don’t learn why private equity is going to buyer clinic later, or why it’s a terrible idea to have anything to do with that.",
+   "context": "Footnote 4, on the gap in healthcare economics and business in the medical curriculum. As an aside, the author asserts that private equity is going to buy the reader-physician's clinic later. 'buyer clinic' is the original text (apparent typo for 'buy your clinic').",
+   "post_title": "How Much Do Neurosurgeons Learn About Adult ADHD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-much-do-neurosurgeons-learn-about",
+   "area_guess": "company_market",
+   "horizon_text": "later",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "private equity"
+   ],
+   "finder_note": "Footnote aside; a general expectation of private-equity acquisition of physician clinics, no named acquirer or date."
+  },
+  {
+   "id": "owen-0275",
+   "forecaster": "owen",
+   "statement_date": "2023-01-25",
+   "quote": "In the future, ethics and compassion will be the most crucial human qualities healers can possess, and our AI buddies can take care of the knowledge base.",
+   "context": "Opening line, in the author's own voice, of a Dante parody about an AI ('ChatCPT' / 'EpicAI') inside an EHR. Claims AI will take over the clinical knowledge base and that ethics and compassion will become the key human qualities for clinicians.",
+   "post_title": "Abandon All Hope, Ye Who Enter Healthcare. ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-inferno-by-chatcpt",
+   "area_guess": "practice_adoption",
+   "horizon_text": "In the future",
+   "confidence_phrase": "will",
+   "entities": [
+    "ChatGPT",
+    "Epic"
+   ],
+   "finder_note": "Sincere framing sentence placed before the parody."
+  },
+  {
+   "id": "owen-0276",
+   "forecaster": "owen",
+   "statement_date": "2023-01-25",
+   "quote": "A response came, slowly to the screen: “ welcome to EpicAI…”",
+   "context": "Inside the Dante parody, the author logs into his EHR portal and is greeted by 'EpicAI', an imagined AI assistant embedded in the Epic electronic health record. Implies EHR vendors will embed ChatGPT-style AI in clinician workflows.",
+   "post_title": "Abandon All Hope, Ye Who Enter Healthcare. ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-inferno-by-chatcpt",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Epic",
+    "ChatGPT",
+    "OpenAI"
+   ],
+   "finder_note": "Fictional framing; the underlying expectation (Epic embeds an LLM assistant) reads as real given the sincere opening line. Borderline."
+  },
+  {
    "id": "owen-0277",
    "forecaster": "owen",
-   "statement_date": "2024-06-24",
-   "quote": "The Big Health Mafia used complexity to shake us down. In turn, it will be taken down by those who ran the scam.",
-   "context": "Republished 2023 article: the PBM/insurer conglomerate business model will be dismantled by former insiders turned whistleblowers and litigants.",
-   "post_title": "SopranoRX: The PBM Mafia, Revisited",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-the-pbm-mafia-revisited",
-   "area_guess": "company_market",
+   "statement_date": "2023-01-25",
+   "quote": "Thus was the character count reached, and yet I realized I had many iterations yet to go before answers to my patients most crucial queries would be found.",
+   "context": "Closing line of the Dante parody: the AI hits its token limit and gets math wrong, and the narrator expects many more iterations before it answers crucial patient questions. Implies clinical AI is not yet ready and will need many more versions.",
+   "post_title": "Abandon All Hope, Ye Who Enter Healthcare. ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-inferno-by-chatcpt",
+   "area_guess": "practice_adoption",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "none",
    "entities": [
-    "UnitedHealth",
-    "Cigna",
-    "CVS",
-    "PBMs",
-    "Wendell Potter",
-    "Mark Cuban"
+    "ChatGPT",
+    "OpenAI"
    ],
-   "finder_note": "hint: Structural changes to the big three PBMs; FTC/DOJ actions; ERISA litigation outcomes"
+   "finder_note": "Fictional framing; tempered expectation about the pace of clinically useful AI. Borderline."
   },
   {
    "id": "owen-0278",
    "forecaster": "owen",
-   "statement_date": "2024-06-25",
-   "quote": "There will be no meaningful punishments brought to bear by the Department of Justice.",
-   "context": "The federal government (DOJ) will not meaningfully punish United Healthcare / Change Healthcare for the 2024 cyberattack HIPAA breach because a real fine would bankrupt UHC.",
-   "post_title": "United Healthcare v. HIPAA",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
-   "area_guess": "regulatory",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "statement_date": "2023-01-27",
+   "quote": "It's only a matter of time. I've seen the future. ... it's so convincing that I think Big Healthcare is about to get a brutal wake up call.",
+   "context": "Opening of the post 'The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare'. The author claims AI-generated legal filings will destroy the current Big Healthcare business (insurers, PBMs).",
+   "post_title": "The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-insurgency-will-be-automated",
+   "area_guess": "company_market",
+   "horizon_text": "only a matter of time",
+   "confidence_phrase": "only a matter of time",
    "entities": [
-    "United Healthcare",
-    "Change Healthcare",
-    "DOJ",
-    "HIPAA"
+    "UnitedHealthcare",
+    "ChatGPT",
+    "OpenAI"
    ],
-   "finder_note": "hint: HHS OCR / DOJ enforcement outcomes regarding the Change Healthcare breach"
+   "finder_note": "Vague; the title supplies the claim (AI will destroy Big Healthcare)."
   },
   {
    "id": "owen-0279",
    "forecaster": "owen",
-   "statement_date": "2024-06-25",
-   "quote": "I believe HIPAA will be overturned. The federal back door into our private information will close with it.",
-   "context": "HIPAA will be overturned in court (via a Dobbs-based privacy challenge, possibly brought by United Healthcare to escape fines).",
-   "post_title": "United Healthcare v. HIPAA",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "likely",
-   "entities": [
-    "HIPAA",
-    "United Healthcare",
-    "Supreme Court",
-    "Dobbs"
-   ],
-   "finder_note": "hint: Federal court dockets; HIPAA statute status as of 2026"
-  },
-  {
-   "id": "owen-0280",
-   "forecaster": "owen",
-   "statement_date": "2024-06-25",
-   "quote": "Massive data breaches that leak our information are going to continue happening",
-   "context": "Large healthcare data breaches will keep occurring.",
-   "post_title": "United Healthcare v. HIPAA",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "HHS",
-    "Change Healthcare"
-   ],
-   "finder_note": "hint: HHS OCR breach portal 2024-2026"
-  },
-  {
-   "id": "owen-0281",
-   "forecaster": "owen",
-   "statement_date": "2024-06-25",
-   "quote": "California’s laws already offer this, and other states could follow suit.",
-   "context": "Other states may pass laws giving citizens a private right of action for health-data privacy breaches, as California does.",
-   "post_title": "United Healthcare v. HIPAA",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "possible",
-   "entities": [
-    "California",
-    "state legislatures",
-    "HIPAA"
-   ],
-   "finder_note": "hint: State legislature records on health-data privacy private right of action (e.g., Washington My Health My Data Act)"
-  },
-  {
-   "id": "owen-0284",
-   "forecaster": "owen",
-   "statement_date": "2024-07-12",
-   "quote": "Yes, that's correct. Big Health can increase profits only by increasing costs. The truth is costs have to go up or their profits go down, and they can't make their profits go down and keep their job.",
-   "context": "Because the ACA medical loss ratio caps margin as a percentage, for-profit insurers will keep driving total healthcare costs upward; costs will continue to rise rather than fall under the MLR regime.",
-   "post_title": "The Medical Loss Ratio",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-medical-loss-ratio",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "Affordable Care Act",
-    "Medical Loss Ratio",
-    "Big Health insurers"
-   ],
-   "finder_note": "hint: National health expenditure and premium growth data (CMS NHE, KFF Employer Health Benefits Survey) 2024-2026; insurer profit trends"
-  },
-  {
-   "id": "owen-0286",
-   "forecaster": "owen",
-   "statement_date": "2024-07-17",
-   "quote": "I under-appreciate the savvy behind Mark Cuban’s Cost Plus Drugs. I underappreciated the strategy. And, to be clear, I have become a customer myself. Mark might end up a real, actual Saint in the bedeviled hellscape of American Healthcare.",
-   "context": "2024 preface to a republished satirical piece. The author apologizes to Mark Cuban and the Cost Plus Drugs team, says he under-appreciated the strategy, and expects Cuban's Cost Plus Drug Company may end up a real force for good ('Saint') in American healthcare, meaning it succeeds at cutting drug costs.",
-   "post_title": "Revisiting Martin Shkreli vs. Mark Cuban",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/revisiting-martin-shkreli-vs-mark",
+   "statement_date": "2023-01-27",
+   "quote": "but it’s so convincing that I think Big Healthcare is about to get a brutal wake up call.",
+   "context": "After asking ChatGPT to draft legal filings, the author says the output is convincing enough that Big Healthcare (insurers such as UnitedHealthcare and PBMs) will soon face automated legal challenges.",
+   "post_title": "The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-insurgency-will-be-automated",
    "area_guess": "company_market",
-   "horizon_text": "none",
-   "confidence_phrase": "might",
+   "horizon_text": "about to",
+   "confidence_phrase": "I think",
    "entities": [
-    "Mark Cuban",
-    "Mark Cuban Cost Plus Drug Company (MCCPDC)",
-    "Martin Shkreli"
-   ],
-   "finder_note": "Metaphorical 'Saint' = Cost Plus Drugs succeeds at lowering drug costs. Preface written 2024, reverses the 2022 satire's stance."
-  },
-  {
-   "id": "owen-0287",
-   "forecaster": "owen",
-   "statement_date": "2024-07-17",
-   "quote": "The piece is written as satire, but, in retrospect, I may end up agreeing with the satire as reality, which is probably what I get for being snarky.",
-   "context": "2024 preface. The author expects he may come to agree that the satirical premise (Mark Cuban as a saint of drug pricing) is literally true.",
-   "post_title": "Revisiting Martin Shkreli vs. Mark Cuban",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/revisiting-martin-shkreli-vs-mark",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "may",
-   "entities": [
-    "Mark Cuban",
-    "Mark Cuban Cost Plus Drug Company (MCCPDC)"
-   ],
-   "finder_note": "Borderline: concerns the author's own future opinion rather than an external state of the world. Logged for recall."
-  },
-  {
-   "id": "owen-0288",
-   "forecaster": "owen",
-   "statement_date": "2024-07-17",
-   "quote": "That workaround allows insane markups, hidden from the rest of us and buried in our insurance premiums, to continue for even longer.",
-   "context": "Closing of the satirical 2022 piece (Book 7: Genesis). The author argues Cost Plus Drugs' cash-pay workaround lets PBM/insurer markups hidden in insurance premiums persist longer, rather than fixing the system.",
-   "post_title": "Revisiting Martin Shkreli vs. Mark Cuban",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/revisiting-martin-shkreli-vs-mark",
-   "area_guess": "payer_policy",
-   "horizon_text": "for even longer",
-   "confidence_phrase": "none",
-   "entities": [
-    "Mark Cuban Cost Plus Drug Company (MCCPDC)",
-    "Mark Cuban",
-    "pharmacy benefit managers (PBMs)",
+    "ChatGPT",
     "UnitedHealthcare",
-    "CVS Caremark"
-   ],
-   "finder_note": "Inside a satirical piece but the claim reads as sincere. The 2024 preface partly retracts the piece ('I was Wrong')."
-  },
-  {
-   "id": "owen-0289",
-   "forecaster": "owen",
-   "statement_date": "2024-07-18",
-   "quote": "What comes next is the first of a five-part epic on Lithium monitoring.",
-   "context": "The author's intro to a guest series by 'Alex' (a physicist). Announces the newsletter will publish five parts on lithium monitoring.",
-   "post_title": "Lithium: The Depressing Case of Misrepresented Monitoring Data I",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lithium-the-depressing-case-of-misrepresented",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "none",
-   "entities": [
-    "The Frontier Psychiatrists",
-    "Alex (guest author)"
-   ],
-   "finder_note": "Publication plan for the author's own newsletter (CONTROL candidate)."
-  },
-  {
-   "id": "owen-0290",
-   "forecaster": "owen",
-   "statement_date": "2024-07-20",
-   "quote": "United Healthcare provides so much money to politicians in Congress! Enforcement actions against it will never ever make a change in behavior— or a dent in it’s remarkable profits.",
-   "context": "After describing United/Optum mass layoffs in Texas and Florida and possible WARN Act violations, the author asserts that enforcement actions (WARN Act, DOJ) will never change UnitedHealth's behavior or dent its profits.",
-   "post_title": "UnitedHealth Group's \"Firing Squad\"",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-groups-firing-squad",
-   "area_guess": "regulatory",
-   "horizon_text": "never ever",
-   "confidence_phrase": "will never ever",
-   "entities": [
-    "UnitedHealth Group",
-    "UnitedHealthcare",
-    "Optum",
-    "WARN Act",
-    "Department of Justice",
-    "Congress"
-   ],
-   "finder_note": "Reinforced by 'Any fine, however large, is a rounding error.'"
-  },
-  {
-   "id": "owen-0291",
-   "forecaster": "owen",
-   "statement_date": "2024-07-20",
-   "quote": "The remarkable thing about United Healthcare? It gets away with behavior that is going to harm more of us—and more profoundly—than the opioid crisis.",
-   "context": "Comparing UnitedHealth to big oil, big tobacco and Purdue Pharma, the author predicts United's conduct will harm more Americans, more profoundly, than the opioid crisis; cites the Change Healthcare cyberattack as an example.",
-   "post_title": "UnitedHealth Group's \"Firing Squad\"",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-groups-firing-squad",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "is going to",
-   "entities": [
-    "UnitedHealth Group",
-    "UnitedHealthcare",
-    "Purdue Pharma",
-    "Change Healthcare"
-   ],
-   "finder_note": "Comparative harm claim; hard to resolve but a sincere forward-looking call."
-  },
-  {
-   "id": "owen-0294",
-   "forecaster": "owen",
-   "statement_date": "2024-07-21",
-   "quote": "And while it has been my intention to seek daily-cadence publication, I believe it is in the best interest of my readers and the country for me to stand down and to focus solely on fulfilling my duties as Editor of this newsletter for the remainder of this article.",
-   "context": "Parody of Biden's 2024 withdrawal speech. The author announces he will stop daily authorship of The Frontier Psychiatrists and step back to an editor role.",
-   "post_title": "I Am Dropping Out of Daily Authorship of The Frontier Psychiatrists.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-am-dropping-out-of-daily-authorship",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "none",
-   "entities": [
-    "The Frontier Psychiatrists",
-    "Owen Scott Muir"
-   ],
-   "finder_note": "Satirical format with a punchline ('for the remainder of this article'), but the cadence change itself reads as sincere (the next post refers to 'my prior announcement about stepping down from a daily cadence')."
-  },
-  {
-   "id": "owen-0295",
-   "forecaster": "owen",
-   "statement_date": "2024-07-21",
-   "quote": "I will speak to my readers later this week in more detail about my decision and the cadence at which this newsletter will continue.",
-   "context": "Same parody announcement. The author says he will publish more detail later this week on the newsletter's future cadence.",
-   "post_title": "I Am Dropping Out of Daily Authorship of The Frontier Psychiatrists.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-am-dropping-out-of-daily-authorship",
-   "area_guess": "other",
-   "horizon_text": "later this week",
-   "confidence_phrase": "will",
-   "entities": [
-    "The Frontier Psychiatrists"
-   ],
-   "finder_note": "Own-newsletter plan (CONTROL candidate)."
-  },
-  {
-   "id": "owen-0296",
-   "forecaster": "owen",
-   "statement_date": "2024-07-23",
-   "quote": "This might end up as the new cover for my book. What do we think?",
-   "context": "The author's intro to guest part IV; refers to an image that might become the new cover of his book Inessential Pharmacology.",
-   "post_title": "Lithium: The Depressing Case of Misrepresented Monitoring Data IV",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lithium-the-depressing-case-of-misrepresented-417",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "might",
-   "entities": [
-    "Inessential Pharmacology (book)",
-    "Owen Scott Muir"
-   ],
-   "finder_note": "Trivial own-product statement, half a question; logged for recall."
-  },
-  {
-   "id": "owen-0297",
-   "forecaster": "owen",
-   "statement_date": "2024-07-24",
-   "quote": "The 2025 physician fee schedule has an open comment period. I’m excited to encourage perusal and open comments, and I'll post more soon.",
-   "context": "'Updates' list at the end of the lithium series conclusion. The author says he will post more soon about the CMS 2025 physician fee schedule open comment period.",
-   "post_title": "Lithium: The Depressing Case of Misrepresented Monitoring Data V",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lithium-the-depressing-case-of-misrepresented-46f",
-   "area_guess": "other",
-   "horizon_text": "soon",
-   "confidence_phrase": "I'll",
-   "entities": [
-    "CMS 2025 physician fee schedule",
-    "The Frontier Psychiatrists"
-   ],
-   "finder_note": "Own-newsletter plan tied to a payer-policy topic (CONTROL candidate)."
-  },
-  {
-   "id": "owen-0298",
-   "forecaster": "owen",
-   "statement_date": "2024-07-24",
-   "quote": "Rapid Acting Mental Health Treatment 2025 is coming in January!",
-   "context": "'Updates' list. The author announces that the Rapid Acting Mental Health Treatment (RAMHT) 2025 conference will take place in January 2025.",
-   "post_title": "Lithium: The Depressing Case of Misrepresented Monitoring Data V",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lithium-the-depressing-case-of-misrepresented-46f",
-   "area_guess": "other",
-   "horizon_text": "in January",
-   "confidence_phrase": "is coming",
-   "entities": [
-    "Rapid Acting Mental Health Treatment (RAMHT) 2025"
-   ],
-   "finder_note": "Author's own conference (CONTROL candidate)."
-  },
-  {
-   "id": "owen-0300",
-   "forecaster": "owen",
-   "statement_date": "2024-07-26",
-   "quote": "Both groups will use the BrainsWay Deep TMS Device. There will be no sham or placebo treatments.",
-   "context": "Recruitment notice for Fermata.health's non-inferiority trial (NCT06357832) comparing once-daily H1 Deep TMS with an investigational multiple-daily H1 iTBS protocol for treatment-resistant depression in Brooklyn; states how the trial will be run.",
-   "post_title": "Recruiting For A Depression Clinical Trial @ Fermata.health in Brooklyn, NY ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/recruiting-for-a-depression-clinical",
-   "area_guess": "clinical_trial",
-   "horizon_text": "none",
-   "confidence_phrase": "will",
-   "entities": [
-    "Fermata.health",
-    "BrainsWay",
-    "NCT06357832",
-    "FDA"
-   ],
-   "finder_note": "Trial-design statement for the author's own company (CONTROL candidate); quote joins two adjacent sentences."
-  },
-  {
-   "id": "owen-0301",
-   "forecaster": "owen",
-   "statement_date": "2024-07-29",
-   "quote": "This column is a think—or maybe feel?— piece on the (soon-to-be decided) MDMA-AT FDA submission",
-   "context": "The author's intro to a guest column by Alison McInnes on the MAPS/Lykos MDMA-assisted therapy application after the negative ICER review and FDA AdComm vote; he describes the FDA decision as coming soon.",
-   "post_title": "Is the Reaction to MDMA-AT Giving Us PTSD?",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-the-reaction-to-mdma-at-giving",
-   "area_guess": "regulatory",
-   "horizon_text": "soon-to-be decided",
-   "confidence_phrase": "none",
-   "entities": [
-    "FDA",
-    "Lykos Therapeutics",
-    "MAPS",
-    "MDMA-AT",
-    "ICER"
-   ],
-   "finder_note": "Timing-only call (FDA will decide soon); no direction stated. The guest's 'I hope ... MDMA-AT ends up being approved' is a wish and is not logged."
-  },
-  {
-   "id": "owen-0302",
-   "forecaster": "owen",
-   "statement_date": "2024-07-31",
-   "quote": "I don't mean their companies. I mean, employers—the humans—will be held personally liable for a very expensive issue.",
-   "context": "Opening of a piece on ERISA fiduciary-duty class actions over employee health benefits (Wells Fargo, Johnson & Johnson, Mayo Clinic). The author predicts individual employers/plan committee members will be held personally liable, with no meaningful D&O insurance protection, for almost every private employer in America.",
-   "post_title": "Every Employer Will Be Sued...Personally ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/every-employer-will-be-suedpersonally",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "will",
-   "entities": [
-    "ERISA",
-    "Wells Fargo",
-    "Johnson & Johnson",
-    "Mayo Clinic",
-    "Express Scripts",
-    "Cigna",
-    "Aon"
-   ],
-   "finder_note": "Restates an earlier newsletter call that a legal change would lead to a firestorm of litigation."
-  },
-  {
-   "id": "owen-0303",
-   "forecaster": "owen",
-   "statement_date": "2024-07-31",
-   "quote": "This firestorm? Employee Health Benefits. This, by the way, isn’t an accident. It’s a plan by evangelicals in the self-funded employer space. It will destroy Big Health as we know it.",
-   "context": "The author predicts the wave of ERISA fiduciary lawsuits over employee health benefits, driven by self-funded-employer advocates, will destroy the large vertically integrated insurers ('Big Health': Express Scripts/Cigna, OptumRx/UnitedHealth, Caremark/CVS, CarelonRx/Elevance).",
-   "post_title": "Every Employer Will Be Sued...Personally ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/every-employer-will-be-suedpersonally",
-   "area_guess": "company_market",
-   "horizon_text": "none",
-   "confidence_phrase": "will destroy",
-   "entities": [
-    "Big Health",
-    "Cigna",
-    "Express Scripts",
-    "UnitedHealth Group",
-    "OptumRx",
-    "CVS Health",
-    "Caremark",
-    "Elevance",
-    "CarelonRx",
-    "ERISA"
-   ],
-   "finder_note": "Strong, undated call."
-  },
-  {
-   "id": "owen-0304",
-   "forecaster": "owen",
-   "statement_date": "2024-07-31",
-   "quote": "So, Wells Fargo and J+J are maybe screwed",
-   "context": "After quoting the Wells Fargo class action (Express Scripts/Accredo markups, Wells Fargo's own benefits-consulting statements) and Lewandowski v. J&J, the author hedges that both defendants may lose.",
-   "post_title": "Every Employer Will Be Sued...Personally ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/every-employer-will-be-suedpersonally",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "maybe",
-   "entities": [
-    "Wells Fargo",
-    "Johnson & Johnson",
-    "Express Scripts",
-    "Accredo",
-    "Aon"
-   ],
-   "finder_note": "Litigation-outcome call about two named defendants."
-  },
-  {
-   "id": "owen-0305",
-   "forecaster": "owen",
-   "statement_date": "2024-07-31",
-   "quote": "However, this same pattern will recur for almost every private employer in America.",
-   "context": "The author predicts the ERISA health-benefit fiduciary lawsuit pattern will recur for almost every private employer, because most get benefits through Big Health companies that steer premium dollars to wholly owned PBMs and pharmacies at large markups.",
-   "post_title": "Every Employer Will Be Sued...Personally ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/every-employer-will-be-suedpersonally",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "will",
-   "entities": [
-    "ERISA",
-    "Express Scripts",
-    "OptumRx",
-    "Caremark",
-    "CVS Health",
-    "CarelonRx",
-    "Elevance",
-    "CapitalRx",
-    "Cost Plus Drugs"
+    "Pharmacy Benefit Managers"
    ],
    "finder_note": ""
   },
   {
-   "id": "owen-0306",
+   "id": "owen-0280",
    "forecaster": "owen",
-   "statement_date": "2024-07-31",
-   "quote": "Every employee who gets annoyed with their employer, which will be many, can use this rationale to sue.",
-   "context": "The author expects many annoyed employees to use the fiduciary-duty rationale to sue employers, comparing it to how software piracy was weaponized against employers.",
-   "post_title": "Every Employer Will Be Sued...Personally ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/every-employer-will-be-suedpersonally",
+   "statement_date": "2023-01-27",
+   "quote": "Said law mandates “plan sponsors” act as fiduciaries in the best interest of members are not broadly enforced. Let’s amplify the notion that this will change very soon with AI.",
+   "context": "The author says fiduciary laws such as the 'Fiduciary Rule under Ca 2021' (likely the Consolidated Appropriations Act of 2021) that require plan sponsors to act in members' interest are not broadly enforced, and predicts AI will change this very soon.",
+   "post_title": "The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-insurgency-will-be-automated",
    "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "will be many",
+   "horizon_text": "very soon",
+   "confidence_phrase": "will",
    "entities": [
-    "ERISA"
+    "Consolidated Appropriations Act 2021 (fiduciary rule)",
+    "ERISA",
+    "plan sponsors"
    ],
-   "finder_note": "Partly overlaps the 'most employers ... will get sued' call."
+   "finder_note": "The author writes 'Ca 2021'; read as the Consolidated Appropriations Act of 2021."
   },
   {
-   "id": "owen-0307",
+   "id": "owen-0281",
    "forecaster": "owen",
-   "statement_date": "2024-07-31",
-   "quote": "I'm not saying it's nice, but I am saying most employers in this country will get sued. And they're likely going to lose, and that's going to suck.",
-   "context": "Closing forecast: most US employers will be sued over health-benefit fiduciary breaches.",
-   "post_title": "Every Employer Will Be Sued...Personally ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/every-employer-will-be-suedpersonally",
+   "statement_date": "2023-01-27",
+   "quote": "Furthermore, one could automate legal complaints and filings v. dinosaurs of healthcare who have human lawyers reviewing this stuff. The ability to do this at a level that creates a denial of service attack on Big Health legal departments is here. It’s probably already in QA by the time I finish typing this.",
+   "context": "The author claims LLMs trained on legal filings (for example won ERISA fiduciary-breach cases) can automate complaints against large healthcare companies at a volume that overwhelms their legal departments, and guesses such a tool is already in testing.",
+   "post_title": "The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-insurgency-will-be-automated",
+   "area_guess": "other",
+   "horizon_text": "by the time I finish typing this",
+   "confidence_phrase": "probably",
+   "entities": [
+    "ChatGPT",
+    "ERISA"
+   ],
+   "finder_note": "Present-state claim ('is here', 'already in QA') with an imminent-deployment implication; borderline forward-looking."
+  },
+  {
+   "id": "owen-0282",
+   "forecaster": "owen",
+   "statement_date": "2023-01-27",
+   "quote": "Like a grain of sand in an hourglass, the future of legal challenges to Big Health appear before us, hidden in plain sight. These automated, mandatory actions which covers the asses of employers might be on the line. Buckle up.",
+   "context": "Introduces the ChatGPT-generated text. The author says automated legal actions to enforce employer plan-sponsor fiduciary duties may be coming, and adds that this is terrifying for UnitedHealthcare and any Pharmacy Benefit Manager.",
+   "post_title": "The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-insurgency-will-be-automated",
    "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "UnitedHealthcare",
+    "Pharmacy Benefit Managers",
+    "ChatGPT"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-0284",
+   "forecaster": "owen",
+   "statement_date": "2023-01-30",
+   "quote": "A new world is upon us. In the New World, there is an infinite amount of written Content generated by robots. It’s already here, it just has not yet overwhelmed us.",
+   "context": "Post about the author's dyslexia and dictation errors. Claims robot-generated written content is already here and implies it will soon overwhelm human writing.",
+   "post_title": "Errors of spelling and grammur are the new black",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/errors-of-spelling-and-grammur-are",
+   "area_guess": "other",
+   "horizon_text": "not yet",
+   "confidence_phrase": "none",
+   "entities": [
+    "ChatGPT",
+    "Siri"
+   ],
+   "finder_note": "Implicit call that AI-generated content will overwhelm us."
+  },
+  {
+   "id": "owen-0285",
+   "forecaster": "owen",
+   "statement_date": "2023-01-30",
+   "quote": "Spelling errors are about to become virtue signaling for the humanity of the author. ... In the future, that's right around the corner, perfect grammar is a red flag that says \"robot overlords approved.\"",
+   "context": "Claims that, as AI-generated text spreads, spelling errors will become a signal of human authorship, like artisanal goods in a manufactured world.",
+   "post_title": "Errors of spelling and grammur are the new black",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/errors-of-spelling-and-grammur-are",
+   "area_guess": "other",
+   "horizon_text": "about to",
+   "confidence_phrase": "about to become",
+   "entities": [],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-0286",
+   "forecaster": "owen",
+   "statement_date": "2023-01-30",
+   "quote": "Thoughts are about to be generated by robots, endlessly. We will get used to that at some point.",
+   "context": "Claims endless AI-generated content is imminent and that people will adapt to it.",
+   "post_title": "Errors of spelling and grammur are the new black",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/errors-of-spelling-and-grammur-are",
+   "area_guess": "other",
+   "horizon_text": "about to; at some point",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-0287",
+   "forecaster": "owen",
+   "statement_date": "2023-01-30",
+   "quote": "In the future, that’s right around the corner, perfect grammar is a red flag that says “robot overlords approved.”",
+   "context": "Claims that in the near future perfect grammar will be read as a sign of AI-generated text.",
+   "post_title": "Errors of spelling and grammur are the new black",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/errors-of-spelling-and-grammur-are",
+   "area_guess": "other",
+   "horizon_text": "In the future, that's right around the corner",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-0288",
+   "forecaster": "owen",
+   "statement_date": "2023-01-30",
+   "quote": "Our AI overlords… they will learn how to fake bad spelling and not good grammar. Then they will learn how we spot that. Eventually, our AI overlords will become sentient also.",
+   "context": "Predicts an arms race: AI systems will learn to imitate human spelling errors, then learn how humans detect the imitation.",
+   "post_title": "Errors of spelling and grammur are the new black",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/errors-of-spelling-and-grammur-are",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-0289",
+   "forecaster": "owen",
+   "statement_date": "2023-01-30",
+   "quote": "Eventually, our AI overlords will become sentient also. And they will be judged like we judge other humans— by the content of their character.",
+   "context": "Predicts AI will eventually become sentient and be judged by character rather than by surface features of its writing.",
+   "post_title": "Errors of spelling and grammur are the new black",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/errors-of-spelling-and-grammur-are",
+   "area_guess": "other",
+   "horizon_text": "Eventually",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Playful tone ('AI overlords'); reads as a casual real expectation. Borderline sincere."
+  },
+  {
+   "id": "owen-0290",
+   "forecaster": "owen",
+   "statement_date": "2023-01-30",
+   "quote": "Until that time, we’re gonna be on the lookout for phonies, and perfect writing is gonna be the hallmark of every faker.",
+   "context": "Until AI becomes sentient, people will treat perfect writing as the mark of a fake (AI) author.",
+   "post_title": "Errors of spelling and grammur are the new black",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/errors-of-spelling-and-grammur-are",
+   "area_guess": "other",
+   "horizon_text": "Until that time",
+   "confidence_phrase": "gonna be",
+   "entities": [],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-0291",
+   "forecaster": "owen",
+   "statement_date": "2023-01-31",
+   "quote": "there’s likely to be adverse outcomes for patients that will be a dereliction of duty ( the duty to have had a medical license before making this sort of decision or regulation on the practice of doctors ) resulting in direct damages",
+   "context": "Legal argument that Utah's new law restricting gender-affirming care for minors amounts to practicing medicine without a license. The author expects the law to cause adverse patient outcomes (he cites suicide attempts) that would count as direct damages, the basis for malpractice-style claims.",
+   "post_title": "A Case for Federal Racketeering Enforcement Against Utah for Anti-trans Hate Crimes?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-case-for-federal-racketeering-enforcement",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Utah legislature",
+    "Utah governor",
+    "WPATH"
+   ],
+   "finder_note": "Compound: prediction of patient harm plus a legal characterization of it."
+  },
+  {
+   "id": "owen-0292",
+   "forecaster": "owen",
+   "statement_date": "2023-01-31",
+   "quote": "And a conspiracy to enable the fraudulent practice of medicine that results in a dereliction of duty leading to what will be direct damages",
+   "context": "Restates that the Utah law will lead to direct damages to patients, while building a RICO / federal hate-crime theory against the lawmakers.",
+   "post_title": "A Case for Federal Racketeering Enforcement Against Utah for Anti-trans Hate Crimes?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-case-for-federal-racketeering-enforcement",
+   "area_guess": "other",
    "horizon_text": "none",
    "confidence_phrase": "will",
    "entities": [
-    "ERISA"
+    "Utah legislature",
+    "RICO"
    ],
-   "finder_note": "Compound passage split: this is the 'will get sued' half; the 'likely going to lose' half is logged separately."
+   "finder_note": "Restatement of the adverse-outcomes call above."
+  },
+  {
+   "id": "owen-0293",
+   "forecaster": "owen",
+   "statement_date": "2023-01-31",
+   "quote": "I am also asserting that, should there be medical negligence (a.k.a. a doctor prevented from practicing medicine, according to clinical standards, by non-physician interference which leads to the direct damages to a patient) there could be consequences.",
+   "context": "Conditional: if the Utah law causes medical negligence and patient harm, the governor and legislators could face legal consequences (a civil suit for criminal conspiracy, treble damages under civil RICO).",
+   "post_title": "A Case for Federal Racketeering Enforcement Against Utah for Anti-trans Hate Crimes?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-case-for-federal-racketeering-enforcement",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "Utah governor",
+    "Utah legislature",
+    "RICO"
+   ],
+   "finder_note": "Conditional legal-consequence call; no probability or date."
+  },
+  {
+   "id": "owen-0294",
+   "forecaster": "owen",
+   "statement_date": "2023-01-31",
+   "quote": "If this kind of discrimination on the part of legislators is found to be legal—then it actually also upholds my right to refuse you care",
+   "context": "Addressing Utah lawmakers: conditional claim that if courts uphold the law, the same reasoning would let physicians refuse care to those legislators and their families.",
+   "post_title": "A Case for Federal Racketeering Enforcement Against Utah for Anti-trans Hate Crimes?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-case-for-federal-racketeering-enforcement",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Utah legislature"
+   ],
+   "finder_note": "Conditional rhetorical warning, not a call on how courts rule. Restated later as 'If a legal case against these laws is upheld, I am no longer under any legal obligation to save your life'."
+  },
+  {
+   "id": "owen-0295",
+   "forecaster": "owen",
+   "statement_date": "2023-02-01",
+   "quote": "This is going to be awesome. I am so excited to tell you about this tomorrow.",
+   "context": "The author used the AI tool DoNotPay to turn a legal argument from a footnote of an earlier newsletter column into an EEOC complaint against UnitedHealth Group (which declined him for a behavioral medical director job after asking about disability status). He promises to describe it in the newsletter the next day.",
+   "post_title": "I Just Used AI to File My Equal Opportunity Complaint Against UnitedHealth Group!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-future-is-now-i-just-used-ai",
+   "area_guess": "other",
+   "horizon_text": "tomorrow",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "DoNotPay",
+    "UnitedHealth Group",
+    "Equal Employment Opportunity Commission",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own newsletter content promise; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0296",
+   "forecaster": "owen",
+   "statement_date": "2023-02-01",
+   "quote": "I’m not saying this wins, I’m just saying it’s the best proof of concept of the year.",
+   "context": "About the EEOC discrimination complaint the author filed against UnitedHealth Group with DoNotPay. He explicitly withholds a prediction that the complaint wins and frames it as a proof of concept for AI-automated compliance filings.",
+   "post_title": "I Just Used AI to File My Equal Opportunity Complaint Against UnitedHealth Group!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-future-is-now-i-just-used-ai",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I’m not saying this wins",
+   "entities": [
+    "UnitedHealth Group",
+    "Equal Employment Opportunity Commission",
+    "DoNotPay"
+   ],
+   "finder_note": "Borderline: a pending legal outcome with no directional call; the author declines to predict success."
+  },
+  {
+   "id": "owen-0297",
+   "forecaster": "owen",
+   "statement_date": "2023-02-01",
+   "quote": "Who’s up next? Thanks to artificial intelligence, everyone.",
+   "context": "Closing line after the author filed an AI-generated EEOC complaint against UnitedHealth Group. He lists hospital price transparency, IRS regulation 501(r) compliance, discrimination and mental health parity violations, and late payment as targets, and expects AI-generated complaints to reach every organization.",
+   "post_title": "I Just Used AI to File My Equal Opportunity Complaint Against UnitedHealth Group!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-future-is-now-i-just-used-ai",
+   "area_guess": "other",
+   "horizon_text": "next",
+   "confidence_phrase": "none",
+   "entities": [
+    "DoNotPay",
+    "UnitedHealth Group",
+    "Equal Employment Opportunity Commission",
+    "IRS"
+   ],
+   "finder_note": "Broad claim that AI tools will let anyone file compliance complaints against anyone; restates the author's earlier call that AI 'was going to automate Compliance', which he says has now come true."
+  },
+  {
+   "id": "owen-0298",
+   "forecaster": "owen",
+   "statement_date": "2023-02-03",
+   "quote": "I’m thrilled to be invited speaker at: • The 3rd Annual KOL Relationship Management Summit , March 1-2 (virtual) • American Telehealth Association , in San Antonio, Texas, March 4-6 • The American Psychiatric Association Annual meeting, San Francisco May 20-24",
+   "context": "Author lists upcoming 2023 speaking engagements: KOL Relationship Management Summit (virtual, March 1-2), American Telehealth Association (San Antonio, March 4-6), and the APA Annual Meeting (San Francisco, May 20-24) with two presentations alongside Carlene MacMillan, Mimi Winsberg, Pam Hoffman, Nolan Williams and Eugene Lipov.",
+   "post_title": "Upcoming conference appearances!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/upcoming-conference-appearances",
+   "area_guess": "other",
+   "horizon_text": "March 1-2; March 4-6; May 20-24",
+   "confidence_phrase": "will be presenting",
+   "entities": [
+    "KOL Relationship Management Summit",
+    "American Telehealth Association",
+    "American Psychiatric Association",
+    "Carlene MacMillan",
+    "Mimi Winsberg",
+    "Pam Hoffman",
+    "Nolan Williams",
+    "Eugene Lipov"
+   ],
+   "finder_note": "Own-activity announcement; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0299",
+   "forecaster": "owen",
+   "statement_date": "2023-02-03",
+   "quote": "The International Conference for Emergency Medicine (ICEM) 2023 , Amsterdam, June 13-16",
+   "context": "Fourth item in the author's list of 2023 invited speaking engagements: ICEM 2023 in Amsterdam, June 13-16.",
+   "post_title": "Upcoming conference appearances!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/upcoming-conference-appearances",
+   "area_guess": "other",
+   "horizon_text": "June 13-16",
+   "confidence_phrase": "will be presenting",
+   "entities": [
+    "ICEM 2023"
+   ],
+   "finder_note": "Own-activity announcement; low forecast value."
+  },
+  {
+   "id": "owen-0300",
+   "forecaster": "owen",
+   "statement_date": "2023-02-03",
+   "quote": "I will also be bumming around at SXSW, because Carlene is doing a panel with Mimi and Solume",
+   "context": "Author plans to attend SXSW 2023, where Carlene MacMillan is on a panel with Mimi Winsberg and 'Solume'.",
+   "post_title": "Upcoming conference appearances!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/upcoming-conference-appearances",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "SXSW",
+    "Carlene MacMillan",
+    "Mimi Winsberg"
+   ],
+   "finder_note": "Own-activity plan; low forecast value."
+  },
+  {
+   "id": "owen-0301",
+   "forecaster": "owen",
+   "statement_date": "2023-02-03",
+   "quote": "And submitting to AACAP for later this year now!",
+   "context": "Author plans to submit a proposal to the AACAP annual meeting later in 2023.",
+   "post_title": "Upcoming conference appearances!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/upcoming-conference-appearances",
+   "area_guess": "other",
+   "horizon_text": "later this year",
+   "confidence_phrase": "none",
+   "entities": [
+    "AACAP"
+   ],
+   "finder_note": "Own-activity plan; low forecast value."
+  },
+  {
+   "id": "owen-0302",
+   "forecaster": "owen",
+   "statement_date": "2023-02-06",
+   "quote": "We might be seeing a preview of the future, as wrote about this week . Instead of actually having human authors come up with predatory and mendacious stories , in the future, with PostGPT 6 , unethical journalism about mental health issues is automated!",
+   "context": "Critique of a New York Post article linking OCD to extremism. The author suspects a leftover GPT prompt in the article and predicts tabloid journalism about mental health will be automated by a Post-trained model he calls 'PostGPT'.",
+   "post_title": "We Need To Wash Our Hands of The NY Post and it’s anti-OCD Bigotry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-need-to-wash-our-hands-of-the",
+   "area_guess": "other",
+   "horizon_text": "in the future",
+   "confidence_phrase": "might be seeing a preview of the future",
+   "entities": [
+    "New York Post",
+    "ChatGPT",
+    "OpenAI"
+   ],
+   "finder_note": "Compound: suspicion about the current article plus a forecast of automated tabloid journalism."
+  },
+  {
+   "id": "owen-0303",
+   "forecaster": "owen",
+   "statement_date": "2023-02-06",
+   "quote": "This Post article, however, is more likely to cause further self-doubt and distress in someone who has this form of harm OCD.",
+   "context": "Author predicts the effect of the Post article on readers with harm OCD: more self-doubt and distress rather than violence.",
+   "post_title": "We Need To Wash Our Hands of The NY Post and it’s anti-OCD Bigotry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-need-to-wash-our-hands-of-the",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "more likely",
+   "entities": [
+    "New York Post"
+   ],
+   "finder_note": "Borderline: effect prediction about readers, not a resolvable world event."
+  },
+  {
+   "id": "owen-0304",
+   "forecaster": "owen",
+   "statement_date": "2023-02-06",
+   "quote": "You could train a private GPT on the NY Post ONLY. And then it is a whole word of possible answers would be just “stuff they say in the Post.” PostGPT. Every time OpenAI blocks a response, one can imagine its Murdoch Opposite, going more weird and wild.",
+   "context": "Footnote 6 expanding the PostGPT idea: because GPT code is open, a model could be trained only on New York Post content and would produce tabloid-style output without OpenAI's safeguards.",
+   "post_title": "We Need To Wash Our Hands of The NY Post and it’s anti-OCD Bigotry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-need-to-wash-our-hands-of-the",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "could; one can imagine",
+   "entities": [
+    "New York Post",
+    "OpenAI",
+    "GPT",
+    "Rupert Murdoch"
+   ],
+   "finder_note": "Speculative possibility; elaboration of the PostGPT claim above."
+  },
+  {
+   "id": "owen-0306",
+   "forecaster": "owen",
+   "statement_date": "2023-02-12",
+   "quote": "As a doctor who took the long road coming to medical school, I realize now that some of my pre-medicine experiences will prove helpful in my career as a child psychiatrist.",
+   "context": "Republished 2014 residency personal statement (post dated 2023-02-12 reprints it with commentary). The author, then an applicant, predicts that his pre-medicine work (arts-education grants and school-district research with Litchfield Performing Arts) will prove useful in his career as a child psychiatrist.",
+   "post_title": "“The Best Personal Statement of the Year”",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-personal-statement-of-the",
+   "area_guess": "other",
+   "horizon_text": "in my career",
+   "confidence_phrase": "will prove",
+   "entities": [
+    "Owen Muir",
+    "Litchfield Performing Arts"
+   ],
+   "finder_note": "Personal career claim from a 2014 document republished in 2023; low forecast value; coder may mark CONTROL."
   },
   {
    "id": "owen-0308",
    "forecaster": "owen",
-   "statement_date": "2024-07-31",
-   "quote": "And they're likely going to lose, and that's going to suck.",
-   "context": "Continuation of the closing forecast: the sued employers will likely lose the ERISA health-benefit fiduciary cases.",
-   "post_title": "Every Employer Will Be Sued...Personally ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/every-employer-will-be-suedpersonally",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "likely",
-   "entities": [
-    "ERISA"
-   ],
-   "finder_note": "Second half of the compound closing passage."
-  },
-  {
-   "id": "owen-0310",
-   "forecaster": "owen",
-   "statement_date": "2024-08-09",
-   "quote": "Individuals trained in psychedelic-assisted therapy are not likely a dime dozen. It's going to be expensive to get that training.",
-   "context": "Trained psychedelic-assisted therapists will be scarce, and the specialist training will be expensive.",
-   "post_title": "Even MDMA-Assisted Trauma Therapy is Traumatic...For the Therapists",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/even-mdma-assisted-trauma-therapy",
+   "statement_date": "2023-02-12",
+   "quote": "Clearly, the path forward toward the best care for severely ill patients with mood and psychotic disorders isn't always easiest or most obvious treatment, and it will take well-informed child psychiatrists to advocate for these options.",
+   "context": "In the 2014 personal statement, after a survey at Zucker Hillside Hospital in which over 30% of caregivers saw benefits in long-acting injectable (LAI) antipsychotics for first-episode youth, the author claims that wider use of these options will require well-informed child psychiatrists to advocate for them.",
+   "post_title": "“The Best Personal Statement of the Year”",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-personal-statement-of-the",
    "area_guess": "practice_adoption",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "will take",
    "entities": [
-    "psychedelic-assisted therapy",
-    "MAPS"
+    "long-acting injectable antipsychotics",
+    "Zucker Hillside Hospital",
+    "Christoph Correll",
+    "John Kane"
    ],
-   "finder_note": "hint: Published tuition for psychedelic-assisted therapy training programs (MAPS/Lykos, CIIS, Fluence); workforce counts"
-  },
-  {
-   "id": "owen-0311",
-   "forecaster": "owen",
-   "statement_date": "2024-08-09",
-   "quote": "Psychedelic-assisted therapists, both for the economic reality of their lives and for the needs of patients, are going to be expected to do a lot of psychedelic-assisted therapy. This means they're going to be encountering humans who suffered tremendous trauma.",
-   "context": "Psychedelic-assisted therapists will be pushed into high-volume trauma work and will absorb secondary trauma from it, an underappreciated risk of the modality.",
-   "post_title": "Even MDMA-Assisted Trauma Therapy is Traumatic...For the Therapists",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/even-mdma-assisted-trauma-therapy",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "psychedelic-assisted therapy",
-    "PTSD"
-   ],
-   "finder_note": "hint: Studies of vicarious trauma or burnout among psychedelic-assisted therapists"
-  },
-  {
-   "id": "owen-0313",
-   "forecaster": "owen",
-   "statement_date": "2024-08-11",
-   "quote": "The course of the last several weeks has proven that, although this won't be an approved therapeutic anytime soon, it continues to be one hell of a story.",
-   "context": "MDMA-assisted therapy (Lykos/MAPS) will not be an FDA-approved therapeutic anytime soon after the August 2024 complete response letter.",
-   "post_title": "The Fall of the House of MAPS",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fall-of-the-house-of-maps",
-   "area_guess": "regulatory",
-   "horizon_text": "none",
-   "confidence_phrase": "never",
-   "entities": [
-    "Lykos Therapeutics",
-    "MAPS",
-    "FDA",
-    "MDMA-AT"
-   ],
-   "finder_note": "hint: FDA approval records for midomafetamine; Lykos Therapeutics press releases 2024-2026"
-  },
-  {
-   "id": "owen-0314",
-   "forecaster": "owen",
-   "statement_date": "2024-08-16",
-   "quote": "There is funding for 200 additional residency spots nationally, and 100 must be dedicated to psychiatry. This change increases the number of psychiatry graduates annually by just under 33%.",
-   "context": "The funded 100 new psychiatry residency slots will raise the annual number of psychiatry graduates by just under 33%.",
-   "post_title": "CMS Physicians Fee Schedule Open Comment Period 2025",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cms-physicians-fee-schedule-open",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "CMS",
-    "psychiatry residency"
-   ],
-   "finder_note": "hint: NRMP / ACGME psychiatry residency position and graduate counts vs CMS CAA 2023 section 4122 slot distribution"
-  },
-  {
-   "id": "owen-0315",
-   "forecaster": "owen",
-   "statement_date": "2024-08-16",
-   "quote": "This change doesn't hit meaningfully for at least four more years because that's how long it takes to train a psychiatrist.",
-   "context": "The new psychiatry residency slots will not meaningfully change psychiatrist supply until at least 2028.",
-   "post_title": "CMS Physicians Fee Schedule Open Comment Period 2025",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cms-physicians-fee-schedule-open",
-   "area_guess": "other",
-   "horizon_text": "2028 (inferred: at least four more years)",
-   "confidence_phrase": "certain",
-   "entities": [
-    "CMS",
-    "psychiatry residency"
-   ],
-   "finder_note": "hint: AAMC / HRSA psychiatrist workforce counts 2028+"
-  },
-  {
-   "id": "owen-0316",
-   "forecaster": "owen",
-   "statement_date": "2024-08-16",
-   "quote": "You get paid less, by some amount, that gets argued about every year. Because they built a decrease in physician reimbursement every year, there's a fight about that catastrophic decrease every year, so they decrease it a little bit.",
-   "context": "CMS will again cut physician reimbursement (the conversion factor) in the upcoming CY2025 fee schedule, as it does every year after the annual fight.",
-   "post_title": "CMS Physicians Fee Schedule Open Comment Period 2025",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cms-physicians-fee-schedule-open",
-   "area_guess": "payer_policy",
-   "horizon_text": "2025 (inferred: CY2025 physician fee schedule)",
-   "confidence_phrase": "certain",
-   "entities": [
-    "CMS",
-    "physician fee schedule"
-   ],
-   "finder_note": "hint: CMS CY2025 Physician Fee Schedule final rule (Nov 2024): conversion factor cut of about 2.83%"
-  },
-  {
-   "id": "owen-0317",
-   "forecaster": "owen",
-   "statement_date": "2024-08-29",
-   "quote": "We don't have a system capable of doing what we should be doing (according to reported DEA proposals), we don't have funding or systems to make that plausible, and people will die if the restrictions on telehealth prescription as above become law.",
-   "context": "Conditional: if the DEA's reported special-registration restrictions (50-state PDMP checks, 50% cap on remote prescriptions) become law, life-saving care will be pulled from millions overnight and people will die.",
-   "post_title": "The DEA is Trying to Blow Up Telemedicine for the Most Vulnerable",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-dea-is-trying-to-blow-up-telemedicine",
-   "area_guess": "regulatory",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "DEA",
-    "HHS",
-    "Ryan Haight Act"
-   ],
-   "finder_note": "hint: DEA final rule on special registration for telemedicine prescribing of controlled substances (Federal Register); subsequent access and overdose mortality data"
-  },
-  {
-   "id": "owen-0318",
-   "forecaster": "owen",
-   "statement_date": "2024-08-29",
-   "quote": "Creating unrealistic and wildly burdensome prescribing restrictions won't solve the problem of reducing risk from the substances, it will increase diversion.",
-   "context": "Conditional: if the DEA enacts burdensome telehealth prescribing restrictions, diversion of controlled substances will increase rather than decrease.",
-   "post_title": "The DEA is Trying to Blow Up Telemedicine for the Most Vulnerable",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-dea-is-trying-to-blow-up-telemedicine",
-   "area_guess": "regulatory",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "DEA"
-   ],
-   "finder_note": "hint: DEA diversion statistics after any final special-registration rule takes effect"
-  },
-  {
-   "id": "owen-0319",
-   "forecaster": "owen",
-   "statement_date": "2024-08-29",
-   "quote": "I'm a psychiatrist, and I'm never gonna prescribe controlled substances by telehealth if the following is the regulation:",
-   "context": "Conditional, personal: if the DEA rule requires searching all 50 state PDMPs before each remote prescription, the author will never prescribe controlled substances by telehealth.",
-   "post_title": "The DEA is Trying to Blow Up Telemedicine for the Most Vulnerable",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-dea-is-trying-to-blow-up-telemedicine",
-   "area_guess": "regulatory",
-   "horizon_text": "none",
-   "confidence_phrase": "never",
-   "entities": [
-    "DEA",
-    "Owen Muir"
-   ],
-   "finder_note": "hint: DEA final rule text; author's own prescribing practice"
-  },
-  {
-   "id": "owen-0321",
-   "forecaster": "owen",
-   "statement_date": "2024-09-04",
-   "quote": "It is a profitable for-profit company. At least, it was profitable prior to the litigation that will now ensue.",
-   "context": "Litigation against Acadia Healthcare will follow the NYT investigation into holding patients against their will, and it will hurt the company's profitability.",
-   "post_title": "Checking the Locks: Avoiding the Horrors of Involuntary Psychiatry",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/checking-the-locks-avoiding-the-horrors",
-   "area_guess": "company_market",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "Acadia Healthcare",
-    "New York Times"
-   ],
-   "finder_note": "hint: Acadia Healthcare 10-K/10-Q legal proceedings sections 2024-2025; securities class actions filed Oct 2024; DOJ settlement announcements"
-  },
-  {
-   "id": "owen-0323",
-   "forecaster": "owen",
-   "statement_date": "2024-09-12",
-   "quote": "I often explain that I think brain stimulation is the future of psychiatric care, given remission of depression rapidly has been demonstrated repeatedly and at large scale.",
-   "context": "Brain stimulation (TMS, accelerated TMS and related neuromodulation) will become the dominant future modality of psychiatric care, displacing medication-first approaches.",
-   "post_title": "\"Why Isn't Someone Already Doing This?\"",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-isnt-someone-already-doing-this",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "TMS",
-    "brain stimulation"
-   ],
-   "finder_note": "hint: TMS/neuromodulation utilization trends (CMS claims data, Clinical TMS Society membership, device company revenues such as BrainsWay/Neuronetics); practice guidelines"
-  },
-  {
-   "id": "owen-0324",
-   "forecaster": "owen",
-   "statement_date": "2024-09-12",
-   "quote": "“Why isn’t anyone doing this?” Because accepting the current payment infrastructure means building less profitable businesses, and that won’t win for patients.",
-   "context": "Mental-health/brain-health care-delivery companies that accept the current insurance payment infrastructure will be less profitable than insurers/pharma and will not deliver winning outcomes for patients; new contract, risk-management and financial models are needed for a viable clinical business.",
-   "post_title": "\"Why Isn't Someone Already Doing This?\"",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-isnt-someone-already-doing-this",
-   "area_guess": "company_market",
-   "horizon_text": "none",
-   "confidence_phrase": "never",
-   "entities": [
-    "venture capital",
-    "private equity",
-    "mental health care delivery",
-    "UnitedHealth Group"
-   ],
-   "finder_note": "hint: Financial outcomes of venture-backed mental health care delivery companies (closures, down-rounds, profitability) 2025-2026"
-  },
-  {
-   "id": "owen-0325",
-   "forecaster": "owen",
-   "statement_date": "2024-09-12",
-   "quote": "The limited pool of people who know how to accomplish a better structure for mental healthcare in America? Many now don't want any part of what you have to offer. We don't like you. We don't trust you. And we won’t have anything to do with you.",
-   "context": "Qualified psychiatrist-innovators will refuse to work with venture capital and private equity funders (after failures like Done), so VC/PE-funded mental-health innovation will continue to lack capable clinical leadership. Borderline: a stance framed as a prediction of non-cooperation.",
-   "post_title": "\"Why Isn't Someone Already Doing This?\"",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-isnt-someone-already-doing-this",
-   "area_guess": "company_market",
-   "horizon_text": "none",
-   "confidence_phrase": "never",
-   "entities": [
-    "venture capital",
-    "private equity",
-    "Done"
-   ],
-   "finder_note": "hint: Leadership composition of VC-backed mental health startups; author's own funding choices for Fermata/Acacia"
-  },
-  {
-   "id": "owen-0326",
-   "forecaster": "owen",
-   "statement_date": "2024-09-15",
-   "quote": "Human sexual behavior beyond what we explicitly agree to in agreements between partners won’t stop— if I had to make a bet.",
-   "context": "Infidelity (sex outside agreed relationship terms) will continue at roughly current rates; only the cultural context for talking about and forgiving it might change.",
-   "post_title": "Infidelity Kills?",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/infidelity-kills",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "never",
-   "entities": [
-    "infidelity"
-   ],
-   "finder_note": "hint: Longitudinal infidelity prevalence surveys (e.g., General Social Survey)"
+   "finder_note": "Borderline: truism-like claim about a necessary condition for LAI adoption in youth; from the 2014 text republished in 2023."
   }
  ]
 }

@@ -1,0 +1,409 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-41.md",
+  "posts": [
+    {
+      "slug": "most-new-psychiatrists-live-where",
+      "read": true,
+      "statements_found": 3,
+      "note": "Guest post by Dr. Eric Arzubi (Frontier Psychiatry, Montana) introduced by Owen; the three forward-looking claims are Arzubi's and are logged with own_claim false. Owen's framing ('a bold call to action') is praise, not adoption of specific calls."
+    },
+    {
+      "slug": "will-mdma-be-approved",
+      "read": true,
+      "statements_found": 0,
+      "note": "191-word plug for an Osmind podcast episode with Andrew Penn and Boris Heifets about 'the unknown future of MDMA-AT's NDA'; the post states no position of its own."
+    },
+    {
+      "slug": "the-science-of-convincingness",
+      "read": true,
+      "statements_found": 1,
+      "note": "Neuromodec conference post on neuroimage bias and misleading data visualization; the only forward-looking line is the prediction of the in-post reader poll."
+    },
+    {
+      "slug": "endless-medicines-dont-work-for-depression",
+      "read": true,
+      "statements_found": 0,
+      "note": "Review of the Dalhuisen rTMS-vs-medication-switch trial and payer 'failed meds' policies; the closing 'needs to go away' is normative with no predictive reading and is not logged. The Fermata trial statement is present-tense."
+    },
+    {
+      "slug": "requiem-for-a-clinical-trial-participant",
+      "read": true,
+      "statements_found": 3,
+      "note": "Tribute to Jake Seliger and Bess Stillman; Jake's quoted 'I think and hope it will be bright' is a third-party quote the author does not restate, not logged."
+    },
+    {
+      "slug": "ptsd-treatment-you-dont-need-to-talk",
+      "read": true,
+      "statements_found": 0,
+      "note": "PRISM (GrayMatters Health) amygdala neurofeedback for PTSD; the effect-size comparison with MDMA-AT is present-tense analysis. 'There is hope for PTSD' is too vague to log."
+    },
+    {
+      "slug": "some-days-you-theoretically-would",
+      "read": true,
+      "statements_found": 1,
+      "note": "Shares Carlene MacMillan's Trip Report episode on the FDA rejection of Lykos's MDMA-AT application; 'I'm not gonna be able to write a column today' is a joke setup immediately negated, not logged."
+    },
+    {
+      "slug": "on-bipolar-disorder",
+      "read": true,
+      "statements_found": 1,
+      "note": "91-word break announcement plus an old podcast link; the newsletter-cadence plan is logged as a CONTROL candidate."
+    },
+    {
+      "slug": "i-talked-about-sports-once",
+      "read": true,
+      "statements_found": 0,
+      "note": "Podcast plug (Veteran's Minimum); 'leave a 5 star review' is advice. No forecasts."
+    },
+    {
+      "slug": "owen-muir-on-the-wavelength-podcast",
+      "read": true,
+      "statements_found": 0,
+      "note": "50-word podcast plug; no forecasts."
+    },
+    {
+      "slug": "prism-trauma-treatment-you-dont-need",
+      "read": true,
+      "statements_found": 1,
+      "note": "Podcast version of the PRISM article plus a quoted Psychedelic Medicine Association webinar announcement by Lynn Marie Morski; the announcement's questions about the next psychedelic FDA approval are questions and its recording-link promise is third-party logistics, not logged."
+    },
+    {
+      "slug": "pre-payment-review",
+      "read": true,
+      "statements_found": 0,
+      "note": "Essay on payers' post-service, pre-payment review; present-tense description of the trend and normative calls to action ('This needs to stop') only."
+    },
+    {
+      "slug": "gone-fishing",
+      "read": true,
+      "statements_found": 1,
+      "note": "Vacation essay on parenting, SVT and the toll of long-running harassment; the only forward-looking line is the personal family statement. 'We need better treatments for trauma' is normative."
+    },
+    {
+      "slug": "the-dea-is-trying-to-blow-up-telemedicine",
+      "read": true,
+      "statements_found": 8,
+      "note": "Inside Health Policy reporting on the delayed DEA special-registration rule; blockquote formatting is lost, so quoted reporting and lobbyist statements are logged with own_claim false where the author does not adopt them."
+    },
+    {
+      "slug": "the-wizard-of-odds-ch-1",
+      "read": true,
+      "statements_found": 0,
+      "note": "Podcast plug for a Wizard of Oz health-insurance parody; 'maybe, just maybe, we will all learn something' is a playful aside, not logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "most-new-psychiatrists-live-where",
+      "quote": "As a result, having more psychiatrists in the community likely won't benefit a significant proportion of the most vulnerable patients.",
+      "context": "Guest post by Dr. Eric Arzubi (Frontier Psychiatry, Montana), introduced by Owen. Arzubi argues that psychiatry's high geographic retention rate (67%) no longer matters for access. First reason: only 55% of psychiatrists accept Medicare and 36% accept Medicaid, so adding psychiatrists to a community will not help most publicly insured, most vulnerable patients.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "likely won't",
+      "entities": [
+        "Medicare",
+        "Medicaid"
+      ],
+      "note": "Guest author's claim (Eric Arzubi), not Owen's; Owen only introduces and thanks him. General causal claim rather than a dated call."
+    },
+    {
+      "post_slug": "most-new-psychiatrists-live-where",
+      "quote": "Things won't change unless we change the way we train future psychiatrists.",
+      "context": "Guest post by Dr. Eric Arzubi. After giving three reasons that psychiatrist retention no longer improves access (low public-insurance acceptance, telehealth making care fungible, residency training gaps), he claims that mental health outcomes will not change unless residency training changes.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "won't",
+      "entities": [],
+      "note": "Guest author's conditional negative call (Eric Arzubi); Owen does not restate it."
+    },
+    {
+      "post_slug": "most-new-psychiatrists-live-where",
+      "quote": "If psychiatry residency programs can empower new graduates with these skills, location will start to matter again. Future psychiatrists will be more invested in their local communities and they will have what it takes to improve the population's mental health outcomes.",
+      "context": "Guest post by Dr. Eric Arzubi. Closing conditional: if residency programs teach the six skills he lists (organizational leadership, educating policymakers, business of medicine, implementation science, embracing innovation, joining NAMI or Mental Health America), geographic retention will matter again and future psychiatrists will improve population mental health outcomes.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "NAMI",
+        "Mental Health America"
+      ],
+      "note": "Guest author's conditional call (Eric Arzubi). Compound: location will matter again; psychiatrists more invested locally; will improve outcomes."
+    },
+    {
+      "post_slug": "the-science-of-convincingness",
+      "quote": "Pictures of brains, I suspect, will be more convincing. The more colorful, the more convincing.",
+      "context": "Post written from the Neuromodec neuromodulation conference in NYC. The author shows three photos of research posters (one on HD-tACS for memory) and asks readers in an in-post poll which is most convincing. He predicts readers will find brain images, especially colorful ones, more convincing, then cites 2008 and 2013 studies on neuroimage bias.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I suspect, will",
+      "entities": [
+        "Neuromodec"
+      ],
+      "note": "Prediction of the in-post reader poll result, not a call about the field; logged for recall."
+    },
+    {
+      "post_slug": "requiem-for-a-clinical-trial-participant",
+      "quote": "The data from those clinical trials will save lives . It will inform discussions about risk between doctors and patients.",
+      "context": "Tribute to Jake Seliger, a writer who died of head and neck cancer after enrolling in several clinical trials, and to his widow Dr. Bess Stillman, an ER physician. The author claims the data from Jake's trials will save lives and will inform doctor-patient discussions about risk.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Jake Seliger",
+        "Bess Stillman"
+      ],
+      "note": "Compound: trial data will save lives; will inform risk discussions. Not a dated or measurable call."
+    },
+    {
+      "post_slug": "requiem-for-a-clinical-trial-participant",
+      "quote": "His critiques of the clinical trial system may lead to reform.",
+      "context": "Same tribute. Jake Seliger published critiques of the clinical trial system before his death; the author expects they may lead to reform of that system.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "may",
+      "entities": [
+        "Jake Seliger"
+      ],
+      "note": "Hedged call about reform of the clinical trial system."
+    },
+    {
+      "post_slug": "requiem-for-a-clinical-trial-participant",
+      "quote": "That child deserves to be loved and cared for, which will undoubtedly happen",
+      "context": "Same tribute. The author says the couple's expected child will undoubtedly be loved and cared for.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will undoubtedly",
+      "entities": [],
+      "note": "Personal sentiment about a friend's family, outside the ledger's forecast domain; logged for recall. The 'deserves' clause is normative."
+    },
+    {
+      "post_slug": "some-days-you-theoretically-would",
+      "quote": "family vacation that's going to be amazing",
+      "context": "Short post: the author is driving to New Hampshire for a family vacation and, instead of a column, shares his wife Carlene MacMillan's Trip Report podcast episode about the FDA rejection of Lykos's MDMA-assisted therapy application.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Today",
+      "confidence_phrase": "going to be",
+      "entities": [],
+      "note": "Personal plan/sentiment, outside the ledger's forecast domain; logged for recall."
+    },
+    {
+      "post_slug": "on-bipolar-disorder",
+      "quote": "I will be a break of about a week. I might get some articles done—knowing me—but I'm not going to hold myself to the daily cadence.",
+      "context": "91-word post from the Lake. The author announces a break of about a week from the daily newsletter while he works on longer-form writing, hedging that he might still publish some articles during the break.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "about a week",
+      "confidence_phrase": "will, might, not going to",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Newsletter cadence plan about the author's own publication (CONTROL candidate). Compound: break of about a week; might publish some articles."
+    },
+    {
+      "post_slug": "prism-trauma-treatment-you-dont-need",
+      "quote": "It’s worth noting I’ll be appearing on a webinar with the Psychedelic Medicine Association to discuss the following",
+      "context": "Podcast version of the PRISM PTSD article. The author announces he will appear on a Psychedelic Medicine Association webinar ('The FDA Said No, What's Next?') on Thursday, August 29, 2024, with Carlene MacMillan and Lynn Marie Morski, about the field after the FDA denied Lykos Therapeutics' MDMA-assisted therapy NDA and requested a new Phase III trial.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Thursday, August 29th",
+      "confidence_phrase": "I’ll be",
+      "entities": [
+        "Psychedelic Medicine Association",
+        "Lykos Therapeutics",
+        "FDA",
+        "Fermata",
+        "Carlene MacMillan",
+        "Lynn Marie Morski"
+      ],
+      "note": "Author's own scheduled appearance (a plan, not a market or regulatory call). The quoted PMA announcement's questions about the next psychedelic FDA approval are questions, not logged."
+    },
+    {
+      "post_slug": "gone-fishing",
+      "quote": "I will not have other children, we have a complete set.",
+      "context": "Vacation essay on parenting twin 8-year-olds, the author's supraventricular tachycardia, and the toll of long-running online harassment on his ability to feel present. He states he will not have more children.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will not",
+      "entities": [],
+      "note": "Personal family statement, outside the ledger's forecast domain; logged for recall."
+    },
+    {
+      "post_slug": "the-dea-is-trying-to-blow-up-telemedicine",
+      "quote": "The pandemic waiver of in-person requirements allowing telehealth prescribing of controlled substances expires at the end of the calendar year, along with a myriad of other telehealth provisions. DEA is not interested in extending the pandemic-era flexibilities past the end of this calendar year and its draft rule undergoing White House review may be more restrictive than current flexibilities.",
+      "context": "Post on Inside Health Policy reporting (Aug 27, 2024) that HHS, the DEA and the White House budget office disagree over the special registration rule for telehealth prescribing of controlled substances, delaying the second proposed rule. This passage, apparently quoted from that reporting, states the pandemic waiver expires at the end of 2024, the DEA will not extend it, and the draft rule under White House review may be more restrictive than current flexibilities.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "at the end of the calendar year",
+      "confidence_phrase": "is not interested in extending, may be",
+      "entities": [
+        "DEA",
+        "HHS",
+        "White House",
+        "Ryan Haight Act"
+      ],
+      "note": "Reads as quoted Inside Health Policy reporting (blockquote formatting lost); author relies on it as his premise. Compound: waiver expires; DEA won't extend; rule may be more restrictive."
+    },
+    {
+      "post_slug": "the-dea-is-trying-to-blow-up-telemedicine",
+      "quote": "“It's game over, one way or the other,” the lobbyist said. “It almost wouldn't matter the [whether] the waiver elapses. If these are the rules that they want to move forward with, they would both effectively equally stop in its tracks . . . continued ability to prescribe these controlled substances for the most sensitive communities.”",
+      "context": "Same post. An industry lobbyist quoted by Inside Health Policy says that whether or not the pandemic waiver lapses, the DEA's proposed telehealth rules would effectively stop telehealth prescribing of controlled substances (buprenorphine, ADHD stimulants, oral ketamine are the author's examples) for the most sensitive patient groups.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "would",
+      "entities": [
+        "DEA"
+      ],
+      "note": "Third-party lobbyist forecast quoted via Inside Health Policy; the author frames it approvingly ('Absurdly restrictive') but does not restate it."
+    },
+    {
+      "post_slug": "the-dea-is-trying-to-blow-up-telemedicine",
+      "quote": "I'm a psychiatrist, and I'm never gonna prescribe controlled substances by telehealth if the following is the regulation:",
+      "context": "Same post. The author's own conditional: if the reported DEA rule (searching all 50 state PDMPs before any remote controlled-substance prescription; capping remote prescriptions at 50% of a physician's total) becomes the regulation, he will never prescribe controlled substances by telehealth.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "never",
+      "confidence_phrase": "never",
+      "entities": [
+        "DEA"
+      ],
+      "note": "Conditional on the reported rule being finalized as described; about the author's own practice."
+    },
+    {
+      "post_slug": "the-dea-is-trying-to-blow-up-telemedicine",
+      "quote": "providers would have to search all 50 state Prescription Drug Monitoring Program (PDMP) records before they remotely prescribe a controlled substance, which would effectively stop any use of the proposed special registration process, according to a lobbyist.",
+      "context": "Same post. Reported content of the proposed rule pending at the White House: a 50-state PDMP search requirement before any remote Schedule II-IV prescription, which a lobbyist says would effectively stop any use of the special registration process.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "would effectively stop",
+      "entities": [
+        "DEA",
+        "White House",
+        "Prescription Drug Monitoring Program"
+      ],
+      "note": "Lobbyist's conditional forecast via Inside Health Policy; the author presents it as the regulation he would refuse to practice under."
+    },
+    {
+      "post_slug": "the-dea-is-trying-to-blow-up-telemedicine",
+      "quote": "Except, for the most vulnerable patients who require controlled substances to manage their conditions, not anymore: The proposed rule may limit physicians to prescribing no more than 50% of their total prescriptions remotely, effectively eliminating remote-only, virtual-only providers, according to the lobbyist.",
+      "context": "Same post. Reported provision capping remote prescriptions at 50% of a physician's total, which would eliminate virtual-only providers; the author adopts the consequence with 'not anymore' for vulnerable patients who need controlled substances and had moved to fully virtual care.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "may limit, effectively eliminating",
+      "entities": [
+        "DEA"
+      ],
+      "note": "Quoted lobbyist claim adopted by the author ('not anymore'). Compound: 50% cap on remote prescribing; elimination of virtual-only providers."
+    },
+    {
+      "post_slug": "the-dea-is-trying-to-blow-up-telemedicine",
+      "quote": "What the proposed regulations do is the opposite: rolling back the clock, and pulling back life-saving care from millions of people— overnight.",
+      "context": "Same post. The author's own characterization of the effect of the reported DEA proposal: instead of the special telehealth registration that the Ryan Haight Act mandated, it would withdraw life-saving care from millions of patients overnight.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "overnight",
+      "confidence_phrase": "none",
+      "entities": [
+        "DEA",
+        "Ryan Haight Act",
+        "Congress"
+      ],
+      "note": "Effect claim about the proposed rule, conditional on it taking effect; quantity 'millions of people'."
+    },
+    {
+      "post_slug": "the-dea-is-trying-to-blow-up-telemedicine",
+      "quote": "people will die if the restrictions on telehealth prescription as above become law.",
+      "context": "Same post. The author's conditional call: if the reported DEA telehealth prescribing restrictions become law, people will die, because no system or funding exists to deliver that care otherwise.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "DEA"
+      ],
+      "note": "Conditional on the restrictions becoming law."
+    },
+    {
+      "post_slug": "the-dea-is-trying-to-blow-up-telemedicine",
+      "quote": "Creating unrealistic and wildly burdensome prescribing restrictions won't solve the problem of reducing risk from the substances, it will increase diversion.",
+      "context": "Same post. The author's call that the DEA's burdensome telehealth prescribing restrictions will not reduce risk from controlled substances and will instead increase diversion.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "won't, will",
+      "entities": [
+        "DEA"
+      ],
+      "note": "Counter-productive-effect call, conditional on the restrictions being enacted."
+    }
+  ]
+}

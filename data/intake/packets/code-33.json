@@ -1,0 +1,809 @@
+{
+ "packet": "code-33.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1473",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "And therapists are going to quit. And then they’re going to go back to doing less scalable work, and everyone’s gonna be worse off.",
+   "context": "Continuation of the platform argument: therapists working on insurance-based platforms are going to quit, return to less scalable work, and everyone will be worse off.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to; gonna",
+   "entities": [],
+   "finder_note": "Compound claim; follows the 'couple of exits' sentence in the same paragraph."
+  },
+  {
+   "id": "owen-1474",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "And arbitrage on the difference between what we therapists think is nice and what people are actually worth is a fine strategy for a company until it’s not.",
+   "context": "Therapists offer sliding scales and reduced fees; the author says a company strategy built on arbitraging therapists' kindness against their market worth works only until it stops working.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "until it’s not",
+   "entities": [],
+   "finder_note": "Implicit forecast that the arbitrage strategy of therapy platforms will stop working; borderline."
+  },
+  {
+   "id": "owen-1475",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "Training in fundamentals of payment systems could help clinicians navigate the insurance system. Still, this would not address frustrations related to bureaucratic friction and low reimbursement.",
+   "context": "Solutions discussion after noting 70% of respondents felt incapable of dealing with insurance: payment-systems training could help clinicians navigate insurance but would not fix bureaucratic friction or low reimbursement.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "could help; would not",
+   "entities": [],
+   "finder_note": "Hypothetical conditional about an intervention; borderline."
+  },
+  {
+   "id": "owen-1476",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "Moreover, in order to win back mental health clinicians, insurance providers must offer solutions to address the poor reimbursement and administrative burden that drives clinicians into the private pay market.",
+   "context": "Solutions for Mental Health Clinicians section: insurers will not win back mental health clinicians unless they address poor reimbursement and administrative burden.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "must",
+   "entities": [],
+   "finder_note": "Phrased as 'must'; predictive reading is conditional: without such solutions clinicians will not return to insurance. Coder may treat as normative."
+  },
+  {
+   "id": "owen-1477",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "Additionally, enforcement of existing laws that regulate mental health parity, prompt payment, and other statutes would make the adversarial attitude sometimes encountered by clinicians less “hazard free” for payers.",
+   "context": "Proposed systemic solution: enforcing existing mental health parity and prompt-payment laws would make payers' adversarial behavior toward clinicians carry consequences.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [
+    "mental health parity laws",
+    "prompt payment laws"
+   ],
+   "finder_note": "Conditional on enforcement happening; no claim that enforcement will occur."
+  },
+  {
+   "id": "owen-1478",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "In a value-based model, outpatient clinicians would be rewarded for keeping their patients out of the hospital, thus directly linking clinician financial incentives with improved patient outcomes. In this shared risk model, clinician and payer goals would be more closely aligned and there would be less incentive for payers to block payments for needed care.",
+   "context": "Describing value-based care as an alternative to fee-for-service in mental health: under a value-based, shared-risk model, clinicians would be paid for keeping patients out of hospital, goals would align with payers, and payers would have less incentive to block payments.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [],
+   "finder_note": "Conditional description of how a value-based model would behave; borderline between model description and forecast."
+  },
+  {
+   "id": "owen-1479",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "The opportunity for behavioral health providers who are willing to go “at risk“ and work in teams that approximate the acuity managed by IOP/PHP/some inpatient providers is coming.",
+   "context": "Solutions section: the author predicts that at-risk (shared-risk) payment opportunities are coming for behavioral health providers who work in teams handling IOP/PHP/inpatient-level acuity, and says providers need to be ready.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is coming",
+   "entities": [],
+   "finder_note": "Matches the at-risk outpatient model of the author's own companies (not named in the post); coder may consider CONTROL. Recap of an earlier piece."
+  },
+  {
+   "id": "owen-1480",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "We see a shift towards shared-risk, value-based care as a way to reduce the stress clinicians experience interacting with insurance providers.",
+   "context": "Closing of the Solutions section: the authors anticipate a shift toward shared-risk, value-based care in mental health that would reduce clinician stress with insurers.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "We see a shift towards",
+   "entities": [],
+   "finder_note": "Stated as a perceived or anticipated trend; forward-looking reading is that value-based care will grow."
+  },
+  {
+   "id": "owen-1482",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "Continuing to study the experiences of mental health clinicians will further highlight these issues and lead to improvement in mental health care.",
+   "context": "Future Research section: continued study of clinician experiences with insurance will highlight these issues and lead to improvement in mental health care.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Generic academic closing claim; borderline."
+  },
+  {
+   "id": "owen-1483",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "Value-based care would assist in reducing the contentious relations between mental health providers and insurance companies.",
+   "context": "Conclusions section of the survey write-up: value-based care would reduce the contentious relationship between mental health providers and insurers.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [],
+   "finder_note": "Conditional on adoption of value-based care; restates the Solutions section claim."
+  },
+  {
+   "id": "owen-1485",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "I decided it required revisiting, on the eve of new administration that's even more anti-trans than Texas alone.",
+   "context": "New January 2025 introduction to the reposted 2022 Texas article. The author asserts that the incoming US administration will be even more anti-trans than Texas has been.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "regulatory",
+   "horizon_text": "on the eve of new administration",
+   "confidence_phrase": "even more anti-trans",
+   "entities": [
+    "incoming US administration (January 2025)",
+    "Texas"
+   ],
+   "finder_note": "Characterization of an incoming administration's expected policy stance; borderline forecast."
+  },
+  {
+   "id": "owen-1486",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "to do otherwise is a catastrophe when it comes to civil litigation",
+   "context": "2025 intro restating the article's thesis: withholding compassionate care for gender non-conforming youth (as Texas did) produces a civil-litigation catastrophe (med-mal and ERISA suits) for the state's providers and plans.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is a catastrophe",
+   "entities": [
+    "Texas"
+   ],
+   "finder_note": "2025 restatement of the 2022 article's central call ('The point remain the same')."
+  },
+  {
+   "id": "owen-1487",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "It's a contravention of the standards of professional ethics for doctors, so should not be a needle in a haystack to find those with legal standing.",
+   "context": "2022 body. The author urges the ACLU to arrange a med-mal suit against a physician found liable after complying with Abbott's child-abuse reporting mandate, and expects plaintiffs with standing to be easy to find.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "should not be a needle in a haystack",
+   "entities": [
+    "ACLU",
+    "Texas",
+    "Greg Abbott"
+   ],
+   "finder_note": "Time-capsule claim from the 2022 body; attached to advice to the ACLU. 'should' here is predictive (ease of finding plaintiffs), not normative."
+  },
+  {
+   "id": "owen-1489",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "It also opens the clinic up to almost unfathomable medico-legal liability.",
+   "context": "2022 body. Texas Children's Hospital (Baylor College of Medicine) paused its Gender Affirming Medicine program after Abbott's order; the author claims the pause exposes the clinic to enormous medico-legal liability.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "almost unfathomable",
+   "entities": [
+    "Texas Children's Hospital",
+    "Baylor College of Medicine",
+    "Greg Abbott"
+   ],
+   "finder_note": "Time-capsule claim from the 2022 body."
+  },
+  {
+   "id": "owen-1490",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "the imminent collapse of the very Texas Department of Family Protective Services",
+   "context": "2022 body. The author predicts the Texas DFPS will collapse because Abbott's mandate makes the agency's own failure to investigate reportable to itself.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "regulatory",
+   "horizon_text": "imminent",
+   "confidence_phrase": "imminent",
+   "entities": [
+    "Texas Department of Family and Protective Services",
+    "Greg Abbott"
+   ],
+   "finder_note": "Time-capsule claim from the 2022 body."
+  },
+  {
+   "id": "owen-1491",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "This could lead to a möbius loop of iterative reports of failures to protect kids.",
+   "context": "2022 body. Same DFPS self-reporting paradox: hedged prediction of recursive failure-to-protect reports inside the agency.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "Texas Department of Family and Protective Services"
+   ],
+   "finder_note": "Time-capsule claim from the 2022 body."
+  },
+  {
+   "id": "owen-1492",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "Political Action as new agency mission— over the objections of civil servants— is a poor employee retention plan in Child Protection circles, I would imagine.",
+   "context": "2022 body. The author expects DFPS staff attrition because the anti-trans directive conflicts with the child-protection mission employees signed up for.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I would imagine",
+   "entities": [
+    "Texas Department of Family and Protective Services",
+    "Greg Abbott"
+   ],
+   "finder_note": "Time-capsule claim from the 2022 body."
+  },
+  {
+   "id": "owen-1493",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "If sued, she can and should lose. Subsequently her insurance would have to pay out on the claim.",
+   "context": "2022 body. Hypothetical Texas telehealth child psychiatrist on an ER shift who must report a gender-dysphoric suicidal child's parents under Abbott's mandate; the author predicts she would lose a malpractice suit and her insurer would pay out.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "can and should lose",
+   "entities": [
+    "Texas",
+    "Greg Abbott"
+   ],
+   "finder_note": "Compound conditional inside a hypothetical scenario; 'should' is predictive here. Time-capsule claim from the 2022 body."
+  },
+  {
+   "id": "owen-1495",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "They make the standard of care illegal, and pretty quickly, the sequela of that — medical malpractice lawsuits, doctors fleeing your state, etc— create what some of us in healthcare advocacy would consider an opportunity",
+   "context": "2022 body. Predicted consequences of Abbott's order: medical malpractice lawsuits and doctors leaving Texas 'pretty quickly', which in turn create ERISA plan insufficiencies.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "other",
+   "horizon_text": "pretty quickly",
+   "confidence_phrase": "pretty quickly",
+   "entities": [
+    "Texas",
+    "Greg Abbott"
+   ],
+   "finder_note": "Compound claim (lawsuits + physician flight). Time-capsule claim from the 2022 body."
+  },
+  {
+   "id": "owen-1496",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "They create ERISA plan insufficiencies that are clear and unambiguous. This opens the door for definitive enforcement of the fiduciary rule under the CA 2020 law.",
+   "context": "2022 body. The author predicts that Texas anti-trans policy makes ERISA network-adequacy violations easy to prove and enables enforcement of the broker/plan-sponsor fiduciary rule from the Consolidated Appropriations Act.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "opens the door for definitive enforcement",
+   "entities": [
+    "ERISA",
+    "Consolidated Appropriations Act",
+    "Texas"
+   ],
+   "finder_note": "Time-capsule claim from the 2022 body."
+  },
+  {
+   "id": "owen-1497",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "how unbelievably easy it would be to make a claim against a Texas employer purchasing a theoretically ERISA compliant plan in the state of Texas",
+   "context": "2022 body. The author claims ERISA fiduciary claims against Texas employers and their health plans would be very easy, citing infinite wait time, out-of-state travel distance and zero in-state providers for youth gender-affirming care.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "unbelievably easy it would be",
+   "entities": [
+    "ERISA",
+    "Texas"
+   ],
+   "finder_note": "Time-capsule claim from the 2022 body."
+  },
+  {
+   "id": "owen-1498",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "All of them will go to jail if they do so.",
+   "context": "2022 body, Q&A illustration of ERISA insufficiency: the number of providers of gender-affirming care for trans youth in Texas is zero because any who provide it 'will go to jail' under Abbott's order.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Texas",
+    "Greg Abbott"
+   ],
+   "finder_note": "Hyperbolic legal-consequence claim inside a rhetorical illustration; logged for recall. Time-capsule claim from the 2022 body."
+  },
+  {
+   "id": "owen-1499",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "causes every Texas employer – plan sponsors, most — and every Texas insurance plan selling ERISA compliant insurance A Serious Problem",
+   "context": "2022 body. Claim that removing the gender-medicine subspecialty and its providers from Texas puts every Texas ERISA plan sponsor and insurer in legal jeopardy under federal network-adequacy and fiduciary rules.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "causes ... A Serious Problem",
+   "entities": [
+    "ERISA",
+    "Texas",
+    "Greg Abbott"
+   ],
+   "finder_note": "Time-capsule claim from the 2022 body."
+  },
+  {
+   "id": "owen-1500",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "I've been waiting for the ability to have a ERISA attorney file lawsuits that are just going to totally crush noncompliant plans.",
+   "context": "2022 body, closing section. The author expects ERISA fiduciary lawsuits, enabled by Texas policy, to crush noncompliant health plans.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "just going to totally crush",
+   "entities": [
+    "ERISA",
+    "Texas"
+   ],
+   "finder_note": "Time-capsule claim from the 2022 body; author is a would-be litigant/advocate."
+  },
+  {
+   "id": "owen-1501",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "More hope is coming, too.",
+   "context": "RAMHT SF 2025 event promo. After saying clinicians need to know there is hope now for their patients, the author asserts more rapid-acting mental health treatments are coming.",
+   "post_title": "Rapid Acting Mental Health Treatment SF 2025!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6fe",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Vague, undated call about the rapid-acting treatment pipeline."
+  },
+  {
+   "id": "owen-1502",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "Payers need to know that these treatments can change the landscape of reimbursement and risk management.",
+   "context": "RAMHT SF 2025 event promo. Claim that rapid-acting mental health treatments can change payer reimbursement and risk management.",
+   "post_title": "Rapid Acting Mental Health Treatment SF 2025!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6fe",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "can change",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Borderline: 'need to know' is normative framing but the embedded claim is a capability/expectation about payers; logged for recall."
+  },
+  {
+   "id": "owen-1503",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "These discussions will join Grady Hannah , Carlene MacMillan, MDhub.ai , Sanmai , Videra Health , GrayMatters Health , Fermata , Acacia Clinics , Nightware , and others that we hash out what the rapid activity future looks like.",
+   "context": "Lineup for RAMHT SF 2025 (January 12, 2025): discussions with Eric Vanderhoef and Chris Aiken will join the listed participants, including the author's own organizations (Fermata, Acacia Clinics, Videra Health).",
+   "post_title": "Rapid Acting Mental Health Treatment SF 2025!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6fe",
+   "area_guess": "other",
+   "horizon_text": "This year",
+   "confidence_phrase": "will join",
+   "entities": [
+    "RAMHT",
+    "Grady Hannah",
+    "Carlene MacMillan",
+    "MDhub.ai",
+    "Sanmai",
+    "Videra Health",
+    "GrayMatters Health",
+    "Fermata",
+    "Acacia Clinics",
+    "Nightware",
+    "Eric Vanderhoef",
+    "Chris Aiken"
+   ],
+   "finder_note": "Own-event lineup claim (RAMHT, Fermata, Acacia, Videra); CONTROL candidate."
+  },
+  {
+   "id": "owen-1504",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "If we are lucky, the team from Radial might be skulking around, and I have it on good authority other movers and shakers like Fred Ma and Anthony Sterns from iRxReminder will be hanging out.",
+   "context": "RAMHT SF 2025 attendance: Radial (author's organization) may attend; Fred Ma and Anthony Sterns of iRxReminder will attend.",
+   "post_title": "Rapid Acting Mental Health Treatment SF 2025!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6fe",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might be ... will be",
+   "entities": [
+    "Radial",
+    "Fred Ma",
+    "Anthony Sterns",
+    "iRxReminder",
+    "RAMHT"
+   ],
+   "finder_note": "Compound: hedged (Radial) plus firm (iRxReminder) attendance claims for the author's own event; CONTROL candidate."
+  },
+  {
+   "id": "owen-1505",
+   "forecaster": "owen",
+   "statement_date": "2025-01-06",
+   "quote": "We are bringing live demos of things— here and now—the future of rapid-acting mental health diagnostics and treatments.",
+   "context": "RAMHT SF 2025 promo inside a productivity essay: this year's event will feature live demos of rapid-acting mental health diagnostics and treatments.",
+   "post_title": "\"How Do You Write Something Every Day?\" -- MDHub.ai is the Answer.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-do-you-write-something-every",
+   "area_guess": "other",
+   "horizon_text": "this year",
+   "confidence_phrase": "We are bringing",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Own-event programming claim; CONTROL candidate."
+  },
+  {
+   "id": "owen-1506",
+   "forecaster": "owen",
+   "statement_date": "2025-01-06",
+   "quote": "MDHub.ai will be at RAMHT SF 2025. Join us this Sunday, the 12th!",
+   "context": "MDHub.ai, the AI medical-note tool the author credits for his output, will attend RAMHT SF 2025 on Sunday, January 12, 2025.",
+   "post_title": "\"How Do You Write Something Every Day?\" -- MDHub.ai is the Answer.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-do-you-write-something-every",
+   "area_guess": "other",
+   "horizon_text": "this Sunday, the 12th",
+   "confidence_phrase": "will be",
+   "entities": [
+    "MDHub.ai",
+    "RAMHT"
+   ],
+   "finder_note": "Own-event attendance claim; CONTROL candidate."
+  },
+  {
+   "id": "owen-1508",
+   "forecaster": "owen",
+   "statement_date": "2025-01-08",
+   "quote": "I'm a little upset that they stepped on my corporate brand, and there may be some subsequent trademark issues",
+   "context": "An Israeli agtech company also named Fermata (product Croptimus) announced a $10M Series A. The author's Brooklyn clinic Fermata shares the name; he expects possible trademark issues between the two companies.",
+   "post_title": "Who Raised $10M Overnight? Spoiler Alert: \"It Wasn't Me.\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/who-raised-10m-overnight-spoiler",
+   "area_guess": "company_market",
+   "horizon_text": "subsequent",
+   "confidence_phrase": "may be",
+   "entities": [
+    "Fermata (Health, Brooklyn clinic)",
+    "Fermata (agtech)",
+    "Croptimus"
+   ],
+   "finder_note": "Sincere line inside an otherwise satirical post; concerns the author's own company (CONTROL candidate)."
+  },
+  {
+   "id": "owen-1509",
+   "forecaster": "owen",
+   "statement_date": "2025-01-08",
+   "quote": "As for Fermata, we may have to include Health in the name. Or come up with some other solution.",
+   "context": "Because of the name clash with the agtech Fermata, the author says his clinic may rename itself 'Fermata Health' or find another solution.",
+   "post_title": "Who Raised $10M Overnight? Spoiler Alert: \"It Wasn't Me.\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/who-raised-10m-overnight-spoiler",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "may have to",
+   "entities": [
+    "Fermata (Health, Brooklyn clinic)",
+    "Fermata (agtech)"
+   ],
+   "finder_note": "Own-company plan; CONTROL candidate."
+  },
+  {
+   "id": "owen-1510",
+   "forecaster": "owen",
+   "statement_date": "2025-01-09",
+   "quote": "Tomorrow, I will write more about health.",
+   "context": "Essay on the band American Football; the author commits to returning to health topics in the next day's newsletter.",
+   "post_title": "American Football",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/american-football",
+   "area_guess": "other",
+   "horizon_text": "Tomorrow",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Trivial own-newsletter plan; CONTROL candidate."
+  },
+  {
+   "id": "owen-1511",
+   "forecaster": "owen",
+   "statement_date": "2025-01-10",
+   "quote": "Humans have tamed many forces in the natural world; it's easy to imagine we will continue to do so.",
+   "context": "Meditation on the January 2025 Los Angeles fires. General claim that humans will keep taming natural forces, immediately qualified by 'Los Angeles proves that not all forces are within our control.'",
+   "post_title": "Fires in Los Angeles",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/fires-in-los-angeles",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "it's easy to imagine we will",
+   "entities": [],
+   "finder_note": "Vague general claim close to a truism; logged for recall."
+  },
+  {
+   "id": "owen-1512",
+   "forecaster": "owen",
+   "statement_date": "2025-01-11",
+   "quote": "Big Health companies—which we used to think of as insurance companies prior to this article— are using prior authorization to maximize their profits. I don't think they're gonna give it up without a fight.",
+   "context": "Prior-authorization essay (UnitedHealth Group paging a surgeon out of the operating room as the example). The author predicts large health insurers will not relinquish prior authorization without a fight.",
+   "post_title": "I Solved \"Prior Authorization\" with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-solved-prior-authorization-with",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I don't think they're gonna",
+   "entities": [
+    "UnitedHealth Group",
+    "Big Health insurers"
+   ],
+   "finder_note": "Negative call about payer behavior; undated."
+  },
+  {
+   "id": "owen-1513",
+   "forecaster": "owen",
+   "statement_date": "2025-01-11",
+   "quote": "I don't think this would be a very popular job among insurance company doctors. I think it's likely they would run out of physicians willing to get in a plane just to go meet their colleagues and demand an explanation.",
+   "context": "Conditional on the author's proposal that every prior-authorization request be delivered in person by a licensed payer physician: he predicts insurers would run out of physicians willing to do it, making prior auth 'endlessly painful to request'.",
+   "post_title": "I Solved \"Prior Authorization\" with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-solved-prior-authorization-with",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I think it's likely",
+   "entities": [
+    "insurance company physicians",
+    "Big Health insurers"
+   ],
+   "finder_note": "Conditional on a hypothetical legal proposal the author is advocating; unlikely to be resolvable."
+  },
+  {
+   "id": "owen-1514",
+   "forecaster": "owen",
+   "statement_date": "2025-01-12",
+   "quote": "Tonight, we kick off the JPM Health conference in SF.",
+   "context": "Promo at the top of the psilocybin-trial walkthrough: the RAMHT SF 2025 event on January 12, 2025 opens JPM Healthcare conference week in San Francisco.",
+   "post_title": "Psilocybin In Pandemic Traumatized Healthcare Workers",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/who-is-in-a-functionally-unblinded",
+   "area_guess": "other",
+   "horizon_text": "Tonight",
+   "confidence_phrase": "we kick off",
+   "entities": [
+    "RAMHT",
+    "JPM Healthcare conference"
+   ],
+   "finder_note": "Own-event logistics; CONTROL candidate."
+  },
+  {
+   "id": "owen-1515",
+   "forecaster": "owen",
+   "statement_date": "2025-01-12",
+   "quote": "Oh my God, a lot of people will want to get into a psilocybin trial!",
+   "context": "Walkthrough of the JAMA Network Open RCT of psilocybin vs niacin in depressed frontline healthcare workers (Back et al. 2024; 2,247 applied online, 30 randomized, 100% guessed their arm). The author's stated takeaway generalizes that psilocybin trials will attract many would-be participants.",
+   "post_title": "Psilocybin In Pandemic Traumatized Healthcare Workers",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/who-is-in-a-functionally-unblinded",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will want",
+   "entities": [
+    "psilocybin",
+    "JAMA Network Open",
+    "Back AL et al. 2024"
+   ],
+   "finder_note": "General claim about future psilocybin trial recruitment demand, drawn from one trial's CONSORT numbers."
+  },
+  {
+   "id": "owen-1516",
+   "forecaster": "owen",
+   "statement_date": "2025-01-15",
+   "quote": "But that’s for another substack post…",
+   "context": "In an aside ('My Opinion: Abolish imprisonment...') inside the ADHD explainer, the author promises a future newsletter post on prison abolition. Content promise about The Frontier Psychiatrists.",
+   "post_title": "What is \"Adult ADHD\"?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-is-adult-adhd",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Trivial content promise; about the author's own newsletter (CONTROL candidate). The article is a re-run, so the promise may date from the original 2023 version."
+  },
+  {
+   "id": "owen-1518",
+   "forecaster": "owen",
+   "statement_date": "2025-01-15",
+   "quote": "The next generation of treatments are exciting. They promise better efficacy and a lower side effect profile.",
+   "context": "'My Opinion' block right after the author lists promising novel ADHD treatments under research: transcranial magnetic stimulation (TMS), the recently FDA-approved Monarch eTNS device, and LSD derivatives in clinical trials with Mind Medicine as sponsor. He expects these next-generation treatments to deliver better efficacy and fewer side effects.",
+   "post_title": "What is \"Adult ADHD\"?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-is-adult-adhd",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "promise",
+   "entities": [
+    "transcranial magnetic stimulation (TMS)",
+    "Monarch eTNS",
+    "LSD derivatives",
+    "Mind Medicine (MindMed)",
+    "FDA"
+   ],
+   "finder_note": "Compound claim (efficacy and side-effect profile). Author discloses in footnote 9 that he is a MindMed shareholder. Re-run article originally written around 2023."
+  }
+ ]
+}

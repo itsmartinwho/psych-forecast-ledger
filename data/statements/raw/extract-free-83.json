@@ -1,0 +1,438 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-83.md",
+  "posts": [
+    {
+      "slug": "how-to-connect-with-anyone",
+      "read": true,
+      "statements_found": 1,
+      "note": "Guest post: a transcript of Lila's (Horizontal with Lila) intimacy speech with a short intro by the author. Lila's personal forward-looking remarks ('my words ... will return', 'at least 6 more opportunities to attend', 'We're probably gonna make YouTube videos') are hers, not the author's, and were not logged. Only the RAMHT event line is logged."
+    },
+    {
+      "slug": "i-have-a-confession-to-make",
+      "read": true,
+      "statements_found": 13,
+      "note": "Essay urging readers to try Claude Code agents. General claims about AI agent adoption, scams, tool-leadership rotation and error rates, plus own-event and own-plan lines. Present-tense HIPAA/enterprise-subscription remarks about Radial are not logged."
+    },
+    {
+      "slug": "when-help-isnt-helpful",
+      "read": true,
+      "statements_found": 0,
+      "note": "Interview with the author's mother Vita about his adopted sister Alison Muir's addiction and death; all past narrative. Vita's general claim that a mother's rejection is 'very difficult, if not impossible, to undo' and the closing 'We should develop an un-abandonment ritual' (normative) are not logged."
+    },
+    {
+      "slug": "getting-our-heads-around-the-manosphere",
+      "read": true,
+      "statements_found": 2,
+      "note": "Short podcast post after a Substack Live with Jeremy on the manosphere; the friendship reflections are present-tense. 'Join and I for our next live video' is an invitation and not logged."
+    },
+    {
+      "slug": "the-anthropologist-who-became-the",
+      "read": true,
+      "statements_found": 8,
+      "note": "Part one of an interview with Jordan Sloshower (CMO of Beckley Clinical, a RAMHT sponsor). Own claims are event and newsletter plans; four third-party Sloshower statements logged with own_claim=false, including the FDA-approval presupposition."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "how-to-connect-with-anyone",
+      "quote": "The Live-Action Version of this Newsletter, RAMHT 2026 SF, is coming up on May 16th, 2026!",
+      "context": "Advertising block in the author's short intro to a guest post by Lila (Horizontal with Lila). The author announces his own live event, RAMHT 2026 SF (Rapid Acting Mental Health Treatment), for May 16, 2026, in San Francisco, with free tickets by email.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "May 16th, 2026",
+      "confidence_phrase": "is coming up",
+      "entities": [
+        "RAMHT",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-event announcement; low forecast value. Coder may mark CONTROL. The same line recurs in the 2026-04-25 and 2026-04-30 posts."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "I'm about to have a live in-person event where I won't be distracted by the magic of Claude Code, and we'll get to attend to you personally.",
+      "context": "Author addresses readers after admitting he has written less while using Claude Code (Anthropic's coding agent). He says a live in-person event (RAMHT 2026 SF, May 16, 2026) is imminent and that he will attend to readers personally there.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "about to",
+      "confidence_phrase": "I'm about to",
+      "entities": [
+        "RAMHT",
+        "Claude Code"
+      ],
+      "note": "Own-event plan; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "I've even heard rumors that there will be merch. There will definitely be books.",
+      "context": "Same paragraph: what will be on offer at the RAMHT 2026 SF live event on May 16, 2026. A hedged claim that there will be merchandise (rumors) and a firm claim that his print books will be available there.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will definitely",
+      "entities": [
+        "RAMHT"
+      ],
+      "note": "Compound: hedged merch claim plus firm books claim. Own event; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "The Live-Action Version of this Newsletter, RAMHT 2026 SF, is coming up on May 16th, 2026!",
+      "context": "Advertising block repeated in this post. Announces the RAMHT 2026 SF live event for May 16, 2026, in San Francisco, free tickets by email.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "May 16th, 2026",
+      "confidence_phrase": "is coming up",
+      "entities": [
+        "RAMHT",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Restatement of the event announcement from the 2026-04-24 post. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "And it lets us make things that are pointless. Some of them will have a point.",
+      "context": "About Claude Code. The author says it lets people make pointless things, and asserts that some of the things made this way will turn out to have a point. Sets up his how-to for building a small agent.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Claude Code"
+      ],
+      "note": "Vague capability claim; borderline. Logged for recall."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "I'm saying it's a good idea to have a sense of how AI tools like Claude are gonna change how other people are doing things.",
+      "context": "Author's rationale for readers to try Claude Code: AI tools like Claude are going to change how other people do things, so readers should understand them to be prepared. He explicitly does not say readers must use AI daily.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "are gonna",
+      "entities": [
+        "Claude",
+        "Claude Code"
+      ],
+      "note": "General technology-change forecast; no date."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "So here's how I think everyone could get started with automated agents, so they can understand how other people are gonna be using automated agents.",
+      "context": "Transition into the how-to section (plant-watering agent example). Presupposes that other people are going to use automated agents (chatbots that can act on a computer) and that readers need a model of that.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "are gonna be using",
+      "entities": [
+        "Claude Code"
+      ],
+      "note": "Adoption forecast for AI agents in general; no date."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "you're creating a model of how other people— people with power, influence, and enterprise subscriptions to these things— are gonna be using these tools to interact with the world",
+      "context": "Point of the plant-watering agent exercise: readers build a mental model of how people with power, influence and enterprise AI subscriptions are going to use agent tools to interact with the world and, sometimes, with the reader.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "are gonna be using",
+      "entities": [
+        "Claude Code"
+      ],
+      "note": "Adoption forecast about powerful actors and enterprises; the sentence ends 'and, sometimes, you'."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "Scammers are gonna be using these tools to learn all about us. They're doing it right now, and they're getting data from the dark web, and they're using it to craft endlessly more appealing scams to seperate you and your money.",
+      "context": "Author predicts scammers will use AI agent tools to profile people, and says they are already doing so with dark-web data to craft ever more appealing scams.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "are gonna be using",
+      "entities": [],
+      "note": "Compound: forward-looking 'gonna be using' plus present-tense 'doing it right now'. Typo 'seperate' is in the source."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "The only good news about the automated future is that it's at least possible that all that money they're robbing you of won't matter that much.",
+      "context": "Hedged macro claim: in an automated future, money lost to scams may not matter much. The author attributes the label 'luxury automated communism' for this future to his friend Michelle Bernabe and says it was originally someone's investment thesis.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "the automated future",
+      "confidence_phrase": "it's at least possible",
+      "entities": [
+        "Michelle Bernabe"
+      ],
+      "note": "Very hedged. The label is third-party; the possibility claim is the author's."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "I just think Claude is the best tool I've used yet, and I'm sure whoever's leading the pack for any given task is gonna bounce back-and-forth in the very near future.",
+      "context": "Author recommends building a Claude Code agent (or OpenClaw or other tools) and predicts that leadership among AI agent tools for any given task will change hands back and forth in the very near future. He adds it is 'either gonna end up like the Top college list ... or it's not'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "in the very near future",
+      "confidence_phrase": "I'm sure",
+      "entities": [
+        "Claude",
+        "Claude Code",
+        "OpenClaw"
+      ],
+      "note": "Market-leadership rotation call for AI tools; no named challenger."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "Maybe there won't be top colleges in the future, because no one will think it makes sense to go to college.",
+      "context": "Aside after comparing AI tool rankings to the rotating Top college list. Speculates that top colleges may not exist in the future because no one will think going to college makes sense.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "in the future",
+      "confidence_phrase": "Maybe",
+      "entities": [],
+      "note": "Speculative aside; hedged. Logged for recall."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "It will make misunderstandings, which are important to understand. ... You need a sense of how AI will be wrong to navigate the future",
+      "context": "Advice to try a small agent task within one's risk tolerance. The author asserts an error-prone AI agent will make misunderstandings and that AI will be wrong; earlier he writes 'Expect mistakes, that's one lesson' and that it gets things wrong 'all the time right now'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Claude Code"
+      ],
+      "note": "Joined with one ' ... '. Low-stakes capability claim; borderline."
+    },
+    {
+      "post_slug": "i-have-a-confession-to-make",
+      "quote": "I'm gonna take time away from writing this column, so I can go back to using Claude code, because I gotta check who works for me, and when their licenses are expiring, so I can automate the process of reminding them to resubmit those licenses, before I can automate the process of actually just resubmitting the license applications with their sign off.",
+      "context": "Closing paragraph. The author's own plan: step back from the newsletter to use Claude Code to automate clinician license-renewal reminders, and later the license resubmissions, for the people who work for him (Radial is named earlier as his employer with an enterprise Claude subscription).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I'm gonna",
+      "entities": [
+        "Claude Code",
+        "Radial"
+      ],
+      "note": "Own plan, stated intention; borderline forecast. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "getting-our-heads-around-the-manosphere",
+      "quote": "I think I'm going to do more of these, because I need more excuses to spend time with people in real life.",
+      "context": "Podcast post note after a Substack Live with Jeremy on the manosphere. The author invites readers to the RAMHT in-person event in San Francisco on May 16 and says he expects to hold more in-person events.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I think I'm going to",
+      "entities": [
+        "RAMHT"
+      ],
+      "note": "Own-activity intention; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "getting-our-heads-around-the-manosphere",
+      "quote": "The Live-Action Version of this Newsletter, RAMHT 2026 SF, is coming up on May 16th, 2026!",
+      "context": "Advertising block repeated; the RAMHT 2026 SF live event on May 16, 2026, in San Francisco. Preceded by 'Please join us for a live in-person event for readers of this newsletter and all of our friends in San Francisco on May 16.'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "May 16th, 2026",
+      "confidence_phrase": "is coming up",
+      "entities": [
+        "RAMHT",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Restatement of the event announcement from the 2026-04-24 post. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-anthropologist-who-became-the",
+      "quote": "He will be joining us for the next edition of the Rapid Acting Mental Health Treatment live event on May 16th, in San Francisco, California.",
+      "context": "Intro to part one of an interview with Jordan Sloshower, M.D. (psychiatrist in New Haven, Yale assistant clinical professor, Chief Medical Officer of Beckley Clinical). The author states Sloshower will join the RAMHT live event on May 16, 2026, in San Francisco. Disclosure: Beckley Clinical sponsors RAMHT.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "May 16th",
+      "confidence_phrase": "will",
+      "entities": [
+        "Jordan Sloshower",
+        "Beckley Clinical",
+        "RAMHT",
+        "Yale"
+      ],
+      "note": "Own-event lineup claim; coder may mark CONTROL. Restated near the end of the post."
+    },
+    {
+      "post_slug": "the-anthropologist-who-became-the",
+      "quote": "To that end, we sat down yesterday for the first of several conversations.",
+      "context": "Intro. The author says this interview with Jordan Sloshower is the first of several planned conversations for the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "the first of several",
+      "entities": [
+        "Jordan Sloshower",
+        "Beckley Clinical"
+      ],
+      "note": "Own-newsletter plan; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-anthropologist-who-became-the",
+      "quote": "But even that, as someone who grew up in Canada, access to primary care here is going to be pretty limited.",
+      "context": "Jordan Sloshower, asked who the US analog of traditional healers would be, says it should be primary care doctors, but that access to primary care in the US is going to be pretty limited. The author's next question changes topic (how Sloshower came to the US).",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "is going to be",
+      "entities": [
+        "Jordan Sloshower"
+      ],
+      "note": "Third-party claim (Sloshower), general and present-leaning; the author does not adopt it. Logged for recall."
+    },
+    {
+      "post_slug": "the-anthropologist-who-became-the",
+      "quote": "A single dose of any medication isn’t going to reverse twenty years of depression.",
+      "context": "Pull-quote from Jordan Sloshower's account of his Yale psilocybin-assisted therapy trial: patients had about 20 years of depression on average, and he did not think a single dose would reverse the full course of illness. The author restates it as a question ('When you say a single dose of medication wouldn't do it') and offers a surgery-plus-physical-therapy analogy.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "isn’t going to",
+      "entities": [
+        "Jordan Sloshower",
+        "psilocybin",
+        "Yale"
+      ],
+      "note": "Third-party general clinical expectation, not time-bound; borderline forward-looking. The author probes it rather than adopting it."
+    },
+    {
+      "post_slug": "the-anthropologist-who-became-the",
+      "quote": "We need research to determine optimal dosing, and I probably think more than one dose, on a repeat cycle.",
+      "context": "Jordan Sloshower on psilocybin-assisted therapy dosing. He expects optimal dosing will be more than one dose on a repeat cycle, pending research, and calls the author's surgery-plus-physical-therapy analogy 'a great analogy'.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "I probably think",
+      "entities": [
+        "Jordan Sloshower",
+        "psilocybin"
+      ],
+      "note": "Third-party expectation about what dosing research will show; the author does not adopt it."
+    },
+    {
+      "post_slug": "the-anthropologist-who-became-the",
+      "quote": "With an eye towards incorporating other novel psychedelics as they become FDA-approved.",
+      "context": "Jordan Sloshower describing Beckley Clinical's mission: raise the standard of care in behavioral health with drug-assisted and psychedelic-assisted therapy, starting with ketamine and Spravato plus wraparound psychotherapy and lifestyle medicine, then adding other novel psychedelics as they become FDA-approved. The author responds 'Amazing.'",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "as they become FDA-approved",
+      "confidence_phrase": "as they become",
+      "entities": [
+        "Beckley Clinical",
+        "FDA",
+        "Spravato",
+        "ketamine",
+        "Jordan Sloshower"
+      ],
+      "note": "Third-party company plan that presupposes future FDA approval of novel psychedelics; the author praises but does not restate the forecast."
+    },
+    {
+      "post_slug": "the-anthropologist-who-became-the",
+      "quote": "Jordan Sloshower, M.D., will be speaking at RAMHT on May 16th, 2026, in San Francisco.",
+      "context": "Closing line with ticket link; restates that Jordan Sloshower will speak at the RAMHT live event on May 16, 2026, in San Francisco.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "May 16th, 2026",
+      "confidence_phrase": "will",
+      "entities": [
+        "Jordan Sloshower",
+        "RAMHT"
+      ],
+      "note": "Restatement of the intro lineup claim; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-anthropologist-who-became-the",
+      "quote": "Part two of this conversation is forthcoming.",
+      "context": "Closing line. The author promises part two of the Sloshower interview; earlier he says 'I'm fascinated and want to do a follow-up. Consider this the prologue. Next time, we get into the meat of it.'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "forthcoming",
+      "confidence_phrase": "is forthcoming",
+      "entities": [
+        "Jordan Sloshower"
+      ],
+      "note": "Own-newsletter promise; coder may mark CONTROL."
+    }
+  ]
+}

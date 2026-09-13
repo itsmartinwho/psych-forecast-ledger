@@ -1,0 +1,828 @@
+{
+ "packet": "code-15.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0618",
+   "forecaster": "owen",
+   "statement_date": "2023-07-10",
+   "quote": "but I imagine the discovery, in that case, is most of the evidence needed for this one, vastly reducing the cost of the litigation",
+   "context": "Footnote 12 on Ford's Sherman Act antitrust suit against Blue Cross plans: the author expects discovery from the earlier $2.7b class action settlement to supply most of the evidence and cut Ford's litigation costs.",
+   "post_title": "SopranoRX: \"Modern Gangsters\" ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I imagine",
+   "entities": [
+    "Ford",
+    "Blue Cross",
+    "Sherman Act"
+   ],
+   "finder_note": "Litigation-process call."
+  },
+  {
+   "id": "owen-0620",
+   "forecaster": "owen",
+   "statement_date": "2023-07-11",
+   "quote": "I wonder if she reads this, but not often. I don't think it is likely.",
+   "context": "Footnote 2 of a personal memoir about a high-school love. The author doubts that Marisa, his first love whom he has not seen since eighth grade, reads the newsletter.",
+   "post_title": "You Would Run Away Too",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-love-letter-to-revelations",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I don't think it is likely",
+   "entities": [
+    "Marisa"
+   ],
+   "finder_note": "Trivial personal prediction about readership; logged for recall."
+  },
+  {
+   "id": "owen-0621",
+   "forecaster": "owen",
+   "statement_date": "2023-07-11",
+   "quote": "I doubt she reads this. She might, someday.",
+   "context": "Footnote 3 of the same memoir. The author doubts that Melisande, his second love and later penpal, currently reads the newsletter, but allows that she might someday.",
+   "post_title": "You Would Run Away Too",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-love-letter-to-revelations",
+   "area_guess": "other",
+   "horizon_text": "someday",
+   "confidence_phrase": "I doubt ... might",
+   "entities": [
+    "Melisande"
+   ],
+   "finder_note": "Trivial personal prediction about readership; logged for recall."
+  },
+  {
+   "id": "owen-0622",
+   "forecaster": "owen",
+   "statement_date": "2023-07-12",
+   "quote": "II. Payers Demand Pilots That Will Fail",
+   "context": "Item II of the author's 'Rule of the House of Odds' for healthcare businesses (a House of God parody): pilots demanded by payers will fail.",
+   "post_title": "Never Raise Money For Your Healthcare Startup",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/never-raise-money-for-your-healthcare",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "Will Fail",
+   "entities": [],
+   "finder_note": "Aphoristic generic rule; low resolvability."
+  },
+  {
+   "id": "owen-0623",
+   "forecaster": "owen",
+   "statement_date": "2023-07-12",
+   "quote": "VI. There is no healthcare play that can succeed absent a guaranteed government payer",
+   "context": "Item VI of the same rules: no healthcare business can succeed without a guaranteed government payer.",
+   "post_title": "Never Raise Money For Your Healthcare Startup",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/never-raise-money-for-your-healthcare",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "There is no healthcare play that can succeed",
+   "entities": [],
+   "finder_note": "Aphoristic generic negative call."
+  },
+  {
+   "id": "owen-0624",
+   "forecaster": "owen",
+   "statement_date": "2023-07-12",
+   "quote": "The expectations venture investors have are that they're going to want you to grow fast, and that means you're gonna have a very hard time maintaining the kind of quality that creates sustainable business model.",
+   "context": "Argument against raising venture capital for healthcare companies: VC growth pressure will erode care quality and business sustainability.",
+   "post_title": "Never Raise Money For Your Healthcare Startup",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/never-raise-money-for-your-healthcare",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "gonna",
+   "entities": [],
+   "finder_note": "Generic conditional claim about VC-backed healthcare startups."
+  },
+  {
+   "id": "owen-0625",
+   "forecaster": "owen",
+   "statement_date": "2023-07-12",
+   "quote": "They will also expect to a burn rate. This means you spend more money than you make. This also means you create a business that fails the second the necessary extra cash dries up.",
+   "context": "Same argument: VC-expected burn rates create healthcare businesses that fail when outside funding stops.",
+   "post_title": "Never Raise Money For Your Healthcare Startup",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/never-raise-money-for-your-healthcare",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Generic conditional claim; coder may treat as truism."
+  },
+  {
+   "id": "owen-0626",
+   "forecaster": "owen",
+   "statement_date": "2023-07-13",
+   "quote": "If we think narcissism is related to abuse, treating narcissism, and creating help that is understood as helpful to those suffering from NPD? It may lead to less abuse of others! Insults to potential abusers— adding a pejorative or even an accurate label—can't help.",
+   "context": "Opinion piece against the phrase 'narcissistic abuse': treating narcissistic personality disorder may reduce abuse of others, while stigmatizing labels cannot help.",
+   "post_title": "Narcissistic Abuse is an Abusive Phrase...for Us All.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/narcissistic-abuse-is-an-abusive",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "NPD"
+   ],
+   "finder_note": "Hedged conditional clinical claim."
+  },
+  {
+   "id": "owen-0627",
+   "forecaster": "owen",
+   "statement_date": "2023-07-13",
+   "quote": "This is an area that can direct future NPD research to develop a comprehensive approach to NPD management.",
+   "context": "Quoted from the author's own lab's paper on clinician attitudes toward NPD (group therapy seen as helpful but rarely offered); points to a future research direction.",
+   "post_title": "Narcissistic Abuse is an Abusive Phrase...for Us All.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/narcissistic-abuse-is-an-abusive",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "can",
+   "entities": [
+    "NPD",
+    "Anna Freud Centre"
+   ],
+   "finder_note": "Quoted from the author's own published abstract; weak predictive content; logged for recall."
+  },
+  {
+   "id": "owen-0628",
+   "forecaster": "owen",
+   "statement_date": "2023-07-14",
+   "quote": "And so I think we’re going to see is that every employer is either going to have to be suing their health plan for this information or they’re open themselves up to liability for not doing so.",
+   "context": "After explaining PBMs and ERISA fiduciary duty to his mother (plan sponsors paying more than necessary for drugs; ACA/ERISA 10-day behavioral health wait standard versus a 48-day average wait for child therapy), the author predicts every employer will have to sue its health plan for claims and pricing data or face fiduciary liability.",
+   "post_title": "I Explained Healthcare to My Mom...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-explained-healthcare-to-my-mom",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I think we’re going to see",
+   "entities": [
+    "ERISA",
+    "ACA",
+    "PBMs",
+    "employer health plans"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-0629",
+   "forecaster": "owen",
+   "statement_date": "2023-07-14",
+   "quote": "once one of these lawsuits wins for one type of claim, every lawyer, everywhere is going to be bringing the same easy to prove claim against every other plan sponsor, or on behalf of every other plan sponsor, against their broker, or with the broker against their plan, depending on who is willing to get out of the way of the wrecking ball first.",
+   "context": "Conditional forecast in the PBM/ERISA post: once an ERISA fiduciary-breach lawsuit over health plan costs wins on one type of claim, the author expects a wave of copycat suits against and on behalf of plan sponsors, brokers and plans. He adds that the best business model is 'popcorn to crunch for the show'.",
+   "post_title": "I Explained Healthcare to My Mom...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-explained-healthcare-to-my-mom",
+   "area_guess": "payer_policy",
+   "horizon_text": "once one of these lawsuits wins",
+   "confidence_phrase": "is going to be",
+   "entities": [
+    "ERISA",
+    "plan sponsors",
+    "brokers"
+   ],
+   "finder_note": "Conditional on a first successful ERISA fiduciary lawsuit."
+  },
+  {
+   "id": "owen-0630",
+   "forecaster": "owen",
+   "statement_date": "2023-07-14",
+   "quote": "Every PE firm is just rolling stuff up so Big Health will acquire it later.",
+   "context": "Closing of the PBM/ERISA post. The author says the venture arms of big payers drive private equity acquisitions, and that healthcare PE roll-ups exist to be acquired later by large payers and health conglomerates ('Big Health').",
+   "post_title": "I Explained Healthcare to My Mom...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-explained-healthcare-to-my-mom",
+   "area_guess": "company_market",
+   "horizon_text": "later",
+   "confidence_phrase": "will",
+   "entities": [
+    "private equity",
+    "Big Health (large payers)"
+   ],
+   "finder_note": "Generic structural forecast; the same view is voiced by the PE investor character in the 2023-06-29 parody chapter."
+  },
+  {
+   "id": "owen-0631",
+   "forecaster": "owen",
+   "statement_date": "2023-07-14",
+   "quote": "The inappropriate lack of disclosures of a sitting Supreme Court Justice will nail him.",
+   "context": "Closing line of a Richard III parody poem about Clarence Thomas's financial-disclosure controversies: the author predicts the disclosure failures will bring consequences for Thomas. Lead-in is conditional: 'if Clarence be as influenceable as his peers are wealthy'.",
+   "post_title": "What did They Venmo and When Did They Venmo it?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-did-they-venmo-and-when-did",
+   "area_guess": "other",
+   "horizon_text": "this day",
+   "confidence_phrase": "will nail him",
+   "entities": [
+    "Clarence Thomas",
+    "Supreme Court"
+   ],
+   "finder_note": "Parody framing; the expectation of consequences reads sincere. Not a healthcare call."
+  },
+  {
+   "id": "owen-0632",
+   "forecaster": "owen",
+   "statement_date": "2023-07-16",
+   "quote": "In 2023, I agree with this statement, but I also add the asterisk that neuromodulation will likely be helpful.",
+   "context": "Footnote 3 to the sentence that kids in the state hospital are not responding to medications because their illnesses are not treated by medications. Writing in 2023 about a 2017 talk, the author expects neuromodulation to be helpful for this population (children with attachment/borderline pathology in state hospital care).",
+   "post_title": "How Do I Help Suicidal Kids?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-do-i-help-suicidal-kids",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will likely",
+   "entities": [
+    "neuromodulation",
+    "Rockland Children's Psychiatric Center",
+    "borderline personality disorder"
+   ],
+   "finder_note": "Footnote update on a 2017 text; 'In 2023' marks when the author speaks, not a horizon. Vague target population."
+  },
+  {
+   "id": "owen-0633",
+   "forecaster": "owen",
+   "statement_date": "2023-07-16",
+   "quote": "Join us for the next exciting installment in this series!",
+   "context": "Closing line; the author promises a next installment of the MBT / suicidal-kids series in the newsletter.",
+   "post_title": "How Do I Help Suicidal Kids?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-do-i-help-suicidal-kids",
+   "area_guess": "other",
+   "horizon_text": "next",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0634",
+   "forecaster": "owen",
+   "statement_date": "2023-07-17",
+   "quote": "Stay tuned for part III…",
+   "context": "Closing line of part two of three on how the author became an MBT supervisor; a third part is promised.",
+   "post_title": "How I Became \"Suicidal Kids\" Therapy Supervisor, with Mentalization Based Treatment (MBT)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-i-became-suicidal-kids-therapy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0635",
+   "forecaster": "owen",
+   "statement_date": "2023-07-19",
+   "quote": "This is concise information about the remarkable work done Acacia Clinics in Sunnyvale, California, and the care we will be bringing to Fermata in Brooklyn, NY soon.",
+   "context": "Video blurb on SAINT accelerated TMS (Stanford spin-out, Magnus Medical patent). The author says his clinic Fermata in Brooklyn will soon offer the same care as Acacia Clinics in Sunnyvale.",
+   "post_title": "Not Everyone Wants to Read About Saint...So Here is A Video Instead.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/not-everyone-wants-to-read-about",
+   "area_guess": "company_market",
+   "horizon_text": "soon",
+   "confidence_phrase": "will be bringing",
+   "entities": [
+    "Fermata",
+    "Acacia Clinics",
+    "SAINT",
+    "Magnus Medical",
+    "Stanford Brain Stimulation Lab"
+   ],
+   "finder_note": "Own organizations (Fermata, Acacia); coder marks CONTROL. Author discloses he is a paid consultant to Magnus Medical."
+  },
+  {
+   "id": "owen-0636",
+   "forecaster": "owen",
+   "statement_date": "2023-07-20",
+   "quote": "I made assertions in that article about the role of private equity, and the fact that I didn't think they could actually make Healthcare any better.",
+   "context": "On the closure of American Physician Partners (PE-backed emergency medicine staffing company), the author restates his earlier call from the 2023 match article: private equity cannot make healthcare better.",
+   "post_title": "Private Equity Sucks At Running Business of Medicine ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/update-private-equity-sucks-at-running",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I didn't think they could",
+   "entities": [
+    "American Physician Partners",
+    "private equity",
+    "Envision Healthcare"
+   ],
+   "finder_note": "Restatement of an earlier call, phrased as a past assertion the author now sees confirmed; the underlying claim is a standing negative call on PE in healthcare."
+  },
+  {
+   "id": "owen-0637",
+   "forecaster": "owen",
+   "statement_date": "2023-07-20",
+   "quote": "The business model of private equity roll ups is suffering. It's suffering, and it's arbitrage, it's not adding value, they don't know how to do it, they couldn't do it if you gave them every emergency medicine doctor and ruin the entire sub specialty in the process.",
+   "context": "After APP's closure and Envision's Chapter 11, the author argues PE roll-ups of emergency medicine staffing cannot be run profitably once surprise billing was banned by the No Surprises Act; they would fail even with every EM doctor.",
+   "post_title": "Private Equity Sucks At Running Business of Medicine ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/update-private-equity-sucks-at-running",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "couldn't",
+   "entities": [
+    "private equity",
+    "American Physician Partners",
+    "Envision Healthcare",
+    "No Surprises Act"
+   ],
+   "finder_note": "Compound: present-tense assessment plus a counterfactual capability claim. Related line says PE graduates had no ability to run EM staffing without going bankrupt."
+  },
+  {
+   "id": "owen-0638",
+   "forecaster": "owen",
+   "statement_date": "2023-07-20",
+   "quote": "If they're offering your pool of capital the opportunity to get extraordinary returns, do not invite them in",
+   "context": "Closing advice to investors (pension funds, LPs) about private equity firms in healthcare; implies PE will not deliver the extraordinary returns it promises.",
+   "post_title": "Private Equity Sucks At Running Business of Medicine ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/update-private-equity-sucks-at-running",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "private equity"
+   ],
+   "finder_note": "Borderline: imperative advice with an implicit prediction that PE returns will disappoint. Coder may drop as normative."
+  },
+  {
+   "id": "owen-0640",
+   "forecaster": "owen",
+   "statement_date": "2023-07-21",
+   "quote": "If money was not a factor, and inconvenience was not a factor (because of money)…I would never prescribe an oral antidepressant ever again.",
+   "context": "Opinion piece: oral antidepressants are not good treatments compared with brain stimulation and plausibly psychedelics. Conditional statement of the author's own prescribing intent.",
+   "post_title": "Oral Antidepressants...No Thanks.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/oral-antidepressantsno-thanks",
+   "area_guess": "practice_adoption",
+   "horizon_text": "never ... ever again",
+   "confidence_phrase": "would never",
+   "entities": [
+    "oral antidepressants",
+    "brain stimulation",
+    "psychedelic compounds"
+   ],
+   "finder_note": "Borderline: counterfactual conditional about the author's own practice, not a world-state forecast."
+  },
+  {
+   "id": "owen-0641",
+   "forecaster": "owen",
+   "statement_date": "2023-07-21",
+   "quote": "I actually have a hard time believing that Oral anti-depressants, in 5 to 10 years, will be considered ethical to prescribe. ... And I'm willing to say it, because at this point, I'm pretty sure history will bear me out.",
+   "context": "Same opinion piece. The author predicts that within 5 to 10 years (from July 2023) oral antidepressants will no longer be considered ethical to prescribe, because brain stimulation and psychedelic compounds are vastly better.",
+   "post_title": "Oral Antidepressants...No Thanks.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/oral-antidepressantsno-thanks",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in 5 to 10 years",
+   "confidence_phrase": "I actually have a hard time believing",
+   "entities": [
+    "oral antidepressants",
+    "brain stimulation",
+    "psychedelic compounds"
+   ],
+   "finder_note": "Central call of the post: 5-10 year horizon, i.e. roughly 2028-2033."
+  },
+  {
+   "id": "owen-0642",
+   "forecaster": "owen",
+   "statement_date": "2023-07-21",
+   "quote": "And I'm willing to say it, because at this point, I'm pretty sure history will bear me out.",
+   "context": "The author expects history to vindicate his position that oral antidepressants have too low a chance of working for any individual to be acceptable, and that stimulation and psychedelics will replace them.",
+   "post_title": "Oral Antidepressants...No Thanks.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/oral-antidepressantsno-thanks",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I'm pretty sure",
+   "entities": [
+    "oral antidepressants"
+   ],
+   "finder_note": "Meta-forecast of vindication for the post's thesis; no dated horizon."
+  },
+  {
+   "id": "owen-0643",
+   "forecaster": "owen",
+   "statement_date": "2023-07-21",
+   "quote": "I don't have the data yet to say that we should stab them in the heart forever. But I do think that that's what the data is going to show.",
+   "context": "Closing argument of the opinion piece. The author predicts that future data will show oral antidepressants should be abandoned ('stab them in the heart forever').",
+   "post_title": "Oral Antidepressants...No Thanks.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/oral-antidepressantsno-thanks",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I do think that that's what the data is going to show",
+   "entities": [
+    "oral antidepressants"
+   ],
+   "finder_note": "Prediction about what future evidence will show; no specific study or date."
+  },
+  {
+   "id": "owen-0644",
+   "forecaster": "owen",
+   "statement_date": "2023-07-23",
+   "quote": "300 articles down, and many more to go.",
+   "context": "300th-post retrospective; the author says the daily newsletter will continue with many more articles.",
+   "post_title": "The 300...th Post",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-300th-post",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter continuation claim; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0645",
+   "forecaster": "owen",
+   "statement_date": "2023-07-25",
+   "quote": "Will United pay more to the company it will later acquire using its increased revenue to justify the acquisition costs while increasing the cost of care for its services busines s and thus increasing its share of the medical loss ratio on both sides of the ledger? Yes, yes, it will.",
+   "context": "PE fee-math essay. PE-backed practice roll-ups negotiate better payer contracts so they can sell to United, Cigna or CVS. The author predicts United will overpay for companies it later acquires, raising the cost of care and its medical loss ratio share on both sides. He adds that the physician owner works five years, gets bought out and keeps as little as mathematically possible.",
+   "post_title": "How Private Equity Convinced Healthcare to Go At Risk On its Integrity ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-a-scam-how-private-equity-convinced",
+   "area_guess": "company_market",
+   "horizon_text": "later",
+   "confidence_phrase": "Yes, yes, it will",
+   "entities": [
+    "UnitedHealth",
+    "Cigna",
+    "CVS",
+    "private equity"
+   ],
+   "finder_note": "Rhetorical question answered affirmatively; compound claim (payer acquisition behavior plus cost of care). 'busines s' typo is in the source."
+  },
+  {
+   "id": "owen-0646",
+   "forecaster": "owen",
+   "statement_date": "2023-07-25",
+   "quote": "They can’t even roll up an entire medical discipline and run it profitably without causing the specialty and the firms' collapse!",
+   "context": "Same essay; the author repeats that PE firms cannot roll up and profitably run a medical discipline (emergency medicine roll-ups collapsed), so PE-run healthcare will fail.",
+   "post_title": "How Private Equity Convinced Healthcare to Go At Risk On its Integrity ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-a-scam-how-private-equity-convinced",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "can't even",
+   "entities": [
+    "private equity",
+    "emergency medicine"
+   ],
+   "finder_note": "Borderline: present-tense capability claim; restates the post-6 call that PE cannot run EM staffing as a business."
+  },
+  {
+   "id": "owen-0647",
+   "forecaster": "owen",
+   "statement_date": "2023-07-25",
+   "quote": "Generative AI is here. It is going to disrupt things…",
+   "context": "Opening of a short sarcastic post about DeepScribe (AI medical scribe) and a Wall Street Journal report that it relies on 200 human contractors. General call that generative AI will disrupt things (in healthcare).",
+   "post_title": "Stop Physician Burnout With Handwaving Mechanical Turks! ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/stop-physician-burnout-with-handwaving",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "generative AI",
+    "DeepScribe"
+   ],
+   "finder_note": "Vague; the rest of the post is sarcastic about DeepScribe, but this opening reads as sincere."
+  },
+  {
+   "id": "owen-0649",
+   "forecaster": "owen",
+   "statement_date": "2023-07-25",
+   "quote": "They will pretend this isn’t happening. They will sell that pretend back to investors and doctors. And patients. ... Of course they do. And they will keep at it.",
+   "context": "The author predicts DeepScribe will keep pretending its AI works without heavy human correction and will sell that story to investors, doctors and patients. Followed by 'Until the Wall Street journal outs them' and a WSJ excerpt.",
+   "post_title": "Stop Physician Burnout With Handwaving Mechanical Turks! ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/stop-physician-burnout-with-handwaving",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "DeepScribe",
+    "Wall Street Journal"
+   ],
+   "finder_note": "Narrative 'will'; the WSJ exposé it leads into had already been published, so the tense is partly rhetorical."
+  },
+  {
+   "id": "owen-0650",
+   "forecaster": "owen",
+   "statement_date": "2023-07-25",
+   "quote": "Of course they do. And they will keep at it.",
+   "context": "Closing line after the WSJ excerpt on DeepScribe's 200 contractors: the author predicts DeepScribe will continue the practice (human correction behind AI claims).",
+   "post_title": "Stop Physician Burnout With Handwaving Mechanical Turks! ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/stop-physician-burnout-with-handwaving",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will keep",
+   "entities": [
+    "DeepScribe"
+   ],
+   "finder_note": "Short; the object of 'keep at it' is the contractor-backed AI practice described in the WSJ excerpt."
+  },
+  {
+   "id": "owen-0651",
+   "forecaster": "owen",
+   "statement_date": "2023-07-26",
+   "quote": "This will likely be a many-part series because it’s long.",
+   "context": "Post on the Department of Labor's new MHPAEA (mental health parity) proposed rules and technical release. The author says his newsletter coverage will likely run to many parts. Also 'Stay tuned for the next hit track' at the close.",
+   "post_title": "Say My Name: The Department of Labor & Destiny's Child Have In Common--CHEATERS WILL BE CALLED OUT!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/say-my-name-the-department-of-labor",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will likely",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Department of Labor",
+    "MHPAEA"
+   ],
+   "finder_note": "Own-newsletter content promise; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0652",
+   "forecaster": "owen",
+   "statement_date": "2023-07-26",
+   "quote": "I will walk my readers through this document in a series of articles—which I promise is remarkable",
+   "context": "Same post; the author commits to a series of articles on the DOL technical release, including guidance on open comments readers could leave with the Departments, from payer and other perspectives.",
+   "post_title": "Say My Name: The Department of Labor & Destiny's Child Have In Common--CHEATERS WILL BE CALLED OUT!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/say-my-name-the-department-of-labor",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I will",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Department of Labor",
+    "Regulations.gov"
+   ],
+   "finder_note": "Own-newsletter content promise, closely related to the 'many-part series' statement. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0653",
+   "forecaster": "owen",
+   "statement_date": "2023-07-26",
+   "quote": "This is poised to be a big deal.",
+   "context": "The DOL / Treasury / HHS NPRM on MHPAEA compliance, with data-collection requirements for nonquantitative treatment limitations (NQTLs) related to network composition, is called poised to be a big deal. The post's thesis (title) is that cheaters, i.e. plans applying NQTLs, will be called out.",
+   "post_title": "Say My Name: The Department of Labor & Destiny's Child Have In Common--CHEATERS WILL BE CALLED OUT!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/say-my-name-the-department-of-labor",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is poised to be",
+   "entities": [
+    "Department of Labor",
+    "Department of the Treasury",
+    "HHS",
+    "MHPAEA",
+    "NQTL"
+   ],
+   "finder_note": "Vague magnitude call on a proposed rule; could also be coded regulatory."
+  },
+  {
+   "id": "owen-0654",
+   "forecaster": "owen",
+   "statement_date": "2023-07-26",
+   "quote": "Say My Name…which in this context will document an NQTL.",
+   "context": "Closing of the Destiny's Child metaphor: the NPRM's data and comparative-analysis requirements, if finalized, will document NQTL violations (parity cheating) by health plans and issuers.",
+   "post_title": "Say My Name: The Department of Labor & Destiny's Child Have In Common--CHEATERS WILL BE CALLED OUT!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/say-my-name-the-department-of-labor",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Department of Labor",
+    "MHPAEA",
+    "NQTL"
+   ],
+   "finder_note": "Borderline: metaphorical line describing the proposed rule's effect; conditional on finalization per the quoted DOL text."
+  },
+  {
+   "id": "owen-0655",
+   "forecaster": "owen",
+   "statement_date": "2023-07-26",
+   "quote": "But we are stuck with it for the time being.",
+   "context": "Adapted from a 2016 speech on suicide and borderline personality disorder. The author calls 'Borderline Personality Disorder' a problematic legacy name and expects the field to keep using it for now.",
+   "post_title": "What is Borderline Personality Disorder?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-is-borderline-personality-disorder",
+   "area_guess": "practice_adoption",
+   "horizon_text": "for the time being",
+   "confidence_phrase": "none",
+   "entities": [
+    "Borderline Personality Disorder",
+    "DSM-5"
+   ],
+   "finder_note": "Borderline forecast that the diagnostic label will persist; the text is a 2016 speech republished in 2023."
+  },
+  {
+   "id": "owen-0656",
+   "forecaster": "owen",
+   "statement_date": "2023-07-27",
+   "quote": "This is a flaw, albeit an overcome-able one, and how large language models are trained.",
+   "context": "LinkedIn engagement essay. The author argues LLM chatbots are trained on what writers wanted to say, not what readers want to hear (contrast with human mentalizing), and calls this flaw overcome-able.",
+   "post_title": "LinkedIn Sorcery Report: How A Psychological Model Called \"Mentalizing\" Drove Engagement...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/linkedin-sorcery-report-how-a-psychological",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "large language models",
+    "OpenAI",
+    "Bing AI Sydney"
+   ],
+   "finder_note": "Borderline: capability claim that the LLM flaw can be overcome; no actor or date."
+  },
+  {
+   "id": "owen-0657",
+   "forecaster": "owen",
+   "statement_date": "2023-07-27",
+   "quote": "And now, to catch them, we need standards. Standards that will demonstrate cheaters cheating.",
+   "context": "Opening of Part II of the MHPAEA series (2023-07-27) on the Department of Labor's proposed parity rule update. The author says plans were cheating (NQTLs, ghost networks) and that the new DOL data standards on network composition will demonstrate that cheating.",
+   "post_title": "Mental Health Parity: What do Shaggy and Big Insurance Have in Common?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-parity-what-do-shaggy",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Department of Labor",
+    "MHPAEA",
+    "health insurance plans"
+   ],
+   "finder_note": "Expectation about what the proposed DOL reporting standards will reveal once applied; rule was only proposed at post date."
+  },
+  {
+   "id": "owen-0658",
+   "forecaster": "owen",
+   "statement_date": "2023-07-27",
+   "quote": "So the plans are to have comparable numbers of in and out-of-network providers across mental and physical health. They don’t. I promise you they don’t.",
+   "context": "After quoting the DOL proposal to collect data on the share of in-network providers actively submitting claims, the author states with certainty that plans do not have comparable mental-health and medical networks, implying the required data will show non-parity.",
+   "post_title": "Mental Health Parity: What do Shaggy and Big Insurance Have in Common?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-parity-what-do-shaggy",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I promise you",
+   "entities": [
+    "Department of Labor",
+    "health insurance plans",
+    "MHPAEA"
+   ],
+   "finder_note": "Present-tense claim; forward reading is that the mandated comparative analyses will show networks are not at parity. Borderline."
+  },
+  {
+   "id": "owen-0659",
+   "forecaster": "owen",
+   "statement_date": "2023-07-27",
+   "quote": "This sort of thing becomes a problem if you legally need to have a sufficient network.",
+   "context": "After an email from Vikas Malik, M.D. (Wonder Years clinic) about an Empire BCBS software update that knocked providers out of network with a 180-day fix time, the author says such errors become a legal problem once network sufficiency is required under the proposed rule.",
+   "post_title": "Mental Health Parity: What do Shaggy and Big Insurance Have in Common?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-parity-what-do-shaggy",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Empire BCBS",
+    "Department of Labor",
+    "MHPAEA"
+   ],
+   "finder_note": "Conditional on the DOL rule being finalized; mild claim about future compliance exposure for payers."
+  },
+  {
+   "id": "owen-0660",
+   "forecaster": "owen",
+   "statement_date": "2023-07-27",
+   "quote": "Making mental health networks sufficient is only possible—if accurately measured—by paying mental health professionals MORE money for care that DRIVES DOWN utilization.",
+   "context": "Closing argument on network sufficiency: the author asserts that sufficient mental health networks cannot be achieved without paying mental health professionals more, and that ghost networks cannot solve the problem.",
+   "post_title": "Mental Health Parity: What do Shaggy and Big Insurance Have in Common?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-parity-what-do-shaggy",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "only possible",
+   "entities": [
+    "health insurance plans",
+    "mental health professionals",
+    "Department of Labor"
+   ],
+   "finder_note": "Conditional necessity claim: networks will not become sufficient unless payer rates rise. Partly normative in tone."
+  }
+ ]
+}

@@ -1,0 +1,821 @@
+{
+ "packet": "code-23.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0992",
+   "forecaster": "owen",
+   "statement_date": "2024-04-19",
+   "quote": "The revenues are so much that not even a massive cyber attack matters financially to UHC.",
+   "context": "Post asking why UnitedHealth Group executives sold $105m in shares before the DOJ probe was revealed. Amid discussion of unreported Optum layoffs (WARN Act) and a share price up 12.3% on the week, the author asserts that UHC's revenues are so large that the Change Healthcare cyberattack will not matter to it financially.",
+   "post_title": "What the Heck is Happening at UnitedHealth Group?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-the-heck-is-happening-at-unitedhealth",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "UnitedHealth Group",
+    "UHC",
+    "Optum",
+    "Change Healthcare"
+   ],
+   "finder_note": "Present-tense assertion with a forward reading about the financial impact of the cyberattack on UHG."
+  },
+  {
+   "id": "owen-0993",
+   "forecaster": "owen",
+   "statement_date": "2024-04-19",
+   "quote": "what if the DOJ probe wasn’t why the executives dumped shares? Maybe there is another, worse reason?",
+   "context": "Closing thesis of the same post. After reviewing the $101.5m in executive stock sales between Oct. 16 and Feb. 26, the author speculates that a worse, still-unknown reason for the sales exists at UnitedHealth Group.",
+   "post_title": "What the Heck is Happening at UnitedHealth Group?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-the-heck-is-happening-at-unitedhealth",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "Maybe",
+   "entities": [
+    "UnitedHealth Group",
+    "DOJ"
+   ],
+   "finder_note": "Phrased as questions; speculation that a hidden, worse problem at UHG exists and may surface. Borderline."
+  },
+  {
+   "id": "owen-0994",
+   "forecaster": "owen",
+   "statement_date": "2024-04-20",
+   "quote": "according to Optum insiders sharing information with The Frontier Psychiatrists , comments on TikTok, and The Layoff.com, the Optum Virtual Care team is being shut down.",
+   "context": "Post contrasting UnitedHealth Group's 2022 praise of virtual care (34 million telehealth visits in 2020) with reports that Optum Virtual Care is being shut down. The author relays insider, TikTok and TheLayoff.com reports, calls them as yet unconfirmed, and treats the shutdown as a remarkable about-face.",
+   "post_title": "Optum's \"Game Changer\" Virtual Care with 34,000,000+ visits a Year is... Over?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/optums-game-changer-virtual-care",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "as of yet unconfirmed reports",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group",
+    "Optum Virtual Care",
+    "TheLayoff.com"
+   ],
+   "finder_note": "Relays unconfirmed reports; repeated as 'Except now they are, per unconfirmed reports, not.' The title asks whether Optum virtual care is over."
+  },
+  {
+   "id": "owen-0995",
+   "forecaster": "owen",
+   "statement_date": "2024-04-20",
+   "quote": "We will, I suppose, have to wait and see. I’m sure they have something that will generate significant shareholder value planned.",
+   "context": "Closing of the Optum Virtual Care post. After asking where in-person capacity for 34 million extra visits a year will come from, the author says, sarcastically, that UnitedHealth Group/Optum surely has a plan that will generate significant shareholder value.",
+   "post_title": "Optum's \"Game Changer\" Virtual Care with 34,000,000+ visits a Year is... Over?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/optums-game-changer-virtual-care",
+   "area_guess": "company_market",
+   "horizon_text": "wait and see",
+   "confidence_phrase": "I’m sure",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Sarcastic tone; the underlying expectation is that UHG acts to raise shareholder value. Vague."
+  },
+  {
+   "id": "owen-0997",
+   "forecaster": "owen",
+   "statement_date": "2024-04-22",
+   "quote": "1. May 5th, 6-9 PM is Rapid Acting Mental Health Treatment NYC LIVE . Get Those Tickets!",
+   "context": "Programming note in the magnesium post: the author's Rapid Acting Mental Health Treatment live event in NYC on May 5th, 6-9 PM (2024).",
+   "post_title": "Magnesium",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/magnesium",
+   "area_guess": "other",
+   "horizon_text": "May 5th, 6-9 PM",
+   "confidence_phrase": "none",
+   "entities": [
+    "Rapid Acting Mental Health Treatment",
+    "RAMHT"
+   ],
+   "finder_note": "Event announcement, own conference; control candidate."
+  },
+  {
+   "id": "owen-0998",
+   "forecaster": "owen",
+   "statement_date": "2024-04-22",
+   "quote": "May 7th at ATA Nexus in Phoenix!",
+   "context": "'Other Times to Catch Me Live' list at the end of the magnesium post. The author says he will appear at ATA Nexus in Phoenix on May 7th (2024).",
+   "post_title": "Magnesium",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/magnesium",
+   "area_guess": "other",
+   "horizon_text": "May 7th",
+   "confidence_phrase": "none",
+   "entities": [
+    "ATA Nexus"
+   ],
+   "finder_note": "Event appearance announcement; scheduling claim."
+  },
+  {
+   "id": "owen-0999",
+   "forecaster": "owen",
+   "statement_date": "2024-04-22",
+   "quote": "Join me as I proudly co-chair the Summit on Breakthrough Therapies for Addiction , taking place May 15-16 at Mount Sinai Medical Center Miami Beach and live-streamed online.",
+   "context": "Same list. The author will co-chair the Summit on Breakthrough Therapies for Addiction on May 15-16 (2024) at Mount Sinai Medical Center Miami Beach, also live-streamed.",
+   "post_title": "Magnesium",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/magnesium",
+   "area_guess": "other",
+   "horizon_text": "May 15-16",
+   "confidence_phrase": "none",
+   "entities": [
+    "Summit on Breakthrough Therapies for Addiction",
+    "Mount Sinai Medical Center Miami Beach"
+   ],
+   "finder_note": "Event appearance announcement; repeats the announcement in the insider trading post."
+  },
+  {
+   "id": "owen-1000",
+   "forecaster": "owen",
+   "statement_date": "2024-04-22",
+   "quote": "And then…A Virtual, on June 5-7th! Neurodiversity: A Conference for and About Doctors Who Think Differently",
+   "context": "Same list. The author points to a virtual conference on June 5-7th (2024), 'Neurodiversity: A Conference for and About Doctors Who Think Differently' (affiliate link).",
+   "post_title": "Magnesium",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/magnesium",
+   "area_guess": "other",
+   "horizon_text": "June 5-7th",
+   "confidence_phrase": "none",
+   "entities": [
+    "Neurodiversity: A Conference for and About Doctors Who Think Differently"
+   ],
+   "finder_note": "Event announcement with an affiliate link; listed under times to catch the author live."
+  },
+  {
+   "id": "owen-1001",
+   "forecaster": "owen",
+   "statement_date": "2024-04-24",
+   "quote": "Except, in this case, that means…just closing those things as they currently stand",
+   "context": "Author's reading of UnitedHealth's statement to Endpoints News about 'continually reviewing capabilities': Optum's virtual care business will be closed as it currently stands. The post title recalls his earlier call that 'Optum Virtual Care' might be shutting down; he writes 'I was right'.",
+   "post_title": "Remember When I Said \"Optum Virtual Care\" Might Be Shutting Down?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/remember-when-i-said-optum-virtual",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Optum",
+    "Optum Virtual Care",
+    "UnitedHealth Group",
+    "Endpoints News"
+   ],
+   "finder_note": "Restatement/confirmation of the author's earlier shutdown call; shutdown reported as planned, with July last dates per Endpoints."
+  },
+  {
+   "id": "owen-1003",
+   "forecaster": "owen",
+   "statement_date": "2024-04-24",
+   "quote": "Oh my. They can always acquire more.",
+   "context": "Quip after the Optum Virtual Care shutdown and layoff news; implies Optum/UnitedHealth will keep acquiring companies.",
+   "post_title": "Remember When I Said \"Optum Virtual Care\" Might Be Shutting Down?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/remember-when-i-said-optum-virtual",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "can always",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Cynical aside; borderline as a forecast (continued acquisitions)."
+  },
+  {
+   "id": "owen-1004",
+   "forecaster": "owen",
+   "statement_date": "2024-04-25",
+   "quote": "Today: a psychedelic compound, well on its way to becoming a medicine.",
+   "context": "Opening of Ibogaine I, a review of Cherian et al. 2024 (Nature Medicine) on magnesium-ibogaine therapy (MISTIC) in special operations veterans with traumatic brain injury. The author asserts that ibogaine is well on its way to becoming a medicine.",
+   "post_title": "Ibogaine I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ibogaine-i",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "well on its way",
+   "entities": [
+    "Ibogaine",
+    "Iboga"
+   ],
+   "finder_note": "Implies future approval or medicalization of ibogaine; no date given."
+  },
+  {
+   "id": "owen-1005",
+   "forecaster": "owen",
+   "statement_date": "2024-04-25",
+   "quote": "It's worth noting that this is an extremely hard study to do, and it will be extremely hard to blind, if impossible. It's just really hard to make people unaware of whether they've had a life-changing experience like this, so we may need to look at design that look at within subjects controls",
+   "context": "Near the end of Ibogaine I. Looking past the open-label Cherian et al. study toward controlled trials of ibogaine, the author predicts that blinding such trials will be extremely hard or impossible.",
+   "post_title": "Ibogaine I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ibogaine-i",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will be extremely hard to blind, if impossible",
+   "entities": [
+    "Ibogaine",
+    "MISTIC"
+   ],
+   "finder_note": "Methodological forecast about future ibogaine trials."
+  },
+  {
+   "id": "owen-1006",
+   "forecaster": "owen",
+   "statement_date": "2024-04-25",
+   "quote": "so we may need to look at design that look at within subjects controls, because of the challenge of doing a blind control trial comparing between subjects, and not within subjects.",
+   "context": "Same passage. The author says future ibogaine trials may need within-subject control designs instead of blinded between-subject trials, because participants cannot be kept unaware of a life-changing experience.",
+   "post_title": "Ibogaine I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ibogaine-i",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "may need",
+   "entities": [
+    "Ibogaine"
+   ],
+   "finder_note": "Hedged; part design recommendation, part prediction about how ibogaine trials will be designed."
+  },
+  {
+   "id": "owen-1007",
+   "forecaster": "owen",
+   "statement_date": "2024-04-26",
+   "quote": "Next, I’m Appearing at… May 7th — ATA Nexus in Phoenix!",
+   "context": "Upcoming events list in the post announcing clinical trials for depression at Fermata (NYC) and Acacia Clinics (Sunnyvale). The author says he will appear at ATA Nexus in Phoenix on May 7th (2024).",
+   "post_title": "Clinical Trials for Treatment Resistant Depression @ Fermata.Health in NYC",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/clinical-trials-for-treatment-resistant",
+   "area_guess": "other",
+   "horizon_text": "May 7th",
+   "confidence_phrase": "none",
+   "entities": [
+    "ATA Nexus"
+   ],
+   "finder_note": "Event appearance announcement; repeats the magnesium post."
+  },
+  {
+   "id": "owen-1008",
+   "forecaster": "owen",
+   "statement_date": "2024-04-26",
+   "quote": "May 15-16, Miami Beach + Virtual— I’m the Co-Chair!",
+   "context": "Same list. The author will co-chair the May 15-16 (2024) Miami Beach summit (the Summit on Breakthrough Therapies for Addiction), also offered virtually.",
+   "post_title": "Clinical Trials for Treatment Resistant Depression @ Fermata.Health in NYC",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/clinical-trials-for-treatment-resistant",
+   "area_guess": "other",
+   "horizon_text": "May 15-16",
+   "confidence_phrase": "none",
+   "entities": [
+    "Summit on Breakthrough Therapies for Addiction"
+   ],
+   "finder_note": "Event appearance announcement; repeats the insider trading and magnesium posts."
+  },
+  {
+   "id": "owen-1009",
+   "forecaster": "owen",
+   "statement_date": "2024-04-26",
+   "quote": "And then…A Virtual Conference, June 5-7th: Neurodiversity: A Conference for and About Doctors Who Think Differently",
+   "context": "Same list. Virtual conference on June 5-7th (2024), 'Neurodiversity: A Conference for and About Doctors Who Think Differently' (affiliate link).",
+   "post_title": "Clinical Trials for Treatment Resistant Depression @ Fermata.Health in NYC",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/clinical-trials-for-treatment-resistant",
+   "area_guess": "other",
+   "horizon_text": "June 5-7th",
+   "confidence_phrase": "none",
+   "entities": [
+    "Neurodiversity: A Conference for and About Doctors Who Think Differently"
+   ],
+   "finder_note": "Event announcement with an affiliate link; repeats the magnesium post."
+  },
+  {
+   "id": "owen-1010",
+   "forecaster": "owen",
+   "statement_date": "2024-04-28",
+   "quote": "Look, the future is AI. And in the future, I don’t have to any more notes.",
+   "context": "Line spoken by 'Owen Moore, MD', the author's alter ego, in his fictional TV pilot set one week before the Covid pandemic (2020), after revealing a HIPAA-compliant ceiling microphone array. Underlying claim: AI will take over clinical note-writing. The author elsewhere describes building 'AI-guided healthcare'.",
+   "post_title": "\"Reality Testing\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/reality-testing",
+   "area_guess": "practice_adoption",
+   "horizon_text": "the future",
+   "confidence_phrase": "none",
+   "entities": [
+    "Brooklyn Brains (fictional clinic)"
+   ],
+   "finder_note": "Fictional frame with ironic disclaimer; the foil line 'That's never happening' (character Allegra) is not the author's view. Coder may flip sincere."
+  },
+  {
+   "id": "owen-1011",
+   "forecaster": "owen",
+   "statement_date": "2024-04-28",
+   "quote": "Stay tuned for the next thrilling installment of Reality Testing!",
+   "context": "Closing promise of a further installment of the fictional 'Reality Testing' pilot in the newsletter.",
+   "post_title": "\"Reality Testing\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/reality-testing",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1012",
+   "forecaster": "owen",
+   "statement_date": "2024-04-29",
+   "quote": "I am not sure if writing has the staying power of 15-second videos.",
+   "context": "Essay on attention, social media and declining reading. After noting over a million TikTok views in one week versus about 80k newsletter reads a month, the author doubts that written media will keep its staying power against short video.",
+   "post_title": "The Rise and Fall of Everything We Once Held Dear",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-rise-and-fall-of-everything-we",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I am not sure if",
+   "entities": [
+    "TikTok",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Expressed doubt, not a firm call; echoed by 'I wonder if books have staying power'."
+  },
+  {
+   "id": "owen-1013",
+   "forecaster": "owen",
+   "statement_date": "2024-04-29",
+   "quote": "When sex has gone out of fashion, we have a problem for the future of humanity.",
+   "context": "Same essay. Citing the drop in teens reporting ever having had sex (from over half three decades ago to 30% in 2021), the author says the decline is a problem for the future of humanity.",
+   "post_title": "The Rise and Fall of Everything We Once Held Dear",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-rise-and-fall-of-everything-we",
+   "area_guess": "other",
+   "horizon_text": "the future",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Vague societal claim; hard to resolve."
+  },
+  {
+   "id": "owen-1014",
+   "forecaster": "owen",
+   "statement_date": "2024-04-30",
+   "quote": "If too many of us are out and about, publicly speaking about our experience, together, it becomes less plausible to punish any individual for the temerity to live our lives with dignity.",
+   "context": "Post on self-disclosure of psychiatric illness by physicians, prompted by the Carlat Report podcast episode that anonymized its participants. Conditional claim: if many clinicians disclose publicly, punishing any individual becomes less plausible.",
+   "post_title": "\"You Are Broken and You Have a Superpower\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-are-broken-and-you-have-a-superpower",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "becomes less plausible",
+   "entities": [
+    "Carlat Report",
+    "ADA"
+   ],
+   "finder_note": "Conditional social-dynamics claim about stigma; hard to resolve."
+  },
+  {
+   "id": "owen-1015",
+   "forecaster": "owen",
+   "statement_date": "2024-05-01",
+   "quote": "Join the us on Sunday in NYC at Rapid Acting Mental Health Treatment!",
+   "context": "Closing line of the post (dated 2024-05-01). The author invites readers to his RAMHT (Rapid Acting Mental Health Treatment) live event on Sunday in New York City. Implicit claim that the event takes place as scheduled.",
+   "post_title": "Ambivalence",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ambivalence",
+   "area_guess": "other",
+   "horizon_text": "on Sunday",
+   "confidence_phrase": "none",
+   "entities": [
+    "Rapid Acting Mental Health Treatment (RAMHT)",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Event announcement about the author's own RAMHT series; weak predictive content."
+  },
+  {
+   "id": "owen-1017",
+   "forecaster": "owen",
+   "statement_date": "2024-05-01",
+   "quote": "If they didn't have endless money for lawyers, more than the everyone who will sue them…",
+   "context": "After describing UnitedHealth/Change Healthcare's failure to enforce its own two-factor authentication policy, the author implies that many parties will sue them, and that UnitedHealth's legal resources will shield it from consequences.",
+   "post_title": "\"Two-Factor Authentication Was Not Used\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/two-factor-authentication-was-not",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "UnitedHealth Group",
+    "Change Healthcare"
+   ],
+   "finder_note": "Incomplete sentence (trails off); implied forecast of lawsuits against UnitedHealth over the Change breach."
+  },
+  {
+   "id": "owen-1018",
+   "forecaster": "owen",
+   "statement_date": "2024-05-02",
+   "quote": "Reminder— this Sunday, May 5th, I have a Frontier Psychiatrists Live Event… Rapid Acting Mental Health Treatment 2024 NYC.",
+   "context": "Closing reminder in a post about Osmind and the APA DSM-5-TR Level 1 Cross-Cutting Measure. The author announces his RAMHT 2024 NYC live event for Sunday, May 5th, 2024.",
+   "post_title": "Ye, Who Are About to Screen: I Salute You",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ye-who-are-about-to-screen-i-salute",
+   "area_guess": "other",
+   "horizon_text": "this Sunday, May 5th",
+   "confidence_phrase": "none",
+   "entities": [
+    "Rapid Acting Mental Health Treatment (RAMHT)",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Event announcement about the author's own RAMHT series; weak predictive content."
+  },
+  {
+   "id": "owen-1019",
+   "forecaster": "owen",
+   "statement_date": "2024-05-08",
+   "quote": "We don't have the published studies yet, we're just getting results at 12 weeks after the conclusion of the phase 2 trial for COMP360. However, here is what it looks like, and I really look forward to the results in subsequent phase 3 trials.",
+   "context": "Compass Pathways released 12-week top-line phase 2 data on COMP360 (psilocybin) for PTSD (mean CAPS-5 reduction about 30 points, over half in remission). The author expects the program to proceed to phase 3 trials and anticipates their results.",
+   "post_title": "Post-traumatic stress disorder is real. New Compass Pathways data suggest psilocybin may be remarkably helpful.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-traumatic-stress-disorder-is",
+   "area_guess": "clinical_trial",
+   "horizon_text": "subsequent phase 3 trials",
+   "confidence_phrase": "I really look forward to",
+   "entities": [
+    "Compass Pathways",
+    "COMP360",
+    "psilocybin",
+    "FDA"
+   ],
+   "finder_note": "Implicit call that the COMP360 PTSD program advances to phase 3; no stated direction for the phase 3 result."
+  },
+  {
+   "id": "owen-1020",
+   "forecaster": "owen",
+   "statement_date": "2024-05-08",
+   "quote": "If we lost our way, I hope this may be rediscovering a road back to healing.",
+   "context": "After the COMP360 PTSD phase 2 data, the author hopes psilocybin-type compounds may become a route to healing trauma. The next sentence adds that science must still determine for whom the treatment is most appropriate.",
+   "post_title": "Post-traumatic stress disorder is real. New Compass Pathways data suggest psilocybin may be remarkably helpful.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-traumatic-stress-disorder-is",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I hope this may",
+   "entities": [
+    "COMP360",
+    "psilocybin",
+    "Compass Pathways"
+   ],
+   "finder_note": "Hope-framed; borderline wish rather than a call."
+  },
+  {
+   "id": "owen-1022",
+   "forecaster": "owen",
+   "statement_date": "2024-05-09",
+   "quote": "This year, Tim Ferris brought conversation about accelerated trans cranial magnetic stimulation and the Nobel prize in waiting science of Nolan Williams’ Brain Simulation lab at Stanford to SXSW.",
+   "context": "The author describes the accelerated TMS science from Nolan Williams's Stanford Brain Stimulation Lab, discussed by Tim Ferriss at SXSW, as 'Nobel prize in waiting', implying it will eventually win a Nobel prize.",
+   "post_title": "Accelerated TMS hits SXSW Stage",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/accelerated-tms-hits-sxsw-stage",
+   "area_guess": "other",
+   "horizon_text": "in waiting",
+   "confidence_phrase": "in waiting",
+   "entities": [
+    "Nolan Williams",
+    "Stanford Brain Stimulation Lab",
+    "accelerated TMS",
+    "Tim Ferriss",
+    "SXSW"
+   ],
+   "finder_note": "Hyperbolic praise with an implicit Nobel prize forecast; no date."
+  },
+  {
+   "id": "owen-1023",
+   "forecaster": "owen",
+   "statement_date": "2024-05-10",
+   "quote": "I’m a serial killer for “the mental health crisis.” Only the article—“The”—will be left standing by the end.",
+   "context": "Mission statement post explaining the newsletter's purpose. The author says he intends to dismantle the whole phrase 'the mental health crisis' word by word in his writing, so that only 'The' remains by the end.",
+   "post_title": "The Mental Health Crisis",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-mental-health-crisis",
+   "area_guess": "other",
+   "horizon_text": "by the end",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Statement of intent about the newsletter's own framing; rhetorical, weak predictive content."
+  },
+  {
+   "id": "owen-1024",
+   "forecaster": "owen",
+   "statement_date": "2024-05-10",
+   "quote": "Mental health is a nonsense phrase, and I will dispense with it as useful.",
+   "context": "Same mission statement post. The author declares he will stop treating the phrase 'mental health' as useful in the newsletter.",
+   "post_title": "The Mental Health Crisis",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-mental-health-crisis",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Statement of intent about the author's own usage; weak predictive content."
+  },
+  {
+   "id": "owen-1025",
+   "forecaster": "owen",
+   "statement_date": "2024-05-10",
+   "quote": "This newsletter strives to address both of these issues—we define mental health problems, and we will examine how brains and minds can conspire with the outside world to drive behavior over the edge for vulnerable people.",
+   "context": "Same mission statement post. The author lays out the newsletter's future editorial plan: define mental health problems and examine how brains, minds and environment drive behavior in vulnerable people.",
+   "post_title": "The Mental Health Crisis",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-mental-health-crisis",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Editorial plan for the newsletter; a plan rather than a forecast about the world."
+  },
+  {
+   "id": "owen-1036",
+   "forecaster": "owen",
+   "statement_date": "2024-05-11",
+   "quote": "The Federal Trade Commission recently voted to ban businesses from entering new noncompete agreements and making existing noncompetes unenforceable, starting in late August.",
+   "context": "Inside the satirical earnings-call report, the author states in his narrative voice that the FTC's noncompete ban takes effect in late August (2024), framed as worrisome news for some providers.",
+   "post_title": "Dracula Resigns As Chief Vampire Officer Of DeathStance Health",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dracula-resigns-as-chief-vampire",
+   "area_guess": "regulatory",
+   "horizon_text": "starting in late August",
+   "confidence_phrase": "none",
+   "entities": [
+    "Federal Trade Commission"
+   ],
+   "finder_note": "Factual statement of a future effective date, reported inside a satirical piece."
+  },
+  {
+   "id": "owen-1037",
+   "forecaster": "owen",
+   "statement_date": "2024-05-14",
+   "quote": "Join me as I proudly co-chair the Summit on Breakthrough Therapies for Addiction , taking place May 15-16 at Mount Sinai Medical Center Miami Beach and live-streamed online. We will share research and expertise on treatments like psychedelics, non-hallucinogenic compounds, interventional brain medicine, neuromodulation, VR, EMDR, GLP-1s, and more!",
+   "context": "Closing promotion in a post about alcohol, liquid calories and Curious Elixirs. The author announces that he co-chairs the Summit on Breakthrough Therapies for Addiction on May 15-16, 2024, at Mount Sinai Medical Center Miami Beach, and that the meeting will cover psychedelics, neuromodulation, GLP-1s and other treatments.",
+   "post_title": "I Love Curious Elixirs",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-love-curious-elixirs",
+   "area_guess": "other",
+   "horizon_text": "May 15-16",
+   "confidence_phrase": "will",
+   "entities": [
+    "Summit on Breakthrough Therapies for Addiction",
+    "Mount Sinai Medical Center Miami Beach",
+    "Owen Scott Muir"
+   ],
+   "finder_note": "Event announcement; the author co-chairs. Weak predictive content."
+  },
+  {
+   "id": "owen-1042",
+   "forecaster": "owen",
+   "statement_date": "2024-05-19",
+   "quote": "It doesn't escape anybody's notice that MDMA is going through the FDA-approval process with Lykos Therapeutics, and other hopeful publications are coming out. These include psilocybin analogs for PTSD, and magnesium-ibogaine for PTSD.",
+   "context": "Closing section of a review that finds the cannabis evidence for PTSD weak and biased. The author points to a pipeline of hopeful PTSD treatments: MDMA under FDA review with Lykos, psilocybin analogs, and magnesium-ibogaine, with publications 'coming out'.",
+   "post_title": "Medical Cannabis for PTSD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/medical-cannabis-for-ptsd",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "hopeful",
+   "entities": [
+    "MDMA",
+    "Lykos Therapeutics",
+    "FDA",
+    "psilocybin",
+    "magnesium-ibogaine"
+   ],
+   "finder_note": "Mostly a pipeline description; weak forward-looking reading via 'hopeful' and 'coming out'."
+  },
+  {
+   "id": "owen-1043",
+   "forecaster": "owen",
+   "statement_date": "2024-05-21",
+   "quote": "we can understand that biological treatments intervening in this crucial structure will have a hard time getting it to accomplish anything other than what it's biologically attuned to.",
+   "context": "Setup for a review of GLP-1 drugs in addiction. The 'crucial structure' is the nucleus accumbens; the author expects biological addiction treatments that act on reward circuitry to struggle to change what it does.",
+   "post_title": "GLP-1 Medications In Addiction",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/glp-1-medications-in-addiction",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will have a hard time",
+   "entities": [
+    "nucleus accumbens"
+   ],
+   "finder_note": "General mechanistic expectation; borderline truism."
+  },
+  {
+   "id": "owen-1044",
+   "forecaster": "owen",
+   "statement_date": "2024-05-21",
+   "quote": "We have a signal—that's what we call noticing in science—that GLP-1s might be helpful for addictions.",
+   "context": "Review of GLP-1 receptor agonists (semaglutide, liraglutide, exenatide) in substance use disorders. Evidence is mostly preclinical plus small human signals; human trials such as SEMALCO are recruiting. The author reads the signal as hedged promise pending trials.",
+   "post_title": "GLP-1 Medications In Addiction",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/glp-1-medications-in-addiction",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "might be helpful",
+   "entities": [
+    "GLP-1",
+    "semaglutide",
+    "Ozempic",
+    "Wegovy",
+    "liraglutide",
+    "exenatide",
+    "SEMALCO"
+   ],
+   "finder_note": "Hedged efficacy call; the author adds that current evidence does not support treating primary addiction with these drugs yet."
+  },
+  {
+   "id": "owen-1045",
+   "forecaster": "owen",
+   "statement_date": "2024-05-23",
+   "quote": "I'm thrilled to announce that I'll be attending the thinc360 conference in Washington, DC, next week, as my team at Acacia Clinics is in the running for the best mental health value award!",
+   "context": "Opening 'updates' post (2024-05-23) listing the author's roles. He announces he will attend the thinc360 conference in Washington, DC the following week because his team at Acacia Clinics (where he is SVP Strategy) is a finalist for the best mental health value award.",
+   "post_title": "Owen Muir-Centric Updates!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-centric-updates",
+   "area_guess": "other",
+   "horizon_text": "next week",
+   "confidence_phrase": "I'll be",
+   "entities": [
+    "thinc360",
+    "Acacia Clinics"
+   ],
+   "finder_note": "Personal attendance plan plus a pending award for the author's own organization (Acacia Clinics); low-stakes, own-org item."
+  },
+  {
+   "id": "owen-1046",
+   "forecaster": "owen",
+   "statement_date": "2024-05-23",
+   "quote": "I see a future that has less suffering, more effective treatments, more rapidly deployed, faster acting, safer, with less inpatient psychiatric hospitalization and dramatically less restraint and seclusion",
+   "context": "Closing section of the 'updates' post on why the author works so many gigs. He describes the future he sees: less suffering, more effective and faster-acting treatments deployed more rapidly, less inpatient psychiatric hospitalization, and dramatically less restraint and seclusion.",
+   "post_title": "Owen Muir-Centric Updates!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-centric-updates",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I see a future",
+   "entities": [],
+   "finder_note": "Vision statement; the next sentences ('I want to see people get well') frame it as an agenda or wish more than a prediction. Logged for recall."
+  },
+  {
+   "id": "owen-1047",
+   "forecaster": "owen",
+   "statement_date": "2024-05-23",
+   "quote": "I think technology can get us there when compassion and sense are augmented.",
+   "context": "Same closing section of the 'updates' post. After stating his aim of less death and desperation and more hope, the author says technology can get us to that better world when compassion and sense are augmented.",
+   "post_title": "Owen Muir-Centric Updates!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-centric-updates",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... can",
+   "entities": [],
+   "finder_note": "Vague, hedged belief that technology will deliver a better mental health future; no specific event or horizon."
+  },
+  {
+   "id": "owen-1048",
+   "forecaster": "owen",
+   "statement_date": "2024-05-23",
+   "quote": "I imagine we're going to have lawsuits for mental health parity violations",
+   "context": "Discussion of the Consolidated Appropriations Act of 2021 and the ERISA fiduciary duty of employers. The author notes that several lawsuits by employees against employer groups already exist, as he argued they would, and then predicts lawsuits for mental health parity violations, which he says is also part of the law thanks to the (Affordable) Care Act.",
+   "post_title": "Owen Muir-Centric Updates!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-centric-updates",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I imagine we're going to",
+   "entities": [
+    "Consolidated Appropriations Act of 2021",
+    "ERISA",
+    "Accountable Care Act"
+   ],
+   "finder_note": "Author frames this as continuing an earlier call that predicted the current ERISA fiduciary lawsuits ('arguments I've made long before those lawsuits were filed')."
+  },
+  {
+   "id": "owen-1049",
+   "forecaster": "owen",
+   "statement_date": "2024-05-23",
+   "quote": "I don't see any way towards parity of better treatments. There just aren't enough treaters to keep up with the demand for (albeit ineffective) treatment.",
+   "context": "Same passage on parity and employer fiduciary duty. The author says he sees no path to parity of better treatments because there are not enough treaters to meet the demand even for the current (in his view ineffective) treatment, so the underlying assumptions of what is possible must change.",
+   "post_title": "Owen Muir-Centric Updates!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-centric-updates",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I don't see any way",
+   "entities": [],
+   "finder_note": "Negative call about access to better treatments under parity; the reason given (treater shortage) is present-tense analysis."
+  }
+ ]
+}

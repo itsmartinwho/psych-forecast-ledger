@@ -1,0 +1,278 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-32.md",
+  "posts": [
+    {
+      "slug": "chronic-cough-diagnosis-management",
+      "read": true,
+      "statements_found": 0,
+      "note": "Personal story plus medical education on chronic cough causes and OTC treatment; no forward-looking claims."
+    },
+    {
+      "slug": "are-you-a-dog-person-or-an-increased",
+      "read": true,
+      "statements_found": 1,
+      "note": "Review of the Yolken 2019 cat/dog exposure cohort study; one borderline conditional on replication. 'if you're going to have a cat, might as well get a dog also' is advice, not logged."
+    },
+    {
+      "slug": "the-sense-of-pleasure",
+      "read": true,
+      "statements_found": 1,
+      "note": "Essay on anhedonia; the only forward-looking item is a footnote about the author's practice expanding to more states and enrolling for research."
+    },
+    {
+      "slug": "tms-is-better-than-drugs",
+      "read": true,
+      "statements_found": 0,
+      "note": "Commentary on the Ascertain-TRD trial. 'After 2 drugs, it is time for rTMS' is a practice recommendation and 'Maybe we can demand prior authorization for ... aripiprazole augmentation before an adequate TMS trial?' is a policy wish framed as a question; neither has a predictive reading, so neither is logged."
+    },
+    {
+      "slug": "i-explained-the-pandemic-to-myself-dcd",
+      "read": true,
+      "statements_found": 0,
+      "note": "Podcast re-release note; 'It shaped us, now, and in the future' is a truism, not logged."
+    },
+    {
+      "slug": "aripiprazole",
+      "read": true,
+      "statements_found": 4,
+      "note": "Abilify I. One practice-adoption forecast (prescribers will keep prescribing despite the negative autism-irritability maintenance trial) plus three own-newsletter plans/policy statements."
+    },
+    {
+      "slug": "wake-up-to-magic",
+      "read": true,
+      "statements_found": 0,
+      "note": "Personal reflection on a Brooklyn sunrise; no forward-looking claims."
+    },
+    {
+      "slug": "can-we-prevent-psychosis-withfish",
+      "read": true,
+      "statements_found": 1,
+      "note": "Review of omega-3 psychosis-prevention evidence; one borderline provisional verdict on efficacy logged with forward_looking false."
+    },
+    {
+      "slug": "abilify-in-bipolar-disorder-part",
+      "read": true,
+      "statements_found": 1,
+      "note": "Abilify II (mania). Only an own-newsletter plan for tomorrow's bipolar-depression article."
+    },
+    {
+      "slug": "akathisia",
+      "read": true,
+      "statements_found": 0,
+      "note": "Abilify IV: description of akathisia; closing advice ('titrate slowly upwards') has no predictive reading."
+    },
+    {
+      "slug": "abilify-v-federal-enforcement",
+      "read": true,
+      "statements_found": 3,
+      "note": "Abilify V. One borderline general pattern claim about DOJ enforcement of best-selling drugs plus two own-newsletter plans."
+    },
+    {
+      "slug": "abilify-vi-compulsive-behavior-lawsuits",
+      "read": true,
+      "statements_found": 0,
+      "note": "Historical/pharmacology piece on impulse-control lawsuits. The aside that this 'might well be a more common adverse effect than we recognize' is a present-state hypothesis, not logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "are-you-a-dog-person-or-an-increased",
+      "quote": "The basic science, however, suggests that, if these results are replicated, there’s yet more data for the profound biology underlying the relationship between our microbiome, our mental health, and our environment, in determining who gets sick, when, and with what.",
+      "context": "Closing reflection on the Yolken et al. 2019 PLOS ONE cohort study that linked early household cat exposure to about double the odds of schizophrenia and found dogs protective (mechanism: Toxoplasma gondii and microbial co-travelers). The author conditions on future replication of the results; the consequent is an interpretive claim that replication would add evidence for microbiome-mental-health biology, not a dated world-state call.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "suggests",
+      "entities": [
+        "Toxoplasma gondii",
+        "Yolken et al. (PLOS ONE 2019 study)",
+        "schizophrenia",
+        "bipolar disorder"
+      ],
+      "note": "Borderline: conditional on replication (a future event), but the consequent is interpretive rather than a specific forecast. Logged for recall."
+    },
+    {
+      "post_slug": "the-sense-of-pleasure",
+      "quote": "NY, CA, IL, and more coming soon, and enrolling for research like SAINT OLO globally.",
+      "context": "Footnote 1 attached to the author's line that he practices at Fermata in NYC and Acacia Clinics in Sunnyvale, CA, still sees patients, and readers can book a consultation. The footnote says the practice covers NY, CA and IL with more states coming soon, and is enrolling for research such as SAINT OLO globally.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "coming soon",
+      "confidence_phrase": "none",
+      "entities": [
+        "Fermata",
+        "Acacia Clinics",
+        "SAINT OLO"
+      ],
+      "note": "Own-organization expansion claim (Fermata / Acacia Clinics); coder marks CONTROL. Low forecast value."
+    },
+    {
+      "post_slug": "aripiprazole",
+      "quote": "The FDA review of this non-label makes it clear—people are going to prescribe this anyway. Nothing we say about this negative trial will stop them.",
+      "context": "Section 'Irritability Associated with Autism…Problematic Data' of Abilify I. Otsuka's maintenance trial of aripiprazole for irritability in autistic children was negative (p=0.097) and the FDA declined a maintenance label. The author quotes the FDA reviewer ('It is unlikely that the results ... would significantly alter the clinical practice of prescribers ... it is likely that aripiprazole would be continued') and adopts the view that prescribers will keep using it regardless.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "are going to",
+      "entities": [
+        "Abilify",
+        "aripiprazole",
+        "Otsuka",
+        "FDA"
+      ],
+      "note": "Endorsed restatement of the FDA reviewer's forecast that prescribers would continue aripiprazole despite the negative maintenance trial; the author's stance is the statement."
+    },
+    {
+      "post_slug": "aripiprazole",
+      "quote": "Bipolar Disorder: No , but I will deal with it in another article.",
+      "context": "TL;DR list of Abilify's FDA indications with the author's verdicts; item 'Bipolar Disorder: No'. The author says he will cover the bipolar indication in another article. The post also notes that subsequent articles in the series cover Abilify in bipolar mania and bipolar depression.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Abilify",
+        "aripiprazole",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter publishing plan; coder marks CONTROL. Low forecast value."
+    },
+    {
+      "post_slug": "aripiprazole",
+      "quote": "Tourette: Eh, I will review this in another article later.",
+      "context": "TL;DR list of Abilify's FDA indications; item 'Tourette: Eh'. The author plans to review the Tourette's indication in a later article.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "later",
+      "confidence_phrase": "will",
+      "entities": [
+        "Abilify",
+        "aripiprazole",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter publishing plan; coder marks CONTROL. Low forecast value."
+    },
+    {
+      "post_slug": "aripiprazole",
+      "quote": "But I write a lot, and after a few weeks, articles get plugged behind a paywall.",
+      "context": "Programming note in the welcome paragraph of Abilify I: most posts are free at first, and after a few weeks they go behind the paywall. A standing statement of newsletter policy that implies this free post will become paid.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "after a few weeks",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Borderline: describes a recurring newsletter practice rather than a specific dated call. Own newsletter; coder marks CONTROL."
+    },
+    {
+      "post_slug": "can-we-prevent-psychosis-withfish",
+      "quote": "For now, fish oil probably helps reduce the risk of conversion to psychosis in high risk individuals.",
+      "context": "'The bottom line' of the article after reviewing Amminger's Vienna omega-3 RCT (2010) and its 6.7-year follow-up (2015), the Montazer 2022 meta-analysis (no PANSS benefit, some GAF benefit), the ALSPAC cohort data, and the Chen et al. 2024 network meta-analysis (lower transition odds at 6, 12 and 24+ months). The author's provisional verdict on omega-3 supplementation for individuals at clinical high risk for psychosis.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "clinical_trial",
+      "horizon_text": "For now",
+      "confidence_phrase": "probably",
+      "entities": [
+        "omega-3 fatty acids (fish oil)",
+        "Amminger",
+        "Chen et al. 2024 network meta-analysis",
+        "Montazer et al. 2022 meta-analysis"
+      ],
+      "note": "Borderline: an evidential verdict on present efficacy rather than a call about a future state; 'For now' marks it as provisional. Logged for recall."
+    },
+    {
+      "post_slug": "abilify-in-bipolar-disorder-part",
+      "quote": "What I have not addressed is the lack of efficacy in bipolar depression . We will save that for tomorrow.",
+      "context": "Closing of Abilify II (mania): the author has not addressed aripiprazole's lack of efficacy in bipolar depression and says the next article, tomorrow, will cover it. He then hedges: 'That will be tomorrow…probably!'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "tomorrow",
+      "confidence_phrase": "will",
+      "entities": [
+        "Abilify",
+        "aripiprazole",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter publishing plan; coder marks CONTROL. Hedged two lines later with 'probably'."
+    },
+    {
+      "post_slug": "abilify-v-federal-enforcement",
+      "quote": "I have learned that when there is a best-selling drug, there is a federal case brought for illegal marketing. These cases are routinely settled by the DOJ for way, way less money than the drug made thanks to said illegal marketing.",
+      "context": "'The Federal Settlements' section of Abilify V. The author, as a self-described dilettante historian of pharmaceuticals, states a general pattern: every best-selling drug attracts a federal illegal-marketing case, and the DOJ routinely settles for far less than the drug earned; he adds that this may be a rational strategy for the companies. Illustrated by the 2007 $515m BMS settlement and the 2008 $4m Otsuka settlement over Abilify.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "routinely",
+      "entities": [
+        "DOJ",
+        "Bristol Myers Squibb",
+        "Otsuka",
+        "Abilify"
+      ],
+      "note": "Borderline: a general regularity inferred from history, stated in generic present tense; not an explicit dated forecast. Logged for recall."
+    },
+    {
+      "post_slug": "abilify-v-federal-enforcement",
+      "quote": "there is just SO MUCH that I will require another article to even get to state-level or private class action lawsuits about abilify. And those? I promise, they are much more exciting than these federal cases.",
+      "context": "Near the end of Abilify V: the author says the litigation topic needs another article covering state-level and private class-action lawsuits, and promises those will be more exciting than the federal cases. He adds that he hopes readers will 'compulsively read the next article in this series', foreshadowing the compulsive-behavior lawsuits article.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I promise",
+      "entities": [
+        "Abilify",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter publishing plan; coder marks CONTROL."
+    },
+    {
+      "post_slug": "abilify-v-federal-enforcement",
+      "quote": "And now, in what may or may not be the final installment depending on how I feel, is the final article of this week on the topic.",
+      "context": "Opening of Abilify V (2024-03-22): the author says this is the final Abilify article of the week and may or may not be the final installment of the series. Later in the same post he says another article on state and class-action suits is needed.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "this week",
+      "confidence_phrase": "may or may not",
+      "entities": [
+        "Abilify",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter plan; coder marks CONTROL. Hedged."
+    }
+  ]
+}

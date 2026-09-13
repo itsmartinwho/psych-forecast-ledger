@@ -1,0 +1,793 @@
+{
+ "packet": "code-51.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-2324",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "Now the squeeze. Drug prices go up every year. Physician reimbursement, against inflation, goes down every year. So the doctor buys an increasingly expensive drug and gets paid a shrinking amount to administer it.",
+   "context": "Buy-and-bill economics for Spravato (esketamine): the author asserts a continuing trend of rising drug prices and falling real physician reimbursement, so the doctor buys an increasingly expensive drug and gets paid a shrinking amount to administer it.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "payer_policy",
+   "horizon_text": "every year",
+   "confidence_phrase": "none",
+   "entities": [
+    "Spravato"
+   ],
+   "finder_note": "Habitual-present trend claim that implies continuation; borderline."
+  },
+  {
+   "id": "owen-2325",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "The pipeline drugs behind Spravato — psilocybin, LSD, MDMA — will almost all require longer monitoring than we can currently bill, and none of them will go through a retail pharmacy.",
+   "context": "'The leverage' section: pipeline psychedelics will need in-clinic monitoring longer than current billing allows (the author earlier notes the prolonged-service code ceiling makes billing stop working past about two hours).",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will almost all",
+   "entities": [
+    "Spravato",
+    "psilocybin",
+    "LSD",
+    "MDMA"
+   ],
+   "finder_note": "First half of a compound sentence; the retail-pharmacy half is logged separately."
+  },
+  {
+   "id": "owen-2326",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "and none of them will go through a retail pharmacy.",
+   "context": "Same sentence as the monitoring claim: the pipeline psychedelics behind Spravato (psilocybin, LSD, MDMA) will not be dispensed through retail pharmacies; treatments are in-clinic by design.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "none of them will",
+   "entities": [
+    "Spravato",
+    "psilocybin",
+    "LSD",
+    "MDMA"
+   ],
+   "finder_note": "Second half of a compound sentence."
+  },
+  {
+   "id": "owen-2327",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "These treatments are in-clinic by design. The clinic is the distribution channel.",
+   "context": "Claim that pipeline psychedelics (psilocybin, LSD, MDMA) will be delivered in clinics, making the clinic the distribution channel for the drugs.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "psilocybin",
+    "LSD",
+    "MDMA"
+   ],
+   "finder_note": "Present-tense restatement of the no-retail-pharmacy call about not-yet-approved drugs."
+  },
+  {
+   "id": "owen-2328",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "Those clinics need rooms — with cameras, IT infrastructure, furniture comfortable enough for a full day of treatment — and whoever pays for the rooms owns the economics.",
+   "context": "Claim that whoever funds psychedelic clinic infrastructure will capture the economics; the author names two candidates, physicians or the conglomerates acquiring them.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "General claim about future value capture; borderline."
+  },
+  {
+   "id": "owen-2329",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "For the first time in my career, the drug can’t get to the patient without us. That’s leverage. Pharma needs certified clinics the way it used to need a pharmacy’s shelf space.",
+   "context": "Claim that with psychedelics, pharmaceutical companies will depend on certified clinics and physicians as the scarce distribution resource.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Present tense about not-yet-approved drugs; restated in my-open-comment-on-psychedelic-medicine."
+  },
+  {
+   "id": "owen-2330",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "We can stay terrible, and Optum and its colleagues will happily handle the details and pocket the dollars without us.",
+   "context": "Conditional: if doctors stay bad at business, Optum (UnitedHealth) and similar conglomerates will capture the psychedelic clinic economics.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Optum",
+    "UnitedHealth"
+   ],
+   "finder_note": "Conditional call."
+  },
+  {
+   "id": "owen-2331",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "I’d bet they’d prefer the set and setting of a clinic owned and operated by physicians",
+   "context": "Patients ('they') would prefer physician-owned psychedelic clinics over clinics run by insurer-owned companies.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I’d bet",
+   "entities": [],
+   "finder_note": "Preference claim; hard to resolve. Borderline."
+  },
+  {
+   "id": "owen-2332",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "The FDA is considering how psychedelics get regulated before any of them officially have been, and there’s an open comment period coming up on September 14th.",
+   "context": "P.S. of the essay: the FDA has an open public comment period on psychedelic regulation coming up on September 14th (the later post names docket FDA-2026-N-7542).",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "regulatory",
+   "horizon_text": "coming up on September 14th",
+   "confidence_phrase": "none",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Dated procedural call."
+  },
+  {
+   "id": "owen-2333",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "I’m gonna drop the un-Fable-edited version in a subsequent subscriber-only post and you can feel free to compare and agree with my wife.",
+   "context": "Editor's note: the author plans a subscriber-only post with the longer, unedited version of this essay.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "other",
+   "horizon_text": "subsequent",
+   "confidence_phrase": "I’m gonna",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise."
+  },
+  {
+   "id": "owen-2334",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "Join us at our next Live RAMHT event—on the opening night of Psych Congress, September 14th!",
+   "context": "Boilerplate event notice at the end of the post: RAMHT's next live event is on the opening night of Psych Congress, September 14th; sponsors listed; tickets free.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "other",
+   "horizon_text": "September 14th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Psych Congress"
+   ],
+   "finder_note": "Recurring own-organization event announcement."
+  },
+  {
+   "id": "owen-2335",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "pharmaceutical companies and medical device companies are only gonna keep creating miracles if they make a hell of a lot of money in the process.",
+   "context": "Thesis setup. The author claims pharma and device companies will keep producing breakthrough psychiatric treatments only if they stay highly profitable.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "only gonna ... if",
+   "entities": [],
+   "finder_note": "Conditional general claim."
+  },
+  {
+   "id": "owen-2336",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "J&J’s Spravato was the beginning of this process, at least in psychiatry, but it won’t be the end of it, and that, as you can tell, is what I’m arguing should happen.",
+   "context": "Buy-and-bill section. The author predicts Spravato (esketamine, Johnson & Johnson) will not be the last in-clinic, buy-and-bill psychiatric medication; more will follow with psychedelics.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "Johnson & Johnson",
+    "Spravato"
+   ],
+   "finder_note": "Mixed predictive and normative ('what I'm arguing should happen')."
+  },
+  {
+   "id": "owen-2337",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "the financials of small pills versus the psychedelics and medical devices that are coming",
+   "context": "Supply-chain aside. The author presupposes that psychedelic drugs and medical devices are coming to psychiatry, and contrasts their economics with one-a-day pills.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "are coming",
+   "entities": [],
+   "finder_note": "Presupposition embedded in a clause; restated more directly later in the post."
+  },
+  {
+   "id": "owen-2338",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "Every year, drug prices go up. Every year, physician reimbursement attempts to go down.",
+   "context": "Payment section. The author states standing trends: drug prices rise every year and physician (Medicare) reimbursement trends flat or down, so buy-and-bill margins per unit of physician time shrink.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "payer_policy",
+   "horizon_text": "Every year",
+   "confidence_phrase": "none",
+   "entities": [
+    "Medicare"
+   ],
+   "finder_note": "Habitual trend claim; the predictive reading is continuation of the trend. Borderline."
+  },
+  {
+   "id": "owen-2339",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "The above compounds might have repeated dosing, but on the order of 1 to 4 doses in a year, not twice a week for the first month and more thereafter.",
+   "context": "Lifetime-value section. The author expects pipeline psychedelics (MDMA, LSD, psilocybin, ibogaine, methylone) to be dosed about 1 to 4 times a year, unlike Spravato's frequent dosing, which lowers patient lifetime value for clinics.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in a year",
+   "confidence_phrase": "might",
+   "entities": [
+    "MDMA",
+    "LSD",
+    "psilocybin",
+    "ibogaine",
+    "methylone",
+    "Spravato"
+   ],
+   "finder_note": "Hedged dosing-frequency call."
+  },
+  {
+   "id": "owen-2340",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "hope the S code reimbursement keeps up, and then get paid a decreasing amount every year to observe a patient getting this treatment.",
+   "context": "'The squeeze' summary. Under commercial plans with an S code for Spravato, the author expects clinics to pay more for the drug each year while observation reimbursement decreases every year.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "payer_policy",
+   "horizon_text": "every year",
+   "confidence_phrase": "none",
+   "entities": [
+    "Spravato",
+    "S0013"
+   ],
+   "finder_note": "Restatement of the yearly drug-price-up, reimbursement-down trend."
+  },
+  {
+   "id": "owen-2341",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "The entire premise of this essay is that psychiatrists are likely to respond to incentives in the same way as every other human, and act accordingly. They will prescribe more of what I suspect will be better treatments.",
+   "context": "Incentive section, after the oncology buy-and-bill comparison. The author predicts that, given margin-on-drug incentives, psychiatrists will prescribe more psychedelic treatments, which he suspects will be better treatments.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "likely ... will ... I suspect",
+   "entities": [],
+   "finder_note": "Compound: behavioral prediction conditional on incentives, plus a hedged efficacy claim."
+  },
+  {
+   "id": "owen-2342",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "It’s because psychedelics are all going to come with guardrails. These are in the form of Risk Evaluation and Mitigation Strategies (”REMS”).",
+   "context": "The author predicts all psychedelic medicines will come with REMS guardrails on dispensing and monitoring, as Spravato does, which will limit margin-on-drug abuse.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "are all going to",
+   "entities": [
+    "FDA",
+    "REMS",
+    "Spravato"
+   ],
+   "finder_note": "Direct regulatory call."
+  },
+  {
+   "id": "owen-2343",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "Novel psychedelics coming to the world of clinical care, if the universe has been listening to me rant, will come with monitoring built in, likely with even more auditable video.",
+   "context": "REMS section. The author predicts novel psychedelics entering clinical care will carry built-in monitoring requirements, likely including auditable video.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will come ... likely",
+   "entities": [],
+   "finder_note": "Hedged by the aside 'if the universe has been listening to me rant'."
+  },
+  {
+   "id": "owen-2344",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "Not only will pharmaceutical companies bring these drugs to market with the ability to have a sense of what’s happening in the room, but so will the third-party payors with whom we partner (with occasional consternation) to bring care to our patients.",
+   "context": "REMS section. The author predicts both pharma companies and third-party payers will have visibility (monitoring) into the treatment room during psychedelic dosing sessions.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Extends the monitoring prediction to payers."
+  },
+  {
+   "id": "owen-2345",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "Almost all of them will require longer monitoring than we can currently account for.",
+   "context": "On the pipeline drugs behind Spravato (psilocybin, LSD, MDMA based): the author predicts almost all will require monitoring longer than current billing codes cover (two-hour 99417 MUE limit, six-hour CPT III limit).",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will require",
+   "entities": [
+    "psilocybin",
+    "LSD",
+    "MDMA",
+    "Spravato"
+   ],
+   "finder_note": "Follows the 'pipeline drugs that are coming behind Spravato' setup."
+  },
+  {
+   "id": "owen-2346",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "None of these drugs are gonna go through a retail pharmacy.",
+   "context": "Pipeline psychedelics (psilocybin, LSD, MDMA based) will not be dispensed through retail pharmacies; the author says they are in-clinic by design.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "None ... are gonna",
+   "entities": [
+    "psilocybin",
+    "LSD",
+    "MDMA",
+    "CVS"
+   ],
+   "finder_note": "Negative call; restated next as 'These treatments are in-clinic by design.'"
+  },
+  {
+   "id": "owen-2347",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "These treatments are in-clinic by design. The clinic is the distribution channel.",
+   "context": "Immediately after the CVS and psilocybin joke; the author asserts psychedelic treatments will be delivered in clinics, which makes clinics the distribution channel for the drugs.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Restatement of the preceding retail-pharmacy call; present tense about a future class of drugs."
+  },
+  {
+   "id": "owen-2348",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "These clinics are going to need extra rooms, and even more extra rooms, because if they don’t have enough extra rooms, we’re not gonna be able to help all the people who need it. Those rooms may need special cameras, IT infrastructure, comfortable furniture for an entire day of treatment.",
+   "context": "The author predicts psychedelic clinics will need many additional treatment rooms with cameras, IT infrastructure and day-long furniture; otherwise demand will not be met.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to need ... may need",
+   "entities": [],
+   "finder_note": "Compound infrastructure call."
+  },
+  {
+   "id": "owen-2349",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "Somebody has to pay for all of that, and whoever pays for the rooms owns the economics of the distribution channel.",
+   "context": "The author claims whoever funds psychedelic clinic infrastructure (physicians, payer conglomerates such as Optum, or nobody) will own the distribution economics of psychedelic medicine.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Optum"
+   ],
+   "finder_note": "Followed by three candidate scenarios: physicians, conglomerates acquiring physicians, or only the wealthy get access."
+  },
+  {
+   "id": "owen-2350",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "if we don’t become a viable part of the actual business of business, our patients don’t get to have any good new stuff.",
+   "context": "Buy-and-bill section. Conditional prediction: unless psychiatrists take part in the business side, patients will not get new treatments.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Conditional; borderline rhetorical."
+  },
+  {
+   "id": "owen-2351",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "We can stay terrible at it, and Optum and its colleagues will be happy to handle all the details and pocket all the dollars. Or we can get good at business while we still have the leverage.",
+   "context": "Closing argument. If physicians stay bad at business, Optum (UnitedHealth Group) and similar conglomerates will capture the economics of psychedelic care; the author implies physician leverage is time-limited ('while we still have the leverage').",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will be happy to",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Conditional scenario; implies physician leverage will fade."
+  },
+  {
+   "id": "owen-2352",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "I’m willing to bet they’d prefer the set and setting of a clinic owned and operated by physicians over the set and setting you’d expect from the companies that brought you prior authorization of Zoloft.",
+   "context": "Closing. The author bets patients would prefer physician-owned psychedelic clinics over ones owned by payer conglomerates.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I’m willing to bet",
+   "entities": [
+    "Zoloft"
+   ],
+   "finder_note": "Preference claim framed as a bet; borderline forward-looking."
+  },
+  {
+   "id": "owen-2353",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "The FDA is considering how psychedelics get regulated before any of them, officially, have been, and there’s an open comment period coming up on September 14th.",
+   "context": "P.S. The author states the FDA is considering psychedelic regulation before any psychedelic has been approved, and that an FDA open comment period is coming up on 14 September (2026); he asks readers to comment.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "regulatory",
+   "horizon_text": "September 14th",
+   "confidence_phrase": "coming up",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Dated regulatory-process call; also states no psychedelic is officially regulated or approved as of the post."
+  },
+  {
+   "id": "owen-2354",
+   "forecaster": "owen",
+   "statement_date": "2026-08-24",
+   "quote": "Our live-action newsletter event, rapid acting mental health treatment, returns September 14th in New Orleans.",
+   "context": "Opening of the preview post: RAMHT returns September 14th in New Orleans for its seventh event.",
+   "post_title": "Rapid Acting Mental Health Treatment Comes to the Big Easy on September 14th",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6b5",
+   "area_guess": "other",
+   "horizon_text": "September 14th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Own-organization event announcement."
+  },
+  {
+   "id": "owen-2355",
+   "forecaster": "owen",
+   "statement_date": "2026-08-24",
+   "quote": "Speaker Colleen Hanlon, Ph.D. —who will be doing an “ask the expert” opening to the event",
+   "context": "News bullet on BrainsWay: Colleen Hanlon (VP Global Medical Affairs, BrainsWay) will open the RAMHT New Orleans event with an 'ask the expert' segment.",
+   "post_title": "Rapid Acting Mental Health Treatment Comes to the Big Easy on September 14th",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6b5",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will be doing",
+   "entities": [
+    "Colleen Hanlon",
+    "BrainsWay",
+    "RAMHT"
+   ],
+   "finder_note": "Own-event program plan."
+  },
+  {
+   "id": "owen-2356",
+   "forecaster": "owen",
+   "statement_date": "2026-08-24",
+   "quote": "Also, we will have special guests. And surprises. And maybe…. embarrassing merch, for me, personally.",
+   "context": "Repeat teaser for the RAMHT New Orleans event: special guests, surprises, possibly embarrassing merchandise featuring the author.",
+   "post_title": "Rapid Acting Mental Health Treatment Comes to the Big Easy on September 14th",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6b5",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will have ... maybe",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Repeat of the teaser in ramht-psych-congress-september-14th."
+  },
+  {
+   "id": "owen-2357",
+   "forecaster": "owen",
+   "statement_date": "2026-08-24",
+   "quote": "This is also the first RAMHT meeting with robust, shareable data: finally, top-line phase three data on lysergide D-tartrate, otherwise known as LSD, from Definium’s Emerge study in major depressive disorder and Voyage study in generalized anxiety disorder. For the first time we’ll know what double-blind, randomized controlled trials look like.",
+   "context": "Author tells RAMHT co-founder Grady Hannah that the upcoming New Orleans meeting will feature Definium's top-line phase 3 LSD (lysergide D-tartrate) data from the Emerge study in MDD and the Voyage study in GAD.",
+   "post_title": "Rapid Acting Mental Health Treatment Comes to the Big Easy on September 14th",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6b5",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "we’ll know",
+   "entities": [
+    "RAMHT",
+    "Definium",
+    "LSD",
+    "lysergide D-tartrate",
+    "Emerge study",
+    "Voyage study"
+   ],
+   "finder_note": "Claim about own-event content; the trial data is described as already toplined."
+  },
+  {
+   "id": "owen-2358",
+   "forecaster": "owen",
+   "statement_date": "2026-08-24",
+   "quote": "It’s a whole different business. They’re there for hours in a row.",
+   "context": "Answer to Grady Hannah's question about how patients will be cared for during LSD treatment: the author expects LSD delivery to be a different business model with patients in clinic for hours; Grady adds 'And it's coming soon'.",
+   "post_title": "Rapid Acting Mental Health Treatment Comes to the Big Easy on September 14th",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6b5",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "LSD"
+   ],
+   "finder_note": "Present-tense description of a future treatment model; borderline. Grady's 'coming soon' is the guest's claim and is not logged."
+  },
+  {
+   "id": "owen-2359",
+   "forecaster": "owen",
+   "statement_date": "2026-08-24",
+   "quote": "I’m thrilled to say more soon, because we didn’t touch on novel diagnostic adjunctives: EEG and fMRI to understand what’s going on inside the brain before, during, and after these treatments.",
+   "context": "Author promises more content soon on EEG and fMRI diagnostic adjuncts for interventional psychiatry, ahead of the RAMHT event.",
+   "post_title": "Rapid Acting Mental Health Treatment Comes to the Big Easy on September 14th",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6b5",
+   "area_guess": "other",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Own-newsletter content promise; trivial."
+  },
+  {
+   "id": "owen-2360",
+   "forecaster": "owen",
+   "statement_date": "2026-08-24",
+   "quote": "The pint-size Muir bobblehead is real, and prompt arrival enters you in the raffle.",
+   "context": "Event logistics: early attendees at RAMHT New Orleans enter a raffle for a limited edition Owen Muir bobblehead.",
+   "post_title": "Rapid Acting Mental Health Treatment Comes to the Big Easy on September 14th",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-6b5",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Trivial own-event logistics; logged for recall."
+  },
+  {
+   "id": "owen-2361",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "The FDA is having another live meeting in which open comments on psychedelic medicines will be heard.",
+   "context": "Introduction: the FDA public hearing on docket FDA-2026-N-7542 ('Considerations for Potential Future Therapeutic Use of Psychedelic Drugs') will hear open public comments; the author contrasts it with the earlier MDMA-AT advisory committee.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will be heard",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Procedural call about an announced FDA meeting."
+  },
+  {
+   "id": "owen-2362",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "The constraint on patient access to FDA-approved psychedelic therapies is likely to be financial. The supply chain that made oral drugs accessible is essentially not relevant to the deployment of psychedelic medicines.",
+   "context": "Summary of the author's comment to FDA: access to approved psychedelic therapies will be limited mainly by finances and reimbursement, not by supply.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is likely to be",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Thesis of the comment."
+  },
+  {
+   "id": "owen-2363",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "The supply chain that made oral drugs accessible is essentially not relevant to the deployment of psychedelic medicines.",
+   "context": "Summary: the pharmacy-benefit supply chain for oral drugs will not apply to the deployment of psychedelic medicines.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Restates the no-retail-pharmacy call from cut-the-doctors-in-on-psychedelics."
+  }
+ ]
+}

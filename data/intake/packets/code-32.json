@@ -1,0 +1,859 @@
+{
+ "packet": "code-32.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1433",
+   "forecaster": "owen",
+   "statement_date": "2024-12-24",
+   "quote": "And tickets to January 12th’s event at JP Morgan Health’s (“JPM”) Opening night bash, called Rapid Acting Mental Health Treatment SF 2025 , are on sale now!",
+   "context": "Closing reminder of the author's RAMHT SF 2025 event on January 12 during JPM.",
+   "post_title": "\"Text Me If You Need Anything\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/text-me-if-you-need-anything",
+   "area_guess": "other",
+   "horizon_text": "January 12th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "JPM"
+   ],
+   "finder_note": "Restatement of the RAMHT SF 2025 announcement; CONTROL candidate."
+  },
+  {
+   "id": "owen-1434",
+   "forecaster": "owen",
+   "statement_date": "2024-12-27",
+   "quote": "More often than any other depression treatment I've ever seen, that depression will no longer be a problem for that person for some period of time. We don't yet know how long depression will stay at bay using this approach, because it's brand new.",
+   "context": "Announcing the Ampa ONE-D pre-print (Jonathan Downar): 20 TMS sessions in one day with dextroamphetamine and d-cycloserine, 90%+ remission at six weeks, no control group. The author claims treated patients' depression will be gone for some period, while flagging unknown durability.",
+   "post_title": "Depression Can Be Over With A One Day Treatment 90% of The Time*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-with-a-one",
+   "area_guess": "clinical_trial",
+   "horizon_text": "for some period of time",
+   "confidence_phrase": "will no longer be",
+   "entities": [
+    "Ampa",
+    "ONE-D",
+    "Jonathan Downar",
+    "TMS",
+    "dextroamphetamine",
+    "d-cycloserine"
+   ],
+   "finder_note": "Ampa is an author-affiliated company (CONTROL candidate). Compound: outcome claim plus explicit uncertainty on durability."
+  },
+  {
+   "id": "owen-1435",
+   "forecaster": "owen",
+   "statement_date": "2024-12-27",
+   "quote": "60% of individuals who get 5-day accelerated treatment like SAINT remit on day five. Thus, for patients with acute suicidality, that approach may still prove superior.",
+   "context": "Comparing ONE-D's delayed response with faster protocols (Magnus Medical SAINT, HOPE-TMS, H-coil accelerated TMS, 60% remission by day five): the author hedges that 5-day accelerated approaches like SAINT may still prove superior for acutely suicidal patients.",
+   "post_title": "Depression Can Be Over With A One Day Treatment 90% of The Time*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-with-a-one",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "may still prove",
+   "entities": [
+    "Magnus Medical",
+    "SAINT",
+    "HOPE-TMS",
+    "Ampa",
+    "ONE-D"
+   ],
+   "finder_note": "Hedged comparative call."
+  },
+  {
+   "id": "owen-1436",
+   "forecaster": "owen",
+   "statement_date": "2024-12-27",
+   "quote": "There is more work yet to be done, but I'm thrilled to be a clinical trial site for the next phase of the work Ampa is doing at both Fermata and Acacia clinics.",
+   "context": "The author states Fermata (Brooklyn) and Acacia Clinics (Sunnyvale) will be clinical trial sites for the next phase of Ampa's single-day TMS work.",
+   "post_title": "Depression Can Be Over With A One Day Treatment 90% of The Time*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-with-a-one",
+   "area_guess": "clinical_trial",
+   "horizon_text": "the next phase",
+   "confidence_phrase": "none",
+   "entities": [
+    "Ampa",
+    "Fermata",
+    "Acacia Clinics"
+   ],
+   "finder_note": "Own-organization commitment (Ampa, Fermata, Acacia); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1437",
+   "forecaster": "owen",
+   "statement_date": "2024-12-27",
+   "quote": "The future is so close, and in it, people are suffering less pretty quickly.",
+   "context": "Closing line after describing the portable ONE-D stimulator: the author forecasts a near future of rapid relief from depression via single-day treatment.",
+   "post_title": "Depression Can Be Over With A One Day Treatment 90% of The Time*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-with-a-one",
+   "area_guess": "practice_adoption",
+   "horizon_text": "so close",
+   "confidence_phrase": "so close",
+   "entities": [
+    "Ampa",
+    "ONE-D"
+   ],
+   "finder_note": "Vague optimism claim; low resolvability."
+  },
+  {
+   "id": "owen-1438",
+   "forecaster": "owen",
+   "statement_date": "2024-12-27",
+   "quote": "We have some science published in 2024 that I think will make a huge impact in the future",
+   "context": "Framing sentence of the '2024 Edition' list of science that will change the world: MM-120 (LSD) for GAD, a Dutch rTMS cost-effectiveness RCT, and GLP-1 trial results. The author expects these findings to have a large future impact and wants to speed adoption (he cites an average 17-year lag).",
+   "post_title": "Science That Will Change The World, 2024 Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/science-that-will-change-the-world",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in the future",
+   "confidence_phrase": "I think will",
+   "entities": [
+    "MM-120",
+    "Mind Medicine (MindMed)",
+    "rTMS",
+    "semaglutide",
+    "tirzepatide",
+    "Novo Nordisk",
+    "Eli Lilly"
+   ],
+   "finder_note": "Umbrella claim over three findings; each finding has its own statement."
+  },
+  {
+   "id": "owen-1439",
+   "forecaster": "owen",
+   "statement_date": "2024-12-27",
+   "quote": "They have already dosed the first patient in phase 3. More data is forthcoming, but a single-dose treatment for GAD is a huge deal.",
+   "context": "Item 1 of the list: Mind Medicine's MM-120 (proprietary LSD) for generalized anxiety disorder. Phase 2b reported 78% clinical response (100 and 200 µg) and 50% remission (100 µg) at Week 4; the first phase 3 patient is dosed. The author expects more data and calls a single-dose GAD treatment a huge deal.",
+   "post_title": "Science That Will Change The World, 2024 Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/science-that-will-change-the-world",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "is forthcoming",
+   "entities": [
+    "Mind Medicine (MindMed)",
+    "MM-120",
+    "LSD",
+    "generalized anxiety disorder"
+   ],
+   "finder_note": "Author discloses work with the team and <1000 shares; he adds that skepticism is warranted until larger real-world samples exist."
+  },
+  {
+   "id": "owen-1440",
+   "forecaster": "owen",
+   "statement_date": "2024-12-27",
+   "quote": "This will make it—I hope—much harder for health plans to deny this care.",
+   "context": "Item 2: a Dutch pragmatic multicenter RCT (Dalhuisen et al., Acta Psychiatrica Scandinavica) found rTMS dominant over next-step medication in treatment-resistant depression (QALYs 0.618 vs 0.545, lower costs). The author expects this causal evidence to make it harder for health plans to deny TMS coverage.",
+   "post_title": "Science That Will Change The World, 2024 Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/science-that-will-change-the-world",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will ... I hope",
+   "entities": [
+    "rTMS",
+    "TMS",
+    "health plans",
+    "Medicaid",
+    "Dalhuisen et al."
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-1441",
+   "forecaster": "owen",
+   "statement_date": "2024-12-27",
+   "quote": "These drugs are knocking down every plausible large-scale trial we throw their way. It’s hopeful. “More to come,” I say, both in these specific drugs and, I hope, in drug development more broadly.",
+   "context": "Item 3: semaglutide (Novo Nordisk) and tirzepatide (Eli Lilly) succeeding in large trials for cardiovascular mortality, knee osteoarthritis and obstructive sleep apnea. The author expects more positive results for these drugs and hopes for the same in drug development more broadly.",
+   "post_title": "Science That Will Change The World, 2024 Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/science-that-will-change-the-world",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "More to come ... I hope",
+   "entities": [
+    "semaglutide",
+    "tirzepatide",
+    "Novo Nordisk",
+    "Eli Lilly",
+    "GLP-1"
+   ],
+   "finder_note": "Compound: these specific drugs and drug development broadly."
+  },
+  {
+   "id": "owen-1442",
+   "forecaster": "owen",
+   "statement_date": "2024-12-28",
+   "quote": "What happens to a drug price… if that drug price can be any price? That price is going to go up.",
+   "context": "Essay on why devices can't get paid while drugs can. Because Medicare Part D barred government price negotiation, the author predicts new drug prices will keep rising.",
+   "post_title": "This Medical Device Went to Market...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-medical-device-went-to-market",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "Medicare Part D",
+    "drug prices"
+   ],
+   "finder_note": "First of three restatements of the rising-drug-price claim in this post."
+  },
+  {
+   "id": "owen-1443",
+   "forecaster": "owen",
+   "statement_date": "2024-12-28",
+   "quote": "To be blunt— drug prices are going to go up forever because they can't be negotiated down?",
+   "context": "Restatement: drug prices will rise forever because the government cannot negotiate them; the Inflation Reduction Act only nibbled at the edges. Later restated as 'the cost of those drugs is just going to get higher'.",
+   "post_title": "This Medical Device Went to Market...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-medical-device-went-to-market",
+   "area_guess": "company_market",
+   "horizon_text": "forever",
+   "confidence_phrase": "are going to go up forever",
+   "entities": [
+    "drug prices",
+    "Inflation Reduction Act",
+    "Medicare"
+   ],
+   "finder_note": "Restatement; the third version ('just going to get higher') is not logged separately."
+  },
+  {
+   "id": "owen-1444",
+   "forecaster": "owen",
+   "statement_date": "2024-12-28",
+   "quote": "Using a per diem contract (paying a daily rate, not a bundle rate for the whole admission) means nothing New and Good can come to inpatient psychiatry.",
+   "context": "The NTAP (New Technology Add-On Payment) applies only to bundled Medicare payments; 75% of inpatient psychiatric units use per diem contracts. The author forecasts no new technology will reach inpatient psychiatry under that model.",
+   "post_title": "This Medical Device Went to Market...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-medical-device-went-to-market",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "nothing New and Good can come",
+   "entities": [
+    "NTAP",
+    "Medicare",
+    "inpatient psychiatry"
+   ],
+   "finder_note": "Structural negative call."
+  },
+  {
+   "id": "owen-1445",
+   "forecaster": "owen",
+   "statement_date": "2024-12-28",
+   "quote": "If we don't have a path to payment by the government, and thus we won't get new technology to the market. That's the bottom line.",
+   "context": "Conditional forecast: without a guaranteed government payment path (NTAP inpatient, TCET outpatient), new mental-health technology will not reach the market; investors will keep favoring drugs.",
+   "post_title": "This Medical Device Went to Market...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-medical-device-went-to-market",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "won't",
+   "entities": [
+    "NTAP",
+    "TCET",
+    "Medicare",
+    "medical devices"
+   ],
+   "finder_note": "Conditional."
+  },
+  {
+   "id": "owen-1446",
+   "forecaster": "owen",
+   "statement_date": "2024-12-28",
+   "quote": "The Breakthrough Therapies Act would help solve this problem, but it hasn’t passed yet—or the similar H.R.1691 —Ensuring Patient Access to Critical Breakthrough Products Act of 2024. Again, these things need to pass a pretty dysfunctional Congress. If you ask for a solution, some of those bills will go a long way.",
+   "context": "The author says the Breakthrough Therapies Act or H.R.1691 (Ensuring Patient Access to Critical Breakthrough Products Act of 2024) would help device payment if passed, while noting Congress is dysfunctional.",
+   "post_title": "This Medical Device Went to Market...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-medical-device-went-to-market",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "would help",
+   "entities": [
+    "Breakthrough Therapies Act",
+    "H.R.1691",
+    "Ensuring Patient Access to Critical Breakthrough Products Act of 2024",
+    "Congress",
+    "Dr. Oz"
+   ],
+   "finder_note": "Conditional on passage; no call on whether the bills pass beyond 'dysfunctional Congress'."
+  },
+  {
+   "id": "owen-1447",
+   "forecaster": "owen",
+   "statement_date": "2024-12-28",
+   "quote": "I have a Event in real life with the people who inspire me at our second annual rapid-acting mental health treatment conference in San Francisco on January 12 .",
+   "context": "Mid-essay reminder of the author's RAMHT SF 2025 conference on January 12.",
+   "post_title": "This Medical Device Went to Market...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-medical-device-went-to-market",
+   "area_guess": "other",
+   "horizon_text": "January 12",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Restatement of the RAMHT SF 2025 announcement; CONTROL candidate."
+  },
+  {
+   "id": "owen-1448",
+   "forecaster": "owen",
+   "statement_date": "2024-12-29",
+   "quote": "Finally, I want to remind my readers that I have an event coming up on January 12 in San Francisco. It's Rapid Acting Mental Health Treatment SF 2025 .",
+   "context": "Event reminder for RAMHT SF 2025 on January 12; later the author says he has invited Chris Aiken (Carlat Report) to join the conference.",
+   "post_title": "Of Conflicts of Interest, and Interesting Conflicts",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-conflicts-of-interest-and-interesting",
+   "area_guess": "other",
+   "horizon_text": "January 12",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Chris Aiken"
+   ],
+   "finder_note": "Restatement of the RAMHT SF 2025 announcement; CONTROL candidate."
+  },
+  {
+   "id": "owen-1449",
+   "forecaster": "owen",
+   "statement_date": "2024-12-29",
+   "quote": "I don’t believe executives went to jail, however, and the drug was more profitable than the penalties, so I suspect the behavior will continue.",
+   "context": "After recounting the Parke-Davis/Pfizer Neurontin off-label marketing case and its criminal penalties, the author forecasts that pharmaceutical off-label marketing behavior will continue because it remains profitable.",
+   "post_title": "Of Conflicts of Interest, and Interesting Conflicts",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-conflicts-of-interest-and-interesting",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I suspect ... will continue",
+   "entities": [
+    "Parke-Davis",
+    "Pfizer",
+    "Neurontin",
+    "pharmaceutical industry"
+   ],
+   "finder_note": "Broad behavioral call about pharma marketing."
+  },
+  {
+   "id": "owen-1450",
+   "forecaster": "owen",
+   "statement_date": "2024-12-29",
+   "quote": "Still, none of these things are likely to happen tomorrow. The conferences don't occur without industry support for a price we could afford.",
+   "context": "After listing ways physicians could resist pharma advertising (no drug reps, no TV ads, no journal ads, no conference booths), the author predicts none of these changes are likely soon because conferences and journals depend on industry money.",
+   "post_title": "Of Conflicts of Interest, and Interesting Conflicts",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-conflicts-of-interest-and-interesting",
+   "area_guess": "practice_adoption",
+   "horizon_text": "tomorrow",
+   "confidence_phrase": "none ... are likely",
+   "entities": [
+    "pharmaceutical industry",
+    "medical conferences",
+    "medical journals"
+   ],
+   "finder_note": "Negative call on near-term change in physician exposure to pharma marketing."
+  },
+  {
+   "id": "owen-1451",
+   "forecaster": "owen",
+   "statement_date": "2024-12-29",
+   "quote": "And suppose nutritional ketosis has its early evidence in bipolar disorder replicated? In that case, it may be that changing your diet in keeping with human biology’s vicissitudes may be a potent intervention.",
+   "context": "Listing non-drug options: the author hedges that if early evidence for nutritional ketosis in bipolar disorder is replicated, diet may prove a potent intervention.",
+   "post_title": "Of Conflicts of Interest, and Interesting Conflicts",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-conflicts-of-interest-and-interesting",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "may be",
+   "entities": [
+    "nutritional ketosis",
+    "ketogenic diet",
+    "bipolar disorder"
+   ],
+   "finder_note": "Conditional and doubly hedged."
+  },
+  {
+   "id": "owen-1452",
+   "forecaster": "owen",
+   "statement_date": "2024-12-30",
+   "quote": "There is no law so invasive or punitive that lawmakers will demure if it comes to controlling either doctors or women. Preferably both.",
+   "context": "Republished 2022 HIPAA essay (post-Dobbs). The author generalizes that state lawmakers will pass any invasive law to control doctors or women, citing Texas defining standard of care as child abuse and abortion-ban states asserting law-enforcement access to records.",
+   "post_title": "How HIPAA Was Transformed From “The Secret Service” to “The TSA” For Your Privacy, Revisited.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-hipaa-was-transformed-from-the-fd4",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "HIPAA",
+    "Texas",
+    "state lawmakers",
+    "Dobbs"
+   ],
+   "finder_note": "Generalization written in 2022 and re-asserted in the 2024 republication."
+  },
+  {
+   "id": "owen-1453",
+   "forecaster": "owen",
+   "statement_date": "2024-12-30",
+   "quote": "there was almost no reason for anyone previously to engineer non-compliant solutions. Until now…let’s take a look at why",
+   "context": "After explaining that cash-only practices are not HIPAA covered entities, the author implies that going forward there is now reason to build non-HIPAA-compliant (more private) health records and practices.",
+   "post_title": "How HIPAA Was Transformed From “The Secret Service” to “The TSA” For Your Privacy, Revisited.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-hipaa-was-transformed-from-the-fd4",
+   "area_guess": "practice_adoption",
+   "horizon_text": "Until now",
+   "confidence_phrase": "none",
+   "entities": [
+    "HIPAA",
+    "health records"
+   ],
+   "finder_note": "Borderline: implicit shift claim, not an explicit forecast."
+  },
+  {
+   "id": "owen-1454",
+   "forecaster": "owen",
+   "statement_date": "2024-12-31",
+   "quote": "It gets more spicy from there, but sadly, it isn’t done… and thus won’t happen in the waning hours of 2024.",
+   "context": "Year-end review of unfinished 2024 articles, posted Dec 31, 2024. About the draft 'Medical Boards Won't Save Us': the author says it is not done and will not be published in the remaining hours of 2024.",
+   "post_title": "Some Articles I Didn't Finish in 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/some-articles-i-didnt-finish-in-2024",
+   "area_guess": "other",
+   "horizon_text": "in the waning hours of 2024",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Trivial own-newsletter statement; CONTROL candidate."
+  },
+  {
+   "id": "owen-1455",
+   "forecaster": "owen",
+   "statement_date": "2024-12-31",
+   "quote": "Medical Boards Won't Save Us",
+   "context": "Title of an unfinished 2024 article in the year-end review. The author's stance is that medical licensing boards will not protect the public from professional misconduct despite elaborate licensure processes; he cites his own experience of a state medical board investigation.",
+   "post_title": "Some Articles I Didn't Finish in 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/some-articles-i-didnt-finish-in-2024",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "Won't",
+   "entities": [
+    "medical boards"
+   ],
+   "finder_note": "Borderline; general stance carried by an article title, not a dated call."
+  },
+  {
+   "id": "owen-1456",
+   "forecaster": "owen",
+   "statement_date": "2024-12-31",
+   "quote": "Maybe I’ll get an article out of it, but 2024 won’t be that year.",
+   "context": "About the unfinished 'Even If The Heavens Fall' article on ethics and the Trolley Problem, tied to the author's maintenance-of-certification reading. He may write it later but not in 2024.",
+   "post_title": "Some Articles I Didn't Finish in 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/some-articles-i-didnt-finish-in-2024",
+   "area_guess": "other",
+   "horizon_text": "2024",
+   "confidence_phrase": "Maybe ... won’t",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content; CONTROL candidate."
+  },
+  {
+   "id": "owen-1457",
+   "forecaster": "owen",
+   "statement_date": "2024-12-31",
+   "quote": "They raised $130M in their Series C…and will in theory now do value based something? With glassdoor reviews like this, what could go wrong?",
+   "context": "About the unfinished 'Building Nothing Out of Something' article on Talkiatry, a telehealth company the author says hires good psychiatrists but keeps them off high-acuity cases. After a $130M Series C, Talkiatry will supposedly move to value-based care; the sarcastic 'what could go wrong?' signals the author expects problems.",
+   "post_title": "Some Articles I Didn't Finish in 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/some-articles-i-didnt-finish-in-2024",
+   "area_guess": "company_market",
+   "horizon_text": "now",
+   "confidence_phrase": "will in theory",
+   "entities": [
+    "Talkiatry"
+   ],
+   "finder_note": "Sarcastic; implied negative expectation about Talkiatry's value-based pivot."
+  },
+  {
+   "id": "owen-1458",
+   "forecaster": "owen",
+   "statement_date": "2025-01-01",
+   "quote": "Ms. Philips makes more money than you or I are ever likely to.",
+   "context": "OnlyFans creator Lilly Phillips reportedly earns tens of millions of dollars a year; the author claims neither he nor the reader is ever likely to earn as much.",
+   "post_title": "OnlyFans v. MostlyCritics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/onlyfans-v-mostlycritics",
+   "area_guess": "other",
+   "horizon_text": "ever",
+   "confidence_phrase": "ever likely to",
+   "entities": [
+    "Lilly Phillips",
+    "OnlyFans"
+   ],
+   "finder_note": "Borderline; a comparative claim about lifetime earnings rather than a dated forecast."
+  },
+  {
+   "id": "owen-1459",
+   "forecaster": "owen",
+   "statement_date": "2025-01-01",
+   "quote": "It won’t be a metric ton of money, on average. That is true across endeavors. Most people are not stars. The effort/star power ratio that is needed to support one’s family with fan-funded financials, however, is realistic for more people.",
+   "context": "After computing average OnlyFans creator revenue (about $1,177 ARR per creator) versus TikTok, YouTube and Instagram pay, the author states that fan-funded creation will not pay much on average but is a realistic way for more people to support a family than ad-driven platforms.",
+   "post_title": "OnlyFans v. MostlyCritics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/onlyfans-v-mostlycritics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t be",
+   "entities": [
+    "OnlyFans",
+    "TikTok",
+    "YouTube",
+    "Instagram"
+   ],
+   "finder_note": "Borderline; generic claim about average creator earnings, close to a truism. Compound claim."
+  },
+  {
+   "id": "owen-1460",
+   "forecaster": "owen",
+   "statement_date": "2025-01-01",
+   "quote": "Creators like Ms. Philips know they will get screwed, and by whom.",
+   "context": "Discussing OnlyFans' 20% take rate versus Substack's 10% and Alma/Grow's roughly 7%; the author says OnlyFans creators know they will be exploited by the platform, unlike therapists and doctors exploited by insurers and educational debt.",
+   "post_title": "OnlyFans v. MostlyCritics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/onlyfans-v-mostlycritics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Lilly Phillips",
+    "OnlyFans"
+   ],
+   "finder_note": "Habitual 'will'; reads as a description of ongoing take-rate exploitation rather than a dated forecast."
+  },
+  {
+   "id": "owen-1461",
+   "forecaster": "owen",
+   "statement_date": "2025-01-01",
+   "quote": "But when we leave it to “others” to pay, far removed from our pocket books, personally? Someone is going to get F-d. It might even be… us .",
+   "context": "Closing argument: if society wants a world that values things other than sex and exploitation, people have to pay directly for newsletters, music or healthcare; when payment is left to advertisers or third parties, someone (possibly the reader) gets exploited.",
+   "post_title": "OnlyFans v. MostlyCritics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/onlyfans-v-mostlycritics",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to",
+   "entities": [],
+   "finder_note": "Conditional and generic; the preceding 'We have to pay for it' is advice and was not logged separately."
+  },
+  {
+   "id": "owen-1462",
+   "forecaster": "owen",
+   "statement_date": "2025-01-02",
+   "quote": "The best part of this law is that Medicare Beneficiaries will now be able to remember one number—$2000 a year, which is the most they will pay. That is of course unless they happen to require a medicine that isn’t covered under medicare part D.",
+   "context": "The $2,000 annual out-of-pocket cap on Medicare Part D drug costs took effect at the start of 2025 (the post is dated 2025-01-02). The author restates the law's effect: beneficiaries will pay at most $2,000 a year for covered Part D drugs, with the caveat that drugs not covered under Part D are excluded.",
+   "post_title": "Happy $2,000/annual Out-Of-Pocket Cap For Medicare Beneficiaries Day",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/happy-2000annual-out-of-pocket-cap",
+   "area_guess": "payer_policy",
+   "horizon_text": "now; a year",
+   "confidence_phrase": "will",
+   "entities": [
+    "Medicare",
+    "Medicare Part D"
+   ],
+   "finder_note": "Restatement of enacted policy that has just taken effect; the law is referred to only as 'this law'."
+  },
+  {
+   "id": "owen-1463",
+   "forecaster": "owen",
+   "statement_date": "2025-01-02",
+   "quote": "That is likely to become a more “hot topic” (as I covered in this prior article ) because the following types of meds are not covered",
+   "context": "The exclusion of certain drug classes from Medicare Part D coverage (weight loss drugs, fertility drugs, cosmetic drugs, cold/cough, erectile dysfunction, vitamins, OTC), which the author says includes blockbuster GLP-1s, is expected to become a bigger public issue now that the $2,000 cap applies only to covered drugs.",
+   "post_title": "Happy $2,000/annual Out-Of-Pocket Cap For Medicare Beneficiaries Day",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/happy-2000annual-out-of-pocket-cap",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "likely to",
+   "entities": [
+    "Medicare Part D",
+    "GLP-1s"
+   ],
+   "finder_note": "Author flags this as a restatement of a prior article."
+  },
+  {
+   "id": "owen-1464",
+   "forecaster": "owen",
+   "statement_date": "2025-01-02",
+   "quote": "Thus, the rush on the part of Lily and Novo to get all these remarkable trials done that prove their effectiveness in other indications— beyond weight loss—so that Medicare can cover them.",
+   "context": "Because Medicare Part D does not cover weight-loss drugs, the author describes Eli Lilly and Novo Nordisk rushing to complete trials of GLP-1s in other indications so that Medicare can cover them.",
+   "post_title": "Happy $2,000/annual Out-Of-Pocket Cap For Medicare Beneficiaries Day",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/happy-2000annual-out-of-pocket-cap",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Eli Lilly",
+    "Novo Nordisk",
+    "Medicare",
+    "GLP-1s"
+   ],
+   "finder_note": "Borderline; describes a present strategy whose goal (trials completed, Medicare coverage) lies in the future. Medicare coverage is stated as the companies' aim, not the author's call."
+  },
+  {
+   "id": "owen-1465",
+   "forecaster": "owen",
+   "statement_date": "2025-01-02",
+   "quote": "This is good news for seniors and other individuals on Medicare, such as those with psychiatric or other disability, but it will put pressure on federal budgets and premiums.",
+   "context": "Closing assessment of the $2,000 Medicare Part D out-of-pocket cap: good for beneficiaries, including those with psychiatric disability, but it will put pressure on federal budgets and Part D premiums.",
+   "post_title": "Happy $2,000/annual Out-Of-Pocket Cap For Medicare Beneficiaries Day",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/happy-2000annual-out-of-pocket-cap",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Medicare",
+    "Medicare Part D"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-1466",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "It does not mean that it will be submitted in some unbelievably stale format to JAMA Psychiatry, or any of the other journals that would give it prestige…",
+   "context": "The author explains that his and Carlene MacMillan's survey paper on clinician attitudes toward insurance is being published on the newsletter and will not be submitted to JAMA Psychiatry or other academic journals.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "does not mean that it will be",
+   "entities": [
+    "JAMA Psychiatry",
+    "Carlene MacMillan",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Trivial personal commitment about the author's own paper and newsletter; the post is a recap of an earlier piece, so this restates the original."
+  },
+  {
+   "id": "owen-1467",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "The most important truth is that, for mental health conditions, a system that is stressful, feels controlling, and underpays you by a factor of many multiples of what you could be making otherwise is not a sustainable business model for clinicians.",
+   "context": "Discussion section of the survey write-up: the author argues the core problem with insurance for mental health clinicians is not workflow complexity but stress, control and underpayment, which he calls unsustainable as a business model for clinicians.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "is not a sustainable",
+   "entities": [],
+   "finder_note": "Assessment with a forward implication (clinicians will keep leaving insurance); sets up the platform 'harsh awakening' call that follows."
+  },
+  {
+   "id": "owen-1468",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "Thus, the endless platform solutions that are doing clinicians a service by making it easier to take insurance are in for, possibly, a really harsh awakening unless they can change the way payers value the mental health clinicians in their network. Paying a few dollars more per claim is not going to cut it.",
+   "context": "Discussion section: insurance-enabling therapist platforms (the author names Alma, Grow Therapy, Talkspace and BetterHelp in the next paragraph) face a possible harsh awakening unless they change how payers value in-network mental health clinicians; small per-claim rate increases will not be enough.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "possibly; is not going to cut it",
+   "entities": [
+    "Alma",
+    "Grow Therapy",
+    "Talkspace",
+    "BetterHelp"
+   ],
+   "finder_note": "Conditional compound claim: harsh awakening unless payer valuation changes; small rate bumps will not suffice."
+  },
+  {
+   "id": "owen-1469",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "This is a serious problem for the business models of all clinicians who take insurance and all mental health platforms. I’m looking at you Alma. I’m looking at you, Grow Therapy. This extends, of course, to Talk Space, Better Help, etc.",
+   "context": "Following the 'harsh awakening' warning, the author names the platforms whose business models he says are threatened by clinicians' rejection of insurance economics: Alma, Grow Therapy, Talkspace, BetterHelp and similar companies that create value off licensed therapists' work.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Alma",
+    "Grow Therapy",
+    "Talkspace",
+    "BetterHelp"
+   ],
+   "finder_note": "Present-tense assessment that implies future trouble for the named platforms; borderline."
+  },
+  {
+   "id": "owen-1470",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "These force clinicians to take insurance as service platforms haven’t been around long enough to have their panels of therapists all quit.",
+   "context": "The author argues platforms that scale by having therapists take insurance (Alma, Grow Therapy, Talkspace, BetterHelp) are too young to have seen their therapist panels quit, implying that with time their therapists will quit, as 27% of surveyed clinicians had resigned from insurance panels.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Alma",
+    "Grow Therapy",
+    "Talkspace",
+    "BetterHelp"
+   ],
+   "finder_note": "Implicit forecast: the sentence presupposes that platform therapist panels will eventually quit."
+  },
+  {
+   "id": "owen-1471",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "Maybe these platform solutions will do a better job of negotiating those contracts, but it’s not that much better.",
+   "context": "On insurance reimbursement rates for therapists (the author cites a $7 group therapy rate and under $100 to $200 per session for masters-level therapists versus $300 to $1,000 private-pay): platforms like Alma may negotiate somewhat better payer contracts, but not much better.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "Maybe",
+   "entities": [
+    "Alma"
+   ],
+   "finder_note": "Hedged; concedes a possible improvement and predicts it stays small."
+  },
+  {
+   "id": "owen-1472",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "A bunch of different companies scrambling to get pieces of that limited pie is going to make for a couple of exits, but it’s not gonna change healthcare. And therapists are going to quit. And then they’re going to go back to doing less scalable work, and everyone’s gonna be worse off.",
+   "context": "The author argues therapist time is a non-scalable, limited resource (45- or 60-minute blocks); companies competing for that pie (insurance-based therapy platforms) will produce a couple of exits but will not change healthcare.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to; not gonna",
+   "entities": [
+    "Alma",
+    "Grow Therapy",
+    "Talkspace",
+    "BetterHelp"
+   ],
+   "finder_note": "Compound: (a) a couple of exits; (b) no change to healthcare. Entities are those named earlier in the passage."
+  }
+ ]
+}

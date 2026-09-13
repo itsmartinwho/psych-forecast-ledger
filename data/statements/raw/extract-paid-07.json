@@ -1,0 +1,399 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-paid-07.md",
+  "posts": [
+    {
+      "slug": "in-celebration-of-this-newsletter",
+      "read": true,
+      "statements_found": 0,
+      "note": "Satirical vignette about meeting readers at a family gathering; no forecasts."
+    },
+    {
+      "slug": "in-celebration-of-corrections-this",
+      "read": true,
+      "statements_found": 1,
+      "note": "Satirical correction (the gathering was a wedding); only a joke subscription pitch logged."
+    },
+    {
+      "slug": "compliant-is-the-new-disruptive-a",
+      "read": true,
+      "statements_found": 3,
+      "note": "Author-labelled satire list of HIPAA-compliant clones (Calendly, Zapier); conditional market claims and a fax-persistence claim logged."
+    },
+    {
+      "slug": "psychedelics-why-medical-use-and",
+      "read": true,
+      "statements_found": 0,
+      "note": "Essay on medical vs spiritual psychedelic use; present-tense and normative only."
+    },
+    {
+      "slug": "its-open-comment-for-saint-time",
+      "read": true,
+      "statements_found": 0,
+      "note": "Video post; text is a call to comment on the CMS NTAP proposal for SAINT. Trailing 'Recent Posts' list is a scrape artifact, not author text."
+    },
+    {
+      "slug": "swallowing-sharp-objects",
+      "read": true,
+      "statements_found": 0,
+      "note": "Clinical vignette (composite patient) on mentalizing; no forecasts."
+    },
+    {
+      "slug": "if-cms-doesnt-cover-revolutionary",
+      "read": true,
+      "statements_found": 3,
+      "note": "CMS NTAP open-comment call to action with a GPT-4-drafted sample letter; two sample-letter claims logged with authorship flagged."
+    },
+    {
+      "slug": "understanding-psychiatric-research",
+      "read": true,
+      "statements_found": 0,
+      "note": "Research-terms glossary; definitional and present-tense, no forecasts."
+    },
+    {
+      "slug": "an-open-letter-to-every-company-from",
+      "read": true,
+      "statements_found": 2,
+      "note": "Satirical letter in Apple's voice after the Vision Pro reveal; one sincere hospital-adoption call and one joke subtitle."
+    },
+    {
+      "slug": "why-insurance-wont-cover-innovative",
+      "read": true,
+      "statements_found": 5,
+      "note": "Second CMS NTAP comment call; payer-policy claims about the proposal, precedent, psychedelics, devices and near-term Medicare access to SAINT."
+    },
+    {
+      "slug": "amazing-news-i-figured-out-how-to",
+      "read": true,
+      "statements_found": 1,
+      "note": "Office hours announcement; one own-activity commitment."
+    },
+    {
+      "slug": "healthcare-book-club",
+      "read": true,
+      "statements_found": 1,
+      "note": "Book club launch; one own-activity plan."
+    },
+    {
+      "slug": "the-cure-for-imposter-syndrome",
+      "read": true,
+      "statements_found": 0,
+      "note": "Joke essay on imposter syndrome; no forecasts."
+    },
+    {
+      "slug": "the-state-of-our-newsletter-is-strong",
+      "read": true,
+      "statements_found": 1,
+      "note": "Newsletter transparency report; growth stats are past data; one follow-up commitment logged."
+    },
+    {
+      "slug": "the-last-photo-i-took-of-my-father",
+      "read": true,
+      "statements_found": 0,
+      "note": "Personal essay on a pinhole photograph of the author's father; no forecasts."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "in-celebration-of-corrections-this",
+      "quote": "The best of newsletter coverage of your wedding is in the future. Subscribe, and the above absurdist reporting about causal inference in statistics could be celebrating your nuptials too!",
+      "context": "Closing promotional line of a satirical correction post: the author admits the joyful 'family gathering' he reported on was a psychiatrist's wedding. He jokes that future paid subscribers could get absurdist newsletter coverage of their own weddings.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "in the future",
+      "confidence_phrase": "could be",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Joke subscription pitch; no real expectation. Logged for recall only. Own newsletter; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "compliant-is-the-new-disruptive-a",
+      "quote": "Somebody, anybody, buy that company. And then offer a business associate agreement. Comply with HIPAA. Boom, you have a patient self-scheduling tool! Hospitals will pay a bazillion dollars for that.",
+      "context": "First item of a list of proposed health-tech companies in a post the author labels 'pure clickbait' and 'Only satire'. Conditional: if someone buys Calendly (not HIPAA compliant) and offers a business associate agreement, hospitals will pay a very large amount for a compliant patient self-scheduling tool. A footnote adds that Epic integration would make everybody more money.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "will pay",
+      "entities": [
+        "Calendly",
+        "HIPAA",
+        "Epic"
+      ],
+      "note": "Author labels the post satire/clickbait; 'a bazillion dollars' is hyperbole. Conditional on an acquisition plus a BAA. The market thesis (compliant is the new disruptive) reads sincere."
+    },
+    {
+      "post_slug": "compliant-is-the-new-disruptive-a",
+      "quote": "Please buy Zapier. Somebody. Anybody. Sell the same product, but allow a business associate agreement to be signed. Now you can automate the internal workings of a healthcare business! Amazing. Billions. Overnight success!",
+      "context": "Second item of the satirical list. Conditional: if someone buys Zapier (which will not sign a business associate agreement) and allows a BAA, the same product becomes a healthcare automation business worth billions and an overnight success.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Zapier",
+        "HIPAA"
+      ],
+      "note": "Author-labelled satire; 'Billions. Overnight success!' is hyperbole. Conditional on an acquisition plus a BAA. Underlying thesis reads sincere."
+    },
+    {
+      "post_slug": "compliant-is-the-new-disruptive-a",
+      "quote": "It works because it's compliant, so these legacy technologies stay around like a cockroach after nuclear Armageddon.",
+      "context": "Opening argument (outside the satire list): fax machines and pagers persist in healthcare because communication over phone lines is exempt from additional HIPAA regulation. The author asserts these legacy technologies keep surviving; 'Fax machines do that to this day.'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "HIPAA"
+      ],
+      "note": "Borderline: present-tense description with an implied forecast that fax machines and pagers persist in healthcare."
+    },
+    {
+      "post_slug": "if-cms-doesnt-cover-revolutionary",
+      "quote": "Yeah, insurance won’t cover revolutionary treatments. However, the NTAP changes that if we leave comments.",
+      "context": "Call-to-action post on the CMS FY2024 inpatient prospective payment proposed rule (federalregister.gov 2023-07389) open comment period, with about nine days left. The author says insurance does not cover revolutionary depression treatment (SAINT neuromodulation) and that the New Technology Add-On Payment program changes that if readers leave comments.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "changes that if we leave comments",
+      "entities": [
+        "CMS",
+        "Medicare",
+        "NTAP",
+        "SAINT"
+      ],
+      "note": "Compound: current non-coverage plus a conditional claim that NTAP (with public comments) changes coverage."
+    },
+    {
+      "post_slug": "if-cms-doesnt-cover-revolutionary",
+      "quote": "It is not an overstatement to say that the capacity of SAINT Neuromodulation to achieve depression remission without the use of medications could revolutionize our approach to mental health treatment.",
+      "context": "From a sample CMS comment letter (Re: SAINT Neuromodulation NTAP Coverage) the author generated with GPT-4 and posted as a template for readers to adapt. The letter also calls the decision 'a watershed moment in the future of mental health care' and says SAINT 'could be a much-needed lifeline' for treatment-resistant patients.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "could revolutionize",
+      "entities": [
+        "SAINT",
+        "CMS",
+        "NTAP"
+      ],
+      "note": "GPT-4-drafted sample letter; author calls it a parody of self-praise but endorses SAINT. Coder should weigh authorship."
+    },
+    {
+      "post_slug": "if-cms-doesnt-cover-revolutionary",
+      "quote": "NTAP coverage of SAINT Neuromodulation could help democratize access to this promising therapy, thereby improving the quality of life for countless individuals suffering from depression.",
+      "context": "Same GPT-4-drafted sample comment letter to CMS. Conditional: if CMS grants New Technology Add-On Payment coverage for SAINT, access to the therapy widens.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "could help",
+      "entities": [
+        "SAINT",
+        "CMS",
+        "NTAP",
+        "Medicare"
+      ],
+      "note": "GPT-4-drafted sample letter posted as a template; hedged conditional. Coder should weigh authorship."
+    },
+    {
+      "post_slug": "an-open-letter-to-every-company-from",
+      "quote": "I think it's cute they didn't just immediately make that above workplace a hospital. But it's obviously going to be a hospital. Just make a little adjustment, in the surgical OR, without having to touch anything!",
+      "context": "Satirical open letter written in Apple's voice after the Vision Pro announcement (June 5, 2023). Here the author's own voice breaks through: the workplace demo Apple showed will become a hospital use case, for example hands-free adjustments in a surgical operating room.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "obviously going to be",
+      "entities": [
+        "Apple",
+        "Apple Vision Pro"
+      ],
+      "note": "Inside a satirical letter but reads as a sincere prediction of Vision Pro adoption in hospitals and operating rooms."
+    },
+    {
+      "post_slug": "an-open-letter-to-every-company-from",
+      "quote": "All your market share...are belong to us.",
+      "context": "Subtitle of the satirical open letter 'from Apple' to every other company after the Vision Pro reveal, claiming Apple takes everyone's market share; the letter closes 'It's been a pleasure pretending there are any other companies.'",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Apple",
+        "Apple Vision Pro"
+      ],
+      "note": "Meme joke ('All your base are belong to us'); satirical hyperbole about Apple dominance. Logged for recall."
+    },
+    {
+      "post_slug": "why-insurance-wont-cover-innovative",
+      "quote": "CMS, aka the government, has proposed CHANGES to the rules that would allow Medicare to pay for New Technologies for Psychiatric Treatment (via the NTAP Program).",
+      "context": "Post urging readers to comment in the last days of the CMS proposed rule open comment period (federalregister.gov 2023-07389). Describes the proposal's effect: if adopted, Medicare would pay for new psychiatric technologies (SAINT is the only psychiatric treatment on the docket) in psychiatric hospitals via NTAP.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "would allow",
+      "entities": [
+        "CMS",
+        "Medicare",
+        "NTAP",
+        "SAINT"
+      ],
+      "note": "Borderline: description of a proposed rule's effect, conditional on adoption."
+    },
+    {
+      "post_slug": "why-insurance-wont-cover-innovative",
+      "quote": "We finally get a say on what the most major payer—medicare—does. This sets a precedent.",
+      "context": "The author claims the CMS decision on NTAP payment for a psychiatric treatment (SAINT) in psychiatric hospitals sets a precedent for how Medicare, the largest payer, pays for new psychiatric technologies.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "CMS",
+        "Medicare",
+        "NTAP",
+        "SAINT"
+      ],
+      "note": "Implied forecast: this NTAP decision will shape later payer decisions on new psychiatric treatments."
+    },
+    {
+      "post_slug": "why-insurance-wont-cover-innovative",
+      "quote": "Psychedelics? They will need this payment model.",
+      "context": "After saying the CMS NTAP decision sets a precedent, the author predicts psychedelic treatments will need an NTAP-style Medicare payment model to reach patients.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will need",
+      "entities": [
+        "CMS",
+        "Medicare",
+        "NTAP"
+      ],
+      "note": "Paired with the same claim for medical devices in the next line."
+    },
+    {
+      "post_slug": "why-insurance-wont-cover-innovative",
+      "quote": "Medical devices? Of all kinds! They will need this payment model.",
+      "context": "Same passage: medical devices of all kinds will need an NTAP-style Medicare payment model, so the SAINT NTAP decision matters beyond SAINT.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will need",
+      "entities": [
+        "CMS",
+        "Medicare",
+        "NTAP"
+      ],
+      "note": "Paired with the psychedelics claim in the prior line."
+    },
+    {
+      "post_slug": "why-insurance-wont-cover-innovative",
+      "quote": "In the near future one could, under Medicare, go to a hospital with depression and leave no longer depressed. 79% of the time.",
+      "context": "Describes SAINT as a technology that treats depression to remission in 5 days with no oral medication. If the NTAP proposal is adopted, Medicare patients could soon be treated to remission in a psychiatric hospital; 79% is the SAINT trial remission rate restated as a future expectation.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "In the near future",
+      "confidence_phrase": "could",
+      "entities": [
+        "SAINT",
+        "Medicare",
+        "CMS",
+        "NTAP"
+      ],
+      "note": "Conditional on the NTAP proposal; compound (Medicare access plus a 79% remission rate)."
+    },
+    {
+      "post_slug": "amazing-news-i-figured-out-how-to",
+      "quote": "Every Wednesday, and 12:30-1:00 pm EST I will be hosting open office hours for professional networking purposes.",
+      "context": "The author announces weekly open office hours via a Calendly link for professional (non-clinical) questions, for example how to get a product to market or whether a device fits a practice.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Every Wednesday, and 12:30-1:00 pm EST",
+      "confidence_phrase": "will be hosting",
+      "entities": [
+        "Owen Muir",
+        "Calendly"
+      ],
+      "note": "Own-activity announcement; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "healthcare-book-club",
+      "quote": "I haven't read this yet. I'm going to. And then I'm going to write about it.",
+      "context": "Launch of a Healthcare Book Club feature in the newsletter; the first book is Walmart's Second Opinion (foreword by Tom Emerick of the Validation Institute). The author commits to read it, write about it, and invite readers to submit books.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "going to",
+      "entities": [
+        "Walmart Health",
+        "Tom Emerick",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own newsletter plan; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-state-of-our-newsletter-is-strong",
+      "quote": "I will learn a little bit more, and do a deeper dive, but if you're wondering whether the newsletter, as it stands, is doing a good enough job as a newsletter, my guess is the answer is yes?",
+      "context": "Newsletter 'state of the union' transparency report with growth charts (LinkedIn impressions, subscribers, revenue). The author commits to a fuller follow-up analysis and judges the newsletter is doing well enough as it stands.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "my guess is",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own newsletter follow-up plan plus a present self-assessment; low forecast value. Coder may mark CONTROL."
+    }
+  ]
+}

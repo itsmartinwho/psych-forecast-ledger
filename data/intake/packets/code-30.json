@@ -1,0 +1,866 @@
+{
+ "packet": "code-30.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1336",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "However, I think the decisions Dr Pinsky would make would be for the public good.",
+   "context": "Letter to RFK Jr. The author predicts Pinsky's decisions as SAMHSA administrator would serve the public good.",
+   "post_title": "Letters to The Trump Administration: Dr. Drew for SAMHSA Administrator ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I think",
+   "entities": [
+    "Drew Pinsky",
+    "SAMHSA"
+   ],
+   "finder_note": "Conditional on appointment."
+  },
+  {
+   "id": "owen-1337",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "He has a lot of questions about vaccines, just like you do, so he’s not gonna get kicked out of the party.",
+   "context": "Letter to RFK Jr. The author predicts Pinsky will not be pushed out of the Republican party because his vaccine views match Kennedy's.",
+   "post_title": "Letters to The Trump Administration: Dr. Drew for SAMHSA Administrator ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "not gonna",
+   "entities": [
+    "Drew Pinsky",
+    "Robert F. Kennedy Jr.",
+    "Republican party"
+   ],
+   "finder_note": "Restates the earlier 'not a dealbreaker' claim from the party angle."
+  },
+  {
+   "id": "owen-1338",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "He can probably “hang” with the kinds of celebrities who will be around the table in the new administration, and he might even be friends with Oz at CMS already?",
+   "context": "Letter to RFK Jr. Two hedged claims: celebrities will populate the new administration, and Pinsky can fit in with them and may already be friends with Mehmet Oz at CMS.",
+   "post_title": "Letters to The Trump Administration: Dr. Drew for SAMHSA Administrator ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "Drew Pinsky",
+    "Mehmet Oz",
+    "CMS",
+    "Trump administration"
+   ],
+   "finder_note": "Compound, hedged; the 'already friends' part is a present guess."
+  },
+  {
+   "id": "owen-1339",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "At a certain point, you’re probably gonna need a celebrity intervention-style conversation inside the administration itself, and Dr. Drew has a long track record of handling these!",
+   "context": "Letter to RFK Jr. The author predicts the administration will at some point need an intervention-style conversation among its celebrity members, which Pinsky could handle.",
+   "post_title": "Letters to The Trump Administration: Dr. Drew for SAMHSA Administrator ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration",
+   "area_guess": "other",
+   "horizon_text": "At a certain point",
+   "confidence_phrase": "probably gonna need",
+   "entities": [
+    "Trump administration",
+    "Drew Pinsky"
+   ],
+   "finder_note": "Half-joking, but reads as a real expectation of intra-administration conflict."
+  },
+  {
+   "id": "owen-1340",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "I recommend setting standards inside the FDA regarding the timeframe for the review of these submissions. It will allow your agency to get more money, it will encourage industry to pay you for the advice before the submissions, and this will lead to less uncompensated work reviewing submitted applications.",
+   "context": "Open letter to Martin Makary, FDA commissioner nominee. The author recommends review-time standards for 513(g) device classification requests and predicts this will bring FDA more fee income, more industry pre-submission requests, and less uncompensated review work.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "FDA",
+    "Martin Makary",
+    "Section 513(g)"
+   ],
+   "finder_note": "Conditional on FDA adopting 513(g) review timelines; compound (money, industry behavior, workload)."
+  },
+  {
+   "id": "owen-1341",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "It will improve the quality of submissions to the FDA and teach medical device manufacturers, many of whom are from outside traditional biosciences, to submit better applications to your agency, which speeds up everything later.",
+   "context": "Letter to Dr. Makary, same 513(g) recommendation: predicted downstream effect on device submission quality and review speed.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "regulatory",
+   "horizon_text": "later",
+   "confidence_phrase": "will improve",
+   "entities": [
+    "FDA",
+    "Martin Makary",
+    "medical device manufacturers"
+   ],
+   "finder_note": "Conditional on FDA adopting 513(g) review timelines."
+  },
+  {
+   "id": "owen-1342",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "The more FDA can incorporate post-marketing data into approval requirements, the better. It shunts funding away from too expensive clinical trials that capture only a tiny subset of the population. It moves therapeutic development towards broader population health-level surveillance as essential.",
+   "context": "Letter to Dr. Makary, section 'What to Change at FDA'. Recommendation to use post-marketing data in approval requirements, with claimed consequences: funding shifts away from expensive trials and development moves toward population-level surveillance.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "FDA",
+    "Martin Makary"
+   ],
+   "finder_note": "Borderline: first sentence normative; consequence sentences are present-tense claims about what the policy does."
+  },
+  {
+   "id": "owen-1343",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "We can develop all the remarkable technologies we want, but if it is too expensive to obtain approval and those therapies never get paid for in the healthcare marketplace? Investors will not put money into them and will not get to the public.",
+   "context": "Letter to Dr. Makary, 'Breakthroughs + Payment'. Conditional: if approval stays expensive and therapies are not paid for, investors will not fund them and they will not reach the public.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will not",
+   "entities": [
+    "FDA",
+    "CMS",
+    "investors"
+   ],
+   "finder_note": "Conditional on approval cost and payment failure."
+  },
+  {
+   "id": "owen-1344",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "Pharmaceuticals will not be the best way to treat every problem.",
+   "context": "Letter to Dr. Makary. Standalone claim that drugs will not be the best treatment for every problem, in support of device and payment reform.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will not be",
+   "entities": [
+    "FDA",
+    "pharmaceuticals"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-1345",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "So let’s let Industry pay the FDA for advice at market rates, and that will speed up the process of getting things approved, especially if the FDA and CMS work hand-in-hand to ensure approval and payment are the same thing.",
+   "context": "Letter to Dr. Makary. Predicts that industry paying FDA for advice at market rates will speed approvals, especially with FDA-CMS coordination on payment.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will speed up",
+   "entities": [
+    "FDA",
+    "CMS",
+    "industry"
+   ],
+   "finder_note": "Conditional on FDA charging market rates for advice."
+  },
+  {
+   "id": "owen-1346",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "If we don’t get this part right, we’re incentivizing capital to go flow into innovations that fail to get anyone healthier.",
+   "context": "Letter to Dr. Makary. Conditional: without linking approval to payment and cost-effectiveness, capital will flow into innovations that do not improve health.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "FDA",
+    "CMS"
+   ],
+   "finder_note": "Conditional; present-progressive phrasing with a forward reading."
+  },
+  {
+   "id": "owen-1347",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "There’s going to be a lot of bad behavior in the industry. If the hammer doesn’t come down, open up the floodgates for approval on bad behavior.",
+   "context": "Postscript of the letter to Dr. Makary urging that the FDA Bad Ad Program cover devices. The author predicts much industry misconduct and, without enforcement, more of it alongside faster approvals.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "There’s going to be",
+   "entities": [
+    "FDA",
+    "Bad Ad Program",
+    "industry"
+   ],
+   "finder_note": "Compound: a direct call plus a conditional on enforcement."
+  },
+  {
+   "id": "owen-1348",
+   "forecaster": "owen",
+   "statement_date": "2024-11-24",
+   "quote": "It may end up being the first defamation case to feature Bluesky Social and its “forever” AT protocol!",
+   "context": "Essay on Bluesky Social's growth (about 1 million new users daily) and the AT protocol. The author has an active defamation lawsuit against Esther Haddad and John Doe co-defendants over harassment on Bluesky; he expects it may be the first defamation case to feature Bluesky and the AT protocol.",
+   "post_title": "Bluesky Social: A Natural History of its Cambrian Explosion",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bluesky-social-a-natural-history",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may end up being",
+   "entities": [
+    "Bluesky Social",
+    "AT protocol",
+    "Esther Haddad"
+   ],
+   "finder_note": "About the author's own lawsuit."
+  },
+  {
+   "id": "owen-1349",
+   "forecaster": "owen",
+   "statement_date": "2024-11-24",
+   "quote": "your author might be the first person to demonstrate that in court",
+   "context": "Same essay. The author calls Bluesky the most 'built for legal discovery' social media platform ever (every action is public and permanent) and expects to be the first to demonstrate that in court through his defamation suit.",
+   "post_title": "Bluesky Social: A Natural History of its Cambrian Explosion",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bluesky-social-a-natural-history",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might be",
+   "entities": [
+    "Bluesky Social",
+    "AT protocol"
+   ],
+   "finder_note": "About the author's own lawsuit."
+  },
+  {
+   "id": "owen-1350",
+   "forecaster": "owen",
+   "statement_date": "2024-11-24",
+   "quote": "But judging by how humanity likes to act, I will not be the last.",
+   "context": "Same essay, the sentence after the claim that the author might be the first to demonstrate Bluesky's legal-discovery nature in court. He predicts other defamation cases built on Bluesky/AT protocol records will follow.",
+   "post_title": "Bluesky Social: A Natural History of its Cambrian Explosion",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bluesky-social-a-natural-history",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will not be",
+   "entities": [
+    "Bluesky Social",
+    "AT protocol"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-1351",
+   "forecaster": "owen",
+   "statement_date": "2024-11-24",
+   "quote": "These can all live on private servers or hybrid servers in the future.",
+   "context": "Same essay. Medical and academic communities from old Twitter have been reborn on Bluesky as #medsky and #academicsky; the author says these communities can live on private or hybrid servers in the future under the federated AT protocol.",
+   "post_title": "Bluesky Social: A Natural History of its Cambrian Explosion",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bluesky-social-a-natural-history",
+   "area_guess": "other",
+   "horizon_text": "in the future",
+   "confidence_phrase": "can",
+   "entities": [
+    "Bluesky Social",
+    "AT protocol",
+    "#medsky",
+    "#academicsky"
+   ],
+   "finder_note": "Borderline; capability claim about the federated architecture."
+  },
+  {
+   "id": "owen-1352",
+   "forecaster": "owen",
+   "statement_date": "2024-11-25",
+   "quote": "RAMHT —co-founded with Grady Hannah —continues this year in SF on January 12th, 2025.",
+   "context": "Closing promo section after the guest article. RAMHT (Rapid Acting Mental Health Treatment), the conference the author co-founded with Grady Hannah, is announced for San Francisco on January 12, 2025 (post dated 2024-11-25).",
+   "post_title": "Surviving Depression, Together.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/surviving-depression-together",
+   "area_guess": "other",
+   "horizon_text": "January 12th, 2025",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Grady Hannah",
+    "Owen Muir"
+   ],
+   "finder_note": "Own-organization event announcement; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1353",
+   "forecaster": "owen",
+   "statement_date": "2024-11-25",
+   "quote": "The first will focus on working in-network on December 4th, on Zoom at 11 am.",
+   "context": "Two health-insurance classes for health professionals co-created with Kari Groff, M.D. (Brooklyn and Beyond Mental Health Group Community). The first, on working in-network (Health Insurance Masterclass I), is scheduled for December 4, 2024 on Zoom at 11 am.",
+   "post_title": "Surviving Depression, Together.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/surviving-depression-together",
+   "area_guess": "other",
+   "horizon_text": "December 4th",
+   "confidence_phrase": "will",
+   "entities": [
+    "Owen Muir",
+    "Kari Groff",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Own-activity event announcement; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1354",
+   "forecaster": "owen",
+   "statement_date": "2024-11-25",
+   "quote": "The second is for working out-of-network on December 9th, on Zoom, at 11 am.",
+   "context": "Second of the two health-insurance classes with Kari Groff, M.D. (Health Insurance Masterclass II), on working out-of-network, scheduled for December 9, 2024 on Zoom at 11 am.",
+   "post_title": "Surviving Depression, Together.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/surviving-depression-together",
+   "area_guess": "other",
+   "horizon_text": "December 9th",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Muir",
+    "Kari Groff",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Own-activity event announcement; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1356",
+   "forecaster": "owen",
+   "statement_date": "2024-11-28",
+   "quote": "It seems to be that while all other areas of the law can be circumvented with clout, defamation law has held its ground. It’s becoming the way for one citizen to address an injury to their honor by another.",
+   "context": "Opening of a defamation-law essay. After citing E. Jean Carroll's case (on appeal), Rudy Giuliani and Alex Jones, the author says defamation is 'having a real comeback' and is becoming the main legal route for redressing injuries to honor.",
+   "post_title": "Of Disrespect and Defamation: What Hip Hop Feuds Can Teach Us About the Truth",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-disrespect-and-defamation-what",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "It seems to be",
+   "entities": [
+    "E. Jean Carroll",
+    "Rudy Giuliani",
+    "Alex Jones"
+   ],
+   "finder_note": "Borderline: present-tense trend claim ('becoming the way') with an implicit forward reading; logged for recall."
+  },
+  {
+   "id": "owen-1357",
+   "forecaster": "owen",
+   "statement_date": "2024-11-28",
+   "quote": "Including the factually-named Baka Not Nice may cause problems for Mr. Drake’s legal matters.",
+   "context": "Analysis of Drake's lawsuits (defamation plus RICO allegations against iHeartRadio, Spotify and Universal Music Group) over Kendrick Lamar's 'Not Like Us'. The author says the lyric naming Baka Not Nice (Travis Savoury, convicted of assaulting an adult) may matter for Drake's legal matters; he then argues the plural 'certified pedophiles' is demonstrably false as to Baka, 'the essence of defamation'.",
+   "post_title": "Of Disrespect and Defamation: What Hip Hop Feuds Can Teach Us About the Truth",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-disrespect-and-defamation-what",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "Drake",
+    "Kendrick Lamar",
+    "Baka Not Nice",
+    "Travis Savoury",
+    "iHeartRadio",
+    "Spotify",
+    "Universal Music Group"
+   ],
+   "finder_note": "Hedged call about pending litigation; direction of 'problems' is ambiguous in the sentence, see context."
+  },
+  {
+   "id": "owen-1358",
+   "forecaster": "owen",
+   "statement_date": "2024-11-28",
+   "quote": "The specific claim that Drake and Baka are “certified pedophiles” is likely to be understood to be in the realm of per se defamation",
+   "context": "The author expects the 'certified pedophiles' lyric about Drake and Baka Not Nice to be treated as defamation per se (immoral conduct / sexual misconduct), which would not require proof of actual damages.",
+   "post_title": "Of Disrespect and Defamation: What Hip Hop Feuds Can Teach Us About the Truth",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-disrespect-and-defamation-what",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is likely to",
+   "entities": [
+    "Drake",
+    "Baka Not Nice",
+    "Kendrick Lamar"
+   ],
+   "finder_note": "Legal-outcome expectation about the pending Drake v. UMG/Lamar matter."
+  },
+  {
+   "id": "owen-1359",
+   "forecaster": "owen",
+   "statement_date": "2024-11-28",
+   "quote": "if he can prove that his claims are true, such as in a claim that references activity of the myriad parties thrown by fellow accused pedophile Diddy, then he will have the ultimate defense against the defamation claims.",
+   "context": "Conditional: if Kendrick Lamar can prove the truth of his accusations against Drake (for example via the Diddy party allegations), truth will be a complete defense to the defamation claims.",
+   "post_title": "Of Disrespect and Defamation: What Hip Hop Feuds Can Teach Us About the Truth",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-disrespect-and-defamation-what",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Kendrick Lamar",
+    "Drake",
+    "Diddy"
+   ],
+   "finder_note": "Conditional; applies the truth-defense principle to the pending case."
+  },
+  {
+   "id": "owen-1360",
+   "forecaster": "owen",
+   "statement_date": "2024-11-28",
+   "quote": "And Lamar knew—or should have known—that Baka’s weird case wasn’t pertaining to a child. Thus, I strongly suspect this rises to the level of actual malice.",
+   "context": "After arguing that Lamar knew or should have known that Baka Not Nice's conviction did not involve a child, the author concludes the 'certified pedophiles' line likely meets the actual-malice standard required for public-figure defamation.",
+   "post_title": "Of Disrespect and Defamation: What Hip Hop Feuds Can Teach Us About the Truth",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-disrespect-and-defamation-what",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I strongly suspect",
+   "entities": [
+    "Kendrick Lamar",
+    "Drake",
+    "Baka Not Nice"
+   ],
+   "finder_note": "Expectation about how a court would resolve the actual-malice element in Drake's defamation claim."
+  },
+  {
+   "id": "owen-1361",
+   "forecaster": "owen",
+   "statement_date": "2024-11-28",
+   "quote": "Depending on who’s matter gets to a decision by the court first; I’m likely going to be referencing Drake v. Lamar",
+   "context": "The author is a plaintiff in a pending New York defamation case (NYC Psychiatrist Services, P.C. et al. v. Esther Haddad et al.) involving similar accusations about harming children. He expects to cite the Drake matter as precedent if it is decided first.",
+   "post_title": "Of Disrespect and Defamation: What Hip Hop Feuds Can Teach Us About the Truth",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-disrespect-and-defamation-what",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely going to",
+   "entities": [
+    "Owen Muir",
+    "NYC Psychiatrist Services, P.C.",
+    "Esther Haddad",
+    "Drake",
+    "Kendrick Lamar"
+   ],
+   "finder_note": "Own-litigation expectation, conditional on which case is decided first. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1362",
+   "forecaster": "owen",
+   "statement_date": "2024-11-28",
+   "quote": "Alternately, in an bizzare twist of fate, decisions in my case, NYC Psychiatrist Services, P.C. et al. v. Esther Haddad et al ., will be cited in the Drake v. Lamar matter as legal precedent.",
+   "context": "Alternative branch: if the author's own defamation case is decided first, its decisions will be cited as precedent in Drake's case over Lamar's track.",
+   "post_title": "Of Disrespect and Defamation: What Hip Hop Feuds Can Teach Us About the Truth",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-disrespect-and-defamation-what",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Owen Muir",
+    "NYC Psychiatrist Services, P.C.",
+    "Esther Haddad",
+    "Drake",
+    "Kendrick Lamar"
+   ],
+   "finder_note": "Second branch of the preceding conditional; own case. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1363",
+   "forecaster": "owen",
+   "statement_date": "2024-11-28",
+   "quote": "Now, everyone who has news alerts about defamation, Drake, Kendrick Lamar, or Owen Muir, will get this newsletter pushed to their inbox, too.",
+   "context": "Closing remark. The newsletter was recently indexed by Google as a news source; the author says this post will be pushed to people with news alerts on those topics.",
+   "post_title": "Of Disrespect and Defamation: What Hip Hop Feuds Can Teach Us About the Truth",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-disrespect-and-defamation-what",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Google",
+    "Drake",
+    "Kendrick Lamar",
+    "Owen Muir"
+   ],
+   "finder_note": "Claim about the newsletter's own distribution via Google News indexing; playful tone but sincere. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1364",
+   "forecaster": "owen",
+   "statement_date": "2024-11-29",
+   "quote": "That is precisely what BlueSky is doing, and that's why it will get more journalist users and more breaking news.",
+   "context": "Essay on Bluesky's personalized moderation. The author cites a report that Bluesky already drives more traffic to news sites than X and at least twice as many visits as Threads, and predicts Bluesky will gain journalists and breaking news.",
+   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Bluesky",
+    "X",
+    "Threads",
+    "The Guardian"
+   ],
+   "finder_note": "Platform-adoption call."
+  },
+  {
+   "id": "owen-1365",
+   "forecaster": "owen",
+   "statement_date": "2024-11-29",
+   "quote": "That will accelerate the death of what was a global town square.",
+   "context": "Follows the Bluesky claim: journalists moving to Bluesky will accelerate the decline ('death') of X, formerly Twitter, as the global town square.",
+   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "X",
+    "Twitter",
+    "Bluesky",
+    "Elon Musk"
+   ],
+   "finder_note": "Call on X's decline; compound with the preceding Bluesky statement."
+  },
+  {
+   "id": "owen-1366",
+   "forecaster": "owen",
+   "statement_date": "2024-11-29",
+   "quote": "The town Square can turn into downtown San Francisco a lot faster than one could imagine with poor governance",
+   "context": "Metaphor comparing X under Musk's governance to downtown San Francisco's store closures; implies X will hollow out quickly. Followed by 'Places that are lawless and nasty do become a post-apocalyptic ghost-town pretty quickly, huh?'",
+   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
+   "area_guess": "company_market",
+   "horizon_text": "a lot faster than one could imagine",
+   "confidence_phrase": "can",
+   "entities": [
+    "X",
+    "Elon Musk"
+   ],
+   "finder_note": "Borderline: metaphorical, hedged claim about X's decline; logged for recall."
+  },
+  {
+   "id": "owen-1367",
+   "forecaster": "owen",
+   "statement_date": "2024-11-29",
+   "quote": "RAMHT —co-founded with Grady Hannah —continues this year in SF on January 12th, 2025.",
+   "context": "Event promo at the end of the Bluesky post: RAMHT (Rapid Acting Mental Health Treatment), co-founded by the author with Grady Hannah, in San Francisco on January 12, 2025.",
+   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
+   "area_guess": "other",
+   "horizon_text": "January 12th, 2025",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Grady Hannah",
+    "Owen Muir"
+   ],
+   "finder_note": "Restatement of the RAMHT announcement from the 2024-11-25 post. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1368",
+   "forecaster": "owen",
+   "statement_date": "2024-11-29",
+   "quote": "The first will focus on working in-network on December 4th, on Zoom at 11 am.",
+   "context": "Event promo: first of two health-insurance classes with Kari Groff, M.D. (Health Insurance Masterclass I), on working in-network, December 4, 2024 on Zoom at 11 am.",
+   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
+   "area_guess": "other",
+   "horizon_text": "December 4th",
+   "confidence_phrase": "will",
+   "entities": [
+    "Owen Muir",
+    "Kari Groff",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Restatement of the class announcement from the 2024-11-25 post. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1369",
+   "forecaster": "owen",
+   "statement_date": "2024-11-29",
+   "quote": "The second is for working out-of-network on December 9th, on Zoom, at 11 am.",
+   "context": "Event promo: second health-insurance class with Kari Groff, M.D. (Health Insurance Masterclass II), on working out-of-network, December 9, 2024 on Zoom at 11 am.",
+   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
+   "area_guess": "other",
+   "horizon_text": "December 9th",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Muir",
+    "Kari Groff",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Restatement of the class announcement from the 2024-11-25 post. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1370",
+   "forecaster": "owen",
+   "statement_date": "2024-11-30",
+   "quote": "I have classes coming up and tickets are selling out!",
+   "context": "After sharing Vint Blackburn's video on chronically suicidal patients, the author promotes his two upcoming health-insurance classes with Kari Groff, M.D. (BBMHG): Class 1 on Wednesday Dec 4 at 11 a.m. and Class 2 on Monday Dec 9 at 11 a.m.",
+   "post_title": "Working With Chronically Suicidal Patients",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/working-with-chronically-suicidal-465",
+   "area_guess": "other",
+   "horizon_text": "coming up",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Muir",
+    "Kari Groff",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Own-activity announcement; the dated class descriptions that follow are written by Kari Groff. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1371",
+   "forecaster": "owen",
+   "statement_date": "2024-11-30",
+   "quote": "Class 1: Introduction to American Health Insurance. Wednesday, Dec 4th 11 a.m.",
+   "context": "Class description written by Kari Groff, M.D., for the author's 60-minute Zoom class on American health insurance (premiums, co-pays, deductibles, out-of-network care), dated Wednesday December 4, 2024 at 11 a.m.",
+   "post_title": "Working With Chronically Suicidal Patients",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/working-with-chronically-suicidal-465",
+   "area_guess": "other",
+   "horizon_text": "Wednesday, Dec 4th 11 a.m.",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Muir",
+    "Kari Groff",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Text by Kari Groff describing the author's own class; event announcement restated from the 2024-11-25 and 2024-11-29 posts."
+  },
+  {
+   "id": "owen-1372",
+   "forecaster": "owen",
+   "statement_date": "2024-11-30",
+   "quote": "Class 2: Navigating the Out-of-Network (OON) Landscape- Monday, Dec 9th 11 a.m.",
+   "context": "Class description written by Kari Groff, M.D., for the author's 60-minute class on out-of-network practice (reimbursement hurdles, good faith estimates, chart sharing), dated Monday December 9, 2024 at 11 a.m.",
+   "post_title": "Working With Chronically Suicidal Patients",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/working-with-chronically-suicidal-465",
+   "area_guess": "other",
+   "horizon_text": "Monday, Dec 9th 11 a.m.",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Muir",
+    "Kari Groff",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Text by Kari Groff describing the author's own class; event announcement restated from the 2024-11-25 and 2024-11-29 posts."
+  },
+  {
+   "id": "owen-1373",
+   "forecaster": "owen",
+   "statement_date": "2024-12-01",
+   "quote": "I'm not sure this will be the case forever, but the older I get, the less a grueling internal medicine residency is going to seem appealing",
+   "context": "Discussing the training barrier to dual specialization in psychiatry and rheumatology (a rheumatology fellowship requires an internal medicine residency, then two to three more years). The author hedges that this requirement may not last forever, while he himself is unlikely to go back for it.",
+   "post_title": "Vagus Nerve Stimulation for Rheumatoid Arthritis?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/vagus-nerve-stimulation-for-rheumatoid",
+   "area_guess": "other",
+   "horizon_text": "forever",
+   "confidence_phrase": "I'm not sure this will be the case forever",
+   "entities": [
+    "Owen Muir"
+   ],
+   "finder_note": "Borderline: hedged possibility that training pathways change, plus a personal-career statement; logged for recall."
+  },
+  {
+   "id": "owen-1374",
+   "forecaster": "owen",
+   "statement_date": "2024-12-01",
+   "quote": "We're all—those interested in this crucial overlap— going to be “winging it.”",
+   "context": "Because structured cross-training between psychiatry and rheumatology is hard to obtain, the author predicts clinicians working at the psychiatry-rheumatology overlap (autoimmune and psychiatric conditions) will improvise.",
+   "post_title": "Vagus Nerve Stimulation for Rheumatoid Arthritis?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/vagus-nerve-stimulation-for-rheumatoid",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "going to be",
+   "entities": [
+    "Owen Muir"
+   ],
+   "finder_note": "Prediction about clinical practice at the psychiatry-rheumatology interface."
+  },
+  {
+   "id": "owen-1375",
+   "forecaster": "owen",
+   "statement_date": "2024-12-02",
+   "quote": "Class 1: Introduction to American Health Insurance When: Wednesday, Dec 4th at 11 a.m.",
+   "context": "Post announcing two live online classes with Kari Groff's Brooklyn and Beyond Mental Health Group. Class 1 covers the history of American health insurance, premiums, co-pays, deductibles and going out-of-network; Wednesday December 4, 2024 at 11 a.m. (post dated 2024-12-02).",
+   "post_title": "Live Online Classes About Navigating Insurance ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/live-online-classes-about-navigating",
+   "area_guess": "other",
+   "horizon_text": "Wednesday, Dec 4th at 11 a.m.",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Muir",
+    "Kari Groff",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Own-activity event announcement, restated from earlier posts. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1376",
+   "forecaster": "owen",
+   "statement_date": "2024-12-02",
+   "quote": "Class 2: Navigating the Out-of-Network (OON) Landscape When: Monday, Dec 9th at 11 a.m.",
+   "context": "Class 2 covers reimbursement hurdles, good faith estimates, chart sharing and client transparency for out-of-network clinicians; Monday December 9, 2024 at 11 a.m.",
+   "post_title": "Live Online Classes About Navigating Insurance ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/live-online-classes-about-navigating",
+   "area_guess": "other",
+   "horizon_text": "Monday, Dec 9th at 11 a.m.",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Muir",
+    "Kari Groff",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Own-activity event announcement, restated from earlier posts. Coder may mark CONTROL."
+  }
+ ]
+}

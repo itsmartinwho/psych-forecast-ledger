@@ -1,0 +1,270 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-64.md",
+  "posts": [
+    {
+      "slug": "oh-ambien",
+      "read": true,
+      "statements_found": 1,
+      "note": "Critique of zolpidem evidence; mostly past analysis and prescribing advice. One borderline practice claim logged."
+    },
+    {
+      "slug": "obesity-an-inconvient-truth",
+      "read": true,
+      "statements_found": 3,
+      "note": "Essay on antipsychotic weight gain; forward-looking items are a promised future article and two footnote calls about start-up funding."
+    },
+    {
+      "slug": "adolescent-depression-can-we-skip",
+      "read": true,
+      "statements_found": 0,
+      "note": "Argument that TMS plus psychotherapy should replace oral antidepressants in adolescents; normative (should) with no predictive reading, so nothing logged."
+    },
+    {
+      "slug": "on-breakups-apropos-of-nothing",
+      "read": true,
+      "statements_found": 1,
+      "note": "Personality disorder essay; one hedged clinical-efficacy expectation about ketamine logged."
+    },
+    {
+      "slug": "leviathan-we-are-proud-to-partner-2ef",
+      "read": true,
+      "statements_found": 2,
+      "note": "Satirical fake press release about UnitedHealth Group/Optum acquisitions; one half-serious stock aside and one satirical line logged with flags."
+    },
+    {
+      "slug": "what-does-tms-actually-do",
+      "read": true,
+      "statements_found": 1,
+      "note": "Guest post by Ben Spielberg on TMS mechanism (no forecasts in his text); the author's outro says Radial will add locations soon."
+    },
+    {
+      "slug": "depression-can-be-over-78-remission",
+      "read": true,
+      "statements_found": 2,
+      "note": "Announcement of BrainsWay accelerated Deep TMS non-inferiority RCT results; forthcoming paper and Radial expansion logged."
+    },
+    {
+      "slug": "this-guy-probably-sucks-and-i-havent",
+      "read": true,
+      "statements_found": 1,
+      "note": "Short video-share post; one newsletter schedule claim (podcast tomorrow)."
+    },
+    {
+      "slug": "remembering-arthur-joseph-muir-for",
+      "read": true,
+      "statements_found": 1,
+      "note": "Memoir about the author's father; one promise of future writing."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "oh-ambien",
+      "quote": "It doesn’t address the vulnerable individuals, those for whom insomnia is a risk factor for completed suicide, who will be treated with this safe-in-others medicine.",
+      "context": "Critique of an NIH-funded eight-month zolpidem (Ambien) RCT that excluded people with psychiatric or medical illness. The author says the reassuring safety result does not cover vulnerable, suicide-risk insomnia patients, who in real practice will still be prescribed Ambien.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Ambien",
+        "zolpidem",
+        "NIH",
+        "FDA"
+      ],
+      "note": "Borderline: general claim that vulnerable patients will keep being prescribed zolpidem; not tied to a dated or specific event."
+    },
+    {
+      "post_slug": "obesity-an-inconvient-truth",
+      "quote": "But those things require another article all by themselves because they’re so important.",
+      "context": "After arguing that nutrition and exercise are essential to the metabolic health of psychiatric patients (joke about a 'Farm-acy Benefit Manager'), the author says these topics need their own future article in The Frontier Psychiatrists.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Implicit promise of a future newsletter article; own-newsletter claim, low stakes."
+    },
+    {
+      "post_slug": "obesity-an-inconvient-truth",
+      "quote": "They’re not gonna turn around and decide that the entire Pharma business model is all wrong",
+      "context": "Footnote 13 on venture-funded mental health start-ups (the author went through the What If Ventures fellowship). He says young founders build businesses to be acquired by pharma and will not reject the pharma business model, since that would sound anti-psychiatry.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "not gonna",
+      "entities": [
+        "What If Ventures",
+        "Stephen Hayes"
+      ],
+      "note": "Negative call about start-up founder behavior; general, undated."
+    },
+    {
+      "post_slug": "obesity-an-inconvient-truth",
+      "quote": "You’re never going to get a company funded with that attitude.",
+      "context": "Same footnote 13: the author says a start-up that argues the entire pharma business model is wrong will never get venture funding, because that stance sounds like anti-psychiatry.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "never",
+      "confidence_phrase": "never",
+      "entities": [
+        "What If Ventures"
+      ],
+      "note": "General negative call about venture funding; hyperbolic tone, no specific company."
+    },
+    {
+      "post_slug": "on-breakups-apropos-of-nothing",
+      "quote": "Even ketamine, a rapid-acting treatment for treatment-resistant depression, is unlikely to be helpful as a first-line treatment in severe personality disorders.",
+      "context": "Closing of an essay on personality disorders. After saying effective treatments (MBT, DBT, schema therapy, TFP, GPM) are psychotherapies and none are drugs, the author estimates ketamine will not be a helpful first-line treatment for severe personality disorders.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "unlikely",
+      "entities": [
+        "ketamine"
+      ],
+      "note": "Clinical-efficacy expectation rather than an event forecast; logged for recall."
+    },
+    {
+      "post_slug": "leviathan-we-are-proud-to-partner-2ef",
+      "quote": "we suggest UHG just crib from before their world ends, from a stock price standpoint",
+      "context": "Opening of a satirical fake press release about UnitedHealth Group (UHG) and Optum acquisitions, written after UHG leaked internal executive guidance to STAT news. The aside presupposes that UHG's stock price is heading for collapse.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "UnitedHealth Group",
+        "Optum",
+        "STAT"
+      ],
+      "note": "Satirical framing, but the stock-collapse expectation reads as half-serious; sincere set true with caution."
+    },
+    {
+      "post_slug": "leviathan-we-are-proud-to-partner-2ef",
+      "quote": "we look forward to continuing our tradition of service and doing what we do best for until the end times, which—thanks to LEVIATHAN, are nigh",
+      "context": "Fictional quote from 'Ron Rainbow, CFO of All That Is' in the satirical press release. LEVIATHAN stands for UnitedHealth Group/Optum (compared to the biblical Behemoth alongside CVS Health); the joke is that UHG's swallowing of health systems brings the end of everything.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "until the end times",
+      "confidence_phrase": "are nigh",
+      "entities": [
+        "UnitedHealth Group",
+        "Optum",
+        "CVS Health"
+      ],
+      "note": "Satire: fictional CFO quote written by the author; underlying claim is that UHG/Optum consolidation keeps swallowing health systems. Not a real expectation of a specific event."
+    },
+    {
+      "post_slug": "what-does-tms-actually-do",
+      "quote": "currently physically in NYC and SC, but more soon",
+      "context": "Outro to a guest post by Ben Spielberg on TMS mechanisms. The author says his company Radial offers TMS care for depression and OCD in New York City and South Carolina and will add more locations soon.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "soon",
+      "confidence_phrase": "none",
+      "entities": [
+        "Radial",
+        "Bespoke"
+      ],
+      "note": "Own-organization expansion claim (CONTROL candidate). Guest text by Ben Spielberg contains no forecasts."
+    },
+    {
+      "post_slug": "depression-can-be-over-78-remission",
+      "quote": "I’m a middle author on the forthcoming publication.",
+      "context": "Announcement of results from the BrainsWay-sponsored multisite accelerated Deep TMS non-inferiority RCT (Hanlon et al., n=104; 78% remission in the accelerated arm). The paper is submitted but not on a preprint server; the author says it is forthcoming and readers will read it later.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "forthcoming",
+      "confidence_phrase": "none",
+      "entities": [
+        "BrainsWay",
+        "Hanlon",
+        "Radial",
+        "Jonathan Downar"
+      ],
+      "note": "Also 'so you will all have to WAIT PATIENTLY' and 'when people get to read the paper' presuppose future publication of the same paper."
+    },
+    {
+      "post_slug": "depression-can-be-over-78-remission",
+      "quote": "Now, we are in New York, La Jolla, Myrtle Beach, and more soon!",
+      "context": "Closing promotion for Radial, the author's company, after the accelerated Deep TMS trial news. Lists current locations (New York, La Jolla, Myrtle Beach) and says more locations are coming soon.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "soon",
+      "confidence_phrase": "none",
+      "entities": [
+        "Radial"
+      ],
+      "note": "Restates the 'more soon' Radial expansion call from what-does-tms-actually-do (2025-06-10); CONTROL candidate."
+    },
+    {
+      "post_slug": "this-guy-probably-sucks-and-i-havent",
+      "quote": "Stay tuned tomorrow for another great podcast with my dear friend and co-author in science, Irfan Handoo, M.D.!",
+      "context": "Short post sharing a Soft White Underbelly video about brain stimulation and the launch of Radial. The author says a podcast with Irfan Handoo will appear the next day.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "tomorrow",
+      "confidence_phrase": "none",
+      "entities": [
+        "Irfan Handoo",
+        "The Frontier Psychiatrists",
+        "Soft White Underbelly",
+        "Radial"
+      ],
+      "note": "Own-newsletter schedule claim; low stakes."
+    },
+    {
+      "post_slug": "remembering-arthur-joseph-muir-for",
+      "quote": "I'll have more to say about my dad later because it's a good story",
+      "context": "Father's Day memoir about Arthur Joseph Muir (1933 to about 2021). The author promises to write more about his father in the future.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "later",
+      "confidence_phrase": "none",
+      "entities": [
+        "Arthur Joseph Muir",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Personal promise of future writing; low stakes."
+    }
+  ]
+}

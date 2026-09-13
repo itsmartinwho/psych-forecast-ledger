@@ -1,0 +1,151 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-79.md",
+  "posts": [
+    {
+      "slug": "ahmed-tahseen-md-on-bipolar-mania",
+      "read": true,
+      "statements_found": 2,
+      "note": "Interview with Ahmed Tahseen, mostly his past/present analysis of why US bipolar mania trials fail (not logged). Logged the Radial Open House announcement and one hypothetical trial-design claim by the author."
+    },
+    {
+      "slug": "how-to-succeed-by-staying-calm-with",
+      "read": true,
+      "statements_found": 0,
+      "note": "Personal essay on staying calm with bipolar disorder. Only generic life-advice generalizations ('people will remember you as a kind and gracious person') and a trivial personal item ('The car will need subsequent evaluation'); none logged."
+    },
+    {
+      "slug": "the-youngest-vc-in-the-room",
+      "read": true,
+      "statements_found": 1,
+      "note": "Interview with the author's daughter Quinn about AI companies. One third-party call (OpenAI ads 'they'll get there') logged with own_claim false; her other remarks are advice or descriptions."
+    },
+    {
+      "slug": "i-let-my-9-year-old-make-her-case",
+      "read": true,
+      "statements_found": 1,
+      "note": "Interview with daughter Quinn about the Hard Fork podcast. Her age-check circumvention / Australia ban claim is endorsed by the author ('this is correct') and logged. 'She will bring a Google Doc' is a punchline, not logged."
+    },
+    {
+      "slug": "say-my-name-a-conversation-about",
+      "read": true,
+      "statements_found": 0,
+      "note": "Republished May 2020 conversation with Michelle Bernabe, RN, on mentalization and safety plans; no forward-looking claims."
+    },
+    {
+      "slug": "the-architecture-of-joy",
+      "read": true,
+      "statements_found": 2,
+      "note": "Guest post by David Carreon, M.D.; the author wrote only the two-sentence intro. Two of Carreon's AI forecasts logged with own_claim false. His 'monolith or mosaic' hope and 'some signs that we are beginning an acceleration' remark were not logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "ahmed-tahseen-md-on-bipolar-mania",
+      "quote": "Radial is having an Open House in Midtown Manhattan on Thursday, March 12th, 2026, at 10 w 37th St. , so health professionals can learn about innovative treatments both available now (like SWIFT and SAINT TMS, PRISM, Proliv, Spravato), and those to come! It’s starting at 4pm, and runs till 8pm, EST.",
+      "context": "Opening 'brief note' of the post (dated 2026-02-27). The author's company Radial will hold an Open House for health professionals on Thursday March 12, 2026, 4-8pm EST, at 10 W 37th St, Manhattan, to present treatments available now (SWIFT and SAINT TMS, PRISM, Proliv, Spravato) and treatments 'to come'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "Thursday, March 12th, 2026",
+      "confidence_phrase": "none",
+      "entities": [
+        "Radial",
+        "SWIFT TMS",
+        "SAINT TMS",
+        "PRISM",
+        "Proliv",
+        "Spravato"
+      ],
+      "note": "Event announcement for the author's own company (CONTROL). Compound: also implies Radial will add new treatments ('those to come'). Low forecast value."
+    },
+    {
+      "post_slug": "ahmed-tahseen-md-on-bipolar-mania",
+      "quote": "This is why I think time-to-event trials in bipolar disorder are great. My dream outcome measure is time-to-girlfriend. ... It would work in schizophrenia, too!",
+      "context": "Interview with Ahmed Tahseen, section 'Time-to-Event Trials and the Outcomes That Matter'. The author argues for time-to-event endpoints (time to romantic relationship, time to job, time to feeling okay) in bipolar disorder trials and asserts the same design would work in schizophrenia trials; he imagines a fictional drug 'Goplexitol' improving time to relationship by 3.1 months.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "would work",
+      "entities": [
+        "Ahmed Tahseen"
+      ],
+      "note": "Borderline: hypothetical trial-design claim (time-to-event endpoints would work in schizophrenia), not a dated call. The 'Goplexitol' ad is a joke."
+    },
+    {
+      "post_slug": "the-youngest-vc-in-the-room",
+      "quote": "With the ads thing, they need some work, but they’ll get there.",
+      "context": "Interview with the author's daughter Quinn (almost 10) about AI companies. Quinn says OpenAI keeps its brand fresh, that its advertising approach needs work, and predicts it will improve. The author presents her framework approvingly ('one of the more insightful conversations I've had about product strategy') but does not restate this specific call.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "they’ll get there",
+      "entities": [
+        "OpenAI",
+        "Quinn Muir"
+      ],
+      "note": "Third-party call by the author's 9-year-old daughter; author reports it approvingly but does not adopt it."
+    },
+    {
+      "post_slug": "i-let-my-9-year-old-make-her-case",
+      "quote": "now a lot of users might start making accounts pretending to be way older than they actually are. And no age check actually works, because they just get their parents to do it for them. ... I want to pause here, because this is correct. The circumvention literature on age-gating bears it out.",
+      "context": "Interview with the author's daughter Quinn (9) about appearing on the Hard Fork podcast. On Australia's ban of social platforms for young users, Quinn predicts users will make accounts claiming to be older and that no age check works because parents complete it. The author endorses this ('this is correct'), then asks 'So you think the Australia ban is going to backfire?' and she answers 'Yeah.'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "now",
+      "confidence_phrase": "might start",
+      "entities": [
+        "Australia (under-age social media ban)",
+        "Google",
+        "Hard Fork",
+        "Quinn Muir"
+      ],
+      "note": "Daughter's claim adopted by the author ('this is correct'). Compound: age-check circumvention plus the ban will backfire. Tech policy, not psychiatry."
+    },
+    {
+      "post_slug": "the-architecture-of-joy",
+      "quote": "No machine will replicate that. And even if one did, we would not care.",
+      "context": "Guest post by David Carreon, M.D.; the author (Owen Muir) wrote only the intro. Reflecting on Alysa Liu and Jack Hughes at the Milano Cortina Olympics, Carreon claims that whole-person athletic performance (feeling, planning, courage, memory, spatial awareness, improvisation, pain and joy fused in a moving body) is something no machine or AI will replicate, and that people would not care even if one did.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "No machine will replicate",
+      "entities": [
+        "David Carreon",
+        "Alysa Liu",
+        "Jack Hughes"
+      ],
+      "note": "Guest author's AI forecast; Owen Muir did not adopt it beyond publishing the guest post."
+    },
+    {
+      "post_slug": "the-architecture-of-joy",
+      "quote": "As we build these machines, and we will build them, and they will be extraordinary, let us remind ourselves, and perhaps the machines too, that joy is a superpower.",
+      "context": "Guest post by David Carreon, M.D. Near the close, Carreon asserts that humanity will build advanced AI machines and that they will be extraordinary, then urges remembering that joy is valuable in itself.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "we will build them, and they will be extraordinary",
+      "entities": [
+        "David Carreon"
+      ],
+      "note": "Guest author's forecast about AI; Owen Muir did not adopt it. The 'let us remind ourselves' clause is exhortation."
+    }
+  ]
+}

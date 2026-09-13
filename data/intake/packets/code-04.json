@@ -141,741 +141,696 @@
  },
  "statements": [
   {
+   "id": "owen-0126",
+   "forecaster": "owen",
+   "statement_date": "2022-08-09",
+   "quote": "Private equity does not act in the interest of patients. It’s not their job. They’re not ever going to do that.",
+   "context": "Footnote 11: the author asserts private equity in healthcare will never act in patients' interest, because its fiduciary duty is to investors ('don't expect scorpions not to sting').",
+   "post_title": "It’s the End of Telehealth as We Know It (and I Feel Fine)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know",
+   "area_guess": "company_market",
+   "horizon_text": "not ever",
+   "confidence_phrase": "not ever going to",
+   "entities": [
+    "Private Equity"
+   ],
+   "finder_note": "Negative call ('never') about a class of actors; low resolvability."
+  },
+  {
+   "id": "owen-0127",
+   "forecaster": "owen",
+   "statement_date": "2022-08-12",
+   "quote": "what happens when the DEA stops being polite, and starts getting real",
+   "context": "Entire body of a 23-word podcast blurb: narration of a newsletter article titled 'It's the End of Telehealth as We Know it (and I Feel Fine)'. The blurb presupposes the DEA will stop being lenient (on telehealth prescribing); the title implies telehealth as practiced will end.",
+   "post_title": "It’s the End of Telehealth as We Know it (and I Feel Fine)*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know-0d7",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Borderline: implicit claim carried mostly by the post title, which is not part of the quotable text. Logged for recall."
+  },
+  {
+   "id": "owen-0128",
+   "forecaster": "owen",
+   "statement_date": "2022-08-20",
+   "quote": "I have a vested professional interest in the success of Brightside, not because I have any money in the game, but because it’s going to enable me to have a reliable partner in a telehealth company with which to refer general psychiatry cases that I do not particularly want to manage given my growing personal focus on the interface of rheumatology and psychiatry.",
+   "context": "Intro to the author's SXSW PanelPicker recommendations. Conditional own plan: if readers vote the recommended panels in, the author attends SXSW and reports on the panels. Later: selection of his wife's panel 'will give me enough juice with my wife to enable me to strongly advocate for my own trip to SXSW'.",
+   "post_title": "A Conflict of Interest Disclosure Regarding My Picks for SXSW",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-conflict-of-interest-disclosure",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "SXSW",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Conditional own-activity plan; low forecast value; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0129",
+   "forecaster": "owen",
+   "statement_date": "2022-08-20",
+   "quote": "I have nothing but conflicts when it comes to the above panel, which is going to do a frankly phenomenal job of discussing intimacy in a way that is only good for my personal brand.",
+   "context": "'Ask the Intimacy Professionals Anything' panel (Lila Donnolo, Gina Pellicci, Tiana Peters, Major Tom Daily). Prediction that the panel will perform very well.",
+   "post_title": "A Conflict of Interest Disclosure Regarding My Picks for SXSW",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-conflict-of-interest-disclosure",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "Lila Donnolo",
+    "Gina Pellicci",
+    "Horizontal with Lila",
+    "SXSW"
+   ],
+   "finder_note": "Promotional prediction about a panel's quality; low forecast value."
+  },
+  {
+   "id": "owen-0132",
+   "forecaster": "owen",
+   "statement_date": "2022-08-20",
+   "quote": "It is also secretly my hope that Andreessen Horowitz will get more interested in Hint health, direct primary care, and maybe even Healthcare Rosetta as a result of doing this panel",
+   "context": "Same panel. The author hopes a16z's participation leads it to invest more attention in Hint Health, direct primary care and Healthcare Rosetta.",
+   "post_title": "A Conflict of Interest Disclosure Regarding My Picks for SXSW",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-conflict-of-interest-disclosure",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "my hope",
+   "entities": [
+    "Andreessen Horowitz",
+    "Hint Health",
+    "Healthcare Rosetta"
+   ],
+   "finder_note": "Wish rather than prediction; logged for recall. Coder may drop."
+  },
+  {
+   "id": "owen-0133",
+   "forecaster": "owen",
+   "statement_date": "2022-08-20",
+   "quote": "Vote early, vote often, vote before voting is closed tomorrow.",
+   "context": "Closing call to action: SXSW PanelPicker community voting closes the day after the post (post dated 2022-08-20).",
+   "post_title": "A Conflict of Interest Disclosure Regarding My Picks for SXSW",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-conflict-of-interest-disclosure",
+   "area_guess": "other",
+   "horizon_text": "tomorrow",
+   "confidence_phrase": "none",
+   "entities": [
+    "SXSW"
+   ],
+   "finder_note": "Scheduling fact about the PanelPicker deadline, not an author forecast; logged for recall."
+  },
+  {
+   "id": "owen-0134",
+   "forecaster": "owen",
+   "statement_date": "2022-08-20",
+   "quote": "As a programming note, I will be making posts subscribers-only at an unpredictable interval after their initial publication.",
+   "context": "Closing programming note on the newsletter's freemium model: posts will move behind the paywall some time after publication.",
+   "post_title": "A Conflict of Interest Disclosure Regarding My Picks for SXSW",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-conflict-of-interest-disclosure",
+   "area_guess": "other",
+   "horizon_text": "at an unpredictable interval after their initial publication",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own newsletter policy; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0135",
+   "forecaster": "owen",
+   "statement_date": "2022-08-25",
+   "quote": "It’s an option to have depression be better fast. Like a-singular-week. Not 6-8 weeks-plural. Not “16 weeks to have full effect.”",
+   "context": "Essay on the FDA approval (August 2022) of Auvelity (dextromethorphan/bupropion). Based on the label, the author expects the drug to give patients with depression improvement within about a week, faster than existing oral antidepressants.",
+   "post_title": "Hold Me Closer, Robitussin: is Auvelity (dextromethorphan/bupropion) something new in depression treatment?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/hold-me-closer-robitussin-is-auvelity",
+   "area_guess": "practice_adoption",
+   "horizon_text": "a-singular-week",
+   "confidence_phrase": "none",
+   "entities": [
+    "Auvelity",
+    "dextromethorphan",
+    "bupropion",
+    "FDA"
+   ],
+   "finder_note": "Borderline: label-based clinical claim rather than a forecast; logged for recall. Author discloses a Janssen (Spravato) advisory role and no ties to Auvelity's maker."
+  },
+  {
+   "id": "owen-0136",
+   "forecaster": "owen",
+   "statement_date": "2022-08-30",
+   "quote": "This is also my foray into paid content. So the idea is I’m going to write things, like this piece, which will presumably not be opinion pieces, although I will, likely, express opinions.",
+   "context": "Opening paragraph. The author announces a paid-content track for The Frontier Psychiatrists: textbook-style explainer chapters like this one, which he expects will not be opinion pieces.",
+   "post_title": "How Brains Really Work: Neurons Firing Explained!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-brains-really-work-neurons-firing",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will presumably",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content plan; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0137",
+   "forecaster": "owen",
+   "statement_date": "2022-08-30",
+   "quote": "I’m not gonna make you pay for it. Not yet anyway. It’s just gonna make you sign up for my subscription list. But eventually, behind that paywall, there’s content.",
+   "context": "Same opening paragraph, on the paywall in this and future explainer pieces. Readers who sign up are auto-comped for now; the author implies paid access will come later and paid content will sit behind the paywall.",
+   "post_title": "How Brains Really Work: Neurons Firing Explained!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-brains-really-work-neurons-firing",
+   "area_guess": "other",
+   "horizon_text": "Not yet anyway; eventually",
+   "confidence_phrase": "gonna",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter monetization plan with an implied future paywall. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0138",
+   "forecaster": "owen",
+   "statement_date": "2022-08-30",
+   "quote": "We’re gonna start from neurons, and work our way up from there, that pretty soon, you’re gonna understand science and medicine just as well as I do.",
+   "context": "Series plan: the author intends a sequence of explainer chapters starting from neurons and working upward, and claims readers will soon understand science and medicine as well as he does.",
+   "post_title": "How Brains Really Work: Neurons Firing Explained!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-brains-really-work-neurons-firing",
+   "area_guess": "other",
+   "horizon_text": "pretty soon",
+   "confidence_phrase": "gonna",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content plan with rhetorical flourish; low forecast value."
+  },
+  {
+   "id": "owen-0139",
+   "forecaster": "owen",
+   "statement_date": "2022-09-02",
+   "quote": "It may be an excellent treatment for others. But given current payment models, it’s really unlikely that we’re gonna find out anytime soon.",
+   "context": "DBT (dialectical behavior therapy) for suicidal adolescents. The author argues DBT is shown superior only within study samples meeting strict inclusion criteria. He predicts that, under current payment (insurance reimbursement) models, evidence on whether DBT works for broader populations will not arrive anytime soon.",
+   "post_title": "Louboutins are the Best Shoes We Have, Expert Says",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/louboutins-are-the-best-shoes-we",
+   "area_guess": "clinical_trial",
+   "horizon_text": "anytime soon",
+   "confidence_phrase": "really unlikely",
+   "entities": [
+    "DBT",
+    "dialectical behavior therapy",
+    "New York Times"
+   ],
+   "finder_note": "Negative call on future evidence generation for DBT beyond trial samples; hinges on payment models."
+  },
+  {
    "id": "owen-0140",
    "forecaster": "owen",
-   "statement_date": "2023-07-03",
-   "quote": "As recently as 2020, academics were predicting there would be no problems with the staffing of emergency medicine: ... Rarely do we read more damning words than “conservative estimate”— it is the academic version of Jim Cramer’s telling you Silicon Valley Bank is a top 10-pick in February 2023.",
-   "context": "The author explicitly rejects the quoted 2020 academic forecast that the emergency physician workforce could be 20-30% oversupplied by 2030; he implies emergency medicine will instead face a physician exodus and shortage.",
-   "post_title": "Where There is Smoke: Emergency Medicine's Disaster Match Previews Private Equity Funded Chaos in Healthcare",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/where-there-is-smoke-emergency-medicines",
-   "area_guess": "other",
-   "horizon_text": "2030",
-   "confidence_phrase": "likely",
+   "statement_date": "2022-09-02",
+   "quote": "Then, predictably, they will be demoralized when they can’t get their insurance to pay for it. Which I’m here to promise you, it won’t. Not without a fight.",
+   "context": "After the NYT piece holds DBT up as 'the best tool we have' for self-harming and suicidal teens, the author predicts families will be demoralized because insurance will not pay for DBT, not without a fight.",
+   "post_title": "Louboutins are the Best Shoes We Have, Expert Says",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/louboutins-are-the-best-shoes-we",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I’m here to promise you, it won’t",
    "entities": [
-    "emergency medicine",
-    "NRMP Match",
-    "ACEP",
-    "emergency physician workforce"
+    "DBT",
+    "New York Times",
+    "insurance companies"
    ],
-   "finder_note": "hint: ACEP or Annals of Emergency Medicine workforce projections toward 2030; NRMP EM fill rates 2024-2030"
+   "finder_note": "Compound: families demoralized + insurers will not pay for DBT; 'Not without a fight' qualifier."
   },
   {
    "id": "owen-0141",
    "forecaster": "owen",
-   "statement_date": "2023-07-05",
-   "quote": "OCPD sufferers are not afforded this opportunity. I suspect there is a shared neural basis for both.",
-   "context": "Research will find a shared neural basis for OCD and obsessive-compulsive personality disorder.",
-   "post_title": "What Is OCPD and Do I Need to Worry About Explaining It Perfectly?",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-i-ocpd-and-do-i-need-to-worry",
-   "area_guess": "science_claim",
+   "statement_date": "2022-09-02",
+   "quote": "I am bullish on teams in healthcare.",
+   "context": "While explaining why DBT is expensive (weekly individual therapy, multi-family groups, coaching calls, a large team), the author states a general positive expectation about team-based care in healthcare.",
+   "post_title": "Louboutins are the Best Shoes We Have, Expert Says",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/louboutins-are-the-best-shoes-we",
+   "area_guess": "practice_adoption",
    "horizon_text": "none",
-   "confidence_phrase": "likely",
+   "confidence_phrase": "bullish",
    "entities": [
-    "OCD",
-    "OCPD"
+    "DBT"
    ],
-   "finder_note": "hint: Neuroimaging or genetic studies comparing OCD and OCPD circuitry"
+   "finder_note": "Borderline: general stance with no resolvable claim."
   },
   {
    "id": "owen-0142",
    "forecaster": "owen",
-   "statement_date": "2023-07-06",
-   "quote": "Keep in mind the best predictor of completing suicide is attempted suicide. Those attempts will turn into completed suicides later. We don’t know which ones.",
-   "context": "The rise in youth suicide attempts reported by the CDC will produce more completed suicides in later years.",
-   "post_title": "\"The Mental Health Crisis\" ...Crisis",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-mental-health-crisis-crisis",
+   "statement_date": "2022-09-02",
+   "quote": "A healthcare system that can only profit off of the expensive is the one that will feature endless expense.",
+   "context": "Setup: GPM (General Psychiatric Management for BPD) is designed to be inexpensive and scalable, so no one profits enough to promote it. The author then states that a profit-driven system will keep featuring endless expense, illustrated by a 5-year stock chart of a company profiting from expensive care.",
+   "post_title": "Louboutins are the Best Shoes We Have, Expert Says",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/louboutins-are-the-best-shoes-we",
    "area_guess": "other",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "will",
    "entities": [
-    "CDC",
-    "youth suicide",
-    "YRBS"
+    "GPM",
+    "General Psychiatric Management",
+    "UnitedHealthcare"
    ],
-   "finder_note": "hint: CDC WONDER youth suicide mortality data for 2023-2025"
+   "finder_note": "Borderline: structural claim close to a truism; implies cheap scalable treatments like GPM will not get investment."
+  },
+  {
+   "id": "owen-0143",
+   "forecaster": "owen",
+   "statement_date": "2022-09-02",
+   "quote": "We spend $4.6 trillion a year, and more every year, on healthcare in the US.",
+   "context": "Closing argument that the US could find a few billion dollars for the most effective treatment for suicidal kids. States that US healthcare spending is $4.6 trillion a year and grows every year.",
+   "post_title": "Louboutins are the Best Shoes We Have, Expert Says",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/louboutins-are-the-best-shoes-we",
+   "area_guess": "other",
+   "horizon_text": "every year",
+   "confidence_phrase": "none",
+   "entities": [
+    "US healthcare spending"
+   ],
+   "finder_note": "Borderline trend statement: implies US healthcare spending keeps rising each year."
   },
   {
    "id": "owen-0144",
    "forecaster": "owen",
-   "statement_date": "2023-07-10",
-   "quote": "The Big Health Mafia used complexity to shake us down. In turn, it will be taken down by those who ran the scam.",
-   "context": "The insurer-owned PBM system (UnitedHealth/Optum, Cigna/Express Scripts, CVS/Caremark) will be brought down by former insiders (whistleblowers, ERISA lawyers, Cost Plus Drugs) using fiduciary-duty law.",
-   "post_title": "SopranoRX: \"Modern Gangsters\" ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "statement_date": "2022-09-02",
+   "quote": "To be clear, I take a lot of calls from suicidal patients, and will take many more I’m sure in the course of my life.",
+   "context": "Footnote 17, about DBT coaching calls available at any hour. The author says he takes many calls from suicidal patients, expects to take many more over his life, and notes he generally is not paid for them.",
+   "post_title": "Louboutins are the Best Shoes We Have, Expert Says",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/louboutins-are-the-best-shoes-we",
+   "area_guess": "other",
+   "horizon_text": "in the course of my life",
+   "confidence_phrase": "I’m sure",
    "entities": [
-    "PBMs",
-    "UnitedHealth Group",
-    "Optum",
-    "Cigna",
-    "Express Scripts",
-    "CVS Caremark",
-    "Aetna",
-    "Mark Cuban Cost Plus Drugs",
-    "Wendell Potter",
-    "Dave Chase"
+    "Owen Scott Muir"
    ],
-   "finder_note": "hint: FTC PBM enforcement actions, PBM reform legislation, ERISA fiduciary lawsuits over drug pricing 2023-2026"
+   "finder_note": "Personal-activity statement; low forecast value."
   },
   {
    "id": "owen-0145",
    "forecaster": "owen",
-   "statement_date": "2023-07-10",
-   "quote": "I wasn’t looking for money; I was testing for sincerity. They failed, but others will sue and win. It’s already heating up with Perez, Ca 2021 enforcement and regulatory scrutiny.",
-   "context": "Other plaintiffs will sue Big Health plans and PBMs for fiduciary breaches under ERISA and the Consolidated Appropriations Act 2021, and they will win.",
-   "post_title": "SopranoRX: \"Modern Gangsters\" ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
-   "area_guess": "payer_policy",
+   "statement_date": "2022-09-06",
+   "quote": "I think, my own atheism notwithstanding, if Mr. Cuban successfully does something to reduce the cost of unbelievably expensive pharmaceuticals in America, it would be a legitimate heavenly miracle.",
+   "context": "Book 1 of a satirical sainthood hearing for Mark Cuban versus Martin Shkreli. Conditional on Mark Cuban's Cost Plus Drug Company (MCCPDC) actually reducing US drug costs; the 'miracle' framing signals the author's doubt that it will.",
+   "post_title": "The Devil’s Advocate: Martin Shkreli vs. Mark Cuban",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-devils-advocate-martin-shkreli",
+   "area_guess": "company_market",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "if ... it would be a legitimate heavenly miracle",
    "entities": [
-    "ERISA",
-    "Consolidated Appropriations Act 2021",
-    "Department of Labor",
-    "PBMs",
-    "Troutman Pepper"
+    "Mark Cuban",
+    "Mark Cuban Cost Plus Drug Company (MCCPDC)"
    ],
-   "finder_note": "hint: Court dockets for ERISA fiduciary-duty suits over PBM pricing (e.g., Lewandowski v. Johnson & Johnson, Navarro v. Wells Fargo) and DOL enforcement outcomes"
+   "finder_note": "Conditional inside satirical framing; the implied call is skepticism that Cuban will lower drug costs. Borderline."
   },
   {
    "id": "owen-0146",
    "forecaster": "owen",
-   "statement_date": "2023-07-12",
-   "quote": "They will also expect to a burn rate. This means you spend more money than you make. This also means you create a business that fails the second the necessary extra cash dries up.",
-   "context": "Venture-backed healthcare startups that run a burn rate will fail as soon as outside funding stops; the author expects the current health-tech startup chaos to continue.",
-   "post_title": "Never Raise Money For Your Healthcare Startup",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/never-raise-money-for-your-healthcare",
-   "area_guess": "company_market",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "statement_date": "2022-09-06",
+   "quote": "And lo, he was prideful and vainglorious about his upcoming album which, I kid you not, is going to be called “God’s Gift”",
+   "context": "Pride entry in the seven-deadly-sins list about Martin Shkreli. Restates Shkreli's announced plan to release an album titled 'God's Gift'.",
+   "post_title": "The Devil’s Advocate: Martin Shkreli vs. Mark Cuban",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-devils-advocate-martin-shkreli",
+   "area_guess": "other",
+   "horizon_text": "upcoming",
+   "confidence_phrase": "is going to be",
    "entities": [
-    "venture capital",
-    "healthcare startups",
-    "Y Combinator"
+    "Martin Shkreli"
    ],
-   "finder_note": "hint: Health-tech startup shutdown and down-round data 2023-2026 (Rock Health, Crunchbase)"
+   "finder_note": "Trivia about a third party's announced plan, adopted by the author; low forecast value."
+  },
+  {
+   "id": "owen-0147",
+   "forecaster": "owen",
+   "statement_date": "2022-09-06",
+   "quote": "The that workaround allows insane markups hidden from the rest of us and buried in our insurance premiums to go on even longer.",
+   "context": "Book 7 conclusion. The author argues Mark Cuban's cash-pay pharmacy (MCCPDC) is a workaround that lets hidden PBM and insurer markups buried in premiums persist longer instead of fixing the system.",
+   "post_title": "The Devil’s Advocate: Martin Shkreli vs. Mark Cuban",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-devils-advocate-martin-shkreli",
+   "area_guess": "payer_policy",
+   "horizon_text": "even longer",
+   "confidence_phrase": "none",
+   "entities": [
+    "Mark Cuban",
+    "Mark Cuban Cost Plus Drug Company (MCCPDC)",
+    "pharmacy benefit managers (PBMs)",
+    "health insurers"
+   ],
+   "finder_note": "Systemic-effect claim. Text typo ('The that') quoted verbatim."
+  },
+  {
+   "id": "owen-0148",
+   "forecaster": "owen",
+   "statement_date": "2022-09-08",
+   "quote": "Depression , as a thing that haunts the minds and lives of millions of people, could be over 2 in five days. It doesn’t mean over forever. It does mean for now.",
+   "context": "Opening claim after FDA clearance of SAINT (Magnus, fMRI-guided accelerated TMS). The author asserts depression can be in remission within five days of treatment, citing the AJP randomized trial (79% remission active vs 13% sham).",
+   "post_title": "Could Your Depression Be In Remission in 5 Days?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-your-depression-be-in-remission",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in five days",
+   "confidence_phrase": "could",
+   "entities": [
+    "SAINT",
+    "Magnus",
+    "FDA",
+    "American Journal of Psychiatry"
+   ],
+   "finder_note": "Efficacy claim drawn from a published RCT; borderline forward-looking (real-world generalization). Footnote marker '2' is part of the verbatim text."
   },
   {
    "id": "owen-0149",
    "forecaster": "owen",
-   "statement_date": "2023-07-16",
-   "quote": "In 2023, I agree with this statement, but I also add the asterisk that neuromodulation will likely be helpful.",
-   "context": "Neuromodulation (accelerated TMS such as SAINT) will likely become helpful for medication-resistant children in state hospitals whose illnesses do not respond to medication.",
-   "post_title": "How Do I Help Suicidal Kids?",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-do-i-help-suicidal-kids",
+   "statement_date": "2022-09-08",
+   "quote": "It has to be made generally available through an extensive effort in manufacturing, distribution, systems of care, integration with existing systems, education of providers, sub-specialist training, new payment models, new staffing models, maybe even new business models",
+   "context": "The author says SAINT is FDA cleared but not yet obtainable; general availability will require manufacturing, distribution, care systems, provider and sub-specialist training, new payment and staffing models, and maybe new business models.",
+   "post_title": "Could Your Depression Be In Remission in 5 Days?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-your-depression-be-in-remission",
    "area_guess": "practice_adoption",
    "horizon_text": "none",
-   "confidence_phrase": "likely",
+   "confidence_phrase": "has to be",
    "entities": [
-    "neuromodulation",
-    "TMS",
     "SAINT",
-    "state hospitals",
-    "adolescents"
+    "Magnus",
+    "FDA"
    ],
-   "finder_note": "hint: Pediatric or adolescent accelerated TMS trial publications; FDA clearance of TMS for adolescents (Neurostar 2024) and adoption data"
+   "finder_note": "Rollout-preconditions claim; compound list."
   },
   {
    "id": "owen-0150",
    "forecaster": "owen",
-   "statement_date": "2023-07-19",
-   "quote": "This is concise information about the remarkable work done Acacia Clinics in Sunnyvale, California, and the care we will be bringing to Fermata in Brooklyn, NY soon.",
-   "context": "Fermata, the author's Brooklyn clinic, will soon offer the SAINT accelerated TMS protocol (Magnus Medical), as Acacia Clinics does in Sunnyvale.",
-   "post_title": "Not Everyone Wants to Read About Saint...So Here is A Video Instead.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/not-everyone-wants-to-read-about",
+   "statement_date": "2022-09-08",
+   "quote": "Everyone needs to get this treatment who needs to get this treatment when it is available. That is not now. That is soon. We need to be prepared. It is a moral imperative.",
+   "context": "Call to action: SAINT will be available soon (not now); the author says the field must prepare so everyone who needs the treatment gets it.",
+   "post_title": "Could Your Depression Be In Remission in 5 Days?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-your-depression-be-in-remission",
    "area_guess": "practice_adoption",
-   "horizon_text": "2023 (inferred: soon)",
-   "confidence_phrase": "certain",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
    "entities": [
-    "Fermata",
     "SAINT",
-    "Magnus Medical",
-    "Acacia Clinics"
+    "Magnus"
    ],
-   "finder_note": "hint: Fermata Health website or press release announcing SAINT availability in Brooklyn; Magnus Medical provider list 2023-2024"
+   "finder_note": "Mixed normative ('needs to', 'moral imperative') and predictive ('That is not now. That is soon.')."
   },
   {
    "id": "owen-0151",
    "forecaster": "owen",
-   "statement_date": "2023-07-20",
-   "quote": "The business model of private equity roll ups is suffering. It's suffering, and it's arbitrage, it's not adding value, they don't know how to do it, they couldn't do it if you gave them every emergency medicine doctor and ruin the entire sub specialty in the process.",
-   "context": "After the No Surprises Act removed out-of-network billing, PE physician-staffing roll-ups have no viable business model and will keep failing (implicit forward claim following the APP shutdown and Envision bankruptcy).",
-   "post_title": "Private Equity Sucks At Running Business of Medicine ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/update-private-equity-sucks-at-running",
-   "area_guess": "company_market",
+   "statement_date": "2022-09-08",
+   "quote": "What do you wanna bet your insurance isn’t gonna pay for it?",
+   "context": "Rhetorical question right after the call to action; the author predicts health insurers will not cover SAINT when it becomes available.",
+   "post_title": "Could Your Depression Be In Remission in 5 Days?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-your-depression-be-in-remission",
+   "area_guess": "payer_policy",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "What do you wanna bet",
    "entities": [
-    "private equity",
-    "American Physician Partners",
-    "Envision Healthcare",
-    "No Surprises Act",
-    "Brown Brothers Harriman"
+    "SAINT",
+    "Magnus",
+    "health insurers"
    ],
-   "finder_note": "hint: Subsequent distress or bankruptcy of PE-backed staffing companies (TeamHealth, Steward, others) 2023-2026"
+   "finder_note": "Question in form, prediction in substance (insurers will not pay). Logged under the recall-first rule."
   },
   {
    "id": "owen-0152",
    "forecaster": "owen",
-   "statement_date": "2023-07-21",
-   "quote": "I actually have a hard time believing that Oral anti-depressants, in 5 to 10 years, will be considered ethical to prescribe. ... And I'm willing to say it, because at this point, I'm pretty sure history will bear me out.",
-   "context": "Within 5 to 10 years (about 2028-2033), oral antidepressants will no longer be considered ethical to prescribe for depression, because brain stimulation and plausibly psychedelic compounds are vastly better treatments.",
-   "post_title": "Oral Antidepressants...No Thanks.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/oral-antidepressantsno-thanks",
-   "area_guess": "practice_adoption",
-   "horizon_text": "2028-2033 (inferred: in 5 to 10 years)",
-   "confidence_phrase": "likely",
+   "statement_date": "2022-09-08",
+   "quote": "How long does this last? Well, we don’t know, but it’s something like 12 to 18 months on average.",
+   "context": "Footnote 2, defining 'over' as remission. The author estimates remission after SAINT lasts about 12 to 18 months on average, while admitting the duration is not known.",
+   "post_title": "Could Your Depression Be In Remission in 5 Days?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-your-depression-be-in-remission",
+   "area_guess": "clinical_trial",
+   "horizon_text": "12 to 18 months",
+   "confidence_phrase": "we don’t know, but it’s something like",
    "entities": [
-    "oral antidepressants",
-    "TMS",
-    "psychedelics"
+    "SAINT",
+    "Magnus"
    ],
-   "finder_note": "hint: APA, NICE, or VA/DoD depression guidelines 2028-2033; US antidepressant prescription volumes; professional consensus statements."
+   "finder_note": "Durability estimate; borderline forward-looking (expected duration of remission)."
   },
   {
    "id": "owen-0153",
    "forecaster": "owen",
-   "statement_date": "2023-07-21",
-   "quote": "I don't have the data yet to say that we should stab them in the heart forever. But I do think that that's what the data is going to show.",
-   "context": "Future data will show that oral antidepressants should be abandoned in favor of remarkably effective treatments such as brain stimulation and psychedelics.",
-   "post_title": "Oral Antidepressants...No Thanks.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/oral-antidepressantsno-thanks",
-   "area_guess": "science_claim",
+   "statement_date": "2022-09-13",
+   "quote": "Medical malpractice insurance will not underwrite risk they cannot manage.",
+   "context": "TL;DR bullet 2 of the Texas gender-affirming-care essay. After Governor Abbott's directive defining gender-affirming care as child abuse, the author predicts malpractice carriers will refuse to underwrite physicians facing that unmanageable risk.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "company_market",
    "horizon_text": "none",
-   "confidence_phrase": "likely",
+   "confidence_phrase": "will not",
    "entities": [
-    "oral antidepressants",
-    "TMS",
-    "psychedelics"
+    "Greg Abbott",
+    "Texas",
+    "medical malpractice carriers",
+    "American Professional Agency",
+    "Allied World Insurance"
    ],
-   "finder_note": "hint: Head-to-head trials or meta-analyses comparing TMS or psychedelic therapy with oral antidepressants; guideline changes."
+   "finder_note": "TL;DR bullet; the body cites carrier calls (American Professional Agency, Allied World) that would not confirm continued coverage."
+  },
+  {
+   "id": "owen-0154",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "No malpractice insurance, no medical practice.* (it’s legal in Texas to practice without medical malpractice insurance, I just don’t know how many doctors are gonna want to do that!)",
+   "context": "TL;DR bullet 4. If carriers withdraw coverage, the author expects doctors to stop practicing, since few will practice uninsured in Texas.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I just don’t know how many doctors are gonna want to do that",
+   "entities": [
+    "Texas"
+   ],
+   "finder_note": "Implied prediction that physicians will stop practicing or leave rather than go uninsured."
   },
   {
    "id": "owen-0155",
    "forecaster": "owen",
-   "statement_date": "2023-07-26",
-   "quote": "This is poised to be a big deal.",
-   "context": "The July 2023 DOL/HHS/Treasury MHPAEA proposed rules and technical release on NQTL data collection will become a major, consequential change in mental health parity enforcement.",
-   "post_title": "Say My Name: The Department of Labor & Destiny's Child Have In Common--CHEATERS WILL BE CALLED OUT!",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/say-my-name-the-department-of-labor",
+   "statement_date": "2022-09-13",
+   "quote": "This, in turn, makes every employer-sponsored plan ERISA noncompliant , creating massive tax and fiduciary liability for employers and benefits brokers.",
+   "context": "TL;DR bullet 7. Chain of reasoning: banning gender-affirming care makes comprehensive care unavailable in Texas, so every employer-sponsored health plan becomes ERISA noncompliant, exposing employers and brokers to tax and fiduciary liability.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
    "area_guess": "payer_policy",
    "horizon_text": "none",
-   "confidence_phrase": "likely",
+   "confidence_phrase": "none",
    "entities": [
-    "Department of Labor",
-    "HHS",
-    "Treasury",
-    "MHPAEA"
+    "ERISA",
+    "Texas",
+    "employers",
+    "benefits brokers"
    ],
-   "finder_note": "hint: Status of the MHPAEA final rule (September 2024) and the DOL's 2025 non-enforcement announcement; observed enforcement actions."
+   "finder_note": "Legal-consequence claim stated as fact; the liability is a predicted future exposure."
   },
   {
    "id": "owen-0156",
    "forecaster": "owen",
-   "statement_date": "2023-07-27",
-   "quote": "So the plans are to have comparable numbers of in and out-of-network providers across mental and physical health. They don’t. I promise you they don’t.",
-   "context": "If the DOL finalizes its proposed MHPAEA network-composition data collection, the data will show that health plans do not have mental health and substance use providers in-network at rates comparable to medical/surgical providers, which is an NQTL violation.",
-   "post_title": "Mental Health Parity: What do Shaggy and Big Insurance Have in Common?",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-parity-what-do-shaggy",
+   "statement_date": "2022-09-13",
+   "quote": "Therefore, bans on gender affirming care are subsequently effective bans on health insurance and it’s tax advantaged status.",
+   "context": "TL;DR bullet 8, the conclusion of the chain: state bans on gender-affirming care amount to bans on tax-advantaged employer health insurance.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
    "area_guess": "payer_policy",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "none",
    "entities": [
-    "Department of Labor",
-    "MHPAEA",
-    "NQTL",
-    "Empire BCBS"
+    "ERISA",
+    "IRS",
+    "Texas"
    ],
-   "finder_note": "hint: DOL/HHS MHPAEA reports to Congress and comparative-analysis enforcement findings after the September 2024 final rule."
+   "finder_note": "Restates bullet 7 as a conclusion; compound legal claim."
   },
   {
    "id": "owen-0157",
    "forecaster": "owen",
-   "statement_date": "2023-07-31",
-   "quote": "Obesity medicine like semeglutide is projected to cost 15% of all American Health Care Spending. That is 4.6 Trillion Dollars. ... $690,000,000,000.00 is the Revenue for Big Health from GLP-1s.",
-   "context": "GLP-1 obesity drugs such as semaglutide will grow to about 15% of total US health care spending, roughly $690 billion per year. This is an unattributed projection that the author states in his own voice and uses as a premise for his argument about payer incentives.",
-   "post_title": "Thrift Shop: How Narrow Networks With High Quality Can Win Mental Health Parity...",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/thrift-shop-how-narrow-networks-with",
-   "area_guess": "payer_policy",
+   "statement_date": "2022-09-13",
+   "quote": "It’s a contravention of the standards of professional ethics for doctors, so should not be a needle in a haystack to find those with legal standing.",
+   "context": "The author asks the ACLU to arrange a malpractice suit against a physician who complied with the Texas reporting mandate, and predicts plaintiffs with legal standing will be easy to find.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "other",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "should not be",
    "entities": [
-    "semaglutide",
-    "GLP-1",
-    "Big Health insurers"
+    "ACLU",
+    "Texas"
    ],
-   "finder_note": "hint: CMS National Health Expenditure data and IQVIA reports on annual US GLP-1 spending; no deadline given."
+   "finder_note": "Advocacy plus prediction; 'should' here is probabilistic, not normative."
   },
   {
    "id": "owen-0158",
    "forecaster": "owen",
-   "statement_date": "2023-08-08",
-   "quote": "The first brain stimulation treatment for addiction is the H4 coil, which we use for smoking cessation and may work for other indications.",
-   "context": "The BrainsWay H4 deep TMS coil, cleared for smoking cessation, may prove effective for other addiction indications in future studies or clearances.",
-   "post_title": "The Science Behind the Best in Class Outcomes in Mental Health*",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-science-behind-the-best-in-class",
-   "area_guess": "science_claim",
+   "statement_date": "2022-09-13",
+   "quote": "Of course it doesn’t end here, because refusing to see a patient because of the liability concern is, itself, something for which one could be found liable!",
+   "context": "After reporting that malpractice carriers gave no assurance of coverage, the author says physicians who decline patients over liability fears could themselves be held liable.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "other",
    "horizon_text": "none",
-   "confidence_phrase": "possible",
+   "confidence_phrase": "could",
    "entities": [
-    "BrainsWay",
-    "H4 coil",
-    "deep TMS"
+    "Texas",
+    "medical malpractice carriers"
    ],
-   "finder_note": "hint: BrainsWay FDA clearances and published trials of the H4 coil in indications other than smoking (for example alcohol or opioid use disorder)."
+   "finder_note": "Legal-exposure claim; borderline forward-looking."
   },
   {
    "id": "owen-0159",
    "forecaster": "owen",
-   "statement_date": "2023-08-09",
-   "quote": "We have a solution. We ignored it because it involves logistics. Why are we excited to offer something worse ... —but easy—for new moms? This is a step backward for women, families, and medicine.",
-   "context": "Implicit prediction: the convenient oral zuranolone (Zurzuvae) will be adopted over the more effective 60-hour brexanolone infusion (Zulresso) for postpartum depression, and this substitution will worsen care. Borderline item; the author frames it as an evaluation, not an explicit forecast.",
-   "post_title": "Zuranolone is a Worse Treatment for Post-Partum Depression than Brexanolone",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/zuranolone-is-a-worse-treatment-for",
-   "area_guess": "practice_adoption",
+   "statement_date": "2022-09-13",
+   "quote": "It had a Gender Affirming Medicine program. Which has of course been put on pause. Which is a defensive legal move. It also opens the clinic up to almost unfathomable medico-legal liability.",
+   "context": "Texas Children's Hospital (Baylor College of Medicine's pediatric teaching hospital) paused its gender-affirming program after the directive; the author says this exposes the clinic to enormous malpractice liability under Texas DFPS's own definition of harm.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "other",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "almost unfathomable",
    "entities": [
-    "zuranolone",
-    "Zurzuvae",
-    "brexanolone",
-    "Zulresso",
-    "Sage Therapeutics",
-    "Biogen"
+    "Texas Children's Hospital",
+    "Baylor College of Medicine",
+    "Texas DFPS"
    ],
-   "finder_note": "hint: Sage/Biogen Zurzuvae prescription volumes versus Zulresso use; Sage's later decision on Zulresso commercial availability."
+   "finder_note": "Liability-exposure claim; forward-looking in that suits are expected."
   },
   {
    "id": "owen-0160",
    "forecaster": "owen",
-   "statement_date": "2023-08-13",
-   "quote": "It’s not going to get better until we call a spade a spade.",
-   "context": "US suicide deaths and mental health outcomes will not improve under the current approach (money into 988, startups, ineffective treatments); condition: until the system admits current mental health treatment fails and pays for effective treatments instead.",
-   "post_title": "Record High Death by Suicide Rates: CDC Report",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/record-high-death-by-suicide-rates",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "statement_date": "2022-09-13",
+   "quote": "This mandate has even opened the wormhole of legal horror that is the imminent collapse of the very Texas Department of Family Protective Services that is supposed to be the headsman for Governor Abbott’s politically popular execution",
+   "context": "The author predicts the Texas Department of Family and Protective Services, tasked with investigating families under Abbott's directive, faces imminent collapse because failures to investigate are themselves reportable to the same agency.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "regulatory",
+   "horizon_text": "imminent",
+   "confidence_phrase": "imminent collapse",
    "entities": [
-    "CDC",
-    "988 crisis line"
+    "Texas DFPS",
+    "Greg Abbott"
    ],
-   "finder_note": "hint: CDC NCHS provisional suicide death counts for 2023, 2024, 2025 compared with the 2022 record of 49,449."
+   "finder_note": "Hyperbolic register but sincere; names DFPS collapse as imminent."
   },
   {
    "id": "owen-0161",
    "forecaster": "owen",
-   "statement_date": "2023-08-23",
-   "quote": "I'm also about to publish a paper on getting ADHD into remission—in 5 days— with transcranial magnetic stimulation. ... I don't know how long that effect will be durable…",
-   "context": "The author will shortly publish a paper reporting ADHD remission after a 5-day course of transcranial magnetic stimulation; durability of the effect is unknown.",
-   "post_title": "We Have Medical Device Treatment to Address ADHD Medication Shortages",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-medical-device-treatment",
-   "area_guess": "clinical_trial",
-   "horizon_text": "2023-Q4 (inferred: 'about to publish')",
-   "confidence_phrase": "certain",
+   "statement_date": "2022-09-13",
+   "quote": "Failure to investigate any allegations on the part of that agency itself is reportable…to the same agency…with the same dire consequences. This could lead to a möbius loop of iterative reports of failures to protect kids.",
+   "context": "Continuation of the DFPS point: the agency's failure to investigate is itself reportable to DFPS; the author expects a self-referential loop of reports of failures to protect children.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
    "entities": [
-    "Owen Muir",
-    "TMS",
-    "ADHD"
+    "Texas DFPS"
    ],
-   "finder_note": "hint: PubMed or Google Scholar search for Muir OS et al., accelerated TMS for ADHD remission, 2023-2024"
+   "finder_note": "Hedged mechanism claim."
   },
   {
    "id": "owen-0162",
    "forecaster": "owen",
-   "statement_date": "2023-08-23",
-   "quote": "If physicians prescribe this medical device, which is not a controlled substance, they may avoid stimulants in many cases.",
-   "context": "Conditional: if physicians prescribe the Monarch eTNS device, stimulant prescriptions can be avoided in many ADHD cases.",
-   "post_title": "We Have Medical Device Treatment to Address ADHD Medication Shortages",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-medical-device-treatment",
-   "area_guess": "practice_adoption",
+   "statement_date": "2022-09-13",
+   "quote": "Political Action as new agency mission— over the objections of civil servants— is a poor employee retention plan in Child Protection circles, I would imagine.",
+   "context": "The author expects DFPS staff attrition as the agency is redirected to politically driven investigations; he cites Statesman reporting (Chuck Lindell) on employee objections.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "other",
    "horizon_text": "none",
-   "confidence_phrase": "possible",
+   "confidence_phrase": "I would imagine",
    "entities": [
-    "NeuroSigma",
-    "Monarch eTNS",
-    "stimulants"
+    "Texas DFPS",
+    "Greg Abbott",
+    "Austin American-Statesman"
    ],
-   "finder_note": "hint: NeuroSigma Monarch eTNS prescription volume and sales; stimulant prescribing trends 2024-2026"
+   "finder_note": "Hedged retention/attrition prediction."
   },
   {
    "id": "owen-0163",
    "forecaster": "owen",
-   "statement_date": "2023-08-23",
-   "quote": "This is how we solve the ADHD treatment crisis—with better treatments!",
-   "context": "Non-invasive neuromodulation devices (Monarch eTNS, TMS) rather than stimulants will be the way the ADHD treatment and shortage crisis is solved.",
-   "post_title": "We Have Medical Device Treatment to Address ADHD Medication Shortages",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-medical-device-treatment",
-   "area_guess": "practice_adoption",
+   "statement_date": "2022-09-13",
+   "quote": "If sued, she can and should loose. Subsequently her insurance would have to pay out on the claim. Medical Malpractice risk management starts to get nervous right about now.",
+   "context": "Hypothetical ER child psychiatrist bound by the Texas mandate: the author predicts she would lose a malpractice suit, her carrier would pay out, and carriers' risk management would react.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "other",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "can and should ... would have to",
    "entities": [
-    "Monarch eTNS",
-    "TMS",
-    "ADHD stimulant shortage"
+    "Texas",
+    "medical malpractice carriers"
    ],
-   "finder_note": "hint: FDA drug shortage list for stimulants; uptake data for eTNS and TMS in ADHD 2024-2026"
+   "finder_note": "Conditional on a hypothetical case; compound (loses suit, insurer pays, carriers get nervous)."
   },
   {
    "id": "owen-0164",
    "forecaster": "owen",
-   "statement_date": "2023-08-23",
-   "quote": "At this point, there's a hard limit on stimulant medications, and there's a hard limit on the amount of frustration anybody is going to put up with to prescribe them.",
-   "context": "Stimulant prescribing for ADHD has hit a ceiling (DEA quota and supply limits plus prescriber frustration) and cannot scale further.",
-   "post_title": "We Have Medical Device Treatment to Address ADHD Medication Shortages",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-medical-device-treatment",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "statement_date": "2022-09-13",
+   "quote": "Federal oversight of adequacy returns in 2023.",
+   "context": "In the ERISA/ACA section on network adequacy standards (time/distance, provider minimums, wait times), the author states federal oversight of network adequacy returns in 2023.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "regulatory",
+   "horizon_text": "in 2023",
+   "confidence_phrase": "none",
    "entities": [
-    "stimulants",
-    "DEA"
+    "ACA",
+    "ERISA",
+    "federal government"
    ],
-   "finder_note": "hint: IQVIA stimulant prescription volumes 2023-2026; DEA aggregate production quota changes"
+   "finder_note": "Dated regulatory call; the federal agency is not named."
   },
   {
    "id": "owen-0165",
    "forecaster": "owen",
-   "statement_date": "2023-08-24",
-   "quote": "The following is generated off of TwitterGPT, which I strongly suspect will require a threads instance.",
-   "context": "Twitter/X is in its 'dying days' (per subtitle) and tools like TwitterGPT will need to move to a Threads-based version; implies Threads displaces Twitter.",
-   "post_title": "E-motion Capture: AI missed our intentions by focusing on our words.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/e-motion-capture-ai-missed-our-intentions",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "likely",
+   "statement_date": "2022-09-13",
+   "quote": "They make the standard of care illegal, and pretty quickly, the sequela of that — medical malpractice lawsuits, doctors fleeing your state, etc— create what some of us in healthcare advocacy would consider an opportunity",
+   "context": "Summing up: Abbott-style actions make the standard of care illegal, and the author predicts malpractice suits and physician flight from Texas will follow quickly, creating an ERISA-enforcement opportunity for advocates. Earlier he asks readers to imagine wait times 'when doctors start fleeing your state'.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "practice_adoption",
+   "horizon_text": "pretty quickly",
+   "confidence_phrase": "none",
    "entities": [
-    "Twitter/X",
-    "Threads",
-    "TwitterGPT"
+    "Greg Abbott",
+    "Texas",
+    "ERISA"
    ],
-   "finder_note": "hint: Operating status and user counts of X (Twitter) versus Threads, 2024-2026"
+   "finder_note": "Compound: lawsuits, doctor flight, advocacy opportunity."
   },
   {
    "id": "owen-0166",
    "forecaster": "owen",
-   "statement_date": "2023-08-25",
-   "quote": "If you are training a model on humans, and you take out the thing that some humans are really good at—having some ability to distinguish nonsense from not too much nonsense—you will get a very brutal regression to the mean.",
-   "context": "Generative AI trained on human data without a trust/intent filter will only ever produce average-of-human output and will keep disappointing; borderline, stated as a general rule.",
-   "post_title": "The Disappointment with Generative AI...is Hilariously Human",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-disappointment-with-generative",
-   "area_guess": "other",
+   "statement_date": "2022-09-13",
+   "quote": "They create ERISA plan insufficiencies that are clear and unambiguous. This opens the door for definitive enforcement of the fiduciary rule under the CA 2020 law.",
+   "context": "The author expects the Texas ban to produce clear ERISA network insufficiencies, enabling definitive enforcement of the broker/plan-sponsor fiduciary rule from the Consolidated Appropriations Act (which he labels 'CA 2020'). He then argues a claim against a Texas employer would be 'unbelievably easy'.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "payer_policy",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "opens the door",
    "entities": [
-    "generative AI",
-    "ChatGPT",
-    "Stable Diffusion"
+    "ERISA",
+    "Consolidated Appropriations Act 2020",
+    "Texas"
    ],
-   "finder_note": "hint: LLM capability benchmarks versus expert human performance 2024-2026"
+   "finder_note": "Enforcement-opportunity claim."
   },
   {
    "id": "owen-0167",
    "forecaster": "owen",
-   "statement_date": "2023-08-28",
-   "quote": "If we use the standard P value from science for the evaluation of health plans, we will solve a lot of arguments!",
-   "context": "Conditional: if the Department of Labor applies a null-hypothesis statistical test (p<0.05, Bonferroni-corrected) to spending across ICD-10 codes, parity disputes with payers will largely be settled. Proposal framed as prediction; vague.",
-   "post_title": "Mental Health Parity Enforcement Made Simple",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-parity-enforcement",
-   "area_guess": "payer_policy",
+   "statement_date": "2022-09-13",
+   "quote": "What is the number of providers available to provide gender affirming care to trans youth in the state of Texas? Answer : zero. All of them will go to jail if they do so.",
+   "context": "Worked example of an ERISA adequacy violation: the author asserts zero providers of gender-affirming care remain in Texas and that any who provide it will go to jail. Nearby he adds that families who seek care out of state 'still might' be prosecuted on return.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "will",
    "entities": [
-    "Department of Labor",
-    "MHPAEA",
-    "health plans"
+    "Texas",
+    "Greg Abbott"
    ],
-   "finder_note": "hint: DOL/HHS/Treasury MHPAEA enforcement reports and the 2024 MHPAEA final rule methodology"
-  },
-  {
-   "id": "owen-0168",
-   "forecaster": "owen",
-   "statement_date": "2023-08-30",
-   "quote": "A New Era ... “it F$@ing works.” And it does. Reliably.",
-   "context": "fMRI-guided accelerated TMS (SAINT) opens a new era in depression treatment; the author implies it will reliably replace underwhelming drug outcomes. Borderline, vague.",
-   "post_title": "The Most Effective Depression Treatment Ever is an FDA Breakthrough",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-most-effective-depression-treatment",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "SAINT",
-    "Magnus Medical",
-    "accelerated TMS"
-   ],
-   "finder_note": "hint: SAINT adoption metrics: Magnus Medical site count, CMS NTAP claims, replication trials 2024-2026"
-  },
-  {
-   "id": "owen-0169",
-   "forecaster": "owen",
-   "statement_date": "2023-08-31",
-   "quote": "Neuromodulation is the future of the field…and in my day today practice, I focus on that new modality of neuromodulation",
-   "context": "Neuromodulation will become the dominant treatment modality in psychiatry, displacing once-daily oral medication.",
-   "post_title": "Olanzapine ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/olanzapine",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "neuromodulation",
-    "TMS"
-   ],
-   "finder_note": "hint: Multi-year trend data on TMS and other neuromodulation utilization versus psychopharmacology (CMS claims, industry reports)"
-  },
-  {
-   "id": "owen-0170",
-   "forecaster": "owen",
-   "statement_date": "2023-09-02",
-   "quote": "It takes about $2b to bring one of these medications to market, given the global market is $16.14 billion in 2023, growing to $24.35 billion by 2030; these have been a very profitable class of medications.",
-   "context": "The global atypical antipsychotic market will grow from $16.14 billion in 2023 to $24.35 billion by 2030. The author repeats an industry market projection as fact in a footnote.",
-   "post_title": "Lurasidone",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lurasidone",
-   "area_guess": "company_market",
-   "horizon_text": "2030",
-   "confidence_phrase": "certain",
-   "entities": [
-    "atypical antipsychotics market"
-   ],
-   "finder_note": "hint: Market research reports on global atypical antipsychotic market size, 2030"
-  },
-  {
-   "id": "owen-0171",
-   "forecaster": "owen",
-   "statement_date": "2023-09-06",
-   "quote": "This treatment is available in the outpatient setting through the open label dose optimization study offered by Magnus Medical, and soon, in hospital settings under the new technology add-on payment program.",
-   "context": "SAINT (Magnus Medical fMRI-guided accelerated TMS) will soon be available in hospital settings, paid under the CMS New Technology Add-on Payment (NTAP) program.",
-   "post_title": "The Best Treatment for Depression in Under One Minute",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-treatment-for-depression",
-   "area_guess": "payer_policy",
-   "horizon_text": "2023-Q4 (inferred: 'soon'; CMS FY2024 NTAP took effect 2023-10-01)",
-   "confidence_phrase": "certain",
-   "entities": [
-    "Magnus Medical",
-    "SAINT",
-    "CMS NTAP"
-   ],
-   "finder_note": "hint: CMS FY2024 IPPS final rule NTAP list (SAINT Neuromodulation System); Magnus Medical press releases on first hospital sites, late 2023 to 2024"
-  },
-  {
-   "id": "owen-0172",
-   "forecaster": "owen",
-   "statement_date": "2023-09-15",
-   "quote": "SAINT is the most effective depression treatment of all time. Depression is in Remission in 5 days for MOST people suffering. It is also among best safety profiles of any psychiatric treatment.",
-   "context": "SAINT will deliver remission of depression within 5 days for a majority of patients in practice, and is the most effective and among the safest psychiatric treatments (present-tense efficacy claim that future real-world data would test).",
-   "post_title": "Forward this Email to HR and Ask When Depression Being in Remission Will Be Covered...'Cause SAINT is Here, Now.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/forward-this-email-to-hr-and-ask",
-   "area_guess": "science_claim",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "SAINT",
-    "Magnus Medical"
-   ],
-   "finder_note": "hint: Real-world SAINT outcome publications and Magnus Medical registry data (remission rate >50% at 5 days)"
-  },
-  {
-   "id": "owen-0173",
-   "forecaster": "owen",
-   "statement_date": "2023-09-15",
-   "quote": "Ask your employer when remission from depression will be a standard part of your health plan? They pay for pills that don’t work, time to also cover sustained remission without any medicine needed.",
-   "context": "Borderline: implied call that employer health plans will (and should) come to cover SAINT as a standard benefit; framed as a rhetorical question plus a 'should', so low confidence as a prediction.",
-   "post_title": "Forward this Email to HR and Ask When Depression Being in Remission Will Be Covered...'Cause SAINT is Here, Now.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/forward-this-email-to-hr-and-ask",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "possible",
-   "entities": [
-    "SAINT",
-    "Magnus Medical",
-    "employer health plans"
-   ],
-   "finder_note": "hint: Commercial payer medical policies covering SAINT/accelerated TMS (CPT 90867-90869 with SAINT protocol) 2024-2026"
-  },
-  {
-   "id": "owen-0174",
-   "forecaster": "owen",
-   "statement_date": "2023-09-20",
-   "quote": "There is a better future for people with depression. It is here. It is brain stimulation. SNT’s methodology is real. This paper’s data is from the real world, supporting my overarching argument that brain simulation is the future of depression treatment.",
-   "context": "Brain stimulation (accelerated TMS such as SNT/SAINT and Brainsway accelerated protocols) will become the dominant future treatment for depression, displacing oral antidepressants.",
-   "post_title": "Depression Can Be Over In 5 Days...Replicated.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-in-5-daysreplicated",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "SAINT",
-    "SNT",
-    "Magnus Medical",
-    "BrainsWay",
-    "accelerated TMS"
-   ],
-   "finder_note": "hint: Accelerated TMS / SAINT utilization data, CMS claims volume, Magnus Medical and BrainsWay reports 2024-2026"
-  },
-  {
-   "id": "owen-0175",
-   "forecaster": "owen",
-   "statement_date": "2023-09-20",
-   "quote": "In the future, we will learn which patients need which stimulator for which part of the brain.",
-   "context": "Future research will establish which depression patients need which TMS device and which brain target (personalized neuromodulation targeting).",
-   "post_title": "Depression Can Be Over In 5 Days...Replicated.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-in-5-daysreplicated",
-   "area_guess": "science_claim",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "TMS",
-    "SAINT",
-    "BrainsWay"
-   ],
-   "finder_note": "hint: Published biomarker/targeting studies for TMS device and target selection (e.g., fMRI-guided targeting trials) 2024-2026"
-  },
-  {
-   "id": "owen-0176",
-   "forecaster": "owen",
-   "statement_date": "2023-09-20",
-   "quote": "Psilocybin also gets depression to remission rapidly. I have to finish editing a series of papers on psychedelic medicines, but I promise you the data is strong.",
-   "context": "The author's forthcoming series of papers on psychedelic medicines will show strong data that psilocybin rapidly brings depression to remission.",
-   "post_title": "Depression Can Be Over In 5 Days...Replicated.",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-in-5-daysreplicated",
-   "area_guess": "science_claim",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "psilocybin",
-    "psychedelic medicines"
-   ],
-   "finder_note": "hint: PubMed search for Muir O co-authored psychedelic/psilocybin papers published 2023-2026 and their reported effect sizes"
-  },
-  {
-   "id": "owen-0177",
-   "forecaster": "owen",
-   "statement_date": "2023-10-03",
-   "quote": "A reminder, this medical device is FDA approved, for use in children seven through 12, for the treatment of attention deficit hyperactivity disorder as a monotherapy. I suspect does quite a bit more than just that.",
-   "context": "The Monarch eTNS device will prove to have efficacy beyond its FDA-cleared use (pediatric ADHD monotherapy), for example in adults or other conditions.",
-   "post_title": "Frontier Update: Night 3 of Monarch eTNS Use Has Been Awesome",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/frontier-update-night-3-of-monarch",
-   "area_guess": "science_claim",
-   "horizon_text": "none",
-   "confidence_phrase": "likely",
-   "entities": [
-    "Monarch eTNS",
-    "NeuroSigma",
-    "FDA"
-   ],
-   "finder_note": "hint: NeuroSigma Monarch eTNS new FDA clearances or published trials in adult ADHD, PTSD, epilepsy 2024-2026"
-  },
-  {
-   "id": "owen-0178",
-   "forecaster": "owen",
-   "statement_date": "2023-10-03",
-   "quote": "It is a Brains Stimulation future? Maybe. We will see.",
-   "context": "Brain stimulation devices may become the future of psychiatric treatment (hedged, vague).",
-   "post_title": "Frontier Update: Night 3 of Monarch eTNS Use Has Been Awesome",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/frontier-update-night-3-of-monarch",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "possible",
-   "entities": [
-    "Monarch eTNS",
-    "brain stimulation"
-   ],
-   "finder_note": "hint: Neuromodulation device market and utilization trends 2024-2026"
-  },
-  {
-   "id": "owen-0179",
-   "forecaster": "owen",
-   "statement_date": "2023-10-11",
-   "quote": "It will be hard to explain why making me pay 29 extra dollars to your Pharmacy benefit manager ... is in my interest as a plan member. Times…most of America. That law goes into effect for every CEO and every CFO of every company covered by ERISA on December 31, 2023. Buckle up.",
-   "context": "When the ERISA 'no gag clause' attestation requirement takes effect on December 31, 2023, employer plan fiduciaries will face serious trouble (breach of fiduciary duty exposure) over PBM overcharges like the one the author documented.",
-   "post_title": "\"How is that possible?!\"",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-is-that-possible",
-   "area_guess": "payer_policy",
-   "horizon_text": "2023-12-31",
-   "confidence_phrase": "certain",
-   "entities": [
-    "ERISA",
-    "PBMs",
-    "Walgreens",
-    "CapitalRx",
-    "Mark Cuban Cost Plus"
-   ],
-   "finder_note": "hint: ERISA fiduciary-duty lawsuits over PBM drug pricing filed 2024 (e.g., Lewandowski v. Johnson & Johnson, Feb 2024; Wells Fargo suit); CMS gag clause prohibition compliance attestation records"
-  },
-  {
-   "id": "owen-0180",
-   "forecaster": "owen",
-   "statement_date": "2023-10-18",
-   "quote": "Neither high turnover of health care personnel nor doubling their wages is a great look for a country with triple the number of elderly people in 2060, but it’s a splash in the pan compared to the graft in the system.",
-   "context": "The US will have roughly triple the number of elderly people by 2060 (asserted demographic projection, likely from Census data), which will strain a healthcare workforce with high turnover and rising wages.",
-   "post_title": "How Health Care is Paid For in America: Part I",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-health-care-is-paid-for-in-america",
-   "area_guess": "other",
-   "horizon_text": "2060",
-   "confidence_phrase": "certain",
-   "entities": [
-    "US healthcare workforce",
-    "AMA",
-    "CMS"
-   ],
-   "finder_note": "hint: US Census Bureau population projections for age 65+ in 2060"
-  },
-  {
-   "id": "owen-0181",
-   "forecaster": "owen",
-   "statement_date": "2023-10-20",
-   "quote": "I explained the future of mental healthcare and how the crisis we’re facing can be over, if only we would pay for things that exist now",
-   "context": "Conditional call: if payers/employers pay for existing rapid-acting treatments (neuromodulation, AI-guided care), the mental health crisis can end.",
-   "post_title": "Watch this Video About AI-Guided Future of Mental Health Care",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/watch-this-video-about-ai-guided",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "possible",
-   "entities": [
-    "Validation Institute",
-    "Al Lewis",
-    "SAINT",
-    "BRAIN"
-   ],
-   "finder_note": "hint: Payer coverage trends for SAINT/BRAIN/eTNS; population mental health outcome data"
-  },
-  {
-   "id": "owen-0182",
-   "forecaster": "owen",
-   "statement_date": "2023-10-23",
-   "quote": "Bipolar disorder is a circadian rhythm disorder even more than a mood disorder. ... Bipolar Disorder: It’s a Circadian Rhythm Thing, Maybe.",
-   "context": "Science claim: bipolar disorder will turn out to be fundamentally a circadian rhythm disorder (driven by 460 nm light input to the SCN) rather than primarily a mood disorder.",
-   "post_title": "Is Bipolar Disorder a Circadian Rhythm Disorder? ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bipolar-disorder-might-be-a-circadian",
-   "area_guess": "science_claim",
-   "horizon_text": "none",
-   "confidence_phrase": "possible",
-   "entities": [
-    "bipolar disorder",
-    "suprachiasmatic nucleus",
-    "460nm light",
-    "virtual darkness"
-   ],
-   "finder_note": "hint: Future chronobiology research on bipolar disorder; trials of blue-blocking 'virtual darkness' and IPSRT"
-  },
-  {
-   "id": "owen-0183",
-   "forecaster": "owen",
-   "statement_date": "2023-10-26",
-   "quote": "Simply put, if the blind doesn't make it impossible to tell group assignment because the placebo and the active agent feel enough alike that people can't tell the difference. It's not a double-blind trial. Yes, I'm looking at you, psychedelic medicines.",
-   "context": "Psychedelic medicine trials are functionally unblinded and should not be treated as true double-blind RCTs; implied call that their 'double-blind' evidence will not hold up to scrutiny.",
-   "post_title": "AACAP Dispatch, Day 2: Don't Break the Blind!",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/aacap-dispatch-day-2-dont-break-the",
-   "area_guess": "clinical_trial",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "psychedelic medicines",
-    "Monarch eTNS",
-    "MDMA"
-   ],
-   "finder_note": "hint: FDA Psychopharmacologic Drugs Advisory Committee June 2024 (MDMA) and Lykos CRL Aug 2024, both citing functional unblinding; ICER 2024 MDMA report"
+   "finder_note": "Hyperbolic conditional ('will go to jail if they do so')."
   }
  ]
 }

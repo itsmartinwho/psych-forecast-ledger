@@ -1,0 +1,824 @@
+{
+ "packet": "code-42.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1880",
+   "forecaster": "owen",
+   "statement_date": "2025-08-26",
+   "quote": "This is part one of that attempt. Yes, there's more.",
+   "context": "Intro to the Wizard of Oz health-insurance parody. The author says more parts of the series will follow in this newsletter.",
+   "post_title": "The Cyclone...Insurance Policy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cycloneinsurance-policy-7ce",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own newsletter content promise (CONTROL candidate). Footnote 9 adds 'There are other standards as well, as Dorothy will learn in her journey.'"
+  },
+  {
+   "id": "owen-1881",
+   "forecaster": "owen",
+   "statement_date": "2025-08-26",
+   "quote": "The Wizard of Odds is Subscribers Only …after this. Subscribe and get the rest…",
+   "context": "Line at the end of the story portion of part one. The author states that later installments of The Wizard of Odds series will be for paid subscribers only.",
+   "post_title": "The Cyclone...Insurance Policy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cycloneinsurance-policy-7ce",
+   "area_guess": "other",
+   "horizon_text": "after this",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own newsletter paywall statement (CONTROL candidate)."
+  },
+  {
+   "id": "owen-1883",
+   "forecaster": "owen",
+   "statement_date": "2025-08-27",
+   "quote": "These treatments include Spravato , Nightware, eTNS, PRISM Neurofeedback, and soon, eCOT-AS by Neurolief, TMS , Accelerated TMS, and fMRI-guided SAINT TMS.",
+   "context": "Sponsor blurb near the top of the post listing treatments offered at Radial, the author's clinic. It states that eCOT-AS, a Neurolief device, will be offered soon.",
+   "post_title": "Dorothy Utilizes Her Health Plan's Care Navigation Solution",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dorothy-utilizes-her-health-plans",
+   "area_guess": "practice_adoption",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "Radial",
+    "Neurolief",
+    "eCOT-AS"
+   ],
+   "finder_note": "Own-organization claim (Radial and Neurolief); repeat of the sponsor blurb seen in posts 1 and 2."
+  },
+  {
+   "id": "owen-1884",
+   "forecaster": "owen",
+   "statement_date": "2025-08-27",
+   "quote": "I mean, there has been so much consolidation it could be any of them because they are all acquiring each other until there is nothing left.",
+   "context": "Footnote 3 of the parody. The fictional insurer UnitedHealthShare is said not to parody any specific half-trillion-dollar company; the author says large health insurers keep acquiring each other toward an endpoint of total consolidation.",
+   "post_title": "Dorothy Utilizes Her Health Plan's Care Navigation Solution",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dorothy-utilizes-her-health-plans",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Hyperbolic trend claim about health-insurer consolidation; no real company is named (the footnote disclaims any specific target)."
+  },
+  {
+   "id": "owen-1885",
+   "forecaster": "owen",
+   "statement_date": "2025-08-28",
+   "quote": "These treatments include Spravato , Nightware, eTNS, PRISM Neurofeedback, and soon, eCOT-AS by Neurolief, TMS , Accelerated TMS, and fMRI-guided SAINT TMS.",
+   "context": "Sponsor blurb near the top of the post listing treatments offered at Radial, the author's clinic. It states that eCOT-AS, a Neurolief device, will be offered soon.",
+   "post_title": "Dorothy Becomes an Early Adopter.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dorothy-becomes-an-early-adopter",
+   "area_guess": "practice_adoption",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "Radial",
+    "Neurolief",
+    "eCOT-AS"
+   ],
+   "finder_note": "Own-organization claim (Radial and Neurolief); repeat of the sponsor blurb seen in earlier posts."
+  },
+  {
+   "id": "owen-1886",
+   "forecaster": "owen",
+   "statement_date": "2025-08-29",
+   "quote": "These treatments include Spravato , Nightware, eTNS, PRISM Neurofeedback, and soon, eCOT-AS by Neurolief, TMS , Accelerated TMS, and fMRI-guided SAINT TMS.",
+   "context": "Sponsor blurb in the middle of the post ('A Word From My Actual Company') listing treatments offered at Radial, the author's clinic. It states that eCOT-AS, a Neurolief device, will be offered soon.",
+   "post_title": "Dorothy Follows the Patient Journey... to Obtain Prior Authorization for a Specialty Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dorothy-follows-the-patient-journey",
+   "area_guess": "practice_adoption",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "Radial",
+    "Neurolief",
+    "eCOT-AS"
+   ],
+   "finder_note": "Own-organization claim (Radial and Neurolief); repeat of the sponsor blurb seen in earlier posts."
+  },
+  {
+   "id": "owen-1888",
+   "forecaster": "owen",
+   "statement_date": "2025-09-02",
+   "quote": "Stay tuned for the next exciting chapter!",
+   "context": "Sign-off of chapter six of the Wizard of Oz parody serial; the author promises a further chapter of the series in the newsletter.",
+   "post_title": "Dorothy's Pitch to the Investor",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dorothys-pitch-to-the-investor",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter next-installment announcement; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1889",
+   "forecaster": "owen",
+   "statement_date": "2025-09-04",
+   "quote": "Subscribe to never to miss another installment.",
+   "context": "Sign-off of the 7th installment of the Wizard of Oz parody; presupposes that further installments will follow in the newsletter.",
+   "post_title": "The Private Equity Investor Lost His Heart...Literally.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-private-equity-investor-lost-ab1",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Implied next-installment announcement (imperative sentence). Low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1890",
+   "forecaster": "owen",
+   "statement_date": "2025-09-05",
+   "quote": "is moving to release more of these “complete response letters.” (CRL)",
+   "context": "Opening of a post on the FDA's complete response letter for the Lykos/MAPS MDMA-assisted therapy application. The author says the FDA, as part of a push toward transparency, is moving to release more CRLs publicly.",
+   "post_title": "The FDA Kills \"Psychedelic-Assisted\"Branded Therapy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fda-kills-psychedelic-assistedbranded",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "is moving to",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Describes an in-progress agency trend; implies more CRL releases to come."
+  },
+  {
+   "id": "owen-1891",
+   "forecaster": "owen",
+   "statement_date": "2025-09-05",
+   "quote": "To expect your drug-therapy Frankenstein to get approved is quixotic at best.",
+   "context": "After quoting the CRL's finding that MAPP2 adverse-event definitions did not match what the FDA asked for, the author says that expecting approval of the MDMA plus MAPS-branded therapy combination is quixotic.",
+   "post_title": "The FDA Kills \"Psychedelic-Assisted\"Branded Therapy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fda-kills-psychedelic-assistedbranded",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "quixotic at best",
+   "entities": [
+    "FDA",
+    "Lykos",
+    "MAPS",
+    "MDMA-AT",
+    "midomafetamine"
+   ],
+   "finder_note": "Negative call on approval prospects for the MDMA-AT drug-plus-branded-therapy submission."
+  },
+  {
+   "id": "owen-1893",
+   "forecaster": "owen",
+   "statement_date": "2025-09-05",
+   "quote": "The MAPS mission of getting a therapy cult over the line as an FDA-approved therapeutic is dead .",
+   "context": "After quoting the CRL's recommendation to use evidence-based standard-of-care psychotherapy instead of the MAPS-developed psychotherapy in future studies, the author declares the MAPS mission of FDA approval for its branded therapy dead.",
+   "post_title": "The FDA Kills \"Psychedelic-Assisted\"Branded Therapy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fda-kills-psychedelic-assistedbranded",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "is dead",
+   "entities": [
+    "MAPS",
+    "FDA",
+    "Lykos"
+   ],
+   "finder_note": "Negative call: MAPS-branded psychotherapy will not become an FDA-approved therapeutic. Verbatim text has a space before the final period."
+  },
+  {
+   "id": "owen-1894",
+   "forecaster": "owen",
+   "statement_date": "2025-09-05",
+   "quote": "any future psychedelic-assisted therapy trials intended for approval from FDA won’t include kooky inner healing intelligen ce or recreating psychotherapy from scratch.",
+   "context": "Summary conclusion after the CRL advised a factorial design with a no-psychotherapy arm and evidence-based standard-of-care psychotherapy: the author predicts that future FDA-approval psychedelic trials will not use MAPS-style 'inner healing intelligence' or newly invented psychotherapies.",
+   "post_title": "The FDA Kills \"Psychedelic-Assisted\"Branded Therapy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fda-kills-psychedelic-assistedbranded",
+   "area_guess": "clinical_trial",
+   "horizon_text": "any future",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "FDA",
+    "MAPS"
+   ],
+   "finder_note": "Verbatim text splits 'intelligence' as 'intelligen ce'."
+  },
+  {
+   "id": "owen-1895",
+   "forecaster": "owen",
+   "statement_date": "2025-09-07",
+   "quote": "We're going to keep up that cadence this year. The one “riff” is that we're going to have an AI-focused event for JPM Health.",
+   "context": "Programming notes at the end of a parenting essay. RAMHT (the author's rapid acting mental health treatment events) held live events in San Francisco in July (concurrent with a JPM health conference) and in May (concurrent with the American Psychiatric Association meeting); the author says they will keep that cadence this year.",
+   "post_title": "Don't Tell Kids \"It Will Be Okay.\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-tell-kids-it-will-be-okay",
+   "area_guess": "other",
+   "horizon_text": "this year",
+   "confidence_phrase": "We're going to",
+   "entities": [
+    "RAMHT",
+    "JPM",
+    "American Psychiatric Association"
+   ],
+   "finder_note": "Own-organization event plan. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1896",
+   "forecaster": "owen",
+   "statement_date": "2025-09-07",
+   "quote": "we're going to have an AI-focused event for JPM Health.",
+   "context": "Same programming note: the one change to the RAMHT event cadence is an AI-focused event timed with the JPM health conference; the author invites sponsors to reach out.",
+   "post_title": "Don't Tell Kids \"It Will Be Okay.\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-tell-kids-it-will-be-okay",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "we're going to",
+   "entities": [
+    "RAMHT",
+    "JPM"
+   ],
+   "finder_note": "Own-organization event plan. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1897",
+   "forecaster": "owen",
+   "statement_date": "2025-09-07",
+   "quote": "a medical device company that is bringing an at-home depression treatment device through the FDA right now.",
+   "context": "Programming note: the author says his second job is at Neurolief, which is taking an at-home depression treatment device (eCOT-AS) through the FDA; he mentions the MOOD study just published in Brain Stimulation.",
+   "post_title": "Don't Tell Kids \"It Will Be Okay.\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-tell-kids-it-will-be-okay",
+   "area_guess": "regulatory",
+   "horizon_text": "right now",
+   "confidence_phrase": "none",
+   "entities": [
+    "Neurolief",
+    "FDA",
+    "eCOT-AS"
+   ],
+   "finder_note": "Describes an ongoing FDA submission for the author's own company; implies an expected FDA decision. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1898",
+   "forecaster": "owen",
+   "statement_date": "2025-09-07",
+   "quote": "soon, eCOT-AS by Neurolief",
+   "context": "Radial promotional footer listing treatments offered: Spravato, Nightware, eTNS, PRISM Neurofeedback, 'soon, eCOT-AS by Neurolief', TMS, Accelerated TMS and fMRI-guided SAINT TMS. Implies Radial will soon offer Neurolief's eCOT-AS device.",
+   "post_title": "Don't Tell Kids \"It Will Be Okay.\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-tell-kids-it-will-be-okay",
+   "area_guess": "practice_adoption",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "Radial",
+    "Neurolief",
+    "eCOT-AS"
+   ],
+   "finder_note": "Boilerplate footer repeated across posts (also in depression-can-be-over-in-6-half). Own organizations; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1899",
+   "forecaster": "owen",
+   "statement_date": "2025-09-07",
+   "quote": "we're hiring. New York, Connecticut, Massachusetts, California, Missouri, South Carolina, Florida, and other states, if you're particularly enterprising, please feel free to reach out!",
+   "context": "Radial is hiring clinicians in NY, CT, MA, CA, MO, SC, FL and other states, implying planned service expansion into Connecticut, Massachusetts, and Florida beyond its current sites.",
+   "post_title": "Don't Tell Kids \"It Will Be Okay.\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-tell-kids-it-will-be-okay",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Radial"
+   ],
+   "finder_note": "hint: Radial locations page and job postings by state"
+  },
+  {
+   "id": "owen-1900",
+   "forecaster": "owen",
+   "statement_date": "2025-09-12",
+   "quote": "Our children, I fear, will judge us harshly for the choices we’ve made.",
+   "context": "Essay on US gun deaths after Charlie Kirk's killing. The author argues children notice mass shootings and will form opinions; he fears future harsh judgment from children for the choice to privilege gun access over child safety.",
+   "post_title": "In Other News, More People Are Shot to Death",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/in-other-news-more-people-are-shot",
+   "area_guess": "other",
+   "horizon_text": "years from now",
+   "confidence_phrase": "I fear, will",
+   "entities": [
+    "Charlie Kirk"
+   ],
+   "finder_note": "Social/rhetorical forecast; preceded by 'My children, your children, Mr. Kirk's children, will all have an opinion.'"
+  },
+  {
+   "id": "owen-1901",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "why I think this drug, and others like it, might actually be best understood as a turning point for Medicaid plans.",
+   "context": "Thesis of a post on MindMed's phase 2b JAMA paper on MM-120 (oral LSD) for GAD: the author thinks single-dose psychedelics like MM-120 may become a turning point for Medicaid plans because rapid remission could save money within short enrollment spans.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... might",
+   "entities": [
+    "MindMed",
+    "MM-120",
+    "Medicaid"
+   ],
+   "finder_note": "Author discloses about 500 MindMed shares and a past PI role on MindMed trials."
+  },
+  {
+   "id": "owen-1902",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "MM-120, if approved, is a single-dose treatment with durability that could quickly realize its benefits in individuals on Medicaid, potentially accomplishing the almost impossible task of saving money in a Medicaid health plan.",
+   "context": "Crux of the argument: conditional on FDA approval, MM-120's single-dose fast-acting profile could save money for Medicaid plans, which the author calls almost impossible normally because average Medicaid enrollment is measured in months.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "payer_policy",
+   "horizon_text": "if approved",
+   "confidence_phrase": "could ... potentially",
+   "entities": [
+    "MindMed",
+    "MM-120",
+    "Medicaid",
+    "FDA"
+   ],
+   "finder_note": "Conditional on approval; compound (approval plus plan savings)."
+  },
+  {
+   "id": "owen-1903",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "If MM120 works in a single day and single dose, and people who don't have anxiety get back to work, that alone could reduce the number of Medicaid beneficiaries out of work.",
+   "context": "Conditional claim that fast GAD remission from MM120 could reduce the number of Medicaid beneficiaries who are out of work, which the author says is good for state budgets.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "MM-120",
+    "Medicaid"
+   ],
+   "finder_note": "Conditional mechanism claim."
+  },
+  {
+   "id": "owen-1904",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "since MM120 works so quickly, the savings might be realized in the timeframe in which the individual is on the plan.",
+   "context": "Even for beneficiaries who stay on Medicaid but change plans, the author says a Medicaid plan might realize MM120-driven savings within the enrollee's time on the plan (average 11.6 months over a 12-month span).",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "MM-120",
+    "Medicaid"
+   ],
+   "finder_note": "Hedged mechanism claim tied to short Medicaid enrollment spans."
+  },
+  {
+   "id": "owen-1905",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "This story will get even stronger if MM120 gets a major depressive disorder indication.",
+   "context": "The author notes MindMed also runs phase III trials for MDD; if MM120 gets an MDD indication, the Medicaid savings case becomes stronger.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will ... if",
+   "entities": [
+    "MindMed",
+    "MM-120",
+    "FDA",
+    "Medicaid"
+   ],
+   "finder_note": "Conditional on a future MDD indication."
+  },
+  {
+   "id": "owen-1906",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "We might have a very rare combination of excellent outcomes, limited risks, and the ability to drive savings with one treatment if the data from the phase 2b trial is replicated in subsequent studies and into the real world.",
+   "context": "Closing hedge: the favorable outcome, risk and savings profile of MM-120 holds if the phase 2b results replicate in phase III and in real-world use.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "might ... if",
+   "entities": [
+    "MindMed",
+    "MM-120",
+    "Medicaid"
+   ],
+   "finder_note": "Conditional on replication of phase 2b data."
+  },
+  {
+   "id": "owen-1907",
+   "forecaster": "owen",
+   "statement_date": "2025-09-17",
+   "quote": "More treatments exist, and are coming too. One addresses anhedonia and doesn’t hurt at all—brand name PRISM-MDD . Another, ProLivRx, can be done entirely at home .",
+   "context": "After describing the FDA clearance (granted the day of the post) of the Brainsway accelerated deep TMS protocol, the author says more depression treatments are coming: PRISM-MDD (anhedonia, painless), ProLivRx (fully at home), and psychedelics.",
+   "post_title": "Depression Can Be Over In 6 Half-Days With No Drugs?!? ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-in-6-half",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are coming",
+   "entities": [
+    "PRISM-MDD",
+    "ProLivRx",
+    "Brainsway"
+   ],
+   "finder_note": "Compound: several upcoming treatments named; 'Let's not forget psychedelics!' follows. Verbatim text has spaces before periods."
+  },
+  {
+   "id": "owen-1908",
+   "forecaster": "owen",
+   "statement_date": "2025-09-17",
+   "quote": "soon, eCOT-AS by Neurolief",
+   "context": "Radial promotional footer listing treatments offered: Spravato, Nightware, eTNS, PRISM Neurofeedback, 'soon, eCOT-AS by Neurolief', TMS, Accelerated TMS and fMRI-guided SAINT TMS. Implies Radial will soon offer Neurolief's eCOT-AS device.",
+   "post_title": "Depression Can Be Over In 6 Half-Days With No Drugs?!? ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-in-6-half",
+   "area_guess": "practice_adoption",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "Radial",
+    "Neurolief",
+    "eCOT-AS"
+   ],
+   "finder_note": "Boilerplate footer repeated from dont-tell-kids-it-will-be-okay. Own organizations; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1909",
+   "forecaster": "owen",
+   "statement_date": "2025-09-24",
+   "quote": "It's also probably a decision to keep all of us safer, to keep those interested in the dreadful combination of murder and suicide away from guns, and maybe even reduce mass shootings.",
+   "context": "Discussing population-level means restriction (limiting access to guns), the author says that beyond protecting undetected high-risk individuals, it is probably a decision that keeps everyone safer and may reduce mass shootings.",
+   "post_title": "Can We Prevent Suicide?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-we-prevent-suicide",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "probably ... maybe even",
+   "entities": [],
+   "finder_note": "Hedged policy-effect claim; gun policy is outside the listed areas, so 'other'."
+  },
+  {
+   "id": "owen-1910",
+   "forecaster": "owen",
+   "statement_date": "2025-09-24",
+   "quote": "I stand firm that the data suggest that mass shootings only happen with guns, and that restricting access to guns would reduce mass shootings, because obviously.",
+   "context": "After conceding that individual-level evidence that firearm restriction reduces suicide is weak, the author holds firm that restricting access to guns would reduce mass shootings.",
+   "post_title": "Can We Prevent Suicide?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-we-prevent-suicide",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I stand firm ... would",
+   "entities": [],
+   "finder_note": "Conditional policy-effect claim (if gun access is restricted, mass shootings fall)."
+  },
+  {
+   "id": "owen-1911",
+   "forecaster": "owen",
+   "statement_date": "2025-09-24",
+   "quote": "I suspect that accelerated transcranial magnetic stimulation will also be effective, and we have some data to suggest that is the case.",
+   "context": "Closing of the suicide-prevention essay: after noting that ketamine is rapidly effective at reducing suicidality in treatment-seeking people, the author predicts accelerated TMS will also be effective for reducing suicidality.",
+   "post_title": "Can We Prevent Suicide?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-we-prevent-suicide",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I suspect ... will",
+   "entities": [
+    "ketamine",
+    "accelerated TMS"
+   ],
+   "finder_note": "The author's clinic (Radial) offers accelerated TMS and he is an accelerated TMS researcher; coder may consider CONTROL."
+  },
+  {
+   "id": "owen-1913",
+   "forecaster": "owen",
+   "statement_date": "2025-09-29",
+   "quote": "No one's gonna remember who you are either. There are too many of these events.",
+   "context": "Addressing potential future gunmen, arsonists and mass murderers, the author asserts they will not be remembered because such events are too frequent; he ties this to research on media contagion of mass shootings and his refusal to name the shooter.",
+   "post_title": "Don't Light Churches On Fire And Shoot People To Death",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-light-churches-on-fire-and-shoot",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "gonna",
+   "entities": [],
+   "finder_note": "Rhetorical address to would-be shooters; reinforced by 'no one will remember you, or the horrible things you thought about doing.'"
+  },
+  {
+   "id": "owen-1914",
+   "forecaster": "owen",
+   "statement_date": "2025-09-29",
+   "quote": "Absent compromise, further words are unlikely to be authorized. This will lead to a crisis for the newsletter and a complete shutdown of services, at least among articles that you’d want to read.",
+   "context": "Satirical post (dated 2025-09-29) that maps the looming US federal government shutdown, with a continuing-resolution deadline on Tuesday Sept 30, 2025, onto the newsletter 'running out of words'. The author says that absent a compromise no further words will be authorized and the newsletter shuts down.",
+   "post_title": "Shutdown Crisis Looming As Newsletter Runs Out Of Words",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/shutdown-crisis-looming-as-newsletter",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Congress"
+   ],
+   "finder_note": "Satire of the federal shutdown standoff; literal subject is the newsletter's word supply. Underlying claim (shutdown absent a CR compromise) reads as sincere. Compound: 'unlikely' plus 'will'. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1915",
+   "forecaster": "owen",
+   "statement_date": "2025-09-29",
+   "quote": "many critical pieces of education and satire are, as of the looming deadline for a continuing resolution on Tuesday, apt to shut down entirely",
+   "context": "Same satire. The author says the newsletter's education and satire pieces are apt to shut down entirely at the continuing-resolution deadline on Tuesday (Sept 30, 2025); that is, the shutdown starts when the CR deadline passes.",
+   "post_title": "Shutdown Crisis Looming As Newsletter Runs Out Of Words",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/shutdown-crisis-looming-as-newsletter",
+   "area_guess": "other",
+   "horizon_text": "the looming deadline for a continuing resolution on Tuesday",
+   "confidence_phrase": "apt to",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Congress"
+   ],
+   "finder_note": "Satirical restatement of the first shutdown call with a dated horizon (the Tuesday CR deadline)."
+  },
+  {
+   "id": "owen-1917",
+   "forecaster": "owen",
+   "statement_date": "2025-09-29",
+   "quote": "I’m thrilled to have the support of Funpublicans in both the House and the Senate; however, in this case, it won’t be enough. Sixty votes are required to avert running out of things to say",
+   "context": "In satirical voice, the author says Republican ('Funpublican') support in the House and Senate will not be enough; sixty Senate votes are required to avert the shutdown. The underlying claim is that the House-passed continuing resolution fails the Senate threshold and the shutdown proceeds.",
+   "post_title": "Shutdown Crisis Looming As Newsletter Runs Out Of Words",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/shutdown-crisis-looming-as-newsletter",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t be enough",
+   "entities": [
+    "Republicans (Funpublicans)",
+    "US Senate",
+    "US House"
+   ],
+   "finder_note": "Satirical framing; the underlying claim (CR fails the 60-vote threshold, shutdown proceeds) reads as sincere."
+  },
+  {
+   "id": "owen-1918",
+   "forecaster": "owen",
+   "statement_date": "2025-09-29",
+   "quote": "Maybe they even pass the S.1717 - Ensuring Patient Access to Critical Breakthrough Products Act of 2025 as part of the compromise?",
+   "context": "Closing aside of the shutdown satire. The author speculates that Congress might pass S.1717, the Ensuring Patient Access to Critical Breakthrough Products Act of 2025 (a bill on Medicare coverage of FDA breakthrough-designated products), as part of a shutdown compromise.",
+   "post_title": "Shutdown Crisis Looming As Newsletter Runs Out Of Words",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/shutdown-crisis-looming-as-newsletter",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "Maybe",
+   "entities": [
+    "Congress",
+    "S.1717 Ensuring Patient Access to Critical Breakthrough Products Act of 2025",
+    "Medicare"
+   ],
+   "finder_note": "Phrased as a question with 'Maybe'; hopeful speculation about a real bill inside a satirical post. The author has an interest in device (TMS) coverage."
+  },
+  {
+   "id": "owen-1919",
+   "forecaster": "owen",
+   "statement_date": "2025-09-30",
+   "quote": "a compromise on a Continuing Resolution to supply enough additional words for a “word-based” newsletter seems increasingly unlikely",
+   "context": "Post dated 2025-09-30, the day before the federal shutdown deadline. The author says a compromise on a Continuing Resolution seems increasingly unlikely, mapping the federal CR standoff onto the newsletter's supply of words.",
+   "post_title": "Newsletter Shutdown Looms!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/newsletter-shutdown-looms",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "seems increasingly unlikely",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Congress"
+   ],
+   "finder_note": "Satire; the underlying claim (no CR compromise, shutdown follows) reads as sincere. Restates the 2025-09-29 call."
+  },
+  {
+   "id": "owen-1922",
+   "forecaster": "owen",
+   "statement_date": "2025-09-30",
+   "quote": "Today, on the eve of a complete shutdown of this newsletter, we present some pictures and music as a retrospective of what we can show",
+   "context": "The author asserts the newsletter shutdown happens the next day (Oct 1, 2025), that is, the federal shutdown takes effect when the CR deadline passes; the post offers photos and music as a preview of a wordless newsletter.",
+   "post_title": "Newsletter Shutdown Looms!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/newsletter-shutdown-looms",
+   "area_guess": "other",
+   "horizon_text": "Today, on the eve of",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Congress"
+   ],
+   "finder_note": "Satire; the underlying claim (shutdown begins Oct 1, 2025) reads as sincere and is stated as near-certain by 'on the eve of'."
+  },
+  {
+   "id": "owen-1929",
+   "forecaster": "owen",
+   "statement_date": "2025-10-06",
+   "quote": "However, 12% of the US population is now being treated with “open-label” and often higher-dose GLP-1 drugs already. It might be enough to drive alcohol use off a cliff!",
+   "context": "After citing a 24-person semaglutide RCT and noting that 12% of US adults report GLP-1 use, the author says open-label, often higher-dose GLP-1 use at population scale might be enough to drive alcohol use off a cliff (a steep fall in drinking).",
+   "post_title": "Are GLP-1s The Cure For Drunken Rape Culture?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-semaglutide-and-tirzepatide-the",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "GLP-1 agonists",
+    "semaglutide",
+    "alcohol industry"
+   ],
+   "finder_note": "Core forecast of the post; no quantity or date. Area could also be 'other' (population drinking behavior)."
+  },
+  {
+   "id": "owen-1930",
+   "forecaster": "owen",
+   "statement_date": "2025-10-06",
+   "quote": "Because it means men are less likely to drink as much, and that means they're less likely to rape women and assault women physically.",
+   "context": "Section 'Ending Rape Culture By Ending Drinking Culture, with GLP-1s'. The author argues that GLP-1 uptake means men drink less and therefore commit fewer sexual and physical assaults: a causal chain from GLP-1 adoption to less violence against women.",
+   "post_title": "Are GLP-1s The Cure For Drunken Rape Culture?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-semaglutide-and-tirzepatide-the",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "less likely",
+   "entities": [
+    "GLP-1 agonists",
+    "semaglutide"
+   ],
+   "finder_note": "Compound causal claim (less drinking leads to less assault); no quantity or date."
+  },
+  {
+   "id": "owen-1931",
+   "forecaster": "owen",
+   "statement_date": "2025-10-06",
+   "quote": "I'm gonna miss the CDC when these kinds of numbers are deemed inconvenient by the men in power who find their sexual assaulting impinged upon by such data",
+   "context": "Parenthetical aside while citing CDC intimate-partner-violence statistics: the author expects CDC data of this kind to become unavailable when 'the men in power' deem it inconvenient, that is, he expects the CDC or its data to be curtailed.",
+   "post_title": "Are GLP-1s The Cure For Drunken Rape Culture?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-semaglutide-and-tirzepatide-the",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "gonna",
+   "entities": [
+    "CDC"
+   ],
+   "finder_note": "Sardonic political aside that implies expected suppression of CDC data. Borderline."
+  },
+  {
+   "id": "owen-1932",
+   "forecaster": "owen",
+   "statement_date": "2025-10-06",
+   "quote": "Complaining about it doesn't do any good, but encouraging men everywhere to pursue GLP-1 treatment just might.",
+   "context": "Closing line: after saying he is excited for a world without alcohol-driven sexual assault risk, the author says encouraging men to take GLP-1s 'just might' reduce that risk.",
+   "post_title": "Are GLP-1s The Cure For Drunken Rape Culture?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-semaglutide-and-tirzepatide-the",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "just might",
+   "entities": [
+    "GLP-1 agonists"
+   ],
+   "finder_note": "Hedged restatement of the causal claim that GLP-1 uptake reduces assault."
+  }
+ ]
+}

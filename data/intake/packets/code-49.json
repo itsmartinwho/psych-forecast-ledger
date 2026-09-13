@@ -1,0 +1,895 @@
+{
+ "packet": "code-49.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-2228",
+   "forecaster": "owen",
+   "statement_date": "2026-05-07",
+   "quote": "They are also going on tour.",
+   "context": "Republished music post. The author notes that the band American Football released a new album (LP4) since the original post and are going on tour. Third-party event stated as fact.",
+   "post_title": "American Football, Next Down",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/american-football-next-down",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "American Football"
+   ],
+   "finder_note": "Non-healthcare, reported band plan. Low forecast value."
+  },
+  {
+   "id": "owen-2229",
+   "forecaster": "owen",
+   "statement_date": "2026-05-07",
+   "quote": "Modest Mouse also has a new album, “ An Eraser and A Maze ” dropping early next month.",
+   "context": "In the same music post (dated 2026-05-07), the author reports that Modest Mouse's new album 'An Eraser and A Maze' drops early next month (early June 2026). Third-party release date stated as fact.",
+   "post_title": "American Football, Next Down",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/american-football-next-down",
+   "area_guess": "other",
+   "horizon_text": "early next month",
+   "confidence_phrase": "none",
+   "entities": [
+    "Modest Mouse",
+    "An Eraser and A Maze"
+   ],
+   "finder_note": "Non-healthcare, dated release claim about a band."
+  },
+  {
+   "id": "owen-2230",
+   "forecaster": "owen",
+   "statement_date": "2026-05-07",
+   "quote": "The Live-Action Version of this Newsletter, RAMHT 2026 SF, is coming up on May 16th, 2026!",
+   "context": "Event announcement for RAMHT 2026 SF on May 16, 2026, the live version of the newsletter, with a free ticket code for readers ('I have a meeting coming up—RAMHT!').",
+   "post_title": "American Football, Next Down",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/american-football-next-down",
+   "area_guess": "other",
+   "horizon_text": "May 16th, 2026",
+   "confidence_phrase": "is coming up",
+   "entities": [
+    "RAMHT",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-event announcement (RAMHT); boilerplate repeated across posts. Likely CONTROL."
+  },
+  {
+   "id": "owen-2231",
+   "forecaster": "owen",
+   "statement_date": "2026-05-07",
+   "quote": "Tomorrow, I will write more about health.",
+   "context": "Closing of the music post: the author commits to return to health topics in the next day's newsletter.",
+   "post_title": "American Football, Next Down",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/american-football-next-down",
+   "area_guess": "other",
+   "horizon_text": "Tomorrow",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Owen Muir"
+   ],
+   "finder_note": "Newsletter programming plan. Likely CONTROL."
+  },
+  {
+   "id": "owen-2232",
+   "forecaster": "owen",
+   "statement_date": "2026-05-10",
+   "quote": "But the executive order, which may soon open a legal pathway to ibogaine treatment in the United States, arrived one day too late to have offered him that hope.",
+   "context": "Op-ed co-authored by Owen Muir and Robert Glatter, M.D. about the April 18, 2026 presidential executive order 'Accelerating Medical Treatments for Serious Mental Illness', which directs FDA and DEA to build a Right to Try pathway for investigational psychedelics including ibogaine. Hedged forecast that the order may soon open a legal US pathway to ibogaine treatment, told around a patient's suicide attempt.",
+   "post_title": "Ibogaine: The Right to Try, and the Right to Hope",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ibogaine-the-right-to-try-and-the",
+   "area_guess": "regulatory",
+   "horizon_text": "soon",
+   "confidence_phrase": "may",
+   "entities": [
+    "ibogaine",
+    "FDA",
+    "DEA",
+    "President Trump",
+    "Right to Try Act",
+    "executive order"
+   ],
+   "finder_note": "Co-authored post (Muir and Glatter); author adopts the claim. The authors later stress the pathway 'does not yet exist'."
+  },
+  {
+   "id": "owen-2234",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "All of these tools are becoming a standard part of Brain Medicine care. This kind of care, when it's deployed as Dr. Carpenter does, will require multiple disciplines working together, and it will enabled by AI.",
+   "context": "Discussing Dr. Linda Carpenter's iTBS-for-ADHD trial (Brain Stimulation, 2026), which combined TMS with MRI guidance and concurrent EEG. The author says this supports his 'brain medicine is here' thesis (advanced in the newsletter and at Radial): TMS, MRI and EEG tools are becoming standard parts of brain medicine care.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are becoming",
+   "entities": [
+    "TMS",
+    "MRI",
+    "EEG",
+    "Linda Carpenter",
+    "Radial"
+   ],
+   "finder_note": "Trend claim (present progressive) that implies future standardization. Mentions Radial (author's company)."
+  },
+  {
+   "id": "owen-2235",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "This kind of care, when it’s deployed as Dr. Carpenter does, will require multiple disciplines working together, and it will enabled by AI.",
+   "context": "Same passage on the brain medicine thesis: the author forecasts that multimodal brain medicine care (TMS plus MRI plus EEG, as in Carpenter's lab) will require multidisciplinary teams and will be enabled by AI.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "AI",
+    "TMS",
+    "MRI",
+    "EEG",
+    "Linda Carpenter"
+   ],
+   "finder_note": "Compound claim: multidisciplinary teams and AI enablement. No date."
+  },
+  {
+   "id": "owen-2236",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "That suggests that the difference that Dr. Carpenter has detected is actually a very large one—anything you can see clearly in a small sample is more likely to be a big difference at scale, if it replicates.",
+   "context": "Interpreting the results of the 34-adolescent double-blind sham-controlled crossover trial of iTBS for ADHD (significant effects on parent-reported working memory, ADHD symptoms, anger, depression, anxiety). The author infers the effect is likely large at scale, conditional on replication.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "more likely ... if it replicates",
+   "entities": [
+    "Linda Carpenter",
+    "iTBS",
+    "TMS",
+    "ADHD",
+    "Brain Stimulation"
+   ],
+   "finder_note": "Conditional expectation about effect size at scale; partly statistical reasoning rather than a dated call."
+  },
+  {
+   "id": "owen-2237",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "They even added an additional open-label accelerated iTBS follow up after the study, and that seems to be plausible as a treatment approach as well",
+   "context": "The Carpenter/Kavanaugh paper included an open-label twice-daily iTBS (3600 pulses/day, 5 or 10 days) follow-up in previously enrolled adolescents with ADHD. The author judges accelerated iTBS plausible as a treatment approach for ADHD.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "seems to be plausible",
+   "entities": [
+    "iTBS",
+    "accelerated TMS",
+    "ADHD",
+    "Linda Carpenter"
+   ],
+   "finder_note": "Borderline: plausibility judgment about a treatment approach; implies future viability of accelerated iTBS for ADHD."
+  },
+  {
+   "id": "owen-2238",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "Given the rapidly growing literature on safety and efficacy of protocols that administer numerous iTBS sessions per day ... accelerated may iTBS will may show improved feasibility and comparable efficacy to traditional once per day iTBS for ADHD.",
+   "context": "Block quote from the Kavanaugh/Carpenter paper's discussion, reproduced by the author right after he calls the accelerated approach plausible. The paper forecasts that accelerated iTBS may show improved feasibility and comparable efficacy to once-daily iTBS for ADHD.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will may show",
+   "entities": [
+    "iTBS",
+    "accelerated TMS",
+    "ADHD",
+    "Linda Carpenter",
+    "Brain Stimulation"
+   ],
+   "finder_note": "Quoted third-party forecast (the paper's authors), endorsed softly by the author ('seems to be plausible'). Coder may set own_claim false."
+  },
+  {
+   "id": "owen-2239",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "We will, of course, need to replicate these findings, and more work will be done before there’s an FDA label from somebody. But it’s coming—obviously.",
+   "context": "After reviewing the third RCT showing TMS works in pediatric ADHD (first with brief iTBS at 80% threshold), the author forecasts that replication and more work are needed but an FDA label for TMS in ADHD from some company is coming. He then says payers need to hear the clamor as they have for accelerated TMS generally.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "it’s coming—obviously",
+   "entities": [
+    "FDA",
+    "TMS",
+    "iTBS",
+    "ADHD"
+   ],
+   "finder_note": "Strong undated call: FDA label for TMS/iTBS in ADHD 'from somebody'. Compound with 'more work will be done' first."
+  },
+  {
+   "id": "owen-2240",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "a nationwide standard of medical necessity is being set in the treatment of depression, and it’s likely that PTSD, bipolar, depression, OCD, and even ADHD might be next.",
+   "context": "The author reports new accelerated TMS (SAINT and/or SWIFT) coverage policies in Blue Cross Blue Shield plans in California, Texas and South Carolina, following Highmark BCBS, Premera BCBS, CareFirst BCBS. He says a nationwide medical-necessity standard is being set for depression and forecasts PTSD, bipolar, OCD and ADHD coverage may follow.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "payer_policy",
+   "horizon_text": "next",
+   "confidence_phrase": "it’s likely ... might be next",
+   "entities": [
+    "Blue Cross Blue Shield",
+    "Highmark BCBS",
+    "Premera BCBS",
+    "CareFirst BCBS",
+    "SAINT",
+    "SWIFT",
+    "accelerated TMS",
+    "PTSD",
+    "OCD",
+    "ADHD"
+   ],
+   "finder_note": "Compound: trend claim on depression coverage plus hedged forecast of expansion to other indications. SWIFT is the author's own protocol (BrainsWay)."
+  },
+  {
+   "id": "owen-2242",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "The Live-Action Version of this Newsletter, RAMHT 2026 SF, is coming up on May 16th, 2026!",
+   "context": "Event announcement for RAMHT 2026 SF on May 16, 2026 with free ticket code, followed by the speaker list: Grady Hannah (NightWare), Carlene MacMillan and Owen Muir (Radial/Neurolief), Colleen Hanlon (BrainsWay), Zeena Ojjeh and Brandon Bentzley (Salma Health), Kirk Thelander (Graymatters Health), Jonathan Javitt (NRx), Dominik Middelmann (MDHub), Dan Karlin (Definium), Josh Stevens and Jordan Sloshower (Beckley Clinical), Chris Dougherty, Sofia Matta, Joe Feldman. Jacob Donoghue cannot make it.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "other",
+   "horizon_text": "May 16th, 2026",
+   "confidence_phrase": "is coming up",
+   "entities": [
+    "RAMHT",
+    "Radial",
+    "Neurolief",
+    "BrainsWay",
+    "Salma Health",
+    "Graymatters Health",
+    "NRx Pharmaceuticals",
+    "MDHub",
+    "Definium Therapeutics",
+    "Beckley Clinical",
+    "NightWare"
+   ],
+   "finder_note": "Own-event announcement (RAMHT) with speaker lineup; boilerplate repeated across posts. Likely CONTROL."
+  },
+  {
+   "id": "owen-2243",
+   "forecaster": "owen",
+   "statement_date": "2026-05-12",
+   "quote": "The Live-Action Version of this Newsletter, RAMHT 2026 SF, is coming up on May 16th, 2026!",
+   "context": "Author's intro to a guest post by Courtny (RN) on sleep hygiene: he hopes to see readers at the rapid acting mental health treatment event in San Francisco on May 16 and gives the free ticket code. Event announcement about the author's own organization.",
+   "post_title": "How to Sleep Well",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-sleep-well",
+   "area_guess": "other",
+   "horizon_text": "May 16th, 2026",
+   "confidence_phrase": "is coming up",
+   "entities": [
+    "RAMHT",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-event announcement (RAMHT); boilerplate repeated across posts. Guest post body not by the author. Likely CONTROL."
+  },
+  {
+   "id": "owen-2244",
+   "forecaster": "owen",
+   "statement_date": "2026-05-14",
+   "quote": "RAMHT is coming ! It’s the live-action newsletter event you’ve been waiting for. ... It’s May 16th—this Saturday—live in San Fran.",
+   "context": "Short promo post (2026-05-14) for RAMHT 2026 SF, the sixth edition, on Saturday May 16 in San Francisco, with speakers from Definium Therapeutics, BrainsWay, Graymatters Health, Salma Health, MDHub, Beckley Clinical, NRx, Radial, special guests Sofia Matta and Joe Feldman, and Axome. Closes with 'More soon, friends. See you at APA and RAMHT!'",
+   "post_title": "Rapid Acting Mental Health Technology 2026 SF is Coming May 16th",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-technology",
+   "area_guess": "other",
+   "horizon_text": "May 16th—this Saturday",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "RAMHT",
+    "Definium Therapeutics",
+    "BrainsWay",
+    "Graymatters Health",
+    "Salma Health",
+    "MDHub",
+    "Beckley Clinical",
+    "NRx",
+    "Radial",
+    "Axome",
+    "APA"
+   ],
+   "finder_note": "Own-event announcement (RAMHT) with lineup. Likely CONTROL."
+  },
+  {
+   "id": "owen-2245",
+   "forecaster": "owen",
+   "statement_date": "2026-05-15",
+   "quote": "The Live-Action Version of this Newsletter, RAMHT 2026 SF, is coming up on May 16th, 2026!",
+   "context": "Author's intro to an interview with Cole Maudlin (GoGoMeds), written on the way from the American Telemedicine Association meeting in Orlando to the APA meeting and RAMHT: 'I hope to see you tomorrow night at RAMHT!' Event announcement about the author's own organization.",
+   "post_title": "The Start of a Doctor-Pet Relationship ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-start-of-a-doctor-pet-relationship",
+   "area_guess": "other",
+   "horizon_text": "May 16th, 2026",
+   "confidence_phrase": "is coming up",
+   "entities": [
+    "RAMHT",
+    "The Frontier Psychiatrists",
+    "APA"
+   ],
+   "finder_note": "Own-event announcement (RAMHT); boilerplate repeated across posts. Likely CONTROL."
+  },
+  {
+   "id": "owen-2247",
+   "forecaster": "owen",
+   "statement_date": "2026-05-16",
+   "quote": "Tonight marks our sixth Rapid Acting Mental Health Treatment event.",
+   "context": "Day-of post (2026-05-16): the sixth RAMHT event happens tonight in San Francisco with speakers from Definium Therapeutics, BrainsWay, Graymatters Health, Salma Health, MDHub, Beckley Clinical, NRx, Radial, special guests Sofia Matta and Joe Feldman, a free ticket code and a book signing by the author. He recounts past RAMHT reveals (Magnesium-Ibogaine data, Sanmai, Beckley Clinical funding, ProlivRx breakthrough designation) and asks what news will be heard tonight.",
+   "post_title": "RAMHT is a Live Event...Tonight (and other updates).",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ramht-is-a-live-eventtonight-and",
+   "area_guess": "other",
+   "horizon_text": "Tonight",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Radial",
+    "BrainsWay",
+    "Definium Therapeutics",
+    "Graymatters Health",
+    "Salma Health",
+    "MDHub",
+    "Beckley Clinical",
+    "NRx",
+    "Grady Hannah"
+   ],
+   "finder_note": "Own-event announcement (RAMHT), same-day. Likely CONTROL."
+  },
+  {
+   "id": "owen-2248",
+   "forecaster": "owen",
+   "statement_date": "2026-05-16",
+   "quote": "Major Health Plans cover accelerated TMS! ... (feat. Premara, California, South Carolina, Texas, Highmark, CareFirst, Vermont, BCBS and more to come!)",
+   "context": "Item in the author's roundup of RAMHT-centric news of the week: major health plans (Premera, BCBS plans in California, South Carolina, Texas, Vermont, Highmark, CareFirst) now cover accelerated TMS, 'and more to come'. Forecast that additional health plans will adopt accelerated TMS coverage.",
+   "post_title": "RAMHT is a Live Event...Tonight (and other updates).",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ramht-is-a-live-eventtonight-and",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "more to come",
+   "entities": [
+    "accelerated TMS",
+    "Premera",
+    "Highmark",
+    "CareFirst",
+    "Blue Cross Blue Shield",
+    "SAINT",
+    "SWIFT"
+   ],
+   "finder_note": "Restates the coverage-expansion call from the 2026-05-11 ADHD post. Bullet list item; 'and more to come!' carries the forecast."
+  },
+  {
+   "id": "owen-2251",
+   "forecaster": "owen",
+   "statement_date": "2026-05-25",
+   "quote": "I’ll get to ride that waterpark attractions later, zooming around the slides—it will be a blast.",
+   "context": "Author at the DreamWorks Water Park in the American Dream Mall (New Jersey), sitting out to guard seats and his glasses; expects to ride the slides later that day and enjoy it.",
+   "post_title": "The Water Park",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-water-park",
+   "area_guess": "other",
+   "horizon_text": "later",
+   "confidence_phrase": "will",
+   "entities": [
+    "American Dream Mall",
+    "DreamWorks Water Park"
+   ],
+   "finder_note": "Trivial same-day personal expectation; logged for recall, likely to be discarded."
+  },
+  {
+   "id": "owen-2252",
+   "forecaster": "owen",
+   "statement_date": "2026-05-27",
+   "quote": "The label—also not yet available on the FDA website—must say this is an adjunctive approval: The device is intended for use alongside – not as a replacement for – a clinician-directed treatment plan.",
+   "context": "Neurovalens Modius Spero vestibular nerve stimulator (VeNS), FDA De Novo grant for PTSD announced the day before. The FDA label was not yet posted; the author infers from company language that the label will state an adjunctive indication alongside a clinician-directed treatment plan.",
+   "post_title": "A New At-Home PTSD Treatment is FDA-Approved!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-at-home-ptsd-treatment-is-fda",
+   "area_guess": "regulatory",
+   "horizon_text": "not yet available",
+   "confidence_phrase": "must say",
+   "entities": [
+    "Neurovalens",
+    "Modius Spero",
+    "FDA"
+   ],
+   "finder_note": "'must' is inferential (what the label will say once posted), not normative. Checkable when the FDA De Novo label publishes."
+  },
+  {
+   "id": "owen-2253",
+   "forecaster": "owen",
+   "statement_date": "2026-05-27",
+   "quote": "The FDA thinks it works. I have a lot of respect for FDA officers, especially at CDRH (that is the center for devices and radiologic health, the “device” side of the house). I will thus think it works in PTSD.",
+   "context": "Author's provisional stance on the efficacy of Neurovalens Modius Spero (VeNS) for PTSD: he defers to FDA CDRH judgment and adopts the view that the device works in PTSD, pending publication of the 383-adult active-vs-sham trial NCT05242367 (completed Dec 2024, no results posted).",
+   "post_title": "A New At-Home PTSD Treatment is FDA-Approved!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-at-home-ptsd-treatment-is-fda",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I will thus think it works",
+   "entities": [
+    "Neurovalens",
+    "Modius Spero",
+    "FDA",
+    "CDRH",
+    "NCT05242367"
+   ],
+   "finder_note": "Borderline: an efficacy belief that defers to the FDA; checkable when the trial data publish. Author says his own take must wait."
+  },
+  {
+   "id": "owen-2254",
+   "forecaster": "owen",
+   "statement_date": "2026-05-27",
+   "quote": "At Radial , until we hear more, we will impatiently wait, excited to see how this can be offered to patients outside the VA system, and what the data say!",
+   "context": "Author (Radial) on Neurovalens Modius Spero after the FDA De Novo grant for PTSD. The company's other products (Modius Sleep, Modius Calm) are available only to US veterans through the VA. The sentence presupposes the PTSD device will be offered to non-VA patients and that trial data will be released.",
+   "post_title": "A New At-Home PTSD Treatment is FDA-Approved!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-at-home-ptsd-treatment-is-fda",
+   "area_guess": "company_market",
+   "horizon_text": "until we hear more",
+   "confidence_phrase": "none",
+   "entities": [
+    "Radial",
+    "Neurovalens",
+    "Modius Spero",
+    "Department of Veterans Affairs"
+   ],
+   "finder_note": "Weak predictive reading: non-VA availability and data release are presupposed, not asserted. Names the author's own company Radial."
+  },
+  {
+   "id": "owen-2255",
+   "forecaster": "owen",
+   "statement_date": "2026-05-29",
+   "quote": "My personal hunch is the much more refractory nature of the SNT sample is what matters here, but time will tell.",
+   "context": "Comparing one-year durability of BrainsWay SWIFT accelerated dTMS (interim 64-patient follow-up with high sustained remission) against SNT long-term data that needed personalized re-treatment in many patients. Author expects the durability gap to be explained by the SNT cohort's greater treatment resistance rather than by the protocol.",
+   "post_title": "I Was On Good Morning America Today",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-was-on-good-morning-america-today",
+   "area_guess": "clinical_trial",
+   "horizon_text": "time will tell",
+   "confidence_phrase": "My personal hunch",
+   "entities": [
+    "BrainsWay",
+    "SWIFT dTMS",
+    "SNT",
+    "Magnus"
+   ],
+   "finder_note": "Hedged mechanistic call awaiting future evidence. Author was an investigator on the SWIFT trial and coauthor of the durability abstract."
+  },
+  {
+   "id": "owen-2256",
+   "forecaster": "owen",
+   "statement_date": "2026-05-29",
+   "quote": "Thanks, friends and coauthors at Brainsway, Magnus, Ampa, and others as we push accelerated TMS (and dTMS) protocols into the mainstream.",
+   "context": "After the author's Good Morning America segment featuring a patient's recovery with BrainsWay SWIFT accelerated dTMS. Author frames the national attention as part of an effort to move accelerated TMS and dTMS protocols into mainstream clinical practice.",
+   "post_title": "I Was On Good Morning America Today",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-was-on-good-morning-america-today",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "BrainsWay",
+    "Magnus",
+    "Ampa"
+   ],
+   "finder_note": "Weak: describes an ongoing effort with an implied expectation of mainstream adoption. Ampa is one of the author's own organizations."
+  },
+  {
+   "id": "owen-2257",
+   "forecaster": "owen",
+   "statement_date": "2026-05-29",
+   "quote": "So there you have it—I may be on to not only one thing, but two for depression.",
+   "context": "After summarizing the JAMA Psychiatry proof-of-concept RCT of tocilizumab (IL-6 inhibition) in difficult-to-treat depression with low-grade inflammation (n=30; no endpoint significant, remission and response favored tocilizumab, baseline hs-CRP tracked improvement). Author suggests his two long-held bets, accelerated dTMS and the inflammation/autoimmune link to depression, will both be borne out.",
+   "post_title": "I Was On Good Morning America Today",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-was-on-good-morning-america-today",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "tocilizumab",
+    "interleukin 6",
+    "JAMA Psychiatry",
+    "BrainsWay SWIFT dTMS"
+   ],
+   "finder_note": "Hedged compound claim: two implied calls (accelerated dTMS; IL-6/inflammation as a depression treatment target) in one sentence."
+  },
+  {
+   "id": "owen-2258",
+   "forecaster": "owen",
+   "statement_date": "2026-05-30",
+   "quote": "The next chance to catch up with me in person will be either at the Clinical TMS annual meeting 2026 , where I have eight posters accepted (out of 88 total at the meeting). It’s June 4-6.",
+   "context": "Author's upcoming travel: he will attend the Clinical TMS Society annual meeting 2026 (June 4-6) with eight accepted posters out of 88 at the meeting.",
+   "post_title": "Quinn Muir Comments On Owen Muir's Hectic Travel Plans.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/quinn-muir-comments-on-owen-muirs",
+   "area_guess": "other",
+   "horizon_text": "June 4-6",
+   "confidence_phrase": "will",
+   "entities": [
+    "Clinical TMS Society"
+   ],
+   "finder_note": "Personal schedule statement; logged for recall, likely to be discarded."
+  },
+  {
+   "id": "owen-2259",
+   "forecaster": "owen",
+   "statement_date": "2026-05-30",
+   "quote": "I’ll be headed to China with the CNS Summit Community for the Life Science Technology Forum . If you plan on being in Bejing June 11-13th—let me know.",
+   "context": "Author's upcoming travel: he will travel to Beijing with the CNS Summit community for the Life Science Technology Forum (June 11-13) to speak on brain disorders and neuromodulation.",
+   "post_title": "Quinn Muir Comments On Owen Muir's Hectic Travel Plans.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/quinn-muir-comments-on-owen-muirs",
+   "area_guess": "other",
+   "horizon_text": "June 11-13th",
+   "confidence_phrase": "I’ll be",
+   "entities": [
+    "CNS Summit",
+    "Life Science Technology Forum"
+   ],
+   "finder_note": "Personal schedule statement; logged for recall, likely to be discarded."
+  },
+  {
+   "id": "owen-2260",
+   "forecaster": "owen",
+   "statement_date": "2026-05-30",
+   "quote": "This abstract, which is also being pulled into a full paper, describes a patient who had an adequate response to accelerated transcranial magnetic stimulation with the H7 coil, but a lack of durability.",
+   "context": "CTMSS 2026 abstract on adjunctive D-cycloserine during anterior limb of the internal capsule deep brain stimulation for severe OCD (Aslam, Lucien, Khan, Goodman, Muir). Author says the abstract is being developed into a full paper.",
+   "post_title": "Quinn Muir Comments On Owen Muir's Hectic Travel Plans.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/quinn-muir-comments-on-owen-muirs",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Clinical TMS Society",
+    "D-cycloserine",
+    "deep brain stimulation"
+   ],
+   "finder_note": "Weak: work-in-progress statement implying a future full publication."
+  },
+  {
+   "id": "owen-2261",
+   "forecaster": "owen",
+   "statement_date": "2026-05-30",
+   "quote": "This is the second publication (I also authored the first last year, and I’m still waiting for it to his the press!)",
+   "context": "CTMSS 2026 abstract replicating the SNT five-day accelerated neuronavigated protocol in one day with camera-based neuronavigation and D-cycloserine (Khan, Aslam, Siddiqi, Carreon, MacMillan, Muir, Downar). Author notes the first such paper, authored last year, is still awaiting publication, implying he expects it to appear.",
+   "post_title": "Quinn Muir Comments On Owen Muir's Hectic Travel Plans.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/quinn-muir-comments-on-owen-muirs",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "SNT",
+    "D-cycloserine"
+   ],
+   "finder_note": "Weak: expectation of a pending publication implied by 'still waiting'. Source typo 'his' for 'hit'."
+  },
+  {
+   "id": "owen-2262",
+   "forecaster": "owen",
+   "statement_date": "2026-05-31",
+   "quote": "Will United pay more to the company it will later acquire using its increased revenue to justify the acquisition costs while increasing the cost of care for its services busines s and thus increasing its share of the medical loss ratio on both sides of the ledger? Yes, yes, it will.",
+   "context": "Satirical 'math behind a scam' essay on private equity in healthcare. Author describes the PE roll-up playbook: buy 51% of a practice, negotiate higher payer contracts, then sell to a payer-owned services arm (United, Cigna, CVS). Rhetorical question answered in the affirmative: United will pay more to companies it later acquires, raising the cost of care and its services-side share of the medical loss ratio.",
+   "post_title": "Is Private Equity a Bad Deal?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-private-equity-a-bad-deal",
+   "area_guess": "company_market",
+   "horizon_text": "later",
+   "confidence_phrase": "Yes, yes, it will",
+   "entities": [
+    "UnitedHealth",
+    "Cigna",
+    "CVS"
+   ],
+   "finder_note": "Generic pattern claim in a satirical essay; reads sincere. Source text has typo 'busines s'."
+  },
+  {
+   "id": "owen-2263",
+   "forecaster": "owen",
+   "statement_date": "2026-06-01",
+   "quote": "Some tasks can’t be automated with AI. Artificial intelligence isn’t a time machine.",
+   "context": "Personal essay on interviews the author can no longer do with people who have died. He asserts AI cannot recover or reconstruct lived memories, so some writing tasks cannot be automated with AI.",
+   "post_title": "I'm Not Ready for Death",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-not-ready-for-death",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "can’t",
+   "entities": [
+    "AI"
+   ],
+   "finder_note": "Borderline: present-tense capability claim with a standing 'never' reading ('never know which ones you carried with you')."
+  },
+  {
+   "id": "owen-2264",
+   "forecaster": "owen",
+   "statement_date": "2026-06-01",
+   "quote": "Writing about the real is a race against time I will surely lose, and only capture a whiff of the moment I had hoped to communicate.",
+   "context": "Personal essay. The author predicts he will lose the race to record real stories before his sources are gone.",
+   "post_title": "I'm Not Ready for Death",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-not-ready-for-death",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will surely",
+   "entities": [],
+   "finder_note": "Personal; low forecast value."
+  },
+  {
+   "id": "owen-2265",
+   "forecaster": "owen",
+   "statement_date": "2026-06-01",
+   "quote": "I fret that I will change things by how I write about them. I hope, very much, that I will do the same for the things I’d like to see happen.",
+   "context": "Personal essay. The author voices a worry that his writing will change the things he writes about, and a hope that it will also change the things he wants to happen.",
+   "post_title": "I'm Not Ready for Death",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-not-ready-for-death",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I fret that",
+   "entities": [],
+   "finder_note": "Worry plus wish; hedged personal expectation; low forecast value."
+  },
+  {
+   "id": "owen-2266",
+   "forecaster": "owen",
+   "statement_date": "2026-06-04",
+   "quote": "The pivotal trial data is currently in preparation for peer-reviewed publication.",
+   "context": "Author's closing note after the interview with Dr. Erik Won (CMO, Wave Neuroscience) about the FDA 510(k) clearance of MeRT (EEG-guided TMS) as an adjunctive treatment for PTSD. States that the pivotal RCT (156 subjects, multi-site, sham-controlled) is being written up for publication.",
+   "post_title": "Breakthrough News: MeRT (aka EEG guided TMS for PTSD) is now FDA-Cleared!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/breakthrough-news-mert-aka-eeg-guided",
+   "area_guess": "clinical_trial",
+   "horizon_text": "currently",
+   "confidence_phrase": "none",
+   "entities": [
+    "Wave Neuroscience",
+    "MeRT",
+    "FDA",
+    "Erik Won"
+   ],
+   "finder_note": "Implicit expectation of publication; Won says in the interview 'it’s in write-up now and we’re moving as fast as we can'."
+  },
+  {
+   "id": "owen-2268",
+   "forecaster": "owen",
+   "statement_date": "2026-06-04",
+   "quote": "I’m going to be subpoenaing these records.",
+   "context": "Transcript of the author's recorded call with Hertz roadside assistance (agent 'Patty') after a hit-and-run in April 2026. The author says he will subpoena the call records because of conflicting statements about whether the damaged rental car was drivable. A later bracketed note says 'the legal back and forth is still going'.",
+   "post_title": "Human Drivers Are A Public Health Menace (And One Tried to Kill Me Recently!)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/human-drivers-are-a-public-health",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I’m going to be",
+   "entities": [
+    "Hertz",
+    "Owen Muir"
+   ],
+   "finder_note": "Own-action intent stated inside a phone call; repeated as 'That is why I’m going to subpoena this call.' Low forecast value."
+  },
+  {
+   "id": "owen-2269",
+   "forecaster": "owen",
+   "statement_date": "2026-06-04",
+   "quote": "what if we could replace drunk drivers with robots? We can.",
+   "context": "After citing 2024 US crash and drunk-driving statistics (39,254 deaths; 11,904 alcohol-impaired deaths), the author argues that self-driving cars (Waymo) can replace drunk human drivers. Preceded by 'We can’t yet automate men away entirely'.",
+   "post_title": "Human Drivers Are A Public Health Menace (And One Tried to Kill Me Recently!)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/human-drivers-are-a-public-health",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "We can",
+   "entities": [
+    "Waymo",
+    "Tesla"
+   ],
+   "finder_note": "Capability claim with an implicit adoption forecast (robots replacing drunk drivers); borderline."
+  },
+  {
+   "id": "owen-2270",
+   "forecaster": "owen",
+   "statement_date": "2026-06-04",
+   "quote": "Even if we divide that in half, it's still better than humans. That's more living beautiful, brilliant younger sisters with an engineering degrees still with us, and less time spending talking to lawyers at car insurance companies.",
+   "context": "Discussing Tesla's Q1 2025 Autopilot safety report (about 9x safer by Tesla's own numbers) and Waymo/Swiss Re data (92% fewer injury claims). The author claims that even a halved safety advantage means self-driving adoption would result in fewer traffic deaths (reference to Katie Fisher, killed by a driver in 2010).",
+   "post_title": "Human Drivers Are A Public Health Menace (And One Tried to Kill Me Recently!)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/human-drivers-are-a-public-health",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "still better",
+   "entities": [
+    "Tesla",
+    "Waymo",
+    "Swiss Re"
+   ],
+   "finder_note": "Implicit forecast: wider self-driving use would cut traffic deaths. Borderline; the explicit content is a present comparison."
+  },
+  {
+   "id": "owen-2272",
+   "forecaster": "owen",
+   "statement_date": "2026-06-07",
+   "quote": "The science we do will turn into a product, and to make it the most scalable product, we have to answer some of these questions. To generate the next, even more scalable product to help the most people, we need to tease these differences apart.",
+   "context": "After listing the parameter changes bundled into SAINT/SNT (accelerated, fMRI-guided TMS by Nolan Williams), the author states that the research will become a product and that working out which parameters matter is needed for the next, more scalable product.",
+   "post_title": "Do Brain Scans Have A Place in Depression Treatment?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/do-brain-scans-have-a-place-in-depression",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "SAINT",
+    "SNT",
+    "Nolan Williams",
+    "Radial"
+   ],
+   "finder_note": "Compound: forecast (science becomes a product) plus a normative need statement. The author offers SAINT at Radial."
+  },
+  {
+   "id": "owen-2274",
+   "forecaster": "owen",
+   "statement_date": "2026-06-07",
+   "quote": "So, Nolan was correct that the imaging-based targeting matters with very focal coils. He set an agenda for a generation of scientists.",
+   "context": "The author endorses Joe Taylor's 40-person AINT pilot (80% vs 60% response, effect size 0.8) as showing that fMRI connectivity-guided targeting improves accelerated TMS outcomes with focal coils; implicitly expects this to hold up in replication (borderline: endorsement of a third-party finding).",
+   "post_title": "Do Brain Scans Have A Place in Depression Treatment?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/do-brain-scans-have-a-place-in-depression",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Joe Taylor",
+    "AINT trial",
+    "SAINT/SNT",
+    "Nolan Williams"
+   ],
+   "finder_note": "hint: Larger sham-controlled replication of the AINT trial (imaging- vs scalp-targeted accelerated iTBS); publication of Taylor et al."
+  },
+  {
+   "id": "owen-2275",
+   "forecaster": "owen",
+   "statement_date": "2026-06-17",
+   "quote": "Before I write about what I've learned at the Summit, which is substantial, but not metabolized yet, I want to share a few observations about China.",
+   "context": "Opening of a travel dispatch from Beijing, where the author attended a CNS Summit event hosted by Amir Kalali. He promises a later post on what he learned at the Summit.",
+   "post_title": "A Dispatch From Beijing",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-dispatch-from-beijing",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "CNS Summit",
+    "Amir Kalali"
+   ],
+   "finder_note": "Own newsletter content promise; low forecast value."
+  }
+ ]
+}

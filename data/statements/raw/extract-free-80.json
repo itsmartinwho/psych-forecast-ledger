@@ -1,0 +1,454 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-80.md",
+  "posts": [
+    {
+      "slug": "how-to-open-a-transcranial-magnetic",
+      "read": true,
+      "statements_found": 4,
+      "note": "Guest column by Ben Spielberg (part one of a series); Owen wrote only the intro. Guest claims logged with own_claim false."
+    },
+    {
+      "slug": "one-therapists-guide-to-suing-change",
+      "read": true,
+      "statements_found": 2,
+      "note": "Interview with therapist Annalisa Hansen about Change Healthcare breach and small-claims win; mostly past narrative and advice. Two borderline interviewee claims logged."
+    },
+    {
+      "slug": "what-the-first-appointment-is-really",
+      "read": true,
+      "statements_found": 0,
+      "note": "Guest essay by Atef (former junior resident) on the first appointment; Owen intro is reminiscence. No forward-looking claims."
+    },
+    {
+      "slug": "introducing-brain-medicine-and-open",
+      "read": true,
+      "statements_found": 5,
+      "note": "Owen's own manifesto for Brain Medicine; calls on the decline of psychopharmacology and the chemical-imbalance model, plus an endorsed Josh Brown quote."
+    },
+    {
+      "slug": "the-luckiest-stroke-of-all-time",
+      "read": true,
+      "statements_found": 1,
+      "note": "Personal essay about his father's stroke; only a content promise about Chris Athens."
+    },
+    {
+      "slug": "the-tms-podcast",
+      "read": true,
+      "statements_found": 0,
+      "note": "86-word podcast share about Radial colleagues; no forward-looking claims."
+    },
+    {
+      "slug": "i-did-a-guest-psychonaut-pov-interview",
+      "read": true,
+      "statements_found": 3,
+      "note": "Tricycle Day interview highlights and media hits; includes Owen's own quoted press statement about SWIFT (Radial) and his event schedule."
+    },
+    {
+      "slug": "from-peru-to-openclaw-one-nurses",
+      "read": true,
+      "statements_found": 6,
+      "note": "Profile of nurse Michelle Bernabe; relayed third-party disruption forecasts (Ongaro, Pinchbeck), an event date, and playful tech speculation in dialogue."
+    },
+    {
+      "slug": "life-death-and-equanimity",
+      "read": true,
+      "statements_found": 2,
+      "note": "Grief conversation with his mother Vita; only plans about the author's own book and future writing."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "how-to-open-a-transcranial-magnetic",
+      "quote": "Today, he brings us part one of a series on “how to open a TMS clinic.”",
+      "context": "Owen's editorial intro to Ben Spielberg's guest column on opening a TMS clinic. He frames it as part one of a series, implying further installments in this newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Ben Spielberg",
+        "The Frontier Psychiatrists",
+        "Stella",
+        "Soulstice"
+      ],
+      "note": "Implicit newsletter-programming promise that the series continues; guest author later promises part 2 on staffing."
+    },
+    {
+      "post_slug": "how-to-open-a-transcranial-magnetic",
+      "quote": "Perhaps you’ve also heard of ketamine, Spravato, or the litany of other psychedelic drugs lining up for FDA approval in the coming years.",
+      "context": "Guest author Ben Spielberg, introducing interventional psychiatry, says a litany of psychedelic drugs are lining up for FDA approval in the coming years.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "in the coming years",
+      "confidence_phrase": "none",
+      "entities": [
+        "FDA",
+        "ketamine",
+        "Spravato"
+      ],
+      "note": "Guest author's claim; implies multiple psychedelic drugs reach FDA approval within the coming years."
+    },
+    {
+      "post_slug": "how-to-open-a-transcranial-magnetic",
+      "quote": "Will you plan to offer drugs like COMP-360 or BPL-003 once they are FDA-approved?",
+      "context": "Guest author Ben Spielberg, discussing office location and patient transport, asks whether the reader will offer COMP-360 or BPL-003 once they are FDA-approved, presupposing approval.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "once they are FDA-approved",
+      "confidence_phrase": "once",
+      "entities": [
+        "COMP-360",
+        "BPL-003",
+        "FDA",
+        "Compass Pathways",
+        "Beckley Psytech"
+      ],
+      "note": "Borderline: rhetorical question whose presupposition is that COMP-360 and BPL-003 will be FDA-approved. Guest author."
+    },
+    {
+      "post_slug": "how-to-open-a-transcranial-magnetic",
+      "quote": "In part 2, I’ll provide important considerations and tips for staffing your interventional clinic.",
+      "context": "Guest author Ben Spielberg closes part one by promising a part 2 on staffing an interventional clinic.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I’ll",
+      "entities": [
+        "Ben Spielberg"
+      ],
+      "note": "Guest author's content promise for a follow-up column in this newsletter."
+    },
+    {
+      "post_slug": "one-therapists-guide-to-suing-change",
+      "quote": "There’s no check in the mail yet — they have 30 calendar days to appeal — but I won.",
+      "context": "Interviewee Annalisa Hansen, LPCC, describes winning full damages in California small claims court against Magellan and Change Healthcare over unpaid claims after the Change Healthcare breach; payment pending the 30-day appeal window.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "30 calendar days",
+      "confidence_phrase": "none",
+      "entities": [
+        "Annalisa Hansen",
+        "Magellan",
+        "Change Healthcare",
+        "Optum",
+        "UnitedHealth Group"
+      ],
+      "note": "Borderline: implies payment is expected after the appeal window; interviewee's claim, not the author's."
+    },
+    {
+      "post_slug": "one-therapists-guide-to-suing-change",
+      "quote": "Class action takes years. Small claims court is much faster.",
+      "context": "Interviewee Annalisa Hansen, advising providers to sue Change Healthcare in home-state small claims court after Judge Donovan Frank released out-of-state litigants from the Minnesota MDL, contrasts the class action timeline with small claims.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "years",
+      "confidence_phrase": "none",
+      "entities": [
+        "Change Healthcare",
+        "Seger Weiss LLP",
+        "Judge Donovan Frank"
+      ],
+      "note": "Generic process claim by interviewee; implies the Change Healthcare class action will take years to resolve."
+    },
+    {
+      "post_slug": "introducing-brain-medicine-and-open",
+      "quote": "That is right—psychopharmacology is already dead, it just might take a while to stop wiggling.",
+      "context": "Owen's manifesto introducing Brain Medicine: he declares psychopharmacology (medication-fiddling as the job of psychiatry) dead, with its decline taking a while to become visible.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "a while",
+      "confidence_phrase": "already dead; might take a while",
+      "entities": [],
+      "note": "Negative call on psychopharmacology as a practice; hyperbolic but sincere framing."
+    },
+    {
+      "post_slug": "introducing-brain-medicine-and-open",
+      "quote": "So too with “chemical imbalances” fixed with chemicals. These will go the way of humoral imbalances, addressed with bloodletting.",
+      "context": "Owen compares the chemical-imbalance model of mental illness to the four humors and predicts it will be abandoned like humoral theory and bloodletting.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [],
+      "note": "Call that the chemical-imbalance explanatory model and chemical fixes will be discarded."
+    },
+    {
+      "post_slug": "introducing-brain-medicine-and-open",
+      "quote": "Pretty soon, we will be talking about “ Spatial single-cell multiomics reveals peripheral immune dysfunction in Parkinson’s and inflammatory bowel disease. ” Oh, wait. We already are .",
+      "context": "Owen, discussing circuit-based understanding of Parkinson's and TMS, sets up a prediction that multiomics papers will soon be the talk, then immediately notes it is already the case.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Pretty soon",
+      "confidence_phrase": "will",
+      "entities": [],
+      "note": "Rhetorical setup immediately retracted ('We already are'); a joke rather than a real expectation."
+    },
+    {
+      "post_slug": "introducing-brain-medicine-and-open",
+      "quote": "Unprecedented knowledge of the brain is inevitably contributing to the convergence of neurology and psychiatry. ... An etiological approach will continue to shift more psychiatric patients to the care of neurologists who are untrained in psychiatric management.",
+      "context": "Block quote from Josh Brown, M.D., which Owen presents as the definition of Brain Medicine, the new framework he is unveiling: neurology and psychiatry converge and psychiatric patients shift to neurologists.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "inevitably; will continue",
+      "entities": [
+        "Josh Brown, M.D."
+      ],
+      "note": "Quoted third party (Josh Brown); author adopts the framework ('thanks to Josh Brown') so logged as endorsed restatement."
+    },
+    {
+      "post_slug": "introducing-brain-medicine-and-open",
+      "quote": "This is happening again. It’s called Brain Medicine , thanks to Josh Brown, M.D:",
+      "context": "After describing how new medical specialties (sleep medicine, emergency medicine) form when a domain becomes specialized, Owen asserts the same is happening now with Brain Medicine as a new discipline.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Josh Brown, M.D."
+      ],
+      "note": "Present-progressive framing; implied call is that Brain Medicine becomes a recognized specialty. Author adds 'And it's here, already.'"
+    },
+    {
+      "post_slug": "the-luckiest-stroke-of-all-time",
+      "quote": "More about the remarkable Mr. Athens, dear readers, soon.",
+      "context": "Owen closes the essay about his father's stroke by promising a future newsletter piece about his cousin Chris Athens.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "soon",
+      "confidence_phrase": "none",
+      "entities": [
+        "Chris Athens"
+      ],
+      "note": "Newsletter content promise."
+    },
+    {
+      "post_slug": "i-did-a-guest-psychonaut-pov-interview",
+      "quote": "The most important reason, though, is that I’m highly likely to be involved as a voice in the regulatory process.",
+      "context": "Tricycle Day interview excerpt: Owen explains why he has never taken psychedelics, saying he is highly likely to be involved as a voice in the psychedelic regulatory process (he has been to the FDA three times this year).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "highly likely",
+      "entities": [
+        "FDA",
+        "Tricycle Day",
+        "Radial"
+      ],
+      "note": "Call about the author's own future role in psychedelic regulation."
+    },
+    {
+      "post_slug": "i-did-a-guest-psychonaut-pov-interview",
+      "quote": "By significantly reducing the time and travel, and improving time to remission, accelerated protocols like SWIFT may help more patients start and complete safe and effective treatment",
+      "context": "Owen's own statement to HCP Live, quoted in his media-hits list, about the SWIFT accelerated dTMS protocol for MDD at Radial helping more patients start and complete treatment.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "may",
+      "entities": [
+        "SWIFT",
+        "Radial",
+        "dTMS",
+        "HCP Live"
+      ],
+      "note": "Author's press statement about his own organization's protocol (Radial); quoted from HCP Live."
+    },
+    {
+      "post_slug": "i-did-a-guest-psychonaut-pov-interview",
+      "quote": "I’ll be attending the BRaSS Summit next week and speaking at many events soon, including RAMHT SF MAY 2026.",
+      "context": "Owen's closing schedule note: attending the BRaSS Summit next week and speaking at events including RAMHT SF in May 2026.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "next week; soon; MAY 2026",
+      "confidence_phrase": "I’ll be",
+      "entities": [
+        "BRaSS Summit",
+        "RAMHT"
+      ],
+      "note": "Author's own schedule; RAMHT is an author-affiliated organization."
+    },
+    {
+      "post_slug": "from-peru-to-openclaw-one-nurses",
+      "quote": "Collapse theorist Loic Ongaro — author of Goliath’s Curse — is speaking at the next one, for those interested. His argument: enormous disruption is coming, but moral ambition and collective action can shape what we transition toward .",
+      "context": "Describing the meta-crisis salons at Lightning Society that Michelle Bernabe attends, Owen relays Loic Ongaro's argument that enormous disruption is coming and announces Ongaro as the next speaker.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "is coming",
+      "entities": [
+        "Loic Ongaro",
+        "Lightning Society",
+        "Goliath’s Curse"
+      ],
+      "note": "Third-party forecast relayed by author; narration ('The narrow path through is real') reads sympathetic but is not an explicit endorsement."
+    },
+    {
+      "post_slug": "from-peru-to-openclaw-one-nurses",
+      "quote": "As Pinchbeck frames it: the next 18 to 36 months represent a genuine window. The disruption is coming regardless. The question is whether enough people with moral ambition show up to shape the transition.",
+      "context": "Describing the Sunday maker space at Caravan of Dreams, Owen relays Daniel Pinchbeck's framing that the next 18 to 36 months are a window and disruption is coming regardless.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "the next 18 to 36 months",
+      "confidence_phrase": "regardless",
+      "entities": [
+        "Daniel Pinchbeck",
+        "Caravan of Dreams"
+      ],
+      "note": "Third-party forecast relayed by author; attribution explicit."
+    },
+    {
+      "post_slug": "from-peru-to-openclaw-one-nurses",
+      "quote": "April 15th, there’s a community launch event specifically to rally support for keeping Caravan of Dreams open — mark it down .",
+      "context": "Owen announces an April 15 community launch event to support Caravan of Dreams, the East 6th Street vegan restaurant at risk of closing that hosts the Sunday maker space.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "April 15th",
+      "confidence_phrase": "none",
+      "entities": [
+        "Caravan of Dreams"
+      ],
+      "note": "Event announcement; the setup states the restaurant is at risk of closing."
+    },
+    {
+      "post_slug": "from-peru-to-openclaw-one-nurses",
+      "quote": "one of the things that will help it thrive is each member having a Mac mini running useful community-building tasks in the background",
+      "context": "In dialogue with Michelle Bernabe about her always-on Mac mini agent 'Alfred', Owen teases that the community will thrive if each member runs a Mac mini agent; Michelle rejects the idea.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Mac mini",
+        "Claude"
+      ],
+      "note": "Playful exaggeration in conversation; Michelle immediately replies 'Mac minis are not for everyone'."
+    },
+    {
+      "post_slug": "from-peru-to-openclaw-one-nurses",
+      "quote": "Claude code could also recreate Luma entirely.",
+      "context": "In dialogue about AI agents handling community logistics like recurring Luma invites, Owen speculates that Claude Code could recreate the Luma event platform entirely; Michelle agrees an independent Luma is possible.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "could",
+      "entities": [
+        "Claude Code",
+        "Luma",
+        "Palantir"
+      ],
+      "note": "Capability speculation rather than a dated call; borderline."
+    },
+    {
+      "post_slug": "from-peru-to-openclaw-one-nurses",
+      "quote": "I can’t wait to bring him to life. I’m going to have him text you.",
+      "context": "Michelle Bernabe, the profiled nurse, describes her plan to finish building her AI agent Alfred on a Mac mini and have it text Owen.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I’m going to",
+      "entities": [
+        "Michelle Bernabe",
+        "Alfred",
+        "Claude"
+      ],
+      "note": "Guest's trivial personal plan; logged for recall. Postscript notes Alfred is still getting tokens authorized."
+    },
+    {
+      "post_slug": "life-death-and-equanimity",
+      "quote": "I’m working on a book I can’t publish anytime soon",
+      "context": "Owen explains that the interview with his mother Vita is part of a book he is writing, which he cannot publish anytime soon; he is using Claude to rearrange his writing.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "anytime soon",
+      "confidence_phrase": "can’t",
+      "entities": [
+        "Vita Muir",
+        "Claude"
+      ],
+      "note": "Negative near-term call about the author's own book publication."
+    },
+    {
+      "post_slug": "life-death-and-equanimity",
+      "quote": "This interview will show up again, transfigured, in future writing.",
+      "context": "Owen says the grief interview with his mother Vita will reappear, reworked, in his future writing (the book).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "future writing",
+      "confidence_phrase": "will",
+      "entities": [
+        "Vita Muir"
+      ],
+      "note": "Author's own writing plan."
+    }
+  ]
+}

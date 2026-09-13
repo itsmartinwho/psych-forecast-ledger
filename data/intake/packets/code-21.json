@@ -1,0 +1,855 @@
+{
+ "packet": "code-21.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0896",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "The Department of Justice can put you in jail. I think that's highly unlikely…but anti-trust enforcement, especially in the context of a very high-profile ransomware attack, where the FBI could be of help in decrypting files…",
+   "context": "The DOJ opened a non-public antitrust investigation into UnitedHealth Group in October 2023 and served a document preservation notice. The author notes the DOJ can jail people but judges jail highly unlikely; the trailing sentence implies antitrust enforcement, amid the Change Healthcare ransomware attack, is the more plausible outcome.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "highly unlikely",
+   "entities": [
+    "Department of Justice",
+    "UnitedHealth Group",
+    "Optum",
+    "Change Healthcare",
+    "FBI"
+   ],
+   "finder_note": "Negative call (no jail for UHG executives). Sentence trails off into 'anti-trust enforcement... where the FBI could be of help in decrypting files'."
+  },
+  {
+   "id": "owen-0897",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "Change Healthcare may be down for a very long time.",
+   "context": "From a background conversation with a cybersecurity professional: average 73 days to resolve a ransomware attack, but BlackCat is an unreliable actor who may re-encrypt after a decrypt key is bought. Author forecasts the Change Healthcare outage could last a very long time.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "company_market",
+   "horizon_text": "a very long time",
+   "confidence_phrase": "may",
+   "entities": [
+    "Change Healthcare",
+    "BlackCat",
+    "UnitedHealth Group",
+    "Optum"
+   ],
+   "finder_note": "Outage-duration call; base rate of 73 days given as setup."
+  },
+  {
+   "id": "owen-0898",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "The much bigger financial problem for United Healthcare is that the information in question is all protected health information, that, for an average of hundreds of days, was being accessed by somebody in a way that is a violation of HIPAA.",
+   "context": "Author relays a cybersecurity source's estimate that the going ransom for a breach of this scale is about $40 million, small next to UHG's $8.9 billion quarterly earnings. Read as an implicit estimate of the ransom UHG would face.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "around",
+   "entities": [
+    "United Healthcare",
+    "Change Healthcare",
+    "BlackCat"
+   ],
+   "finder_note": "Borderline: phrased as a market rate, not an explicit prediction; sourced to an unnamed cybersecurity professional. Same $40M figure reused later as the ransom comparator."
+  },
+  {
+   "id": "owen-0899",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "If there is documentation that they knew before, the fines on the HIPAA breach and the scale of that HIPAA breach may be financially catastrophic in a way that a $40 million ransom payment would be trivial next to.",
+   "context": "UHG had 48 hours to report the breach to HHS. Conditional: if documents show UHG/Change knew of the intrusion earlier than reported, HIPAA fines may be financially catastrophic, dwarfing a $40 million ransom.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "may be",
+   "entities": [
+    "United Healthcare",
+    "Change Healthcare",
+    "HIPAA",
+    "HHS",
+    "SEC"
+   ],
+   "finder_note": "Conditional call."
+  },
+  {
+   "id": "owen-0900",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "“What did they know and when did they know it” is going to be a really important question.",
+   "context": "Author forecasts that the timing of UnitedHealth's knowledge of the Change Healthcare intrusion will become a central question, feeding both HIPAA penalties and the DOJ records preservation request.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to be",
+   "entities": [
+    "UnitedHealth Group",
+    "Change Healthcare",
+    "Department of Justice",
+    "HHS"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-0901",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "there may be some pissed-off for our cyber security professionals who have every incentive to report what they knew",
+   "context": "Optum laid off cybersecurity staff just before the breach was reported. Author expects some fired professionals may report what the company knew, linking to the DOJ preservation-of-records request.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "may be",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group",
+    "Department of Justice"
+   ],
+   "finder_note": "Whistleblower call; hedged."
+  },
+  {
+   "id": "owen-0903",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "The cyber security issue is the least of United Healthcare's problems, it's the HIPAA breach on top of the cyber security invasion that causes a compliance nightmare",
+   "context": "Author says the HIPAA breach, layered on the cyber intrusion, will create a compliance nightmare for UnitedHealth that outweighs the cybersecurity problem itself; he then walks through per-record HIPAA penalty tiers.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "United Healthcare",
+    "Change Healthcare",
+    "HIPAA"
+   ],
+   "finder_note": "Restatement of the earlier 'much bigger financial problem' call in the same post."
+  },
+  {
+   "id": "owen-0904",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "So we're talking about a worst-case scenario of $1.8×10^14.",
+   "context": "Tier-4 HIPAA penalty math: $1.8 million maximum per record times about 100 million people (Change Healthcare processes data on 1/3 of Americans) gives $1.8×10^14, which the author says is 377 times UnitedHealth's market capitalization. He labels it explicitly a worst-case scenario.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "worst-case scenario",
+   "entities": [
+    "Change Healthcare",
+    "UnitedHealth Group",
+    "HIPAA"
+   ],
+   "finder_note": "Explicit upper bound, not a stated expectation ('That's a worst-case scenario.'); logged for recall."
+  },
+  {
+   "id": "owen-0905",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "All of us should care. And will, in the coming days.",
+   "context": "On the Change Healthcare outage's effects on providers and patients (not getting paid, not getting meds), the author predicts everyone will come to care in the coming days.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "other",
+   "horizon_text": "in the coming days",
+   "confidence_phrase": "will",
+   "entities": [
+    "Change Healthcare",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "'should care' is normative but 'And will' carries a predictive reading."
+  },
+  {
+   "id": "owen-0906",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "there is likely to have been a data breach although that has not been confirmed by Change Healthcare at this stage",
+   "context": "Quoted from HIPAA Journal: BlackCat uses double extortion (exfiltrate, then encrypt), so a data breach is likely though unconfirmed by Change Healthcare. The author introduces it as evidence the problem is 'getting more grim by the day' and later treats the HIPAA breach as fact.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "at this stage",
+   "confidence_phrase": "likely",
+   "entities": [
+    "HIPAA Journal",
+    "BlackCat",
+    "Change Healthcare"
+   ],
+   "finder_note": "Quoted third party (HIPAA Journal); author adopts it ('millions of patient records at risk', 'the HIPAA breach'). Forward-looking reading: a data breach will be confirmed."
+  },
+  {
+   "id": "owen-0907",
+   "forecaster": "owen",
+   "statement_date": "2024-02-29",
+   "quote": "Today, we have another imagined press release from UHG in what I imagine will be the only way to get 6TB of PHI to not be a catastrophic HIPAA-fine disaster.",
+   "context": "The author's own framing sentence before a satirical press release imagining Optum acquiring the BlackCat ransomware group ('Why not just acquire the breach?'). Implies that the Change Healthcare breach of about 6TB of protected health information will otherwise be a catastrophic HIPAA-fine disaster for UnitedHealth Group.",
+   "post_title": "UnitedHealth Group's Optum Announces Acquisition of BlackCat RaaS Platform.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-groups-optum-announces",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "I imagine will be",
+   "entities": [
+    "UnitedHealth Group",
+    "Optum",
+    "Change Healthcare",
+    "BlackCat",
+    "HIPAA"
+   ],
+   "finder_note": "Implicit forecast of catastrophic HIPAA fines; the press-release body is fiction and was not logged."
+  },
+  {
+   "id": "owen-0908",
+   "forecaster": "owen",
+   "statement_date": "2024-03-01",
+   "quote": "If I don't move fast enough, I lose access to my charts.",
+   "context": "The author requested export of his medical records from Luminello over a week earlier with no result, while being emailed to switch to acquirer SimplePractice. Conditional about losing access to his own patient charts if he does not migrate in time.",
+   "post_title": "An Open Letter to EHR Company \"Luminello,\" Regarding Selling Out to the Man.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-ehr-company-luminello",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Luminello",
+    "SimplePractice"
+   ],
+   "finder_note": "Personal conditional about the author's own records access; low forecast value."
+  },
+  {
+   "id": "owen-0910",
+   "forecaster": "owen",
+   "statement_date": "2024-03-01",
+   "quote": "Your stock will collapse, and Regulators will fill your day",
+   "context": "Parody lyric verse: 'Your stock will collapse, and Regulators will fill your day'. Directed at SimplePractice and Luminello for failing to export the author's medical records; the author expects regulatory trouble (compliance enforcement) over the record-access failure. The refrain says 'Way out of compliance, need enforcement'.",
+   "post_title": "An Open Letter to EHR Company \"Luminello,\" Regarding Selling Out to the Man.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-ehr-company-luminello",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "SimplePractice",
+    "Luminello"
+   ],
+   "finder_note": "Parody lyric, but the regulatory-trouble claim reads as a real expectation; the 'stock will collapse' half of the line is hyperbole (logged separately as sincere=false)."
+  },
+  {
+   "id": "owen-0911",
+   "forecaster": "owen",
+   "statement_date": "2024-03-01",
+   "quote": "Way out of compliance— could be a class action!",
+   "context": "Parody lyric refrain about SimplePractice and Luminello's failure to return the author's charts; the author suggests the non-compliance could lead to a class action lawsuit.",
+   "post_title": "An Open Letter to EHR Company \"Luminello,\" Regarding Selling Out to the Man.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-ehr-company-luminello",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "could be",
+   "entities": [
+    "SimplePractice",
+    "Luminello"
+   ],
+   "finder_note": "Hedged litigation possibility inside a parody lyric."
+  },
+  {
+   "id": "owen-0912",
+   "forecaster": "owen",
+   "statement_date": "2024-03-01",
+   "quote": "I'm not gonna sell out",
+   "context": "After receiving an email encouraging him to sell his business, the author states he will not sell out (to private equity). Full sentence: 'All I Gotta say is, that I'm not gonna sell out, the pixies are going on tour again this summer.'",
+   "post_title": "An Open Letter to EHR Company \"Luminello,\" Regarding Selling Out to the Man.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-ehr-company-luminello",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "not gonna",
+   "entities": [
+    "Owen Muir",
+    "private equity"
+   ],
+   "finder_note": "Own intention about the author's own business (likely Fermata); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0913",
+   "forecaster": "owen",
+   "statement_date": "2024-03-01",
+   "quote": "the pixies are going on tour again this summer",
+   "context": "Same sentence; the author states the Pixies will tour again in summer 2024 (post dated 2024-03-01), as a joke about not selling out.",
+   "post_title": "An Open Letter to EHR Company \"Luminello,\" Regarding Selling Out to the Man.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-ehr-company-luminello",
+   "area_guess": "other",
+   "horizon_text": "this summer",
+   "confidence_phrase": "none",
+   "entities": [
+    "Pixies"
+   ],
+   "finder_note": "Restates a public tour announcement; trivial, low forecast value."
+  },
+  {
+   "id": "owen-0914",
+   "forecaster": "owen",
+   "statement_date": "2024-03-02",
+   "quote": "At some point, somebody is going to get subpoenaed about this, if they haven't been already, and they're gonna have to answer a lot of questions.",
+   "context": "About the Change Healthcare (UnitedHealthcare / Optum) cyberattack and data breach, after the author's TikTok explainer went viral. The author predicts subpoenas and questioning of those responsible; the question he wants answered is what Change Healthcare does.",
+   "post_title": "I Finally Went Viral on TikTok!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-finally-went-viral-on-tiktok",
+   "area_guess": "regulatory",
+   "horizon_text": "At some point",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "Change Healthcare",
+    "UnitedHealthcare",
+    "Optum",
+    "BlackCat"
+   ],
+   "finder_note": "Compound: subpoena plus questioning; hedged by 'if they haven't been already'."
+  },
+  {
+   "id": "owen-0915",
+   "forecaster": "owen",
+   "statement_date": "2024-03-02",
+   "quote": "This is a real problem. Is the protected health information version of Chernobyl. Knock-on effects, toxic waste, and scorched landscape of healthcare infrastructure so lightly protected 6 TB that are in the hands of people who would like to profit in every possible way of that information.",
+   "context": "The Change Healthcare breach will have long-lasting knock-on harms across healthcare infrastructure, and the stolen 6TB of PHI will be exploited for profit.",
+   "post_title": "I Finally Went Viral on TikTok!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-finally-went-viral-on-tiktok",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "hint: UHG breach notifications (190M+ individuals, Jan 2025); reports of leaked Change data being sold or used for fraud"
+  },
+  {
+   "id": "owen-0916",
+   "forecaster": "owen",
+   "statement_date": "2024-03-03",
+   "quote": "Today's The Frontier Psychiatrist post is an imagined meeting where the BlackCat cyber hackers discuss why they haven't gotten paid from United Healthcare, yet.",
+   "context": "Author's own (non-satirical) intro to the BlackCat town-hall satire. The word 'yet' implies he expects UnitedHealth to eventually pay BlackCat's ransom for the Change Healthcare attack.",
+   "post_title": "An Imagined Town Hall With BlackCat Regarding Their Change Healthcare Extortion Process",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-imagined-town-hall-with-blackcat",
+   "area_guess": "company_market",
+   "horizon_text": "yet",
+   "confidence_phrase": "none",
+   "entities": [
+    "BlackCat",
+    "United Healthcare",
+    "Change Healthcare",
+    "Optum"
+   ],
+   "finder_note": "Implicit forecast carried by 'yet'; borderline."
+  },
+  {
+   "id": "owen-0917",
+   "forecaster": "owen",
+   "statement_date": "2024-03-03",
+   "quote": "we are optimistic, we are on a second-level appeal, and we're confident we're going to get the ransom we requested",
+   "context": "Spoken by the fictional BlackCat spokesperson in the satirical all-hands, after jokes about UnitedHealth's fax-only ransom process and peer-to-peer appeals. Underlying claim: UnitedHealth will pay the ransom. Restated as 'we're hopeful that we're going to make a lot of money on this extortion'.",
+   "post_title": "An Imagined Town Hall With BlackCat Regarding Their Change Healthcare Extortion Process",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-imagined-town-hall-with-blackcat",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "confident",
+   "entities": [
+    "BlackCat",
+    "United Healthcare",
+    "Optum",
+    "Change Healthcare"
+   ],
+   "finder_note": "Satirical voice of BlackCat; 'confident' is the character's. Underlying expectation (UHG pays) matches the author's own 'yet' in the intro; coder may flip sincere."
+  },
+  {
+   "id": "owen-0918",
+   "forecaster": "owen",
+   "statement_date": "2024-03-04",
+   "quote": "they make more money the longer this goes on, not less",
+   "context": "Open letter to the BlackCat ransomware hackers extorting UnitedHealth Group over Change Healthcare. The author argues UHG profits from the outage: premiums keep flowing in while claims payments are frozen, and UHG, which owns a bank, earns interest on about $730m every day it cannot pay claims.",
+   "post_title": "An Open Letter To Ransomware Hackers Attempting to Extort United Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-ransomware-hackers",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "UnitedHealth Group",
+    "Optum",
+    "Change Healthcare",
+    "BlackCat"
+   ],
+   "finder_note": "Present-tense incentive analysis with a forward implication (UHG gains as the outage continues); restated as 'They make more money every single day they can't pay out claims'."
+  },
+  {
+   "id": "owen-0919",
+   "forecaster": "owen",
+   "statement_date": "2024-03-04",
+   "quote": "United healthcare will survive if United healthcare has a delay in paying United healthcare.",
+   "context": "Explains that Change Healthcare is part of Optum, part of UHG, and that UHG pays itself (netted out under 'corporate and eliminations'). Conditional prediction that UnitedHealthcare survives a delay in internal payments caused by the cyberattack.",
+   "post_title": "An Open Letter To Ransomware Hackers Attempting to Extort United Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-ransomware-hackers",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will survive",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "Optum",
+    "Change Healthcare"
+   ],
+   "finder_note": "Conditional, low-uncertainty claim."
+  },
+  {
+   "id": "owen-0920",
+   "forecaster": "owen",
+   "statement_date": "2024-03-04",
+   "quote": "You're in the big leagues now, UHC is gonna crush you like they do all the rest of us.",
+   "context": "Closing warning to the ransomware hackers: the author predicts UnitedHealthcare will prevail over them, as it does over providers and patients. Preceded by 'Their incentive is not to get this over with quickly.'",
+   "post_title": "An Open Letter To Ransomware Hackers Attempting to Extort United Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-ransomware-hackers",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "is gonna",
+   "entities": [
+    "UnitedHealthcare",
+    "BlackCat"
+   ],
+   "finder_note": "Rhetorical open-letter framing; reads as a real expectation that UHC comes out ahead of the extortionists."
+  },
+  {
+   "id": "owen-0922",
+   "forecaster": "owen",
+   "statement_date": "2024-03-06",
+   "quote": "Now, it's probably the worst liability I can imagine when it comes to cyber security and a flood of incoming lawsuits.",
+   "context": "Opening of an illustrated tour of Optum's public Change Healthcare service-status page (created the evening of March 5, 2024). The author characterizes Change Healthcare as the worst cyber-security liability he can imagine and expects a flood of incoming lawsuits.",
+   "post_title": "Change Healthcare: Apocalypse Now!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-apocalypse-now",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "Change Healthcare",
+    "Optum",
+    "UnitedHealthcare"
+   ],
+   "finder_note": "Compound: liability characterization plus an expected flood of lawsuits (litigation)."
+  },
+  {
+   "id": "owen-0923",
+   "forecaster": "owen",
+   "statement_date": "2024-03-06",
+   "quote": "It's just the beginning.",
+   "context": "Immediately after 'Oh my God, that looks like a lot of problems with information systems!' while walking through screenshots of the Change Healthcare service-status page. The phrase may mean more problems are coming, or may only introduce the rest of the page tour (next line: 'Let's start with what's going well').",
+   "post_title": "Change Healthcare: Apocalypse Now!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-apocalypse-now",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Change Healthcare",
+    "Optum"
+   ],
+   "finder_note": "Ambiguous: may not be a forecast at all; logged for recall."
+  },
+  {
+   "id": "owen-0924",
+   "forecaster": "owen",
+   "statement_date": "2024-03-06",
+   "quote": "There are just so many services… credentialing is going to slow down!",
+   "context": "Commenting on the status page section showing Change Healthcare's provider communications and credentialing services offline; the author predicts provider credentialing will slow down as a consequence of the outage.",
+   "post_title": "Change Healthcare: Apocalypse Now!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-apocalypse-now",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "Change Healthcare",
+    "Optum"
+   ],
+   "finder_note": "Operational consequence of the outage."
+  },
+  {
+   "id": "owen-0925",
+   "forecaster": "owen",
+   "statement_date": "2024-03-07",
+   "quote": "sort of kind of promise to keep dissecting drugs or making fun of myself",
+   "context": "Podcast post intro. The author half-promises to keep producing his usual newsletter content (drug analysis, self-mockery) alongside the Change Healthcare coverage; the post itself publishes a podcast recorded before UHC paid the ransom.",
+   "post_title": "Change (Healthcare) My Mind!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-my-mind",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "sort of kind of promise",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content intention; trivial. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0926",
+   "forecaster": "owen",
+   "statement_date": "2024-03-11",
+   "quote": "I'm working on an exciting piece. That's a lie. It's a pretty dull piece about retrospective studies, cats, and dogs.",
+   "context": "Author announces a forthcoming newsletter piece on retrospective studies, cats and dogs.",
+   "post_title": "Satire is Now the News",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/satire-is-now-the-news",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content plan; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0927",
+   "forecaster": "owen",
+   "statement_date": "2024-03-11",
+   "quote": "There is more exciting content tomorrow!",
+   "context": "Closing promise that the daily newsletter will publish more content the next day (post dated 2024-03-11).",
+   "post_title": "Satire is Now the News",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/satire-is-now-the-news",
+   "area_guess": "other",
+   "horizon_text": "tomorrow",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Trivial own-newsletter promise; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0928",
+   "forecaster": "owen",
+   "statement_date": "2024-03-12",
+   "quote": "The basic science, however, suggests that, if these results are replicated, there’s yet more data for the profound biology underlying the relationship between our microbiome, our mental health, and our environment, in determining who gets sick, when, and with what.",
+   "context": "Closing reflection on the Yolken et al. 2019 PLOS ONE cohort study that linked early household cat exposure to about double the odds of schizophrenia and found dogs protective (mechanism: Toxoplasma gondii and microbial co-travelers). The author conditions on future replication of the results; the consequent is an interpretive claim that replication would add evidence for microbiome-mental-health biology, not a dated world-state call.",
+   "post_title": "Are You A Dog Person or An Increased Risk of Schizophrenia Person?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-you-a-dog-person-or-an-increased",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "suggests",
+   "entities": [
+    "Toxoplasma gondii",
+    "Yolken et al. (PLOS ONE 2019 study)",
+    "schizophrenia",
+    "bipolar disorder"
+   ],
+   "finder_note": "Borderline: conditional on replication (a future event), but the consequent is interpretive rather than a specific forecast. Logged for recall."
+  },
+  {
+   "id": "owen-0929",
+   "forecaster": "owen",
+   "statement_date": "2024-03-13",
+   "quote": "NY, CA, IL, and more coming soon, and enrolling for research like SAINT OLO globally.",
+   "context": "Footnote 1 attached to the author's line that he practices at Fermata in NYC and Acacia Clinics in Sunnyvale, CA, still sees patients, and readers can book a consultation. The footnote says the practice covers NY, CA and IL with more states coming soon, and is enrolling for research such as SAINT OLO globally.",
+   "post_title": "The Sense Of Pleasure",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-sense-of-pleasure",
+   "area_guess": "company_market",
+   "horizon_text": "coming soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "Fermata",
+    "Acacia Clinics",
+    "SAINT OLO"
+   ],
+   "finder_note": "Own-organization expansion claim (Fermata / Acacia Clinics); coder marks CONTROL. Low forecast value."
+  },
+  {
+   "id": "owen-0930",
+   "forecaster": "owen",
+   "statement_date": "2024-03-17",
+   "quote": "The FDA review of this non-label makes it clear—people are going to prescribe this anyway. Nothing we say about this negative trial will stop them.",
+   "context": "Section 'Irritability Associated with Autism…Problematic Data' of Abilify I. Otsuka's maintenance trial of aripiprazole for irritability in autistic children was negative (p=0.097) and the FDA declined a maintenance label. The author quotes the FDA reviewer ('It is unlikely that the results ... would significantly alter the clinical practice of prescribers ... it is likely that aripiprazole would be continued') and adopts the view that prescribers will keep using it regardless.",
+   "post_title": "Abilify I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/aripiprazole",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to",
+   "entities": [
+    "Abilify",
+    "aripiprazole",
+    "Otsuka",
+    "FDA"
+   ],
+   "finder_note": "Endorsed restatement of the FDA reviewer's forecast that prescribers would continue aripiprazole despite the negative maintenance trial; the author's stance is the statement."
+  },
+  {
+   "id": "owen-0931",
+   "forecaster": "owen",
+   "statement_date": "2024-03-17",
+   "quote": "Bipolar Disorder: No , but I will deal with it in another article.",
+   "context": "TL;DR list of Abilify's FDA indications with the author's verdicts; item 'Bipolar Disorder: No'. The author says he will cover the bipolar indication in another article. The post also notes that subsequent articles in the series cover Abilify in bipolar mania and bipolar depression.",
+   "post_title": "Abilify I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/aripiprazole",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Abilify",
+    "aripiprazole",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter publishing plan; coder marks CONTROL. Low forecast value."
+  },
+  {
+   "id": "owen-0932",
+   "forecaster": "owen",
+   "statement_date": "2024-03-17",
+   "quote": "Tourette: Eh, I will review this in another article later.",
+   "context": "TL;DR list of Abilify's FDA indications; item 'Tourette: Eh'. The author plans to review the Tourette's indication in a later article.",
+   "post_title": "Abilify I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/aripiprazole",
+   "area_guess": "other",
+   "horizon_text": "later",
+   "confidence_phrase": "will",
+   "entities": [
+    "Abilify",
+    "aripiprazole",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter publishing plan; coder marks CONTROL. Low forecast value."
+  },
+  {
+   "id": "owen-0933",
+   "forecaster": "owen",
+   "statement_date": "2024-03-17",
+   "quote": "But I write a lot, and after a few weeks, articles get plugged behind a paywall.",
+   "context": "Programming note in the welcome paragraph of Abilify I: most posts are free at first, and after a few weeks they go behind the paywall. A standing statement of newsletter policy that implies this free post will become paid.",
+   "post_title": "Abilify I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/aripiprazole",
+   "area_guess": "other",
+   "horizon_text": "after a few weeks",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Borderline: describes a recurring newsletter practice rather than a specific dated call. Own newsletter; coder marks CONTROL."
+  },
+  {
+   "id": "owen-0935",
+   "forecaster": "owen",
+   "statement_date": "2024-03-19",
+   "quote": "What I have not addressed is the lack of efficacy in bipolar depression . We will save that for tomorrow.",
+   "context": "Closing of Abilify II (mania): the author has not addressed aripiprazole's lack of efficacy in bipolar depression and says the next article, tomorrow, will cover it. He then hedges: 'That will be tomorrow…probably!'",
+   "post_title": "Abilify II: Bipolar Disorder (Mania)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/abilify-in-bipolar-disorder-part",
+   "area_guess": "other",
+   "horizon_text": "tomorrow",
+   "confidence_phrase": "will",
+   "entities": [
+    "Abilify",
+    "aripiprazole",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter publishing plan; coder marks CONTROL. Hedged two lines later with 'probably'."
+  },
+  {
+   "id": "owen-0936",
+   "forecaster": "owen",
+   "statement_date": "2024-03-20",
+   "quote": "Tomorrow, we'll move on to the adverse effects of aripiprazole.",
+   "context": "Series plan in the 'farewell to meds' Abilify series: the next installment (post dated 2024-03-20) is to cover aripiprazole's adverse effects.",
+   "post_title": "Abilify III: Bipolar Disorder (Depression)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/abilify-in-bipolar-disorder-ii",
+   "area_guess": "other",
+   "horizon_text": "Tomorrow",
+   "confidence_phrase": "we'll",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Abilify (aripiprazole)"
+   ],
+   "finder_note": "Own-newsletter plan; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0937",
+   "forecaster": "owen",
+   "statement_date": "2024-03-22",
+   "quote": "I have learned that when there is a best-selling drug, there is a federal case brought for illegal marketing. These cases are routinely settled by the DOJ for way, way less money than the drug made thanks to said illegal marketing.",
+   "context": "'The Federal Settlements' section of Abilify V. The author, as a self-described dilettante historian of pharmaceuticals, states a general pattern: every best-selling drug attracts a federal illegal-marketing case, and the DOJ routinely settles for far less than the drug earned; he adds that this may be a rational strategy for the companies. Illustrated by the 2007 $515m BMS settlement and the 2008 $4m Otsuka settlement over Abilify.",
+   "post_title": "Abilify V: Federal Enforcement",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/abilify-v-federal-enforcement",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "routinely",
+   "entities": [
+    "DOJ",
+    "Bristol Myers Squibb",
+    "Otsuka",
+    "Abilify"
+   ],
+   "finder_note": "Borderline: a general regularity inferred from history, stated in generic present tense; not an explicit dated forecast. Logged for recall."
+  },
+  {
+   "id": "owen-0938",
+   "forecaster": "owen",
+   "statement_date": "2024-03-22",
+   "quote": "there is just SO MUCH that I will require another article to even get to state-level or private class action lawsuits about abilify. And those? I promise, they are much more exciting than these federal cases.",
+   "context": "Near the end of Abilify V: the author says the litigation topic needs another article covering state-level and private class-action lawsuits, and promises those will be more exciting than the federal cases. He adds that he hopes readers will 'compulsively read the next article in this series', foreshadowing the compulsive-behavior lawsuits article.",
+   "post_title": "Abilify V: Federal Enforcement",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/abilify-v-federal-enforcement",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I promise",
+   "entities": [
+    "Abilify",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter publishing plan; coder marks CONTROL."
+  },
+  {
+   "id": "owen-0939",
+   "forecaster": "owen",
+   "statement_date": "2024-03-22",
+   "quote": "And now, in what may or may not be the final installment depending on how I feel, is the final article of this week on the topic.",
+   "context": "Opening of Abilify V (2024-03-22): the author says this is the final Abilify article of the week and may or may not be the final installment of the series. Later in the same post he says another article on state and class-action suits is needed.",
+   "post_title": "Abilify V: Federal Enforcement",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/abilify-v-federal-enforcement",
+   "area_guess": "other",
+   "horizon_text": "this week",
+   "confidence_phrase": "may or may not",
+   "entities": [
+    "Abilify",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter plan; coder marks CONTROL. Hedged."
+  }
+ ]
+}

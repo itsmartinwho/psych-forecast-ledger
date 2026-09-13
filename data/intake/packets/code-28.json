@@ -1,0 +1,850 @@
+{
+ "packet": "code-28.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1238",
+   "forecaster": "owen",
+   "statement_date": "2024-09-22",
+   "quote": "Fall is here. And with it, seasonal changes in mood for those with Bipolar Disorder.",
+   "context": "Podcast/video blurb titled 'Why Bipolar Depression Gets Worse In The Fall'. Prompted by a friend's reminder that fall has arrived, the author asserts that the season brings mood changes for people with bipolar disorder, the topic of the episode.",
+   "post_title": "Why Bipolar Depression Gets Worse In The Fall with Dr. Owen Muir, M.D.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-bipolar-depression-gets-worse",
+   "area_guess": "other",
+   "horizon_text": "Fall",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Borderline: a general clinical pattern stated for the season ahead rather than a dated forecast. Logged for recall."
+  },
+  {
+   "id": "owen-1239",
+   "forecaster": "owen",
+   "statement_date": "2024-09-24",
+   "quote": "When the history of how we healed psychiatric illness is written, it will also features my colleague Shan Siddiqui, M.D., a neuropsychiatrist at the Harvard Brain Science Initiative.",
+   "context": "Post on lesion-network mapping (Mike Fox, human connectome project) and a new TMS target for PTSD. The author predicts that Shan Siddiqi of the Harvard Brain Science Initiative will figure in the eventual history of how psychiatric illness was healed.",
+   "post_title": "A New Treatment for PTSD Based on Brain Science",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-treatment-for-ptsd-based-on",
+   "area_guess": "other",
+   "horizon_text": "When the history of how we healed psychiatric illness is written",
+   "confidence_phrase": "will",
+   "entities": [
+    "Shan Siddiqi",
+    "Harvard Brain Science Initiative",
+    "Mike Fox"
+   ],
+   "finder_note": "Legacy/reputation prediction; the quote spells the name 'Siddiqui', elsewhere 'Siddiqi'. It also presupposes that psychiatric illness will be healed."
+  },
+  {
+   "id": "owen-1240",
+   "forecaster": "owen",
+   "statement_date": "2024-09-24",
+   "quote": "Suppose we have a PTSD circuit, as hypothesized by lesion information. In that case, it should be possible to stimulate the neurons in that circuit noninvasively to treat PTSD in the same way that accidental brain injuries protect against PTSD.",
+   "context": "The scientific logic set out before the Nature Neuroscience paper is introduced: lesion mapping in Vietnam veterans suggests a PTSD circuit; if so, noninvasive stimulation (TMS) of that circuit should treat PTSD.",
+   "post_title": "A New Treatment for PTSD Based on Brain Science",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-treatment-for-ptsd-based-on",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "should be possible",
+   "entities": [
+    "TMS",
+    "Shan Siddiqi"
+   ],
+   "finder_note": "Conditional efficacy claim; the post then reports early single-patient results at Acacia and Fermata as confirmation."
+  },
+  {
+   "id": "owen-1241",
+   "forecaster": "owen",
+   "statement_date": "2024-09-24",
+   "quote": "It would be some very exciting science, not to mention wildly popular medicine, if this approach works to treat PTSD.",
+   "context": "Immediately before announcing the Nature Neuroscience paper by Siddiqi and colleagues and the use of the PTSD circuit map by Acacia Clinics (David Carreon). Conditional: if circuit-guided brain stimulation treats PTSD, it becomes wildly popular medicine.",
+   "post_title": "A New Treatment for PTSD Based on Brain Science",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-treatment-for-ptsd-based-on",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "would be ... if this approach works",
+   "entities": [
+    "Acacia Clinics",
+    "Shan Siddiqi",
+    "David Carreon",
+    "Nature Neuroscience"
+   ],
+   "finder_note": "Conditional adoption claim about an approach used in the author's own clinics (Acacia, Fermata); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1242",
+   "forecaster": "owen",
+   "statement_date": "2024-09-24",
+   "quote": "By mapping these lesions to a specific brain circuit, the study provides a blueprint for targeting PTSD with non-invasive brain stimulation techniques, such as Transcranial Magnetic Stimulation (TMS).",
+   "context": "Block quote introduced as 'how Acacia's team explains it', describing the study of 193 Vietnam veterans with penetrating brain injuries (Siddiqi et al., Nature Neuroscience). It claims the circuit map is a blueprint for future TMS targeting of PTSD.",
+   "post_title": "A New Treatment for PTSD Based on Brain Science",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-treatment-for-ptsd-based-on",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Acacia Clinics",
+    "Shan Siddiqi",
+    "TMS",
+    "Nature Neuroscience"
+   ],
+   "finder_note": "Borderline: text quoted from Acacia's team (the author's organization) and presented approvingly; forward-looking only by implication. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1243",
+   "forecaster": "owen",
+   "statement_date": "2024-09-24",
+   "quote": "Your author, Owen, happen to be on the team call when we discussed the deployment of this novel target for the first time. And we haven't stopped since then. More publications will be forthcoming.",
+   "context": "After recounting that he was on the team call when the novel PTSD target was first deployed at Acacia, and that the approach was replicated at his clinic Fermata in New York, the author promises further publications from this work.",
+   "post_title": "A New Treatment for PTSD Based on Brain Science",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-treatment-for-ptsd-based-on",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will be forthcoming",
+   "entities": [
+    "Acacia Clinics",
+    "Fermata",
+    "Shan Siddiqi"
+   ],
+   "finder_note": "Own-organization output promise; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1244",
+   "forecaster": "owen",
+   "statement_date": "2024-09-24",
+   "quote": "Other systems need to catch up, but science is not the rate-limiting step this time.",
+   "context": "Closing line, after 'Welcome to a future of less suffering; it's here now.' and the observation that research findings take 17 years on average to reach practice. The author asserts the science for circuit-guided PTSD treatment is done and that other systems (payers, regulators, clinical practice) will be the bottleneck to spread.",
+   "post_title": "A New Treatment for PTSD Based on Brain Science",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-treatment-for-ptsd-based-on",
+   "area_guess": "practice_adoption",
+   "horizon_text": "this time",
+   "confidence_phrase": "none",
+   "entities": [
+    "Acacia Clinics",
+    "Fermata"
+   ],
+   "finder_note": "Mixed normative/predictive: 'need to catch up' plus a claim about what will limit spread. Borderline; logged for recall."
+  },
+  {
+   "id": "owen-1245",
+   "forecaster": "owen",
+   "statement_date": "2024-09-26",
+   "quote": "There is more on this thread to pull…stay tuned!",
+   "context": "Closing line of an article on Lexapro vs generic escitalopram (a Chinese RCT with suicide events, an adolescent placebo-controlled trial). The author promises further newsletter coverage of this thread.",
+   "post_title": "Lexapro vs. Escitalopram: I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lexapro-vs-escitalopram-i",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Lexapro",
+    "escitalopram"
+   ],
+   "finder_note": "Own-newsletter promise of a follow-up article; CONTROL candidate."
+  },
+  {
+   "id": "owen-1246",
+   "forecaster": "owen",
+   "statement_date": "2024-09-27",
+   "quote": "Those people will be traumatized, squicked out, upset, or something else.",
+   "context": "Post written after the Sean Combs (Diddy) federal indictment, addressed to people in the fallout. 'Those people' are attendees of Combs' parties, only a portion of which the author imagines were 'Freak-Offs'.",
+   "post_title": "After Diddy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/after-diddy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will be",
+   "entities": [
+    "Sean Combs"
+   ],
+   "finder_note": "General expectation about third parties' emotional reactions; not measurable."
+  },
+  {
+   "id": "owen-1247",
+   "forecaster": "owen",
+   "statement_date": "2024-09-27",
+   "quote": "the legal system will adjudicate his guilt or innocence",
+   "context": "The author declines to speculate on Sean Combs' case ('This article isn't here to speculate on what will happen to Diddy') and states that the legal system will decide his guilt or innocence. Post dated 2024-09-27.",
+   "post_title": "After Diddy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/after-diddy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Sean Combs",
+    "DOJ"
+   ],
+   "finder_note": "Near-truism about the legal process; the author explicitly refuses to predict the outcome."
+  },
+  {
+   "id": "owen-1248",
+   "forecaster": "owen",
+   "statement_date": "2024-09-27",
+   "quote": "those who were ensnared and will look back on their roles with regret",
+   "context": "The author says the post is mainly for those who did nothing wrong, with some thoughts for people ensnared in Combs' alleged conduct, whom he expects to later regret their roles.",
+   "post_title": "After Diddy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/after-diddy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Sean Combs"
+   ],
+   "finder_note": "Expectation about third parties' future feelings; low forecast value."
+  },
+  {
+   "id": "owen-1249",
+   "forecaster": "owen",
+   "statement_date": "2024-09-27",
+   "quote": "the strength of victims might waiver in times other than their interactions with law enforcement",
+   "context": "Reacting to the HSI/DOJ press release praising the 'unwavering strength of victims and witnesses', the author expects victims' strength to waver outside law-enforcement settings, which motivates his six recommendations.",
+   "post_title": "After Diddy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/after-diddy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "HSI",
+    "DOJ",
+    "William S. Walker"
+   ],
+   "finder_note": "Hedged general expectation; 'waiver' is the author's spelling of 'waver'."
+  },
+  {
+   "id": "owen-1250",
+   "forecaster": "owen",
+   "statement_date": "2024-09-27",
+   "quote": "so many other options are coming ... It’s a lot in the pipeline",
+   "context": "Item five of six recommendations ('More than Pills and Talk Therapy Exist'). After listing HOPE-TMS, PRISM fMRI-EEG neurofeedback, Nightware, GammaCore nVNS (stated to be in the FDA Breakthrough process now), Monarch eTNS, stellate ganglion block and ketamine as options 'in the various stages of research and approval', the author says many more trauma treatments are coming, naming research on ibogaine, psilocybin and ultrasound.",
+   "post_title": "After Diddy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/after-diddy",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "are coming",
+   "entities": [
+    "Ibogaine",
+    "Psilocybin",
+    "GammaCore",
+    "HOPE-TMS",
+    "PRISM",
+    "Nightware",
+    "Monarch eTNS",
+    "FDA"
+   ],
+   "finder_note": "Pipeline claim for PTSD/trauma treatments with no dates. GammaCore's FDA Breakthrough status is stated as a present fact, not a forecast."
+  },
+  {
+   "id": "owen-1251",
+   "forecaster": "owen",
+   "statement_date": "2024-09-30",
+   "quote": "He wasn’t wrong. I couldn’t shake that the robots would be better diagnosticians than I could ever be someday. I haven’t stopped working on the problem since.",
+   "context": "Intro to the Psyrin interview. The author recalls a belief held since a 2013 carpool conversation with Dr. Leonardo Lopez: AI ('the robots') will one day be better psychiatric diagnosticians than he is. He says he has worked on the problem since (esketamine AI monitoring, MindMed anxiety detection, TDScreen with Videra), so the belief is still held.",
+   "post_title": "Psyrin and the Future of Vocal Biomarkers in Psychiatry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/psyrin-and-the-future-of-vocal-biomarkers",
+   "area_guess": "practice_adoption",
+   "horizon_text": "someday",
+   "confidence_phrase": "would be",
+   "entities": [
+    "Psyrin",
+    "Mind Med",
+    "Videra Health",
+    "iRxReminder"
+   ],
+   "finder_note": "Framed retrospectively ('I couldn't shake that...') but presented as a continuing expectation; open-ended horizon."
+  },
+  {
+   "id": "owen-1252",
+   "forecaster": "owen",
+   "statement_date": "2024-09-30",
+   "quote": "One publication on that work is out already , and more are coming.",
+   "context": "The author's Tardive Dyskinesia Risk Assessment tool (TDScreen, tdscreen.ai) built with iRxReminder and Videra Health. He says one publication is out and more publications on that work are coming.",
+   "post_title": "Psyrin and the Future of Vocal Biomarkers in Psychiatry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/psyrin-and-the-future-of-vocal-biomarkers",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "are coming",
+   "entities": [
+    "Videra Health",
+    "iRxReminder",
+    "TDScreen"
+   ],
+   "finder_note": "Author's own project (Videra/TDScreen); later coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1253",
+   "forecaster": "owen",
+   "statement_date": "2024-10-02",
+   "quote": "Sharena will be joining me this weekend to discuss the project",
+   "context": "OwenGPT, a GPT version of the author made by Sharena (first hire at Sanmai, the transcranial focused ultrasound company whose device Acacia Clinics is trialing). The author says Sharena will join him on the newsletter this weekend to discuss the project.",
+   "post_title": "Introducing The Robot Version of Me",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/introducing-the-robot-version-of",
+   "area_guess": "other",
+   "horizon_text": "this weekend",
+   "confidence_phrase": "will be",
+   "entities": [
+    "Sharena",
+    "OwenGPT",
+    "Sanmai",
+    "Acacia Clinics"
+   ],
+   "finder_note": "Newsletter scheduling; own organization (this newsletter), coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1254",
+   "forecaster": "owen",
+   "statement_date": "2024-10-05",
+   "quote": "What does matter for their business is their ability to increase their quarterly profits, which are currently in the astronomical range of more than 5,000,000,000 dollars every quarter. And that has to go up to keep Wall Street Happy. It has to go up every quarter.",
+   "context": "After sampling hostile TikTok comments about UnitedHealthcare, the author argues UHC does not need to care about its PR problem; what matters is growing quarterly profits (more than $5 billion per quarter), which must rise every quarter to satisfy Wall Street.",
+   "post_title": "Pre-Payment Review is the New Prior Authorization",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/pre-payment-review-is-the-new-prior",
+   "area_guess": "company_market",
+   "horizon_text": "every quarter",
+   "confidence_phrase": "has to",
+   "entities": [
+    "UnitedHealthcare",
+    "UnitedHealth Group",
+    "Wall Street"
+   ],
+   "finder_note": "Structural claim about incentives; weak predictive reading (profits must keep rising each quarter). Borderline."
+  },
+  {
+   "id": "owen-1255",
+   "forecaster": "owen",
+   "statement_date": "2024-10-05",
+   "quote": "But recently, prior authorization has come under scrutiny, and so they need to come up with new and more creative names for how they’re going to decide what money they spend.",
+   "context": "Author's thesis that pre-payment review is the new prior authorization: because prior authorization is under scrutiny, UnitedHealthcare/Optum will devise new mechanisms and names to control what they pay, keeping the option to pay or not pay at any moment. He says this 'has now been solved' with pre-payment review.",
+   "post_title": "Pre-Payment Review is the New Prior Authorization",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/pre-payment-review-is-the-new-prior",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "need to",
+   "entities": [
+    "UnitedHealthcare",
+    "Optum"
+   ],
+   "finder_note": "Predictive reading: payers will keep inventing new denial mechanisms as prior authorization is scrutinized. Borderline; partly describes a present shift."
+  },
+  {
+   "id": "owen-1257",
+   "forecaster": "owen",
+   "statement_date": "2024-10-06",
+   "quote": "We can stop HIV now, globally. Except, we won’t.",
+   "context": "Gilead's twice-yearly injectable lenacapavir showed zero HIV infections among 2,134 women in the PURPOSE 1 trial (Uganda, South Africa). The author says HIV could be stopped globally but predicts it will not be, citing the $42,250 price.",
+   "post_title": "We Can Prevent HIV Infection At 100% Efficacy...But Not Afford It?!?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-can-prevent-hiv-infection-at-100",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "HIV",
+    "Lenacapavir",
+    "Gilead"
+   ],
+   "finder_note": "Negative call on global HIV elimination; restated at the end of the post."
+  },
+  {
+   "id": "owen-1258",
+   "forecaster": "owen",
+   "statement_date": "2024-10-06",
+   "quote": "Gilead will allow for discount pricing for poor countries!",
+   "context": "Right after stating lenacapavir costs $42,250, the author says Gilead will allow discount pricing for poor countries. The tone is sarcastic, but the claim about Gilead's pricing policy reads as sincere.",
+   "post_title": "We Can Prevent HIV Infection At 100% Efficacy...But Not Afford It?!?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-can-prevent-hiv-infection-at-100",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Gilead",
+    "Lenacapavir"
+   ],
+   "finder_note": "May restate Gilead's announced access commitments; sarcastic tone."
+  },
+  {
+   "id": "owen-1259",
+   "forecaster": "owen",
+   "statement_date": "2024-10-06",
+   "quote": "My prediction? It won’t get this preventative treatment to everyone who needs it with alacrity. We could wipe out AIDS and HIV. Our species, predictably, won’t make that choice.",
+   "context": "Explicitly labeled prediction: despite discount pricing for poor countries, lenacapavir will not reach everyone who needs it quickly.",
+   "post_title": "We Can Prevent HIV Infection At 100% Efficacy...But Not Afford It?!?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-can-prevent-hiv-infection-at-100",
+   "area_guess": "practice_adoption",
+   "horizon_text": "with alacrity",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "Gilead",
+    "Lenacapavir",
+    "HIV"
+   ],
+   "finder_note": "Author labels it 'My prediction'. 'It' is ambiguous (Gilead, the discount program, or the system)."
+  },
+  {
+   "id": "owen-1260",
+   "forecaster": "owen",
+   "statement_date": "2024-10-06",
+   "quote": "We could wipe out AIDS and HIV. Our species, predictably, won’t make that choice.",
+   "context": "Closing lines of the lenacapavir post. The author predicts humanity will not choose to eliminate HIV/AIDS even though the tool exists.",
+   "post_title": "We Can Prevent HIV Infection At 100% Efficacy...But Not Afford It?!?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-can-prevent-hiv-infection-at-100",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "predictably, won’t",
+   "entities": [
+    "HIV",
+    "AIDS",
+    "Lenacapavir"
+   ],
+   "finder_note": "Restates the 'Except, we won't' call from the same post."
+  },
+  {
+   "id": "owen-1261",
+   "forecaster": "owen",
+   "statement_date": "2024-10-08",
+   "quote": "there is some data on its use in psychiatric illness that I consider promising, so when I have patients with co-occurring headaches, this is a go-to treatment option",
+   "context": "The GammaCore nVNS (non-invasive vagus nerve stimulation) device, which the author prescribes for migraine, cluster headache and hemicrania continua. He calls the data on its use in psychiatric illness promising.",
+   "post_title": "A Migraine with Aura Story",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-migraine-with-aura-story",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "promising",
+   "entities": [
+    "GammaCore nVNS"
+   ],
+   "finder_note": "Weak predictive reading: 'promising' implies expected future psychiatric utility. Borderline."
+  },
+  {
+   "id": "owen-1262",
+   "forecaster": "owen",
+   "statement_date": "2024-10-08",
+   "quote": "what I wanted to write about, and I’m going to have to kick the can down the road on, were these fantastic glasses that put text in your field of vision that no one else can see!",
+   "context": "At the DHAI conference in Boston, a migraine aura interrupted the author's plan to write about smart glasses worn by a Google colleague. He says he will write about them later.",
+   "post_title": "A Migraine with Aura Story",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-migraine-with-aura-story",
+   "area_guess": "other",
+   "horizon_text": "down the road",
+   "confidence_phrase": "I’m going to have to",
+   "entities": [
+    "Google"
+   ],
+   "finder_note": "Newsletter housekeeping: promise of a future column; own newsletter, coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1263",
+   "forecaster": "owen",
+   "statement_date": "2024-10-08",
+   "quote": "This will increase labor mobility for disabled Americans who don’t want to move away from their doctor, reduce drivers of cost in healthcare, improve the ability of sub-sub-specialists to help those with rare conditions and make life less stressful for many—especially when disaster strikes.",
+   "context": "Closing proposal: make medical licenses work like driver's licenses (national licensure) and have the federal government compensate states that lose fees. The author predicts the effects of that policy.",
+   "post_title": "The Case for National Medical Licensure",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-case-for-national-medical-licensure",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "federal government"
+   ],
+   "finder_note": "Conditional on national medical licensure being adopted; policy advocacy with a predictive consequence claim."
+  },
+  {
+   "id": "owen-1265",
+   "forecaster": "owen",
+   "statement_date": "2024-10-10",
+   "quote": "We are also making our systems even stronger than before. We do not want this to happen again. To be fair, it does seem to happen regularly , making our efforts to reinforce our systems all the more crucial.",
+   "context": "Satirical 'Ring-of-Power Notification' from Mordor Partners, Inc., parodying the Change Healthcare breach letter the author received. The aside 'it does seem to happen regularly' is the author's jab that such healthcare data breaches keep recurring.",
+   "post_title": "One Ring Breach Notification",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/one-ring-breach-notification",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "does seem to",
+   "entities": [
+    "Change Healthcare",
+    "Mordor Partners, Inc."
+   ],
+   "finder_note": "Satirical framing; the recurrence jab reads as a sincere expectation that breaches will happen again. Weak forward-looking reading."
+  },
+  {
+   "id": "owen-1266",
+   "forecaster": "owen",
+   "statement_date": "2024-10-11",
+   "quote": "I also think this is a business opportunity. I propose a Hallmark Card—even a line of Hallmark Cards.",
+   "context": "The day after World Mental Health Day, the author proposes greeting cards for making amends after psychotic or manic episodes ('I'm sorry— I was psychotic') and frames it as a business opportunity.",
+   "post_title": "Hallmark Greetings after Psychosis",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/hallmark-greetings-after-psychosis",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I also think",
+   "entities": [
+    "Hallmark"
+   ],
+   "finder_note": "Proposal; weak predictive reading that such cards would be commercially viable. Borderline."
+  },
+  {
+   "id": "owen-1267",
+   "forecaster": "owen",
+   "statement_date": "2024-10-11",
+   "quote": "Pre-made Hallmark cards will also be destigmatizing!",
+   "context": "Same proposal: pre-made apology cards for psychosis and mania would reduce stigma by normalizing the situation, as condolence cards do.",
+   "post_title": "Hallmark Greetings after Psychosis",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/hallmark-greetings-after-psychosis",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Hallmark"
+   ],
+   "finder_note": "Conditional on the proposed cards existing."
+  },
+  {
+   "id": "owen-1269",
+   "forecaster": "owen",
+   "statement_date": "2024-10-14",
+   "quote": "So, given United Healthcare admitted to violating the Mental Health Parity Law in New York in 2021 , which means they agree they are responsible for complying with the law, it seems it might be the basis for yet more litigation to be at it all over again?",
+   "context": "After quoting the 2021 DOL / New York AG settlement ($13.6 million to beneficiaries, $2,084,249 in penalties) with United Behavioral Health and UnitedHealthcare, the author suggests Optum's pre-payment review policy might be the basis for new mental health parity litigation. The post title asks if this is the first new parity test case.",
+   "post_title": "Pre-Payment Review: Do We Have Our First New Mental Health Parity Test Case?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/pre-payment-review-do-we-have-our",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "it seems it might be",
+   "entities": [
+    "United Healthcare",
+    "United Behavioral Health",
+    "Optum",
+    "Mental Health Parity Law",
+    "Department of Labor",
+    "New York State Attorney General"
+   ],
+   "finder_note": "Phrased with a question mark but reads as a hedged assertion that litigation will follow."
+  },
+  {
+   "id": "owen-1270",
+   "forecaster": "owen",
+   "statement_date": "2024-10-16",
+   "quote": "I’m sure senior leadership will be fine . It’s all of us who will suffer the consequences.",
+   "context": "UnitedHealth Group lost about $43 billion in market value in one day after missing earnings expectations, following the Change Healthcare cyberattack, DOJ issues and executive stock sales. The author predicts executives will be fine while patients and providers bear the consequences.",
+   "post_title": "UnitedHealth Down $43b in One Day",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-down-43b-in-one-day",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I’m sure ... will",
+   "entities": [
+    "UnitedHealth Group",
+    "Andrew Witty"
+   ],
+   "finder_note": "Compound claim: leadership unharmed, everyone else suffers."
+  },
+  {
+   "id": "owen-1272",
+   "forecaster": "owen",
+   "statement_date": "2024-10-17",
+   "quote": "This is yet another nail in the coffin of these often ineffective compounds in pediatric populations.",
+   "context": "Data presented at AACAP 2024 showing SSRIs and other antidepressants reduce height growth in children and adolescents (consistent with TORDIA), on top of weight gain. The author frames it as another blow against pediatric antidepressant use, contrasting Neuronetics' NeuroStar TMS FDA clearance for ages 15 to 21 as an adjunct to psychotherapy.",
+   "post_title": "I Wish I Was A Little Bit Taller - Antidepressants and Reduced Height in Kids",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-wish-i-was-a-little-bit-taller",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "nail in the coffin",
+   "entities": [
+    "SSRIs",
+    "antidepressants",
+    "Neuronetics",
+    "NeuroStar",
+    "FDA"
+   ],
+   "finder_note": "Metaphorical; predictive reading is that antidepressant use in youth will decline. Borderline."
+  },
+  {
+   "id": "owen-1273",
+   "forecaster": "owen",
+   "statement_date": "2024-10-17",
+   "quote": "Researchers will likely circle back to an MDMA-related molecule, absent the baggage of the -AT manual , in due time.",
+   "context": "After the FDA advisory committee (June 2024) rejected Lykos's MDMA-assisted therapy and three publications were retracted, the author says there is still hope for psychedelic medicine in veterans and predicts researchers will return to an MDMA-related molecule without the assisted-therapy manual.",
+   "post_title": "Yet More Data on Psychedelics in Veterans with Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/yet-more-data-on-psychedelics-in",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in due time",
+   "confidence_phrase": "will likely",
+   "entities": [
+    "MDMA",
+    "Lykos",
+    "FDA"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-1274",
+   "forecaster": "owen",
+   "statement_date": "2024-10-17",
+   "quote": "One of these other contenders for “first novel psychedelic” is, of course, psilocybin.",
+   "context": "The author frames psilocybin, specifically COMPASS Pathways' COMP360 (which he called 'a Christmas miracle' the prior year), as a contender to be the first novel psychedelic to reach approval after the MDMA-AT setback.",
+   "post_title": "Yet More Data on Psychedelics in Veterans with Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/yet-more-data-on-psychedelics-in",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "of course",
+   "entities": [
+    "psilocybin",
+    "COMP360",
+    "COMPASS Pathways"
+   ],
+   "finder_note": "Implicit race-to-first-approval framing; weak predictive reading. Borderline."
+  },
+  {
+   "id": "owen-1275",
+   "forecaster": "owen",
+   "statement_date": "2024-10-17",
+   "quote": "So, veterans….there is hope for your depression—with or without PTSD.",
+   "context": "After the 15-veteran open-label single-dose psilocybin pilot in severe treatment-resistant depression (60% response, 53% remission at week 3; 47% and 40% at 12 weeks; comorbid PTSD did not change outcomes), the author tells veterans there is hope for their depression.",
+   "post_title": "Yet More Data on Psychedelics in Veterans with Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/yet-more-data-on-psychedelics-in",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "there is hope",
+   "entities": [
+    "psilocybin",
+    "PTSD"
+   ],
+   "finder_note": "Hope statement; weak predictive reading that psilocybin will help veterans with TRD. Borderline."
+  },
+  {
+   "id": "owen-1276",
+   "forecaster": "owen",
+   "statement_date": "2024-10-17",
+   "quote": "Two hundred individuals volunteered for this 15-person trial. If we conduct ourselves ethically, these studies will continue to enroll robustly.",
+   "context": "Two hundred people volunteered for the 15-person veteran psilocybin trial. The author predicts veteran psychedelic studies will keep enrolling strongly if researchers conduct themselves ethically.",
+   "post_title": "Yet More Data on Psychedelics in Veterans with Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/yet-more-data-on-psychedelics-in",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will continue",
+   "entities": [
+    "psilocybin"
+   ],
+   "finder_note": "Conditional ('If we conduct ourselves ethically')."
+  },
+  {
+   "id": "owen-1277",
+   "forecaster": "owen",
+   "statement_date": "2024-10-19",
+   "quote": "Just pay more for mental health care ... it will be hard to argue you are paying less.",
+   "context": "Closing of a post on mental health parity enforcement (Linda Gomez of the Employee Benefits Security Administration, interviewed by Clear Health Costs, says plans must treat mental health and medical claims the same). The author proposes, tongue in cheek, that payers simply pay more for mental health care; then payers could not be accused of paying less and would satisfy parity. He adds 'I didn't say it would be a good solution.'",
+   "post_title": "Make it Cost...More",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/make-it-costmore",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Employee Benefits Security Administration",
+    "U.S. Department of Labor",
+    "Linda Gomez",
+    "health plans (payers)"
+   ],
+   "finder_note": "Tongue-in-cheek proposal ('be forewarned, is dumb'); the conditional mechanism (paying more satisfies parity) reads as a real belief. Quote joins the proposal and its consequence."
+  },
+  {
+   "id": "owen-1278",
+   "forecaster": "owen",
+   "statement_date": "2024-10-20",
+   "quote": "More transparency would put this kind of speculation to rest, but that's not what we've gotten from that sizeable corporate entity, and I doubt we will.",
+   "context": "Closing of a post that uses TikTok viewer geography (over 223,000 views from the Philippines on a video about UnitedHealthcare layoffs) to infer the scale of UnitedHealthcare/Optum's offshore workforce, after noting that UnitedHealthcare does not report US layoffs under the federal WARN Act. The author expects no more transparency from the company.",
+   "post_title": "Can TikToK Map UnitedHealthcares' Global Workforce?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-tiktok-map-unitedhealthcares",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I doubt",
+   "entities": [
+    "UnitedHealthcare",
+    "Optum",
+    "WARN Act",
+    "TikTok"
+   ],
+   "finder_note": "Negative call: the author does not expect UnitedHealthcare to become transparent about layoffs or offshore staffing."
+  },
+  {
+   "id": "owen-1279",
+   "forecaster": "owen",
+   "statement_date": "2024-10-22",
+   "quote": "In the next installment, we will describe how to address these “too-hot” modes in your life!",
+   "context": "Part II of a visual guide to mentalization-based treatment (MBT). After describing the 'too hot' non-mentalizing modes (Psychic Equivalence, Teleological Mode), the author promises a next installment on how to address them.",
+   "post_title": "Mentalization Based Treatment: A Visual Guide II",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mentalization-based-treatment-a-visual-58a",
+   "area_guess": "other",
+   "horizon_text": "In the next installment",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "MBT",
+    "Peter Fonagy"
+   ],
+   "finder_note": "Own-newsletter content promise; CONTROL candidate."
+  },
+  {
+   "id": "owen-1280",
+   "forecaster": "owen",
+   "statement_date": "2024-10-24",
+   "quote": "More tips in this thrilling series tomorrow!",
+   "context": "Part three of the author's mentalization-based treatment (MBT) visual guide, on 'too hot' emotional states (psychic equivalence and teleological mode, renamed 'feelings equal facts' and 'prove-it mode'). Sign-off promising the next installment the following day.",
+   "post_title": "Mentalization Based Treatment: A Visual Guide III",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mentalization-based-treatment-a-visual-56d",
+   "area_guess": "other",
+   "horizon_text": "tomorrow",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Newsletter programming promise about the author's own publication (CONTROL candidate)."
+  },
+  {
+   "id": "owen-1282",
+   "forecaster": "owen",
+   "statement_date": "2024-10-24",
+   "quote": "Practically, if we don't take care of people who are violent or at risk of becoming violent, they're going to be violent. And they're going to participate in trauma and exploitation. We will all suffer in the aftermath.",
+   "context": "Essay prompted by the sex-trafficking indictment of former Abercrombie & Fitch CEO Michael Jeffries and the Sean Combs allegations; the author argues trauma propagates ('hurt people hurt people'). Conditional societal claim: without care for violent or at-risk people, violence, trauma and exploitation follow and everyone suffers.",
+   "post_title": "People Hate Children",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/people-hate-children",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "going to be",
+   "entities": [
+    "Michael S. Jeffries",
+    "Abercrombie & Fitch",
+    "Sean Combs"
+   ],
+   "finder_note": "Conditional generalization about violence prevention; no specific event, actor or date."
+  }
+ ]
+}

@@ -1,0 +1,861 @@
+{
+ "packet": "code-50.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-2276",
+   "forecaster": "owen",
+   "statement_date": "2026-06-17",
+   "quote": "It’s a deeply gracious milieu, but with a sense that a rush is about to start for…something. There was a sense of safety on the edge of unease. It’s Pompeii …the week before?",
+   "context": "Author's impressions of Beijing under the heading 'Things Could Go To $&@! In a Moment.' He describes controlled chaos and surveillance, says 'China seems always on the brink, or brinks?', and compares the city to Pompeii the week before the eruption.",
+   "post_title": "A Dispatch From Beijing",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-dispatch-from-beijing",
+   "area_guess": "other",
+   "horizon_text": "about to start",
+   "confidence_phrase": "a sense that",
+   "entities": [
+    "China",
+    "Beijing"
+   ],
+   "finder_note": "Metaphorical, question-form hint of imminent upheaval in China; no concrete event or date. Borderline."
+  },
+  {
+   "id": "owen-2277",
+   "forecaster": "owen",
+   "statement_date": "2026-06-18",
+   "quote": "One thing that is similar about the Chinese and American systems of payment is that neither system has figured out how to pay for accelerated transcranial magnetic stimulation yet.",
+   "context": "Visit to the Department of Neuromodulation at Beijing Anding Hospital (about 150,000 TMS patients a year, led by Gang Wang). The author notes that neither China's state insurance nor US payers have worked out how to pay for accelerated TMS (multiple sessions in one day).",
+   "post_title": "The Department of Neuromodulation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-department-of-neuromodulation",
+   "area_guess": "payer_policy",
+   "horizon_text": "yet",
+   "confidence_phrase": "none",
+   "entities": [
+    "Beijing Anding Hospital",
+    "Gang Wang"
+   ],
+   "finder_note": "Present-state claim; 'yet' implies that payment for accelerated TMS will eventually be solved. Borderline forward-looking."
+  },
+  {
+   "id": "owen-2279",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "Heck, we have a whole event series dedicated to them, with the next RAMHT event happening at Psych Congress, on September 14th, 2026. Get your tickets now!",
+   "context": "Aside about the author's Rapid Acting Mental Health Treatments (RAMHT) event series; the next event is announced for Psych Congress on 14 September 2026.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "other",
+   "horizon_text": "September 14th, 2026",
+   "confidence_phrase": "happening",
+   "entities": [
+    "RAMHT",
+    "Psych Congress"
+   ],
+   "finder_note": "Own-organization event announcement; coder likely marks CONTROL."
+  },
+  {
+   "id": "owen-2280",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "Much to the surprise of us all, their readout on their concurrent MDD clinical trial program happened before their GAD readout, which is expected later this year.",
+   "context": "Definium Therapeutics (CMO Dan Karlin) read out top-line Phase 3 data for DT120 (LSD, lysergide tartrate ODT) in MDD (EMERGE) the week before the post; the author says the GAD Phase 3 (Voyage) readout is expected later in 2026.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "clinical_trial",
+   "horizon_text": "later this year",
+   "confidence_phrase": "is expected",
+   "entities": [
+    "Definium Therapeutics",
+    "DT120",
+    "LSD",
+    "Dan Karlin"
+   ],
+   "finder_note": "Timing call on the Voyage GAD readout."
+  },
+  {
+   "id": "owen-2281",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "DT120 GAD pivotal (Voyage, NCT06741228): started December 11, 2024, primary completion projected July 2026. ~19 months.",
+   "context": "Bullet from the clinical trials registry as reported by the author: the DT120 generalized anxiety disorder pivotal trial Voyage is projected to reach primary completion in July 2026 (post dated 2 July 2026).",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "clinical_trial",
+   "horizon_text": "July 2026",
+   "confidence_phrase": "projected",
+   "entities": [
+    "Definium Therapeutics",
+    "DT120",
+    "Voyage",
+    "NCT06741228"
+   ],
+   "finder_note": "Registry projection relayed and used as fact by the author; the underlying estimate is the registry's."
+  },
+  {
+   "id": "owen-2282",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "For investors, that means it’s possible to speed-run a clinical trial program, which means money is moving through the system faster. Returns on investment are quicker, and the time value of money goes up.",
+   "context": "'Why the timeline matters' section. From Definium running its MDD pivotal in about 13 months, the author generalizes that psychedelic clinical trial programs can be speed-run and that investor returns come faster.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "it’s possible",
+   "entities": [
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Borderline: present-tense generalization with a forward implication for capital flows."
+  },
+  {
+   "id": "owen-2283",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "The actual amount of time patients are likely to sit in an office is not outlandish.",
+   "context": "After noting that most EMERGE patients were no longer woozy after five or six hours rather than 12, the author expects that in-office time for DT120 (LSD) treatment in practice will not be outlandish.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "DT120",
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Hedged call about future clinic workflow for LSD-based treatment."
+  },
+  {
+   "id": "owen-2284",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "Speed of capital follows speed of evidence. If the next program in this company’s pipeline runs on the same clock, the implied cost of capital for psychedelic medicine drops—this is financially material. Every other CNS program may get benchmarked against it.",
+   "context": "'Capital flows at trial speed' section, after Definium raised $805 million following the readout. Conditional call: if Definium's next program runs as fast, the cost of capital for psychedelic medicine drops and other CNS programs may be benchmarked against it.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Compound conditional: cost-of-capital drop (if the condition holds) plus a hedged benchmarking claim."
+  },
+  {
+   "id": "owen-2285",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "Is it possible that this will work? I think the answer is yes. I think the psychedelic medicines are coming.",
+   "context": "Closing argument. After years of investor hand-wringing, the author states his belief that psychedelic medicines will reach patients and the market.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... are coming",
+   "entities": [
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Direct call; no date."
+  },
+  {
+   "id": "owen-2286",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "I think their effect sizes are going to be undeniable. They will be different in different patient populations, but we have at least 7 psychiatric disorder treatments—lysergide, comp360, ibogaine derivatives, methylone, DMT, 5-MEO-DMT, MDMA and it’s enantomers, all of which are looking as remarkable as GLP-1s are for metabolic disorders.",
+   "context": "Closing argument. The author predicts the effect sizes of psychedelic medicines (lysergide, COMP360, ibogaine derivatives, methylone, DMT, 5-MeO-DMT, MDMA and its enantiomers) will be undeniable and compares them to GLP-1s for metabolic disorders.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to be undeniable",
+   "entities": [
+    "lysergide",
+    "COMP360",
+    "ibogaine",
+    "methylone",
+    "DMT",
+    "5-MeO-DMT",
+    "MDMA",
+    "GLP-1"
+   ],
+   "finder_note": "Compound: efficacy call across seven psychedelic classes; GLP-1 comparison."
+  },
+  {
+   "id": "owen-2287",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "It is, however, great before we’ve even optimized workflows, business models, care pathways, patient experiences, adjunctive therapies, or any of the rest of the “must haves” when psychedelic research becomes psychedelic medicine.",
+   "context": "On Definium's EMERGE result: the author says the outcome is great before workflows, business models, care pathways, patient experiences and adjunctive therapies are optimized; this presupposes psychedelic research will become psychedelic medicine and that results can improve further.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Presupposes a future transition to psychedelic medicine; implies later results improve with optimization."
+  },
+  {
+   "id": "owen-2288",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "Bigger, better results are possible for our patients.",
+   "context": "Closing lines after EMERGE. The author asserts that outcomes better than EMERGE's are possible once psychedelic medicine workflows mature.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "are possible",
+   "entities": [
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Hedged forward call; low specificity."
+  },
+  {
+   "id": "owen-2291",
+   "forecaster": "owen",
+   "statement_date": "2026-07-07",
+   "quote": "This really is moving quickly! This seems like a serious team working to make sure they stick the landing on commercialization.",
+   "context": "Author's reaction to the Compass Pathways bullet 'Commercial launch-readiness on track for end of 2026, with launch expected in first half of 2027'. He signals an expectation that Compass will execute the COMP360 commercial launch.",
+   "post_title": "Lil John and Owen Muir Respond to Compass Pathways Six-Month Data from Second Phase 3 Trial Confirming Rapid and Durable Profile for Comp360",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lil-john-and-owen-muir-respond-to",
+   "area_guess": "company_market",
+   "horizon_text": "first half of 2027",
+   "confidence_phrase": "seems like",
+   "entities": [
+    "Compass Pathways",
+    "COMP360",
+    "FDA"
+   ],
+   "finder_note": "Hedged endorsement of the company's launch timeline; comedic post format, but the comment reads sincere."
+  },
+  {
+   "id": "owen-2296",
+   "forecaster": "owen",
+   "statement_date": "2026-07-12",
+   "quote": "If your video is selected to be featured on Radial’s website, social media, or other marketing materials to help others discover TMS, we’ll email to let you know.",
+   "context": "Closing call for patient and clinician videos for Radial's TMS awareness campaign, appended to the author's open letter to his bipolar disorder. Conditional promise to notify selected contributors.",
+   "post_title": "An Open Letter to My Bipolar Disorder & An Invitation to Share Your Story",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-my-bipolar-disorder-873",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "we’ll",
+   "entities": [
+    "Radial"
+   ],
+   "finder_note": "Procedural own-organization promise; near-zero forecast value. Identical boilerplate appears in share-your-story-owen-in-the-news."
+  },
+  {
+   "id": "owen-2297",
+   "forecaster": "owen",
+   "statement_date": "2026-07-13",
+   "quote": "So I'm making it possible to share your story more easily. We're starting with transcranial, magnetic simulation, or TMS",
+   "context": "The author announces Radial's story-sharing program (video collection through vocalvideo links). 'Starting with' TMS implies later extension to other brain medicine treatments. Preceded by the belief that sharing 'is almost certainly an open door to healing for others'.",
+   "post_title": "Share Your Story; Owen In The News",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/share-your-story-owen-in-the-news",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "We're starting with",
+   "entities": [
+    "Radial"
+   ],
+   "finder_note": "Own-organization plan; implicit expansion beyond TMS. Low forecast value."
+  },
+  {
+   "id": "owen-2298",
+   "forecaster": "owen",
+   "statement_date": "2026-07-13",
+   "quote": "If your video is selected to be featured on Radial’s website, social media, or other marketing materials to help others discover TMS, we’ll email to let you know.",
+   "context": "Radial TMS awareness video call, repeated from the previous post. Conditional promise to notify contributors whose videos are selected.",
+   "post_title": "Share Your Story; Owen In The News",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/share-your-story-owen-in-the-news",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "we’ll",
+   "entities": [
+    "Radial"
+   ],
+   "finder_note": "Procedural own-organization promise; near-zero forecast value. Identical boilerplate to an-open-letter-to-my-bipolar-disorder-873."
+  },
+  {
+   "id": "owen-2299",
+   "forecaster": "owen",
+   "statement_date": "2026-07-14",
+   "quote": "It would, however, take acknowledging realities like “ready gun ownership everywhere all the time” puts more people at risk of death by suicide, and that's just not the country we live in, here in America, even if it is the case of other places in the world.",
+   "context": "Section 'Reducing Suicidal Means is Life Saving. We Refuse to Do It.' The author says means restriction is proven and 'We should do more of this', then asserts that America will not acknowledge the firearm-access risk.",
+   "post_title": "Why is Suicide So Hard to Prevent?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-is-suicide-so-hard-to-prevent",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "just not",
+   "entities": [
+    "United States"
+   ],
+   "finder_note": "Implicit negative call: US firearm means-restriction policy will not change. Explicit text is present-tense; the preceding sentence is normative."
+  },
+  {
+   "id": "owen-2300",
+   "forecaster": "owen",
+   "statement_date": "2026-07-14",
+   "quote": "we have a whole event series dedicated to them, with the next RAMHT event happening at Psych Congress, on September 14th, 2026.",
+   "context": "Aside about rapid-acting treatments: the author's RAMHT (rapid-acting mental health treatments) event series will hold its next event at Psych Congress on September 14, 2026; 'Get your tickets now!'",
+   "post_title": "Why is Suicide So Hard to Prevent?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-is-suicide-so-hard-to-prevent",
+   "area_guess": "other",
+   "horizon_text": "September 14th, 2026",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Psych Congress"
+   ],
+   "finder_note": "Own-organization event announcement; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-2301",
+   "forecaster": "owen",
+   "statement_date": "2026-07-14",
+   "quote": "Let's make getting help for suicide a great customer experience. Then, everyone will want suicide prevention treatment. Because, and I know this sounds outrageous, but having a great experience with a suicide prevention approach would make you more likely to prevent suicide for yourself. You might even recommend suicide prevention to a friend.",
+   "context": "Closing argument of the essay 'Why is Suicide So Hard to Prevent?': the author proposes that if suicide-prevention care became a great customer experience, everyone would want it and individual outcomes would improve.",
+   "post_title": "Why is Suicide So Hard to Prevent?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-is-suicide-so-hard-to-prevent",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Conditional forecast contingent on a proposed change; compound with 'would make you more likely' and 'might even recommend'."
+  },
+  {
+   "id": "owen-2302",
+   "forecaster": "owen",
+   "statement_date": "2026-07-16",
+   "quote": "Both proposals go before the AMA’s CPT Editorial Panel (the group that decides what gets a billing code, and therefore what insurance will pay for) this September.",
+   "context": "Two competing CPT coding proposals for TMS, a bundled 'omakase' one (Tab 92) that would cover accelerated protocols with inter-session intervals and on-site physician time, and an a la carte one (Tab 53), are scheduled to go before the AMA CPT Editorial Panel in September 2026. The panel decides billing codes and therefore what insurance pays for. Post dated 2026-07-16.",
+   "post_title": "What Do Omakase Sushi and CPT Coding Have in Common?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-do-omakase-sushi-and-cpt-coding",
+   "area_guess": "payer_policy",
+   "horizon_text": "this September",
+   "confidence_phrase": "none",
+   "entities": [
+    "AMA",
+    "CPT Editorial Panel",
+    "accelerated TMS",
+    "CPT"
+   ],
+   "finder_note": "Plain declarative about a scheduled meeting. Author discloses Radial co-founder (accelerated TMS), Ampa Health advisor, Neurolief CMO; coder may mark CONTROL-adjacent."
+  },
+  {
+   "id": "owen-2303",
+   "forecaster": "owen",
+   "statement_date": "2026-07-16",
+   "quote": "There’s an open comment window right now, and it closes August 10.",
+   "context": "The AMA interested-party comment window on the two TMS CPT coding proposals (Tab 92 omakase, Tab 53 a la carte) closes August 10, 2026. The author urges readers to register as interested parties and comment by that date.",
+   "post_title": "What Do Omakase Sushi and CPT Coding Have in Common?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-do-omakase-sushi-and-cpt-coding",
+   "area_guess": "payer_policy",
+   "horizon_text": "August 10",
+   "confidence_phrase": "none",
+   "entities": [
+    "AMA",
+    "CPT Editorial Panel"
+   ],
+   "finder_note": "Deadline statement about an administrative process; low forecast value."
+  },
+  {
+   "id": "owen-2304",
+   "forecaster": "owen",
+   "statement_date": "2026-07-16",
+   "quote": "Some practices want to offer all-day treatment with TMS. Others want to offer only once-a-day treatment. Yet others feature fMRI ! Others still will use EEG to calibrate treatment.",
+   "context": "In arguing for flexible CPT coding, the author lists the variety of TMS practice models, ending with the claim that some practices will use EEG to calibrate treatment.",
+   "post_title": "What Do Omakase Sushi and CPT Coding Have in Common?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-do-omakase-sushi-and-cpt-coding",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "TMS",
+    "fMRI",
+    "EEG"
+   ],
+   "finder_note": "Borderline: 'will use' sits in a list of present-tense practice descriptions and may be habitual rather than predictive. Logged for recall."
+  },
+  {
+   "id": "owen-2305",
+   "forecaster": "owen",
+   "statement_date": "2026-07-19",
+   "quote": "This may or may not prove to be actually true, but it’s pretty hilarious either way.",
+   "context": "From the 2022 body of the repost: reports said the pizza-delivery video in Andrew Tate's reply tweet to Greta Thunberg gave Romanian authorities his location and led to his arrest. The author hedges on whether that report will prove true.",
+   "post_title": "What do Macbeth and Andrew Tate have in common?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-do-macbeth-and-andrew-tate-have",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may or may not",
+   "entities": [
+    "Andrew Tate",
+    "Greta Thunberg",
+    "DIICOT"
+   ],
+   "finder_note": "Borderline: a 50/50 hedge on future confirmation of a reported fact, written in 2022 and reposted 2026-07-19. Low forecast value."
+  },
+  {
+   "id": "owen-2306",
+   "forecaster": "owen",
+   "statement_date": "2026-07-20",
+   "quote": "But one thing I haven’t routinely done is measure the brain itself as part of clinical care, as companies like Firefly Neuroscience are making possible. That may need to change, is the outcome in my personal brain as a result of this interview.",
+   "context": "After interviewing Dave DeCaprio (president and COO of Firefly Neuroscience, maker of the Evoke qEEG/ERP system), the author says his own practice of not routinely measuring the brain with EEG in clinical care may need to change.",
+   "post_title": "A Deep Dive into EEG with Firefly Neuroscience's Dave DeCaprio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-deep-dive-into-eeg-with-firefly",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "may need to",
+   "entities": [
+    "Firefly Neuroscience",
+    "Dave DeCaprio",
+    "Evoke",
+    "EEG"
+   ],
+   "finder_note": "Own-practice adoption intent, hedged. Coder may mark CONTROL (author's own clinical practice)."
+  },
+  {
+   "id": "owen-2307",
+   "forecaster": "owen",
+   "statement_date": "2026-07-20",
+   "quote": "I haven't used it in clinical practice yet, but Dave makes a compelling case, and at this point I think it's only a matter of time. Brain Medicine, as an emerging specialty, brings change. That change needs to be measured. EEG might be one such tool.",
+   "context": "The author expects to eventually use Firefly Neuroscience's Evoke system (quantitative EEG plus event-related potentials, compared against a normative database of over 191,000 sessions) in his own clinical practice.",
+   "post_title": "A Deep Dive into EEG with Firefly Neuroscience's Dave DeCaprio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-deep-dive-into-eeg-with-firefly",
+   "area_guess": "practice_adoption",
+   "horizon_text": "only a matter of time",
+   "confidence_phrase": "I think it’s only a matter of time",
+   "entities": [
+    "Firefly Neuroscience",
+    "Evoke",
+    "Dave DeCaprio",
+    "EEG"
+   ],
+   "finder_note": "Own-practice adoption with open-ended horizon; author is the podcast host interviewing the company's COO. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-2308",
+   "forecaster": "owen",
+   "statement_date": "2026-07-20",
+   "quote": "Brain Medicine, as an emerging specialty, brings change. That change needs to be measured. EEG might be one such tool.",
+   "context": "General claim that EEG might become a tool for measuring treatment-driven brain change in the emerging specialty the author calls Brain Medicine (interventional psychiatry and neuromodulation).",
+   "post_title": "A Deep Dive into EEG with Firefly Neuroscience's Dave DeCaprio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-deep-dive-into-eeg-with-firefly",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "EEG",
+    "Brain Medicine"
+   ],
+   "finder_note": "Hedged general adoption call. Middle sentence ('needs to be measured') is normative; the call is the last sentence."
+  },
+  {
+   "id": "owen-2309",
+   "forecaster": "owen",
+   "statement_date": "2026-07-20",
+   "quote": "You can Join The Frontier Psychiatrists LIVE at Psych Congress 2026. Get your tickets now!",
+   "context": "Announcements section: the newsletter will hold a live event at Psych Congress 2026 (the RAMHT event; later posts in this packet date it to opening night, September 14th).",
+   "post_title": "A Deep Dive into EEG with Firefly Neuroscience's Dave DeCaprio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-deep-dive-into-eeg-with-firefly",
+   "area_guess": "other",
+   "horizon_text": "Psych Congress 2026",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Psych Congress",
+    "RAMHT"
+   ],
+   "finder_note": "Own-event announcement; coder may mark CONTROL. Low forecast value."
+  },
+  {
+   "id": "owen-2310",
+   "forecaster": "owen",
+   "statement_date": "2026-07-29",
+   "quote": "Join us at our next RAMHT event— opening night of Psych Congress, September 14th!",
+   "context": "Preamble to a restraint narrative: the author announces the next RAMHT live event on the opening night of Psych Congress, September 14th (2026). Listed sponsors: Definium Therapeutics, BrainsWay, Salma Health, Neurolief, MDHub, Axsome, Universal Brain.",
+   "post_title": "Psychiatric Restraint and its Discontents, Revisited",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/psychiatric-restraint-and-its-discontents-3f6",
+   "area_guess": "other",
+   "horizon_text": "September 14th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Psych Congress",
+    "Definium Therapeutics",
+    "BrainsWay",
+    "Salma Health",
+    "Neurolief",
+    "MDHub",
+    "Axsome",
+    "Universal Brain"
+   ],
+   "finder_note": "Own-event announcement (RAMHT is the author's live event); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-2311",
+   "forecaster": "owen",
+   "statement_date": "2026-07-31",
+   "quote": "Join us at our next RAMHT event— opening night of Psych Congress, September 14th!",
+   "context": "Mid-interview 'Live-Events Motion' plug inside the Mark Horowitz conversation: the author's next RAMHT live event on the opening night of Psych Congress, September 14th (2026), same sponsor list as the July 29 post, with the update that tickets are now free.",
+   "post_title": "Ending Antidepressants: A Conversation With Mark Horowitz, M.D.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ending-antidepressants-a-conversation",
+   "area_guess": "other",
+   "horizon_text": "September 14th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Psych Congress",
+    "Definium Therapeutics",
+    "BrainsWay",
+    "Salma Health",
+    "Neurolief",
+    "MDHub",
+    "Axsome",
+    "Universal Brain"
+   ],
+   "finder_note": "Restatement of the event announcement in the 2026-07-29 post; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-2312",
+   "forecaster": "owen",
+   "statement_date": "2026-07-31",
+   "quote": "I'm working on some longer form writing. I might get some articles done.",
+   "context": "Short post from Lake Sunapee, NH: the author says he is working on longer-form writing and might finish some newsletter articles.",
+   "post_title": "Select Writings on Bipolar Disorder",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/select-writings-on-bipolar-disorder",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Owen Scott Muir"
+   ],
+   "finder_note": "Own-newsletter output, hedged; two consecutive one-line paragraphs quoted together. Coder may mark CONTROL. Trivial forecast value."
+  },
+  {
+   "id": "owen-2314",
+   "forecaster": "owen",
+   "statement_date": "2026-08-03",
+   "quote": "So it may be that for children who are likely to find this treatment helpful, EEG could give us a signature letting us know that is the case?",
+   "context": "Author's leading question after Keeley describes the right-prefrontal EEG power increase as a candidate biomarker to predict and track response to Monarch eTNS in ADHD. Keeley answers 'That would be the ideal'.",
+   "post_title": "ADHD Treated with a Device Instead of a Drug",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/adhd-treated-with-a-device-instead",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may be ... could",
+   "entities": [
+    "NeuroSigma",
+    "Monarch eTNS",
+    "Colin Keeley"
+   ],
+   "finder_note": "Phrased as a question to the interviewee; borderline. Logged for recall as a hedged expectation that EEG becomes a response biomarker."
+  },
+  {
+   "id": "owen-2315",
+   "forecaster": "owen",
+   "statement_date": "2026-08-03",
+   "quote": "Join us at our next RAMHT event— opening night of Psych Congress, September 14th!",
+   "context": "Boilerplate 'Live-Events Motion' notice: RAMHT, the author's live event series, will hold its next event on the opening night of Psych Congress, September 14th; sponsor list follows and tickets are now free.",
+   "post_title": "ADHD Treated with a Device Instead of a Drug",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/adhd-treated-with-a-device-instead",
+   "area_guess": "other",
+   "horizon_text": "September 14th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Psych Congress"
+   ],
+   "finder_note": "Recurring event announcement about the author's own organization; repeated in several posts of this packet."
+  },
+  {
+   "id": "owen-2316",
+   "forecaster": "owen",
+   "statement_date": "2026-08-08",
+   "quote": "Join us at our next RAMHT event— opening night of Psych Congress, September 14th!",
+   "context": "Boilerplate 'Live-Events Motion' notice inside the essay: RAMHT will hold its next event on the opening night of Psych Congress, September 14th; sponsors listed; tickets now free.",
+   "post_title": "The Dawn of Biological Psychiatry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-dawn-of-biological-psychiatry",
+   "area_guess": "other",
+   "horizon_text": "September 14th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Psych Congress"
+   ],
+   "finder_note": "Recurring own-organization event announcement."
+  },
+  {
+   "id": "owen-2317",
+   "forecaster": "owen",
+   "statement_date": "2026-08-09",
+   "quote": "Join us at our next RAMHT event— opening night of Psych Congress, September 14th!",
+   "context": "Boilerplate 'Live-Events Motion' notice inside the tutorial: RAMHT will hold its next event on the opening night of Psych Congress, September 14th; sponsors listed; tickets now free.",
+   "post_title": "How to Read Academic Research like a Pro",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-read-academic-research-like-7fe",
+   "area_guess": "other",
+   "horizon_text": "September 14th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Psych Congress"
+   ],
+   "finder_note": "Recurring own-organization event announcement."
+  },
+  {
+   "id": "owen-2318",
+   "forecaster": "owen",
+   "statement_date": "2026-08-12",
+   "quote": "RAMHT is expanding our event calendar and will be bringing the show to New Orleans on September 14 th !",
+   "context": "Opening line of the announcement post: RAMHT (Rapid Acting Mental Health Treatment, the author's live event with Carlene MacMillan and Grady Hannah) will hold an event in New Orleans on September 14, 2026, the opening night of Psych Congress.",
+   "post_title": "RAMHT New Orleans September 14th, 2026!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ramht-psych-congress-september-14th",
+   "area_guess": "other",
+   "horizon_text": "September 14 th",
+   "confidence_phrase": "will",
+   "entities": [
+    "RAMHT",
+    "Psych Congress",
+    "Carlene MacMillan",
+    "Grady Hannah"
+   ],
+   "finder_note": "Own-organization event announcement."
+  },
+  {
+   "id": "owen-2319",
+   "forecaster": "owen",
+   "statement_date": "2026-08-12",
+   "quote": "Join us for an engaging evening of discussions focused on breakthroughs in mental health care that are guaranteed to be both entertaining and impactful.",
+   "context": "Promotional promise about the RAMHT New Orleans event: the discussions are guaranteed to be entertaining and impactful.",
+   "post_title": "RAMHT New Orleans September 14th, 2026!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ramht-psych-congress-september-14th",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "guaranteed",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Promotional claim about the author's own event; hard to resolve."
+  },
+  {
+   "id": "owen-2320",
+   "forecaster": "owen",
+   "statement_date": "2026-08-12",
+   "quote": "Speakers who’ll help us explore a range of advancements in rapid acting mental health treatments include:",
+   "context": "Announces the speaker roster for RAMHT New Orleans: Jessica Malberg (Definium Therapeutics), Colleen Hanlon (BrainsWay), Andrew Penn (Salma Health), Kate Passanisi (CareNetGPO), Tobias Marton (Mindful Health Solutions), Steve Beller (Neurorelief), Kazu Okuda (Universal Brain), Jay Pathmanathan (Beacon Biosignals), Prantik Kundu (EyeThree).",
+   "post_title": "RAMHT New Orleans September 14th, 2026!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ramht-psych-congress-september-14th",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Jessica Malberg",
+    "Definium Therapeutics",
+    "Colleen Hanlon",
+    "BrainsWay",
+    "Andrew Penn",
+    "Salma Health",
+    "Kate Passanisi",
+    "CareNetGPO",
+    "Tobias Marton",
+    "Mindful Health Solutions",
+    "Steve Beller",
+    "Neurorelief",
+    "Kazu Okuda",
+    "Universal Brain",
+    "Jay Pathmanathan",
+    "Beacon Biosignals",
+    "Prantik Kundu",
+    "EyeThree"
+   ],
+   "finder_note": "Speaker lineup is a plan for the author's own event; the list follows the quoted heading."
+  },
+  {
+   "id": "owen-2321",
+   "forecaster": "owen",
+   "statement_date": "2026-08-12",
+   "quote": "We’ll be sharing more details on speakers, rapid-fire talks and panel discussions on the RAMHT website and LinkedIn page (follow us if you’re not!).",
+   "context": "Plan to publish further RAMHT New Orleans event details on the RAMHT website and LinkedIn page.",
+   "post_title": "RAMHT New Orleans September 14th, 2026!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ramht-psych-congress-september-14th",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "We’ll be",
+   "entities": [
+    "RAMHT",
+    "LinkedIn"
+   ],
+   "finder_note": "Own-organization content promise."
+  },
+  {
+   "id": "owen-2322",
+   "forecaster": "owen",
+   "statement_date": "2026-08-12",
+   "quote": "Also, we will have special guests. And surprises. And maybe….just maybe… embarrassing merch, for me, personally.",
+   "context": "Teaser for the RAMHT New Orleans event: special guests, surprises, and possibly embarrassing merchandise featuring the author.",
+   "post_title": "RAMHT New Orleans September 14th, 2026!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ramht-psych-congress-september-14th",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will have ... maybe",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Own-event teaser; the merch part is jokey in tone but reads as a real plan."
+  },
+  {
+   "id": "owen-2323",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "pharmaceutical and device companies will only keep creating miracles if they make a hell of a lot of money doing it.",
+   "context": "Opening premise of the essay: continued innovation by pharmaceutical and device companies depends on large profits; sets up the argument that doctors should capture part of the psychedelic treatment economics.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will only",
+   "entities": [],
+   "finder_note": "General conditional premise; borderline truism."
+  }
+ ]
+}

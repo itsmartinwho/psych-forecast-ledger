@@ -1,0 +1,801 @@
+{
+ "packet": "code-36.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1610",
+   "forecaster": "owen",
+   "statement_date": "2025-02-25",
+   "quote": "I’m going to be on a plane flying back from Japan today, so this recycled column will be a hit with the several thousand people who read this now who didn’t read the newsletter back when this was published.",
+   "context": "New intro to a recycled scam-detection column. The author predicts the repost will be a hit with newer subscribers.",
+   "post_title": "The Fast Health Scam Detection Guidelines (FHSDGs) 2.0",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fast-health-scam-detection-guidelines",
+   "area_guess": "other",
+   "horizon_text": "today",
+   "confidence_phrase": "will be a hit",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Light, self-referential prediction about own newsletter reception. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1612",
+   "forecaster": "owen",
+   "statement_date": "2025-02-25",
+   "quote": "Make sure to subscribe now to not miss out on a single—doubtless breathtaking—upcoming topic: ... The true story of why I use my middle name online",
+   "context": "Closing of the recycled column: list of upcoming newsletter topics - private equity in teen paranormal romance (joke), major healthcare entities' statements, due diligence on Silicon Valley failures, personal stories of hope, guides to negotiating IP and arbitration agreements, and why the author uses his middle name online.",
+   "post_title": "The Fast Health Scam Detection Guidelines (FHSDGs) 2.0",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fast-health-scam-detection-guidelines",
+   "area_guess": "other",
+   "horizon_text": "upcoming",
+   "confidence_phrase": "doubtless",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content plan, partly joking; recycled from the original publication date. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1614",
+   "forecaster": "owen",
+   "statement_date": "2025-02-28",
+   "quote": "After a private equity acquisition of a practice, doctors are highly likely to leave that practice in the next two years, as measured by billing out of another practice.",
+   "context": "Summary of the JAMA Health Forum case-control study 'Sale of Private Equity-Owned Physician Practices and Physician Turnover'. The author states as a standing rule that physicians are highly likely to leave a practice within two years of a PE acquisition/exit (roughly 20 percent more likely to work elsewhere).",
+   "post_title": "F$ck This: Physician Exodus After Private Equity Exit.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/fck-this-physician-exodus-after-private",
+   "area_guess": "company_market",
+   "horizon_text": "in the next two years",
+   "confidence_phrase": "highly likely",
+   "entities": [
+    "private equity",
+    "JAMA Health Forum"
+   ],
+   "finder_note": "Generalization of a study finding phrased as a standing expectation; borderline past analysis. Coder may reclassify."
+  },
+  {
+   "id": "owen-1615",
+   "forecaster": "owen",
+   "statement_date": "2025-02-28",
+   "quote": "In fact, it's likely that a lot of these private equity roll ups end up becoming part of Optum.",
+   "context": "After noting that physicians who leave PE-exited practices go to work for large groups such as hospitals or UnitedHealth (Optum employs about 10 percent of US physicians), the author predicts many PE physician-practice roll-ups will end up as part of Optum.",
+   "post_title": "F$ck This: Physician Exodus After Private Equity Exit.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/fck-this-physician-exodus-after-private",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group",
+    "private equity"
+   ],
+   "finder_note": "Hedged market-structure call."
+  },
+  {
+   "id": "owen-1616",
+   "forecaster": "owen",
+   "statement_date": "2025-02-28",
+   "quote": "United is like the Apex predator of private equity acquisitions. They're getting bought by PE to either be bankrupted, or acquired by a company like Optum.",
+   "context": "Closing of the PE physician-turnover post. The author claims physician practices bought by private equity end up either bankrupt or acquired by a company like Optum (UnitedHealth Group).",
+   "post_title": "F$ck This: Physician Exodus After Private Equity Exit.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/fck-this-physician-exodus-after-private",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "UnitedHealth Group",
+    "Optum",
+    "private equity"
+   ],
+   "finder_note": "Restates the preceding Optum call as a binary fate for PE-acquired practices; compound claim."
+  },
+  {
+   "id": "owen-1617",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "Your kid is most likely to do great .",
+   "context": "Opening advice to a family member whose child has ADHD. The author asserts ADHD is one of the most treatable conditions in psychiatry and predicts the child's long-term outcome.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "most likely",
+   "entities": [],
+   "finder_note": "Clinical prognosis for one child, not a market or regulatory call; restated twice near the end of the post."
+  },
+  {
+   "id": "owen-1618",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "There is absolutely more effective treatment coming. There are treatments in the pipeline that are not here right now, like low-dose LSD for ADHD, probably TMS for ADHD, maybe even transcranial focused ultrasound, we may get fMRI-EEG neurofeedback, I don't actually know. I do know there's likely to be more in the future.",
+   "context": "After listing current ADHD treatments (stimulants, organizational skills training, the Monarch eTNS device), the author forecasts that more effective ADHD treatments will arrive and names pipeline candidates.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "clinical_trial",
+   "horizon_text": "coming; in the future",
+   "confidence_phrase": "absolutely; probably; maybe even; may; likely",
+   "entities": [
+    "LSD",
+    "TMS",
+    "transcranial focused ultrasound",
+    "fMRI-EEG neurofeedback"
+   ],
+   "finder_note": "Compound claim: one general call plus four hedged candidate treatments, each with its own confidence word."
+  },
+  {
+   "id": "owen-1619",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "as your kid gets older, their brain is going to develop, and they're going to grow out of a lot of these symptoms",
+   "context": "Argument that even if stimulants were the only treatment, brain development will reduce the child's ADHD symptoms over time.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "other",
+   "horizon_text": "as your kid gets older",
+   "confidence_phrase": "going to",
+   "entities": [],
+   "finder_note": "General developmental claim applied to one child; borderline truism about ADHD natural history."
+  },
+  {
+   "id": "owen-1620",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "So we're never gonna have the rock-solid causality answer, we're only gonna strongly suspect that the treatment that reduces symptoms is good in a long-term.",
+   "context": "The author says long-term randomized trials that withhold ADHD treatment from children would be unethical, so causal proof that childhood treatment reduces adult ADHD burden will never exist.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "clinical_trial",
+   "horizon_text": "never",
+   "confidence_phrase": "never gonna",
+   "entities": [],
+   "finder_note": "Negative call about future evidence in general, not about a named trial."
+  },
+  {
+   "id": "owen-1621",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "I am highly skeptical any of those therapists are who you will match with on Talkspace.",
+   "context": "Discussion of organizational skills training (OST), the one psychotherapy the author says works for ADHD executive dysfunction; he doubts a Talkspace user will be matched with an OST-trained therapist.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "highly skeptical",
+   "entities": [
+    "Talkspace"
+   ],
+   "finder_note": "Borderline: a claim about Talkspace's current therapist pool phrased as what a future user will get."
+  },
+  {
+   "id": "owen-1622",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "The next generation of treatments are exciting. They promise better efficacy and a lower side effect profile.",
+   "context": "After listing novel ADHD treatments under research (TMS, the FDA-approved Monarch eTNS device, and LSD derivatives in clinical trials sponsored by Mind Medicine), the author expects the next generation to beat current treatments on efficacy and side effects.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "promise",
+   "entities": [
+    "TMS",
+    "Monarch eTNS",
+    "NeuroSigma",
+    "Mind Medicine",
+    "LSD"
+   ],
+   "finder_note": "Expectation about a class of treatments; no single trial readout named."
+  },
+  {
+   "id": "owen-1623",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "a long-acting form of clonidine, a frequently used alpha 2 agonist, is in the process of being developed for use in ADHD.",
+   "context": "Closing sentence of a block quote from a 2013 review of alpha agonists (clonidine, guanfacine, Intuniv) in ADHD. The author then writes 'For me, in 2023, the above still holds', adopting the review's statements.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "is in the process of being developed",
+   "entities": [
+    "clonidine",
+    "guanfacine",
+    "Intuniv"
+   ],
+   "finder_note": "Third-party text (2013 review) endorsed by the author; the endorsement says 'in 2023' though the post is dated 2025, so recycled text."
+  },
+  {
+   "id": "owen-1624",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "We need more evidence and novel treatments, and as you can see above, they're coming",
+   "context": "The author's endorsement right after the 2013 alpha-agonist review quote; he asserts that novel ADHD treatments are on the way.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "clinical_trial",
+   "horizon_text": "coming",
+   "confidence_phrase": "they're coming",
+   "entities": [],
+   "finder_note": "Restatement of the earlier 'more effective treatment coming' call; the sentence begins 'For me, in 2023', so recycled text."
+  },
+  {
+   "id": "owen-1625",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "But, it’s more likely your ADHD will kill your kid earlier on its own if left untreated.",
+   "context": "Summary of the cardiovascular-risk section. The author accepts that ADHD medication may raise cardiovascular risk over many years but expects untreated ADHD to cause earlier death, citing Swedish registry mortality data.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "other",
+   "horizon_text": "earlier",
+   "confidence_phrase": "more likely",
+   "entities": [],
+   "finder_note": "Risk comparison from published cohort studies, framed as a prognosis for the reader's child; borderline."
+  },
+  {
+   "id": "owen-1626",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "Cause they have a problem that leads to early death—at 68, not 76—if people don’t take care of themselves. But those causes of early death are all preventable.",
+   "context": "Advice section after a BMJ life-expectancy study showing 7 to 9 fewer years for adults with ADHD. The author restates the gap as a conditional prognosis and asserts the causes (smoking, alcohol, suicide) are preventable.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "leads to; if",
+   "entities": [],
+   "finder_note": "Conditional restatement of epidemiological data with a numeric age gap; borderline forecast."
+  },
+  {
+   "id": "owen-1627",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "I try mine tonight.",
+   "context": "Description of the Monarch eTNS device, which is worn during sleep; the author says he will try his own device that night.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "other",
+   "horizon_text": "tonight",
+   "confidence_phrase": "none",
+   "entities": [
+    "Monarch eTNS",
+    "NeuroSigma"
+   ],
+   "finder_note": "Personal plan with no forecast value; coder may mark CONTROL or drop."
+  },
+  {
+   "id": "owen-1628",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "It is a revolution in ADHD for kids and another example of the Neuro-modulated future of our field.",
+   "context": "The author argues the Monarch eTNS device should be first-line for pediatric ADHD and frames it as evidence that psychiatry's future is neuromodulation.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "practice_adoption",
+   "horizon_text": "future",
+   "confidence_phrase": "none",
+   "entities": [
+    "Monarch eTNS",
+    "NeuroSigma"
+   ],
+   "finder_note": "Directional claim about the field. The author's practice Fermata offers the device, a conflict he flags in the post."
+  },
+  {
+   "id": "owen-1629",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "If physicians prescribe this medical device, which is not a controlled substance, they may avoid stimulants in many cases.",
+   "context": "Efficacy section on the Monarch eTNS device; conditional claim that prescribing it would let physicians avoid stimulant medication for many children.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "Monarch eTNS"
+   ],
+   "finder_note": "Conditional practice claim."
+  },
+  {
+   "id": "owen-1630",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "I don't think we solve ADHD at scale by doing things that aren't scalable.",
+   "context": "Closing argument that the ADHD treatment crisis (stimulant shortages, DEA constraints, prescribing hassle) is solved by better treatments such as Monarch eTNS rather than by more stimulant prescribing; the author cites a hard limit on stimulant supply.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I don't think",
+   "entities": [
+    "Monarch eTNS",
+    "DEA"
+   ],
+   "finder_note": "Negative call about how the treatment crisis resolves; borderline general claim."
+  },
+  {
+   "id": "owen-1631",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "Your kids gonna be OK. That's the most likely outcome.",
+   "context": "'Wrapping It All Up' section; prognosis for the family member's child, backed by the author's tens of thousands of clinical hours.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "most likely",
+   "entities": [],
+   "finder_note": "Restatement of the opening prognosis."
+  },
+  {
+   "id": "owen-1632",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "It's gonna be OK if they have to take a stimulant. That stimulant is probably gonna work.",
+   "context": "Same closing section; the author predicts stimulant treatment will work for the child, allowing for dose, formulation, or combination adjustments.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [],
+   "finder_note": "Prognosis for one child's medication response; the passage goes on to list possible adjustments before 'it's gonna be really helpful'."
+  },
+  {
+   "id": "owen-1633",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "Your kid's gonna be OK, the treatment is highly likely to help, and if you stick with it, you're gonna be really happy that you did so.",
+   "context": "Final sentence of advice; restated prognosis with a conditional on sticking with treatment.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "highly likely",
+   "entities": [],
+   "finder_note": "Third restatement of the prognosis."
+  },
+  {
+   "id": "owen-1634",
+   "forecaster": "owen",
+   "statement_date": "2025-03-03",
+   "quote": "Much like bonsai trees, value based contracts take years of careful pruning.",
+   "context": "Photo caption in a post on how to reach a value-based behavioral health contract with a major payer, drawn from the author's 18 months of negotiations with UnitedHealth Group leadership; he asserts such contracts take years.",
+   "post_title": "Getting to a Value-Based Contract with A Major Payor",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/getting-to-a-value-based-contract",
+   "area_guess": "payer_policy",
+   "horizon_text": "years",
+   "confidence_phrase": "none",
+   "entities": [
+    "UnitedHealth Group"
+   ],
+   "finder_note": "General timing claim from experience, not a dated forecast; borderline."
+  },
+  {
+   "id": "owen-1635",
+   "forecaster": "owen",
+   "statement_date": "2025-03-03",
+   "quote": "I'm not saying it's going to get you a contract, even if you have it all.",
+   "context": "After listing the capabilities Big Health payers say they want for value-based mental health contracts, the author warns that having every capability does not guarantee a contract.",
+   "post_title": "Getting to a Value-Based Contract with A Major Payor",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/getting-to-a-value-based-contract",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I'm not saying it's going to",
+   "entities": [
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Hedged negative caveat about contract outcomes rather than a positive call."
+  },
+  {
+   "id": "owen-1636",
+   "forecaster": "owen",
+   "statement_date": "2025-03-03",
+   "quote": "The best predictor of a pilot turning into a contract and subsequently, a major program is the stability of leadership in the company.",
+   "context": "Footnote warning that what payer insiders say they want and what they can sign differ; leadership changes killed pilots at the author's companies, so he names leadership stability as the predictor of a pilot becoming a contract.",
+   "post_title": "Getting to a Value-Based Contract with A Major Payor",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/getting-to-a-value-based-contract",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "best predictor",
+   "entities": [],
+   "finder_note": "General predictive heuristic, not a dated call; borderline."
+  },
+  {
+   "id": "owen-1637",
+   "forecaster": "owen",
+   "statement_date": "2025-03-04",
+   "quote": "The book is non-fiction and an autobiography. Buckle up people. It's gonna be exciting. In theory.",
+   "context": "Intro to a draft memoir chapter; the author says he is writing a book and predicts it will be exciting.",
+   "post_title": "There Was a Tornado",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-was-a-tornado",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "gonna; In theory",
+   "entities": [],
+   "finder_note": "Own-project claim about a book in progress, self-hedged with 'In theory'; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1638",
+   "forecaster": "owen",
+   "statement_date": "2025-03-05",
+   "quote": "I was working on an article before I did this about a research study, and I'm gonna get back to that.",
+   "context": "Opening of a satirical song post about Vivek Ramaswamy watching DOGE from the sidelines; the author promises to return to an article about a research study.",
+   "post_title": "Every Cut You Make (feat. Vivek Ramaswamy)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/every-cut-you-make-feat-vivek-ramaswamy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "gonna",
+   "entities": [
+    "Vivek Ramaswamy",
+    "DOGE"
+   ],
+   "finder_note": "Newsletter programming plan; the song lyrics are satire in an imagined voice and carry no sincere forecast."
+  },
+  {
+   "id": "owen-1639",
+   "forecaster": "owen",
+   "statement_date": "2025-03-08",
+   "quote": "just this past month we have networks for psychosis, and more is coming",
+   "context": "Author describes lesion network mapping and connectome work (Mike Fox, Sean Siddiqi, Shan Siddiqi) that has produced functional network targets for depression, anxiety, PTSD and, this past month, psychosis. He asserts that more such network targets are coming.",
+   "post_title": "Can Brain Stimulation Get Better as a Treatment for OCD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-brain-stimulation-get-better",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "Shan Siddiqi",
+    "Mike Fox",
+    "Human Connectome Project"
+   ],
+   "finder_note": "Vague, open-ended call about further network-mapping targets for new disorders."
+  },
+  {
+   "id": "owen-1640",
+   "forecaster": "owen",
+   "statement_date": "2025-03-08",
+   "quote": "I think these two lines of evidence, taken together, will allow a more effective discipline to emerge.",
+   "context": "Author's synthesis: two lines of evidence, connectome-based fMRI targeting and iTBS combined with pro-plasticity drugs like d-cycloserine, will together let a more effective brain-stimulation discipline emerge.",
+   "post_title": "Can Brain Stimulation Get Better as a Treatment for OCD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-brain-stimulation-get-better",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... will",
+   "entities": [
+    "d-cycloserine",
+    "iTBS",
+    "TMS"
+   ],
+   "finder_note": "Field-direction call without a date."
+  },
+  {
+   "id": "owen-1641",
+   "forecaster": "owen",
+   "statement_date": "2025-03-08",
+   "quote": "iTBS on its own would be a remarkable, game changing OCD treatment",
+   "context": "Commenting on the McGirr et al. 2025 American Journal of Psychiatry trial of iTBS plus d-cycloserine for treatment-refractory OCD (large effect sizes), the author asserts iTBS alone would be a game-changing OCD treatment and the combination even better. He notes the treatment is available at Fermata in NYC now.",
+   "post_title": "Can Brain Stimulation Get Better as a Treatment for OCD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-brain-stimulation-get-better",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "would be",
+   "entities": [
+    "iTBS",
+    "d-cycloserine",
+    "American Journal of Psychiatry",
+    "Ampa Health",
+    "Fermata"
+   ],
+   "finder_note": "Evaluative claim with an implicit future-impact reading; borderline. Author's clinic offers the treatment (possible CONTROL)."
+  },
+  {
+   "id": "owen-1642",
+   "forecaster": "owen",
+   "statement_date": "2025-03-10",
+   "quote": "Even if we had a cure for depression, tomorrow, that worked 100% of the time, I'm still not sure if we can get it paid for in a decade.",
+   "context": "Author's framing before sharing the BrainFutures / Collaborative for the Economics of Psychedelics press release: psychedelic medicine is exciting but not here yet, the market forces needed to bring it to the world are complicated, and even a perfect depression cure might not get paid for within a decade.",
+   "post_title": "A New White Paper about Psychedelic Medicine and it's Economics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-white-paper-about-psychedelic",
+   "area_guess": "payer_policy",
+   "horizon_text": "in a decade",
+   "confidence_phrase": "I'm still not sure",
+   "entities": [
+    "BrainFutures",
+    "Collaborative for the Economics of Psychedelics"
+   ],
+   "finder_note": "Conditional, hedged pessimism about payer adoption speed; applies to psychedelic medicine by context."
+  },
+  {
+   "id": "owen-1643",
+   "forecaster": "owen",
+   "statement_date": "2025-03-10",
+   "quote": "I've been hustling for more appropriate payment for transcranial magnetic stimulation for years, and we still have a long way to go.",
+   "context": "Same framing paragraph about healthcare payment complexity; the author says TMS payment reform still has a long way to go after years of his advocacy.",
+   "post_title": "A New White Paper about Psychedelic Medicine and it's Economics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-white-paper-about-psychedelic",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "still have a long way to go",
+   "entities": [
+    "TMS"
+   ],
+   "finder_note": "Implicit call that appropriate TMS payment remains distant; borderline forward-looking."
+  },
+  {
+   "id": "owen-1644",
+   "forecaster": "owen",
+   "statement_date": "2025-03-10",
+   "quote": "I'm hosting the next edition of Rapid Acting Mental Health Treatment in Los Angeles on May 18th!",
+   "context": "Closing plug: the author will host the next Rapid Acting Mental Health Treatment (RAMHT) conference in Los Angeles on May 18 (2025), with sponsors BrainFutures, MDHub.ai, GrayMatters Health and Simple Practice; tickets available now.",
+   "post_title": "A New White Paper about Psychedelic Medicine and it's Economics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-white-paper-about-psychedelic",
+   "area_guess": "other",
+   "horizon_text": "May 18th",
+   "confidence_phrase": "none",
+   "entities": [
+    "Rapid Acting Mental Health Treatment",
+    "BrainFutures",
+    "MDHub.ai",
+    "GrayMatters Health",
+    "Simple Practice"
+   ],
+   "finder_note": "Own-event announcement; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1649",
+   "forecaster": "owen",
+   "statement_date": "2025-03-11",
+   "quote": "I have to believe there will be fruit as a snack at several of these events.",
+   "context": "Humorous essay about repeated invitations to Fruit Logistica (Berlin, February 2026) caused by a name clash between the author's clinic Fermata and an Israeli agtech company; the author imagines the event and expects fruit snacks.",
+   "post_title": "Dreams of Fruit Logistics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dreams-of-fruit-logistics",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I have to believe there will be",
+   "entities": [
+    "Fruit Logistica"
+   ],
+   "finder_note": "Joke-framed, trivial expectation; logged for recall only."
+  },
+  {
+   "id": "owen-1650",
+   "forecaster": "owen",
+   "statement_date": "2025-03-11",
+   "quote": "I don't know; we'll see, but if I'm free next February, I might have to drop into Berlin and my colleagues at Fruit Logistica to figure out what's happening.",
+   "context": "Closing of the Fruit Logistica essay; the author says he was kidding at first but the event looks exciting, and he might attend Fruit Logistica in Berlin in February 2026 if free.",
+   "post_title": "Dreams of Fruit Logistics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dreams-of-fruit-logistics",
+   "area_guess": "other",
+   "horizon_text": "next February",
+   "confidence_phrase": "might",
+   "entities": [
+    "Fruit Logistica",
+    "Fermata"
+   ],
+   "finder_note": "Hedged personal plan; own activity, low forecast value."
+  },
+  {
+   "id": "owen-1651",
+   "forecaster": "owen",
+   "statement_date": "2025-03-12",
+   "quote": "there are additional investigations happening right now for other conduct on their part in other places that may meet the level of criminal or civil liability.",
+   "context": "After congratulating UnitedHealth Group on a federal Special Master's recommendation to dismiss the DOJ Medicare Advantage upcoding qui tam case (UHC of California, 2009-2016 conduct), the author cautions that other ongoing investigations into UnitedHealth may result in criminal or civil liability.",
+   "post_title": "UnitedHealth Group Deserves Our Congratulations, Today.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-deserves-our-congratulations",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "Department of Justice",
+    "Medicare Advantage"
+   ],
+   "finder_note": "Hedged legal-exposure call about pending investigations."
+  },
+  {
+   "id": "owen-1652",
+   "forecaster": "owen",
+   "statement_date": "2025-03-15",
+   "quote": "that algorithm performed remarkably well. I can't even tell you how well yet, because it hasn't been published yet. It should be available shortly. ... The sensitivity and specificity are better than any human study of screening for a tardive dyskinesia has ever done.",
+   "context": "Author describes the tardive dyskinesia video-screening algorithm he built with Anthony Sterns (iRxReminder) and Videra Health, trained on hundreds of rated videos; he says it performed remarkably well, and the results (publication) should be available shortly. The tool is already offered at TDscreen.ai.",
+   "post_title": "This Physician Realizes He Might Have The Movement Disorder He's Been Researching.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-physician-realizes-he-might",
+   "area_guess": "clinical_trial",
+   "horizon_text": "shortly",
+   "confidence_phrase": "should",
+   "entities": [
+    "Anthony Sterns",
+    "iRxReminder",
+    "Videra Health",
+    "TDscreen.ai"
+   ],
+   "finder_note": "Own-organization publication timing; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1653",
+   "forecaster": "owen",
+   "statement_date": "2025-03-15",
+   "quote": "I have to go see a movement disorders doctor, myself. And maybe, these new medication's have written about it will be really helpful.",
+   "context": "Author suspects he has tardive dyskinesia (involuntary mouth movement) after years of antipsychotics for bipolar disorder; he plans to see a movement disorders specialist and speculates that the new TD medications (tetrabenazine, valbenazine) may help him.",
+   "post_title": "This Physician Realizes He Might Have The Movement Disorder He's Been Researching.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-physician-realizes-he-might",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "maybe ... will be",
+   "entities": [
+    "tetrabenazine",
+    "valbenazine"
+   ],
+   "finder_note": "Personal health plan and hedged treatment expectation; low forecast value."
+  },
+  {
+   "id": "owen-1654",
+   "forecaster": "owen",
+   "statement_date": "2025-03-15",
+   "quote": "I'm gonna go from being a doctor to being a patient, and I will probably write about it, too.",
+   "context": "Author anticipates becoming a TD patient and writing about it in the newsletter; earlier in the post he also says he is sure he will not be able to stop talking about this for years.",
+   "post_title": "This Physician Realizes He Might Have The Movement Disorder He's Been Researching.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-physician-realizes-he-might",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will probably",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Newsletter content promise; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1655",
+   "forecaster": "owen",
+   "statement_date": "2025-03-15",
+   "quote": "That's why I'm excited about medicines like Cobenfy—the very first novel and psychotic that doesn't cause weight gain—and doesn't cause movement disorders, and that's available for people with psychosis now.",
+   "context": "Closing argument for safer options than dopamine-blocking antipsychotics; the author praises Cobenfy as the first novel antipsychotic that causes neither weight gain nor movement disorders and is available now for psychosis.",
+   "post_title": "This Physician Realizes He Might Have The Movement Disorder He's Been Researching.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-physician-realizes-he-might",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "doesn't cause",
+   "entities": [
+    "Cobenfy"
+   ],
+   "finder_note": "Present-tense drug safety claim with an implicit long-term prediction (no movement disorders); borderline forward-looking."
+  }
+ ]
+}

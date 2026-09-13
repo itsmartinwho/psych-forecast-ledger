@@ -1,0 +1,818 @@
+{
+ "packet": "code-16.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0661",
+   "forecaster": "owen",
+   "statement_date": "2023-07-27",
+   "quote": "Part three is coming…",
+   "context": "Closing line of Part II of the MHPAEA hip-hop series: the author promises a third installment of the series in his newsletter.",
+   "post_title": "Mental Health Parity: What do Shaggy and Big Insurance Have in Common?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-parity-what-do-shaggy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; coder may mark CONTROL. Low forecast value."
+  },
+  {
+   "id": "owen-0662",
+   "forecaster": "owen",
+   "statement_date": "2023-07-29",
+   "quote": "If parity is factual, they will not be different! Parity is our hypothesis.",
+   "context": "Part III of the MHPAEA series (2023-07-29) on reimbursement-rate NQTLs. The author asks the DOL to compare mean, median and mode payments for MH/SUD versus M/S services; if parity is real the statistics will match, and he adds that significant differences would mean 'we might be looking at a Scrub'.",
+   "post_title": "No Scrubs: TLC has advice about Mental Health Parity enforcement for the DOL",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/no-scrubs-tlc-has-advice-about-mental",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will not",
+   "entities": [
+    "Department of Labor",
+    "MHPAEA",
+    "health insurance plans"
+   ],
+   "finder_note": "Framed as a testable hypothesis; the author's evident expectation is that the data will show lower mental-health payment rates. Compound with the following 'Scrub' conditional."
+  },
+  {
+   "id": "owen-0663",
+   "forecaster": "owen",
+   "statement_date": "2023-07-29",
+   "quote": "Stay tuned for the next thrilling article!",
+   "context": "Closing line of Part III of the MHPAEA series; promises the next installment in the newsletter.",
+   "post_title": "No Scrubs: TLC has advice about Mental Health Parity enforcement for the DOL",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/no-scrubs-tlc-has-advice-about-mental",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; coder may mark CONTROL. Low forecast value."
+  },
+  {
+   "id": "owen-0664",
+   "forecaster": "owen",
+   "statement_date": "2023-07-31",
+   "quote": "I will have another article about civil action related to online defamation in a follow-up, and what to do if itifou don’t know who is doing the stalking.",
+   "context": "Post on cyberstalking of mental health professionals (2023-07-31). Near the end the author promises a follow-up article on civil action for online defamation and on anonymous stalkers.",
+   "post_title": "So You've Been Cyber Stalked? A Hidden Driver of Mental Health Barriers to Care ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/so-youve-been-cyber-stalked-a-hidden",
+   "area_guess": "other",
+   "horizon_text": "in a follow-up",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; coder may mark CONTROL. Typo 'itifou' is in the source."
+  },
+  {
+   "id": "owen-0665",
+   "forecaster": "owen",
+   "statement_date": "2023-07-31",
+   "quote": "Obesity medicine like semeglutide is projected to cost 15% of all American Health Care Spending. That is 4.6 Trillion Dollars. I’ll write that out: $690,000,000,000.00 is the Revenue for Big Health from GLP-1s.",
+   "context": "Part IV of the MHPAEA series (2023-07-31), aside on why payers profit from denying mental health care. The author restates a projection that GLP-1 obesity drugs (semaglutide) will cost 15% of total US health spending, computing $690 billion from a $4.6 trillion base, and calls it revenue for big health plans.",
+   "post_title": "Thrift Shop: How Narrow Networks With High Quality Can Win Mental Health Parity...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/thrift-shop-how-narrow-networks-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "is projected",
+   "entities": [
+    "semaglutide",
+    "GLP-1 drugs",
+    "health insurance plans"
+   ],
+   "finder_note": "Restatement of an unnamed external projection which the author adopts and extends with his own arithmetic; no date given for the 15% level."
+  },
+  {
+   "id": "owen-0666",
+   "forecaster": "owen",
+   "statement_date": "2023-07-31",
+   "quote": "So anything that gets in the way of that spending going up—our money, our employer’s money, our publicly traded stock value hit’s money—can not be allowed.",
+   "context": "Following the GLP-1 spending projection, the author claims that big health plans, whose profit is a percentage of spending, will not allow anything (including accessible mental health care that reduces weight-gain prescribing) that stops that spending from rising.",
+   "post_title": "Thrift Shop: How Narrow Networks With High Quality Can Win Mental Health Parity...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/thrift-shop-how-narrow-networks-with",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "can not be allowed",
+   "entities": [
+    "health insurance plans",
+    "GLP-1 drugs"
+   ],
+   "finder_note": "Cynical voicing of payer incentives; borderline as a forecast of payer behavior. Sincere in substance."
+  },
+  {
+   "id": "owen-0667",
+   "forecaster": "owen",
+   "statement_date": "2023-08-02",
+   "quote": "Stay tuned for part II!",
+   "context": "Closing line of the first mentalization lesson (2023-08-02); promises a second part of the MBT series in the newsletter.",
+   "post_title": "Mentalizing: Holding the Mind In Mind",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mentalizing-what-is-it",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; coder may mark CONTROL. Low forecast value."
+  },
+  {
+   "id": "owen-0668",
+   "forecaster": "owen",
+   "statement_date": "2023-08-05",
+   "quote": "Stay tuned for the subsequent steps!",
+   "context": "Closing line of the psychic-equivalence lesson in the MBT series (2023-08-05); promises further installments in the newsletter.",
+   "post_title": "Mentalizing: When Feelings Equal Facts ...it Can Be A Problem",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mentalizing-when-feelings-equal-facts",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; coder may mark CONTROL. Low forecast value."
+  },
+  {
+   "id": "owen-0669",
+   "forecaster": "owen",
+   "statement_date": "2023-08-08",
+   "quote": "We understand the durability is personal and variable, but on average, it's between 12 and 18 months.",
+   "context": "Explainer on accelerated TMS at Acacia Mental Health (2023-08-08). Footnote to 'A fair question is how long is this going to last? ... Active research is afoot!': the author estimates that remission after an accelerated TMS course lasts 12 to 18 months on average.",
+   "post_title": "The Science Behind the Best in Class Outcomes in Mental Health*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-science-behind-the-best-in-class",
+   "area_guess": "clinical_trial",
+   "horizon_text": "between 12 and 18 months",
+   "confidence_phrase": "on average",
+   "entities": [
+    "Acacia Mental Health",
+    "accelerated TMS",
+    "Magnus Medical"
+   ],
+   "finder_note": "Estimate of remission durability while research is ongoing; borderline between a clinical description and a forecast. Own organization (Acacia); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0670",
+   "forecaster": "owen",
+   "statement_date": "2023-08-08",
+   "quote": "The first brain stimulation treatment for addiction is the H4 coil, which we use for smoking cessation and may work for other indications.",
+   "context": "Footnote listing the coils used at Acacia (H1 for depression, H7 for OCD and later depression). The author says the H4 coil, the first brain stimulation treatment for addiction, is used for smoking cessation and may work for other indications.",
+   "post_title": "The Science Behind the Best in Class Outcomes in Mental Health*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-science-behind-the-best-in-class",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "H4 coil",
+    "BrainsWay",
+    "Acacia Mental Health",
+    "FDA"
+   ],
+   "finder_note": "Hedged expectation that the H4 deep TMS coil will prove useful beyond smoking cessation; indications unspecified. BrainsWay is the coil maker but is not named in the text."
+  },
+  {
+   "id": "owen-0671",
+   "forecaster": "owen",
+   "statement_date": "2023-08-09",
+   "quote": "We have a solution. We ignored it because it involves logistics. Why are we excited to offer something worse ... —but easy—for new moms? This is a step backward for women, families, and medicine.",
+   "context": "Implicit prediction: the convenient oral zuranolone (Zurzuvae) will be adopted over the more effective 60-hour brexanolone infusion (Zulresso) for postpartum depression, and this substitution will worsen care. Borderline item; the author frames it as an evaluation, not an explicit forecast.",
+   "post_title": "Zuranolone is a Worse Treatment for Post-Partum Depression than Brexanolone",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/zuranolone-is-a-worse-treatment-for",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "zuranolone",
+    "Zurzuvae",
+    "brexanolone",
+    "Zulresso",
+    "Sage Therapeutics",
+    "Biogen"
+   ],
+   "finder_note": "hint: Sage/Biogen Zurzuvae prescription volumes versus Zulresso use; Sage's later decision on Zulresso commercial availability."
+  },
+  {
+   "id": "owen-0672",
+   "forecaster": "owen",
+   "statement_date": "2023-08-11",
+   "quote": "Ok. Phase I data. I’m not buying a product for my clinic yet.",
+   "context": "Post reviewing photobiomodulation papers sent to the author (2023-08-11). After noting a study is only Phase I data, he states he is not buying a photobiomodulation device for his clinic yet.",
+   "post_title": "I Ain't Saying It's A Grave Digger, But In Ain't Messing With No Broke Papers",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-aint-saying-its-a-grave-digger",
+   "area_guess": "practice_adoption",
+   "horizon_text": "yet",
+   "confidence_phrase": "none",
+   "entities": [
+    "photobiomodulation",
+    "Acacia Mental Health"
+   ],
+   "finder_note": "Own purchasing decision for his clinic; 'yet' leaves future adoption open. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0673",
+   "forecaster": "owen",
+   "statement_date": "2023-08-11",
+   "quote": "I have yet to see a paper on photobiomodulation that is an actual science experiment for the treatment of a disease in which the randomization was successful. This is not to say there could not be such a paper.",
+   "context": "Summary judgment on the photobiomodulation evidence: no properly randomized disease-treatment trial seen so far, with the hedge that such a paper could still appear; the author says he has no evidence the modality does more than change metabolic activity in healthy controls.",
+   "post_title": "I Ain't Saying It's A Grave Digger, But In Ain't Messing With No Broke Papers",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-aint-saying-its-a-grave-digger",
+   "area_guess": "clinical_trial",
+   "horizon_text": "as of yet",
+   "confidence_phrase": "This is not to say there could not be",
+   "entities": [
+    "photobiomodulation"
+   ],
+   "finder_note": "Skeptical stance on the evidence base with an explicit hedge about future trials; weak as a forecast."
+  },
+  {
+   "id": "owen-0674",
+   "forecaster": "owen",
+   "statement_date": "2023-08-13",
+   "quote": "It’s not going to get better until we call a spade a spade.",
+   "context": "Post on the CDC provisional report of 49,449 US suicide deaths in 2022, a 2.6% rise and a record. After listing failures of current mental health treatment (inaccurate diagnoses, ineffective treatments, refusal to pay for effective ones, 988 calls redirected out of state), the author asserts the crisis and the suicide numbers will not improve until the field admits the failure.",
+   "post_title": "Record High Death by Suicide Rates: CDC Report",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/record-high-death-by-suicide-rates",
+   "area_guess": "other",
+   "horizon_text": "until we call a spade a spade",
+   "confidence_phrase": "not going to",
+   "entities": [
+    "CDC",
+    "988"
+   ],
+   "finder_note": "Negative call on the mental health/suicide trend; the condition is rhetorical. Earlier line claims he 'did see coming' the record numbers (retrospective)."
+  },
+  {
+   "id": "owen-0675",
+   "forecaster": "owen",
+   "statement_date": "2023-08-22",
+   "quote": "I am not going to crank out daily content again till I am back home. ... Thusly, this newsletter won’t be daily for a little while.",
+   "context": "The author's laptop screen cracked while he is on vacation. He announces that The Frontier Psychiatrists will stop its daily cadence until he returns home to NYC and can repair or replace the laptop.",
+   "post_title": "Dear Readers, My Screen Cracked!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dear-readers-my-screen-cracked",
+   "area_guess": "other",
+   "horizon_text": "till I am back home ... for a little while",
+   "confidence_phrase": "not going to ... won’t",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter schedule; revises the daily-publishing commitment from the 2023-06-25 post. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0676",
+   "forecaster": "owen",
+   "statement_date": "2023-08-23",
+   "quote": "If physicians prescribe this medical device, which is not a controlled substance, they may avoid stimulants in many cases.",
+   "context": "Post on the Neurosigma Monarch eTNS device (FDA de novo cleared for ADHD ages 7-12, prescribed off-label for adults) as an answer to the stimulant shortage. The author, whose practice Fermata prescribes it, says that if physicians prescribe the device they may avoid stimulants in many cases.",
+   "post_title": "We Have Medical Device Treatment to Address ADHD Medication Shortages",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-medical-device-treatment",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "Monarch eTNS",
+    "Neurosigma",
+    "Fermata"
+   ],
+   "finder_note": "Hedged conditional about prescribing practice. Author discloses no financial tie to Neurosigma but prescribes the device at Fermata and Acacia Mental Health."
+  },
+  {
+   "id": "owen-0677",
+   "forecaster": "owen",
+   "statement_date": "2023-08-23",
+   "quote": "Every stimulant prescription—these days—means there will be a subsequent game of “find the pharmacy” to fill the script",
+   "context": "Same Monarch eTNS post. The author describes the ongoing stimulant shortage: every stimulant prescription these days leads to a hunt for a pharmacy with stock, and pharmacies cannot legally say what is in stock because of an opioid settlement.",
+   "post_title": "We Have Medical Device Treatment to Address ADHD Medication Shortages",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-medical-device-treatment",
+   "area_guess": "other",
+   "horizon_text": "these days",
+   "confidence_phrase": "will be",
+   "entities": [],
+   "finder_note": "Borderline: habitual present about the ongoing stimulant shortage; implies the shortage persists for prescriptions written now."
+  },
+  {
+   "id": "owen-0678",
+   "forecaster": "owen",
+   "statement_date": "2023-08-23",
+   "quote": "This is how we solve the ADHD treatment crisis—with better treatments!",
+   "context": "Same Monarch eTNS post. After pricing Monarch at about $1000 plus about $45 per 7 days of pads (insurance may cover kids 7-12; adults pay out of pocket) versus roughly $400/month list for Mydayis, the author states the ADHD treatment crisis gets solved with better treatments (non-invasive devices) rather than with stimulants.",
+   "post_title": "We Have Medical Device Treatment to Address ADHD Medication Shortages",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-medical-device-treatment",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Monarch eTNS",
+    "Neurosigma",
+    "Mydayis"
+   ],
+   "finder_note": "Thesis statement that reads as a claim about how the crisis will be resolved. Earlier line: 'the only real answer I can see is getting more effective treatments to more people'."
+  },
+  {
+   "id": "owen-0679",
+   "forecaster": "owen",
+   "statement_date": "2023-08-23",
+   "quote": "I don't think we solve ADHD at scale by doing things that aren't scalable.",
+   "context": "Same Monarch eTNS post. The author doubts ADHD care gets solved at scale through non-scalable approaches (stimulants constrained by DEA quotas and supply chains) and argues for scalable device treatment instead.",
+   "post_title": "We Have Medical Device Treatment to Address ADHD Medication Shortages",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-medical-device-treatment",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I don't think",
+   "entities": [
+    "Monarch eTNS",
+    "DEA"
+   ],
+   "finder_note": "Hedged negative call about the path to solving ADHD care at scale."
+  },
+  {
+   "id": "owen-0680",
+   "forecaster": "owen",
+   "statement_date": "2023-08-23",
+   "quote": "At this point, there's a hard limit on stimulant medications, and there's a hard limit on the amount of frustration anybody is going to put up with to prescribe them.",
+   "context": "Same Monarch eTNS post. The author says stimulant supply has a hard limit and prescriber frustration with the shortage also has a hard limit, implying prescribers will stop tolerating the hassle of stimulant prescribing and move to alternatives.",
+   "post_title": "We Have Medical Device Treatment to Address ADHD Medication Shortages",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-medical-device-treatment",
+   "area_guess": "practice_adoption",
+   "horizon_text": "At this point",
+   "confidence_phrase": "is going to",
+   "entities": [],
+   "finder_note": "Implicit forecast that prescriber tolerance of stimulant hassle runs out; no timing given."
+  },
+  {
+   "id": "owen-0681",
+   "forecaster": "owen",
+   "statement_date": "2023-08-23",
+   "quote": "I'm also about to publish a paper on getting ADHD into remission—in 5 days— with transcranial magnetic stimulation. ... I don't know how long that effect will be durable…",
+   "context": "Footnote 5 of the Monarch eTNS post. The author says he is about to publish a paper on getting ADHD into remission in 5 days with transcranial magnetic stimulation, adds that he was surprised by the result, and says he does not know how durable the effect will be.",
+   "post_title": "We Have Medical Device Treatment to Address ADHD Medication Shortages",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-medical-device-treatment",
+   "area_guess": "clinical_trial",
+   "horizon_text": "about to",
+   "confidence_phrase": "about to",
+   "entities": [
+    "Owen Scott Muir",
+    "Fermata"
+   ],
+   "finder_note": "Own research output (CONTROL candidate). Same footnote: 'I don't know how long that effect will be durable'."
+  },
+  {
+   "id": "owen-0682",
+   "forecaster": "owen",
+   "statement_date": "2023-08-24",
+   "quote": "The following is generated off of TwitterGPT, which I strongly suspect will require a threads instance.",
+   "context": "Opening of a post about a 'TwitterGPT' AI profile built from the author's tweets. He quips that the tool will need a version for Meta's Threads, implying Twitter/X's decline.",
+   "post_title": "E-motion Capture: AI missed our intentions by focusing on our words.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/e-motion-capture-ai-missed-our-intentions",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I strongly suspect will",
+   "entities": [
+    "TwitterGPT",
+    "Twitter/X",
+    "Threads"
+   ],
+   "finder_note": "Wry aside; reads as a half-serious expectation that Threads will displace or rival Twitter/X."
+  },
+  {
+   "id": "owen-0683",
+   "forecaster": "owen",
+   "statement_date": "2023-08-24",
+   "quote": "I am destined for extremely niche status as a person who says reasonable things to other reasonable people at best. Nobody's ever gonna pay attention to that.",
+   "context": "Reacting to the AI's observation that he shows 'willingness to explore diverse perspectives', the author predicts his own writing will never go viral and will stay niche.",
+   "post_title": "E-motion Capture: AI missed our intentions by focusing on our words.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/e-motion-capture-ai-missed-our-intentions",
+   "area_guess": "other",
+   "horizon_text": "ever",
+   "confidence_phrase": "destined ... Nobody's ever gonna",
+   "entities": [
+    "Owen Muir",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Self-deprecating forecast about own audience; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0684",
+   "forecaster": "owen",
+   "statement_date": "2023-08-24",
+   "quote": "The average of those answers, which is the lifeblood of ChatGPT, is almost by definition going to be milquetoast and unsatisfying.",
+   "context": "The author argues that large language models underperform because they are trained on humans being unhelpful to each other online. He expects ChatGPT's averaged output to remain bland and unsatisfying, adding 'We are not there yet. Not by a long shot.'",
+   "post_title": "E-motion Capture: AI missed our intentions by focusing on our words.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/e-motion-capture-ai-missed-our-intentions",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "almost by definition going to be",
+   "entities": [
+    "ChatGPT"
+   ],
+   "finder_note": "General capability claim about LLMs; weakly time-bound."
+  },
+  {
+   "id": "owen-0685",
+   "forecaster": "owen",
+   "statement_date": "2023-08-24",
+   "quote": "Then feeding them their own output inadvertently becomes expensive gruel leading to an “obesity of language.” It becomes relentlessly more boring, more pedantic, and less satisfying with each piece of underwhelming “training data” fed into it.",
+   "context": "The author predicts that training AI language models on their own output will make them progressively more boring, pedantic and unsatisfying with each round of training data.",
+   "post_title": "E-motion Capture: AI missed our intentions by focusing on our words.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/e-motion-capture-ai-missed-our-intentions",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "becomes relentlessly",
+   "entities": [
+    "ChatGPT",
+    "large language models"
+   ],
+   "finder_note": "Model-degradation claim; general, no date."
+  },
+  {
+   "id": "owen-0686",
+   "forecaster": "owen",
+   "statement_date": "2023-08-25",
+   "quote": "you will get a very brutal regression to the mean. At best, you're going to be presented with the average of what we think, with some guard rails about its awfulness.",
+   "context": "Post on the disappointment with generative AI, written from vacation. The author argues that a model trained on average human output, minus the human ability to tell nonsense from sense, regresses to the mean: at best generative AI presents the average of what humans think, with guard rails. He later names ChatGPT and Stable Diffusion and compares poorly designed generative AI to mendacious politicians.",
+   "post_title": "The Disappointment with Generative AI...is Hilariously Human",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-disappointment-with-generative",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "ChatGPT",
+    "Stable Diffusion"
+   ],
+   "finder_note": "Borderline: general claim about the ceiling of generative AI rather than a dated call."
+  },
+  {
+   "id": "owen-0687",
+   "forecaster": "owen",
+   "statement_date": "2023-08-25",
+   "quote": "If you are training a model on humans, and you take out the thing that some humans are really good at—having some ability to distinguish nonsense from not too much nonsense—you will get a very brutal regression to the mean.",
+   "context": "Generative AI trained on human data without a trust/intent filter will only ever produce average-of-human output and will keep disappointing; borderline, stated as a general rule.",
+   "post_title": "The Disappointment with Generative AI...is Hilariously Human",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-disappointment-with-generative",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "generative AI",
+    "ChatGPT",
+    "Stable Diffusion"
+   ],
+   "finder_note": "hint: LLM capability benchmarks versus expert human performance 2024-2026"
+  },
+  {
+   "id": "owen-0689",
+   "forecaster": "owen",
+   "statement_date": "2023-08-27",
+   "quote": "For a long time, Black America has known to watch out when you talk to the cops because they can kill you. Nothing's going to stop them if they want to.",
+   "context": "Podcast transcript recorded in 2020 about race and policing after George Floyd's death, republished 2023. The author, as narrator, says Black Americans know police can kill them and nothing is going to stop the police if they want to; he calls the 'bad apples' explanation insufficient and says police killings of Black people have never been ruled unlawful.",
+   "post_title": "American Tornado: The Reasonable Officer Standard, Revisited ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/american-tornado",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "Nothing's going to",
+   "entities": [],
+   "finder_note": "2020 recording republished 2023. Footnote 2 adds that since the recording a few officers were found guilty, but 'the standard, however, remains the same'."
+  },
+  {
+   "id": "owen-0690",
+   "forecaster": "owen",
+   "statement_date": "2023-08-27",
+   "quote": "You're going to pull that trigger. More often than not. And that's about a thousand times a year.",
+   "context": "Same 2020 policing transcript. The author argues that police called to mental health crises, armed and told to protect themselves with no consequence for shooting, will pull the trigger more often than not, about a thousand times a year, and that Black mentally ill people are more likely to be killed.",
+   "post_title": "American Tornado: The Reasonable Officer Standard, Revisited ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/american-tornado",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "More often than not",
+   "entities": [],
+   "finder_note": "Borderline: hypothetical second-person generalization about police behavior; the yearly figure is a present rate, not a target."
+  },
+  {
+   "id": "owen-0691",
+   "forecaster": "owen",
+   "statement_date": "2023-08-28",
+   "quote": "If we use the standard P value from science for the evaluation of health plans, we will solve a lot of arguments!",
+   "context": "Advocacy piece proposing that mental health parity be enforced with statistical tests: compare spending across every ICD-10 diagnosis for general medical versus mental health/substance use care with a two-sample t-test and Bonferroni correction at the p<0.05 standard. The author claims applying the scientific null-hypothesis standard to health plans will resolve many parity disputes. Addressed to the Department of Labor and 'Big Health'.",
+   "post_title": "Mental Health Parity Enforcement Made Simple",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-parity-enforcement",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Department of Labor"
+   ],
+   "finder_note": "Conditional on adoption of the proposal; no timing. Later lines about plans failing the test are normative ('it's on them to prove')."
+  },
+  {
+   "id": "owen-0692",
+   "forecaster": "owen",
+   "statement_date": "2023-08-29",
+   "quote": "Again, if you're training a large language model, you're going to miss the fact that this is a joke, because it's not obviously different from the text itself.",
+   "context": "Essay arguing that LLMs underperform because training text lacks the implicit 'metadata' of human intent. Using a Curb Your Enthusiasm therapy scene, the author claims that LLM training will fail to recognize the transcript as satire.",
+   "post_title": "Curb Your Enthusiasm for Large Language Models",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/curb-your-enthusiasm-for-large-language",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "you're going to miss",
+   "entities": [
+    "large language models",
+    "Curb Your Enthusiasm",
+    "Larry David"
+   ],
+   "finder_note": "General capability claim rather than a dated forecast; logged for recall."
+  },
+  {
+   "id": "owen-0694",
+   "forecaster": "owen",
+   "statement_date": "2023-08-30",
+   "quote": "A New Era ... “it F$@ing works.” And it does. Reliably.",
+   "context": "fMRI-guided accelerated TMS (SAINT) opens a new era in depression treatment; the author implies it will reliably replace underwhelming drug outcomes. Borderline, vague.",
+   "post_title": "The Most Effective Depression Treatment Ever is an FDA Breakthrough",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-most-effective-depression-treatment",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "SAINT",
+    "Magnus Medical",
+    "accelerated TMS"
+   ],
+   "finder_note": "hint: SAINT adoption metrics: Magnus Medical site count, CMS NTAP claims, replication trials 2024-2026"
+  },
+  {
+   "id": "owen-0695",
+   "forecaster": "owen",
+   "statement_date": "2023-08-31",
+   "quote": "This newsletter’s author is a psychiatrist, who is saying goodbye to “medication management” as part of his practice.",
+   "context": "Opening of the Olanzapine installment in the author's farewell-to-meds series. The author (Owen Muir) states he is dropping medication management from his own clinical practice to focus on neuromodulation, and is writing a series of medication essays as he makes that change.",
+   "post_title": "Olanzapine ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/olanzapine",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Scott Muir",
+    "neuromodulation"
+   ],
+   "finder_note": "Author's own practice plan (CONTROL candidate); borderline, present-progressive statement of a decision in progress."
+  },
+  {
+   "id": "owen-0696",
+   "forecaster": "owen",
+   "statement_date": "2023-08-31",
+   "quote": "Neuromodulation is the future of the field…and in my day today practice, I focus on that new modality of neuromodulation",
+   "context": "Same opening paragraph of the Olanzapine post. After saying he is leaving medication management, the author asserts that neuromodulation (TMS and related device-based treatments) is the future of psychiatry, and that his own daily practice now focuses on it.",
+   "post_title": "Olanzapine ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/olanzapine",
+   "area_guess": "practice_adoption",
+   "horizon_text": "the future",
+   "confidence_phrase": "is the future",
+   "entities": [
+    "neuromodulation"
+   ],
+   "finder_note": "Broad trend call with no date or metric; restates the author's recurring neuromodulation-first thesis."
+  },
+  {
+   "id": "owen-0697",
+   "forecaster": "owen",
+   "statement_date": "2023-08-31",
+   "quote": "This was always a problem, and never going to be something that got to market at scale.",
+   "context": "About long-acting injectable (LAI) olanzapine, brand Zyprexa Relprevv. Its post-injection delirium sedation syndrome requires three hours of EKG-monitored observation at every monthly dose. The author says this made the LAI product never able to reach market scale, and he is shocked the maker rolled it out at all.",
+   "post_title": "Olanzapine ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/olanzapine",
+   "area_guess": "company_market",
+   "horizon_text": "never",
+   "confidence_phrase": "never going to be",
+   "entities": [
+    "Zyprexa Relprevv",
+    "olanzapine",
+    "LAI olanzapine"
+   ],
+   "finder_note": "Negative market call on LAI olanzapine; framed partly in past tense ('was always') but asserts it will never scale."
+  },
+  {
+   "id": "owen-0698",
+   "forecaster": "owen",
+   "statement_date": "2023-09-02",
+   "quote": "Sunovion knew it had a “hit” with the bipolar depression indication, which is uncommon 5 , and thus getting the research done on its utility in mania 6 is not in their economic interest.",
+   "context": "Second post of the 'farewell to oral meds' series, on lurasidone (Latuda, Sunovion). The author explains why Sunovion never sought a mania indication: it holds an uncommon bipolar-depression indication and has no economic reason to fund mania research. Implicit call: Sunovion will not pursue a mania indication. Footnote 7 adds 'So they left that for the academics!'",
+   "post_title": "Lurasidone",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lurasidone",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Sunovion",
+    "lurasidone",
+    "Latuda"
+   ],
+   "finder_note": "Implicit forecast: incentive analysis implying no Sunovion-sponsored mania trials or indication. Prior sentence is hedged with 'I think'. Footnote markers 5 and 6 sit inside the quote."
+  },
+  {
+   "id": "owen-0699",
+   "forecaster": "owen",
+   "statement_date": "2023-09-02",
+   "quote": "It takes about $2b to bring one of these medications to market, given the global market is $16.14 billion in 2023, growing to $24.35 billion by 2030; these have been a very profitable class of medications.",
+   "context": "Footnote 4 of the lurasidone post, on why Sunovion skipped a mania indication: it takes about $2b to bring one of these medications (atypical antipsychotics) to market, and the author states the global market is $16.14 billion in 2023, growing to $24.35 billion by 2030, calling the class very profitable. The figures read as a restated market-research projection with no named source.",
+   "post_title": "Lurasidone",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lurasidone",
+   "area_guess": "company_market",
+   "horizon_text": "by 2030",
+   "confidence_phrase": "none",
+   "entities": [
+    "atypical antipsychotics",
+    "Sunovion"
+   ],
+   "finder_note": "Numeric dated market projection stated as fact; source not named, probably a market-research report. Compound: a 2023 level (present) and a 2030 level (forecast)."
+  },
+  {
+   "id": "owen-0700",
+   "forecaster": "owen",
+   "statement_date": "2023-09-06",
+   "quote": "This treatment is available in the outpatient setting through the open label dose optimization study offered by Magnus Medical, and soon, in hospital settings under the new technology add-on payment program.",
+   "context": "77-word video post 'The Best Treatment for Depression in Under One Minute' about the fMRI-guided TMS protocol (presumably SAINT, Magnus Medical's product). The author says the treatment is available now outpatient through a Magnus Medical open-label dose-optimization study and will soon be available in hospital settings under the new technology add-on payment (NTAP) program. He adds that he started a company to help hospitals get it.",
+   "post_title": "The Best Treatment for Depression in Under One Minute",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-treatment-for-depression",
+   "area_guess": "practice_adoption",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "Magnus Medical",
+    "new technology add-on payment program (NTAP)"
+   ],
+   "finder_note": "Compound: availability in hospitals soon (adoption) and payment under NTAP (payer). The author's unnamed company helps hospitals adopt it; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0701",
+   "forecaster": "owen",
+   "statement_date": "2023-09-11",
+   "quote": "Exciting new updates in my “articles about medicines” coming up! Get excited.",
+   "context": "Programming note at the end of a post that republishes the author's first podcast. Announces upcoming installments of the newsletter's 'articles about medicines' series (the 'farewell to oral meds' drug essays).",
+   "post_title": "The Very First Podcast I Ever Made",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-very-first-podcast-i-ever-made",
+   "area_guess": "other",
+   "horizon_text": "coming up",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content announcement; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0704",
+   "forecaster": "owen",
+   "statement_date": "2023-09-15",
+   "quote": "SAINT is the most effective depression treatment of all time. Depression is in Remission in 5 days for MOST people suffering. It is also among best safety profiles of any psychiatric treatment.",
+   "context": "SAINT will deliver remission of depression within 5 days for a majority of patients in practice, and is the most effective and among the safest psychiatric treatments (present-tense efficacy claim that future real-world data would test).",
+   "post_title": "Forward this Email to HR and Ask When Depression Being in Remission Will Be Covered...'Cause SAINT is Here, Now.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/forward-this-email-to-hr-and-ask",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "SAINT",
+    "Magnus Medical"
+   ],
+   "finder_note": "hint: Real-world SAINT outcome publications and Magnus Medical registry data (remission rate >50% at 5 days)"
+  }
+ ]
+}

@@ -141,722 +141,718 @@
  },
  "statements": [
   {
+   "id": "owen-0309",
+   "forecaster": "owen",
+   "statement_date": "2023-02-13",
+   "quote": "It doesn’t even matter if a journalist figures it out—because they won’t even care!",
+   "context": "The author describes the Pew Charitable Trusts' covert campaign-finance-reform playbook (secretly funded experts, groups, reports and ads) and proposes reusing it for healthcare lobbying. He predicts that exposure by a journalist would not matter because nobody would care.",
+   "post_title": "How to Create a Fake Mass Movement.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-create-a-fake-mass-movement",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t even care",
+   "entities": [
+    "Pew Charitable Trusts",
+    "Congress"
+   ],
+   "finder_note": "Borderline: generic prediction about journalist and public reaction to an astroturf healthcare campaign; no date or specific event. Author says 'I’m not actually criticizing the above'."
+  },
+  {
+   "id": "owen-0310",
+   "forecaster": "owen",
+   "statement_date": "2023-02-13",
+   "quote": "Now, can we fix Healthcare? The Pew Charitable Trusts got campaign finance reform passed with a budget of millions, not billions! We just need to take our propaganda seriously and target it at the decision makers who matter.",
+   "context": "Closing argument of the post: the author asks whether healthcare can be fixed and implies yes, since Pew got campaign finance reform passed for millions of dollars; the implicit conditional is that a serious, targeted propaganda effort aimed at decision makers would achieve healthcare reform.",
+   "post_title": "How to Create a Fake Mass Movement.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-create-a-fake-mass-movement",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Pew Charitable Trusts",
+    "Congress"
+   ],
+   "finder_note": "Implicit conditional call framed as a question plus 'we just need to'; borderline normative."
+  },
+  {
+   "id": "owen-0312",
+   "forecaster": "owen",
+   "statement_date": "2023-02-15",
+   "quote": "I have bipolar disorder. I've written about it before . I will write about it again.",
+   "context": "Early in the lithium guide, the author discloses his own bipolar disorder and commits to writing about it again in the newsletter.",
+   "post_title": "Does Lithium Prevent Suicide in Bipolar Disorder? An Existential Guide.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-lithium-still-good-medicine-in",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Owen Muir",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own newsletter content plan; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0313",
+   "forecaster": "owen",
+   "statement_date": "2023-02-15",
+   "quote": "Lithium data says: treating symptoms is the wrong approach, it always has been, and it always will be, because people's lives aren't about symptoms.",
+   "context": "In the section arguing that lithium cuts suicide deaths without treating bipolar depression well, the author claims that symptom-focused psychiatry is the wrong approach and always will be.",
+   "post_title": "Does Lithium Prevent Suicide in Bipolar Disorder? An Existential Guide.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-lithium-still-good-medicine-in",
+   "area_guess": "practice_adoption",
+   "horizon_text": "always",
+   "confidence_phrase": "always will be",
+   "entities": [
+    "lithium"
+   ],
+   "finder_note": "Borderline: philosophical stance phrased as a permanent future claim; low resolvability."
+  },
+  {
+   "id": "owen-0314",
+   "forecaster": "owen",
+   "statement_date": "2023-02-15",
+   "quote": "Or whatever the limit is on the size of the pill. It will not be a money maker, but it will be important.",
+   "context": "The author proposes a hypothetical lithium product, 'Dr. M’s Lith-o-sure', an Eskalith CR-like formulation in larger strengths (600mg to 1400mg), addressed to Mark Cuban's Cost Plus Drugs team. He predicts such a product would not be profitable but would be important.",
+   "post_title": "Does Lithium Prevent Suicide in Bipolar Disorder? An Existential Guide.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-lithium-still-good-medicine-in",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will not be",
+   "entities": [
+    "Mark Cuban Cost Plus Drugs",
+    "Eskalith CR",
+    "lithium"
+   ],
+   "finder_note": "Conditional on a hypothetical product no company has announced; a wish plus a forecast about its commercial value."
+  },
+  {
+   "id": "owen-0315",
+   "forecaster": "owen",
+   "statement_date": "2023-02-15",
+   "quote": "No one has to remind you to check your text messages or other notifications on your phone. We know how to shape behavior. I think the better future of healthcare includes “adherence augmentation” with technologies like iRxReminder (a company at which I’m now Chief Medical Officer).",
+   "context": "Disclosure section headed 'The Most Commercially Biased Opinion': the author predicts that the better future of healthcare includes adherence-augmentation technologies such as iRxReminder, where he is Chief Medical Officer.",
+   "post_title": "Does Lithium Prevent Suicide in Bipolar Disorder? An Existential Guide.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-lithium-still-good-medicine-in",
+   "area_guess": "practice_adoption",
+   "horizon_text": "the better future of healthcare",
+   "confidence_phrase": "I think",
+   "entities": [
+    "iRxReminder",
+    "Owen Muir"
+   ],
+   "finder_note": "Author's own company; coder marks CONTROL. The author himself labels it commercially biased."
+  },
+  {
+   "id": "owen-0317",
+   "forecaster": "owen",
+   "statement_date": "2023-02-15",
+   "quote": "Stendra also exists and works quite a bit faster than viagra (30m as opposed to 2h for the drug to start working). These are reasonable options if this side effect presents itself. Expect to fight for prior authorization.",
+   "context": "Erectile dysfunction side-effect section: Viagra and Stendra are options for lithium-related sexual dysfunction; the author tells prescribers to expect prior-authorization fights from payers for these drugs.",
+   "post_title": "Does Lithium Prevent Suicide in Bipolar Disorder? An Existential Guide.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-lithium-still-good-medicine-in",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "Expect",
+   "entities": [
+    "Stendra",
+    "Viagra",
+    "lithium"
+   ],
+   "finder_note": "Generic expectation about payer prior-authorization behavior; imperative form with a predictive reading."
+  },
+  {
+   "id": "owen-0318",
+   "forecaster": "owen",
+   "statement_date": "2023-02-21",
+   "quote": "The Frontier Psychiatrists is a newsletter for our life and complex times. And it’s probably going to pay off if you subscribe. But the PPV for that isn’t perfect",
+   "context": "Sign-off after the screening and Bayesian explainer: the author says subscribing to The Frontier Psychiatrists will probably pay off, then undercuts it with a positive-predictive-value joke.",
+   "post_title": "Should We Be Universally Screening to Prevent Death by Bolt of Lightning?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/should-we-be-universally-screening",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Newsletter self-promotion in joke form; coder may mark CONTROL; very low forecast value."
+  },
+  {
+   "id": "owen-0319",
+   "forecaster": "owen",
+   "statement_date": "2023-02-23",
+   "quote": "Any of those three approaches or even all three of them could be implemented by a company trying to build a treatment solution, there is already a significant amount of advocacy from patients and families that would jump all over the opportunity to have this be more accessible.",
+   "context": "Startup-ideas post modeled on NOCD (OCD telehealth, $33M Series B). Under the heading Borderline Personality Disorder, the author lists DBT (training owned by Behavioral Tech), MBT and Good Psychiatric Management (John Gunderson, McLean) as three clinical models and expects patient and family advocacy to embrace a company that makes BPD treatment more accessible.",
+   "post_title": "The Best Mental Health Startups That Don't Exist Yet?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-mental-health-startups-that",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "would jump all over the opportunity",
+   "entities": [
+    "NOCD",
+    "Behavioral Tech",
+    "John Gunderson",
+    "McLean"
+   ],
+   "finder_note": "Hypothetical: a conditional demand forecast for a company that does not exist yet."
+  },
+  {
+   "id": "owen-0320",
+   "forecaster": "owen",
+   "statement_date": "2023-02-23",
+   "quote": "There aren't that many other medications to master, and doing the evidence-based thing is probably going to do a great job compared to the standard of care—which is not doing any of those things.",
+   "context": "Under the heading Bipolar Disorder, the author proposes a company built on Interpersonal and Social Rhythm Therapy plus prescribing centered on lithium ('the actual answer is lithium'), and predicts this evidence-based model would probably outperform the standard of care. He adds that Cerebral should have pivoted to this after its ADHD business blew up.",
+   "post_title": "The Best Mental Health Startups That Don't Exist Yet?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-mental-health-startups-that",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "probably going to",
+   "entities": [
+    "lithium",
+    "Cerebral",
+    "NOCD"
+   ],
+   "finder_note": "Hypothetical company; clinical-outcome claim for an evidence-based care model versus standard of care, no date."
+  },
+  {
+   "id": "owen-0321",
+   "forecaster": "owen",
+   "statement_date": "2023-02-23",
+   "quote": "There is even a government payer, in Medicaid and Medicare for the disabled, and probably an exit to united healthcare exists, just to drive down the cost of their dual eligibles with Medicare/Medicaid.",
+   "context": "Under the heading Schizophrenia, the author sketches a company delivering clozapine, long-acting injectables, early treatment programs and tech-enabled care (citing John Kane's ICRC study at Zucker-Hillside). He expects Medicaid/Medicare to pay for it and a probable acquisition exit to UnitedHealthcare to reduce dual-eligible costs.",
+   "post_title": "The Best Mental Health Startups That Don't Exist Yet?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-mental-health-startups-that",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "UnitedHealthcare",
+    "Medicaid",
+    "Medicare",
+    "John Kane",
+    "TripleAimPartners"
+   ],
+   "finder_note": "Hypothetical exit for a company that does not exist yet; 'united healthcare' is lowercase in the original."
+  },
+  {
+   "id": "owen-0322",
+   "forecaster": "owen",
+   "statement_date": "2023-02-23",
+   "quote": "This would be good for patients and good for the world. There are zero reasons this isn't a huge company. It's 1% of the population.",
+   "context": "Still under Schizophrenia: the author claims a company doing full evidence-based schizophrenia care would be huge, citing 3.3 million people in the US and a $281.6 billion market size in 2020. He contrasts it with Firsthand, which in his understanding does not do all the care.",
+   "post_title": "The Best Mental Health Startups That Don't Exist Yet?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-mental-health-startups-that",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "zero reasons",
+   "entities": [
+    "Firsthand",
+    "Medicaid",
+    "Medicare"
+   ],
+   "finder_note": "Hypothetical market-size claim for a company that does not exist yet; not a dated call."
+  },
+  {
+   "id": "owen-0323",
+   "forecaster": "owen",
+   "statement_date": "2023-02-23",
+   "quote": "However, the success of this company makes a bunch of other companies completely obvious to me, but I don't have the time to build all of them, so you can if you want. Somebody should, and I'll go condition by condition.",
+   "context": "Borderline, preview-only: the author endorses NOCD (payer-contracted, human-delivered, condition-specific ERP therapy, $33M Series B) as a winning model and implies that condition-specific copies of the model will be viable businesses. Mostly a 'should' framing; the specific ideas are paywalled.",
+   "post_title": "The Best Mental Health Startups That Don't Exist Yet?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-mental-health-startups-that",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "NOCD"
+   ],
+   "finder_note": "hint: NOCD funding rounds and payer contracts 2023-2026; emergence of condition-specific specialty telehealth companies"
+  },
+  {
+   "id": "owen-0324",
+   "forecaster": "owen",
+   "statement_date": "2023-02-25",
+   "quote": "Federal oversight of adequacy returns in 2023. This includes quantitative measurements: ... Behavioral health has its own specific limits here: “Behavioral Health: 10 days (Source: 2023 Draft Letter to Plans participating in federally facilitated exchanges)",
+   "context": "Footnote 9 of chapter 1 of the 'Wizard of Odds' healthcare parody, in the author's own voice. Long waitlists show network insufficiency under the ACA; the author states that federal oversight of network adequacy (time/distance standards, minimum provider-to-enrollee ratios, a 10-day behavioral health wait limit) returns in 2023 for plans on federally facilitated exchanges.",
+   "post_title": "The Cyclone...Insurance Policy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cycloneinsurance-policy",
+   "area_guess": "payer_policy",
+   "horizon_text": "in 2023",
+   "confidence_phrase": "none",
+   "entities": [
+    "Affordable Care Act (ACA)",
+    "ERISA",
+    "federally facilitated exchanges",
+    "health plans"
+   ],
+   "finder_note": "Author's footnote, not fiction. Declarative statement about a 2023 policy change; borderline between describing a scheduled rule and forecasting it."
+  },
+  {
+   "id": "owen-0325",
+   "forecaster": "owen",
+   "statement_date": "2023-02-25",
+   "quote": "This minimum varies from locality to locality, but the minimum requirement is unlikely to be none whatsoever",
+   "context": "Same footnote 9: the returning federal adequacy standards set minimum provider-to-enrollee ratios that vary by locality. The author asserts the minimum for a given problem will not be zero providers.",
+   "post_title": "The Cyclone...Insurance Policy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cycloneinsurance-policy",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "Affordable Care Act (ACA)",
+    "federally facilitated exchanges",
+    "health plans"
+   ],
+   "finder_note": "Borderline: hedged claim about the content of a returning standard; weak forecast value."
+  },
+  {
+   "id": "owen-0326",
+   "forecaster": "owen",
+   "statement_date": "2023-02-25",
+   "quote": "The Wizard of Odds is Subscribers Only …after this. Subscribe and get the rest…",
+   "context": "Editorial line inside chapter 1 of the serialized parody 'The Wizard of Odds': the author announces that the later chapters will be available to paid subscribers only.",
+   "post_title": "The Cyclone...Insurance Policy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cycloneinsurance-policy",
+   "area_guess": "other",
+   "horizon_text": "after this",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Wizard of Odds",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter paywall plan; low forecast value. Coder may mark CONTROL."
+  },
+  {
    "id": "owen-0327",
    "forecaster": "owen",
-   "statement_date": "2024-09-24",
-   "quote": "Your author, Owen, happen to be on the team call when we discussed the deployment of this novel target for the first time. And we haven't stopped since then. More publications will be forthcoming.",
-   "context": "Further publications on the lesion-network-derived PTSD TMS target (Siddiqi's Nature Neuroscience circuit, applied at Acacia Clinics and replicated at Fermata) will follow the initial paper.",
-   "post_title": "A New Treatment for PTSD Based on Brain Science",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-treatment-for-ptsd-based-on",
-   "area_guess": "clinical_trial",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "statement_date": "2023-02-26",
+   "quote": "Pharmacy benefit managers will become the star of the footnotes of the story, but the abridged version is they are the most profitable part of healthcare in America. More on those to follow!",
+   "context": "Footnote 8 of chapter 2 ('The Scam Behind The Curtain') of the author's Wizard-of-Oz style serial fiction about Dorothy's Patient Journey. The author promises that pharmacy benefit managers will feature in later chapters of the serial in the newsletter.",
+   "post_title": "The Visit to the Dermatologist",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-visit-to-the-dermatologist",
+   "area_guess": "other",
+   "horizon_text": "to follow",
+   "confidence_phrase": "will",
    "entities": [
-    "Shan Siddiqi",
-    "Acacia Clinics",
-    "Fermata",
-    "David Carreon"
+    "pharmacy benefit managers",
+    "The Frontier Psychiatrists"
    ],
-   "finder_note": "hint: PubMed/Google Scholar for Siddiqi, Carreon, Muir PTSD-circuit TMS publications after September 2024"
+   "finder_note": "Own newsletter content promise; low forecast value. Coder may mark CONTROL."
   },
   {
    "id": "owen-0328",
    "forecaster": "owen",
-   "statement_date": "2024-09-24",
-   "quote": "It would be some very exciting science, not to mention wildly popular medicine, if this approach works to treat PTSD.",
-   "context": "Conditional: if connectome/lesion-network-guided TMS for PTSD works (author reports it did in early cases), it will become wildly popular medicine with wide clinical uptake.",
-   "post_title": "A New Treatment for PTSD Based on Brain Science",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-treatment-for-ptsd-based-on",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "statement_date": "2023-02-26",
+   "quote": "It's not “medically necessary”--A topic that your author will say significantly more as the story continues.",
+   "context": "Footnote 12 explains that Schmaltz is a made-up drug combining IL-17 inhibitors (Taltz, Cosentyx) with a JAK/STAT modulator (Xeljanz), and that insurance currently will not authorize both at once because the combination is not 'medically necessary'. The author promises more on medical necessity in later chapters of the serial.",
+   "post_title": "The Visit to the Dermatologist",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-visit-to-the-dermatologist",
+   "area_guess": "other",
+   "horizon_text": "as the story continues",
+   "confidence_phrase": "will",
    "entities": [
-    "TMS",
-    "PTSD",
-    "Acacia Clinics",
-    "Fermata"
+    "Taltz",
+    "Cosentyx",
+    "Xeljanz",
+    "The Frontier Psychiatrists"
    ],
-   "finder_note": "hint: Adoption data for PTSD-targeted TMS protocols; FDA clearance of a PTSD indication for TMS; published trial outcomes"
+   "finder_note": "Own newsletter content promise; low forecast value. Coder may mark CONTROL."
   },
   {
    "id": "owen-0329",
    "forecaster": "owen",
-   "statement_date": "2024-09-30",
-   "quote": "He wasn’t wrong. I couldn’t shake that the robots would be better diagnosticians than I could ever be someday. I haven’t stopped working on the problem since.",
-   "context": "AI systems (including speech/vocal-biomarker tools such as Psyrin's, which the author advises) will someday become better psychiatric diagnosticians than human psychiatrists, including the author.",
-   "post_title": "Psyrin and the Future of Vocal Biomarkers in Psychiatry",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/psyrin-and-the-future-of-vocal-biomarkers",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "statement_date": "2023-02-28",
+   "quote": "We have 30 days to comment on the changes!",
+   "context": "Entire text of a 9-word video post titled 'DEA Controlled Substances Update' (2023-02-28). It states that the public comment period on the DEA's proposed changes to controlled-substance rules (not described in the text) is 30 days.",
+   "post_title": "DEA Controlled Substances Update",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dea-controlled-substances-update",
+   "area_guess": "regulatory",
+   "horizon_text": "30 days",
+   "confidence_phrase": "none",
    "entities": [
-    "Psyrin",
-    "AI diagnostics",
-    "vocal biomarkers"
+    "DEA"
    ],
-   "finder_note": "hint: Head-to-head validation studies of AI/vocal-biomarker diagnostic tools versus clinicians in psychiatry; FDA clearance of Psyrin"
+   "finder_note": "Borderline: a statement of a regulatory comment deadline, not a directional prediction; the proposed changes are not described in the text."
   },
   {
    "id": "owen-0330",
    "forecaster": "owen",
-   "statement_date": "2024-10-05",
-   "quote": "But recently, prior authorization has come under scrutiny, and so they need to come up with new and more creative names for how they're going to decide what money they spend.",
-   "context": "As prior authorization comes under regulatory and public scrutiny, UnitedHealthcare/Optum and other payers will shift to pre-payment review (records audits before claims are paid) as the replacement mechanism for controlling spend; the title asserts pre-payment review is the new prior authorization.",
-   "post_title": "Pre-Payment Review is the New Prior Authorization",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/pre-payment-review-is-the-new-prior",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "statement_date": "2023-03-01",
+   "quote": "This is in no way a parody of any specific 1/2 trillion dollar company. I mean, there has been so much consolidation it could be any of them because they are all acquiring each other until there is nothing left.",
+   "context": "Footnote 3 of chapter 2 of the 'Wizard of Odds' parody. The author says the fictional insurer 'UnitedHealthShare' is not a parody of any specific half-trillion-dollar company because the large insurers keep acquiring each other. Implicit claim that insurer consolidation continues until few or none remain.",
+   "post_title": "How Dorothy Utilized Her Care Navigation Solution's Call Center",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-dorothy-called-her-care-navigation",
+   "area_guess": "company_market",
+   "horizon_text": "until there is nothing left",
+   "confidence_phrase": "none",
    "entities": [
-    "UnitedHealthcare",
-    "Optum"
+    "UnitedHealthShare (fictional insurer)",
+    "US health insurers"
    ],
-   "finder_note": "hint: Payer bulletins on Optum/UHC pre-payment review programs; CMS and state prior-authorization reform rules 2025-2026; AMA/provider surveys on pre-payment audits"
+   "finder_note": "Hyperbolic footnote; the underlying claim of continuing insurer consolidation reads as sincere."
   },
   {
    "id": "owen-0331",
    "forecaster": "owen",
-   "statement_date": "2024-10-06",
-   "quote": "My prediction? It won’t get this preventative treatment to everyone who needs it with alacrity. We could wipe out AIDS and HIV. Our species, predictably, won’t make that choice.",
-   "context": "Despite lenacapavir's zero-infection result in PURPOSE 1, Gilead and global health systems will not get twice-yearly lenacapavir PrEP to everyone who needs it quickly (list price $42,250), and humanity will not choose to eliminate HIV/AIDS.",
-   "post_title": "We Can Prevent HIV Infection At 100% Efficacy...But Not Afford It?!?",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-can-prevent-hiv-infection-at-100",
-   "area_guess": "payer_policy",
+   "statement_date": "2023-03-04",
+   "quote": "Just as the FDA moves to re-classify the intranasal version as an OTC drug, another threat to the lives of those struggling with addiction is here to frustrate our efforts.",
+   "context": "Opening of the xylazine (Tranq) post. The author notes the FDA is moving to reclassify intranasal naloxone (Narcan) as an over-the-counter drug; later he repeats that Narcan is 'recommended for reclassification as an over-the-counter medicine by the FDA'. The regulatory decision is pending at the post date (2023-03-04).",
+   "post_title": "Tranq (Xylazine) Reversal Agents Could Save Lives.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tranq-xylazine-reversal-agents-could",
+   "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "never",
+   "confidence_phrase": "none",
    "entities": [
-    "Gilead",
-    "lenacapavir",
-    "HIV PrEP"
+    "FDA",
+    "naloxone (Narcan)",
+    "xylazine (Tranq)"
    ],
-   "finder_note": "hint: UNAIDS/WHO and Global Fund/PEPFAR lenacapavir PrEP rollout figures 2025-2027; Gilead generic licensing and pricing announcements"
+   "finder_note": "Borderline: describes an in-progress FDA action with an implicit expectation of OTC approval; no explicit call."
   },
   {
    "id": "owen-0332",
    "forecaster": "owen",
-   "statement_date": "2024-10-17",
-   "quote": "Two hundred individuals volunteered for this 15-person trial. If we conduct ourselves ethically, these studies will continue to enroll robustly.",
-   "context": "Conditional on the field conducting itself ethically, psilocybin trials in veterans with treatment-resistant depression will continue to enroll strongly.",
-   "post_title": "Yet More Data on Psychedelics in Veterans with Depression",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/yet-more-data-on-psychedelics-in",
-   "area_guess": "clinical_trial",
+   "statement_date": "2023-03-04",
+   "quote": "And this cocktail isn’t reversible by Naloxone—an opioid receptor antagonist—which means not only more deaths of our fellow humans. It means more death and trauma for First Responders and to Emergency Medicine nurses, and physicians.",
+   "context": "The author explains that xylazine combined with fentanyl causes profound sedation, hemodynamic instability and death, and that naloxone does not reverse it. He asserts this means more deaths and more trauma for first responders and emergency clinicians.",
+   "post_title": "Tranq (Xylazine) Reversal Agents Could Save Lives.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tranq-xylazine-reversal-agents-could",
+   "area_guess": "other",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "means",
    "entities": [
-    "psilocybin",
-    "US veterans",
-    "Compass Pathways"
+    "xylazine (Tranq)",
+    "fentanyl",
+    "naloxone (Narcan)",
+    "first responders",
+    "Emergency Medicine clinicians"
    ],
-   "finder_note": "hint: Enrollment reports from follow-on veteran psilocybin trials (VA-funded studies, Compass COMP360, Stanford/Suppes group)"
+   "finder_note": "Public-health consequence claim; present tense with a forward reading (more deaths to come)."
   },
   {
    "id": "owen-0333",
    "forecaster": "owen",
-   "statement_date": "2024-10-20",
-   "quote": "More transparency would put this kind of speculation to rest, but that's not what we've gotten from that sizeable corporate entity, and I doubt we will.",
-   "context": "UnitedHealth Group/Optum will not disclose the scale of its offshore workforce (Philippines, India) or report its US layoffs transparently.",
-   "post_title": "Can TikToK Map UnitedHealthcares' Global Workforce?",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-tiktok-map-unitedhealthcares",
-   "area_guess": "company_market",
+   "statement_date": "2023-03-04",
+   "quote": "Xylazine has a few potential reversal agents; some are human-approved, and others are not. ... We need this now.",
+   "context": "Science/drug-development claim (title: reversal agents 'could save lives'): an alpha-2 adrenergic antagonist repurposed as a xylazine reversal agent would work and save lives, and candidate drugs already exist. Hedged with 'could'.",
+   "post_title": "Tranq (Xylazine) Reversal Agents Could Save Lives.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tranq-xylazine-reversal-agents-could",
+   "area_guess": "science_claim",
    "horizon_text": "none",
-   "confidence_phrase": "unlikely",
+   "confidence_phrase": "possible",
    "entities": [
-    "UnitedHealth Group",
-    "Optum"
+    "xylazine",
+    "atipamezole",
+    "alpha-2 antagonists",
+    "FDA"
    ],
-   "finder_note": "hint: UnitedHealth WARN Act filings, 10-K workforce disclosures, or public statements on offshoring 2025-2026"
+   "finder_note": "hint: FDA approval or clinical trial results for a human xylazine reversal agent (e.g., atipamezole studies); ONDCP xylazine response plan"
   },
   {
    "id": "owen-0334",
    "forecaster": "owen",
-   "statement_date": "2024-10-27",
-   "quote": "Our editorial point of view is that medical devices that modulate the brain will be the future.",
-   "context": "Brain-modulating medical devices (TMS, tDCS such as the Flow device, and similar) will become the dominant future of depression treatment, displacing oral antidepressants.",
-   "post_title": "The Devices Are Coming! Depression Treated At-Home Without Meds?",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-devices-are-coming-depression",
+   "statement_date": "2023-03-06",
+   "quote": "By the way, I have no financial interest in the company. I'm just gonna be a customer.",
+   "context": "Review of Möbius MD, a USB dictation dongle that presents to hospital computers as a keyboard to work around HIPAA business-associate constraints; the author names it his 'Best in Show' at the American Telemedicine Association. He says he has no financial interest and will be a customer; earlier: 'I can't wait to use it for my own clinical work.'",
+   "post_title": "Best In Show: Möbius MD is Health Tech for ...Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/best-in-show-mobius-md-is-health",
    "area_guess": "practice_adoption",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "gonna",
    "entities": [
-    "Flow Neuroscience",
-    "tDCS",
-    "TMS"
+    "Möbius MD",
+    "American Telemedicine Association",
+    "Owen Muir"
    ],
-   "finder_note": "hint: Utilization and revenue trends for neuromodulation (Neuronetics, BrainsWay, Flow Neuroscience) versus antidepressant prescriptions; FDA clearances of home-use devices"
+   "finder_note": "Personal adoption intent; low forecast value."
   },
   {
    "id": "owen-0335",
    "forecaster": "owen",
-   "statement_date": "2024-11-04",
-   "quote": "This phenomenon means that the polls for this election are almost certainly wrong ... Your vote counts—especially when the polls are highly likely to be inaccurate, as is currently the case.",
-   "context": "Because pollsters are herding toward a tight consensus, the 2024 US presidential election polls contain a systematic error and the counted result will differ materially from the polling averages.",
-   "post_title": "The Election Polls Are All Wrong!?!",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-election-polls-are-all-wrong",
+   "statement_date": "2023-03-09",
+   "quote": "Back to snark, policy, and science tomorrow.",
+   "context": "Personal post sharing a poem and a song about the author's late sister. He says the newsletter returns to its usual snark, policy and science content the next day.",
+   "post_title": "Alison Muir Decker",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/alison-muir-decker",
    "area_guess": "other",
-   "horizon_text": "2024-11-05 (inferred: election day)",
-   "confidence_phrase": "likely",
+   "horizon_text": "tomorrow",
+   "confidence_phrase": "none",
    "entities": [
-    "2024 US presidential election",
-    "Nate Silver"
+    "The Frontier Psychiatrists"
    ],
-   "finder_note": "hint: Post-election polling error analyses (Silver Bulletin, RealClearPolling, AAPOR) comparing final swing-state averages with certified 2024 results"
+   "finder_note": "Trivial editorial plan for the author's own newsletter; coder may mark CONTROL."
   },
   {
    "id": "owen-0336",
    "forecaster": "owen",
-   "statement_date": "2024-11-13",
-   "quote": "Bristol Meyers Squibb is not done yet. They are going to be bringing this drug to bipolar disorder, and other conditions.",
-   "context": "Bristol Myers Squibb will develop Cobenfy (xanomeline-trospium) for bipolar disorder and other indications beyond schizophrenia.",
-   "post_title": "Cobenfy",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cobenfy",
+   "statement_date": "2023-03-09",
+   "quote": "Health tech start-ups need to solve bigger problems if they’re going to generate real value over the long term.",
+   "context": "Satirical post imagining Pablo Escobar as a venture-backed health-tech founder. In a sincere aside the author notes serious healthcare companies are enormous (the top five Crunchbase unicorns combined are smaller than UnitedHealthcare) and says health tech start-ups must solve bigger problems to generate real value over the long term.",
+   "post_title": "Escobar Health: Reimagining Cocaine Cartels as Venture-Backed Health Tech.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/escobar-health-reimagining-cocaine",
    "area_guess": "company_market",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "horizon_text": "over the long term",
+   "confidence_phrase": "none",
    "entities": [
-    "Bristol Myers Squibb",
-    "Cobenfy",
-    "xanomeline-trospium",
-    "KarXT"
+    "health tech start-ups",
+    "UnitedHealthcare",
+    "Crunchbase unicorn list"
    ],
-   "finder_note": "hint: BMS pipeline disclosures and ClinicalTrials.gov entries for xanomeline-trospium (KarXT) in bipolar I mania and Alzheimer's disease psychosis (ADEPT program), 2025-2026"
+   "finder_note": "Conditional with a predictive reading: start-ups that solve small problems will not create real long-term value. Sincere aside inside satire."
   },
   {
    "id": "owen-0337",
    "forecaster": "owen",
-   "statement_date": "2024-11-13",
-   "quote": "It's got a restricted range of side effects that are annoying, but not life-threatening. Will we discover more at large scale? Probably.",
-   "context": "Additional adverse effects of Cobenfy will probably be discovered once it is used at large scale in post-marketing.",
-   "post_title": "Cobenfy",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cobenfy",
-   "area_guess": "science_claim",
+   "statement_date": "2023-03-10",
+   "quote": "The failure to reckon with the minds of regulators will still doom the enterprise.",
+   "context": "SXSW dispatch arguing psychedelic medicine needs to get profit focused. After contrasting psychedelic enthusiasm with Timothy Leary's reckless messaging that 'ruined decades of medical progress', the author asserts that the psychedelic medicine enterprise will be doomed if it fails to reckon with how regulators think.",
+   "post_title": "SXSW Dispatch: Psychedelic Medicine Needs to Get Profit Focused.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-psychedelic-medicine",
+   "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "likely",
+   "confidence_phrase": "will",
    "entities": [
-    "Cobenfy",
-    "Bristol Myers Squibb"
+    "Timothy Leary"
    ],
-   "finder_note": "hint: FDA label updates, FAERS safety signals, or published post-marketing safety reports for Cobenfy 2025-2026"
+   "finder_note": "Conditional: doom follows a failure to reckon with regulators; no named regulator, company or date. The 'could transform everything' hype earlier in the post is voiced sarcastically, not endorsed."
   },
   {
    "id": "owen-0338",
    "forecaster": "owen",
-   "statement_date": "2024-11-22",
-   "quote": "Use the CMS levers to create novel payment pathways for breakthrough medical devices. Over the long term, you'll pay less.",
-   "context": "Conditional: if CMS creates payment pathways for FDA breakthrough medical devices (outpatient NTAP-like payment, TCET expansion, or the Breakthrough Treatments Act), CMS spending will fall over the long term and investment will shift toward devices rather than pharma.",
-   "post_title": "Letters to Dr. Oz",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
-   "area_guess": "payer_policy",
+   "statement_date": "2023-03-10",
+   "quote": "Accessible sounds good, but a drug company that makes the bold choice to not make as much money will be bought by a smart financier who sees the opportunity to charge more.",
+   "context": "Same dispatch. Noting that the average cost of a drug introduced in 2023 is $180,000 and that there is no accepted rationale to price psychedelic drugs lower, the author predicts that a psychedelic drug company that chooses lower profits will be acquired by a financier who raises prices, naming Martin Shkreli as the archetype ('others aren't' out of the game).",
+   "post_title": "SXSW Dispatch: Psychedelic Medicine Needs to Get Profit Focused.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-psychedelic-medicine",
+   "area_guess": "company_market",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "will be bought",
    "entities": [
-    "CMS",
-    "Mehmet Oz",
-    "Breakthrough Treatments Act",
-    "TCET",
-    "NTAP"
+    "Martin Shkreli"
    ],
-   "finder_note": "hint: CMS TCET/NTAP policy changes and Medicare spending trends after any breakthrough-device payment reform"
-  },
-  {
-   "id": "owen-0339",
-   "forecaster": "owen",
-   "statement_date": "2024-11-22",
-   "quote": "There's $485+ billion a year in pharmacy benefit management rebates. And that goes up at 8.8% every year. That will eat up your entire budget at CMS, given enough time.",
-   "context": "PBM rebates (about $485B per year) will keep growing about 8.8% per year and, absent CMS action, will eventually consume the CMS budget.",
-   "post_title": "Letters to Dr. Oz",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "CMS",
-    "pharmacy benefit managers"
-   ],
-   "finder_note": "hint: Annual PBM rebate estimates (Drug Channels, IQVIA, Nephron) for 2025 and 2026 versus 2024 baseline"
+   "finder_note": "Conditional on a psychedelic drug company choosing lower prices; general claim, no named company or date."
   },
   {
    "id": "owen-0340",
    "forecaster": "owen",
-   "statement_date": "2024-11-22",
-   "quote": "And if you try to do that with better drugs, it's going to cost more because we already know drug prices go up forever.",
-   "context": "Drug prices will keep rising indefinitely; relying on new drugs to improve outpatient care will raise CMS costs.",
-   "post_title": "Letters to Dr. Oz",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
-   "area_guess": "payer_policy",
+   "statement_date": "2023-03-12",
+   "quote": "This article details what is revealed in that complaint, why it’s a problem from a consumer protection standpoint, and why it is a much, much bigger problem for its parent company, Teledoc.",
+   "context": "Opening of the SXSW dispatch on the FTC complaint against BetterHelp (title: 'BetterHelp Is a Disaster, Will It Destroy Teladoc?'). The author frames the complaint as a much bigger problem for parent company Teladoc than a consumer-protection matter, because of civil and criminal HIPAA exposure under HHS.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "company_market",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "none",
    "entities": [
-    "CMS"
+    "BetterHelp",
+    "Teladoc",
+    "FTC",
+    "HHS"
    ],
-   "finder_note": "hint: Medicare Part D spending and brand list-price trend data (e.g., annual January price increases) 2025-2026"
+   "finder_note": "Thesis statement; present tense with a forward reading of unresolved liability for Teladoc. The title poses 'Will It Destroy Teladoc?' as a question."
   },
   {
    "id": "owen-0341",
    "forecaster": "owen",
-   "statement_date": "2024-11-22",
-   "quote": "However, if you start paying physicians more, you will get better outcomes—stop slow-rolling at-risk contracts!",
-   "context": "Conditional: if CMS pays physicians more under at-risk contracts, patient outcomes will improve.",
-   "post_title": "Letters to Dr. Oz",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
-   "area_guess": "payer_policy",
+   "statement_date": "2023-03-12",
+   "quote": "But it's really hard to say what will happen in this particular case, given the contents of the federal trade commission report.",
+   "context": "Early in the BetterHelp post the author says he supports well-regulated telehealth and does not think incidental breaches should be grounds for action, but that it is really hard to say what will happen in this case given the FTC report.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "really hard to say",
    "entities": [
-    "CMS"
+    "BetterHelp",
+    "Teladoc",
+    "FTC"
    ],
-   "finder_note": "hint: CMS Innovation Center at-risk contract expansions and outcome evaluations"
+   "finder_note": "Explicit uncertainty with no direction; logged for the record because it frames the later conditional calls."
   },
   {
    "id": "owen-0342",
    "forecaster": "owen",
-   "statement_date": "2024-11-22",
-   "quote": "I think that should be Dr. Drew Pinsky. They are appointing stars from TV anyway, and he's one, but I think he'll do a good job.",
-   "context": "Conditional: if RFK Jr. appoints Dr. Drew Pinsky as SAMHSA administrator, he will do a good job, will be acceptable to conservatives, and some people will be outraged.",
-   "post_title": "Letters to The Trump Administration: Dr. Drew for SAMHSA Administrator ",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration",
-   "area_guess": "other",
+   "statement_date": "2023-03-12",
+   "quote": "The BetterHelp therapists are on the hook, and depending on their employment contracts, that might make BetterHelp on the hook in the absence of those forms existing in all cases of PHI disclosure for clients in NY.",
+   "context": "New York State requires a consent form with initialed lines for mental health, alcohol/drug and HIV information before a health professional discloses PHI. The author argues BetterHelp therapists who disclosed NY client data without those forms are liable, and that BetterHelp itself might be liable depending on employment contracts.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "likely",
+   "confidence_phrase": "might",
    "entities": [
-    "Drew Pinsky",
-    "Robert F. Kennedy Jr.",
-    "SAMHSA"
+    "BetterHelp",
+    "BetterHelp therapists",
+    "New York State"
    ],
-   "finder_note": "hint: HHS/SAMHSA leadership appointments 2025 (Pinsky was not appointed; SAMHSA was reorganized under HHS)"
+   "finder_note": "Hedged legal-liability claim; outcome depends on state enforcement."
   },
   {
    "id": "owen-0343",
    "forecaster": "owen",
-   "statement_date": "2024-11-23",
-   "quote": "There's going to be a lot of bad behavior in the industry. If the hammer doesn't come down, open up the floodgates for approval on bad behavior.",
-   "context": "There will be a lot of bad behavior (fraud, predatory marketing) in the drug and device industry; if the FDA does not enforce, faster approvals will unleash more of it.",
-   "post_title": "Letters to The Trump Administration: Advice for The FDA",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "statement_date": "2023-03-12",
+   "quote": "On a state-by-state and federal level, this might well be considered PHI, according to the Department of Health and Human Services",
+   "context": "The author argues that the email addresses and intake-screener data BetterHelp shared with social media advertising platforms might well count as protected health information under the HHS Privacy Rule definition, at both state and federal level.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
    "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "might well",
    "entities": [
-    "FDA",
-    "Martin Makary"
+    "BetterHelp",
+    "HHS",
+    "HIPAA Privacy Rule",
+    "FTC"
    ],
-   "finder_note": "hint: FDA Bad Ad program actions, warning letters, and DOJ healthcare fraud enforcement 2025-2026"
+   "finder_note": "Hedged claim about how regulators would classify the shared data; precondition for the HIPAA liability calls."
   },
   {
    "id": "owen-0344",
    "forecaster": "owen",
-   "statement_date": "2024-11-23",
-   "quote": "I recommend setting standards inside the FDA regarding the timeframe for the review of these submissions. It will allow your agency to get more money, it will encourage industry to pay you for the advice before the submissions, and this will lead to less uncompensated work reviewing submitted applications.",
-   "context": "Conditional: if FDA sets review-time standards for 513(g) device classification requests, FDA will collect more industry fees, get better submissions, and speed later reviews.",
-   "post_title": "Letters to The Trump Administration: Advice for The FDA",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
-   "area_guess": "regulatory",
+   "statement_date": "2023-03-12",
+   "quote": "Were this to be addressed as a HIPAA issue, it might be an extinction level event.",
+   "context": "After arguing the FTC-described data sharing was deliberate use of protected health information for financial gain, the author says that if it were treated as a HIPAA matter (HHS/DOJ) rather than an FTC trade matter, it might be an extinction-level event for the company (BetterHelp and parent Teladoc).",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "company_market",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "might",
    "entities": [
-    "FDA",
-    "513(g)",
-    "Martin Makary"
+    "BetterHelp",
+    "Teladoc",
+    "HIPAA",
+    "FTC",
+    "HHS"
    ],
-   "finder_note": "hint: FDA 513(g) performance goals or MDUFA commitment letters 2025-2027"
+   "finder_note": "Conditional call contingent on HIPAA enforcement; the central forecast of the post."
   },
   {
    "id": "owen-0345",
    "forecaster": "owen",
-   "statement_date": "2024-11-23",
-   "quote": "We can develop all the remarkable technologies we want, but if it is too expensive to obtain approval and those therapies never get paid for in the healthcare marketplace? Investors will not put money into them and will not get to the public.",
-   "context": "Conditional: if approval stays expensive and new therapies are not reimbursed, investors will not fund them and they will not reach patients.",
-   "post_title": "Letters to The Trump Administration: Advice for The FDA",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
-   "area_guess": "payer_policy",
+   "statement_date": "2023-03-12",
+   "quote": "In this case, life imitates art, just substitute HIPAA for COPPA.",
+   "context": "Analogy to HBO's Silicon Valley: PiperChat violated COPPA and the acquirer Hooli was devastated by fines. The author says life imitates art here with HIPAA in place of COPPA, implying that acquirer Teladoc faces devastating fines for BetterHelp's conduct.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "company_market",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "none",
    "entities": [
-    "FDA",
-    "CMS"
+    "Teladoc",
+    "BetterHelp",
+    "HIPAA",
+    "COPPA"
    ],
-   "finder_note": "hint: Medtech/neurotech venture funding trends versus CMS coverage policy changes"
+   "finder_note": "Implicit forecast by analogy; borderline. Devastating fines for the acquirer are the implied outcome."
   },
   {
    "id": "owen-0346",
    "forecaster": "owen",
-   "statement_date": "2024-11-28",
-   "quote": "And Lamar knew—or should have known—that Baka’s weird case wasn’t pertaining to a child. Thus, I strongly suspect this rises to the level of actual malice.",
-   "context": "The 'certified pedophiles' line in Kendrick Lamar's 'Not Like Us' is per se defamatory and meets the actual-malice standard, so Drake's defamation claim would clear that bar.",
-   "post_title": "Of Disrespect and Defamation: What Hip Hop Feuds Can Teach Us About the Truth",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-disrespect-and-defamation-what",
-   "area_guess": "other",
+   "statement_date": "2023-03-12",
+   "quote": "And there are some carveouts for covered entities under HIPAA, but at least as a company that began as a direct-to-consumer model company, it won’t benefit from any of those plausible exceptions.",
+   "context": "HHS allows marketing by covered entities with patient authorization and with some carve-outs. The author asserts BetterHelp, which began as a direct-to-consumer company, will not benefit from those exceptions, and that once it sold into health plans via Teladoc (acquired 2015) it became a covered entity.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "likely",
+   "confidence_phrase": "won't",
    "entities": [
-    "Drake",
-    "Kendrick Lamar",
-    "Universal Music Group",
-    "Baka Not Nice"
+    "BetterHelp",
+    "Teladoc",
+    "HHS",
+    "HIPAA"
    ],
-   "finder_note": "hint: Drake v. UMG Recordings (S.D.N.Y.) ruling, October 2025: complaint dismissed, lyrics held non-actionable opinion/hyperbole"
+   "finder_note": "Legal-outcome call about the applicability of HIPAA marketing exceptions."
   },
   {
    "id": "owen-0347",
    "forecaster": "owen",
-   "statement_date": "2024-11-29",
-   "quote": "That is precisely what BlueSky is doing, and that's why it will get more journalist users and more breaking news.",
-   "context": "Bluesky will attract more journalist users and more breaking news because it drives traffic to publishers.",
-   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
-   "area_guess": "other",
+   "statement_date": "2023-03-12",
+   "quote": "This adds up to a minimum fine of $127,000,000,000—for the failure to act after the breach is identified.",
+   "context": "The author multiplies the Tier 4 'willful neglect' minimum fine ($63,973 per violation) by BetterHelp's 2 million sign-ups to compute a theoretical minimum fine of $127 billion for failure to report the breach, before any penalty for the breach itself. He adds that Teladoc's acquisition diligence covered 'an additional $500 billion in criminal liability'.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "none",
    "entities": [
-    "Bluesky",
-    "X",
-    "Threads"
+    "BetterHelp",
+    "Teladoc",
+    "HIPAA",
+    "HHS"
    ],
-   "finder_note": "hint: Bluesky user growth and news-referral traffic data (Similarweb, Chartbeat) 2025-2026"
+   "finder_note": "Numeric exposure estimate from hypothetical arithmetic; not a prediction of an actual fine. Coder may treat as illustrative."
   },
   {
    "id": "owen-0348",
    "forecaster": "owen",
-   "statement_date": "2024-11-29",
-   "quote": "That will accelerate the death of what was a global town square.",
-   "context": "X (formerly Twitter) will decline faster as journalists and breaking news move to Bluesky.",
-   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
-   "area_guess": "other",
+   "statement_date": "2023-03-12",
+   "quote": "Which is exactly what the Department of Justice has prepared, should they choose to act, thanks to this FTC report.",
+   "context": "After listing the criminal HIPAA penalty for wrongful disclosure of PHI for commercial advantage (up to $250,000 and ten years in prison), the author says the FTC report gives the Department of Justice a prepared criminal case against BetterHelp/Teladoc, should it choose to act.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "should they choose to act",
    "entities": [
-    "X",
-    "Twitter",
-    "Elon Musk",
-    "Bluesky"
+    "Department of Justice",
+    "FTC",
+    "BetterHelp",
+    "Teladoc",
+    "HIPAA"
    ],
-   "finder_note": "hint: X active-user and news-referral metrics 2025-2026 versus 2024"
+   "finder_note": "Conditional: possible DOJ criminal action on the back of the FTC complaint; no probability given."
   },
   {
    "id": "owen-0349",
    "forecaster": "owen",
-   "statement_date": "2024-12-03",
-   "quote": "It is buying investigator time or study coordinator time early to have those conversations with potential subjects. If we pay for it, they will prioritize these conversations, like any other line item in a budget.",
-   "context": "Conditional: if sponsors budget for investigator and coordinator time to educate potential subjects, sites will prioritize those conversations and subjects become committed partners.",
-   "post_title": "The Uncomfortable Reality of Clinical Trials",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-uncomfortable-reality-of-clinical",
-   "area_guess": "clinical_trial",
+   "statement_date": "2023-03-12",
+   "quote": "I strongly suspect that the federal trade commission is well aware of how the above can and should be used by other regulatory agencies and law-enforcement professionals.",
+   "context": "Footnote 1: the author praises the FTC complaint and says he strongly suspects the FTC knows the complaint can and should be used by other regulatory agencies and law enforcement, implying follow-on enforcement against BetterHelp/Teladoc by HHS or DOJ.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "I strongly suspect",
    "entities": [
-    "MindMed",
-    "Dan Karlin"
+    "FTC",
+    "BetterHelp",
+    "Teladoc",
+    "HHS",
+    "Department of Justice"
    ],
-   "finder_note": "hint: Not readily checkable; would need trial-operations studies on budgeted consent time"
+   "finder_note": "Hedged claim about FTC intent with an implicit forecast of other-agency action. Contains 'should' but the sentence is predictive, not advice."
   },
   {
    "id": "owen-0350",
    "forecaster": "owen",
-   "statement_date": "2024-12-05",
-   "quote": "People hate you with a uniformity of opinion that is traditionally reserved for people who are literal mass murderers. And I think that kind of public relations problem isn't going to go away— absent radical changes.",
-   "context": "UnitedHealthcare's public-hatred/reputation problem will not go away unless the company makes radical changes.",
-   "post_title": "Deny, Defend, Depose",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
-   "area_guess": "company_market",
+   "statement_date": "2023-03-12",
+   "quote": "The Overton Window rarely moves fast, and expecting payment models and accounting methodology to keep up with Healthcare Innovation is unrealistic.",
+   "context": "SXSW 2023 dispatch praising a Johnson and Johnson orthopedic surgical robot for a realistic go-to-market that fits existing hospital payment and accounting models (staffing cost turned into depreciable capital cost). The author states as a general expectation that payment models and accounting methods will not keep pace with healthcare innovation, and tells psychedelics panels to take note.",
+   "post_title": "SXSW Dispatch: Johnson and Johnson is Disrupting by Going-To-Market Successfully.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-johnson-and-johnson",
+   "area_guess": "payer_policy",
    "horizon_text": "none",
-   "confidence_phrase": "likely",
+   "confidence_phrase": "unrealistic",
    "entities": [
-    "UnitedHealthcare",
-    "UnitedHealth Group"
+    "Johnson and Johnson"
    ],
-   "finder_note": "hint: Public opinion and brand reputation surveys of UnitedHealth 2025-2026 and any major policy changes announced by the company"
+   "finder_note": "Borderline: general structural claim that payment models lag innovation; close to a truism, no date or mechanism."
   },
   {
    "id": "owen-0351",
    "forecaster": "owen",
-   "statement_date": "2024-12-05",
-   "quote": "These systems desperately need more good people driven by moral scruples and passion, not just piles of money. We're going to get less of those now.",
-   "context": "After Brian Thompson's murder, fewer ethical and empathetic people will take insurance-executive jobs; only the most callous will (also: 'it's going to be harder to get decent people to try to turn the ship around').",
-   "post_title": "Deny, Defend, Depose",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
-   "area_guess": "other",
+   "statement_date": "2023-03-13",
+   "quote": "If you think hearing about ADHD is annoying now, imagine all of the people who can’t stop talking about it off their helpful medication —abruptly.",
+   "context": "Open letter to AI written at SXSW 2023 about the end of the COVID public health emergency and the DEA proposed rule on telehealth prescribing of controlled substances. The author implies that patients with ADHD will be taken off their stimulant medication abruptly when the telehealth flexibilities end.",
+   "post_title": "SXSW Dispatch: An Open Letter to AI re: Advocating For Better DEA Regulations ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-an-open-letter-to-ai",
+   "area_guess": "regulatory",
    "horizon_text": "none",
-   "confidence_phrase": "certain",
+   "confidence_phrase": "none",
    "entities": [
-    "UnitedHealthcare",
-    "health insurers"
+    "DEA"
    ],
-   "finder_note": "hint: Not readily checkable; executive recruitment reporting for health insurers"
-  },
-  {
-   "id": "owen-0352",
-   "forecaster": "owen",
-   "statement_date": "2024-12-05",
-   "quote": "United Healthcare is under no apprehension that its deeds, no matter how criminal, will ever lead to personal consequences for its executives or meaningful consequences for its shareholders.",
-   "context": "Author asserts, framed as UHC's own expectation which he treats as the reality given political donations restraining the DOJ, that UnitedHealth executives will never face personal legal consequences and shareholders will face no meaningful consequences for wrongdoing.",
-   "post_title": "Deny, Defend, Depose",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
-   "area_guess": "company_market",
-   "horizon_text": "none",
-   "confidence_phrase": "never",
-   "entities": [
-    "UnitedHealth Group",
-    "UnitedHealthcare",
-    "Department of Justice"
-   ],
-   "finder_note": "hint: DOJ criminal and civil actions against UnitedHealth Group and its executives (e.g., outcomes of the 2025 DOJ Medicare Advantage investigation) and UNH stock impact"
-  },
-  {
-   "id": "owen-0353",
-   "forecaster": "owen",
-   "statement_date": "2024-12-07",
-   "quote": "There are plenty of angry people armed with guns in America, and they're watching somebody get lionized in the press, and on social media, all day long, being called a hero. Maybe we can imagine that's not going to spread? But I very much think it will. When we cheer for murder, we get more murder.",
-   "context": "Public celebration of Brian Thompson's killer will spread and produce more copycat murders or targeted violence.",
-   "post_title": "An Open Letter to UnitedHealth Group after Declining My Employment Application: Redux",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-unitedhealth-group-4d1",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "likely",
-   "entities": [
-    "UnitedHealthcare",
-    "Brian Thompson"
-   ],
-   "finder_note": "hint: Reports of copycat attacks or credible threats against healthcare executives 2025-2026"
-  },
-  {
-   "id": "owen-0354",
-   "forecaster": "owen",
-   "statement_date": "2024-12-16",
-   "quote": "It's gonna be hard to blow up that $500 billion+ a year industry—growing at an 8.8% CAGR—without them causing a ruckus.",
-   "context": "The Trump administration's stated plan to 'knock out the middleman' will meet hard resistance from PBMs (OptumRx, Express Scripts, CVS Caremark); eliminating the PBM industry will be difficult, though the administration may fight health plans over PBMs anyway.",
-   "post_title": "Open Letters to the Incoming Trump Administration: Cutting Out the Middle Man*",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/open-letters-to-the-incoming-trump",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "Trump administration",
-    "OptumRx",
-    "Express Scripts",
-    "CVS Caremark",
-    "PBMs"
-   ],
-   "finder_note": "hint: PBM reform legislation and executive actions 2025-2026; FTC PBM litigation"
-  },
-  {
-   "id": "owen-0355",
-   "forecaster": "owen",
-   "statement_date": "2024-12-16",
-   "quote": "One of the underlying themes of the newsletter and my career is that medical devices will matter in the future.",
-   "context": "Medical devices (accelerated TMS, eTNS, Nightware, PRISM neurofeedback) will become central to treating neuropsychiatric disorders and will displace drugs, a future the author says is already arriving.",
-   "post_title": "Open Letters to the Incoming Trump Administration: Cutting Out the Middle Man*",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/open-letters-to-the-incoming-trump",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "accelerated TMS",
-    "Monarch eTNS",
-    "Nightware",
-    "PRISM (GrayMatters Health)"
-   ],
-   "finder_note": "hint: Medicare/commercial coverage decisions for psychiatric devices; device vs drug utilization data"
-  },
-  {
-   "id": "owen-0357",
-   "forecaster": "owen",
-   "statement_date": "2024-12-18",
-   "quote": "For treatment with nVNS, and soon VNS, feel free to request a consultation at Fermata in Brooklyn (and beyond by telehealth)….",
-   "context": "Fermata (Brooklyn) will soon offer vagus nerve stimulation (VNS) in addition to non-invasive VNS.",
-   "post_title": "The Cranial Nerves, Explained",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cranial-nerves-explained",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "Fermata",
-    "VNS",
-    "nVNS"
-   ],
-   "finder_note": "hint: Fermata service listings 2025-2026"
-  },
-  {
-   "id": "owen-0358",
-   "forecaster": "owen",
-   "statement_date": "2024-12-19",
-   "quote": "The next event is in LA, which coincides with the American Psychiatric Association annual meeting!",
-   "context": "After RAMHT SF on Jan 12, 2025, the author will hold the next RAMHT live event in Los Angeles during the APA annual meeting (May 2025).",
-   "post_title": "Rapid Acting Mental Health Treatment SF 2025",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-81e",
-   "area_guess": "other",
-   "horizon_text": "2025-Q2 (inferred: APA annual meeting, Los Angeles, May 2025)",
-   "confidence_phrase": "certain",
-   "entities": [
-    "RAMHT",
-    "American Psychiatric Association",
-    "Grady Hannah"
-   ],
-   "finder_note": "hint: RAMHT event pages / Frontier Psychiatrists posts from May 2025"
-  },
-  {
-   "id": "owen-0359",
-   "forecaster": "owen",
-   "statement_date": "2024-12-27",
-   "quote": "60% of individuals who get 5-day accelerated treatment like SAINT remit on day five. Thus, for patients with acute suicidality, that approach may still prove superior.",
-   "context": "Five-day accelerated TMS protocols (Magnus SAINT, HOPE-TMS, accelerated H-coil) may prove superior to Ampa's one-day ONE-D regimen for acutely suicidal patients because ONE-D's response is delayed.",
-   "post_title": "Depression Can Be Over With A One Day Treatment 90% of The Time*",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-with-a-one",
-   "area_guess": "science_claim",
-   "horizon_text": "none",
-   "confidence_phrase": "possible",
-   "entities": [
-    "Magnus Medical SAINT",
-    "Ampa ONE-D",
-    "accelerated TMS"
-   ],
-   "finder_note": "hint: Future controlled trials of ONE-D vs 5-day accelerated TMS in suicidal patients"
-  },
-  {
-   "id": "owen-0360",
-   "forecaster": "owen",
-   "statement_date": "2024-12-27",
-   "quote": "There is more work yet to be done, but I'm thrilled to be a clinical trial site for the next phase of the work Ampa is doing at both Fermata and Acacia clinics.",
-   "context": "Ampa's next-phase trial of the one-day neuroplastogen-enhanced TMS regimen (ONE-D) will run with Fermata (Brooklyn) and Acacia Clinics (Sunnyvale) as trial sites.",
-   "post_title": "Depression Can Be Over With A One Day Treatment 90% of The Time*",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-with-a-one",
-   "area_guess": "clinical_trial",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "Ampa",
-    "Fermata",
-    "Acacia Clinics",
-    "Jonathan Downar"
-   ],
-   "finder_note": "hint: ClinicalTrials.gov site listings for Ampa ONE-D follow-on trials"
-  },
-  {
-   "id": "owen-0361",
-   "forecaster": "owen",
-   "statement_date": "2024-12-27",
-   "quote": "This will make it—I hope—much harder for health plans to deny this care.",
-   "context": "The Dutch pragmatic RCT showing rTMS dominates next-step medication on cost and QALYs will make it harder for health plans (including Medicaid) to deny TMS coverage. (Preview text only.)",
-   "post_title": "Science That Will Change The World, 2024 Edition",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/science-that-will-change-the-world",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "likely",
-   "entities": [
-    "rTMS",
-    "health plans",
-    "Medicaid"
-   ],
-   "finder_note": "hint: Payer TMS medical-policy changes and Medicaid TMS coverage expansions 2025-2026"
-  },
-  {
-   "id": "owen-0362",
-   "forecaster": "owen",
-   "statement_date": "2024-12-28",
-   "quote": "To be blunt— drug prices are going to go up forever because they can't be negotiated down?",
-   "context": "US prices for new on-patent drugs will keep rising indefinitely because Medicare cannot broadly negotiate them; the Inflation Reduction Act only nibbles at the edges.",
-   "post_title": "This Medical Device Went to Market...",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-medical-device-went-to-market",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "Medicare Part D",
-    "pharmaceutical industry",
-    "Inflation Reduction Act"
-   ],
-   "finder_note": "hint: Reuters/IQVIA median annual launch price of new US drugs, 2025-2026"
-  },
-  {
-   "id": "owen-0363",
-   "forecaster": "owen",
-   "statement_date": "2024-12-28",
-   "quote": "Using a per diem contract (paying a daily rate, not a bundle rate for the whole admission) means nothing New and Good can come to inpatient psychiatry.",
-   "context": "Without an NTAP-like guaranteed payment pathway (most inpatient psychiatric units use per-diem contracts and TCET is tiny for outpatient), no new medical technology will enter inpatient psychiatric care; devices will remain under-funded relative to drugs unless Congress passes the Breakthrough Therapies Act or H.R.1691.",
-   "post_title": "This Medical Device Went to Market...",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-medical-device-went-to-market",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "CMS NTAP",
-    "TCET",
-    "Breakthrough Therapies Act",
-    "H.R.1691",
-    "inpatient psychiatry"
-   ],
-   "finder_note": "hint: CMS IPF PPS rules and NTAP/TCET approvals for psychiatric devices; status of Ensuring Patient Access to Critical Breakthrough Products Act"
-  },
-  {
-   "id": "owen-0364",
-   "forecaster": "owen",
-   "statement_date": "2024-12-29",
-   "quote": "I don’t believe executives went to jail, however, and the drug was more profitable than the penalties, so I suspect the behavior will continue.",
-   "context": "Pharmaceutical off-label and deceptive marketing conduct (Neurontin-style) will continue because criminal penalties remain smaller than the profits.",
-   "post_title": "Of Conflicts of Interest, and Interesting Conflicts",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-conflicts-of-interest-and-interesting",
-   "area_guess": "other",
-   "horizon_text": "none",
-   "confidence_phrase": "likely",
-   "entities": [
-    "Pfizer",
-    "pharmaceutical industry"
-   ],
-   "finder_note": "hint: DOJ False Claims Act / off-label marketing settlements with pharma companies 2025-2026"
-  },
-  {
-   "id": "owen-0365",
-   "forecaster": "owen",
-   "statement_date": "2024-12-29",
-   "quote": "Still, none of these things are likely to happen tomorrow. The conferences don't occur without industry support for a price we could afford.",
-   "context": "Physicians, journals, and medical conferences are unlikely to cut off pharma marketing (reps, TV ads, journal ads, conference booths) in the near term because of economic dependence on industry money.",
-   "post_title": "Of Conflicts of Interest, and Interesting Conflicts",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/of-conflicts-of-interest-and-interesting",
-   "area_guess": "practice_adoption",
-   "horizon_text": "none",
-   "confidence_phrase": "unlikely",
-   "entities": [
-    "medical journals",
-    "medical conferences",
-    "pharma marketing"
-   ],
-   "finder_note": "hint: Policies of major psychiatry conferences/journals on industry exhibits and advertising"
-  },
-  {
-   "id": "owen-0366",
-   "forecaster": "owen",
-   "statement_date": "2025-01-02",
-   "quote": "This is good news for seniors and other individuals on Medicare, such as those with psychiatric or other disability, but it will put pressure on federal budgets and premiums.",
-   "context": "The $2,000 Medicare Part D out-of-pocket cap that took effect Jan 1, 2025 will increase pressure on federal spending and on Part D premiums.",
-   "post_title": "Happy $2,000/annual Out-Of-Pocket Cap For Medicare Beneficiaries Day",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/happy-2000annual-out-of-pocket-cap",
-   "area_guess": "payer_policy",
-   "horizon_text": "none",
-   "confidence_phrase": "certain",
-   "entities": [
-    "Medicare Part D",
-    "CMS"
-   ],
-   "finder_note": "hint: CMS Part D base premium announcements for 2026; CBO/MedPAC estimates of Part D spending"
-  },
-  {
-   "id": "owen-0367",
-   "forecaster": "owen",
-   "statement_date": "2025-01-04",
-   "quote": "Thus, the endless platform solutions that are doing clinicians a service by making it easier to take insurance are in for, possibly, a really harsh awakening unless they can change the way payers value the mental health clinicians in their network.",
-   "context": "Insurance-enablement mental health platforms (Alma, Grow Therapy, Talkspace, BetterHelp, Headway) will face a harsh reckoning unless they change how payers value and pay clinicians; a few extra dollars per claim will not suffice. (Republished research with 2025 intro.)",
-   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
-   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
-   "area_guess": "company_market",
-   "horizon_text": "none",
-   "confidence_phrase": "possible",
-   "entities": [
-    "Alma",
-    "Grow Therapy",
-    "Talkspace",
-    "BetterHelp",
-    "Headway"
-   ],
-   "finder_note": "hint: Company financials/layoffs, clinician churn reports, payer rate cuts (e.g., UHG rate cuts to Alma therapists)"
+   "finder_note": "Implicit forecast in a joking aside; the underlying expectation (abrupt loss of ADHD medication access) reads as sincere."
   }
  ]
 }

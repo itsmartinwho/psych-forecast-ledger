@@ -1,0 +1,864 @@
+{
+ "packet": "code-24.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1050",
+   "forecaster": "owen",
+   "statement_date": "2024-05-23",
+   "quote": "Magnus Medical is a commercial-stage medical device company that is bringing SAINT neuromodulation to the market.",
+   "context": "List of the author's consulting clients in the 'updates' post. Magnus Medical, one of them, is described as a commercial-stage medical device company that is bringing SAINT neuromodulation to the market.",
+   "post_title": "Owen Muir-Centric Updates!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-centric-updates",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Magnus Medical",
+    "SAINT"
+   ],
+   "finder_note": "Descriptive company blurb rather than an explicit forecast; logged as borderline. Author is a paid consultant to Magnus Medical."
+  },
+  {
+   "id": "owen-1053",
+   "forecaster": "owen",
+   "statement_date": "2024-05-26",
+   "quote": "However, if your setting is paid a bundled amount, like every other hospital, stay because your hospital uses the IPF PPS contracting system, and there is an add-on payment to account for the cost of treatment like SAINT —the New Technology Add-on Payment system (NTAP) under medicare—it makes all the financial sense in the world to do the new thing. You get paid more. You probably get the patient out the door faster. That's better for them, and it's better for your hospital financially.",
+   "context": "Post on hospital payment models (DRG vs per diem vs IPF PPS) and the 2024 CMS New Technology Add-On Payment for SAINT. The author argues that under per diem contracting, which pays psychiatric hospitals by the day, a hospital is unlikely to adopt a novel treatment such as SAINT that would reduce the number of paid days.",
+   "post_title": "We Made Inpatient Psychiatric Treatment Suck Less with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-made-inpatient-psychiatric-treatment",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "it's really hard to imagine you're gonna",
+   "entities": [
+    "SAINT"
+   ],
+   "finder_note": "Conditional on per-diem contracting; an incentive argument rather than a dated call."
+  },
+  {
+   "id": "owen-1054",
+   "forecaster": "owen",
+   "statement_date": "2024-05-26",
+   "quote": "That is beginning to change— MUSC, for example, has one of its hospital's first comercial Magnus Medical SAINT systems.",
+   "context": "Same post. The author says rapid-acting treatments like SAINT are easier to access at outpatient clinics (Fermata in New York, Acacia Clinics in California) than in most hospitals, but that this is beginning to change, citing MUSC having one of the first commercial Magnus Medical SAINT systems in a hospital.",
+   "post_title": "We Made Inpatient Psychiatric Treatment Suck Less with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-made-inpatient-psychiatric-treatment",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "is beginning to change",
+   "entities": [
+    "MUSC",
+    "Magnus Medical",
+    "SAINT",
+    "Fermata",
+    "Acacia Clinics"
+   ],
+   "finder_note": "Trend call on inpatient hospital adoption of SAINT; the author has ties to Fermata, Acacia Clinics and Magnus Medical."
+  },
+  {
+   "id": "owen-1055",
+   "forecaster": "owen",
+   "statement_date": "2024-05-26",
+   "quote": "Psychedelic medicines are likely going to need to follow a similar path to payment in the hospital setting.",
+   "context": "Same post, after arguing that the NTAP add-on payment finally gives psychiatric hospitals a financial route to adopt SAINT. The author states that psychedelic medicines will likely need to follow a similar payment path (add-on payments under bundled hospital payment) to be used in the hospital setting.",
+   "post_title": "We Made Inpatient Psychiatric Treatment Suck Less with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-made-inpatient-psychiatric-treatment",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "likely going to need to",
+   "entities": [
+    "Medicare",
+    "NTAP"
+   ],
+   "finder_note": "Hedged call on future payment mechanics for psychedelic medicines in hospitals."
+  },
+  {
+   "id": "owen-1056",
+   "forecaster": "owen",
+   "statement_date": "2024-05-26",
+   "quote": "Here are the CPT codes to inquire about—they go into effect on July 1st!",
+   "context": "Same post, call to action. The author urges readers to ask in writing whether their plan covers fMRI-guided accelerated neuromodulation and points to the new Category III CPT codes, which he says go into effect on July 1st (2024).",
+   "post_title": "We Made Inpatient Psychiatric Treatment Suck Less with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-made-inpatient-psychiatric-treatment",
+   "area_guess": "payer_policy",
+   "horizon_text": "on July 1st",
+   "confidence_phrase": "none",
+   "entities": [
+    "Category III CPT codes",
+    "SAINT"
+   ],
+   "finder_note": "Dated scheduled event stated as fact: new Category III CPT codes for accelerated neuromodulation effective July 1, 2024."
+  },
+  {
+   "id": "owen-1057",
+   "forecaster": "owen",
+   "statement_date": "2024-05-26",
+   "quote": "any decent machine learning engineer can back-solve DRG multipliers based on claims data. So, good luck keeping that Private and proprietary.",
+   "context": "Footnote 2 of the hospital payment post, about the DRG multipliers that third-party payers treat as proprietary. The author says any decent machine learning engineer can back-solve them from claims data, so payers will not manage to keep them private.",
+   "post_title": "We Made Inpatient Psychiatric Treatment Suck Less with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-made-inpatient-psychiatric-treatment",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "can ... good luck",
+   "entities": [
+    "DRG"
+   ],
+   "finder_note": "Sarcastic framing ('good luck') but sincere; implies proprietary DRG multipliers will not stay secret. No horizon."
+  },
+  {
+   "id": "owen-1059",
+   "forecaster": "owen",
+   "statement_date": "2024-05-26",
+   "quote": "It doesn't matter how good your intentions are if you're going to financially cripple, your hospital setting, or at least you're afraid you will; it's really hard to imagine you're gonna adopt some novel treatment that will reduce the number of paid days in your hospital.",
+   "context": "Condition: a psychiatric hospital is paid per diem. Prediction: such hospitals will not adopt novel rapid-acting treatments like SAINT that shorten stays; adoption will come from IPF PPS hospitals that can bill the NTAP.",
+   "post_title": "We Made Inpatient Psychiatric Treatment Suck Less with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-made-inpatient-psychiatric-treatment",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [],
+   "finder_note": "hint: SAINT hospital installation list cross-referenced with per diem vs IPF PPS contracting"
+  },
+  {
+   "id": "owen-1061",
+   "forecaster": "owen",
+   "statement_date": "2024-05-29",
+   "quote": "sugar and pharma are now no longer in sync. GLP-1s are a shot across the bow",
+   "context": "Dispatch from the thINc360 food-as-medicine conference. The author says Big Sugar and pharma interests have diverged and GLP-1 drugs are an opening salvo against the sugar industry, citing South Park's 'The End of Obesity'.",
+   "post_title": "Food As Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/food-as-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "GLP-1",
+    "Big Sugar",
+    "PepsiCo",
+    "Quaker"
+   ],
+   "finder_note": "Metaphor implying a coming conflict between GLP-1 makers and the sugar industry; borderline."
+  },
+  {
+   "id": "owen-1062",
+   "forecaster": "owen",
+   "statement_date": "2024-06-03",
+   "quote": "I’m so excited that the FDA approval process is now cool, and I’m sure I’m going to get a ton more readers thanks to this turn of events!",
+   "context": "Explainer on the FDA drug approval process, written as MDMA-AT (Lykos) reaches the FDA and mainstream outlets (CBS, STAT, ABC7, NY Times) cover it. The author closes by saying he is sure he is going to gain many more readers because the FDA approval process is now cool.",
+   "post_title": "MDMA: Now Everyone Is Interested in Drug Development!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mdma-now-everyone-is-interested-in",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I'm sure I'm going to",
+   "entities": [
+    "FDA",
+    "MDMA-AT",
+    "Lykos",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter readership growth call; light-hearted but reads as a real expectation."
+  },
+  {
+   "id": "owen-1063",
+   "forecaster": "owen",
+   "statement_date": "2024-06-05",
+   "quote": "I believe MDMA, Ibogaine, Psilocybin, and other psychedelic compounds will eventually deliver us from the purgatory of crappy treatments for PTSD.",
+   "context": "Part I of a series on the FDA advisory committee meeting of 2024-06-04, where the committee voted against MDMA-AT (Lykos Therapeutics) for PTSD. The author, who says he has PTSD himself and no stake in this modality winning, states his belief that MDMA, ibogaine, psilocybin and other psychedelic compounds will eventually deliver better treatments for PTSD than the current standard of care.",
+   "post_title": "Can MDMA-AT Be Saved?: Part I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-i",
+   "area_guess": "practice_adoption",
+   "horizon_text": "eventually",
+   "confidence_phrase": "I believe ... will eventually",
+   "entities": [
+    "MDMA",
+    "Ibogaine",
+    "Psilocybin",
+    "Lykos Therapeutics",
+    "FDA"
+   ],
+   "finder_note": "Long-horizon call hedged only by 'eventually'; covers a class of compounds, not one product or one regulatory decision."
+  },
+  {
+   "id": "owen-1064",
+   "forecaster": "owen",
+   "statement_date": "2024-06-05",
+   "quote": "Of course, there were some other extraordinary “non-standard” events in this trial of a non-standard drug, which we will discuss tomorrow. And don’t worry, by the end of this series I will lay out a path forward following this traumatic hearing.",
+   "context": "Closing of Part I of the MDMA-AT series. The author says he will discuss other non-standard events in the Lykos trial in the next day's post and will lay out a path forward for MDMA-AT by the end of the series.",
+   "post_title": "Can MDMA-AT Be Saved?: Part I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-i",
+   "area_guess": "other",
+   "horizon_text": "tomorrow; by the end of this series",
+   "confidence_phrase": "will",
+   "entities": [
+    "Lykos Therapeutics",
+    "MDMA-AT",
+    "FDA",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Compound content plan for the author's own newsletter series (next-day post; a path forward by series end)."
+  },
+  {
+   "id": "owen-1065",
+   "forecaster": "owen",
+   "statement_date": "2024-06-05",
+   "quote": "This is not a serious therapy manual, nor a serious therapy adherence manual, and the FDA doesn't regulate therapy. It will not be particularly attuned to that issue, but I'm here to tell you— it's a fact.",
+   "context": "Part I of the MDMA-AT series, after comparing the Lykos MDMA-AT therapy manual and adherence manual unfavorably with the validated MBT adherence scale. The author says the FDA does not regulate therapy and will not be particularly attuned to the weakness of the therapy manual, though he insists the weakness is a fact.",
+   "post_title": "Can MDMA-AT Be Saved?: Part I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-i",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will not be",
+   "entities": [
+    "FDA",
+    "Lykos Therapeutics",
+    "MDMA-AT"
+   ],
+   "finder_note": "Borderline: a prediction about the FDA's attention during its MDMA-AT review, close to a description of the agency's remit."
+  },
+  {
+   "id": "owen-1066",
+   "forecaster": "owen",
+   "statement_date": "2024-06-05",
+   "quote": "I think it would be a great therapy manual for combination with a compound like MDMA, in that it would meaningfully address the issues with borderline personality disorder that were coming up in the trial, as well as having a structure to address trauma.",
+   "context": "Part I of the MDMA-AT series. The author introduces mentalization-based treatment (MBT), whose adherence manual he knows well, and says it would be a great therapy to combine with a compound like MDMA because it would address the borderline personality disorder issues seen in the Lykos trial and has a structure for trauma.",
+   "post_title": "Can MDMA-AT Be Saved?: Part I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-i",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I think it would",
+   "entities": [
+    "MDMA",
+    "Lykos Therapeutics",
+    "MBT"
+   ],
+   "finder_note": "Hypothetical proposal (what a future trial design could use), not a call on an event; forward-looking only as a conditional."
+  },
+  {
+   "id": "owen-1067",
+   "forecaster": "owen",
+   "statement_date": "2024-06-05",
+   "quote": "Just because the FDA accepts your New Drug Application for review does not mean they think it's a good idea, nor are they likely to approve it.",
+   "context": "Part I of the MDMA-AT series, 'Submitted data' section, discussing Breakthrough Status and the FDA's acceptance of the Lykos New Drug Application. The author states as a general point that FDA acceptance of an NDA for review does not mean the agency thinks it is a good idea, nor that it is likely to approve it.",
+   "post_title": "Can MDMA-AT Be Saved?: Part I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-i",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "nor are they likely to",
+   "entities": [
+    "FDA",
+    "Lykos Therapeutics",
+    "MDMA-AT"
+   ],
+   "finder_note": "General statement about the FDA process; in context it hints at doubt about MDMA-AT approval but is not an explicit call on it."
+  },
+  {
+   "id": "owen-1068",
+   "forecaster": "owen",
+   "statement_date": "2024-06-06",
+   "quote": "The more therapists who are exposed to the biasing experience of psychedelic treatment, the fewer of them will have as much doubt as will be useful some of the time",
+   "context": "Arguing against Rick Doblin's proposal that every therapist administering MDMA-AT should first take MDMA, the author claims that wider therapist exposure to psychedelics will reduce the clinical doubt that is useful when treatments fail. General causal claim conditional on that policy.",
+   "post_title": "Can MDMA-AT Be Saved? Part II",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-ii",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Rick Doblin",
+    "MAPS",
+    "Lykos Therapeutics",
+    "MDMA-AT",
+    "MDMA"
+   ],
+   "finder_note": "Borderline: a general causal prediction about therapist behavior, not a dated event. Logged for recall."
+  },
+  {
+   "id": "owen-1069",
+   "forecaster": "owen",
+   "statement_date": "2024-06-06",
+   "quote": "Doblin’s vision for spiritual healing, gassed up by MDMA, sold as a combo therapy product, was missing the traditional safety assessments required by the FDA to approve any drug —including the necessary liver, heart, and kidney safety, as well as evaluations of addiction risk, that need to be there for a new drug to be approved",
+   "context": "After the FDA Advisory Committee meeting on Lykos Therapeutics' MDMA-AT application (June 2024), the author says the program lacks the standard safety assessments (liver, heart, kidney, addiction risk) that the FDA requires before approving any new drug. Implicit doubt that MDMA-AT is approved as submitted.",
+   "post_title": "Can MDMA-AT Be Saved? Part II",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-ii",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "need to be there for a new drug to be approved",
+   "entities": [
+    "FDA",
+    "Lykos Therapeutics",
+    "MAPS PBC",
+    "Rick Doblin",
+    "MDMA-AT",
+    "MDMA"
+   ],
+   "finder_note": "Implicit regulatory call: states that required safety data are missing rather than predicting the FDA decision outright. Later coder decides whether it counts."
+  },
+  {
+   "id": "owen-1070",
+   "forecaster": "owen",
+   "statement_date": "2024-06-06",
+   "quote": "Stay tuned for part III.",
+   "context": "Closing line: the author promises a Part III of his MDMA-AT series in The Frontier Psychiatrists newsletter.",
+   "post_title": "Can MDMA-AT Be Saved? Part II",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-ii",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter publishing plan (CONTROL candidate)."
+  },
+  {
+   "id": "owen-1071",
+   "forecaster": "owen",
+   "statement_date": "2024-06-07",
+   "quote": "Harms and misconduct will scale if they are allowed to train and certify therapists.",
+   "context": "Subtitle of Part III on the Lykos Therapeutics MDMA-assisted therapy FDA submission. 'They' is Lykos/MAPS PBC; the claim is that if the sponsor is allowed to train and certify MDMA-AT therapists, the harms and misconduct alleged in the trials will scale.",
+   "post_title": "*Should* MDMA-AT Be Saved? Part III",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/should-mdma-at-be-saved-part-iii",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will scale",
+   "entities": [
+    "Lykos Therapeutics",
+    "MAPS PBC",
+    "FDA",
+    "MDMA"
+   ],
+   "finder_note": "Conditional on Lykos/MAPS training and certifying therapists after approval."
+  },
+  {
+   "id": "owen-1072",
+   "forecaster": "owen",
+   "statement_date": "2024-06-07",
+   "quote": "It may be one of the many purposeful decisions that may doom the submission, as it stands.",
+   "context": "The FDA advisory committee objected that Lykos did not record positive subjective drug effects in MDMA-AT sessions, against prior FDA advice. The author says this may be one of several decisions that doom the Lykos MDMA NDA as submitted.",
+   "post_title": "*Should* MDMA-AT Be Saved? Part III",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/should-mdma-at-be-saved-part-iii",
+   "area_guess": "regulatory",
+   "horizon_text": "as it stands",
+   "confidence_phrase": "may doom",
+   "entities": [
+    "Lykos Therapeutics",
+    "FDA",
+    "MDMA"
+   ],
+   "finder_note": "Hedged call that the Lykos MDMA-AT submission fails in its current form."
+  },
+  {
+   "id": "owen-1073",
+   "forecaster": "owen",
+   "statement_date": "2024-06-07",
+   "quote": "deeply disturbing claims that the FDA will now be forced to investigate",
+   "context": "Public comment at the June 2024 FDA advisory committee alleged unreported suicide attempts and adverse events in the MAPS/Lykos MDMA-AT trials. The author says the FDA will now be forced to investigate these claims.",
+   "post_title": "*Should* MDMA-AT Be Saved? Part III",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/should-mdma-at-be-saved-part-iii",
+   "area_guess": "regulatory",
+   "horizon_text": "now",
+   "confidence_phrase": "will now be forced",
+   "entities": [
+    "FDA",
+    "Lykos Therapeutics",
+    "MAPS PBC",
+    "MDMA"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-1074",
+   "forecaster": "owen",
+   "statement_date": "2024-06-09",
+   "quote": "Much of it is beyond bad writing—that is, the published results will not turn out to replicate! It’s factually false.",
+   "context": "Opening of an essay on Ioannidis and publication bias: the author asserts that much of the published science he reads for the newsletter is false and will fail to replicate, citing the STAR*D reanalysis as an example.",
+   "post_title": "Why Science is Often Bad",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-science-is-often-bad",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will not",
+   "entities": [
+    "John Ioannidis",
+    "STAR*D"
+   ],
+   "finder_note": "Generic claim about published science as a whole, not a specific study or date. Borderline."
+  },
+  {
+   "id": "owen-1076",
+   "forecaster": "owen",
+   "statement_date": "2024-06-09",
+   "quote": "Unfortunately, the more exciting a scientific field, like, again, psychedelic medicine? This also biases our outcomes to falsehood",
+   "context": "The author applies Ioannidis's corollaries (greater financial interests and hotter fields make findings less likely to be true) to psychedelic medicine, implying its research findings are more likely to prove false. Dan Karlin (CMO, Mind Medicine) is quoted nearby on disclosures.",
+   "post_title": "Why Science is Often Bad",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-science-is-often-bad",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "biases our outcomes to falsehood",
+   "entities": [
+    "John Ioannidis",
+    "Dan Karlin",
+    "Mind Medicine"
+   ],
+   "finder_note": "Implicit: predicts psychedelic-medicine findings will not hold up, via Ioannidis's hot-field and conflict-of-interest corollaries. Not dated."
+  },
+  {
+   "id": "owen-1077",
+   "forecaster": "owen",
+   "statement_date": "2024-06-10",
+   "quote": "The worst part of psychedelic medicine is yet to come. If you think it's bad now, just wait till there are prior authorization hoops to jump through!",
+   "context": "Opening of Part IV, after Stat News coverage of the Lykos/MAPS drama and of Elevance firing its CarelonRx PBM director. The author predicts payer prior authorization requirements will become the worst part of psychedelic medicine once it reaches the market.",
+   "post_title": "Saving MDMA from \"AT\": Part IV",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-from-at-part-iv",
+   "area_guess": "payer_policy",
+   "horizon_text": "yet to come",
+   "confidence_phrase": "is yet to come",
+   "entities": [
+    "Elevance",
+    "CarelonRx",
+    "Lykos Therapeutics",
+    "MAPS"
+   ],
+   "finder_note": "Presumes psychedelic medicines reach a commercial, payer-covered stage."
+  },
+  {
+   "id": "owen-1078",
+   "forecaster": "owen",
+   "statement_date": "2024-06-10",
+   "quote": "I strongly suspect we're going to need additional safeguards in place",
+   "context": "After the FDA open comment period and advisory committee on Lykos's MDMA-AT, the author expects additional safeguards will be needed to market a drug-plus-procedure combination safely; the article then proposes clinical trial design fixes.",
+   "post_title": "Saving MDMA from \"AT\": Part IV",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-from-at-part-iv",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "I strongly suspect",
+   "entities": [
+    "FDA",
+    "Lykos Therapeutics",
+    "MDMA"
+   ],
+   "finder_note": ""
+  },
+  {
+   "id": "owen-1079",
+   "forecaster": "owen",
+   "statement_date": "2024-06-10",
+   "quote": "None of this means that the underlying compounds being studied in clinical trials can’t be successfully studied and brought to market.",
+   "context": "Despite former MAPS employees describing cult-like tendencies at MAPS in Stat News, the author holds that psychedelic compounds such as MDMA can still be studied properly and brought to market, and outlines a path forward.",
+   "post_title": "Saving MDMA from \"AT\": Part IV",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-from-at-part-iv",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "None of this means ... can’t",
+   "entities": [
+    "MAPS",
+    "Lykos Therapeutics",
+    "MDMA",
+    "FDA"
+   ],
+   "finder_note": "Double-negative, possibility-level call that psychedelic compounds still reach the market."
+  },
+  {
+   "id": "owen-1080",
+   "forecaster": "owen",
+   "statement_date": "2024-06-10",
+   "quote": "Future instruments will address safety, monitoring, and the use of artificial intelligence in the study and commercial deployment plans.",
+   "context": "Closing of Part IV of the MDMA-AT series. The author promises future installments ('instruments' is a typo) on safety, monitoring, and AI in study and commercial deployment plans. A call about the author's own newsletter.",
+   "post_title": "Saving MDMA from \"AT\": Part IV",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-from-at-part-iv",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content plan; CONTROL candidate."
+  },
+  {
+   "id": "owen-1081",
+   "forecaster": "owen",
+   "statement_date": "2024-06-11",
+   "quote": "MDMA and other psychedelics hold the promise to break through to hope. However, caution is warranted.",
+   "context": "In a passage on how difficult and dangerous psychotherapy is for patients and therapists, the author grants that MDMA and other psychedelics may deliver a breakthrough to hope, with a caution hedge. Part V of the MDMA-AT series.",
+   "post_title": "Bad Touch!  Saving MDMA: Part V",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bad-touch-saving-mdma-part-v",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "hold the promise",
+   "entities": [
+    "MDMA"
+   ],
+   "finder_note": "Hedged statement of therapeutic potential; borderline as a forecast."
+  },
+  {
+   "id": "owen-1082",
+   "forecaster": "owen",
+   "statement_date": "2024-06-11",
+   "quote": "Even that 0.66% rate, at the scale of 1,000,000 patients treated, would be… 6,600 additional sexually assaulted patients—by their therapists",
+   "context": "The author takes the one sexual boundary violation known from the MAPS Phase 3 MDMA-AT sample (two studies, n = 150) as a 0.66% rate and projects that, if MDMA-AT were deployed to 1,000,000 patients, about 6,600 additional patients would be sexually assaulted by their therapists. Conditional numeric projection about MDMA-AT at scale.",
+   "post_title": "Bad Touch!  Saving MDMA: Part V",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bad-touch-saving-mdma-part-v",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "would be",
+   "entities": [
+    "MAPS",
+    "Lykos Therapeutics",
+    "MDMA-AT",
+    "Rick Doblin",
+    "Meaghan Buisson"
+   ],
+   "finder_note": "Conditional numeric projection from a single Phase 3 case; the preceding sentence is a question, the projection itself is the author's own claim."
+  },
+  {
+   "id": "owen-1083",
+   "forecaster": "owen",
+   "statement_date": "2024-06-11",
+   "quote": "That is what we will address in part VI.",
+   "context": "Closing line: the author promises that Part VI of the series will address how to avoid these risks while letting psychedelic medicine proceed through an appropriate regulatory process.",
+   "post_title": "Bad Touch!  Saving MDMA: Part V",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bad-touch-saving-mdma-part-v",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter publishing plan (CONTROL candidate)."
+  },
+  {
+   "id": "owen-1085",
+   "forecaster": "owen",
+   "statement_date": "2024-06-14",
+   "quote": "Physicians will be needed, and on site, for these psychedelic treatments.",
+   "context": "Part VI proposes a staffing model for psychedelic medicine: nurses monitor patients while they are under the drug, therapists work afterward, and physicians must be on site, by analogy with the on-site REMS certification required for esketamine.",
+   "post_title": "Saving MDMA (and other psychedelic therapies): VI",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-and-other-psychedelic",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will be needed",
+   "entities": [
+    "FDA",
+    "Esketamine"
+   ],
+   "finder_note": "Reads both as a prediction of how psychedelic treatment will be staffed and as the author's recommendation."
+  },
+  {
+   "id": "owen-1086",
+   "forecaster": "owen",
+   "statement_date": "2024-06-14",
+   "quote": "We require REMS (Risk Evaluation and Mitigation Strategy) certification on site for Esketamine, and 100% of these medicines will come to market with one of these REMS on the FDA-label.",
+   "context": "The author predicts that every psychedelic medicine that reaches the market will carry an FDA Risk Evaluation and Mitigation Strategy on its label, as esketamine does. He then compares the REMS-as-intellectual-property model to Jazz Pharmaceuticals' Xyrem.",
+   "post_title": "Saving MDMA (and other psychedelic therapies): VI",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-and-other-psychedelic",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "100% ... will",
+   "entities": [
+    "FDA",
+    "Esketamine",
+    "Jazz Pharmaceuticals",
+    "Xyrem"
+   ],
+   "finder_note": "Numeric (100%) regulatory call covering all psychedelic medicines."
+  },
+  {
+   "id": "owen-1087",
+   "forecaster": "owen",
+   "statement_date": "2024-06-14",
+   "quote": "The more controlled the substance, the more restrictive the REMS, the more this approach becomes a meaningful barrier to entry for competition. Thus, this has the potential to be a profitable product without having to rely on selling tons of expensive therapy training to therapists.",
+   "context": "Business-model claim: owning the REMS and risk-mitigation intellectual property (as Jazz Pharmaceuticals did with Xyrem/sodium oxybate) can make a psychedelic drug a profitable, competition-protected product without selling therapist training, which the author says looks like NXIVM or Scientology.",
+   "post_title": "Saving MDMA (and other psychedelic therapies): VI",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-and-other-psychedelic",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "has the potential",
+   "entities": [
+    "Jazz Pharmaceuticals",
+    "Xyrem",
+    "FDA"
+   ],
+   "finder_note": "Hedged business-model forecast, generic to psychedelic sponsors rather than a named company."
+  },
+  {
+   "id": "owen-1088",
+   "forecaster": "owen",
+   "statement_date": "2024-06-14",
+   "quote": "We need more excellent treatments, and I believe MDMA will have a place at the table.",
+   "context": "Written from the Clinical TMS Society meeting while listening to Dr. Rodriguez from Stanford present on MDMA for OCD paired with ExRP therapy; the author expects MDMA to find a role in psychiatric treatment despite his criticism of MDMA-AT.",
+   "post_title": "Saving MDMA (and other psychedelic therapies): VI",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-and-other-psychedelic",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I believe ... will",
+   "entities": [
+    "MDMA",
+    "Dr. Rodriguez (Stanford)",
+    "Clinical TMS Society"
+   ],
+   "finder_note": "Positive call on MDMA's eventual clinical role; no date or indication specified."
+  },
+  {
+   "id": "owen-1089",
+   "forecaster": "owen",
+   "statement_date": "2024-06-14",
+   "quote": "The next installment will recommend technology solutions to augment the above assertions about staffing of psychedelic medicines.",
+   "context": "Closing line: the author plans a next installment of the series on technology solutions for psychedelic medicine staffing. Earlier in the post: today's article pertains to staffing, and we will get to technology thereafter.",
+   "post_title": "Saving MDMA (and other psychedelic therapies): VI",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-and-other-psychedelic",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter publishing plan (CONTROL candidate)."
+  },
+  {
+   "id": "owen-1090",
+   "forecaster": "owen",
+   "statement_date": "2024-06-15",
+   "quote": "An advisory committee strongly weighing in against the approval by the subsequent FDA committee is likely to doom this FDA approval at this stage.",
+   "context": "In an essay on consensus and committees in medicine, the author points to the dissenting FDA Advisory Committee vote on Lykos Therapeutics' MDMA-AT data (June 2024) and predicts that the negative advisory vote is likely to doom FDA approval of MDMA-AT at this stage.",
+   "post_title": "Focus on the Details: Committees in Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/focus-on-the-details-committees-in",
+   "area_guess": "regulatory",
+   "horizon_text": "at this stage",
+   "confidence_phrase": "is likely to doom",
+   "entities": [
+    "FDA",
+    "FDA Advisory Committee",
+    "Lykos Therapeutics",
+    "MDMA-AT"
+   ],
+   "finder_note": "Direct regulatory call on the MDMA-AT application after the negative advisory committee."
+  },
+  {
+   "id": "owen-1091",
+   "forecaster": "owen",
+   "statement_date": "2024-06-15",
+   "quote": "as of July 1, 2024, there are category three CPT codes that describe Stanford accelerated intelligent neural modulation treatment and fMRI guided accelerated treatments. So now the conversation can be had with a payer about what they would pay for that thing.",
+   "context": "Reports that Category III CPT codes for SAINT (Stanford accelerated intelligent neuromodulation) and fMRI-guided accelerated TMS take effect July 1, 2024, after the 2024-06-15 post date, which will let providers negotiate payment with payers. Credits the Clinical TMS Society, APA and AMA committee process and Carlene MacMillan.",
+   "post_title": "Focus on the Details: Committees in Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/focus-on-the-details-committees-in",
+   "area_guess": "payer_policy",
+   "horizon_text": "as of July 1, 2024",
+   "confidence_phrase": "there are",
+   "entities": [
+    "AMA",
+    "CPT",
+    "SAINT",
+    "Clinical TMS Society",
+    "American Psychiatric Association",
+    "Carlene MacMillan"
+   ],
+   "finder_note": "Reports an already-decided code change with a future effective date rather than a prediction; logged for the dated payer claim. Later coder decides."
+  },
+  {
+   "id": "owen-1092",
+   "forecaster": "owen",
+   "statement_date": "2024-06-15",
+   "quote": "Starting July 1, 2024, up to two TMS treatments can be provided in one day. It's not 10, but it's not one.",
+   "context": "CMS granted the Clinical TMS Society insurance committee's request (co-chaired by Carlene MacMillan) to change the medically unlikely edit (MUE) so that two TMS treatments in one day can be reimbursed from July 1, 2024, after the post date. Preceded by: That is changing, at least a little bit, too.",
+   "post_title": "Focus on the Details: Committees in Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/focus-on-the-details-committees-in",
+   "area_guess": "payer_policy",
+   "horizon_text": "Starting July 1, 2024",
+   "confidence_phrase": "can be provided",
+   "entities": [
+    "CMS",
+    "Clinical TMS Society",
+    "Carlene MacMillan",
+    "MUE"
+   ],
+   "finder_note": "Reports a granted MUE change with a future effective date rather than a prediction; logged for the dated payer claim."
+  },
+  {
+   "id": "owen-1093",
+   "forecaster": "owen",
+   "statement_date": "2024-06-16",
+   "quote": "The unsettling part of this indictment by the DOJ, for the rest of telehealth prescribing of control substances, is that the DOJ tried to make it as clear as possible that there's more coming, maybe.",
+   "context": "After the DOJ arrested the CEO/founder and Chief Medical Officer of ADHD telehealth platform Done for alleged illegal distribution of Adderall (its first criminal drug distribution prosecution of a digital health company), the author reads the press release framing and AG Merrick Garland's quote as a signal that more prosecutions of telehealth controlled-substance prescribers are coming.",
+   "post_title": "Done? Yes, it is.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/done-yes-it-is",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "maybe",
+   "entities": [
+    "DOJ",
+    "Done",
+    "Merrick Garland"
+   ],
+   "finder_note": "Enforcement forecast, hedged with maybe; restated later in the post."
+  },
+  {
+   "id": "owen-1094",
+   "forecaster": "owen",
+   "statement_date": "2024-06-16",
+   "quote": "That sounds like a warning shot to everybody else. ... “First” prosecution doesn't sound like last prosecution.",
+   "context": "The author notes other companies prescribe controlled substances over the internet with varying scrupulosity and concludes from the DOJ's word first that further prosecutions will follow; followed by Buckle up, Bloomineers?",
+   "post_title": "Done? Yes, it is.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/done-yes-it-is",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "doesn't sound like last",
+   "entities": [
+    "DOJ",
+    "Done"
+   ],
+   "finder_note": "Restates the more-coming call above. The Bloomineers line is a question and was not logged separately."
+  },
+  {
+   "id": "owen-1097",
+   "forecaster": "owen",
+   "statement_date": "2024-06-17",
+   "quote": "For employers, perhaps having a bit more rigor will go better in subsequent discovery when the endless ERISA lawsuits land on your desk too?",
+   "context": "The author's own closing line after the Al Lewis column on Aon's Lyra analysis: employers who rely on weak vendor analyses face discovery in ERISA lawsuits, which he expects to be endless and to reach employers.",
+   "post_title": "Al Lewis Weighs in On Lyra Health Claims",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/al-lewis-weighs-in-on-lyra-health",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "perhaps ... when the endless ERISA lawsuits land",
+   "entities": [
+    "Aon",
+    "Lyra Health",
+    "ERISA"
+   ],
+   "finder_note": "Phrased as a question but asserts that ERISA lawsuits against employer health plans are coming. Legal/benefits area."
+  }
+ ]
+}

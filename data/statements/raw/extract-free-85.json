@@ -1,0 +1,238 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-85.md",
+  "posts": [
+    {
+      "slug": "the-doctor-will-see-your-product",
+      "read": true,
+      "statements_found": 2,
+      "note": "Edited interview transcript with Keith Grimes (Curistica). The forward-looking claims belong to the interviewee; the author does not adopt them. Logged with own_claim false."
+    },
+    {
+      "slug": "the-water-park",
+      "read": true,
+      "statements_found": 1,
+      "note": "Personal essay on a water park visit and implanted therapies. Only a trivial same-day personal expectation found."
+    },
+    {
+      "slug": "a-new-at-home-ptsd-treatment-is-fda",
+      "read": true,
+      "statements_found": 3
+    },
+    {
+      "slug": "i-was-on-good-morning-america-today",
+      "read": true,
+      "statements_found": 3
+    },
+    {
+      "slug": "quinn-muir-comments-on-owen-muirs",
+      "read": true,
+      "statements_found": 4,
+      "note": "Travel roundup plus a playful interview with the author's daughter and CTMSS 2026 abstract summaries. Daughter's 'they're gonna listen to you' not logged (third-party, whimsical). Two personal schedule items and two weak publication expectations logged."
+    },
+    {
+      "slug": "is-private-equity-a-bad-deal",
+      "read": true,
+      "statements_found": 1,
+      "note": "Satirical 'math behind a scam' essay; mostly past analysis and generic mechanism claims. One affirmed prediction about United's acquisition behaviour logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "the-doctor-will-see-your-product",
+      "quote": "come out in five years’ time, and there will be no compulsory core component that covers clinical safety, AI, digital health, or data science. A junior doctor in 2031, unless they’ve done optional courses, will have had no training in those things.",
+      "context": "Interview guest Keith Grimes (founder of Curistica, ex-NHS GP) on UK medical education: a student who starts the five-year UK medical degree this year will graduate in 2031 with no compulsory training in clinical safety, AI, digital health or data science. Interviewee's claim inside an edited transcript; the author neither restates nor disputes it.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "in five years’ time; 2031",
+      "confidence_phrase": "will",
+      "entities": ["Keith Grimes", "Curistica", "NHS", "UK medical schools"],
+      "note": "Third-party claim by interviewee Keith Grimes; author does not adopt it."
+    },
+    {
+      "post_slug": "the-doctor-will-see-your-product",
+      "quote": "It starts with humans doing that. We use AI to accelerate the quality and speed of what we’re doing, and we’re moving towards AI on its own doing it.",
+      "context": "Keith Grimes describing Curistica's clinical-AI safety assurance service: today human experts do the safety evaluation with AI assistance, and the company is moving toward AI performing the evaluation on its own.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "we’re moving towards",
+      "entities": ["Keith Grimes", "Curistica"],
+      "note": "Third-party claim by interviewee about his own company; author does not adopt it."
+    },
+    {
+      "post_slug": "the-water-park",
+      "quote": "I’ll get to ride that waterpark attractions later, zooming around the slides—it will be a blast.",
+      "context": "Author at the DreamWorks Water Park in the American Dream Mall (New Jersey), sitting out to guard seats and his glasses; expects to ride the slides later that day and enjoy it.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "later",
+      "confidence_phrase": "will",
+      "entities": ["American Dream Mall", "DreamWorks Water Park"],
+      "note": "Trivial same-day personal expectation; logged for recall, likely to be discarded."
+    },
+    {
+      "post_slug": "a-new-at-home-ptsd-treatment-is-fda",
+      "quote": "The label—also not yet available on the FDA website—must say this is an adjunctive approval: The device is intended for use alongside – not as a replacement for – a clinician-directed treatment plan.",
+      "context": "Neurovalens Modius Spero vestibular nerve stimulator (VeNS), FDA De Novo grant for PTSD announced the day before. The FDA label was not yet posted; the author infers from company language that the label will state an adjunctive indication alongside a clinician-directed treatment plan.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "not yet available",
+      "confidence_phrase": "must say",
+      "entities": ["Neurovalens", "Modius Spero", "FDA"],
+      "note": "'must' is inferential (what the label will say once posted), not normative. Checkable when the FDA De Novo label publishes."
+    },
+    {
+      "post_slug": "a-new-at-home-ptsd-treatment-is-fda",
+      "quote": "The FDA thinks it works. I have a lot of respect for FDA officers, especially at CDRH (that is the center for devices and radiologic health, the “device” side of the house). I will thus think it works in PTSD.",
+      "context": "Author's provisional stance on the efficacy of Neurovalens Modius Spero (VeNS) for PTSD: he defers to FDA CDRH judgment and adopts the view that the device works in PTSD, pending publication of the 383-adult active-vs-sham trial NCT05242367 (completed Dec 2024, no results posted).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "I will thus think it works",
+      "entities": ["Neurovalens", "Modius Spero", "FDA", "CDRH", "NCT05242367"],
+      "note": "Borderline: an efficacy belief that defers to the FDA; checkable when the trial data publish. Author says his own take must wait."
+    },
+    {
+      "post_slug": "a-new-at-home-ptsd-treatment-is-fda",
+      "quote": "At Radial , until we hear more, we will impatiently wait, excited to see how this can be offered to patients outside the VA system, and what the data say!",
+      "context": "Author (Radial) on Neurovalens Modius Spero after the FDA De Novo grant for PTSD. The company's other products (Modius Sleep, Modius Calm) are available only to US veterans through the VA. The sentence presupposes the PTSD device will be offered to non-VA patients and that trial data will be released.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "until we hear more",
+      "confidence_phrase": "none",
+      "entities": ["Radial", "Neurovalens", "Modius Spero", "Department of Veterans Affairs"],
+      "note": "Weak predictive reading: non-VA availability and data release are presupposed, not asserted. Names the author's own company Radial."
+    },
+    {
+      "post_slug": "i-was-on-good-morning-america-today",
+      "quote": "My personal hunch is the much more refractory nature of the SNT sample is what matters here, but time will tell.",
+      "context": "Comparing one-year durability of BrainsWay SWIFT accelerated dTMS (interim 64-patient follow-up with high sustained remission) against SNT long-term data that needed personalized re-treatment in many patients. Author expects the durability gap to be explained by the SNT cohort's greater treatment resistance rather than by the protocol.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "time will tell",
+      "confidence_phrase": "My personal hunch",
+      "entities": ["BrainsWay", "SWIFT dTMS", "SNT", "Magnus"],
+      "note": "Hedged mechanistic call awaiting future evidence. Author was an investigator on the SWIFT trial and coauthor of the durability abstract."
+    },
+    {
+      "post_slug": "i-was-on-good-morning-america-today",
+      "quote": "Thanks, friends and coauthors at Brainsway, Magnus, Ampa, and others as we push accelerated TMS (and dTMS) protocols into the mainstream.",
+      "context": "After the author's Good Morning America segment featuring a patient's recovery with BrainsWay SWIFT accelerated dTMS. Author frames the national attention as part of an effort to move accelerated TMS and dTMS protocols into mainstream clinical practice.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": ["BrainsWay", "Magnus", "Ampa"],
+      "note": "Weak: describes an ongoing effort with an implied expectation of mainstream adoption. Ampa is one of the author's own organizations."
+    },
+    {
+      "post_slug": "i-was-on-good-morning-america-today",
+      "quote": "So there you have it—I may be on to not only one thing, but two for depression.",
+      "context": "After summarizing the JAMA Psychiatry proof-of-concept RCT of tocilizumab (IL-6 inhibition) in difficult-to-treat depression with low-grade inflammation (n=30; no endpoint significant, remission and response favored tocilizumab, baseline hs-CRP tracked improvement). Author suggests his two long-held bets, accelerated dTMS and the inflammation/autoimmune link to depression, will both be borne out.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "may",
+      "entities": ["tocilizumab", "interleukin 6", "JAMA Psychiatry", "BrainsWay SWIFT dTMS"],
+      "note": "Hedged compound claim: two implied calls (accelerated dTMS; IL-6/inflammation as a depression treatment target) in one sentence."
+    },
+    {
+      "post_slug": "quinn-muir-comments-on-owen-muirs",
+      "quote": "The next chance to catch up with me in person will be either at the Clinical TMS annual meeting 2026 , where I have eight posters accepted (out of 88 total at the meeting). It’s June 4-6.",
+      "context": "Author's upcoming travel: he will attend the Clinical TMS Society annual meeting 2026 (June 4-6) with eight accepted posters out of 88 at the meeting.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "June 4-6",
+      "confidence_phrase": "will",
+      "entities": ["Clinical TMS Society"],
+      "note": "Personal schedule statement; logged for recall, likely to be discarded."
+    },
+    {
+      "post_slug": "quinn-muir-comments-on-owen-muirs",
+      "quote": "I’ll be headed to China with the CNS Summit Community for the Life Science Technology Forum . If you plan on being in Bejing June 11-13th—let me know.",
+      "context": "Author's upcoming travel: he will travel to Beijing with the CNS Summit community for the Life Science Technology Forum (June 11-13) to speak on brain disorders and neuromodulation.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "June 11-13th",
+      "confidence_phrase": "I’ll be",
+      "entities": ["CNS Summit", "Life Science Technology Forum"],
+      "note": "Personal schedule statement; logged for recall, likely to be discarded."
+    },
+    {
+      "post_slug": "quinn-muir-comments-on-owen-muirs",
+      "quote": "This abstract, which is also being pulled into a full paper, describes a patient who had an adequate response to accelerated transcranial magnetic stimulation with the H7 coil, but a lack of durability.",
+      "context": "CTMSS 2026 abstract on adjunctive D-cycloserine during anterior limb of the internal capsule deep brain stimulation for severe OCD (Aslam, Lucien, Khan, Goodman, Muir). Author says the abstract is being developed into a full paper.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": ["Clinical TMS Society", "D-cycloserine", "deep brain stimulation"],
+      "note": "Weak: work-in-progress statement implying a future full publication."
+    },
+    {
+      "post_slug": "quinn-muir-comments-on-owen-muirs",
+      "quote": "This is the second publication (I also authored the first last year, and I’m still waiting for it to his the press!)",
+      "context": "CTMSS 2026 abstract replicating the SNT five-day accelerated neuronavigated protocol in one day with camera-based neuronavigation and D-cycloserine (Khan, Aslam, Siddiqi, Carreon, MacMillan, Muir, Downar). Author notes the first such paper, authored last year, is still awaiting publication, implying he expects it to appear.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": ["SNT", "D-cycloserine"],
+      "note": "Weak: expectation of a pending publication implied by 'still waiting'. Source typo 'his' for 'hit'."
+    },
+    {
+      "post_slug": "is-private-equity-a-bad-deal",
+      "quote": "Will United pay more to the company it will later acquire using its increased revenue to justify the acquisition costs while increasing the cost of care for its services busines s and thus increasing its share of the medical loss ratio on both sides of the ledger? Yes, yes, it will.",
+      "context": "Satirical 'math behind a scam' essay on private equity in healthcare. Author describes the PE roll-up playbook: buy 51% of a practice, negotiate higher payer contracts, then sell to a payer-owned services arm (United, Cigna, CVS). Rhetorical question answered in the affirmative: United will pay more to companies it later acquires, raising the cost of care and its services-side share of the medical loss ratio.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "later",
+      "confidence_phrase": "Yes, yes, it will",
+      "entities": ["UnitedHealth", "Cigna", "CVS"],
+      "note": "Generic pattern claim in a satirical essay; reads sincere. Source text has typo 'busines s'."
+    }
+  ]
+}

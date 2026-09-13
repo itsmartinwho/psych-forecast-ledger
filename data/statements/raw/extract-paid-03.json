@@ -1,0 +1,345 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-paid-03.md",
+  "posts": [
+    {
+      "slug": "how-much-do-neurosurgeons-learn-about",
+      "read": true,
+      "statements_found": 2,
+      "note": "Medical-education explainer. General claims about training ('Neurosurgeons won't' learn ADHD management) read as present-tense description and were not logged; one borderline knowledge-turnover claim and one footnote aside on private equity logged."
+    },
+    {
+      "slug": "the-future-is-now-i-just-used-ai",
+      "read": true,
+      "statements_found": 3,
+      "note": "Author used DoNotPay to file an EEOC complaint against UnitedHealth Group. One content promise, one no-call on the complaint outcome, one broad AI-automation claim."
+    },
+    {
+      "slug": "if-you-have-adhd-these-three-problems",
+      "read": true,
+      "statements_found": 0,
+      "note": "ADHD and sleep explainer; clinical generalizations and treatment advice only, no forecasts."
+    },
+    {
+      "slug": "this-cerebral-documentary-leans-in",
+      "read": true,
+      "statements_found": 0,
+      "note": "100-word documentary blurb; no forecasts."
+    },
+    {
+      "slug": "psychiatric-restraint-and-its-discontents",
+      "read": true,
+      "statements_found": 0,
+      "note": "Narrative essay on a restraint episode at Bellevue; no forecasts."
+    },
+    {
+      "slug": "happy-valentines-day-to-yourself",
+      "read": true,
+      "statements_found": 0,
+      "note": "97-word subscription discount promo; no forecasts."
+    },
+    {
+      "slug": "the-best-mental-health-startups-that",
+      "read": true,
+      "statements_found": 4,
+      "note": "Startup-ideas post modeled on NOCD; four hypothetical claims about companies that do not exist yet (BPD, bipolar, schizophrenia)."
+    },
+    {
+      "slug": "the-visit-to-the-dermatologist",
+      "read": true,
+      "statements_found": 2,
+      "note": "Fiction chapter (Wizard of Oz parody of the Patient Journey) with sincere footnotes; fictional dialogue about the made-up drug Schmaltz not logged; two own-newsletter content promises logged."
+    },
+    {
+      "slug": "dea-controlled-substances-update",
+      "read": true,
+      "statements_found": 1,
+      "note": "9-word video post; the 30-day comment deadline logged as borderline."
+    },
+    {
+      "slug": "dorothy-meets-the-founder-and-becomes",
+      "read": true,
+      "statements_found": 0,
+      "note": "Fiction chapter plus a long healthcare-economics footnote (CPT/RVU, fee-for-service, moral hazard thought experiments). Present-state analysis only; the fictional Founder's 'I can probably raise on that' is not the author's claim and was not logged."
+    },
+    {
+      "slug": "sxsw-dispatch-disrupting-lawns",
+      "read": true,
+      "statements_found": 0,
+      "note": "Satire about lawns as a stand-in for healthcare (footnote 1 says so); no sincere forecast."
+    },
+    {
+      "slug": "sxsw-dispatch-psychedelic-medicine",
+      "read": true,
+      "statements_found": 2,
+      "note": "Two calls about psychedelic medicine: regulators and acquisition by profiteers. The 'could transform everything' hype is voiced sarcastically, not endorsed, and was not logged."
+    },
+    {
+      "slug": "sxsw-dispatch-everything-about-hype",
+      "read": true,
+      "statements_found": 0,
+      "note": "60-word video caption on A/V latency at the OpenAI SXSW talk; no forecasts."
+    },
+    {
+      "slug": "sxsw-dispatch-breaking-news-this",
+      "read": true,
+      "statements_found": 0,
+      "note": "Satirical self-lawsuit; no sincere forecast."
+    },
+    {
+      "slug": "sxsw-dispatch-disappointing-smoked",
+      "read": true,
+      "statements_found": 0,
+      "note": "Humor piece about a disappointing breakfast; personal jokes only ('destined to be true ever onward' about the author's own mornings), no forecast about the world."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "how-much-do-neurosurgeons-learn-about",
+      "quote": "About half of what you learn will turn out to be wrong, later; because science progresses. You just don’t know which half.",
+      "context": "In a description of the pre-clinical medical school curriculum and the pressure to memorize facts for the USMLE Step 1, the author asserts that about half of what medical students learn will later prove wrong because science progresses.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "later",
+      "confidence_phrase": "will",
+      "entities": [
+        "USMLE"
+      ],
+      "note": "Borderline: a general quantified claim about medical knowledge turnover, close to a truism. Logged for recall."
+    },
+    {
+      "post_slug": "how-much-do-neurosurgeons-learn-about",
+      "quote": "You don’t learn why private equity is going to buyer clinic later, or why it’s a terrible idea to have anything to do with that.",
+      "context": "Footnote 4, on the gap in healthcare economics and business in the medical curriculum. As an aside, the author asserts that private equity is going to buy the reader-physician's clinic later. 'buyer clinic' is the original text (apparent typo for 'buy your clinic').",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "later",
+      "confidence_phrase": "is going to",
+      "entities": [
+        "private equity"
+      ],
+      "note": "Footnote aside; a general expectation of private-equity acquisition of physician clinics, no named acquirer or date."
+    },
+    {
+      "post_slug": "the-future-is-now-i-just-used-ai",
+      "quote": "This is going to be awesome. I am so excited to tell you about this tomorrow.",
+      "context": "The author used the AI tool DoNotPay to turn a legal argument from a footnote of an earlier newsletter column into an EEOC complaint against UnitedHealth Group (which declined him for a behavioral medical director job after asking about disability status). He promises to describe it in the newsletter the next day.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "tomorrow",
+      "confidence_phrase": "is going to",
+      "entities": [
+        "DoNotPay",
+        "UnitedHealth Group",
+        "Equal Employment Opportunity Commission",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own newsletter content promise; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-future-is-now-i-just-used-ai",
+      "quote": "I’m not saying this wins, I’m just saying it’s the best proof of concept of the year.",
+      "context": "About the EEOC discrimination complaint the author filed against UnitedHealth Group with DoNotPay. He explicitly withholds a prediction that the complaint wins and frames it as a proof of concept for AI-automated compliance filings.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I’m not saying this wins",
+      "entities": [
+        "UnitedHealth Group",
+        "Equal Employment Opportunity Commission",
+        "DoNotPay"
+      ],
+      "note": "Borderline: a pending legal outcome with no directional call; the author declines to predict success."
+    },
+    {
+      "post_slug": "the-future-is-now-i-just-used-ai",
+      "quote": "Who’s up next? Thanks to artificial intelligence, everyone.",
+      "context": "Closing line after the author filed an AI-generated EEOC complaint against UnitedHealth Group. He lists hospital price transparency, IRS regulation 501(r) compliance, discrimination and mental health parity violations, and late payment as targets, and expects AI-generated complaints to reach every organization.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "next",
+      "confidence_phrase": "none",
+      "entities": [
+        "DoNotPay",
+        "UnitedHealth Group",
+        "Equal Employment Opportunity Commission",
+        "IRS"
+      ],
+      "note": "Broad claim that AI tools will let anyone file compliance complaints against anyone; restates the author's earlier call that AI 'was going to automate Compliance', which he says has now come true."
+    },
+    {
+      "post_slug": "the-best-mental-health-startups-that",
+      "quote": "Any of those three approaches or even all three of them could be implemented by a company trying to build a treatment solution, there is already a significant amount of advocacy from patients and families that would jump all over the opportunity to have this be more accessible.",
+      "context": "Startup-ideas post modeled on NOCD (OCD telehealth, $33M Series B). Under the heading Borderline Personality Disorder, the author lists DBT (training owned by Behavioral Tech), MBT and Good Psychiatric Management (John Gunderson, McLean) as three clinical models and expects patient and family advocacy to embrace a company that makes BPD treatment more accessible.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "would jump all over the opportunity",
+      "entities": [
+        "NOCD",
+        "Behavioral Tech",
+        "John Gunderson",
+        "McLean"
+      ],
+      "note": "Hypothetical: a conditional demand forecast for a company that does not exist yet."
+    },
+    {
+      "post_slug": "the-best-mental-health-startups-that",
+      "quote": "There aren't that many other medications to master, and doing the evidence-based thing is probably going to do a great job compared to the standard of care—which is not doing any of those things.",
+      "context": "Under the heading Bipolar Disorder, the author proposes a company built on Interpersonal and Social Rhythm Therapy plus prescribing centered on lithium ('the actual answer is lithium'), and predicts this evidence-based model would probably outperform the standard of care. He adds that Cerebral should have pivoted to this after its ADHD business blew up.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "probably going to",
+      "entities": [
+        "lithium",
+        "Cerebral",
+        "NOCD"
+      ],
+      "note": "Hypothetical company; clinical-outcome claim for an evidence-based care model versus standard of care, no date."
+    },
+    {
+      "post_slug": "the-best-mental-health-startups-that",
+      "quote": "There is even a government payer, in Medicaid and Medicare for the disabled, and probably an exit to united healthcare exists, just to drive down the cost of their dual eligibles with Medicare/Medicaid.",
+      "context": "Under the heading Schizophrenia, the author sketches a company delivering clozapine, long-acting injectables, early treatment programs and tech-enabled care (citing John Kane's ICRC study at Zucker-Hillside). He expects Medicaid/Medicare to pay for it and a probable acquisition exit to UnitedHealthcare to reduce dual-eligible costs.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "probably",
+      "entities": [
+        "UnitedHealthcare",
+        "Medicaid",
+        "Medicare",
+        "John Kane",
+        "TripleAimPartners"
+      ],
+      "note": "Hypothetical exit for a company that does not exist yet; 'united healthcare' is lowercase in the original."
+    },
+    {
+      "post_slug": "the-best-mental-health-startups-that",
+      "quote": "This would be good for patients and good for the world. There are zero reasons this isn't a huge company. It's 1% of the population.",
+      "context": "Still under Schizophrenia: the author claims a company doing full evidence-based schizophrenia care would be huge, citing 3.3 million people in the US and a $281.6 billion market size in 2020. He contrasts it with Firsthand, which in his understanding does not do all the care.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "zero reasons",
+      "entities": [
+        "Firsthand",
+        "Medicaid",
+        "Medicare"
+      ],
+      "note": "Hypothetical market-size claim for a company that does not exist yet; not a dated call."
+    },
+    {
+      "post_slug": "the-visit-to-the-dermatologist",
+      "quote": "Pharmacy benefit managers will become the star of the footnotes of the story, but the abridged version is they are the most profitable part of healthcare in America. More on those to follow!",
+      "context": "Footnote 8 of chapter 2 ('The Scam Behind The Curtain') of the author's Wizard-of-Oz style serial fiction about Dorothy's Patient Journey. The author promises that pharmacy benefit managers will feature in later chapters of the serial in the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "to follow",
+      "confidence_phrase": "will",
+      "entities": [
+        "pharmacy benefit managers",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own newsletter content promise; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-visit-to-the-dermatologist",
+      "quote": "It's not “medically necessary”--A topic that your author will say significantly more as the story continues.",
+      "context": "Footnote 12 explains that Schmaltz is a made-up drug combining IL-17 inhibitors (Taltz, Cosentyx) with a JAK/STAT modulator (Xeljanz), and that insurance currently will not authorize both at once because the combination is not 'medically necessary'. The author promises more on medical necessity in later chapters of the serial.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "as the story continues",
+      "confidence_phrase": "will",
+      "entities": [
+        "Taltz",
+        "Cosentyx",
+        "Xeljanz",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own newsletter content promise; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "dea-controlled-substances-update",
+      "quote": "We have 30 days to comment on the changes!",
+      "context": "Entire text of a 9-word video post titled 'DEA Controlled Substances Update' (2023-02-28). It states that the public comment period on the DEA's proposed changes to controlled-substance rules (not described in the text) is 30 days.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "30 days",
+      "confidence_phrase": "none",
+      "entities": [
+        "DEA"
+      ],
+      "note": "Borderline: a statement of a regulatory comment deadline, not a directional prediction; the proposed changes are not described in the text."
+    },
+    {
+      "post_slug": "sxsw-dispatch-psychedelic-medicine",
+      "quote": "The failure to reckon with the minds of regulators will still doom the enterprise.",
+      "context": "SXSW dispatch arguing psychedelic medicine needs to get profit focused. After contrasting psychedelic enthusiasm with Timothy Leary's reckless messaging that 'ruined decades of medical progress', the author asserts that the psychedelic medicine enterprise will be doomed if it fails to reckon with how regulators think.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Timothy Leary"
+      ],
+      "note": "Conditional: doom follows a failure to reckon with regulators; no named regulator, company or date. The 'could transform everything' hype earlier in the post is voiced sarcastically, not endorsed."
+    },
+    {
+      "post_slug": "sxsw-dispatch-psychedelic-medicine",
+      "quote": "Accessible sounds good, but a drug company that makes the bold choice to not make as much money will be bought by a smart financier who sees the opportunity to charge more.",
+      "context": "Same dispatch. Noting that the average cost of a drug introduced in 2023 is $180,000 and that there is no accepted rationale to price psychedelic drugs lower, the author predicts that a psychedelic drug company that chooses lower profits will be acquired by a financier who raises prices, naming Martin Shkreli as the archetype ('others aren't' out of the game).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "will be bought",
+      "entities": [
+        "Martin Shkreli"
+      ],
+      "note": "Conditional on a psychedelic drug company choosing lower prices; general claim, no named company or date."
+    }
+  ]
+}

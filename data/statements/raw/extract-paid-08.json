@@ -1,0 +1,479 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-paid-08.md",
+  "posts": [
+    {
+      "slug": "im-a-psychicabout-timing-of-articles",
+      "read": true,
+      "statements_found": 6,
+      "note": "Commentary on the FDA June 2023 draft guidance on psychedelic drug development; four of six items come from the footnotes on monitor staffing."
+    },
+    {
+      "slug": "how-i-write-a-one-person-daily-newsletter",
+      "read": true,
+      "statements_found": 1,
+      "note": "Newsletter process post; one own-newsletter commitment. 'typos will occur' treated as a truism and not logged."
+    },
+    {
+      "slug": "chapter-6-the-pitch-to-the-investor",
+      "read": true,
+      "statements_found": 2,
+      "note": "Fictional Wizard of Oz health-tech parody chapter. One PE-exit line spoken by a character is logged because the underlying claim reads as the author's sincere view; plus a next-chapter promise."
+    },
+    {
+      "slug": "the-ai-knows-the-darkness-of-our",
+      "read": true,
+      "statements_found": 1,
+      "note": "Mostly an AI-garbled transcript of the author's dictation; one hedged own-book plan in the setup."
+    },
+    {
+      "slug": "a-love-letter-to-revelations",
+      "read": true,
+      "statements_found": 2,
+      "note": "Personal memoir about a high-school friend's abuse; only two trivial footnote predictions about who reads the newsletter. Footnote 10 'This is foreshadowing' is too vague to log."
+    },
+    {
+      "slug": "i-explained-healthcare-to-my-mom",
+      "read": true,
+      "statements_found": 3,
+      "note": "PBM/ERISA fiduciary post; three forecasts about employer litigation and PE roll-ups."
+    },
+    {
+      "slug": "i-was-a-terrible-writer-proof-to",
+      "read": true,
+      "statements_found": 0,
+      "note": "Author's unedited college essay on Frankenstein; no forward-looking claims. 'If everyone was forced to write a daily newsletter they would get better fast' is a hypothetical, not logged."
+    },
+    {
+      "slug": "great-news-im-raising-a-pe-fund",
+      "read": true,
+      "statements_found": 1,
+      "note": "Parody PE fund pitch (DoubleDown Health Partners); one item logged with sincere=false."
+    },
+    {
+      "slug": "what-is-borderline-personality-disorder",
+      "read": true,
+      "statements_found": 1,
+      "note": "Adapted from a 2016 speech on suicide and BPD; one borderline item about the persistence of the BPD label. Statistics and prognosis statements are present-tense."
+    },
+    {
+      "slug": "the-lord-satan-has-a-great-meeting",
+      "read": true,
+      "statements_found": 0,
+      "note": "Satirical dialogue between Lucifer and consultants; the characters' predictions (hell will get shut down, brought up to code) have no sincere real-world reading."
+    },
+    {
+      "slug": "medically-necessary-healing-with",
+      "read": true,
+      "statements_found": 0,
+      "note": "Satirical medical-necessity audit of Marvin Gaye's 'Sexual Healing'; the billing/coding statements are in-joke, no real forecasts."
+    },
+    {
+      "slug": "dear-readers-my-screen-cracked",
+      "read": true,
+      "statements_found": 1,
+      "note": "Schedule announcement after a cracked laptop screen; one own-newsletter cadence item. Personal repair-vs-replace intention not logged."
+    },
+    {
+      "slug": "e-motion-capture-ai-missed-our-intentions",
+      "read": true,
+      "statements_found": 4,
+      "note": "TwitterGPT profile of the author plus an LLM critique; four items, two about own newsletter/Threads and two general LLM claims."
+    },
+    {
+      "slug": "curb-your-enthusiasm-for-large-language",
+      "read": true,
+      "statements_found": 1,
+      "note": "LLM essay built around a Curb Your Enthusiasm therapy scene; one general capability claim logged for recall."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "im-a-psychicabout-timing-of-articles",
+      "quote": "The most critical issue, at least to my eye, from a scalability perspective, is that for the clinical trials, the FDA is—in draft guidance— leaning both having two monitors",
+      "context": "The author reads the FDA's June 2023 draft guidance on psychedelic drug development. He singles out the requirement of two monitors per treatment session (a lead monitor with an independent clinical license plus an assistant) as the main scalability problem for future psychedelic clinical trials.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "The most critical issue",
+      "entities": [
+        "FDA"
+      ],
+      "note": "Implicit forecast: a present assessment of a draft rule that implies a future scalability bottleneck for psychedelic trials."
+    },
+    {
+      "post_slug": "im-a-psychicabout-timing-of-articles",
+      "quote": "it seems trial design will need to embrace the most robust safety standards. This is not without its costs.",
+      "context": "After quoting the FDA draft guidance on cardiac valve (5-HT2B agonist) risk and repeat-dose toxicology for psychedelics, the author expects psychedelic trial designs to have to adopt the strictest safety standards, at a cost to sponsors.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "it seems ... will need to",
+      "entities": [
+        "FDA"
+      ],
+      "note": "Hedged; compound claim (stricter safety standards + added costs)."
+    },
+    {
+      "post_slug": "im-a-psychicabout-timing-of-articles",
+      "quote": "I expect open comments to be left on this requirement. I’m kidding a little bit, but not that much.",
+      "context": "The draft guidance requires the lead monitor to be independently licensed (MD, DO, PhD/PsyD psychologist, MSW, LCPC, LMFT or psychiatric NP), so shaman-trained practitioners would not qualify. The author expects the public to file comments on this requirement during the FDA open comment period.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "I expect",
+      "entities": [
+        "FDA"
+      ],
+      "note": "Half-joking framing ('kidding a little bit, but not that much') but reads as a real expectation."
+    },
+    {
+      "post_slug": "im-a-psychicabout-timing-of-articles",
+      "quote": "This requirement is plausibly more challenging to staff than the Licensed Lead Monitor role.",
+      "context": "Footnote 1 on the draft guidance's assistant-monitor requirement (bachelor's degree plus at least one year of clinical experience in a licensed mental health setting). The author expects this role to be harder for trial sponsors to staff than the licensed lead monitor role.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "plausibly",
+      "entities": [
+        "FDA"
+      ],
+      "note": ""
+    },
+    {
+      "post_slug": "im-a-psychicabout-timing-of-articles",
+      "quote": "given employment law, it almost can’t be the same person the whole time. Some breaks will need to be taken.",
+      "context": "Footnote: a psychedelic treatment session can run 12 continuous hours. The author expects that, under employment law and overtime rules, one assistant monitor cannot cover a whole session, so breaks or staff changes will be needed in trials.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "almost can’t ... will need to",
+      "entities": [
+        "FDA"
+      ],
+      "note": ""
+    },
+    {
+      "post_slug": "im-a-psychicabout-timing-of-articles",
+      "quote": "Clarification will be required, but scheduling concerns, safety, and scalability will all be paramount.",
+      "context": "Closing footnote on the FDA draft psychedelic guidance monitor requirements. The author expects the FDA will have to clarify the staffing requirements, and that scheduling, safety and scalability will be the dominant concerns.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "will be required",
+      "entities": [
+        "FDA"
+      ],
+      "note": "Compound claim (clarification needed + which concerns will dominate)."
+    },
+    {
+      "post_slug": "how-i-write-a-one-person-daily-newsletter",
+      "quote": "I commit to publishing something every single day.",
+      "context": "Post explaining how the author writes a one-person daily newsletter. He states a commitment to publish something in The Frontier Psychiatrists every day, regardless of quality.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "every single day",
+      "confidence_phrase": "I commit",
+      "entities": [
+        "The Frontier Psychiatrists",
+        "Substack"
+      ],
+      "note": "Own-newsletter commitment; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "chapter-6-the-pitch-to-the-investor",
+      "quote": "We're investing after traction and the ability to execute some blocking and tackling so we can flip to UHC, CVS, Carelon, or another major player in 2 to 4 years. That's the whole game.",
+      "context": "Chapter 6 of the author's Wizard of Oz health-tech parody. The Private Equity Investor character (the Tin Man) explains the PE playbook: invest after traction, then sell the roll-up to UnitedHealthcare, CVS, Carelon or another major payer within 2 to 4 years.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "in 2 to 4 years",
+      "confidence_phrase": "That's the whole game",
+      "entities": [
+        "UnitedHealthcare (UHC)",
+        "CVS",
+        "Carelon",
+        "private equity"
+      ],
+      "note": "Spoken by a fictional character in a parody; the underlying claim that healthcare PE roll-ups are built to be flipped to big payers reads as the author's sincere view."
+    },
+    {
+      "post_slug": "chapter-6-the-pitch-to-the-investor",
+      "quote": "Stay tuned for the next exciting chapter!",
+      "context": "Closing line of chapter 6 of the serialized Wizard of Oz health-tech parody; promises a further chapter in the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "next",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Trivial own-newsletter content promise; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-ai-knows-the-darkness-of-our",
+      "quote": "I'm reading the introduction for a book thing may be where I take my podcasts and the ones that I did during the pandemic and I write some little introductions and suddenly have a book that's also an audiobook and that's kind of cool.",
+      "context": "Setup for a post about a strange AI rewrite of the author's dictation. He describes a possible book and audiobook project that would compile his pandemic-era narrative journalism podcasts with written introductions.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "may be",
+      "entities": [
+        "Owen Muir"
+      ],
+      "note": "Hedged own-project plan; low forecast value; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "a-love-letter-to-revelations",
+      "quote": "I wonder if she reads this, but not often. I don't think it is likely.",
+      "context": "Footnote 2 of a personal memoir about a high-school love. The author doubts that Marisa, his first love whom he has not seen since eighth grade, reads the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I don't think it is likely",
+      "entities": [
+        "Marisa"
+      ],
+      "note": "Trivial personal prediction about readership; logged for recall."
+    },
+    {
+      "post_slug": "a-love-letter-to-revelations",
+      "quote": "I doubt she reads this. She might, someday.",
+      "context": "Footnote 3 of the same memoir. The author doubts that Melisande, his second love and later penpal, currently reads the newsletter, but allows that she might someday.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "someday",
+      "confidence_phrase": "I doubt ... might",
+      "entities": [
+        "Melisande"
+      ],
+      "note": "Trivial personal prediction about readership; logged for recall."
+    },
+    {
+      "post_slug": "i-explained-healthcare-to-my-mom",
+      "quote": "And so I think we’re going to see is that every employer is either going to have to be suing their health plan for this information or they’re open themselves up to liability for not doing so.",
+      "context": "After explaining PBMs and ERISA fiduciary duty to his mother (plan sponsors paying more than necessary for drugs; ACA/ERISA 10-day behavioral health wait standard versus a 48-day average wait for child therapy), the author predicts every employer will have to sue its health plan for claims and pricing data or face fiduciary liability.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "I think we’re going to see",
+      "entities": [
+        "ERISA",
+        "ACA",
+        "PBMs",
+        "employer health plans"
+      ],
+      "note": ""
+    },
+    {
+      "post_slug": "i-explained-healthcare-to-my-mom",
+      "quote": "once one of these lawsuits wins for one type of claim, every lawyer, everywhere is going to be bringing the same easy to prove claim against every other plan sponsor, or on behalf of every other plan sponsor, against their broker, or with the broker against their plan, depending on who is willing to get out of the way of the wrecking ball first.",
+      "context": "Conditional forecast in the PBM/ERISA post: once an ERISA fiduciary-breach lawsuit over health plan costs wins on one type of claim, the author expects a wave of copycat suits against and on behalf of plan sponsors, brokers and plans. He adds that the best business model is 'popcorn to crunch for the show'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "once one of these lawsuits wins",
+      "confidence_phrase": "is going to be",
+      "entities": [
+        "ERISA",
+        "plan sponsors",
+        "brokers"
+      ],
+      "note": "Conditional on a first successful ERISA fiduciary lawsuit."
+    },
+    {
+      "post_slug": "i-explained-healthcare-to-my-mom",
+      "quote": "Every PE firm is just rolling stuff up so Big Health will acquire it later.",
+      "context": "Closing of the PBM/ERISA post. The author says the venture arms of big payers drive private equity acquisitions, and that healthcare PE roll-ups exist to be acquired later by large payers and health conglomerates ('Big Health').",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "later",
+      "confidence_phrase": "will",
+      "entities": [
+        "private equity",
+        "Big Health (large payers)"
+      ],
+      "note": "Generic structural forecast; the same view is voiced by the PE investor character in the 2023-06-29 parody chapter."
+    },
+    {
+      "post_slug": "great-news-im-raising-a-pe-fund",
+      "quote": "I’ll invest in responsible health things only. I won’t promise the moon. But I’ll take less of your money.",
+      "context": "Satirical pitch for a parody PE fund, DoubleDown Health Partners, with 1% management fees and 10% carry (half the standard 2-and-20). The author promises to invest only in responsible health things and to take less of investors' money.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "I’ll ... I won’t",
+      "entities": [
+        "DoubleDown Health Partners",
+        "Owen Muir",
+        "private equity"
+      ],
+      "note": "Parody fund pitch; no real expectation. The sincere underlying point is that 2-and-20 PE fees are bad for healthcare and for limited partners."
+    },
+    {
+      "post_slug": "what-is-borderline-personality-disorder",
+      "quote": "But we are stuck with it for the time being.",
+      "context": "Adapted from a 2016 speech on suicide and borderline personality disorder. The author calls 'Borderline Personality Disorder' a problematic legacy name and expects the field to keep using it for now.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "for the time being",
+      "confidence_phrase": "none",
+      "entities": [
+        "Borderline Personality Disorder",
+        "DSM-5"
+      ],
+      "note": "Borderline forecast that the diagnostic label will persist; the text is a 2016 speech republished in 2023."
+    },
+    {
+      "post_slug": "dear-readers-my-screen-cracked",
+      "quote": "I am not going to crank out daily content again till I am back home. ... Thusly, this newsletter won’t be daily for a little while.",
+      "context": "The author's laptop screen cracked while he is on vacation. He announces that The Frontier Psychiatrists will stop its daily cadence until he returns home to NYC and can repair or replace the laptop.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "till I am back home ... for a little while",
+      "confidence_phrase": "not going to ... won’t",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter schedule; revises the daily-publishing commitment from the 2023-06-25 post. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "e-motion-capture-ai-missed-our-intentions",
+      "quote": "The following is generated off of TwitterGPT, which I strongly suspect will require a threads instance.",
+      "context": "Opening of a post about a 'TwitterGPT' AI profile built from the author's tweets. He quips that the tool will need a version for Meta's Threads, implying Twitter/X's decline.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "I strongly suspect will",
+      "entities": [
+        "TwitterGPT",
+        "Twitter/X",
+        "Threads"
+      ],
+      "note": "Wry aside; reads as a half-serious expectation that Threads will displace or rival Twitter/X."
+    },
+    {
+      "post_slug": "e-motion-capture-ai-missed-our-intentions",
+      "quote": "I am destined for extremely niche status as a person who says reasonable things to other reasonable people at best. Nobody's ever gonna pay attention to that.",
+      "context": "Reacting to the AI's observation that he shows 'willingness to explore diverse perspectives', the author predicts his own writing will never go viral and will stay niche.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "ever",
+      "confidence_phrase": "destined ... Nobody's ever gonna",
+      "entities": [
+        "Owen Muir",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Self-deprecating forecast about own audience; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "e-motion-capture-ai-missed-our-intentions",
+      "quote": "The average of those answers, which is the lifeblood of ChatGPT, is almost by definition going to be milquetoast and unsatisfying.",
+      "context": "The author argues that large language models underperform because they are trained on humans being unhelpful to each other online. He expects ChatGPT's averaged output to remain bland and unsatisfying, adding 'We are not there yet. Not by a long shot.'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "almost by definition going to be",
+      "entities": [
+        "ChatGPT"
+      ],
+      "note": "General capability claim about LLMs; weakly time-bound."
+    },
+    {
+      "post_slug": "e-motion-capture-ai-missed-our-intentions",
+      "quote": "Then feeding them their own output inadvertently becomes expensive gruel leading to an “obesity of language.” It becomes relentlessly more boring, more pedantic, and less satisfying with each piece of underwhelming “training data” fed into it.",
+      "context": "The author predicts that training AI language models on their own output will make them progressively more boring, pedantic and unsatisfying with each round of training data.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "becomes relentlessly",
+      "entities": [
+        "ChatGPT",
+        "large language models"
+      ],
+      "note": "Model-degradation claim; general, no date."
+    },
+    {
+      "post_slug": "curb-your-enthusiasm-for-large-language",
+      "quote": "Again, if you're training a large language model, you're going to miss the fact that this is a joke, because it's not obviously different from the text itself.",
+      "context": "Essay arguing that LLMs underperform because training text lacks the implicit 'metadata' of human intent. Using a Curb Your Enthusiasm therapy scene, the author claims that LLM training will fail to recognize the transcript as satire.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "you're going to miss",
+      "entities": [
+        "large language models",
+        "Curb Your Enthusiasm",
+        "Larry David"
+      ],
+      "note": "General capability claim rather than a dated forecast; logged for recall."
+    }
+  ]
+}

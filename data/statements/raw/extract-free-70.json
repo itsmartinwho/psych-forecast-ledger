@@ -1,0 +1,246 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-70.md",
+  "posts": [
+    {
+      "slug": "these-things-are-not-different-this",
+      "read": true,
+      "statements_found": 1,
+      "note": "Review of two published negative trials; the analysis is retrospective. 'We have every reason to believe this trial will yield something' narrates a pre-result expectation about an already published trial, so it was not logged. Only the Radial sponsor blurb ('soon, eCOT-AS by Neurolief') is forward-looking."
+    },
+    {
+      "slug": "most-young-kids-who-attempt-suicide",
+      "read": true,
+      "statements_found": 3,
+      "note": "Central claim is a generic prognosis (most kids will be ok), logged as borderline. Present-tense trend line on youth attempts logged with forward_looking false. Radial sponsor blurb logged."
+    },
+    {
+      "slug": "the-cycloneinsurance-policy-7ce",
+      "read": true,
+      "statements_found": 3,
+      "note": "Part one of a Wizard of Oz health-insurance parody. Lines of fictional characters were not logged. Author-voice teasers about the newsletter and a dated regulatory line in footnote 9 were logged."
+    },
+    {
+      "slug": "a-visit-to-the-dermatologist",
+      "read": true,
+      "statements_found": 3,
+      "note": "Parody part two. Dr. Skinman's lines are fictional and were not logged. Logged: the intro promise of more Radial content, a footnote teaser about PBMs, and a generic autoimmune prognosis in footnote 1. Footnote 12 ('Currently, insurance will not authorize...') is a present-tense payer description, not logged."
+    },
+    {
+      "slug": "dorothy-utilizes-her-health-plans",
+      "read": true,
+      "statements_found": 2,
+      "note": "Parody part three. Radial sponsor blurb and a hyperbolic insurer-consolidation line in footnote 3 were logged."
+    },
+    {
+      "slug": "dorothy-becomes-an-early-adopter",
+      "read": true,
+      "statements_found": 1,
+      "note": "Parody part four. The Founder's lines are fictional. Footnote 1 holds thought experiments (readers' insurance) and general truisms, not logged. Only the Radial sponsor blurb was logged."
+    },
+    {
+      "slug": "dorothy-follows-the-patient-journey",
+      "read": true,
+      "statements_found": 1,
+      "note": "Parody part five. 'We will all get sick of this joke sooner or later' is a joke about the series, not logged. Only the Radial sponsor blurb was logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "these-things-are-not-different-this",
+      "quote": "They include Spravato , Nightware, eTNS, PRISM Neurofeedback, soon, eCOT-AS by Neurolief, TMS , Accelerated TMS, and fMRI-guided SAINT TMS.",
+      "context": "Sponsor blurb at the end of the post listing treatments offered at Radial, the author's clinic. It states that eCOT-AS, a Neurolief device, will be offered soon. The author is Chief Medical Officer at Radial and CMO at Neurolief.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "soon",
+      "confidence_phrase": "none",
+      "entities": ["Radial", "Neurolief", "eCOT-AS"],
+      "note": "Own-organization claim (Radial and Neurolief). The same blurb repeats in posts 2, 5, 6 and 7 of this packet."
+    },
+    {
+      "post_slug": "most-young-kids-who-attempt-suicide",
+      "quote": "They include Spravato , Nightware, eTNS, PRISM Neurofeedback, soon, eCOT-AS by Neurolief, TMS , Accelerated TMS, and fMRI-guided SAINT TMS.",
+      "context": "Sponsor blurb at the end of the post listing treatments offered at Radial, the author's clinic. It states that eCOT-AS, a Neurolief device, will be offered soon.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "soon",
+      "confidence_phrase": "none",
+      "entities": ["Radial", "Neurolief", "eCOT-AS"],
+      "note": "Own-organization claim (Radial and Neurolief); repeat of the sponsor blurb seen in post 1."
+    },
+    {
+      "post_slug": "most-young-kids-who-attempt-suicide",
+      "quote": "However, it is perfectly reasonable to say, to parents and kids, in the fallout after a suicide attempt, that the most likely outcome, by a mile, is that the kids will be ok.",
+      "context": "The author reads Bommersbach et al., JAMA Psychiatry 2025: 164 early adolescents (age 10 to 14) followed up to 36 years after a first suicide attempt; none died by suicide and 80 percent had good long-term outcomes. He generalizes this to what parents should expect after an attempt.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "most likely",
+      "entities": [],
+      "note": "Generic clinical prognosis, not a dated world event. Restated in the post as 'most kids will live' and 'On average, it’s going to be ok.' Borderline."
+    },
+    {
+      "post_slug": "most-young-kids-who-attempt-suicide",
+      "quote": "No, it’s not about fewer suicide attempts among youth. That keeps going up.",
+      "context": "Opening of the post. The author says the good news is not a fall in youth suicide attempts, which he says keep rising, especially among girls.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [],
+      "note": "Present-tense trend statement; continuation of the rise is only implicit. Logged as borderline."
+    },
+    {
+      "post_slug": "the-cycloneinsurance-policy-7ce",
+      "quote": "This is part one of that attempt. Yes, there's more.",
+      "context": "Intro to the Wizard of Oz health-insurance parody. The author says more parts of the series will follow in this newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": ["The Frontier Psychiatrists"],
+      "note": "Own newsletter content promise (CONTROL candidate). Footnote 9 adds 'There are other standards as well, as Dorothy will learn in her journey.'"
+    },
+    {
+      "post_slug": "the-cycloneinsurance-policy-7ce",
+      "quote": "The Wizard of Odds is Subscribers Only …after this. Subscribe and get the rest…",
+      "context": "Line at the end of the story portion of part one. The author states that later installments of The Wizard of Odds series will be for paid subscribers only.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "after this",
+      "confidence_phrase": "none",
+      "entities": ["The Frontier Psychiatrists"],
+      "note": "Own newsletter paywall statement (CONTROL candidate)."
+    },
+    {
+      "post_slug": "the-cycloneinsurance-policy-7ce",
+      "quote": "Federal oversight of adequacy returns in 2023.",
+      "context": "Footnote 9 on network adequacy under the ACA. The author says federal oversight of network adequacy for plans on federally facilitated exchanges returns in 2023, with time/distance standards, minimum provider ratios and a 10-day behavioral health wait-time limit.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "payer_policy",
+      "horizon_text": "in 2023",
+      "confidence_phrase": "none",
+      "entities": ["Affordable Care Act", "federally facilitated exchanges"],
+      "note": "Dated claim that is already past at the post date (2025-08-26); the text appears re-published from a 2023 draft. Logged for completeness."
+    },
+    {
+      "post_slug": "a-visit-to-the-dermatologist",
+      "quote": "We've got articles about TMS , for example. PTSD , also. And so much more is coming!",
+      "context": "Intro to the post. The author reviews educational content published by Radial, where he is Chief Medical Officer, and says much more content is coming.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": ["Radial"],
+      "note": "Own-organization content promise (CONTROL candidate)."
+    },
+    {
+      "post_slug": "a-visit-to-the-dermatologist",
+      "quote": "Pharmacy benefit managers will become the star of the footnotes of the story ... More on those to follow!",
+      "context": "Footnote 8 of the parody. The author promises that pharmacy benefit managers will feature in later footnotes of the series.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "to follow",
+      "confidence_phrase": "will",
+      "entities": ["The Frontier Psychiatrists"],
+      "note": "Own newsletter content teaser (CONTROL candidate). Footnote 12 similarly says the author 'will say significantly more as the story continues' about medical necessity."
+    },
+    {
+      "post_slug": "a-visit-to-the-dermatologist",
+      "quote": "Autoimmune diseases tend to come together and are probably not separate conditions. So once you have an autoimmune disorder, you will likely have others.",
+      "context": "Footnote 1 explaining guttate psoriasis after a streptococcal infection. The author generalizes that autoimmune conditions cluster in one person.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "likely",
+      "entities": [],
+      "note": "Generic clinical prognosis, not a dated world event. Borderline."
+    },
+    {
+      "post_slug": "dorothy-utilizes-her-health-plans",
+      "quote": "These treatments include Spravato , Nightware, eTNS, PRISM Neurofeedback, and soon, eCOT-AS by Neurolief, TMS , Accelerated TMS, and fMRI-guided SAINT TMS.",
+      "context": "Sponsor blurb near the top of the post listing treatments offered at Radial, the author's clinic. It states that eCOT-AS, a Neurolief device, will be offered soon.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "soon",
+      "confidence_phrase": "none",
+      "entities": ["Radial", "Neurolief", "eCOT-AS"],
+      "note": "Own-organization claim (Radial and Neurolief); repeat of the sponsor blurb seen in posts 1 and 2."
+    },
+    {
+      "post_slug": "dorothy-utilizes-her-health-plans",
+      "quote": "I mean, there has been so much consolidation it could be any of them because they are all acquiring each other until there is nothing left.",
+      "context": "Footnote 3 of the parody. The fictional insurer UnitedHealthShare is said not to parody any specific half-trillion-dollar company; the author says large health insurers keep acquiring each other toward an endpoint of total consolidation.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [],
+      "note": "Hyperbolic trend claim about health-insurer consolidation; no real company is named (the footnote disclaims any specific target)."
+    },
+    {
+      "post_slug": "dorothy-becomes-an-early-adopter",
+      "quote": "These treatments include Spravato , Nightware, eTNS, PRISM Neurofeedback, and soon, eCOT-AS by Neurolief, TMS , Accelerated TMS, and fMRI-guided SAINT TMS.",
+      "context": "Sponsor blurb near the top of the post listing treatments offered at Radial, the author's clinic. It states that eCOT-AS, a Neurolief device, will be offered soon.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "soon",
+      "confidence_phrase": "none",
+      "entities": ["Radial", "Neurolief", "eCOT-AS"],
+      "note": "Own-organization claim (Radial and Neurolief); repeat of the sponsor blurb seen in earlier posts."
+    },
+    {
+      "post_slug": "dorothy-follows-the-patient-journey",
+      "quote": "These treatments include Spravato , Nightware, eTNS, PRISM Neurofeedback, and soon, eCOT-AS by Neurolief, TMS , Accelerated TMS, and fMRI-guided SAINT TMS.",
+      "context": "Sponsor blurb in the middle of the post ('A Word From My Actual Company') listing treatments offered at Radial, the author's clinic. It states that eCOT-AS, a Neurolief device, will be offered soon.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "soon",
+      "confidence_phrase": "none",
+      "entities": ["Radial", "Neurolief", "eCOT-AS"],
+      "note": "Own-organization claim (Radial and Neurolief); repeat of the sponsor blurb seen in earlier posts."
+    }
+  ]
+}

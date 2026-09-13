@@ -1,0 +1,850 @@
+{
+ "packet": "code-46.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-2068",
+   "forecaster": "owen",
+   "statement_date": "2026-02-03",
+   "quote": "Shan Siddiqi, M.D., is studying PTSD specific fMRI-guided accelerated TMS as we speak, to make this available at scale, along with colleagues from Acacia Clinics.",
+   "context": "PTSD treatment section. Shan Siddiqi and colleagues at Acacia Clinics are studying PTSD-specific fMRI-guided accelerated TMS with the aim of making it available at scale.",
+   "post_title": "Treating PTSD is a Good Idea",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/treating-ptsd-is-a-good-idea",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Shan Siddiqi",
+    "Acacia Clinics",
+    "accelerated TMS"
+   ],
+   "finder_note": "Acacia is one of the author's organizations; coder likely marks CONTROL. Stated aim, not an outcome call."
+  },
+  {
+   "id": "owen-2069",
+   "forecaster": "owen",
+   "statement_date": "2026-02-05",
+   "quote": "And, as soon as this law kicks into force in 2028, it will no longer be the status quo.",
+   "context": "Reaction to the PBM provisions (Title VII) of the 2026 Consolidated Appropriations Act signed the night before. The author says the PBM rebate and formulary tiering status quo ends when the law takes effect in 2028.",
+   "post_title": "A Farewell to Pharmacy Benefit Managers (PBMs) as the Most Profitable Part of American Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-pharmacy-benefit-managers",
+   "area_guess": "payer_policy",
+   "horizon_text": "in 2028",
+   "confidence_phrase": "will",
+   "entities": [
+    "PBMs",
+    "Consolidated Appropriations Act 2026"
+   ],
+   "finder_note": "Dated call tied to the law's effective date."
+  },
+  {
+   "id": "owen-2070",
+   "forecaster": "owen",
+   "statement_date": "2026-02-05",
+   "quote": "in my opinion, completely destroyed the financial rationale for PBMs as a profit center for giant healthcare conglomerates",
+   "context": "Assessment of CA 2026's full rebate pass-through and fiduciary provisions. The author says the law destroys the financial rationale for PBMs as profit centers of large insurers (Cigna/Express Scripts, UnitedHealth/OptumRx, CVS/Caremark).",
+   "post_title": "A Farewell to Pharmacy Benefit Managers (PBMs) as the Most Profitable Part of American Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-pharmacy-benefit-managers",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "in my opinion, completely",
+   "entities": [
+    "PBMs",
+    "Express Scripts",
+    "Cigna",
+    "OptumRx",
+    "UnitedHealth Group",
+    "CVS Caremark",
+    "CVS Health"
+   ],
+   "finder_note": "Implies PBMs stop being the most profitable part of the conglomerates (post title)."
+  },
+  {
+   "id": "owen-2071",
+   "forecaster": "owen",
+   "statement_date": "2026-02-05",
+   "quote": "I’m a little surprised the share price of major insurance companies like UnitedHealth Group did not drop a stone today.",
+   "context": "After reading the PBM transparency provisions, the author expresses surprise that UnitedHealth Group and similar insurer shares did not fall, implying he expects the law to hurt their valuations once understood.",
+   "post_title": "A Farewell to Pharmacy Benefit Managers (PBMs) as the Most Profitable Part of American Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-pharmacy-benefit-managers",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "a little surprised",
+   "entities": [
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Implicit market call; the author hedges ('Either I'm missing something, or everybody else is')."
+  },
+  {
+   "id": "owen-2072",
+   "forecaster": "owen",
+   "statement_date": "2026-02-05",
+   "quote": "But is catastrophic is the requirement for 100% of rebates to be passed on to the health plan.",
+   "context": "Flat call after describing the 30-month contract renewal ban and disclosure rules in CA 2026: the PBM business model is finished.",
+   "post_title": "A Farewell to Pharmacy Benefit Managers (PBMs) as the Most Profitable Part of American Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-pharmacy-benefit-managers",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "PBMs"
+   ],
+   "finder_note": "Unhedged; contrast with the hedged 'I don't know if this is gonna actually change things' later in the same post."
+  },
+  {
+   "id": "owen-2073",
+   "forecaster": "owen",
+   "statement_date": "2026-02-05",
+   "quote": "CA2026 provide provides the kind of transparency that no racket can withstand.",
+   "context": "Analogy: CA 2026 is to PBM business models what RICO was to the Mafia. The author says the law's transparency will end the PBM 'racket'.",
+   "post_title": "A Farewell to Pharmacy Benefit Managers (PBMs) as the Most Profitable Part of American Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-pharmacy-benefit-managers",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "no racket can withstand",
+   "entities": [
+    "PBMs",
+    "Consolidated Appropriations Act 2026"
+   ],
+   "finder_note": "Restates 'The PBM game is up' via the RICO analogy."
+  },
+  {
+   "id": "owen-2074",
+   "forecaster": "owen",
+   "statement_date": "2026-02-05",
+   "quote": "And that's…all over with.",
+   "context": "After describing how PBM reports bundled drugs into opaque categories (e.g. 'antipsychotics' mixing $2 and $2000 drugs), the author says that practice is over under CA 2026.",
+   "post_title": "A Farewell to Pharmacy Benefit Managers (PBMs) as the Most Profitable Part of American Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-pharmacy-benefit-managers",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "all over with",
+   "entities": [
+    "PBMs"
+   ],
+   "finder_note": "Call that opaque category-level PBM reporting ends."
+  },
+  {
+   "id": "owen-2075",
+   "forecaster": "owen",
+   "statement_date": "2026-02-05",
+   "quote": "I don't know if this is gonna actually change things, I've lived in this country and dealt with American healthcare long enough to know that the status quote is gonna fight to preserve itself. I just don't know if they have the juice anymore.",
+   "context": "Hedge near the end of the PBM post. The author expects incumbents to fight the law and is uncertain whether CA 2026 will change PBM practice.",
+   "post_title": "A Farewell to Pharmacy Benefit Managers (PBMs) as the Most Profitable Part of American Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-pharmacy-benefit-managers",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I don't know if ... gonna",
+   "entities": [
+    "PBMs"
+   ],
+   "finder_note": "Compound: (a) the status quo will fight back, (b) uncertain whether the law changes things. Softens the earlier 'The PBM game is up'."
+  },
+  {
+   "id": "owen-2076",
+   "forecaster": "owen",
+   "statement_date": "2026-02-05",
+   "quote": "PBMs have become radioactive politically, and have become extremely popular for politicians to hate. The worm has turned…maybe.",
+   "context": "Closing assessment: the political tide has turned against PBMs, hedged with 'maybe'.",
+   "post_title": "A Farewell to Pharmacy Benefit Managers (PBMs) as the Most Profitable Part of American Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-pharmacy-benefit-managers",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "maybe",
+   "entities": [
+    "PBMs"
+   ],
+   "finder_note": "Hedged turning-point call."
+  },
+  {
+   "id": "owen-2077",
+   "forecaster": "owen",
+   "statement_date": "2026-02-11",
+   "quote": "Just last week, another wall came tumbling down: Evernorth, part of Cigna, announced ending prior authorization for TMS (appropriately prescribed) starting in March!",
+   "context": "The author restates Evernorth Behavioral Health's announcement that prior authorization for TMS ends for in-network providers under Evernorth and Cigna plans effective March 6, 2026.",
+   "post_title": "A Farewell to (Prior) Auths",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-prior-auths",
+   "area_guess": "payer_policy",
+   "horizon_text": "starting in March",
+   "confidence_phrase": "none",
+   "entities": [
+    "Evernorth",
+    "Cigna",
+    "TMS"
+   ],
+   "finder_note": "Author's restatement of a company announcement, adopted as fact. The quoted announcement is logged separately."
+  },
+  {
+   "id": "owen-2078",
+   "forecaster": "owen",
+   "statement_date": "2026-02-11",
+   "quote": "effective March 6, 2026, prior authorization will no longer be required for transcranial magnetic stimulation (TMS) for Evernorth contracted providers",
+   "context": "Block quote of the Evernorth Behavioral Health announcement reproduced in the post; it also notes that TMS with dates of service before March 6, 2026 may still need prior authorization.",
+   "post_title": "A Farewell to (Prior) Auths",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-prior-auths",
+   "area_guess": "payer_policy",
+   "horizon_text": "effective March 6, 2026",
+   "confidence_phrase": "will no longer",
+   "entities": [
+    "Evernorth",
+    "Cigna",
+    "TMS"
+   ],
+   "finder_note": "Quoted third-party (Evernorth) text endorsed by the author; duplicates the restatement above with the exact date."
+  },
+  {
+   "id": "owen-2079",
+   "forecaster": "owen",
+   "statement_date": "2026-02-11",
+   "quote": "So I think CIGNA is gonna be a more popular plan with physicians, and maybe that means it's gonna be a more popular plan with employers and patients.",
+   "context": "The author's read on Evernorth/Cigna dropping TMS prior authorization: it is a savvy network strategy that will make Cigna more popular with physicians and perhaps with employers and patients.",
+   "post_title": "A Farewell to (Prior) Auths",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-prior-auths",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... gonna ... maybe",
+   "entities": [
+    "Cigna",
+    "Evernorth"
+   ],
+   "finder_note": "Compound: physician popularity (firmer) and employer/patient popularity (hedged with 'maybe')."
+  },
+  {
+   "id": "owen-2080",
+   "forecaster": "owen",
+   "statement_date": "2026-02-11",
+   "quote": "If you have CIGNA as your plan, we can get started on treatment that same day in the very near future.",
+   "context": "Closing plug for Radial, where the author works: once the Evernorth policy takes effect, Radial expects to start TMS for Cigna members on the same day.",
+   "post_title": "A Farewell to (Prior) Auths",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-farewell-to-prior-auths",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in the very near future",
+   "confidence_phrase": "can",
+   "entities": [
+    "Radial",
+    "Cigna",
+    "TMS"
+   ],
+   "finder_note": "Own-organization claim (Radial); coder likely marks CONTROL."
+  },
+  {
+   "id": "owen-2081",
+   "forecaster": "owen",
+   "statement_date": "2026-02-12",
+   "quote": "So we only study new treatments— that may be better than existing treatments— in people who failed existing treatments. And then, the FDA approves it in that population, and now insurance won't cover it for anybody else, because it wasn't studied.",
+   "context": "Essay dissenting from the 'treatment-resistant depression' label. Setup: sponsors prefer TRD trials because low placebo response makes them cheaper, so new treatments get studied only in people who failed prior drugs. The author generalizes: the FDA then approves in that population and insurers refuse coverage for everyone else. He calls this the 'first-line treatment trap'.",
+   "post_title": "Treatment-Resistant Depression: A Dissent",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/treatment-resistant-depression-a",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "won't",
+   "entities": [
+    "FDA",
+    "insurers",
+    "TRD (treatment-resistant depression)"
+   ],
+   "finder_note": "Structural generalization in present tense, not a dated call; restates the author's earlier 'first-line treatment trap' concept. Borderline, logged for recall."
+  },
+  {
+   "id": "owen-2082",
+   "forecaster": "owen",
+   "statement_date": "2026-02-15",
+   "quote": "This pool is in an house that, sadly, will be be torn down soon.",
+   "context": "Photo caption in a recommended-readings post. The author says the house with the pictured pool will be torn down soon. Personal aside with no health or market content.",
+   "post_title": "Recommended Readings",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/reccomended-readings",
+   "area_guess": "other",
+   "horizon_text": "soon",
+   "confidence_phrase": "will be",
+   "entities": [],
+   "finder_note": "Personal photo caption; low forecast value. The doubled 'will be be' is in the source."
+  },
+  {
+   "id": "owen-2083",
+   "forecaster": "owen",
+   "statement_date": "2026-02-20",
+   "quote": "He will be joining us at our 6th RAMHT event at the APA this year!",
+   "context": "Intro to Part I of the 'Dan Week' interview series. Dan Karlin, CMO of Definium Therapeutics (formerly MindMed), will join the author's 6th RAMHT event at the APA annual meeting in 2026. The author discloses owning a few hundred Definium shares.",
+   "post_title": "Welcome to Dan Karlin, M.D. Week",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/welcome-to-dan-karlin-md-week",
+   "area_guess": "other",
+   "horizon_text": "this year",
+   "confidence_phrase": "will be",
+   "entities": [
+    "Dan Karlin",
+    "Definium Therapeutics",
+    "RAMHT",
+    "APA"
+   ],
+   "finder_note": "Own-event commitment (RAMHT is the author's organization); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-2084",
+   "forecaster": "owen",
+   "statement_date": "2026-02-20",
+   "quote": "This is the fist part of a series of interview articles with Dan Karlin",
+   "context": "Opening line of Part I of 'Dan Week'. The author states this post is the first of a series of interview articles with Dan Karlin, so more parts will follow; the post closes with 'Subscribe to not miss a follow up article!'.",
+   "post_title": "Welcome to Dan Karlin, M.D. Week",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/welcome-to-dan-karlin-md-week",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Dan Karlin",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter schedule promise (series will continue); coder may mark CONTROL. Typo 'fist' is in the source."
+  },
+  {
+   "id": "owen-2085",
+   "forecaster": "owen",
+   "statement_date": "2026-02-20",
+   "quote": "Join us tomorrow for Part III.",
+   "context": "Closing line of Part II of 'Dan Week' (interview with Dan Karlin, CMO of Definium). The author promises Part III the next day; the post is dated 2026-02-20.",
+   "post_title": "What Is a Psychedelic?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-is-a-psychedelic",
+   "area_guess": "other",
+   "horizon_text": "tomorrow",
+   "confidence_phrase": "none",
+   "entities": [
+    "Dan Karlin",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter schedule promise; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-2086",
+   "forecaster": "owen",
+   "statement_date": "2026-02-21",
+   "quote": "There is more to come!",
+   "context": "Closing line of Part III of 'Dan Week'. The author promises further installments of the Dan Karlin interview series.",
+   "post_title": "Language, the Self, and Psychotherapy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/language-the-self-and-psychotherapy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Dan Karlin",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter schedule promise; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-2087",
+   "forecaster": "owen",
+   "statement_date": "2026-02-22",
+   "quote": "Dan Week Part V is coming next!",
+   "context": "Closing line of Part IV of 'Dan Week' (Dan Karlin's account of working in a Bronx ICU during COVID). The author announces Part V as the next installment.",
+   "post_title": "Dan Karlin Went Back to Work In the Pandemic Era Bronx ICU",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tests-allies-and-enemies-answering",
+   "area_guess": "other",
+   "horizon_text": "next",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "Dan Karlin",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter schedule promise; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-2088",
+   "forecaster": "owen",
+   "statement_date": "2026-02-23",
+   "quote": "Radial are having an Open House in Midtown Manhattan on Thursday, March 12th, 2026, at 10 w 37th St. , so health professionals can learn about innovative treatments both available now (like SWIFT and SAINT TMS, PRISM, Proliv, Spravato), and those to come!",
+   "context": "Boilerplate 'brief note' near the top of the post (dated 2026-02-23). Radial, the author's clinic company, announces an Open House in Midtown Manhattan on March 12, 2026, for health professionals, covering treatments available now (SWIFT and SAINT TMS, PRISM, Proliv, Spravato) and treatments 'to come'.",
+   "post_title": "The Complete Interview With Dan Karlin, M.D. About Generalized Anxiety Treatment With Lysergide",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-complete-interview-with-dan-karlin",
+   "area_guess": "other",
+   "horizon_text": "Thursday, March 12th, 2026",
+   "confidence_phrase": "none",
+   "entities": [
+    "Radial",
+    "SWIFT TMS",
+    "SAINT TMS",
+    "PRISM",
+    "Proliv",
+    "Spravato"
+   ],
+   "finder_note": "Own-organization event announcement (CONTROL candidate). 'and those to come' implies future treatments at Radial. Same notice repeats in the other two posts of this packet."
+  },
+  {
+   "id": "owen-2089",
+   "forecaster": "owen",
+   "statement_date": "2026-02-23",
+   "quote": "This interview with Dan might turn into a podcast also, but I think the written version is better to start with.",
+   "context": "Intro to the written interview with Dan Karlin, Chief Medical Officer of Definium Therapeutics (formerly MindMed). The author says the written interview may later also become a podcast episode of The Frontier Psychiatrists.",
+   "post_title": "The Complete Interview With Dan Karlin, M.D. About Generalized Anxiety Treatment With Lysergide",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-complete-interview-with-dan-karlin",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "Owen Muir",
+    "Dan Karlin",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter programming plan; low forecast value."
+  },
+  {
+   "id": "owen-2090",
+   "forecaster": "owen",
+   "statement_date": "2026-02-23",
+   "quote": "I am neither disinterested in the work Definium is doing nor a cheerleader, because I don't know if it's gonna work yet. We need more top line data, but as I wrote in my 2025 review of LSD published in the American Journal of Therapeutics last year, the early data is promising.",
+   "context": "Intro disclosure. The author, a long-time MindMed shareholder and past investigator with the company, states his stance on MM-120 (Lysergide Tartrate, an oral dissolving LSD tablet) for generalized anxiety disorder, which is in phase III trials: outcome unknown, more top-line data needed, early data promising.",
+   "post_title": "The Complete Interview With Dan Karlin, M.D. About Generalized Anxiety Treatment With Lysergide",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-complete-interview-with-dan-karlin",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I don't know if it's gonna work yet; the early data is promising",
+   "entities": [
+    "MM-120",
+    "Lysergide Tartrate",
+    "LSD",
+    "Definium Therapeutics",
+    "MindMed",
+    "Dan Karlin",
+    "FDA",
+    "American Journal of Therapeutics"
+   ],
+   "finder_note": "Explicitly uncertain stance on whether MM-120 phase III succeeds, with a mild positive lean ('promising'). Author discloses MindMed shareholding and past investigator role."
+  },
+  {
+   "id": "owen-2091",
+   "forecaster": "owen",
+   "statement_date": "2026-02-23",
+   "quote": "I had fun doing this one, and am likely to do more if you, dear readers, enjoyed it.",
+   "context": "Closing lines of the Dan Karlin interview. The author says he is likely to publish more written interviews in the newsletter, conditional on reader response.",
+   "post_title": "The Complete Interview With Dan Karlin, M.D. About Generalized Anxiety Treatment With Lysergide",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-complete-interview-with-dan-karlin",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Owen Muir",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter plan, conditional on reader enjoyment; low forecast value."
+  },
+  {
+   "id": "owen-2092",
+   "forecaster": "owen",
+   "statement_date": "2026-02-24",
+   "quote": "Radial is having an Open House in Midtown Manhattan on Thursday, March 12th, 2026, at 10 w 37th St. , so health professionals can learn about innovative treatments both available now (like SWIFT and SAINT TMS, PRISM, Proliv, Spravato), and those to come! It’s starting at 4pm, and runs till 8pm, EST.",
+   "context": "Boilerplate 'brief note' in the Power interview post (dated 2026-02-24). Radial announces an Open House in Midtown Manhattan on March 12, 2026, 4pm to 8pm EST, for health professionals, about treatments available now and 'those to come'.",
+   "post_title": "Solving Clinical Trials...With Power",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/solving-clinical-trialswith-power",
+   "area_guess": "other",
+   "horizon_text": "Thursday, March 12th, 2026",
+   "confidence_phrase": "none",
+   "entities": [
+    "Radial",
+    "SWIFT TMS",
+    "SAINT TMS",
+    "PRISM",
+    "Proliv",
+    "Spravato"
+   ],
+   "finder_note": "Repeat of the notice in the Dan Karlin post, now with hours. Own-organization event (CONTROL candidate)."
+  },
+  {
+   "id": "owen-2093",
+   "forecaster": "owen",
+   "statement_date": "2026-02-24",
+   "quote": "how a couple of guys from the tech world ended up building something that might genuinely change how people access experimental medicine.",
+   "context": "Author's introduction of Brandon Li, co-founder of Power (withpower.com), a patient-facing platform for discovering and joining clinical trials. The author says the platform might genuinely change how people access experimental medicine.",
+   "post_title": "Solving Clinical Trials...With Power",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/solving-clinical-trialswith-power",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "might genuinely",
+   "entities": [
+    "Power",
+    "Brandon Li"
+   ],
+   "finder_note": "Hedged impact call about a company the author is friendly with (he is pictured in a 'withpower' t-shirt in the post)."
+  },
+  {
+   "id": "owen-2095",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "Radial is having an Open House in Midtown Manhattan on Thursday, March 12th, 2026, at 10 w 37th St., so health professionals can learn about innovative treatments both available now (like SWIFT and SAINT TMS, PRISM, Proliv, Spravato), and those to come!",
+   "context": "Opening notice before the conference dispatch. The author announces an open house of Radial (his own company) for health professionals on 12 March 2026 in Midtown Manhattan, 4pm to 8pm EST, to present treatments available now and 'those to come'.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "other",
+   "horizon_text": "Thursday, March 12th, 2026",
+   "confidence_phrase": "is having",
+   "entities": [
+    "Radial",
+    "SWIFT",
+    "SAINT TMS",
+    "PRISM",
+    "Proliv",
+    "Spravato"
+   ],
+   "finder_note": "Own-organization event announcement; coder likely marks CONTROL. 'those to come' implies future treatment offerings at Radial."
+  },
+  {
+   "id": "owen-2096",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "The difference between a protocol that requires staff from 7am to 6pm versus one that fits into a sensible 8-hour day is the difference between a protocol that’s academically interesting and one that will actually get delivered to patients at scale.",
+   "context": "Inter-session interval section. After Fitzgerald cites a human study on 15-minute intervals between iTBS sessions, the author argues that a shorter interval lets accelerated TMS fit an 8-hour clinic day, and that only such a protocol will be delivered to patients at scale.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will actually",
+   "entities": [
+    "Paul Fitzgerald",
+    "SAINT"
+   ],
+   "finder_note": "General claim about which accelerated TMS protocols reach scale; borderline."
+  },
+  {
+   "id": "owen-2097",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "Are We at the Ceiling? (For Regular TMS, Probably Yes. For TBS, Possibly No.)",
+   "context": "Section heading and thesis. The author argues the dose-response curve for standard 10 Hz rTMS is flat at the top (no gain from more pulses), while theta burst stimulation may still gain from dose optimization because pulse count has peaks and troughs.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "Probably Yes. For TBS, Possibly No.",
+   "entities": [
+    "Paul Fitzgerald",
+    "Walter Paulus"
+   ],
+   "finder_note": "Borderline: dose-response assessment whose predictive reading is that TBS dosing can still improve outcomes while standard rTMS cannot."
+  },
+  {
+   "id": "owen-2098",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "Fitzgerald’s read: the **interval between sessions** is probably the most practically important variable we haven’t yet optimized. More important than pulse count per session. Possibly more important than targeting.",
+   "context": "Interval section conclusion. Fitzgerald's assessment, presented approvingly by the author, that optimizing the inter-session interval in accelerated TMS will matter more than pulse count or targeting.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "Paul Fitzgerald"
+   ],
+   "finder_note": "Attributed to Fitzgerald; the author endorses the interval's importance in the preceding paragraph. Coder may treat as third-party. Bold markers are in the source text."
+  },
+  {
+   "id": "owen-2099",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "There is now a named trial — the Kale Award trial — specifically designed to address whether bilateral stimulation is superior to unilateral for suicidal ideation. It’s years out from results.",
+   "context": "Right-sided stimulation and suicidality section. The author notes a named trial (Kale Award trial) that tests bilateral versus unilateral TMS for suicidal ideation and states its results are years away.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "clinical_trial",
+   "horizon_text": "years out",
+   "confidence_phrase": "none",
+   "entities": [
+    "Kale Award trial",
+    "Paul Fitzgerald"
+   ],
+   "finder_note": "Timing call on a trial readout."
+  },
+  {
+   "id": "owen-2100",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "Getting the angle right — maximizing the electric field penetration — may ultimately explain more outcome variance than the exact coordinates you’re targeting.",
+   "context": "Neuronavigation section. After Fitzgerald notes that DLPFC gyral orientation varies across people, the author (in his own voice, 'worth dwelling on') suggests coil angle and E-field optimization may ultimately explain more TMS outcome variance than target coordinates.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "other",
+   "horizon_text": "ultimately",
+   "confidence_phrase": "may ultimately",
+   "entities": [
+    "Paul Fitzgerald"
+   ],
+   "finder_note": "Prediction about what future evidence will show; borderline scientific claim."
+  },
+  {
+   "id": "owen-2101",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "The more of those you file, the more you shift national coverage policy.",
+   "context": "Insurance section, the author's own speech from the conference floor about insurers that refuse to cover iTBS. He claims that filing independent medical review appeals plus state attorney general complaints shifts national insurer coverage policy for TMS.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "state attorney general"
+   ],
+   "finder_note": "Conditional claim about advocacy effect on coverage policy; the author's own position ('I stand by it')."
+  },
+  {
+   "id": "owen-2102",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "I have written about this extensively in this newsletter. I will keep writing about it.",
+   "context": "Insurance section. After stating that ERISA plan sponsors have had a fiduciary duty since 2021, the author commits to keep writing about it in The Frontier Psychiatrists.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "ERISA",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter commitment; low forecast value; coder likely marks CONTROL."
+  },
+  {
+   "id": "owen-2103",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "This is how coverage standards change. Not by accepting what the insurer says.",
+   "context": "Insurance section, end of the appeals path (appeal to independent medical review, write to the attorney general). The author asserts this process is how payer coverage standards for TMS and iTBS change.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Restatement of the preceding claim that filing appeals and attorney general complaints shifts coverage policy."
+  },
+  {
+   "id": "owen-2104",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "There’s a registry being built, announced in this session. The goal is to aggregate non-invasive brain stimulation data from centers worldwide.",
+   "context": "Bigger Picture section. The author reports that a worldwide non-invasive brain stimulation registry is being built, announced at Brain Stimulation 2025, to answer questions that RCTs cannot.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Brain Stimulation 2025"
+   ],
+   "finder_note": "Relayed announcement of a future registry; the author endorses the need for it."
+  },
+  {
+   "id": "owen-2106",
+   "forecaster": "owen",
+   "statement_date": "2026-02-26",
+   "quote": "Radial is having an Open House in Midtown Manhattan on Thursday, March 12th, 2026, at 10 w 37th St. , so health professionals can learn about innovative treatments both available now (like SWIFT and SAINT TMS, PRISM, Proliv, Spravato), and those to come! It’s starting at 4pm, and runs till 8pm, EST.",
+   "context": "Boilerplate 'brief note' in the Doro Mind post (dated 2026-02-26). Radial announces an Open House in Midtown Manhattan on March 12, 2026, 4pm to 8pm EST, for health professionals, about treatments available now and 'those to come'.",
+   "post_title": "The Founders of Doro Mind Read This Newsletter and Started a Company for Schizophrenia Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-system-is-broken-why-families",
+   "area_guess": "other",
+   "horizon_text": "Thursday, March 12th, 2026",
+   "confidence_phrase": "none",
+   "entities": [
+    "Radial",
+    "SWIFT TMS",
+    "SAINT TMS",
+    "PRISM",
+    "Proliv",
+    "Spravato"
+   ],
+   "finder_note": "Third repeat of the same Radial notice in this packet. Own-organization event (CONTROL candidate)."
+  },
+  {
+   "id": "owen-2107",
+   "forecaster": "owen",
+   "statement_date": "2026-02-26",
+   "quote": "There is even a government payer, in Medicaid and Medicare for the disabled, and probably an exit to united healthcare exists, just to drive down the cost of their dual eligibles with Medicare/Medicaid.",
+   "context": "The author re-quotes his own 2023 article that pitched an 'Early Treatment Program' company for schizophrenia. He says such a company has a government payer (Medicaid and Medicare for the disabled) and probably an acquisition exit to UnitedHealthcare, which would want to cut costs for its dual-eligible members. Restated in 2026 in a post about Doro Mind, which built such a company.",
+   "post_title": "The Founders of Doro Mind Read This Newsletter and Started a Company for Schizophrenia Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-system-is-broken-why-families",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "UnitedHealthcare",
+    "Medicaid",
+    "Medicare",
+    "Doro Mind"
+   ],
+   "finder_note": "Quoted from the author's own 2023 article; hypothetical company then, now identified with Doro Mind. The exit call is about the class of company, not a named firm."
+  },
+  {
+   "id": "owen-2108",
+   "forecaster": "owen",
+   "statement_date": "2026-02-26",
+   "quote": "This would be good for patients and good for the world. There are zero reasons this isn’t a huge company. It’s 1% of the population. Come on people. 3.3 million people in the US. Let me market size that for you: $281.6 billion in 2020.",
+   "context": "Same re-quoted 2023 pitch. The author asserts that an early-treatment-program company for schizophrenia would be a huge company, sizing the market at 1% of the US population (3.3 million people) and a $281.6 billion economic burden in 2020. In 2026 he presents Doro Mind as the company that now exists.",
+   "post_title": "The Founders of Doro Mind Read This Newsletter and Started a Company for Schizophrenia Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-system-is-broken-why-families",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "zero reasons this isn't",
+   "entities": [
+    "Doro Mind",
+    "Firsthand"
+   ],
+   "finder_note": "Quoted from the author's own 2023 article. Company-scale call ('huge company') for the category; the $281.6B figure is a 2020 cost estimate, not a forecast. Firsthand is named as a comparable."
+  },
+  {
+   "id": "owen-2109",
+   "forecaster": "owen",
+   "statement_date": "2026-02-27",
+   "quote": "Radial is having an Open House in Midtown Manhattan on Thursday, March 12th, 2026, at 10 w 37th St. , so health professionals can learn about innovative treatments both available now (like SWIFT and SAINT TMS, PRISM, Proliv, Spravato), and those to come! It’s starting at 4pm, and runs till 8pm, EST.",
+   "context": "Opening 'brief note' of the post (dated 2026-02-27). The author's company Radial will hold an Open House for health professionals on Thursday March 12, 2026, 4-8pm EST, at 10 W 37th St, Manhattan, to present treatments available now (SWIFT and SAINT TMS, PRISM, Proliv, Spravato) and treatments 'to come'.",
+   "post_title": "Ahmed Tahseen, M.D. on Bipolar Mania, Clinical Trials, and Friendship's Role in Getting Well",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ahmed-tahseen-md-on-bipolar-mania",
+   "area_guess": "company_market",
+   "horizon_text": "Thursday, March 12th, 2026",
+   "confidence_phrase": "none",
+   "entities": [
+    "Radial",
+    "SWIFT TMS",
+    "SAINT TMS",
+    "PRISM",
+    "Proliv",
+    "Spravato"
+   ],
+   "finder_note": "Event announcement for the author's own company (CONTROL). Compound: also implies Radial will add new treatments ('those to come'). Low forecast value."
+  }
+ ]
+}

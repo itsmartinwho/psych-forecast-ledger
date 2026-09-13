@@ -1,0 +1,765 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-46.md",
+  "posts": [
+    {
+      "slug": "walking-revisited",
+      "read": true,
+      "statements_found": 1,
+      "note": "Walking-as-antidepressant review with a satirical fake FDA package insert; one counterfactual logged with sincere=false."
+    },
+    {
+      "slug": "big-boy-pants",
+      "read": true,
+      "statements_found": 0,
+      "note": "Parenting essay on epistemic trust after the election; no forward-looking claims."
+    },
+    {
+      "slug": "working-with-chronically-suicidal",
+      "read": true,
+      "statements_found": 0,
+      "note": "Video share from Dr. Vint Blackburn; no forward-looking claims."
+    },
+    {
+      "slug": "cobenfy",
+      "read": true,
+      "statements_found": 2,
+      "note": "Cobenfy review; two calls (more side effects at scale, BMS expansion to bipolar disorder)."
+    },
+    {
+      "slug": "treatment-for-auditory-hallucinations",
+      "read": true,
+      "statements_found": 0,
+      "note": "JAMA Netw Open fMRI-guided rTMS trial review; 'I can't wait to see this replicated!' is a wish and was not logged."
+    },
+    {
+      "slug": "rfk-the-ii-tries-out-for-richard",
+      "read": true,
+      "statements_found": 1,
+      "note": "Richard III parody with RFK Jr.; one satirical regulatory item logged with sincere=false."
+    },
+    {
+      "slug": "upcoming-events",
+      "read": true,
+      "statements_found": 4,
+      "note": "Event announcements (RAMHT Jan 12 2025, two insurance masterclasses) plus a promised GLP-1 article; fictional dog-MDMA scene not logged."
+    },
+    {
+      "slug": "radical-acceptance",
+      "read": true,
+      "statements_found": 0,
+      "note": "Meditation on radical acceptance with a Vint Blackburn video; no forward-looking claims."
+    },
+    {
+      "slug": "randomized-controlled-trials-are",
+      "read": true,
+      "statements_found": 2,
+      "note": "Guest essay by Ben Spielberg on RCT limits; two guest statements logged, author endorses with 'I tend to agree'."
+    },
+    {
+      "slug": "the-lonely-island-is-back",
+      "read": true,
+      "statements_found": 1,
+      "note": "Comedy share; one reminder of three upcoming own events."
+    },
+    {
+      "slug": "letters-to-dr-oz",
+      "read": true,
+      "statements_found": 11,
+      "note": "Open letter to CMS nominee Mehmet Oz; many conditional payment-policy calls. Pure 'should' advice (e.g. 'CMS's payment for services needs to change') not logged."
+    },
+    {
+      "slug": "letters-to-the-trump-administration",
+      "read": true,
+      "statements_found": 9,
+      "note": "Open letter to RFK Jr. recommending Dr. Drew Pinsky for SAMHSA; conditional calls about his fit and reception."
+    },
+    {
+      "slug": "letters-to-the-trump-administration-c9c",
+      "read": true,
+      "statements_found": 8,
+      "note": "Open letter to FDA nominee Martin Makary; conditional regulatory and payment calls. Burning Man line is a joke, not logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "walking-revisited",
+      "quote": "If Walking were submitted to the FDA, it would likely be approved for major depression, but probably include a package insert warning of the significant risk associated with falling down and spraining your god-damn ankle.",
+      "context": "Satirical close of a review of walking as a depression treatment. The author stages a fake FDA submission by 'TheFrontierPsychiatrists BioMedicine, Inc.' and says walking would likely be approved for major depression with an ankle-sprain warning.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "would likely",
+      "entities": [
+        "FDA",
+        "TheFrontierPsychiatrists BioMedicine, Inc."
+      ],
+      "note": "Satirical counterfactual inside a fake FDA-submission bit; walking cannot be submitted to FDA. Logged for recall, not a real forecast."
+    },
+    {
+      "post_slug": "cobenfy",
+      "quote": "Will we discover more at large scale? Probably.",
+      "context": "Review of Cobenfy (xanomeline-trospium), newly FDA-approved for schizophrenia. After noting its side effects are annoying but not life-threatening, the author expects more adverse effects to be discovered once the drug is used at large scale.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "Probably",
+      "entities": [
+        "Cobenfy",
+        "xanomeline",
+        "trospium"
+      ],
+      "note": "Post-marketing safety call; question-and-answer form."
+    },
+    {
+      "post_slug": "cobenfy",
+      "quote": "Bristol Meyers Squibb is not done yet. They are going to be bringing this drug to bipolar disorder, and other conditions.",
+      "context": "Same Cobenfy review. The author states that Bristol Myers Squibb will bring Cobenfy (xanomeline-trospium) to bipolar disorder and other conditions.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "are going to be",
+      "entities": [
+        "Bristol Myers Squibb",
+        "Cobenfy"
+      ],
+      "note": "Author spells the company 'Bristol Meyers Squibb'. Compound: bipolar disorder plus unnamed other conditions."
+    },
+    {
+      "post_slug": "rfk-the-ii-tries-out-for-richard",
+      "quote": "Plots have I laid, regulations dangerous, By drunken prophecies, libels, and appointments to agencies that I have no business running",
+      "context": "Richard III parody with Robert F. Kennedy Jr. as the speaker ('Bobby'), written after Trump's 2024 win. The character announces regulatory plots and appointments to agencies he is unfit to run; earlier lines rail at regulations limiting supplements.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Robert F. Kennedy Jr.",
+        "Donald Trump",
+        "Elon Musk"
+      ],
+      "note": "Satire. Underlying expectation: RFK Jr. will attack health regulation (supplements) and take agency roles he is unfit for. Not a real forecast as worded."
+    },
+    {
+      "post_slug": "upcoming-events",
+      "quote": "RAMHT —co-founded with Grady Hannah —continues this year in SF on January 12th, 2025. It will feature more fast-paced conversations about the future of things that work quickly to alleviate suffering.",
+      "context": "Events announcement. RAMHT (Rapid Acting Mental Health Treatment), the author's live event co-founded with Grady Hannah, is set for San Francisco on January 12, 2025.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "January 12th, 2025",
+      "confidence_phrase": "will feature",
+      "entities": [
+        "RAMHT",
+        "Grady Hannah"
+      ],
+      "note": "Own-organization event announcement; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "upcoming-events",
+      "quote": "The first will focus on in-network providers on December 4th, on Zoom at 11 am.",
+      "context": "Same events announcement. First of two Health Insurance Masterclass workshops co-created with Kari Groff, M.D. (Brooklyn and Beyond Mental Health Group Community), scheduled on Zoom for December 4, 2024.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "December 4th",
+      "confidence_phrase": "will focus",
+      "entities": [
+        "Kari Groff",
+        "Brooklyn and Beyond Mental Health Group Community"
+      ],
+      "note": "Own event announcement; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "upcoming-events",
+      "quote": "The second will focus on out-of-network providers, December 9th, on Zoom, at 11 am.",
+      "context": "Same events announcement. Second Health Insurance Masterclass workshop with Kari Groff, M.D., scheduled on Zoom for December 9, 2024.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "December 9th",
+      "confidence_phrase": "will focus",
+      "entities": [
+        "Kari Groff",
+        "Brooklyn and Beyond Mental Health Group Community"
+      ],
+      "note": "Own event announcement; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "upcoming-events",
+      "quote": "I’m gonna get back to writing a really exciting article about the data on GLP-1s in addiction— because there’s more of it now.",
+      "context": "Aside after the events list. The author promises a coming newsletter article on GLP-1 data in addiction.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I’m gonna",
+      "entities": [
+        "GLP-1s",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own newsletter content plan; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "randomized-controlled-trials-are",
+      "quote": "Someday, there might be so many placebo conditions we forget what we are researching in the first place.",
+      "context": "Guest essay by Ben Spielberg (Bespoke Treatment) arguing RCTs are over-relied on. In a jokey passage on the growing placebo effect he says trials may someday need so many placebo arms that the research question is lost.",
+      "sincere": false,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "Someday",
+      "confidence_phrase": "might",
+      "entities": [
+        "Ben Spielberg"
+      ],
+      "note": "Guest text; hyperbole following 'The placebo effect watches you when you sleep.' Author's endorsement is only a general 'I tend to agree'."
+    },
+    {
+      "post_slug": "randomized-controlled-trials-are",
+      "quote": "RCTs aren’t going away any time soon—they’re still an important tool. But like SSRIs, they can’t be the solution that we rely on as gold standard",
+      "context": "Closing thesis of Ben Spielberg's guest essay: randomized controlled trials will remain in use but should not be the sole gold standard. The author closes the post with 'Thanks, Ben, for sharing this with us, I tend to agree.'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "any time soon",
+      "confidence_phrase": "aren’t going away",
+      "entities": [
+        "Ben Spielberg",
+        "RCTs",
+        "SSRIs"
+      ],
+      "note": "Guest text endorsed by the author ('I tend to agree'), so own_claim set true; second sentence is normative, first is predictive."
+    },
+    {
+      "post_slug": "the-lonely-island-is-back",
+      "quote": "Today, I’m gonna remind you that I have three events coming up that you can attend!",
+      "context": "Short post on The Lonely Island's comedy. Opening line reminds readers of three upcoming events (RAMHT in SF on Jan 12, 2025 and two Health Insurance Masterclasses in December 2024) announced in the 2024-11-16 post.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "coming up",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists",
+        "RAMHT"
+      ],
+      "note": "Restatement of the upcoming-events announcements; own events, coder may mark CONTROL."
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "according to the incoming administration, many people will get fired anyway",
+      "context": "Open letter to Mehmet Oz, nominee to run CMS. The author relays the incoming Trump administration's stated plan that many government employees will be fired, and uses it as a premise for changing CMS incentives.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Trump administration",
+        "CMS",
+        "Mehmet Oz"
+      ],
+      "note": "Attributed to the incoming administration; the author does not clearly adopt it but builds on it."
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "It may be that the driving force of CMS—which, to be very clear, has been people not wanting to do something stupid and get canned—might not be so important anymore. If everyone is maybe getting fired from all government, you may be able to incentivize different behaviors.",
+      "context": "Letter to Dr. Oz on CMS culture. The author hedges that CMS staff's fear-of-firing motive may weaken under mass firings, letting the administrator incentivize different behaviors.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "It may be",
+      "entities": [
+        "CMS",
+        "Mehmet Oz",
+        "Trump administration"
+      ],
+      "note": "Hedged conditional on mass government firings."
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "The Center for Medicare and Medicaid Services can’t change the price of drugs in our current system…at least not without getting into a knock-down, drag-out fight with pharmaceutical companies.",
+      "context": "Letter to Dr. Oz. The author says CMS cannot change drug prices without a major fight with pharmaceutical companies, and advises Oz to pick his battles.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "can’t",
+      "entities": [
+        "CMS",
+        "pharmaceutical companies"
+      ],
+      "note": "Borderline: present-capability claim with an implied conditional (any CMS attempt to change drug prices triggers a fight with pharma)."
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "Use the CMS levers to create novel payment pathways for breakthrough medical devices. Over the long term, you’ll pay less.",
+      "context": "Core advice of the letter to Dr. Oz: if CMS creates new payment pathways for FDA breakthrough-designated medical devices, CMS will pay less over the long term.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "Over the long term",
+      "confidence_phrase": "you’ll",
+      "entities": [
+        "CMS",
+        "Mehmet Oz",
+        "FDA breakthrough devices"
+      ],
+      "note": "Advice plus predicted consequence; the imperative is normative, the second sentence is predictive."
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "If you do this, you won’t have to pay off the big pharmacy benefit managers to negotiate rebates back and forth.",
+      "context": "Letter to Dr. Oz, continuing the breakthrough-device payment advice: paying for devices would avoid PBM rebate negotiations.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "won’t",
+      "entities": [
+        "CMS",
+        "pharmacy benefit managers"
+      ],
+      "note": "Conditional on CMS creating device payment pathways."
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "This would allow these breakthrough medical devices—which, importantly, aren’t drugs with endless markups—to get rapidly to people who need them. This would also drive investment dollars into technology, not just pharma.",
+      "context": "Letter to Dr. Oz, after describing the Breakthrough Treatments Act (automatic payment for breakthrough devices in hospital and outpatient settings). The author predicts such payment would get devices to patients rapidly and shift investment toward technology.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "would",
+      "entities": [
+        "Breakthrough Treatments Act",
+        "CMS",
+        "FDA breakthrough devices"
+      ],
+      "note": "Conditional on CMS action or passage of the Breakthrough Treatments Act; compound claim (access plus investment flows)."
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "And if you try to do that with better drugs, it’s going to cost more because we already know drug prices go up forever.",
+      "context": "Letter to Dr. Oz on making outpatient care cheaper. The author predicts a drug-centered strategy will cost more because drug prices keep rising indefinitely.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "forever",
+      "confidence_phrase": "it’s going to",
+      "entities": [
+        "CMS",
+        "Mehmet Oz"
+      ],
+      "note": "Conditional plus a standing claim that drug prices rise forever."
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "There’s $485+ billion a year in pharmacy benefit management rebates. And that goes up at 8.8% every year. That will eat up your entire budget at CMS, given enough time.",
+      "context": "Letter to Dr. Oz. Numeric premise: PBM rebates of $485+ billion a year growing 8.8% a year; prediction that this will consume the whole CMS budget given enough time, unless Oz stops it ('If you let it.').",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "given enough time",
+      "confidence_phrase": "will eat up",
+      "entities": [
+        "CMS",
+        "pharmacy benefit managers",
+        "Mehmet Oz"
+      ],
+      "note": "Numeric growth claim (8.8% per year) with an open-ended horizon; conditional 'If you let it.'"
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "if you start paying physicians more, you will get better outcomes",
+      "context": "Letter to Dr. Oz, closing advice on at-risk contracts: paying physicians more (tied to risk) will yield better outcomes.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "CMS",
+        "physicians"
+      ],
+      "note": "Conditional on CMS paying physicians more under at-risk contracts."
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "Start paying for breakthrough medical devices that will allow physicians in the outpatient setting to drive down costs.",
+      "context": "Letter to Dr. Oz. Imperative with a predictive clause: paying for breakthrough devices will let outpatient physicians drive down costs.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will allow",
+      "entities": [
+        "CMS",
+        "FDA breakthrough devices",
+        "physicians"
+      ],
+      "note": "Imperative sentence; the predictive clause is the logged claim."
+    },
+    {
+      "post_slug": "letters-to-dr-oz",
+      "quote": "And this might mean you have to pay psychiatrists as much as neurosurgeons.",
+      "context": "Letter to Dr. Oz. Hedged consequence of at-risk, outcome-based payment: psychiatrists who take on high-risk patients and cut costs might be paid as much as neurosurgeons.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "might",
+      "entities": [
+        "CMS",
+        "psychiatrists",
+        "neurosurgeons"
+      ],
+      "note": "Hedged and conditional on outcome-based payment reform; author flags self-interest ('Said a psychiatrist!')."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration",
+      "quote": "They are appointing stars from TV anyway, and he’s one, but I think he’ll do a good job.",
+      "context": "Open letter to RFK Jr. (HHS nominee) recommending Dr. Drew Pinsky as SAMHSA administrator. In the intro the author says Pinsky would do a good job if appointed.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I think he’ll",
+      "entities": [
+        "Drew Pinsky",
+        "SAMHSA",
+        "Robert F. Kennedy Jr."
+      ],
+      "note": "Conditional on appointment; the recommendation itself is normative, the 'he'll do a good job' clause is predictive."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration",
+      "quote": "Some people take issue with his stance on vaccines, but let’s be honest, Mr. Kennedy— that’s not going to be a dealbreaker for you.",
+      "context": "Letter to RFK Jr. about Dr. Drew Pinsky. The author predicts Pinsky's vaccine stance will not be a dealbreaker for Kennedy.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "not going to be",
+      "entities": [
+        "Drew Pinsky",
+        "Robert F. Kennedy Jr."
+      ]
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration",
+      "quote": "Some people will be outraged—that’s “on brand” for the Trump administration.",
+      "context": "Letter to RFK Jr. The author predicts public outrage if Dr. Drew Pinsky is appointed to lead SAMHSA.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will be",
+      "entities": [
+        "Drew Pinsky",
+        "Trump administration",
+        "SAMHSA"
+      ],
+      "note": "Conditional on a Pinsky appointment."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration",
+      "quote": "I’m not worried that Dr. Drew is going to get that wrong.",
+      "context": "Letter to RFK Jr. The author predicts Pinsky would correctly understand what people with mental illness and addiction need, if he leads SAMHSA.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "not worried",
+      "entities": [
+        "Drew Pinsky",
+        "SAMHSA"
+      ],
+      "note": "Conditional on appointment."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration",
+      "quote": "He will be acceptable to conservatives, which is probably table stakes in a Republican administration.",
+      "context": "Letter to RFK Jr. The author predicts Dr. Drew Pinsky will be acceptable to conservatives.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will be",
+      "entities": [
+        "Drew Pinsky",
+        "Republican administration"
+      ]
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration",
+      "quote": "However, I think the decisions Dr Pinsky would make would be for the public good.",
+      "context": "Letter to RFK Jr. The author predicts Pinsky's decisions as SAMHSA administrator would serve the public good.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I think",
+      "entities": [
+        "Drew Pinsky",
+        "SAMHSA"
+      ],
+      "note": "Conditional on appointment."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration",
+      "quote": "He has a lot of questions about vaccines, just like you do, so he’s not gonna get kicked out of the party.",
+      "context": "Letter to RFK Jr. The author predicts Pinsky will not be pushed out of the Republican party because his vaccine views match Kennedy's.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "not gonna",
+      "entities": [
+        "Drew Pinsky",
+        "Robert F. Kennedy Jr.",
+        "Republican party"
+      ],
+      "note": "Restates the earlier 'not a dealbreaker' claim from the party angle."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration",
+      "quote": "He can probably “hang” with the kinds of celebrities who will be around the table in the new administration, and he might even be friends with Oz at CMS already?",
+      "context": "Letter to RFK Jr. Two hedged claims: celebrities will populate the new administration, and Pinsky can fit in with them and may already be friends with Mehmet Oz at CMS.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "probably",
+      "entities": [
+        "Drew Pinsky",
+        "Mehmet Oz",
+        "CMS",
+        "Trump administration"
+      ],
+      "note": "Compound, hedged; the 'already friends' part is a present guess."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration",
+      "quote": "At a certain point, you’re probably gonna need a celebrity intervention-style conversation inside the administration itself, and Dr. Drew has a long track record of handling these!",
+      "context": "Letter to RFK Jr. The author predicts the administration will at some point need an intervention-style conversation among its celebrity members, which Pinsky could handle.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "At a certain point",
+      "confidence_phrase": "probably gonna need",
+      "entities": [
+        "Trump administration",
+        "Drew Pinsky"
+      ],
+      "note": "Half-joking, but reads as a real expectation of intra-administration conflict."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration-c9c",
+      "quote": "It will allow your agency to get more money, it will encourage industry to pay you for the advice before the submissions, and this will lead to less uncompensated work reviewing submitted applications.",
+      "context": "Open letter to Martin Makary, FDA commissioner nominee. The author recommends review-time standards for 513(g) device classification requests and predicts this will bring FDA more fee income, more industry pre-submission requests, and less uncompensated review work.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "FDA",
+        "Martin Makary",
+        "Section 513(g)"
+      ],
+      "note": "Conditional on FDA adopting 513(g) review timelines; compound (money, industry behavior, workload)."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration-c9c",
+      "quote": "It will improve the quality of submissions to the FDA and teach medical device manufacturers, many of whom are from outside traditional biosciences, to submit better applications to your agency, which speeds up everything later.",
+      "context": "Letter to Dr. Makary, same 513(g) recommendation: predicted downstream effect on device submission quality and review speed.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "later",
+      "confidence_phrase": "will improve",
+      "entities": [
+        "FDA",
+        "Martin Makary",
+        "medical device manufacturers"
+      ],
+      "note": "Conditional on FDA adopting 513(g) review timelines."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration-c9c",
+      "quote": "The more FDA can incorporate post-marketing data into approval requirements, the better. It shunts funding away from too expensive clinical trials that capture only a tiny subset of the population. It moves therapeutic development towards broader population health-level surveillance as essential.",
+      "context": "Letter to Dr. Makary, section 'What to Change at FDA'. Recommendation to use post-marketing data in approval requirements, with claimed consequences: funding shifts away from expensive trials and development moves toward population-level surveillance.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "FDA",
+        "Martin Makary"
+      ],
+      "note": "Borderline: first sentence normative; consequence sentences are present-tense claims about what the policy does."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration-c9c",
+      "quote": "if it is too expensive to obtain approval and those therapies never get paid for in the healthcare marketplace? Investors will not put money into them and will not get to the public.",
+      "context": "Letter to Dr. Makary, 'Breakthroughs + Payment'. Conditional: if approval stays expensive and therapies are not paid for, investors will not fund them and they will not reach the public.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "will not",
+      "entities": [
+        "FDA",
+        "CMS",
+        "investors"
+      ],
+      "note": "Conditional on approval cost and payment failure."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration-c9c",
+      "quote": "Pharmaceuticals will not be the best way to treat every problem.",
+      "context": "Letter to Dr. Makary. Standalone claim that drugs will not be the best treatment for every problem, in support of device and payment reform.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "will not be",
+      "entities": [
+        "FDA",
+        "pharmaceuticals"
+      ]
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration-c9c",
+      "quote": "So let’s let Industry pay the FDA for advice at market rates, and that will speed up the process of getting things approved, especially if the FDA and CMS work hand-in-hand to ensure approval and payment are the same thing.",
+      "context": "Letter to Dr. Makary. Predicts that industry paying FDA for advice at market rates will speed approvals, especially with FDA-CMS coordination on payment.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "will speed up",
+      "entities": [
+        "FDA",
+        "CMS",
+        "industry"
+      ],
+      "note": "Conditional on FDA charging market rates for advice."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration-c9c",
+      "quote": "If we don’t get this part right, we’re incentivizing capital to go flow into innovations that fail to get anyone healthier.",
+      "context": "Letter to Dr. Makary. Conditional: without linking approval to payment and cost-effectiveness, capital will flow into innovations that do not improve health.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "FDA",
+        "CMS"
+      ],
+      "note": "Conditional; present-progressive phrasing with a forward reading."
+    },
+    {
+      "post_slug": "letters-to-the-trump-administration-c9c",
+      "quote": "There’s going to be a lot of bad behavior in the industry. If the hammer doesn’t come down, open up the floodgates for approval on bad behavior.",
+      "context": "Postscript of the letter to Dr. Makary urging that the FDA Bad Ad Program cover devices. The author predicts much industry misconduct and, without enforcement, more of it alongside faster approvals.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "There’s going to be",
+      "entities": [
+        "FDA",
+        "Bad Ad Program",
+        "industry"
+      ],
+      "note": "Compound: a direct call plus a conditional on enforcement."
+    }
+  ]
+}

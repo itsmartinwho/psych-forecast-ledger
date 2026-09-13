@@ -1,0 +1,169 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-77.md",
+  "posts": [
+    {
+      "slug": "treatment-resistant-depression-a",
+      "read": true,
+      "statements_found": 1,
+      "note": "Essay dissenting from the 'treatment-resistant depression' label; mostly history and present-tense analysis. One structural 'first-line treatment trap' generalization logged as borderline. 'Should' sentences are normative and not logged."
+    },
+    {
+      "slug": "reccomended-readings",
+      "read": true,
+      "statements_found": 1,
+      "note": "Recommended readings plus personal news. Long third-party quotes (Freddie deBoer, an ECT blogger) contain no author forecasts. One photo-caption call logged."
+    },
+    {
+      "slug": "what-my-girl-scout-daughter-taught",
+      "read": true,
+      "statements_found": 0,
+      "note": "Interview with the author's nine-year-old daughter about Girl Scout cookies. No forward-looking calls by the author; the 'Theranos II' quip is a joke with no predictive reading."
+    },
+    {
+      "slug": "welcome-to-dan-karlin-md-week",
+      "read": true,
+      "statements_found": 2,
+      "note": "Part I of the Dan Karlin (Definium CMO) interview. Karlin's mechanism and informed-consent claims are present-tense, not forecasts. Event commitment and series promise logged."
+    },
+    {
+      "slug": "what-is-a-psychedelic",
+      "read": true,
+      "statements_found": 1,
+      "note": "Part II of Dan Week; definitional talk on psychedelics and the default mode network. Only the next-installment promise logged. 'Working on bringing LSD to market' describes a present effort, not a forecast."
+    },
+    {
+      "slug": "language-the-self-and-psychotherapy",
+      "read": true,
+      "statements_found": 1,
+      "note": "Part III of Dan Week; language, psychotherapy and Karlin's COVID ICU account. Only the more-to-come promise logged."
+    },
+    {
+      "slug": "tests-allies-and-enemies-answering",
+      "read": true,
+      "statements_found": 1,
+      "note": "Part IV of Dan Week; repeats the COVID ICU section of Part III. Only the Part V announcement logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "treatment-resistant-depression-a",
+      "quote": "So we only study new treatments— that may be better than existing treatments— in people who failed existing treatments. And then, the FDA approves it in that population, and now insurance won't cover it for anybody else, because it wasn't studied.",
+      "context": "Essay dissenting from the 'treatment-resistant depression' label. Setup: sponsors prefer TRD trials because low placebo response makes them cheaper, so new treatments get studied only in people who failed prior drugs. The author generalizes: the FDA then approves in that population and insurers refuse coverage for everyone else. He calls this the 'first-line treatment trap'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "won't",
+      "entities": [
+        "FDA",
+        "insurers",
+        "TRD (treatment-resistant depression)"
+      ],
+      "note": "Structural generalization in present tense, not a dated call; restates the author's earlier 'first-line treatment trap' concept. Borderline, logged for recall."
+    },
+    {
+      "post_slug": "reccomended-readings",
+      "quote": "This pool is in an house that, sadly, will be be torn down soon.",
+      "context": "Photo caption in a recommended-readings post. The author says the house with the pictured pool will be torn down soon. Personal aside with no health or market content.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "soon",
+      "confidence_phrase": "will be",
+      "entities": [],
+      "note": "Personal photo caption; low forecast value. The doubled 'will be be' is in the source."
+    },
+    {
+      "post_slug": "welcome-to-dan-karlin-md-week",
+      "quote": "He will be joining us at our 6th RAMHT event at the APA this year!",
+      "context": "Intro to Part I of the 'Dan Week' interview series. Dan Karlin, CMO of Definium Therapeutics (formerly MindMed), will join the author's 6th RAMHT event at the APA annual meeting in 2026. The author discloses owning a few hundred Definium shares.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "this year",
+      "confidence_phrase": "will be",
+      "entities": [
+        "Dan Karlin",
+        "Definium Therapeutics",
+        "RAMHT",
+        "APA"
+      ],
+      "note": "Own-event commitment (RAMHT is the author's organization); coder may mark CONTROL."
+    },
+    {
+      "post_slug": "welcome-to-dan-karlin-md-week",
+      "quote": "This is the fist part of a series of interview articles with Dan Karlin",
+      "context": "Opening line of Part I of 'Dan Week'. The author states this post is the first of a series of interview articles with Dan Karlin, so more parts will follow; the post closes with 'Subscribe to not miss a follow up article!'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Dan Karlin",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter schedule promise (series will continue); coder may mark CONTROL. Typo 'fist' is in the source."
+    },
+    {
+      "post_slug": "what-is-a-psychedelic",
+      "quote": "Join us tomorrow for Part III.",
+      "context": "Closing line of Part II of 'Dan Week' (interview with Dan Karlin, CMO of Definium). The author promises Part III the next day; the post is dated 2026-02-20.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "tomorrow",
+      "confidence_phrase": "none",
+      "entities": [
+        "Dan Karlin",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter schedule promise; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "language-the-self-and-psychotherapy",
+      "quote": "There is more to come!",
+      "context": "Closing line of Part III of 'Dan Week'. The author promises further installments of the Dan Karlin interview series.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Dan Karlin",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter schedule promise; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "tests-allies-and-enemies-answering",
+      "quote": "Dan Week Part V is coming next!",
+      "context": "Closing line of Part IV of 'Dan Week' (Dan Karlin's account of working in a Bronx ICU during COVID). The author announces Part V as the next installment.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "next",
+      "confidence_phrase": "is coming",
+      "entities": [
+        "Dan Karlin",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter schedule promise; coder may mark CONTROL."
+    }
+  ]
+}

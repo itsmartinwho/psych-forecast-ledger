@@ -1,0 +1,825 @@
+{
+ "packet": "code-27.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1188",
+   "forecaster": "owen",
+   "statement_date": "2024-08-09",
+   "quote": "It’s also entirely predictable to estimate that only more severe trauma cases will get this novel therpay.",
+   "context": "Prediction about who will receive MDMA-AT if it reaches practice: only the more severe PTSD cases. 'therpay' is the author's typo for therapy.",
+   "post_title": "Even MDMA-Assisted Trauma Therapy is Traumatic...For the Therapists",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/even-mdma-assisted-trauma-therapy",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "entirely predictable",
+   "entities": [
+    "MDMA-AT",
+    "PTSD"
+   ],
+   "finder_note": "Quote keeps the author's typo 'therpay'."
+  },
+  {
+   "id": "owen-1189",
+   "forecaster": "owen",
+   "statement_date": "2024-08-09",
+   "quote": "Thus, the vicarious trauma among MDMA-AT therapists might be expected to be worse and more toxic for the cohort of MDMA-AT practitioners given higher-grade PTSD in those patients.",
+   "context": "Conclusion of the argument: because MDMA-AT patients will have more severe PTSD, vicarious trauma among MDMA-AT therapists will be worse than for other trauma therapists.",
+   "post_title": "Even MDMA-Assisted Trauma Therapy is Traumatic...For the Therapists",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/even-mdma-assisted-trauma-therapy",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "might be expected",
+   "entities": [
+    "MDMA-AT",
+    "PTSD"
+   ],
+   "finder_note": "Hedged clinical-workforce prediction."
+  },
+  {
+   "id": "owen-1190",
+   "forecaster": "owen",
+   "statement_date": "2024-08-09",
+   "quote": "We even have an fMRI-Guided Accelerated TMS therapy5 in the pipeline for the treatment of PTSD, co-developed by colleagues at Acacia Clinics and Harvard.",
+   "context": "List of non-talk trauma treatments the author's organizations offer or develop (PRISM neurofeedback at Fermata, Nightware, magnesium-ibogaine). Here an fMRI-guided accelerated TMS therapy for PTSD, co-developed at Acacia Clinics (the author's clinic) and Harvard, is 'in the pipeline'. The '5' is a footnote marker to Siddiqi et al. 2024.",
+   "post_title": "Even MDMA-Assisted Trauma Therapy is Traumatic...For the Therapists",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/even-mdma-assisted-trauma-therapy",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in the pipeline",
+   "confidence_phrase": "none",
+   "entities": [
+    "Acacia Clinics",
+    "Harvard",
+    "TMS",
+    "PTSD",
+    "Fermata",
+    "PRISM",
+    "Nightware"
+   ],
+   "finder_note": "Own organization (Acacia Clinics): coder may mark CONTROL. Weak pipeline claim."
+  },
+  {
+   "id": "owen-1191",
+   "forecaster": "owen",
+   "statement_date": "2024-08-10",
+   "quote": "If they just rubber stamp things and someone dies, or something awful happens, someone is going to come back and make a documentary on Netflix like they did about Perdue Pharma and highlight the FDA official who signed off on the thing after some dubious party.",
+   "context": "The author quotes his own August 1, 2024 statement on the Psychiatry Tomorrow Podcast, made before the FDA's complete response letter on MDMA-AT, as a call he got right ('I knew it'): a conditional about FDA reviewers' incentive not to rubber-stamp approvals.",
+   "post_title": "MDMA-AT: We Welcome The FDA to Phase 3 Camp At Burning Man!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mdma-at-we-welcome-the-fda-to-phase",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "FDA",
+    "Lykos Therapeutics",
+    "MDMA-AT",
+    "Netflix",
+    "Purdue Pharma"
+   ],
+   "finder_note": "Self-quote from a podcast dated Aug 1, reproduced Aug 10 after the CRL; hypothetical conditional. 'Perdue' is the author's spelling."
+  },
+  {
+   "id": "owen-1192",
+   "forecaster": "owen",
+   "statement_date": "2024-08-10",
+   "quote": "It costs a lot of money to run phase 3 trials, as I’ve previously covered. So, an appeal makes sense…no matter how doomed to failure.",
+   "context": "After the FDA's complete response letter asking Lykos for an additional Phase 3 trial of midomafetamine (MDMA-AT), Lykos said it would request a meeting to seek reconsideration. The author cites CDER appeal statistics (16% granted, 2003-2014) and expects the Lykos appeal to fail.",
+   "post_title": "MDMA-AT: We Welcome The FDA to Phase 3 Camp At Burning Man!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mdma-at-we-welcome-the-fda-to-phase",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "doomed to failure",
+   "entities": [
+    "Lykos Therapeutics",
+    "FDA",
+    "CDER",
+    "MDMA-AT",
+    "midomafetamine"
+   ],
+   "finder_note": "Prediction that the Lykos request for reconsideration will not succeed."
+  },
+  {
+   "id": "owen-1194",
+   "forecaster": "owen",
+   "statement_date": "2024-08-11",
+   "quote": "The course of the last several weeks has proven that, although this won't be an approved therapeutic anytime soon, it continues to be one hell of a story.",
+   "context": "Written the day after the FDA requested an additional trial for Lykos's MDMA-AT NDA and as the journal Psychopharmacology retracted an MDMA-AT paper for undisclosed protocol violations at the MP4 site: the author says MDMA-AT will not be approved anytime soon.",
+   "post_title": "The Fall of the House of MAPS",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fall-of-the-house-of-maps",
+   "area_guess": "regulatory",
+   "horizon_text": "anytime soon",
+   "confidence_phrase": "won't",
+   "entities": [
+    "MDMA-AT",
+    "Lykos Therapeutics",
+    "FDA",
+    "MAPS",
+    "Psychopharmacology"
+   ],
+   "finder_note": "Post-CRL restatement of the non-approval call with a 'not soon' horizon."
+  },
+  {
+   "id": "owen-1196",
+   "forecaster": "owen",
+   "statement_date": "2024-08-12",
+   "quote": "The data from those clinical trials will save lives . It will inform discussions about risk between doctors and patients.",
+   "context": "Tribute to Jake Seliger, a writer who died of head and neck cancer after enrolling in several clinical trials, and to his widow Dr. Bess Stillman, an ER physician. The author claims the data from Jake's trials will save lives and will inform doctor-patient discussions about risk.",
+   "post_title": "Requiem for a Clinical Trial Participant",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/requiem-for-a-clinical-trial-participant",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Jake Seliger",
+    "Bess Stillman"
+   ],
+   "finder_note": "Compound: trial data will save lives; will inform risk discussions. Not a dated or measurable call."
+  },
+  {
+   "id": "owen-1197",
+   "forecaster": "owen",
+   "statement_date": "2024-08-12",
+   "quote": "His critiques of the clinical trial system may lead to reform.",
+   "context": "Same tribute. Jake Seliger published critiques of the clinical trial system before his death; the author expects they may lead to reform of that system.",
+   "post_title": "Requiem for a Clinical Trial Participant",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/requiem-for-a-clinical-trial-participant",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "Jake Seliger"
+   ],
+   "finder_note": "Hedged call about reform of the clinical trial system."
+  },
+  {
+   "id": "owen-1198",
+   "forecaster": "owen",
+   "statement_date": "2024-08-12",
+   "quote": "That child deserves to be loved and cared for, which will undoubtedly happen",
+   "context": "Same tribute. The author says the couple's expected child will undoubtedly be loved and cared for.",
+   "post_title": "Requiem for a Clinical Trial Participant",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/requiem-for-a-clinical-trial-participant",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will undoubtedly",
+   "entities": [],
+   "finder_note": "Personal sentiment about a friend's family, outside the ledger's forecast domain; logged for recall. The 'deserves' clause is normative."
+  },
+  {
+   "id": "owen-1199",
+   "forecaster": "owen",
+   "statement_date": "2024-08-14",
+   "quote": "family vacation that's going to be amazing",
+   "context": "Short post: the author is driving to New Hampshire for a family vacation and, instead of a column, shares his wife Carlene MacMillan's Trip Report podcast episode about the FDA rejection of Lykos's MDMA-assisted therapy application.",
+   "post_title": "Some Days You Theoretically Would Need to Take a Break From A Daily Substack",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/some-days-you-theoretically-would",
+   "area_guess": "other",
+   "horizon_text": "Today",
+   "confidence_phrase": "going to be",
+   "entities": [],
+   "finder_note": "Personal plan/sentiment, outside the ledger's forecast domain; logged for recall."
+  },
+  {
+   "id": "owen-1200",
+   "forecaster": "owen",
+   "statement_date": "2024-08-16",
+   "quote": "There is funding for 200 additional residency spots nationally, and 100 must be dedicated to psychiatry. This change increases the number of psychiatry graduates annually by just under 33%.",
+   "context": "The funded 100 new psychiatry residency slots will raise the annual number of psychiatry graduates by just under 33%.",
+   "post_title": "CMS Physicians Fee Schedule Open Comment Period 2025",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cms-physicians-fee-schedule-open",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "CMS",
+    "psychiatry residency"
+   ],
+   "finder_note": "hint: NRMP / ACGME psychiatry residency position and graduate counts vs CMS CAA 2023 section 4122 slot distribution"
+  },
+  {
+   "id": "owen-1201",
+   "forecaster": "owen",
+   "statement_date": "2024-08-16",
+   "quote": "This change doesn't hit meaningfully for at least four more years because that's how long it takes to train a psychiatrist.",
+   "context": "The new psychiatry residency slots will not meaningfully change psychiatrist supply until at least 2028.",
+   "post_title": "CMS Physicians Fee Schedule Open Comment Period 2025",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cms-physicians-fee-schedule-open",
+   "area_guess": "other",
+   "horizon_text": "2028 (inferred: at least four more years)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "CMS",
+    "psychiatry residency"
+   ],
+   "finder_note": "hint: AAMC / HRSA psychiatrist workforce counts 2028+"
+  },
+  {
+   "id": "owen-1202",
+   "forecaster": "owen",
+   "statement_date": "2024-08-16",
+   "quote": "You get paid less, by some amount, that gets argued about every year. Because they built a decrease in physician reimbursement every year, there's a fight about that catastrophic decrease every year, so they decrease it a little bit.",
+   "context": "CMS will again cut physician reimbursement (the conversion factor) in the upcoming CY2025 fee schedule, as it does every year after the annual fight.",
+   "post_title": "CMS Physicians Fee Schedule Open Comment Period 2025",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cms-physicians-fee-schedule-open",
+   "area_guess": "payer_policy",
+   "horizon_text": "2025 (inferred: CY2025 physician fee schedule)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "CMS",
+    "physician fee schedule"
+   ],
+   "finder_note": "hint: CMS CY2025 Physician Fee Schedule final rule (Nov 2024): conversion factor cut of about 2.83%"
+  },
+  {
+   "id": "owen-1203",
+   "forecaster": "owen",
+   "statement_date": "2024-08-18",
+   "quote": "I will be a break of about a week. I might get some articles done—knowing me—but I'm not going to hold myself to the daily cadence.",
+   "context": "91-word post from the Lake. The author announces a break of about a week from the daily newsletter while he works on longer-form writing, hedging that he might still publish some articles during the break.",
+   "post_title": "On Bipolar Disorder",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/on-bipolar-disorder",
+   "area_guess": "other",
+   "horizon_text": "about a week",
+   "confidence_phrase": "will, might, not going to",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Newsletter cadence plan about the author's own publication (CONTROL candidate). Compound: break of about a week; might publish some articles."
+  },
+  {
+   "id": "owen-1204",
+   "forecaster": "owen",
+   "statement_date": "2024-08-22",
+   "quote": "It’s worth noting I’ll be appearing on a webinar with the Psychedelic Medicine Association to discuss the following",
+   "context": "Podcast version of the PRISM PTSD article. The author announces he will appear on a Psychedelic Medicine Association webinar ('The FDA Said No, What's Next?') on Thursday, August 29, 2024, with Carlene MacMillan and Lynn Marie Morski, about the field after the FDA denied Lykos Therapeutics' MDMA-assisted therapy NDA and requested a new Phase III trial.",
+   "post_title": "PRISM: Trauma Treatment You Don't Need to Talk About",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/prism-trauma-treatment-you-dont-need",
+   "area_guess": "other",
+   "horizon_text": "Thursday, August 29th",
+   "confidence_phrase": "I’ll be",
+   "entities": [
+    "Psychedelic Medicine Association",
+    "Lykos Therapeutics",
+    "FDA",
+    "Fermata",
+    "Carlene MacMillan",
+    "Lynn Marie Morski"
+   ],
+   "finder_note": "Author's own scheduled appearance (a plan, not a market or regulatory call). The quoted PMA announcement's questions about the next psychedelic FDA approval are questions, not logged."
+  },
+  {
+   "id": "owen-1205",
+   "forecaster": "owen",
+   "statement_date": "2024-08-25",
+   "quote": "I will not have other children, we have a complete set.",
+   "context": "Vacation essay on parenting twin 8-year-olds, the author's supraventricular tachycardia, and the toll of long-running online harassment on his ability to feel present. He states he will not have more children.",
+   "post_title": "Gone Fishing",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/gone-fishing",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will not",
+   "entities": [],
+   "finder_note": "Personal family statement, outside the ledger's forecast domain; logged for recall."
+  },
+  {
+   "id": "owen-1208",
+   "forecaster": "owen",
+   "statement_date": "2024-08-29",
+   "quote": "I'm a psychiatrist, and I'm never gonna prescribe controlled substances by telehealth if the following is the regulation:",
+   "context": "Same post. The author's own conditional: if the reported DEA rule (searching all 50 state PDMPs before any remote controlled-substance prescription; capping remote prescriptions at 50% of a physician's total) becomes the regulation, he will never prescribe controlled substances by telehealth.",
+   "post_title": "The DEA is Trying to Blow Up Telemedicine for the Most Vulnerable",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-dea-is-trying-to-blow-up-telemedicine",
+   "area_guess": "practice_adoption",
+   "horizon_text": "never",
+   "confidence_phrase": "never",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Conditional on the reported rule being finalized as described; about the author's own practice."
+  },
+  {
+   "id": "owen-1210",
+   "forecaster": "owen",
+   "statement_date": "2024-08-29",
+   "quote": "Except, for the most vulnerable patients who require controlled substances to manage their conditions, not anymore: The proposed rule may limit physicians to prescribing no more than 50% of their total prescriptions remotely, effectively eliminating remote-only, virtual-only providers, according to the lobbyist.",
+   "context": "Same post. Reported provision capping remote prescriptions at 50% of a physician's total, which would eliminate virtual-only providers; the author adopts the consequence with 'not anymore' for vulnerable patients who need controlled substances and had moved to fully virtual care.",
+   "post_title": "The DEA is Trying to Blow Up Telemedicine for the Most Vulnerable",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-dea-is-trying-to-blow-up-telemedicine",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "may limit, effectively eliminating",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Quoted lobbyist claim adopted by the author ('not anymore'). Compound: 50% cap on remote prescribing; elimination of virtual-only providers."
+  },
+  {
+   "id": "owen-1211",
+   "forecaster": "owen",
+   "statement_date": "2024-08-29",
+   "quote": "What the proposed regulations do is the opposite: rolling back the clock, and pulling back life-saving care from millions of people— overnight.",
+   "context": "Same post. The author's own characterization of the effect of the reported DEA proposal: instead of the special telehealth registration that the Ryan Haight Act mandated, it would withdraw life-saving care from millions of patients overnight.",
+   "post_title": "The DEA is Trying to Blow Up Telemedicine for the Most Vulnerable",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-dea-is-trying-to-blow-up-telemedicine",
+   "area_guess": "regulatory",
+   "horizon_text": "overnight",
+   "confidence_phrase": "none",
+   "entities": [
+    "DEA",
+    "Ryan Haight Act",
+    "Congress"
+   ],
+   "finder_note": "Effect claim about the proposed rule, conditional on it taking effect; quantity 'millions of people'."
+  },
+  {
+   "id": "owen-1212",
+   "forecaster": "owen",
+   "statement_date": "2024-08-29",
+   "quote": "We don't have a system capable of doing what we should be doing (according to reported DEA proposals), we don't have funding or systems to make that plausible, and people will die if the restrictions on telehealth prescription as above become law.",
+   "context": "Same post. The author's conditional call: if the reported DEA telehealth prescribing restrictions become law, people will die, because no system or funding exists to deliver that care otherwise.",
+   "post_title": "The DEA is Trying to Blow Up Telemedicine for the Most Vulnerable",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-dea-is-trying-to-blow-up-telemedicine",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Conditional on the restrictions becoming law."
+  },
+  {
+   "id": "owen-1213",
+   "forecaster": "owen",
+   "statement_date": "2024-08-29",
+   "quote": "Creating unrealistic and wildly burdensome prescribing restrictions won't solve the problem of reducing risk from the substances, it will increase diversion.",
+   "context": "Same post. The author's call that the DEA's burdensome telehealth prescribing restrictions will not reduce risk from controlled substances and will instead increase diversion.",
+   "post_title": "The DEA is Trying to Blow Up Telemedicine for the Most Vulnerable",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-dea-is-trying-to-blow-up-telemedicine",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "won't, will",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Counter-productive-effect call, conditional on the restrictions being enacted."
+  },
+  {
+   "id": "owen-1215",
+   "forecaster": "owen",
+   "statement_date": "2024-09-04",
+   "quote": "I also have every reason to doubt this will be the case.",
+   "context": "Reacting to the NY Times investigation alleging Acadia Healthcare held psychiatric patients against their will for insurance money. In the preceding paragraph the author hopes the described circumstances will be investigated and, if substantiated, every person involved will face criminal charges and prosecution; 'this' refers to that hope. He then says he doubts it will happen.",
+   "post_title": "Checking the Locks: Avoiding the Horrors of Involuntary Psychiatry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/checking-the-locks-avoiding-the-horrors",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "every reason to doubt",
+   "entities": [
+    "Acadia Healthcare",
+    "The New York Times"
+   ],
+   "finder_note": "Negative call: the author doubts the Acadia allegations will be investigated and prosecuted (legal enforcement). Antecedent is in the prior paragraph."
+  },
+  {
+   "id": "owen-1216",
+   "forecaster": "owen",
+   "statement_date": "2024-09-04",
+   "quote": "It is a profitable for-profit company. At least, it was profitable prior to the litigation that will now ensue.",
+   "context": "About Acadia Healthcare, the publicly traded psychiatric hospital operator accused in the NY Times of holding patients against their will. The author shows its recent financials and asserts that litigation will now follow the Times report, implying its profitability is at risk.",
+   "post_title": "Checking the Locks: Avoiding the Horrors of Involuntary Psychiatry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/checking-the-locks-avoiding-the-horrors",
+   "area_guess": "company_market",
+   "horizon_text": "now",
+   "confidence_phrase": "will now ensue",
+   "entities": [
+    "Acadia Healthcare",
+    "The New York Times"
+   ],
+   "finder_note": "Compound: litigation against Acadia will ensue (explicit); its profitability held only before that litigation (implied)."
+  },
+  {
+   "id": "owen-1218",
+   "forecaster": "owen",
+   "statement_date": "2024-09-06",
+   "quote": "Thanks for joining us for part one of this interview! Stay tuned for more.",
+   "context": "Close of part one of a three-part interview with Dr. Mark Horowitz (co-founder of Outro Health, author of the Maudsley Deprescribing Guidelines) on antidepressant withdrawal. The author promises further installments in The Frontier Psychiatrists.",
+   "post_title": "Ending Antidepressants I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ending-antidepressants-i",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Mark Horowitz",
+    "The Frontier Psychiatrists",
+    "Outro Health"
+   ],
+   "finder_note": "Trivial: promise of further interview parts (own newsletter). Logged for recall only."
+  },
+  {
+   "id": "owen-1221",
+   "forecaster": "owen",
+   "statement_date": "2024-09-12",
+   "quote": "I often explain that I think brain stimulation is the future of psychiatric care, given remission of depression rapidly has been demonstrated repeatedly and at large scale.",
+   "context": "Opening of an essay aimed at venture capital and private equity investors who ask 'Why isn't someone already doing this?'. The author, an interventional psychiatrist, restates his standing view that brain stimulation (TMS and related neuromodulation) will be the future of psychiatric care, citing large real-world TMS datasets and Stanford accelerated TMS in footnote 1.",
+   "post_title": "\"Why Isn't Someone Already Doing This?\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-isnt-someone-already-doing-this",
+   "area_guess": "practice_adoption",
+   "horizon_text": "the future",
+   "confidence_phrase": "I think",
+   "entities": [
+    "brain stimulation",
+    "TMS"
+   ],
+   "finder_note": "Restatement of a recurring call ('I often explain'). No date."
+  },
+  {
+   "id": "owen-1222",
+   "forecaster": "owen",
+   "statement_date": "2024-09-12",
+   "quote": "The limited pool of people who know how to accomplish a better structure for mental healthcare in America? Many now don't want any part of what you have to offer. We don't like you. We don't trust you. And we won’t have anything to do with you.",
+   "context": "Addressed to venture and private equity investors. The author says their record of funding bad mental-health ideas (he cites Done) has shrunk the pool of clinicians who can build better care models and are willing to work with them; the group he speaks for will refuse to work with such investors.",
+   "post_title": "\"Why Isn't Someone Already Doing This?\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-isnt-someone-already-doing-this",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "venture capital",
+    "private equity",
+    "Done"
+   ],
+   "finder_note": "Borderline: declaration of intent on behalf of a group of clinicians rather than a resolvable forecast. Logged for recall."
+  },
+  {
+   "id": "owen-1223",
+   "forecaster": "owen",
+   "statement_date": "2024-09-12",
+   "quote": "May docs are going to stop practicing soon: Nearly 30% of physicians retire between 60 and 65 years old, and 12% retire before 60",
+   "context": "Step in an illustrative back-of-envelope count of how many US psychiatrists could lead tech-enabled, value-based mental health companies. From about 331 candidates the author removes those who will retire soon, citing AMA Insurance Agency survey data, leaving about 200. 'May' is a typo for 'Many' in the original.",
+   "post_title": "\"Why Isn't Someone Already Doing This?\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-isnt-someone-already-doing-this",
+   "area_guess": "other",
+   "horizon_text": "soon",
+   "confidence_phrase": "are going to",
+   "entities": [
+    "AMA Insurance Agency Inc."
+   ],
+   "finder_note": "Demographic extrapolation inside a calculation the author calls 'not a serious article when it comes to math'."
+  },
+  {
+   "id": "owen-1224",
+   "forecaster": "owen",
+   "statement_date": "2024-09-12",
+   "quote": "Now we are at 25 companies founded or hiring CMOs from 25 physicians. 90% of startups fail: that is 2.5 physicians left winning the race to become a billion dollar company (at a minimum).",
+   "context": "End of the illustrative funnel: from 56,536 US psychiatrists, through TMS and ketamine practitioners, research authorship, in-network status, retirement, Y Combinator acceptance and startup failure rates, the author estimates that roughly 2.5 physician-led companies could become billion-dollar companies. He states up front that the math is not serious and he is making a point.",
+   "post_title": "\"Why Isn't Someone Already Doing This?\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-isnt-someone-already-doing-this",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Y Combinator",
+    "Clinical TMS Society",
+    "American Society for Ketamine Physicians"
+   ],
+   "finder_note": "Illustrative numeric estimate; author says 'It's not a serious article when it comes to math—I'm making a point.' The number is rhetorical; the direction (very few) is sincere."
+  },
+  {
+   "id": "owen-1225",
+   "forecaster": "owen",
+   "statement_date": "2024-09-12",
+   "quote": "“Why isn’t anyone doing this?” Because accepting the current payment infrastructure means building less profitable businesses, and that won’t win for patients.",
+   "context": "Conclusion of the essay. The author answers 'Why isn't anyone doing this?' by arguing that care-delivery companies built on the current payment infrastructure will be less profitable than insurers or pharma (he cites UnitedHealth Group's 540 billion market cap) and will not deliver wins for patients; new contract, risk and financial models are needed.",
+   "post_title": "\"Why Isn't Someone Already Doing This?\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-isnt-someone-already-doing-this",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Conditional/general call: accepting the current payment infrastructure implies less profitable businesses that do not win for patients."
+  },
+  {
+   "id": "owen-1226",
+   "forecaster": "owen",
+   "statement_date": "2024-09-13",
+   "quote": "The inclusion of these will, I suspect, be crucial and at the expense of excellent treatment for the rest of the mental health conditions.",
+   "context": "Part I on the 2024 final MHPAEA parity rule from the Department of Labor and HHS, which defines MH/SUD conditions by the current ICD or DSM and so includes dementia and autism. The author expects coverage of these two expensive diagnoses to come at the expense of treatment quality for other mental health conditions.",
+   "post_title": "New (Final) Rules in Mental Health Parity: I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/new-final-rules-in-mental-health",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I suspect",
+   "entities": [
+    "Department of Labor",
+    "HHS",
+    "MHPAEA",
+    "DSM",
+    "ICD",
+    "autism",
+    "dementia"
+   ],
+   "finder_note": "'These' refers to dementia and autism."
+  },
+  {
+   "id": "owen-1228",
+   "forecaster": "owen",
+   "statement_date": "2024-09-13",
+   "quote": "One could also imagine a world where you made general medical and surgical care more awful to bring both into parity. It’s not outside of our imagination that payers could do that, too.",
+   "context": "On how payers might meet the parity rule's comparison metrics (is MH/SUD paid for and accessible like medical/surgical care): rather than improving MH/SUD coverage, payers could worsen medical/surgical coverage to reach parity.",
+   "post_title": "New (Final) Rules in Mental Health Parity: I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/new-final-rules-in-mental-health",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "payers",
+    "MHPAEA",
+    "Department of Labor"
+   ],
+   "finder_note": "Hedged possibility about payer behavior."
+  },
+  {
+   "id": "owen-1229",
+   "forecaster": "owen",
+   "statement_date": "2024-09-13",
+   "quote": "Another strategy to make MH/SUD parity happen? Just make it cost more! If you spend as much on MH/SUD care as you do on neurosurgery, the total cost of care goes up, and the parity check works out ok.",
+   "context": "Second hypothesized payer response to the parity rule: raise MH/SUD spending so the parity check passes while total cost of care rises. The author frames payer incentives as optimizing profit and medical loss ratio rather than saving money.",
+   "post_title": "New (Final) Rules in Mental Health Parity: I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/new-final-rules-in-mental-health",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "payers",
+    "MHPAEA"
+   ],
+   "finder_note": "Borderline: hypothetical strategy stated as a possibility, no explicit confidence word."
+  },
+  {
+   "id": "owen-1230",
+   "forecaster": "owen",
+   "statement_date": "2024-09-13",
+   "quote": "One expensive-enough drug or procedure for autism, Alzheimer’s, or any condition really could swing the balance in some plans.",
+   "context": "Closing of the parity post: a single costly autism or Alzheimer's drug or procedure could tip some health plans' parity math, followed by 'Be careful what you wish for.'",
+   "post_title": "New (Final) Rules in Mental Health Parity: I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/new-final-rules-in-mental-health",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "MHPAEA",
+    "autism",
+    "Alzheimer's"
+   ],
+   "finder_note": "Hedged; vague resolution criteria."
+  },
+  {
+   "id": "owen-1231",
+   "forecaster": "owen",
+   "statement_date": "2024-09-15",
+   "quote": "Human sexual behavior beyond what we explicitly agree to in agreements between partners won’t stop— if I had to make a bet.",
+   "context": "Closing argument of an essay linking infidelity (estimated 20-25% of marriages) to suicide attempts. The author predicts that sexual behavior outside partners' explicit agreements, i.e. infidelity, will not stop, framed as a bet.",
+   "post_title": "Infidelity Kills?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/infidelity-kills",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t stop— if I had to make a bet",
+   "entities": [],
+   "finder_note": "General behavioral prediction with no date or measurable quantity."
+  },
+  {
+   "id": "owen-1232",
+   "forecaster": "owen",
+   "statement_date": "2024-09-15",
+   "quote": "the degree to which we choose to acknowledge it, be less sh*tty to each other about it, and the degree to which we work on a cultural context for forgiveness might be able to change. These changes could be lifesaving.",
+   "context": "Same closing passage, right after the claim that infidelity will not stop. The author contrasts: cultural acknowledgement of infidelity and a context for forgiveness might change, and such change could save lives (reduce infidelity-linked suicides).",
+   "post_title": "Infidelity Kills?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/infidelity-kills",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might be able to change; could be lifesaving",
+   "entities": [],
+   "finder_note": "Compound hedged claim: cultural change is possible, and it would be lifesaving."
+  },
+  {
+   "id": "owen-1233",
+   "forecaster": "owen",
+   "statement_date": "2024-09-15",
+   "quote": "we don't spend time addressing the completely predictable infidelity that will happen in many long-term relationships",
+   "context": "Final paragraph: couples buy insurance for tiny risks and plan wedding seating but do not plan for infidelity, which the author asserts will happen in many long-term relationships.",
+   "post_title": "Infidelity Kills?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/infidelity-kills",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will happen",
+   "entities": [],
+   "finder_note": "Base-rate style prediction restating the essay's 20-25% lifetime figures; 'Admit it's likely to happen' repeats it two sentences later."
+  },
+  {
+   "id": "owen-1234",
+   "forecaster": "owen",
+   "statement_date": "2024-09-15",
+   "quote": "Planning via uncomfortable conversations could save our partner’s life, our own, or both.",
+   "context": "Final paragraph: the author claims that agreeing in advance on how partners will talk about likely infidelity could prevent suicides in couples.",
+   "post_title": "Infidelity Kills?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/infidelity-kills",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "could save",
+   "entities": [],
+   "finder_note": "Conditional, hedged outcome claim tied to the essay's infidelity-suicide link."
+  },
+  {
+   "id": "owen-1235",
+   "forecaster": "owen",
+   "statement_date": "2024-09-16",
+   "quote": "This is a good example of why the uptake on AI that hallucinates—or, in human terms, lies to you—misses a key motivation for humans.",
+   "context": "Essay on epistemic trust (Peter Fonagy's term): people trust messengers rather than messages. The author applies this to AI adoption: AI that hallucinates misses the human need for truth, implying that uptake of such AI will be limited.",
+   "post_title": "Stop Being So Positive!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/stop-being-so-positive",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Borderline: present-tense analysis with an implicit adoption forecast (hallucinating AI will struggle for trust and uptake). Logged for recall."
+  },
+  {
+   "id": "owen-1236",
+   "forecaster": "owen",
+   "statement_date": "2024-09-18",
+   "quote": "It gave me a new tool here on Substack, and I’ll use it less-than-polishedly.",
+   "context": "Short video/podcast post responding to reader feedback on the infidelity column. The author says Substack gave him a new video tool and he intends to keep using it in an unpolished way.",
+   "post_title": "Infidelity: A Failure of Mentalizing?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/infidelity-a-failure-of-mentalizing",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I’ll",
+   "entities": [
+    "Substack",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Trivial own-newsletter intention; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1237",
+   "forecaster": "owen",
+   "statement_date": "2024-09-20",
+   "quote": "Transcranial Focused Ultrasound (tFUS) is Coming to Brain Health",
+   "context": "Title and thesis of the post: the author predicts low-intensity transcranial focused ultrasound will become a brain-health (psychiatric) treatment, able to reach deep brain targets TMS cannot. He notes Acacia Clinics (his clinic) is running a tFUS anxiety trial and names Samn.ai, OpenWater and BrainSonix as companies in the race, with over $100m raised at OpenWater.",
+   "post_title": "Transcranial Focused Ultrasound (tFUS) is Coming to Brain Health",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/transcranial-focused-ultrasound-tfus",
+   "area_guess": "practice_adoption",
+   "horizon_text": "is Coming",
+   "confidence_phrase": "is Coming",
+   "entities": [
+    "tFUS",
+    "Acacia Clinics",
+    "Samn.ai",
+    "OpenWater",
+    "BrainSonix",
+    "TMS"
+   ],
+   "finder_note": "Title-level call; author's own clinic runs a tFUS trial (possible CONTROL interest)."
+  }
+ ]
+}

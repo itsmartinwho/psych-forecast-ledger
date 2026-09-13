@@ -1,0 +1,855 @@
+{
+ "packet": "code-22.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0940",
+   "forecaster": "owen",
+   "statement_date": "2024-03-27",
+   "quote": "the announcement of the Optum Acquisition of Stewart Health brings 50% of physicians in MA under the employ of Optum",
+   "context": "One-line note with a graphic. The author says the announced Optum acquisition of Stewart (Steward) Health puts 50% of Massachusetts physicians under Optum's employ. At the post date (2024-03-27) the deal is announced, not closed.",
+   "post_title": "I'm Sorry, I Can't Authorize That, Dave",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-sorry-i-cant-authorize-that-dave",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Optum",
+    "Stewart Health",
+    "Massachusetts physicians"
+   ],
+   "finder_note": "Borderline: states the effect of an announced, pending acquisition as a present fact; the 50% figure is the author's characterization."
+  },
+  {
+   "id": "owen-0941",
+   "forecaster": "owen",
+   "statement_date": "2024-03-27",
+   "quote": "More tomorrow…",
+   "context": "Closing line promising more content the next day on the Optum/Steward Health topic.",
+   "post_title": "I'm Sorry, I Can't Authorize That, Dave",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-sorry-i-cant-authorize-that-dave",
+   "area_guess": "other",
+   "horizon_text": "tomorrow",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter content promise; low forecast value; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0942",
+   "forecaster": "owen",
+   "statement_date": "2024-03-28",
+   "quote": "We have data that demonstrate psychiatric interventions t hat work rapidly might provide the most robust savings for the economics of Medicaid.",
+   "context": "Argument that state Medicaid plans should cover TMS. Because Medicaid enrollment averages about 10 months, the author claims rapid-acting psychiatric interventions such as TMS might give Medicaid the largest savings.",
+   "post_title": "Transcranial Magnetic Stimulation (TMS) Should Be Covered by Medicaid: An Argument",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/transcranial-magnetic-stimulation",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "Medicaid",
+    "TMS"
+   ],
+   "finder_note": "Borderline: hedged analytic claim about savings if adopted. The 't hat' typo is verbatim."
+  },
+  {
+   "id": "owen-0944",
+   "forecaster": "owen",
+   "statement_date": "2024-03-28",
+   "quote": "if you run a Medicaid Plan, I thank you for your coverage policy changes in advance!",
+   "context": "Closing line of the TMS-for-Medicaid essay. Rhetorical thanks in advance that implies an expectation, or hope, that Medicaid plan administrators will change coverage policy to include TMS.",
+   "post_title": "Transcranial Magnetic Stimulation (TMS) Should Be Covered by Medicaid: An Argument",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/transcranial-magnetic-stimulation",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Medicaid",
+    "TMS"
+   ],
+   "finder_note": "Rhetorical and humorous; reads as a wish more than a forecast. Borderline, logged for recall."
+  },
+  {
+   "id": "owen-0945",
+   "forecaster": "owen",
+   "statement_date": "2024-03-29",
+   "quote": "There are many reasons a trial will fail, and the ar ketamine story is unlikely to be over yet.",
+   "context": "After quoting atai Life Sciences' announcement that PCN-101 (R-ketamine, arketamine, Perception Neuroscience) missed its Phase 2a primary endpoint at 24 hours, the author expects the arketamine development story to continue.",
+   "post_title": "Spravato",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/spravato",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "atai Life Sciences",
+    "Perception Neuroscience",
+    "PCN-101",
+    "arketamine (R-ketamine)"
+   ],
+   "finder_note": "Hedged call that the arketamine program is not finished despite the failed Phase 2a."
+  },
+  {
+   "id": "owen-0946",
+   "forecaster": "owen",
+   "statement_date": "2024-03-29",
+   "quote": "It’s not yet approved as a monotherapy—treatment on its own.",
+   "context": "Summary bullet on Spravato (esketamine), approved only with a concurrent oral antidepressant. 'Yet' implies the author expects a possible future monotherapy approval; earlier in the post: 'it is only approved (yet) in adults who have concurrent oral antidepressant treatment.'",
+   "post_title": "Spravato",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/spravato",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "not yet",
+   "entities": [
+    "Spravato",
+    "esketamine",
+    "Janssen",
+    "FDA"
+   ],
+   "finder_note": "Implicit forecast carried by 'yet'; borderline. Compound with the earlier '(yet)' aside."
+  },
+  {
+   "id": "owen-0947",
+   "forecaster": "owen",
+   "statement_date": "2024-03-29",
+   "quote": "That is likely to require another article.",
+   "context": "After citing a meta-analysis showing racemic ketamine outperforms esketamine, the author says a full ketamine-versus-esketamine comparison will likely need its own article.",
+   "post_title": "Spravato",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/spravato",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "ketamine",
+    "esketamine"
+   ],
+   "finder_note": "Own-newsletter content promise; low forecast value; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0948",
+   "forecaster": "owen",
+   "statement_date": "2024-03-30",
+   "quote": "This science is more likely to be dismissed as flights of fancy by the rest of you",
+   "context": "The author argues that research on nutritional ketosis for bipolar disorder, often championed by people who themselves have bipolar disorder, is likely to be dismissed by others because of stigma.",
+   "post_title": "Nutritional Ketosis for Bipolar Disorder",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/nutritional-ketosis-for-bipolar-disorder",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "more likely",
+   "entities": [
+    "nutritional ketosis",
+    "ketogenic diet",
+    "bipolar disorder"
+   ],
+   "finder_note": "General tendency claim about how the science will be received; borderline forward-looking."
+  },
+  {
+   "id": "owen-0950",
+   "forecaster": "owen",
+   "statement_date": "2024-03-31",
+   "quote": "And if placebo response is getting more and more robust (according to expert raters), that becomes harder.",
+   "context": "Citing a meta-analysis (Rief et al. 2009) showing rising expert-rated placebo response in antidepressant trials, the author says beating placebo to demonstrate efficacy becomes harder if that trend continues.",
+   "post_title": "Whence, Placebo? Controlled Trials Beyond Double Blind RCTs",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/whence-placebo-controlled-trials",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Rief et al. (2009)"
+   ],
+   "finder_note": "Conditional trend statement; borderline forward-looking (trend continuation makes trials harder)."
+  },
+  {
+   "id": "owen-0951",
+   "forecaster": "owen",
+   "statement_date": "2024-04-01",
+   "quote": "We should expect a storm of these reviews, meta-reviews, and network-meta-meta-meta analyses.",
+   "context": "After critiquing the Yao et al. 2024 psychedelic meta-analysis (Psychiatry Research) for omitting the MindMed MM-120 LSD trial, the author predicts a flood of reviews and meta-analyses on psychedelic medicine because they are easier than original research; adds 'even not-so-good reviews will get cited'.",
+   "post_title": "How Big of A Deal Are Psychedelic Medicines Likely to Be?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-big-of-a-deal-are-psychedelic",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "should expect",
+   "entities": [
+    "Yao et al. (2024)",
+    "Psychiatry Research",
+    "psilocybin",
+    "MDMA",
+    "LSD",
+    "MindMed"
+   ],
+   "finder_note": "'should expect' is predictive, not normative."
+  },
+  {
+   "id": "owen-0952",
+   "forecaster": "owen",
+   "statement_date": "2024-04-04",
+   "quote": "This corrosion of close relationships is an accelerating problem for both individual men and society.",
+   "context": "Podcast intro with Jeremy Fox, LPC, on male friendship. After noting 15% of men report no close friendships, the author claims the loss of male friendships is an accelerating problem.",
+   "post_title": "The End of Bromance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-end-of-bromance",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Jeremy Fox"
+   ],
+   "finder_note": "Trend claim ('accelerating'); borderline forward-looking."
+  },
+  {
+   "id": "owen-0953",
+   "forecaster": "owen",
+   "statement_date": "2024-04-04",
+   "quote": "It’s a night of thrilling conversations about the future of mental health. It features speakers from…Videra, MDHub, Osmind, Neurosigma, iRxReminder, and…Lykos Theraputics!",
+   "context": "Announcement of 'Rapid Acting Mental Health Treatment NYC 2024' on May 5th, 2024 (Eventbrite link), the second in-person Frontier Psychiatrists event, with the listed speaker companies.",
+   "post_title": "The End of Bromance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-end-of-bromance",
+   "area_guess": "other",
+   "horizon_text": "May 5th, 2024",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT NYC 2024",
+    "Videra",
+    "MDHub",
+    "Osmind",
+    "Neurosigma",
+    "iRxReminder",
+    "Lykos Therapeutics"
+   ],
+   "finder_note": "Own-event announcement (RAMHT and Videra are the author's organizations); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0954",
+   "forecaster": "owen",
+   "statement_date": "2024-04-04",
+   "quote": "More info to come…but it’s the second IRL The Frontier Psychiatrists event, and we could not be more excited to have you!",
+   "context": "Same RAMHT NYC 2024 announcement; promise of more information about the May 5th, 2024 event.",
+   "post_title": "The End of Bromance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-end-of-bromance",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "RAMHT NYC 2024"
+   ],
+   "finder_note": "Content promise about the author's own event; CONTROL candidate."
+  },
+  {
+   "id": "owen-0955",
+   "forecaster": "owen",
+   "statement_date": "2024-04-05",
+   "quote": "They are those who will have a vastly higher likelihood of a personality disorder. Those individuals are also, paradoxically, most likely to go into remission later.",
+   "context": "Essay against physician-assisted suicide for psychiatric illness, prompted by the Dutch case of Zoraya ter Beek. The author predicts that the cohort most enthusiastic about psychiatric euthanasia will disproportionately have personality disorders, and that these same people are the most likely to remit later.",
+   "post_title": "Personality Disorders Exist",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/personality-disorders-exist",
+   "area_guess": "other",
+   "horizon_text": "later",
+   "confidence_phrase": "will",
+   "entities": [
+    "Netherlands",
+    "borderline personality disorder",
+    "physician-assisted suicide"
+   ],
+   "finder_note": "Conditional on offering PAS for psychiatric illness ('If we are going to offer...'); compound claim."
+  },
+  {
+   "id": "owen-0956",
+   "forecaster": "owen",
+   "statement_date": "2024-04-05",
+   "quote": "Physician-assisted suicide for psychiatric disorders will inevitably— pointlessly—end the lives of individuals with personality disorders at disproportionate rates.",
+   "context": "Same essay. Strong call about the outcome of psychiatric euthanasia policy, with the Netherlands as the example.",
+   "post_title": "Personality Disorders Exist",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/personality-disorders-exist",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will inevitably",
+   "entities": [
+    "Netherlands",
+    "physician-assisted suicide",
+    "personality disorders"
+   ],
+   "finder_note": "Author calls the policy 'a tragic and catastrophically misinformed decision'."
+  },
+  {
+   "id": "owen-0957",
+   "forecaster": "owen",
+   "statement_date": "2024-04-05",
+   "quote": "The porous and suggestible sense of self and poor concept of agency is the problem …a problem that will, in almost everyone, improve with time.",
+   "context": "BPD prognosis claim. The author cites Gunderson and Zanarini data (85% remission at 10 years, up to 99% at 26 years) and states that BPD improves with time in almost everyone; earlier: 'it's just wait. It will get better.'",
+   "post_title": "Personality Disorders Exist",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/personality-disorders-exist",
+   "area_guess": "other",
+   "horizon_text": "with time",
+   "confidence_phrase": "will, in almost everyone",
+   "entities": [
+    "borderline personality disorder",
+    "John Gunderson",
+    "Mary Zanarini"
+   ],
+   "finder_note": "General clinical prognosis, not a dated forecast; restates 'It will get better.' Borderline."
+  },
+  {
+   "id": "owen-0958",
+   "forecaster": "owen",
+   "statement_date": "2024-04-06",
+   "quote": "When we call attention to suicide, when we pay attention to suicidal behavior, we get more death by suicide",
+   "context": "Follow-up on viral media coverage of the Dutch woman choosing euthanasia. The author argues that attention reinforces suicidal behavior (contagion) and recommends limits on how people promote their euthanasia choice.",
+   "post_title": "At a Bare Minimum, How About We Make Euthanasia a Choice that Precludes Doing a Ton of Media About Your Choice to Die by Euthanasia?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/at-a-bare-minimum-how-about-we-make",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Netherlands",
+    "Pamela Wible"
+   ],
+   "finder_note": "General causal claim with a predictive reading (more attention leads to more suicide). The recommendation 'Don't give people endless attention for the choice' is normative and not logged. Borderline."
+  },
+  {
+   "id": "owen-0959",
+   "forecaster": "owen",
+   "statement_date": "2024-04-07",
+   "quote": "I think these might need a different name in the future—what happens when species diverge in evolution?",
+   "context": "Intro to the first episode of a produced audio series on Alan Emamdee, D.O. The author says highly produced audio pieces might need a name other than 'podcast' in the future.",
+   "post_title": "The Trial of Dr. Alan Emamdee I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-trial-of-dr-alan-emamdee-i",
+   "area_guess": "other",
+   "horizon_text": "in the future",
+   "confidence_phrase": "might",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Alan Emamdee"
+   ],
+   "finder_note": "Trivial own-media musing; low forecast value."
+  },
+  {
+   "id": "owen-0960",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "This, to be clear, will keep happening. It’s in UnitedHealth Group’s (fiscal) interest.",
+   "context": "Second ransomware extortion of Change Healthcare (Optum, UnitedHealth Group) by RansomHub after the ALPHV/BlackCat attack. The author predicts continued attacks and argues UHG benefits financially from delayed claim payments.",
+   "post_title": "BREAKING!: Second Ransomware Attack on Change Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/breaking-second-ransomware-attack",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will keep happening",
+   "entities": [
+    "Change Healthcare",
+    "UnitedHealth Group",
+    "Optum",
+    "RansomHub",
+    "ALPHV/BlackCat"
+   ],
+   "finder_note": "Author says he 'completely predicted' the second attack; restatement of an earlier call."
+  },
+  {
+   "id": "owen-0961",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "it would require fines from the DOJ at a scale I highly doubt they are willing to levy.",
+   "context": "Same post. The author says only very large DOJ fines would change UnitedHealth Group's behavior and doubts the DOJ will levy them.",
+   "post_title": "BREAKING!: Second Ransomware Attack on Change Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/breaking-second-ransomware-attack",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "I highly doubt",
+   "entities": [
+    "DOJ",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Negative call on the scale of DOJ enforcement."
+  },
+  {
+   "id": "owen-0962",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "That is our personal health information that is about to be sold to the dark web.",
+   "context": "RansomHub claims 4 TB of Change Healthcare data and threatens to sell it within 12 days. The author expects the protected health information to be sold on the dark web ('Regulators? Buckle up.').",
+   "post_title": "BREAKING!: Second Ransomware Attack on Change Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/breaking-second-ransomware-attack",
+   "area_guess": "other",
+   "horizon_text": "about to be",
+   "confidence_phrase": "about to be",
+   "entities": [
+    "RansomHub",
+    "Change Healthcare",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Adopts RansomHub's 12-day sale threat as an expectation."
+  },
+  {
+   "id": "owen-0963",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "More news as it breaks.",
+   "context": "Closing content promise about the Change Healthcare ransomware story.",
+   "post_title": "BREAKING!: Second Ransomware Attack on Change Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/breaking-second-ransomware-attack",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Change Healthcare"
+   ],
+   "finder_note": "Own-newsletter content promise; low forecast value; CONTROL candidate."
+  },
+  {
+   "id": "owen-0964",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "The Next? It’s in NYC….In the middle of the American Psychiatric Association Annual Meeting 2024 time frame. It’s free for APA members, but it is also open to the public.",
+   "context": "Announcement of the Rapid Acting Mental Health Treatment (RAMHT) conference in NYC on May 5th, 2024, after the first one in San Francisco in January 2024.",
+   "post_title": "The Frontier Psychiatrists...LIVE! May 5th, 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-frontier-psychiatristslive-may",
+   "area_guess": "other",
+   "horizon_text": "American Psychiatric Association Annual Meeting 2024 time frame",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT NYC 2024",
+    "American Psychiatric Association",
+    "NYC"
+   ],
+   "finder_note": "Own-event plan; CONTROL candidate."
+  },
+  {
+   "id": "owen-0965",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "Ben Everett, Ph.D. from Lykos Theraputics will be there.",
+   "context": "Speaker announcement for RAMHT NYC 2024 (May 5th, 2024). The author adds that Lykos (formerly MAPS PBC) cannot say anything that would jeopardize its FDA review process, so the conversation will be 'appropriately boundried'.",
+   "post_title": "The Frontier Psychiatrists...LIVE! May 5th, 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-frontier-psychiatristslive-may",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Ben Everett",
+    "Lykos Therapeutics",
+    "MAPS PBC",
+    "FDA"
+   ],
+   "finder_note": "Own-event speaker plan; CONTROL candidate. Mentions Lykos's FDA review as ongoing, no call on its outcome."
+  },
+  {
+   "id": "owen-0966",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "Maybe you want to understand how AI will transform psychiatric care?",
+   "context": "Rhetorical question setting up the mdhub.ai and Videra Health panel at RAMHT NYC 2024; it presupposes that AI will transform psychiatric care.",
+   "post_title": "The Frontier Psychiatrists...LIVE! May 5th, 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-frontier-psychiatristslive-may",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "mdhub.ai",
+    "Videra Health",
+    "AI"
+   ],
+   "finder_note": "Embedded in a rhetorical question; a presupposition, not an explicit call. Borderline."
+  },
+  {
+   "id": "owen-0967",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "Dominik Middelmann mdhub.ai —helping physicians get their notes done—will be in the same room as Brett Talbot, Ph.D. from Videra Health —measuring outcomes with video capture AI models.",
+   "context": "Speaker lineup for RAMHT NYC 2024 (May 5th, 2024): AI-in-psychiatry panel.",
+   "post_title": "The Frontier Psychiatrists...LIVE! May 5th, 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-frontier-psychiatristslive-may",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Dominik Middelmann",
+    "mdhub.ai",
+    "Brett Talbot",
+    "Videra Health"
+   ],
+   "finder_note": "Own-event speaker plan; Videra is the author's organization; CONTROL candidate."
+  },
+  {
+   "id": "owen-0968",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "Between Osmind’s CMO and iRxReminder’s COO Fred Ma, M.D. on the same stage, we all might learn something.",
+   "context": "RAMHT NYC 2024 panel on how real-world evidence might affect future FDA approval of novel interventions.",
+   "post_title": "The Frontier Psychiatrists...LIVE! May 5th, 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-frontier-psychiatristslive-may",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "Osmind",
+    "iRxReminder",
+    "Fred Ma",
+    "FDA"
+   ],
+   "finder_note": "Own-event speaker plan; CONTROL candidate. The RWE-and-FDA framing is a question, not a call."
+  },
+  {
+   "id": "owen-0969",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "conference Co-Founder Grady Hannah of Nightware will be chatting with author Michelle Bernabe, R.N., about that very topic.",
+   "context": "RAMHT NYC 2024 session on how AI-guided digital therapeutics got to market.",
+   "post_title": "The Frontier Psychiatrists...LIVE! May 5th, 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-frontier-psychiatristslive-may",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will be",
+   "entities": [
+    "Grady Hannah",
+    "Nightware",
+    "Michelle Bernabe"
+   ],
+   "finder_note": "Own-event speaker plan; CONTROL candidate."
+  },
+  {
+   "id": "owen-0970",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "learn about sympathetic nervous system biology from James Lynch, M.D. , the founder of the Stellate Institute. It’s going to be a banger.",
+   "context": "Closing speaker mention for RAMHT NYC 2024 (stellate ganglion block for PTSD) and a forecast that the event will be a success.",
+   "post_title": "The Frontier Psychiatrists...LIVE! May 5th, 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-frontier-psychiatristslive-may",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "going to be",
+   "entities": [
+    "James Lynch",
+    "Stellate Institute"
+   ],
+   "finder_note": "Own-event; 'banger' is hyperbole, the speaker plan is sincere. CONTROL candidate."
+  },
+  {
+   "id": "owen-0971",
+   "forecaster": "owen",
+   "statement_date": "2024-04-09",
+   "quote": "reached out to RandomHub, which given the literal scammer profession of those involved may or may not turn out to have something to do with BlackCat/ALPHV",
+   "context": "Wired's Andy Greenberg contacted RansomHub (typo 'RandomHub' in the post). The author hedges on whether RansomHub is connected to BlackCat/ALPHV, the group behind the first Change Healthcare attack.",
+   "post_title": "\"Don't Just Say Hi\" On The Hacker Slack..and other Change Healthcare Stories",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-just-say-hi-on-the-hacker-slackand",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may or may not",
+   "entities": [
+    "RansomHub",
+    "BlackCat/ALPHV",
+    "Andy Greenberg",
+    "Wired",
+    "Change Healthcare"
+   ],
+   "finder_note": "Explicit hedge with no lean; borderline value."
+  },
+  {
+   "id": "owen-0973",
+   "forecaster": "owen",
+   "statement_date": "2024-04-10",
+   "quote": "I am also hosting a real-life conference on the topic— RAMHT NYC 2024 —on May 5th.",
+   "context": "Intro to the Seroquel review; the author restates the RAMHT NYC 2024 conference on rapid-acting mental health treatments, May 5th, 2024.",
+   "post_title": "Seroquel I: Schizophrenia ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/seroquel-i-schizophrenia",
+   "area_guess": "other",
+   "horizon_text": "May 5th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT NYC 2024"
+   ],
+   "finder_note": "Own-event plan, restates earlier announcements; CONTROL candidate."
+  },
+  {
+   "id": "owen-0979",
+   "forecaster": "owen",
+   "statement_date": "2024-04-10",
+   "quote": "There’s more data on this medication and other indications, to stick around for the next episode.",
+   "context": "Closing content promise for the Seroquel series; earlier: 'some of the other concerns additional articles will address… foreshadowing!'",
+   "post_title": "Seroquel I: Schizophrenia ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/seroquel-i-schizophrenia",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Seroquel"
+   ],
+   "finder_note": "Own-newsletter content promise; low forecast value; CONTROL candidate."
+  },
+  {
+   "id": "owen-0980",
+   "forecaster": "owen",
+   "statement_date": "2024-04-11",
+   "quote": "It’s also a live-action series of conferences called “Rapid Acting Mental Health Treatment”—the next is in NYC on May 5th.",
+   "context": "Opening boilerplate of a post dissecting the Black et al. 2014 quetiapine trial in borderline personality disorder. The author says his own conference series, Rapid Acting Mental Health Treatment (RAMHT), holds its next event in New York City on May 5th (2024).",
+   "post_title": "Seroquel II: Borderline Personality Disorder",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/seroquel-ii-borderline-personality",
+   "area_guess": "other",
+   "horizon_text": "May 5th",
+   "confidence_phrase": "none",
+   "entities": [
+    "Rapid Acting Mental Health Treatment",
+    "RAMHT"
+   ],
+   "finder_note": "Event announcement for the author's own conference; scheduling claim, control candidate."
+  },
+  {
+   "id": "owen-0981",
+   "forecaster": "owen",
+   "statement_date": "2024-04-12",
+   "quote": "I am hosting a live event. It’s May 5th.",
+   "context": "Closing of a short post on the origin of the name Seroquel. The author announces that he hosts the live Rapid Acting Mental Health Treatment 2024 NYC event on May 5th (2024).",
+   "post_title": "Seroquel III: What is in A Name?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/seroquel-iii-what-is-in-a-name",
+   "area_guess": "other",
+   "horizon_text": "May 5th",
+   "confidence_phrase": "none",
+   "entities": [
+    "Rapid Acting Mental Health Treatment",
+    "RAMHT"
+   ],
+   "finder_note": "Event announcement, own conference; control candidate."
+  },
+  {
+   "id": "owen-0982",
+   "forecaster": "owen",
+   "statement_date": "2024-04-15",
+   "quote": "Please consider subscribing to this newsletter, and becoming a paid subscriber, it requires a lot of work to do, and I am likely to do more of them if you subscribe!",
+   "context": "Closing subscription pitch of the Seroquel bipolar depression review. The author says he is likely to write more comprehensive pieces like this one if readers subscribe.",
+   "post_title": "Seroquel IV: Bipolar Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/seroquel-iv-bipolar-depression",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Conditional statement about the author's own newsletter output; control candidate."
+  },
+  {
+   "id": "owen-0983",
+   "forecaster": "owen",
+   "statement_date": "2024-04-15",
+   "quote": "The above discourse probably warrants a dedicated article, so I’m going to give it a rest, for the time being.",
+   "context": "Footnote 4 of the Seroquel bipolar depression post, attached to the discussion of D2 receptor occupancy and extrapyramidal side effects. The author says the topic deserves its own future article and that he sets it aside for now.",
+   "post_title": "Seroquel IV: Bipolar Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/seroquel-iv-bipolar-depression",
+   "area_guess": "other",
+   "horizon_text": "for the time being",
+   "confidence_phrase": "probably",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Weak statement of intent about future newsletter content; control candidate."
+  },
+  {
+   "id": "owen-0985",
+   "forecaster": "owen",
+   "statement_date": "2024-04-16",
+   "quote": "Updates: Join me as I proudly co-chair the Summit on Breakthrough Therapies for Addiction, taking place May 15-16 at Mount Sinai Medical Center Miami Beach and live-streamed online.",
+   "context": "Closing announcement of the insider trading satire post. The author says he will co-chair the Summit on Breakthrough Therapies for Addiction on May 15-16 (2024) at Mount Sinai Medical Center Miami Beach, also live-streamed online.",
+   "post_title": "What is Insider Trading?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-is-insider-trading",
+   "area_guess": "other",
+   "horizon_text": "May 15-16",
+   "confidence_phrase": "none",
+   "entities": [
+    "Summit on Breakthrough Therapies for Addiction",
+    "Mount Sinai Medical Center Miami Beach"
+   ],
+   "finder_note": "Event announcement of the author's own appearance; scheduling claim."
+  },
+  {
+   "id": "owen-0986",
+   "forecaster": "owen",
+   "statement_date": "2024-04-17",
+   "quote": "The discovery in the subsequent legal matters is getting more streamlined, at least.",
+   "context": "Short post on RansomHub leaking Change Healthcare data, including PHI and contracts between Change/UHC and counterparties. The author remarks, sardonically, that there will be subsequent legal matters over the breach and that the leaked contracts will make discovery in them easier.",
+   "post_title": "We Have The Data and Are Not Adorable BlackCats.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-have-the-data-and-are-not-adorable",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "RansomHub",
+    "Change Healthcare",
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "ALPHV/Blackcat"
+   ],
+   "finder_note": "Sarcastic aside; presupposes future litigation over the Change Healthcare breach."
+  },
+  {
+   "id": "owen-0987",
+   "forecaster": "owen",
+   "statement_date": "2024-04-18",
+   "quote": "Some new posts will have a paywall, and most will not, but 202 articles were jailbroken yesterday for all of the internet to enjoy.",
+   "context": "Housekeeping note at the top of the Hippocratic oath post. The author says he removed the paywall from 202 backlog articles and that, from now on, some new posts will be paywalled but most will not.",
+   "post_title": "The Hippocratic Oath: Revisited ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-hippocratic-oath-revisited",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own newsletter paywall policy; control candidate."
+  },
+  {
+   "id": "owen-0988",
+   "forecaster": "owen",
+   "statement_date": "2024-04-18",
+   "quote": "Quick Reminder: Upcoming May 5th Event: Rapid Acting Mental Health Treatment ., NYC. Tickets. Get Them.",
+   "context": "Reminder line in the Hippocratic oath post for the author's Rapid Acting Mental Health Treatment live event in NYC on May 5th (2024).",
+   "post_title": "The Hippocratic Oath: Revisited ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-hippocratic-oath-revisited",
+   "area_guess": "other",
+   "horizon_text": "May 5th",
+   "confidence_phrase": "none",
+   "entities": [
+    "Rapid Acting Mental Health Treatment",
+    "RAMHT"
+   ],
+   "finder_note": "Event announcement, own conference; control candidate."
+  }
+ ]
+}

@@ -1,0 +1,853 @@
+{
+ "packet": "code-31.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1377",
+   "forecaster": "owen",
+   "statement_date": "2024-12-02",
+   "quote": "Maybe I'll make it a regular thing!",
+   "context": "After inviting readers to request more classes on other topics if these are popular, the author floats making the online classes a regular series.",
+   "post_title": "Live Online Classes About Navigating Insurance ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/live-online-classes-about-navigating",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "Maybe",
+   "entities": [
+    "Owen Muir",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Hedged own-activity intention, conditional on popularity ('If these are popular'). Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1378",
+   "forecaster": "owen",
+   "statement_date": "2024-12-03",
+   "quote": "It is buying investigator time or study coordinator time early to have those conversations with potential subjects. If we pay for it, they will prioritize these conversations, like any other line item in a budget.",
+   "context": "Essay (inspired by Dan Karlin, M.D., CMO at MindMed) on aligning incentives between trial investigators and subjects. The author argues that budgeting investigator or study-coordinator time for early informed-consent conversations will make sites prioritize those conversations.",
+   "post_title": "The Uncomfortable Reality of Clinical Trials",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-uncomfortable-reality-of-clinical",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Dan Karlin",
+    "MindMed"
+   ],
+   "finder_note": "Borderline: general conditional claim about trial operations, close to a truism; logged for recall."
+  },
+  {
+   "id": "owen-1379",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "People hate you with a uniformity of opinion that is traditionally reserved for people who are literal mass murderers. And I think that kind of public relations problem isn't going to go away— absent radical changes.",
+   "context": "Addressing healthcare companies and specifically UnitedHealthcare after CEO Brian Thompson's murder and the vitriolic public reaction in the author's TikTok comments. He predicts the public-hatred / PR problem will persist unless the company changes radically.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... isn't going to",
+   "entities": [
+    "UnitedHealthcare",
+    "Brian Thompson"
+   ],
+   "finder_note": "Conditional ('absent radical changes')."
+  },
+  {
+   "id": "owen-1380",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "there are a lot more crackpots out there, and as life gets cheaper and cheaper; it's going to be harder to get decent people to try to turn the ship around.",
+   "context": "The author argues the assassination of UnitedHealthcare's CEO will make it harder to recruit decent people into insurance leadership to reform the system.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "it's going to be harder",
+   "entities": [
+    "UnitedHealthcare"
+   ],
+   "finder_note": "Compound: also implies continued violence risk ('a lot more crackpots out there')."
+  },
+  {
+   "id": "owen-1381",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "the only people who are going to take the job of insurance executive are people who are cold-blooded enough to think, “The risk is worth it.”",
+   "context": "Prediction about who will take insurance-executive jobs in a world where executives are murdered in the street; the author wants a better insurance system but says the candidate pool is being cut down.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to",
+   "entities": [
+    "UnitedHealthcare"
+   ],
+   "finder_note": "Rhetorical but sincere prediction about the insurance-executive labor pool."
+  },
+  {
+   "id": "owen-1382",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "This assassination creates a worse world; only the most callous will sign up for managing systems that require empathy and compassion. Without this compassion, we will be left bereft of people motivated to balance ethics and profit motives appropriately.",
+   "context": "Continues the argument: the murder will select for callous managers of health-insurance systems and leave the system without people able to balance ethics and profit.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "UnitedHealthcare"
+   ],
+   "finder_note": "Compound claim; stronger restatement of the preceding labor-pool prediction."
+  },
+  {
+   "id": "owen-1383",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "These systems desperately need more good people driven by moral scruples and passion, not just piles of money. We're going to get less of those now.",
+   "context": "About UnitedHealthcare's roughly 140,000 employees and insurance systems generally; the author predicts fewer principled people will join after the murder.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "company_market",
+   "horizon_text": "now",
+   "confidence_phrase": "We're going to",
+   "entities": [
+    "UnitedHealthcare"
+   ],
+   "finder_note": "First sentence is normative; the second is the prediction. Restates the labor-pool call."
+  },
+  {
+   "id": "owen-1384",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "United Healthcare is under no apprehension that its deeds, no matter how criminal, will ever lead to personal consequences for its executives or meaningful consequences for its shareholders.",
+   "context": "The author asserts UnitedHealthcare's political donations have 'kept a leash on the Department of Justice regarding enforcement'. Framed as the company's belief, the sentence carries the author's own expectation that no personal or shareholder consequences will follow from its conduct.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "regulatory",
+   "horizon_text": "ever",
+   "confidence_phrase": "will ever",
+   "entities": [
+    "UnitedHealthcare",
+    "Department of Justice"
+   ],
+   "finder_note": "Framed as UHC's belief; the surrounding text endorses it. Negative call on enforcement consequences."
+  },
+  {
+   "id": "owen-1385",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "If the public knows that wrongdoing will be appropriately prosecuted and people who break the law will be held to account, they're less likely to resort to murder.",
+   "context": "General deterrence principle in the argument that when government abdicates enforcement, 'street justice' follows; the author says enforcement protects everyone.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "less likely",
+   "entities": [
+    "Department of Justice"
+   ],
+   "finder_note": "Borderline: general conditional principle, close to a truism; logged for recall."
+  },
+  {
+   "id": "owen-1387",
+   "forecaster": "owen",
+   "statement_date": "2024-12-06",
+   "quote": "Class 2: Navigating the Out-of-Network (OON) Landscape When: Monday, Dec 9th at 11 a.m.",
+   "context": "Event plug at the bottom of the post: the author's out-of-network class with the Brooklyn and Beyond Mental Health Group, Monday December 9, 2024 at 11 a.m. (post dated 2024-12-06).",
+   "post_title": "Medication Adherence: It's A Problem, Unaddressed",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/medication-adherence-its-a-problem",
+   "area_guess": "other",
+   "horizon_text": "Monday, Dec 9th at 11 a.m.",
+   "confidence_phrase": "none",
+   "entities": [
+    "Owen Muir",
+    "Brooklyn and Beyond Mental Health Group"
+   ],
+   "finder_note": "Own-activity event announcement, restated from earlier posts. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1388",
+   "forecaster": "owen",
+   "statement_date": "2024-12-06",
+   "quote": "Rapid Acting Mental Health Treatment Sunday, January 12th, live in San Fran!",
+   "context": "Event plug at the bottom of the post: RAMHT (Rapid Acting Mental Health Treatment), the conference the author co-founded, on Sunday January 12, 2025 in San Francisco.",
+   "post_title": "Medication Adherence: It's A Problem, Unaddressed",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/medication-adherence-its-a-problem",
+   "area_guess": "other",
+   "horizon_text": "Sunday, January 12th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "Owen Muir"
+   ],
+   "finder_note": "Own-organization event announcement, restated from earlier posts. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1389",
+   "forecaster": "owen",
+   "statement_date": "2024-12-07",
+   "quote": "There are plenty of angry people armed with guns in America, and they're watching somebody get lionized in the press, and on social media, all day long, being called a hero. Maybe we can imagine that's not going to spread? But I very much think it will. When we cheer for murder, we get more murder.",
+   "context": "New intro (2024-12-07) after the CEO of UnitedHealthcare was murdered in New York and the public celebrated. The author argues that lionizing the killer in the press and on social media rewards the behavior ('when you pay attention to behavior, you get more of it') and predicts the violence will spread: 'Maybe we can imagine that's not going to spread? But I very much think it will.'",
+   "post_title": "An Open Letter to UnitedHealth Group after Declining My Employment Application: Redux",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-unitedhealth-group-4d1",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I very much think it will",
+   "entities": [
+    "UnitedHealthcare",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Sincere prediction in the fresh intro to a republished satire piece; predicts more copycat violence."
+  },
+  {
+   "id": "owen-1390",
+   "forecaster": "owen",
+   "statement_date": "2024-12-07",
+   "quote": "the person killed will now never be a witness for the government in prosecution against others at his company for insider trading",
+   "context": "Same intro. Aside inside the author's argument against cheering the murder; it presupposes a government prosecution of other UnitedHealth Group executives for insider trading (which the author has alleged in earlier posts) in which the dead CEO can no longer testify.",
+   "post_title": "An Open Letter to UnitedHealth Group after Declining My Employment Application: Redux",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-unitedhealth-group-4d1",
+   "area_guess": "other",
+   "horizon_text": "never",
+   "confidence_phrase": "will now never",
+   "entities": [
+    "UnitedHealthcare",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Near-truism (a dead person cannot testify); the forward-looking content is the presupposed insider-trading prosecution of UHG executives. Borderline."
+  },
+  {
+   "id": "owen-1393",
+   "forecaster": "owen",
+   "statement_date": "2024-12-07",
+   "quote": "And those expenses, all of those expenses , would find their way to the UnitedHealth Group balance sheet in a way that increased the total cost of doing business for their health insurance business, and thus increased the amount of profits they were allowed to make using a fixed medical loss ratio calculation .",
+   "context": "Republished open letter, 'Gem #3: Rage in Favor of the Machine and Its Subsidiaries!', framed as sincere analysis ('Here is how insane their incentives are'). Bulleted list: UnitedHealth Group's system of collecting disability disclosures before rejecting applicants invites class-action litigation in New York, plus retaliation in hiring; the author says these could be litigated and UHG could lose billions.",
+   "post_title": "An Open Letter to UnitedHealth Group after Declining My Employment Application: Redux",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-unitedhealth-group-4d1",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "Optum"
+   ],
+   "finder_note": "Hedged litigation-risk call inside a satirical piece; this section reads as sincere. Compound (class action + retaliation)."
+  },
+  {
+   "id": "owen-1394",
+   "forecaster": "owen",
+   "statement_date": "2024-12-07",
+   "quote": "That young man is now a friend, and he’s also going to train in child and adolescent psychiatry.",
+   "context": "Footnote 16 of the republished letter, on the author's public disclosure of his own bipolar disorder inspiring a hopeless medical student who heard him on Clubhouse; the author says this student is going to train in child and adolescent psychiatry.",
+   "post_title": "An Open Letter to UnitedHealth Group after Declining My Employment Application: Redux",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-unitedhealth-group-4d1",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is also going to",
+   "entities": [
+    "Clubhouse"
+   ],
+   "finder_note": "Personal statement about an unnamed third party's career plan; low forecast value."
+  },
+  {
+   "id": "owen-1395",
+   "forecaster": "owen",
+   "statement_date": "2024-12-07",
+   "quote": "turn that approach into a patentable technology which is now being brought to market by Magnus Medical",
+   "context": "Footnote 18 on the author's paper on rapid remission of suicidal depression with brain stimulation. He says Nolan Williams's Stanford lab standardized the protocol (SNT), completed randomized controlled trial work, and that the patented technology is being brought to market by Magnus Medical.",
+   "post_title": "An Open Letter to UnitedHealth Group after Declining My Employment Application: Redux",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-unitedhealth-group-4d1",
+   "area_guess": "company_market",
+   "horizon_text": "now",
+   "confidence_phrase": "is now being brought to market",
+   "entities": [
+    "Magnus Medical",
+    "Nolan Williams",
+    "Stanford",
+    "SNT"
+   ],
+   "finder_note": "Present-progressive statement that implies future commercial availability of SNT. Borderline forward-looking; text is a republished older piece."
+  },
+  {
+   "id": "owen-1396",
+   "forecaster": "owen",
+   "statement_date": "2024-12-09",
+   "quote": "I would invite you to the live class today on working as an out-of-network provider, but it sold out last night, so you'll have to wait for the next one.",
+   "context": "Author's intro before the guest essay by Ben Spielberg. The author's live class on working as an out-of-network provider sold out; he says there will be a next one.",
+   "post_title": "Why Ketamine Clinics Keep Closing",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-ketamine-clinics-keep-closing",
+   "area_guess": "other",
+   "horizon_text": "the next one",
+   "confidence_phrase": "you'll have to wait",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Own-newsletter programming promise; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1399",
+   "forecaster": "owen",
+   "statement_date": "2024-12-10",
+   "quote": "Thanks for listening, and we will be back with more writing tomorrow.",
+   "context": "Short post pointing readers to the author's appearance on The Mental Health Forecast podcast by Arjun Nanda, M.D.; promises more newsletter writing the next day.",
+   "post_title": "Owen Muir Joins The Mental Health Forecast Show",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-joins-the-mental-health",
+   "area_guess": "other",
+   "horizon_text": "tomorrow",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Arjun Nanda"
+   ],
+   "finder_note": "Routine publishing promise; low forecast value. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1402",
+   "forecaster": "owen",
+   "statement_date": "2024-12-11",
+   "quote": "He quickly replied, “ There’s no reason ,” and that’s when the idea for Living Water Mental Health BRAIN Treatment Center was hatched.",
+   "context": "Guest author Ben Greenzweig recounts asking the author (early 2024) whether Fermata-style drug-free neuromodulation (TMS with reported 79% remission and relief in as little as 5 days) could exist in Horry County or only in big cities like New York. The author answered there is no reason it cannot, i.e. the model can succeed in a rural/semi-rural market.",
+   "post_title": "Rural & Semi-Rural Mental Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rural-and-semi-rural-mental-health",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "There's no reason",
+   "entities": [
+    "Owen Muir",
+    "Fermata",
+    "Living Water Mental Health BRAIN Treatment Center",
+    "Horry County",
+    "TMS"
+   ],
+   "finder_note": "The author's stance as quoted by the guest author; the author edits and publishes it without dissent and is Medical Director of the clinic. Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1403",
+   "forecaster": "owen",
+   "statement_date": "2024-12-11",
+   "quote": "he shared that he was in the process of building another company with two healthcare veterans, called Breakthrough6 , that would be in the business of planting hundreds of mental health treatment centers throughout the country.",
+   "context": "Guest author Ben Greenzweig reports the author's plan for Breakthrough6 (with healthcare veterans Robert Jordshaugen and Lincoln Fish): a company to plant hundreds of mental health treatment centers across the US, providing clinical infrastructure to scale rapidly with non-invasive neuromodulation prescribed virtually by a physician but administered locally. Living Water (opened November 2024) is its pilot site.",
+   "post_title": "Rural & Semi-Rural Mental Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rural-and-semi-rural-mental-health",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "would be",
+   "entities": [
+    "Breakthrough6",
+    "Owen Muir",
+    "Robert Jordshaugen",
+    "Lincoln Fish",
+    "Living Water Mental Health BRAIN Treatment Center"
+   ],
+   "finder_note": "Author's own-company plan (Breakthrough6) as reported by the guest author; numeric ('hundreds of' centers). Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1408",
+   "forecaster": "owen",
+   "statement_date": "2024-12-12",
+   "quote": "It's also true that if all the healthcare payments collapse, we're all going to be worse off.",
+   "context": "Short post introducing a video explainer that compares flood insurance with drug pricing and health insurance, amid public anger at UnitedHealthcare and insurance denials. The author warns that a collapse of healthcare payments would leave everyone worse off.",
+   "post_title": "The Problem(s) With Health Insurance: Video 'Splainers!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-problems-with-health-insurance",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "going to be",
+   "entities": [
+    "UnitedHealthcare",
+    "health insurance"
+   ],
+   "finder_note": "Conditional; near-truism."
+  },
+  {
+   "id": "owen-1409",
+   "forecaster": "owen",
+   "statement_date": "2024-12-13",
+   "quote": "It might even make it to a patient sooner rather than later.",
+   "context": "Author's opening on the 17-year average lag from scientific publication to clinical practice. He explains research to readers so they can apply it for themselves, family, practice or friends, with the hedged expectation that the research (here accelerated and deep TMS) reaches patients faster.",
+   "post_title": "Accelerated dTMS in Alcohol Use Disorder and \"Very Treatment Resistant\" Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/accelerated-dtms-in-alcohol-use-disorder",
+   "area_guess": "practice_adoption",
+   "horizon_text": "sooner rather than later",
+   "confidence_phrase": "might",
+   "entities": [
+    "Brainsway",
+    "dTMS"
+   ],
+   "finder_note": "Vague, hedged; the antecedent of 'it' is research reaching clinical practice via informed readers."
+  },
+  {
+   "id": "owen-1410",
+   "forecaster": "owen",
+   "statement_date": "2024-12-13",
+   "quote": "There's more coming every day and more hope — we're trying to make it more accessible, too.",
+   "context": "Closing of a post on Brainsway's published pilot of accelerated deep TMS (H7 coil) in alcohol use disorder in veterans and the author's Fermata case series with Irfan Handoo (dTMS with H1/H7 coils, 69.05% mean remission in six patients refractory to rTMS, ECT and IV ketamine). The author says more such data is coming and his shop is working to make the treatment more accessible.",
+   "post_title": "Accelerated dTMS in Alcohol Use Disorder and \"Very Treatment Resistant\" Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/accelerated-dtms-in-alcohol-use-disorder",
+   "area_guess": "clinical_trial",
+   "horizon_text": "every day",
+   "confidence_phrase": "There's more coming",
+   "entities": [
+    "Fermata",
+    "Brainsway",
+    "dTMS",
+    "Irfan Handoo",
+    "Carlene MacMillan"
+   ],
+   "finder_note": "Vague forward-looking promise about upcoming data and accessibility; own-organization (Fermata). Coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1411",
+   "forecaster": "owen",
+   "statement_date": "2024-12-16",
+   "quote": "One of the underlying themes of the newsletter and my career is that medical devices will matter in the future.",
+   "context": "Opening of the open letter to the incoming Trump administration. The author states his long-running thesis that medical devices (neuromodulation for psychiatric disorders) will matter in the future of healthcare.",
+   "post_title": "Open Letters to the Incoming Trump Administration: Cutting Out the Middle Man*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/open-letters-to-the-incoming-trump",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in the future",
+   "confidence_phrase": "will",
+   "entities": [
+    "medical devices",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Broad thesis statement; restated across many posts."
+  },
+  {
+   "id": "owen-1413",
+   "forecaster": "owen",
+   "statement_date": "2024-12-16",
+   "quote": "It's gonna be hard to blow up that $500 billion+ a year industry—growing at an 8.8% CAGR—without them causing a ruckus.",
+   "context": "Responding to Trump's pledge to knock out the PBM middlemen, the author predicts the PBM industry (OptumRx/UnitedHealth, Express Scripts/Cigna, CVS Caremark) will resist and that dismantling it will be hard; he cites its size and growth rate.",
+   "post_title": "Open Letters to the Incoming Trump Administration: Cutting Out the Middle Man*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/open-letters-to-the-incoming-trump",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "gonna be hard",
+   "entities": [
+    "pharmacy benefit managers",
+    "OptumRx",
+    "UnitedHealth Group",
+    "Express Scripts",
+    "Cigna",
+    "CVS Caremark",
+    "Donald Trump"
+   ],
+   "finder_note": "Implicit call that PBMs will not be easily eliminated; includes an 8.8% CAGR growth figure."
+  },
+  {
+   "id": "owen-1414",
+   "forecaster": "owen",
+   "statement_date": "2024-12-16",
+   "quote": "Just looking at antidepressant drugs alone , we can see that there are billions upon billions spent and projected to grow:",
+   "context": "Introducing a chart of antidepressant drug spending. The author restates a market projection that antidepressant spending (in billions) will keep growing, with PBMs collecting rebates on those drugs.",
+   "post_title": "Open Letters to the Incoming Trump Administration: Cutting Out the Middle Man*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/open-letters-to-the-incoming-trump",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "projected to grow",
+   "entities": [
+    "antidepressant drugs",
+    "pharmacy benefit managers"
+   ],
+   "finder_note": "Endorsed restatement of a chart projection; source of the projection not named in text."
+  },
+  {
+   "id": "owen-1415",
+   "forecaster": "owen",
+   "statement_date": "2024-12-16",
+   "quote": "Instead of getting into a huge fight with health plans about their PBM's, which the administration may be doing anyway, and I couldn't stop if I wanted to",
+   "context": "The author hedges that the incoming Trump administration may fight health plans over their PBMs regardless of his advice, while recommending it first pay for drug-preventing device treatments.",
+   "post_title": "Open Letters to the Incoming Trump Administration: Cutting Out the Middle Man*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/open-letters-to-the-incoming-trump",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "Trump administration",
+    "pharmacy benefit managers",
+    "health plans"
+   ],
+   "finder_note": "Hedged aside inside a recommendation."
+  },
+  {
+   "id": "owen-1416",
+   "forecaster": "owen",
+   "statement_date": "2024-12-16",
+   "quote": "What if they were well because a medical device changed their brain? This is the future that I think is already here and getting better every day.",
+   "context": "The author claims device-based psychiatric treatment (replacing antidepressants and antipsychotics) is already here and will keep improving.",
+   "post_title": "Open Letters to the Incoming Trump Administration: Cutting Out the Middle Man*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/open-letters-to-the-incoming-trump",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I think",
+   "entities": [
+    "medical devices",
+    "antidepressants",
+    "antipsychotics"
+   ],
+   "finder_note": "Trend claim ('getting better every day')."
+  },
+  {
+   "id": "owen-1417",
+   "forecaster": "owen",
+   "statement_date": "2024-12-16",
+   "quote": "And more is coming— like tFUS for anxiety and nVNS for PTSD and Migraine, as well as VNS for Rheumatoid Arthritis Pain.",
+   "context": "After a list of devices he wants Medicare to pay for (Accelerated TMS, Monarch eTNS, Nightware, PRISM EEG-neurofeedback), the author forecasts that more devices are coming: transcranial focused ultrasound (tFUS) for anxiety, non-invasive VNS for PTSD and migraine, and VNS for rheumatoid arthritis pain.",
+   "post_title": "Open Letters to the Incoming Trump Administration: Cutting Out the Middle Man*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/open-letters-to-the-incoming-trump",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "tFUS",
+    "nVNS",
+    "VNS",
+    "PTSD",
+    "migraine",
+    "rheumatoid arthritis"
+   ],
+   "finder_note": "Compound claim across several devices/indications; 'coming' likely means availability or clearance."
+  },
+  {
+   "id": "owen-1418",
+   "forecaster": "owen",
+   "statement_date": "2024-12-16",
+   "quote": "These treatments— and exciting psychedelic medicines !—are coming.",
+   "context": "Closing of the open letter: the author asserts the listed device treatments and psychedelic medicines are coming, and urges payment for them.",
+   "post_title": "Open Letters to the Incoming Trump Administration: Cutting Out the Middle Man*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/open-letters-to-the-incoming-trump",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "are coming",
+   "entities": [
+    "psychedelic medicines",
+    "medical devices"
+   ],
+   "finder_note": "Followed by normative 'We should cut out the middleman by paying for them' (not logged)."
+  },
+  {
+   "id": "owen-1419",
+   "forecaster": "owen",
+   "statement_date": "2024-12-17",
+   "quote": "A child psychiatrist reflects, in advance, about the next preventable mass shooting that will rock our nation to the core.",
+   "context": "Subtitle of the republished 2022 satire template. The author frames the piece as written in advance of the next mass shooting, asserting another one will happen; the intro calls firearm deaths 'predictable' and notes 'now we have another'.",
+   "post_title": "Being Shot With a Gun is Now the Leading Cause of Death for Children in America, Again",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/being-shot-with-a-gun-is-now-the-f54",
+   "area_guess": "other",
+   "horizon_text": "the next preventable mass shooting",
+   "confidence_phrase": "will",
+   "entities": [
+    "United States",
+    "mass shooting"
+   ],
+   "finder_note": "Satirical framing, sincere underlying expectation. Originally written July 18, 2022; republished 2024-12-17."
+  },
+  {
+   "id": "owen-1420",
+   "forecaster": "owen",
+   "statement_date": "2024-12-17",
+   "quote": "we do know he purchased the assault rifle/s legally, as well as the hollow point bullets that caused such horrible wounds. These purchases were made despite his history of disturbing statements and threats, both online and in real life.",
+   "context": "Line from the fill-in-the-blank satire template for the next mass shooting: the author expects the next shooter will have bought assault rifles legally despite a history of threats.",
+   "post_title": "Being Shot With a Gun is Now the Leading Cause of Death for Children in America, Again",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/being-shot-with-a-gun-is-now-the-f54",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "we do know",
+   "entities": [
+    "assault rifles",
+    "mass shooting"
+   ],
+   "finder_note": "Template prediction inside satire; underlying claim reads as sincere expectation about the pattern of future shootings."
+  },
+  {
+   "id": "owen-1421",
+   "forecaster": "owen",
+   "statement_date": "2024-12-17",
+   "quote": "Yet again, high-capacity magazines allowed one young man/woman, between the ages of 14 and 26, to take his isolation and rage and turn it into a storm of lead, against which the innocent victims stood no chance.",
+   "context": "Satire template line: the author expects the next mass shooter to be aged 14-26 and to use high-capacity magazines.",
+   "post_title": "Being Shot With a Gun is Now the Leading Cause of Death for Children in America, Again",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/being-shot-with-a-gun-is-now-the-f54",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "high-capacity magazines",
+    "mass shooting"
+   ],
+   "finder_note": "Template prediction inside satire; sincere underlying expectation."
+  },
+  {
+   "id": "owen-1422",
+   "forecaster": "owen",
+   "statement_date": "2024-12-17",
+   "quote": "A spokesperson for the NRA was reached and offered the following statement: “This is America, and the NRA staunchly supports the reduction of gun violence through the addition of more guns into the hands of more good guys.",
+   "context": "Satire template: the author predicts the NRA's response to the next mass shooting will call for more guns and blame mental illness.",
+   "post_title": "Being Shot With a Gun is Now the Leading Cause of Death for Children in America, Again",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/being-shot-with-a-gun-is-now-the-f54",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "NRA",
+    "mass shooting"
+   ],
+   "finder_note": "Fictional quote written as a prediction of institutional response; sincere underlying expectation."
+  },
+  {
+   "id": "owen-1424",
+   "forecaster": "owen",
+   "statement_date": "2024-12-18",
+   "quote": "One little programming note: my next live-action newsletter event is in San Francisco on January 12, 2025!",
+   "context": "Announcement of RAMHT 2025 (Rapid Acting Mental Health Treatment), the author's own conference, in San Francisco on January 12, 2025, with sponsors MDhub.ai, Sanmai, Videra Health, GrayMatters Health, Nightware, Fermata, Acacia Clinics.",
+   "post_title": "The Cranial Nerves, Explained",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cranial-nerves-explained",
+   "area_guess": "other",
+   "horizon_text": "January 12, 2025",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "MDhub.ai",
+    "Sanmai",
+    "Videra Health",
+    "GrayMatters Health",
+    "Nightware",
+    "Fermata",
+    "Acacia Clinics"
+   ],
+   "finder_note": "Own-event announcement; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1425",
+   "forecaster": "owen",
+   "statement_date": "2024-12-18",
+   "quote": "Since I’m planning on writing about medical devices that modulate these nerves more, I figured explaining some basic science first would be a way to give my audience a two-for-one win!",
+   "context": "Newsletter content plan: the author says he will write more about medical devices that modulate cranial nerves (neuromodulation) after this cranial-nerve primer.",
+   "post_title": "The Cranial Nerves, Explained",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cranial-nerves-explained",
+   "area_guess": "other",
+   "horizon_text": "later",
+   "confidence_phrase": "planning on",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "cranial nerve neuromodulation"
+   ],
+   "finder_note": "Own-newsletter programming plan; low forecast value."
+  },
+  {
+   "id": "owen-1426",
+   "forecaster": "owen",
+   "statement_date": "2024-12-18",
+   "quote": "For treatment with nVNS, and soon VNS, feel free to request a consultation at Fermata in Brooklyn (and beyond by telehealth)….",
+   "context": "Closing plug: Fermata (the author's Brooklyn clinic) offers non-invasive VNS now and, per the author, will soon offer VNS.",
+   "post_title": "The Cranial Nerves, Explained",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cranial-nerves-explained",
+   "area_guess": "practice_adoption",
+   "horizon_text": "soon",
+   "confidence_phrase": "soon",
+   "entities": [
+    "Fermata",
+    "nVNS",
+    "VNS",
+    "Acacia Clinics"
+   ],
+   "finder_note": "Own-organization claim (Fermata); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1427",
+   "forecaster": "owen",
+   "statement_date": "2024-12-19",
+   "quote": "This year, we kick off the night before the JPM conference on January 12th. The next event is in LA, which coincides with the American Psychiatric Association annual meeting!",
+   "context": "RAMHT 2025 schedule: SF event the night before JPM on January 12, then an LA event during the APA annual meeting. The post promises live demos from Videra Health (TDscreen), Sanmai (tFUS), GrayMatters Health (PRISM), MDhub.ai, and Nightware.",
+   "post_title": "Rapid Acting Mental Health Treatment SF 2025",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-81e",
+   "area_guess": "other",
+   "horizon_text": "January 12th",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "JPM",
+    "American Psychiatric Association",
+    "Grady Hannah"
+   ],
+   "finder_note": "Compound own-event announcement (two events); coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1428",
+   "forecaster": "owen",
+   "statement_date": "2024-12-19",
+   "quote": "It’s called TDscreen , and the even more advanced TDetect version is coming soon. You can sign up to use it with your patients now! Yes, it will be on display at the RAMHT SF 2025.",
+   "context": "Videra Health's tardive dyskinesia screening tool TDscreen; the author (an investigator on the trial) says the more advanced TDetect version is coming soon and TDscreen will be demoed at RAMHT SF 2025.",
+   "post_title": "Rapid Acting Mental Health Treatment SF 2025",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatment-81e",
+   "area_guess": "company_market",
+   "horizon_text": "coming soon; RAMHT SF 2025",
+   "confidence_phrase": "is coming soon",
+   "entities": [
+    "Videra Health",
+    "TDscreen",
+    "TDetect",
+    "RAMHT"
+   ],
+   "finder_note": "Videra Health is an author-affiliated company; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-1429",
+   "forecaster": "owen",
+   "statement_date": "2024-12-20",
+   "quote": "the next is January 12, 2025, in San Fransisco, 6-9 pm…right before JPM kicks off!",
+   "context": "Author's intro: the next RAMHT event is January 12, 2025 in San Francisco, 6-9 pm, before JPM.",
+   "post_title": "Why Nightware is Crowdfunding",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-nightware-is-crowdfunding",
+   "area_guess": "other",
+   "horizon_text": "January 12, 2025",
+   "confidence_phrase": "none",
+   "entities": [
+    "RAMHT",
+    "JPM",
+    "Grady Hannah"
+   ],
+   "finder_note": "Restatement of the RAMHT SF 2025 announcement; CONTROL candidate."
+  }
+ ]
+}

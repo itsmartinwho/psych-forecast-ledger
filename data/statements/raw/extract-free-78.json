@@ -1,0 +1,214 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-78.md",
+  "posts": [
+    {
+      "slug": "the-complete-interview-with-dan-karlin",
+      "read": true,
+      "statements_found": 4,
+      "note": "Long written interview with Dan Karlin (Definium/MindMed CMO) about MM-120 (LSD) for GAD. Most text is the interviewee's and contains no forecasts. Author's forward-looking content: an uncertain stance on MM-120, newsletter plans, and the Radial Open House notice."
+    },
+    {
+      "slug": "solving-clinical-trialswith-power",
+      "read": true,
+      "statements_found": 3,
+      "note": "Interview with Brandon Li of Power (trial-discovery platform). Interviewee statements are goals and normative views, not forecasts. Author: one hedged impact call about Power, one borderline generic trial claim, one Radial event notice."
+    },
+    {
+      "slug": "the-system-is-broken-why-families",
+      "read": true,
+      "statements_found": 3,
+      "note": "Interview with Brady Richards of Doro Mind. The author re-quotes his 2023 pitch (huge company, probable UnitedHealthcare exit). Brady's mission statements are goals, not forecasts, and are not logged. Radial event notice repeated."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "the-complete-interview-with-dan-karlin",
+      "quote": "Radial are having an Open House in Midtown Manhattan on Thursday, March 12th, 2026, at 10 w 37th St. , so health professionals can learn about innovative treatments both available now (like SWIFT and SAINT TMS, PRISM, Proliv, Spravato), and those to come!",
+      "context": "Boilerplate 'brief note' near the top of the post (dated 2026-02-23). Radial, the author's clinic company, announces an Open House in Midtown Manhattan on March 12, 2026, for health professionals, covering treatments available now (SWIFT and SAINT TMS, PRISM, Proliv, Spravato) and treatments 'to come'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Thursday, March 12th, 2026",
+      "confidence_phrase": "none",
+      "entities": [
+        "Radial",
+        "SWIFT TMS",
+        "SAINT TMS",
+        "PRISM",
+        "Proliv",
+        "Spravato"
+      ],
+      "note": "Own-organization event announcement (CONTROL candidate). 'and those to come' implies future treatments at Radial. Same notice repeats in the other two posts of this packet."
+    },
+    {
+      "post_slug": "the-complete-interview-with-dan-karlin",
+      "quote": "This interview with Dan might turn into a podcast also, but I think the written version is better to start with.",
+      "context": "Intro to the written interview with Dan Karlin, Chief Medical Officer of Definium Therapeutics (formerly MindMed). The author says the written interview may later also become a podcast episode of The Frontier Psychiatrists.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "might",
+      "entities": [
+        "Owen Muir",
+        "Dan Karlin",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter programming plan; low forecast value."
+    },
+    {
+      "post_slug": "the-complete-interview-with-dan-karlin",
+      "quote": "I am neither disinterested in the work Definium is doing nor a cheerleader, because I don't know if it's gonna work yet. We need more top line data, but as I wrote in my 2025 review of LSD published in the American Journal of Therapeutics last year, the early data is promising.",
+      "context": "Intro disclosure. The author, a long-time MindMed shareholder and past investigator with the company, states his stance on MM-120 (Lysergide Tartrate, an oral dissolving LSD tablet) for generalized anxiety disorder, which is in phase III trials: outcome unknown, more top-line data needed, early data promising.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "I don't know if it's gonna work yet; the early data is promising",
+      "entities": [
+        "MM-120",
+        "Lysergide Tartrate",
+        "LSD",
+        "Definium Therapeutics",
+        "MindMed",
+        "Dan Karlin",
+        "FDA",
+        "American Journal of Therapeutics"
+      ],
+      "note": "Explicitly uncertain stance on whether MM-120 phase III succeeds, with a mild positive lean ('promising'). Author discloses MindMed shareholding and past investigator role."
+    },
+    {
+      "post_slug": "the-complete-interview-with-dan-karlin",
+      "quote": "I had fun doing this one, and am likely to do more if you, dear readers, enjoyed it.",
+      "context": "Closing lines of the Dan Karlin interview. The author says he is likely to publish more written interviews in the newsletter, conditional on reader response.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "likely",
+      "entities": [
+        "Owen Muir",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter plan, conditional on reader enjoyment; low forecast value."
+    },
+    {
+      "post_slug": "solving-clinical-trialswith-power",
+      "quote": "Radial is having an Open House in Midtown Manhattan on Thursday, March 12th, 2026, at 10 w 37th St. , so health professionals can learn about innovative treatments both available now (like SWIFT and SAINT TMS, PRISM, Proliv, Spravato), and those to come! It’s starting at 4pm, and runs till 8pm, EST.",
+      "context": "Boilerplate 'brief note' in the Power interview post (dated 2026-02-24). Radial announces an Open House in Midtown Manhattan on March 12, 2026, 4pm to 8pm EST, for health professionals, about treatments available now and 'those to come'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Thursday, March 12th, 2026",
+      "confidence_phrase": "none",
+      "entities": [
+        "Radial",
+        "SWIFT TMS",
+        "SAINT TMS",
+        "PRISM",
+        "Proliv",
+        "Spravato"
+      ],
+      "note": "Repeat of the notice in the Dan Karlin post, now with hours. Own-organization event (CONTROL candidate)."
+    },
+    {
+      "post_slug": "solving-clinical-trialswith-power",
+      "quote": "how a couple of guys from the tech world ended up building something that might genuinely change how people access experimental medicine.",
+      "context": "Author's introduction of Brandon Li, co-founder of Power (withpower.com), a patient-facing platform for discovering and joining clinical trials. The author says the platform might genuinely change how people access experimental medicine.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "might genuinely",
+      "entities": [
+        "Power",
+        "Brandon Li"
+      ],
+      "note": "Hedged impact call about a company the author is friendly with (he is pictured in a 'withpower' t-shirt in the post)."
+    },
+    {
+      "post_slug": "solving-clinical-trialswith-power",
+      "quote": "If you’re in a study at all, you’re going to do better, which is why we randomize to placebo in the first place.",
+      "context": "Author's remark in the discussion of placebo with Brandon Li: people enrolled in a clinical trial do better regardless of arm, which is the reason trials randomize to placebo. A general claim about trial participation, not a dated forecast.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "going to",
+      "entities": [],
+      "note": "Borderline: generic 'you're going to do better' about trial enrollment; logged for recall. Not a forecast of a specific future state."
+    },
+    {
+      "post_slug": "the-system-is-broken-why-families",
+      "quote": "Radial is having an Open House in Midtown Manhattan on Thursday, March 12th, 2026, at 10 w 37th St. , so health professionals can learn about innovative treatments both available now (like SWIFT and SAINT TMS, PRISM, Proliv, Spravato), and those to come! It’s starting at 4pm, and runs till 8pm, EST.",
+      "context": "Boilerplate 'brief note' in the Doro Mind post (dated 2026-02-26). Radial announces an Open House in Midtown Manhattan on March 12, 2026, 4pm to 8pm EST, for health professionals, about treatments available now and 'those to come'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Thursday, March 12th, 2026",
+      "confidence_phrase": "none",
+      "entities": [
+        "Radial",
+        "SWIFT TMS",
+        "SAINT TMS",
+        "PRISM",
+        "Proliv",
+        "Spravato"
+      ],
+      "note": "Third repeat of the same Radial notice in this packet. Own-organization event (CONTROL candidate)."
+    },
+    {
+      "post_slug": "the-system-is-broken-why-families",
+      "quote": "There is even a government payer, in Medicaid and Medicare for the disabled, and probably an exit to united healthcare exists, just to drive down the cost of their dual eligibles with Medicare/Medicaid.",
+      "context": "The author re-quotes his own 2023 article that pitched an 'Early Treatment Program' company for schizophrenia. He says such a company has a government payer (Medicaid and Medicare for the disabled) and probably an acquisition exit to UnitedHealthcare, which would want to cut costs for its dual-eligible members. Restated in 2026 in a post about Doro Mind, which built such a company.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "probably",
+      "entities": [
+        "UnitedHealthcare",
+        "Medicaid",
+        "Medicare",
+        "Doro Mind"
+      ],
+      "note": "Quoted from the author's own 2023 article; hypothetical company then, now identified with Doro Mind. The exit call is about the class of company, not a named firm."
+    },
+    {
+      "post_slug": "the-system-is-broken-why-families",
+      "quote": "This would be good for patients and good for the world. There are zero reasons this isn’t a huge company. It’s 1% of the population. Come on people. 3.3 million people in the US. Let me market size that for you: $281.6 billion in 2020.",
+      "context": "Same re-quoted 2023 pitch. The author asserts that an early-treatment-program company for schizophrenia would be a huge company, sizing the market at 1% of the US population (3.3 million people) and a $281.6 billion economic burden in 2020. In 2026 he presents Doro Mind as the company that now exists.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "zero reasons this isn't",
+      "entities": [
+        "Doro Mind",
+        "Firsthand"
+      ],
+      "note": "Quoted from the author's own 2023 article. Company-scale call ('huge company') for the category; the $281.6B figure is a 2020 cost estimate, not a forecast. Firsthand is named as a comparable."
+    }
+  ]
+}
