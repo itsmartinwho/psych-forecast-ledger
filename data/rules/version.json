@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "date": "2026-09-13",
+  "as_of": "2026-09-13",
+  "bootstrap_seed": 20260913,
+  "bootstrap_resamples": 2000,
+  "undated_window_months": 24,
+  "undated_sensitivity_months": 36,
+  "min_clusters_headline": 10,
+  "provisional_below_clusters": 30,
+  "calibration_min_clusters": 20,
+  "calibration_min_per_bin": 5,
+  "market_min_clusters": 5,
+  "shared_event_min": 5,
+  "point_band_pct": 20,
+  "unresolvable_after_months": 12,
+  "report_window_days": 30,
+  "market_lookback_days": 7,
+  "market_deadline_tolerance_quarters": 1,
+  "probability_clamp": [0.01, 0.99],
+  "quote_max_chars": 700
+}

@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "note": "Only the forecaster's words, read through this table, set a headline deadline. The coder never invents a date. Items with no deadline go to the undated panel with one uniform window of 24 months from the statement date.",
+  "rules": [
+    { "pattern": "an explicit calendar date", "deadline": "that date", "origin": "stated" },
+    { "pattern": "a month ('in March 2025', 'by March')", "deadline": "the last day of that month", "origin": "anchor" },
+    { "pattern": "a quarter ('Q2 2026')", "deadline": "the last day of that quarter", "origin": "anchor" },
+    { "pattern": "a year ('in 2026', 'by 2026', 'this year', 'next year')", "deadline": "31 December of that year", "origin": "anchor" },
+    { "pattern": "H1 / first half", "deadline": "30 June of that year", "origin": "anchor" },
+    { "pattern": "H2 / second half", "deadline": "31 December of that year", "origin": "anchor" },
+    { "pattern": "an annual predictions list published on or near 1 January", "deadline": "31 December of that year", "origin": "anchor" },
+    { "pattern": "'by the PDUFA date' or 'at the PDUFA date'", "deadline": "the published PDUFA date at the statement date", "origin": "anchor" },
+    { "pattern": "'by the end of the decade' / 'this decade'", "deadline": "31 December of the decade's last year", "origin": "anchor" },
+    { "pattern": "'within N months/years' / 'in N years'", "deadline": "statement date plus N months or years", "origin": "anchor" },
+    { "pattern": "'in a decade' / 'in ten years'", "deadline": "statement date plus 10 years", "origin": "anchor" },
+    { "pattern": "a trial result claim with no date ('when the trial reads out')", "deadline": "the ClinicalTrials.gov primary completion date on the statement date plus 12 months", "origin": "table", "tag": "table_dated" },
+    { "pattern": "a named future meeting or event ('at APA in May', 'at JPM in January')", "deadline": "the last day of that meeting", "origin": "anchor" },
+    { "pattern": "'soon', 'coming', 'eventually', 'obviously', 'will follow', 'imminent', 'shortly', 'in the near future', 'time will tell'", "deadline": null, "origin": null, "note": "not a deadline; the item goes to the undated panel" }
+  ]
+}

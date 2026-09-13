@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "min_n_headline": 10,
+  "provisional_below": 30,
+  "min_n_calibration": 20,
+  "min_n_murphy": 30,
+  "bin_merge_min": 5,
+  "min_n_market": 5,
+  "min_n_shared": 5,
+  "band_pct": 20,
+  "undated_window_months": 24,
+  "sensitivity_window_months": 36,
+  "market_lookback_days": 7,
+  "report_window_days": 30,
+  "bootstrap": { "resamples": 2000, "seed": 20260913 }
+}

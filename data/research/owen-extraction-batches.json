@@ -1,0 +1,689 @@
+[
+ {
+  "batch_offset": 0,
+  "posts_seen": 30,
+  "posts_full_read": 28,
+  "posts_preview_only": 2,
+  "themes": [
+   "Psychedelic reimbursement architecture (REMS-driven billing, new CPT/G codes, buy-and-bill, 2-hour and 6-hour billing ceilings) as the gating factor for access",
+   "Physician-owned clinics vs vertically integrated conglomerates (Optum/UnitedHealth) capturing psychedelic delivery economics",
+   "Psychedelics will bypass the retail pharmacy/PBM channel; certified clinics become the distribution channel",
+   "Accelerated TMS (SNT/SAINT, SWIFT) expanding to bipolar depression and suicidality; CPT coding for all-day protocols",
+   "Bipolar depression as an underfunded market; positive IV ketamine data unlikely to yield coverage",
+   "Decline of SSRI-first prescribing and antidepressant deprescribing over the next 10-15 years",
+   "Definium DT120 (LSD) Phase 3 timing (Voyage GAD readout expected 2026)",
+   "Compass COMP360 NDA (Q4 2026) and launch (H1 2027) timeline, endorsed in tone",
+   "Lindsay Clancy retrial and the postpartum psychosis legal standard",
+   "Objective brain measurement (EEG/qEEG, fMRI) entering routine clinical practice"
+  ],
+  "notes": "The archive API returned only 23 items for offset=0 with limit=30 (also with limit=25 and 50), but offset=23 returns further posts, so indices 23-29 were fetched via offset=23 and read to make the 30-post batch complete (slugs: what-do-omakase-sushi-and-cpt-coding, why-is-suicide-so-hard-to-prevent, share-your-story-owen-in-the-news, an-open-letter-to-my-bipolar-disorder-873, lil-john-and-owen-muir-respond-to, the-lowkey-declaration-of-independence, the-best-depression-drug-results). Initial post fetches hit HTTP 429; retried with backoff, no permanent failures. Two only_paid posts returned previews only: cut-the-doctors-in-subscriber-only (155 words, an unedited draft of the free post) and the-best-depression-drug-results (881-word preview, cut mid-section). Long posts (Pardell transcript 8,229 words; Horowitz interview 6,707 words; Clancy Part 2 3,642 words) were read in multiple slices. what-do-macbeth-and-andrew-tate-have is a repost of a 2022 article. Several posts (Sept 11, DTRA podcast, Nogga interview, Remission video, Pardell short, RAMHT announcements, research-reading guide, Dawn of Biological Psychiatry, ADHD device interview, bipolar writings, Horowitz interview, restraint story, Omakase/CPT, Share Your Story, Open Letter, Lowkey Declaration) contained no author predictions meeting the criteria; third-party forecasts by Pardell, Keeley, Horowitz and Grady Hannah were excluded unless the author endorsed them."
+ },
+ {
+  "batch_offset": 30,
+  "posts_seen": 30,
+  "posts_full_read": 29,
+  "posts_preview_only": 1,
+  "themes": [
+   "Accelerated TMS (SAINT/SNT, SWIFT dTMS) insurance coverage spreading across BCBS plans toward a nationwide medical-necessity standard",
+   "Extension of accelerated TMS coverage and FDA labels to new indications: ADHD, PTSD, OCD, bipolar depression",
+   "Brain-medicine thesis: imaging/EEG-guided, AI-enabled, multidisciplinary neuromodulation becoming standard care",
+   "Psychedelic policy after the April 2026 executive order: FDA/DEA Right to Try pathway for ibogaine",
+   "HHS/CMS shifting from antidepressants toward covering brain stimulation without prior authorization",
+   "AI agents (Claude Code) reshaping clinical and enterprise work, scams, and rotating vendor leadership",
+   "New FDA-cleared PTSD neuromodulation devices (Wave MeRT, Neurovalens Modius Spero) awaiting published data",
+   "Durability of accelerated TMS: SWIFT vs SNT comparison and fMRI targeting effect (AINT trial)",
+   "Private equity and insurer consolidation dynamics in healthcare (UnitedHealth acquisitions)",
+   "Inflammation (IL-6) as a depression target gaining evidence"
+  ],
+  "notes": "All 30 posts in the batch loaded. One post ('I'm Not Ready for Death', only_paid, 2026-06-01) returned a ~470-word preview only. Hit HTTP 429 rate limits on the first attempt at posts 11-15; retried with backoff and all bodies were retrieved. Many posts in this batch are interviews, guest pieces, music or personal essays with no author predictions (Gambling/Kindbridge, Beijing dispatches, Grimes, GoGoMeds, Sloshower, Karlin, Lila, sleep guest post, adoption interview, American Football, birthday, water park, MeRT interview). Several candidates are low-specificity or borderline and are flagged in the paraphrases."
+ },
+ {
+  "batch_offset": 60,
+  "posts_seen": 30,
+  "posts_full_read": 28,
+  "posts_preview_only": 2,
+  "themes": [
+   "'Brain Medicine' will replace 'mental health'/psychiatry as the organizing discipline, merging psychiatry, neurology, neurosurgery, and neuroradiology",
+   "Psychopharmacology and the chemical-imbalance model are in terminal decline; circuit-based neuromodulation is the future",
+   "Agentic AI (Claude Code) will transform work, including the author's, but will not replace the psychiatrist",
+   "Personalized and closed-loop TMS (SAINT continuation with wearables, individualized targets, EEG biomarkers, precuneus targets) will move toward clinical practice",
+   "Psychedelic medicines (COMP360, BPL-003) are expected to reach FDA approval and market; the author positions himself as a skeptic voice in the FDA process",
+   "Payer coverage for neuromodulation is expanding (Optum, Blue Shield CA, VA, Highmark) while board certification could be used by insurers to restrict reimbursement",
+   "Social media liability (Meta verdicts) will bring product-standard regulation; age-gating bans such as Australia's will be circumvented",
+   "DBS for psychiatric disorders will become more precise and accessible (Figee, Mayberg)",
+   "At-home ketamine will produce rare but inevitable serious adverse events at population scale (Grundmann, third party)",
+   "A near-term societal disruption window of 18-36 months driven by AI (meta-crisis framing)"
+  ],
+  "notes": "Archive listing returned exactly 30 posts for offset 60. Parallel body fetches were rate-limited (HTTP 429); resolved by sequential fetches with backoff, all 30 bodies retrieved. Two only_paid posts (mapping-the-untapped-frontier-of, three-perspectives-on-personalizing) returned previews only; the Three Perspectives preview was long enough to include one author editorial note. Several posts are guest posts or interviews (Spielberg, Carreon, Atef Mokhtar, Grundmann, Hansen, Feldman, Carlene MacMillan, Figee, Bentzley, Mayberg); third-party predictions were excluded unless the author endorsed them, and included ones are flagged is_author_claim=false. Excluded as non-predictions: RAMHT May 16, 2026 event announcements, Grundmann's 'the one-in-a-thousand event will arrive at population scale' and forthcoming Ember/MGB publication, Carreon's 'we will build these machines', Feldman's advice that complaints will get attention, and personal family remarks. No fetch errors after retries."
+ },
+ {
+  "batch_offset": 90,
+  "posts_seen": 30,
+  "posts_full_read": 29,
+  "posts_preview_only": 1,
+  "themes": [
+   "Annual 2026 predictions list: FDA approvals for COMP360 and KetaFree, national payer coverage of accelerated TMS, at-home depression devices, ERISA parity lawsuit",
+   "AI-enabled neuromodulation and BCI venture funding boom (Merge Labs, Neuralink, tFUS companies)",
+   "Payer policy shifts for TMS: prior-authorization removal (Evernorth/Cigna), adolescent TMS coverage, Medicaid coverage arguments",
+   "Decline of oral antidepressants and of solo psychopharmacology private practice; rise of center-based interventional psychiatry",
+   "PBM transparency under the Consolidated Appropriations Act 2026 and its 2028 effect on insurer profits",
+   "Pandemic-era telehealth mental-health company failures and controlled-substance prosecutions (Done, LifeStance)",
+   "Youth depression prescribing: expected professional-society warnings and malpractice litigation against non-fluoxetine antidepressants",
+   "Neurolief ProLiv Rx launch and at-home neuromodulation market (eCOT-AS, Flow, eTNS replication data)",
+   "Psychedelic drug development uncertainty (Definium/MindMed MM-120 Phase 3) and Radial/RAMHT ecosystem events",
+   "Accelerated TMS protocol optimization (inter-session interval, individualized pulse dose) as a path to scale"
+  ],
+  "notes": "Batch offset 90 returned 30 posts (2026-01-01 to 2026-03-02). 29 posts had audience 'everyone' and returned full text. One post ('Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025', only_paid) returned a ~1,550-word preview that cuts off mid-article; counted as preview-only. The first fetch of posts 11-15 hit HTTP 429 rate limits; a retry with backoff succeeded, and all 30 posts loaded. Many posts in this batch are interviews (Dan Karlin 5-part series, Ahmed Tahseen, Brady Richards, Brandon Li) or personal/family pieces with no author predictions. The Doro Mind candidate re-quotes a 2023 claim that the author reaffirms at posting time; flagged in its paraphrase. The Fitzgerald individualized-pulse item is a third-party claim explicitly endorsed by the author (is_author_claim=false)."
+ },
+ {
+  "batch_offset": 120,
+  "posts_seen": 30,
+  "posts_full_read": 30,
+  "posts_preview_only": 0,
+  "themes": [
+   "Insurance coverage for accelerated TMS and other rapid-acting treatments should and will broaden, with 2026 as the target year",
+   "Brain-modulating devices (TMS, tDCS, at-home neuromodulation) will displace the drug-first paradigm for depression",
+   "New York's MAiD law will expand and be used on chronically suicidal / psychiatric patients, repeating Canada and Netherlands outcomes",
+   "Enforcement against telehealth stimulant prescribing (Done Global / Mindful) will continue, but state medical boards will lag",
+   "Radial's national expansion in 2026 and a rapid-acting treatment services market large enough for many companies",
+   "Psychedelic medicines (MM-120, COMP360, 5-MeO-DMT) are close to regulatory arrival",
+   "Youth mental-health crisis will not be solved by chatbots or antidepressants; clinician workforce shortages are permanent",
+   "Neurolief at-home depression device coming to market soon",
+   "Consolidated Appropriations Act 2021 fiduciary rules will reshape self-funded employer healthcare purchasing",
+   "Ketamine and esketamine efficacy will hold up despite the negative KARMA-Dep 2 trial"
+  ],
+  "notes": "All 30 posts in the batch (offset 120) are audience 'everyone' and were read in full; no preview-only posts. One transient HTTP 429 on the Radial launch post; a retry succeeded. Post 'What Media Gets Wrong Reporting About Suicide' is a 2022 repost and the Flow tDCS post reprises an older article; predictions were extracted only where the framing still reads as forward-looking at posting time. Many posts in this batch are personal, satirical, or educational (Christmas deposition, Cotard, bipolar tips, Thanksgiving, vampires) and contain no checkable predictions. The Spravato $2B claim is from a guest contributor (is_author_claim=false)."
+ },
+ {
+  "batch_offset": 150,
+  "posts_seen": 30,
+  "posts_full_read": 29,
+  "posts_preview_only": 1,
+  "themes": [
+   "Accelerated TMS (SAINT/SNT, accelerated deep TMS) as future standard of care and as a treatment for suicidality",
+   "Neurolief at-home depression device (eCOT-AS) moving through FDA and onto Radial's menu",
+   "Radial clinic expansion (St. Louis, Chattanooga; hiring in CT, MA, FL and other states)",
+   "FDA rejection of MAPS/Lykos MDMA-AT and the end of bespoke 'psychedelic-assisted' therapy designs in registration trials",
+   "MindMed MM-120 (LSD) as a potential Medicaid cost-saver if approved",
+   "GLP-1 drugs driving down alcohol use, alcohol use disorder, and alcohol-related violence",
+   "New neuromodulation products (PRISM-MDD, ProLivRx) coming to market",
+   "RAMHT live-event series continuing at JPM (AI-focused) and APA in 2026",
+   "Author's future book publication",
+   "Gun-access restriction as a lever on mass shootings (not on suicide)"
+  ],
+  "notes": "Archive call returned 30 items (offset 150, sort=new). First attempt to fetch posts 6-10 returned HTTP 429; resolved with retry/backoff and per-request delays; all 30 bodies then loaded. One only_paid post (2025-08-21, 'No formal assessment of blinding integrity...') returned a ~235-word preview only; counted as preview-only, no predictions in preview. The Radial 'soon, eCOT-AS by Neurolief' boilerplate appears verbatim in 7 posts (Aug 17, 18, 27, 28, 29, Sep 7, Sep 17); captured once (anchored to Aug 17). Many posts are satire with no sincere predictions: the Wizard of Oz insurance parody chapters (Aug 26 x2, Aug 27, 28, 29, Sep 2, Sep 4), the newsletter-shutdown satire (Sep 29, 30, Oct 1), the AWS outage story (Oct 20), and the PE fund post (Aug 11). The Sep 29 shutdown satire contains a rhetorical question about Congress passing S.1717 (Ensuring Patient Access to Critical Breakthrough Products Act of 2025); excluded as rhetorical. Third-party forecasts (SipSource, IWSR, Bain, Texas ibogaine funding) were not attributed to the author. Direction 'negative' on the GLP-1/alcohol, GLP-1/sexual-assault, and gun-restriction items denotes a predicted decline, per the rubric, even though the author frames those declines as desirable."
+ },
+ {
+  "batch_offset": 180,
+  "posts_seen": 30,
+  "posts_full_read": 30,
+  "posts_preview_only": 0,
+  "themes": [
+   "UnitedHealth and other insurers will keep denying or slow-walking coverage of accelerated TMS and maintenance TMS despite mounting data",
+   "The 'therapy' in psychedelic-assisted therapy will prove unnecessary; drug-alone models will expand access and cut cost",
+   "Accelerated, circuit-targeted TMS (SAINT, BrainsWay H1) will make depression largely solvable, contingent on insurance coverage",
+   "FDA will likely reject brexpiprazole/sertraline for PTSD after the 10-1 negative AdCom",
+   "Expanded involuntary civil commitment under the 2025 executive order will raise suicide/overdose deaths and violent crime",
+   "Psychedelic treatments (COMP360) arriving 'soon' as rapid-acting options",
+   "Radial expansion: new clinic locations and Neurolief eCOT-AS rollout",
+   "Skepticism that insurers will honor the June 2025 HHS/CMS prior-authorization pledge",
+   "Transcranial focused ultrasound as an emerging non-invasive treatment for depression, anxiety and PTSD",
+   "Recurring hyperbolic 'future Nobel prize' call for Nolan Williams"
+  ],
+  "notes": "No fetch errors. All 30 posts in the batch (archive offset 180, 2025-06-16 to 2025-08-10) are audience 'everyone' and were read in full via the posts API. Several posts are parody, music or fiction (Balrog defamation, Declaration of Independence prior-auth parody, Beck 'Colors', fiction chapter, Coldplay/bipolar) and contain no forward-looking claims. Two podcast posts (2025-08-03, 2025-06-20) have only short show notes with no predictions. Radial boilerplate ('soon, eCOT-AS by Neurolief'; 'additional locations coming soon') repeats across many posts; each is recorded once at its first occurrence in the batch."
+ },
+ {
+  "batch_offset": 210,
+  "posts_seen": 30,
+  "posts_full_read": 30,
+  "posts_preview_only": 0,
+  "themes": [
+   "Radial (author's clinic company) will expand to more locations and states",
+   "UnitedHealth Group financial collapse, layoffs, and continued denial practices",
+   "Accelerated/deep TMS trial publication and TMS displacing oral antidepressants as first-line care",
+   "FDA clearance pathway for EEG-fMRI neurofeedback (GrayMatters PRISM) in depression",
+   "Neuromodulation and brain-change treatments as the future of mental health care",
+   "AI displacing clinical screening and scribe tasks (TD screening tool)",
+   "Cannabis legalization spreading with rising older-adult harms",
+   "Worsening youth hopelessness, suicidality, and gun-violence trend",
+   "Venture-funded health fraud redux (Theranos successor Haemanthus)",
+   "Ketamine dosing optimization (weekly flexible dosing) awaiting RCT confirmation"
+  ],
+  "notes": "No fetch errors; all 30 posts in the batch returned full body_html (all audience 'everyone', so no preview-only posts). Two posts are guest essays (What Does TMS Actually Do? by Ben Spielberg; Lithium dosing by 'Alex') where only the author's framing lines were treated as author claims. Two podcast posts (Suicide Among Resident Physicians; Say His Name) had short show notes / a 2020 transcript with no forward-looking claims. Several posts are memoir or satire (Father's Day, Zoloft, Prozac, Ambien, Birthday, Faked Letter, Death NPS, Podcast tips, GAD dissent, PE hospitals) with no checkable predictions. Radial expansion appears in three posts and is listed once per post. The PRISM post is internally inconsistent on whether FDA depression clearance already exists; the quote used is the forward-looking sentence."
+ },
+ {
+  "batch_offset": 240,
+  "posts_seen": 30,
+  "posts_full_read": 30,
+  "posts_preview_only": 0,
+  "themes": [
+   "TMS/neuromodulation expanding to new indications (schizophrenia, Parkinson's, pregnancy, pain) and toward first-line use",
+   "Insurance coverage lagging evidence; predicted lawsuits and liability over Cigna adolescent TMS criteria",
+   "UnitedHealth Group restructuring, layoffs (Optum at Home/HBMC), and ongoing DOJ exposure",
+   "Accelerated/iTBS TMS scaling via portable devices (Ampa Health) and more devices coming to market",
+   "AI tardive dyskinesia screening tool (TDscreen.ai) publication and performance claims",
+   "Early-TMS RCT (iTBS vs SSRI in pregnancy) as the coming decisive comparison",
+   "Home-use transcranial electrical stimulation and focused ultrasound as next-wave modalities",
+   "MDMA research integrity and need for independent replication",
+   "Inflammation biomarkers (NLR) predicting TMS response, replication needed",
+   "Author's own publishing plans: end of daily cadence, audiobook, personal TD story"
+  ],
+  "notes": "All 30 posts in the batch (offset 240) are audience 'everyone' and were read in full. Parallel fetches triggered HTTP 429 rate limits on 13 posts; these were refetched sequentially with retries and delays, all successfully. 'Hold Me Closer, Robitussin' (2025-03-20) is a rerun of a 2022 article about Auvelity's approval; no forward-looking claims. Several posts (podcast stubs, Sauron satire, TikTok eulogy poem, guest patient memoir parts II-III, LinkedIn analytics, regression-to-the-mean essay, aging essay, RAMHT event promos, MedStory podcast) contain no author predictions. The Optum at Home item is a sourced report the author published and vouched for, flagged as such in the paraphrase."
+ },
+ {
+  "batch_offset": 270,
+  "posts_seen": 30,
+  "posts_full_read": 28,
+  "posts_preview_only": 2,
+  "themes": [
+   "Non-invasive brain stimulation (TMS/SAINT/iTBS, eTNS) replacing pills as first-line psychiatric care; the 'neuromodulated future' of psychiatry",
+   "Payer reimbursement for new modalities (TMS, psychedelic therapy) will lag for years",
+   "Pipeline of novel ADHD treatments: TMS, MindMed LSD derivatives, focused ultrasound, neurofeedback, Monarch eTNS",
+   "Connectome / lesion-network-mapping targets expanding to new indications (PTSD, anxiety, psychosis, OCD)",
+   "iTBS plus d-cycloserine as a plasticity accelerator across disorders (OCD, depression); d-cycloserine shortage",
+   "Private-equity physician rollups flowing to Optum/UnitedHealth consolidation or bankruptcy",
+   "Accelerated TMS for bipolar depression: efficacy signal, flawed trial design, no FDA label",
+   "Direct-to-consumer wellness devices as likely scams versus regulated device companies (Magnus)",
+   "Community TMS access expansion (Living Water, Myrtle Beach) and Fermata/Acacia clinic deployments",
+   "Author's 2025 conference and event circuit (RAMHT, ATA, APA, CTMSS, AACAP)"
+  ],
+  "notes": "All 30 posts fetched. One post (more-patients-as-science-authors) hit HTTP 429 on the first parallel call and was re-fetched successfully; one group output was truncated and re-fetched. Two only_paid posts (kawaii-the-transcendent-power-of, the-journal-of-dubious-methods-and) returned text up to the paywall (784 and 516 words) and are counted as preview-only. The batch is dominated by Japan travel dispatches, satire (Ramaswamy song, romance coverage criteria), narrative medicine pieces, a guest patient story, and study critiques; sincere forward-looking claims are sparse. The BrainFutures/CEP press release in the psychedelic white-paper post contains survey-based third-party forecasts (e.g., half of providers plan to adopt psychedelic therapy within six months of FDA approval) which the author says he did not write and does not explicitly endorse; excluded. The FHSDGs 2.0 and Eames-chair posts are recycled columns, so their claims predate the post_date. Personal conference-schedule announcements were included as three low-priority 'other' items; the Fruit Logistica Berlin 'maybe' and book-in-progress mentions were excluded as non-predictive personal plans."
+ },
+ {
+  "batch_offset": 300,
+  "posts_seen": 30,
+  "posts_full_read": 29,
+  "posts_preview_only": 1,
+  "themes": [
+   "UnitedHealth Group legal and PR conduct will backfire (defamation threat vs. Dr. Potter framed as SLAPP that would be dismissed)",
+   "Payers will keep denying neuromodulation outside FDA labels (TMS for anorexia, pediatric/OCD TMS, no CPT codes for accelerated TMS soon)",
+   "Skepticism that UnitedHealth's prior-authorization reduction pledge will deliver near-term relief",
+   "Rising risk of political violence and threats against healthcare executives and commentators",
+   "Psychiatry will shift toward circuit-based, interventional treatments (DBS, accelerated TMS)",
+   "Academic publishing incentives will keep rewarding fraud; most fraud goes undetected",
+   "PBM regulatory risk under the incoming Trump administration (possible removal of the rebate safe harbor)",
+   "Trump will act on dubious legal grounds to restore TikTok",
+   "UnitedHealth Group layoffs continuing into 2025",
+   "Novel ADHD treatments (TMS, eTNS, MindMed LSD derivatives) are coming"
+  ],
+  "notes": "All 30 archive items fetched. Two posts initially returned HTTP 429 (rate limit); both loaded on retry with backoff. Item 29 (canonical_url https://withlila.substack.com/cp/154834075) is a restack of a paid post by another author ('Lila', publication 'with lila'); it has no body on The Frontier Psychiatrists and the source returns only a 23-word preview, so it is counted as preview-only and contains no Muir predictions. Several posts are explicit reruns of older articles (neurosurgeons/ADHD, Theranos, Adult ADHD, OCD short, Mordor satire); predictions from reruns are flagged in paraphrases. The 2025-02-04 PsychoFarm podcast post has show notes only, with no forward-looking claims. Satirical posts (Congressional testimony, Richard III, Mordor, Flowers for Ramaswamy, Triumph of the Willful) were read; only claims that read as sincere were captured, with satire_or_irony=true. Quotes preserve the source's curly apostrophes where present."
+ },
+ {
+  "batch_offset": 330,
+  "posts_seen": 30,
+  "posts_full_read": 28,
+  "posts_preview_only": 2,
+  "themes": [
+   "Medical devices and neuromodulation (accelerated TMS, VNS, tFUS, neurofeedback) will displace drugs in psychiatry",
+   "Payer resistance: insurers will fight to keep prior authorization and PBMs will resist elimination",
+   "Drug prices keep rising without negotiation; device payment pathways (NTAP/TCET) are the bottleneck for new technology",
+   "Insurance-enablement therapist platforms (Alma, Grow, Talkspace) face a reckoning; clinicians will leave panels",
+   "Shift toward value-based / at-risk behavioral health payment",
+   "Rapid-acting depression treatments (ONE-D, SAINT) expanding trials; 5-day protocols may stay superior for suicidal patients",
+   "ERISA fiduciary and network-adequacy litigation as a lever against non-compliant plans (Texas anti-trans policy)",
+   "Pharma marketing misconduct will persist; physicians will not cut off industry money soon",
+   "Psychedelics (MindMed MM-120) and single-dose treatments will have large impact, with skepticism about unblinding",
+   "Gun violence: mass shootings will recur without legislative change"
+  ],
+  "notes": "All 30 posts fetched without errors. Two only_paid posts returned previews only: 'Some Articles I Didn't Finish in 2024' (no predictions in preview) and 'Science That Will Change The World, 2024 Edition' (two candidates from preview text). 'Defining Gender Affirming Care' and 'I Did Not Want to Be Angry' are republished 2022/2020-era pieces with new 2025 intros; body predictions are re-endorsed by the author and flagged in paraphrases. 'Why Nightware is Crowdfunding' contains guest text by CEO Matt Tucker with company plans (trial six patients from completion, VA Pathfinder pilot) - excluded as third-party claims. 'Elon Musk Acquires Christmas' is a satirical poem with no sincere forward-looking claims. Podcast posts (Cranial Nerves, Machine Gun Kelly) read via show notes."
+ },
+ {
+  "batch_offset": 360,
+  "posts_seen": 30,
+  "posts_full_read": 27,
+  "posts_preview_only": 3,
+  "themes": [
+   "UnitedHealth backlash after the Thompson murder: persistent reputation crisis, copycat violence, fewer ethical executives, DOJ non-enforcement",
+   "CMS payment reform for FDA breakthrough medical devices (NTAP/TCET, Breakthrough Treatments Act) as the path to lower long-term costs",
+   "PBM rebates and drug prices will keep rising and crowd out the CMS budget",
+   "FDA process reform: 513(g) review timelines, post-marketing data in approvals, enforcement against industry bad behavior",
+   "Cobenfy: expansion to bipolar disorder and other indications, and new adverse effects expected at scale",
+   "Bluesky gains journalists and breaking news while X declines",
+   "Defamation law outcomes: Drake v. Lamar actual malice and cross-citation with the author's own case",
+   "Ketamine clinic economics and Spravato's blockbuster trajectory (guest author)",
+   "Scaling TMS/neuromodulation clinics into rural markets via Breakthrough6 and Living Water",
+   "Trial design: RCTs persist but should not be the sole gold standard; paying for subject education builds trust"
+  ],
+  "notes": "Archive offset 360 returned 30 posts (2024-11-13 to 2024-12-12). First parallel fetch hit HTTP 429 rate limits; all posts were re-fetched sequentially with retry delays and every body was read. Three only_paid posts returned previews only: the-problems-with-health-insurance (63 words), bluesky-social-a-natural-history (400 words), glp-1s-may-work-better-in-alcohol (448 words); no predictions found in those previews. Six posts are guest-authored (rural-and-semi-rural-mental-health, why-ketamine-clinics-keep-closing, medication-adherence-its-a-problem, finding-an-old-adversary-dead-in, surviving-depression-together, randomized-controlled-trials-are); guest claims were excluded except three flagged borderline items with is_author_claim=false. The open-letter-to-unitedhealth post is a recycled ~2022 satirical article with a new 2024-12-07 introduction. Podcast/video posts (building-trust-in-clinical-trials, joint-exams-by-zoom, owen-muir-joins-the-mental-health, the-problems-with-health-insurance) have only short show notes with no predictions. The RFK/Richard III post is pure satire with no sincere forward-looking claim."
+ },
+ {
+  "batch_offset": 390,
+  "posts_seen": 30,
+  "posts_full_read": 25,
+  "posts_preview_only": 5,
+  "themes": [
+   "Brain-modulating devices (TMS, SAINT/SNT, home tDCS) as the future of depression treatment",
+   "UnitedHealth/Optum pre-payment review and mental health parity enforcement or litigation",
+   "UnitedHealth opacity on offshoring and layoffs (WARN Act reporting)",
+   "Psychedelic development after the Lykos MDMA-AT rejection: psilocybin in veterans and a return to MDMA-related molecules",
+   "Clinical-trial enrollment at the author's clinics (Fermata, Acacia; SAINT, BrainsWay H1, Psyrin vocal biomarker, Sanmai tFUS)",
+   "2024 election polling herding and systematic polling error",
+   "Payment and coverage gap for non-pill depression treatments",
+   "SSRIs losing ground in pediatric depression as Neuronetics gains adolescent TMS clearance"
+  ],
+  "notes": "All 30 posts loaded. Three posts returned HTTP 429 on the first pass (ask-a-bitcoin-maxiabout-psychedelic, big-boy-pants, good-news-for-bipolar-depression); a retry with backoff succeeded. Preview-only posts: Ask a Bitcoin Maxi (only_paid), With Regret I Close My Fake Review Farm (founding), An Open Letter to Billionaires (only_paid), MBT Visual Guide II (only_paid), Advice to Those About to Be Deposed (founding). Several posts are pure satire (Vampires Q4 call, Discontinuing Hope, One Ring Breach, Fake Review Farm) or poetry with no sincere forward-looking claims. The Walking post contains a hypothetical 'if walking were submitted to the FDA it would likely be approved' joke; excluded as non-sincere counterfactual."
+ },
+ {
+  "batch_offset": 420,
+  "posts_seen": 30,
+  "posts_full_read": 22,
+  "posts_preview_only": 8,
+  "themes": [
+   "Brain stimulation (TMS, accelerated TMS, tFUS) will become the core of psychiatric care",
+   "Payers will keep inventing new denial mechanisms: pre-payment review replaces prior authorization",
+   "Pharma pricing will block access to highly effective drugs (lenacapavir HIV PrEP)",
+   "Telehealth access threats: DEA controlled-substance rules and state-by-state licensure",
+   "Mental health parity final rule expands required coverage (autism) with large financial impact",
+   "Lesion-network PTSD TMS target will yield more publications and wide uptake if it works",
+   "AI and vocal biomarkers will eventually out-diagnose human psychiatrists",
+   "VC/PE-funded care delivery on current payment models will not win for patients or investors",
+   "New trauma/PTSD treatments (nVNS, ibogaine, psilocybin, ultrasound) are in the pipeline"
+  ],
+  "notes": "No fetch errors; all 30 posts loaded. 8 posts were founding/only_paid previews (Letters From TikTok, This is Exhausting, Crowdfunding for Grifters, Breaking: Sam Altman's note (satire), Lexapro vs. Escitalopram I, tFUS, New (Final) Rules in Mental Health Parity I, What is NPD) — read as previews only. Two posts are guest-authored (3 Visits to the Psychiatrist by Benjamin Lippmann — no author predictions; Telehealth is Crucial for Women's Health by Joanna Strober — one conditional claim included, flagged is_author_claim=false with Muir's implicit endorsement). The DAWS post (5,466 words, mostly a pasted 2021 ER note) was read in full from the saved tool output. The tFUS preview lists the author's past calls (ERISA lawsuits, accelerated TMS payment models, MDMA not clearing FDA, TMS better than meds) as a track record — recorded as past, not new candidates. Several posts (migraine, T-Pain/Cobenfy, bipolar aTMS trial critique, September 11th, Stop Being So Positive, videos) contain analysis but no checkable forward-looking claims."
+ },
+ {
+  "batch_offset": 450,
+  "posts_seen": 30,
+  "posts_full_read": 20,
+  "posts_preview_only": 10,
+  "themes": [
+   "Aftermath of the FDA complete response letter for Lykos MDMA-AT: appeal will fail, no approval soon, retractions, possible fraud liability",
+   "DEA telehealth controlled-substance rule: no extension of flexibilities, restrictive special registration, predicted harm and diversion",
+   "Big Health payer tactics (pre-payment review, prior authorization, medical loss ratio) and calls for enforcement",
+   "Acadia Healthcare involuntary-hold scandal: litigation expected, prosecution doubted; case against locked units",
+   "CMS physician fee schedule: annual physician pay cuts, PBM cost growth, digital therapeutics as the next RPM-style boondoggle",
+   "Psychiatry workforce expansion via 100 new residency slots, with a four-year lag",
+   "rTMS superior to further antidepressant trials; insurer 'failed meds' barriers should fall",
+   "PRISM amygdala neurofeedback as a non-verbal PTSD alternative to MDMA-AT",
+   "Antidepressant withdrawal and slow tapering (Horowitz interview series)",
+   "Cost and secondary-trauma burden for psychedelic-assisted therapists"
+  ],
+  "notes": "No fetch errors; all 30 posts loaded. 10 posts returned preview text only (audience only_paid or founding): Alcohol is Bad Medicine in Bipolar Disorder, Pills, CMS Physicians Fee Schedule Open Comment Period 2025 (739-word preview), After Destruction of the One Ring (satire), The Fall of the House of MAPS (849-word preview), Owen Muir Gets In a Fight with AI, MDMA-AT: We Welcome The FDA to Phase 3 Camp (707-word preview), Even MDMA-Assisted Trauma Therapy is Traumatic (481-word preview), I Had No Idea I Was Featured On The Internet, We Are Testing You. Four podcast/video-share posts (Don't Lie to Congress, The Wizard Of Odds Ch 1, Owen Muir on The Wavelength Podcast, I Talked About Sports Once) had short show notes only; audio transcripts were not available via the API, so any predictions in the audio are not captured. The Horowitz interview posts (Ending Antidepressants I-III) contain many forward-looking statements by Horowitz, but none the author explicitly endorsed as predictions, so none were extracted. The DEA flexibilities item is a relayed third-party report (Inside Health Policy) that the author framed approvingly; is_author_claim is set false."
+ },
+ {
+  "batch_offset": 480,
+  "posts_seen": 30,
+  "posts_full_read": 26,
+  "posts_preview_only": 4,
+  "themes": [
+   "ERISA fiduciary-duty litigation against employers over PBM and health-plan costs will spread to most private employers",
+   "UnitedHealth Group/Optum layoffs, clinic closures, and regulatory impunity",
+   "Vertically integrated 'Big Health' insurer/PBM model as structurally cost-inflating (medical loss ratio)",
+   "MDMA-AT FDA decision pending (podcast and guest commentary, no firm call in this batch)",
+   "CMS 2025 Physician Fee Schedule open comment period; TMS multiple-treatments-per-day coding and Medically Unlikely Edits",
+   "Cost Plus Drugs and PBM markups (author retracts earlier skepticism of Mark Cuban)",
+   "Antidepressant adverse effects (weight gain, sexual dysfunction) and TMS as first-line depression treatment",
+   "Lithium once-daily vs multiple-daily dosing evidence (guest series, no predictions)",
+   "Teen girl suicide risk and social media (registry data commentary)",
+   "Author self-promotion: Inessential Pharmacology book, RAMHT 2025 conference in January"
+  ],
+  "notes": "All 30 posts in the batch loaded. Substack API returned HTTP 429 on two posts during the first pass; both loaded on retry with backoff. Four posts were preview-only: 3 founding (Elon Musk satire, Project Pivot/UHG CEO rumor, Prime Day Liturgy) and 1 only_paid (Open Letter From Psychiatric Medications). Eight posts were guest-authored or co-authored (Arzubi, McInnes, five-part lithium series by 'Alex', Carreon) and contain no author predictions; one guest claim included and flagged is_author_claim=false. Several posts in the batch are pure satire (Mordor, Trump announcement, Declaration of Medical Independence) with no sincere forward-looking claims. The 'Will MDMA Be Approved?!?' post is a podcast pointer with no explicit call in the show notes."
+ },
+ {
+  "batch_offset": 510,
+  "posts_seen": 30,
+  "posts_full_read": 21,
+  "posts_preview_only": 9,
+  "themes": [
+   "MDMA-AT / Lykos: negative AdComm dooms FDA approval; MDMA still expected to reach the table eventually",
+   "Psychedelic medicines will launch with REMS, on-site physicians, and nursing-style monitoring rather than therapist-only models",
+   "PBM / Big Health accountability via ERISA fiduciary suits, CAA 2021, RICO theories, and FTC scrutiny",
+   "Medical Loss Ratio incentives push insurer costs and premiums up every year",
+   "HIPAA and health privacy upheaval after Dobbs; breaches continue; no real DOJ punishment for UHC/Change",
+   "DOJ enforcement against telehealth controlled-substance prescribers will extend beyond Done",
+   "Accelerated TMS (SAINT) reimbursement: Category III CPT codes and CMS MUE change effective July 1, 2024",
+   "Replication crisis: hyped, well-funded fields such as psychedelic medicine produce findings that will not replicate",
+   "Gun violence satire: mass shootings recur, no legislative change",
+   "Employers face growing ERISA litigation over mental health vendor savings claims"
+  ],
+  "notes": "All 30 posts fetched. First attempt returned HTTP 429 for prazosin, warning-labels-for-social-media-are-0fa, and what-went-wrong-mdma-on-the-carlat; retries with delays succeeded. Nine posts (founding/only_paid) returned previews only: six-pieces-of-advice, optum-baby-shark, saving-mdma-vii, prazosin (long ~1,350-word preview), warning-labels (paid version), im-a-leading-ketamine-provider, saving-mdma-from-at-part-iv, should-mdma-at-be-saved-part-iii, food-as-medicine. SopranoRX (orig. July 2023), Passion of the MLR (orig. 2022), and the gun-violence press release (orig. July 2022) are republications with 2024 prefaces; post_date used is the 2024 republication date. The Silicon Valley hospitalization post is a guest piece by David Carreon, M.D.; its one candidate is flagged is_author_claim=false. The two July 1, 2024 CPT/MUE items are reported granted decisions with future effective dates, not forecasts, and are flagged as such in the paraphrase. Podcast/video posts (warning-labels podcast, Carlat) contained no forward-looking claims in their show notes."
+ },
+ {
+  "batch_offset": 540,
+  "posts_seen": 30,
+  "posts_full_read": 21,
+  "posts_preview_only": 9,
+  "themes": [
+   "Accelerated TMS / SAINT adoption in hospitals and its payment path (CMS NTAP under IPF PPS, new Category III CPT codes)",
+   "Psychedelic medicines (ibogaine, psilocybin) moving toward approval and needing payment mechanisms",
+   "Functional unblinding as a barrier to psychedelic RCTs",
+   "Mental health parity litigation against employers under ERISA and the CAA 2021",
+   "UnitedHealth Group fallout: Change Healthcare breach litigation and Optum Virtual Care closure",
+   "Private equity extraction in behavioral health (LifeStance earnings-call satire)",
+   "Nolan Williams / Stanford accelerated TMS as Nobel-caliber science",
+   "Measurement-based care and DSM-5-TR cross-cutting screening in EHRs",
+   "Physician mental illness stigma and self-disclosure",
+   "Social media eroding reading, intimacy and attention"
+  ],
+  "notes": "First parallel fetch hit HTTP 429 on three posts; a re-run with backoff loaded all 30 posts. Full text: 21 'everyone' posts. Preview-only: 9 ('only_paid' and 'founding'); preview lengths varied (GLP-1: 351 words; cannabis for PTSD: 757 words; vampires: 304 words) but all cut at the paywall. The Dracula/DeathStance post is satire of the LifeStance Health Q1 2024 earnings call; the guidance in it is fictionalized company talk, not an author claim, so it was excluded. 'Two-Factor Authentication' cites an earlier author prediction (Change Healthcare would be scrapped) as resolved; not counted as a new candidate. Two candidates from preview-only posts (Optum Virtual Care, Compass PTSD) quote the post title because the body is paywalled. The cannabis preview states cannabis 'was just rescheduled' to Schedule III (a factual claim, not a prediction; excluded). No posts failed to load."
+ },
+ {
+  "batch_offset": 570,
+  "posts_seen": 30,
+  "posts_full_read": 25,
+  "posts_preview_only": 5,
+  "themes": [
+   "UnitedHealth Group / Change Healthcare breach fallout: repeat extortion, PHI leaks, weak regulatory enforcement",
+   "Optum layoffs, WARN Act non-compliance, and shutdown of Optum Virtual Care",
+   "UHG executive stock sales and DOJ antitrust probe (satirical Mordor framing)",
+   "Psychiatric euthanasia in the Netherlands, personality disorders, and suicide contagion",
+   "Spravato/esketamine: label limits, monotherapy expectation, arketamine development",
+   "TMS cost-effectiveness and Medicaid coverage advocacy",
+   "Quetiapine (Seroquel) evidence critique across indications",
+   "Ketogenic diet for bipolar disorder needs blinded trials",
+   "Placebo response inflation and blinding failures in psychedelic (MDMA) trials",
+   "Rapid Acting Mental Health Treatment NYC event (May 5, 2024) with Lykos speaker"
+  ],
+  "notes": "All 30 archive items fetched without errors. Five posts are paywalled and returned only previews: stop-updating-my-software (founding, 64 words), fidget-spinners (only_paid, 671 words), essential-oils-for-depression-yes (only_paid, 344 words), how-big-of-a-deal-are-psychedelic (only_paid, 53 words; title is forward-looking but preview has no claims), whence-placebo-controlled-trials (only_paid, 886 words). Batch is light on hard forecasts; most posts are data reviews, satire, or news relay about the Change Healthcare breach. Several candidates are borderline and flagged with specificity 2 (legal discovery aside, Seroquel dose bet, Optum-Steward deal stated as fact). Third-party predictions not endorsed by the author (the Optum layoff poem, Andrew Witty's 'bring it back stronger' quote, RansomHub's 12-day threat) were excluded as author claims; the RansomHub deadline informs the horizon of the PHI-sale candidate."
+ },
+ {
+  "batch_offset": 600,
+  "posts_seen": 30,
+  "posts_full_read": 23,
+  "posts_preview_only": 7,
+  "themes": [
+   "Change Healthcare / UnitedHealth Group cyberattack fallout: lawsuits, subpoenas, hearings",
+   "UHG's financial resilience and incentive to slow-roll the ransom during the Change outage",
+   "HIPAA enforcement and fines from the 6TB PHI breach",
+   "DOJ antitrust scrutiny of UnitedHealth Group",
+   "Private equity roll-ups in health tech (Luminello/SimplePractice) facing valuation and regulatory consequences",
+   "Continued prescribing of aripiprazole despite negative data (autism irritability maintenance, bipolar depression)",
+   "rTMS as the next step after two failed antidepressants (Ascertain-TRD) and prior-authorization reform",
+   "Omega-3 fish oil for psychosis prevention in clinical-high-risk youth",
+   "Author's own clinic expansion (Fermata/Acacia) and SAINT research enrollment",
+   "Industry-wide credentialing and revenue-cycle slowdowns from the Change outage"
+  ],
+  "notes": "All 30 posts loaded without fetch errors. Seven posts are only_paid and returned previews only: ask-the-laws-of-the-house-of-god (57 words), akathisia-from-meditation (1091-word preview), abilify-in-bipolar-disorder-ii (392 words), satire-is-now-the-news (61 words), daring-cyberattack-elicits-00067 (62 words), an-imagined-town-hall-with-blackcat (57 words), change-healthcare-is-a-big-enough (785-word preview; one candidate taken from the preview). Two posts are satire (Optum/BlackCat press release; Hornblower town hall); only the sincere-reading claim from the Optum piece was captured. The two podcast posts carry short show notes with no predictions. Most posts in this batch (Abilify series, akathisia, tardive dyskinesia, chronic cough, pets and schizophrenia, obesity) are retrospective drug and science reviews with no forward-looking calls."
+ },
+ {
+  "batch_offset": 630,
+  "posts_seen": 30,
+  "posts_full_read": 26,
+  "posts_preview_only": 4,
+  "themes": [
+   "ERISA fiduciary litigation will spread from PBM pricing to prior authorization and behavioral-health access",
+   "Employers will stampede to self-funded plans; fully insured plans may implode within one to two years",
+   "Traditional spread-pricing PBMs will lose the employer market to cost-plus vendors",
+   "Validated, indemnified benefit vendors will gain employer popularity",
+   "Once-daily 36-session TMS business models will fail; fMRI-guided accelerated TMS will become standard of care",
+   "Private-equity roll-ups (LifeStance, SimplePractice/Luminello) will harm clinicians, patients, and records",
+   "Psychedelic medicine review series will publish in the American Journal of Therapeutics in March 2024",
+   "GLP-1 drugs may reduce non-food cravings, including sexual cravings, as a prevention tool",
+   "Physician-free executions will remain reliably unreliable",
+   "Apple Vision Pro will not become a productivity tool"
+  ],
+  "notes": "All 30 posts in the batch loaded. Two posts (lawsuits-for-health-plan-scams-have, read-this-other-thing-i-did-not-write) returned HTTP 429 on first attempt; both loaded on retry with backoff. Four only_paid posts (an-open-letter-to-parents-regarding, learn-to-read-science-part-2-catie, learn-to-read-science-part-1-the, remeron) returned truncated previews and are counted preview-only; the two CATIE previews were long (800-1000 words) but cut off mid-article and contained no predictions. Posts with no forward-looking claims: casual-sadism-of-suicide-prevention, today-in-comically-poorly-targeted, can-employee-assistance-programs, a-firm-science (guest co-author's biomarker speculation only, not endorsed as author claim), the-death-of-my-sister, bupropion, read-this-other-thing, i-wrote-a-piece-of-fiction, the-farmhouse, building-nothing-out-of-something, the-frontier-psychiatrists-appear, of-cycles-and-bipolar-disorder. A statement about a named private individual's future release from prison was omitted."
+ },
+ {
+  "batch_offset": 660,
+  "posts_seen": 30,
+  "posts_full_read": 28,
+  "posts_preview_only": 2,
+  "themes": [
+   "Rapid-acting treatments (SAINT, accelerated TMS) moving into hospitals and acute care",
+   "Psychedelic pipeline data and approvals coming: COMP360 psilocybin, Lykos MDMA, LSD for GAD",
+   "Expanding PTSD device and therapy options: PRISM neurofeedback, Nightware, gammaCore, magnesium-ibogaine",
+   "GLP-1 drugs entering routine psychiatric practice",
+   "TMS indication expansion at FDA",
+   "Payment models and CMS coverage lag behind novel neuromodulation",
+   "Risk mitigation (REMS-style) expected alongside psychedelic approvals",
+   "Private equity hospital ownership harms patients and drives clinician attrition"
+  ],
+  "notes": "Batch is 30 posts (Dec 25, 2023 to Jan 25, 2024). Two only_paid posts (King MacBeth Sees Me For Therapy; An Offer, Withdrawn...) returned previews only; both are humor pieces with no predictions in the preview. Eight posts first hit HTTP 429 and were refetched with retries; all loaded. The restack (Q&A with Awais Aftab, canonical_url psychiatrymargins.com/cp/140549177) has an empty body on the TFP API; I read it in full (5,626 words, two calls) from https://www.psychiatrymargins.com/api/v1/posts/synesthesia-of-distress-and-other and extracted only Muir's own answers. Most posts in this batch are satire, personal essays, or literature reviews with no forward-looking calls; the satirical Walking 'FDA package insert' and Balrog/Illegal Drugs pieces contain no sincere predictions. Several items are hedged hopes rather than firm calls and are flagged with low specificity."
+ },
+ {
+  "batch_offset": 690,
+  "posts_seen": 30,
+  "posts_full_read": 29,
+  "posts_preview_only": 1,
+  "themes": [
+   "SAINT / accelerated TMS reimbursement expansion via Medicare NTAP and CPT codes",
+   "Psychedelic medicine will be paid through the same NTAP/CPT pathway",
+   "ADA and DOJ enforcement as a new lever against insurer fail-first mental health policies",
+   "Interventional brain medicine will displace psychopharmacology",
+   "Clinician workforce exodus driven by private equity and burnout",
+   "AGI is inevitable and will inherit human irrationality",
+   "Joint Commission suicide sentinel-event rule will expose post-discharge suicide numbers",
+   "Cannabis reduction as schizophrenia prevention"
+  ],
+  "notes": "All 30 posts fetched. One transient HTTP 429 on ramon-lizardo-md-talks-disability; retry succeeded. The only_paid post writing-every-day-you-wont-read-it returned a ~450-word preview only. Most posts in this batch are personal essays, podcast show notes, satire (Santos, Sauron, Sam Altman), a guest post (That is So Random, by Alex Mendelsohn, not the author) and short cross-promotion notes; they contain no checkable forward-looking claims. The MM-120 post only quotes MindMed's press release with no author forecast. The Future of Brain Health post includes a full interview transcript."
+ },
+ {
+  "batch_offset": 720,
+  "posts_seen": 30,
+  "posts_full_read": 30,
+  "posts_preview_only": 0,
+  "themes": [
+   "Accelerated precision TMS (SAINT, BRAIN) as the future of depression and OCD care; SAINT OLO trial at Fermata",
+   "Payment for neuromodulation via new CPT Category III codes and employer plan design",
+   "Observational (measurement) AI will matter more than generative AI in biomedicine",
+   "Functional unblinding invalidates psychedelic double-blind trials",
+   "Rapid-acting treatments could shorten hospital stays and reduce need for psychiatric beds",
+   "Pharma off-label marketing continues when fines are smaller than profits",
+   "Bipolar disorder as a circadian rhythm disorder",
+   "Inpatient care and oral antidepressants lack evidence for suicidal youth",
+   "RAMHT 2024 live event before JPM (Jan 7, 2024)"
+  ],
+  "notes": "All 30 posts in the batch (dates 2023-10-19 to 2023-11-20) are audience 'everyone' and were read in full. One HTTP 429 on the final post (how-health-care-gets-paid-for-in) was resolved on retry. The satirical 'Private Equity Acquisition of Vampires' term sheet and 'Banned Healthcare Startup Names, 2024' contain no sincere forward-looking claims and were not extracted. The RAMHT 2024 event announcement recurs as a plug in many posts and is captured once (from the Announcing post). The Press Release Round Up post reproduces Magnus and Fermata press releases; only the author's own words (his press-release quote and his note endorsing CPT codes as the route to payment) were captured, with the Magnus code dates noted in the paraphrase. Several podcast-archive posts (pandemic episodes 1-4, Complex Case Psychiatrist, New Podcast Appearance) contain only show notes with no predictions."
+ },
+ {
+  "batch_offset": 750,
+  "posts_seen": 30,
+  "posts_full_read": 27,
+  "posts_preview_only": 3,
+  "themes": [
+   "Accelerated TMS / SAINT (SNT) will become the standard future treatment for depression, displacing oral antidepressants",
+   "Personalized neuromodulation: future research will match patients to specific stimulators and brain targets",
+   "Brain stimulation devices (Monarch eTNS) will show efficacy beyond current FDA-cleared indications",
+   "Psilocybin and psychedelic medicines produce rapid depression remission; author's forthcoming papers will show strong data",
+   "Long-acting injectable antipsychotics (risperidone/paliperidone) will remain useful for a long time; easy-to-take formulations are the future",
+   "ERISA gag-clause attestation (effective 2023-12-31) will expose employer plans and PBMs to fiduciary-duty trouble",
+   "Pharma illegal off-label marketing will continue as long as fines stay smaller than profits (Depakote/Abbott)",
+   "Employer health plans will be pushed to cover SAINT-style remission of depression",
+   "Healthcare payment mechanics (CPT/RVU/AMA licensing) series - explanatory, few predictions",
+   "Demographic aging (triple elderly by 2060) will strain the healthcare workforce"
+  ],
+  "notes": "All 30 posts fetched. Three fetches (how-my-dad-met-my-mother, goldifucks, risperidone) hit HTTP 429 rate limits on the first attempt and were read in full after a retry with delays. Three only_paid posts (Paxil ~53-word preview, Geodon ~500-word preview, Zoloft ~700-word preview) counted as preview-only; their previews contained no forward-looking claims. Most posts in this batch are memoir, satire (Wizard of Oz parody, Interrogated fiction set in 2036, Magic Unicorn referrals), podcast reposts, book lists, and drug-history pieces; predictions cluster in the accelerated-TMS/SAINT, neuromodulation, LAI antipsychotic, and PBM/ERISA posts. Third-party Bain Capital healthcare PE forecasts quoted in the PE Investor post footnotes were excluded as not explicitly endorsed. Post 1 mentions 'triple the number of elderly people in 2060' as an asserted projection; included as low-specificity 'other'."
+ },
+ {
+  "batch_offset": 780,
+  "posts_seen": 30,
+  "posts_full_read": 24,
+  "posts_preview_only": 6,
+  "themes": [
+   "Neuromodulation (SAINT/accelerated TMS, eTNS) as the future first-line treatment replacing oral psychopharmacology",
+   "Magnus Medical SAINT: hospital availability under CMS NTAP and a 'new era' in depression care",
+   "ADHD: medical devices (Monarch eTNS, TMS) as the answer to stimulant shortages; author's forthcoming 5-day TMS remission paper",
+   "Stimulant prescribing has hit a hard ceiling (DEA/supply limits, prescriber frustration)",
+   "'Farewell to meds' series: benzodiazepine and Z-drug harm claims (Ambien, Xanax, Klonopin)",
+   "Mental health parity enforcement via statistical null-hypothesis testing of payer spending",
+   "Limits of generative AI and LLMs: average-of-human output, missing intent",
+   "Twitter/X decline and migration to Threads",
+   "Atypical antipsychotic market growth projection to 2030"
+  ],
+  "notes": "All 30 posts fetched via the posts API. First pass hit HTTP 429 on 3 posts; retry with 8s backoff and 4s spacing succeeded. Six only_paid posts (Prozac, MBT, Olanzapine, Curb Your Enthusiasm for LLMs, E-motion Capture, Dear Readers My Screen Cracked) returned short previews only. Output for posts 17-21 was persisted to a file and read in full. Podcast/video posts had only short show notes. Most posts in this batch are drug reviews, personal essays, satire, and legal advice with few forward-looking claims; satirical posts (3-figure income, gift-card open letter) yielded no sincere predictions."
+ },
+ {
+  "batch_offset": 810,
+  "posts_seen": 30,
+  "posts_full_read": 26,
+  "posts_preview_only": 4,
+  "themes": [
+   "DOL MHPAEA proposed rules (July 2023) as a turning point for mental health parity enforcement; payers cheat via NQTLs and ghost networks",
+   "Oral antidepressants will be superseded by neuromodulation and psychedelics",
+   "Accelerated TMS (SAINT, BRAIN protocol at Acacia) as the future standard of care with validated outcomes",
+   "Private equity and Big Health (UnitedHealth/Optum) consolidation harms healthcare and physicians",
+   "AI scribes (DeepScribe) overstate capability and hide human labor",
+   "US suicide rates will not improve under current mental health spending",
+   "GLP-1 drug spending as a dominant future payer cost driver",
+   "Convenience beats efficacy: zuranolone versus brexanolone for postpartum depression",
+   "Skepticism of weak trial evidence (photobiomodulation, failed randomization)",
+   "Mentalization-based treatment education series (no predictions)"
+  ],
+  "notes": "All 30 posts fetched. Posts 29 and 30 (great-news-im-raising-a-pe-fund, oral-antidepressantsno-thanks) returned HTTP 429 on the first attempt; a retry with a pause succeeded. Four only_paid posts returned previews only: medically-necessary-healing-with, the-lord-satan-has-a-great-meeting, what-is-borderline-personality-disorder, great-news-im-raising-a-pe-fund. Two video posts (why-savings-claims-can-be-a-scamand, neuromodulation-is-like-a-car-wash) have short show notes only and contain no predictions. Most posts in this batch are educational (mentalizing series), personal, or parity-comment advocacy; forward-looking claims are sparse and mostly low specificity."
+ },
+ {
+  "batch_offset": 840,
+  "posts_seen": 30,
+  "posts_full_read": 24,
+  "posts_preview_only": 6,
+  "themes": [
+   "Private equity cannot create value in healthcare; PE physician-staffing roll-ups will keep failing after the No Surprises Act",
+   "Insurer-owned PBMs (Big Health) will be dismantled by insiders and ERISA fiduciary litigation under CAA 2021",
+   "Psychedelic exceptionalism (therapists must trip, counter-culture posture) will impede psychedelic medicine's regulatory and medical acceptance",
+   "Accelerated TMS (SAINT) expansion: Fermata Brooklyn launch; neuromodulation will help treatment-resistant youth",
+   "Venture-backed healthcare startups are structurally doomed; only government-payer-anchored plays succeed",
+   "Post-Dobbs collapse of federal privacy law pushes health-data standards to states, led by California",
+   "Youth mental-health crisis will worsen: rising attempts will become completed suicides",
+   "Emergency medicine will face physician shortage, not the academically forecast 2030 oversupply",
+   "Insurers misuse efficacy-trial inclusion criteria to deny TMS to non-refractory patients (recurring critique, mostly present-tense)"
+  ],
+  "notes": "First archive request returned HTTP 429; a retry with backoff succeeded. All 30 posts loaded. Six posts are only_paid and returned previews only: i-was-a-terrible-writer-proof-to, i-explained-healthcare-to-my-mom, a-love-letter-to-revelations, the-ai-knows-the-darkness-of-our, chapter-6-the-pitch-to-the-investor (returned 986 words because the author enabled free-trial access, but counted as preview-only per instructions), how-i-write-a-one-person-daily-newsletter. This batch (25 Jun to 20 Jul 2023) is light on regulatory and clinical-trial calls; most forward-looking claims concern private equity, PBM/fiduciary litigation, and psychedelic-field culture. Several candidates are low-specificity directional claims flagged for the orchestrator to filter."
+ },
+ {
+  "batch_offset": 870,
+  "posts_seen": 30,
+  "posts_full_read": 16,
+  "posts_preview_only": 14,
+  "themes": [
+   "ERISA fiduciary duty and mental health parity will drive employer health-plan litigation and purchases of compliant plans",
+   "Perez v. Sturgis will expand ADA compensatory-damages exposure from schools to health plans and other domains",
+   "Psychedelic industry marketing (MAPS 'fun', conflict-resolution claims) invites FDA OPDP advertising enforcement and medical-board scrutiny; the field must get 'boring' to survive",
+   "FDA approval and DEA rescheduling of psychedelics will bring more regulation, not less",
+   "Neuromodulation (deep TMS, eTNS, SAINT) as the future of psychiatry, with insurer fail-first policies framed as fiduciary breach",
+   "CMS NTAP open-comment advocacy for SAINT/accelerated TMS coverage in psychiatric hospitals (advocacy, no explicit prediction)",
+   "GLP-1 drugs as serious metabolic-disease medicines with a very large payer cost burden",
+   "Compliant legacy technology (fax, pagers) will outlast 'disruptive' venture-backed health tech",
+   "Author's own media trajectory: more books, writing ending up in legal discovery, niche not viral"
+  ],
+  "notes": "All 30 posts loaded. One HTTP 429 (asynchronous-office-hours) on the first pass; retried with backoff and loaded in full. 14 posts were only_paid/founding previews (short excerpts only): im-a-psychicabout-timing-of-articles, the-last-photo-i-took-of-my-father, the-state-of-our-newsletter-is-strong, the-cure-for-imposter-syndrome, healthcare-book-club, amazing-news-i-figured-out-how-to, why-insurance-wont-cover-innovative, an-open-letter-to-every-company-from, understanding-psychiatric-research, if-cms-doesnt-cover-revolutionary, swallowing-sharp-objects, its-open-comment-for-saint-time (video), psychedelics-why-medical-use-and, compliant-is-the-new-disruptive-a. Excluded as third-party: Rick Doblin's quoted claim that FDA would approve MDMA by mid-2024 (psychedelic-conferences post) — the author neither endorses nor rejects the timing. Several previews (CMS NTAP for SAINT open comment) are advocacy with no checkable prediction. Batch is dominated by satire, personal essays and legal/regulatory commentary; few hard dated calls."
+ },
+ {
+  "batch_offset": 900,
+  "posts_seen": 30,
+  "posts_full_read": 16,
+  "posts_preview_only": 14,
+  "themes": [
+   "DEA telehealth prescribing of controlled substances: the Ryan Haight in-person rule will not return; expect repeated extensions and prolonged uncertainty",
+   "Overdose crisis: fentanyl and xylazine will keep sudden overdose deaths rising; over-the-counter naloxone is arriving and will save lives",
+   "Payment access for SAINT / accelerated TMS in inpatient settings via CMS NTAP under the FY2024 IPPS rule (advocacy with a paid-consultant disclosure)",
+   "Psychedelic medicine becoming routine medicine: AMA CPT Category III code details July 2023, effective 2024-01-01",
+   "Social media platform futures: Bluesky composable moderation as a model, Substack's moderation stance will destroy the platform",
+   "Political call: AOC will be president",
+   "Effect-size and measurement-based-care critiques (antipsychotic augmentation, placebo effect size) - analysis and prescriptions, few predictions",
+   "Compliance and satire posts (Vader, Elon Musk III, Richard III, AI prompt hacks) with no sincere forward-looking claims"
+  ],
+  "notes": "All 30 posts in the batch loaded. Two posts (in-celebration-of-this-newsletter, is-false-equivalency-is-the-new-precision) returned HTTP 429 on the first pass; refetched with backoff and read in full. 14 posts are only_paid and returned short previews (the DEA can-kicking, psychedelic CPT, Substack trolls, and May 11 controlled-substance posts are among them, so their bodies may hold more predictions than captured). Excluded as unendorsed third-party claims: Magnus Medical email line 'This is just the first technology that has come along. It certainly will not be the last' (NTAP post) and 'I have been told they are coming' about Star Trek-style diagnostics (The Future is Boring). Excluded as prescriptive: 'Nobody should ever do this anymore' (antipsychotic augmentation). Satirical posts contain no sincere predictions. No explicit probabilities appear in the batch."
+ },
+ {
+  "batch_offset": 930,
+  "posts_seen": 30,
+  "posts_full_read": 13,
+  "posts_preview_only": 17,
+  "themes": [
+   "AI in writing, litigation, and compliance documentation",
+   "Deep TMS / neuromodulation efficacy and real-world replication (OCD)",
+   "State politicians and judges regulating medical practice (gender-affirming care, abortion)",
+   "Antipsychotic augmentation harms: tardive dyskinesia and metabolic syndrome versus safer alternatives (TMS, ketamine, esketamine, ECT)",
+   "GLP-1 drugs (Ozempic/Wegovy) and risk-of-inaction framing for obesity",
+   "Prescription digital therapeutics collapse (Pear Therapeutics bankruptcy)",
+   "Stimulant drug shortages and regulator engagement",
+   "Satire of healthcare-corporate HR/compliance culture (LOTR parody series; UnitedHealth-style earnings parody)",
+   "Team-based care: physicians, pharmacists, nurses as complements not replacements"
+  ],
+  "notes": "All 30 posts loaded. Parallel fetches hit HTTP 429 (Too Many Requests); affected posts were refetched sequentially with backoff and all succeeded. 13 'everyone' posts read in full; 17 'only_paid'/'founding' posts returned preview text only. The 2023-04-10 paid post 'Predictions About The Future' states it contains 'a few outlandish predictions' but every prediction sits behind the paywall (preview is one sentence); Wayback Machine could not be fetched (429 on availability API; WebFetch blocked for web.archive.org), so no candidates could be extracted from it. Most of the batch is LOTR HR/compliance satire posted while the author was on vacation; those posts contain no sincere forward-looking claims. Only four low-to-moderate specificity candidates were found; no regulatory, clinical-trial, company/market, payer, or practice-adoption predictions appear in the readable text."
+ },
+ {
+  "batch_offset": 960,
+  "posts_seen": 30,
+  "posts_full_read": 12,
+  "posts_preview_only": 18,
+  "themes": [
+   "Generative AI (GPT-4) will replace manual document work such as CVs and personal statements",
+   "AI-generated fakery will erode trust in digital evidence, driving a return to paper, in-person, and analog records",
+   "AI-automated compliance complaints will let patients push back on hospital billing and ADA/501(r) violations",
+   "The Big Health (UnitedHealth, PBM, hospital) financial model is unsustainable and betting against it will pay",
+   "CAA 2021 transparency rules (gag clause attestation, broker disclosure, employer fiduciary duty) will change healthcare purchasing",
+   "Neuronetics' per-treatment fee model is vulnerable to free or cheaper TMS coils",
+   "DEA telehealth controlled-substance rules after the PHE end will abruptly cut off ADHD patients",
+   "Mass shootings will recur absent social connection and mentalizing",
+   "Psychedelic medicine as a potential disruptive innovation (hedged)",
+   "Cost-savings health tech will only find aligned buyers in self-funded employers and dual-eligible populations"
+  ],
+  "notes": "No fetch errors. All 30 posts fetched. 12 'everyone' posts read in full; 17 'only_paid' and 1 'founding' post returned previews only. The only_paid thread 'live-commentary-from-the-pro-publica' (2023-03-28) returned an empty body_html (0 characters) and was counted as preview-only. 'dont-take-my-gpt4-away' (5,459 words) is mostly a CV listing; it was read in two parts. Batch is dominated by satire, SXSW dispatches, Mount Sinai billing-dispute posts, and AI/compliance commentary; few core regulatory or clinical-trial calls. 'I believe the revolution will be automated' (Verizon post) was left out as specificity 1 in a non-core area."
+ },
+ {
+  "batch_offset": 990,
+  "posts_seen": 30,
+  "posts_full_read": 18,
+  "posts_preview_only": 12,
+  "themes": [
+   "Regulatory and legal exposure of direct-to-consumer telehealth (BetterHelp/Teladoc, FTC complaint, HIPAA liability)",
+   "Health insurer consolidation and 'healthcare is a scam' framing (UnitedHealthcare, Medicare Advantage, prior authorization)",
+   "Return of federal network adequacy oversight and behavioral-health wait-time standards in 2023",
+   "Xylazine ('tranq') epidemic: rising deaths and the need for reversal agents; OTC naloxone",
+   "DEA controlled-substance telehealth rule comment period (early 2023)",
+   "Lithium as an under-used life-saving treatment and the case for adherence technology",
+   "Healthcare lobbying and 'fake mass movement' tactics as a route to policy change",
+   "Critique of health-tech startups that solve small problems; NOCD as a model",
+   "Skepticism about universal screening and its downstream costs",
+   "AI hype and its practical limits in health care"
+  ],
+  "notes": "All 30 posts fetched. Two initial HTTP 429 (rate limit) errors on medicare-advantage-is-a-scam and an-open-letter-to-my-bipolar-disorder; both succeeded on retry with delays. 12 posts were paywalled previews (only_paid/founding), including the DEA Controlled Substances Update video (show notes were one sentence: a 30-day comment window). The batch (Feb 10 - Mar 12, 2023) is heavy on satire, fiction (The Wizard of Odds chapters), poetry, and personal essays; sincere forward-looking claims are sparse. Several items are borderline (specificity 1-2) and are flagged as such in the paraphrases."
+ },
+ {
+  "batch_offset": 1020,
+  "posts_seen": 30,
+  "posts_full_read": 22,
+  "posts_preview_only": 8,
+  "themes": [
+   "AI/LLMs will reshape healthcare: automated litigation against insurers and PBMs, AI-owned medical knowledge base, AI-generated tabloid journalism",
+   "Human vs AI authorship: imperfect spelling as a signal of humanity, AI learning to fake errors",
+   "Accelerated and novel neuromodulation (SAINT/SNT, rotational field TMS, BrainsWay dTMS for OCD/depression) as the future standard; recurring Nolan Williams Nobel campaign",
+   "Psychedelic-assisted therapy (MDMA, psilocybin) portrayed as 'very close' to FDA approval",
+   "Coercive psychiatric hospitalization is a failed model; NYC Adams involuntary-removal directive will backfire",
+   "State anti-trans legislation (Utah) will cause patient harm and expose lawmakers to novel liability (RICO)",
+   "Next-generation ADHD treatments (MindMed LSD derivative, eTNS, TMS) will beat current drugs; stimulant shortage and Cerebral/telehealth backlash",
+   "ERISA/CAA 2021 fiduciary-duty enforcement against health plans and PBMs will rise"
+  ],
+  "notes": "No fetch errors. 8 of 30 posts are only_paid and returned short previews only (Cerebral documentary, ADHD sleep, AI EEO complaint vs UnitedHealth, neurosurgeons/ADHD, super-charging ADHD, Ted Cruz, Greta Thunberg/narcissism, Tornado story); none of the previews contained predictions. The 4,459-word ADHD post was read in two parts. Many posts in this batch are satire, poetry, podcast notes, or conference announcements with no forward-looking claims (Leviathan, Elon Musk poem, Santa HR, Dante parody except its opening line, podcasts). The two Nobel-Prize items are 'should' advocacy statements included as flagged borderline candidates because they name a person and a dated event; the NYC 'violates mental hygiene law' item is a present-tense legal opinion included as borderline. Author discloses a MindMed shareholding in the ADHD post."
+ },
+ {
+  "batch_offset": 1050,
+  "posts_seen": 30,
+  "posts_full_read": 22,
+  "posts_preview_only": 8,
+  "themes": [
+   "Insurer coverage expansion for dTMS/TMS (Cigna/Evernorth OCD coverage) and prior-authorization reform",
+   "ERISA fiduciary-duty and network-adequacy enforcement wave after the Consolidated Appropriations Act",
+   "Post-Roe healthcare enforcement crisis and HIPAA law-enforcement back doors into medical records",
+   "Therapist insurance-platform business models (Alma, Grow Therapy, Talkspace, BetterHelp) facing a reckoning",
+   "Shift toward at-risk, value-based behavioral health contracting",
+   "dTMS and accelerated TMS (SAINT, BrainsWay H7) efficacy, replication, and durability claims",
+   "Gun violence as leading cause of child death; predictable mass shootings with no legislative change",
+   "Nobel Prize advocacy for Nolan Williams (2023) and SAINT as future standard of care",
+   "Metabolic harm of antipsychotics and GLP-1 drugs as the corrective",
+   "DEA enforcement on telehealth controlled-substance prescribing (paid preview only)"
+  ],
+  "notes": "No fetch errors. Batch: 30 posts (2022-09-14 to 2022-12-05). Full-read (audience everyone): 22; preview-only (only_paid/founding): 8. Three paid threads returned no body_html at all (facebook-ai-responds-to-crisis-response, upcoming-live-audio-events, memes; only the memes description was available) and are counted as preview-only. Three 'everyone' podcast posts (vampires-a-private-equity-cautionary-1bd, toxic-celebrity-culture, hold-my-closer-robitussin) have empty or one-line show notes; counted as full-read with no extractable predictions. Excluded as advocacy rather than forecast: the author's repeated campaign urging the Nobel committee to award Nolan Williams the 2023 Nobel Prize (the-rapid-health-scam-detection-guide footnote; an-inconvenient-truth-about-the-mental footnote). The author's 'Combined Appropriations Act of 2020' refers to the Consolidated Appropriations Act, 2021. Several posts are satire/fiction (Vampires PE tale, Amazon leak, Theranos) with no sincere forward claims beyond the Theranos item flagged at low specificity."
+ },
+ {
+  "batch_offset": 1080,
+  "posts_seen": 30,
+  "posts_full_read": 22,
+  "posts_preview_only": 8,
+  "themes": [
+   "MLR incentives make healthcare costs, premiums, and prior-authorization denials rise every year",
+   "Insurers will not pay for SAINT/accelerated TMS despite FDA clearance",
+   "End of the COVID public health emergency and Ryan Haight return will end telehealth-only controlled-substance prescribers (Cerebral, Done, Mindbloom)",
+   "State laws that criminalize standard of care (Texas trans care, abortion bans) produce uninsurable doctors, physician flight, and ERISA/tax liability for employers",
+   "Federal ERISA and EMTALA enforcement will follow Dobbs",
+   "988 launch will not change patient outcomes without downstream crisis funding",
+   "Health-tech startups end in failure or acquisition by incumbents; LifeStance decline",
+   "Cerebral will face regulatory consequences",
+   "SAINT (Magnus) becomes available soon with 12-18 month durability",
+   "Cost Plus Drugs will not fix hidden PBM markups"
+  ],
+  "notes": "All 30 archive items and all 30 post bodies fetched without errors. Eight posts (audience only_paid or founding) returned short previews only: louboutins-are-the-best-shoes-we, i-made-a-video-about-the-medical, its-the-end-of-telehealth-as-we-know, our-son-with-the-hottest-take-on, you-can-cure-depression-with-this, onlybans, full-audio-from-our-mental-health, demons-on-display. Podcast/video posts (its-the-end-of-telehealth-as-we-know-0d7, cerebral-vastly-exceeding-the-standards, freebritney-podcast, bipolar-disorders-myths-busted, pandemic-flashback-april-10th-2020, a-field-reporters-guide-to-american) have 12-80 word show notes with no predictions. The Mordor/OneRing post is pure satire with no sincere forward-looking claims; the neurons and Auvelity explainers and the Shkreli/Cuban piece contain almost no predictions. Several 2021 posts (mental-health-in-the-metaverse, freebritney-shows-us-when-help-is, what-the-media-gets-wrong-and-right) read as bylined by co-author Carlene MacMillan, MD; the one candidate from those posts is flagged in its paraphrase. The 988 post is co-signed by both authors."
+ }
+]

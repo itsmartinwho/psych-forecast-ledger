@@ -1,0 +1,428 @@
+{
+ "rates": [
+  {
+   "name": "Phase III to NDA/BLA transition success, all indications",
+   "value": "57.8",
+   "unit": "% of Phase III programs that advance to NDA/BLA (n=1,928 transitions)",
+   "population": "All industry clinical programs, all indications (12,728 phase transitions, 9,704 programs)",
+   "period": "2011-2020",
+   "source_url": "https://www.bio.org/clinical-development-success-rates-and-contributing-factors-2011-2020",
+   "note": "BIO/Informa/QLS report (Feb 2021). Figures read from the report text mirrored at readkong.com. Overall LOA from Phase I: 7.9%."
+  },
+  {
+   "name": "NDA/BLA submission to approval, all indications",
+   "value": "90.6",
+   "unit": "% of submitted NDA/BLAs approved (n=1,453)",
+   "population": "All industry NDA/BLA submissions, all indications",
+   "period": "2011-2020",
+   "source_url": "https://www.bio.org/clinical-development-success-rates-and-contributing-factors-2011-2020",
+   "note": "Same BIO/Informa/QLS report. Disease-area NDA/BLA rates ranged from 82.5% (cardiovascular) to 100% (allergy)."
+  },
+  {
+   "name": "Phase III to NDA/BLA transition success, psychiatry",
+   "value": "56.3",
+   "unit": "% (n=71 Phase III transitions)",
+   "population": "Psychiatry programs",
+   "period": "2011-2020",
+   "source_url": "https://www.bio.org/clinical-development-success-rates-and-contributing-factors-2011-2020",
+   "note": "Psychiatry Phase I to II 52.7% (n=150); Phase II to III 26.8% (n=164); LOA from Phase I 7.3% (n=442). Neurology comparison: Phase III 53.1% (n=226), LOA 5.9%."
+  },
+  {
+   "name": "NDA/BLA to approval, psychiatry",
+   "value": "91.2",
+   "unit": "% (n=57 submissions)",
+   "population": "Psychiatry NDA/BLA submissions",
+   "period": "2011-2020",
+   "source_url": "https://www.bio.org/clinical-development-success-rates-and-contributing-factors-2011-2020",
+   "note": "Neurology NDA/BLA to approval: 86.7% (n=165). Small n; a 95% CI for 91.2% at n=57 spans roughly 80-97%."
+  },
+  {
+   "name": "Phase 3 to approval probability of success, all indications and CNS (Wong, Siah, Lo)",
+   "value": "59.0 (all); 51.1 (CNS)",
+   "unit": "% probability of approval given Phase 3 entry",
+   "population": "41,040 development paths from 21,143 compounds; CNS subset 4,924 paths",
+   "period": "2000-2015",
+   "source_url": "https://academic.oup.com/biostatistics/article/20/2/273/4817524",
+   "note": "Biostatistics 2019;20(2):273-286 (with 2019 corrigendum). CNS SE +/-1.5%. Overall Phase 1 to approval 13.8%; CNS 15.0%. Median Phase 3 trial duration 3.8 years."
+  },
+  {
+   "name": "FDA action concordant with advisory committee vote (overall)",
+   "value": "88",
+   "unit": "% of votes (262/298)",
+   "population": "FDA human drug advisory committee meetings with votes on initial approvals, supplemental indications, safety actions, accelerated-approval withdrawals (409 meetings, 298 usable votes)",
+   "period": "2010-2021",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329213/",
+   "note": "Daval et al., JAMA Netw Open 2023. Concordance judged 1 year after vote. Meetings fell from 50 (2012) to 18 (2020, 2021). Discordance was mostly approval after a negative vote."
+  },
+  {
+   "name": "P(approval | positive AdComm vote on initial approval)",
+   "value": "97",
+   "unit": "% (142/147)",
+   "population": "Initial-approval votes at FDA drug advisory committees",
+   "period": "2010-2021",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329213/",
+   "note": "Daval 2023. Positive votes on supplemental indications were followed by approval 92% (33/36)."
+  },
+  {
+   "name": "P(non-approval | negative AdComm vote on initial approval)",
+   "value": "67",
+   "unit": "% (40/60); i.e. 33% approved despite a negative vote",
+   "population": "Initial-approval votes at FDA drug advisory committees",
+   "period": "2010-2021",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329213/",
+   "note": "Daval 2023. Negative supplemental-indication votes were followed by non-approval 86% (18/21). Relevant to the June 2024 MDMA (Lykos) negative vote followed by an August 2024 CRL."
+  },
+  {
+   "name": "FDA-AdComm discordance rate and direction (Zhang, Schwartz, Ross)",
+   "value": "22",
+   "unit": "% of FDA final actions discordant with the committee (78% concordant)",
+   "population": "376 voting FDA advisory committee meetings (drugs and devices, 298 products)",
+   "period": "2008-2015",
+   "source_url": "https://doi.org/10.1111/1468-0009.12403",
+   "note": "Milbank Q 2019;97(3). Of discordant cases, 75% were FDA more restrictive after a favorable vote; 25% were FDA less restrictive after an unfavorable vote. Lack of committee consensus was the main predictor of discordance."
+  },
+  {
+   "name": "FDA-AdComm agreement rate, recent period (Pink Sheet / 3D Communications)",
+   "value": "86",
+   "unit": "% of 133 meetings; 94% in 2021, 100% in 2022",
+   "population": "FDA drug advisory committee approval-question votes",
+   "period": "2017-2022",
+   "source_url": "https://3dcommunications.us/latest-thinking/posts/pink-sheet-advisory-committee-disagreement-with-us-fda-on-approval-decisions-an-increasingly-rare-event/",
+   "note": "6 approvals despite negative votes and 12 rejections despite positive votes across 133 meetings. Aduhelm was the only PCNS committee override in six years. Industry (not peer-reviewed) analysis."
+  },
+  {
+   "name": "Share of new-drug approvals referred to an advisory committee",
+   "value": "55 falling to 6",
+   "unit": "% of approved new drugs per year with an AdComm referral",
+   "population": "FDA-approved new drugs",
+   "period": "2010-2021",
+   "source_url": "https://doi.org/10.1377/hlthaff.2021.01927",
+   "note": "Health Affairs 2022 ('Unwanted Advice?'). FDA approvals of drugs with negative AdComm votes occurred about once per year. Base rate for whether an AdComm will be held at all."
+  },
+  {
+   "name": "First-cycle approval rate of NME applications (submission-based)",
+   "value": "50",
+   "unit": "% of NME applications approved on first submission (151/302)",
+   "population": "All NME applications first submitted to FDA",
+   "period": "2000-2012",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/24449316/",
+   "note": "Sacks et al., JAMA 2014;311(4):378-84. 73.5% (222/302) ultimately approved. Denominator is submissions, not approvals."
+  },
+  {
+   "name": "Eventual approval after first-cycle failure (CRL or non-approval)",
+   "value": "47",
+   "unit": "% of first-cycle failures later approved (71/151); 53% never approved",
+   "population": "NME applications not approved on first cycle",
+   "period": "2000-2012",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/24449316/",
+   "note": "Sacks 2014. Efficacy deficiencies were far more common among never-approved drugs (76%) than delayed-approved drugs (39%); safety deficiencies were similar (~53% vs 52%)."
+  },
+  {
+   "name": "Median delay to approval after first unsuccessful NME submission",
+   "value": "435",
+   "unit": "days (about 14 months)",
+   "population": "71 NMEs approved after one or more resubmissions",
+   "period": "2000-2012",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/24449316/",
+   "note": "Sacks 2014. Resubmission review clocks: Class 1 = 2 months, Class 2 = 6 months (21 CFR 314.110)."
+  },
+  {
+   "name": "Post-CRL approval rate and timelines, small-molecule NMEs (McCarthy and O'Boyle)",
+   "value": "64",
+   "unit": "% of CRL'd NDAs later approved (vs 47% in 2000-2012); median ~709 days initial submission to approval vs ~245 days for first-cycle approvals",
+   "population": "Small-molecule NME NDAs reviewed by FDA",
+   "period": "2013-2023",
+   "source_url": "https://doi.org/10.1016/j.drudis.2026.104739",
+   "note": "Drug Discov Today 2026;31(4):104739. Paywalled. The abstract has no numbers. Figures come from a search-engine summary of the article and need verification against the full text."
+  },
+  {
+   "name": "First-cycle approval share among CDER novel approvals, by year",
+   "value": "85 (2017), 95 (2018), 90 (2019), 92 (2020), 86 (2021), 76 (2022)",
+   "unit": "% of that year's novel approvals that were first-cycle",
+   "population": "CDER novel drug and biologic approvals (46, 59, 48, 53, 50, 37 per year)",
+   "period": "2017-2022",
+   "source_url": "https://hallorancg.com/insights/2023/01/20/2022-cder-decline-in-marketing-application-approvals",
+   "note": "Denominator is approvals, not submissions, so this overstates the submission-based first-cycle rate. Source is a consultancy summary of FDA annual reports."
+  },
+  {
+   "name": "Resubmission review clock after a CRL",
+   "value": "2 (Class 1) or 6 (Class 2)",
+   "unit": "months from FDA receipt of the resubmission",
+   "population": "All NDA/BLA resubmissions",
+   "period": "Current regulation (21 CFR 314.110)",
+   "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-D/section-314.110",
+   "note": "Regulatory constant. Most CRLs requiring new data trigger Class 2 (6-month) reviews. Use with the 435-day median delay above."
+  },
+  {
+   "name": "Breakthrough therapy designation to approval",
+   "value": "72",
+   "unit": "% of designated drugs approved; 13% pending; ~15% failed or discontinued",
+   "population": "599 breakthrough therapy designations granted",
+   "period": "Designations 2013-2022 (outcomes through 2025)",
+   "source_url": "https://trial.medpath.com/news/44bed2cc87ddc99e/fda-breakthrough-therapy-designation-shows-72-approval-success-rate-in-decade-long-analysis",
+   "note": "Jefferies analysis using FDA, Friends of Cancer Research and Biomedtracker data. 46% of designations were oncology. Among failures, 43% (30/69) were discontinued during clinical studies."
+  },
+  {
+   "name": "Breakthrough therapy designation request grant rate",
+   "value": "~40",
+   "unit": "% of BTD requests granted (of 1,265 CDER requests)",
+   "population": "CDER breakthrough designation requests",
+   "period": "2013 to June 30, 2022",
+   "source_url": "https://www.cas.org/resources/cas-insights/breakthrough-therapy-designation-real-world-impact",
+   "note": "26% (73/276) of CDER new therapeutic drugs approved 2013-2019 had BTD. BTD drugs spent 2-3 years less in pre-market development. Announcement of BTD gave ~6% excess stock return for companies without marketed products."
+  },
+  {
+   "name": "Median time to first FDA approval, breakthrough vs non-breakthrough drugs",
+   "value": "5.2 vs 7.1",
+   "unit": "years from IND/first trial to approval (difference 1.9 years, P=.01)",
+   "population": "58 new cancer drugs approved by FDA (25 with BTD)",
+   "period": "2012-2017",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/29688832/",
+   "note": "Hwang et al., J Clin Oncol 2018. Oncology only. Psychiatry counterexamples: MDMA got BTD Aug 2017 and a CRL Aug 2024 (7 years, no approval); COMP360 psilocybin got BTD Oct 2018 and is completing a rolling NDA in Q4 2026 (~8 years)."
+  },
+  {
+   "name": "Share of NDAs/BLAs with a 3-month PDUFA goal-date extension (major amendment)",
+   "value": "12",
+   "unit": "% of NDAs (79/637); psychiatry division 12% (3/25); neurology division 27% (12/44)",
+   "population": "637 NDAs/BLAs received by CDER FY2014-2018 with initial review completed by March 31, 2019",
+   "period": "FY2014-2018",
+   "source_url": "https://www.gao.gov/assets/gao-20-244.pdf",
+   "note": "GAO-20-244, Table 8. Extension length is fixed at 3 months, at most one per review cycle, and only when the amendment could lead to approval in the current cycle. Division range 0% (transplant/ophthalmology) to 36% (gastroenterology/inborn errors)."
+  },
+  {
+   "name": "Share of NDA initial reviews completed within PDUFA goal time frames",
+   "value": "97",
+   "unit": "% of NDAs (goal is 90%)",
+   "population": "637 NDAs/BLAs received by CDER",
+   "period": "FY2014-2018",
+   "source_url": "https://www.gao.gov/assets/gao-20-244.pdf",
+   "note": "GAO-20-244. Base rate that the FDA acts by the (possibly extended) goal date; misses are rare (~3%). Standard NME review goal is 12 months from receipt; priority NME is 8 months."
+  },
+  {
+   "name": "DEA telemedicine controlled-substance flexibility: number and length of temporary extensions",
+   "value": "4 extensions: ~6 months + 1-year grace; ~14.5 months; 12 months; 12 months",
+   "unit": "count and duration of each temporary rule since flexibilities began March 2020",
+   "population": "DEA-registered prescribers using telemedicine without prior in-person evaluation (Ryan Haight Act exception)",
+   "period": "March 2020 to December 31, 2026",
+   "source_url": "https://www.federalregister.gov/documents/2025/12/31/2025-24123/fourth-temporary-extension-of-covid-19-telemedicine-flexibilities-for-prescription-of-controlled",
+   "note": "First rule 88 FR 30037 (May 10, 2023; flexibilities through Nov 11, 2023 plus grace to Nov 11, 2024 for relationships formed by Nov 11, 2023). Second 88 FR 69879 (Oct 10, 2023; through Dec 31, 2024). Third 89 FR 91253 (Nov 19, 2024; through Dec 31, 2025). Fourth 90 FR 61301 (Dec 31, 2025; through Dec 31, 2026). Special-registration NPRM 90 FR 6541 (Jan 17, 2025) not finalized as of Sep 2026 per Federal Register API. Rule list verified via federalregister.gov API; first-rule expiry details from the rule text."
+  },
+  {
+   "name": "DEA extension lead time before expiry",
+   "value": "1, 32, 42, 0",
+   "unit": "days between publication of each extension and the then-current expiry date",
+   "population": "The four DEA/HHS temporary telemedicine rules",
+   "period": "2023-2025",
+   "source_url": "https://www.federalregister.gov/api/v1/documents.json?conditions[term]=%22Telemedicine+Flexibilities+for+Prescription+of+Controlled+Medications%22&conditions[agencies][]=drug-enforcement-administration",
+   "note": "May 10, 2023 vs May 11, 2023 PHE end; Oct 10, 2023 vs Nov 11, 2023; Nov 19, 2024 vs Dec 31, 2024; Dec 31, 2025 vs Dec 31, 2025. Extensions have always arrived within about six weeks of expiry, so a late rule is the norm, not a signal of lapse."
+  },
+  {
+   "name": "Biotech bankruptcy filings per year (US)",
+   "value": "9 (2021), 20 (2022), 28 (2023 through October)",
+   "unit": "companies filing bankruptcy per year",
+   "population": "US biotech/biopharma companies (BioSpace count)",
+   "period": "2021-2023",
+   "source_url": "https://www.pharmavoice.com/news/biotech-bankruptcy-sorrento-novan-9-meters/698562/",
+   "note": "2023 was a record year. Other counts: Frost says over 20 insolvencies in 2023; Libraries for the Future lists 27 closures in 2023 and 22 in 2024. No peer-reviewed rate of bankruptcy or delisting conditional on a CRL or Phase 3 failure was found; case examples (Seelos, Athersys, Argos, IO Biotech, Tolerx) show shutdown within 6-12 months when cash is short."
+  },
+  {
+   "name": "Long-run outcomes of biotechs reaching $200M market cap (Verdad)",
+   "value": "67% failed; of failures ~50% acquired at negative returns, 10% delisted, 40% still public (many below cash)",
+   "unit": "% of companies",
+   "population": "Over 1,000 biotechs that reached at least $200M market cap",
+   "period": "~1993-2023 (30 years)",
+   "source_url": "https://verdadcap.com/archive/biotech-investing",
+   "note": "Investment-firm analysis, not peer-reviewed. Delisting is a minority outcome even among failures; reverse mergers and zombie status are more common than bankruptcy."
+  },
+  {
+   "name": "Medicare coding lag for esketamine (Spravato)",
+   "value": "~10",
+   "unit": "months from FDA approval (March 5, 2019) to dedicated Medicare HCPCS codes G2082/G2083 (effective Jan 1, 2020)",
+   "population": "Medicare Part B, physician-administered esketamine for TRD",
+   "period": "2019-2020",
+   "source_url": "https://www.govinfo.gov/content/pkg/FR-2019-11-15/html/2019-24086.htm",
+   "note": "CMS CY2020 PFS final rule with interim final rule (84 FR 62568) created the codes 'to facilitate beneficiary access'. FDA approval NDA 211243 confirmed via openFDA."
+  },
+  {
+   "name": "Commercial payer coverage of esketamine: policy presence and restrictions",
+   "value": "18 of 18 plans had policies; step therapy 1-5 prior treatments for TRD, up to 9 for MDD",
+   "unit": "plans with coverage policies; number of required prior steps",
+   "population": "18 large US commercial health plans (Tufts SPEC database)",
+   "period": "Policies active December 2022 (~45 months post-approval)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39039006/",
+   "note": "Ochigbo, Beinfeld, Chambers, Clin Ther 2024. Coverage existed but with heavy utilization management and variable severity thresholds. No source found that dates the first commercial policies in 2019."
+  },
+  {
+   "name": "TMS coverage adoption after October 2008 FDA clearance",
+   "value": "~9 years to near-universal coverage: all Medicare regions and 65+ private insurers (95% of private covered lives) by January 2018",
+   "unit": "years; % of covered lives",
+   "population": "NeuroStar TMS for MDD, US payers",
+   "period": "2008-2018",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1227636/000119312518179910/d542432ds1.htm",
+   "note": "Neuronetics S-1 (May 2018). Company estimate. Medicare covered 58.5 million lives as of Jan 2018. Industry recollection places the first positive Medicare LCD (NHIC, New England) in 2012, about 3.5 years after clearance; that date was not verifiable from the sources reached here."
+  },
+  {
+   "name": "Last Medicare contractor to issue a TMS LCD",
+   "value": "9.6",
+   "unit": "years after clearance (Noridian L37086 original effective May 14, 2018)",
+   "population": "Medicare Administrative Contractor LCDs for TMS in MDD",
+   "period": "2015-2018",
+   "source_url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=37086&ver=27",
+   "note": "CMS Medicare Coverage Database. CGS L36469 original effective Feb 8, 2016. First Coast L34522, Novitas L34998, Palmetto L34869, WPS L34641 and Wellpoint/NGS L33398 show Oct 1, 2015 original dates (ICD-10 re-issue), so their true first coverage is earlier. Seven TMS LCDs remain active in 2026."
+  },
+  {
+   "name": "Antidepressant vs placebo standardized mean difference (network meta-analysis)",
+   "value": "0.30",
+   "unit": "SMD (Cohen d), 95% CrI 0.26-0.34",
+   "population": "522 double-blind RCTs, 116,477 adults with MDD, 21 antidepressants",
+   "period": "Trials to January 2016",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5889788/",
+   "note": "Cipriani et al., Lancet 2018. Response ORs vs placebo ranged 1.37 (reboxetine) to 2.13 (amitriptyline). 0.30 SD is roughly 3-4 MADRS points."
+  },
+  {
+   "name": "Drug-placebo difference and placebo response in antidepressant RCTs (Scott 2022)",
+   "value": "g = 0.33-0.34 (95% CI 0.29-0.38), I2 47-54%; within-group placebo response g = 1.05-1.15",
+   "unit": "Hedges g",
+   "population": "347 double-blind placebo-controlled antidepressant RCTs, 89,183 adults",
+   "period": "Trials to July 2021",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/34757405/",
+   "note": "JAMA Psychiatry 2022;79(1):42-49. The I2 values give the spread across trials for tolerance bands. Placebo run-in periods did not change the drug-placebo difference."
+  },
+  {
+   "name": "FDA-submitted MDD trials: mean drug-placebo difference and trial success rate",
+   "value": "-2.5 HDRS points; 53% of trials positive",
+   "unit": "HDRS points; % of trials",
+   "population": "81 placebo-controlled MDD trials (21,611 patients) submitted in NDAs for approved antidepressants",
+   "period": "1983-2008",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/21527123/",
+   "note": "Khin et al., J Clin Psychiatry 2011. US-site trials 58% success vs 33% non-US; 6-week 55% vs 8-week 42%; fixed-dose -2.0 vs flexible-dose -2.9. Effect sizes declined over time. Even approved drugs fail about half of their trials."
+  },
+  {
+   "name": "Placebo response rate in antidepressant trials",
+   "value": "35-40",
+   "unit": "% of placebo patients with >=50% symptom reduction",
+   "population": "252 placebo-controlled trials, 26,324 placebo patients",
+   "period": "1978-2015 (stable since 1991)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/27726982/",
+   "note": "Furukawa et al., Lancet Psychiatry 2016. Longer trials (+3% per week) and multicentre designs (RR 1.32) raise placebo response."
+  },
+  {
+   "name": "Esketamine Phase 3 (TRANSFORM-2) effect size",
+   "value": "-4.0",
+   "unit": "MADRS difference vs placebo+antidepressant at day 28 (SE 1.69; 95% CI -7.31 to -0.64)",
+   "population": "227 adults with treatment-resistant depression",
+   "period": "Published 2019",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/31109201/",
+   "note": "Popova et al., Am J Psychiatry 2019. Approved on this single positive short-term trial plus a relapse-prevention study; two other short-term trials missed. Benchmark for what FDA accepted in TRD."
+  },
+  {
+   "name": "MDMA-assisted therapy Phase 3 (MAPP1) effect size",
+   "value": "d = 0.91",
+   "unit": "Cohen d on CAPS-5 change; mean change -24.4 (SD 11.6) vs -13.9 (SD 11.5)",
+   "population": "90 adults with severe PTSD",
+   "period": "Published 2021",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/33972795/",
+   "note": "Mitchell et al., Nat Med 2021. SDs shown allow tolerance bands. Despite two positive trials the FDA issued a CRL in Aug 2024 (functional unblinding, therapy component, data integrity)."
+  },
+  {
+   "name": "MDMA-assisted therapy Phase 3 (MAPP2) effect size",
+   "value": "d = 0.7",
+   "unit": "Cohen d on CAPS-5 change; LS mean change -23.7 vs -14.8 (P<0.001)",
+   "population": "104 adults with moderate-to-severe PTSD",
+   "period": "Published 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/37709999/",
+   "note": "Mitchell et al., Nat Med 2023. Confirmatory trial effect was smaller than MAPP1 (0.91), a typical Phase 3 shrinkage pattern."
+  },
+  {
+   "name": "COMP360 psilocybin Phase 3 (COMP005) effect size",
+   "value": "-3.6",
+   "unit": "MADRS difference vs placebo at week 6 (95% CI -5.7 to -1.5; p<0.001)",
+   "population": "258 adults with treatment-resistant depression, single 25 mg dose",
+   "period": "Topline June 23, 2025",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1816590/000181659025000085/cmps-20250623.htm",
+   "note": "Compass Pathways 8-K. Phase 2b (Goodwin, NEJM 2022) showed -6.6 (25 mg vs 1 mg, week 3), so Phase 3 shrank the effect by about half. COMP006 (n=581) met its week-6 primary endpoint (p<0.001) per the July 7, 2026 8-K deck; the difference was not disclosed there. Rolling NDA completion expected Q4 2026; launch H1 2027 if approved; BTD Oct 2018; FDA National Priority Voucher April 2026."
+  },
+  {
+   "name": "Usona psilocybin Phase 2 MDD effect size",
+   "value": "-12.3",
+   "unit": "MADRS difference vs niacin at day 43 (95% CI -17.5 to -7.2)",
+   "population": "104 adults with MDD, single 25 mg dose",
+   "period": "Published 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/37651119/",
+   "note": "Raison et al., JAMA 2023. Phase 2 psychedelic effects (-6.6 to -12.3 MADRS) are 2-3x larger than the -3.6 seen in the first psilocybin Phase 3; expect regression toward the antidepressant norm of ~3 points."
+  },
+  {
+   "name": "Expert political forecast accuracy (Tetlock, Expert Political Judgment)",
+   "value": "slightly better than chance; worse than simple extrapolation on long-range questions",
+   "unit": "qualitative accuracy vs chance",
+   "population": "284 experts, ~28,000 forecasts",
+   "period": "1984-2003",
+   "source_url": "https://en.wikipedia.org/wiki/Philip_E._Tetlock",
+   "note": "Experts with the largest media profiles were especially bad. 'Hedgehogs' underperformed 'foxes'. Supports heavy weighting of base rates over pundit views."
+  },
+  {
+   "name": "Superforecaster accuracy advantage (Good Judgment Project)",
+   "value": "~30% better than intelligence analysts with classified data; GJP 35-72% more accurate than rival ACE teams",
+   "unit": "% improvement in Brier-score accuracy",
+   "population": "Several thousand volunteer forecasters; 260 superforecasters in the final season; ~100-150 geopolitical questions per year",
+   "period": "2011-2015 (IARPA ACE)",
+   "source_url": "https://en.wikipedia.org/wiki/The_Good_Judgment_Project",
+   "note": "Mellers et al. 2015 (Perspect Psychol Sci) found superforecasters kept accuracy two years running. Numbers are as reported in secondary sources."
+  },
+  {
+   "name": "Metaculus Q12785: MDMA FDA-approved for PTSD before 2025 (via Manifold mirror)",
+   "value": "70% (Nov 2023) -> 65% (May 14, 2024, pre-AdComm) -> 59% (Jun 5, 2024, post-AdComm) -> 5% (Jul 24, 2024) -> 4% (Aug 10, 2024, post-CRL) -> resolved NO at 1%",
+   "unit": "probability over time",
+   "population": "Metaculus community question mirrored on Manifold (19,266 mana volume)",
+   "period": "Nov 2023 to Jan 2025",
+   "source_url": "https://manifold.markets/mirrorbot/metaculus-will-mdma-be-fdaapproved",
+   "note": "Original: https://www.metaculus.com/questions/12785/mdma-fda-approval-before-2025/ (direct API blocked during this session). Forecasters held ~60-70% until the June 4, 2024 negative AdComm vote, then collapsed before the Aug 9, 2024 CRL."
+  },
+  {
+   "name": "Manifold: FDA approves MDMA for PTSD by end of 2024",
+   "value": "66% (Sep 2023) -> 84% (Feb 2024) -> 43% (May 27, 2024) -> 22% (Jun 5, 2024) -> 17% (Aug 2, 2024) -> 8% (Aug 10, 2024) -> resolved NO",
+   "unit": "probability over time",
+   "population": "Manifold play-money market (9,444 mana volume)",
+   "period": "Sep 2023 to Dec 2024",
+   "source_url": "https://manifold.markets/BTE/will-the-fda-approve-mdma-as-a-trea",
+   "note": "Monthly last-trade probabilities from the Manifold bets API. Peak optimism (84%) came after NDA acceptance with priority review in Feb 2024."
+  },
+  {
+   "name": "Manifold: MDMA-assisted therapy approved before 2030",
+   "value": "67 (latest, Apr 2026); path 89-94% (2022-2023) -> 90% (Jun 2024) -> 47% (Jul 2024) -> 44% (Aug 2024) -> 74% (Dec 2024) -> 72-74% (2025)",
+   "unit": "% probability",
+   "population": "Manifold market, 28 traders, 4,336 mana volume",
+   "period": "Mar 2022 to Apr 2026",
+   "source_url": "https://manifold.markets/Athena/will-mdmaassisted-therapy-for-ptsd",
+   "note": "Thin market. Shows post-CRL recovery to ~70% on expectations of a Lykos resubmission."
+  },
+  {
+   "name": "Kalshi: FDA approves midomafetamine/MDMA for PTSD before year-end (by deadline)",
+   "value": "before 2027: 14c; 2028: 39c; 2029: 53c; 2030: 49c; 2031: 53c; 2032: 59c",
+   "unit": "last trade price in dollars per contract (= probability), Sep 12, 2026",
+   "population": "Kalshi event KXFDAAPPROVE-MDMA (opened May 14, 2026); volumes 760-2,440 contracts per market",
+   "period": "As of Sep 12, 2026",
+   "source_url": "https://api.elections.kalshi.com/trade-api/v2/markets?event_ticker=KXFDAAPPROVE-MDMA",
+   "note": "Real-money but thin (yes bid-ask spreads 6-8 cents). Implied cumulative curve: ~14% by end-2026, ~40% by end-2027, ~50-55% by 2029-2031. Non-monotonic 2029 vs 2030 prices show illiquidity."
+  },
+  {
+   "name": "Metaculus Q41172 / Manifold ACX 2026: FDA approves a psilocybin treatment during 2026",
+   "value": "21% (Jan 2026) -> 19% (Feb) -> 14% (Mar) -> 23% (Apr) -> 43% (May) -> 31% (Jun) -> 27% (Jul) -> 16% (Aug-Sep 12, 2026)",
+   "unit": "probability over time",
+   "population": "Manifold market mirroring Metaculus resolution, 31 traders, 22,407 mana volume",
+   "period": "Jan-Sep 2026",
+   "source_url": "https://manifold.markets/DaftPunkRock/acx-2026-will-the-fda-approve-a-psi",
+   "note": "Original: https://www.metaculus.com/questions/41172/. Spike in May 2026 coincided with Compass's rolling NDA and National Priority Voucher news; the market fell as the Q4 2026 submission-completion timeline became clear."
+  },
+  {
+   "name": "Polymarket: FDA approves a psychedelic for medical use in 2026",
+   "value": "traded 32-48% (Apr 22 - May 5, 2026); resolved YES May 6, 2026",
+   "unit": "probability; resolution",
+   "population": "Polymarket real-money market, $46,130 volume",
+   "period": "Apr 16 - May 6, 2026",
+   "source_url": "https://polymarket.com/event/fda-approves-a-psychedelic-for-medical-use-in-2026",
+   "note": "Resolved YES on the Auvelity (dextromethorphan-bupropion) sNDA for agitation in Alzheimer's dementia approved Apr 30, 2026 (openFDA NDA215430 SUPPL-18, priority) because the rules listed DXM as a psychedelic and counted sNDAs. Not an approval of a classic psychedelic. Lesson: check resolution criteria before treating a market price as a forecast of the intended event."
+  }
+ ],
+ "notes": "Scope and method. 47 base rates across the nine requested categories. Peer-reviewed or official sources were used where possible (BIO/Informa/QLS, Wong 2019, Daval 2023, Zhang 2019, Sacks 2014, GAO-20-244, Federal Register API, CMS rules and Medicare Coverage Database, SEC filings, PubMed abstracts). Market data came from the Manifold, Kalshi, Polymarket and openFDA APIs on Sep 12-13, 2026.\n\nCaveats. (1) The WebSearch budget ran out after the first batch; later work used WebFetch, curl and public APIs only. (2) These sources were blocked or paywalled: Health Affairs full text, ScienceDirect (McCarthy 2026), Metaculus (API and pages), Fierce Biotech, DEA and HHS press pages, SSRN. The McCarthy 2026 figures (64% post-CRL approval, ~709 vs ~245 days) come from a search-engine summary and need verification. (3) No peer-reviewed rate of bankruptcy or delisting conditional on a CRL or Phase 3 failure was found; the entries give unconditional bankruptcy counts, Verdad's long-run outcome mix, and the drug-level 'never approved' share from Sacks 2014 as substitutes. (4) The first Medicare TMS LCD date (2012) is industry recollection and was not verified; the CMS database only shows ICD-10 re-issue dates (Oct 1, 2015) for five contractors, plus CGS (Feb 2016) and Noridian (May 2018). (5) The first DEA temporary rule's expiry details (Nov 11, 2023 plus grace to Nov 11, 2024) come from the rule text (88 FR 30037) and are consistent with the second rule's abstract; the list of all rules with citations was verified through the Federal Register API. (6) Manifold and Kalshi markets are thin; treat prices as noisy signals. (7) The Polymarket YES resolution was a resolution-criteria artefact (Auvelity sNDA), verified in openFDA.\n\nUseful derived bands for scoring. Antidepressant drug-placebo effect: SMD ~0.30-0.34 (about 2.5 HDRS or 3-4 MADRS points), with ~50% of trials positive even for approved drugs. Psychedelic Phase 3 effects so far: MDMA d 0.7-0.91; psilocybin -3.6 MADRS (Phase 2 values were 2-3x larger). AdComm: positive vote -> ~97% approval; negative vote -> ~33% approval within a year. CRL: ~50-65% eventually approved, median 14-23 months of delay. PDUFA: ~12% of applications get a 3-month extension; ~97% of decisions land within the goal window. DEA: four extensions of 6-14.5 months each, issued 0-42 days before expiry."
+}
