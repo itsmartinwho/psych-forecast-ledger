@@ -1,0 +1,473 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-24.md",
+  "posts": [
+    {
+      "slug": "clozapine-part-i",
+      "read": true,
+      "statements_found": 2,
+      "note": "Part I of the clozapine history series; historical narrative through the 1975 Finland agranulocytosis deaths. Only the author's publishing and conference-attendance plans are forward-looking."
+    },
+    {
+      "slug": "aacap-dispatch-we-dont-have-a-model",
+      "read": true,
+      "statements_found": 1,
+      "note": "AACAP dispatch on youth suicide; present-tense critique of inpatient care and antidepressants. Questions ('Where are better treatments?') not logged."
+    },
+    {
+      "slug": "an-imperfectionist-manifesto",
+      "read": true,
+      "statements_found": 2,
+      "note": "Essay on imperfectionism and the author's one-take album; only trivial self-referential forward statements."
+    },
+    {
+      "slug": "aacap-dispatch-day-2-dont-break-the",
+      "read": true,
+      "statements_found": 0,
+      "note": "Methodology essay on blinding and sham controls (parachutes, psychedelics, Monarch eTNS); present-tense assessments only, no forecasts."
+    },
+    {
+      "slug": "employer-plan-design-for-interventional",
+      "read": true,
+      "statements_found": 10,
+      "note": "Three reproduced press releases (Acacia webinar, Fermata SAINT OLO trial, Magnus CPT codes) plus a teaser for the newsletter's first live event. Press-release statements logged with own_claim set per speaker."
+    },
+    {
+      "slug": "new-podcast-appearance",
+      "read": true,
+      "statements_found": 0,
+      "note": "29-word podcast blurb."
+    },
+    {
+      "slug": "a-remarkable-podcast-about-the-history",
+      "read": true,
+      "statements_found": 1,
+      "note": "60-word podcast recommendation; only a next-day publishing note."
+    },
+    {
+      "slug": "private-equity-acquisition-of-vampires",
+      "read": true,
+      "statements_found": 2,
+      "note": "Halloween satire: fictional PE term sheet labeled 'This is satire. Not real.' Two allegorical statements logged with sincere=false; fictional deal mechanics (moon cycles, blood shares) not logged."
+    },
+    {
+      "slug": "announcing-rapid-acting-mental-health",
+      "read": true,
+      "statements_found": 2,
+      "note": "RAMHT 2024 event announcement (own organization) plus one hedged claim about psychiatric bed capacity."
+    },
+    {
+      "slug": "a-psychiatrists-visit-to-mount-doom",
+      "read": true,
+      "statements_found": 1,
+      "note": "Republished 2016 essay on suicidal patients; only the inserted RAMHT event plug is forward-looking."
+    },
+    {
+      "slug": "invite-your-friends-to-read-the-frontier-d42",
+      "read": true,
+      "statements_found": 0,
+      "note": "Substack referral-program promo; program rules and marketing lines, no forecasts."
+    },
+    {
+      "slug": "effexor",
+      "read": true,
+      "statements_found": 0,
+      "note": "Venlafaxine history and withdrawal review; clinical facts from cited papers, no forecasts. Author says he is 'moving on to neuromodulation as fast as humanly possible' (present trajectory, not logged)."
+    },
+    {
+      "slug": "the-complex-case-psychiatrist",
+      "read": true,
+      "statements_found": 0,
+      "note": "75-word blurb for a 2015 interview."
+    },
+    {
+      "slug": "its-important-to-have-friends",
+      "read": true,
+      "statements_found": 0,
+      "note": "Personal essay on adult friendship; general life maxims only."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "clozapine-part-i",
+      "quote": "Join us for Clozapine…a story that will take more than one post.",
+      "context": "Opening of the clozapine installment in the author's medication-history series. He announces that the clozapine story will run over more than one post of the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "The Frontier Psychiatrists",
+        "clozapine"
+      ],
+      "note": "Newsletter publishing plan (own organization); low forecast value."
+    },
+    {
+      "post_slug": "clozapine-part-i",
+      "quote": "If you are a child psychiatrist colleague, I will be at AACAP here in NYC. I’ll be doing my standard conference quick dispatch style writing over the next few days.",
+      "context": "Closing note of Clozapine, Part I (2023-10-24). The author says he will attend the AACAP annual meeting in New York City and will publish quick conference dispatches in the newsletter over the following days.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "over the next few days",
+      "confidence_phrase": "will be",
+      "entities": [
+        "AACAP",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Author's own plan for conference attendance and newsletter dispatches."
+    },
+    {
+      "post_slug": "aacap-dispatch-we-dont-have-a-model",
+      "quote": "Most survive. Many will not. This is a nightmare for parents and kids.",
+      "context": "AACAP dispatch on suicidal youth. After citing CDC figures (1 in 4 girls seriously consider suicide each year, just under 1 in 4 LGBTQ youth attempt, 6.6% of boys attempted in 2021), the author states that most suicidal kids survive but many will not.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will not",
+      "entities": [
+        "CDC",
+        "AACAP"
+      ],
+      "note": "General population statement about future youth suicide deaths; borderline truism, logged for recall."
+    },
+    {
+      "post_slug": "an-imperfectionist-manifesto",
+      "quote": "There have been—and will be— grammar issues. Not every sentence will be short and declarative.",
+      "context": "Imperfectionist Manifesto post about the newsletter's daily cadence. The author admits past typos and predicts future grammar issues and non-short sentences in the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will be",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Self-deprecating statement about the newsletter (own organization); trivial forecast."
+    },
+    {
+      "post_slug": "an-imperfectionist-manifesto",
+      "quote": "I may still go back and do it better.",
+      "context": "The author describes recording his album 'Perfect is the Enemy of the Good' under one-take rules, says he first thought of the tracks as demos, and allows that he may still go back and re-record them better.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "may",
+      "entities": [],
+      "note": "Personal creative plan, not about health or markets; logged for recall only."
+    },
+    {
+      "post_slug": "employer-plan-design-for-interventional",
+      "quote": "I’m co-hosting a Validation Institute webinar with the remarkable Al Lewis on how neuromodulation treatments can find their home in employer health plan design!",
+      "context": "Press Release Round Up, item I. The author announces he is co-hosting a Validation Institute webinar with Al Lewis, sponsored by Acacia Mental Health (where he is SVP of Strategy), on neuromodulation (BRAIN by Acacia Clinics) in employer health plan design. The release dates it November 7, 1-2:00 PM ET.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "November 7 | 1-2:00 PM ET",
+      "confidence_phrase": "none",
+      "entities": [
+        "Validation Institute",
+        "Al Lewis",
+        "Acacia Mental Health",
+        "Acacia Clinics"
+      ],
+      "note": "Event announcement for the author's own organization (Acacia)."
+    },
+    {
+      "post_slug": "employer-plan-design-for-interventional",
+      "quote": "The OLO trial will enroll up to 1,000 adults in a major depressive episode who have failed to receive satisfactory improvement from a prior antidepressant medication in the current episode.",
+      "context": "Press Release Round Up, item II: Fermata press release (Oct. 25, 2023) announcing Fermata as a site in the SAINT open-label optimization (OLO) multi-site trial of the Magnus SAINT Neuromodulation System for MDD. The release states the trial will enroll up to 1,000 adults with treatment-resistant depression.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Fermata",
+        "Magnus Medical",
+        "SAINT Neuromodulation System",
+        "OLO trial"
+      ],
+      "note": "Press release text from the author's own company (Fermata), reproduced in full; enrollment target."
+    },
+    {
+      "post_slug": "employer-plan-design-for-interventional",
+      "quote": "The SAINT Neuromodulation System may yield a new form of personalized, focused neurostimulation in adults with major depression.",
+      "context": "Same Fermata press release on the SAINT OLO trial. The release says the investigational SAINT Neuromodulation System may yield a new form of personalized, focused neurostimulation for adults with major depression.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "may",
+      "entities": [
+        "Fermata",
+        "Magnus Medical",
+        "SAINT Neuromodulation System"
+      ],
+      "note": "Press release text (Fermata, author's company); hedged claim."
+    },
+    {
+      "post_slug": "employer-plan-design-for-interventional",
+      "quote": "There is an enormous need for improved treatments for MDD. This trial will go a long way toward gathering more data to help us treat people with severe, even intractable, depression.",
+      "context": "Fermata press release on the SAINT OLO trial; the author (Owen Scott Muir, co-founder of Fermata) is quoted directly. He states the trial will go a long way toward gathering data to treat severe, intractable depression.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Fermata",
+        "SAINT Neuromodulation System",
+        "Magnus Medical",
+        "Owen Scott Muir"
+      ],
+      "note": "Author's own quoted words inside his company's press release."
+    },
+    {
+      "post_slug": "employer-plan-design-for-interventional",
+      "quote": "This targeted, rapid neuromodulation protocol has the potential to reach patients across different levels of care.",
+      "context": "Fermata press release on the SAINT OLO trial; Carlene MacMillan (co-founder of Fermata, CMO of Osmind, the author's wife) is quoted saying the accelerated SAINT protocol has the potential to reach patients across different levels of care.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "has the potential",
+      "entities": [
+        "Carlene MacMillan",
+        "Fermata",
+        "Osmind",
+        "SAINT Neuromodulation System"
+      ],
+      "note": "Quoted third party (Carlene MacMillan) in a press release reproduced by the author; not restated in the author's voice."
+    },
+    {
+      "post_slug": "employer-plan-design-for-interventional",
+      "quote": "The new codes will be published January 1, 2024, and effective July 1, 2024.",
+      "context": "Press Release Round Up, item III: Magnus Medical press release (Oct. 23, 2023) announcing that the AMA issued new Category III CPT codes for targeted, accelerated iTBS (covering SAINT). The release states the codes will be published January 1, 2024 and take effect July 1, 2024.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "January 1, 2024, and effective July 1, 2024",
+      "confidence_phrase": "will be",
+      "entities": [
+        "Magnus Medical",
+        "American Medical Association",
+        "CPT Editorial Panel",
+        "SAINT"
+      ],
+      "note": "Press release text (Magnus Medical) reproduced by the author; dated call on CPT code publication and effective dates."
+    },
+    {
+      "post_slug": "employer-plan-design-for-interventional",
+      "quote": "these new codes will provide increased access across sites of service to SAINT treatment for the millions who suffer from major depressive disorder (MDD)",
+      "context": "Magnus Medical press release on the new CPT Category III codes; Dave Vort, president of Magnus, is quoted predicting the codes will provide increased access across sites of service to SAINT treatment.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Dave Vort",
+        "Magnus Medical",
+        "SAINT",
+        "American Medical Association"
+      ],
+      "note": "Quoted third party (Dave Vort, Magnus president) in a press release reproduced by the author."
+    },
+    {
+      "post_slug": "employer-plan-design-for-interventional",
+      "quote": "When these codes are active, hospitals using the SAINT neuromodulation system can submit claims directly for SAINT treatment, further expanding the adoption of our novel, rapid-acting therapy for treatment-resistant major depression.",
+      "context": "Magnus Medical press release; Dave Vort continues: once the CPT codes are active, hospitals using the SAINT system can submit claims directly, expanding adoption of the therapy for treatment-resistant depression.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "When these codes are active",
+      "confidence_phrase": "can",
+      "entities": [
+        "Dave Vort",
+        "Magnus Medical",
+        "SAINT",
+        "American Medical Association"
+      ],
+      "note": "Quoted third party (Dave Vort); conditional on code activation (effective July 1, 2024 per the release)."
+    },
+    {
+      "post_slug": "employer-plan-design-for-interventional",
+      "quote": "With these new codes, this targeted, rapid neuromodulation protocol has the potential to reach patients far and wide across different levels of care.",
+      "context": "Magnus Medical press release; Carlene MacMillan is quoted saying that with the new CPT codes the SAINT protocol has the potential to reach patients far and wide across levels of care. The author's note says she was instrumental in the advocacy for the codes.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "has the potential",
+      "entities": [
+        "Carlene MacMillan",
+        "Magnus Medical",
+        "SAINT",
+        "American Medical Association"
+      ],
+      "note": "Quoted third party (Carlene MacMillan) in a press release reproduced by the author."
+    },
+    {
+      "post_slug": "employer-plan-design-for-interventional",
+      "quote": "The Frontier Psychiatrists is hosting its first real-world event! ... More details coming about that soon. But it's the night before JPM starts, and will be announcing tickets and speakers next week.",
+      "context": "Teaser at the end of the Press Release Round Up. The author announces the newsletter will host its first real-world event the night before JPM 2024 starts, that tickets and speakers will be announced the following week, and that the event is a fundraiser for BrainFutures (501(c)(3)).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "next week",
+      "confidence_phrase": "will be",
+      "entities": [
+        "The Frontier Psychiatrists",
+        "JPM",
+        "BrainFutures"
+      ],
+      "note": "Own-organization event announcement (later named RAMHT 2024); two passages joined."
+    },
+    {
+      "post_slug": "a-remarkable-podcast-about-the-history",
+      "quote": "Back with a Halloween Special tomorrow!",
+      "context": "Short post recommending a Search Engine podcast episode on the history of amphetamine and ADHD. The author says the newsletter will be back with a Halloween Special the next day.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "tomorrow",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists",
+        "Search Engine"
+      ],
+      "note": "Newsletter publishing schedule (own organization); trivial forecast."
+    },
+    {
+      "post_slug": "private-equity-acquisition-of-vampires",
+      "quote": "We believe the characteristics defining the nightmarish future described above will drive significant change and increase the amount of dread and horror over time. This market is going straight to hell, and we intend to ride it all the way down.",
+      "context": "Halloween satire: a fictional private-equity term sheet from 'LastChoice BloodCare Partners' to acquire the Brooklyn Shadows Coven, labeled 'This is satire. Not real. Based on no real events.' In the 'About LastChoice' section the fictional firm predicts the horror market will grow and is 'going straight to hell'. Allegory for PE roll-ups of medical practices.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "over time",
+      "confidence_phrase": "We believe",
+      "entities": [
+        "LastChoice BloodCare Partners",
+        "Brooklyn Shadows Coven",
+        "private equity"
+      ],
+      "note": "Satire in a fictional voice; the allegorical target (PE-driven decline in healthcare services) may be a sincere expectation."
+    },
+    {
+      "post_slug": "private-equity-acquisition-of-vampires",
+      "quote": "Expect only to have your blood sucked dry.",
+      "context": "Same satirical term sheet, 'Use of Blood Drops' section describing proceeds to the sellers (1.7 million in FTT tokens, 1.8 million in debt cleared) and ending by telling the coven to expect only to be drained dry. Allegory for founder outcomes in PE deals.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "Expect",
+      "entities": [
+        "LastChoice BloodCare Partners",
+        "Brooklyn Shadows Coven",
+        "private equity"
+      ],
+      "note": "Satirical fictional voice; allegory for PE acquisitions of medical practices."
+    },
+    {
+      "post_slug": "announcing-rapid-acting-mental-health",
+      "quote": "The event occurs the night before the JP Morgan Healthcare Conference 2024 opens on Monday, Jan 8th! Sunday, January 7th, 6:00-9:00 pm.",
+      "context": "Announcement of Rapid-Acting Mental Health Treatment 2024 (RAMHT), the newsletter's first live event, presented with BrainFutures and sponsored by Nightware, Videra Health, Fermata, Magnus Medical, Acacia Mental Health and MelEos Group. The event is set for Sunday, January 7, 2024, 6-9 pm, the night before JPM 2024 opens; net proceeds go to BrainFutures.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Sunday, January 7th, 6:00-9:00 pm",
+      "confidence_phrase": "none",
+      "entities": [
+        "RAMHT",
+        "The Frontier Psychiatrists",
+        "BrainFutures",
+        "JP Morgan Healthcare Conference",
+        "Nightware",
+        "Videra Health",
+        "Fermata",
+        "Magnus Medical",
+        "Acacia Mental Health"
+      ],
+      "note": "Dated own-organization event announcement; follows the 2023-10-27 teaser."
+    },
+    {
+      "post_slug": "announcing-rapid-acting-mental-health",
+      "quote": "It is possible, for example, that we don’t need “more psychiatric beds”—we might need more effective treatments that lead to a shorter length of stay in a hospital.",
+      "context": "In the RAMHT announcement, after noting SAINT can bring depression into remission in 5 days and Nightware can work within 2 nights, the author suggests that faster treatments could mean the system does not need more psychiatric beds but more effective treatments that shorten hospital stays; framed as the event's overarching topic.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "It is possible",
+      "entities": [
+        "SAINT",
+        "Nightware",
+        "Videra Health"
+      ],
+      "note": "Hedged systems claim: rapid-acting treatments may remove the need for more psychiatric beds; not a dated call."
+    },
+    {
+      "post_slug": "a-psychiatrists-visit-to-mount-doom",
+      "quote": "remember to get your tickets for Rapid- acting mental health treatment 2024! ... Jan 7, 2024, 6-9pm!",
+      "context": "Republished 2016 essay on suicidal patients; mid-post the author inserts a plug for his own event, Rapid-Acting Mental Health Treatment 2024, on Jan 7, 2024, 6-9 pm.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Jan 7, 2024, 6-9pm",
+      "confidence_phrase": "none",
+      "entities": [
+        "RAMHT",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Restatement of the RAMHT event date announced 2023-11-01; two passages joined."
+    }
+  ]
+}

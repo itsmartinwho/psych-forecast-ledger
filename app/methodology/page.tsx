@@ -5,6 +5,8 @@ import path from "node:path";
 import { PALETTE } from "@/lib/tokens";
 import { DEFAULT_LIVE, METHODOLOGY, NOT_YET_PUBLISHED, fmt2, fmt3, type LiveNumbers } from "@/lib/content/methodology";
 import { GLOSSARY_SORTED } from "@/lib/content/glossary";
+import { getDataset } from "@/lib/data/cached";
+import { getScores } from "@/lib/data/scores";
 
 export const metadata: Metadata = {
   title: "Methodology",
@@ -354,6 +356,27 @@ function MethodologyView({ live, asOf }: { live: LiveNumbers; asOf: string }) {
 }
 
 export default function MethodologyPage() {
-  // Live numbers (coder agreement, sensitivity panel) are injected here once the pipeline exports them.
-  return <MethodologyView live={DEFAULT_LIVE} asOf={readAsOf()} />;
+  const snap = getScores();
+  const ds = getDataset();
+  const a = snap.agreement;
+  const live: LiveNumbers = a.admission.n + a.event.n === 0 ? DEFAULT_LIVE : {
+    kappa: { n_pairs: a.admission.n, admit: a.admission.kappa, event: a.event.kappa, deadline: a.deadline.kappa, bin: a.bin.weighted_kappa, asserts: null, note: `event and deadline on ${a.event.n} admitted items; bin on ${a.bin.n}; ${a.recheck.n} outcomes rechecked, ${a.recheck.upheld} upheld` },
+    sensitivity: ds.forecasters.map((f) => {
+      const s = snap.forecasters[f.slug];
+      const pick = (k: string) => s.sensitivity[k] ?? { brier: null, n_clusters: 0 };
+      return {
+        forecaster: f.slug, label: f.short, headline: s.headline.brier ? s.headline.brier.point : null, n_clusters: s.headline.n_clusters,
+        rows: [
+          { id: "ends_085_015" as const, value: pick("map_ends85").brier, n_clusters: pick("map_ends85").n_clusters },
+          { id: "kent" as const, value: pick("map_kent").brier, n_clusters: pick("map_kent").n_clusters },
+          { id: "flat_075" as const, value: pick("map_flat75").brier, n_clusters: pick("map_flat75").n_clusters },
+          { id: "non_affiliated" as const, value: pick("non_affiliated").brier, n_clusters: pick("non_affiliated").n_clusters },
+          { id: "prospective_only" as const, value: pick("prospective_only").brier, n_clusters: pick("prospective_only").n_clusters },
+          { id: "undated_pooled" as const, value: pick("undated_pooled").brier, n_clusters: pick("undated_pooled").n_clusters },
+          { id: "loo_max_change" as const, value: s.headline.loo_max_change, n_clusters: s.headline.n_clusters },
+        ],
+      };
+    }),
+  };
+  return <MethodologyView live={live} asOf={readAsOf()} />;
 }

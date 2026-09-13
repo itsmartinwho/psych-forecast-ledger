@@ -1,0 +1,356 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-28.md",
+  "posts": [
+    {
+      "slug": "is-private-equity-acquisition-of",
+      "read": true,
+      "statements_found": 0,
+      "note": "Essay on JAMA private-equity hospital data; past analysis plus a rhetorical question ('How long do we let this go on?'). No forward-looking claim."
+    },
+    {
+      "slug": "buspar",
+      "read": true,
+      "statements_found": 0,
+      "note": "Drug-series essay on buspirone; efficacy review with no forward-looking claim."
+    },
+    {
+      "slug": "five-articles-i-wrote-in-2023-you",
+      "read": true,
+      "statements_found": 0,
+      "note": "Year-end roundup of 2023 articles; no forward-looking claim."
+    },
+    {
+      "slug": "top-scam-messages-of-2023",
+      "read": true,
+      "statements_found": 0,
+      "note": "Scam-message year in review; no forward-looking claim."
+    },
+    {
+      "slug": "its-a-wonderful-scam",
+      "read": true,
+      "statements_found": 0,
+      "note": "New Year's Eve scam anecdote; no forward-looking claim."
+    },
+    {
+      "slug": "walking",
+      "read": true,
+      "statements_found": 1,
+      "note": "Walking as a depression treatment with a fictional FDA package insert; one satirical FDA counterfactual logged with sincere=false."
+    },
+    {
+      "slug": "rapid-acting-mental-health-treatment",
+      "read": true,
+      "statements_found": 2,
+      "note": "Promo for the Rapid Acting Mental Health Treatment 2024 event (SF, Jan 7) told as an imagined investor dialogue. Event announcement and one SAINT trend claim logged."
+    },
+    {
+      "slug": "bad-sleep-1",
+      "read": true,
+      "statements_found": 2,
+      "note": "Sleep essay; 2024 editorial plan and Nightware event mention logged. Sarcastic present-tense payer remark ('paid for by no commercial payers') not logged."
+    },
+    {
+      "slug": "what-are-the-side-effects-of-transcranial",
+      "read": true,
+      "statements_found": 2,
+      "note": "TMS side-effect review; 'more indications on the way' and a general durability prognosis logged."
+    },
+    {
+      "slug": "a-shift-in-the-possible-fmri-guided",
+      "read": true,
+      "statements_found": 4,
+      "note": "SHIFT trial and magnesium-ibogaine paper; Nobel advocacy for Nolan Williams. 'Dr. Williams deserves the Nobel' is normative and not logged."
+    },
+    {
+      "slug": "people-i-mostly-admire",
+      "read": true,
+      "statements_found": 0,
+      "note": "Link roundup written on a plane; no forward-looking claim."
+    },
+    {
+      "slug": "the-icu-is-traumatic-for-everyone",
+      "read": true,
+      "statements_found": 3,
+      "note": "ICU trauma essay; umbrella 'on the horizon' list of PTSD technologies, COMP360 data, and Fermata PRISM launch logged. MDMA/Lykos FDA submission and GammaCore breakthrough request stated as facts only."
+    },
+    {
+      "slug": "illegal-drugs-issue-rare-joint-statement",
+      "read": true,
+      "statements_found": 0,
+      "note": "Satirical press release from 'Illegal Drugs' about Elon Musk; no sincere forward-looking claim."
+    },
+    {
+      "slug": "rapid-acting-treatment-better-compliance",
+      "read": true,
+      "statements_found": 0,
+      "note": "62-word podcast blurb; a general claim that rapid-acting treatment equals engaged patients, not forward-looking."
+    },
+    {
+      "slug": "first-breaks",
+      "read": true,
+      "statements_found": 0,
+      "note": "Podcast blurb; 'It is also only part one' implies a part two but was not logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "walking",
+      "quote": "If Walking were submitted to the FDA, it would likely be approved for major depression, but probably include a package insert warning of the significant risk associated with falling down and spraining your god-damn ankle.",
+      "context": "Satirical close of the 'Walking' entry in the author's drug series (2024-01-01). After citing meta-analyses giving walking an effect size of about 0.86 to 1.0 for depression, the author imagines a fictional 'TheFrontierPsychiatrists BioMedicine, Inc.' submitting walking to the FDA and asserts the FDA would likely approve it for major depression with an ankle-sprain warning.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "would likely",
+      "entities": [
+        "FDA"
+      ],
+      "note": "Satirical counterfactual conditional; the FDA submission is fictional. Underlying sincere point: walking's efficacy data would meet an approval bar."
+    },
+    {
+      "post_slug": "rapid-acting-mental-health-treatment",
+      "quote": "grown into a movement with our first in-person event coming up this Sunday. YES. In San Francisco! This Sunday, Jan 7th! 6-9 pm.",
+      "context": "Opening announcement (post dated 2024-01-03) of the newsletter's first in-person event, Rapid Acting Mental Health Treatment 2024, in San Francisco on Sunday Jan 7, 2024, 6-9 pm, held right before the JPM Healthcare Conference with BrainFutures as the 501c3 partner. The post promises speakers including Nolan Williams, Videra Health, Kalli Ortega (Meleos Group), Sharena Rice, Danielle De'Souza and Carlene MacMillan.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "This Sunday, Jan 7th",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists",
+        "BrainFutures",
+        "JPM Healthcare Conference",
+        "Nolan Williams",
+        "Videra Health",
+        "Carlene MacMillan"
+      ],
+      "note": "Own-event announcement; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "rapid-acting-mental-health-treatment",
+      "quote": "Magnus Medical is changing brain medicine— especially in inpatient settings — with SAINT!",
+      "context": "Inside an imagined conversation with a JPM investor (the author's self-described 'obnoxious conversation I'm having in my head'), the author pitches that depression can be in remission in 5 days and that Magnus Medical's SAINT neuromodulation is changing brain medicine, especially in inpatient settings.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Magnus Medical",
+        "SAINT",
+        "Nolan Williams"
+      ],
+      "note": "Present-progressive trend claim inside a fictional dialogue; implicit adoption call for SAINT in inpatient settings. Borderline."
+    },
+    {
+      "post_slug": "bad-sleep-1",
+      "quote": "This year? I am taking a crack— in a reassuring format—for things that are not pharmaceuticals.",
+      "context": "Opening of 'Bad Sleep:: -1' (2024-01-03). After a 2023 series of articles each on one drug, the author states his 2024 plan for the newsletter: a series on things that are not pharmaceuticals (walking, sleep, and so on).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "This year",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Editorial plan for the author's own newsletter; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "bad-sleep-1",
+      "quote": "already an FDA breakthrough and will be discussed at Rapid Acting Mental Health Treatment 2024 this Sunday!",
+      "context": "After citing nightmares as an independent risk factor for suicide, the author praises the Nightware device (effect size 0.88 for nightmare disorder), says it is already an FDA breakthrough, and says it will be discussed at his Rapid Acting Mental Health Treatment 2024 event on Sunday Jan 7, 2024. He adds that no commercial payers pay for it.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "this Sunday",
+      "confidence_phrase": "will",
+      "entities": [
+        "Nightware",
+        "FDA",
+        "Rapid Acting Mental Health Treatment 2024"
+      ],
+      "note": "Own-event logistics; restates the event announced in rapid-acting-mental-health-treatment. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "what-are-the-side-effects-of-transcranial",
+      "quote": "the side effect profile of an effective treatment for Treatment-resistant depression, Anxious Depression, Smoking Cessation, and OCD, with more indications on the way",
+      "context": "Introduction to a review of TMS side effects (2024-01-04). The author, who provides TMS at Radial, lists the current TMS indications (treatment-resistant depression, anxious depression, smoking cessation, OCD) and asserts more indications are coming.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "on the way",
+      "confidence_phrase": "none",
+      "entities": [
+        "TMS",
+        "Radial",
+        "FDA"
+      ],
+      "note": "Vague call that additional TMS indications are coming; no named indication or date."
+    },
+    {
+      "post_slug": "what-are-the-side-effects-of-transcranial",
+      "quote": "Therefore, if there are positive changes, it is likely that these will not be permanent. Retreatment or maintenance is likely to be necessary in the future",
+      "context": "TMS side-effect review. The author states TMS causes no permanent changes in brain functioning, so treatment benefits are likely not permanent and retreatment or maintenance will likely be needed later, with limited evidence on how often. He adds that retreatment is highly effective at maintaining remission.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "in the future",
+      "confidence_phrase": "it is likely",
+      "entities": [
+        "TMS"
+      ],
+      "note": "General clinical prognosis about TMS durability, not a dated world-state call; logged for recall."
+    },
+    {
+      "post_slug": "a-shift-in-the-possible-fmri-guided",
+      "quote": "Today, a new paper hit the press. And it will change what you understand to be possible.",
+      "context": "Post (2024-01-05) on the SHIFT trial (Stanford Hypnosis Integrated with Functional Connectivity-targeted Transcranial Stimulation; Faerman et al., Nature Mental Health, 2024; Nolan Williams senior author group) that used fMRI-guided TMS to change hypnotizability, a stable trait. The author claims the paper will change what readers understand to be possible: modifying traits, not only states, with neuromodulation.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Nolan Williams",
+        "SHIFT",
+        "Stanford",
+        "Nature Mental Health"
+      ],
+      "note": "Rhetorical impact claim about a just-published paper; hard to resolve."
+    },
+    {
+      "post_slug": "a-shift-in-the-possible-fmri-guided",
+      "quote": "enough to get the man his Nobel in medicine, perhaps his other publication—TODAY— in nature medicine on the role of magnesium-ibogaine therapy in special operations veterans with traumatic brain injuries will do it.",
+      "context": "The author openly campaigns for Nolan Williams to receive the Nobel Prize in Medicine ('this goal of mine has not been kept secret'). He suggests that if the SHIFT paper is not enough, Williams' same-day Nature Medicine paper on magnesium-ibogaine therapy in special operations veterans with traumatic brain injury (Cherian et al., 2024) may secure the Nobel.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "perhaps",
+      "entities": [
+        "Nolan Williams",
+        "Nobel Prize in Medicine",
+        "Nature Medicine",
+        "magnesium-ibogaine",
+        "Kristen Cherian"
+      ],
+      "note": "Hyperbolic advocacy; a Nobel for Williams is the author's stated goal. 'perhaps ... will do it' is rhetorical rather than a stated expectation."
+    },
+    {
+      "post_slug": "a-shift-in-the-possible-fmri-guided",
+      "quote": "remarkable work with magnesium-ibogaine might be the kind of broad spectrum and potent healing we all hope for access to, in the context of both psychiatric illness and traumatic brain injury",
+      "context": "Commenting on Cherian et al. (Nature Medicine, Jan 2024) on magnesium-ibogaine in special operations veterans with TBI, where the author says disability, trauma, depression and anxiety all resolved in historically hard-to-treat cases, he suggests magnesium-ibogaine might be a broad-spectrum, potent healing therapy that people will gain access to for psychiatric illness and TBI.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "might be",
+      "entities": [
+        "magnesium-ibogaine",
+        "Kristen Cherian",
+        "Nolan Williams"
+      ],
+      "note": "Hedged potential-and-hope statement about a therapy's future role and access; no date."
+    },
+    {
+      "post_slug": "a-shift-in-the-possible-fmri-guided",
+      "quote": "he will join us this Sunday night at Rapid Acting Mental Health Treatment 2024! Tickets are still available!",
+      "context": "Closing line (post dated 2024-01-05): Nolan Williams will join the author's Rapid Acting Mental Health Treatment 2024 event in San Francisco on Sunday night, Jan 7, 2024.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "this Sunday night",
+      "confidence_phrase": "will",
+      "entities": [
+        "Nolan Williams",
+        "Rapid Acting Mental Health Treatment 2024"
+      ],
+      "note": "Own-event logistics; restates the event announced in rapid-acting-mental-health-treatment. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-icu-is-traumatic-for-everyone",
+      "quote": "I will highlight a few of the technologies that I see as plausibly useful on the horizon for healing the minds and hearts of individuals injured by trauma",
+      "context": "After documenting PTSD rates in ICU survivors (about 20%) and ICU staff (up to 73% after COVID-19), the author lists technologies he sees as plausibly useful on the horizon for trauma: magnesium-ibogaine, MDMA (submitted to the FDA for PTSD by Lykos Therapeutics), COMP360 (Phase IIb data for PTSD), Nightware, the PRISM EEG neurofeedback system from GreyMatters Health, EMDR, and GammaCore (submitted for FDA breakthrough status for PTSD). He closes: 'The options are increasing. We need them.'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "on the horizon",
+      "confidence_phrase": "plausibly",
+      "entities": [
+        "magnesium-ibogaine",
+        "MDMA",
+        "Lykos Therapeutics",
+        "FDA",
+        "COMP360",
+        "Nightware",
+        "PRISM",
+        "GreyMatters Health",
+        "Fermata",
+        "EMDR",
+        "GammaCore"
+      ],
+      "note": "Umbrella call over seven PTSD technologies. The MDMA/Lykos FDA submission and the GammaCore breakthrough request are stated as facts with no explicit approval call."
+    },
+    {
+      "post_slug": "the-icu-is-traumatic-for-everyone",
+      "quote": "Psilocybin analog COMP360 has Phase IIb safety data announced—with more data coming—for PTSD.",
+      "context": "Item in the list of trauma technologies the author sees as 'plausibly useful on the horizon'. COMP360, a psilocybin analog, has Phase IIb safety data for PTSD announced, and the author says more data are coming.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "coming",
+      "confidence_phrase": "none",
+      "entities": [
+        "COMP360"
+      ],
+      "note": "Expects further COMP360 PTSD data; no date given and the sponsor is not named in the text."
+    },
+    {
+      "post_slug": "the-icu-is-traumatic-for-everyone",
+      "quote": "This month, we launch this treatment at Fermata (my practice and CRO )!",
+      "context": "Item in the list of trauma technologies: the FDA-cleared breakthrough PRISM system from GreyMatters Health, EEG neurofeedback trained on fMRI data to relieve PTSD symptoms. The author says his practice and CRO, Fermata, launches this treatment this month (January 2024; post dated 2024-01-07).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "This month",
+      "confidence_phrase": "none",
+      "entities": [
+        "PRISM",
+        "GreyMatters Health",
+        "Fermata",
+        "FDA"
+      ],
+      "note": "Own-organization launch plan (Fermata). Coder may mark CONTROL."
+    }
+  ]
+}
