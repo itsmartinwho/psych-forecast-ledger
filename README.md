@@ -4,7 +4,7 @@ Scored, sourced predictions in interventional psychiatry and psychedelic medicin
 
 ## Method in one paragraph
 
-Each person's number is a Brier score on dated, checkable claims. A claim is admitted when the person said in public, on a known date, that a specific thing would or would not happen by a specific time, and a third party decides the outcome. Words become probabilities through a fixed lexicon (will 0.90, probably 0.70, may 0.50, unlikely 0.30, never 0.10); stated numbers are used as stated. Two independent coders map each claim to a registry event and a deadline; a mismatch voids the item. Items enter the score only after their deadline passes. One event counts once per person. The full method, tables and thresholds live in `data/rules/` and on `/methodology`.
+Each person's number is a Brier score on dated, checkable claims. A claim is admitted when the person said in public, on a known date, that a specific thing would or would not happen by a specific time, and a third party decides the outcome. Words become probabilities through a fixed lexicon (will 0.90, probably 0.70, may 0.50, unlikely 0.30, never 0.10); stated numbers are used as stated. Two independent coders map each claim to a registry event and a deadline; a mismatch voids the item. The registry accepts only events inside the five area definitions; a proposal outside them returns the statement to not admitted (OUT_OF_AREA). Items enter the score only after their deadline passes. One event counts once per person. The full method, tables and thresholds live in `data/rules/` and on `/methodology`.
 
 ## Layout
 

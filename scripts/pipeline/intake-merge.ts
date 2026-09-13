@@ -1,6 +1,7 @@
 // Intake merge: coder A, coder B and tiebreak C outputs plus the registry map become the census status,
 // the intake items and the coder-B match file. Rules: both admit and event and deadline match -> admitted;
-// event or deadline mismatch -> VOID AMBIGUOUS; admission split -> coder C decides (then C's fields are
+// event or deadline mismatch -> VOID AMBIGUOUS; an event the registry gate refused -> not admitted OUT_OF_AREA;
+// admission split -> coder C decides (then C's fields are
 // matched against the admitting coder); bin mismatch -> mean p with a p_note.
 import fs from "node:fs";
 import { rel, readJson, writeJson, appendAudit } from "./common";
@@ -31,6 +32,8 @@ const loadCoder = <T extends { id: string }>(letter: string): Map<string, T> => 
 };
 const A = loadCoder<RecA>("a"), B = loadCoder<RecB>("b"), C = loadCoder<RecA>("c");
 
+// the registry scope gate: the consolidation step maps a proposal outside the five area definitions to "OUT_OF_AREA"
+const gated = (coder: string, ev: Ev): boolean => !!ev && map[`${coder}:${ev.ref}`] === "OUT_OF_AREA";
 const resolveRef = (coder: string, ev: Ev): string | null => {
   if (!ev) return null;
   if (registryIds.has(ev.ref)) return ev.ref;
@@ -45,7 +48,7 @@ const pOf = (bin: string | null, p_stated: number | null, asserts: boolean | nul
 };
 const clamp = (p: number) => Math.min(thresholds.probability_clamp[1], Math.max(thresholds.probability_clamp[0], p));
 
-const stats = { statements: 0, admitted: 0, void_ambiguous: 0, not_admitted: 0, split_to_c: 0, uncoded: 0, bin_mismatch: 0, undated: 0, dated: 0 };
+const stats = { statements: 0, admitted: 0, void_ambiguous: 0, not_admitted: 0, gate_out_of_area: 0, split_to_c: 0, uncoded: 0, bin_mismatch: 0, undated: 0, dated: 0 };
 const splitsNeeded: string[] = [];
 for (const slug of ["owen", "angermayer", "doblin"] as const) {
   const p = rel(`data/census/${slug}.json`);
@@ -81,6 +84,9 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
     const evO = resolveRef(other === b ? "B" : "C", other.event);
     const dlP = primary.deadline ?? null, dlO = other.deadline ?? null;
     coderB.push({ id: row.id, admit: b.admit, reason_code: (b.reason_code ?? null) as CoderB["reason_code"], event_id: evO && /^E-\d{4}$/.test(evO) ? evO : null, deadline: dlO, bin: (b.bin ?? null) as CoderB["bin"], asserts: b.asserts ?? null, coder: "B", coded_at: "2026-09-13" });
+    if (gated(primary === a ? "A" : "C", primary.event)) {
+      statements.push({ ...base, status: "not_admitted", reason_code: "OUT_OF_AREA", coders: { ...coders, gate: "registry" } } as Statement); stats.gate_out_of_area++; continue;
+    }
     if (!evP || !evO || evP !== evO || dlP !== dlO) {
       statements.push({ ...base, status: "void", void_reason: "AMBIGUOUS", coders } as Statement); stats.void_ambiguous++; continue;
     }

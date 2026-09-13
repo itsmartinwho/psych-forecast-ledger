@@ -3,8 +3,10 @@
 //          (deduplicated by normalized title so the consolidation agent reads each distinct wording once).
 //   apply: read the agent's data/intake/registry-consolidated.json { events, map } and write data/registry/events.json
 //          (existing entries kept, new ones appended with sequential ids) and data/intake/registry-map.json.
+//          A map value of "OUT_OF_AREA" records the scope gate: the proposal lies outside the five area definitions.
 import fs from "node:fs";
 import { rel, readJson, writeJson, appendAudit, norm } from "./common";
+import { RegistryEvent } from "../../lib/data/schema";
 
 type Proposal = { ref: string; template?: string; area?: string; asset?: string; entity?: string; title?: string; proposition?: string; criterion?: string; resolution_source?: { name: string; url?: string }; base_rate_class?: string | null; quantity?: unknown; readings?: string[] };
 type Rec = { id: string; admit: boolean; event: Proposal | { ref: string } | null; condition?: Proposal | { ref: string } | null };
@@ -41,14 +43,33 @@ if (mode === "prep") {
   console.log(`proposals: ${proposals.length} (${distinct} distinct titles) from ${coderFiles().length} coder files; existing registry ${existing.length}`);
 } else if (mode === "apply") {
   const cons = readJson<{ events: Record<string, unknown>[]; map: Record<string, string> }>(rel("data/intake/registry-consolidated.json"));
+  const proposals = readJson<{ proposals: { ref: string; coder: string }[] }>(rel("data/intake/registry-proposals.json")).proposals;
   const existing = fs.existsSync(rel("data/registry/events.json")) ? readJson<{ id: string }[]>(rel("data/registry/events.json")) : [];
   const ids = new Set(existing.map((e) => e.id));
-  const added = cons.events.filter((e) => !ids.has(String(e.id)));
-  const registry = [...existing, ...added.map((e) => ({ ...e, created_by: e.created_by ?? "registry-consolidation", created_at: e.created_at ?? "2026-09-13", version: e.version ?? "1.0.0", readings: e.readings ?? [], market_ref_id: e.market_ref_id ?? null, quantity: e.quantity ?? null, base_rate_class: e.base_rate_class ?? null }))];
+  const added: Record<string, unknown>[] = cons.events.filter((e) => !ids.has(String(e.id))).map((e) => ({ ...e, created_by: e.created_by ?? "registry-consolidation", created_at: e.created_at ?? "2026-09-13", version: e.version ?? "1.0.0", readings: e.readings ?? [], market_ref_id: e.market_ref_id ?? null, quantity: e.quantity ?? null, base_rate_class: e.base_rate_class ?? null }));
+  // checks: every added entry fits the schema, ids are unique, every proposal ref has a map entry, every mapped id exists
+  const problems: string[] = [];
+  const all = new Set(ids);
+  for (const e of added) {
+    const parsed = RegistryEvent.safeParse(e);
+    if (!parsed.success) problems.push(`${String(e.id)}: ${parsed.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`);
+    if (all.has(String(e.id))) problems.push(`${String(e.id)}: duplicate id`);
+    all.add(String(e.id));
+  }
+  for (const p of proposals) {
+    const key = `${p.coder}:${p.ref}`;
+    if (!(key in cons.map)) problems.push(`${key}: no map entry`);
+  }
+  for (const [k, v] of Object.entries(cons.map)) if (v !== "OUT_OF_AREA" && !all.has(v)) problems.push(`${k}: maps to unknown event ${v}`);
+  const referenced = new Set(Object.values(cons.map));
+  for (const e of added) if (!referenced.has(String(e.id))) console.warn(`warning: ${String(e.id)} has no proposal ref pointing at it`);
+  if (problems.length) { console.error(problems.join("\n")); process.exit(1); }
+  const registry = [...existing, ...added];
   writeJson(rel("data/registry/events.json"), registry);
   writeJson(rel("data/intake/registry-map.json"), cons.map);
-  appendAudit({ script: "consolidate-registry apply", added: added.length, total: registry.length, mapped_refs: Object.keys(cons.map).length });
-  console.log(`registry: ${registry.length} events (${added.length} added); map has ${Object.keys(cons.map).length} refs`);
+  const outOfArea = Object.values(cons.map).filter((v) => v === "OUT_OF_AREA").length;
+  appendAudit({ script: "consolidate-registry apply", added: added.length, total: registry.length, mapped_refs: Object.keys(cons.map).length, out_of_area_refs: outOfArea });
+  console.log(`registry: ${registry.length} events (${added.length} added); map has ${Object.keys(cons.map).length} refs, ${outOfArea} refused by the scope gate`);
 } else {
   console.error("usage: consolidate-registry.ts prep|apply"); process.exit(2);
 }

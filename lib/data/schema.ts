@@ -119,7 +119,7 @@ export const Statement = z.object({
   status: StatementStatus,
   reason_code: ReasonCode.optional(),
   void_reason: VoidReason.optional(),
-  coders: z.object({ a_admit: z.boolean().optional(), b_admit: z.boolean().optional(), tiebreak_admit: z.boolean().optional(), a_reason: ReasonCode.optional(), b_reason: ReasonCode.optional() }).optional(),
+  coders: z.object({ a_admit: z.boolean().optional(), b_admit: z.boolean().optional(), tiebreak_admit: z.boolean().optional(), a_reason: ReasonCode.optional(), b_reason: ReasonCode.optional(), gate: z.enum(["registry"]).optional() }).optional(),
 }).superRefine((s, ctx) => {
   if (s.status === "not_admitted" && !s.reason_code) ctx.addIssue({ code: "custom", message: `${s.id}: not_admitted needs reason_code` });
   if (s.status === "void" && !s.void_reason) ctx.addIssue({ code: "custom", message: `${s.id}: void needs void_reason` });

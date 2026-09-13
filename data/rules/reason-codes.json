@@ -39,7 +39,7 @@
     {
       "code": "OUT_OF_AREA",
       "label": "Outside the five areas",
-      "test": "Not a regulatory decision, trial outcome, company or market outcome, payer or policy decision, or practice adoption."
+      "test": "Outside the five area definitions in areas.json: not a regulatory decision, trial outcome, company or market outcome, payer or policy decision, or practice adoption about drugs, devices or treatments in psychiatry, or about payment for and access to them. The registry applies the same test when it consolidates proposed events."
     },
     {
       "code": "NOT_FORECAST",

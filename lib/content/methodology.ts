@@ -276,6 +276,7 @@ export const HINDSIGHT_CONTROLS: Control[] = [
   { id: "H10", control: "Second coder: coder B codes admit, event, deadline, bin and asserts without seeing coder A; agreement is reported as kappa; a disagreement on event or deadline voids the item (AMBIGUOUS) and is never adjudicated toward a reading.", where: "CoderB records; lib/score/kappa.ts" },
   { id: "H11", control: "Rechecks: any outcome can be challenged on state, date, criterion, evidence or leakage; the verdict and whether it was applied are logged.", where: "Recheck records" },
   { id: "H12", control: "Corrections log: a change to any published number or rule is logged with the version it moved from and to.", where: "Corrections records; this page" },
+  { id: "H13", control: "Registry scope gate: when proposed events are merged into the registry, an event outside the five area definitions gets no entry, and its statement returns to not admitted (OUT_OF_AREA). The gate reads subject area only, never outcomes or odds.", where: "data/areas.json; prompts/registry-consolidate.md; Statement coders.gate" },
 ];
 
 // ---- sensitivity variants (static definitions) -------------------------------------------------
