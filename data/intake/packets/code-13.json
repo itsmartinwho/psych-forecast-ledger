@@ -1,0 +1,805 @@
+{
+ "packet": "code-13.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0550",
+   "forecaster": "owen",
+   "statement_date": "2026-07-20",
+   "quote": "I haven't used it in clinical practice yet, but Dave makes a compelling case, and at this point I think it's only a matter of time. Brain Medicine, as an emerging specialty, brings change. That change needs to be measured. EEG might be one such tool.",
+   "context": "Author predicts he (and by extension Radial) will adopt EEG-based brain measurement such as Firefly Neuroscience's Evoke qEEG/ERP system in routine clinical care.",
+   "post_title": "A Deep Dive into EEG with Firefly Neuroscience's Dave DeCaprio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-deep-dive-into-eeg-with-firefly",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Firefly Neuroscience",
+    "Evoke",
+    "Radial",
+    "qEEG",
+    "Dave DeCaprio"
+   ],
+   "finder_note": "hint: Radial or author announcements of EEG/Firefly Evoke deployment in clinics; later newsletter posts"
+  },
+  {
+   "id": "owen-0551",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "The pipeline drugs behind Spravato — psilocybin, LSD, MDMA — will almost all require longer monitoring than we can currently bill, and none of them will go through a retail pharmacy.",
+   "context": "Author predicts psilocybin, LSD and MDMA products will require in-clinic monitoring longer than current billing allows, and none will be dispensed via retail pharmacy; certified clinics become the distribution channel.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "psilocybin",
+    "LSD",
+    "MDMA",
+    "Spravato",
+    "REMS",
+    "retail pharmacy"
+   ],
+   "finder_note": "hint: FDA labels and REMS for COMP360, DT120 (lysergide), MDMA products"
+  },
+  {
+   "id": "owen-0552",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "We can stay terrible, and Optum and its colleagues will happily handle the details and pocket the dollars without us.",
+   "context": "Conditional: if physicians do not own the rooms and infrastructure for in-clinic psychedelic delivery, conglomerates such as UnitedHealth/Optum (already acquiring about one in ten physicians) will capture the economics.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Optum",
+    "UnitedHealth",
+    "physicians",
+    "psychedelic clinics"
+   ],
+   "finder_note": "hint: Ownership of REMS-certified psychedelic sites; Optum/UnitedHealth acquisitions in interventional psychiatry"
+  },
+  {
+   "id": "owen-0553",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "Now the squeeze. Drug prices go up every year. Physician reimbursement, against inflation, goes down every year. So the doctor buys an increasingly expensive drug and gets paid a shrinking amount to administer it.",
+   "context": "Borderline directional trend: the buy-and-bill squeeze will continue, with drug prices rising annually while inflation-adjusted physician reimbursement falls, squeezing independent clinics on in-clinic drugs such as Spravato.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Spravato",
+    "Medicare Physician Fee Schedule",
+    "buy-and-bill"
+   ],
+   "finder_note": "hint: Medicare Physician Fee Schedule conversion factor vs CPI; Spravato WAC history"
+  },
+  {
+   "id": "owen-0554",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "The constraint on patient access to FDA-approved psychedelic therapies is likely to be financial. The supply chain that made oral drugs accessible is essentially not relevant to the deployment of psychedelic medicines.",
+   "context": "Author predicts the binding constraint on access to approved psychedelic therapies (COMP360, MDMA, LSD, ibogaine) will be economics/reimbursement, not the retail pharmacy supply chain.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "FDA",
+    "COMP360",
+    "MDMA",
+    "lysergide",
+    "ibogaine",
+    "Docket FDA-2026-N-7542"
+   ],
+   "finder_note": "hint: Post-approval uptake and payer coverage analyses for the first approved psychedelic (e.g., COMP360)"
+  },
+  {
+   "id": "owen-0555",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "The REMS program will drive the reimbursement infrastructure. ... The current reimbursement infrastructure used by ketamine is a workaround that didn't involve creating a robust new code set, which will almost certainly need to be the case to encompass all the psychedelic treatments that are coming.",
+   "context": "Author predicts each psychedelic's REMS will shape its reimbursement, and that a new CPT/HCPCS code set (beyond the esketamine G-code/S-code workaround) will almost certainly be required for the coming psychedelic treatments.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "REMS",
+    "CMS",
+    "AMA CPT",
+    "esketamine",
+    "G2082",
+    "G2083",
+    "S0013"
+   ],
+   "finder_note": "hint: AMA CPT Editorial Panel actions; CMS creation of HCPCS/G codes for psilocybin, MDMA, LSD administration"
+  },
+  {
+   "id": "owen-0556",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Nearly every psychedelic in late-stage development (psilocybin, MDMA, LSD, ibogaine, methylone and more ) all will need complexity based billing and longer monitoring–thanks to the longer acting effects compared to ketamine and esketamine– more similar to surgical procedures than current psychiatric practice.",
+   "context": "Predicts late-stage psychedelics will require monitoring beyond the ~2-hour outpatient E/M ceiling (99215 plus 99417 MUE of 4 units) and possibly beyond the 6-hour Category III psychedelic-therapy codes, forcing surgical-style complexity billing.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "psilocybin",
+    "MDMA",
+    "LSD",
+    "ibogaine",
+    "methylone",
+    "CPT 99417",
+    "Category III codes"
+   ],
+   "finder_note": "hint: REMS monitoring durations in FDA labels for COMP360, MDMA, DT120; CPT code revisions for psychedelic therapy"
+  },
+  {
+   "id": "owen-0557",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Waiting for post-approval rate negotiation, payer by payer and code by code, is itself an access barrier measured in years.",
+   "context": "Conditional: if payment pathways (e.g., bundled Medicare G-codes) are not created concurrently with FDA approval, psychedelic access will be delayed by years, repeating the esketamine ramp-up experience.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "CMS",
+    "Medicare",
+    "FDA",
+    "esketamine",
+    "Executive Order 14401"
+   ],
+   "finder_note": "hint: Time between FDA approval of the first psychedelic and Medicare payment code / broad commercial coverage"
+  },
+  {
+   "id": "owen-0558",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "These rates need to take into account the fact that these drugs are likely to rise in price, and a drug price multiplier may need to be included in the calculation.",
+   "context": "Author predicts approved psychedelic drug prices are likely to rise over time after launch.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "COMP360",
+    "ASP+6%",
+    "psychedelic drug pricing"
+   ],
+   "finder_note": "hint: WAC/ASP price history for COMP360 and other approved psychedelics"
+  },
+  {
+   "id": "owen-0559",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Payment model should be tested against a simple question: can an independent practice deliver these treatments at the rates set for by payers without losing money? If the answer is no, access will narrow, regardless of how many products the FDA approves.",
+   "context": "Conditional: if payer rates do not let independent practices deliver psychedelic therapy without losses, access will narrow regardless of FDA approvals; only large vertically integrated organizations could absorb the losses, accelerating consolidation.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "FDA",
+    "independent practices",
+    "vertically integrated organizations",
+    "REMS"
+   ],
+   "finder_note": "hint: Ownership mix of REMS-certified psychedelic sites (independent vs integrated systems); utilization data post-approval"
+  },
+  {
+   "id": "owen-0560",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "Blanket in-person requirements across all phases of care would function as a geographic access restriction without a corresponding safety benefit.",
+   "context": "Conditional: if FDA/REMS require in-person care for screening, preparation and follow-up (not only dosing), rural and geographic access to psychedelic therapy will be restricted with no safety gain.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "FDA",
+    "REMS",
+    "telehealth"
+   ],
+   "finder_note": "hint: REMS text for approved psychedelics on telehealth for non-dosing phases; geographic uptake data"
+  },
+  {
+   "id": "owen-0561",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "That is an opportunity to build a delivery and payment system better aligned with patient outcomes than the rebate-driven pharmacy-benefit model it will not use anyway.",
+   "context": "Author predicts psychedelic medicines will not be distributed through the rebate-driven PBM/pharmacy-benefit model; they will move through clinicians and certified clinical sites.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "never",
+   "entities": [
+    "PBMs",
+    "pharmacy benefit",
+    "certified clinics",
+    "COMP360"
+   ],
+   "finder_note": "hint: Distribution model in FDA label/REMS for first approved psychedelic (certified-site dispensing vs pharmacy benefit)"
+  },
+  {
+   "id": "owen-0562",
+   "forecaster": "owen",
+   "statement_date": "2026-09-03",
+   "quote": "the promise of accelerated transcranial magnetic stimulation, particularly the SNT approach, in bipolar depression. It does look like that's likely to work—but somebody has to do a large enough trial, submitted to the FDA, to change the label",
+   "context": "Author predicts accelerated TMS (SNT/SAINT-style) will prove effective for bipolar depression; a label change requires someone to run a large FDA-submitted trial, and only then do payer coverage talks start.",
+   "post_title": "Something “New” Is Proven Useful In Bipolar Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/something-new-is-proven-useful-in",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "SNT",
+    "SAINT",
+    "Magnus Medical",
+    "accelerated TMS",
+    "bipolar depression",
+    "FDA"
+   ],
+   "finder_note": "hint: Pivotal SNT/SAINT bipolar depression trial results; FDA label expansion for Magnus SAINT"
+  },
+  {
+   "id": "owen-0563",
+   "forecaster": "owen",
+   "statement_date": "2026-09-03",
+   "quote": "Today we have more data, that's hopeful, but unlikely to lead to meaningful coverage, because the academic researchers chose to study something. I bring you: IV ketamine. For bipolar depression.",
+   "context": "Author predicts the positive KET-BD trial (IV ketamine vs midazolam for treatment-resistant bipolar depression) will not translate into meaningful insurance coverage, because generic IV ketamine has no sponsor to seek an FDA label.",
+   "post_title": "Something “New” Is Proven Useful In Bipolar Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/something-new-is-proven-useful-in",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "KET-BD",
+    "IV ketamine",
+    "bipolar depression",
+    "Ember Health"
+   ],
+   "finder_note": "hint: Commercial payer medical policies and Medicare LCDs on IV ketamine for bipolar depression"
+  },
+  {
+   "id": "owen-0564",
+   "forecaster": "owen",
+   "statement_date": "2026-09-03",
+   "quote": "Bipolar depression is more of an unmeetable need, at least in Pharma and med device—because between two pitches, the founder who promises to go after a market 5x bigger wins, all things being equal.",
+   "context": "Borderline structural forecast: developers will keep steering new depression treatments toward MDD rather than bipolar depression (5:1 market gap plus higher placebo-driven trial risk), leaving bipolar depression with me-too atypical antipsychotics.",
+   "post_title": "Something “New” Is Proven Useful In Bipolar Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/something-new-is-proven-useful-in",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "bipolar depression",
+    "MDD",
+    "pharma",
+    "med device"
+   ],
+   "finder_note": "hint: Count of new bipolar-depression-indication programs vs MDD programs on ClinicalTrials.gov and FDA approvals over coming years"
+  },
+  {
+   "id": "owen-0565",
+   "forecaster": "owen",
+   "statement_date": "2026-09-04",
+   "quote": "We were just on the phone yesterday talking about how, to your point, we'll be questioning why we ever did this with SSRIs. We studied them for six weeks and then prescribed them for 20 years.",
+   "context": "Author explicitly endorses Randy Pardell's forecast that within the next 10-15 years the field will look back on SSRI/SNRI-first prescribing as a mistake, displaced by neuromodulation and psychedelic treatments.",
+   "post_title": "Dr. Randy Pardell Paves the Way For Accessible TMS",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-randy-pardell-paves-the-way-for",
+   "area_guess": "practice_adoption",
+   "horizon_text": "2036-2041 (inferred: Pardell's 'next 10 or 15 years', endorsed by author)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "SSRIs",
+    "SNRIs",
+    "Randy Pardell",
+    "Outro Health",
+    "TMS"
+   ],
+   "finder_note": "hint: US antidepressant prescribing volume (IQVIA) and guideline shifts circa 2036-2041"
+  },
+  {
+   "id": "owen-0566",
+   "forecaster": "owen",
+   "statement_date": "2026-09-04",
+   "quote": "help them catch up with what you've described as a tidal wave of change over many years, all in the direction of more TMS, not less? Every time TMS has been evaluated, eventually it's determined that this is a great option and more people should have access to it.",
+   "context": "Borderline: the author frames payer re-evaluations of TMS as always ending in expanded access, implying future payer reviews (of TMS or new neuromodulation) will continue to expand coverage. Confidence language is implied, not explicit.",
+   "post_title": "Dr. Randy Pardell Paves the Way For Accessible TMS",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-randy-pardell-paves-the-way-for",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "TMS",
+    "payers",
+    "Medicaid"
+   ],
+   "finder_note": "hint: Commercial and Medicaid TMS coverage policies over coming years (e.g., accelerated TMS, bipolar depression)"
+  },
+  {
+   "id": "owen-0567",
+   "forecaster": "owen",
+   "statement_date": "2026-09-07",
+   "quote": "I have deliberately removed any opinions of my interviewees on what the verdict should be, because a re-trial is likely, or at least plausible.",
+   "context": "The author expects the Commonwealth of Massachusetts to retry Lindsay Clancy after the 2026-09-04 mistrial (11-1 hung jury). He notes DA Timothy Cruz will decide at a 2026-09-29 status hearing.",
+   "post_title": "The Lindsay Clancy Mistrial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-lindsay-clancy-mistrial",
+   "area_guess": "other",
+   "horizon_text": "none (anchor: status hearing 2026-09-29)",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Lindsay Clancy",
+    "Timothy Cruz",
+    "Plymouth Superior Court",
+    "Commonwealth of Massachusetts"
+   ],
+   "finder_note": "hint: Plymouth Superior Court docket; Plymouth County DA Timothy Cruz statement after the 2026-09-29 status hearing"
+  },
+  {
+   "id": "angermayer-0002",
+   "forecaster": "angermayer",
+   "statement_date": "2019-05-01",
+   "quote": "r-ketamine hopefully on the market...for the treatment of depression",
+   "context": "atai's first product to reach the market would be R-ketamine (Perception Neuroscience) for depression.",
+   "post_title": "The Tim Ferriss Show #377 transcript: Psychedelics panel at the 2019 Milken Global Conference (recorded late Apr/1 May 2019; published 2019-07-17)",
+   "source_url": "https://tim.blog/2019/07/17/the-tim-ferriss-show-transcripts-psychedelics-microdosing-mind-enhancing-methods-and-more-377/",
+   "area_guess": "company_market",
+   "horizon_text": "unspecified (several years)",
+   "confidence_phrase": "possible",
+   "entities": [],
+   "finder_note": "source confidence medium; binary_event"
+  },
+  {
+   "id": "angermayer-0005",
+   "forecaster": "angermayer",
+   "statement_date": "2022-02-22",
+   "quote": "Mehr als eine Milliarde Menschen haben Probleme mit der psychischen Gesundheit. Und Covid wird dazu führen, dass noch mehr Menschen Hilfe brauchen. Da entsteht ein Milliardenmarkt.",
+   "context": "A multi-billion market for psychedelic mental-health medicines will emerge.",
+   "post_title": "LSD, Ketamin, Mushrooms: Psychedelika erobern die USA (Handelsblatt)",
+   "source_url": "https://www.handelsblatt.com/technik/thespark/trip-auf-rezept-lsd-ketamin-mushrooms-psychedelika-erobern-die-usa-investoren-wittern-milliardengeschaeft/28076058.html",
+   "area_guess": "company_market",
+   "horizon_text": "unspecified",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "source confidence medium; directional"
+  },
+  {
+   "id": "angermayer-0007",
+   "forecaster": "angermayer",
+   "statement_date": "2023-06-01",
+   "quote": "on the cusp of MDMA being ideally medicalized next year",
+   "context": "MDMA-assisted therapy (MAPS/Lykos) would be approved in 2024.",
+   "post_title": "The Psychedelic Podcast (Third Wave) ep. 207: Democratizing Psychedelics (recorded at Psychedelic Science, June 2023; published Aug 2023)",
+   "source_url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "area_guess": "regulatory",
+   "horizon_text": "2024",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence medium; dated_event"
+  },
+  {
+   "id": "angermayer-0008",
+   "forecaster": "angermayer",
+   "statement_date": "2023-06-01",
+   "quote": "the probability that these substances will be approved soon is very high",
+   "context": "MDMA and psilocybin ('psilocybin soon to follow') would be approved within a short time.",
+   "post_title": "The Psychedelic Podcast (Third Wave) ep. 207: Democratizing Psychedelics (recorded June 2023)",
+   "source_url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "area_guess": "regulatory",
+   "horizon_text": "soon (about 1-3 years)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence medium; directional"
+  },
+  {
+   "id": "angermayer-0009",
+   "forecaster": "angermayer",
+   "statement_date": "2023-06-01",
+   "quote": "I don't see at all why this would take overly long. I'm actually optimistic that the rollout success and the rollout speed will surprise everybody positively.",
+   "context": "Clinical rollout of psychedelic therapy after approval will be faster than the field expects.",
+   "post_title": "The Psychedelic Podcast (Third Wave) ep. 207: Democratizing Psychedelics (recorded June 2023)",
+   "source_url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "post-approval (unspecified)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence medium; directional"
+  },
+  {
+   "id": "angermayer-0010",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-27",
+   "quote": "approval by the FDA of MAPS' MDMA product is expected in 2024",
+   "context": "Lykos/MAPS MDMA therapy approved by the FDA in 2024.",
+   "post_title": "atai Life Sciences (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "area_guess": "regulatory",
+   "horizon_text": "2024",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0011",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-27",
+   "quote": "Phase 2b readout of BPL-003 in treatment resistant depression (TRD), anticipated in the second half of 2024",
+   "context": "Beckley Psytech's 5-MeO-DMT Phase 2b topline would come in H2 2024.",
+   "post_title": "atai Life Sciences (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "area_guess": "clinical_trial",
+   "horizon_text": "H2 2024",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0012",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-27",
+   "quote": "biotech will be one of the best performing asset classes this year",
+   "context": "Biotech would be among the top-performing asset classes in 2024.",
+   "post_title": "atai Life Sciences (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "area_guess": "company_market",
+   "horizon_text": "2024",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; comparative"
+  },
+  {
+   "id": "angermayer-0013",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-27",
+   "quote": "I am very confident in the potential of atai and am convinced that me and my fellow investors will be rewarded",
+   "context": "atai shareholders will make money from current levels.",
+   "post_title": "atai Life Sciences (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "area_guess": "company_market",
+   "horizon_text": "unspecified (multi-year)",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "source confidence high; directional"
+  },
+  {
+   "id": "angermayer-0014",
+   "forecaster": "angermayer",
+   "statement_date": "2024-06-05",
+   "quote": "IMO, there is still a strong chance that MDMA, with a properly conducted Phase 3 trial will get approved.",
+   "context": "MDMA can still win FDA approval if a clean new Phase 3 is run.",
+   "post_title": "X post by @C_Angermayer on the FDA advisory committee vote against Lykos/MAPS MDMA",
+   "source_url": "https://x.com/C_Angermayer/status/1798368569429750026",
+   "area_guess": "regulatory",
+   "horizon_text": "unspecified (multi-year)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; conditional"
+  },
+  {
+   "id": "angermayer-0015",
+   "forecaster": "angermayer",
+   "statement_date": "2024-07-31",
+   "quote": "If we succeed, and if we medicalise psychedelics, ATAI will be a double-, triple-digit billion-dollar company.",
+   "context": "atai would be worth US$10B to US$100B+ once psychedelics are medicalised.",
+   "post_title": "Meet the crypto-pioneering, biohacking, psychedelic-promoting billionaire who wants to reimagine the Olympics (Forbes, W. Yakowicz; text verified via Forbes Australia reprint of 2024-08-03)",
+   "source_url": "https://www.forbes.com.au/news/billionaires/meet-the-crypto-pioneering-biohacking-psychedelic-promoting-billionaire-who-wants-to-reimagine-the-olympics/",
+   "area_guess": "company_market",
+   "horizon_text": "unspecified",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "source confidence high; conditional"
+  },
+  {
+   "id": "angermayer-0016",
+   "forecaster": "angermayer",
+   "statement_date": "2025-03-18",
+   "quote": "Imo the sector presents a once-in-a-lifetime buying opportunity.",
+   "context": "Small-cap biotech (including his psychedelic holdings) at all-time lows will strongly outperform as rates fall and deregulation arrives.",
+   "post_title": "X post by @C_Angermayer on the small-cap biotech bear market",
+   "source_url": "https://x.com/C_Angermayer/status/1902093579524383109",
+   "area_guess": "company_market",
+   "horizon_text": "unspecified (1-2 years)",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "source confidence high; directional"
+  },
+  {
+   "id": "angermayer-0017",
+   "forecaster": "angermayer",
+   "statement_date": "2025-05-19",
+   "quote": "That's the clearest public signal yet that the FDA is ready to act fast - if clinical data supports it.",
+   "context": "The FDA under Makary will review and act quickly on psychedelic applications once data arrive.",
+   "post_title": "X post by @C_Angermayer on FDA Commissioner Makary calling psychedelics a 'top priority'",
+   "source_url": "https://x.com/C_Angermayer/status/1924449360055578967",
+   "area_guess": "regulatory",
+   "horizon_text": "near term (1-2 years)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; conditional"
+  },
+  {
+   "id": "angermayer-0018",
+   "forecaster": "angermayer",
+   "statement_date": "2025-06-02",
+   "quote": "Phase2b data for BPL-003 are anticipated for mid-2025",
+   "context": "BPL-003 (5-MeO-DMT) Phase 2b topline by mid-2025.",
+   "post_title": "atai acquires Beckley, establishing the undisputed leader in psychedelics (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-acquires-beckley-establishing",
+   "area_guess": "clinical_trial",
+   "horizon_text": "mid-2025",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0019",
+   "forecaster": "angermayer",
+   "statement_date": "2025-06-02",
+   "quote": "Spravato is a blockbuster drug, projected to make several billion revenues in 2026",
+   "context": "J&J's esketamine will earn several billion dollars in 2026.",
+   "post_title": "atai acquires Beckley, establishing the undisputed leader in psychedelics (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-acquires-beckley-establishing",
+   "area_guess": "company_market",
+   "horizon_text": "FY2026",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; quantity"
+  },
+  {
+   "id": "angermayer-0020",
+   "forecaster": "angermayer",
+   "statement_date": "2025-07-01",
+   "quote": "a much more successful drug than Spravato",
+   "context": "If Phase 3 succeeds, BPL-003 will out-sell J&J's Spravato because it needs one dose instead of eight to ten.",
+   "post_title": "atai Life Sciences - Strong Phase 2b topline data for BPL-003 (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences-outstanding-phase",
+   "area_guess": "company_market",
+   "horizon_text": "after Phase 3 (2029+)",
+   "confidence_phrase": "possible",
+   "entities": [],
+   "finder_note": "source confidence high; conditional"
+  },
+  {
+   "id": "angermayer-0021",
+   "forecaster": "angermayer",
+   "statement_date": "2025-08-04",
+   "quote": "I believe the re-rating of atai's share price has only just begun",
+   "context": "ATAI shares will keep rising well beyond the post-Phase-2b level.",
+   "post_title": "The Psychedelic Sector Today: Momentum, Milestones, and What Lies Ahead (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/the-psychedelic-sector-today-momentum",
+   "area_guess": "company_market",
+   "horizon_text": "months to years",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "source confidence high; directional"
+  },
+  {
+   "id": "angermayer-0022",
+   "forecaster": "angermayer",
+   "statement_date": "2025-10-14",
+   "quote": "Once its therapeutics are approved, I believe atai will significantly outperform current analyst forecasts, both in sales and in long-term market leadership.",
+   "context": "atai's product sales will beat analyst forecasts after approval, following the Spravato clinic model.",
+   "post_title": "X post by @C_Angermayer on Spravato's Q3 2025 run-rate",
+   "source_url": "https://x.com/C_Angermayer/status/1978093500286611715",
+   "area_guess": "company_market",
+   "horizon_text": "post-approval (2029+)",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "source confidence high; conditional"
+  },
+  {
+   "id": "angermayer-0023",
+   "forecaster": "angermayer",
+   "statement_date": "2025-10-21",
+   "quote": "End of P2b meeting with FDA anticipated in Q1 2026 ... Phase 2 data for R-MDMA (EMP-01) in SAD anticipated in Q1 2026",
+   "context": "BPL-003 end-of-Phase-2b FDA meeting and EMP-01 social-anxiety Phase 2 data both by end of March 2026.",
+   "post_title": "atai Life Sciences: The Leader in Psychedelic Therapeutics (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences-the-leader-in",
+   "area_guess": "clinical_trial",
+   "horizon_text": "Q1 2026",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0024",
+   "forecaster": "angermayer",
+   "statement_date": "2025-10-21",
+   "quote": "I expect these compounds to ultimately become first-line treatments, and even preventative interventions over time",
+   "context": "Psychedelics will move from treatment-resistant depression to first-line and preventive use.",
+   "post_title": "atai Life Sciences: The Leader in Psychedelic Therapeutics (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences-the-leader-in",
+   "area_guess": "practice_adoption",
+   "horizon_text": "long term (5-10+ years)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; directional"
+  },
+  {
+   "id": "angermayer-0025",
+   "forecaster": "angermayer",
+   "statement_date": "2026-02-04",
+   "quote": "the voucher in any case wouldn't have changed anything more or less, and that \"the FDA is allowing … to submit data on a rolling basis, which should get Compass a decision potentially late this year or early next year\"",
+   "context": "Endorses a COMP360 FDA decision in late 2026 or early 2027 and says the missing priority voucher is immaterial; also says the coming years will be a watershed for the field.",
+   "post_title": "X post by @C_Angermayer on Compass being 'snubbed' for a National Priority Voucher",
+   "source_url": "https://x.com/c_angermayer/status/2019150330563379204",
+   "area_guess": "regulatory",
+   "horizon_text": "late 2026 to early 2027",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0026",
+   "forecaster": "angermayer",
+   "statement_date": "2026-02-18",
+   "quote": "AtaiBeckley should be your favourite biotech stock in 2026.",
+   "context": "ATAI will be a top-performing biotech stock in 2026.",
+   "post_title": "Psychedelic Medicines - a Time for Stockpickers (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/psychedelic-medicines-a-time-for",
+   "area_guess": "company_market",
+   "horizon_text": "calendar 2026",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "source confidence high; comparative"
+  }
+ ]
+}

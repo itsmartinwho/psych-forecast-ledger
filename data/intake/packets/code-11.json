@@ -1,0 +1,866 @@
+{
+ "packet": "code-11.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0458",
+   "forecaster": "owen",
+   "statement_date": "2025-09-07",
+   "quote": "We're going to keep up that cadence this year. The one “riff” is that we're going to have an AI-focused event for JPM Health.",
+   "context": "The Rapid Acting Mental Health Treatment (RAMHT) event series will continue with an AI-focused live event alongside the JPM Healthcare conference (January 2026) and another alongside the APA annual meeting (May 2026).",
+   "post_title": "Don't Tell Kids \"It Will Be Okay.\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-tell-kids-it-will-be-okay",
+   "area_guess": "other",
+   "horizon_text": "2026-Q1 (inferred: JPM Healthcare conference, January 2026)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "RAMHT",
+    "JPM Healthcare Conference",
+    "American Psychiatric Association"
+   ],
+   "finder_note": "hint: RAMHT event announcements / LinkedIn posts around JPM January 2026 and APA May 2026"
+  },
+  {
+   "id": "owen-0459",
+   "forecaster": "owen",
+   "statement_date": "2025-09-07",
+   "quote": "we're hiring. New York, Connecticut, Massachusetts, California, Missouri, South Carolina, Florida, and other states, if you're particularly enterprising, please feel free to reach out!",
+   "context": "Radial is hiring clinicians in NY, CT, MA, CA, MO, SC, FL and other states, implying planned service expansion into Connecticut, Massachusetts, and Florida beyond its current sites.",
+   "post_title": "Don't Tell Kids \"It Will Be Okay.\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-tell-kids-it-will-be-okay",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Radial"
+   ],
+   "finder_note": "hint: Radial locations page and job postings by state"
+  },
+  {
+   "id": "owen-0460",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "MM-120, if approved, is a single-dose treatment with durability that could quickly realize its benefits in individuals on Medicaid, potentially accomplishing the almost impossible task of saving money in a Medicaid health plan.",
+   "context": "If MM-120 (MindMed's LSD) is approved and the phase 2b results replicate, its single-dose, fast-acting effect could produce net savings for Medicaid plans and move beneficiaries back to work; the case strengthens if MM-120 also gets an MDD indication. Author discloses about 500 MindMed shares and prior PI role.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "MindMed",
+    "MM-120",
+    "Medicaid",
+    "FDA"
+   ],
+   "finder_note": "hint: FDA approval of MM-120; subsequent Medicaid budget-impact analyses or ICER review"
+  },
+  {
+   "id": "owen-0461",
+   "forecaster": "owen",
+   "statement_date": "2025-09-24",
+   "quote": "I suspect that accelerated transcranial magnetic stimulation will also be effective, and we have some data to suggest that is the case.",
+   "context": "Accelerated TMS will be shown to rapidly reduce suicidality in treatment-seeking patients, as ketamine does.",
+   "post_title": "Can We Prevent Suicide?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-we-prevent-suicide",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "accelerated TMS",
+    "SAINT",
+    "ketamine"
+   ],
+   "finder_note": "hint: RCTs of accelerated TMS / SAINT-SI for suicidal ideation published 2026 onward"
+  },
+  {
+   "id": "owen-0462",
+   "forecaster": "owen",
+   "statement_date": "2025-09-24",
+   "quote": "I stand firm that the data suggest that mass shootings only happen with guns, and that restricting access to guns would reduce mass shootings, because obviously.",
+   "context": "If access to guns were restricted in the US, mass shootings would decrease (conditional policy-effect claim; author predicts a decline).",
+   "post_title": "Can We Prevent Suicide?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-we-prevent-suicide",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "mass shootings",
+    "gun policy"
+   ],
+   "finder_note": "hint: Gun Violence Archive / K-12 shooting database trends following any federal or state gun-access restriction"
+  },
+  {
+   "id": "owen-0463",
+   "forecaster": "owen",
+   "statement_date": "2025-10-06",
+   "quote": "However, 12% of the US population is now being treated with “open-label” and often higher-dose GLP-1 drugs already. It might be enough to drive alcohol use off a cliff!",
+   "context": "Widespread GLP-1 use (about 12% of US adults) will cause a sharp decline in US alcohol consumption; the author frames the decline as desirable and says the 'fall of alcohol' is already partly due to GLP-1s.",
+   "post_title": "Are GLP-1s The Cure For Drunken Rape Culture?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-semaglutide-and-tirzepatide-the",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "GLP-1",
+    "semaglutide",
+    "tirzepatide",
+    "alcohol industry"
+   ],
+   "finder_note": "hint: US alcohol sales and per-capita consumption data (SipSource, IWSR, NIAAA) for 2025-2027"
+  },
+  {
+   "id": "owen-0464",
+   "forecaster": "owen",
+   "statement_date": "2025-10-06",
+   "quote": "Yes, that's the same medicines that have been the cornerstone of alcohol use disorder treatment for years—and they work less well than semaglutide, probably.",
+   "context": "Semaglutide will prove more effective than naltrexone and topiramate for alcohol use disorder; the author also calls semaglutide possibly the best AUD treatment ever created.",
+   "post_title": "Are GLP-1s The Cure For Drunken Rape Culture?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-semaglutide-and-tirzepatide-the",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "semaglutide",
+    "naltrexone",
+    "topiramate",
+    "alcohol use disorder"
+   ],
+   "finder_note": "hint: Large RCTs or head-to-head trials of semaglutide in AUD (NIH, Novo Nordisk) published 2026 onward"
+  },
+  {
+   "id": "owen-0465",
+   "forecaster": "owen",
+   "statement_date": "2025-10-06",
+   "quote": "Complaining about it doesn't do any good, but encouraging men everywhere to pursue GLP-1 treatment just might.",
+   "context": "GLP-1 uptake among men will reduce alcohol-related sexual assault and violence against women (author predicts a decline in these harms).",
+   "post_title": "Are GLP-1s The Cure For Drunken Rape Culture?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-semaglutide-and-tirzepatide-the",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "GLP-1",
+    "semaglutide",
+    "sexual assault"
+   ],
+   "finder_note": "hint: CDC NISVS and BJS NCVS sexual assault rates compared with GLP-1 uptake"
+  },
+  {
+   "id": "owen-0466",
+   "forecaster": "owen",
+   "statement_date": "2025-10-11",
+   "quote": "The future Nolan saw will be one hell of a commercial success; it will prove invincible and become the standard of care for people suffering in the future.",
+   "context": "The treatments Nolan Williams pioneered (SAINT/SNT fMRI-guided accelerated TMS, ibogaine therapy) will be commercially successful and will become the standard of care for psychiatric suffering. The sentence adapts Philip K. Dick's Blade Runner letter, but the author asserts it as his own view of Williams' work.",
+   "post_title": "The Remarkable Life of Nolan Ryan Williams, M.D.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-eulogy-for-nolan-ryan-williams",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Nolan Williams",
+    "SAINT",
+    "SNT",
+    "Magnus Medical",
+    "ibogaine"
+   ],
+   "finder_note": "hint: Medicare/commercial coverage policies for SNT; Magnus Medical commercial results; ibogaine FDA trial outcomes"
+  },
+  {
+   "id": "owen-0468",
+   "forecaster": "owen",
+   "statement_date": "2025-11-04",
+   "quote": "Personally, I suspect that in the right patients, Spravato and ketamine are both effective, and an underpowered study isn’t changing my perspective too much.",
+   "context": "The author rejects the implication of the negative KARMA-Dep 2 trial (ketamine vs. midazolam) and expects ketamine and Spravato efficacy to hold up in appropriately selected patients as further evidence accrues.",
+   "post_title": "Does One Negative Study Ruin Ketamine For Psychiatry?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-one-negative-study-ruin-ketamine",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "ketamine",
+    "Spravato",
+    "KARMA-Dep 2",
+    "midazolam"
+   ],
+   "finder_note": "hint: Subsequent adequately powered ketamine vs. active-placebo RCTs and meta-analyses"
+  },
+  {
+   "id": "owen-0469",
+   "forecaster": "owen",
+   "statement_date": "2025-11-12",
+   "quote": "13% of high school girls will attempt suicide. 7% of high school boys will attempt suicide. That's in 2023. I doubt it it's better this year.",
+   "context": "The 2025 youth suicide attempt rates (YRBS) will not be better than the 2023 figures of 13% for high school girls and 7% for boys.",
+   "post_title": "There are only two effective biological interventions for adolescence depression.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-are-only-two-effective-biological",
+   "area_guess": "other",
+   "horizon_text": "2025 (inferred: this year)",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "CDC YRBS"
+   ],
+   "finder_note": "hint: CDC Youth Risk Behavior Survey 2025 results (expected 2026)"
+  },
+  {
+   "id": "owen-0470",
+   "forecaster": "owen",
+   "statement_date": "2025-11-12",
+   "quote": "We're not gonna fix that with a chat bot. We're not gonna fix that with drugs, because, as you'll remember me telling you, the largest data sets tell us they don't work.",
+   "context": "AI chatbots and antidepressant drugs will not fix the youth suicide crisis.",
+   "post_title": "There are only two effective biological interventions for adolescence depression.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-are-only-two-effective-biological",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "never",
+   "entities": [
+    "AI chatbots",
+    "SSRIs",
+    "adolescent depression"
+   ],
+   "finder_note": "hint: Youth suicide attempt trends vs. chatbot/antidepressant uptake; adolescent drug trial meta-analyses"
+  },
+  {
+   "id": "owen-0471",
+   "forecaster": "owen",
+   "statement_date": "2025-11-12",
+   "quote": "There will never be enough of those Therapists. There will absolutely never be enough child Psychiatrists.",
+   "context": "The therapist and child psychiatrist workforce will never be sufficient to meet youth mental health demand.",
+   "post_title": "There are only two effective biological interventions for adolescence depression.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-are-only-two-effective-biological",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "never",
+   "entities": [
+    "child psychiatrists",
+    "therapists",
+    "AACAP"
+   ],
+   "finder_note": "hint: AACAP workforce maps; HRSA behavioral health workforce projections"
+  },
+  {
+   "id": "owen-0472",
+   "forecaster": "owen",
+   "statement_date": "2025-11-12",
+   "quote": "You know what might work? Accelerated transcranial magnetic stimulation. We have an FDA label on once a day transcranial magnetic stimulation, which probably works, and doesn't have a black box warning for increasing suicide suicidal ideation.",
+   "context": "Accelerated TMS might prove effective for adolescent depression; the author calls for rapid trials and expects the approach to work.",
+   "post_title": "There are only two effective biological interventions for adolescence depression.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-are-only-two-effective-biological",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "accelerated TMS",
+    "adolescent depression"
+   ],
+   "finder_note": "hint: Published RCTs of accelerated TMS in adolescents; FDA label expansions"
+  },
+  {
+   "id": "owen-0473",
+   "forecaster": "owen",
+   "statement_date": "2025-11-14",
+   "quote": "Now, more kids will get more effective treatment for their depression.",
+   "context": "Following the FDA clearance of the BrainsWay H1 coil for adolescent depression, adolescent uptake of deep TMS will increase.",
+   "post_title": "Today, Finally, Deep TMS is an FDA-Cleared Treatment for Adolescent Depression!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/today-finally-deep-tms-is-an-fda",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "BrainsWay",
+    "H1 coil",
+    "Neuronetics"
+   ],
+   "finder_note": "hint: BrainsWay earnings calls / adolescent treatment volumes; payer adolescent TMS policies"
+  },
+  {
+   "id": "owen-0474",
+   "forecaster": "owen",
+   "statement_date": "2025-11-30",
+   "quote": "It’s more true than ever, but insurance coverage still lags—I’m looking at you, 2026.",
+   "context": "The author expects (or calls for) 2026 to be the year insurance coverage for accelerated TMS / rapid-acting treatments broadens; framed as expectation more than firm prediction.",
+   "post_title": "Rapid Acting Mental Health Treatments Hit Their Stride",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatments",
+   "area_guess": "payer_policy",
+   "horizon_text": "2026",
+   "confidence_phrase": "possible",
+   "entities": [
+    "accelerated TMS",
+    "SAINT",
+    "BrainsWay dTMS",
+    "commercial insurers"
+   ],
+   "finder_note": "hint: Payer coverage policy updates (Aetna, Cigna, UnitedHealthcare, BCBS) for accelerated TMS during 2026"
+  },
+  {
+   "id": "owen-0475",
+   "forecaster": "owen",
+   "statement_date": "2025-11-30",
+   "quote": "There is, in my opinion, more than enough suffering for the number of companies above and more.",
+   "context": "The market for rapid-acting treatment delivery is large enough to sustain all the named companies (Radial, Beckley Clinical, Stella Centers, Salma Health, Everbright Health, Hope Therapeutics, First Tracks, Big Leap, Osmind) and more.",
+   "post_title": "Rapid Acting Mental Health Treatments Hit Their Stride",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/rapid-acting-mental-health-treatments",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Radial",
+    "Beckley Clinical",
+    "Stella Centers",
+    "Salma Health",
+    "Everbright Health",
+    "Hope Therapeutics",
+    "First Tracks",
+    "Big Leap",
+    "Osmind"
+   ],
+   "finder_note": "hint: Company survival, closures, or consolidation among named rapid-acting treatment providers"
+  },
+  {
+   "id": "owen-0476",
+   "forecaster": "owen",
+   "statement_date": "2025-12-11",
+   "quote": "We wish them the very best of luck, and consider this the death-knell for daily drug-first or daily drug-only biological treatment for depression as a paradigm.",
+   "context": "The FDA approval of Flow Neuroscience's at-home tDCS device marks the end of the drug-first / drug-only paradigm for biological depression treatment; devices will displace pills as first-line options.",
+   "post_title": "Depression Treated At-Home Without Meds? A First FDA-Approved Device is Here",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-treated-at-home-without",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Flow Neuroscience",
+    "tDCS",
+    "antidepressants"
+   ],
+   "finder_note": "hint: Treatment guideline revisions (APA, NICE) and prescribing/device utilization trends"
+  },
+  {
+   "id": "owen-0477",
+   "forecaster": "owen",
+   "statement_date": "2025-12-11",
+   "quote": "We are (in full disclosure) bringing a depression treatment device to market soon.",
+   "context": "Neurolief (where the author is CMO) will bring an at-home neuromodulation device for depression to market soon.",
+   "post_title": "Depression Treated At-Home Without Meds? A First FDA-Approved Device is Here",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-treated-at-home-without",
+   "area_guess": "company_market",
+   "horizon_text": "none (anchor: 'soon')",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Neurolief"
+   ],
+   "finder_note": "hint: FDA 510(k)/De Novo database and Neurolief press releases for a depression indication (e.g., Relivion)"
+  },
+  {
+   "id": "owen-0478",
+   "forecaster": "owen",
+   "statement_date": "2025-12-11",
+   "quote": "Our editorial point of view, at TFPs, is that medical devices that modulate the brain is the future.",
+   "context": "Brain-modulating medical devices (TMS, tDCS, etc.) will become the dominant future of psychiatric treatment.",
+   "post_title": "Depression Treated At-Home Without Meds? A First FDA-Approved Device is Here",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-treated-at-home-without",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "TMS",
+    "tDCS",
+    "neuromodulation devices"
+   ],
+   "finder_note": "hint: Device market share and utilization vs. pharmacotherapy over coming years"
+  },
+  {
+   "id": "owen-0479",
+   "forecaster": "owen",
+   "statement_date": "2025-12-12",
+   "quote": "This fundraising will support the company’s plans to expand nationally in 2026, growing both its clinic network and technology partnerships.",
+   "context": "Radial (author is CMO; statement is in the company press release he republishes) will expand nationally in 2026 beyond its seven clinics in six states, adding clinics and technology partnerships.",
+   "post_title": "Radial Launches with $50 Million to Expand Access to Advanced Brain Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/radial-launches-with-50-million-to",
+   "area_guess": "company_market",
+   "horizon_text": "2026",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Radial",
+    "General Catalyst"
+   ],
+   "finder_note": "hint: Radial website clinic count and press releases during 2026 vs. baseline of 7 clinics in 6 states"
+  },
+  {
+   "id": "owen-0480",
+   "forecaster": "owen",
+   "statement_date": "2025-12-18",
+   "quote": "Every DEA license involved could be pulled.",
+   "context": "DEA registrations of prescribers involved in the Done Global / Mindful Mental Wellness scheme could be revoked.",
+   "post_title": "It's Not Done Yet: Another DOJ Indictment!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-not-done-yet-another-doj-indictment",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "DEA",
+    "Done Global",
+    "Mindful Mental Wellness P.A."
+   ],
+   "finder_note": "hint: DEA registration revocation orders in the Federal Register; DOJ/DEA press releases on Done prescribers"
+  },
+  {
+   "id": "owen-0481",
+   "forecaster": "owen",
+   "statement_date": "2025-12-18",
+   "quote": "And yet, given the “already convicted” founders, I doubt this will go that far south.",
+   "context": "The new corporate indictment of Done Global and Mindful Mental Wellness will not end in acquittal; the author expects conviction (or guilty plea) given the founders' prior convictions.",
+   "post_title": "It's Not Done Yet: Another DOJ Indictment!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-not-done-yet-another-doj-indictment",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "Done Global",
+    "Mindful Mental Wellness P.A.",
+    "DOJ",
+    "Ruthia He",
+    "David Brody"
+   ],
+   "finder_note": "hint: N.D. California docket / DOJ press release on Done Global corporate case outcome"
+  },
+  {
+   "id": "owen-0482",
+   "forecaster": "owen",
+   "statement_date": "2025-12-18",
+   "quote": "I have limited faith that state medical boards will do much here—they move too slowly, especially in California.",
+   "context": "State medical boards, especially the Medical Board of California, will do little (or act very slowly) against the prescribers involved in the Done/Mindful scheme.",
+   "post_title": "It's Not Done Yet: Another DOJ Indictment!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-not-done-yet-another-doj-indictment",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "Medical Board of California",
+    "Done Global",
+    "state medical boards"
+   ],
+   "finder_note": "hint: Medical Board of California disciplinary actions against Done-affiliated prescribers"
+  },
+  {
+   "id": "owen-0483",
+   "forecaster": "owen",
+   "statement_date": "2025-12-18",
+   "quote": "Yes, you insurance company will have plenty of in network stimulant prescribers handy…Except, I doubt they will.",
+   "context": "Insurers will not have enough in-network stimulant prescribers to absorb displaced Done/Mindful patients; the DOJ's 'call your insurer' guidance will fail.",
+   "post_title": "It's Not Done Yet: Another DOJ Indictment!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-not-done-yet-another-doj-indictment",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "Done Global",
+    "commercial insurers",
+    "Medicare",
+    "Medicaid"
+   ],
+   "finder_note": "hint: Reporting on access to ADHD care for former Done patients; CDC HAN follow-ups"
+  },
+  {
+   "id": "owen-0484",
+   "forecaster": "owen",
+   "statement_date": "2025-12-18",
+   "quote": "Now, “how short” a video will matter. But this sets a standard. Other virtual care providers are watching closely.",
+   "context": "The Done indictment's fact pattern (no exam, short or no video visits, no prior relationship) will become the de facto enforcement standard for telehealth controlled-substance prescribing.",
+   "post_title": "It's Not Done Yet: Another DOJ Indictment!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-not-done-yet-another-doj-indictment",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "DOJ",
+    "DEA",
+    "telehealth ADHD prescribers"
+   ],
+   "finder_note": "hint: Subsequent DOJ/DEA telehealth prosecutions citing similar criteria; DEA telemedicine rule text"
+  },
+  {
+   "id": "owen-0485",
+   "forecaster": "owen",
+   "statement_date": "2025-12-18",
+   "quote": "PRISON TIME, and financial ruin. With interest. Nothing else will even remotely discourage capital from flowing to nitwits like this in the future.",
+   "context": "Conditional: unless penalties include prison time and financial ruin, fines of twice gross profits will not deter venture capital from funding similar telehealth controlled-substance schemes.",
+   "post_title": "It's Not Done Yet: Another DOJ Indictment!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-not-done-yet-another-doj-indictment",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Done Global",
+    "venture capital",
+    "telehealth"
+   ],
+   "finder_note": "hint: Future DOJ cases against VC-backed telehealth controlled-substance prescribers"
+  },
+  {
+   "id": "owen-0486",
+   "forecaster": "owen",
+   "statement_date": "2025-12-20",
+   "quote": "This will end as poorly as it has in every other place it's been implemented.",
+   "context": "The New York MAiD law will produce the same bad outcomes seen in Canada and the Netherlands: rising uptake, use in vulnerable/psychiatric populations, and inequitable use.",
+   "post_title": "New York's New Medically Assisted Aid In Dying Law Will Be Used to Kill The Mentally Ill",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/new-yorks-new-medically-assisted",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "New York State MAiD law"
+   ],
+   "finder_note": "hint: NY DOH MAiD utilization reports over multiple years compared with Canada/Netherlands trajectories"
+  },
+  {
+   "id": "owen-0487",
+   "forecaster": "owen",
+   "statement_date": "2025-12-20",
+   "quote": "Dear readers, I want you to imagine the hundreds of people who are going to apply for assistance, and try, beg, insist to their doctors that they can't live for another six months.",
+   "context": "Hundreds of chronically suicidal / psychiatric patients in New York will apply for MAiD and press their doctors to certify them as terminal.",
+   "post_title": "New York's New Medically Assisted Aid In Dying Law Will Be Used to Kill The Mentally Ill",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/new-yorks-new-medically-assisted",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "New York State MAiD law"
+   ],
+   "finder_note": "hint: NY DOH MAiD application/request statistics by diagnosis"
+  },
+  {
+   "id": "owen-0488",
+   "forecaster": "owen",
+   "statement_date": "2025-12-20",
+   "quote": "More people are gonna die by their own choosing if they don't have to do it for themselves, and maybe that's more humane. It's probably more humane for some, and more lethal for others.",
+   "context": "Under the NY MAiD law, more people will die by their own choosing than would otherwise; the law will be more lethal for some (young, traumatized, psychiatric) patients.",
+   "post_title": "New York's New Medically Assisted Aid In Dying Law Will Be Used to Kill The Mentally Ill",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/new-yorks-new-medically-assisted",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "New York State MAiD law"
+   ],
+   "finder_note": "hint: NY vital statistics: MAiD deaths plus suicide deaths trend after implementation"
+  },
+  {
+   "id": "owen-0489",
+   "forecaster": "owen",
+   "statement_date": "2025-12-20",
+   "quote": "Broad insurance coverage for life-saving psychiatric treatment now, please. ... At a bare minimum, it will reduce the spending on physician suicide assessments.",
+   "context": "Conditional: if broad insurance coverage for life-saving psychiatric treatments (accelerated TMS, ketamine, etc.) is provided, spending on physician suicide assessments will fall.",
+   "post_title": "New York's New Medically Assisted Aid In Dying Law Will Be Used to Kill The Mentally Ill",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/new-yorks-new-medically-assisted",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "accelerated TMS",
+    "ketamine",
+    "esketamine"
+   ],
+   "finder_note": "hint: Health economics studies of suicide-assessment costs after coverage expansions"
+  },
+  {
+   "id": "owen-0490",
+   "forecaster": "owen",
+   "statement_date": "2025-12-22",
+   "quote": "This is thanks to the combined appropriations act of 2021, which is going to create a Sea Change in healthcare. You heard it here first",
+   "context": "The Consolidated Appropriations Act of 2021 (broker compensation disclosure, employer fiduciary duty) will cause a sea change in how healthcare is purchased by self-funded plans.",
+   "post_title": "Self-Funded Insurance Plans?: 6 Sales Tips for Healthcare Start-Ups",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/self-funded-insurance-plans-6-sales",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Consolidated Appropriations Act 2021",
+    "ERISA",
+    "self-funded employer plans"
+   ],
+   "finder_note": "hint: ERISA fiduciary litigation trend, broker compensation disclosure enforcement, employer plan purchasing behavior surveys"
+  },
+  {
+   "id": "owen-0492",
+   "forecaster": "owen",
+   "statement_date": "2026-01-01",
+   "quote": "Top-lines from Sanmai, Brainsonix, and other tFUS companies are likely to make news too.",
+   "context": "Sanmai, Brainsonix, or other transcranial focused ultrasound companies will release newsworthy top-line trial results in 2026.",
+   "post_title": "Ten 2026 Predictions on Which to Hang Your Hat.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ten-2026-predictions-on-which-to",
+   "area_guess": "clinical_trial",
+   "horizon_text": "2026 (inferred: 2026 predictions list)",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Sanmai",
+    "Brainsonix",
+    "tFUS"
+   ],
+   "finder_note": "hint: Sanmai / Brainsonix press releases and ClinicalTrials.gov results postings in 2026"
+  },
+  {
+   "id": "owen-0493",
+   "forecaster": "owen",
+   "statement_date": "2026-01-01",
+   "quote": "Large-scale trials of Neuromodulation for non-psychiatric indications will start enrolling. Expect Parkinson’s Disease, dystonia, TD, weight loss, and pain associated with general medical conditions to enroll, if not conclude enrollment.",
+   "context": "In 2026 large neuromodulation trials in non-psychiatric indications (Parkinson's, dystonia, tardive dyskinesia, weight loss, medical pain) will begin enrolling and some may complete enrollment.",
+   "post_title": "Ten 2026 Predictions on Which to Hang Your Hat.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ten-2026-predictions-on-which-to",
+   "area_guess": "clinical_trial",
+   "horizon_text": "2026",
+   "confidence_phrase": "certain",
+   "entities": [
+    "neuromodulation",
+    "Parkinson's disease",
+    "dystonia",
+    "tardive dyskinesia"
+   ],
+   "finder_note": "hint: ClinicalTrials.gov registrations with recruiting status in 2026 for neuromodulation in these indications"
+  },
+  {
+   "id": "owen-0494",
+   "forecaster": "owen",
+   "statement_date": "2026-01-01",
+   "quote": "We will have insurance coverage by a national payor—or two—or Accelerated TMS—in the outpatient clinic setting in 2026. It won’t be broad—it will start with pilots and narrow network deals, but the chips will begin to fall.",
+   "context": "At least one national payer will cover accelerated TMS in outpatient clinics in 2026, starting with pilots and narrow-network deals rather than broad policy.",
+   "post_title": "Ten 2026 Predictions on Which to Hang Your Hat.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ten-2026-predictions-on-which-to",
+   "area_guess": "payer_policy",
+   "horizon_text": "2026",
+   "confidence_phrase": "certain",
+   "entities": [
+    "accelerated TMS",
+    "SAINT",
+    "Magnus Medical",
+    "national payors"
+   ],
+   "finder_note": "hint: National payer medical policies or announced pilots covering SAINT/SNT or accelerated iTBS in 2026 (UHC, Cigna/Evernorth, Aetna, Elevance)"
+  },
+  {
+   "id": "owen-0495",
+   "forecaster": "owen",
+   "statement_date": "2026-01-01",
+   "quote": "There will be three or more at-home depression treatment devices on the market by the end of 2026. We already have the Flow approval announced, and more is coming.",
+   "context": "By 2026-12-31 three or more at-home depression treatment devices will be on the US market (Flow plus at least two more).",
+   "post_title": "Ten 2026 Predictions on Which to Hang Your Hat.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ten-2026-predictions-on-which-to",
+   "area_guess": "company_market",
+   "horizon_text": "2026-12-31",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Flow Neuroscience",
+    "Neurolief",
+    "ProLiv Rx"
+   ],
+   "finder_note": "hint: FDA device authorizations and commercial availability of at-home depression devices (Flow, ProLiv Rx, others) by end of 2026"
+  },
+  {
+   "id": "owen-0496",
+   "forecaster": "owen",
+   "statement_date": "2026-01-01",
+   "quote": "A professional society for kids’ care (AAP, AACAP, or the like) will issue a warning (or stern guideline) against prescribing all drugs (except prozac) for depression in youth.",
+   "context": "In 2026 a pediatric or child-psychiatry professional society (AAP, AACAP, or similar) will issue a warning or guideline against prescribing antidepressants other than fluoxetine for youth depression.",
+   "post_title": "Ten 2026 Predictions on Which to Hang Your Hat.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ten-2026-predictions-on-which-to",
+   "area_guess": "practice_adoption",
+   "horizon_text": "2026 (inferred: 2026 predictions list)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "AAP",
+    "AACAP",
+    "fluoxetine"
+   ],
+   "finder_note": "hint: AAP or AACAP policy statements / practice guidelines issued in 2026"
+  },
+  {
+   "id": "owen-0497",
+   "forecaster": "owen",
+   "statement_date": "2026-01-01",
+   "quote": "COMP360 and KetaFree (IV Ketamine) will be approved for MDD by FDA.",
+   "context": "FDA will approve Compass Pathways' COMP360 (psilocybin) for major depressive disorder / TRD in 2026.",
+   "post_title": "Ten 2026 Predictions on Which to Hang Your Hat.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ten-2026-predictions-on-which-to",
+   "area_guess": "regulatory",
+   "horizon_text": "2026 (inferred: 2026 predictions list)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Compass Pathways",
+    "COMP360",
+    "FDA"
+   ],
+   "finder_note": "hint: FDA approval letter or Compass Pathways press release in 2026"
+  },
+  {
+   "id": "owen-0498",
+   "forecaster": "owen",
+   "statement_date": "2026-01-05",
+   "quote": "Transcranial Magnetic Stimulation has an FDA label for adolescent depression, and national coverage from UnitedHealthgroup, Cigna, Medical, and more for heaven’s sake. Other plans will follow.",
+   "context": "More health plans will add coverage of TMS for adolescent depression, following UnitedHealth, Cigna and others.",
+   "post_title": "Why Are We Still Prescribing Most Oral Medicines for Depression in Adolescents?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-are-we-still-prescribing-most",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "TMS",
+    "UnitedHealth Group",
+    "Cigna"
+   ],
+   "finder_note": "hint: Payer medical policy updates on adolescent TMS (Aetna, Elevance, BCBS plans, state Medicaid) after January 2026"
+  },
+  {
+   "id": "owen-0499",
+   "forecaster": "owen",
+   "statement_date": "2026-01-09",
+   "quote": "Some of that is tools to make clinical workflows easier, and the underlying technology we’re running clinical trials on right now at Radial may be the next wave in psychiatric diagnostic adjuvant technology.",
+   "context": "Psyrin's vocal biomarker technology (in trials at Radial) may become the next wave of psychiatric diagnostic adjunct technology.",
+   "post_title": "Join Us at RAMHT-AI This Sunday in San Fransisco.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/join-us-at-ramht-ai-this-sunday-in",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "Psyrin",
+    "Radial"
+   ],
+   "finder_note": "hint: Psyrin trial publications, FDA submissions, and clinical adoption of vocal biomarkers"
+  }
+ ]
+}

@@ -1,0 +1,840 @@
+{
+ "packet": "code-03.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0089",
+   "forecaster": "owen",
+   "statement_date": "2023-02-25",
+   "quote": "Federal oversight of adequacy returns in 2023. This includes quantitative measurements: ... Behavioral health has its own specific limits here: “Behavioral Health: 10 days (Source: 2023 Draft Letter to Plans participating in federally facilitated exchanges)",
+   "context": "Payer-policy call (in a footnote to a satirical chapter, stated sincerely): federal network adequacy oversight for exchange plans resumes in 2023 with quantitative time/distance, provider-ratio, and maximum wait-time standards, including a 10-day behavioral health appointment standard.",
+   "post_title": "The Cyclone...Insurance Policy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cycloneinsurance-policy",
+   "area_guess": "payer_policy",
+   "horizon_text": "2023",
+   "confidence_phrase": "certain",
+   "entities": [
+    "CMS",
+    "ACA exchanges",
+    "network adequacy"
+   ],
+   "finder_note": "hint: CMS 2023 and 2024 Notice of Benefit and Payment Parameters final rules; CMS Final Letter to Issuers in the FFEs (network adequacy reviews, appointment wait time standards timing)"
+  },
+  {
+   "id": "owen-0091",
+   "forecaster": "owen",
+   "statement_date": "2023-03-04",
+   "quote": "Just as the FDA moves to re-classify the intranasal version as an OTC drug, another threat to the lives of those struggling with addiction is here to frustrate our efforts.",
+   "context": "States as an in-progress fact that the FDA is moving to reclassify intranasal naloxone (Narcan) as an over-the-counter drug; implied expectation that the OTC switch will happen. Reporting of a pending regulatory action rather than an argued forecast.",
+   "post_title": "Tranq (Xylazine) Reversal Agents Could Save Lives.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tranq-xylazine-reversal-agents-could",
+   "area_guess": "regulatory",
+   "horizon_text": "2023 (inferred: action in progress at posting)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "FDA",
+    "naloxone",
+    "Narcan"
+   ],
+   "finder_note": "hint: FDA press release 2023-03-29 approving OTC Narcan nasal spray"
+  },
+  {
+   "id": "owen-0092",
+   "forecaster": "owen",
+   "statement_date": "2023-03-04",
+   "quote": "And this cocktail isn’t reversible by Naloxone—an opioid receptor antagonist—which means not only more deaths of our fellow humans. It means more death and trauma for First Responders and to Emergency Medicine nurses, and physicians.",
+   "context": "Forecast that fentanyl cut with xylazine will produce more overdose deaths and more trauma among first responders and emergency clinicians because naloxone does not reverse xylazine.",
+   "post_title": "Tranq (Xylazine) Reversal Agents Could Save Lives.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tranq-xylazine-reversal-agents-could",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "xylazine",
+    "fentanyl",
+    "naloxone"
+   ],
+   "finder_note": "hint: CDC/NCHS xylazine-involved overdose death data 2023-2025; DEA xylazine reports"
+  },
+  {
+   "id": "owen-0093",
+   "forecaster": "owen",
+   "statement_date": "2023-03-04",
+   "quote": "Xylazine has a few potential reversal agents; some are human-approved, and others are not. ... We need this now.",
+   "context": "Science/drug-development claim (title: reversal agents 'could save lives'): an alpha-2 adrenergic antagonist repurposed as a xylazine reversal agent would work and save lives, and candidate drugs already exist. Hedged with 'could'.",
+   "post_title": "Tranq (Xylazine) Reversal Agents Could Save Lives.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/tranq-xylazine-reversal-agents-could",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "xylazine",
+    "atipamezole",
+    "alpha-2 antagonists",
+    "FDA"
+   ],
+   "finder_note": "hint: FDA approval or clinical trial results for a human xylazine reversal agent (e.g., atipamezole studies); ONDCP xylazine response plan"
+  },
+  {
+   "id": "owen-0094",
+   "forecaster": "owen",
+   "statement_date": "2023-03-12",
+   "quote": "I strongly suspect that the federal trade commission is well aware of how the above can and should be used by other regulatory agencies and law-enforcement professionals.",
+   "context": "The author expects the FTC complaint against BetterHelp to be picked up by other regulators and law enforcement (HHS/DOJ) for further action, including possible HIPAA or criminal liability ('which is exactly what the Department of Justice has prepared, should they choose to act'). Hedged as a suspicion.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "BetterHelp",
+    "FTC",
+    "HHS",
+    "DOJ",
+    "Teladoc"
+   ],
+   "finder_note": "hint: HHS OCR enforcement announcements; DOJ press releases; FTC final order July 2023 ($7.8M settlement) and any follow-on actions"
+  },
+  {
+   "id": "owen-0095",
+   "forecaster": "owen",
+   "statement_date": "2023-03-13",
+   "quote": "If you think hearing about ADHD is annoying now, imagine all of the people who can’t stop talking about it off their helpful medication —abruptly.",
+   "context": "With the public health emergency ending and the DEA's proposed telehealth controlled-substance rule, many ADHD patients prescribed via telehealth will abruptly lose access to their stimulant medication. Preview-only text.",
+   "post_title": "SXSW Dispatch: An Open Letter to AI re: Advocating For Better DEA Regulations ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-an-open-letter-to-ai",
+   "area_guess": "regulatory",
+   "horizon_text": "2023 (inferred: end of the public health emergency)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "DEA",
+    "telehealth controlled-substance prescribing",
+    "ADHD stimulants",
+    "public health emergency"
+   ],
+   "finder_note": "hint: DEA temporary rules extending telehealth flexibilities (May 2023, Oct 2023, Nov 2024) and reports of ADHD patients losing access"
+  },
+  {
+   "id": "owen-0096",
+   "forecaster": "owen",
+   "statement_date": "2023-03-16",
+   "quote": "And I think the revolution is here, in the form of Generative AI, which gives the rest of us the power to push back as a lawyer could.",
+   "context": "Generative AI will give ordinary patients lawyer-level power to push back against non-profit hospital billing and compliance failures, forcing hospitals to stop over-billing.",
+   "post_title": "Generative Compliance: The Podcast!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/generative-compliance-the-podcast",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "generative AI",
+    "Mount Sinai Health System",
+    "non-profit hospitals",
+    "501(r)"
+   ],
+   "finder_note": "hint: Adoption of AI bill-dispute tools (DoNotPay, Dollar For, etc.) and measurable change in hospital billing practices 2023-2026"
+  },
+  {
+   "id": "owen-0097",
+   "forecaster": "owen",
+   "statement_date": "2023-03-18",
+   "quote": "you have cut the spigot of revenue into a publicly traded company, which on the next earnings call would have to report that they lost a bunch of money. ... Assuming it craters the company entirely, you'd walk away with $17 million.",
+   "context": "Conditional: if an investor bought puts on Neuronetics (market cap about $149M) and gave about 1,000 free TMS machines to clinics using Neuronetics devices, Neuronetics' per-treatment fee revenue would collapse, it would report large losses at the next earnings call, and the stock could go to zero. The author frames this as a healthcare arbitrage opportunity that has not been executed.",
+   "post_title": "Arbitrage: Hard to Find in Finance, and Easy to Find in Healthcare?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/arbitrage-hard-to-find-in-finance",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Neuronetics",
+    "NeuroStar",
+    "MagStim",
+    "MagVenture",
+    "BrainsWay"
+   ],
+   "finder_note": "hint: Neuronetics 10-K/10-Q revenue per-session fees and share price 2023-2026; whether any free-device competitor strategy occurred"
+  },
+  {
+   "id": "owen-0098",
+   "forecaster": "owen",
+   "statement_date": "2023-03-18",
+   "quote": "This is thanks to the combined appropriations act of 2021, which is going to create a Sea Change in healthcare.",
+   "context": "The Consolidated Appropriations Act of 2021 (broker compensation disclosure, employer fiduciary duties, gag clause ban) will create a sea change in how healthcare is bought by self-funded employers.",
+   "post_title": "Sales to Self-Funded Insurance Plans?: 6 Tips for Healthcare Innovators",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sales-to-self-funded-insurance-plans",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Consolidated Appropriations Act 2021",
+    "self-funded employer plans",
+    "benefits brokers",
+    "ERISA"
+   ],
+   "finder_note": "hint: Employer fiduciary lawsuits (e.g. J&J 2024), broker disclosure enforcement, shifts in self-funded plan purchasing 2023-2026"
+  },
+  {
+   "id": "owen-0099",
+   "forecaster": "owen",
+   "statement_date": "2023-03-18",
+   "quote": "self-funded employers + dual-eligible Medicare/Medicaid populations are the only ones who will have aligned incentives. ... savings plays take more capital to get to scale, not less.",
+   "context": "Borderline/structural claim: only self-funded employers and dual-eligible populations will have incentives aligned with cost-saving health tech, so venture-backed savings plays will need more capital, not less, to reach scale.",
+   "post_title": "Sales to Self-Funded Insurance Plans?: 6 Tips for Healthcare Innovators",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sales-to-self-funded-insurance-plans",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "self-funded employer plans",
+    "dual-eligible Medicare/Medicaid",
+    "venture-backed health tech"
+   ],
+   "finder_note": "hint: Capital raised and time-to-scale for cost-savings digital health companies 2023-2026 (Rock Health funding reports)"
+  },
+  {
+   "id": "owen-0100",
+   "forecaster": "owen",
+   "statement_date": "2023-03-28",
+   "quote": "And #GPT4 has made writing these things something no one will ever do again.",
+   "context": "No one will ever again write medical school or residency personal statements by hand; GPT-4 will do it.",
+   "post_title": "Personal Statements Are Embarrassing: Here is Mine!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/personal-statements-are-embarrassing",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "never",
+   "entities": [
+    "GPT-4",
+    "medical school admissions",
+    "ERAS"
+   ],
+   "finder_note": "hint: AAMC/ERAS surveys or policies on AI-written personal statements 2024-2026"
+  },
+  {
+   "id": "owen-0101",
+   "forecaster": "owen",
+   "statement_date": "2023-03-28",
+   "quote": "And so we have this very strange situation—where we can't know who it's going to be. We can know it's highly likely to happen again.",
+   "context": "Mass shootings in the US will very likely happen again; the perpetrator cannot be predicted in advance.",
+   "post_title": "What Should Parents Say About Mass Shootings?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-should-parents-say-about-mass",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "US mass shootings"
+   ],
+   "finder_note": "hint: Gun Violence Archive mass shooting counts 2023-2026"
+  },
+  {
+   "id": "owen-0103",
+   "forecaster": "owen",
+   "statement_date": "2023-04-05",
+   "quote": "GPT 3.5 will be, in like a month or two, what 8 bit Nintendo games were 20 years later. A source of amusement!",
+   "context": "Within one to two months (roughly June 2023), GPT-3.5 will be regarded as obsolete and retro compared with GPT-4.",
+   "post_title": "Don't Take My GPT4 Away! A CV Formatting Story",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-take-my-gpt4-away",
+   "area_guess": "other",
+   "horizon_text": "2023-Q2 (inferred: a month or two)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "OpenAI",
+    "GPT-3.5",
+    "GPT-4"
+   ],
+   "finder_note": "hint: OpenAI model deprecation timeline and usage of GPT-3.5 vs GPT-4 in mid-2023"
+  },
+  {
+   "id": "owen-0104",
+   "forecaster": "owen",
+   "statement_date": "2023-04-05",
+   "quote": "In fact, in the near future, this will no longer be a thing. The robots are placing us on the Internet at least, and there will be no such thing as a CV you have to manually put together. It will generate real CVs. It will generate fake CVs.",
+   "context": "In the near future, manually assembled CVs will disappear; AI will generate both real and fake CVs automatically.",
+   "post_title": "Don't Take My GPT4 Away! A CV Formatting Story",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-take-my-gpt4-away",
+   "area_guess": "other",
+   "horizon_text": "none (anchor: near future)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "GPT-4",
+    "generative AI"
+   ],
+   "finder_note": "hint: Adoption data on AI-generated CVs/resumes and auto-populated professional profiles 2024-2026"
+  },
+  {
+   "id": "owen-0105",
+   "forecaster": "owen",
+   "statement_date": "2023-04-05",
+   "quote": "There will be no such thing as wire tap evidence without testimony in court—everything is deep fake, when it comes to defense attorneys.",
+   "context": "Deepfakes will make recorded evidence such as wiretaps unusable in court without corroborating testimony, because defense attorneys will claim everything is fake.",
+   "post_title": "Don't Take My GPT4 Away! A CV Formatting Story",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-take-my-gpt4-away",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "generative AI",
+    "deepfakes",
+    "US courts"
+   ],
+   "finder_note": "hint: Court rules of evidence and case law on AI-generated audio/video authentication 2023-2026"
+  },
+  {
+   "id": "owen-0106",
+   "forecaster": "owen",
+   "statement_date": "2023-04-05",
+   "quote": "90% of the lawyers are out of a job. Mid level management, it's been nice knowing you.",
+   "context": "Generative AI will eliminate about 90% of lawyer jobs and much of mid-level management. No timeline given.",
+   "post_title": "Don't Take My GPT4 Away! A CV Formatting Story",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-take-my-gpt4-away",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "generative AI",
+    "legal profession"
+   ],
+   "finder_note": "hint: BLS employment statistics for lawyers and managers; ABA workforce reports 2024-2026"
+  },
+  {
+   "id": "owen-0107",
+   "forecaster": "owen",
+   "statement_date": "2023-04-05",
+   "quote": "The things that are valuable will be in person, ever onward. Paper is going to make a huge comeback for anything important when it comes to documents. There will be an Audit Trails. There will be metadata. Polaroid film! So much that isn't digital will have to be popular again.",
+   "context": "Because AI makes digital content easy to fake, paper documents, in-person interaction, audit trails, and analog media such as Polaroid film will make a major comeback for anything important.",
+   "post_title": "Don't Take My GPT4 Away! A CV Formatting Story",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-take-my-gpt4-away",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "generative AI",
+    "paper documents",
+    "Polaroid"
+   ],
+   "finder_note": "hint: Trends in paper-document requirements, notarization, analog film sales 2023-2026"
+  },
+  {
+   "id": "owen-0109",
+   "forecaster": "owen",
+   "statement_date": "2023-04-07",
+   "quote": "I helpfully informed them that this was an automated complaint and that I really just want them to know automated complaints are coming.",
+   "context": "AI-generated, automated compliance complaints (ADA, 501(r), billing) against hospitals such as Mount Sinai are coming and will become a common tool for patients.",
+   "post_title": "UnitedHealth Group Makes $330,000,000,000 a Year, And You Can Profit Too!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-make-a-trillion-dollars-write",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Mount Sinai Health System",
+    "generative AI",
+    "ADA",
+    "501(r)"
+   ],
+   "finder_note": "hint: Evidence of widespread AI-generated patient compliance complaints or ADA/501(r) filings against hospitals 2023-2026"
+  },
+  {
+   "id": "owen-0110",
+   "forecaster": "owen",
+   "statement_date": "2023-04-16",
+   "quote": "And for anyone who wants to get the ball rolling by forwarding this article to the authorities in the state of Missouri, that action would legally trigger an investigation into The AG:",
+   "context": "Conditional: if a reader forwards the article to the Missouri Board of Healing Arts, the board would be legally required to open an investigation into AG Andrew Bailey for unlicensed practice of medicine over his gender-affirming-care emergency rule.",
+   "post_title": "Missouri's Attorney General Fraudulently Practices Medicine Without a License ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/missouris-attorney-general-fraudulently",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Andrew Bailey",
+    "Missouri Attorney General",
+    "Missouri Board of Healing Arts"
+   ],
+   "finder_note": "hint: Missouri Board of Healing Arts complaint/investigation records or news reports of any investigation of AG Bailey; the emergency rule was withdrawn in May 2023 after litigation."
+  },
+  {
+   "id": "owen-0111",
+   "forecaster": "owen",
+   "statement_date": "2023-04-20",
+   "quote": "Deep TMS: Most (58%) treatment-resistant patients get substantial improvement and will be replicated in large real-world data.",
+   "context": "The author asserts that the roughly 58% response rate for deep TMS in treatment-resistant OCD will be replicated in large real-world datasets.",
+   "post_title": "Are You Sure I’m Not Annoying You? Yes, But OCD is Real!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-you-sure-im-not-annoying-you",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Deep TMS",
+    "BrainsWay",
+    "OCD"
+   ],
+   "finder_note": "hint: Real-world multicenter dTMS-for-OCD publications (e.g., Roth et al. 2021 J Psychiatr Res, n=219, ~58% response) and any later, larger registry analyses."
+  },
+  {
+   "id": "owen-0113",
+   "forecaster": "owen",
+   "statement_date": "2023-04-26",
+   "quote": "you can plug whatever you want to be written into ChatGPT, it will be. ... And it will suck. But writing something novel, compelling, interesting, concise, funny, or all of those things is not automatic. ... Not yet. Maybe someday.",
+   "context": "The author predicts that AI tools like ChatGPT may someday produce novel, compelling, funny writing automatically, but cannot yet.",
+   "post_title": "Sometimes Writing Something Good Enough Takes A While",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sometimes-writing-something-good",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "ChatGPT",
+    "generative AI"
+   ],
+   "finder_note": "hint: Qualitative; would need an agreed benchmark of LLM long-form writing quality versus human writers."
+  },
+  {
+   "id": "owen-0114",
+   "forecaster": "owen",
+   "statement_date": "2023-05-01",
+   "quote": "Absent any other action, everything at that time will revert to the prior state of the world. ... That means the Ryan Haight Act will* return! *The Above Is Not Likely to Happen.",
+   "context": "The author predicts that the Ryan Haight Act in-person requirement will NOT return when the COVID public health emergency ends on May 11, 2023; he expects the DEA to act (based on 'how organizations behave') so that telehealth prescribing of controlled substances continues. Preview-only post; the follow-up post of 2023-05-09 says 'I absolutely predicted this'.",
+   "post_title": "A Crucial Update on Prescribing Controlled Substances Past May 11th That Explains Everything And Removes All Doubt and Worry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-crucial-update-on-prescribing-controlled",
+   "area_guess": "regulatory",
+   "horizon_text": "2023-05-11",
+   "confidence_phrase": "unlikely",
+   "entities": [],
+   "finder_note": "hint: DEA/SAMHSA temporary rule 'Temporary Extension of COVID-19 Telemedicine Flexibilities for Prescription of Controlled Medications', Federal Register 2023-05-10 (88 FR 30037), extending flexibilities to 2023-11-11"
+  },
+  {
+   "id": "owen-0115",
+   "forecaster": "owen",
+   "statement_date": "2023-05-02",
+   "quote": "For the record, AOC will be president. She is freaking brilliant. Has the skill set to hold her own. This is not a political comment, but watching her operate, I just want to say for the record: This Will Happen.",
+   "context": "Alexandria Ocasio-Cortez will become President of the United States (no date given).",
+   "post_title": "BlueSky Social Has Arrived, and it is Prescription Strength Awesome: Jake Tapper of CNN Reporting.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bluesky-social-has-arrived-and-it",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "hint: US presidential election results (2028 and later); not president as of 2026-09"
+  },
+  {
+   "id": "owen-0116",
+   "forecaster": "owen",
+   "statement_date": "2023-05-04",
+   "quote": "We will have some sense of what it means in July 2023. Eventually, we will know what the code is in 2024. This is lightning speed in the house of medicine.",
+   "context": "Restating and endorsing the AMA announcement, the author expects the AMA to release the details of the psychedelic-therapy CPT Category III code in July 2023, with the code taking effect on January 1, 2024. Preview-only post.",
+   "post_title": "Dear Psychedelic Medicine: Congrats on Your AMA CPT Codes! Now, Get More Boring",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dear-psychedelic-medicine-congrats",
+   "area_guess": "payer_policy",
+   "horizon_text": "2024-01-01",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "hint: AMA CPT Category III code release July 2023 (codes 0820T-0822T for psychedelic-assisted therapy monitoring), effective 2024-01-01"
+  },
+  {
+   "id": "owen-0117",
+   "forecaster": "owen",
+   "statement_date": "2023-05-04",
+   "quote": "This also means that the party is over. It is time for psychedelic treatments to get boring. Fast. It’s a cultural norm in the house of medicine.",
+   "context": "Borderline (part expectation, part demand): with AMA CPT codes, psychedelic medicine will be pulled into routine medical norms of billing, compliance, and boring standardization; the counterculture phase is over. Preview-only post.",
+   "post_title": "Dear Psychedelic Medicine: Congrats on Your AMA CPT Codes! Now, Get More Boring",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dear-psychedelic-medicine-congrats",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "hint: Uptake of CPT III psychedelic codes; regulatory path of MDMA (Lykos CRL Aug 2024) and psilocybin (Compass) programs"
+  },
+  {
+   "id": "owen-0118",
+   "forecaster": "owen",
+   "statement_date": "2023-05-07",
+   "quote": "Substack's Content Moderation Punt Will Destroy the Platform. ... Becoming a Nazi bar is a problem. This is your official notice.",
+   "context": "Substack's refusal to moderate content (tolerating trolls and extremists in comment threads) will destroy the platform. Claim is in the title and preview; body is preview-only.",
+   "post_title": "Don't Feed the Trolls: Substack's Content Moderation Punt Will Destroy the Platform.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-feed-the-trolls-substacks-content",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "hint: Substack company status and financing announcements (still operating and raising capital as of 2025-2026); no deadline given"
+  },
+  {
+   "id": "owen-0120",
+   "forecaster": "owen",
+   "statement_date": "2023-05-16",
+   "quote": "That last line there hints at a pending horror augmentation: xylazine, a veterinary anesthetic about which I have written before, getting into the drug supply. ... It makes the rate of abrupt death worse, because even EMS or Narcan can't save that child between 10 and 19.",
+   "context": "Xylazine ('tranq') spreading into the fentanyl supply will worsen the rate of sudden overdose deaths because naloxone cannot reverse it.",
+   "post_title": "How Opiate Use Disorder Made Our World \"The Leftovers\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-opiate-use-disorder-made-our",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "hint: CDC MMWR reports on xylazine-involved overdose deaths 2023-2025; DEA xylazine public safety alerts"
+  },
+  {
+   "id": "owen-0121",
+   "forecaster": "owen",
+   "statement_date": "2023-05-30",
+   "quote": "This is likely to be the highest hurdle for new technologies. Specific data demonstrating clinical IMPROVEMENT in Medicare patients is a high bar, generally, and it is expensive on average to run these kinds of studies…",
+   "context": "The CMS NTAP 'Substantial Clinical Improvement' criterion will be the hardest hurdle for new technologies (including psychiatric devices such as SAINT) seeking Medicare inpatient add-on payment. Context: the author is a paid Magnus Medical consultant urging comments supporting SAINT NTAP under the FY2024 IPPS rule; he does not explicitly predict the SAINT NTAP outcome.",
+   "post_title": "You Can Cure* Inpatient Psychiatry With this One Weird Open Comment Period",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-can-cure-inpatient-psychiatry",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "hint: CMS FY2024 and later IPPS final rules, NTAP determinations (including SAINT Neuromodulation System)"
+  },
+  {
+   "id": "owen-0122",
+   "forecaster": "owen",
+   "statement_date": "2023-05-31",
+   "quote": "It is a revolution in ADHD for kids and another example of the Neuro-modulated future of our field.",
+   "context": "Psychiatry's future will be dominated by neuromodulation devices (TMS, eTNS) rather than drugs; the Monarch eTNS clearance for pediatric ADHD is part of that shift (title: 'The Future Will Be Neuromodulated').",
+   "post_title": "The Future Will Be Neuromodulated: Medication-Free ADHD Treatment is FDA Cleared NOW",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-future-will-be-neuromodulated",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Monarch eTNS",
+    "NeuroSigma",
+    "TMS",
+    "neuromodulation"
+   ],
+   "finder_note": "hint: Neuromodulation device utilization/claims data (TMS CPT volumes, eTNS uptake) and psychiatric device market reports 2024-2026"
+  },
+  {
+   "id": "owen-0127",
+   "forecaster": "owen",
+   "statement_date": "2023-06-12",
+   "quote": "It is worth noting they're wildly expensive, and could account for $736,000,000,000 if we just treated half of people with obesity with the existing semeglutide at the existing market price.",
+   "context": "Conditional cost claim: if half of Americans with obesity were treated with semaglutide at the June 2023 market price, spending would be about $736 billion.",
+   "post_title": "Metabolic Syndrome is a Real Illness",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/metabolic-syndrome-is-a-real-illness",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "semaglutide",
+    "Ozempic",
+    "Novo Nordisk",
+    "GLP-1"
+   ],
+   "finder_note": "hint: CBO / KFF GLP-1 spending projections; actual US semaglutide spend 2024-2026 and price changes"
+  },
+  {
+   "id": "owen-0128",
+   "forecaster": "owen",
+   "statement_date": "2023-06-14",
+   "quote": "65% of patients with treatment-resistant depression will no longer be depressed in a month.",
+   "context": "Author asserts, generalizing from the 1,351-patient post-marketing Brainsway H1 deep TMS analysis he co-authored, that about 65% of treatment-resistant depression patients treated with dTMS will reach remission within a month; this rate should hold in real-world use. (Restates published data as a forward claim.)",
+   "post_title": "Your Depression Should be Over Already.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/your-depression-should-be-over-already",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Brainsway",
+    "H1 coil",
+    "deep TMS"
+   ],
+   "finder_note": "hint: Later real-world dTMS H1 registry analyses / independent replications of remission rates (Brainsway post-marketing data, TMS registry publications 2024-2026)"
+  },
+  {
+   "id": "owen-0129",
+   "forecaster": "owen",
+   "statement_date": "2023-06-14",
+   "quote": "Given the vastly reduced cost and better outcomes, there is little explanation for this other than a breach of fiduciary duty on the part of plan sponsors going forward.",
+   "context": "Going forward, employer plan sponsors that keep fail-first / non-coverage policies for TMS will be committing an ERISA fiduciary breach, i.e., exposed to fiduciary liability.",
+   "post_title": "Your Depression Should be Over Already.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/your-depression-should-be-over-already",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "ERISA",
+    "plan sponsors",
+    "TMS",
+    "Brainsway"
+   ],
+   "finder_note": "hint: ERISA fiduciary or parity suits over TMS coverage/fail-first policies; DOL MHPAEA NQTL enforcement actions 2024-2026"
+  },
+  {
+   "id": "owen-0130",
+   "forecaster": "owen",
+   "statement_date": "2023-06-19",
+   "quote": "I have written several! More are coming.",
+   "context": "The author will publish more books after June 2023.",
+   "post_title": "Why I Write",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-i-write",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Owen Scott Muir"
+   ],
+   "finder_note": "hint: Amazon author page / publisher listings for Owen Scott Muir after June 2023"
+  },
+  {
+   "id": "owen-0131",
+   "forecaster": "owen",
+   "statement_date": "2023-06-19",
+   "quote": "I expect some of my work to end up in legal discovery.",
+   "context": "The author expects his newsletter writing to be entered into legal discovery in litigation (e.g., parity or regulatory cases).",
+   "post_title": "Why I Write",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-i-write",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Owen Scott Muir"
+   ],
+   "finder_note": "hint: Court filings or exhibits citing The Frontier Psychiatrists"
+  },
+  {
+   "id": "owen-0132",
+   "forecaster": "owen",
+   "statement_date": "2023-06-19",
+   "quote": "well, it is not likely to go viral, but it’s what is happening right now.",
+   "context": "The author's daily satirical newsletter approach will not go viral; it stays a deep-niche publication.",
+   "post_title": "Why I Write",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-i-write",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "hint: Substack subscriber/traffic figures for The Frontier Psychiatrists 2024-2026 vs the ~2k subscribers stated in June 2023"
+  },
+  {
+   "id": "owen-0133",
+   "forecaster": "owen",
+   "statement_date": "2023-06-23",
+   "quote": "In the process of trying to change psychedelic medicines from schedule I DEA regulated substances to schedule II or III DEA and FDA regulated substances, we don't get less regulations, we get more.",
+   "context": "As psychedelics move from Schedule I toward FDA approval and DEA Schedule II/III status, they will face more regulation (advertising, REMS, promotion rules), not less.",
+   "post_title": " 🛑 Psychedelic Conferences...Might Be a Bad Ad? ✋ ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/psychedelic-conferencesmight-be-a",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "FDA",
+    "DEA",
+    "MDMA",
+    "psilocybin",
+    "MAPS"
+   ],
+   "finder_note": "hint: Terms of the first FDA psychedelic approval (REMS, labeling, OPDP oversight) and DEA scheduling order; MDMA CRL Aug 2024 and subsequent psilocybin NDA outcomes"
+  },
+  {
+   "id": "owen-0134",
+   "forecaster": "owen",
+   "statement_date": "2023-06-24",
+   "quote": "Your employer needs to get compliant. And they’re probably going to call their Benefits Broker. It is in the interests of those parties to file suit to cover their own liability, too.",
+   "context": "Employers with ERISA health plans will react to the 2021 fiduciary-duty rules by calling their benefits brokers, and employers and brokers will file suits to cover their own liability.",
+   "post_title": "Can’t Find a Psychiatrist Who Will See You in Network? Now, You Can Sue Your Company!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cant-find-a-psychiatrist-who-will",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "ERISA",
+    "Department of Labor",
+    "benefits brokers"
+   ],
+   "finder_note": "hint: ERISA health-plan fiduciary litigation dockets 2023-2026 (e.g., employer-vs-broker or employee-vs-employer suits); DOL MHPAEA enforcement reports"
+  },
+  {
+   "id": "owen-0135",
+   "forecaster": "owen",
+   "statement_date": "2023-06-24",
+   "quote": "At a bare minimum, they’re probably going to want to buy a compliant plan during the next enrollment cycle.",
+   "context": "Employers will buy parity-compliant, network-sufficient health plans in the next open-enrollment cycle (2024 plan year) to limit fiduciary liability.",
+   "post_title": "Can’t Find a Psychiatrist Who Will See You in Network? Now, You Can Sue Your Company!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cant-find-a-psychiatrist-who-will",
+   "area_guess": "payer_policy",
+   "horizon_text": "2024 (inferred: next enrollment cycle)",
+   "confidence_phrase": "likely",
+   "entities": [
+    "ERISA",
+    "employers",
+    "health plans"
+   ],
+   "finder_note": "hint: KFF Employer Health Benefits Survey 2024; DOL/Treasury MHPAEA comparative-analysis reports; employer plan-design changes for 2024"
+  },
+  {
+   "id": "owen-0136",
+   "forecaster": "owen",
+   "statement_date": "2023-06-24",
+   "quote": "And if ERISA wasn’t bad enough, I suspect Perez v. Sturgis will be applied for damages under ADA next. Health Plans— the new Lawyer Employment Act of 2023!",
+   "context": "Courts will next apply the Supreme Court's Perez v. Sturgis ruling to ADA compensatory-damages claims against health plans, producing a wave of health-plan litigation starting in 2023.",
+   "post_title": "Can’t Find a Psychiatrist Who Will See You in Network? Now, You Can Sue Your Company!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cant-find-a-psychiatrist-who-will",
+   "area_guess": "payer_policy",
+   "horizon_text": "2023 (inferred: 'Act of 2023')",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Perez v. Sturgis",
+    "ADA",
+    "ERISA",
+    "health plans"
+   ],
+   "finder_note": "hint: Federal case law citing Perez v. Sturgis Public Schools (2023) in ADA/health-plan damages claims; Westlaw/Lexis citation search"
+  },
+  {
+   "id": "owen-0139",
+   "forecaster": "owen",
+   "statement_date": "2023-07-01",
+   "quote": "in the next year we will be launching more advertising for things I think are a good idea?",
+   "context": "Within the next year The Frontier Psychiatrists newsletter will start running more advertising (author's own plan, hedged with a question mark).",
+   "post_title": "One Year Of This Newsletter in Review: Reader Favorites!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/one-year-of-this-newsletter-in-review",
+   "area_guess": "other",
+   "horizon_text": "2024-07-01 (inferred: in the next year)",
+   "confidence_phrase": "likely",
+   "entities": [
+    "The Frontier Psychiatrists",
+    "Substack"
+   ],
+   "finder_note": "hint: Frontier Psychiatrists posts July 2023 to July 2024 containing sponsor or advertising content"
+  }
+ ]
+}

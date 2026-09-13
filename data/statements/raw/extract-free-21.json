@@ -1,0 +1,267 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-21.md",
+  "posts": [
+    {
+      "slug": "the-most-effective-depression-treatment",
+      "read": true,
+      "statements_found": 1,
+      "note": "Explainer on fMRI-guided neuromodulation (the SAINT protocol). One borderline payer statement logged; the rest is present-state description of the technology and its trial results."
+    },
+    {
+      "slug": "why-dont-you-drink",
+      "read": true,
+      "statements_found": 0,
+      "note": "Personal essay on not drinking. The bullet 'I plan on writing a newsletter... people will be surprised' is a retrospective joke already realized at the post date; not logged."
+    },
+    {
+      "slug": "lurasidone",
+      "read": true,
+      "statements_found": 2,
+      "note": "Drug essay. 'Should Probably Be Used Earlier in The Treatment Algorithms?' is a normative pearl with no predictive reading; not logged."
+    },
+    {
+      "slug": "friends-a-how-to-guide",
+      "read": true,
+      "statements_found": 0,
+      "note": "Life advice on friendship; general truisms only ('no good deed goes unpunished'), no world-state forecast."
+    },
+    {
+      "slug": "the-best-treatment-for-depression",
+      "read": true,
+      "statements_found": 1
+    },
+    {
+      "slug": "what-is-defamation-absurdist-audio",
+      "read": true,
+      "statements_found": 0,
+      "note": "12-word podcast intro; nothing to log."
+    },
+    {
+      "slug": "klonopin",
+      "read": true,
+      "statements_found": 0,
+      "note": "Pharmacology essay on clonazepam. Generic mechanism claims ('abrupt discontinuation will lead to seizure and death') and prescribing advice only. 'I'm going to keep doing it' refers to the third-person narrative voice; not logged."
+    },
+    {
+      "slug": "saturday-sounds",
+      "read": true,
+      "statements_found": 0,
+      "note": "EP release note; nothing to log."
+    },
+    {
+      "slug": "the-very-first-podcast-i-ever-made",
+      "read": true,
+      "statements_found": 1,
+      "note": "Podcast republication plus a programming note; one own-newsletter content announcement logged."
+    },
+    {
+      "slug": "xanax",
+      "read": true,
+      "statements_found": 1,
+      "note": "History of alprazolam promotion (Laurence Guttmacher). One normative regulatory claim logged; the rest is past and present-state claims."
+    },
+    {
+      "slug": "ambien",
+      "read": true,
+      "statements_found": 0,
+      "note": "Pharmacology essay on zolpidem; evaluations, generic population-risk claims and advice ('Don't bother starting it. Consider tapering it.') only."
+    },
+    {
+      "slug": "forward-this-email-to-hr-and-ask",
+      "read": true,
+      "statements_found": 1,
+      "note": "69-word video post advocating employer coverage of SAINT; one normative payer statement logged."
+    },
+    {
+      "slug": "what-can-zombies-teach-us-about-functional",
+      "read": true,
+      "statements_found": 0,
+      "note": "Video intro; 'why it won't work for zombies' is a joke."
+    },
+    {
+      "slug": "i-made-a-podcast-about-the-pandemic",
+      "read": true,
+      "statements_found": 3,
+      "note": "Republished March 20, 2020 podcast transcript with a 2023 intro. The author's own 2020 conditionals are logged with forward_looking false. Third-party speakers (Michelle Bernabe restating Twitter predictions of US hospital collapse, Jacqueline Caso, Tracy, R.J. Smith) are not logged. 'It's unclear if prior exposure to COVID-19 provides inoculation against future infection' is stated uncertainty, not a call. 'With COVID-19, we can see change coming' is treated as a truism."
+    },
+    {
+      "slug": "an-interview-with-photographer-angela",
+      "read": true,
+      "statements_found": 0,
+      "note": "Podcast intro; nothing to log."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "the-most-effective-depression-treatment",
+      "quote": "even Medicare (in hospital settings) has agreed this is a treatment worth paying for.",
+      "context": "Closing of a post explaining fMRI-guided neuromodulation (the SAINT protocol) as the most effective depression treatment ever. The author reports that Medicare has agreed to pay for the treatment in hospital settings, crediting the efforts of the public and his readers. The implied consequence is that Medicare will pay for SAINT in hospitals from now on.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Medicare",
+        "SAINT"
+      ],
+      "note": "Reports a completed payer decision, not a forecast; logged for recall because its effect (Medicare payment for SAINT in hospital settings) lies after the post date."
+    },
+    {
+      "post_slug": "lurasidone",
+      "quote": "Sunovion knew it had a “hit” with the bipolar depression indication, which is uncommon 5 , and thus getting the research done on its utility in mania 6 is not in their economic interest.",
+      "context": "Second post of the 'farewell to oral meds' series, on lurasidone (Latuda, Sunovion). The author explains why Sunovion never sought a mania indication: it holds an uncommon bipolar-depression indication and has no economic reason to fund mania research. Implicit call: Sunovion will not pursue a mania indication. Footnote 7 adds 'So they left that for the academics!'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Sunovion",
+        "lurasidone",
+        "Latuda"
+      ],
+      "note": "Implicit forecast: incentive analysis implying no Sunovion-sponsored mania trials or indication. Prior sentence is hedged with 'I think'. Footnote markers 5 and 6 sit inside the quote."
+    },
+    {
+      "post_slug": "lurasidone",
+      "quote": "the global market is $16.14 billion in 2023, growing to $24.35 billion by 2030",
+      "context": "Footnote 4 of the lurasidone post, on why Sunovion skipped a mania indication: it takes about $2b to bring one of these medications (atypical antipsychotics) to market, and the author states the global market is $16.14 billion in 2023, growing to $24.35 billion by 2030, calling the class very profitable. The figures read as a restated market-research projection with no named source.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "by 2030",
+      "confidence_phrase": "none",
+      "entities": [
+        "atypical antipsychotics",
+        "Sunovion"
+      ],
+      "note": "Numeric dated market projection stated as fact; source not named, probably a market-research report. Compound: a 2023 level (present) and a 2030 level (forecast)."
+    },
+    {
+      "post_slug": "the-best-treatment-for-depression",
+      "quote": "This treatment is available in the outpatient setting through the open label dose optimization study offered by Magnus Medical, and soon, in hospital settings under the new technology add-on payment program.",
+      "context": "77-word video post 'The Best Treatment for Depression in Under One Minute' about the fMRI-guided TMS protocol (presumably SAINT, Magnus Medical's product). The author says the treatment is available now outpatient through a Magnus Medical open-label dose-optimization study and will soon be available in hospital settings under the new technology add-on payment (NTAP) program. He adds that he started a company to help hospitals get it.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "soon",
+      "confidence_phrase": "none",
+      "entities": [
+        "Magnus Medical",
+        "new technology add-on payment program (NTAP)"
+      ],
+      "note": "Compound: availability in hospitals soon (adoption) and payment under NTAP (payer). The author's unnamed company helps hospitals adopt it; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-very-first-podcast-i-ever-made",
+      "quote": "Exciting new updates in my “articles about medicines” coming up! Get excited.",
+      "context": "Programming note at the end of a post that republishes the author's first podcast. Announces upcoming installments of the newsletter's 'articles about medicines' series (the 'farewell to oral meds' drug essays).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "coming up",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content announcement; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "xanax",
+      "quote": "It’s illegal in the UK and should be pulled from the market everywhere.",
+      "context": "Xanax (alprazolam) installment of the medicines series, built around Laurence Guttmacher's regret over promoting the drug. After describing alprazolam's rapid onset, short half-life, overdose toxicity and role in counterfeit-pill deaths, the author states it is illegal in the UK and should be withdrawn from the market everywhere.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": true,
+      "forward_looking": false,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Xanax",
+        "alprazolam",
+        "UK"
+      ],
+      "note": "Normative only ('should'), no predictive reading; logged because it is the post's central regulatory claim. 'Illegal in the UK' is a present-state factual claim."
+    },
+    {
+      "post_slug": "forward-this-email-to-hr-and-ask",
+      "quote": "They pay for pills that don’t work, time to also cover sustained remission without any medicine needed.",
+      "context": "69-word video post titled 'Forward this Email to HR and Ask When Depression Being in Remission Will Be Covered...'Cause SAINT is Here, Now.' The author calls SAINT the most effective depression treatment of all time, with remission in 5 days for most patients, and urges readers to ask their employer when remission from depression will be a standard part of their health plan. The title frames employer coverage as a question of 'when'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": true,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "SAINT",
+        "employer health plans"
+      ],
+      "note": "Advocacy ('time to also cover'); the title's 'when ... will be covered' presupposes eventual employer coverage of SAINT. Author's business interest in SAINT adoption; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "i-made-a-podcast-about-the-pandemic",
+      "quote": "This is the the first of the number of these episodes that I will release in this feed.",
+      "context": "2023 introduction to a republished March 20, 2020 episode of the author's pandemic podcast ('It's Remotely Possible', recorded with his practice team). The author commits to releasing more of these archival episodes in the newsletter's podcast feed.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "The Frontier Psychiatrists",
+        "It's Remotely Possible (podcast)"
+      ],
+      "note": "Own-newsletter content commitment; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "i-made-a-podcast-about-the-pandemic",
+      "quote": "if we make calculated choices by doing social distancing, we can minimize the chance of that happening, which means we’ll have more freedom, more ability to make choices around our movements than if we do whatever we want.",
+      "context": "Transcript of the author's March 20, 2020 podcast, republished 2023-09-17. Speaking about his mental health practice (with Carlene MacMillan, TMS technicians and Winnicott coaches), he argues that social distancing and a switch to telehealth will reduce the chance that a COVID-19 exposure forces the practice into quarantine, leaving the team more freedom of movement.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "can",
+      "entities": [
+        "COVID-19"
+      ],
+      "note": "Spoken March 2020 in a republished transcript: forward-looking when recorded, but concerns 2020, before the 2023 post date. Conditional claim about the author's own practice."
+    },
+    {
+      "post_slug": "i-made-a-podcast-about-the-pandemic",
+      "quote": "The deal is that if you’re around someone they have COVID-19, you are then going to be quarantined. So if we ran a group therapy session and one of those group patients, or even a group leader, had COVID-19, then the whole group would be down for the count, essentially, you know, locked in their house for two weeks, or whatever the CDC recommends.",
+      "context": "Same March 20, 2020 transcript. The author explains the difference between social distancing and quarantine, a point he credits to his own psychiatrist: exposure to a COVID-19 case leads to quarantine, so an in-person group therapy session with one case would put the whole group into two-week home quarantine per CDC guidance. This is his rationale for moving everything except TMS to telehealth.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "other",
+      "horizon_text": "two weeks",
+      "confidence_phrase": "going to be",
+      "entities": [
+        "COVID-19",
+        "CDC"
+      ],
+      "note": "Spoken March 2020, republished 2023; conditional about quarantine consequences for the author's practice, before the post date. Compound: exposure means quarantine; one group case quarantines all."
+    }
+  ]
+}

@@ -1,0 +1,869 @@
+{
+ "packet": "code-09.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0368",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "A bunch of different companies scrambling to get pieces of that limited pie is going to make for a couple of exits, but it’s not gonna change healthcare. And therapists are going to quit. And then they’re going to go back to doing less scalable work, and everyone’s gonna be worse off.",
+   "context": "The therapist-platform sector will yield a few investor exits but will not change healthcare; therapists will quit the platforms and insurance panels and return to less scalable private-pay work.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Alma",
+    "Headway",
+    "Grow Therapy",
+    "therapists"
+   ],
+   "finder_note": "hint: M&A/IPO records for therapist platforms; surveys of clinician insurance-panel participation"
+  },
+  {
+   "id": "owen-0369",
+   "forecaster": "owen",
+   "statement_date": "2025-01-04",
+   "quote": "The opportunity for behavioral health providers who are willing to go “at risk“ and work in teams that approximate the acuity managed by IOP/PHP/some inpatient providers is coming.",
+   "context": "At-risk, value-based payment arrangements for outpatient behavioral health teams that manage IOP/PHP-level acuity will emerge, shifting incentives away from fee-for-service.",
+   "post_title": " “I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes About Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the-de7",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "value-based care",
+    "behavioral health providers",
+    "self-funded employers"
+   ],
+   "finder_note": "hint: CMS Innovation in Behavioral Health model uptake; commercial risk-based behavioral health contracts announced 2025-2026"
+  },
+  {
+   "id": "owen-0370",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "I decided it required revisiting, on the eve of new administration that's even more anti-trans than Texas alone.",
+   "context": "The incoming Trump administration will pursue policies against transgender care that go beyond what Texas has done at the state level.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "other",
+   "horizon_text": "2025 (inferred: incoming administration)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Trump administration",
+    "Texas",
+    "gender-affirming care"
+   ],
+   "finder_note": "hint: Federal executive orders on gender-affirming care for minors (Jan-Feb 2025) and subsequent HHS/DOJ actions"
+  },
+  {
+   "id": "owen-0371",
+   "forecaster": "owen",
+   "statement_date": "2025-01-05",
+   "quote": "They make the standard of care illegal, and pretty quickly, the sequela of that — medical malpractice lawsuits, doctors fleeing your state, etc— create what some of us in healthcare advocacy would consider an opportunity",
+   "context": "(2022 text republished Jan 2025.) Classifying gender-affirming care as child abuse in Texas will quickly produce malpractice lawsuits against physicians caught in the reporting bind and will drive doctors to leave the state.",
+   "post_title": "Defining Gender Affirming Care as “Child Abuse?\" A Disaster.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/defining-gender-affirming-care-as",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Texas",
+    "Texas DFPS",
+    "physicians"
+   ],
+   "finder_note": "hint: Texas physician workforce/pediatric subspecialist migration data; malpractice case reports involving mandated reporting"
+  },
+  {
+   "id": "owen-0372",
+   "forecaster": "owen",
+   "statement_date": "2025-01-11",
+   "quote": "Big Health companies—which we used to think of as insurance companies prior to this article— are using prior authorization to maximize their profits. I don't think they're gonna give it up without a fight.",
+   "context": "Large health insurers (UnitedHealth Group and peers) will not voluntarily abandon prior authorization; any reduction will come only after a fight, because prior authorization is a profit-maximizing tool, not a cost-control tool.",
+   "post_title": "I Solved \"Prior Authorization\" with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-solved-prior-authorization-with",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "UnitedHealth Group",
+    "health insurers",
+    "prior authorization"
+   ],
+   "finder_note": "hint: Insurer prior-authorization reform pledges (e.g., AHIP June 2025) versus measured change in PA volumes; CMS/state PA rules"
+  },
+  {
+   "id": "owen-0373",
+   "forecaster": "owen",
+   "statement_date": "2025-01-15",
+   "quote": "We need more evidence and novel treatments, and as you can see above, they're coming, but the awareness of what already exists is also important.",
+   "context": "Novel ADHD treatments (TMS, the Monarch eTNS device, LSD derivatives in MindMed-sponsored trials) are coming and promise better efficacy with fewer side effects. Note: this is a rerun of a 2023 article.",
+   "post_title": "What is \"Adult ADHD\"?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-is-adult-adhd",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "MindMed",
+    "Monarch eTNS",
+    "TMS",
+    "ADHD"
+   ],
+   "finder_note": "hint: MindMed MM-120 ADHD program status and FDA approvals of new ADHD treatments 2025-2026"
+  },
+  {
+   "id": "owen-0374",
+   "forecaster": "owen",
+   "statement_date": "2025-01-16",
+   "quote": "Well don't you know, someone might decide to yank the safe harbor that makes this otherwise completely illegal activity completely legal, and then just let the chips fall they may?",
+   "context": "The incoming Trump administration, hostile to PBMs and seeking to cut federal spending, might revoke the anti-kickback safe harbor that legalizes PBM rebate practices.",
+   "post_title": "Pharmacy Benefit Managers Hiked Generic Drug Costs by $7.3b",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/pharmacy-benefit-managers-hiked-generic",
+   "area_guess": "payer_policy",
+   "horizon_text": "2025 (inferred: incoming administration)",
+   "confidence_phrase": "possible",
+   "entities": [
+    "PBMs",
+    "CVS Caremark",
+    "Express Scripts",
+    "Optum Rx",
+    "FTC",
+    "Trump administration"
+   ],
+   "finder_note": "hint: HHS OIG anti-kickback safe harbor rulemaking (Federal Register) and PBM reform legislation 2025-2026"
+  },
+  {
+   "id": "owen-0375",
+   "forecaster": "owen",
+   "statement_date": "2025-01-17",
+   "quote": "most academic fraud will never be discovered—the most likely outcome for fraudsters is a long and successful career.",
+   "context": "Most academic research fraud will never be detected, and fraudsters will most likely have long, successful careers because publishing incentives reward splashy findings.",
+   "post_title": "How Date a Supermodel, Thanks To Academic Fraud in Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-date-a-supermodel-thanks-to-academic",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "never",
+   "entities": [
+    "academic publishing",
+    "Elsevier",
+    "Francesca Gino",
+    "Dan Ariely"
+   ],
+   "finder_note": "hint: Retraction Watch statistics and meta-research on detection rates of research misconduct; largely unfalsifiable"
+  },
+  {
+   "id": "owen-0376",
+   "forecaster": "owen",
+   "statement_date": "2025-01-17",
+   "quote": "Although it will be hard for Andrew Wakefield to get another academic gig",
+   "context": "Andrew Wakefield will not obtain another academic appointment after his retracted MMR-autism paper.",
+   "post_title": "How Date a Supermodel, Thanks To Academic Fraud in Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-date-a-supermodel-thanks-to-academic",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Andrew Wakefield"
+   ],
+   "finder_note": "hint: Any university or academic appointment announcements for Wakefield 2025-2026"
+  },
+  {
+   "id": "owen-0377",
+   "forecaster": "owen",
+   "statement_date": "2025-01-17",
+   "quote": "And he might even be responsible for her eventual death",
+   "context": "Speculative aside: Wakefield's anti-conventional-medicine ideology might contribute to a bad outcome for his partner Elle Macpherson, who chose alternative approaches to breast cancer.",
+   "post_title": "How Date a Supermodel, Thanks To Academic Fraud in Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-date-a-supermodel-thanks-to-academic",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "Andrew Wakefield",
+    "Elle Macpherson"
+   ],
+   "finder_note": "hint: Not resolvable in any meaningful way; recorded only for completeness as a hedged forward-looking aside"
+  },
+  {
+   "id": "owen-0382",
+   "forecaster": "owen",
+   "statement_date": "2025-01-23",
+   "quote": "So we will see if this piece of information pans out. But it looks as if United has another reduction in force, on top of the several rounds they had in 2024.",
+   "context": "Based on an unconfirmed insider tip, UnitedHealth Group is about to carry out another round of layoffs in early 2025, after several rounds in 2024.",
+   "post_title": "Triumph of the Willful",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/triumph-of-the-willful",
+   "area_guess": "company_market",
+   "horizon_text": "2025-Q1 (inferred: breaking news at posting)",
+   "confidence_phrase": "possible",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "Optum"
+   ],
+   "finder_note": "hint: WARN notices and news reports of UnitedHealth/Optum layoffs in Q1 2025"
+  },
+  {
+   "id": "owen-0383",
+   "forecaster": "owen",
+   "statement_date": "2025-01-25",
+   "quote": "Ironically, I’m probably also going to get death threats for saying even this.",
+   "context": "The author expects to receive death threats for defending the dignity of UnitedHealth employees and condemning the celebration of the Thompson shooting.",
+   "post_title": "Standing Up For Human Dignity, Especially at UnitedHealth Group",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/standing-up-for-human-dignity-especially",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Owen Scott Muir",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "hint: Author's later posts or TikTok comment screenshots documenting threats (the 2025-02-11 post shows hateful comments)"
+  },
+  {
+   "id": "owen-0385",
+   "forecaster": "owen",
+   "statement_date": "2025-01-28",
+   "quote": "And it will continue till we demand otherwise—and use verification in public, I don’t know, like on a blockchain or something",
+   "context": "Fake-it-till-you-make-it near-fraud behavior in Silicon Valley startups will continue until the public demands transparent verification of startup finances and governance.",
+   "post_title": "Theranos Was a Good Investment [and still is!]",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/theranos-was-a-good-investment-and",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Silicon Valley startups",
+    "Theranos",
+    "FTX"
+   ],
+   "finder_note": "hint: Ongoing record of startup fraud prosecutions and disclosure reforms; largely unfalsifiable as stated"
+  },
+  {
+   "id": "owen-0386",
+   "forecaster": "owen",
+   "statement_date": "2025-02-01",
+   "quote": "I'm highly dubious that, absent a much larger data set, we would see a difference.",
+   "context": "Unless a much larger dataset is assembled, future analyses will not show a mortality difference from therapeutic interventions after adolescent self-harm, because death is too rare an outcome.",
+   "post_title": "Does \"Help\" for Kids After Self-Harm Reduce Suicide Risk?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-help-for-kids-after-self-harm",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "adolescent self-harm interventions",
+    "JCPP Advances meta-analysis"
+   ],
+   "finder_note": "hint: Future meta-analyses or large registry studies reporting mortality after psychosocial interventions for adolescent self-harm"
+  },
+  {
+   "id": "owen-0387",
+   "forecaster": "owen",
+   "statement_date": "2025-02-03",
+   "quote": "Of course, this means that it will be submitted— and denied—by most payors because there is no FDA label, and even if there were, it would still be considered experimental and unproven, much like parachutes.",
+   "context": "Most insurers will deny coverage of rTMS for anorexia nervosa because there is no FDA label, and they would still call it experimental even if a label existed.",
+   "post_title": "Could rTMS Be A Novel Treatment For Anorexia Nervosa?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-rtms-be-a-novel-treatment-for",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "rTMS",
+    "anorexia nervosa",
+    "payers"
+   ],
+   "finder_note": "hint: Major payer TMS clinical policies (UHC, Aetna, Cigna, Anthem) listing covered indications and exclusions 2025-2026"
+  },
+  {
+   "id": "owen-0388",
+   "forecaster": "owen",
+   "statement_date": "2025-02-03",
+   "quote": "With transcranial magnetic stimulation, we might have a new effective treatment toolkit!",
+   "context": "TMS may become an effective treatment for anorexia nervosa, based on a 2025 meta-analysis showing BMI and EDE-Q improvements.",
+   "post_title": "Could rTMS Be A Novel Treatment For Anorexia Nervosa?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-rtms-be-a-novel-treatment-for",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "rTMS",
+    "anorexia nervosa"
+   ],
+   "finder_note": "hint: Subsequent larger RCTs of rTMS in anorexia nervosa or updated meta-analyses"
+  },
+  {
+   "id": "owen-0389",
+   "forecaster": "owen",
+   "statement_date": "2025-02-05",
+   "quote": "You don’t learn why private equity is going to buyer clinic later, or why it’s a terrible idea to have anything to do with that.",
+   "context": "Aside in a rerun: private equity will buy physicians' clinics later in their careers, and medical school does not prepare doctors for this.",
+   "post_title": "How Much Do Neurosurgeons Learn About Adult ADHD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-much-do-neurosurgeons-learn-about-c4d",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "private equity",
+    "physician practices"
+   ],
+   "finder_note": "hint: PE physician-practice acquisition data (PESP, Health Affairs) 2025-2026"
+  },
+  {
+   "id": "owen-0390",
+   "forecaster": "owen",
+   "statement_date": "2025-02-09",
+   "quote": "In psychiatry, maybe as our field embraces circuit-based explanations, it’s possible we will get more comfortable embracing durable circuit-based therapeutics like DBS?",
+   "context": "As psychiatry adopts circuit-based models of illness, the field may become more willing to use durable circuit-based treatments such as deep brain stimulation for OCD.",
+   "post_title": "Deep Brain Stimulation (DBS) For Obsessive Compulsive Disorder (OCD)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deep-brain-stimulation-dbs-for-obsessive",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "DBS",
+    "OCD"
+   ],
+   "finder_note": "hint: Trends in psychiatric DBS procedure volumes, guideline statements (APA), or FDA status changes for DBS in OCD"
+  },
+  {
+   "id": "owen-0391",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "It is impossible to believe this case, if it were ever filed, would not be dismissed as a blatant strategic lawsuit against public participation",
+   "context": "If UnitedHealth Group files the threatened defamation suit against plastic surgeon Dr. Elisabeth Potter, the case will be dismissed as a SLAPP suit; UHG would also fail to prove actual malice or specific financial damages.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "Elisabeth Potter",
+    "Clare Locke"
+   ],
+   "finder_note": "hint: Court dockets or news coverage of any UnitedHealth v. Potter defamation filing and its disposition; absence of a filing leaves the condition untriggered"
+  },
+  {
+   "id": "owen-0392",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "it makes it endlessly more likely that there will be more political violence against healthcare executives",
+   "context": "The public celebration of the Brian Thompson shooting suspect makes further political violence against healthcare executives more likely.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "UnitedHealth Group",
+    "Luigi Mangione"
+   ],
+   "finder_note": "hint: News reports or law-enforcement data on threats and violent incidents targeting health-insurance executives 2025-2026"
+  },
+  {
+   "id": "owen-0393",
+   "forecaster": "owen",
+   "statement_date": "2025-02-17",
+   "quote": "I’ll be attending any maybe presenting data (This seems likely—I was a co-author on 10% of posters in 2024…) at CTMSS 2025 in San Diego, June 12-14.",
+   "context": "The author will likely present data at the Clinical TMS Society (CTMSS) 2025 meeting in San Diego, June 12-14, 2025. Personal schedule item, low priority.",
+   "post_title": "A Mid-Century Modern ADHD Medical Device?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-mid-century-modern-adhd-medical",
+   "area_guess": "other",
+   "horizon_text": "2025-06-14",
+   "confidence_phrase": "likely",
+   "entities": [
+    "CTMSS 2025",
+    "Clinical TMS Society"
+   ],
+   "finder_note": "hint: CTMSS 2025 abstract/poster book listing Owen Muir as author."
+  },
+  {
+   "id": "owen-0394",
+   "forecaster": "owen",
+   "statement_date": "2025-02-20",
+   "quote": "We are—right now—providing TMS treatment and, soon to be more, in a local community in Ben’s beloved home of Horry County.",
+   "context": "Living Water Brain Treatment Center (non-profit, Myrtle Beach, Horry County SC), where the author provides TMS, will soon add more treatment modalities beyond TMS.",
+   "post_title": "How Did Rapid Remission from Depression Become the New Standard of Care?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-brain-stimulation-for-depression",
+   "area_guess": "company_market",
+   "horizon_text": "2025 (inferred: soon)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Living Water Brain Treatment Center",
+    "Ben Greenzweig",
+    "Horry County",
+    "TMS"
+   ],
+   "finder_note": "hint: Living Water Brain Treatment Center website/announcements listing services beyond TMS by late 2025."
+  },
+  {
+   "id": "owen-0395",
+   "forecaster": "owen",
+   "statement_date": "2025-02-25",
+   "quote": "So my guess is that Neurowrap is probably a scam.",
+   "context": "The direct-to-consumer Neurowrap device is probably a scam, i.e., it will not prove to be a legitimate, evidence-backed or FDA-cleared medical device (contrast: Magnus Medical is real). Borderline: present-tense judgment in a recycled column.",
+   "post_title": "The Fast Health Scam Detection Guidelines (FHSDGs) 2.0",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fast-health-scam-detection-guidelines",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Neurowrap",
+    "Magnus Medical"
+   ],
+   "finder_note": "hint: FDA device clearance database for Neurowrap; FTC/FDA enforcement actions; company status."
+  },
+  {
+   "id": "owen-0396",
+   "forecaster": "owen",
+   "statement_date": "2025-02-28",
+   "quote": "In fact, it's likely that a lot of these private equity roll ups end up becoming part of Optum.",
+   "context": "Many private-equity-rolled-up physician practices will likely end up acquired by Optum (UnitedHealth Group).",
+   "post_title": "F$ck This: Physician Exodus After Private Equity Exit.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/fck-this-physician-exodus-after-private",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group",
+    "private equity",
+    "physician practices"
+   ],
+   "finder_note": "hint: Optum/UHG practice acquisition announcements 2025-2026; PitchBook PE exit records; FTC/DOJ merger filings."
+  },
+  {
+   "id": "owen-0397",
+   "forecaster": "owen",
+   "statement_date": "2025-02-28",
+   "quote": "United is like the Apex predator of private equity acquisitions. They're getting bought by PE to either be bankrupted, or acquired by a company like Optum.",
+   "context": "PE-acquired physician practices will end in one of two outcomes: bankruptcy, or acquisition by an Optum-type consolidator; UnitedHealth is the terminal buyer of PE rollups.",
+   "post_title": "F$ck This: Physician Exodus After Private Equity Exit.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/fck-this-physician-exodus-after-private",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "UnitedHealth Group",
+    "Optum",
+    "private equity"
+   ],
+   "finder_note": "hint: Bankruptcy filings and Optum acquisitions of PE-backed physician groups 2025-2027 (e.g., PitchBook, court dockets)."
+  },
+  {
+   "id": "owen-0398",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "There is absolutely more effective treatment coming. There are treatments in the pipeline that are not here right now, like low-dose LSD for ADHD, probably TMS for ADHD, maybe even transcranial focused ultrasound, we may get fMRI-EEG neurofeedback, I don't actually know.",
+   "context": "More effective ADHD treatments will arrive: the pipeline includes low-dose LSD, probably TMS for ADHD, possibly transcranial focused ultrasound and fMRI-EEG neurofeedback.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "ADHD",
+    "LSD",
+    "TMS",
+    "transcranial focused ultrasound",
+    "neurofeedback"
+   ],
+   "finder_note": "hint: FDA clearances/approvals or positive pivotal trials for TMS, LSD, focused ultrasound or neurofeedback in ADHD after March 2025."
+  },
+  {
+   "id": "owen-0399",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "So we're never gonna have the rock-solid causality answer, we're only gonna strongly suspect that the treatment that reduces symptoms is good in a long-term.",
+   "context": "No long-term randomized trial will ever establish causality for childhood ADHD treatment reducing adult ADHD burden, because withholding treatment would be unethical; only observational inference will exist.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "never",
+   "entities": [
+    "ADHD",
+    "stimulants",
+    "MTA study"
+   ],
+   "finder_note": "hint: Existence of any multi-year placebo-controlled RCT of ADHD treatment with adult outcomes (ClinicalTrials.gov, PubMed)."
+  },
+  {
+   "id": "owen-0400",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "If physicians prescribe this medical device, which is not a controlled substance, they may avoid stimulants in many cases.",
+   "context": "Conditional: if physicians adopt the Monarch eTNS device for pediatric ADHD, stimulant prescriptions could be avoided in many cases.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "Monarch eTNS",
+    "NeuroSigma",
+    "stimulants",
+    "ADHD"
+   ],
+   "finder_note": "hint: Monarch eTNS prescription/uptake data (NeuroSigma reports) and stimulant prescribing trends in children aged 7-12."
+  },
+  {
+   "id": "owen-0401",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "It is a revolution in ADHD for kids and another example of the Neuro-modulated future of our field.",
+   "context": "Psychiatry's future will be neuromodulation-based; Monarch eTNS is a revolution in pediatric ADHD treatment that will be part of that shift.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Monarch eTNS",
+    "neuromodulation",
+    "psychiatry"
+   ],
+   "finder_note": "hint: Share of psychiatric treatment delivered via neuromodulation devices (TMS, eTNS, VNS) in utilization data 2025-2030."
+  },
+  {
+   "id": "owen-0402",
+   "forecaster": "owen",
+   "statement_date": "2025-03-08",
+   "quote": "I think these two lines of evidence, taken together, will allow a more effective discipline to emerge.",
+   "context": "Connectome-guided targeting plus iTBS combined with pro-plasticity drugs (d-cycloserine) will together produce a more effective brain-stimulation psychiatry discipline.",
+   "post_title": "Can Brain Stimulation Get Better as a Treatment for OCD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-brain-stimulation-get-better",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "iTBS",
+    "d-cycloserine",
+    "connectome targeting",
+    "Ampa Health",
+    "Fermata"
+   ],
+   "finder_note": "hint: Replication trials of iTBS + d-cycloserine (McGirr group, ONE-D) and clinical uptake of connectome-guided TMS 2025-2027."
+  },
+  {
+   "id": "owen-0403",
+   "forecaster": "owen",
+   "statement_date": "2025-03-10",
+   "quote": "Even if we had a cure for depression, tomorrow, that worked 100% of the time, I'm still not sure if we can get it paid for in a decade.",
+   "context": "Conditional: even if a perfectly effective depression cure (in context, psychedelic medicine) existed tomorrow, the author doubts payers would cover it within ten years; psychedelic-therapy reimbursement will be slow and hard.",
+   "post_title": "A New White Paper about Psychedelic Medicine and it's Economics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-white-paper-about-psychedelic",
+   "area_guess": "payer_policy",
+   "horizon_text": "2035 (inferred: in a decade)",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "psychedelic medicine",
+    "BrainFutures",
+    "Collaborative for the Economics of Psychedelics",
+    "insurers"
+   ],
+   "finder_note": "hint: Commercial and CMS coverage policies for FDA-approved psychedelic-assisted therapies through 2035; BrainFutures parity tracking."
+  },
+  {
+   "id": "owen-0404",
+   "forecaster": "owen",
+   "statement_date": "2025-03-10",
+   "quote": "I've been hustling for more appropriate payment for transcranial magnetic stimulation for years, and we still have a long way to go.",
+   "context": "Adequate payer reimbursement for TMS will not arrive soon; the gap between TMS value and payment will persist for a long time.",
+   "post_title": "A New White Paper about Psychedelic Medicine and it's Economics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-white-paper-about-psychedelic",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [
+    "TMS",
+    "Medicare",
+    "commercial payers",
+    "CPT codes"
+   ],
+   "finder_note": "hint: CMS physician fee schedule and commercial rates for TMS CPT codes (90867-90869) 2025-2027; coverage policy changes for accelerated TMS."
+  },
+  {
+   "id": "owen-0405",
+   "forecaster": "owen",
+   "statement_date": "2025-03-10",
+   "quote": "I’m hosting the next edition of Rapid Acting Mental Health Treatment in Los Angeles on May 18th!",
+   "context": "The author will host the Rapid Acting Mental Health Treatment (RAMHT) 2025 event in Los Angeles on 2025-05-18, sponsored by BrainFutures, MDHub.ai, GrayMatters Health and Simple Practice. Personal event announcement, low priority.",
+   "post_title": "A New White Paper about Psychedelic Medicine and it's Economics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-white-paper-about-psychedelic",
+   "area_guess": "other",
+   "horizon_text": "2025-05-18",
+   "confidence_phrase": "certain",
+   "entities": [
+    "Rapid Acting Mental Health Treatment (RAMHT)",
+    "BrainFutures",
+    "Grady Hannah"
+   ],
+   "finder_note": "hint: RAMHT 2025 Los Angeles event page, sponsor posts, or recap coverage in May 2025."
+  },
+  {
+   "id": "owen-0406",
+   "forecaster": "owen",
+   "statement_date": "2025-03-12",
+   "quote": "there are additional investigations happening right now for other conduct on their part in other places that may meet the level of criminal or civil liability.",
+   "context": "After UHG won dismissal of the 2009-2016 Medicare Advantage upcoding qui tam case, the author flags that other ongoing investigations may result in criminal or civil liability for UnitedHealth Group.",
+   "post_title": "UnitedHealth Group Deserves Our Congratulations, Today.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-deserves-our-congratulations",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "possible",
+   "entities": [
+    "UnitedHealth Group",
+    "Department of Justice",
+    "Medicare Advantage"
+   ],
+   "finder_note": "hint: DOJ announcements and UHG SEC filings 2025-2026 on Medicare Advantage criminal/civil probes"
+  },
+  {
+   "id": "owen-0407",
+   "forecaster": "owen",
+   "statement_date": "2025-03-15",
+   "quote": "that algorithm performed remarkably well. I can't even tell you how well yet, because it hasn't been published yet. It should be available shortly. ... The sensitivity and specificity are better than any human study of screening for a tardive dyskinesia has ever done.",
+   "context": "Author predicts the TD video-screening algorithm (TDscreen.ai, with Anthony Sterns / iRxReminder / Videra Health) will be published shortly and will show sensitivity and specificity better than any prior human screening study.",
+   "post_title": "This Physician Realizes He Might Have The Movement Disorder He's Been Researching.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-physician-realizes-he-might",
+   "area_guess": "science_claim",
+   "horizon_text": "none (anchor: shortly)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "TDscreen.ai",
+    "Videra Health",
+    "iRxReminder",
+    "Anthony Sterns"
+   ],
+   "finder_note": "hint: Peer-reviewed publication reporting sensitivity/specificity of the TDscreen algorithm"
+  },
+  {
+   "id": "owen-0408",
+   "forecaster": "owen",
+   "statement_date": "2025-03-15",
+   "quote": "I'm gonna go from being a doctor to being a patient, and I will probably write about it, too.",
+   "context": "Author expects to be evaluated by a movement-disorders specialist for possible tardive dyskinesia and to write about it in the newsletter. Self-plan.",
+   "post_title": "This Physician Realizes He Might Have The Movement Disorder He's Been Researching.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/this-physician-realizes-he-might",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Owen Muir",
+    "tardive dyskinesia"
+   ],
+   "finder_note": "hint: Later Frontier Psychiatrists posts on the author's own TD evaluation"
+  },
+  {
+   "id": "owen-0409",
+   "forecaster": "owen",
+   "statement_date": "2025-03-15",
+   "quote": "This tool, which will be published in the scientific literature soon, is probably my most important contribution to science yet.",
+   "context": "Author predicts the TDscreen.ai AI tardive dyskinesia screening tool (built with iRxReminder and Videra Health, NIH-funded) will be published in the peer-reviewed literature soon.",
+   "post_title": "Why We Have Millions of Movement Disorders Caused By Our Medicines",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-we-have-millions-of-movement",
+   "area_guess": "science_claim",
+   "horizon_text": "none (anchor: soon)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "TDscreen.ai",
+    "iRxReminder",
+    "Videra Health",
+    "NIH"
+   ],
+   "finder_note": "hint: PubMed search for TDscreen / Muir, Sterns, Videra Health video-based tardive dyskinesia screening publication"
+  },
+  {
+   "id": "owen-0410",
+   "forecaster": "owen",
+   "statement_date": "2025-03-15",
+   "quote": "This includes a vastly broader use of transcranial magnetic stimulation and other neuromodulatory approaches, of which more are coming to market soon.",
+   "context": "Author predicts more neuromodulation treatments for depression will come to market soon.",
+   "post_title": "Why We Have Millions of Movement Disorders Caused By Our Medicines",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-we-have-millions-of-movement",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none (anchor: soon)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "TMS",
+    "neuromodulation devices"
+   ],
+   "finder_note": "hint: FDA neuromodulation device clearances 2025-2026"
+  },
+  {
+   "id": "owen-0411",
+   "forecaster": "owen",
+   "statement_date": "2025-03-16",
+   "quote": "It may be that 30% powered iTBS is enough to have a treatment effect! That could be why there is no separation between these two groups, as both were effectively active. I have reasons to doubt this is the case.",
+   "context": "Author doubts that the 30%-output sham used in the Hodkinson et al. knee osteoarthritis aiTBS trial was actually therapeutically active; he expects the negative result to stand if replicated with a proper sham coil.",
+   "post_title": "fMRI-Guided rTMS Doesn't Work For Everything",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/fmri-guided-rtms-doesnt-work-for",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "accelerated iTBS",
+    "Hodkinson et al. 2025",
+    "knee osteoarthritis"
+   ],
+   "finder_note": "hint: Follow-up RCT of accelerated iTBS for knee OA pain using a dedicated sham coil"
+  },
+  {
+   "id": "owen-0412",
+   "forecaster": "owen",
+   "statement_date": "2025-03-23",
+   "quote": "However, where there is neurocircuitry, TMS researchers will soon find a way to modulate it.",
+   "context": "Author predicts TMS researchers will soon develop ways to modulate the circuits underlying schizophrenia negative symptoms (abulia and related), building on the Han et al. accelerated personalised iTBS RCT.",
+   "post_title": "Accelerated TMS for Schizophrenia! ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/accelerated-tms-for-schizophrenia",
+   "area_guess": "science_claim",
+   "horizon_text": "none (anchor: soon)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "TMS",
+    "accelerated iTBS",
+    "schizophrenia"
+   ],
+   "finder_note": "hint: Replication RCTs of accelerated iTBS for schizophrenia negative symptoms"
+  }
+ ]
+}

@@ -6,15 +6,13 @@ const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700", "
 
 export const metadata: Metadata = {
   title: { default: "Forecast Ledger", template: "%s · Forecast Ledger" },
-  description: "Scored predictions in interventional psychiatry and psychedelic medicine.",
+  description: "Scored, sourced predictions in interventional psychiatry and psychedelic medicine.",
+  metadataBase: new URL("https://psych-forecast-ledger.vercel.app"),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={inter.variable}>
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
-      </head>
+    <html lang="en" className={`${inter.variable} js`}>
       <body>{children}</body>
     </html>
   );

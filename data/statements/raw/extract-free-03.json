@@ -1,0 +1,502 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-03.md",
+  "posts": [
+    {
+      "slug": "the-passion-of-the-medical-loss-ratio",
+      "read": true,
+      "statements_found": 9,
+      "note": "Part one of the Medical Loss Ratio essay; structural trend calls about payer costs and premiums plus newsletter programming notes."
+    },
+    {
+      "slug": "insurance-plan-requires-more-studies",
+      "read": true,
+      "statements_found": 8,
+      "note": "Part two of the MLR essay ('unproven and experimental' denials, TMS). Restatements of part-one calls plus footnote items. The satirical TRUST ME train study and the IRB/parachute passages carry no forecast."
+    },
+    {
+      "slug": "its-the-end-of-telehealth-as-we-know-0d7",
+      "read": true,
+      "statements_found": 1,
+      "note": "23-word podcast blurb. One borderline implicit DEA/telehealth statement logged; the forecast is mostly in the title, which is not quotable text."
+    },
+    {
+      "slug": "the-interim-ceo-of-mordor-inc-has",
+      "read": true,
+      "statements_found": 0,
+      "note": "Lord of the Rings corporate parody (Mordor Inc. board meeting). In-fiction targets (10,000 OneRing users in Q1, PIP starts Monday, 'where the market is going') have no sincere real-world referent; nothing logged."
+    },
+    {
+      "slug": "a-conflict-of-interest-disclosure",
+      "read": true,
+      "statements_found": 8,
+      "note": "SXSW PanelPicker recommendations framed as conflict-of-interest disclosures. Mostly own-activity and promotional items; one wish about a16z logged for recall."
+    },
+    {
+      "slug": "hold-me-closer-robitussin-is-auvelity",
+      "read": true,
+      "statements_found": 1,
+      "note": "Auvelity pharmacology explainer. Almost entirely mechanism and label description; one borderline clinical-effect claim logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "the-passion-of-the-medical-loss-ratio",
+      "quote": "Sadly, people waiting on Transcranial Magnetic Stimulation or Esketamine will still be waiting for prior authorization for several weeks more.",
+      "context": "Image caption under a picture of the Harrowing of Hell (Jesus's three days in Hell). The author contrasts that three-day stay with psychiatric patients who wait weeks for payer prior authorization of TMS or esketamine. Part one of a two-part essay on the Medical Loss Ratio (MLR) and payer incentives.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "several weeks more",
+      "confidence_phrase": "will still be waiting",
+      "entities": [
+        "Transcranial Magnetic Stimulation",
+        "Esketamine"
+      ],
+      "note": "Joke framing (caption against a biblical image) but the underlying claim about multi-week prior-authorization waits reads as sincere."
+    },
+    {
+      "post_slug": "the-passion-of-the-medical-loss-ratio",
+      "quote": "The business model profits on suffering. This would predict “more suffering.” And it does. And we do.",
+      "context": "The author's stated hypothesis: the fee-for-service insurance system, constrained by the MLR, profits from suffering, so the model predicts more suffering for psychiatric patients. Stated as a present-tense confirmation with an implied continuing trend.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "would predict",
+      "entities": [],
+      "note": "Borderline: structural prediction stated as present and continuing; coder may treat as analysis rather than forecast."
+    },
+    {
+      "post_slug": "the-passion-of-the-medical-loss-ratio",
+      "quote": "Blue Cross, United, Cigna, Aetna (BUCA for short) Anthem, Magellan, Oscar, Elevance, Evernorth, Optimus Prime—and other carrier names following that pattern will pretend to want to save money all day long. The fiction of “controlling costs” never gets old.",
+      "context": "Section 'Let's Play Pretend!'. The author claims the major carriers will keep pretending to control costs while the MLR structure rewards higher total spending.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will pretend",
+      "entities": [
+        "Blue Cross",
+        "UnitedHealthcare",
+        "Cigna",
+        "Aetna",
+        "Anthem",
+        "Magellan",
+        "Oscar",
+        "Elevance",
+        "Evernorth"
+      ],
+      "note": "'Optimus Prime' is a joke insertion in the carrier list; the claim about carrier behavior reads as sincere."
+    },
+    {
+      "post_slug": "the-passion-of-the-medical-loss-ratio",
+      "quote": "But overall, any contention that actually reducing cost is what is going to happen is fictional at best and fraudulent at worst.",
+      "context": "Same section. Negative call: payers will not actually reduce total health care cost, whatever they say. The preceding sentence concedes some market segments where saving makes sense.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "fictional at best and fraudulent at worst",
+      "entities": [
+        "Blue Cross",
+        "UnitedHealthcare",
+        "Cigna",
+        "Aetna",
+        "Anthem",
+        "Magellan",
+        "Oscar",
+        "Elevance",
+        "Evernorth"
+      ],
+      "note": "Negative call on overall payer cost reduction; prior authorization is described as a tool that raises total cost."
+    },
+    {
+      "post_slug": "the-passion-of-the-medical-loss-ratio",
+      "quote": "It can tilt backwards and forwards between Harvard, Princeton, and Yale but no one has to worry that UMass will knock them out of the running for the top three spots.",
+      "context": "Analogy: comparison shopping among health plans is like the top-colleges ranking. Underlying claim: the leading payers keep their market positions, no smaller entrant displaces them, and their premiums rise in step every year.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "no one has to worry",
+      "entities": [
+        "Harvard",
+        "Princeton",
+        "Yale",
+        "UMass"
+      ],
+      "note": "Analogy; the sincere underlying claim is that incumbent payers keep their positions. Entities listed are the analogy's, not payers."
+    },
+    {
+      "post_slug": "the-passion-of-the-medical-loss-ratio",
+      "quote": "Costs have to go up every year, and because there are multiple companies in the space, they essentially have to go up somewhat uniformly across all of the companies. That way premiums for everybody go up some semi-palatable amount every year.",
+      "context": "Core mechanism of the essay: because the MLR caps the insurer margin as a percentage, insurers must grow total spending to grow profit, so costs and premiums rise every year across all carriers roughly uniformly. Earlier: 'if you can only ever make a 20% profit margin, and you still want to increase profits, you need to increase both premium costs and what you spend on care.'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "every year",
+      "confidence_phrase": "have to",
+      "entities": [],
+      "note": "Structural, open-ended trend call; restated in the part-one conclusion and again in part two."
+    },
+    {
+      "post_slug": "the-passion-of-the-medical-loss-ratio",
+      "quote": "the incentive that is driving the balance sheets of our major payers forces them inevitably in a direction, whether anyone knows it or not, that leads to higher costs, more sickness, more dysfunctional systems, and higher premiums. Rinse, repeat, every year, without end until we are all broke and dead.",
+      "context": "Closing summary of part one ('The Breaking of the Fellowship'). The author denies a sinister plot and says the MLR incentive inevitably produces higher costs, more sickness, more dysfunctional systems and higher premiums each year.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "every year, without end",
+      "confidence_phrase": "inevitably",
+      "entities": [],
+      "note": "Compound claim (costs, sickness, system dysfunction, premiums); 'until we are all broke and dead' is hyperbole."
+    },
+    {
+      "post_slug": "the-passion-of-the-medical-loss-ratio",
+      "quote": "In the next installment of this piece, I will review the impact on the mental health system specifically, and highlight instances where I suspect the most parsimonious explanation for why things aren’t any good is the above rationale. We will stress test the assumptions, and we will look at fascinating/horrible edge cases.",
+      "context": "Programming note: part two of 'The Passion of the Medical Loss Ratio' will apply the MLR argument to the mental health system.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "In the next installment",
+      "confidence_phrase": "will",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own newsletter plan; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-passion-of-the-medical-loss-ratio",
+      "quote": "So consider this part the Old Testament, and the next will be the New. I’m hoping I can pull it off in just the Old Testament/New Testament Substack format — Otherwise I can get in some real trouble making this a trilogy!",
+      "context": "The author expects the series to run two parts and hopes not to need a third. Earlier he calls it 'my thrilling series of what I imagined to be two parts'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "the next",
+      "confidence_phrase": "I’m hoping",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Wish-like, low value; own newsletter plan; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "insurance-plan-requires-more-studies",
+      "quote": "The Medical Loss Ratio (MLR) (a fixed profit margin) means ever increasing healthcare spending. ... Thus, costs go up and outcomes don’t improve.",
+      "context": "Opening review bullets restating part one's thesis: the MLR implies ever-increasing health care spending, rising costs with flat outcomes, and therefore limiting access to mental health care is the payers' profitable strategy.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "means",
+      "entities": [],
+      "note": "Restatement of the part-one call (post of 2022-07-26). Two bullets joined with ' ... '."
+    },
+    {
+      "post_slug": "insurance-plan-requires-more-studies",
+      "quote": "Now that we are up to speed…follow as the magic unfolds. With incentives for cost to go up, it will happen!",
+      "context": "Transition into part two of the MLR essay. The author asserts that health care costs will go up because the MLR gives payers the incentive.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [],
+      "note": "Restatement of the part-one trend call."
+    },
+    {
+      "post_slug": "insurance-plan-requires-more-studies",
+      "quote": "Expecting them to lower costs, in violation of their fiduciary role to shareholders, however, is a fever dream.",
+      "context": "The author says payers are not to blame for perverse incentives; they generate shareholder value, and expecting them to lower costs is unrealistic.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "is a fever dream",
+      "entities": [],
+      "note": "Negative call: payers will not lower costs."
+    },
+    {
+      "post_slug": "insurance-plan-requires-more-studies",
+      "quote": "My Spirited Dissent…Won’t Matter.",
+      "context": "Section heading near the end of the piece. The author predicts his argument against 'unproven and experimental' denials (for TMS and other FDA-cleared treatments) will change nothing, because controlling the MLR is the only rational strategy for the health care conglomerates.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "Won’t",
+      "entities": [],
+      "note": "Self-referential heading; borderline forecast that the essay has no effect on payer behavior."
+    },
+    {
+      "post_slug": "insurance-plan-requires-more-studies",
+      "quote": "If we had more treatments that lead to remission paid for by payers, it would would mean less depression, PTSD , OCD, and more. But... Less profits.",
+      "context": "Conditional counterfactual: if payers covered more remission-inducing treatments (TMS and others), there would be less depression, PTSD and OCD, and less payer profit.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "would",
+      "entities": [],
+      "note": "Conditional/counterfactual; compound (clinical outcomes and payer profits). Text has the duplicated word 'would would'."
+    },
+    {
+      "post_slug": "insurance-plan-requires-more-studies",
+      "quote": "Claims are going to be administered. Claims are going to be denied. Prior authorization is going to be required. The machinery of prior authorization will be tinkered with.",
+      "context": "Closing argument that no sinister plot is needed: siloed employees doing their jobs will keep administering and denying claims and requiring prior authorization, and the machinery will keep being adjusted.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "going to be",
+      "entities": [],
+      "note": "Open-ended continuation call about payer behavior."
+    },
+    {
+      "post_slug": "insurance-plan-requires-more-studies",
+      "quote": "we have talked, I have hired them, and I will again given half the chance",
+      "context": "Footnote 10 on the Validation Institute, which verifies hard-dollar savings for self-funded employers. The author says he has hired them and will hire them again given the chance.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I will again",
+      "entities": [
+        "Validation Institute"
+      ],
+      "note": "Personal intent, conditional ('given half the chance'); low forecast value; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "insurance-plan-requires-more-studies",
+      "quote": "So given depression, as just one illness, will drive cost, one could wonder if our system was one cynically intended to to prevent it’s effective treatment?",
+      "context": "Footnote 10, after citing Validation Institute data (44% higher cost with co-occurring major depression) and replicated cost studies. The author asserts depression will drive cost and asks rhetorically whether the system is designed to prevent effective treatment.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will drive",
+      "entities": [
+        "Validation Institute"
+      ],
+      "note": "Weak forecast: general causal claim from past data inside a rhetorical question. Text has 'to to' and 'it's'."
+    },
+    {
+      "post_slug": "its-the-end-of-telehealth-as-we-know-0d7",
+      "quote": "what happens when the DEA stops being polite, and starts getting real",
+      "context": "Entire body of a 23-word podcast blurb: narration of a newsletter article titled 'It's the End of Telehealth as We Know it (and I Feel Fine)'. The blurb presupposes the DEA will stop being lenient (on telehealth prescribing); the title implies telehealth as practiced will end.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "DEA"
+      ],
+      "note": "Borderline: implicit claim carried mostly by the post title, which is not part of the quotable text. Logged for recall."
+    },
+    {
+      "post_slug": "a-conflict-of-interest-disclosure",
+      "quote": "If you do a strong enough job voting, I get to go and report on it.",
+      "context": "Intro to the author's SXSW PanelPicker recommendations. Conditional own plan: if readers vote the recommended panels in, the author attends SXSW and reports on the panels. Later: selection of his wife's panel 'will give me enough juice with my wife to enable me to strongly advocate for my own trip to SXSW'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "SXSW",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Conditional own-activity plan; low forecast value; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "a-conflict-of-interest-disclosure",
+      "quote": "I have a vested professional interest in the success of Brightside, not because I have any money in the game, but because it’s going to enable me to have a reliable partner in a telehealth company with which to refer general psychiatry cases that I do not particularly want to manage given my growing personal focus on the interface of rheumatology and psychiatry.",
+      "context": "Conflict disclosure for the 'Mind the Machines' panel (Mimi Winsberg of Brightside Health, Solome Tibebu, Carlene MacMillan of Osmind). The author expects Brightside to become his referral partner for general psychiatry cases as his practice shifts toward the rheumatology-psychiatry interface.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "it’s going to",
+      "entities": [
+        "Brightside Health",
+        "Mimi Winsberg",
+        "Carlene MacMillan",
+        "Solome Tibebu",
+        "Osmind"
+      ],
+      "note": "Compound: expectation about Brightside as a referral partner plus the author's stated practice direction."
+    },
+    {
+      "post_slug": "a-conflict-of-interest-disclosure",
+      "quote": "I have nothing but conflicts when it comes to the above panel, which is going to do a frankly phenomenal job of discussing intimacy in a way that is only good for my personal brand.",
+      "context": "'Ask the Intimacy Professionals Anything' panel (Lila Donnolo, Gina Pellicci, Tiana Peters, Major Tom Daily). Prediction that the panel will perform very well.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "is going to",
+      "entities": [
+        "Lila Donnolo",
+        "Gina Pellicci",
+        "Horizontal with Lila",
+        "SXSW"
+      ],
+      "note": "Promotional prediction about a panel's quality; low forecast value."
+    },
+    {
+      "post_slug": "a-conflict-of-interest-disclosure",
+      "quote": "This one is going to squeak through, because although I’m a child psychiatrist and I think early childhood matters, I have no professional relationship with any of the above speakers.",
+      "context": "'Promoting Racial Equity in Early Intervention' panel (Robin Hood, United for Brownsville, NYC DOHMH). 'Squeak through' most likely means the panel barely qualifies for the author's list of conflicted picks, since he has almost no conflict; a reader could also take it as a call that the panel gets selected.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "is going to",
+      "entities": [
+        "Kelvin Chan",
+        "Robin Hood",
+        "Ruth Horry",
+        "David Harrington",
+        "United for Brownsville",
+        "Lidiya Lednyak",
+        "NYC Department of Health and Mental Hygiene",
+        "SXSW"
+      ],
+      "note": "Ambiguous; probably not a forecast of panel selection. Logged for recall with forward_looking false."
+    },
+    {
+      "post_slug": "a-conflict-of-interest-disclosure",
+      "quote": "If nothing else, my endorsement will grease the skids with Andreessen Horowitz the next time I am pitching them some idea or other.",
+      "context": "'Redesigning the U.S. Healthcare System' panel (Zak Holdsworth of Hint Health, Deb Gordon, Julie Yoo of a16z, Liana Douillet Guzman of FOLX). Tongue-in-cheek claim that endorsing the panel helps the author with a16z at a future pitch; implies he expects to pitch a16z again.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "the next time",
+      "confidence_phrase": "will",
+      "entities": [
+        "Andreessen Horowitz",
+        "Julie Yoo",
+        "Hint Health",
+        "Zak Holdsworth",
+        "FOLX"
+      ],
+      "note": "Joke; the sincere residue is that the author expects to pitch a16z again."
+    },
+    {
+      "post_slug": "a-conflict-of-interest-disclosure",
+      "quote": "It is also secretly my hope that Andreessen Horowitz will get more interested in Hint health, direct primary care, and maybe even Healthcare Rosetta as a result of doing this panel",
+      "context": "Same panel. The author hopes a16z's participation leads it to invest more attention in Hint Health, direct primary care and Healthcare Rosetta.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "my hope",
+      "entities": [
+        "Andreessen Horowitz",
+        "Hint Health",
+        "Healthcare Rosetta"
+      ],
+      "note": "Wish rather than prediction; logged for recall. Coder may drop."
+    },
+    {
+      "post_slug": "a-conflict-of-interest-disclosure",
+      "quote": "Vote early, vote often, vote before voting is closed tomorrow.",
+      "context": "Closing call to action: SXSW PanelPicker community voting closes the day after the post (post dated 2022-08-20).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "tomorrow",
+      "confidence_phrase": "none",
+      "entities": [
+        "SXSW"
+      ],
+      "note": "Scheduling fact about the PanelPicker deadline, not an author forecast; logged for recall."
+    },
+    {
+      "post_slug": "a-conflict-of-interest-disclosure",
+      "quote": "As a programming note, I will be making posts subscribers-only at an unpredictable interval after their initial publication.",
+      "context": "Closing programming note on the newsletter's freemium model: posts will move behind the paywall some time after publication.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "at an unpredictable interval after their initial publication",
+      "confidence_phrase": "will",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own newsletter policy; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "hold-me-closer-robitussin-is-auvelity",
+      "quote": "It’s an option to have depression be better fast. Like a-singular-week. Not 6-8 weeks-plural. Not “16 weeks to have full effect.”",
+      "context": "Essay on the FDA approval (August 2022) of Auvelity (dextromethorphan/bupropion). Based on the label, the author expects the drug to give patients with depression improvement within about a week, faster than existing oral antidepressants.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "a-singular-week",
+      "confidence_phrase": "none",
+      "entities": [
+        "Auvelity",
+        "dextromethorphan",
+        "bupropion",
+        "FDA"
+      ],
+      "note": "Borderline: label-based clinical claim rather than a forecast; logged for recall. Author discloses a Janssen (Spravato) advisory role and no ties to Auvelity's maker."
+    }
+  ]
+}

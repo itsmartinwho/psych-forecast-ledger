@@ -1,0 +1,499 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-18.md",
+  "posts": [
+    {
+      "slug": "how-do-i-help-suicidal-kids",
+      "read": true,
+      "statements_found": 2,
+      "note": "MBT essay adapted from a 2017 talk; one 2023 footnote call on neuromodulation plus a next-installment promise. General attachment-science claims not logged."
+    },
+    {
+      "slug": "how-i-became-suicidal-kids-therapy",
+      "read": true,
+      "statements_found": 1,
+      "note": "Autobiographical part two; only the part III promise. The general clinical claim that blue-blocking glasses abate mania was treated as mechanism description, not a forecast."
+    },
+    {
+      "slug": "the-first-line-treatment-trap-in",
+      "read": true,
+      "statements_found": 0,
+      "note": "Efficacy-vs-effectiveness essay on OCD rTMS. Long quoted patient letter contains personal 'never again' predictions by the patient about herself; not the author's claims about the world, not logged."
+    },
+    {
+      "slug": "mirror-neurons-are-why-we-feel-on",
+      "read": true,
+      "statements_found": 0,
+      "note": "34-word video blurb."
+    },
+    {
+      "slug": "not-everyone-wants-to-read-about",
+      "read": true,
+      "statements_found": 1,
+      "note": "SAINT video blurb; one own-clinic plan (Fermata). Author discloses paid consulting for Magnus Medical."
+    },
+    {
+      "slug": "update-private-equity-sucks-at-running",
+      "read": true,
+      "statements_found": 3,
+      "note": "American Physician Partners closure. Bloomberg/APP quotes (transition as of July 31, 2023) are third-party news and not logged."
+    },
+    {
+      "slug": "oral-antidepressantsno-thanks",
+      "read": true,
+      "statements_found": 4,
+      "note": "Opinion piece dictated to Siri. Predictions about reader annoyance not logged."
+    },
+    {
+      "slug": "yes-i-am-a-transcranial-magnetic",
+      "read": true,
+      "statements_found": 0,
+      "note": "College band album post."
+    },
+    {
+      "slug": "the-300th-post",
+      "read": true,
+      "statements_found": 1,
+      "note": "Music discography reveal; personal self-assessments ('I will never do anything exquisite alone') not logged."
+    },
+    {
+      "slug": "featured-in-policing-mental-health",
+      "read": true,
+      "statements_found": 0,
+      "note": "Cross-post blurb for a Q&A."
+    },
+    {
+      "slug": "its-a-scam-how-private-equity-convinced",
+      "read": true,
+      "statements_found": 2,
+      "note": "PE fee math essay with Bard simulation code. Simulation outputs and historical return figures are not forecasts; satirical Corner-Bet firm not logged."
+    },
+    {
+      "slug": "stop-physician-burnout-with-handwaving",
+      "read": true,
+      "statements_found": 4,
+      "note": "Short sarcastic post on DeepScribe and a WSJ report about its human contractors."
+    },
+    {
+      "slug": "say-my-name-the-department-of-labor",
+      "read": true,
+      "statements_found": 4,
+      "note": "DOL MHPAEA NPRM explainer via Destiny's Child. Quoted DOL rule text ('would, if finalized') is third-party and not logged. 'Stay tuned for the next hit track' folded into the series promise."
+    },
+    {
+      "slug": "neuromodulation-is-like-a-car-wash",
+      "read": true,
+      "statements_found": 0,
+      "note": "94-word video blurb."
+    },
+    {
+      "slug": "linkedin-sorcery-report-how-a-psychological",
+      "read": true,
+      "statements_found": 1,
+      "note": "LinkedIn engagement experiment; one borderline claim about LLM training. Truisms about engagement not logged."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "how-do-i-help-suicidal-kids",
+      "quote": "In 2023, I agree with this statement, but I also add the asterisk that neuromodulation will likely be helpful.",
+      "context": "Footnote 3 to the sentence that kids in the state hospital are not responding to medications because their illnesses are not treated by medications. Writing in 2023 about a 2017 talk, the author expects neuromodulation to be helpful for this population (children with attachment/borderline pathology in state hospital care).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "will likely",
+      "entities": [
+        "neuromodulation",
+        "Rockland Children's Psychiatric Center",
+        "borderline personality disorder"
+      ],
+      "note": "Footnote update on a 2017 text; 'In 2023' marks when the author speaks, not a horizon. Vague target population."
+    },
+    {
+      "post_slug": "how-do-i-help-suicidal-kids",
+      "quote": "Join us for the next exciting installment in this series!",
+      "context": "Closing line; the author promises a next installment of the MBT / suicidal-kids series in the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "next",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content promise; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "how-i-became-suicidal-kids-therapy",
+      "quote": "Stay tuned for part III…",
+      "context": "Closing line of part two of three on how the author became an MBT supervisor; a third part is promised.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content promise; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "not-everyone-wants-to-read-about",
+      "quote": "This is concise information about the remarkable work done Acacia Clinics in Sunnyvale, California, and the care we will be bringing to Fermata in Brooklyn, NY soon.",
+      "context": "Video blurb on SAINT accelerated TMS (Stanford spin-out, Magnus Medical patent). The author says his clinic Fermata in Brooklyn will soon offer the same care as Acacia Clinics in Sunnyvale.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "soon",
+      "confidence_phrase": "will be bringing",
+      "entities": [
+        "Fermata",
+        "Acacia Clinics",
+        "SAINT",
+        "Magnus Medical",
+        "Stanford Brain Stimulation Lab"
+      ],
+      "note": "Own organizations (Fermata, Acacia); coder marks CONTROL. Author discloses he is a paid consultant to Magnus Medical."
+    },
+    {
+      "post_slug": "update-private-equity-sucks-at-running",
+      "quote": "I made assertions in that article about the role of private equity, and the fact that I didn't think they could actually make Healthcare any better.",
+      "context": "On the closure of American Physician Partners (PE-backed emergency medicine staffing company), the author restates his earlier call from the 2023 match article: private equity cannot make healthcare better.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "I didn't think they could",
+      "entities": [
+        "American Physician Partners",
+        "private equity",
+        "Envision Healthcare"
+      ],
+      "note": "Restatement of an earlier call, phrased as a past assertion the author now sees confirmed; the underlying claim is a standing negative call on PE in healthcare."
+    },
+    {
+      "post_slug": "update-private-equity-sucks-at-running",
+      "quote": "The business model of private equity roll ups is suffering. It's suffering, and it's arbitrage, it's not adding value, they don't know how to do it, they couldn't do it if you gave them every emergency medicine doctor and ruin the entire sub specialty in the process.",
+      "context": "After APP's closure and Envision's Chapter 11, the author argues PE roll-ups of emergency medicine staffing cannot be run profitably once surprise billing was banned by the No Surprises Act; they would fail even with every EM doctor.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "couldn't",
+      "entities": [
+        "private equity",
+        "American Physician Partners",
+        "Envision Healthcare",
+        "No Surprises Act"
+      ],
+      "note": "Compound: present-tense assessment plus a counterfactual capability claim. Related line says PE graduates had no ability to run EM staffing without going bankrupt."
+    },
+    {
+      "post_slug": "update-private-equity-sucks-at-running",
+      "quote": "If they're offering your pool of capital the opportunity to get extraordinary returns, do not invite them in",
+      "context": "Closing advice to investors (pension funds, LPs) about private equity firms in healthcare; implies PE will not deliver the extraordinary returns it promises.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "private equity"
+      ],
+      "note": "Borderline: imperative advice with an implicit prediction that PE returns will disappoint. Coder may drop as normative."
+    },
+    {
+      "post_slug": "oral-antidepressantsno-thanks",
+      "quote": "If money was not a factor, and inconvenience was not a factor (because of money)…I would never prescribe an oral antidepressant ever again.",
+      "context": "Opinion piece: oral antidepressants are not good treatments compared with brain stimulation and plausibly psychedelics. Conditional statement of the author's own prescribing intent.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "never ... ever again",
+      "confidence_phrase": "would never",
+      "entities": [
+        "oral antidepressants",
+        "brain stimulation",
+        "psychedelic compounds"
+      ],
+      "note": "Borderline: counterfactual conditional about the author's own practice, not a world-state forecast."
+    },
+    {
+      "post_slug": "oral-antidepressantsno-thanks",
+      "quote": "I actually have a hard time believing that Oral anti-depressants, in 5 to 10 years, will be considered ethical to prescribe.",
+      "context": "Same opinion piece. The author predicts that within 5 to 10 years (from July 2023) oral antidepressants will no longer be considered ethical to prescribe, because brain stimulation and psychedelic compounds are vastly better.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "in 5 to 10 years",
+      "confidence_phrase": "I actually have a hard time believing",
+      "entities": [
+        "oral antidepressants",
+        "brain stimulation",
+        "psychedelic compounds"
+      ],
+      "note": "Central call of the post: 5-10 year horizon, i.e. roughly 2028-2033."
+    },
+    {
+      "post_slug": "oral-antidepressantsno-thanks",
+      "quote": "And I'm willing to say it, because at this point, I'm pretty sure history will bear me out.",
+      "context": "The author expects history to vindicate his position that oral antidepressants have too low a chance of working for any individual to be acceptable, and that stimulation and psychedelics will replace them.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "I'm pretty sure",
+      "entities": [
+        "oral antidepressants"
+      ],
+      "note": "Meta-forecast of vindication for the post's thesis; no dated horizon."
+    },
+    {
+      "post_slug": "oral-antidepressantsno-thanks",
+      "quote": "I don't have the data yet to say that we should stab them in the heart forever. But I do think that that's what the data is going to show.",
+      "context": "Closing argument of the opinion piece. The author predicts that future data will show oral antidepressants should be abandoned ('stab them in the heart forever').",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "I do think that that's what the data is going to show",
+      "entities": [
+        "oral antidepressants"
+      ],
+      "note": "Prediction about what future evidence will show; no specific study or date."
+    },
+    {
+      "post_slug": "the-300th-post",
+      "quote": "300 articles down, and many more to go.",
+      "context": "300th-post retrospective; the author says the daily newsletter will continue with many more articles.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter continuation claim; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "its-a-scam-how-private-equity-convinced",
+      "quote": "Will United pay more to the company it will later acquire using its increased revenue to justify the acquisition costs while increasing the cost of care for its services busines s and thus increasing its share of the medical loss ratio on both sides of the ledger? Yes, yes, it will.",
+      "context": "PE fee-math essay. PE-backed practice roll-ups negotiate better payer contracts so they can sell to United, Cigna or CVS. The author predicts United will overpay for companies it later acquires, raising the cost of care and its medical loss ratio share on both sides. He adds that the physician owner works five years, gets bought out and keeps as little as mathematically possible.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "later",
+      "confidence_phrase": "Yes, yes, it will",
+      "entities": [
+        "UnitedHealth",
+        "Cigna",
+        "CVS",
+        "private equity"
+      ],
+      "note": "Rhetorical question answered affirmatively; compound claim (payer acquisition behavior plus cost of care). 'busines s' typo is in the source."
+    },
+    {
+      "post_slug": "its-a-scam-how-private-equity-convinced",
+      "quote": "They can’t even roll up an entire medical discipline and run it profitably without causing the specialty and the firms' collapse!",
+      "context": "Same essay; the author repeats that PE firms cannot roll up and profitably run a medical discipline (emergency medicine roll-ups collapsed), so PE-run healthcare will fail.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "can't even",
+      "entities": [
+        "private equity",
+        "emergency medicine"
+      ],
+      "note": "Borderline: present-tense capability claim; restates the post-6 call that PE cannot run EM staffing as a business."
+    },
+    {
+      "post_slug": "stop-physician-burnout-with-handwaving",
+      "quote": "Generative AI is here. It is going to disrupt things…",
+      "context": "Opening of a short sarcastic post about DeepScribe (AI medical scribe) and a Wall Street Journal report that it relies on 200 human contractors. General call that generative AI will disrupt things (in healthcare).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "is going to",
+      "entities": [
+        "generative AI",
+        "DeepScribe"
+      ],
+      "note": "Vague; the rest of the post is sarcastic about DeepScribe, but this opening reads as sincere."
+    },
+    {
+      "post_slug": "stop-physician-burnout-with-handwaving",
+      "quote": "DeepScribe is going to disrupt my feeling so burned out.",
+      "context": "Sarcastic line: the author mocks DeepScribe's claim to fix physician burnout, since (per the WSJ) its AI output is corrected by 200 human contractors listening to doctor-patient conversations.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "is going to",
+      "entities": [
+        "DeepScribe"
+      ],
+      "note": "Satire; the sincere reading is the opposite (DeepScribe will not fix burnout)."
+    },
+    {
+      "post_slug": "stop-physician-burnout-with-handwaving",
+      "quote": "They will pretend this isn’t happening. They will sell that pretend back to investors and doctors. And patients.",
+      "context": "The author predicts DeepScribe will keep pretending its AI works without heavy human correction and will sell that story to investors, doctors and patients. Followed by 'Until the Wall Street journal outs them' and a WSJ excerpt.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "DeepScribe",
+        "Wall Street Journal"
+      ],
+      "note": "Narrative 'will'; the WSJ exposé it leads into had already been published, so the tense is partly rhetorical."
+    },
+    {
+      "post_slug": "stop-physician-burnout-with-handwaving",
+      "quote": "Of course they do. And they will keep at it.",
+      "context": "Closing line after the WSJ excerpt on DeepScribe's 200 contractors: the author predicts DeepScribe will continue the practice (human correction behind AI claims).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "will keep",
+      "entities": [
+        "DeepScribe"
+      ],
+      "note": "Short; the object of 'keep at it' is the contractor-backed AI practice described in the WSJ excerpt."
+    },
+    {
+      "post_slug": "say-my-name-the-department-of-labor",
+      "quote": "This will likely be a many-part series because it’s long.",
+      "context": "Post on the Department of Labor's new MHPAEA (mental health parity) proposed rules and technical release. The author says his newsletter coverage will likely run to many parts. Also 'Stay tuned for the next hit track' at the close.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will likely",
+      "entities": [
+        "The Frontier Psychiatrists",
+        "Department of Labor",
+        "MHPAEA"
+      ],
+      "note": "Own-newsletter content promise; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "say-my-name-the-department-of-labor",
+      "quote": "I will walk my readers through this document in a series of articles—which I promise is remarkable",
+      "context": "Same post; the author commits to a series of articles on the DOL technical release, including guidance on open comments readers could leave with the Departments, from payer and other perspectives.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I will",
+      "entities": [
+        "The Frontier Psychiatrists",
+        "Department of Labor",
+        "Regulations.gov"
+      ],
+      "note": "Own-newsletter content promise, closely related to the 'many-part series' statement. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "say-my-name-the-department-of-labor",
+      "quote": "This is poised to be a big deal.",
+      "context": "The DOL / Treasury / HHS NPRM on MHPAEA compliance, with data-collection requirements for nonquantitative treatment limitations (NQTLs) related to network composition, is called poised to be a big deal. The post's thesis (title) is that cheaters, i.e. plans applying NQTLs, will be called out.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "is poised to be",
+      "entities": [
+        "Department of Labor",
+        "Department of the Treasury",
+        "HHS",
+        "MHPAEA",
+        "NQTL"
+      ],
+      "note": "Vague magnitude call on a proposed rule; could also be coded regulatory."
+    },
+    {
+      "post_slug": "say-my-name-the-department-of-labor",
+      "quote": "Say My Name…which in this context will document an NQTL.",
+      "context": "Closing of the Destiny's Child metaphor: the NPRM's data and comparative-analysis requirements, if finalized, will document NQTL violations (parity cheating) by health plans and issuers.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Department of Labor",
+        "MHPAEA",
+        "NQTL"
+      ],
+      "note": "Borderline: metaphorical line describing the proposed rule's effect; conditional on finalization per the quoted DOL text."
+    },
+    {
+      "post_slug": "linkedin-sorcery-report-how-a-psychological",
+      "quote": "This is a flaw, albeit an overcome-able one, and how large language models are trained.",
+      "context": "LinkedIn engagement essay. The author argues LLM chatbots are trained on what writers wanted to say, not what readers want to hear (contrast with human mentalizing), and calls this flaw overcome-able.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "large language models",
+        "OpenAI",
+        "Bing AI Sydney"
+      ],
+      "note": "Borderline: capability claim that the LLM flaw can be overcome; no actor or date."
+    }
+  ]
+}

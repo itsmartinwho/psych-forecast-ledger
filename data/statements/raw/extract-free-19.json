@@ -1,0 +1,373 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-19.md",
+  "posts": [
+    {
+      "slug": "mental-health-parity-what-do-shaggy",
+      "read": true,
+      "statements_found": 5,
+      "note": "Part II of the MHPAEA open-comment series (Shaggy). DOL proposed rule on network composition; claims that the new data standards will expose plans and that networks are not at parity. One own-newsletter promise."
+    },
+    {
+      "slug": "why-savings-claims-can-be-a-scamand",
+      "read": true,
+      "statements_found": 0,
+      "note": "73-word video blurb about savings claims; no forward-looking statement."
+    },
+    {
+      "slug": "no-scrubs-tlc-has-advice-about-mental",
+      "read": true,
+      "statements_found": 2,
+      "note": "Part III of the MHPAEA series (TLC). Conditional hypothesis about what payment-rate data will show; one own-newsletter promise. The 140% premium figure is a quoted third party about the past, not logged."
+    },
+    {
+      "slug": "so-youve-been-cyber-stalked-a-hidden",
+      "read": true,
+      "statements_found": 1,
+      "note": "Stalking prevalence data and reporting advice; only an own-newsletter follow-up promise logged. Statistics are past or general."
+    },
+    {
+      "slug": "thrift-shop-how-narrow-networks-with",
+      "read": true,
+      "statements_found": 2,
+      "note": "Part IV of the MHPAEA series (Macklemore). GLP-1 spending projection adopted by the author; cynical claim that payers will not allow anything that cuts that spending. Safe-harbor 'should' passages are normative and not logged."
+    },
+    {
+      "slug": "new-podcast-appearance-owen-muir",
+      "read": true,
+      "statements_found": 0,
+      "note": "88-word podcast blurb; remission-in-5-days claim is a present capability statement, not a forecast."
+    },
+    {
+      "slug": "mentalizing-what-is-it",
+      "read": true,
+      "statements_found": 1,
+      "note": "MBT lesson on attachment; only a 'part II' promise. Attachment-predicts-adult-behavior line is a general scientific claim, not logged."
+    },
+    {
+      "slug": "so-someone-has-been-threatening-your",
+      "read": true,
+      "statements_found": 0,
+      "note": "Legal guide to reporting threats; advice and statute text only."
+    },
+    {
+      "slug": "i-do-actual-work-other-than-write",
+      "read": true,
+      "statements_found": 0,
+      "note": "iRxReminder corporate update (NIMH study enrolling); 'most companies fail' is a truism, not logged."
+    },
+    {
+      "slug": "mentalizing-when-feelings-equal-facts",
+      "read": true,
+      "statements_found": 1,
+      "note": "MBT psychic-equivalence lesson; only a 'stay tuned' promise."
+    },
+    {
+      "slug": "how-to-read-academic-research-like",
+      "read": true,
+      "statements_found": 0,
+      "note": "Paper-reading heuristics (table one); 'others will replicate it' lines are general truisms about science, not logged."
+    },
+    {
+      "slug": "the-science-behind-the-best-in-class",
+      "read": true,
+      "statements_found": 2,
+      "note": "Acacia BRAIN protocol / accelerated TMS explainer. Logged: H4 coil may work for other indications; durability estimate 12-18 months. Generic efficacy claims (79% remission, remission in 5 days) treated as present descriptions."
+    },
+    {
+      "slug": "zuranolone-is-a-worse-treatment-for",
+      "read": true,
+      "statements_found": 0,
+      "note": "185-word take that zuranolone is worse than brexanolone; present evaluation and rhetorical questions only, no explicit forecast of adoption."
+    },
+    {
+      "slug": "mentalizing-isa-b-and-llht-detection",
+      "read": true,
+      "statements_found": 0,
+      "note": "Mentalizing and trust essay; developmental and general claims only."
+    },
+    {
+      "slug": "i-aint-saying-its-a-grave-digger",
+      "read": true,
+      "statements_found": 2,
+      "note": "Photobiomodulation papers fail the table-one test; author will not buy the device for his clinic yet, and hedges that a valid paper could exist."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "mental-health-parity-what-do-shaggy",
+      "quote": "And now, to catch them, we need standards. Standards that will demonstrate cheaters cheating.",
+      "context": "Opening of Part II of the MHPAEA series (2023-07-27) on the Department of Labor's proposed parity rule update. The author says plans were cheating (NQTLs, ghost networks) and that the new DOL data standards on network composition will demonstrate that cheating.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Department of Labor",
+        "MHPAEA",
+        "health insurance plans"
+      ],
+      "note": "Expectation about what the proposed DOL reporting standards will reveal once applied; rule was only proposed at post date."
+    },
+    {
+      "post_slug": "mental-health-parity-what-do-shaggy",
+      "quote": "So the plans are to have comparable numbers of in and out-of-network providers across mental and physical health. They don’t. I promise you they don’t.",
+      "context": "After quoting the DOL proposal to collect data on the share of in-network providers actively submitting claims, the author states with certainty that plans do not have comparable mental-health and medical networks, implying the required data will show non-parity.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "I promise you",
+      "entities": [
+        "Department of Labor",
+        "health insurance plans",
+        "MHPAEA"
+      ],
+      "note": "Present-tense claim; forward reading is that the mandated comparative analyses will show networks are not at parity. Borderline."
+    },
+    {
+      "post_slug": "mental-health-parity-what-do-shaggy",
+      "quote": "This sort of thing becomes a problem if you legally need to have a sufficient network.",
+      "context": "After an email from Vikas Malik, M.D. (Wonder Years clinic) about an Empire BCBS software update that knocked providers out of network with a 180-day fix time, the author says such errors become a legal problem once network sufficiency is required under the proposed rule.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Empire BCBS",
+        "Department of Labor",
+        "MHPAEA"
+      ],
+      "note": "Conditional on the DOL rule being finalized; mild claim about future compliance exposure for payers."
+    },
+    {
+      "post_slug": "mental-health-parity-what-do-shaggy",
+      "quote": "Making mental health networks sufficient is only possible—if accurately measured—by paying mental health professionals MORE money for care that DRIVES DOWN utilization.",
+      "context": "Closing argument on network sufficiency: the author asserts that sufficient mental health networks cannot be achieved without paying mental health professionals more, and that ghost networks cannot solve the problem.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "only possible",
+      "entities": [
+        "health insurance plans",
+        "mental health professionals",
+        "Department of Labor"
+      ],
+      "note": "Conditional necessity claim: networks will not become sufficient unless payer rates rise. Partly normative in tone."
+    },
+    {
+      "post_slug": "mental-health-parity-what-do-shaggy",
+      "quote": "Part three is coming…",
+      "context": "Closing line of Part II of the MHPAEA hip-hop series: the author promises a third installment of the series in his newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "is coming",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content promise; coder may mark CONTROL. Low forecast value."
+    },
+    {
+      "post_slug": "no-scrubs-tlc-has-advice-about-mental",
+      "quote": "If parity is factual, they will not be different! Parity is our hypothesis.",
+      "context": "Part III of the MHPAEA series (2023-07-29) on reimbursement-rate NQTLs. The author asks the DOL to compare mean, median and mode payments for MH/SUD versus M/S services; if parity is real the statistics will match, and he adds that significant differences would mean 'we might be looking at a Scrub'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "will not",
+      "entities": [
+        "Department of Labor",
+        "MHPAEA",
+        "health insurance plans"
+      ],
+      "note": "Framed as a testable hypothesis; the author's evident expectation is that the data will show lower mental-health payment rates. Compound with the following 'Scrub' conditional."
+    },
+    {
+      "post_slug": "no-scrubs-tlc-has-advice-about-mental",
+      "quote": "Stay tuned for the next thrilling article!",
+      "context": "Closing line of Part III of the MHPAEA series; promises the next installment in the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content promise; coder may mark CONTROL. Low forecast value."
+    },
+    {
+      "post_slug": "so-youve-been-cyber-stalked-a-hidden",
+      "quote": "I will have another article about civil action related to online defamation in a follow-up, and what to do if itifou don’t know who is doing the stalking.",
+      "context": "Post on cyberstalking of mental health professionals (2023-07-31). Near the end the author promises a follow-up article on civil action for online defamation and on anonymous stalkers.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "in a follow-up",
+      "confidence_phrase": "will",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content promise; coder may mark CONTROL. Typo 'itifou' is in the source."
+    },
+    {
+      "post_slug": "thrift-shop-how-narrow-networks-with",
+      "quote": "Obesity medicine like semeglutide is projected to cost 15% of all American Health Care Spending. That is 4.6 Trillion Dollars. I’ll write that out: $690,000,000,000.00 is the Revenue for Big Health from GLP-1s.",
+      "context": "Part IV of the MHPAEA series (2023-07-31), aside on why payers profit from denying mental health care. The author restates a projection that GLP-1 obesity drugs (semaglutide) will cost 15% of total US health spending, computing $690 billion from a $4.6 trillion base, and calls it revenue for big health plans.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "is projected",
+      "entities": [
+        "semaglutide",
+        "GLP-1 drugs",
+        "health insurance plans"
+      ],
+      "note": "Restatement of an unnamed external projection which the author adopts and extends with his own arithmetic; no date given for the 15% level."
+    },
+    {
+      "post_slug": "thrift-shop-how-narrow-networks-with",
+      "quote": "So anything that gets in the way of that spending going up—our money, our employer’s money, our publicly traded stock value hit’s money—can not be allowed.",
+      "context": "Following the GLP-1 spending projection, the author claims that big health plans, whose profit is a percentage of spending, will not allow anything (including accessible mental health care that reduces weight-gain prescribing) that stops that spending from rising.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "can not be allowed",
+      "entities": [
+        "health insurance plans",
+        "GLP-1 drugs"
+      ],
+      "note": "Cynical voicing of payer incentives; borderline as a forecast of payer behavior. Sincere in substance."
+    },
+    {
+      "post_slug": "mentalizing-what-is-it",
+      "quote": "Stay tuned for part II!",
+      "context": "Closing line of the first mentalization lesson (2023-08-02); promises a second part of the MBT series in the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content promise; coder may mark CONTROL. Low forecast value."
+    },
+    {
+      "post_slug": "mentalizing-when-feelings-equal-facts",
+      "quote": "Stay tuned for the subsequent steps!",
+      "context": "Closing line of the psychic-equivalence lesson in the MBT series (2023-08-05); promises further installments in the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content promise; coder may mark CONTROL. Low forecast value."
+    },
+    {
+      "post_slug": "the-science-behind-the-best-in-class",
+      "quote": "We understand the durability is personal and variable, but on average, it's between 12 and 18 months.",
+      "context": "Explainer on accelerated TMS at Acacia Mental Health (2023-08-08). Footnote to 'A fair question is how long is this going to last? ... Active research is afoot!': the author estimates that remission after an accelerated TMS course lasts 12 to 18 months on average.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "between 12 and 18 months",
+      "confidence_phrase": "on average",
+      "entities": [
+        "Acacia Mental Health",
+        "accelerated TMS",
+        "Magnus Medical"
+      ],
+      "note": "Estimate of remission durability while research is ongoing; borderline between a clinical description and a forecast. Own organization (Acacia); coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-science-behind-the-best-in-class",
+      "quote": "The first brain stimulation treatment for addiction is the H4 coil, which we use for smoking cessation and may work for other indications.",
+      "context": "Footnote listing the coils used at Acacia (H1 for depression, H7 for OCD and later depression). The author says the H4 coil, the first brain stimulation treatment for addiction, is used for smoking cessation and may work for other indications.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "may",
+      "entities": [
+        "H4 coil",
+        "BrainsWay",
+        "Acacia Mental Health",
+        "FDA"
+      ],
+      "note": "Hedged expectation that the H4 deep TMS coil will prove useful beyond smoking cessation; indications unspecified. BrainsWay is the coil maker but is not named in the text."
+    },
+    {
+      "post_slug": "i-aint-saying-its-a-grave-digger",
+      "quote": "Ok. Phase I data. I’m not buying a product for my clinic yet.",
+      "context": "Post reviewing photobiomodulation papers sent to the author (2023-08-11). After noting a study is only Phase I data, he states he is not buying a photobiomodulation device for his clinic yet.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "yet",
+      "confidence_phrase": "none",
+      "entities": [
+        "photobiomodulation",
+        "Acacia Mental Health"
+      ],
+      "note": "Own purchasing decision for his clinic; 'yet' leaves future adoption open. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "i-aint-saying-its-a-grave-digger",
+      "quote": "I have yet to see a paper on photobiomodulation that is an actual science experiment for the treatment of a disease in which the randomization was successful. This is not to say there could not be such a paper.",
+      "context": "Summary judgment on the photobiomodulation evidence: no properly randomized disease-treatment trial seen so far, with the hedge that such a paper could still appear; the author says he has no evidence the modality does more than change metabolic activity in healthy controls.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "as of yet",
+      "confidence_phrase": "This is not to say there could not be",
+      "entities": [
+        "photobiomodulation"
+      ],
+      "note": "Skeptical stance on the evidence base with an explicit hedge about future trials; weak as a forecast."
+    }
+  ]
+}

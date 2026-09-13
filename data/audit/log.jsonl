@@ -1,0 +1,5 @@
+{"at":"2026-09-13T22:24:36.253Z","script":"census-merge","files":2,"posts_read":28,"statements":567,"from_extraction":50,"from_research_only":517,"duplicates_collapsed":8,"unverified_dropped":115,"prefiltered":69,"to_code":498,"output_sha256":"5cd7440c5963efda60f6f400d2350fef4fa345729fb6fa76380d52354ff2f2de"}
+{"at":"2026-09-13T22:25:47.893Z","script":"import-timeline","source":"data/research/events.json","rows":217,"dropped":0}
+{"at":"2026-09-13T22:25:48.059Z","script":"import-comparators","forecaster":"angermayer","rows":31,"paraphrase":4}
+{"at":"2026-09-13T22:25:48.062Z","script":"import-comparators","forecaster":"doblin","rows":35,"paraphrase":6}
+{"at":"2026-09-13T22:25:48.227Z","script":"build-coding-packets","to_code":554,"packets":14,"reject_sample":50,"rejects":79}

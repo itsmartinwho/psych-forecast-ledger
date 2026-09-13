@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "angermayer-0001",
+  "forecaster": "angermayer",
+  "statement_date": "2018-10-01",
+  "date_precision": "month",
+  "quote": "In 2018, Angermayer predicted FDA approval of COMP360 for TRD by 2021.",
+  "context": "Compass Pathways' psilocybin (COMP360) would win FDA approval for treatment-resistant depression by 2021.",
+  "source": {
+   "url": "https://www.cambridge.org/core/journals/finance-and-society/article/shifting-fortunes-of-corporate-psychedelia/A2E9484FA459A5AC584E6F70DE24D5A3",
+   "title": "The shifting fortunes of corporate psychedelia (Finance and Society, Cambridge), citing E. Brodwin, Business Insider, 3 Oct 2018",
+   "type": "article",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": false,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence low; dated_event"
+  },
+  "finder": {
+   "horizon_text": "by 2021",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": {
+   "code": "PARAPHRASE"
+  }
+ },
+ {
+  "id": "angermayer-0002",
+  "forecaster": "angermayer",
+  "statement_date": "2019-05-01",
+  "date_precision": "month",
+  "quote": "r-ketamine hopefully on the market...for the treatment of depression",
+  "context": "atai's first product to reach the market would be R-ketamine (Perception Neuroscience) for depression.",
+  "source": {
+   "url": "https://tim.blog/2019/07/17/the-tim-ferriss-show-transcripts-psychedelics-microdosing-mind-enhancing-methods-and-more-377/",
+   "title": "The Tim Ferriss Show #377 transcript: Psychedelics panel at the 2019 Milken Global Conference (recorded late Apr/1 May 2019; published 2019-07-17)",
+   "type": "conference",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence medium; binary_event"
+  },
+  "finder": {
+   "horizon_text": "unspecified (several years)",
+   "confidence_phrase": "possible",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0003",
+  "forecaster": "angermayer",
+  "statement_date": "2021-06-18",
+  "date_precision": "day",
+  "quote": "atai is 'some years away' from its first potential approval.",
+  "context": "atai's first drug approval is several years beyond 2021.",
+  "source": {
+   "url": "https://seekingalpha.com/news/3707707-atai-life-sciences-founder-ipo-funds-will-help-clinical-trials-of-psychedelic-medical-products",
+   "title": "atai founder: IPO funds will help trials of psychedelic medical products (Seeking Alpha, reporting CNBC Squawk Box interview on IPO day)",
+   "type": "interview",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": false,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence medium; directional"
+  },
+  "finder": {
+   "horizon_text": "several years from 2021",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": {
+   "code": "PARAPHRASE"
+  }
+ },
+ {
+  "id": "angermayer-0004",
+  "forecaster": "angermayer",
+  "statement_date": "2021-07-01",
+  "date_precision": "month",
+  "quote": "In late 2021, Compass Pathways plans to release its phase 2b data, which I believe could be a great boost",
+  "context": "Compass would report Phase 2b psilocybin data in late 2021 and it would lift the sector.",
+  "source": {
+   "url": "https://www.psychedelicfinance.com/articles/christian-angermayer-founder-atai-life-sciences",
+   "title": "Christian Angermayer | Founder, atai Life Sciences (Psychedelic Finance interview; conducted after the June 2021 atai IPO, page dated 2023-07-06)",
+   "type": "interview",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": false,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence low; dated_event"
+  },
+  "finder": {
+   "horizon_text": "late 2021",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": {
+   "code": "PARAPHRASE"
+  }
+ },
+ {
+  "id": "angermayer-0005",
+  "forecaster": "angermayer",
+  "statement_date": "2022-02-22",
+  "date_precision": "day",
+  "quote": "Mehr als eine Milliarde Menschen haben Probleme mit der psychischen Gesundheit. Und Covid wird dazu führen, dass noch mehr Menschen Hilfe brauchen. Da entsteht ein Milliardenmarkt.",
+  "context": "A multi-billion market for psychedelic mental-health medicines will emerge.",
+  "source": {
+   "url": "https://www.handelsblatt.com/technik/thespark/trip-auf-rezept-lsd-ketamin-mushrooms-psychedelika-erobern-die-usa-investoren-wittern-milliardengeschaeft/28076058.html",
+   "title": "LSD, Ketamin, Mushrooms: Psychedelika erobern die USA (Handelsblatt)",
+   "type": "article",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence medium; directional"
+  },
+  "finder": {
+   "horizon_text": "unspecified",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0006",
+  "forecaster": "angermayer",
+  "statement_date": "2023-03-01",
+  "date_precision": "month",
+  "quote": "Angermayer bought 1.2m more atai shares, called atai 'the biggest entrepreneurial opportunity I have ever encountered as an investor', and said the weak share price offers ample opportunity.",
+  "context": "atai shares at ~US$1.5-2 are a strong buy and will reward investors.",
+  "source": {
+   "url": "https://benzinga.com/news/23/03/31569267/why-this-investor-is-buying-more-than-a-million-dollars-of-a-biotech-company",
+   "title": "Why This Investor Is Buying More Than A Million Dollars Of A Biotech Company (Benzinga, 2023-04-05, citing his LinkedIn post 'Putting my money where my mouth is')",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": false,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence medium; directional"
+  },
+  "finder": {
+   "horizon_text": "unspecified (multi-year)",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": {
+   "code": "PARAPHRASE"
+  }
+ },
+ {
+  "id": "angermayer-0007",
+  "forecaster": "angermayer",
+  "statement_date": "2023-06-01",
+  "date_precision": "month",
+  "quote": "on the cusp of MDMA being ideally medicalized next year",
+  "context": "MDMA-assisted therapy (MAPS/Lykos) would be approved in 2024.",
+  "source": {
+   "url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "title": "The Psychedelic Podcast (Third Wave) ep. 207: Democratizing Psychedelics (recorded at Psychedelic Science, June 2023; published Aug 2023)",
+   "type": "podcast",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence medium; dated_event"
+  },
+  "finder": {
+   "horizon_text": "2024",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0008",
+  "forecaster": "angermayer",
+  "statement_date": "2023-06-01",
+  "date_precision": "month",
+  "quote": "the probability that these substances will be approved soon is very high",
+  "context": "MDMA and psilocybin ('psilocybin soon to follow') would be approved within a short time.",
+  "source": {
+   "url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "title": "The Psychedelic Podcast (Third Wave) ep. 207: Democratizing Psychedelics (recorded June 2023)",
+   "type": "podcast",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence medium; directional"
+  },
+  "finder": {
+   "horizon_text": "soon (about 1-3 years)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0009",
+  "forecaster": "angermayer",
+  "statement_date": "2023-06-01",
+  "date_precision": "month",
+  "quote": "I don't see at all why this would take overly long. I'm actually optimistic that the rollout success and the rollout speed will surprise everybody positively.",
+  "context": "Clinical rollout of psychedelic therapy after approval will be faster than the field expects.",
+  "source": {
+   "url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "title": "The Psychedelic Podcast (Third Wave) ep. 207: Democratizing Psychedelics (recorded June 2023)",
+   "type": "podcast",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "practice_adoption",
+   "note": "source confidence medium; directional"
+  },
+  "finder": {
+   "horizon_text": "post-approval (unspecified)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0010",
+  "forecaster": "angermayer",
+  "statement_date": "2024-02-27",
+  "date_precision": "day",
+  "quote": "approval by the FDA of MAPS' MDMA product is expected in 2024",
+  "context": "Lykos/MAPS MDMA therapy approved by the FDA in 2024.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "title": "atai Life Sciences (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; dated_event"
+  },
+  "finder": {
+   "horizon_text": "2024",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0011",
+  "forecaster": "angermayer",
+  "statement_date": "2024-02-27",
+  "date_precision": "day",
+  "quote": "Phase 2b readout of BPL-003 in treatment resistant depression (TRD), anticipated in the second half of 2024",
+  "context": "Beckley Psytech's 5-MeO-DMT Phase 2b topline would come in H2 2024.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "title": "atai Life Sciences (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated_event"
+  },
+  "finder": {
+   "horizon_text": "H2 2024",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0012",
+  "forecaster": "angermayer",
+  "statement_date": "2024-02-27",
+  "date_precision": "day",
+  "quote": "biotech will be one of the best performing asset classes this year",
+  "context": "Biotech would be among the top-performing asset classes in 2024.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "title": "atai Life Sciences (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; comparative"
+  },
+  "finder": {
+   "horizon_text": "2024",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0013",
+  "forecaster": "angermayer",
+  "statement_date": "2024-02-27",
+  "date_precision": "day",
+  "quote": "I am very confident in the potential of atai and am convinced that me and my fellow investors will be rewarded",
+  "context": "atai shareholders will make money from current levels.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "title": "atai Life Sciences (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; directional"
+  },
+  "finder": {
+   "horizon_text": "unspecified (multi-year)",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0014",
+  "forecaster": "angermayer",
+  "statement_date": "2024-06-05",
+  "date_precision": "day",
+  "quote": "IMO, there is still a strong chance that MDMA, with a properly conducted Phase 3 trial will get approved.",
+  "context": "MDMA can still win FDA approval if a clean new Phase 3 is run.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/1798368569429750026",
+   "title": "X post by @C_Angermayer on the FDA advisory committee vote against Lykos/MAPS MDMA",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; conditional"
+  },
+  "finder": {
+   "horizon_text": "unspecified (multi-year)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0015",
+  "forecaster": "angermayer",
+  "statement_date": "2024-07-31",
+  "date_precision": "day",
+  "quote": "If we succeed, and if we medicalise psychedelics, ATAI will be a double-, triple-digit billion-dollar company.",
+  "context": "atai would be worth US$10B to US$100B+ once psychedelics are medicalised.",
+  "source": {
+   "url": "https://www.forbes.com.au/news/billionaires/meet-the-crypto-pioneering-biohacking-psychedelic-promoting-billionaire-who-wants-to-reimagine-the-olympics/",
+   "title": "Meet the crypto-pioneering, biohacking, psychedelic-promoting billionaire who wants to reimagine the Olympics (Forbes, W. Yakowicz; text verified via Forbes Australia reprint of 2024-08-03)",
+   "type": "interview",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; conditional"
+  },
+  "finder": {
+   "horizon_text": "unspecified",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0016",
+  "forecaster": "angermayer",
+  "statement_date": "2025-03-18",
+  "date_precision": "day",
+  "quote": "Imo the sector presents a once-in-a-lifetime buying opportunity.",
+  "context": "Small-cap biotech (including his psychedelic holdings) at all-time lows will strongly outperform as rates fall and deregulation arrives.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/1902093579524383109",
+   "title": "X post by @C_Angermayer on the small-cap biotech bear market",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; directional"
+  },
+  "finder": {
+   "horizon_text": "unspecified (1-2 years)",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0017",
+  "forecaster": "angermayer",
+  "statement_date": "2025-05-19",
+  "date_precision": "day",
+  "quote": "That's the clearest public signal yet that the FDA is ready to act fast - if clinical data supports it.",
+  "context": "The FDA under Makary will review and act quickly on psychedelic applications once data arrive.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/1924449360055578967",
+   "title": "X post by @C_Angermayer on FDA Commissioner Makary calling psychedelics a 'top priority'",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; conditional"
+  },
+  "finder": {
+   "horizon_text": "near term (1-2 years)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0018",
+  "forecaster": "angermayer",
+  "statement_date": "2025-06-02",
+  "date_precision": "day",
+  "quote": "Phase2b data for BPL-003 are anticipated for mid-2025",
+  "context": "BPL-003 (5-MeO-DMT) Phase 2b topline by mid-2025.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-acquires-beckley-establishing",
+   "title": "atai acquires Beckley, establishing the undisputed leader in psychedelics (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated_event"
+  },
+  "finder": {
+   "horizon_text": "mid-2025",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0019",
+  "forecaster": "angermayer",
+  "statement_date": "2025-06-02",
+  "date_precision": "day",
+  "quote": "Spravato is a blockbuster drug, projected to make several billion revenues in 2026",
+  "context": "J&J's esketamine will earn several billion dollars in 2026.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-acquires-beckley-establishing",
+   "title": "atai acquires Beckley, establishing the undisputed leader in psychedelics (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; quantity"
+  },
+  "finder": {
+   "horizon_text": "FY2026",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0020",
+  "forecaster": "angermayer",
+  "statement_date": "2025-07-01",
+  "date_precision": "day",
+  "quote": "a much more successful drug than Spravato",
+  "context": "If Phase 3 succeeds, BPL-003 will out-sell J&J's Spravato because it needs one dose instead of eight to ten.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-life-sciences-outstanding-phase",
+   "title": "atai Life Sciences - Strong Phase 2b topline data for BPL-003 (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; conditional"
+  },
+  "finder": {
+   "horizon_text": "after Phase 3 (2029+)",
+   "confidence_phrase": "possible",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0021",
+  "forecaster": "angermayer",
+  "statement_date": "2025-08-04",
+  "date_precision": "day",
+  "quote": "I believe the re-rating of atai's share price has only just begun",
+  "context": "ATAI shares will keep rising well beyond the post-Phase-2b level.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/the-psychedelic-sector-today-momentum",
+   "title": "The Psychedelic Sector Today: Momentum, Milestones, and What Lies Ahead (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; directional"
+  },
+  "finder": {
+   "horizon_text": "months to years",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0022",
+  "forecaster": "angermayer",
+  "statement_date": "2025-10-14",
+  "date_precision": "day",
+  "quote": "Once its therapeutics are approved, I believe atai will significantly outperform current analyst forecasts, both in sales and in long-term market leadership.",
+  "context": "atai's product sales will beat analyst forecasts after approval, following the Spravato clinic model.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/1978093500286611715",
+   "title": "X post by @C_Angermayer on Spravato's Q3 2025 run-rate",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; conditional"
+  },
+  "finder": {
+   "horizon_text": "post-approval (2029+)",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0023",
+  "forecaster": "angermayer",
+  "statement_date": "2025-10-21",
+  "date_precision": "day",
+  "quote": "End of P2b meeting with FDA anticipated in Q1 2026 ... Phase 2 data for R-MDMA (EMP-01) in SAD anticipated in Q1 2026",
+  "context": "BPL-003 end-of-Phase-2b FDA meeting and EMP-01 social-anxiety Phase 2 data both by end of March 2026.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-life-sciences-the-leader-in",
+   "title": "atai Life Sciences: The Leader in Psychedelic Therapeutics (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated_event"
+  },
+  "finder": {
+   "horizon_text": "Q1 2026",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0024",
+  "forecaster": "angermayer",
+  "statement_date": "2025-10-21",
+  "date_precision": "day",
+  "quote": "I expect these compounds to ultimately become first-line treatments, and even preventative interventions over time",
+  "context": "Psychedelics will move from treatment-resistant depression to first-line and preventive use.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-life-sciences-the-leader-in",
+   "title": "atai Life Sciences: The Leader in Psychedelic Therapeutics (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "practice_adoption",
+   "note": "source confidence high; directional"
+  },
+  "finder": {
+   "horizon_text": "long term (5-10+ years)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0025",
+  "forecaster": "angermayer",
+  "statement_date": "2026-02-04",
+  "date_precision": "day",
+  "quote": "the voucher in any case wouldn't have changed anything more or less, and that \"the FDA is allowing … to submit data on a rolling basis, which should get Compass a decision potentially late this year or early next year\"",
+  "context": "Endorses a COMP360 FDA decision in late 2026 or early 2027 and says the missing priority voucher is immaterial; also says the coming years will be a watershed for the field.",
+  "source": {
+   "url": "https://x.com/c_angermayer/status/2019150330563379204",
+   "title": "X post by @C_Angermayer on Compass being 'snubbed' for a National Priority Voucher",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; dated_event"
+  },
+  "finder": {
+   "horizon_text": "late 2026 to early 2027",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0026",
+  "forecaster": "angermayer",
+  "statement_date": "2026-02-18",
+  "date_precision": "day",
+  "quote": "AtaiBeckley should be your favourite biotech stock in 2026.",
+  "context": "ATAI will be a top-performing biotech stock in 2026.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/psychedelic-medicines-a-time-for",
+   "title": "Psychedelic Medicines - a Time for Stockpickers (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; comparative"
+  },
+  "finder": {
+   "horizon_text": "calendar 2026",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0027",
+  "forecaster": "angermayer",
+  "statement_date": "2026-02-18",
+  "date_precision": "day",
+  "quote": "I expect major index inclusions over the coming months.",
+  "context": "AtaiBeckley would be added to major stock indices in the first half of 2026.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/psychedelic-medicines-a-time-for",
+   "title": "Psychedelic Medicines - a Time for Stockpickers (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; dated_event"
+  },
+  "finder": {
+   "horizon_text": "coming months (by mid-2026)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0028",
+  "forecaster": "angermayer",
+  "statement_date": "2026-02-18",
+  "date_precision": "day",
+  "quote": "Phase 2 data to be released in the 2nd half of this year",
+  "context": "VLS-01 (DMT buccal film) Elumina Phase 2 data in H2 2026.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/psychedelic-medicines-a-time-for",
+   "title": "Psychedelic Medicines - a Time for Stockpickers (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated_event"
+  },
+  "finder": {
+   "horizon_text": "H2 2026",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0029",
+  "forecaster": "angermayer",
+  "statement_date": "2026-03-19",
+  "date_precision": "day",
+  "quote": "Within the next 5-10 years, and subject to the appropriate regulatory approvals ... an annual psychedelic session to prevent a severe form of adjustment disorder or any other mental health issue could be viewed as analogous to a cardiovascular checkup",
+  "context": "By about 2031-2036 an annual preventive psychedelic session becomes routine care, like a cardiac check-up.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/psychedelics-the-missing-tool-for",
+   "title": "Psychedelics: The Missing Tool for a Prosperous and Human AI Future (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "practice_adoption",
+   "note": "source confidence high; dated_event"
+  },
+  "finder": {
+   "horizon_text": "2031-2036",
+   "confidence_phrase": "possible",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0030",
+  "forecaster": "angermayer",
+  "statement_date": "2026-04-20",
+  "date_precision": "day",
+  "quote": "I expect drug approval processes to accelerate and become less costly.",
+  "context": "After the White House executive order, psychedelic approvals will be faster and cheaper.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/white-house-issues-executive-order",
+   "title": "White House Issues Executive Order to Accelerate Access to Psychedelics (Christian's Substack)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; directional"
+  },
+  "finder": {
+   "horizon_text": "1-3 years",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0031",
+  "forecaster": "angermayer",
+  "statement_date": "2026-07-16",
+  "date_precision": "day",
+  "quote": "psychedelic medicines will soon bring healing to hundreds of millions of people suffering from mental health disorders",
+  "context": "Hundreds of millions of patients will be treated with psychedelic medicines in the near future.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/my-love-letter-to-psychedelics-and",
+   "title": "My Love Letter to Psychedelics and Humanity's Future (Christian's Substack, on the day of the Lilly deal)",
+   "type": "own_post",
+   "accessed": "2026-09-13"
+  },
+  "extraction": {
+   "run": "research-2026-09-13",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "practice_adoption",
+   "note": "source confidence high; quantity"
+  },
+  "finder": {
+   "horizon_text": "soon (unspecified)",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "runs": [
+    "research-2026-09-13"
+   ]
+  },
+  "prefilter": null
+ }
+]

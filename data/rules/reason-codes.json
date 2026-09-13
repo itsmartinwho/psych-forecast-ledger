@@ -1,28 +1,103 @@
 {
   "version": "1.0.0",
   "not_admitted": [
-    { "code": "VAGUE", "label": "Vague or promotional", "test": "No entity, observable event, benchmark or threshold can be written from the text and its immediate context. Slogans ('game changer', 'once-in-a-lifetime opportunity', 'favourite stock') and quantifiers with no countable set ('more', 'first', 'all') without a defined set." },
-    { "code": "CONTROL", "label": "Commitment (own venture)", "test": "The forecaster's own organization can make the outcome happen by its own decision: clinic openings, product launches, hires, trial starts, filings by their own company. Listed in the commitments table, never scored." },
-    { "code": "REPORT", "label": "Report or scoop", "test": "The statement passes on information rather than an expectation: cites sources ('I am told', 'sources say'), or names a date for another organization's internal action (layoffs, hires, closures) 30 days or less ahead. Listed in the reports table with a confirmation rate, never scored." },
-    { "code": "NORMATIVE", "label": "Normative", "test": "'Should', 'must', 'ought to', 'needs to' with no predictive reading." },
-    { "code": "THIRD_PARTY", "label": "Third-party claim", "test": "A quoted or paraphrased claim by someone else that the author does not adopt as their own." },
-    { "code": "SATIRE", "label": "Satire or irony", "test": "Marked or evident satire, hyperbole or irony." },
-    { "code": "KNOWN", "label": "Outcome already public", "test": "The outcome had been publicly determined or announced by the deciding body or sponsor on the statement date." },
-    { "code": "OUT_OF_AREA", "label": "Outside the five areas", "test": "Not a regulatory decision, trial outcome, company or market outcome, payer or policy decision, or practice adoption." },
-    { "code": "NOT_FORECAST", "label": "Not a forecast", "test": "Descriptive, retrospective, or a statement of preference; no future state asserted." },
-    { "code": "DUPLICATE", "label": "Duplicate extraction", "test": "The same statement in the same post was captured twice; the first row stands." }
+    {
+      "code": "VAGUE",
+      "label": "Vague or promotional",
+      "test": "No entity, observable event, benchmark or threshold can be written from the text and its immediate context. Slogans ('game changer', 'once-in-a-lifetime opportunity', 'favourite stock') and quantifiers with no countable set ('more', 'first', 'all') without a defined set."
+    },
+    {
+      "code": "CONTROL",
+      "label": "Commitment (own venture)",
+      "test": "The forecaster's own organization can make the outcome happen by its own decision: clinic openings, product launches, hires, trial starts, filings by their own company. Listed in the commitments table, never scored."
+    },
+    {
+      "code": "REPORT",
+      "label": "Report or scoop",
+      "test": "The statement passes on information rather than an expectation: cites sources ('I am told', 'sources say'), or names a date for another organization's internal action (layoffs, hires, closures) 30 days or less ahead. Listed in the reports table with a confirmation rate, never scored."
+    },
+    {
+      "code": "NORMATIVE",
+      "label": "Normative",
+      "test": "'Should', 'must', 'ought to', 'needs to' with no predictive reading."
+    },
+    {
+      "code": "THIRD_PARTY",
+      "label": "Third-party claim",
+      "test": "A quoted or paraphrased claim by someone else that the author does not adopt as their own."
+    },
+    {
+      "code": "SATIRE",
+      "label": "Satire or irony",
+      "test": "Marked or evident satire, hyperbole or irony."
+    },
+    {
+      "code": "KNOWN",
+      "label": "Outcome already public",
+      "test": "The outcome had been publicly determined or announced by the deciding body or sponsor on the statement date."
+    },
+    {
+      "code": "OUT_OF_AREA",
+      "label": "Outside the five areas",
+      "test": "Not a regulatory decision, trial outcome, company or market outcome, payer or policy decision, or practice adoption."
+    },
+    {
+      "code": "NOT_FORECAST",
+      "label": "Not a forecast",
+      "test": "Descriptive, retrospective, or a statement of preference; no future state asserted."
+    },
+    {
+      "code": "DUPLICATE",
+      "label": "Duplicate extraction",
+      "test": "The same statement in the same post was captured twice; the first row stands."
+    },
+    {
+      "code": "PARAPHRASE",
+      "label": "Paraphrase, not own words",
+      "test": "The only record of the claim is a third party's paraphrase or a secondhand report; the forecaster's own words are not available. Shown as a row, never coded or scored."
+    }
   ],
   "void": [
-    { "code": "AMBIGUOUS", "label": "Coders disagree", "test": "The two coders wrote different registry events or different deadlines for the same statement. No adjudication toward a reading." },
-    { "code": "CONDITION_UNMET", "label": "Condition unmet", "test": "'If A then B': A did not occur by the deadline." },
-    { "code": "UNRESOLVABLE", "label": "Unresolvable", "test": "The named resolution source has not published 12 months after the deadline, or the source no longer exists." }
+    {
+      "code": "AMBIGUOUS",
+      "label": "Coders disagree",
+      "test": "The two coders wrote different registry events or different deadlines for the same statement. No adjudication toward a reading."
+    },
+    {
+      "code": "CONDITION_UNMET",
+      "label": "Condition unmet",
+      "test": "'If A then B': A did not occur by the deadline."
+    },
+    {
+      "code": "UNRESOLVABLE",
+      "label": "Unresolvable",
+      "test": "The named resolution source has not published 12 months after the deadline, or the source no longer exists."
+    }
   ],
   "tags": [
-    { "tag": "affiliated", "test": "A third party decides, but the forecaster has a disclosed role, stake, employment, board seat or trial site in an entity named in the event. Scored and flagged; the headline is shown with and without." },
-    { "tag": "retrospective", "test": "The item was coded after its outcome was public (all 2021 to mid-2026 items in release 1.0)." },
-    { "tag": "prospective", "test": "The item was coded and frozen before its outcome was public." },
-    { "tag": "table_dated", "test": "The deadline came from the ClinicalTrials.gov table rule, not from the forecaster's words." },
-    { "tag": "denial", "test": "The forecaster denied the proposition; p(E) = 1 minus the bin value." },
-    { "tag": "stated_number", "test": "The forecaster gave a numeric probability; it overrides the lexicon." }
+    {
+      "tag": "affiliated",
+      "test": "A third party decides, but the forecaster has a disclosed role, stake, employment, board seat or trial site in an entity named in the event. Scored and flagged; the headline is shown with and without."
+    },
+    {
+      "tag": "retrospective",
+      "test": "The item was coded after its outcome was public (all 2021 to mid-2026 items in release 1.0)."
+    },
+    {
+      "tag": "prospective",
+      "test": "The item was coded and frozen before its outcome was public."
+    },
+    {
+      "tag": "table_dated",
+      "test": "The deadline came from the ClinicalTrials.gov table rule, not from the forecaster's words."
+    },
+    {
+      "tag": "denial",
+      "test": "The forecaster denied the proposition; p(E) = 1 minus the bin value."
+    },
+    {
+      "tag": "stated_number",
+      "test": "The forecaster gave a numeric probability; it overrides the lexicon."
+    }
   ]
 }

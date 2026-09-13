@@ -82,7 +82,7 @@ export const BaseRateTable = z.object({
 });
 export type BaseRateTable = z.infer<typeof BaseRateTable>;
 
-export const NOT_ADMITTED_CODES = ["VAGUE", "CONTROL", "REPORT", "NORMATIVE", "THIRD_PARTY", "SATIRE", "KNOWN", "OUT_OF_AREA", "NOT_FORECAST", "DUPLICATE"] as const;
+export const NOT_ADMITTED_CODES = ["VAGUE", "CONTROL", "REPORT", "NORMATIVE", "THIRD_PARTY", "SATIRE", "KNOWN", "OUT_OF_AREA", "NOT_FORECAST", "DUPLICATE", "PARAPHRASE"] as const;
 export const ReasonCode = z.enum(NOT_ADMITTED_CODES);
 export type ReasonCode = z.infer<typeof ReasonCode>;
 export const VOID_CODES = ["AMBIGUOUS", "CONDITION_UNMET", "UNRESOLVABLE"] as const;
@@ -97,7 +97,7 @@ export const ReasonCodes = z.object({
 
 // ---- census ------------------------------------------------------------------------------------
 export const ItemId = z.string().regex(/^(owen|angermayer|doblin)-\d{4}$/);
-export const SourceType = z.enum(["substack_post", "substack_podcast", "substack_video", "substack_thread", "newsletter", "podcast", "interview", "talk", "tweet", "filing", "press", "other"]);
+export const SourceType = z.enum(["substack_post", "substack_podcast", "substack_video", "substack_thread", "newsletter", "own_post", "podcast", "interview", "talk", "conference", "tweet", "filing", "press", "article", "other"]);
 export const Audience = z.enum(["everyone", "only_paid", "founding"]);
 export const Source = z.object({
   url: Url, title: z.string().max(300), type: SourceType,
@@ -114,6 +114,7 @@ export const Statement = z.object({
   quote: z.string().min(12).max(600),
   context: z.string().max(600).optional(),
   source: Source,
+  date_precision: z.enum(["day", "month"]).optional(),
   extraction: z.object({ run: z.string(), sincere: z.boolean(), own_claim: z.boolean(), normative: z.boolean(), forward_looking: z.boolean(), area_guess: z.string().optional(), note: z.string().max(300).optional() }),
   status: StatementStatus,
   reason_code: ReasonCode.optional(),

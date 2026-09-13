@@ -1,0 +1,54 @@
+// Registry consolidation, two phases.
+//   prep:  collect every "new:" event proposal from coder outputs into data/intake/registry-proposals.json
+//          (deduplicated by normalized title so the consolidation agent reads each distinct wording once).
+//   apply: read the agent's data/intake/registry-consolidated.json { events, map } and write data/registry/events.json
+//          (existing entries kept, new ones appended with sequential ids) and data/intake/registry-map.json.
+import fs from "node:fs";
+import { rel, readJson, writeJson, appendAudit, norm } from "./common";
+
+type Proposal = { ref: string; template?: string; area?: string; asset?: string; entity?: string; title?: string; proposition?: string; criterion?: string; resolution_source?: { name: string; url?: string }; base_rate_class?: string | null; quantity?: unknown; readings?: string[] };
+type Rec = { id: string; admit: boolean; event: Proposal | { ref: string } | null; condition?: Proposal | { ref: string } | null };
+
+function coderFiles(): { coder: string; file: string }[] {
+  const dir = rel("data/intake/coded");
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter((f) => /^coder-[abc]-.*\.json$/.test(f)).map((f) => ({ coder: f.split("-")[1].toUpperCase(), file: rel("data/intake/coded", f)}));
+}
+
+const mode = process.argv[2];
+if (mode === "prep") {
+  const existing = fs.existsSync(rel("data/registry/events.json")) ? readJson<{ id: string; title: string; proposition: string; asset: string; template: string; area: string }[]>(rel("data/registry/events.json")) : [];
+  const proposals: (Proposal & { coder: string; statement_ids: string[]; first_date: string })[] = [];
+  const dates = new Map<string, string>();
+  for (const f of ["owen", "angermayer", "doblin"]) { const p = rel(`data/census/${f}.json`); if (fs.existsSync(p)) for (const r of readJson<{ id: string; statement_date: string }[]>(p)) dates.set(r.id, r.statement_date); }
+  for (const { coder, file } of coderFiles()) {
+    const out = readJson<{ records: Rec[] }>(file);
+    for (const r of out.records ?? []) {
+      for (const ev of [r.event, r.condition]) {
+        if (!ev || !("ref" in ev) || !String(ev.ref).startsWith("new:")) continue;
+        const key = `${coder}:${ev.ref}`;
+        const found = proposals.find((p) => `${p.coder}:${p.ref}` === key);
+        const sid = r.id.replace(/-[ab]$/, "");
+        if (found) { found.statement_ids.push(sid); if ((dates.get(sid) ?? "9999") < found.first_date) found.first_date = dates.get(sid)!; }
+        else proposals.push({ ...(ev as Proposal), coder, statement_ids: [sid], first_date: dates.get(sid) ?? "9999-12-31" });
+      }
+    }
+  }
+  proposals.sort((a, b) => (a.first_date < b.first_date ? -1 : 1));
+  writeJson(rel("data/intake/registry-proposals.json"), { existing: existing.map((e) => ({ id: e.id, title: e.title, proposition: e.proposition, asset: e.asset, template: e.template, area: e.area })), proposals });
+  const distinct = new Set(proposals.map((p) => norm(p.title ?? p.ref))).size;
+  appendAudit({ script: "consolidate-registry prep", proposals: proposals.length, distinct_titles: distinct, existing: existing.length });
+  console.log(`proposals: ${proposals.length} (${distinct} distinct titles) from ${coderFiles().length} coder files; existing registry ${existing.length}`);
+} else if (mode === "apply") {
+  const cons = readJson<{ events: Record<string, unknown>[]; map: Record<string, string> }>(rel("data/intake/registry-consolidated.json"));
+  const existing = fs.existsSync(rel("data/registry/events.json")) ? readJson<{ id: string }[]>(rel("data/registry/events.json")) : [];
+  const ids = new Set(existing.map((e) => e.id));
+  const added = cons.events.filter((e) => !ids.has(String(e.id)));
+  const registry = [...existing, ...added.map((e) => ({ ...e, created_by: e.created_by ?? "registry-consolidation", created_at: e.created_at ?? "2026-09-13", version: e.version ?? "1.0.0", readings: e.readings ?? [], market_ref_id: e.market_ref_id ?? null, quantity: e.quantity ?? null, base_rate_class: e.base_rate_class ?? null }))];
+  writeJson(rel("data/registry/events.json"), registry);
+  writeJson(rel("data/intake/registry-map.json"), cons.map);
+  appendAudit({ script: "consolidate-registry apply", added: added.length, total: registry.length, mapped_refs: Object.keys(cons.map).length });
+  console.log(`registry: ${registry.length} events (${added.length} added); map has ${Object.keys(cons.map).length} refs`);
+} else {
+  console.error("usage: consolidate-registry.ts prep|apply"); process.exit(2);
+}

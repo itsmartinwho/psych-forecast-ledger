@@ -1,0 +1,499 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-14.md",
+  "posts": [
+    {
+      "slug": "may-the-fourthraise-serious-compliance",
+      "read": true,
+      "statements_found": 0,
+      "note": "Star Wars HR-compliance parody dialogue; no sincere forward-looking claim."
+    },
+    {
+      "slug": "a-guide-to-missing-out-on-blue-sky",
+      "read": true,
+      "statements_found": 1,
+      "note": "Jokey Bluesky FOMO post; one quip about invite-code scarcity logged."
+    },
+    {
+      "slug": "frankenstein-and-internet-harassment",
+      "read": true,
+      "statements_found": 1,
+      "note": "80-word podcast blurb; only a subscribe-pitch joke logged as not sincere."
+    },
+    {
+      "slug": "on-the-advent-of-coronation-of-a",
+      "read": true,
+      "statements_found": 1,
+      "note": "Richard III parody about Bluesky invites; one fictional plot claim (Twitter dies, Bluesky succeeds) logged as not sincere."
+    },
+    {
+      "slug": "elon-musk-iii-king-of-twitter-requests",
+      "read": true,
+      "statements_found": 2,
+      "note": "Long Richard III act I scene II parody with Elon Musk and Jay of Bluesky; two fictional character lines logged as not sincere, not own claim."
+    },
+    {
+      "slug": "remembering-arthur-joseph-muir-my",
+      "read": true,
+      "statements_found": 1,
+      "note": "Memorial for the author's father; one own-newsletter content promise."
+    },
+    {
+      "slug": "9-shocking-ai-prompt-hacks-that-you",
+      "read": true,
+      "statements_found": 0,
+      "note": "Inverted satirical AI-prompt advice voiced by Grima Wormtongue; no sincere forecast."
+    },
+    {
+      "slug": "when-it-mattered-the-most-my-mother",
+      "read": true,
+      "statements_found": 0,
+      "note": "Memoir about the author's parents; past events only."
+    },
+    {
+      "slug": "how-opiate-use-disorder-made-our",
+      "read": true,
+      "statements_found": 7,
+      "note": "Overdose-death essay framed by The Leftovers; several trend and outcome claims, xylazine warning, OTC Narcan call to action."
+    },
+    {
+      "slug": "the-culture-deck-for-a-remarkable",
+      "read": true,
+      "statements_found": 1,
+      "note": "2018 culture deck of the author's former practice; only a 'story for later' promise. Past results (90% hospitalization reduction) not logged."
+    },
+    {
+      "slug": "the-muir-skee-lo-emotionally-corrective",
+      "read": true,
+      "statements_found": 0,
+      "note": "Effect-size methods essay; proposal to convert effect sizes to height is normative/aspirational with no predictive reading. Nothing logged."
+    },
+    {
+      "slug": "antipsychotics-should-never-be-used",
+      "read": true,
+      "statements_found": 5,
+      "note": "Thesis is normative ('Nobody should ever do this anymore'); logged with normative flag plus a few generic claims, a GPT-4 aside and a next-article promise."
+    },
+    {
+      "slug": "is-false-equivalency-is-the-new-precision",
+      "read": true,
+      "statements_found": 1,
+      "note": "APA talk recap on precision and data context; one vague 'just getting started' claim."
+    },
+    {
+      "slug": "you-can-cure-inpatient-psychiatry",
+      "read": true,
+      "statements_found": 3,
+      "note": "FY2024 IPPS NTAP proposed rule and SAINT (Magnus Medical, paid consultant); two payer-policy claims plus a third-party Magnus statement."
+    },
+    {
+      "slug": "op-med-my-annual-doximity-apa-column",
+      "read": true,
+      "statements_found": 0,
+      "note": "Link post to the author's Doximity APA column; nothing forward-looking."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "a-guide-to-missing-out-on-blue-sky",
+      "quote": "I’m saying in less than time it will take you to get an invite code, two physical and real world books exist about this buzzy thing you are excluded from.",
+      "context": "Post about the invite-only Bluesky Social app (2023-05-05). The author says he wrote and published two poetry books about the Bluesky 'hellthread' faster than the reader will obtain an invite code; implies invite codes will stay scarce and slow for some time.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Bluesky Social",
+        "Hellthread (poetry book)"
+      ],
+      "note": "Quip in a jokey post, but the underlying expectation (invites stay scarce) reads as real. Low forecast value."
+    },
+    {
+      "post_slug": "frankenstein-and-internet-harassment",
+      "quote": "Everyone you know will respect you more.",
+      "context": "Closing subscribe pitch of a short podcast blurb (alternate edit of a story about internet harassment). Claims that subscribing to The Frontier Psychiatrists will raise the reader's standing with everyone they know.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Subscribe-pitch joke; no real expectation. Own newsletter; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "on-the-advent-of-coronation-of-a",
+      "quote": "When the ailing King of Social, Twitter, dies, Princess Jay, the founder of his the most buzzy platform, is next in line for the throne.",
+      "context": "Plot summary of Richard III rewritten for social media (2023-05-06). Twitter is cast as the ailing king who dies; Jay (Bluesky CEO) is next in line for the throne, i.e. Bluesky succeeds Twitter as the dominant platform.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Twitter",
+        "Bluesky",
+        "Jay Graber"
+      ],
+      "note": "Fictional framing (Shakespeare parody). Underlying implication that Bluesky succeeds a dying Twitter may be half-sincere; flagged not sincere."
+    },
+    {
+      "post_slug": "elon-musk-iii-king-of-twitter-requests",
+      "quote": "NPR is on BlueSky, where thou shalt never receive an invite.",
+      "context": "Parody of Richard III act I scene II (2023-05-06). The character JAY (Bluesky CEO) tells ELON III (Elon Musk, owner of Twitter) that NPR has moved to Bluesky and he will never receive a Bluesky invite.",
+      "sincere": false,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "never",
+      "confidence_phrase": "never",
+      "entities": [
+        "NPR",
+        "Bluesky",
+        "Elon Musk",
+        "Jay Graber",
+        "Twitter"
+      ],
+      "note": "Line spoken by a fictional character in parody; not the author's own expectation. Logged for recall."
+    },
+    {
+      "post_slug": "elon-musk-iii-king-of-twitter-requests",
+      "quote": "And render her federated solution another Twitter wanna be.",
+      "context": "Closing soliloquy of the ELON III character: after buying a PBC he intends to ruin Jay's reputation and turn Bluesky's federated protocol into another Twitter wannabe.",
+      "sincere": false,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Elon Musk",
+        "Bluesky",
+        "Twitter"
+      ],
+      "note": "Fictional villain's stated intent in parody; not the author's own expectation. Logged for recall."
+    },
+    {
+      "post_slug": "remembering-arthur-joseph-muir-my",
+      "quote": "I'll have more to say about my dad later because it's a good story",
+      "context": "Memorial post for the author's father Arthur Joseph Muir on his birthday (2023-05-08). The author promises more newsletter writing about his father later.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "later",
+      "confidence_phrase": "I'll",
+      "entities": [
+        "Arthur Joseph Muir",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content plan; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "how-opiate-use-disorder-made-our",
+      "quote": "Our current relentless grief is moving closer to that fiction. Those writers imagined enough loss would drive us mad. I suspect they are correct. We are not prepared.",
+      "context": "Essay comparing US drug overdose deaths to the HBO show The Leftovers, where 2% of people vanish and society goes mad (2023-05-16). The author says real grief is approaching the fiction and suspects that loss at this scale will drive us mad.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "I suspect",
+      "entities": [
+        "The Leftovers",
+        "HBO"
+      ],
+      "note": "Compound: present trend ('moving closer') plus hedged prediction of collective madness."
+    },
+    {
+      "post_slug": "how-opiate-use-disorder-made-our",
+      "quote": "It’s a problem, and it’s getting worse.",
+      "context": "After citing drug-related death rates (19.3 per 100,000 max before 1979 vs 28.3 per 100,000 in 2020, CDC), the author says the overdose death problem is getting worse.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "CDC"
+      ],
+      "note": "Present-tense trend claim; weakly forward-looking."
+    },
+    {
+      "post_slug": "how-opiate-use-disorder-made-our",
+      "quote": "That last line there hints at a pending horror augmentation: xylazine, a veterinary anesthetic about which I have written before, getting into the drug supply.",
+      "context": "After CDC data on adolescent (10-19) overdose deaths showing naloxone given in only 30.3% of cases, the author expects xylazine ('Tranq') mixed into fentanyl to make abrupt deaths worse because naloxone cannot reverse it.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "pending",
+      "confidence_phrase": "pending",
+      "entities": [
+        "xylazine",
+        "fentanyl",
+        "naloxone",
+        "Narcan",
+        "CDC"
+      ],
+      "note": "Expects worsening overdose deaths from xylazine contamination of the drug supply."
+    },
+    {
+      "post_slug": "how-opiate-use-disorder-made-our",
+      "quote": "So just among children 10-19, we have 600,000 child leftovers . More every year.",
+      "context": "Author's estimate: 1,090 adolescents dying at home in 2022, times roughly 600 acquaintances each, gives 600,000 bereaved 'leftovers'; he expects the number to grow every year.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "every year",
+      "confidence_phrase": "none",
+      "entities": [
+        "CDC"
+      ],
+      "note": "Numeric estimate plus a trend claim; compound."
+    },
+    {
+      "post_slug": "how-opiate-use-disorder-made-our",
+      "quote": "The grief can and will drive us mad.",
+      "context": "The author frames ongoing, indiscriminate overdose deaths as a 'Relentless Departure' and predicts that collective grief will drive society mad.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "The Leftovers"
+      ],
+      "note": "Restates the earlier 'I suspect they are correct' claim with stronger confidence."
+    },
+    {
+      "post_slug": "how-opiate-use-disorder-made-our",
+      "quote": "Narcan is now over the counter . That is the change that is coming. It saves lives.",
+      "context": "Call to action at the end of the essay. Narcan (naloxone nasal spray) has been made over the counter; the author frames its OTC availability as the change that is coming and says it saves lives.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "regulatory",
+      "horizon_text": "coming",
+      "confidence_phrase": "is coming",
+      "entities": [
+        "Narcan",
+        "naloxone",
+        "FDA"
+      ],
+      "note": "Mixes a present regulatory fact ('now over the counter') with coming availability; compound."
+    },
+    {
+      "post_slug": "how-opiate-use-disorder-made-our",
+      "quote": "It won't be long now …until you have a chance to save somebody's life.",
+      "context": "Closing of the call to action to keep Narcan at home and at parties as soon as it is available; the author predicts readers will soon face an overdose they can reverse.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "won't be long now",
+      "confidence_phrase": "won't be long",
+      "entities": [
+        "Narcan",
+        "naloxone"
+      ],
+      "note": "Prediction addressed to readers; implies continued high overdose frequency."
+    },
+    {
+      "post_slug": "the-culture-deck-for-a-remarkable",
+      "quote": "It’s a story for later…but one specific memory for now.",
+      "context": "Opening of a post sharing the 2018 culture deck of the author's former outpatient mental health practice (since sold). He promises to tell the full story of the practice in a later post.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "later",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content plan; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "antipsychotics-should-never-be-used",
+      "quote": "Nobody should ever do this anymore",
+      "context": "Thesis of the post (2023-05-22, 'Live from APA'): antipsychotic augmentation of antidepressants (aripiprazole, quetiapine, brexpiprazole are FDA-approved for it) should stop because of weight gain, metabolic risk, tardive dyskinesia and small effect size.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": true,
+      "forward_looking": false,
+      "area_guess": "practice_adoption",
+      "horizon_text": "anymore",
+      "confidence_phrase": "none",
+      "entities": [
+        "aripiprazole",
+        "quetiapine",
+        "brexpiprazole",
+        "FDA"
+      ],
+      "note": "Normative only, no predictive reading; logged because it is the post's central claim. Footnote 3: 'I'm making the above definitive'."
+    },
+    {
+      "post_slug": "antipsychotics-should-never-be-used",
+      "quote": "which is gonna be all of them on average,",
+      "context": "Footnote 1 to 'whatever nonsense oral antidepressant isn't doing the trick': the author claims that on average every oral antidepressant fails to do the trick.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "gonna be",
+      "entities": [
+        "antidepressants"
+      ],
+      "note": "Generic claim about drug efficacy, not about a future state; logged for recall with forward_looking false."
+    },
+    {
+      "post_slug": "antipsychotics-should-never-be-used",
+      "quote": "But they will adversely affect your weight.",
+      "context": "The author names massive weight gain and metabolic consequences as the main risk of antipsychotic augmentation and says the drugs will adversely affect the patient's weight.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "antipsychotics"
+      ],
+      "note": "Generic pharmacologic claim in future tense; low forecast value."
+    },
+    {
+      "post_slug": "antipsychotics-should-never-be-used",
+      "quote": "There's a whole generation of people who are now out of work who used to come up with names for drugs, and GPT4 is going to do that?",
+      "context": "Footnote 2, an aside about drug brand names: the author suggests GPT-4 will take over the drug-naming work of now-unemployed naming specialists.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "is going to",
+      "entities": [
+        "GPT-4",
+        "OpenAI"
+      ],
+      "note": "Phrased as a rhetorical question; half-joking aside in a footnote."
+    },
+    {
+      "post_slug": "antipsychotics-should-never-be-used",
+      "quote": "If only there were other options that were more effective and had a better safety profile? Stay tuned That article is coming next.",
+      "context": "Closing of the post: the author promises that the next article will cover alternatives to antipsychotic augmentation that are more effective and safer.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "next",
+      "confidence_phrase": "is coming",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter content plan; coder may mark CONTROL. Implies the claim that more effective and safer alternatives exist."
+    },
+    {
+      "post_slug": "is-false-equivalency-is-the-new-precision",
+      "quote": "And we are just getting started.",
+      "context": "Recap of an APA talk (with Dan Karlin, CMO of Mind Medicine) on precision, context and granular data from a study in patients with anxiety on which the author was PI. The author says the work of turning such data into knowledge is only beginning.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Dan Karlin",
+        "Mind Medicine",
+        "APA"
+      ],
+      "note": "Vague; low forecast value."
+    },
+    {
+      "post_slug": "you-can-cure-inpatient-psychiatry",
+      "quote": "This is likely to be the highest hurdle for new technologies.",
+      "context": "Explaining the three NTAP (New Technology Add-On Payment) criteria under the FY2024 Medicare IPPS proposed rule: newness, cost, substantial clinical improvement. The author predicts the substantial clinical improvement criterion (data specific or generalizable to Medicare patients) will be the highest hurdle for new technologies.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "likely",
+      "entities": [
+        "CMS",
+        "Medicare",
+        "NTAP",
+        "FDA"
+      ]
+    },
+    {
+      "post_slug": "you-can-cure-inpatient-psychiatry",
+      "quote": "the change in 2024 is that it can now apply to both General Medical care and Inpatient Psychiatric care (in the hospitals that are on the IPPS and not Per Diem contracts)",
+      "context": "The author's description of the FY2024 proposed rule: NTAP, around since 2001 for general medical care, would apply to inpatient psychiatric care in IPPS hospitals in 2024. He then argues SAINT (Magnus Medical) is the only psychiatric device proposed and asks readers to comment in support.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "2024",
+      "confidence_phrase": "none",
+      "entities": [
+        "CMS",
+        "NTAP",
+        "Medicare IPPS",
+        "SAINT",
+        "Magnus Medical"
+      ],
+      "note": "Descriptive claim about a proposed rule; Magnus Medical's appended email disputes it ('NTAP was always available for Psychiatric Interventions')."
+    },
+    {
+      "post_slug": "you-can-cure-inpatient-psychiatry",
+      "quote": "This is just the first technology that has come along. It certainly will not be the last.",
+      "context": "From the Magnus Medical email that the author appended in full (footnote 3, paid consultant disclosure). Magnus says SAINT is the first psychiatric technology to seek NTAP in the inpatient acute care setting and more will follow.",
+      "sincere": true,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "certainly will not",
+      "entities": [
+        "Magnus Medical",
+        "SAINT",
+        "CMS",
+        "NTAP"
+      ],
+      "note": "Third-party (Magnus Medical) statement quoted by the author; the author does not explicitly adopt it."
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-10.md",
+  "posts": [
+    {
+      "slug": "the-best-personal-statement-of-the",
+      "read": true,
+      "statements_found": 3,
+      "note": "Body is a 2014 residency personal statement republished with 2023 commentary. Only its explicit 'will' claims were logged, with flags. The 2023 commentary itself has no forecasts."
+    },
+    {
+      "slug": "how-to-create-a-fake-mass-movement",
+      "read": true,
+      "statements_found": 2,
+      "note": "Pew campaign-finance astroturf playbook proposed as a template for healthcare lobbying; two implicit or generic calls logged."
+    },
+    {
+      "slug": "not-romantically-necessary-valentines",
+      "read": true,
+      "statements_found": 1,
+      "note": "Satirical fake UnitedHealthcare prior-authorization denial letter; one parody future-tense line logged with sincere=false for completeness."
+    },
+    {
+      "slug": "is-lithium-still-good-medicine-in",
+      "read": true,
+      "statements_found": 6,
+      "note": "Long lithium prescribing guide; mostly present-tense evidence review and normative advice. Logged: own writing plan, symptom-focus stance, hypothetical Lith-o-sure product, iRxReminder adherence-tech future, telehealth data need, prior-auth expectation."
+    },
+    {
+      "slug": "dead-men-dont-talk-except-when-they",
+      "read": true,
+      "statements_found": 0,
+      "note": "Narrative medicine piece about a Cotard delusion patient; no forward-looking claims."
+    },
+    {
+      "slug": "should-we-be-universally-screening",
+      "read": true,
+      "statements_found": 1,
+      "note": "Screening and Bayes explainer built on a fictional lightning test; the only future-tense claim is a joke that subscribing will pay off."
+    },
+    {
+      "slug": "an-open-letter-to-my-bipolar-disorder",
+      "read": true,
+      "statements_found": 0,
+      "note": "Personal letter to his bipolar disorder; retrospective; no forward-looking claims."
+    },
+    {
+      "slug": "medicare-advantage-is-a-scam",
+      "read": true,
+      "statements_found": 0,
+      "note": "29-word podcast blurb; present-tense opinion only."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "the-best-personal-statement-of-the",
+      "quote": "As a doctor who took the long road coming to medical school, I realize now that some of my pre-medicine experiences will prove helpful in my career as a child psychiatrist.",
+      "context": "Republished 2014 residency personal statement (post dated 2023-02-12 reprints it with commentary). The author, then an applicant, predicts that his pre-medicine work (arts-education grants and school-district research with Litchfield Performing Arts) will prove useful in his career as a child psychiatrist.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "in my career",
+      "confidence_phrase": "will prove",
+      "entities": [
+        "Owen Muir",
+        "Litchfield Performing Arts"
+      ],
+      "note": "Personal career claim from a 2014 document republished in 2023; low forecast value; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "the-best-personal-statement-of-the",
+      "quote": "Child Psychiatry training will provide me with the expertise to hone my pre-existing skills in humor, quick, “improvisational” thinking, systems-based care, and evidence-based practice in a way that can promote resiliency in the face of mental illness and demystify the road to recovery for patients and their caregivers.",
+      "context": "Closing paragraph of the 2014 personal statement: child psychiatry training will give the author the expertise to promote resiliency and demystify recovery for patients and caregivers. The 2023 commentary adds: 'I can stand behind this last paragraph to this day.'",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": false,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will provide",
+      "entities": [
+        "Owen Muir"
+      ],
+      "note": "2014 forecast about the author's own training, endorsed in the 2023 commentary; the training horizon elapsed before the post date, so forward_looking is false."
+    },
+    {
+      "post_slug": "the-best-personal-statement-of-the",
+      "quote": "Clearly, the path forward toward the best care for severely ill patients with mood and psychotic disorders isn't always easiest or most obvious treatment, and it will take well-informed child psychiatrists to advocate for these options.",
+      "context": "In the 2014 personal statement, after a survey at Zucker Hillside Hospital in which over 30% of caregivers saw benefits in long-acting injectable (LAI) antipsychotics for first-episode youth, the author claims that wider use of these options will require well-informed child psychiatrists to advocate for them.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "will take",
+      "entities": [
+        "long-acting injectable antipsychotics",
+        "Zucker Hillside Hospital",
+        "Christoph Correll",
+        "John Kane"
+      ],
+      "note": "Borderline: truism-like claim about a necessary condition for LAI adoption in youth; from the 2014 text republished in 2023."
+    },
+    {
+      "post_slug": "how-to-create-a-fake-mass-movement",
+      "quote": "It doesn’t even matter if a journalist figures it out—because they won’t even care!",
+      "context": "The author describes the Pew Charitable Trusts' covert campaign-finance-reform playbook (secretly funded experts, groups, reports and ads) and proposes reusing it for healthcare lobbying. He predicts that exposure by a journalist would not matter because nobody would care.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "won’t even care",
+      "entities": [
+        "Pew Charitable Trusts",
+        "Congress"
+      ],
+      "note": "Borderline: generic prediction about journalist and public reaction to an astroturf healthcare campaign; no date or specific event. Author says 'I’m not actually criticizing the above'."
+    },
+    {
+      "post_slug": "how-to-create-a-fake-mass-movement",
+      "quote": "Now, can we fix Healthcare? The Pew Charitable Trusts got campaign finance reform passed with a budget of millions, not billions! We just need to take our propaganda seriously and target it at the decision makers who matter.",
+      "context": "Closing argument of the post: the author asks whether healthcare can be fixed and implies yes, since Pew got campaign finance reform passed for millions of dollars; the implicit conditional is that a serious, targeted propaganda effort aimed at decision makers would achieve healthcare reform.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Pew Charitable Trusts",
+        "Congress"
+      ],
+      "note": "Implicit conditional call framed as a question plus 'we just need to'; borderline normative."
+    },
+    {
+      "post_slug": "not-romantically-necessary-valentines",
+      "quote": "Authorization will be issued for 12 months, Expiring on 2/13/2024. Subsequent Romantic Dates and/or Gestures will require matchmaker-to-matchmaker review.",
+      "context": "Satirical fake UnitedHealthcare prior-authorization denial for a Valentine's dinner with the author's wife Carlene MacMillan. The parody letter states that authorization will run 12 months, expiring 2/13/2024, and that later dates will need 'matchmaker-to-matchmaker review'.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "12 months, Expiring on 2/13/2024",
+      "confidence_phrase": "will be issued",
+      "entities": [
+        "UnitedHealthcare",
+        "Carlene MacMillan"
+      ],
+      "note": "Satire; logged for completeness only. Other future-tense lines in the parody ('will be approved based on ALL of the following criteria') are of the same kind and were not logged."
+    },
+    {
+      "post_slug": "is-lithium-still-good-medicine-in",
+      "quote": "I have bipolar disorder. I've written about it before . I will write about it again.",
+      "context": "Early in the lithium guide, the author discloses his own bipolar disorder and commits to writing about it again in the newsletter.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Owen Muir",
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own newsletter content plan; coder may mark CONTROL."
+    },
+    {
+      "post_slug": "is-lithium-still-good-medicine-in",
+      "quote": "Lithium data says: treating symptoms is the wrong approach, it always has been, and it always will be, because people's lives aren't about symptoms.",
+      "context": "In the section arguing that lithium cuts suicide deaths without treating bipolar depression well, the author claims that symptom-focused psychiatry is the wrong approach and always will be.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "always",
+      "confidence_phrase": "always will be",
+      "entities": [
+        "lithium"
+      ],
+      "note": "Borderline: philosophical stance phrased as a permanent future claim; low resolvability."
+    },
+    {
+      "post_slug": "is-lithium-still-good-medicine-in",
+      "quote": "Or whatever the limit is on the size of the pill. It will not be a money maker, but it will be important.",
+      "context": "The author proposes a hypothetical lithium product, 'Dr. M’s Lith-o-sure', an Eskalith CR-like formulation in larger strengths (600mg to 1400mg), addressed to Mark Cuban's Cost Plus Drugs team. He predicts such a product would not be profitable but would be important.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "none",
+      "confidence_phrase": "will not be",
+      "entities": [
+        "Mark Cuban Cost Plus Drugs",
+        "Eskalith CR",
+        "lithium"
+      ],
+      "note": "Conditional on a hypothetical product no company has announced; a wish plus a forecast about its commercial value."
+    },
+    {
+      "post_slug": "is-lithium-still-good-medicine-in",
+      "quote": "I think the better future of healthcare includes “adherence augmentation” with technologies like iRxReminder (a company at which I’m now Chief Medical Officer).",
+      "context": "Disclosure section headed 'The Most Commercially Biased Opinion': the author predicts that the better future of healthcare includes adherence-augmentation technologies such as iRxReminder, where he is Chief Medical Officer.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "the better future of healthcare",
+      "confidence_phrase": "I think",
+      "entities": [
+        "iRxReminder",
+        "Owen Muir"
+      ],
+      "note": "Author's own company; coder marks CONTROL. The author himself labels it commercially biased."
+    },
+    {
+      "post_slug": "is-lithium-still-good-medicine-in",
+      "quote": "It was easier to evaluate this when all psychiatry was in person, but when it comes to tele-health, we're gonna need to do a better job of collecting this data.",
+      "context": "Tremor side-effect section: lithium tremor is dose-dependent and was easier to assess in person; the author says telehealth psychiatry will need better collection of tremor data.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": true,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "gonna need to",
+      "entities": [
+        "lithium"
+      ],
+      "note": "Normative with a weak predictive reading about telehealth practice; logged for recall."
+    },
+    {
+      "post_slug": "is-lithium-still-good-medicine-in",
+      "quote": "These are reasonable options if this side effect presents itself. Expect to fight for prior authorization.",
+      "context": "Erectile dysfunction side-effect section: Viagra and Stendra are options for lithium-related sexual dysfunction; the author tells prescribers to expect prior-authorization fights from payers for these drugs.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "Expect",
+      "entities": [
+        "Stendra",
+        "Viagra",
+        "lithium"
+      ],
+      "note": "Generic expectation about payer prior-authorization behavior; imperative form with a predictive reading."
+    },
+    {
+      "post_slug": "should-we-be-universally-screening",
+      "quote": "The Frontier Psychiatrists is a newsletter for our life and complex times. And it’s probably going to pay off if you subscribe. But the PPV for that isn’t perfect",
+      "context": "Sign-off after the screening and Bayesian explainer: the author says subscribing to The Frontier Psychiatrists will probably pay off, then undercuts it with a positive-predictive-value joke.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "probably",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Newsletter self-promotion in joke form; coder may mark CONTROL; very low forecast value."
+    }
+  ]
+}

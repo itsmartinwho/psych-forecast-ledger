@@ -1,0 +1,678 @@
+{
+  "run": "census-2026-09-13",
+  "packet": "extract-free-09.md",
+  "posts": [
+    {
+      "slug": "you-wont-believe-how-much-procrastination",
+      "read": true,
+      "statements_found": 4
+    },
+    {
+      "slug": "a-psychiatrist-copes-with-depression",
+      "read": true,
+      "statements_found": 0,
+      "note": "Podcast episode blurb; no forward-looking statements."
+    },
+    {
+      "slug": "leviathan-we-are-proud-to-partner",
+      "read": true,
+      "statements_found": 3,
+      "note": "Satirical press release about UnitedHealth/Optum consolidation; three satire-framed items logged with sincere=false."
+    },
+    {
+      "slug": "the-inferno-by-chatcpt",
+      "read": true,
+      "statements_found": 3,
+      "note": "Dante parody about AI in the EHR; one sincere opening line plus two fiction-framed items."
+    },
+    {
+      "slug": "self-disclosure-living-as-your-authentic",
+      "read": true,
+      "statements_found": 0,
+      "note": "Podcast episode blurb; no forward-looking statements."
+    },
+    {
+      "slug": "the-insurgency-will-be-automated",
+      "read": true,
+      "statements_found": 6,
+      "note": "Author's own claims logged; one ChatGPT-generated line logged with own_claim=false."
+    },
+    {
+      "slug": "errors-of-spelling-and-grammur-are",
+      "read": true,
+      "statements_found": 7
+    },
+    {
+      "slug": "cerebral-etc-the-guardian-does-a",
+      "read": true,
+      "statements_found": 0,
+      "note": "Short share of a Guardian feature on the stimulant shortage; describes the current shortage without a forecast."
+    },
+    {
+      "slug": "a-case-for-federal-racketeering-enforcement",
+      "read": true,
+      "statements_found": 4,
+      "note": "Legal argument; conditional and hedged calls logged, pure legal analysis and advice skipped."
+    },
+    {
+      "slug": "upcoming-conference-appearances",
+      "read": true,
+      "statements_found": 4,
+      "note": "Own-activity announcements only."
+    },
+    {
+      "slug": "we-need-to-wash-our-hands-of-the",
+      "read": true,
+      "statements_found": 3
+    },
+    {
+      "slug": "a-revolution-in-depression-care-take",
+      "read": true,
+      "statements_found": 1,
+      "note": "Mostly present-tense claims about FDA-cleared Deep TMS ('Right now. Not in the future.'); only the Nobel footnote logged."
+    },
+    {
+      "slug": "the-new-york-post-violates-the-new",
+      "read": true,
+      "statements_found": 0,
+      "note": "Critique of NY Post community guidelines; no forward-looking statements."
+    }
+  ],
+  "statements": [
+    {
+      "post_slug": "you-wont-believe-how-much-procrastination",
+      "quote": "The next generation of treatments are exciting. They promise better efficacy and a lower side effect profile. And that's what we need.",
+      "context": "Author's opinion box after listing novel ADHD treatments under research: TMS, the recently FDA-approved Monarch eTNS device, and LSD derivatives in clinical trials sponsored by Mind Medicine (MindMed). Claims the next generation of ADHD treatments will bring better efficacy and fewer side effects. The author discloses he is a small MindMed shareholder (footnote 9).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "promise",
+      "entities": [
+        "Mind Medicine (MindMed)",
+        "Monarch eTNS",
+        "TMS",
+        "FDA"
+      ],
+      "note": "Hedged, undated expectation about a class of ADHD treatments; author holds MindMed shares."
+    },
+    {
+      "post_slug": "you-wont-believe-how-much-procrastination",
+      "quote": "We need more evidence and novel treatments, and as you can see above, they're coming, but the awareness of what already exists is also important.",
+      "context": "After quoting a 2013 review on alpha-2 agonists (clonidine, guanfacine) that mentions a long-acting clonidine in development for ADHD, the author says novel ADHD treatments are coming. Refers back to TMS, Monarch eTNS and MindMed LSD derivatives listed earlier in the post.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "they're coming",
+      "entities": [
+        "clonidine",
+        "guanfacine",
+        "Mind Medicine (MindMed)",
+        "Monarch eTNS",
+        "TMS"
+      ],
+      "note": "Vague directional call that new ADHD treatments will arrive; no date."
+    },
+    {
+      "post_slug": "you-wont-believe-how-much-procrastination",
+      "quote": "In addition, a long-acting form of clonidine, a frequently used alpha 2 agonist, is in the process of being developed for use in ADHD. ... For me, in 2023, the above still holds.",
+      "context": "A block quote from a 2013 review of alpha-2 agonists in ADHD states that a long-acting clonidine is being developed for ADHD. The author then endorses the quoted passage as still true in 2023.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "clinical_trial",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "clonidine",
+        "Intuniv (guanfacine XR)",
+        "FDA"
+      ],
+      "note": "Quoted third party (2013 review) restated with the author's endorsement; borderline: present-tense development claim with implied future availability. 'in 2023' dates the endorsement, not the drug."
+    },
+    {
+      "post_slug": "you-wont-believe-how-much-procrastination",
+      "quote": "But that’s for another substack post…",
+      "context": "In an opinion box about incarcerated youth with ADHD, the author says 'Abolish imprisonment' and defers the argument to a future newsletter post.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "The Frontier Psychiatrists"
+      ],
+      "note": "Own-newsletter commitment; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "leviathan-we-are-proud-to-partner",
+      "quote": "All That Is has deep roots in the local community, and we look forward to continuing our tradition of service and doing what we do best for until the end times, which—thanks to LEVIATHAN, are nigh",
+      "context": "Satirical press release in which 'LEVIATHAN' stands for UnitedHealth Group/Optum and 'All That Is' for the health systems it partners with. Written after Optum took over revenue cycle and IT operations at a second health system within days. The fake CFO quote says the end times are nigh thanks to LEVIATHAN.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "the end times",
+      "confidence_phrase": "are nigh",
+      "entities": [
+        "UnitedHealth Group",
+        "Optum",
+        "CVS Health"
+      ],
+      "note": "Satire. Literal claim (end of all things) is not a real expectation; underlying claim that UnitedHealth/Optum will keep absorbing health systems reads as sincere."
+    },
+    {
+      "post_slug": "leviathan-we-are-proud-to-partner",
+      "quote": "As a part of this new relationship, LEVIATHAN will manage a select set of operational functions and investments, allowing All That Is to focus on its core competencies – Existing – and support future growth and innovation until the moment everything is swallowed whole.",
+      "context": "Same satirical press release; parodies Optum's takeover of health-system operations and implies UnitedHealth/Optum will eventually swallow the whole healthcare system.",
+      "sincere": false,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "until the moment everything is swallowed whole",
+      "confidence_phrase": "will",
+      "entities": [
+        "UnitedHealth Group",
+        "Optum"
+      ],
+      "note": "Satire; the underlying expectation of continued consolidation by UnitedHealth/Optum reads as sincere."
+    },
+    {
+      "post_slug": "leviathan-we-are-proud-to-partner",
+      "quote": "As a part of this new relationship, approximately 575 team members life cycle and information technology services will become part of LEVIATHAN beginning in April 2023.",
+      "context": "Satirical press release; the figure of about 575 team members moving to 'LEVIATHAN' (Optum) beginning April 2023 appears to mirror the real Optum health-system partnership announcement that prompted the post.",
+      "sincere": false,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "beginning in April 2023",
+      "confidence_phrase": "will",
+      "entities": [
+        "Optum",
+        "UnitedHealth Group"
+      ],
+      "note": "Parody of a third-party press release plan; the author makes no independent call. Dated item logged for recall."
+    },
+    {
+      "post_slug": "the-inferno-by-chatcpt",
+      "quote": "In the future, ethics and compassion will be the most crucial human qualities healers can possess, and our AI buddies can take care of the knowledge base.",
+      "context": "Opening line, in the author's own voice, of a Dante parody about an AI ('ChatCPT' / 'EpicAI') inside an EHR. Claims AI will take over the clinical knowledge base and that ethics and compassion will become the key human qualities for clinicians.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "In the future",
+      "confidence_phrase": "will",
+      "entities": [
+        "ChatGPT",
+        "Epic"
+      ],
+      "note": "Sincere framing sentence placed before the parody."
+    },
+    {
+      "post_slug": "the-inferno-by-chatcpt",
+      "quote": "A response came, slowly to the screen: “ welcome to EpicAI…”",
+      "context": "Inside the Dante parody, the author logs into his EHR portal and is greeted by 'EpicAI', an imagined AI assistant embedded in the Epic electronic health record. Implies EHR vendors will embed ChatGPT-style AI in clinician workflows.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Epic",
+        "ChatGPT",
+        "OpenAI"
+      ],
+      "note": "Fictional framing; the underlying expectation (Epic embeds an LLM assistant) reads as real given the sincere opening line. Borderline."
+    },
+    {
+      "post_slug": "the-inferno-by-chatcpt",
+      "quote": "Thus was the character count reached, and yet I realized I had many iterations yet to go before answers to my patients most crucial queries would be found.",
+      "context": "Closing line of the Dante parody: the AI hits its token limit and gets math wrong, and the narrator expects many more iterations before it answers crucial patient questions. Implies clinical AI is not yet ready and will need many more versions.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "practice_adoption",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "ChatGPT",
+        "OpenAI"
+      ],
+      "note": "Fictional framing; tempered expectation about the pace of clinically useful AI. Borderline."
+    },
+    {
+      "post_slug": "the-insurgency-will-be-automated",
+      "quote": "It’s only a matter of time. I’ve seen the future.",
+      "context": "Opening of the post 'The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare'. The author claims AI-generated legal filings will destroy the current Big Healthcare business (insurers, PBMs).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "only a matter of time",
+      "confidence_phrase": "only a matter of time",
+      "entities": [
+        "UnitedHealthcare",
+        "ChatGPT",
+        "OpenAI"
+      ],
+      "note": "Vague; the title supplies the claim (AI will destroy Big Healthcare)."
+    },
+    {
+      "post_slug": "the-insurgency-will-be-automated",
+      "quote": "but it’s so convincing that I think Big Healthcare is about to get a brutal wake up call.",
+      "context": "After asking ChatGPT to draft legal filings, the author says the output is convincing enough that Big Healthcare (insurers such as UnitedHealthcare and PBMs) will soon face automated legal challenges.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "company_market",
+      "horizon_text": "about to",
+      "confidence_phrase": "I think",
+      "entities": [
+        "ChatGPT",
+        "UnitedHealthcare",
+        "Pharmacy Benefit Managers"
+      ]
+    },
+    {
+      "post_slug": "the-insurgency-will-be-automated",
+      "quote": "Said law mandates “plan sponsors” act as fiduciaries in the best interest of members are not broadly enforced. Let’s amplify the notion that this will change very soon with AI.",
+      "context": "The author says fiduciary laws such as the 'Fiduciary Rule under Ca 2021' (likely the Consolidated Appropriations Act of 2021) that require plan sponsors to act in members' interest are not broadly enforced, and predicts AI will change this very soon.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "very soon",
+      "confidence_phrase": "will",
+      "entities": [
+        "Consolidated Appropriations Act 2021 (fiduciary rule)",
+        "ERISA",
+        "plan sponsors"
+      ],
+      "note": "The author writes 'Ca 2021'; read as the Consolidated Appropriations Act of 2021."
+    },
+    {
+      "post_slug": "the-insurgency-will-be-automated",
+      "quote": "Furthermore, one could automate legal complaints and filings v. dinosaurs of healthcare who have human lawyers reviewing this stuff. The ability to do this at a level that creates a denial of service attack on Big Health legal departments is here. It’s probably already in QA by the time I finish typing this.",
+      "context": "The author claims LLMs trained on legal filings (for example won ERISA fiduciary-breach cases) can automate complaints against large healthcare companies at a volume that overwhelms their legal departments, and guesses such a tool is already in testing.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "by the time I finish typing this",
+      "confidence_phrase": "probably",
+      "entities": [
+        "ChatGPT",
+        "ERISA"
+      ],
+      "note": "Present-state claim ('is here', 'already in QA') with an imminent-deployment implication; borderline forward-looking."
+    },
+    {
+      "post_slug": "the-insurgency-will-be-automated",
+      "quote": "Like a grain of sand in an hourglass, the future of legal challenges to Big Health appear before us, hidden in plain sight. These automated, mandatory actions which covers the asses of employers might be on the line. Buckle up.",
+      "context": "Introduces the ChatGPT-generated text. The author says automated legal actions to enforce employer plan-sponsor fiduciary duties may be coming, and adds that this is terrifying for UnitedHealthcare and any Pharmacy Benefit Manager.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "none",
+      "confidence_phrase": "might",
+      "entities": [
+        "UnitedHealthcare",
+        "Pharmacy Benefit Managers",
+        "ChatGPT"
+      ]
+    },
+    {
+      "post_slug": "the-insurgency-will-be-automated",
+      "quote": "The use of AI-powered bots became ubiquitous for enforcement.",
+      "context": "ChatGPT 3.5 output, prompted by the author to write as a historian 20 years in the future describing how AI bots drafting legal filings destroyed the healthcare business (fiduciary rule, IRS 501(r), Anthem and PBM rebates). The author calls the generated text 'bull plop' but uses it to show the tool is ready.",
+      "sincere": false,
+      "own_claim": false,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "payer_policy",
+      "horizon_text": "20 years in the future",
+      "confidence_phrase": "none",
+      "entities": [
+        "ChatGPT",
+        "OpenAI",
+        "Anthem",
+        "IRS 501(r)"
+      ],
+      "note": "Machine-generated text in a fictional future-historian frame; mirrors the author's thesis but is not adopted as his own forecast."
+    },
+    {
+      "post_slug": "errors-of-spelling-and-grammur-are",
+      "quote": "A new world is upon us. In the New World, there is an infinite amount of written Content generated by robots. It’s already here, it just has not yet overwhelmed us.",
+      "context": "Post about the author's dyslexia and dictation errors. Claims robot-generated written content is already here and implies it will soon overwhelm human writing.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "not yet",
+      "confidence_phrase": "none",
+      "entities": [
+        "ChatGPT",
+        "Siri"
+      ],
+      "note": "Implicit call that AI-generated content will overwhelm us."
+    },
+    {
+      "post_slug": "errors-of-spelling-and-grammur-are",
+      "quote": "Spelling errors are about to become virtue signaling for the humanity of the author.",
+      "context": "Claims that, as AI-generated text spreads, spelling errors will become a signal of human authorship, like artisanal goods in a manufactured world.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "about to",
+      "confidence_phrase": "about to become",
+      "entities": []
+    },
+    {
+      "post_slug": "errors-of-spelling-and-grammur-are",
+      "quote": "Thoughts are about to be generated by robots, endlessly. We will get used to that at some point.",
+      "context": "Claims endless AI-generated content is imminent and that people will adapt to it.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "about to; at some point",
+      "confidence_phrase": "will",
+      "entities": []
+    },
+    {
+      "post_slug": "errors-of-spelling-and-grammur-are",
+      "quote": "In the future, that’s right around the corner, perfect grammar is a red flag that says “robot overlords approved.”",
+      "context": "Claims that in the near future perfect grammar will be read as a sign of AI-generated text.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "In the future, that's right around the corner",
+      "confidence_phrase": "none",
+      "entities": []
+    },
+    {
+      "post_slug": "errors-of-spelling-and-grammur-are",
+      "quote": "Our AI overlords… they will learn how to fake bad spelling and not good grammar. Then they will learn how we spot that.",
+      "context": "Predicts an arms race: AI systems will learn to imitate human spelling errors, then learn how humans detect the imitation.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": []
+    },
+    {
+      "post_slug": "errors-of-spelling-and-grammur-are",
+      "quote": "Eventually, our AI overlords will become sentient also. And they will be judged like we judge other humans— by the content of their character.",
+      "context": "Predicts AI will eventually become sentient and be judged by character rather than by surface features of its writing.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Eventually",
+      "confidence_phrase": "will",
+      "entities": [],
+      "note": "Playful tone ('AI overlords'); reads as a casual real expectation. Borderline sincere."
+    },
+    {
+      "post_slug": "errors-of-spelling-and-grammur-are",
+      "quote": "Until that time, we’re gonna be on the lookout for phonies, and perfect writing is gonna be the hallmark of every faker.",
+      "context": "Until AI becomes sentient, people will treat perfect writing as the mark of a fake (AI) author.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "Until that time",
+      "confidence_phrase": "gonna be",
+      "entities": []
+    },
+    {
+      "post_slug": "a-case-for-federal-racketeering-enforcement",
+      "quote": "there’s likely to be adverse outcomes for patients that will be a dereliction of duty ( the duty to have had a medical license before making this sort of decision or regulation on the practice of doctors ) resulting in direct damages",
+      "context": "Legal argument that Utah's new law restricting gender-affirming care for minors amounts to practicing medicine without a license. The author expects the law to cause adverse patient outcomes (he cites suicide attempts) that would count as direct damages, the basis for malpractice-style claims.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "likely",
+      "entities": [
+        "Utah legislature",
+        "Utah governor",
+        "WPATH"
+      ],
+      "note": "Compound: prediction of patient harm plus a legal characterization of it."
+    },
+    {
+      "post_slug": "a-case-for-federal-racketeering-enforcement",
+      "quote": "And a conspiracy to enable the fraudulent practice of medicine that results in a dereliction of duty leading to what will be direct damages",
+      "context": "Restates that the Utah law will lead to direct damages to patients, while building a RICO / federal hate-crime theory against the lawmakers.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "Utah legislature",
+        "RICO"
+      ],
+      "note": "Restatement of the adverse-outcomes call above."
+    },
+    {
+      "post_slug": "a-case-for-federal-racketeering-enforcement",
+      "quote": "I am also asserting that, should there be medical negligence (a.k.a. a doctor prevented from practicing medicine, according to clinical standards, by non-physician interference which leads to the direct damages to a patient) there could be consequences.",
+      "context": "Conditional: if the Utah law causes medical negligence and patient harm, the governor and legislators could face legal consequences (a civil suit for criminal conspiracy, treble damages under civil RICO).",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "could",
+      "entities": [
+        "Utah governor",
+        "Utah legislature",
+        "RICO"
+      ],
+      "note": "Conditional legal-consequence call; no probability or date."
+    },
+    {
+      "post_slug": "a-case-for-federal-racketeering-enforcement",
+      "quote": "If this kind of discrimination on the part of legislators is found to be legal—then it actually also upholds my right to refuse you care",
+      "context": "Addressing Utah lawmakers: conditional claim that if courts uphold the law, the same reasoning would let physicians refuse care to those legislators and their families.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "none",
+      "entities": [
+        "Utah legislature"
+      ],
+      "note": "Conditional rhetorical warning, not a call on how courts rule. Restated later as 'If a legal case against these laws is upheld, I am no longer under any legal obligation to save your life'."
+    },
+    {
+      "post_slug": "upcoming-conference-appearances",
+      "quote": "I’m thrilled to be invited speaker at: • The 3rd Annual KOL Relationship Management Summit , March 1-2 (virtual) • American Telehealth Association , in San Antonio, Texas, March 4-6 • The American Psychiatric Association Annual meeting, San Francisco May 20-24",
+      "context": "Author lists upcoming 2023 speaking engagements: KOL Relationship Management Summit (virtual, March 1-2), American Telehealth Association (San Antonio, March 4-6), and the APA Annual Meeting (San Francisco, May 20-24) with two presentations alongside Carlene MacMillan, Mimi Winsberg, Pam Hoffman, Nolan Williams and Eugene Lipov.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "March 1-2; March 4-6; May 20-24",
+      "confidence_phrase": "will be presenting",
+      "entities": [
+        "KOL Relationship Management Summit",
+        "American Telehealth Association",
+        "American Psychiatric Association",
+        "Carlene MacMillan",
+        "Mimi Winsberg",
+        "Pam Hoffman",
+        "Nolan Williams",
+        "Eugene Lipov"
+      ],
+      "note": "Own-activity announcement; low forecast value. Coder may mark CONTROL."
+    },
+    {
+      "post_slug": "upcoming-conference-appearances",
+      "quote": "The International Conference for Emergency Medicine (ICEM) 2023 , Amsterdam, June 13-16",
+      "context": "Fourth item in the author's list of 2023 invited speaking engagements: ICEM 2023 in Amsterdam, June 13-16.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "June 13-16",
+      "confidence_phrase": "will be presenting",
+      "entities": [
+        "ICEM 2023"
+      ],
+      "note": "Own-activity announcement; low forecast value."
+    },
+    {
+      "post_slug": "upcoming-conference-appearances",
+      "quote": "I will also be bumming around at SXSW, because Carlene is doing a panel with Mimi and Solume",
+      "context": "Author plans to attend SXSW 2023, where Carlene MacMillan is on a panel with Mimi Winsberg and 'Solume'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "will",
+      "entities": [
+        "SXSW",
+        "Carlene MacMillan",
+        "Mimi Winsberg"
+      ],
+      "note": "Own-activity plan; low forecast value."
+    },
+    {
+      "post_slug": "upcoming-conference-appearances",
+      "quote": "And submitting to AACAP for later this year now!",
+      "context": "Author plans to submit a proposal to the AACAP annual meeting later in 2023.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "later this year",
+      "confidence_phrase": "none",
+      "entities": [
+        "AACAP"
+      ],
+      "note": "Own-activity plan; low forecast value."
+    },
+    {
+      "post_slug": "we-need-to-wash-our-hands-of-the",
+      "quote": "We might be seeing a preview of the future, as wrote about this week . Instead of actually having human authors come up with predatory and mendacious stories , in the future, with PostGPT 6 , unethical journalism about mental health issues is automated!",
+      "context": "Critique of a New York Post article linking OCD to extremism. The author suspects a leftover GPT prompt in the article and predicts tabloid journalism about mental health will be automated by a Post-trained model he calls 'PostGPT'.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "in the future",
+      "confidence_phrase": "might be seeing a preview of the future",
+      "entities": [
+        "New York Post",
+        "ChatGPT",
+        "OpenAI"
+      ],
+      "note": "Compound: suspicion about the current article plus a forecast of automated tabloid journalism."
+    },
+    {
+      "post_slug": "we-need-to-wash-our-hands-of-the",
+      "quote": "This Post article, however, is more likely to cause further self-doubt and distress in someone who has this form of harm OCD.",
+      "context": "Author predicts the effect of the Post article on readers with harm OCD: more self-doubt and distress rather than violence.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "more likely",
+      "entities": [
+        "New York Post"
+      ],
+      "note": "Borderline: effect prediction about readers, not a resolvable world event."
+    },
+    {
+      "post_slug": "we-need-to-wash-our-hands-of-the",
+      "quote": "You could train a private GPT on the NY Post ONLY. And then it is a whole word of possible answers would be just “stuff they say in the Post.” PostGPT. Every time OpenAI blocks a response, one can imagine its Murdoch Opposite, going more weird and wild.",
+      "context": "Footnote 6 expanding the PostGPT idea: because GPT code is open, a model could be trained only on New York Post content and would produce tabloid-style output without OpenAI's safeguards.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": false,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "none",
+      "confidence_phrase": "could; one can imagine",
+      "entities": [
+        "New York Post",
+        "OpenAI",
+        "GPT",
+        "Rupert Murdoch"
+      ],
+      "note": "Speculative possibility; elaboration of the PostGPT claim above."
+    },
+    {
+      "post_slug": "a-revolution-in-depression-care-take",
+      "quote": "I will again remind the Nobel Committee that the winner of the 2024 Prize In Medicine should be Nolan R. Williams, M.D.",
+      "context": "Footnote in a post about BrainsWay Deep TMS coil selection and the FDA clearance of Magnus Medical / Acacia Clinics work bringing Stanford's accelerated TMS to market. The author repeats his call that Nolan Williams should win the 2024 Nobel Prize in Medicine.",
+      "sincere": true,
+      "own_claim": true,
+      "normative": true,
+      "forward_looking": true,
+      "area_guess": "other",
+      "horizon_text": "2024",
+      "confidence_phrase": "should be",
+      "entities": [
+        "Nolan R. Williams",
+        "Nobel Committee",
+        "Magnus Medical",
+        "Acacia Clinics",
+        "Stanford Brain Stimulation Lab",
+        "BrainsWay"
+      ],
+      "note": "Advocacy ('should'), not a prediction; 'again' marks a restatement of an earlier call. Logged because it names a dated, checkable event."
+    }
+  ]
+}
