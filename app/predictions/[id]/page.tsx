@@ -36,7 +36,6 @@ export default async function PredictionPage({ params }: { params: Promise<{ id:
   const d = predictionDetail(ds, snap, id);
   if (!d) notFound();
   const { statement: st, forecaster: f, item, scored, event, outcome, rechecks, cluster, coderB } = d;
-  const state = st.status === "admitted" ? (scored?.state ?? "pending") : st.status === "void" ? "void" : "not_admitted";
   const title = st.status === "not_admitted" ? `Not admitted: ${st.reason_code}.` : st.status === "void" ? `Void: ${st.void_reason === "AMBIGUOUS" ? "the two coders read the claim differently" : st.void_reason}.` : scored ? `${STATE_WORD[scored.state]}${scored.brier !== null ? ` · Brier ${f2(scored.brier)}` : ""}.` : "Admitted.";
   const horizon = cluster.length ? recedingHorizon(ds, cluster, event?.title ?? "") : null;
   const lanes = scored ? trendLanesData(ds, [scored], { hero: id }) : null;

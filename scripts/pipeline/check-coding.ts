@@ -12,7 +12,8 @@ const iso = (s: unknown) => typeof s === "string" && /^\d{4}-\d{2}-\d{2}$/.test(
 let exit = 0;
 for (const file of process.argv.slice(2)) {
   const problems: string[] = [];
-  let out: any;
+  type Rec = { id: string; admit: boolean; [k: string]: unknown };
+  let out: { records?: Rec[]; [k: string]: unknown };
   try { out = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { console.log(`${file}: INVALID JSON ${(e as Error).message}`); exit = 1; continue; }
   const coder = String(out.coder ?? "").toUpperCase();
   const m = /coder-[abc]-(.+)\.json$/.exec(path.basename(file));
@@ -52,7 +53,7 @@ for (const file of process.argv.slice(2)) {
   }
   const missing = [...dates.keys()].filter((id) => !seen.has(id));
   if (missing.length) problems.push(`missing ${missing.length} statement ids: ${missing.slice(0, 10).join(", ")}${missing.length > 10 ? "..." : ""}`);
-  const admitted = (out.records ?? []).filter((r: any) => r.admit).length;
+  const admitted = (out.records ?? []).filter((r) => r.admit).length;
   console.log(`${path.basename(file)}: records ${out.records?.length ?? 0} · admitted ${admitted} · rejected ${(out.records?.length ?? 0) - admitted} · problems ${problems.length}`);
   for (const p of problems.slice(0, 25)) console.log("   " + p);
   if (problems.length) exit = 1;

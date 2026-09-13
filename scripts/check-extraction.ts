@@ -13,12 +13,13 @@ const textOf = (slug: string): string | null => {
 };
 let totalOk = 0, totalBad = 0;
 for (const file of process.argv.slice(2)) {
-  let j: any;
+  type Post = { slug: string; [k: string]: unknown };
+  let j: { packet?: string; posts?: Post[]; [k: string]: unknown };
   try { j = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { console.log(`${file}: INVALID JSON ${(e as Error).message}`); continue; }
   const packetName: string = j.packet ?? path.basename(file, ".json") + ".md";
-  const idx = JSON.parse(fs.readFileSync(path.join(ROOT, "data/raw/packets", packetName.replace(/-\d+\.md$/, "-index.json")), "utf8"));
-  const expected: string[] = (idx.find((p: any) => p.packet === packetName)?.posts ?? []).map((p: any) => p.slug);
-  const covered = new Set((j.posts ?? []).map((p: any) => p.slug));
+  const idx: { packet: string; posts?: Post[] }[] = JSON.parse(fs.readFileSync(path.join(ROOT, "data/raw/packets", packetName.replace(/-\d+\.md$/, "-index.json")), "utf8"));
+  const expected: string[] = (idx.find((p) => p.packet === packetName)?.posts ?? []).map((p) => p.slug);
+  const covered = new Set((j.posts ?? []).map((p) => p.slug));
   const missingPosts = expected.filter((s) => !covered.has(s));
   let ok = 0; const bad: string[] = [];
   for (const s of j.statements ?? []) {

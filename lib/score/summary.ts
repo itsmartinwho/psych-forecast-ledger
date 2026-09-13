@@ -5,7 +5,7 @@ import { mean, median, quantile } from "./brier";
 import { calibrationByBin, murphy } from "./calibration";
 import { clusterize, nearestBin, type BinMap } from "./items";
 import type { CalibrationReport, Composition, ForecasterScores, ScoredItem, SeriesPoint, TimingReport } from "./model";
-import { computePanel, itemWeights, pointBrier } from "./panel";
+import { itemWeights, pointBrier } from "./panel";
 import { wilson } from "./wilson";
 
 export function calibrationReport(items: ScoredItem[], map: BinMap, th: Thresholds): CalibrationReport {

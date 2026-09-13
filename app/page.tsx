@@ -33,7 +33,6 @@ export default function Home() {
   const recent = snap.items.filter((i) => i.panel === "headline" && i.o !== null).sort((a, b) => (a.deadline > b.deadline ? -1 : 1)).slice(0, 12);
   const shared = snap.shared_events.slice(0, 12);
   const totalStatements = ds.statements.length;
-  const resolvedEvents = snap.forecasters[hero.slug]?.headline.n_clusters ?? 0;
 
   return (
     <Shell current="/" dataVersion={ds.version.as_of} ruleVersion={ds.version.version}>
