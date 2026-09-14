@@ -18,7 +18,14 @@ const affiliations = packets[0].affiliations;
 const rows = packets.flatMap((p) => p.statements);
 const admitOf = (m: Map<string, Rec>, id: string): boolean | null => { const r = m.get(id) ?? m.get(`${id}-a`); return r ? r.admit : null; };
 const split = rows.filter((s) => { const a = admitOf(A, s.id), b = admitOf(B, s.id); return a !== null && b !== null && a !== b; });
-writeJson(rel("data/intake/packets/tiebreak-01.json"), { packet: "tiebreak-01.json", note: "admission splits between coder A and coder B: coder C decides", affiliations, statements: split });
+const SIZE = Number(process.argv[2] ?? 21);
+for (const f of fs.readdirSync(rel("data/intake/packets")).filter((x) => /^tiebreak-\d+\.json$/.test(x))) fs.unlinkSync(rel("data/intake/packets", f));
+let n = 0;
+for (let i = 0; i < split.length; i += SIZE) {
+  n++;
+  const name = `tiebreak-${String(n).padStart(2, "0")}.json`;
+  writeJson(rel("data/intake/packets", name), { packet: name, note: "admission splits between coder A and coder B: coder C decides", affiliations, statements: split.slice(i, i + SIZE) });
+}
 writeJson(rel("data/intake/splits-needing-tiebreak.json"), split.map((s) => s.id));
-appendAudit({ script: "build-tiebreak-packet", statements: rows.length, splits: split.length });
-console.log(`tiebreak packet: ${split.length} statements of ${rows.length}`);
+appendAudit({ script: "build-tiebreak-packet", statements: rows.length, splits: split.length, packets: n });
+console.log(`tiebreak packets: ${n} (${split.length} statements of ${rows.length})`);
