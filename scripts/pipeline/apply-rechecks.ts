@@ -17,7 +17,7 @@ for (const f of files) {
     const cur = byId.get(String(r.event_id));
     if (parsed.data.verdict === "overturned" && cur && r.corrected && typeof r.corrected === "object") {
       const c = r.corrected as Record<string, unknown>;
-      const next = { ...cur, state: c.state ?? cur.state, date: c.date ?? null, evidence: [...((c.evidence as unknown[]) ?? []), ...((cur.evidence as unknown[]) ?? [])], note: `${String(cur.note)} | overturned on recheck: ${String(r.argument).slice(0, 300)}`, version: Number(cur.version ?? 1) + 1, resolver: `${String(cur.resolver)}+${rec.rechecker}` };
+      const next = { ...cur, state: c.state ?? cur.state, date: c.date ?? null, evidence: [...((c.evidence as unknown[]) ?? []), ...((cur.evidence as unknown[]) ?? [])], note: ((base: string, suffix: string) => `${base.slice(0, Math.max(0, 900 - suffix.length))}${suffix}`)(String(cur.note), ` | overturned on recheck: ${String(r.argument).slice(0, 240)}`), version: Number(cur.version ?? 1) + 1, resolver: `${String(cur.resolver)}+${rec.rechecker}` };
       for (const e of next.evidence as Record<string, unknown>[]) if (!e.accessed) e.accessed = "2026-09-13";
       const ok = Outcome.safeParse(next);
       if (ok.success) { appendAudit({ script: "apply-rechecks", overturned: r.event_id, previous: cur }); byId.set(String(r.event_id), ok.data); parsed.data.applied = true; overturned++; }

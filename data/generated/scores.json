@@ -1,13 +1,11 @@
 {
   "agreement": {
     "admission": {
-      "agree": 67,
-      "kappa": -0.0694444444444443,
-      "n": 77
+      "agree": 2111,
+      "kappa": 0.7512283694186909,
+      "n": 2153
     },
-    "below_target": [
-      "admission"
-    ],
+    "below_target": [],
     "bin": {
       "agree": 58,
       "kappa": 0.8984854686860415,
@@ -25,9 +23,9 @@
       "n": 62
     },
     "recheck": {
-      "escalated": 7,
+      "escalated": 3,
       "n": 19,
-      "overturned": 0,
+      "overturned": 4,
       "upheld": 12,
       "upheld_share": 0.631578947368421
     },
@@ -2738,7 +2736,7 @@
       "brier": null,
       "conditional": false,
       "deadline": "2026-12-31",
-      "event_date": "2026-03-26",
+      "event_date": "2026-03-19",
       "event_id": "E-0046",
       "first_date": "2026-01-01",
       "forecaster": "owen",

@@ -163,10 +163,24 @@
  {
   "event_id": "E-0005",
   "state": "occurred",
-  "date": "2024-04-15",
+  "date": "2023-12-28",
   "checked_through": "2026-09-13",
   "realized_value": null,
   "evidence": [
+   {
+    "url": "https://ag.ny.gov/press-release/2023/attorney-general-james-secures-740000-online-mental-health-provider-its",
+    "title": "Attorney General James Secures $740,000 from Online Mental Health Provider for its Burdensome Cancellation Process (Cerebral: $200,000 penalties, $540,162 restitution)",
+    "publisher": "New York State Office of the Attorney General",
+    "date": "2023-12-28",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.techtarget.com/virtualhealthcare/news/366596831/New-York-AG-Orders-Cerebral-to-Pay-for-Cumbersome-Cancelation-Process",
+    "title": "New York AG Orders Cerebral to Pay for Cumbersome Cancelation Process",
+    "publisher": "TechTarget (Virtual Healthcare)",
+    "date": "2024-01-03",
+    "accessed": "2026-09-13"
+   },
    {
     "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/cerebral_joint_stipulation_order_permanent_injunction.pdf",
     "title": "Joint Stipulation for Order for Permanent Injunction, Monetary Judgment, Civil Penalty Judgment, and Other Relief Against Defendant Cerebral, Inc. (U.S. v. Cerebral, Inc., No. 1:24-cv-21376-JLK, S.D. Fla., Document 6, entered on FLSD docket 04/15/2024)",
@@ -223,10 +237,10 @@
     "accessed": "2026-09-13"
    }
   ],
-  "note": "Occurred. First qualifying docket entry: the FTC-referred stipulated order against Cerebral, Inc. (permanent injunction, $5.1M consumer redress, $10M civil penalty with $2M payable) over its data-disclosure and cancellation business practices, filed by DOJ in U.S. v. Cerebral, Inc., No. 1:24-cv-21376 (S.D. Fla.), Document 6 entered on the docket 2024-04-15 (complaint filed 2024-04-12; the FTC copy shows the judge's signature block blank, so court entry came later). The criterion counts a filed settlement over 'prescribing or business practices'. The prescribing-specific outcome came later: the EDNY non-prosecution agreement dated 2024-11-01 ($3.652M forfeiture, $2.922M deferred penalty; announced 2024-11-04) for Controlled Substances Act conduct in 2019-2022. The 2022 N.D. Iowa qui tam (1:22-cv-00055) was declined by the US and voluntarily dismissed on 2023-11-06, so it does not count.",
-  "resolver": "R1",
+  "note": "Occurred. First qualifying docket entry: the FTC-referred stipulated order against Cerebral, Inc. (permanent injunction, $5.1M consumer redress, $10M civil penalty with $2M payable) over its data-disclosure and cancellation business practices, filed by DOJ in U.S. v. Cerebral, Inc., No. 1:24-cv-21376 (S.D. Fla.), Document 6 entered on the docket 2024-04-15 (complaint filed 2024-04-12; the FTC copy shows the judge's signature block blank, so court entry came later). The criterion counts a filed settlement over 'prescribing or business practices'. The prescribing-specific outcome came later: the EDNY non-prosecution agreement da | overturned on recheck: The recorded resolution counts the FTC stipulation over data and cancellation practices as a settlement over Cerebral's 'business practices'. Under the same reading an earlier qualifying settlement exists. On 2023-12-28 the New York Attorne",
+  "resolver": "R1+X1",
   "resolved_at": "2026-09-13",
-  "version": 1
+  "version": 2
  },
  {
   "event_id": "E-0006",
@@ -398,10 +412,37 @@
  {
   "event_id": "E-0010",
   "state": "occurred",
-  "date": "2022-03-03",
+  "date": "2023-01-24",
   "checked_through": "2026-09-13",
   "realized_value": null,
   "evidence": [
+   {
+    "url": "https://clinicaltrials.gov/study/NCT05624268",
+    "title": "Efficacy, Safety, and Tolerability of COMP360 in Participants With TRD (COMP005), NCT05624268, COMPASS Pathways; Phase 3 since first posting 2022-11-22; actual start 2023-01-24",
+    "publisher": "ClinicalTrials.gov (US National Library of Medicine)",
+    "date": "2026-08-10",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://clinicaltrials.gov/api/int/studies/NCT05163496/history/2",
+    "title": "Frontline Clinician Psilocybin Study, NCT05163496, record version of 2022-07-13: phases Phase 1/Phase 2, actual start 2022-03-03",
+    "publisher": "ClinicalTrials.gov (US National Library of Medicine)",
+    "date": "2022-07-13",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://clinicaltrials.gov/api/int/studies/NCT05163496/history/3",
+    "title": "Frontline Clinician Psilocybin Study, NCT05163496, record version of 2023-05-17: first version labelled Phase 3",
+    "publisher": "ClinicalTrials.gov (US National Library of Medicine)",
+    "date": "2023-05-17",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://clinicaltrials.gov/study/NCT05163496?tab=history",
+    "title": "Frontline Clinician Psilocybin Study, NCT05163496, history of changes (versions 2021-12-06 to 2025-03-10)",
+    "publisher": "ClinicalTrials.gov (US National Library of Medicine)",
+    "accessed": "2026-09-13"
+   },
    {
     "url": "https://clinicaltrials.gov/study/NCT05163496",
     "title": "Frontline Clinician Psilocybin Study (NCT05163496), University of Washington, Phase 3, actual start 2022-03-03",
@@ -423,10 +464,10 @@
     "accessed": "2026-09-13"
    }
   ],
-  "note": "Criterion (b): the actual start date recorded on CT.gov for a trial registered as Phase 3 whose product is psilocybin, any sponsor, any indication; the readings say any Phase 3 psilocybin trial counts. A CT.gov search of Phase 3 psilocybin studies sorted by start date returns NCT05163496 first: University of Washington, 'Frontline Clinician Psilocybin Study', registered PHASE3, psilocybin 25 mg (Usona Institute) vs niacin, n=30, actual start 2022-03-03, completed, results posted. Applied as written: true on 2022-03-03. Flag for recheck: this is a small investigator-initiated trial. The first industry-run Phase 3 is Compass COMP005 (NCT05624268, first posted 2022-11-22, actual start 2023-01-24), then COMP006 (2023-02-14) and Usona uAspire (2024-03-13). If the registry means sponsor-run registrational trials only, the date is 2023-01-24; the state is occurred either way.",
-  "resolver": "R1",
+  "note": "Criterion (b): the actual start date recorded on CT.gov for a trial registered as Phase 3 whose product is psilocybin, any sponsor, any indication; the readings say any Phase 3 psilocybin trial counts. A CT.gov search of Phase 3 psilocybin studies sorted by start date returns NCT05163496 first: University of Washington, 'Frontline Clinician Psilocybin Study', registered PHASE3, psilocybin 25 mg (Usona Institute) vs niacin, n=30, actual start 2022-03-03, completed, results posted. Applied as written: true on 2022-03-03. Flag for recheck: this is a small investigator-initiated trial. The first industry-run Phase 3 is Compass COM | overturned on recheck: The recorded date relies on NCT05163496 being 'registered as Phase 3'. Its ClinicalTrials.gov version history shows otherwise: the versions of 2021-12-06, 2021-12-17 and 2022-07-13 list Phase 1/Phase 2, and the July 2022 version already car",
+  "resolver": "R1+X1",
   "resolved_at": "2026-09-13",
-  "version": 1
+  "version": 2
  },
  {
   "event_id": "E-0011",
@@ -1361,10 +1402,24 @@
  {
   "event_id": "E-0032",
   "state": "occurred",
-  "date": "2024-10-16",
+  "date": "2024-09-30",
   "checked_through": "2026-09-13",
   "realized_value": null,
   "evidence": [
+   {
+    "url": "https://mirrorindy.org/indianapolis-acadia-healthcare-patients-abuse-lawsuit-options-behavioral-health-hospital/",
+    "title": "Indiana patients describe abuse at Acadia facility in Lawrence (Dustin Fogt lawsuit filed Sept. 30, 2024 against Acadia Healthcare; held beyond his involuntary hold)",
+    "publisher": "Mirror Indy",
+    "date": "2024-10-03",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.theindianalawyer.com/articles/mental-health-treatment-center-facing-five-lawsuits-for-allegedly-mistreating-patients",
+    "title": "Mental health treatment center facing five lawsuits for allegedly mistreating patients (Fogt v. Options Behavioral Health System, Acadia Healthcare Company Inc., Marion Superior Court 49D13-2409-CT-044449, September 2024)",
+    "publisher": "The Indiana Lawyer",
+    "date": "2024-12-04",
+    "accessed": "2026-09-13"
+   },
    {
     "url": "https://www.courtlistener.com/api/rest/v4/search/?q=%22Acadia%20Healthcare%22&type=r&order_by=dateFiled%20asc&filed_after=2024-09-04",
     "title": "CourtListener RECAP search: 'Acadia Healthcare' dockets filed after 2024-09-04 (Kachrodia v. Acadia Healthcare Company, Inc., M.D. Tenn. 3:24-cv-01238, filed 2024-10-16)",
@@ -1399,10 +1454,10 @@
     "accessed": "2026-09-13"
    }
   ],
-  "note": "First qualifying filing found: the securities class action Kachrodia v. Acadia Healthcare Company, Inc., M.D. Tenn. No. 3:24-cv-01238, docketed 2024-10-16 (amended 2024-10-21; Dyar followed 2024-10-29; consolidated complaint 2025-07-10; motion to dismiss denied 2026-07-24). The complaint alleges that Acadia detained 'patients against their will, even when such detention was not medically necessary' and misled investors about it, the conduct described in the NYT investigation, so a shareholder class action counts under the criterion. Acadia first disclosed it in the 10-Q filed 2024-10-30. The only earlier post-2024-09-04 federal suit naming Acadia in RECAP (Jenkins, W.D. Tenn., 2024-09-18) is an overtime case. State-court patient suits filed between 2024-09-04 and 2024-10-16 could not be excluded (no state docket search), so the date could move earlier if one surfaces.",
-  "resolver": "R1",
+  "note": "First qualifying filing found: the securities class action Kachrodia v. Acadia Healthcare Company, Inc., M.D. Tenn. No. 3:24-cv-01238, docketed 2024-10-16 (amended 2024-10-21; Dyar followed 2024-10-29; consolidated complaint 2025-07-10; motion to dismiss denied 2026-07-24). The complaint alleges that Acadia detained 'patients against their will, even when such detention was not medically necessary' and misled investors about it, the conduct described in the NYT investigation, so a shareholder class action counts under the criterion. Acadia first disclosed it in the 10-Q filed 2024-10-30. The only earlier post-2024-09-04 federa | overturned on recheck: The resolver flagged that state-court patient suits were not searched. One exists: Dustin Fogt v. Options Behavioral Health System and Acadia Healthcare Company Inc., Marion Superior Court No. 49D13-2409-CT-044449, filed 2024-09-30 (Mirror ",
+  "resolver": "R1+X1",
   "resolved_at": "2026-09-13",
-  "version": 1
+  "version": 2
  },
  {
   "event_id": "E-0033",
@@ -1864,10 +1919,23 @@
  {
   "event_id": "E-0046",
   "state": "occurred",
-  "date": "2026-03-26",
+  "date": "2026-03-19",
   "checked_through": "2026-09-13",
   "realized_value": null,
   "evidence": [
+   {
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.ncwd.122985/gov.uscourts.ncwd.122985.1.0.pdf",
+    "title": "Complaint, M.M. v. Aetna Life Insurance Company, Bank of America Corporation, Bank of America Corporation Corporate Benefits Committee and the Bank of America Group Benefits Program, 3:26-cv-00219 (W.D.N.C.) (Doc. 1, filed 03/19/26)",
+    "publisher": "U.S. District Court for the Western District of North Carolina (via CourtListener RECAP)",
+    "date": "2026-03-19",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.courtlistener.com/api/rest/v4/search/?q=%22Mental%20Health%20Parity%22%20AND%20%221132(a)(3)%22&type=r&order_by=dateFiled%20asc&filed_after=2026-01-01&filed_before=2026-03-25",
+    "title": "CourtListener RECAP search: dockets filed 2026-01-01 to 2026-03-25 whose documents cite 'Mental Health Parity' and '1132(a)(3)' (M.M. v. Aetna Life Insurance Company, 3:26-cv-00219, filed 2026-03-19)",
+    "publisher": "Free Law Project (CourtListener)",
+    "accessed": "2026-09-13"
+   },
    {
     "url": "https://www.courtlistener.com/docket/73064586/hn-v-anthem-blue-cross-and-blue-shield/",
     "title": "H.N. v. Anthem Blue Cross and Blue Shield, 1:26-cv-11454 (D. Mass.) - docket (complaint filed March 26, 2026)",
@@ -1897,10 +1965,10 @@
     "accessed": "2026-09-13"
    }
   ],
-  "note": "Applied as written. H.N. v. Anthem BCBS, Marsh & McLennan Companies, Inc. and the Marsh McLennan Plan (D. Mass. 1:26-cv-11454, complaint docketed 2026-03-26) is brought by a plan beneficiary against the claims administrator and the employer that self-funds the plan. Its Second Cause of Action, 'Violation of MHPAEA (Breach of Fiduciary Duty and Claim for Appropriate Equitable Relief under 29 U.S.C. 1132(a)(3)) (ALL DEFENDANTS)', pleads fiduciary breaches by all defendants based on MHPAEA violations in the plan's administration of mental health benefits, so (a) and (b) are met; it is not a suit only under 502(a)(1)(B) against an insurer. Caveats: in substance a benefit-denial suit, not the Schlichter-style class action in the readings; RECAP coverage is partial; a like pleading predates 2026 (W v. Ascension Wisconsin, 2025-09-17). Later alternate: L.P. v. NC Dental Society (2026-04-13).",
-  "resolver": "R1",
+  "note": "Applied as written. H.N. v. Anthem BCBS, Marsh & McLennan Companies, Inc. and the Marsh McLennan Plan (D. Mass. 1:26-cv-11454, complaint docketed 2026-03-26) is brought by a plan beneficiary against the claims administrator and the employer that self-funds the plan. Its Second Cause of Action, 'Violation of MHPAEA (Breach of Fiduciary Duty and Claim for Appropriate Equitable Relief under 29 U.S.C. 1132(a)(3)) (ALL DEFENDANTS)', pleads fiduciary breaches by all defendants based on MHPAEA violations in the plan's administration of mental health benefits, so (a) and (b) are met; it is not a suit only under 502(a)(1)(B) against an | overturned on recheck: An earlier 2026 complaint fits the criterion as applied at least as well as H.N.: M.M. v. Aetna Life Insurance Co., Bank of America Corp., its Corporate Benefits Committee and its Group Benefits Program, W.D.N.C. No. 3:26-cv-00219, filed 20",
+  "resolver": "R1+X1",
   "resolved_at": "2026-09-13",
-  "version": 1
+  "version": 2
  },
  {
   "event_id": "E-0047",

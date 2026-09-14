@@ -80,6 +80,9 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
     const a = A.get(row.id) ?? A.get(`${row.id}-a`);
     const b = B.get(row.id) ?? B.get(`${row.id}-a`);
     if (!a || !b) { stats.uncoded++; statements.push({ ...base, status: "not_admitted", reason_code: "NOT_FORECAST", coders: {} } as Statement); continue; }
+    // coder B's own answers for every double-coded statement: the denominator of the agreement (kappa) tables
+    const evB = resolveRef("B", b.event);
+    coderB.push({ id: row.id, admit: b.admit, reason_code: (b.reason_code ?? null) as CoderB["reason_code"], event_id: evB && /^E-\d{4}$/.test(evB) ? evB : null, deadline: b.deadline ?? null, bin: (b.bin ?? null) as CoderB["bin"], asserts: b.asserts ?? null, coder: "B", coded_at: "2026-09-13" });
     let decider: RecA | null = null;
     let admitted = a.admit && b.admit;
     if (a.admit !== b.admit) {
@@ -102,7 +105,6 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
     const asP = assertsOf(coderP, primary), asO = assertsOf(coderO, other);
     const psP = pStatedOf(coderP, primary), psO = pStatedOf(coderO, other);
     const dlP = primary.deadline ?? null, dlO = other.deadline ?? null;
-    coderB.push({ id: row.id, admit: b.admit, reason_code: (b.reason_code ?? null) as CoderB["reason_code"], event_id: evO && /^E-\d{4}$/.test(evO) ? evO : null, deadline: dlO, bin: (b.bin ?? null) as CoderB["bin"], asserts: b.asserts ?? null, coder: "B", coded_at: "2026-09-13" });
     if (gated(primary === a ? "A" : "C", primary.event)) {
       statements.push({ ...base, status: "not_admitted", reason_code: "OUT_OF_AREA", coders: { ...coders, gate: "registry" } } as Statement); stats.gate_out_of_area++; continue;
     }

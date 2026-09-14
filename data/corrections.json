@@ -1,1 +1,10 @@
-[]
+[
+ {
+  "date": "2026-09-14",
+  "scope": "Coder agreement (kappa) on admission",
+  "change": "The coder-B match file now holds coder B's decision for every double-coded statement (2,153), not only the 77 statements that reached the admitted path. Admission kappa 0.75 replaces the -0.07 shown for a few minutes on 2026-09-14. Items, statements and the registry are byte-identical to release 1.0.0; the freeze record 1.0.1 hashes the new match file.",
+  "reason": "The merge script wrote the match file only for admitted-path statements, which biased the admission denominator.",
+  "version_from": "1.0.0",
+  "version_to": "1.0.1"
+ }
+]
