@@ -180,7 +180,7 @@ export function matrixData(ds: Dataset, snap: ScoreSnapshot): MatrixData {
   const best = shown.length ? shown.reduce((m, c) => (c.value! < m.value! ? c : m), shown[0]) : null;
   return {
     rows: ds.forecasters.map((f) => ({ id: f.slug, label: f.short, href: `/forecasters/${f.slug}` })),
-    cols: ds.areas.map((a) => ({ id: a.slug, label: a.name, href: `/areas/${a.slug}` })),
+    cols: ds.areas.map((a) => ({ id: a.slug, label: a.name, short: a.short, href: `/areas/${a.slug}` })),
     cells: cells.map((c) => ({ ...c, best: best ? c.row === best.row && c.col === best.col : false })),
     steps: 5, valueLabel: "Brier",
   };

@@ -1,6 +1,6 @@
 // Forecaster by area matrix (Lupi Editorial L16). Server component; the best cell is the one accent element.
 import type { MatrixData } from "@/components/charts/types";
-import { layoutMatrixHeat } from "@/components/charts/layout/MatrixHeat.layout";
+import { COL_LABEL_SIZE, COL_LINE_H, LEGEND_SWATCH, LEGEND_TEXT_GAP, layoutMatrixHeat } from "@/components/charts/layout/MatrixHeat.layout";
 import { Footnote } from "@/components/svg/Footnote";
 import { FONT, FRAME, LADDER, PALETTE } from "@/lib/tokens";
 
@@ -11,11 +11,18 @@ export function MatrixHeat({ data, size }: MatrixHeatProps) {
   const L = layoutMatrixHeat(data, w, h);
   return (
     <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label={`${data.valueLabel} by forecaster and area`} className="chart chart--matrix-heat" style={{ display: "block" }}>
-      {L.colLabels.map((c) => (
-        <text key={c.id} x={c.x} y={c.y} fontSize={7} fontWeight={600} letterSpacing="0.1em" fill={LADDER[3]} textAnchor="middle">
-          {c.href ? <a href={c.href}>{c.label}</a> : c.label}
-        </text>
-      ))}
+      {L.colLabels.map((c) => {
+        const lines = c.lines.map((line, i) => (
+          <tspan key={i} x={c.x} dy={i === 0 ? 0 : COL_LINE_H}>
+            {line}
+          </tspan>
+        ));
+        return (
+          <text key={c.id} x={c.x} y={c.y} fontSize={COL_LABEL_SIZE} fontWeight={600} letterSpacing="0.1em" fill={LADDER[3]} textAnchor="middle">
+            {c.href ? <a href={c.href}>{lines}</a> : lines}
+          </text>
+        );
+      })}
       {L.rowLabels.map((r) => (
         <text key={r.id} x={r.x} y={r.y} fontSize={FONT.rowLabel.size} fontWeight={FONT.rowLabel.weight} letterSpacing="0.08em" fill={LADDER[2]} textAnchor="end">
           {r.href ? <a href={r.href}>{r.label}</a> : r.label}
@@ -40,8 +47,8 @@ export function MatrixHeat({ data, size }: MatrixHeatProps) {
       ))}
       {L.legend.map((l) => (
         <g key={l.label}>
-          <rect x={l.x} y={l.y} width={9} height={9} rx={2} fill={l.fill} />
-          <Footnote x={l.x + 13} y={l.y + 7.5} anchor="start">{l.label}</Footnote>
+          <rect x={l.x} y={l.y} width={LEGEND_SWATCH} height={LEGEND_SWATCH} rx={2} fill={l.fill} />
+          <Footnote x={l.x + LEGEND_TEXT_GAP} y={l.y + 7.5} anchor="start">{l.label}</Footnote>
         </g>
       ))}
     </svg>
