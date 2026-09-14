@@ -22,7 +22,7 @@ export function composition(statements: Statement[], items: Item[], scored: Scor
   const found = statements.length;
   const sincere = statements.filter((s) => s.extraction.sincere && s.extraction.own_claim && s.extraction.forward_looking).length;
   const admitted = statements.filter((s) => s.status === "admitted").length;
-  const dated = items.filter((i) => i.panel === "headline").length;
+  const dated = items.filter((i) => i.panel === "dated").length;
   const undated = items.filter((i) => i.panel === "undated").length;
   const voidN = statements.filter((s) => s.status === "void").length;
   const notAdmitted = statements.filter((s) => s.status === "not_admitted").length;
@@ -31,17 +31,16 @@ export function composition(statements: Statement[], items: Item[], scored: Scor
   const voidByReason: Record<string, number> = {};
   for (const s of statements) if (s.status === "void" && s.void_reason) voidByReason[s.void_reason] = (voidByReason[s.void_reason] ?? 0) + 1;
   for (const i of scored) if (i.state === "void" && i.void_reason) voidByReason[i.void_reason] = (voidByReason[i.void_reason] ?? 0) + 1;
-  const headline = scored.filter((i) => i.panel === "headline");
-  const clusters = clusterize(headline);
+  const clusters = clusterize(scored);
   const resolvedClusters = clusters.filter((c) => c.resolved.length > 0);
-  const resolvedItems = headline.filter((i) => i.o !== null);
+  const resolvedItems = scored.filter((i) => i.o !== null);
   const perEvent = new Map<string, number>();
   for (const i of resolvedItems) perEvent.set(i.event_id, (perEvent.get(i.event_id) ?? 0) + 1);
   const totalResolved = [...perEvent.values()].reduce((s, v) => s + v, 0);
   const concentration = totalResolved > 0 ? Math.max(...perEvent.values()) / totalResolved : null;
   const affiliated = items.filter((i) => i.tags.includes("affiliated")).length;
   const extreme = items.filter((i) => i.bin === "A" || i.bin === "E").length;
-  const leads = items.filter((i) => i.panel === "headline" && i.deadline).map((i) => monthsBetween(i.statement_date, i.deadline as string));
+  const leads = items.filter((i) => i.panel === "dated" && i.deadline).map((i) => monthsBetween(i.statement_date, i.deadline as string));
   const prospective = items.filter((i) => i.tags.includes("prospective")).length;
   const byArea: Record<string, number> = {};
   for (const i of items) byArea[i.area] = (byArea[i.area] ?? 0) + 1;
@@ -52,7 +51,7 @@ export function composition(statements: Statement[], items: Item[], scored: Scor
     found, sincere, admitted, dated, undated, void: voidN, not_admitted: notAdmitted,
     not_admitted_by_reason: byReason, void_by_reason: voidByReason,
     clusters_headline: clusters.length, resolved_headline: resolvedClusters.length,
-    pending_headline: headline.filter((i) => i.state === "pending").length, known_true_headline: headline.filter((i) => i.state === "known_true").length,
+    pending_headline: scored.filter((i) => i.state === "pending").length, known_true_headline: scored.filter((i) => i.state === "known_true").length,
     scoreable_share: sincere > 0 ? wilson(dated, sincere) : null,
     undated_share: admitted > 0 ? undated / admitted : null,
     affiliated_share: admitted > 0 ? affiliated / admitted : null,
@@ -109,9 +108,11 @@ export function boldness(items: ScoredItem[]): ForecasterScores["boldness"] {
 }
 
 export interface SensitivityInputs {
-  recompute: (opts: { map?: BinMap; undatedMonths?: number; useMapForP?: boolean; panel: "headline" | "undated" | "all" }) => ScoredItem[];
+  recompute: (opts: { map?: BinMap; undatedMonths?: number; useMapForP?: boolean; panel: "dated" | "undated" | "all" }) => ScoredItem[];
   lexicon: Lexicon;
-  headline: ScoredItem[];
+  /** The headline panel: every admitted item. */
+  all: ScoredItem[];
+  dated: ScoredItem[];
   undated: ScoredItem[];
 }
 
@@ -119,15 +120,15 @@ export function sensitivity(inp: SensitivityInputs, th: Thresholds): ForecasterS
   const out: ForecasterScores["sensitivity"] = {};
   // every variant reports null below the headline cluster minimum, as the methodology page states
   const gate = <T extends { brier: number | null; n_clusters: number }>(r: T): T => ({ ...r, brier: r.n_clusters >= th.min_clusters_headline ? r.brier : null });
-  const base = gate(pointBrier(inp.headline));
-  out.baseline = { ...base, note: "Headline as published: dated items, lexicon v" + inp.lexicon.version };
+  const base = gate(pointBrier(inp.all));
+  out.baseline = { ...base, note: "Headline as published: every admitted item, lexicon v" + inp.lexicon.version };
   for (const [name, map] of Object.entries(inp.lexicon.sensitivity_maps)) {
-    const items = inp.recompute({ map: map as BinMap, useMapForP: true, panel: "headline" });
+    const items = inp.recompute({ map: map as BinMap, useMapForP: true, panel: "all" });
     out[`map_${name}`] = { ...gate(pointBrier(items)), note: `Lexicon replaced by the ${name} map (${(["A", "B", "C", "D", "E"] as Bin[]).map((b) => (map as BinMap)[b]).join(" / ")})` };
   }
-  out.non_affiliated = { ...gate(pointBrier(inp.headline.filter((i) => !i.affiliated))), note: "Affiliated items removed" };
-  out.prospective_only = { ...gate(pointBrier(inp.headline.filter((i) => i.tags.includes("prospective")))), note: "Items frozen before their outcome was public" };
-  out.undated_pooled = { ...gate(pointBrier([...inp.headline, ...inp.undated])), note: `Undated panel (${th.undated_window_months} months) pooled into the headline` };
-  out.undated_36 = { ...gate(pointBrier(inp.recompute({ undatedMonths: th.undated_sensitivity_months, panel: "undated" }))), note: `Undated panel at ${th.undated_sensitivity_months} months` };
+  out.non_affiliated = { ...gate(pointBrier(inp.all.filter((i) => !i.affiliated))), note: "Affiliated items removed" };
+  out.prospective_only = { ...gate(pointBrier(inp.all.filter((i) => i.tags.includes("prospective")))), note: "Items frozen before their outcome was public" };
+  out.dated_only = { ...gate(pointBrier(inp.dated)), note: "Dated items only: undated items removed (the rules 1.0 headline)" };
+  out.undated_36 = { ...gate(pointBrier(inp.recompute({ undatedMonths: th.undated_sensitivity_months, panel: "all" }))), note: `Undated window at ${th.undated_sensitivity_months} months instead of ${th.undated_window_months}` };
   return out;
 }

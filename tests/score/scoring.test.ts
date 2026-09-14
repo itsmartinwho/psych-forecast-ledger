@@ -22,7 +22,7 @@ function item(s: Statement, event_id: string, deadline: string | null, p: number
   const undated = deadline === null;
   return {
     id: s.id, forecaster: s.forecaster, statement_date: s.statement_date, quote: s.quote, source: s.source, area: "regulatory", event_id, condition_event_id: null, asserts: true,
-    deadline, deadline_origin: undated ? null : "anchor", deadline_text: undated ? null : "by year end", panel: undated ? "undated" : "headline",
+    deadline, deadline_origin: undated ? null : "anchor", deadline_text: undated ? null : "by year end", panel: undated ? "undated" : "dated",
     p, p_origin: "lexicon", bin: p >= 0.8 ? "A" : p >= 0.6 ? "B" : p >= 0.4 ? "C" : p >= 0.2 ? "D" : "E", phrase: "will", stated_number: null, tags: ["retrospective"], base_rate: null, market_ref_id: null,
     coder: "A", rule_version: "1.0.0", intake_at: "2026-09-13", hindsight_scan: "clean", version: 1, history: [], ...over,
   };

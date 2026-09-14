@@ -38,7 +38,7 @@ export interface KappaLive {
   note?: string;
 }
 
-export type SensitivityId = "ends_085_015" | "kent" | "flat_075" | "non_affiliated" | "prospective_only" | "undated_pooled" | "loo_max_change";
+export type SensitivityId = "ends_085_015" | "kent" | "flat_075" | "non_affiliated" | "prospective_only" | "dated_only" | "undated_36" | "loo_max_change";
 
 /** One person's sensitivity panel: the headline mean Brier recomputed under each variant. */
 export interface SensitivityLive {
@@ -101,7 +101,7 @@ export const fmt3 = (x: number): string => x.toFixed(3);
 
 // ---- headline ---------------------------------------------------------------------------------
 export const HEADLINE_PARAGRAPH =
-  "Each person's number is a Brier score, computed only on predictions that named a deadline and could be checked against a public source we named before we looked. Each prediction becomes a probability that the event happens by the deadline: the number the person gave, or, when they used words, a fixed table (will = 0.90, probably = 0.70, may = 0.50, unlikely = 0.30, never = 0.10). When the deadline passes, we record 1 if the event happened and 0 if it did not. The score for one prediction is the squared gap between the probability and the outcome: a confident claim that comes true scores 0.01, a confident claim that fails scores 0.81, and 'may' always scores 0.25. A person who predicted the same event several times gets one vote for that event. The headline is the average over events: 0 is perfect, 0.25 is a coin flip, 1 is confidently wrong every time. The range next to it shows how much the number could move if we redrew the events at random; we do not rank two people whose ranges overlap. Beside it we show what the published base rate would have scored on the same events, how often the person was simply on the right side, and the share of their claims that were too vague or undated to check. Plans for the person's own company and inside tips are not counted. Every line links to the quote, the source, the rule we wrote before checking, and the evidence.";
+  "Each person's number is a Brier score, computed on every prediction that could be checked against a public source we named before we looked. A prediction that named a deadline is checked at that deadline; one that named none is checked 24 months after it was made, a fixed window that nobody chooses per claim. Each prediction becomes a probability that the event happens by the deadline: the number the person gave, or, when they used words, a fixed table (will = 0.90, probably = 0.70, may = 0.50, unlikely = 0.30, never = 0.10). When the deadline passes, we record 1 if the event happened and 0 if it did not. The score for one prediction is the squared gap between the probability and the outcome: a confident claim that comes true scores 0.01, a confident claim that fails scores 0.81, and 'may' always scores 0.25. A person who predicted the same event several times gets one vote for that event. The headline is the average over events: 0 is perfect, 0.25 is a coin flip, 1 is confidently wrong every time. The range next to it shows how much the number could move if we redrew the events at random; we do not rank two people whose ranges overlap. Beside it we show what the published base rate would have scored on the same events, how often the person was simply on the right side, and the share of their claims that were too vague or undated to check. Plans for the person's own company and inside tips are not counted. Every line links to the quote, the source, the rule we wrote before checking, and the evidence.";
 
 // ---- rules -------------------------------------------------------------------------------------
 const T = THRESHOLDS;
@@ -113,14 +113,14 @@ export const RULES: Rule[] = [
   { id: "R4", group: "intake", rule: "Every event is written from one of eight templates, on the asset, with a named public source, before we look at the outcome.", rationale: "A criterion written after the outcome bends toward it." },
   { id: "R5", group: "intake", rule: "'A and B' splits into two events; 'A or B' is one event.", rationale: "One vote per event keeps a double claim from counting once." },
   { id: "R6", group: "intake", rule: "Only the person's words, read through the anchor table, set a deadline; the coder never invents a date.", rationale: "An invented deadline is the coder's forecast, not the person's." },
-  { id: "R7", group: "intake", rule: `A claim with no deadline goes to the undated panel with one uniform window of ${T.undated_window_months} months from the statement date.`, rationale: "Undated claims are scored apart so a soft 'soon' cannot pad or drain the headline." },
+  { id: "R7", group: "intake", rule: `A claim with no deadline in the person's words takes one uniform window of ${T.undated_window_months} months from the statement date.`, rationale: "A fixed window scores an undated claim without letting anyone pick its date." },
   { id: "R8", group: "intake", rule: "A stated number is the probability; a phrase maps to the five-bin lexicon; a denial takes 1 minus the bin value.", rationale: "The same word gets the same number for everyone." },
   { id: "R9", group: "intake", rule: "The strongest phrase in the claim sentence decides the bin; coders never read tone.", rationale: "Tone is where hindsight leaks in." },
   { id: "R10", group: "intake", rule: "A base rate is fixed at intake from an external table by event class and stage; it is halved when the window is shorter than the class median time to decision; with no class there is no base rate.", rationale: "We never learn a base rate from the items we score." },
   { id: "R11", group: "scoring", rule: "An item is scored only when its deadline is on or before the as-of date and the outcome is true or false.", rationale: "A claim that is already true but not yet due is still open to a change of criterion." },
   { id: "R12", group: "scoring", rule: "Outcome is 1 if the event happened by the deadline, else 0; the item score is (p minus outcome) squared.", rationale: "The Brier score rewards confidence only when it is right." },
   { id: "R13", group: "scoring", rule: "All of one person's items on one event form one cluster; the cluster score is the mean of its scored items; every metric counts a cluster as one observation.", rationale: "Repeating a claim six times is not six pieces of evidence." },
-  { id: "R14", group: "scoring", rule: "The headline panel and the undated panel are never pooled.", rationale: "Different windows are different questions." },
+  { id: "R14", group: "scoring", rule: `The headline scores every admitted claim. The dated-only and undated-only views are shown beside it, and the undated window is re-run at ${T.undated_sensitivity_months} months.`, rationale: "One score, with its parts in view. Rules 1.0 scored dated claims only; the change is logged in the corrections log." },
   { id: "R15", group: "scoring", rule: "Void and pending items are never scored; a void reason is logged on the item.", rationale: "An unscored item stays visible so the reader can count what was left out." },
   { id: "R16", group: "scoring", rule: `The base rate and the market are scored on the same clusters as the person, with their own probability in place of p; the coin flip is the constant ${fmt2(COIN_FLIP)}, not a row.`, rationale: "A score means little without a reference on the same events." },
   { id: "R17", group: "scoring", rule: "Two people are ranked only when both are at least T1, share a coverage tier, and their intervals do not overlap.", rationale: "A rank that the data cannot support is a false claim." },
@@ -186,7 +186,7 @@ export const BASE_RATES_VERSION = baseRates.version;
 export const METRICS: Metric[] = [
   {
     id: "M1", name: "Mean Brier (headline)",
-    formula: "B_c = mean over scored items i in cluster c of (p_i - o_i)^2. B = mean over resolved clusters c of B_c.",
+    formula: "B_c = mean over scored items i in cluster c of (p_i - o_i)^2. B = mean over resolved clusters c of B_c, over every admitted item (dated items at their deadline, undated items at the fixed window).",
     min_n: T.min_clusters_headline, min_n_source: "min_clusters_headline", unit: "0 perfect · 0.25 coin flip · 1 confidently wrong",
     note: `Also per area (null below ${T.min_clusters_headline} clusters in the area) and as a cumulative mean by calendar quarter, clusters ordered by resolution date.`,
   },
@@ -295,7 +295,8 @@ export const SENSITIVITY_VARIANTS: SensitivityVariant[] = [
   { id: "flat_075", label: "Flat 0.75", how: flat75 ? `Lexicon map ${mapText(flat75)}: every phrase is 0.75 on the side it leans to; 'may' stays 0.50.` : "Every lexicon item is 0.75 on the asserted side; 'may' stays 0.50." },
   { id: "non_affiliated", label: "Non-affiliated only", how: "Clusters with any affiliated item are removed." },
   { id: "prospective_only", label: "Prospective only", how: "Only clusters whose items all carry the prospective flag." },
-  { id: "undated_pooled", label: "Undated pooled", how: `Headline and undated clusters pooled, the undated ones at their ${T.undated_window_months}-month window.` },
+  { id: "dated_only", label: "Dated only", how: "Only items with a deadline in the person's own words; undated items removed. This was the rules 1.0 headline." },
+  { id: "undated_36", label: "Undated window 36 months", how: `Every item again, with undated items at a ${T.undated_sensitivity_months}-month window instead of ${T.undated_window_months}.` },
   { id: "loo_max_change", label: "Leave one out", how: "The largest change in the headline when one cluster is left out (the M2 stability number)." },
 ];
 export const SENSITIVITY_NOTE = `A lexicon variant changes only items whose p came from the lexicon: p = variant[bin] when the item asserts the event, else 1 - variant[bin]. Stated and registered probabilities never change. Each variant is null below ${T.min_clusters_headline} resolved clusters.`;
@@ -376,7 +377,7 @@ export const LIMITS: Limit[] = [
   { id: "L7", limit: "Markets are thin.", effect: "Few events have a public market question with a matching deadline; market skill usually has a small n." },
   { id: "L8", limit: "Splits and readings are coder decisions.", effect: "How a compound claim splits and which label counts as the claimed indication are logged at intake, but they are choices." },
   { id: "L9", limit: "One event can dominate.", effect: "A person who wrote often about one program has a score that leans on that program. Concentration reports the share." },
-  { id: "L10", limit: `The ${T.undated_window_months}-month undated window is a convention.`, effect: `The ${T.undated_sensitivity_months}-month run is a check, not a second answer. The undated panel is never pooled with the headline.` },
+  { id: "L10", limit: `The ${T.undated_window_months}-month undated window is a convention.`, effect: `An undated claim is scored at a window nobody chose per claim. The ${T.undated_sensitivity_months}-month run and the dated-only view show how much the window matters.` },
   { id: "L11", limit: "The registry is generous on indication.", effect: "An approval narrower than the claimed indication counts as true when the reading was logged at intake. This favours the person." },
 ];
 
@@ -387,7 +388,8 @@ export const CORRECTIONS_COLUMNS = ["date", "scope", "change", "reason", "from",
 
 // ---- version history ---------------------------------------------------------------------------
 export const VERSION_HISTORY: VersionRow[] = [
-  { version: RULES_VERSION.version, date: RULES_VERSION.date, as_of: RULES_VERSION.as_of, note: RULES_VERSION.note ?? "First release." },
+  { version: RULES_VERSION.version, date: RULES_VERSION.date, as_of: RULES_VERSION.as_of, note: RULES_VERSION.note ?? "Current rules." },
+  { version: "1.0.0", date: "2026-09-13", as_of: "2026-09-13", note: "First release. The headline scored dated claims only; undated claims sat in a separate 24-month panel that was never pooled." },
 ];
 
 // ---- page bundle -----------------------------------------------------------------------------

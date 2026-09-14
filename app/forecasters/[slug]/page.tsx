@@ -41,7 +41,7 @@ export default async function ForecasterPage({ params }: { params: Promise<{ slu
   const { forecaster: f, scores: s } = v;
   const h = s.headline;
   const reg = registryById(ds);
-  const years = [...new Set(v.headline.map((i) => yearOf(i.first_date)))].sort();
+  const years = [...new Set(v.items.map((i) => yearOf(i.first_date)))].sort();
   const horizonClusters = v.clusters.filter((c) => c.deadlines >= 2).slice(0, 6);
   const reasonRows = Object.entries(v.notAdmitted).sort((a, b) => b[1].length - a[1].length);
 
@@ -101,17 +101,17 @@ export default async function ForecasterPage({ params }: { params: Promise<{ slu
           ) : null;
         })}
 
-        {v.headline.length ? (
-          <Card wide title={`${plural(v.headline.length, "dated claim")} against the events of the field.`} sub="one lane per claim · solid dot = said · hollow = deadline · ticks above = ground-truth events" src="Trend lanes · headline items">
-            <Reveal><ChartFrame wide={<TrendLanes data={trendLanesData(ds, v.headline, { maxLanes: 30 })} size="wide" />} half={<TrendLanes data={trendLanesData(ds, v.headline, { maxLanes: 30 })} size="half" />} /></Reveal>
+        {v.items.length ? (
+          <Card wide title={`${plural(v.items.length, "claim")} against the events of the field.`} sub="one lane per claim · solid dot = said · hollow = deadline · ticks above = ground-truth events" src="Trend lanes · headline items">
+            <Reveal><ChartFrame wide={<TrendLanes data={trendLanesData(ds, v.items, { maxLanes: 30 })} size="wide" />} half={<TrendLanes data={trendLanesData(ds, v.items, { maxLanes: 30 })} size="half" />} /></Reveal>
           </Card>
         ) : null}
 
         {years.map((y) => {
-          const rows = v.headline.filter((i) => yearOf(i.first_date) === y);
+          const rows = v.items.filter((i) => yearOf(i.first_date) === y);
           const data = almanacData(ds, rows, { start: `${y}-01-01` });
           return (
-            <Card key={y} wide title={`${y}: ${plural(rows.length, "dated claim")}.`} sub="hairline = statement to deadline · solid = true · hollow = false · dashed = pending · tiny = void" src={`Almanac · ${f.name} · ${y}`}>
+            <Card key={y} wide title={`${y}: ${plural(rows.length, "claim")}.`} sub="hairline = statement to deadline · solid = true · hollow = false · dashed = pending · tiny = void" src={`Almanac · ${f.name} · ${y}`}>
               <Reveal><ChartFrame wide={<LedgerAlmanac data={data} size="wide" />} half={<LedgerAlmanac data={data} size="half" />} /></Reveal>
             </Card>
           );

@@ -21,7 +21,7 @@ export function nearestBin(p: number, map: BinMap): Bin {
 }
 
 export function effectiveDeadline(item: Item, undatedMonths: number): string {
-  return item.panel === "headline" && item.deadline ? item.deadline : addMonths(item.statement_date, undatedMonths);
+  return item.panel === "dated" && item.deadline ? item.deadline : addMonths(item.statement_date, undatedMonths);
 }
 
 /** p(E) for one statement under a bin map; stated numbers override the map. */
@@ -101,7 +101,7 @@ export interface BuildOptions {
   map: BinMap;                      // bin map in force (lexicon or a sensitivity map)
   undatedMonths?: number;
   useMapForP?: boolean;             // false: use recorded p; true: recompute from bins under `map`
-  panel?: "headline" | "undated" | "all";
+  panel?: "dated" | "undated" | "all";
 }
 
 /** Merge admitted statements into scored items (rule 7) and resolve each against the registry (rule 8). */

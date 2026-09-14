@@ -196,7 +196,7 @@ export type Recheck = z.infer<typeof Recheck>;
 // ---- intake ------------------------------------------------------------------------------------
 export const DeadlineOrigin = z.enum(["stated", "anchor", "table"]);
 export const POrigin = z.enum(["stated", "lexicon"]);
-export const Panel = z.enum(["headline", "undated"]);
+export const Panel = z.enum(["dated", "undated"]);
 export const TAGS = ["affiliated", "retrospective", "prospective", "table_dated", "denial", "stated_number", "conditional"] as const;
 export const Tag = z.enum(TAGS);
 export type Tag = z.infer<typeof Tag>;
@@ -236,7 +236,7 @@ export const Item = z.object({
   version: z.number().int().positive(),
   history: z.array(ItemVersion),
 }).superRefine((it, ctx) => {
-  if (it.panel === "headline" && !it.deadline) ctx.addIssue({ code: "custom", message: `${it.id}: headline item needs a deadline` });
+  if (it.panel === "dated" && !it.deadline) ctx.addIssue({ code: "custom", message: `${it.id}: dated item needs a deadline` });
   if (it.panel === "undated" && it.deadline) ctx.addIssue({ code: "custom", message: `${it.id}: undated item must not carry a deadline` });
   if (it.deadline && it.deadline <= it.statement_date) ctx.addIssue({ code: "custom", message: `${it.id}: deadline must follow the statement date` });
   if (it.p_origin === "lexicon" && !it.bin) ctx.addIssue({ code: "custom", message: `${it.id}: lexicon p needs a bin` });

@@ -30,7 +30,7 @@ export default function Home() {
   const all = snap.status.all;
   const lb = leaderboardData(ds, snap);
   const reg = registryById(ds);
-  const recent = snap.items.filter((i) => i.panel === "headline" && i.o !== null).sort((a, b) => (a.deadline > b.deadline ? -1 : 1)).slice(0, 12);
+  const recent = snap.items.filter((i) => i.o !== null).sort((a, b) => (a.deadline > b.deadline ? -1 : 1)).slice(0, 12);
   const shared = snap.shared_events.slice(0, 12);
   const totalStatements = ds.statements.length;
 

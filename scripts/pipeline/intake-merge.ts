@@ -115,9 +115,9 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
     if (pP === null) { statements.push({ ...base, status: "void", void_reason: "AMBIGUOUS", coders } as Statement); stats.void_ambiguous++; continue; }
     let p = pP, p_note: string | undefined;
     if (pO !== null && Math.abs(pP - pO) > 1e-9 && psP === null) { p = (pP + pO) / 2; p_note = `coders disagreed on the bin (${primary.bin} vs ${other.bin}); mean of ${pP.toFixed(2)} and ${pO.toFixed(2)}`; stats.bin_mismatch++; }
-    const panel = dlP ? "headline" : "undated";
+    const panel = dlP ? "dated" : "undated";
     const undatedEnd = addMonths(row.statement_date, thresholds.undated_window_months);
-    if (panel === "headline") stats.dated++; else stats.undated++;
+    if (panel === "dated") stats.dated++; else stats.undated++;
     const tags = new Set<string>(primary.tags ?? []);
     if (primary.affiliated) tags.add("affiliated");
     if (asP === false) tags.add("denial"); else tags.delete("denial"); // the tag follows the flag after any polarity flip

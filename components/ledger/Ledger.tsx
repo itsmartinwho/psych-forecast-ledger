@@ -45,7 +45,7 @@ export function Ledger({ rows, forecasters, areas }: LedgerProps) {
         {sel("forecaster", f, [{ id: "all", label: "all" }, ...forecasters.map((x) => ({ id: x.slug, label: x.name }))], "f")}
         {sel("area", a, [{ id: "all", label: "all" }, ...areas.map((x) => ({ id: x.slug, label: x.name }))], "a")}
         {sel("state", s, STATES, "s")}
-        {sel("panel", pn, [{ id: "all", label: "all" }, { id: "headline", label: "dated (headline)" }, { id: "undated", label: "undated panel" }], "p")}
+        {sel("panel", pn, [{ id: "all", label: "all" }, { id: "dated", label: "dated" }, { id: "undated", label: "undated (24-month window)" }], "p")}
         {sel("year", y, [{ id: "all", label: "all" }, ...years.map((yy) => ({ id: String(yy), label: String(yy) }))], "y")}
         <label className="eyebrow" style={{ display: "inline-flex", flexDirection: "column", gap: 4, flex: "1 1 180px" }}>
           text

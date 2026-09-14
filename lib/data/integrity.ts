@@ -55,7 +55,7 @@ export function integrityProblems(ds: Dataset): string[] {
   // window-closed items need an outcome or an explicit gap listing
   const asOf = ds.version.as_of;
   const outcomeSet = new Set(outcomeIds);
-  const gaps = ds.items.filter((i) => i.panel === "headline" && i.deadline && i.deadline <= asOf && !outcomeSet.has(i.event_id));
-  if (gaps.length) problems.push(`warning: ${gaps.length} headline items past deadline have no registry outcome (${[...new Set(gaps.map((g) => g.event_id))].slice(0, 8).join(", ")}...)`);
+  const gaps = ds.items.filter((i) => i.panel === "dated" && i.deadline && i.deadline <= asOf && !outcomeSet.has(i.event_id));
+  if (gaps.length) problems.push(`warning: ${gaps.length} dated items past deadline have no registry outcome (${[...new Set(gaps.map((g) => g.event_id))].slice(0, 8).join(", ")}...)`);
   return problems;
 }

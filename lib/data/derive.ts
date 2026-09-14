@@ -53,7 +53,7 @@ export function brierSeriesData(f: ForecasterScores, slug: string, label: string
 export function areaRungBars(ds: Dataset, f: ForecasterScores, items: ScoredItem[], heroArea?: string): RungBarsData {
   return {
     groups: ds.areas.map((a) => {
-      const resolved = items.filter((i) => i.area === a.slug && i.panel === "headline" && i.o !== null);
+      const resolved = items.filter((i) => i.area === a.slug && i.o !== null);
       const stat = f.by_area[a.slug];
       return { id: a.slug, label: a.name, count: resolved.length, value: stat?.brier ? stat.brier.point : null, n: stat?.n_clusters ?? 0, hero: a.slug === heroArea, href: `/areas/${a.slug}`, faint: resolved.length === 0 };
     }),
@@ -146,7 +146,7 @@ export function recedingHorizon(ds: Dataset, clusterItems: ScoredItem[], label: 
 
 // ---- ledger rows ------------------------------------------------------------------------------
 export type LedgerState = ScoredItem["state"] | "not_admitted";
-export interface LedgerRow { id: string; f: string; fn: string; d: string; y: number; a: string; s: LedgerState; r: string; p: number | null; pn: "headline" | "undated" | ""; dl: string; t: string; e: string; q: string }
+export interface LedgerRow { id: string; f: string; fn: string; d: string; y: number; a: string; s: LedgerState; r: string; p: number | null; pn: "dated" | "undated" | ""; dl: string; t: string; e: string; q: string }
 
 export function ledgerRows(ds: Dataset, snap: ScoreSnapshot): LedgerRow[] {
   const reg = registryById(ds);
@@ -194,7 +194,7 @@ export function predictionDetail(ds: Dataset, snap: ScoreSnapshot, id: string): 
 }
 
 export interface ForecasterView {
-  forecaster: Forecaster; scores: ForecasterScores; items: ScoredItem[]; headline: ScoredItem[]; undated: ScoredItem[];
+  forecaster: Forecaster; scores: ForecasterScores; items: ScoredItem[]; dated: ScoredItem[]; undated: ScoredItem[];
   clusters: ReturnType<typeof clusterize>; commitments: Statement[]; reports: Statement[]; notAdmitted: Record<string, Statement[]>; voids: Statement[];
   statements: Statement[];
 }
@@ -206,8 +206,8 @@ export function forecasterView(ds: Dataset, snap: ScoreSnapshot, slug: string): 
   const notAdmitted: Record<string, Statement[]> = {};
   for (const s of statements) if (s.status === "not_admitted" && s.reason_code) (notAdmitted[s.reason_code] ??= []).push(s);
   return {
-    forecaster, scores: snap.forecasters[slug], items, headline: items.filter((i) => i.panel === "headline"), undated: items.filter((i) => i.panel === "undated"),
-    clusters: clusterize(items.filter((i) => i.panel === "headline")), commitments: notAdmitted.CONTROL ?? [], reports: notAdmitted.REPORT ?? [], notAdmitted, voids: statements.filter((s) => s.status === "void"), statements,
+    forecaster, scores: snap.forecasters[slug], items, dated: items.filter((i) => i.panel === "dated"), undated: items.filter((i) => i.panel === "undated"),
+    clusters: clusterize(items), commitments: notAdmitted.CONTROL ?? [], reports: notAdmitted.REPORT ?? [], notAdmitted, voids: statements.filter((s) => s.status === "void"), statements,
   };
 }
 

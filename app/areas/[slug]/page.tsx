@@ -31,7 +31,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
   const snap = getScores();
   const area = areaOf(ds, slug);
   if (!area) notFound();
-  const items = snap.items.filter((i) => i.area === slug && i.panel === "headline");
+  const items = snap.items.filter((i) => i.area === slug);
   const statements = ds.items.filter((i) => i.area === slug);
   const counts = { true: items.filter((i) => i.state === "true").length, false: items.filter((i) => i.state === "false").length, pending: items.filter((i) => i.state === "pending").length, known_true: items.filter((i) => i.state === "known_true").length, void: items.filter((i) => i.state === "void").length, unresolved: items.filter((i) => i.state === "unresolved").length, not_admitted: 0, undated: snap.items.filter((i) => i.area === slug && i.panel === "undated").length };
   const classes = ds.base_rates.classes.filter((c) => c.p !== null);

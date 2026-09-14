@@ -155,9 +155,9 @@ function referentialRules(ds: Dataset, root: string, freeze: FreezeRelease[], er
     if (!ev) err(`${file} [${id}]: unknown event_id ${it.event_id}`);
     else if (ev.area !== it.area) err(`${file} [${id}]: area ${it.area} differs from event ${ev.id} area ${ev.area}`);
     if (it.condition_event_id && !events.has(it.condition_event_id)) err(`${file} [${id}]: unknown condition_event_id ${it.condition_event_id}`);
-    if (it.panel === "headline") {
-      if (!it.deadline_origin) err(`${file} [${id}]: headline item needs deadline_origin`);
-      if (!it.deadline_text) warn(`${file} [${id}]: headline item has no deadline_text`);
+    if (it.panel === "dated") {
+      if (!it.deadline_origin) err(`${file} [${id}]: dated item needs deadline_origin`);
+      if (!it.deadline_text) warn(`${file} [${id}]: dated item has no deadline_text`);
     }
     if (it.base_rate) {
       const cls = classes.get(it.base_rate.class);
@@ -199,8 +199,8 @@ function referentialRules(ds: Dataset, root: string, freeze: FreezeRelease[], er
     if (!b.admit && !b.reason_code) warn(`intake/coder-b [${b.id}]: not admitted without a reason_code`);
   }
   for (const it of ds.items) {
-    if (it.panel !== "headline" || coderB.has(it.id)) continue;
-    const msg = `intake/${it.forecaster}.json [${it.id}]: headline item has no coder-b record`;
+    if (it.panel !== "dated" || coderB.has(it.id)) continue;
+    const msg = `intake/${it.forecaster}.json [${it.id}]: dated item has no coder-b record`;
     if (released) err(msg); else warn(msg);
   }
   for (const rel of freeze) {
@@ -222,7 +222,7 @@ function referentialRules(ds: Dataset, root: string, freeze: FreezeRelease[], er
     for (const c of o.evidence) if (c.accessed > asOf) warn(`resolutions [${o.event_id}]: evidence accessed ${c.accessed} is after as_of ${asOf}`);
   }
   for (const it of ds.items) {
-    if (it.panel !== "headline" || !it.deadline || it.deadline > asOf) continue;
+    if (it.panel !== "dated" || !it.deadline || it.deadline > asOf) continue;
     const o = outcomes.get(it.event_id);
     const file = `intake/${it.forecaster}.json`;
     if (!o) { warn(`${file} [${it.id}]: deadline ${it.deadline} has passed and event ${it.event_id} has no outcome (unresolved)`); continue; }
@@ -270,7 +270,7 @@ export function validateDataset(root?: string): ValidationReport {
     counts.statements_not_admitted = ds.statements.filter((s) => s.status === "not_admitted").length;
     counts.statements_void = ds.statements.filter((s) => s.status === "void").length;
     counts.items = ds.items.length;
-    counts.items_headline = ds.items.filter((i) => i.panel === "headline").length;
+    counts.items_dated = ds.items.filter((i) => i.panel === "dated").length;
     counts.items_undated = ds.items.filter((i) => i.panel === "undated").length;
     counts.coder_b = ds.coder_b.length;
     counts.outcomes = ds.outcomes.length;

@@ -68,9 +68,8 @@ export function leaderboard(forecasters: Forecaster[], scores: Record<string, Fo
       note: f.coverage.tier === "C" ? "Ad hoc corpus: rows only, never ranked" : h.tier === "T0" ? "Fewer than 10 resolved events" : h.tier === "T1" ? "Provisional: fewer than 30 resolved events" : null,
     };
   });
-  const headlineItems = all.filter((i) => i.panel === "headline");
-  const base = referenceRow(headlineItems, (i) => i.base_p, th, seed, th.min_clusters_headline);
-  const market = referenceRow(headlineItems, (i) => i.market_p, th, seed, th.market_min_clusters);
+  const base = referenceRow(all, (i) => i.base_p, th, seed, th.min_clusters_headline);
+  const market = referenceRow(all, (i) => i.market_p, th, seed, th.market_min_clusters);
   const tierOf = (n: number): Tier => (n < th.min_clusters_headline ? "T0" : n < th.provisional_below_clusters ? "T1" : "T2");
   rows.push({ slug: "base-rate", name: "Base rate", kind: "reference", coverage_tier: null, tier: tierOf(base.n_clusters), label: base.n_clusters < th.min_clusters_headline ? "counts" : base.n_clusters < th.provisional_below_clusters ? "provisional" : "full", n_clusters: base.n_clusters, n_true: base.n_true, n_false: base.n_false, n_pending: 0, brier: base.brier, hit: { hits: 0, n: 0, rate: null }, rank: null, note: "Published base rates on the same events, fixed at intake" });
   rows.push({ slug: "market", name: "Prediction markets", kind: "reference", coverage_tier: null, tier: tierOf(market.n_clusters), label: market.n_clusters < th.market_min_clusters ? "counts" : "provisional", n_clusters: market.n_clusters, n_true: market.n_true, n_false: market.n_false, n_pending: 0, brier: market.brier, hit: { hits: 0, n: 0, rate: null }, rank: null, note: "Last market quote before each statement; indicative" });
@@ -89,7 +88,7 @@ export interface MatrixCell { forecaster: string; area: string; n_clusters: numb
 export function matrix(all: ScoredItem[], forecasters: string[], areas: string[], minCell: number): MatrixCell[] {
   const cells: MatrixCell[] = [];
   for (const f of forecasters) for (const a of areas) {
-    const clusters = clusterize(all.filter((i) => i.panel === "headline" && i.forecaster === f && i.area === a)).filter((c) => c.resolved.length > 0);
+    const clusters = clusterize(all.filter((i) => i.forecaster === f && i.area === a)).filter((c) => c.resolved.length > 0);
     const b = mean(clusters.map((c) => c.brier as number));
     cells.push({ forecaster: f, area: a, n_clusters: clusters.length, brier: clusters.length >= minCell ? b : null, shown: clusters.length >= minCell });
   }

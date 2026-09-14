@@ -46,7 +46,7 @@ export function computeScores(ds: Dataset): ScoreSnapshot {
   const marketRefs = new Map(ds.market_refs.map((m) => [m.id, m]));
   const areas = ds.areas.map((a) => a.slug);
 
-  const build = (items: Item[], opts: { map?: BinMap; undatedMonths?: number; useMapForP?: boolean; panel: "headline" | "undated" | "all" }) =>
+  const build = (items: Item[], opts: { map?: BinMap; undatedMonths?: number; useMapForP?: boolean; panel: "dated" | "undated" | "all" }) =>
     buildScoredItems(items, outcomes, marketRefs, { asOf, thresholds: th, map: opts.map ?? map, undatedMonths: opts.undatedMonths, useMapForP: opts.useMapForP, panel: opts.panel });
 
   const allScored = build(ds.items, { panel: "all" });
@@ -66,27 +66,29 @@ export function computeScores(ds: Dataset): ScoreSnapshot {
   for (const f of ds.forecasters) {
     const items = ds.items.filter((i) => i.forecaster === f.slug);
     const statements = ds.statements.filter((s) => s.forecaster === f.slug);
+    // rules 1.1.0: the headline scores every admitted item; dated and undated are views of the same panel
     const scored = allScored.filter((i) => i.forecaster === f.slug);
-    const headline = scored.filter((i) => i.panel === "headline");
+    const dated = scored.filter((i) => i.panel === "dated");
     const undated = scored.filter((i) => i.panel === "undated");
-    const headlinePanel = computePanel(headline, th, seed);
-    const nonAff = headline.filter((i) => !i.affiliated);
-    const nonAffPanel = nonAff.length < headline.length ? computePanel(nonAff, th, seed) : null;
-    const undated36 = build(items, { undatedMonths: th.undated_sensitivity_months, panel: "undated" });
+    const headlinePanel = computePanel(scored, th, seed);
+    const nonAff = scored.filter((i) => !i.affiliated);
+    const nonAffPanel = nonAff.length < scored.length ? computePanel(nonAff, th, seed) : null;
+    const undated36 = build(items, { undatedMonths: th.undated_sensitivity_months, panel: "all" });
     forecasters[f.slug] = {
       slug: f.slug,
       coverage_tier: f.coverage.tier,
       headline: headlinePanel,
       headline_non_affiliated: nonAffPanel && nonAffPanel.n_clusters >= th.affiliated_split_min_clusters && headlinePanel.n_clusters >= th.affiliated_split_min_clusters ? nonAffPanel : nonAffPanel ? { ...nonAffPanel, brier: null, hit: { ...nonAffPanel.hit, rate: null } } : null,
+      dated: computePanel(dated, th, seed),
       undated: computePanel(undated, th, seed),
       undated_36: computePanel(undated36, th, seed),
-      calibration: calibrationReport(headline, map, th),
+      calibration: calibrationReport(scored, map, th),
       composition: composition(statements, items, scored, th),
-      timing: timingReport(headline),
-      by_area: byArea(headline, areas, th, seed),
-      over_time: overTime(headline),
-      boldness: boldness(headline),
-      sensitivity: sensitivity({ recompute: (o) => build(items, o), lexicon: ds.lexicon, headline, undated }, th),
+      timing: timingReport(scored),
+      by_area: byArea(scored, areas, th, seed),
+      over_time: overTime(scored),
+      boldness: boldness(scored),
+      sensitivity: sensitivity({ recompute: (o) => build(items, o), lexicon: ds.lexicon, all: scored, dated, undated }, th),
     };
     status[f.slug] = countStatus(scored, statements, items);
   }

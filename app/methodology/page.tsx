@@ -387,7 +387,8 @@ export default function MethodologyPage() {
           { id: "flat_075" as const, value: pick("map_flat75").brier, n_clusters: pick("map_flat75").n_clusters },
           { id: "non_affiliated" as const, value: pick("non_affiliated").brier, n_clusters: pick("non_affiliated").n_clusters },
           { id: "prospective_only" as const, value: pick("prospective_only").brier, n_clusters: pick("prospective_only").n_clusters },
-          { id: "undated_pooled" as const, value: pick("undated_pooled").brier, n_clusters: pick("undated_pooled").n_clusters },
+          { id: "dated_only" as const, value: pick("dated_only").brier, n_clusters: pick("dated_only").n_clusters },
+          { id: "undated_36" as const, value: pick("undated_36").brier, n_clusters: pick("undated_36").n_clusters },
           { id: "loo_max_change" as const, value: s.headline.loo_max_change, n_clusters: s.headline.n_clusters },
         ],
       };

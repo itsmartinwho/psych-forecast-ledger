@@ -10,10 +10,10 @@ export interface SharedEventRow {
   forecasters: { slug: string; items: { deadline: string; p: number; state: ScoredItem["state"]; brier: number | null; first_date: string; market_p: number | null }[]; cluster_brier: number | null }[];
 }
 
-/** Registry events that two or more forecasters spoke about (headline panel). */
+/** Registry events that two or more forecasters spoke about (every admitted item). */
 export function sharedEvents(all: ScoredItem[]): SharedEventRow[] {
   const byEvent = new Map<string, ScoredItem[]>();
-  for (const i of all.filter((x) => x.panel === "headline")) (byEvent.get(i.event_id) ?? byEvent.set(i.event_id, []).get(i.event_id)!).push(i);
+  for (const i of all) (byEvent.get(i.event_id) ?? byEvent.set(i.event_id, []).get(i.event_id)!).push(i);
   const rows: SharedEventRow[] = [];
   for (const [event_id, items] of byEvent) {
     const slugs = [...new Set(items.map((i) => i.forecaster))];
@@ -34,7 +34,7 @@ export interface PairwiseRow { a: string; b: string; n_events: number; mean_diff
 
 /** M10: for every pair, d_j = BS_c(a, j) - BS_c(b, j) over shared resolved events; negative favours a. */
 export function pairwise(all: ScoredItem[], forecasters: string[], th: Thresholds, seed: number): PairwiseRow[] {
-  const clusters = clusterize(all.filter((i) => i.panel === "headline")).filter((c) => c.resolved.length > 0);
+  const clusters = clusterize(all).filter((c) => c.resolved.length > 0);
   const out: PairwiseRow[] = [];
   for (let i = 0; i < forecasters.length; i++) for (let j = i + 1; j < forecasters.length; j++) {
     const a = forecasters[i], b = forecasters[j];

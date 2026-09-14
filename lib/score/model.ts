@@ -2,7 +2,7 @@ import type { AreaSlug, Bin, ForecasterSlug, Tag, VoidReason } from "@/lib/data/
 import type { Interval } from "./wilson";
 import type { CalibrationBin, Murphy } from "./calibration";
 
-export type Panel = "headline" | "undated";
+export type Panel = "dated" | "undated";
 /** unresolved: the window has closed but the registry has no outcome yet (a listed data gap). */
 export type ItemState = "true" | "false" | "pending" | "known_true" | "void" | "unresolved";
 
@@ -95,9 +95,14 @@ export interface SeriesPoint { period: string; n: number; brier: number; cumulat
 export interface ForecasterScores {
   slug: ForecasterSlug;
   coverage_tier: "A" | "B" | "C";
+  /** Every admitted item: dated items at their stated deadline, undated items at the fixed window (rules 1.1.0). */
   headline: PanelScores;
   headline_non_affiliated: PanelScores | null;
+  /** Items with a deadline in the person's own words (the rules 1.0 headline). */
+  dated: PanelScores;
+  /** Items with no stated deadline, at the fixed window. */
   undated: PanelScores;
+  /** The whole panel with the undated window at the sensitivity length. */
   undated_36: PanelScores;
   calibration: CalibrationReport;
   composition: Composition;
