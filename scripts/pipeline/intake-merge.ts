@@ -149,7 +149,7 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
       id: row.id, forecaster: row.forecaster, statement_date: row.statement_date, quote: row.quote, context: row.context, source: row.source,
       area: (registryArea.get(evP) ?? "regulatory") as Item["area"], event_id: evP, condition_event_id: condRef && /^E-\d{4}$/.test(condRef) ? condRef : null,
       asserts: asP !== false, deadline: dlP, deadline_origin: dlP ? (primary.deadline_origin ?? "anchor") : null, deadline_text: primary.deadline_text ?? null, panel,
-      p: clamp(p), p_origin: primary.p_stated !== null ? "stated" : "lexicon", p_note, bin: (primary.bin ?? null) as Item["bin"], phrase: primary.phrase ?? null, stated_number: primary.p_stated !== null ? String(primary.p_stated) : null,
+      p: clamp(p), p_origin: primary.p_stated !== null ? "stated" : "lexicon", p_note, bin: (primary.bin ?? null) as Item["bin"], phrase: primary.phrase ? (primary.phrase.length > 120 ? primary.phrase.slice(0, 117).replace(/\s+\S*$/, "") + "..." : primary.phrase) : null, stated_number: primary.p_stated !== null ? String(primary.p_stated) : null,
       tags: [...tags] as Item["tags"], base_rate, market_ref_id: marketRefFor(evP, dlP ?? undatedEnd), coder: primary === a ? "A" : "C", rule_version: rules.version, intake_at: codedAt.get(row.id) ?? "2026-09-13", hindsight_scan: "clean", version: 1, history: [],
     };
     const parsed = Item.safeParse(item);

@@ -19,7 +19,8 @@ const decided = new Set<string>();
 if (onlyNew) for (const f of fs.readdirSync(dir).filter((x) => x.startsWith("coder-c-") && x.endsWith(".json"))) for (const r of readJson<{ records: Rec[] }>(rel("data/intake/coded", f)).records ?? []) decided.add(r.id.replace(/-[ab]$/, ""));
 const packets = fs.readdirSync(rel("data/intake/packets")).filter((x) => /^(code|recode)-\d+\.json$/.test(x)).map((x) => readJson<Packet>(rel("data/intake/packets", x)));
 const affiliations = packets[0].affiliations;
-const rows = packets.flatMap((p) => p.statements);
+// a statement can sit in a release packet and a re-coding packet; keep one row per id (the last packet wins)
+const rows = [...new Map(packets.flatMap((p) => p.statements).map((s) => [s.id, s])).values()];
 const admitOf = (m: Map<string, Rec>, id: string): boolean | null => { const r = m.get(id) ?? m.get(`${id}-a`); return r ? r.admit : null; };
 const split = rows.filter((s) => { const a = admitOf(A, s.id), b = admitOf(B, s.id); return a !== null && b !== null && a !== b && !(onlyNew && decided.has(s.id)); });
 const SIZE = Number((process.argv.find((a) => /^\d+$/.test(a)) ?? 21));

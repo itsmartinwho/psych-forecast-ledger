@@ -1,0 +1,187 @@
+{
+ "packet": "tiebreak-06.json",
+ "note": "admission splits between coder A and coder B: coder C decides",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "angermayer-0064",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-23",
+   "quote": "Psilocybin - the active molecule in magic mushrooms - will likely replace classic antidepressants over time after approval by medical authorities.",
+   "context": "In the 'Sexual enhancement' section of 'The future is enhanced', Angermayer lists psychedelics among enhancement tools and claims psilocybin will displace classic antidepressants once approved.",
+   "post_title": "The future is enhanced",
+   "source_url": "https://christianangermayer.substack.com/p/the-future-is-enhanced",
+   "area_guess": "practice_adoption",
+   "horizon_text": "over time after approval by medical authorities",
+   "confidence_phrase": "will likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Undated; adoption-scale claim."
+  },
+  {
+   "id": "owen-2461",
+   "forecaster": "owen",
+   "statement_date": "2025-02-04",
+   "quote": "I think I'm dubious that we're going to have a durable version of TMS for ADHD.",
+   "context": "Psychofarm Part 1. Asked which psychiatric conditions TMS is unlikely to help, Muir names ADHD, after saying he was wrong before about schizophrenia and eating disorders.",
+   "post_title": "TMS and The Future of Psychiatry, Part 1 with Dr. Owen Muir (Psychofarm Podcast transcript)",
+   "source_url": "https://psycho.farm/podcast/tms-and-the-future-of-psychiatry.html",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "dubious",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Negative, undated call."
+  },
+  {
+   "id": "angermayer-0176",
+   "forecaster": "angermayer",
+   "statement_date": "2024-05-08",
+   "quote": "if we produce the clinical data in phase three which we supposed I'm very confident to do yeah and by the way again in all the stages before we've produced it then it's an automatism that the FDA not a politician the FDA as a regulator will say the data is that good it's doing what it's supposed to do like yeah we've considered everything we're going to approve the drug",
+   "context": "After Earnings, May 2024. Angermayer says approval is not political: if atai produces Phase 3 data, which he is very confident of, FDA approval follows automatically.",
+   "post_title": "atai Life Sciences: Psychedelics, Mental Health, & Drug Development w/ Founder Christian Angermayer (YouTube, After Earnings)",
+   "source_url": "https://www.youtube.com/watch?v=66gvfEaBnNc",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "I'm very confident",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Own company (CONTROL); conditional."
+  }
+ ]
+}

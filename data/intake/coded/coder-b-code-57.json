@@ -6,48 +6,28 @@
       "id": "angermayer-0112",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:bpl-003-two-dose-induction-stronger-effect",
-        "template": "trial_result",
-        "area": "clinical_trial",
-        "asset": "BPL-003 (intranasal 5-MeO-DMT) two-dose induction regimen in treatment-resistant depression",
-        "entity": "atai Life Sciences / Beckley Psytech (sponsor)",
-        "title": "BPL-003 two-dose induction reports a larger antidepressant effect than the single-dose Phase 2b result",
-        "proposition": "The sponsor reports data in which a two-dose induction regimen of BPL-003 produces a larger reduction in depression score (MADRS) than the single-dose Phase 2b result."
-      },
+      "event": { "ref": "E-0106" },
       "condition": null,
       "deadline": null,
+      "deadline_text": null,
       "deadline_origin": null,
       "asserts": true,
       "bin": "C",
       "p_stated": null,
-      "note": "Trial-result claim with no date; ClinicalTrials.gov table date not available to the coder, so undated window."
+      "affiliated": true,
+      "note": "Trial data decide, not atai. 'Might' (C). No time words. Affiliated (atai/BPL-003)."
     },
     {
       "id": "angermayer-0113",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
       "note": "'Rich returns' has no threshold or series."
     },
     {
       "id": "angermayer-0114",
       "admit": false,
       "reason_code": "CONTROL",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Divest, spin out or partner own assets: atai's own decision."
+      "note": "atai decides what it does with its own non-psychedelic assets."
     },
     {
       "id": "angermayer-0115",
@@ -56,413 +36,220 @@
       "event": { "ref": "E-0047" },
       "condition": null,
       "deadline": null,
+      "deadline_text": null,
       "deadline_origin": null,
       "asserts": true,
       "bin": "A",
       "p_stated": null,
-      "note": "'Going to get approved' (Compass COMP360); 'move quicker' is not a deadline. Affiliated: Compass investor."
+      "affiliated": true,
+      "note": "FDA decides. 'Going to get approved' (A). 'Quicker' is not a date. Affiliated (Compass investor)."
     },
     {
       "id": "angermayer-0116",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:bpl-003-fda-approval-single-phase3",
-        "template": "drug_approval",
-        "area": "regulatory",
-        "asset": "BPL-003 (intranasal 5-MeO-DMT) for treatment-resistant depression: FDA approval on the basis of one Phase 3 trial",
-        "entity": "US Food and Drug Administration",
-        "title": "FDA approves BPL-003 (5-MeO-DMT) with only one Phase 3 trial",
-        "proposition": "The FDA approves BPL-003 (5-MeO-DMT) for treatment-resistant depression on an application whose efficacy evidence contains only one Phase 3 trial."
-      },
+      "event": { "ref": "E-0107" },
       "condition": null,
       "deadline": null,
+      "deadline_text": null,
       "deadline_origin": null,
       "asserts": true,
       "bin": "C",
       "p_stated": null,
-      "note": "FDA decides, so not CONTROL; affiliated (atai chairman)."
+      "affiliated": true,
+      "note": "FDA decides whether one Phase 3 suffices. 'Maybe', 'possibility' (C). Affiliated (atai/BPL-003)."
     },
     {
       "id": "angermayer-0117",
       "admit": false,
       "reason_code": "CONTROL",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Own company starts its own Phase 3 trial."
+      "note": "atai starts its own Phase 3 trial."
     },
     {
-      "id": "angermayer-0118-a",
+      "id": "angermayer-0118",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:vls-01-dmt-phase2-topline",
-        "template": "trial_result",
-        "area": "clinical_trial",
-        "asset": "VLS-01 (DMT) Phase 2 trial in treatment-resistant depression: topline results",
-        "entity": "atai Life Sciences (sponsor)",
-        "title": "VLS-01 (DMT) Phase 2 trial reports topline results",
-        "proposition": "atai Life Sciences reports topline results, positive or negative, of the Phase 2 trial of VLS-01 (DMT) in treatment-resistant depression."
-      },
+      "event": { "ref": "E-0109" },
       "condition": null,
       "deadline": "2026-03-31",
+      "deadline_text": "in the first quarter next year",
       "deadline_origin": "anchor",
       "asserts": true,
       "bin": "A",
       "p_stated": null,
-      "note": "Split: -a timing of DMT data ('first quarter next year' = Q1 2026); -b data quality."
-    },
-    {
-      "id": "angermayer-0118-b",
-      "admit": true,
-      "reason_code": null,
-      "event": {
-        "ref": "new:vls-01-dmt-phase2-primary-endpoint-met",
-        "template": "trial_result",
-        "area": "clinical_trial",
-        "asset": "VLS-01 (DMT) Phase 2 trial in treatment-resistant depression: primary endpoint",
-        "entity": "atai Life Sciences (sponsor)",
-        "title": "VLS-01 (DMT) Phase 2 trial meets its primary endpoint",
-        "proposition": "atai Life Sciences reports that the Phase 2 trial of VLS-01 (DMT) in treatment-resistant depression met its prespecified primary endpoint with statistical significance."
-      },
-      "condition": null,
-      "deadline": "2026-03-31",
-      "deadline_origin": "anchor",
-      "asserts": true,
-      "bin": "A",
-      "p_stated": null,
-      "note": "'Same quality of data as 5-MeO-DMT' read as a positive primary result. R-MDMA 'a little bit behind' is undated, not coded."
+      "affiliated": true,
+      "note": "'Same quality of data' as positive BPL-003 read as VLS-01 primary endpoint met. 'Going to' (A). R-MDMA part undated, not coded. Affiliated."
     },
     {
       "id": "angermayer-0119",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Buy call with no named series, threshold or period."
+      "note": "'Go back in psychedelic stocks' names no series or threshold."
     },
     {
       "id": "angermayer-0120-a",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:vls-01-dmt-phase2-topline",
-        "template": "trial_result",
-        "area": "clinical_trial",
-        "asset": "VLS-01 (DMT) Phase 2 trial in treatment-resistant depression: topline results",
-        "entity": "atai Life Sciences (sponsor)",
-        "title": "VLS-01 (DMT) Phase 2 trial reports topline results",
-        "proposition": "atai Life Sciences reports topline results, positive or negative, of the Phase 2 trial of VLS-01 (DMT) in treatment-resistant depression."
-      },
+      "event": { "ref": "E-0098" },
       "condition": null,
       "deadline": "2026-03-31",
+      "deadline_text": "in the first quarter",
       "deadline_origin": "anchor",
       "asserts": true,
       "bin": "A",
       "p_stated": null,
-      "note": "Split: -a DMT data in Q1 2026 (same event as 0118-a); -b 5-MeO-DMT open-label data in 2025."
+      "affiliated": true,
+      "note": "Split -a: VLS-01 (DMT) data in Q1 2026. 'We have' with 'going to' list (A). Affiliated (atai)."
     },
     {
       "id": "angermayer-0120-b",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:bpl-003-open-label-data-reported",
-        "template": "trial_result",
-        "area": "clinical_trial",
-        "asset": "BPL-003 (intranasal 5-MeO-DMT) Phase 2b program: open-label (extension) data",
-        "entity": "atai Life Sciences / Beckley Psytech (sponsor)",
-        "title": "BPL-003 (5-MeO-DMT) open-label data are reported",
-        "proposition": "The sponsor reports open-label (extension) data for BPL-003 from its Phase 2b program in treatment-resistant depression."
-      },
+      "event": { "ref": "E-0108" },
       "condition": null,
       "deadline": "2025-12-31",
+      "deadline_text": "this year",
       "deadline_origin": "anchor",
       "asserts": true,
       "bin": "A",
       "p_stated": null,
-      "note": "'This year' = 31 December 2025. R-MDMA data undated, not coded."
+      "affiliated": true,
+      "note": "Split -b: BPL-003 open-label data in 2025. 'Going to have' (A). R-MDMA data part has no date, not coded. Affiliated."
     },
     {
       "id": "angermayer-0121",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:bpl-003-open-label-data-reported",
-        "template": "trial_result",
-        "area": "clinical_trial",
-        "asset": "BPL-003 (intranasal 5-MeO-DMT) Phase 2b program: open-label (extension) data",
-        "entity": "atai Life Sciences / Beckley Psytech (sponsor)",
-        "title": "BPL-003 (5-MeO-DMT) open-label data are reported",
-        "proposition": "The sponsor reports open-label (extension) data for BPL-003 from its Phase 2b program in treatment-resistant depression."
-      },
+      "event": { "ref": "E-0108" },
       "condition": null,
       "deadline": null,
+      "deadline_text": "soon",
       "deadline_origin": null,
       "asserts": true,
       "bin": "A",
       "p_stated": null,
-      "note": "'Coming soon' is not a deadline; 'coming' is bin A."
+      "affiliated": true,
+      "note": "'Coming' (A); 'soon' is not a deadline. Affiliated (atai/BPL-003)."
     },
     {
       "id": "angermayer-0122",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "No entity or observable event for 'pharma's choice' of route."
+      "note": "Route-of-administration view names no entity, event or threshold."
     },
     {
       "id": "angermayer-0123",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Unnamed competitors; no entity."
+      "note": "Unnamed competitors; no observable event."
     },
     {
       "id": "angermayer-0124",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Lead and own the sector' has no threshold or series."
+      "note": "'Lead and own the sector' has no measurable threshold."
     },
     {
       "id": "angermayer-0125",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:psychedelic-first-line-guideline",
-        "template": "rule_or_policy",
-        "area": "practice_adoption",
-        "asset": "Psychedelic medicines (class) as a first-line treatment in a major clinical practice guideline",
-        "entity": "American Psychiatric Association or another major clinical guideline body",
-        "title": "A major practice guideline lists a psychedelic medicine as a first-line treatment",
-        "proposition": "A major clinical practice guideline for a psychiatric disorder lists a psychedelic medicine as a first-line treatment option."
-      },
+      "event": { "ref": "E-0111" },
       "condition": null,
       "deadline": null,
+      "deadline_text": "over time",
       "deadline_origin": null,
       "asserts": true,
       "bin": "B",
       "p_stated": null,
-      "note": "'Over time' is not a deadline. 'I believe' sets bin B; 'preventive' part not coded."
+      "affiliated": false,
+      "note": "Guideline bodies decide first-line status. 'I believe' (B). 'Over time' is not a deadline. Class event, no atai entity named."
     },
     {
       "id": "angermayer-0126",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:atai-big-pharma-partnership",
-        "template": "company_event",
-        "area": "company_market",
-        "asset": "atai Life Sciences psychedelic programs: partnership or licensing deal with a large pharmaceutical company",
-        "entity": "atai Life Sciences and a large pharmaceutical company (the counterparty decides)",
-        "title": "A large pharmaceutical company partners with atai on a psychedelic program",
-        "proposition": "atai Life Sciences announces a partnership, collaboration or licensing agreement with a large pharmaceutical company for one of its psychedelic programs."
-      },
+      "event": { "ref": "E-0110" },
       "condition": null,
       "deadline": null,
+      "deadline_text": null,
       "deadline_origin": null,
       "asserts": true,
       "bin": "B",
       "p_stated": null,
-      "note": "'If they want exposure' is framing, not a registry condition. Counterparty decides; affiliated."
+      "affiliated": true,
+      "note": "Large pharma decides to partner. 'Likely' (B). 'If they want exposure' is not an observable condition. Affiliated (atai)."
     },
     {
       "id": "angermayer-0127",
       "admit": false,
       "reason_code": "CONTROL",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Own decision about own shareholding."
+      "note": "His own decision on his own shares."
     },
     {
       "id": "angermayer-0128",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Outperform' has no benchmark or period."
+      "note": "'Continue to outperform' names no benchmark, threshold or series."
     },
     {
       "id": "angermayer-0129",
       "admit": false,
       "reason_code": "OUT_OF_AREA",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
       "note": "Interest-rate macro call."
     },
     {
       "id": "angermayer-0130",
       "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Biotech bull market' has no series, threshold or period."
+      "reason_code": "OUT_OF_AREA",
+      "note": "Biotech-wide market call, not a psychiatry company or treatment outcome."
     },
     {
-      "id": "angermayer-0131-a",
+      "id": "angermayer-0131",
       "admit": false,
       "reason_code": "CONTROL",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Redomiciliation vote: own corporate action, largest shareholder."
-    },
-    {
-      "id": "angermayer-0131-b",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Index 'eligibility', no index named and no inclusion asserted."
+      "note": "atai shareholder vote on its own redomiciliation; 'eligible for indices' is not an inclusion claim."
     },
     {
       "id": "angermayer-0132",
       "admit": false,
-      "reason_code": "NOT_FORECAST",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Restates a company announcement about cash runway; no own expectation."
+      "reason_code": "CONTROL",
+      "note": "Restates atai's own runway guidance; no own expectation about a third-party decision."
     },
     {
       "id": "angermayer-0133",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Several years behind' has no event or date."
+      "note": "'Several years behind' and 'needs a 2b' give no observable event or date."
     },
     {
       "id": "angermayer-0134",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Potential billion-dollar opportunity'; no event."
+      "note": "'Potential billion-dollar opportunity' and 'optionality' have no threshold or event."
     },
     {
       "id": "angermayer-0135",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "No entity, event or threshold for 'commercial future'."
+      "note": "'Pharma will focus on short-acting' names no entity, event or series."
     },
     {
       "id": "angermayer-0136",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Claim is about potential ('have the mix to become'), no date or asserted outcome."
+      "note": "'Only atai and Compass become cash-flow-generating' has no date, series or defined set."
     },
     {
       "id": "angermayer-0137",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Multiples larger' with no series or period."
+      "note": "'Multiples larger than analyst reports' has no series or threshold."
     },
     {
       "id": "angermayer-0138",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Pay off' has no threshold."
+      "note": "'Will pay off' has no threshold."
     },
     {
       "id": "angermayer-0139",
@@ -471,11 +258,13 @@
       "event": { "ref": "E-0047" },
       "condition": null,
       "deadline": "2026-12-31",
+      "deadline_text": "end of next year",
       "deadline_origin": "anchor",
       "asserts": true,
-      "bin": "B",
+      "bin": "A",
       "p_stated": null,
-      "note": "'End of next year' = 2026-12-31; 'my guess' qualifies 'will'. 'Hopefully early 2027' patients not coded. Affiliated."
+      "affiliated": true,
+      "note": "FDA decides. Strongest phrase 'is going to be approved' (A) over 'my guess'. Patients-in-2027 and Europe parts are 'hopefully', not coded. Affiliated (Compass investor)."
     },
     {
       "id": "angermayer-0140",
@@ -484,131 +273,79 @@
       "event": { "ref": "E-0028" },
       "condition": null,
       "deadline": "2028-10-24",
+      "deadline_text": "in two years, three years from now",
       "deadline_origin": "anchor",
       "asserts": true,
       "bin": "C",
       "p_stated": null,
-      "note": "'Two years, three years from now': outer bound 3 years. $10 billion is the lower figure named."
+      "affiliated": true,
+      "note": "Market sets the cap. Base case US$10bn; US$20bn is 'what I hope'. 'Could' (C). Outer bound three years. Affiliated (atai)."
     },
     {
       "id": "angermayer-0141",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:atai-market-cap-20b",
-        "template": "quantity_threshold",
-        "area": "company_market",
-        "asset": "atai Life Sciences / AtaiBeckley common stock (Nasdaq: ATAI, or its successor listing): market capitalization at or above US$20 billion",
-        "entity": "atai Life Sciences (AtaiBeckley)",
-        "title": "atai Life Sciences market capitalization at or above US$20 billion",
-        "proposition": "The market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing) is at or above US$20 billion at a market close, per Nasdaq closing price and shares outstanding in SEC filings."
-      },
+      "event": { "ref": "E-0112" },
       "condition": null,
       "deadline": "2030-10-24",
+      "deadline_text": "in the next five plus years",
       "deadline_origin": "anchor",
       "asserts": true,
-      "bin": "C",
+      "bin": "B",
       "p_stated": null,
-      "note": "'Next five plus years' = plus 5 years; lowest named figure $20 billion. Preventive-paradigm condition is not a registry event."
+      "affiliated": true,
+      "note": "Range 20-50bn; lowest stated threshold US$20bn. 'I think' (B). Five years from statement. Preventive-paradigm condition is not an observable event. Affiliated."
     },
     {
       "id": "angermayer-0142",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Vast majority of market share' with no defined market, series or period."
+      "note": "'Vast majority of market share' names no series or period."
     },
     {
       "id": "angermayer-0143",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:atai-market-cap-50b",
-        "template": "quantity_threshold",
-        "area": "company_market",
-        "asset": "atai Life Sciences / AtaiBeckley common stock (Nasdaq: ATAI, or its successor listing): market capitalization at or above US$50 billion",
-        "entity": "atai Life Sciences (AtaiBeckley)",
-        "title": "atai Life Sciences market capitalization at or above US$50 billion",
-        "proposition": "The market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing) is at or above US$50 billion at a market close, per Nasdaq closing price and shares outstanding in SEC filings."
-      },
+      "event": { "ref": "E-0113" },
       "condition": null,
       "deadline": null,
+      "deadline_text": null,
       "deadline_origin": null,
       "asserts": true,
-      "bin": "C",
+      "bin": "B",
       "p_stated": null,
-      "note": "Undated; 'can be' read as possibility. Societal condition is not a registry event."
+      "affiliated": true,
+      "note": "Market sets the cap. 'I believe' (B). No time words. AI-transition condition is not an observable event. Affiliated (atai)."
     },
     {
       "id": "angermayer-0144",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Healing to millions' has no series or threshold."
+      "note": "'Heal millions', 'undisputed leader' have no threshold or series."
     },
     {
       "id": "angermayer-0145",
       "admit": false,
       "reason_code": "OUT_OF_AREA",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
       "note": "US presidential election."
     },
     {
       "id": "angermayer-0146",
       "admit": false,
       "reason_code": "OUT_OF_AREA",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "AI and labour macro claim."
+      "note": "AI and labour macro call."
     },
     {
       "id": "angermayer-0147",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Rock 2026' has no observable outcome."
+      "note": "'Rock 2026' has no observable event."
     },
     {
       "id": "angermayer-0148",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Own that sector' has no threshold or series."
+      "note": "'Enter the medical mainstream' and 'own the sector' have no threshold or event."
     },
     {
       "id": "angermayer-0149-a",
@@ -617,58 +354,40 @@
       "event": { "ref": "E-0042" },
       "condition": null,
       "deadline": "2026-03-31",
+      "deadline_text": "Q1",
       "deadline_origin": "anchor",
       "asserts": true,
       "bin": "A",
       "p_stated": null,
-      "note": "Split: -a EMP-01 Phase 2a data in Q1 2026; -b BPL-003 End-of-Phase-2b meeting. Affiliated."
+      "affiliated": true,
+      "note": "Split -a: EMP-01 (R-MDMA) Phase 2a data in Q1 2026. 'Will' (A). Affiliated (atai)."
     },
     {
       "id": "angermayer-0149-b",
       "admit": true,
       "reason_code": null,
-      "event": {
-        "ref": "new:bpl-003-end-of-phase-2b-fda-meeting",
-        "template": "company_event",
-        "area": "regulatory",
-        "asset": "BPL-003 (intranasal 5-MeO-DMT): End-of-Phase-2 meeting with the FDA",
-        "entity": "US Food and Drug Administration (grants and holds the meeting)",
-        "title": "BPL-003 End-of-Phase-2b meeting with the FDA is held",
-        "proposition": "atai Life Sciences announces that the End-of-Phase-2 meeting with the FDA for BPL-003 (5-MeO-DMT) has taken place."
-      },
+      "event": { "ref": "E-0114" },
       "condition": null,
       "deadline": "2026-03-31",
+      "deadline_text": "Q1",
       "deadline_origin": "anchor",
       "asserts": true,
       "bin": "A",
       "p_stated": null,
-      "note": "FDA sets the meeting date; not purely own decision. Affiliated."
+      "affiliated": true,
+      "note": "Split -b: BPL-003 End-of-Phase-2b FDA meeting in Q1 2026; FDA schedules it. 'Will' (A). Affiliated (atai)."
     },
     {
       "id": "angermayer-0150",
       "admit": false,
       "reason_code": "NOT_FORECAST",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Present-tense eligibility statement; no inclusion asserted."
+      "note": "States current index eligibility; no inclusion asserted."
     },
     {
       "id": "angermayer-0151",
       "admit": false,
       "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Real companies from mere stories' has no observable event."
+      "note": "'Distinguish real companies from stories' has no observable event."
     }
   ]
 }

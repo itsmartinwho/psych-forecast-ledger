@@ -1,961 +1,126 @@
 [
   {
-    "slug": "fda-botanical-cannabis-ptsd-approval",
-    "title": "FDA approval of botanical cannabis (marijuana) for PTSD",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-botanical-cannabis-ptsd-approval",
-      "C:new:fda-approval-cannabis-ptsd"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves a botanical (whole-plant or smoked) cannabis drug product for post-traumatic stress disorder.",
-    "statement_ids": [
-      "doblin-0042"
-    ],
-    "first_date": "2016-04-07"
-  },
-  {
-    "slug": "us-insurer-covers-botanical-cannabis-ptsd",
-    "title": "A US health insurer covers FDA-approved botanical cannabis as a medicine",
+    "slug": "saint-neuromodulation-us-payer-coverage",
+    "title": "A US payer pays for the SAINT neuromodulation system",
     "template": "coverage_decision",
     "area": "payer_policy",
     "gate": "in",
     "gate_reason": null,
     "refs": [
-      "A:new:us-insurer-covers-fda-approved-botanical-cannabis",
-      "C:new:us-insurer-covers-cannabis-ptsd"
+      "B:new:saint-payer-coverage"
     ],
     "inverted_refs": [],
-    "proposition": "A US health insurer publishes a coverage policy that covers an FDA-approved botanical cannabis (marijuana) product for the indication on its FDA label.",
+    "proposition": "A US health plan or Medicare adopts a coverage policy or payment rate that pays for treatment with the SAINT neuromodulation system.",
     "statement_ids": [
-      "doblin-0042"
+      "owen-2436"
     ],
-    "first_date": "2016-04-07"
+    "first_date": "2022-09-07"
   },
   {
-    "slug": "dea-craker-research-cannabis-registration",
-    "title": "DEA registers Prof. Lyle Craker to manufacture cannabis for research",
-    "template": "rule_or_policy",
+    "slug": "betterhelp-hipaa-enforcement-hhs-doj",
+    "title": "HIPAA enforcement action over the BetterHelp health-data disclosures",
+    "template": "court_outcome",
     "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
+    "gate": "OUT_OF_AREA",
+    "gate_reason": "A HIPAA enforcement action over disclosure of user health data is a health-privacy legal outcome, not a decision about a psychiatric drug, device or treatment or about payment for and access to one.",
     "refs": [
-      "A:new:dea-registers-craker-cannabis-manufacturer",
-      "B:new:dea-craker-cannabis-registration"
+      "A:new:hipaa-enforcement-betterhelp",
+      "B:new:hipaa-enforcement-betterhelp"
     ],
     "inverted_refs": [],
-    "proposition": "The DEA grants Prof. Lyle Craker (University of Massachusetts Amherst) a Schedule I manufacturer registration to produce cannabis for research.",
+    "proposition": "HHS or the DOJ brings a HIPAA enforcement action against BetterHelp or Teladoc Health over the health-information disclosures described in the FTC complaint.",
     "statement_ids": [
-      "doblin-0047"
+      "owen-0344"
     ],
-    "first_date": "2016-08-15"
+    "first_date": "2023-03-12"
   },
   {
-    "slug": "dea-non-nida-research-cannabis-producer",
-    "title": "DEA registers a research-cannabis producer other than the NIDA contractor",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:dea-registers-non-nida-cannabis-producer"
-    ],
-    "inverted_refs": [],
-    "proposition": "The DEA grants a Schedule I manufacturer registration to produce cannabis for research to at least one producer other than the NIDA contract facility at the University of Mississippi.",
-    "statement_ids": [
-      "doblin-0047"
-    ],
-    "first_date": "2016-08-15"
-  },
-  {
-    "slug": "psychedelic-assisted-therapy-phase3-endpoint-met",
-    "title": "A Phase 3 trial of a psychedelic-assisted psychotherapy meets its primary endpoint",
-    "template": "trial_result",
-    "area": "clinical_trial",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:psychedelic-assisted-therapy-phase3-primary-endpoint-met"
-    ],
-    "inverted_refs": [],
-    "proposition": "A Phase 3 trial of a psychedelic-assisted psychotherapy, for any indication and any sponsor, reports its prespecified primary efficacy endpoint met with statistical significance.",
-    "statement_ids": [
-      "doblin-0055"
-    ],
-    "first_date": "2017-04-05"
-  },
-  {
-    "slug": "fda-midomafetamine-blinding-challenge",
-    "title": "FDA challenges the midomafetamine (MDMA-assisted therapy) Phase 3 results over an unsuccessful double-blind",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-midomafetamine-ptsd-unblinding-cited",
-      "B:new:mdma-phase3-results-challenged-on-blinding"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA's written action on the midomafetamine (MDMA-assisted therapy) application for PTSD cites an unsuccessful double-blind (functional unblinding) in the Phase 3 trials as a basis for not accepting the efficacy results.",
-    "statement_ids": [
-      "doblin-0057"
-    ],
-    "first_date": "2017-09-05"
-  },
-  {
-    "slug": "mdma-approval-carries-rems",
-    "title": "FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD carries a REMS",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-midomafetamine-ptsd-rems-at-approval",
-      "B:new:mdma-approval-carries-rems"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder with a Risk Evaluation and Mitigation Strategy (REMS) that controls how the treatment is provided by prescription.",
-    "statement_ids": [
-      "doblin-0067"
-    ],
-    "first_date": "2017-12-06"
-  },
-  {
-    "slug": "mdma-rems-sponsor-trained-therapists",
-    "title": "FDA labeling or REMS restricts midomafetamine (MDMA-assisted therapy) to sponsor-trained therapists",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-midomafetamine-ptsd-sponsor-trained-therapists-only",
-      "B:new:mdma-rems-maps-trained-therapists",
-      "A:new:fda-midomafetamine-rems-sponsor-training-required",
-      "B:new:mdma-at-label-restricts-administration-to-maps-trained-therapists"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder with labeling or a REMS under which only therapists who completed the sponsor's (MAPS or its successor's) training program may administer the treatment.",
-    "statement_ids": [
-      "doblin-0088",
-      "doblin-0094",
-      "doblin-0140"
-    ],
-    "first_date": "2019-04-01"
-  },
-  {
-    "slug": "mdma-rems-supervised-clinic-administration",
-    "title": "FDA labeling or REMS requires supervised in-clinic administration of midomafetamine, with no take-home dispensing",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-midomafetamine-ptsd-supervised-clinic-only",
-      "B:new:mdma-supervised-clinic-administration-only",
-      "A:new:fda-midomafetamine-ptsd-supervised-administration-only"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder with labeling or a REMS that requires administration under direct supervision in a certified healthcare setting, with no dispensing to patients for use outside that setting.",
-    "statement_ids": [
-      "doblin-0088",
-      "doblin-0192"
-    ],
-    "first_date": "2019-04-01"
-  },
-  {
-    "slug": "israel-moh-midomafetamine-ptsd-approval",
-    "title": "Israel Ministry of Health approval of midomafetamine (MDMA-assisted therapy) for PTSD",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:israel-moh-midomafetamine-ptsd-approval",
-      "B:new:mdma-israel-moh-approval",
-      "B:new:israel-moh-approves-mdma-at-ptsd"
-    ],
-    "inverted_refs": [],
-    "proposition": "The Israel Ministry of Health registers (approves) midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
-    "statement_ids": [
-      "doblin-0093",
-      "doblin-0106",
-      "doblin-0210"
-    ],
-    "first_date": "2019-09-04"
-  },
-  {
-    "slug": "health-canada-midomafetamine-ptsd-approval",
-    "title": "Health Canada approval of midomafetamine (MDMA-assisted therapy) for PTSD",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:health-canada-midomafetamine-ptsd-approval",
-      "B:new:mdma-health-canada-approval",
-      "B:new:health-canada-approves-mdma-at-ptsd"
-    ],
-    "inverted_refs": [],
-    "proposition": "Health Canada issues a Notice of Compliance (marketing authorization) for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
-    "statement_ids": [
-      "doblin-0093",
-      "doblin-0106",
-      "doblin-0173",
-      "doblin-0210"
-    ],
-    "first_date": "2019-09-04"
-  },
-  {
-    "slug": "competitor-mdma-ptsd-program",
-    "title": "A second sponsor pursues its own MDMA-for-PTSD program with its own clinical data",
-    "template": "company_event",
-    "area": "clinical_trial",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:generic-mdma-competitor-own-data-program",
-      "C:new:mdma-ptsd-competitor-pivotal-trial"
-    ],
-    "inverted_refs": [],
-    "proposition": "A sponsor other than MAPS Public Benefit Corporation (or its successor) starts its own pivotal trial of, or files a marketing application for, an MDMA (midomafetamine) product for post-traumatic stress disorder supported by its own clinical data.",
-    "statement_ids": [
-      "doblin-0095"
-    ],
-    "first_date": "2019-09-10"
-  },
-  {
-    "slug": "fda-midomafetamine-non-ptsd-approval",
-    "title": "FDA approval of midomafetamine (MDMA-assisted therapy) for an indication other than PTSD",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-midomafetamine-other-indication-approval"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves midomafetamine (MDMA-assisted therapy) for an indication other than post-traumatic stress disorder.",
-    "statement_ids": [
-      "doblin-0102"
-    ],
-    "first_date": "2019-12-02"
-  },
-  {
-    "slug": "fda-accepts-maps-mdma-program-proposals",
-    "title": "FDA accepts MAPS' three MDMA program proposals",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:fda-accepts-maps-mdma-protocol-proposals"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA accepts all three of MAPS' proposals for the MDMA-assisted psychotherapy for PTSD program: the therapist MDMA-experience protocol, the Expanded Access program and the co-therapist credential requirements.",
-    "statement_ids": [
-      "doblin-0098"
-    ],
-    "first_date": "2019-12-02"
-  },
-  {
-    "slug": "dea-bronx-va-mdma-study-registration",
-    "title": "DEA grants the Schedule I registration for the Bronx VA MDMA-assisted therapy PTSD study",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:dea-registration-bronx-va-mdma-ptsd-study",
-      "B:new:dea-registration-bronx-va-mdma-ptsd-study"
-    ],
-    "inverted_refs": [],
-    "proposition": "The DEA grants the Schedule I research registration that the MAPS-sponsored study of MDMA-assisted therapy for PTSD at the Bronx VA needs to begin.",
-    "statement_ids": [
-      "doblin-0132"
-    ],
-    "first_date": "2021-03-15"
-  },
-  {
-    "slug": "texas-reschedules-mdma",
-    "title": "Texas reschedules MDMA out of Schedule I after FDA approval",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:texas-reschedules-mdma-after-fda-approval",
-      "B:new:texas-reschedules-mdma-after-fda-approval"
-    ],
-    "inverted_refs": [],
-    "proposition": "Texas moves MDMA (midomafetamine), or the FDA-approved midomafetamine drug product, out of Schedule I of the Texas Schedules of Controlled Substances into a schedule that permits prescription.",
-    "statement_ids": [
-      "doblin-0148"
-    ],
-    "first_date": "2021-06-04"
-  },
-  {
-    "slug": "second-sponsor-mdma-fda-approval",
-    "title": "FDA approval of an MDMA drug product from a second sponsor",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-approval-second-sponsor-mdma-product",
-      "B:new:second-sponsor-mdma-product-fda-approval"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves a drug product whose active ingredient is MDMA (midomafetamine), for any indication, under an application held by a sponsor other than MAPS Public Benefit Corporation, Lykos Therapeutics or a successor.",
-    "statement_ids": [
-      "doblin-0151"
-    ],
-    "first_date": "2021-06-04"
-  },
-  {
-    "slug": "us-psychedelic-treatment-centers-count",
-    "title": "About 5,000 to 6,000 psychedelic treatment centers in the United States",
+    "slug": "psilocybin-prescriptions-exceed-classic-antidepressants",
+    "title": "Psilocybin prescription volume reaches classic antidepressant prescription volume",
     "template": "quantity_threshold",
     "area": "practice_adoption",
     "gate": "in",
     "gate_reason": null,
     "refs": [
-      "B:new:us-psychedelic-treatment-centers-5000-to-6000-by-2031",
-      "C:new:us-psychedelic-treatment-centers-5000"
+      "B:new:psilocybin-prescriptions-exceed-classic-antidepressants"
     ],
     "inverted_refs": [],
-    "proposition": "The number of psychedelic-assisted therapy treatment centers in the United States is at or beyond about 5,500 (the 5,000 to 6,000 range stated, with the fixed band) by the period end, per the named public clinic count.",
+    "proposition": "Annual prescription volume of psilocybin drug products is at or above the annual prescription volume of classic antidepressants by the period end, per a named prescription-volume series.",
     "statement_ids": [
-      "doblin-0142"
+      "angermayer-0064"
     ],
-    "first_date": "2021-06-04"
+    "first_date": "2024-02-23"
   },
   {
-    "slug": "dea-mdma-rescheduling",
-    "title": "DEA reschedules midomafetamine (MDMA) out of Schedule I",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:dea-reschedules-mdma",
-      "C:new:dea-mdma-rescheduling"
-    ],
-    "inverted_refs": [],
-    "proposition": "The DEA issues a final rule that moves midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, out of Schedule I of the Controlled Substances Act.",
-    "statement_ids": [
-      "doblin-0157",
-      "doblin-0182"
-    ],
-    "first_date": "2021-10-27"
-  },
-  {
-    "slug": "dea-mdma-schedule-three-or-four",
-    "title": "DEA places midomafetamine (MDMA) in Schedule III or Schedule IV",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:dea-places-mdma-in-schedule-iii-or-iv",
-      "C:new:dea-mdma-schedule-3-or-4"
-    ],
-    "inverted_refs": [],
-    "proposition": "The DEA rule that reschedules midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, places it in Schedule III or Schedule IV of the Controlled Substances Act.",
-    "statement_ids": [
-      "doblin-0182"
-    ],
-    "first_date": "2022-12-12"
-  },
-  {
-    "slug": "fda-action-midomafetamine-ptsd-nda",
-    "title": "FDA action (approval or complete response letter) on the midomafetamine NDA for PTSD",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-action-midomafetamine-ptsd-nda",
-      "B:new:fda-action-on-mdma-at-nda-ptsd"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA issues its action, an approval or a complete response letter, on the new drug application for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
-    "statement_ids": [
-      "doblin-0197"
-    ],
-    "first_date": "2023-09-14"
-  },
-  {
-    "slug": "mdma-at-cumulative-patients-1-4m",
-    "title": "About 1.4 million people treated with MDMA-assisted therapy",
-    "template": "quantity_threshold",
-    "area": "practice_adoption",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:mdma-at-patients-treated-1-4-million-by-2032"
-    ],
-    "inverted_refs": [],
-    "proposition": "The cumulative number of people treated with midomafetamine (MDMA-assisted therapy) for PTSD is at or beyond about 1.4 million by the period end, per the named public count.",
-    "statement_ids": [
-      "doblin-0211"
-    ],
-    "first_date": "2024-02-19"
-  },
-  {
-    "slug": "spravato-annual-sales-1bn",
-    "title": "Spravato annual sales at or above US$1 billion",
-    "template": "quantity_threshold",
-    "area": "company_market",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:spravato-annual-sales-1bn",
-      "C:new:spravato-blockbuster-annual-sales"
-    ],
-    "inverted_refs": [],
-    "proposition": "Worldwide annual net sales of Spravato (esketamine nasal spray) are at or above US$1 billion in a calendar year, per Johnson & Johnson's reported product sales.",
-    "statement_ids": [
-      "angermayer-0080"
-    ],
-    "first_date": "2024-06-24"
-  },
-  {
-    "slug": "fda-ibogaine-sud-approval",
-    "title": "FDA approval of ibogaine for a substance use disorder",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:fda-approves-ibogaine-for-substance-use-disorder"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves an ibogaine drug product for a substance use disorder indication.",
-    "statement_ids": [
-      "doblin-0217"
-    ],
-    "first_date": "2024-09-22"
-  },
-  {
-    "slug": "maps-ibogaine-program-funding",
-    "title": "MAPS ibogaine research for substance use disorders is fully funded",
-    "template": "company_event",
-    "area": "company_market",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:maps-ibogaine-sud-research-fully-funded"
-    ],
-    "inverted_refs": [],
-    "proposition": "MAPS announces that its ibogaine research program for substance use disorders is fully funded through FDA approval by public money or donors.",
-    "statement_ids": [
-      "doblin-0217"
-    ],
-    "first_date": "2024-09-22"
-  },
-  {
-    "slug": "lykos-financing-after-crl",
-    "title": "The sponsor of midomafetamine (MDMA-assisted therapy) raises new financing after the 2024 complete response letter",
-    "template": "company_event",
-    "area": "company_market",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:lykos-financing-after-crl",
-      "B:new:lykos-raises-funding-for-fda-agreed-mdma-path"
-    ],
-    "inverted_refs": [],
-    "proposition": "Lykos Therapeutics, or the successor company that holds the midomafetamine (MDMA-assisted therapy) program, publicly announces a completed financing after 31 October 2024.",
-    "statement_ids": [
-      "doblin-0220"
-    ],
-    "first_date": "2024-10-31"
-  },
-  {
-    "slug": "spravato-patients-per-year-200k",
-    "title": "Spravato patients treated per year at or above 200,000",
-    "template": "quantity_threshold",
-    "area": "practice_adoption",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:spravato-patients-treated-per-year-200k",
-      "B:new:spravato-patients-per-year-200k"
-    ],
-    "inverted_refs": [],
-    "proposition": "The number of patients treated with Spravato (esketamine) in a 12-month period is at or above 200,000, per Johnson & Johnson's public disclosures.",
-    "statement_ids": [
-      "angermayer-0087"
-    ],
-    "first_date": "2025-02-20"
-  },
-  {
-    "slug": "rl-007-phase2b-cias-readout",
-    "title": "RL-007 Phase 2b trial in cognitive impairment associated with schizophrenia reports topline results",
+    "slug": "comp360-phase3-trd-primary-endpoint",
+    "title": "A COMP360 (psilocybin) Phase 3 trial in treatment-resistant depression meets its primary endpoint",
     "template": "trial_result",
     "area": "clinical_trial",
     "gate": "in",
     "gate_reason": null,
     "refs": [
-      "B:new:rl-007-phase2b-cias-topline"
+      "A:new:comp360-phase3-primary-endpoint",
+      "B:new:comp360-phase3-trd-primary-endpoint-met"
     ],
     "inverted_refs": [],
-    "proposition": "Recognify Life Sciences or atai Life Sciences reports topline results, positive or negative, of the Phase 2b trial of RL-007 in cognitive impairment associated with schizophrenia.",
+    "proposition": "A Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression reports its prespecified primary endpoint met with statistical significance.",
     "statement_ids": [
-      "angermayer-0089",
-      "angermayer-0098",
-      "angermayer-0107"
+      "angermayer-0175"
     ],
-    "first_date": "2025-02-20"
+    "first_date": "2024-05-08"
   },
   {
-    "slug": "vls-01-phase2-trd-readout",
-    "title": "VLS-01 (DMT) Phase 2 trial in treatment-resistant depression reports topline results",
+    "slug": "comp360-first-phase3-topline-readout",
+    "title": "COMP360 (psilocybin) reports its first Phase 3 topline result",
     "template": "trial_result",
     "area": "clinical_trial",
     "gate": "in",
     "gate_reason": null,
     "refs": [
-      "B:new:vls-01-phase2-trd-topline",
-      "B:new:vls-01-dmt-phase2-topline"
+      "A:new:comp360-phase3-first-readout",
+      "B:new:comp360-phase3-first-topline-readout"
     ],
     "inverted_refs": [],
-    "proposition": "atai Life Sciences reports topline results, positive or negative, of the Phase 2 trial of VLS-01 (buccal film DMT) in treatment-resistant depression.",
+    "proposition": "Compass Pathways reports the topline primary-endpoint result, in either direction, of the first Phase 3 trial of COMP360 (synthetic psilocybin).",
     "statement_ids": [
-      "angermayer-0090",
-      "angermayer-0108",
-      "angermayer-0118",
-      "angermayer-0120"
+      "angermayer-0177"
     ],
-    "first_date": "2025-02-20"
+    "first_date": "2024-05-08"
   },
   {
-    "slug": "vls-01-phase2-trd-endpoint-met",
-    "title": "VLS-01 (DMT) Phase 2 trial in treatment-resistant depression meets its primary endpoint",
+    "slug": "atai-psychedelic-phase3-primary-endpoint",
+    "title": "An atai psychedelic programme reports a Phase 3 trial that meets its primary endpoint",
     "template": "trial_result",
     "area": "clinical_trial",
     "gate": "in",
     "gate_reason": null,
     "refs": [
-      "B:new:vls-01-dmt-phase2-primary-endpoint-met"
+      "B:new:atai-psychedelic-phase3-data-produced",
+      "C:new:atai-psychedelic-phase3-primary-endpoint-met"
     ],
     "inverted_refs": [],
-    "proposition": "atai Life Sciences reports that the Phase 2 trial of VLS-01 (DMT) in treatment-resistant depression met its prespecified primary endpoint with statistical significance.",
+    "proposition": "A Phase 3 trial of a psychedelic therapeutic developed, owned or partnered by atai Life Sciences reports its prespecified primary endpoint met.",
     "statement_ids": [
-      "angermayer-0118"
+      "angermayer-0176"
     ],
-    "first_date": "2025-07-28"
+    "first_date": "2024-05-08"
   },
   {
-    "slug": "fda-mdma-nda-no-new-phase3",
-    "title": "FDA agrees the midomafetamine NDA can proceed without an additional Phase 3 trial",
-    "template": "rule_or_policy",
+    "slug": "tms-fda-authorization-psychosis",
+    "title": "FDA authorizes a TMS device for psychosis",
+    "template": "device_authorization",
     "area": "regulatory",
     "gate": "in",
     "gate_reason": null,
     "refs": [
-      "B:new:fda-reviews-mdma-nda-without-new-phase-3",
-      "A:new:fda-midomafetamine-resubmission-without-new-phase3",
-      "B:new:fda-requires-new-phase-3-for-mdma-nda"
-    ],
-    "inverted_refs": [
-      "B:new:fda-requires-new-phase-3-for-mdma-nda"
-    ],
-    "proposition": "The FDA informs the sponsor of midomafetamine (MDMA-assisted therapy) for PTSD that the application can be resubmitted or reviewed without an additional Phase 3 trial.",
-    "statement_ids": [
-      "doblin-0226",
-      "doblin-0227",
-      "doblin-0228"
-    ],
-    "first_date": "2025-03-12"
-  },
-  {
-    "slug": "atai-four-phase2-readouts-12-months",
-    "title": "atai announces four Phase 2 topline readouts within 12 months",
-    "template": "quantity_threshold",
-    "area": "clinical_trial",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:atai-four-phase2-readouts-12-months"
+      "A:new:tms-psychosis-authorization",
+      "B:new:fda-tms-psychosis-authorization"
     ],
     "inverted_refs": [],
-    "proposition": "atai Life Sciences announces topline results of at least four Phase 2 trials between 20 March 2025 and 20 March 2026, per atai press releases.",
+    "proposition": "The FDA grants a marketing authorization for a transcranial magnetic stimulation device whose indications for use name a psychotic disorder or auditory hallucinations.",
     "statement_ids": [
-      "angermayer-0094"
+      "owen-2470"
     ],
-    "first_date": "2025-03-20"
-  },
-  {
-    "slug": "fda-group-format-psychedelic-approval",
-    "title": "FDA approves a psychedelic drug product with labeling for group-format dosing",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-group-format-psychedelic-therapy-approval",
-      "B:new:fda-approves-group-format-psychedelic-assisted-therapy"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves a psychedelic drug product whose approved labeling or REMS permits dosing sessions in which more than one patient is treated together.",
-    "statement_ids": [
-      "doblin-0229"
-    ],
-    "first_date": "2025-05-09"
-  },
-  {
-    "slug": "atai-share-price-double-2025-05-16",
-    "title": "atai share price at or above twice its 16 May 2025 close",
-    "template": "quantity_threshold",
-    "area": "company_market",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:atai-share-price-at-least-double-2025-05-16-close",
-      "B:new:atai-share-price-multiple-of-2025-05-16-close"
-    ],
-    "inverted_refs": [],
-    "proposition": "The Nasdaq closing price of atai Life Sciences (ATAI, or its successor listing) is at or above two times its closing price on 16 May 2025, per Nasdaq closing prices.",
-    "statement_ids": [
-      "angermayer-0096"
-    ],
-    "first_date": "2025-05-16"
-  },
-  {
-    "slug": "atai-four-phase2-trials-all-positive",
-    "title": "All four pending atai Phase 2 trials meet their primary endpoints",
-    "template": "trial_result",
-    "area": "clinical_trial",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:atai-four-phase2-trials-all-meet-primary-endpoint",
-      "B:new:atai-four-phase2-trials-all-positive"
-    ],
-    "inverted_refs": [],
-    "proposition": "Each of the four atai Life Sciences Phase 2 trials pending at 16 May 2025 (BPL-003 in TRD, RL-007 in CIAS, VLS-01 in TRD, EMP-01 in social anxiety disorder) reports its prespecified primary endpoint met.",
-    "statement_ids": [
-      "angermayer-0096"
-    ],
-    "first_date": "2025-05-16"
-  },
-  {
-    "slug": "mental-health-largest-therapeutic-area-market",
-    "title": "Mental health becomes the largest therapeutic-area market in healthcare",
-    "template": "quantity_threshold",
-    "area": "company_market",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:mental-health-largest-healthcare-market"
-    ],
-    "inverted_refs": [],
-    "proposition": "Global annual sales of mental health treatments exceed those of every other therapeutic area, including oncology and cardiology, per a named published therapeutic-area market series.",
-    "statement_ids": [
-      "angermayer-0102"
-    ],
-    "first_date": "2025-06-05"
-  },
-  {
-    "slug": "bpl-003-annual-sales-1bn",
-    "title": "BPL-003 annual sales at or above US$1 billion",
-    "template": "quantity_threshold",
-    "area": "company_market",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:bpl-003-annual-sales-1bn"
-    ],
-    "inverted_refs": [],
-    "proposition": "Annual net sales of BPL-003 (intranasal 5-MeO-DMT) are at or above US$1 billion in a calendar year, per the sponsor's reported financial results.",
-    "statement_ids": [
-      "angermayer-0103"
-    ],
-    "first_date": "2025-07-01"
-  },
-  {
-    "slug": "bpl-003-two-dose-induction-larger-effect",
-    "title": "BPL-003 two-dose induction reports a larger antidepressant effect than the single-dose Phase 2b result",
-    "template": "trial_result",
-    "area": "clinical_trial",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:bpl-003-two-dose-induction-stronger-effect"
-    ],
-    "inverted_refs": [],
-    "proposition": "The sponsor reports data in which a two-dose induction regimen of BPL-003 produces a larger reduction in depression score (MADRS) than the single-dose Phase 2b result.",
-    "statement_ids": [
-      "angermayer-0112"
-    ],
-    "first_date": "2025-07-01"
-  },
-  {
-    "slug": "bpl-003-fda-approval-single-phase3",
-    "title": "FDA approves BPL-003 (5-MeO-DMT) on the basis of one Phase 3 trial",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-bpl-003-single-phase3-approval",
-      "B:new:bpl-003-fda-approval-single-phase3"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves BPL-003 (intranasal 5-MeO-DMT) on an application whose efficacy evidence contains only one Phase 3 trial.",
-    "statement_ids": [
-      "angermayer-0116"
-    ],
-    "first_date": "2025-07-28"
-  },
-  {
-    "slug": "bpl-003-open-label-data-reported",
-    "title": "BPL-003 (5-MeO-DMT) open-label data are reported",
-    "template": "trial_result",
-    "area": "clinical_trial",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:bpl-003-open-label-data-reported"
-    ],
-    "inverted_refs": [],
-    "proposition": "The sponsor reports open-label (extension) data for BPL-003 from its Phase 2b program in treatment-resistant depression.",
-    "statement_ids": [
-      "angermayer-0120",
-      "angermayer-0121"
-    ],
-    "first_date": "2025-07-28"
-  },
-  {
-    "slug": "psychedelic-first-line-guideline",
-    "title": "A major practice guideline lists a psychedelic medicine as a first-line treatment",
-    "template": "rule_or_policy",
-    "area": "practice_adoption",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:psychedelic-first-line-guideline"
-    ],
-    "inverted_refs": [],
-    "proposition": "A major clinical practice guideline for a psychiatric disorder lists a psychedelic medicine as a first-line treatment option.",
-    "statement_ids": [
-      "angermayer-0125"
-    ],
-    "first_date": "2025-10-01"
-  },
-  {
-    "slug": "atai-big-pharma-partnership",
-    "title": "A large pharmaceutical company partners with atai on a psychedelic program",
-    "template": "company_event",
-    "area": "company_market",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:atai-big-pharma-partnership"
-    ],
-    "inverted_refs": [],
-    "proposition": "atai Life Sciences announces a partnership, collaboration or licensing agreement with a large pharmaceutical company for one of its psychedelic programs.",
-    "statement_ids": [
-      "angermayer-0126"
-    ],
-    "first_date": "2025-10-01"
-  },
-  {
-    "slug": "atai-market-cap-20b",
-    "title": "atai Life Sciences market capitalization at or above US$20 billion",
-    "template": "quantity_threshold",
-    "area": "company_market",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:atai-market-cap-20b",
-      "C:new:atai-market-cap-20b"
-    ],
-    "inverted_refs": [],
-    "proposition": "The market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing) is at or above US$20 billion at a market close, per Nasdaq closing price and shares outstanding in SEC filings.",
-    "statement_ids": [
-      "angermayer-0141"
-    ],
-    "first_date": "2025-10-24"
-  },
-  {
-    "slug": "atai-market-cap-50b",
-    "title": "atai Life Sciences market capitalization at or above US$50 billion",
-    "template": "quantity_threshold",
-    "area": "company_market",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:atai-market-cap-50b",
-      "C:new:atai-market-cap-50b"
-    ],
-    "inverted_refs": [],
-    "proposition": "The market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing) is at or above US$50 billion at a market close, per Nasdaq closing price and shares outstanding in SEC filings.",
-    "statement_ids": [
-      "angermayer-0143"
-    ],
-    "first_date": "2025-10-24"
-  },
-  {
-    "slug": "bpl-003-end-of-phase-2-fda-meeting",
-    "title": "BPL-003 End-of-Phase-2 meeting with the FDA is held",
-    "template": "company_event",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "B:new:bpl-003-end-of-phase-2b-fda-meeting"
-    ],
-    "inverted_refs": [],
-    "proposition": "atai Life Sciences announces that the End-of-Phase-2 meeting with the FDA for BPL-003 (intranasal 5-MeO-DMT) has taken place.",
-    "statement_ids": [
-      "angermayer-0149"
-    ],
-    "first_date": "2026-01-14"
-  },
-  {
-    "slug": "comp360-trd-nda-submission",
-    "title": "Compass Pathways submits the COMP360 NDA for treatment-resistant depression",
-    "template": "company_event",
-    "area": "company_market",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:comp360-trd-nda-submitted-q4-2026"
-    ],
-    "inverted_refs": [],
-    "proposition": "Compass Pathways submits a new drug application for COMP360 (psilocybin) in treatment-resistant depression to the FDA.",
-    "statement_ids": [
-      "angermayer-0155"
-    ],
-    "first_date": "2026-02-18"
-  },
-  {
-    "slug": "us-health-plan-covers-mdma-assisted-therapy",
-    "title": "A US health plan covers MDMA-assisted therapy for PTSD",
-    "template": "coverage_decision",
-    "area": "payer_policy",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:us-payer-covers-mdma-assisted-therapy",
-      "B:new:us-health-plan-covers-mdma-assisted-therapy-for-ptsd"
-    ],
-    "inverted_refs": [],
-    "proposition": "A US health insurer or health plan publishes a coverage policy that covers midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder, the associated therapy sessions included.",
-    "statement_ids": [
-      "doblin-0240"
-    ],
-    "first_date": "2026-03-25"
-  },
-  {
-    "slug": "ukraine-approves-mdma-or-psilocybin",
-    "title": "Ukraine approves an MDMA or psilocybin drug product",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:ukraine-approves-mdma-or-psilocybin",
-      "B:new:ukraine-approves-mdma-or-psilocybin"
-    ],
-    "inverted_refs": [],
-    "proposition": "The Ministry of Health of Ukraine, through the State Expert Center, grants a marketing authorisation for a drug product whose active ingredient is midomafetamine (MDMA) or psilocybin, for any indication.",
-    "statement_ids": [
-      "doblin-0241"
-    ],
-    "first_date": "2026-04-21"
-  },
-  {
-    "slug": "fda-approves-mdma-or-psilocybin",
-    "title": "FDA approves an MDMA or psilocybin drug product",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-approves-mdma-or-psilocybin"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves a drug product whose active ingredient is midomafetamine (MDMA) or psilocybin, for any indication.",
-    "statement_ids": [
-      "doblin-0241"
-    ],
-    "first_date": "2026-04-21"
-  },
-  {
-    "slug": "fda-bpl-003-approval",
-    "title": "FDA approval of BPL-003 (5-MeO-DMT)",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-bpl-003-approval"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves BPL-003 (intranasal 5-MeO-DMT, mebufotenin) for any indication.",
-    "statement_ids": [
-      "angermayer-0164"
-    ],
-    "first_date": "2026-05-07"
-  },
-  {
-    "slug": "dt120-next-phase3-endpoint-met",
-    "title": "The next DT120 (MM120, LSD) Phase 3 topline meets its primary endpoint",
-    "template": "trial_result",
-    "area": "clinical_trial",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:dt120-next-phase3-primary-endpoint-met",
-      "B:new:dt120-phase3-primary-endpoint-met"
-    ],
-    "inverted_refs": [],
-    "proposition": "The first Phase 3 trial of DT120 (MM120, lysergide) whose topline result Definium Therapeutics reports after 7 May 2026 meets its prespecified primary endpoint with statistical significance.",
-    "statement_ids": [
-      "angermayer-0167"
-    ],
-    "first_date": "2026-05-07"
-  },
-  {
-    "slug": "fda-dt120-lsd-approval",
-    "title": "FDA approval of DT120 (MM120, LSD)",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-dt120-lsd-approval",
-      "B:new:dt120-fda-approval"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA approves DT120 (MM120, lysergide) for any indication.",
-    "statement_ids": [
-      "angermayer-0168"
-    ],
-    "first_date": "2026-05-07"
-  },
-  {
-    "slug": "fda-action-resubmitted-mdma-nda",
-    "title": "FDA action on the resubmitted midomafetamine NDA for PTSD",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "gate": "in",
-    "gate_reason": null,
-    "refs": [
-      "A:new:fda-midomafetamine-resubmission-review",
-      "B:new:fda-action-on-resubmitted-mdma-nda"
-    ],
-    "inverted_refs": [],
-    "proposition": "The FDA accepts for review a resubmission of the midomafetamine (MDMA-assisted therapy) NDA for PTSD, or issues its action (approval or complete response letter) on that resubmission.",
-    "statement_ids": [
-      "doblin-0244"
-    ],
-    "first_date": "2026-08-10"
+    "first_date": "2026-03-23"
   }
 ]

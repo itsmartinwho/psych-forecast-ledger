@@ -19,7 +19,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "'Has the core ingredients required to become a true mental health pharmaceutical company' names no observable event, benchmark or threshold; 'only' is an exclusivity slogan with no countable set. AtaiBeckley is the forecaster's own company (atai alias), but the primary defect is that no event can be written."
+      "note": "'Only AtaiBeckley has the core ingredients required to become a true mental health pharmaceutical company' names no observable event, series, benchmark or date; 'true mental health pharmaceutical company' is a slogan. Own company (atai alias), but no event can be written, so VAGUE is the governing code."
     },
     {
       "id": "angermayer-0153",
@@ -38,26 +38,30 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "'Short-acting compounds with convenient dosage forms will win' names no compound, no series, no benchmark and no date. 'Win' is a comparative with no defined measure. No event can be written."
+      "note": "'Short-acting compounds with convenient dosage forms will win' names no compound, no countable set, no series, no benchmark and no date. 'Win' is a comparative with no defined measure."
     },
     {
       "id": "angermayer-0154",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0106"
+      },
       "condition": null,
-      "asserts": null,
+      "asserts": true,
       "deadline": null,
       "deadline_origin": null,
       "deadline_text": null,
-      "bin": null,
+      "bin": "C",
       "p_stated": null,
-      "phrase": null,
-      "affiliated": null,
-      "tags": null,
+      "phrase": "Has the potential to deliver more efficacy",
+      "affiliated": true,
+      "tags": [
+        "affiliated"
+      ],
       "base_rate_class": null,
-      "stage_note": null,
-      "note": "Bullet fragment on BPL-003 (atai alias). 'Has the potential to deliver more efficacy' is a possibility statement with a comparative and no benchmark: no trial, endpoint, effect-size threshold or comparator is named, and 'at 4 to 6 weeks' is a measurement time point, not a deadline. No event or criterion can be written without inventing the trial and the comparison. A coder who reads 'more efficacy' against the single-dose Phase 2b result would propose a trial_result event at bin C; this coder does not, because the words give no observable threshold."
+      "stage_note": "BPL-003 on the statement date (February 2026): Phase 2b in treatment-resistant depression reported; a two-dose induction regimen not yet reported. No base-rate class for a trial_result event, so null.",
+      "note": "Trial-result claim on BPL-003: a two-dose induction (second administration) delivers more efficacy than the single dose, the same asset and outcome type as E-0106 (two-dose induction reports a larger antidepressant effect than the single-dose Phase 2b result), which the ledger already holds from the same forecaster (angermayer-0112). The data, not atai, decide the effect size, so admitted. Reading: 'at 4 to 6 weeks' is the measurement timepoint, not a deadline; E-0106 resolves at the primary timepoint. No time words, so undated; the trial is not named, so the table rule cannot apply. 'Has the potential to' is a possibility phrase (possible), bin C; asserts true. Affiliated: BPL-003 is an atai alias (co-founder and chairman). A coder who reads a bullet fragment with no comparator as unwritable would reject VAGUE."
     },
     {
       "id": "angermayer-0155",
@@ -67,23 +71,7 @@
         "ref": "E-0047"
       },
       "condition": {
-        "ref": "new:comp360-trd-nda-submitted-q4-2026",
-        "template": "company_event",
-        "area": "company_market",
-        "asset": "COMP360 (Compass Pathways synthetic psilocybin) new drug application for treatment-resistant depression: submission to the FDA",
-        "entity": "Compass Pathways",
-        "title": "Compass Pathways submits the COMP360 NDA to the FDA in Q4 2026",
-        "proposition": "Compass Pathways submits a new drug application for COMP360 (psilocybin) in treatment-resistant depression to the FDA on or before 31 December 2026.",
-        "criterion": "TRUE on the date of Compass Pathways' public announcement (press release or SEC filing) that the new drug application for COMP360 in treatment-resistant depression has been submitted to the FDA, when that date is on or before 31 December 2026. For a rolling submission, the date the sponsor announces completion of the submission counts. An FDA filing acceptance is not required. FALSE if no such announcement is dated on or before 31 December 2026.",
-        "resolution_source": {
-          "name": "Compass Pathways press releases and SEC EDGAR filings",
-          "url": "https://www.sec.gov/edgar/search/"
-        },
-        "base_rate_class": null,
-        "quantity": null,
-        "readings": [
-          "'A Q4 2026 NDA submission' is the observable part of the Compass timeline that precedes the FDA decision; the 'early 2027 commercial launch' part of the same timeline is the outcome side and is not part of the condition."
-        ]
+        "ref": "E-0115"
       },
       "asserts": true,
       "deadline": "2027-12-31",
@@ -99,7 +87,7 @@
       ],
       "base_rate_class": "phase3_to_approval_psychiatry",
       "stage_note": "COMP360 (Compass Pathways) on the statement date (February 2026): a Phase 3 program in treatment-resistant depression; per the forecaster's own words the NDA submission is still expected in Q4 2026, so no NDA had been submitted. Class: Phase 3 program to FDA approval, psychiatry (p 0.563, median 36 months). Window 2026-02-18 to 2027-12-31 is about 22 months, below the median, so b is halved.",
-      "note": "The first sentence restates Compass guidance (Q4 2026 NDA, early 2027 launch) and is not coded. The second sentence is the forecaster's own conclusion: if the Compass timeline holds, 2027 is the year psychedelic therapy becomes accessible to US patients within a regulated medical framework. Reading: 'accessible to patients in the US within a regulated medical framework' = FDA approval of COMP360 (a commercial launch requires the approval), so the item maps to E-0047; the class-level words resolve on the asset the forecaster names. Conditional: the NDA submission in Q4 2026 is observable and is decided by Compass, not by the forecaster (he is an investor, not management), so the item is conditional rather than CONTROL; the launch part of the timeline is the outcome and is excluded from the condition to avoid a tautology. '2027 will mark the year' = 31 December 2027 (year rule, origin anchor); 'will' sets bin A; asserts true. Affiliated: Compass Pathways investor with COMP360 as an alias. A coder who reads the 'if' as rhetorical would code the same event and deadline unconditionally; a coder who reads the class words literally would map to E-0024."
+      "note": "The first sentence restates Compass guidance (Q4 2026 NDA, early 2027 launch) and is not coded. The second sentence is the forecaster's own conclusion: if the Compass timeline holds, 2027 is the year psychedelic therapy becomes accessible to US patients within a regulated medical framework. Reading: 'accessible within a regulated medical framework' = FDA approval of COMP360 (a commercial launch requires the approval), so the item maps to E-0047; the class words resolve on the asset the forecaster names. Conditional on the observable part of the timeline, the Q4 2026 NDA submission (E-0115), decided by Compass and not by the forecaster (investor, not management); the launch part is the outcome side and is excluded from the condition. '2027 will mark the year' = 31 December 2027 (year rule, origin anchor); 'will' sets bin A; asserts true. Affiliated: Compass Pathways investor with COMP360 as an alias. A coder who reads the class words literally would map to E-0024."
     },
     {
       "id": "angermayer-0156",
@@ -118,7 +106,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "'Investors will increasingly focus on those details' and 'a true stock-picker's market' name no series, threshold or countable set. Investor attention is not an observable event. No event can be written."
+      "note": "'Investors will increasingly focus on those details' and 'a true stock-picker's market' name no series, threshold or countable set. Investor attention is not an observable event."
     },
     {
       "id": "angermayer-0157",
@@ -137,7 +125,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "Scholarly research on the historical and religious role of psychedelics is not a regulatory decision, trial outcome, company outcome, payer decision or practice adoption in psychiatry. Outside the five areas. It is also undated and has no countable set."
+      "note": "Scholarly research on the historical and religious role of psychedelics is not a regulatory decision, trial outcome, company outcome, payer decision or practice adoption in psychiatry. Also undated and without a threshold."
     },
     {
       "id": "angermayer-0158",
@@ -156,7 +144,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "'Every founder should do a mandatory psychedelic therapy session' is a recommendation with no predictive reading. The clause 'once approved in the US by @ataibeckley' presupposes an FDA approval of an AtaiBeckley therapy but states no expectation about it, gives no probability phrase and no date. No forecast is stated; the sentence is normative."
+      "note": "'Every founder should do a mandatory psychedelic therapy session' is a recommendation with no predictive reading. 'Once approved in the US by @ataibeckley' is a presupposition inside the recommendation, not a claim sentence with a probability phrase or a date."
     },
     {
       "id": "angermayer-0159",
@@ -175,7 +163,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "'One of the most talked about' conditions and 'almost everybody will suffer from adjustment disorder' name no series, count, threshold or deciding body. 'Soon' and 'it will not take long' are not deadlines. No event can be written. Prevalence of a diagnosis is also outside the five areas."
+      "note": "'One of the most talked about' conditions and 'almost everybody will suffer from adjustment disorder' name no series, count, threshold or deciding body. 'Soon' and 'it will not take long' are not deadlines."
     },
     {
       "id": "angermayer-0160",
@@ -191,10 +179,10 @@
       "p_stated": null,
       "phrase": null,
       "affiliated": null,
-      "stage_note": null,
       "tags": null,
       "base_rate_class": null,
-      "note": "'Materially underestimate the long-term TAM' and 'could ultimately expand that TAM significantly' give no number, no series and no date. A comparative against analysts' estimates with no benchmark or threshold; 'long-term' is not a deadline. No quantity_threshold event can be written."
+      "stage_note": null,
+      "note": "'Materially underestimate the long-term TAM' and 'could ultimately expand that TAM significantly' give no number, no series and no date. A comparative against analysts' estimates with no benchmark."
     },
     {
       "id": "angermayer-0161",
@@ -213,7 +201,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "The approval expectation is attributed to 'the market' ('what the market anticipates will be the first regulatory approval of a psychedelic with COMP360'); the sentence describes a change in public sentiment and does not adopt the expectation in the forecaster's own words. 'On the verge' is not a deadline. A coder who reads the own stance as implicit would map to E-0047 or E-0066 undated; this coder reads the words as attributed."
+      "note": "The approval expectation is attributed to 'the market' ('what the market anticipates will be the first regulatory approval of a psychedelic with COMP360'); the forecaster describes sentiment and does not adopt the claim in his own words. The sentence is otherwise retrospective."
     },
     {
       "id": "angermayer-0162",
@@ -232,52 +220,35 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "'Physicians will determine which treatments are best suited' and 'better data will significantly improve this matching' name no series, threshold, guideline body or countable set. 'Once approved' and 'over time' are not deadlines. No event can be written."
+      "note": "'Physicians will determine which treatments are best suited' and 'better data will significantly improve this matching' name no series, threshold, guideline body or countable set. 'Once approved' and 'over time' are not deadlines."
     },
     {
       "id": "angermayer-0163",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0111"
+      },
       "condition": null,
-      "asserts": null,
+      "asserts": true,
       "deadline": null,
       "deadline_origin": null,
       "deadline_text": null,
-      "bin": null,
+      "bin": "B",
       "p_stated": null,
-      "phrase": null,
-      "affiliated": null,
-      "tags": null,
+      "phrase": "I personally believe psychedelic therapies have the potential to become first-line treatments",
+      "affiliated": false,
+      "tags": [],
       "base_rate_class": null,
-      "stage_note": null,
-      "note": "'Have the potential to become first-line treatments' names no guideline body, payer or series that would make 'first-line' observable, and 'potential' states a possibility rather than an expectation. 'Over time' is not a deadline. Restatement of census row angermayer-0024; no event can be written."
+      "stage_note": "No FDA-approved psychedelic medicine existed on the statement date (April 2026) and no major guideline listed one. No base-rate class for a guideline listing, so null.",
+      "note": "Practice-adoption claim that psychedelic therapies become first-line treatments: same asset (psychedelic medicines as a class) and outcome type (first-line status in a major practice guideline) as E-0111, which the ledger holds from the same forecaster's earlier restatement (angermayer-0125, 'psychedelics can become first-line'). Guideline bodies decide, so admitted. 'Over time' is not a deadline, so undated. 'Even potentially play a role in prevention' is a weaker second step and is not coded. 'I believe' governs the that-clause, bin B ('have the potential' is the same possibility hedge as 'can' in angermayer-0125); asserts true. Class event, no atai entity named, so not affiliated. A coder who reads 'first-line' as unobservable without a named guideline body would reject VAGUE."
     },
     {
       "id": "angermayer-0164",
       "admit": true,
       "reason_code": null,
       "event": {
-        "ref": "new:fda-bpl-003-approval",
-        "template": "drug_approval",
-        "area": "regulatory",
-        "asset": "BPL-003 (intranasal 5-MeO-DMT, mebufotenin; Beckley Psytech / AtaiBeckley) for any indication",
-        "entity": "US Food and Drug Administration (FDA)",
-        "title": "FDA approval of BPL-003 (5-MeO-DMT)",
-        "proposition": "The FDA approves BPL-003 (intranasal 5-MeO-DMT) for any indication.",
-        "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) for a new drug application for BPL-003 (intranasal 5-MeO-DMT, mebufotenin), for any indication and under any sponsor name, is dated. A complete response letter, a breakthrough therapy designation, a positive advisory vote or a filing acceptance is not an approval. FALSE at the deadline when no such approval appears in Drugs@FDA.",
-        "resolution_source": {
-          "name": "Drugs@FDA; sponsor press release as a secondary source",
-          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
-        },
-        "base_rate_class": null,
-        "quantity": null,
-        "readings": [
-          "No indication is named in the words; any indication counts. The program discussed is in treatment-resistant depression.",
-          "Approval under any sponsor name (Beckley Psytech, AtaiBeckley, atai Life Sciences or a successor or acquirer) counts; the entry is on the asset.",
-          "Not mapped to E-0029 (any regulator approves any atai psychedelic): the asset here is BPL-003 alone, and an approval of another atai program would not resolve this event.",
-          "Base rate class is fixed per item from the asset's stage on each statement date; the event-level class is null."
-        ]
+        "ref": "E-0120"
       },
       "condition": null,
       "asserts": true,
@@ -292,8 +263,8 @@
         "affiliated"
       ],
       "base_rate_class": "btd_to_approval",
-      "stage_note": "BPL-003 on the statement date (May 2026): a program with breakthrough therapy designation (the subject of the viewer's question in the immediate context); Phase 2b in treatment-resistant depression reported earlier; no NDA submitted. Class: breakthrough therapy designation to approval (p 0.72, median 48 months). Window 2026-05-07 to 2029-05-07 is 36 months, below the median, so b is halved. Alternative stage-based classes: phase2_to_approval_all (p 0.15) if no Phase 3 had started, phase3_to_approval_psychiatry (p 0.563) if one had; the words do not say, so the designation named in the context fixes the class.",
-      "note": "The FDA, a third party, decides the approval of BPL-003, so the item is admitted although the sponsor is the forecaster's own company (the finder's CONTROL note is not followed); affiliated because BPL-003 and Beckley Psytech are atai aliases in his affiliations (co-founder and chairman). The answer is to a question about the BPL-003 approval timeline, so 'it' = the approval. 'Two to three years max from now' = statement date plus 3 years, 2029-05-07 (within-N-years rule, origin anchor; the upper bound is the deadline). 'It's going to be' is a lexicon A phrase; asserts true. Auto-caption transcript; 'not years' contradicts 'two to three years' and is read as a slip, not a probability phrase."
+      "stage_note": "BPL-003 on the statement date (May 2026): a program with breakthrough therapy designation (the subject of the viewer's question in the immediate context); Phase 2b in treatment-resistant depression reported earlier; no NDA submitted. Class: breakthrough therapy designation to approval (p 0.72, median 48 months). Window 2026-05-07 to 2029-05-07 is 36 months, below the median, so b is halved. Alternatives: phase2_to_approval_all (p 0.15) if no Phase 3 had started, phase3_to_approval_psychiatry (p 0.563) if one had; the words do not say, so the designation named in the context fixes the class.",
+      "note": "FDA approval of BPL-003: the FDA, a third party, decides, so admitted although the sponsor is the forecaster's own company (the finder's CONTROL note is not followed). Same asset and outcome type as E-0120. The answer is to a question about the BPL-003 approval timeline, so 'it' = the approval. 'Two to three years max from now' = statement date plus 3 years, 2029-05-07 (within-N-years rule, origin anchor; the upper bound is the deadline). 'It's going to be' is a lexicon A phrase; asserts true. Affiliated: BPL-003 and Beckley Psytech are atai aliases (co-founder and chairman). Auto-caption transcript; 'not years' contradicts 'two to three years' and is read as a slip."
     },
     {
       "id": "angermayer-0165",
@@ -306,17 +277,17 @@
       "asserts": true,
       "deadline": "2026-06-30",
       "deadline_origin": "anchor",
-      "deadline_text": "in the June Russell index rebalancing (immediate context); 'from June on ... in June' in the same interview",
+      "deadline_text": "June Russell index rebalancing (immediate context); 'from June on' in the same interview",
       "bin": "B",
       "p_stated": null,
-      "phrase": "my expectation is that",
+      "phrase": "my expectation is",
       "affiliated": true,
       "tags": [
         "affiliated"
       ],
       "base_rate_class": null,
-      "stage_note": "AtaiBeckley (Nasdaq: ATAI) listed and not in the index at the statement date. No base-rate class for index inclusion; generic_binary_company_event abstains and is not an announced corporate action, so null.",
-      "note": "AtaiBeckley ('a tie' in the auto-caption) added to the Russell index in the June rebalancing maps to E-0059 (AtaiBeckley added to a major stock index; the Russell indexes are major indexes). The index provider decides, not the company, so not CONTROL (the finder's note is not followed); affiliated because AtaiBeckley is the forecaster's own company. 'June' is a month named in the immediate context and repeated in the forecaster's own words in the same interview ('from June on', 'in June', angermayer-0166) = 30 June 2026 (month rule, origin anchor). 'My expectation is' = expect, bin B; 'should create' is predictive but governs the buying-demand clause, which is VAGUE (no threshold) and is not coded. Asserts true."
+      "stage_note": "AtaiBeckley (Nasdaq: ATAI) was not in the Russell indexes on the statement date per the forecaster's own words ('we didn't get any of the index flow'). No base-rate class for an index addition, so null.",
+      "note": "AtaiBeckley ('a tie' in the auto-caption) added in the June Russell index rebalancing: same asset and outcome type as E-0059 (AtaiBeckley added to a major stock index; the Russell indexes are in its criterion). The index provider, a third party, decides, so admitted although it is the forecaster's own company. 'June' from the immediate context = 30 June 2026 (month rule, origin anchor). 'My expectation is' = expect, bin B; asserts true. 'Should create an enormous buying demand' is a second clause with no series or threshold and is not coded. Affiliated: atai (co-founder and chairman)."
     },
     {
       "id": "angermayer-0166",
@@ -335,32 +306,14 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "Same claim from the same interview as angermayer-0165: index inclusion of AtaiBeckley from June 2026 ('we're going to get [index flow] hopefully from June on'). The first row (0165) stands as E-0059 with the June deadline. The added content, 'a one-time huge buying pressure in June', has no threshold or series and would be VAGUE on its own."
+      "note": "Same claim from the same interview as angermayer-0165: index inclusion of AtaiBeckley from June 2026 ('we're going to get [index flow] hopefully from June on'); the first row stands. The added clause 'a one-time huge buying pressure in June' names no series or threshold and could not be coded on its own."
     },
     {
       "id": "angermayer-0167",
       "admit": true,
       "reason_code": null,
       "event": {
-        "ref": "new:dt120-next-phase3-primary-endpoint-met",
-        "template": "trial_result",
-        "area": "clinical_trial",
-        "asset": "DT120 (MM120, lysergide D-tartrate, LSD; Definium Therapeutics, formerly MindMed): the next Phase 3 trial whose topline is reported after 7 May 2026",
-        "entity": "Definium Therapeutics (MindMed), sponsor",
-        "title": "Next DT120 (LSD) Phase 3 topline reported after 7 May 2026 meets its primary endpoint",
-        "proposition": "The first Phase 3 trial of DT120 (MM120, LSD) whose topline result Definium Therapeutics reports after 7 May 2026 meets its prespecified primary endpoint with statistical significance.",
-        "criterion": "TRUE on the date of the sponsor's topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that first reports, after 7 May 2026, the primary endpoint result of a Phase 3 trial of DT120 (MM120, lysergide) for any indication, when that report states that the prespecified primary endpoint was met with statistical significance as reported by the sponsor. FALSE on that date when the report states the primary endpoint was not met. Only the first Phase 3 topline reported after 7 May 2026 resolves the event; secondary endpoints, interim analyses and open-label data do not count.",
-        "resolution_source": {
-          "name": "Sponsor topline press release; ClinicalTrials.gov results; peer-reviewed publication",
-          "url": "https://clinicaltrials.gov/"
-        },
-        "base_rate_class": null,
-        "quantity": null,
-        "readings": [
-          "'Phase three results ... going to be amazing' is read as the prespecified primary endpoint met with statistical significance; no effect-size threshold is given.",
-          "'Define' / 'the finium' in the auto-caption = Definium Therapeutics (MindMed); its Phase 3 program is DT120 (MM120, LSD).",
-          "The words name no single trial, so the event is written on the next Phase 3 topline reported after the statement date rather than on a named NCT number; E-0065 (Voyage, either direction) is a different outcome type."
-        ]
+        "ref": "E-0119"
       },
       "condition": null,
       "asserts": true,
@@ -369,12 +322,12 @@
       "deadline_text": null,
       "bin": "A",
       "p_stated": null,
-      "phrase": "they're going to be amazing",
+      "phrase": "I want to make the prediction they're going to be amazing",
       "affiliated": false,
       "tags": [],
       "base_rate_class": null,
-      "stage_note": "DT120 (MM120) on the statement date (May 2026): a Phase 3 program with results pending ('will have phase three results'). No base-rate class exists for a trial_result event, so null.",
-      "note": "Prediction that Definium's (MindMed's) upcoming Phase 3 results are 'amazing', read as the primary endpoint met (a positive trial_result), decided by the trial, not by the forecaster; Definium is not in his affiliations, so affiliated false. Not mapped to E-0065 because that entry resolves on the Voyage trial in either direction, while this claim asserts a positive result and names no single trial. The table rule (ClinicalTrials.gov primary completion date plus 12 months) needs a named trial; none is named, so the coder does not pick one, and the item is undated (24-month window). 'I want to make the prediction they're going to be amazing': 'going to' is a lexicon A phrase; asserts true. Auto-caption transcript."
+      "stage_note": "DT120 (MM120, LSD) on the statement date (May 2026): a Phase 3 program whose next topline was pending per the words ('will have phase three results'). No base-rate class for a trial_result event, so null.",
+      "note": "Prediction that Definium's (MindMed's) upcoming Phase 3 results are 'amazing', read as the prespecified primary endpoint met: same asset and outcome type as E-0119 (the next DT120 Phase 3 topline reported after 7 May 2026 meets its primary endpoint). The trial decides, so admitted. The words name no trial, so the ClinicalTrials.gov table rule cannot be applied and the item is undated. 'Going to be' is a lexicon A phrase; asserts true. Definium is not an affiliation, so not affiliated. Auto-caption ('define', 'the finium' = Definium)."
     },
     {
       "id": "angermayer-0168-a",
@@ -397,33 +350,14 @@
       ],
       "base_rate_class": "phase3_to_approval_psychiatry",
       "stage_note": "COMP360 (Compass Pathways) on the statement date (May 2026): a Phase 3 program in treatment-resistant depression; per the forecaster's own February 2026 words the NDA submission was guided for Q4 2026, so no NDA had been submitted. Class: Phase 3 program to FDA approval, psychiatry (p 0.563, median 36 months). The 24-month undated window is below the median, so b is halved.",
-      "note": "'Both Compass and Definium will ... get their approvals' is 'A and B' and splits: this record is Compass. 'Their approvals' for Compass = FDA approval of COMP360, mapped to E-0047 (FDA approves COMP360 for a major depressive disorder indication, which includes TRD). 'Very soon' is not a deadline, so undated. 'I believe' (the question form 'do I believe ... I do') governs the that-clause, so bin B rather than A on 'will' (same treatment as 'I think X will', per prior coder A packets); asserts true. Affiliated: Compass Pathways investor with COMP360 as an alias. Auto-caption transcript ('the finium' = Definium)."
+      "note": "'Both Compass and Definium will ... get their approvals' is 'A and B' and splits: this record is Compass. 'Their approvals' for Compass = FDA approval of COMP360, mapped to E-0047 (FDA approves COMP360 for a major depressive disorder indication, which includes TRD). 'Very soon' is not a deadline, so undated. 'I believe' (the question form 'do I believe ... I do') governs the that-clause, so bin B rather than A on 'will' (same treatment as 'I think X will' in prior coder A packets); asserts true. Affiliated: Compass Pathways investor with COMP360 as an alias. Auto-caption transcript."
     },
     {
       "id": "angermayer-0168-b",
       "admit": true,
       "reason_code": null,
       "event": {
-        "ref": "new:fda-dt120-lsd-approval",
-        "template": "drug_approval",
-        "area": "regulatory",
-        "asset": "DT120 (MM120, lysergide D-tartrate, LSD; Definium Therapeutics, formerly MindMed) for any indication",
-        "entity": "US Food and Drug Administration (FDA)",
-        "title": "FDA approval of DT120 (MM120, LSD)",
-        "proposition": "The FDA approves DT120 (MM120, lysergide) for any indication.",
-        "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) for a new drug application for DT120 (MM120, lysergide D-tartrate), for any indication and under any sponsor name, is dated. A complete response letter, a breakthrough therapy designation, a positive advisory vote or a filing acceptance is not an approval. FALSE at the deadline when no such approval appears in Drugs@FDA.",
-        "resolution_source": {
-          "name": "Drugs@FDA; sponsor press release as a secondary source",
-          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
-        },
-        "base_rate_class": null,
-        "quantity": null,
-        "readings": [
-          "No indication is named in the words; any indication (generalized anxiety disorder, major depressive disorder or another) counts.",
-          "Approval under any sponsor name (Definium Therapeutics, MindMed or a successor or acquirer) counts; the entry is on the asset.",
-          "Not mapped to E-0066 (first FDA approval of any psilocybin, LSD or MDMA product): the asset here is DT120 alone.",
-          "Base rate class is fixed per item from the asset's stage on each statement date; the event-level class is null."
-        ]
+        "ref": "E-0121"
       },
       "condition": null,
       "asserts": true,
@@ -436,8 +370,8 @@
       "affiliated": false,
       "tags": [],
       "base_rate_class": "phase3_to_approval_psychiatry",
-      "stage_note": "DT120 (MM120) on the statement date (May 2026): a Phase 3 program (the Voyage trial in generalized anxiety disorder is in the registry as E-0065) with Phase 3 results pending per the forecaster's words in the same interview; no NDA submitted. Class: Phase 3 program to FDA approval, psychiatry (p 0.563, median 36 months). The 24-month undated window is below the median, so b is halved.",
-      "note": "Second half of the 'A and B' split of angermayer-0168: Definium (MindMed) gets its approval = FDA approval of DT120 (MM120, LSD), proposed as new:fda-dt120-lsd-approval because the registry has no DT120 approval entry. 'Very soon' is not a deadline, so undated. Bin B on 'I believe' governing the that-clause; asserts true. Definium is not in the forecaster's affiliations, so affiliated false. Auto-caption transcript ('the finium' = Definium)."
+      "stage_note": "DT120 (MM120, LSD; Definium Therapeutics) on the statement date (May 2026): a Phase 3 program with a topline pending per the same interview (angermayer-0167); no NDA submitted. Class: Phase 3 program to FDA approval, psychiatry (p 0.563, median 36 months). The 24-month undated window is below the median, so b is halved.",
+      "note": "Second half of the 'A and B' split of angermayer-0168: Definium (MindMed) gets its approval = FDA approval of DT120 (MM120, LSD), mapped to E-0121 (any indication; none is named). The FDA decides, so admitted. 'Very soon' is not a deadline, so undated. 'I believe' governs the that-clause, bin B; asserts true. Definium is not an affiliation, so not affiliated. Auto-caption ('the finium' = Definium)."
     },
     {
       "id": "angermayer-0169",
@@ -456,7 +390,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "Describes a present shift in 'the conversation' as the sector 'moves closer to FDA approvals'; no future state is asserted, no probability phrase, no asset, no date. The approval expectation is implicit only. Descriptive, not a forecast."
+      "note": "Describes a present shift in 'the conversation' as the sector 'moves closer to FDA approvals'; no future state is asserted, no probability phrase, no asset, no date. The approval expectation is implicit only."
     },
     {
       "id": "angermayer-0170",
@@ -475,7 +409,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "Press-release language on the Lilly acquisition of the forecaster's own company: 'potentially advance therapies faster than we could alone' is a comparative with no benchmark, and 'the best path forward' is a slogan. No observable event, threshold or date. The transaction closing itself is not asserted as a forecast in these words."
+      "note": "Press-release language on the Lilly acquisition of the forecaster's own company: 'potentially advance therapies faster than we could alone' is a comparative with a counterfactual benchmark that no series can resolve, and 'the best path forward' is a slogan. No event, threshold or date can be written."
     },
     {
       "id": "angermayer-0171",
@@ -494,7 +428,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "A general claim about the next 10 years for biotech, deep tech and the forecaster's Apeiron portfolio; not a regulatory, trial, company, payer or practice outcome in psychiatry. Outside the five areas, and 'even better' has no benchmark."
+      "note": "A general claim about the next 10 years for biotech, deep tech and the forecaster's Apeiron portfolio; not a regulatory, trial, company, payer or practice outcome in psychiatry. Also no series or threshold."
     },
     {
       "id": "doblin-0036",
@@ -513,7 +447,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "'These clinics will eventually expand to treat people that have just an interest in personal growth' names no countable set of clinics, no series and no threshold; 'eventually' is not a deadline. No event can be written."
+      "note": "'These clinics will eventually expand to treat people that have just an interest in personal growth' names no countable set of clinics, no series and no threshold; 'eventually' is not a deadline."
     },
     {
       "id": "doblin-0037",
@@ -532,7 +466,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "The sentence describes what the MAPS Public Benefit Corporation 'is designed to be the vehicle for'; FDA approval of MDMA is presupposed inside a description of the own organization's purpose, with no probability phrase and 'soon' as the only time word (not a deadline). It states information about MPBC, not an expectation about the FDA. A coder who reads 'soon the FDA-approved sale of MDMA by prescription' as a bare assertion would code E-0001 undated at bin A with affiliated true; this coder reads it as descriptive."
+      "note": "The sentence describes what the MAPS Public Benefit Corporation 'is designed to be the vehicle for'; FDA approval of MDMA is presupposed inside a description of the corporation's purpose, not asserted as a claim sentence with a probability phrase. 'Soon' is not a deadline. Alternative code CONTROL (own organization's sales vehicle) is secondary."
     },
     {
       "id": "doblin-0038",
@@ -551,7 +485,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "Conditional on a remote FDA approval of botanical marijuana for PTSD, the consequent describes the statutory three-year data exclusivity period and says MAPS 'might be the only source' and marijuana 'would become a generic medicine'. The exclusivity is a legal rule, not an uncertain outcome; 'might be the only source' has no countable set or resolution source. No event can be written without inventing a market measure."
+      "note": "Conditional on a remote FDA approval of botanical marijuana for PTSD, the consequent describes the statutory three-year data exclusivity period and says MAPS 'might be the only source'; 'marijuana would become a generic medicine' names no regulator action, series or threshold that a source could resolve. No event can be written without inventing the mechanism."
     },
     {
       "id": "doblin-0039",
@@ -570,7 +504,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "The cost of the forecaster's own organization's Phase 3 program (MAPS, founder and president) is set by that organization's own spending decisions. Commitment of the own venture; listed in the commitments table, never scored."
+      "note": "The cost of the forecaster's own organization's Phase 3 program (MAPS, founder and president) is set by that organization's own spending decisions. Commitment of the own venture."
     },
     {
       "id": "doblin-0040-a",
@@ -593,7 +527,7 @@
       ],
       "base_rate_class": "phase2_to_approval_all",
       "stage_note": "MDMA-assisted psychotherapy for PTSD on the statement date (April 2016): a Phase 2 program (the Phase 2 studies were being completed; the End of Phase 2 submission to the FDA came later in 2016 per doblin-0044, and no Phase 3 trial had been agreed or started). Class: Phase 2 program to approval, all indications (p 0.15, median 72 months). Window 2016-04-07 to 2021-12-31 is about 69 months, below the median, so b is halved.",
-      "note": "'Probably MDMA and psilocybin will both be approved ... 2021 is our current predictions' is 'A and B' and splits: this record is FDA approval of MDMA-assisted psychotherapy for PTSD, mapped to E-0001. '2021' = 31 December 2021 (year rule, origin anchor); the year applies to both halves ('one or the other ... 2021'). 'Probably' is a lexicon B phrase and is the governing hedge; asserts true. 'Around the same time' is a third component with no benchmark and is not coded; 'then we'll start elaborating these clinics' is an own-organization plan and is not coded. Affiliated: founder and president of MAPS, the sponsor; 'MDMA-assisted therapy' is an alias in his affiliations. Auto-transcript."
+      "note": "'Probably MDMA and psilocybin will both be approved ... 2021 is our current predictions' is 'A and B' and splits: this record is FDA approval of MDMA-assisted psychotherapy for PTSD, mapped to E-0001. '2021' = 31 December 2021 (year rule, origin anchor); the year applies to both halves ('one or the other ... 2021'). 'Probably' is a lexicon B phrase and is the governing hedge; asserts true. 'Around the same time' has no benchmark and is not coded; 'then we'll start elaborating these clinics' is an own-organization plan and is not coded. Affiliated: founder and president of MAPS, the sponsor; 'MDMA-assisted therapy' is an alias in his affiliations. Auto-transcript."
     },
     {
       "id": "doblin-0040-b",
@@ -613,8 +547,8 @@
       "affiliated": false,
       "tags": [],
       "base_rate_class": "phase2_to_approval_all",
-      "stage_note": "Psilocybin on the statement date (April 2016): Phase 2 programs only (academic and early sponsor studies); no Phase 3 trial and no NDA. Class: Phase 2 program to approval, all indications (p 0.15, median 72 months). Window 2016-04-07 to 2021-12-31 is about 69 months, below the median, so b is halved.",
-      "note": "Second half of the 'A and B' split of doblin-0040: FDA approval of psilocybin by 2021, mapped to E-0003 (FDA approves a psilocybin drug product for any indication; no sponsor or indication is named in the words). '2021' = 31 December 2021 (year rule, origin anchor). 'Probably' sets bin B; asserts true. Psilocybin is not a MAPS program, so affiliated false. Auto-transcript."
+      "stage_note": "Psilocybin on the statement date (April 2016): Phase 2 studies by other sponsors; no Phase 3 trial and no NDA for any psilocybin product. Class: Phase 2 program to approval, all indications (p 0.15, median 72 months). Window 2016-04-07 to 2021-12-31 is about 69 months, below the median, so b is halved.",
+      "note": "Second half of the 'A and B' split of doblin-0040: FDA approval of psilocybin by 2021, mapped to E-0003 (FDA approves a psilocybin drug product for any indication; no sponsor or indication is named). The FDA decides, so admitted. '2021' = 31 December 2021 (year rule, origin anchor). 'Probably' is a lexicon B phrase; asserts true. MAPS does not sponsor a psilocybin program, so not affiliated. Auto-transcript."
     },
     {
       "id": "doblin-0041",
@@ -633,51 +567,17 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "'A development of psychedelic clinics like hospice centers' over 10 or 20 years gives no clinic count, no series and no threshold; the hospice analogy (3,500 by 2004) is about hospices, not a stated target for psychedelic clinics. '10 or 20 years' could anchor a deadline (2036-04-07), but no quantity_threshold event can be written without inventing a number."
+      "note": "'A development of psychedelic clinics like hospice centers' over 10 or 20 years gives no clinic count, no series and no threshold; the hospice analogy (3,500 by 2004) is a comparison, not a number the forecaster asserts for psychedelic clinics. No quantity event can be written."
     },
     {
       "id": "doblin-0042",
       "admit": true,
       "reason_code": null,
       "event": {
-        "ref": "new:us-insurer-covers-fda-approved-botanical-cannabis",
-        "template": "coverage_decision",
-        "area": "payer_policy",
-        "asset": "FDA-approved botanical marijuana (the MAPS smoked or whole-plant cannabis product for PTSD): coverage by a US health insurer",
-        "entity": "US health insurers (any US health plan)",
-        "title": "A US health insurer covers FDA-approved botanical marijuana as a medicine",
-        "proposition": "At least one US health insurer publishes a coverage policy that covers an FDA-approved botanical marijuana product for the indication on its FDA label.",
-        "criterion": "TRUE on the effective date of the first published coverage policy, medical policy bulletin, formulary listing or fee schedule of a US health insurer or Medicare/Medicaid program that covers an FDA-approved botanical (whole-plant or smoked) marijuana product for the indication named on its FDA-approved label. Coverage of cannabinoid drugs that are not botanical marijuana (for example dronabinol, nabilone or a purified cannabidiol product) does not count. State medical-marijuana program reimbursement without FDA approval does not count.",
-        "resolution_source": {
-          "name": "Payer policy bulletins; CMS Medicare Coverage Database",
-          "url": "https://www.cms.gov/medicare-coverage-database/"
-        },
-        "base_rate_class": null,
-        "quantity": null,
-        "readings": [
-          "'Insurance companies will then be willing to cover it as a medicine' is read as at least one US health insurer publishing a coverage policy; no payer is named, so any US health plan counts.",
-          "'It' is the marijuana that MAPS is studying for PTSD, the subject of the sentence; the label indication at approval sets the covered indication.",
-          "'Particularly if it saves them money on other medicines' is a reason, not a second condition."
-        ]
+        "ref": "E-0071"
       },
       "condition": {
-        "ref": "new:fda-botanical-cannabis-ptsd-approval",
-        "template": "drug_approval",
-        "area": "regulatory",
-        "asset": "Botanical (whole-plant or smoked) marijuana for post-traumatic stress disorder",
-        "entity": "US Food and Drug Administration (FDA)",
-        "title": "FDA approval of botanical marijuana for PTSD",
-        "proposition": "The FDA approves a botanical (whole-plant or smoked) marijuana product for post-traumatic stress disorder.",
-        "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) for a new drug application for a botanical whole-plant or smoked marijuana product for post-traumatic stress disorder, under any sponsor name, is dated. Approval of a purified or synthetic cannabinoid (dronabinol, nabilone, cannabidiol) does not count. A complete response letter or an IND clearance is not an approval.",
-        "resolution_source": {
-          "name": "Drugs@FDA; sponsor press release as a secondary source",
-          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
-        },
-        "base_rate_class": null,
-        "quantity": null,
-        "readings": [
-          "'Once we make it into an FDA-approved medicine' = FDA approval of the botanical marijuana product MAPS was studying for PTSD; approval under any sponsor name counts."
-        ]
+        "ref": "E-0070"
       },
       "asserts": true,
       "deadline": null,
@@ -693,7 +593,7 @@
       ],
       "base_rate_class": null,
       "stage_note": "Botanical marijuana for PTSD on the statement date (April 2016): a MAPS Phase 2 study about to start; no FDA-approved botanical marijuana product existed. No base-rate class for a coverage decision, so null.",
-      "note": "Conditional forecast: if the FDA approves marijuana as a medicine (A), US insurance companies cover it (B). A is decided by the FDA, a third party, and is observable, so the item is conditional rather than CONTROL although MAPS sponsors the program; the condition is proposed as new:fda-botanical-cannabis-ptsd-approval. B is a coverage_decision event on any US health insurer, proposed as new:us-insurer-covers-fda-approved-botanical-cannabis. No date in the words, so undated. 'There's the likelihood that ... will' = likely, bin B; the hedge governs the that-clause. Asserts true. Affiliated: MAPS (founder and president) is the sponsor of the marijuana-for-PTSD program on which the condition and the covered product turn. Auto-transcript. A coder who reads 'insurance companies' as no countable set would reject VAGUE."
+      "note": "Conditional forecast: if the FDA approves marijuana as a medicine (A), US insurance companies cover it (B). A is decided by the FDA, a third party, and is observable, so the item is conditional rather than CONTROL although MAPS sponsors the program; A is E-0070 (FDA approval of botanical marijuana for PTSD). B is E-0071 (a US health insurer covers FDA-approved botanical marijuana for its label indication), whose readings were written from these words. No date in the words, so undated. 'There's the likelihood that ... will' = likely, bin B; the hedge governs the that-clause. Asserts true. Affiliated: MAPS (founder and president) sponsors the marijuana-for-PTSD program on which the condition and the covered product turn. Auto-transcript. A coder who reads 'insurance companies' as no countable set would reject VAGUE."
     },
     {
       "id": "doblin-0043",
@@ -712,7 +612,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "The duration of the MAPS marijuana-for-PTSD Phase 2 study and the plan for a further three- to four-year Phase 3 are the forecaster's own organization's trial timing and trial starts (MAPS, founder and president). Commitment of the own venture."
+      "note": "The duration of the MAPS marijuana-for-PTSD Phase 2 study and the plan for a further three- to four-year Phase 3 are the forecaster's own organization's trial timelines (MAPS, founder and president). Commitment of the own venture."
     },
     {
       "id": "doblin-0044-a",
@@ -725,7 +625,7 @@
       "asserts": true,
       "deadline": "2021-12-31",
       "deadline_origin": "anchor",
-      "deadline_text": "we project the approval of MDMA-assisted psychotherapy for PTSD in 2021",
+      "deadline_text": "in 2021",
       "bin": "B",
       "p_stated": null,
       "phrase": "we project",
@@ -734,8 +634,8 @@
         "affiliated"
       ],
       "base_rate_class": "phase2_to_approval_all",
-      "stage_note": "MDMA-assisted psychotherapy for PTSD on the statement date (August 2016): Phase 2 studies completed and the End of Phase 2 submission to the FDA being prepared (the immediate context); no Phase 3 trial agreed or started, no NDA. Class: Phase 2 program to approval, all indications (p 0.15, median 72 months). Window 2016-08-15 to 2021-12-31 is about 64 months, below the median, so b is halved. A coder who treats the completed Phase 2 as a Phase 3 program would use phase3_to_approval_psychiatry (p 0.563).",
-      "note": "'Approval ... in 2021 by both the FDA and the EMA' is 'A and B' and splits: this record is FDA approval of MDMA-assisted psychotherapy for PTSD, mapped to E-0001. 'In 2021' = 31 December 2021 (year rule, origin anchor). 'We project' is not a lexicon phrase; it is read as expect/anticipate, bin B; asserts true. 'If our assumptions are accurate' refers to the forecaster's own planning assumptions, not to an observable outside condition, so the item is not tagged conditional (same treatment as the fundraising proviso in prior Doblin items). Affiliated: founder and president of MAPS, the sponsor; 'MDMA-assisted therapy' is an alias in his affiliations."
+      "stage_note": "MDMA-assisted psychotherapy for PTSD on the statement date (August 2016): Phase 2 complete, the End of Phase 2 submission to the FDA in preparation per the context; no Phase 3 trial agreed or started. Class: Phase 2 program to approval, all indications (p 0.15, median 72 months). Window 2016-08-15 to 2021-12-31 is about 64 months, below the median, so b is halved.",
+      "note": "'Approval ... in 2021 by both the FDA and the EMA' is 'A and B' and splits: this record is FDA approval of MDMA-assisted psychotherapy for PTSD, mapped to E-0001. 'In 2021' = 31 December 2021 (year rule, origin anchor). 'We project' is an expectation verb with no lexicon entry, read as B like 'expect' and 'anticipate'; 'if our assumptions are accurate' is a hedge, not an observable external condition. Asserts true. Affiliated: founder and president of MAPS, the sponsor; 'MDMA-assisted therapy' is an alias in his affiliations."
     },
     {
       "id": "doblin-0044-b",
@@ -748,7 +648,7 @@
       "asserts": true,
       "deadline": "2021-12-31",
       "deadline_origin": "anchor",
-      "deadline_text": "we project the approval of MDMA-assisted psychotherapy for PTSD in 2021 by both the FDA and the European Medicines Agency (EMA)",
+      "deadline_text": "in 2021",
       "bin": "B",
       "p_stated": null,
       "phrase": "we project",
@@ -756,9 +656,9 @@
       "tags": [
         "affiliated"
       ],
-      "base_rate_class": null,
-      "stage_note": "MDMA-assisted psychotherapy for PTSD in Europe on the statement date (August 2016): Phase 2 completed, no EMA discussions started (doblin-0048 shows those were planned after FDA feedback), no marketing authorisation application. The base-rate classes are FDA program-to-approval rates and none is written for an EMA marketing authorisation, so null.",
-      "note": "Second half of the 'A and B' split of doblin-0044: EMA approval of MDMA-assisted psychotherapy for PTSD in 2021, mapped to E-0004 (CHMP positive opinion or European Commission marketing authorisation). 'In 2021' = 31 December 2021 (year rule, origin anchor). 'We project' read as expect, bin B; asserts true. Own planning assumptions are not an outside condition, so not conditional. Affiliated: MAPS founder and president; the sponsor."
+      "base_rate_class": "phase2_to_approval_all",
+      "stage_note": "MDMA-assisted psychotherapy for PTSD in the EU on the statement date (August 2016): Phase 2 complete, no EMA filing and no Phase 3 trial. Class: Phase 2 program to approval, all indications (p 0.15, median 72 months). Window 2016-08-15 to 2021-12-31 is about 64 months, below the median, so b is halved.",
+      "note": "Second half of the 'A and B' split of doblin-0044: EMA approval of MDMA-assisted psychotherapy for PTSD in 2021, mapped to E-0004 (CHMP positive opinion or European Commission marketing authorisation). The EMA decides, so admitted. 'In 2021' = 31 December 2021 (year rule, origin anchor). 'We project' read as B; asserts true. Affiliated: founder and president of MAPS, the sponsor."
     },
     {
       "id": "doblin-0045",
@@ -777,7 +677,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "The Phase 3 cost estimate ($25 million) and the fundraising outlook over five years are the forecaster's own organization's budget and fundraising (MAPS, founder and president). Commitment of the own venture; 'attainable' is also not a probability phrase."
+      "note": "The Phase 3 cost estimate ($25 million) and the fundraising outlook over five years are the forecaster's own organization's budget and fundraising (MAPS, founder and president). Commitment of the own venture."
     },
     {
       "id": "doblin-0046",
@@ -796,30 +696,14 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "Training over 100 therapists and enrolling about 450 participants in the own organization's Phase 3 studies are plans that MAPS executes by its own decisions (trial design and conduct). Commitment of the own venture; no date."
+      "note": "Training over 100 therapists and enrolling about 450 participants in the own organization's Phase 3 studies are plans that MAPS executes by its own decisions (trial conduct). Commitment of the own venture."
     },
     {
       "id": "doblin-0047-a",
       "admit": true,
       "reason_code": null,
       "event": {
-        "ref": "new:dea-registers-craker-cannabis-manufacturer",
-        "template": "rule_or_policy",
-        "area": "regulatory",
-        "asset": "DEA Schedule I manufacturer registration for Prof. Lyle Craker (University of Massachusetts Amherst) to produce marijuana for research",
-        "entity": "US Drug Enforcement Administration (DEA)",
-        "title": "DEA registers Prof. Lyle Craker to manufacture marijuana for research",
-        "proposition": "The DEA grants Prof. Lyle Craker (University of Massachusetts Amherst) a Schedule I manufacturer registration to produce marijuana for research.",
-        "criterion": "TRUE on the date the DEA issues (or publishes in the Federal Register or on its site) a Schedule I bulk manufacturer registration to Prof. Lyle Craker or to the University of Massachusetts Amherst facility he directs, for the manufacture of marijuana for research. A DEA policy statement that it will accept applications, an acceptance of an application for filing, or a court order directing the DEA to act is not a registration. FALSE at the deadline when no such registration has been issued.",
-        "resolution_source": {
-          "name": "Federal Register (DEA registration notices) and DEA Diversion Control Division announcements",
-          "url": "https://www.federalregister.gov/"
-        },
-        "base_rate_class": null,
-        "quantity": null,
-        "readings": [
-          "'Order the DEA to ... issue a license to Prof. Craker' resolves on the DEA registration itself, whoever ordered it; the administration's order is the means, the registration the outcome."
-        ]
+        "ref": "E-0072"
       },
       "condition": null,
       "asserts": true,
@@ -834,31 +718,15 @@
         "affiliated"
       ],
       "base_rate_class": null,
-      "stage_note": "Prof. Craker's application for a DEA manufacturer registration was pending, and the NIDA contract facility was the only registered research producer, at the statement date. No base-rate class for a DEA registration, so null.",
-      "note": "'End the NIDA monopoly and issue a license to Prof. Craker, and to other private producers as well' is 'A and B' and splits: this record is the registration of Prof. Craker. The DEA (and the administration that would order it) is a third party, so admitted; area regulatory (DEA licensing for a drug studied for PTSD; borderline, the registry applies the area test again). 'Before the Obama Administration leaves office' = 20 January 2017, the fixed public end date of the administration, treated like a named future event (origin anchor). 'A very good chance' is not a lexicon phrase; read as likely, bin B; asserts true. Affiliated: MAPS (founder and president) sponsored and funded Prof. Craker's application, a disclosed role of the forecaster's organization in the licensing the event names."
+      "stage_note": "Prof. Craker's application for a DEA manufacturer registration was pending, and the NIDA contract facility was the only registered research producer, on the statement date. No base-rate class for a DEA registration, so null.",
+      "note": "'End the NIDA monopoly and issue a license to Prof. Craker, and to other private producers as well' is 'A and B' and splits: this record is the registration of Prof. Craker, mapped to E-0072 (its reading resolves on the DEA registration itself, whoever ordered it). The DEA and the administration are third parties, so admitted; area regulatory. 'Before the Obama Administration leaves office' = 20 January 2017, the fixed public end date of the administration, treated like a named future event (origin anchor). 'A very good chance' is not a lexicon phrase; read as likely, bin B; asserts true. Affiliated: MAPS (founder and president) sponsored Prof. Craker's application, a disclosed role of the forecaster's organization in the licensing the event names."
     },
     {
       "id": "doblin-0047-b",
       "admit": true,
       "reason_code": null,
       "event": {
-        "ref": "new:dea-registers-non-nida-cannabis-producer",
-        "template": "rule_or_policy",
-        "area": "regulatory",
-        "asset": "DEA Schedule I manufacturer registrations for research marijuana: a producer other than the NIDA contract facility (end of the NIDA single-source supply)",
-        "entity": "US Drug Enforcement Administration (DEA)",
-        "title": "DEA registers a research-marijuana producer other than the NIDA contractor",
-        "proposition": "The DEA grants a Schedule I manufacturer registration to produce marijuana for research to at least one producer other than the NIDA contract facility at the University of Mississippi.",
-        "criterion": "TRUE on the date the DEA issues (or publishes in the Federal Register or on its site) a Schedule I bulk manufacturer registration for the manufacture of marijuana for research to any applicant other than the NIDA contract facility at the University of Mississippi. A DEA policy statement that it will accept applications, or an acceptance of an application for filing, is not a registration. FALSE at the deadline when no such registration has been issued.",
-        "resolution_source": {
-          "name": "Federal Register (DEA registration notices) and DEA Diversion Control Division announcements",
-          "url": "https://www.federalregister.gov/"
-        },
-        "base_rate_class": null,
-        "quantity": null,
-        "readings": [
-          "'End the NIDA monopoly' is read as the first registration of any research-marijuana producer other than the NIDA contractor; the registration of Prof. Craker (doblin-0047-a) would also resolve this event."
-        ]
+        "ref": "E-0073"
       },
       "condition": null,
       "asserts": true,
@@ -871,8 +739,8 @@
       "affiliated": false,
       "tags": [],
       "base_rate_class": null,
-      "stage_note": "At the statement date the NIDA contract facility was the only DEA-registered producer of marijuana for research and no other registration had been issued. No base-rate class for a DEA registration, so null.",
-      "note": "Second half of the 'A and B' split of doblin-0047: the DEA ends the NIDA monopoly by licensing 'other private producers as well', written as the first registration of a non-NIDA research-marijuana producer. Same deadline (20 January 2017, end of the administration, origin anchor), same phrase ('a very good chance', bin B), asserts true. No entity named in this event is one in which the forecaster holds a role, so affiliated false. Borderline area (DEA regulation of a drug studied for PTSD); the registry applies the area test again."
+      "stage_note": "The NIDA contract facility was the only DEA-registered research-marijuana producer on the statement date. No base-rate class for a DEA registration, so null.",
+      "note": "Second half of the 'A and B' split of doblin-0047: the DEA ends the NIDA monopoly by licensing 'other private producers as well', mapped to E-0073 (first Schedule I manufacturer registration for research marijuana to a producer other than the NIDA contractor). Same deadline as the first half: 20 January 2017 (origin anchor). 'A very good chance' read as likely, bin B; asserts true. No MAPS role in the other producers is disclosed, so not affiliated."
     },
     {
       "id": "doblin-0048",
@@ -891,7 +759,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "Starting discussions with the EMA is an action of the forecaster's own organization (MAPS, founder and president), taken by its own decision. Commitment of the own venture; no date."
+      "note": "Starting discussions with the EMA is an action of the forecaster's own organization (MAPS, founder and president), taken by its own decision. Commitment of the own venture; the EMA outcome is not asserted."
     },
     {
       "id": "doblin-0049",
@@ -910,7 +778,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "The forecaster explicitly declines to estimate the chances that the FDA grants breakthrough therapy designation and a single-Phase 3 pathway ('not sure how to estimate the chances'); 'we're asking for the best outcome possible' is a statement of preference. No expectation is stated, so no bin can be set."
+      "note": "The forecaster explicitly declines to estimate the chances that the FDA grants breakthrough therapy designation and a single-Phase 3 pathway ('not sure how to estimate the chances'); 'asking for the best outcome possible' states a request, not an expectation. No probability phrase and no future state asserted."
     },
     {
       "id": "doblin-0050",
@@ -929,7 +797,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "Submitting the NDA in 2021 and shifting focus to Phase 3 studies in FY17 are filings and trial starts by the forecaster's own organization (MAPS, founder and president). Commitment of the own venture. The FDA approval itself is not asserted in these words."
+      "note": "Submitting the NDA in 2021 and shifting focus to Phase 3 studies in FY17 are filings and trial starts by the forecaster's own organization (MAPS, founder and president). Commitment of the own venture; the FDA decision is not asserted in this sentence."
     },
     {
       "id": "doblin-0051",
@@ -948,7 +816,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "Completion of two MAPS-sponsored MDMA studies (social anxiety in autistic adults; end-of-life anxiety) by the end of FY17 is the own organization's trial conduct and timing; no result is asserted. Commitment of the own venture."
+      "note": "Completion of two MAPS-sponsored MDMA studies (social anxiety in autistic adults; end-of-life anxiety) by the end of FY17 is the own organization's trial conduct, not a trial result. Commitment of the own venture."
     },
     {
       "id": "doblin-0052",
@@ -967,7 +835,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "The $25 million Phase 3 cost estimate and the FY17 fundraising challenge are the own organization's budget and fundraising (MAPS). Commitment of the own venture; restates doblin-0045 in the annual report."
+      "note": "The $25 million Phase 3 cost estimate and the FY17 fundraising challenge are the own organization's budget and fundraising (MAPS). Commitment of the own venture."
     },
     {
       "id": "doblin-0053",
@@ -1005,7 +873,7 @@
       "tags": null,
       "base_rate_class": null,
       "stage_note": null,
-      "note": "The consequent ('we will be able to motivate and inspire the new donors that will enable us to expand our research') is the own organization's fundraising, with no amount or countable set. The condition (the FDA End of Phase 2 meeting going well) is outside the forecaster's control, but the outcome is an own-venture commitment, so CONTROL."
+      "note": "The consequent ('we will be able to motivate and inspire the new donors that will enable us to expand our research') is the own organization's fundraising, with no donor set, series or threshold. The FDA meeting condition is observable, but the outcome is a MAPS commitment. Commitment of the own venture."
     },
     {
       "id": "doblin-0055",
@@ -1015,24 +883,7 @@
         "ref": "E-0024"
       },
       "condition": {
-        "ref": "new:psychedelic-assisted-therapy-phase3-primary-endpoint-met",
-        "template": "trial_result",
-        "area": "clinical_trial",
-        "asset": "Psychedelic-assisted psychotherapy (any psychedelic drug given with psychotherapy, any sponsor, any indication): a Phase 3 trial meets its primary endpoint",
-        "entity": "Sponsors of Phase 3 trials of psychedelic-assisted psychotherapy (MAPS Public Benefit Corporation and others)",
-        "title": "A Phase 3 trial of a psychedelic-assisted psychotherapy meets its primary endpoint",
-        "proposition": "A Phase 3 trial of a psychedelic-assisted psychotherapy, for any indication and any sponsor, reports its prespecified primary efficacy endpoint met with statistical significance.",
-        "criterion": "TRUE on the date of the first sponsor topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports a Phase 3 trial of a psychedelic drug (MDMA, psilocybin, LSD or another classic psychedelic or entactogen) administered with psychotherapy, for any indication and under any sponsor, as having met its prespecified primary efficacy endpoint with statistical significance as reported by the sponsor. Phase 2 trials, secondary endpoints, interim analyses and pooled analyses do not count.",
-        "resolution_source": {
-          "name": "Sponsor topline press release; ClinicalTrials.gov results; peer-reviewed publication",
-          "url": "https://clinicaltrials.gov/"
-        },
-        "base_rate_class": null,
-        "quantity": null,
-        "readings": [
-          "'Should they demonstrate both safety and efficacy' is read as a Phase 3 primary efficacy endpoint met; safety is read into the approval event, not the condition.",
-          "The class-level condition covers the MAPS MDMA Phase 3 program (MAPP1, E-0002) and any other Phase 3 of a psychedelic-assisted psychotherapy; a positive MAPP1 result would resolve it."
-        ]
+        "ref": "E-0074"
       },
       "asserts": true,
       "deadline": null,
@@ -1048,7 +899,7 @@
       ],
       "base_rate_class": "phase3_to_approval_psychiatry",
       "stage_note": "Psychedelic-assisted psychotherapy as a class on the statement date (April 2017): the lead program, MDMA-assisted psychotherapy for PTSD (MAPS PBC), had completed Phase 2 and its Phase 3 protocols were under formal FDA review per the forecaster's words; no Phase 3 had started and no NDA existed for any psychedelic. Class: Phase 3 program to FDA approval, psychiatry (p 0.563, median 36 months), read on the lead program. The 24-month undated window is below the median, so b is halved. The condition (a positive Phase 3) would raise the conditional rate, but the table has no conditional class.",
-      "note": "Conditional forecast: if the upcoming Phase 3 studies demonstrate safety and efficacy (A), they lead to prescription access (B). Reading: 'prescription access' for a psychedelic-assisted psychotherapy = FDA approval of a psychedelic medicine, class level because the words say 'a variety of conditions' and name no drug, so mapped to E-0024 (first FDA approval of a psychedelic medicine, class). A is a trial result decided by the trial, observable and outside the forecaster's control, so conditional rather than CONTROL; the condition is proposed at class level as new:psychedelic-assisted-therapy-phase3-primary-endpoint-met. 'Upcoming' is not a deadline, so undated. 'Will lead to' sets bin A; asserts true. Affiliated: MAPS (founder and president) and MAPS PBC sponsor the lead Phase 3 program the claim refers to; the class event resolves through it."
+      "note": "Conditional forecast: if the upcoming Phase 3 studies demonstrate safety and efficacy (A), they lead to prescription access (B). Reading: 'prescription access' for a psychedelic-assisted psychotherapy = FDA approval of a psychedelic medicine, at class level because the words say 'a variety of conditions' and name no drug, so mapped to E-0024 (first FDA approval of a psychedelic medicine, class). A is a trial result decided by the trial, observable and outside the forecaster's control, so conditional rather than CONTROL; A is E-0074 (a Phase 3 trial of a psychedelic-assisted psychotherapy meets its primary endpoint), whose readings were written from these words. 'Upcoming' is not a deadline, so undated. 'Will lead to' sets bin A; asserts true. Affiliated: MAPS (founder and president) and MAPS PBC sponsor the lead Phase 3 program the claim refers to; the class event resolves through it."
     }
   ]
 }

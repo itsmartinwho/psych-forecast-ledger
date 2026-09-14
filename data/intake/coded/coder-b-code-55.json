@@ -1,589 +1,338 @@
 {
-  "coder": "B",
-  "run": "intake-2026-09-14",
-  "records": [
-    {
-      "id": "angermayer-0032",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "No payer, drug or country named; 'the health care system will pay' has no decidable event."
-    },
-    {
-      "id": "angermayer-0033",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Could help people cope' names no observable event."
-    },
-    {
-      "id": "angermayer-0034",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'On track' with no target, trial or date."
-    },
-    {
-      "id": "angermayer-0035",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Many companies' is not a countable set; no named company or product."
-    },
-    {
-      "id": "angermayer-0036",
-      "admit": true,
-      "reason_code": null,
-      "event": {
-        "ref": "E-0024",
-        "title": "First FDA approval of a psychedelic medicine (class)"
-      },
-      "condition": null,
-      "deadline": "2031-05-10",
-      "deadline_origin": "anchor",
-      "asserts": true,
-      "bin": "A",
-      "p_stated": null,
-      "note": "Regulator unnamed; class reading. 'Not in 10 years' read as within 10 years of the statement date."
-    },
-    {
-      "id": "angermayer-0037",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Epidemiology half is out of area; 'real shots to end the crisis' names no observable event."
-    },
-    {
-      "id": "angermayer-0038",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Can potentially be cured' plus an intent to prove it; no trial, endpoint or date."
-    },
-    {
-      "id": "angermayer-0039",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Conditional 'could push back the whole effort' has no observable outcome."
-    },
-    {
-      "id": "angermayer-0040",
-      "admit": true,
-      "reason_code": null,
-      "event": {
-        "ref": "E-0024",
-        "title": "First FDA approval of a psychedelic medicine (class)"
-      },
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": true,
-      "bin": "A",
-      "p_stated": null,
-      "note": "Retrospective framing, but 'nun wieder medizinisch verfuegbar werden' asserts a pending approval; regulator unnamed, class reading; 'nun' is not a deadline."
-    },
-    {
-      "id": "angermayer-0041",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Room for positive surprises' has no threshold or series."
-    },
-    {
-      "id": "angermayer-0042",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Worth much more' and 'investors will choose high-quality companies' have no threshold or series."
-    },
-    {
-      "id": "angermayer-0043",
-      "admit": false,
-      "reason_code": "CONTROL",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Own company's decision to enforce its patents."
-    },
-    {
-      "id": "angermayer-0044",
-      "admit": false,
-      "reason_code": "OUT_OF_AREA",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Prevalence of mental illness; not a drug, device or treatment outcome."
-    },
-    {
-      "id": "angermayer-0045",
-      "admit": false,
-      "reason_code": "OUT_OF_AREA",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Longevity claim."
-    },
-    {
-      "id": "angermayer-0046",
-      "admit": true,
-      "reason_code": null,
-      "event": {
-        "ref": "E-0028",
-        "title": "atai Life Sciences market capitalization at or above US$10 billion"
-      },
-      "condition": null,
-      "deadline": "2026-11-16",
-      "deadline_origin": "anchor",
-      "asserts": true,
-      "bin": "C",
-      "p_stated": null,
-      "note": "Market valuation is set by the market, not the company; affiliated (atai chairman). 'Two three four years' read as within 4 years; 'have the potential' is bin C."
-    },
-    {
-      "id": "angermayer-0047-a",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'12 months from now hopefully right before the readout' gives no event that occurs by a date."
-    },
-    {
-      "id": "angermayer-0047-b",
-      "admit": true,
-      "reason_code": null,
-      "event": {
-        "ref": "E-0047",
-        "title": "FDA approval of COMP360 (psilocybin) for major depressive disorder"
-      },
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": true,
-      "bin": "A",
-      "p_stated": null,
-      "note": "'First approved psychedelic since the 50s' read as approval of COMP360; the ordering claim is logged, not scored. Affiliated (Compass investor)."
-    },
-    {
-      "id": "angermayer-0048",
-      "admit": false,
-      "reason_code": "OUT_OF_AREA",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Biotech sector performance; not psychiatry-specific and no threshold."
-    },
-    {
-      "id": "angermayer-0049-a",
-      "admit": true,
-      "reason_code": null,
-      "event": {
-        "ref": "E-0047",
-        "title": "FDA approval of COMP360 (psilocybin) for major depressive disorder"
-      },
-      "condition": null,
-      "deadline": "2025-11-16",
-      "deadline_origin": "anchor",
-      "asserts": true,
-      "bin": "A",
-      "p_stated": null,
-      "note": "'In three years' from the host's question; 'definitely' is bin A. Affiliated (Compass investor)."
-    },
-    {
-      "id": "angermayer-0049-b",
-      "admit": true,
-      "reason_code": null,
-      "event": {
-        "ref": "E-0001",
-        "title": "FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD"
-      },
-      "condition": null,
-      "deadline": "2025-11-16",
-      "deadline_origin": "anchor",
-      "asserts": true,
-      "bin": "A",
-      "p_stated": null,
-      "note": "'In three years' from the host's question; 'definitely' is bin A."
-    },
-    {
-      "id": "angermayer-0050",
-      "admit": false,
-      "reason_code": "CONTROL",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Own company's financing runway."
-    },
-    {
-      "id": "angermayer-0051",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'100% of the population' and 'one of the most valuable companies' have no threshold or series."
-    },
-    {
-      "id": "angermayer-0052",
-      "admit": false,
-      "reason_code": "CONTROL",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Own program (atai PCN-101) readout timing is the sponsor's own milestone."
-    },
-    {
-      "id": "angermayer-0053",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Could well be that people will seek out' names no measurable event."
-    },
-    {
-      "id": "angermayer-0054",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Massive pressure from patients' has no measurable outcome or series."
-    },
-    {
-      "id": "angermayer-0055",
-      "admit": false,
-      "reason_code": "CONTROL",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Own company's cash runway."
-    },
-    {
-      "id": "angermayer-0056-a",
-      "admit": true,
-      "reason_code": null,
-      "event": {
-        "ref": "E-0047",
-        "title": "FDA approval of COMP360 (psilocybin) for major depressive disorder"
-      },
-      "condition": null,
-      "deadline": "2025-04-04",
-      "deadline_origin": "anchor",
-      "asserts": true,
-      "bin": "B",
-      "p_stated": null,
-      "note": "'One to two years' read as within 2 years; 'most likely' is bin B. Affiliated (Compass investor)."
-    },
-    {
-      "id": "angermayer-0056-b",
-      "admit": true,
-      "reason_code": null,
-      "event": {
-        "ref": "E-0001",
-        "title": "FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD"
-      },
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": true,
-      "bin": "B",
-      "p_stated": null,
-      "note": "'Shortly' is not a deadline; the sentence's 'most likely' hedge carried over."
-    },
-    {
-      "id": "angermayer-0057",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Worth billions once approved' and 'coming back' have no threshold or date."
-    },
-    {
-      "id": "angermayer-0058",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Will positively surprise' has no benchmark."
-    },
-    {
-      "id": "angermayer-0059",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Patient-demand claim with no measurable outcome or series."
-    },
-    {
-      "id": "angermayer-0060",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Fairly easy rollout' and 'patients will demand it' have no measurable outcome."
-    },
-    {
-      "id": "angermayer-0061",
-      "admit": false,
-      "reason_code": "NOT_FORECAST",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Relays management's view that data support a concept; no future state asserted. Own program in any case."
-    },
-    {
-      "id": "angermayer-0062",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Have the potential' press-release language; no trial, endpoint or date."
-    },
-    {
-      "id": "angermayer-0063",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Much more scientific validation' names no study or outcome."
-    },
-    {
-      "id": "angermayer-0064",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Replace classic antidepressants over time' has no threshold, series or date."
-    },
-    {
-      "id": "angermayer-0065",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'100% of the world population' TAM has no series or threshold."
-    },
-    {
-      "id": "angermayer-0066",
-      "admit": false,
-      "reason_code": "OUT_OF_AREA",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Off-label use across biotech and pharma; not psychiatry-specific."
-    },
-    {
-      "id": "angermayer-0067",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Come back with force' and 'revisit atai' have no threshold; the sector half is also out of area."
-    },
-    {
-      "id": "angermayer-0068",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Great for atai' and 'beginning of a change in sentiment' have no threshold or series."
-    },
-    {
-      "id": "angermayer-0069",
-      "admit": false,
-      "reason_code": "VAGUE",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "'Outpace estimates' names no estimate, series or date."
-    },
-    {
-      "id": "angermayer-0070",
-      "admit": false,
-      "reason_code": "CONTROL",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Own program (Beckley Psytech ELE-101, atai-partnered) results timing restates sponsor guidance."
-    },
-    {
-      "id": "angermayer-0071",
-      "admit": false,
-      "reason_code": "CONTROL",
-      "event": null,
-      "condition": null,
-      "deadline": null,
-      "deadline_origin": null,
-      "asserts": null,
-      "bin": null,
-      "p_stated": null,
-      "note": "Own company's cash runway, restated from its filings."
-    }
-  ]
+ "coder": "B",
+ "run": "intake-2026-09-14",
+ "records": [
+  {
+   "id": "angermayer-0032",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "No payer, treatment or criterion; 'paid for by the health care system' is a rationale, not a decidable event."
+  },
+  {
+   "id": "angermayer-0033",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Could help people cope' names no entity, event or criterion."
+  },
+  {
+   "id": "angermayer-0034",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Well on track' has no target, trial or date."
+  },
+  {
+   "id": "angermayer-0035",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Many copycats' is an undefined set; no company or product named."
+  },
+  {
+   "id": "angermayer-0036",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0024" },
+   "condition": null,
+   "deadline": "2031-05-10",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "affiliated": false,
+   "note": "'Legal as a treatment' read as first approval of a psychedelic medicine; 'not in 10 years' gives statement date plus 10 years; bare assertion is A."
+  },
+  {
+   "id": "angermayer-0037",
+   "admit": false,
+   "reason_code": "OUT_OF_AREA",
+   "note": "Epidemiology claim; the portfolio clause is own-company and has no criterion."
+  },
+  {
+   "id": "angermayer-0038",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "note": "Intent that atai's own trials will prove curability; no third-party outcome named."
+  },
+  {
+   "id": "angermayer-0039",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "Conditional fear of a backlash; no body, rule or criterion."
+  },
+  {
+   "id": "angermayer-0040",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0024" },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "affiliated": false,
+   "note": "'Psychedelika wie Magic Mushrooms nun wieder medizinisch verfuegbar werden' read as class approval; 'nun' is not a deadline."
+  },
+  {
+   "id": "angermayer-0041",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "Market-sentiment call with no series or threshold."
+  },
+  {
+   "id": "angermayer-0042",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Worth much more' and 'investors will choose high-quality companies' give no threshold or series."
+  },
+  {
+   "id": "angermayer-0043",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "note": "Own-company intent to enforce patents."
+  },
+  {
+   "id": "angermayer-0044",
+   "admit": false,
+   "reason_code": "OUT_OF_AREA",
+   "note": "Prevalence of mental illness; not a treatment, trial, company, payer or adoption outcome."
+  },
+  {
+   "id": "angermayer-0045",
+   "admit": false,
+   "reason_code": "OUT_OF_AREA",
+   "note": "Longevity claim."
+  },
+  {
+   "id": "angermayer-0046",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0028" },
+   "condition": null,
+   "deadline": "2026-11-16",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "C",
+   "p_stated": null,
+   "affiliated": true,
+   "note": "'$10-20 billion business' read at the US$10 billion market-cap threshold; 'two three four years' gives plus 4 years; 'have the potential' is C."
+  },
+  {
+   "id": "angermayer-0047",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0047" },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "affiliated": true,
+   "note": "Coded on 'going to be the first approved psychedelic drug' (COMP360); '12 months from now right before the readout' dates no event."
+  },
+  {
+   "id": "angermayer-0048",
+   "admit": false,
+   "reason_code": "OUT_OF_AREA",
+   "note": "Biotech sector performance; not psychiatry-specific."
+  },
+  {
+   "id": "angermayer-0049-a",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0047" },
+   "condition": null,
+   "deadline": "2025-11-16",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "affiliated": true,
+   "note": "'Compass' approved drug read as COMP360; 'in three years' from the host's question gives plus 3 years; 'definitely' is A."
+  },
+  {
+   "id": "angermayer-0049-b",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0001" },
+   "condition": null,
+   "deadline": "2025-11-16",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "affiliated": false,
+   "note": "'MAPS meaning MDMA' read as FDA approval of MDMA-assisted therapy for PTSD; same three-year horizon."
+  },
+  {
+   "id": "angermayer-0050",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "note": "Own-company financing runway."
+  },
+  {
+   "id": "angermayer-0051",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'100% of the population' and 'one of the most valuable companies' have no series or threshold."
+  },
+  {
+   "id": "angermayer-0052",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "note": "Own-company readout guidance for PCN-101."
+  },
+  {
+   "id": "angermayer-0053",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "Preventive use 'could well be'; no measurable criterion."
+  },
+  {
+   "id": "angermayer-0054",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Massive pressure from patients' has no measurable criterion."
+  },
+  {
+   "id": "angermayer-0055",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "note": "Own-company cash runway."
+  },
+  {
+   "id": "angermayer-0056-a",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0047" },
+   "condition": null,
+   "deadline": "2025-04-04",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "affiliated": true,
+   "note": "'One to two years' gives plus 2 years; 'most likely' is B."
+  },
+  {
+   "id": "angermayer-0056-b",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0001" },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "affiliated": false,
+   "note": "MAPS approval 'shortly': not a deadline; the clause carries no hedge, so A."
+  },
+  {
+   "id": "angermayer-0057",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Worth billions once approved' and 'trading below cash is wrong' give no threshold or date."
+  },
+  {
+   "id": "angermayer-0058",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Positively surprise' has no criterion."
+  },
+  {
+   "id": "angermayer-0059",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "Patient-demand claim with no measurable criterion."
+  },
+  {
+   "id": "angermayer-0060",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Fairly easy rollout' has no criterion."
+  },
+  {
+   "id": "angermayer-0061",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "note": "Relays atai management's plan for PCN-101 future studies."
+  },
+  {
+   "id": "angermayer-0062",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Have the potential' and 'could lead to access'; no trial, threshold or date."
+  },
+  {
+   "id": "angermayer-0063",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'More scientific validation' has no defined set or criterion."
+  },
+  {
+   "id": "angermayer-0064",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:psilocybin-prescriptions-exceed-classic-antidepressants",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "asset": "Psilocybin drug products versus classic antidepressants (SSRIs, SNRIs and related): annual prescription volume",
+    "entity": "IQVIA (or another named prescription-volume series)",
+    "title": "Psilocybin prescriptions exceed classic antidepressant prescriptions",
+    "proposition": "Annual prescription volume of approved psilocybin drug products is at or above the annual prescription volume of classic antidepressants by the period end, per a named prescription-volume series."
+   },
+   "condition": { "ref": "E-0003" },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "affiliated": false,
+   "note": "'Replace' read as prescription volume at or above classic antidepressants; conditional on approval; 'over time' is not a deadline."
+  },
+  {
+   "id": "angermayer-0065",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'100% of the world population' is not a measurable threshold on a series."
+  },
+  {
+   "id": "angermayer-0066",
+   "admit": false,
+   "reason_code": "OUT_OF_AREA",
+   "note": "Off-label use as an economic driver for pharma; not psychiatry-specific."
+  },
+  {
+   "id": "angermayer-0067",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "Biotech sector comeback is out of area; 'investors revisit atai' has no threshold."
+  },
+  {
+   "id": "angermayer-0068",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Great for atai' and 're-rating' give no threshold."
+  },
+  {
+   "id": "angermayer-0069",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "note": "'Outpace estimates' names no estimate, series or threshold."
+  },
+  {
+   "id": "angermayer-0070",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "note": "Readout guidance for a Beckley Psytech trial, an atai-affiliated program."
+  },
+  {
+   "id": "angermayer-0071",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "note": "Own-company runway from filings."
+  }
+ ]
 }

@@ -6,314 +6,220 @@
    "id": "angermayer-0152",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "'Core ingredients to become a true company' names no observable event or threshold."
   },
   {
    "id": "angermayer-0153",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "'Short-acting compounds will win' has no named asset, metric or threshold."
   },
   {
    "id": "angermayer-0154",
-   "admit": false,
-   "reason_code": "VAGUE",
-   "event": null,
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0106"
+   },
    "condition": null,
    "deadline": null,
+   "deadline_text": null,
    "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
+   "asserts": true,
+   "bin": "C",
    "p_stated": null,
-   "note": "'Has the potential to deliver more efficacy' names no trial, comparator or threshold."
+   "affiliated": true,
+   "note": "BPL-003 two-dose induction larger effect; trial data decide. 'Has the potential' (C). '4 to 6 weeks' is an endpoint timepoint, not a deadline. Affiliated (atai)."
   },
   {
    "id": "angermayer-0155",
    "admit": false,
    "reason_code": "REPORT",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
-   "note": "Passes on Compass guidance; the conditional restates the launch already inside the condition."
+   "note": "Passes on Compass guidance; the conditional's event (2027 access) is already inside the condition (early 2027 launch)."
   },
   {
    "id": "angermayer-0156",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "'Investors will increasingly focus on details' has no series or threshold."
   },
   {
    "id": "angermayer-0157",
    "admit": false,
    "reason_code": "OUT_OF_AREA",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "Historical and anthropological scholarship, not a decision in the five areas."
   },
   {
    "id": "angermayer-0158",
    "admit": false,
    "reason_code": "NORMATIVE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "'Every founder should'; the approval is an undated embedded assumption, not a claim."
   },
   {
    "id": "angermayer-0159",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "'Most talked about' and 'almost everybody' have no countable set or series."
   },
   {
    "id": "angermayer-0160",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "'Underestimate the long-term TAM' names no series, threshold or date."
   },
   {
    "id": "angermayer-0161",
    "admit": false,
    "reason_code": "THIRD_PARTY",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "Approval expectation attributed to 'the market'; not adopted in his own words."
   },
   {
    "id": "angermayer-0162",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "Physician matching 'over time' has no observable event."
   },
   {
    "id": "angermayer-0163",
-   "admit": false,
-   "reason_code": "VAGUE",
-   "event": null,
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0111"
+   },
    "condition": null,
    "deadline": null,
+   "deadline_text": "over time",
    "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
+   "asserts": true,
+   "bin": "C",
    "p_stated": null,
-   "note": "'Potential to become first-line' names no guideline, body or date."
+   "affiliated": false,
+   "note": "Guideline bodies decide first-line status. 'Have the potential' (C). 'Over time' is not a deadline. Prevention clause not coded. Class event, no atai entity named."
   },
   {
    "id": "angermayer-0164",
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "E-0029",
-    "title": "A major regulator approves an atai psychedelic therapeutic"
+    "ref": "E-0120"
    },
    "condition": null,
    "deadline": "2029-05-07",
+   "deadline_text": "from now on like two to three years max",
    "deadline_origin": "anchor",
    "asserts": true,
    "bin": "A",
    "p_stated": null,
-   "note": "Quote names neither drug nor regulator; context is BPL-003. 'Two to three years max' = statement date plus 3 years. Affiliated."
+   "affiliated": true,
+   "note": "Context is BPL-003 approval after Breakthrough status; FDA decides. 'Two to three years max' = statement date plus 3 years. 'Going to be' (A). Affiliated (atai)."
   },
   {
    "id": "angermayer-0165",
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "E-0059",
-    "title": "AtaiBeckley (ATAI) added to a major stock index"
+    "ref": "E-0059"
    },
    "condition": null,
    "deadline": "2026-06-30",
+   "deadline_text": "June (Russell index rebalancing)",
    "deadline_origin": "anchor",
    "asserts": true,
    "bin": "B",
    "p_stated": null,
-   "note": "'My expectation' on June Russell inclusion; index provider decides. Affiliated."
+   "affiliated": true,
+   "note": "'My expectation' on June Russell inclusion (B); index provider decides. Affiliated (atai)."
   },
   {
    "id": "angermayer-0166",
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "E-0059",
-    "title": "AtaiBeckley (ATAI) added to a major stock index"
+    "ref": "E-0059"
    },
    "condition": null,
    "deadline": "2026-06-30",
+   "deadline_text": "from June on; in June",
    "deadline_origin": "anchor",
    "asserts": true,
    "bin": "A",
    "p_stated": null,
-   "note": "Index flow from June = index inclusion; 'there will be' is the strongest phrase. Affiliated."
+   "affiliated": true,
+   "note": "Index flow from June = index inclusion; 'there will be' is the strongest phrase (A). Affiliated (atai)."
   },
   {
    "id": "angermayer-0167",
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "new:dt120-phase3-primary-endpoint-met",
-    "template": "trial_result",
-    "area": "clinical_trial",
-    "asset": "DT120 (MM120, lysergide) Phase 3 program: next topline readout",
-    "entity": "Definium Therapeutics (formerly MindMed)",
-    "title": "A DT120 (MM120, LSD) Phase 3 trial meets its primary endpoint",
-    "proposition": "Definium Therapeutics reports that a Phase 3 trial of DT120 (MM120, lysergide) met its prespecified primary endpoint with statistical significance."
+    "ref": "E-0119"
    },
    "condition": null,
    "deadline": null,
+   "deadline_text": null,
    "deadline_origin": null,
    "asserts": true,
    "bin": "A",
    "p_stated": null,
-   "note": "'Amazing' read as primary endpoint met. Table rule applies; primary completion date not available to this coder."
+   "affiliated": false,
+   "note": "'Amazing' Phase 3 results read as primary endpoint met. Table rule applies; CT.gov primary completion date not available to this coder, so undated. 'Going to be' (A)."
   },
   {
    "id": "angermayer-0168-a",
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "E-0047",
-    "title": "FDA approval of COMP360 (psilocybin) for major depressive disorder"
+    "ref": "E-0047"
    },
    "condition": null,
    "deadline": null,
+   "deadline_text": "very soon",
    "deadline_origin": null,
    "asserts": true,
    "bin": "B",
    "p_stated": null,
-   "note": "'Very soon' is not a deadline. Affiliated (Compass investor)."
+   "affiliated": true,
+   "note": "Split -a: Compass (COMP360) approval. 'I do [believe]' (B); 'will' sits in the rhetorical question. 'Very soon' is not a deadline. Affiliated (Compass investor)."
   },
   {
    "id": "angermayer-0168-b",
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "new:dt120-fda-approval",
-    "template": "drug_approval",
-    "area": "regulatory",
-    "asset": "DT120 (MM120, lysergide D-tartrate, LSD) drug product",
-    "entity": "Definium Therapeutics (formerly MindMed)",
-    "title": "FDA approval of DT120 (MM120, LSD)",
-    "proposition": "The FDA approves DT120 (MM120, lysergide) for any indication."
+    "ref": "E-0121"
    },
    "condition": null,
    "deadline": null,
+   "deadline_text": "very soon",
    "deadline_origin": null,
    "asserts": true,
    "bin": "B",
    "p_stated": null,
-   "note": "'Very soon' is not a deadline; regulator unnamed, FDA read from US sponsor."
+   "affiliated": false,
+   "note": "Split -b: Definium (DT120) approval; FDA read from US sponsor. 'I do [believe]' (B). 'Very soon' is not a deadline."
   },
   {
    "id": "angermayer-0169",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "'Moves closer to FDA approvals' names no drug or date."
   },
   {
    "id": "angermayer-0170",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "'Potentially advance therapies faster' has no observable event or threshold."
   },
   {
    "id": "angermayer-0171",
    "admit": false,
    "reason_code": "OUT_OF_AREA",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "Apeiron portfolio in biotech and deep tech; not a psychiatry decision."
   },
   {
    "id": "doblin-0036",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "'Eventually expand' to non-diagnosed clients; no count, clinic or date."
   },
   {
@@ -321,41 +227,28 @@
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "E-0001",
-    "title": "FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD"
+    "ref": "E-0001"
    },
    "condition": null,
    "deadline": null,
+   "deadline_text": "soon",
    "deadline_origin": null,
    "asserts": true,
    "bin": "A",
    "p_stated": null,
-   "note": "'Soon the FDA-approved sale of MDMA' is undated; FDA decides. Affiliated (MAPS)."
+   "affiliated": true,
+   "note": "'Soon the FDA-approved sale of MDMA' asserts approval; FDA decides. 'Soon' is not a deadline. Affiliated (MAPS)."
   },
   {
    "id": "doblin-0038",
    "admit": false,
    "reason_code": "NOT_FORECAST",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "Describes statutory exclusivity mechanics after a hypothetical approval; no future state asserted."
   },
   {
    "id": "doblin-0039",
    "admit": false,
    "reason_code": "CONTROL",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "MAPS's own Phase 3 spending estimate."
   },
   {
@@ -363,70 +256,64 @@
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "E-0001",
-    "title": "FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD"
+    "ref": "E-0001"
    },
    "condition": null,
    "deadline": "2021-12-31",
+   "deadline_text": "2021",
    "deadline_origin": "anchor",
    "asserts": true,
    "bin": "B",
    "p_stated": null,
-   "note": "'Probably ... 2021'. Affiliated (MAPS)."
+   "affiliated": true,
+   "note": "Split -a: MDMA approval 'probably ... 2021' (B). Clinic build-out is own action, not coded. Affiliated (MAPS)."
   },
   {
    "id": "doblin-0040-b",
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "E-0003",
-    "title": "FDA approval of a psilocybin drug product"
+    "ref": "E-0003"
    },
    "condition": null,
    "deadline": "2021-12-31",
+   "deadline_text": "around the same time; 2021",
    "deadline_origin": "anchor",
    "asserts": true,
    "bin": "B",
    "p_stated": null,
-   "note": "Psilocybin approval 'around the same time', 2021."
+   "affiliated": false,
+   "note": "Split -b: psilocybin approval 'around the same time', 2021. 'Probably' (B). Not affiliated."
   },
   {
    "id": "doblin-0041",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
-   "note": "Clinics spread 'like hospices'; no count or threshold to resolve."
+   "note": "Clinics spread 'like hospices'; no count or threshold in the words."
   },
   {
    "id": "doblin-0042",
-   "admit": false,
-   "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0071"
+   },
+   "condition": {
+    "ref": "E-0070"
+   },
    "deadline": null,
+   "deadline_text": null,
    "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
+   "asserts": true,
+   "bin": "B",
    "p_stated": null,
-   "note": "'Insurance companies' with no named payer; condition (cannabis approval) undated."
+   "affiliated": true,
+   "note": "Conditional on FDA approval of marijuana as a medicine (E-0070). Insurers decide. 'The likelihood' read as likely (B). Undated. Affiliated (MAPS sponsors the cannabis PTSD program)."
   },
   {
    "id": "doblin-0043",
    "admit": false,
    "reason_code": "CONTROL",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "MAPS's own study timeline."
   },
   {
@@ -434,183 +321,141 @@
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "E-0001",
-    "title": "FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD"
+    "ref": "E-0001"
    },
    "condition": null,
    "deadline": "2021-12-31",
+   "deadline_text": "in 2021",
    "deadline_origin": "anchor",
    "asserts": true,
    "bin": "B",
    "p_stated": null,
-   "note": "'We project ... in 2021'. Affiliated (MAPS)."
+   "affiliated": true,
+   "note": "Split -a: FDA approval. 'We project' read as expect (B). 'If our assumptions are accurate' is not an observable condition. Affiliated (MAPS)."
   },
   {
    "id": "doblin-0044-b",
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "E-0004",
-    "title": "EU approval of midomafetamine (MDMA-assisted therapy) for PTSD"
+    "ref": "E-0004"
    },
    "condition": null,
    "deadline": "2021-12-31",
+   "deadline_text": "in 2021",
    "deadline_origin": "anchor",
    "asserts": true,
    "bin": "B",
    "p_stated": null,
-   "note": "EMA half of the compound claim. Affiliated (MAPS)."
+   "affiliated": true,
+   "note": "Split -b: EMA approval, same year. 'We project' (B). Affiliated (MAPS)."
   },
   {
    "id": "doblin-0045",
    "admit": false,
    "reason_code": "CONTROL",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "MAPS's own cost estimate and fundraising target."
   },
   {
    "id": "doblin-0046",
    "admit": false,
    "reason_code": "CONTROL",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "MAPS's own therapist training and enrolment plan."
   },
   {
-   "id": "doblin-0047",
+   "id": "doblin-0047-a",
    "admit": true,
    "reason_code": null,
    "event": {
-    "ref": "new:dea-craker-cannabis-registration",
-    "template": "rule_or_policy",
-    "area": "regulatory",
-    "asset": "DEA registration of Prof. Lyle Craker (UMass Amherst) as a manufacturer of cannabis for research, ending the NIDA supply monopoly",
-    "entity": "Drug Enforcement Administration",
-    "title": "DEA licenses Prof. Lyle Craker to produce research cannabis",
-    "proposition": "The DEA issues a registration (license) to Prof. Lyle Craker to produce cannabis for research, ending the NIDA monopoly on research cannabis supply."
+    "ref": "E-0072"
    },
    "condition": null,
    "deadline": "2017-01-20",
+   "deadline_text": "Before the Obama Administration leaves office",
    "deadline_origin": "anchor",
    "asserts": true,
    "bin": "B",
    "p_stated": null,
-   "note": "'Before the Obama Administration leaves office' = 20 January 2017. 'Very good chance' read as likely."
+   "affiliated": false,
+   "note": "Split -a: DEA license to Prof. Craker. Administration leaves office 20 January 2017 (named event). 'Very good chance' read as likely (B)."
+  },
+  {
+   "id": "doblin-0047-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0073"
+   },
+   "condition": null,
+   "deadline": "2017-01-20",
+   "deadline_text": "Before the Obama Administration leaves office",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "affiliated": false,
+   "note": "Split -b: 'other private producers' = a producer other than the NIDA contractor. Same deadline and bin."
   },
   {
    "id": "doblin-0048",
    "admit": false,
    "reason_code": "CONTROL",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "MAPS's own plan to open EMA discussions."
   },
   {
    "id": "doblin-0049",
    "admit": false,
    "reason_code": "NOT_FORECAST",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "Explicitly declines to estimate; no expectation asserted."
   },
   {
    "id": "doblin-0050",
    "admit": false,
    "reason_code": "CONTROL",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "MAPS's own NDA submission plan."
   },
   {
    "id": "doblin-0051",
    "admit": false,
    "reason_code": "CONTROL",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "Completion of MAPS's own studies."
   },
   {
    "id": "doblin-0052",
    "admit": false,
    "reason_code": "CONTROL",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "MAPS's own Phase 3 cost estimate."
   },
   {
    "id": "doblin-0053",
    "admit": false,
    "reason_code": "CONTROL",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "MAPS's own budget projection."
   },
   {
    "id": "doblin-0054",
    "admit": false,
    "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
-   "deadline": null,
-   "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
-   "p_stated": null,
    "note": "'Motivate new donors' has no amount, threshold or date."
   },
   {
    "id": "doblin-0055",
-   "admit": false,
-   "reason_code": "VAGUE",
-   "event": null,
-   "condition": null,
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0024"
+   },
+   "condition": {
+    "ref": "E-0074"
+   },
    "deadline": null,
+   "deadline_text": null,
    "deadline_origin": null,
-   "asserts": null,
-   "bin": null,
+   "asserts": true,
+   "bin": "A",
    "p_stated": null,
-   "note": "Conditional restates the approval standard; no named program, regulator decision date or deadline."
+   "affiliated": false,
+   "note": "Prescription access read as first FDA approval of a psychedelic medicine (class); conditional on a Phase 3 of psychedelic-assisted psychotherapy meeting its endpoint (E-0074). 'Will' (A). 'Upcoming' is not a deadline. Class event, no MAPS entity named."
   }
  ]
 }

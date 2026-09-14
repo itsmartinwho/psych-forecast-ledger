@@ -1,0 +1,88 @@
+{
+  "coder": "C",
+  "run": "intake-2026-09-14",
+  "records": [
+    {
+      "id": "angermayer-0064",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "asserts": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": null,
+      "p_stated": null,
+      "phrase": null,
+      "affiliated": null,
+      "tags": null,
+      "base_rate_class": null,
+      "stage_note": null,
+      "note": "'Replace classic antidepressants over time' names no metric, no threshold, no data series and no period. 'Replace' is a comparative with no benchmark in the words: any quantity_threshold event (psilocybin volume versus antidepressant volume, a share, a count) would invent the metric and the threshold. 'Over time after approval by medical authorities' is not a deadline. The sentence is an adoption-scale slogan, so VAGUE. Fails test (f)."
+    },
+    {
+      "id": "owen-2461",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "asserts": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": null,
+      "p_stated": null,
+      "phrase": null,
+      "affiliated": null,
+      "tags": null,
+      "base_rate_class": null,
+      "stage_note": null,
+      "note": "'A durable version of TMS for ADHD' names no trial, no durability benchmark (duration or response measure), no protocol and no deciding body. The claim is about treatment effect, not a regulatory decision: mapping it to E-0063 (FDA authorizes a TMS device for ADHD) would invent the decider and the outcome type, and a trial_result event would invent the trial and the threshold. 'Dubious' is also not a lexicon phrase (nearest 'doubtful', bin D), but the item fails test (f) first. VAGUE."
+    },
+    {
+      "id": "angermayer-0176",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0029",
+        "readings": [
+          "'the drug' = the atai psychedelic therapeutic whose Phase 3 trial produced the data in the condition; the forecaster names no compound, so any atai program counts, as in E-0029.",
+          "The words name the FDA; E-0029 also counts another major regulator. The reading is logged: an FDA approval is the outcome the forecaster asserts."
+        ]
+      },
+      "condition": {
+        "ref": "new:atai-psychedelic-phase3-primary-endpoint-met",
+        "template": "trial_result",
+        "area": "clinical_trial",
+        "asset": "Any psychedelic therapeutic developed, owned or partnered by atai Life Sciences: a Phase 3 trial meets its primary endpoint",
+        "entity": "atai Life Sciences (sponsor, or its subsidiary, successor or partner)",
+        "title": "An atai psychedelic program reports a Phase 3 trial that meets its primary endpoint",
+        "proposition": "A Phase 3 trial of a psychedelic therapeutic developed, owned or partnered by atai Life Sciences reports its prespecified primary endpoint met.",
+        "criterion": "TRUE on the date of the sponsor's topline press release, or the publication, that first reports a Phase 3 trial of a psychedelic therapeutic developed, owned or partnered by atai Life Sciences (or its subsidiary, successor or partner) with its prespecified primary endpoint met with statistical significance, as reported by the sponsor. A psychedelic therapeutic is a compound its sponsor or the regulator describes as a psychedelic or an entactogen; esketamine and ketamine are excluded. A Phase 2 result, an open-label result, an interim analysis or a secondary endpoint is not a Phase 3 primary result. Resolution source: the sponsor's topline press release, with ClinicalTrials.gov results as a secondary source. FALSE at the deadline when no such Phase 3 result has been reported.",
+        "resolution_source": {
+          "name": "Sponsor topline press release; ClinicalTrials.gov results as a secondary source",
+          "url": "https://clinicaltrials.gov/"
+        },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'if we produce the clinical data in phase three' = an atai Phase 3 trial meets its prespecified primary endpoint; the trial result is decided by the data, not by an atai decision, so the condition is observable and outside the forecaster's control.",
+          "No compound is named; on the statement date no atai program had a Phase 3 trial, so any atai psychedelic program counts."
+        ]
+      },
+      "asserts": true,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": "A",
+      "p_stated": null,
+      "phrase": "it's an automatism that the FDA ... will say ... we're going to approve the drug",
+      "affiliated": true,
+      "tags": ["affiliated", "conditional"],
+      "base_rate_class": null,
+      "stage_note": "On 2024-05-08 no atai psychedelic program was in Phase 3 (lead programs BPL-003, VLS-01 and EMP-01 were in Phase 2). The item is conditional on a positive Phase 3 result, and no class in base-rates.json gives P(approval | positive Phase 3, no NDA yet); the ledger abstains rather than substitute a class.",
+      "note": "Conditional 'if A then B': A = atai produces positive Phase 3 data (a trial outcome, not a company decision, so not CONTROL); B = the FDA approves the drug, which a third party decides. The claim is the forecaster's own expectation about the FDA, not information. Event B maps to E-0029 (a major regulator approves an atai psychedelic therapeutic, any indication). Bin A on 'will' and 'it's an automatism'; 'I'm very confident' qualifies the condition, not the outcome. No date in the words: undated panel. Affiliated: atai chairman."
+    }
+  ]
+}
