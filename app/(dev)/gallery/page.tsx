@@ -4,13 +4,16 @@ import { GALLERY } from "@/components/charts/gallery-registry";
 import { Grid2 } from "@/components/layout/Grid2";
 import { Shell } from "@/components/layout/Shell";
 import { Reveal } from "@/components/motion/Reveal";
+import { getDataset } from "@/lib/data/cached";
 
 export const metadata = { title: "Gallery" };
 
 export default function GalleryPage() {
   if (process.env.NODE_ENV === "production") notFound();
+  const ds = getDataset();
+  const hero = ds.forecasters.find((f) => f.hero) ?? ds.forecasters[0];
   return (
-    <Shell current="/gallery">
+    <Shell current="/gallery" hero={{ slug: hero.slug, name: hero.name }}>
       <h1 className="h2" style={{ fontSize: 19 }}>Chart gallery</h1>
       <p className="sub">
         {GALLERY.length} {GALLERY.length === 1 ? "entry" : "entries"} · wide 800x300 · half 400x320 · click a card to replay motion

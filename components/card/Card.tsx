@@ -1,45 +1,64 @@
-// Card anatomy: h2 (a conclusion sentence), .sub (legend · unit · range), the chart, .src (uppercase source line).
-// Cards share the page color: no border, no shadow; whitespace separates them.
+// Card anatomy, in order: head (h2 noun phrase, optional count), takeaway (one computed sentence), legend (glyphs),
+// chart, "How to read" disclosure, src (source · scope · n). Cards share the page color: no border, no shadow.
 import type { ReactNode } from "react";
 import { CardSplit } from "./CardSplit";
+import { HowToRead } from "./HowToRead";
+import { Legend, type LegendItem } from "./Legend";
 
 export interface CardProps {
+  /** Noun phrase; a chart type is allowed. */
   title: string;
-  sub?: string;
+  /** One sentence from the data, computed in lib/data/text.ts. */
+  takeaway?: string;
+  /** Right-aligned count in the head row, e.g. "13 events" (uppercased by CSS). */
+  n?: string;
+  /** Glyph legend; only when the chart draws two or more mark kinds. */
+  legend?: LegendItem[];
+  /** "How to read" body. */
+  how?: ReactNode;
+  /** Source · scope · n. Never the version or the date. */
   src?: string;
   /** Spans both columns of .grid2 and uses the 800x300 frame. */
   wide?: boolean;
   /** Ink background. At most one dark card in four. */
   dark?: boolean;
-  /** 19px title for a big chart. */
-  big?: boolean;
-  /** Text column beside the chart (wide cards). Title and sub move into that column. */
-  split?: { note?: string; legend?: ReactNode };
   id?: string;
   className?: string;
+  /** Aside column (250px) left of the chart; used by the Scoreboard. */
+  split?: { aside: ReactNode };
   children: ReactNode;
 }
 
-export function Card({ title, sub, src, wide, dark, big, split, id, className, children }: CardProps) {
+export function Card({ title, takeaway, n, legend, how, src, wide, dark, id, className, split, children }: CardProps) {
   const cls = ["card", wide ? "wide" : null, dark ? "card--dark" : null, className].filter(Boolean).join(" ");
   const head = (
     <>
-      <h2 className={big ? "big" : undefined}>{title}</h2>
-      {sub ? <p className="sub">{sub}</p> : null}
+      <div className="card-head">
+        <h2>{title}</h2>
+        {n ? <span className="card-n">{n}</span> : null}
+      </div>
+      {takeaway ? <p className="takeaway">{takeaway}</p> : null}
+    </>
+  );
+  const chart = (
+    <>
+      {legend && legend.length ? <Legend items={legend} /> : null}
+      <div className="chart">{children}</div>
     </>
   );
   return (
     <section className={cls} id={id}>
       {split ? (
-        <CardSplit head={head} note={split.note} legend={split.legend}>
-          {children}
+        <CardSplit head={head} aside={split.aside}>
+          {chart}
         </CardSplit>
       ) : (
         <>
           {head}
-          {children}
+          {chart}
         </>
       )}
+      {how ? <HowToRead>{how}</HowToRead> : null}
       {src ? <p className="src">{src}</p> : null}
     </section>
   );

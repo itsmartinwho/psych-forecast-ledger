@@ -8,15 +8,15 @@ Mono: paper #F0EFEB, ink #1C1C1A, muted #8F8E88, faint #C6C5BF, grid #DEDDD6; la
 
 ## typography
 
-Inter only. h2 16.5px/700, spacing -.02em (19px on big charts). Sub 11.5px/400 muted. Source 9.5px/500 uppercase, spacing .08em. Axis 9.5px/600. In-chart values always 800 (9-11px). Row labels 7-8.5px/700 #6A6963. SVG footnote 7px/600 uppercase, spacing .12em, #B0AFA9. Floor 6.5px (half card), 5.5px (wide); move to hover, never shrink.
+Inter only. Four registers. R1 Title: H1 24px/800, card h2 16.5px/700, spacing -.02em (19px .big for the gallery only). R2 Takeaway: 13px/500 ink; big numbers 26px/800 and 20px/800. R3 Body: 12.5px/400 gray-2, 11.5px in tables, 13px for the verbatim quote. R4 Meta: 9.5px/600 uppercase, spacing .08em, muted (nav, stamp, dateline, legend, chips, table headers, src, footer). Axis 9.5px/600. In-chart values always 800 (9-11px). Row labels 7-8.5px/700 #6A6963. SVG footnote 7px/600 uppercase, spacing .12em, #B0AFA9. Floor 6.5px (half card), 5.5px (wide); move to hover, never shrink.
 
 ## card_anatomy
 
-Four fixed parts. h2 = a conclusion, never a chart type. .sub = legend + unit + range joined by ' · ' ('one dot = one day · hollow = weekend'). Chart: SVG viewBox 400x320 (half) or 800x300 (wide); .ch 320px for ECharts. .src = CHART NAME · SERIES · SOURCE, uppercase. Wide cards may use .split: a 250px column (h2, sub, .note 11px prose, .legend 9px uppercase glyphs) beside the chart. An uppercase SVG footnote restates the unit.
+Six parts in a fixed order. .card-head = h2 + optional .card-n count. h2 = the chart name, a noun phrase of one to four words (a chart type is allowed: "Leaderboard"); never a conclusion. .takeaway = the conclusion: one computed sentence under the title (13px/500, ink, max 70ch). .legend = uppercase glyph items (9.5px/600), only when the chart draws two or more mark kinds; glyphs: solid, hollow, void, tick, dash, accent, progress (three ticks), whisker (solid or dashed), text (no glyph). .chart: SVG viewBox 400x320 (half) or 800x300 (wide). details.how = "How to read", collapsed body text (12.5px) for axis meanings, method notes and a "Method ›" link. .src = SOURCE · SCOPE · N, uppercase, at most three fragments, never the version or the date. Wide cards may use .split: a 250px aside (head, takeaway, then the aside node) beside the chart. .sub, .note and .stat-unit stay in CSS for the gallery only. An uppercase SVG footnote states the unit or direction only ("← BETTER", "BRIER", "1 RUNG = 50 STATEMENTS"); it never restates the legend.
 
 ## layout_grammar
 
-Body padding 40px on paper. .grid2: two equal columns, gap 22px, max-width 1100-1400px; .wide spans both. Cards share the page color, radius 24px, padding 28px 28px 20px, no border, no shadow; whitespace separates cards. Hairlines 0.5-0.9px (#DEDDD6, #E3E2DB) carry structure: ledger lines, barcode floors (one tick per time unit), dotted guides '2 5'. No axis spines: one 0.8px baseline plus ticks. Max one dark card in four.
+Body padding 40px on paper. .grid2: two equal columns, gap 22px, max-width 1100-1400px; .wide spans both. Cards share the page color, radius 24px, padding 24px 24px 18px (20px 16px 16px and radius 16px under 760px), no border, no shadow; whitespace separates cards. Hairlines 0.5-0.9px (#DEDDD6, #E3E2DB) carry structure: ledger lines, barcode floors (one tick per time unit), dotted guides '2 5'. No axis spines: one 0.8px baseline plus ticks. Max one dark card in four.
 
 ## motion
 
@@ -103,7 +103,7 @@ No broken axes (let outliers tower, add a magnifier, or tear the bar and say so)
 
 ## react_notes
 
-Hand-written SVG with d3-scale and d3-shape is the natural port: Lupi and Basics are plain SVG primitives placed by small scale functions, so one record = one React element. Use scaleLinear/scaleBand for position, d3-shape for paths, and a tokens.ts with palette, FONT, MOTION and the rnd, blob, sect helpers. Card = one component (title, sub, source, children). Animate with CSS classes and animation-delay, gated by IntersectionObserver; honor reduced motion. Use ECharts only for Glance shapes (jitter strip, diverging bar), themed with tipLight; never mix engines in one card.
+Hand-written SVG with d3-scale and d3-shape is the natural port: Lupi and Basics are plain SVG primitives placed by small scale functions, so one record = one React element. Use scaleLinear/scaleBand for position, d3-shape for paths, and a tokens.ts with palette, FONT, MOTION and the rnd, blob, sect helpers. Card = one component (title, takeaway, n, legend, how, src, children). Animate with CSS classes and animation-delay, gated by IntersectionObserver; honor reduced motion. Use ECharts only for Glance shapes (jitter strip, diverging bar), themed with tipLight; never mix engines in one card.
 
 ## license_note
 

@@ -26,6 +26,9 @@ export const FONT = {
   value: { weight: 800, min: 9, max: 11 },
   rowLabel: { size: 8, weight: 700 },
   footnote: { size: 7, weight: 600, tracking: "0.12em" },
+  /** Donut key column: one row per segment. */
+  keyLabel: { size: 8, weight: 600 },
+  keyCount: { size: 9, weight: 800 },
   floorHalf: 6.5,
   floorWide: 5.5,
 } as const;

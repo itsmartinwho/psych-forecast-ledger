@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
+import { TickDonut } from "@/components/charts/TickDonut";
+import { tickDonutFixture } from "@/components/charts/fixtures/TickDonut.fixture";
 import { countAccent, countHex, minFontSize, renderMarkup } from "@/lib/testing/markup";
-import { PALETTE } from "@/lib/tokens";
+import { FONT, PALETTE } from "@/lib/tokens";
 
 describe("lib/testing/markup", () => {
   it("renders static markup", () => {
@@ -28,5 +30,10 @@ describe("lib/testing/markup", () => {
     );
     expect(minFontSize(m)).toBe(6.5);
     expect(minFontSize("<svg></svg>")).toBeNull();
+  });
+  it("guards the donut half frame at 8px, so a 368px render stays above the floor", () => {
+    const m = renderMarkup(<TickDonut data={tickDonutFixture} size="half" />);
+    expect(minFontSize(m)).toBe(8);
+    expect(8 * (368 / 400)).toBeGreaterThanOrEqual(FONT.floorHalf);
   });
 });

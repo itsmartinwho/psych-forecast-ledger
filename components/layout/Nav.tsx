@@ -1,27 +1,50 @@
-// Site navigation: one uppercase row of links. The current page is set in ink; the rest stay muted.
+// Site navigation: one uppercase row of links in the meta register. The current item is set in ink by CSS.
+// Item 2 is the hero forecaster, read from the dataset; the links are a function of that hero.
 import Link from "next/link";
-import { PALETTE } from "@/lib/tokens";
 
-export const NAV_LINKS = [
-  { href: "/", label: "Ledger" },
-  { href: "/forecasters/owen", label: "Owen Scott Muir" },
-  { href: "/predictions", label: "Predictions" },
-  { href: "/events", label: "Events" },
-  { href: "/methodology", label: "Methodology" },
-  { href: "/about", label: "About" },
-] as const;
+export interface NavHero {
+  slug: string;
+  name: string;
+}
 
-export type NavHref = (typeof NAV_LINKS)[number]["href"];
+export interface NavLink {
+  href: string;
+  label: string;
+}
 
-export function Nav({ current }: { current?: string }) {
+/** The six links in order. Hrefs are fixed; the second label is the hero's full name. */
+export function navLinks(hero: NavHero): NavLink[] {
+  return [
+    { href: "/", label: "Overview" },
+    { href: `/forecasters/${hero.slug}`, label: hero.name },
+    { href: "/predictions", label: "Statements" },
+    { href: "/events", label: "Events" },
+    { href: "/methodology", label: "Method" },
+    { href: "/about", label: "About" },
+  ];
+}
+
+/** First path segment: "/forecasters/owen" -> "forecasters"; "/" -> "". */
+export function firstSegment(pathname: string): string {
+  return pathname.split("?")[0].split("#")[0].split("/")[1] ?? "";
+}
+
+export interface NavProps {
+  hero: NavHero;
+  /** Pathname of the current page. Matched by first path segment, so a record page marks its section. */
+  current?: string;
+}
+
+export function Nav({ hero, current }: NavProps) {
+  const seg = current === undefined ? null : firstSegment(current);
   return (
     <nav aria-label="Main" className="nav">
-      <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexWrap: "wrap", gap: "8px 22px" }}>
-        {NAV_LINKS.map((l) => {
-          const active = current === l.href;
+      <ul>
+        {navLinks(hero).map((l) => {
+          const active = seg !== null && firstSegment(l.href) === seg;
           return (
             <li key={l.href}>
-              <Link href={l.href} className="eyebrow" aria-current={active ? "page" : undefined} style={active ? { color: PALETTE.ink } : undefined}>
+              <Link href={l.href} className="nav-link" aria-current={active ? "page" : undefined}>
                 {l.label}
               </Link>
             </li>

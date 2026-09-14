@@ -1,20 +1,24 @@
+// Area page: the leaderboard inside the area, the status of its claims, and the claims against the area's events.
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
-import { LeaderboardTickRows } from "@/components/charts/LeaderboardTickRows";
+import { LeaderboardCard } from "@/components/blocks/LeaderboardCard";
+import { Card } from "@/components/card/Card";
 import { LedgerAlmanac } from "@/components/charts/LedgerAlmanac";
 import { TickDonut } from "@/components/charts/TickDonut";
 import { TrendLanes } from "@/components/charts/TrendLanes";
-import { Card } from "@/components/card/Card";
 import { Grid2 } from "@/components/layout/Grid2";
+import { PageHeader } from "@/components/layout/PageHeader";
 import { Shell } from "@/components/layout/Shell";
 import { ChartFrame } from "@/components/motion/ChartFrame";
 import { Reveal } from "@/components/motion/Reveal";
-import { SourceLink } from "@/components/ui/SourceLink";
-import { AREA_SLUGS } from "@/lib/data/schema";
+import { Term } from "@/components/ui/Term";
 import { getDataset } from "@/lib/data/cached";
-import { almanacData, areaOf, leaderboardData, statusDonut, trendLanesData } from "@/lib/data/derive";
+import { almanacData, areaOf, areaStatusCounts, leaderboardData, statusDonut, trendLanesData } from "@/lib/data/derive";
+import { AREA_SLUGS } from "@/lib/data/schema";
 import { getScores } from "@/lib/data/scores";
-import { plural } from "@/lib/data/text";
+import { lanesTakeaway, plural, statusTakeaway } from "@/lib/data/text";
+import { fmtInt } from "@/lib/format";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -25,54 +29,84 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: areaOf(getDataset(), slug)?.name ?? "Area" };
 }
 
+const MAX_LANES = 30;
+
 export default async function AreaPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const ds = getDataset();
   const snap = getScores();
   const area = areaOf(ds, slug);
   if (!area) notFound();
+  const hero = ds.forecasters.find((x) => x.hero) ?? ds.forecasters[0];
+  const th = ds.thresholds;
+  const minN = th.calibration_min_per_bin;
   const items = snap.items.filter((i) => i.area === slug);
-  const statements = ds.items.filter((i) => i.area === slug);
-  const counts = { true: items.filter((i) => i.state === "true").length, false: items.filter((i) => i.state === "false").length, pending: items.filter((i) => i.state === "pending").length, known_true: items.filter((i) => i.state === "known_true").length, void: items.filter((i) => i.state === "void").length, unresolved: items.filter((i) => i.state === "unresolved").length, not_admitted: 0, undated: snap.items.filter((i) => i.area === slug && i.panel === "undated").length };
-  const classes = ds.base_rates.classes.filter((c) => c.p !== null);
+  const counts = areaStatusCounts(snap, slug);
+  const resolved = counts.true + counts.false;
   const events = ds.timeline.filter((t) => t.area === slug);
+  const lanes = trendLanesData(ds, items, { areas: [slug], maxLanes: MAX_LANES });
+  const meta = [
+    <span key="adm">
+      {fmtInt(items.length)} <Term t="admitted">admitted</Term> claims
+    </span>,
+    <span key="res">
+      {fmtInt(resolved)} <Term t="resolved">resolved</Term>
+    </span>,
+    <Link key="gt" href={`/events?a=${slug}`}>
+      {plural(events.length, "ground-truth event")}
+    </Link>,
+    <Link key="br" href="/methodology#references">
+      <Term t="base rate">Base rates</Term>
+    </Link>,
+  ];
+
   return (
-    <Shell current={`/areas/${slug}`} dataVersion={ds.version.as_of} ruleVersion={ds.version.version}>
-      <header style={{ marginBottom: 24 }}>
-        <div className="eyebrow">area</div>
-        <h1 className="h2 big" style={{ marginTop: 8 }}>{area.name}: {plural(statements.length, "admitted claim")}, {counts.true + counts.false} resolved.</h1>
-        <p className="sub" style={{ maxWidth: "70ch" }}>{area.definition}</p>
-      </header>
+    <Shell current={`/areas/${slug}`} hero={{ slug: hero.slug, name: hero.name }}>
+      <PageHeader title={area.name} version={ds.version} meta={meta} lede={area.definition} />
       <Grid2>
-        <Card wide title="Forecasters inside this area." sub="Brier on the area's resolved events · null under 5 events" src={`Leaderboard · ${area.name}`}>
-          <Reveal><ChartFrame wide={<LeaderboardTickRows data={leaderboardData(ds, snap, { area: slug })} size="wide" />} half={<LeaderboardTickRows data={leaderboardData(ds, snap, { area: slug })} size="half" />} /></Reveal>
+        <LeaderboardCard data={leaderboardData(ds, snap, { area: slug })} minN={minN} thresholds={th} src={`${area.name} · ${plural(resolved, "event")}`} hasTierC={ds.forecasters.some((f) => f.coverage.tier === "C")} />
+
+        <Card title="Status" takeaway={statusTakeaway(counts)} src={`${area.name} · ${plural(items.length, "item")}`}>
+          <Reveal>
+            <TickDonut data={statusDonut(counts)} size="half" />
+          </Reveal>
         </Card>
-        <Card title={`${plural(items.length, "dated item")} in ${area.name.toLowerCase()}.`} sub="ink = true · gray = false · muted = pending · faint = void" src={`Status · ${area.name}`}>
-          <Reveal><TickDonut data={statusDonut(counts, String(items.length))} size="half" /></Reveal>
-        </Card>
-        <Card title={`${plural(events.length, "ground-truth event")} recorded in this area.`} sub="dated, sourced events used to resolve claims" src={`Timeline · ${area.name}`}>
-          <div className="prose" style={{ maxHeight: 320, overflowY: "auto" }}>
-            <ul>{events.slice(0, 60).map((e) => <li key={e.id}><span className="mono">{e.date}</span> · {e.entity}: {e.event.slice(0, 120)} <SourceLink href={e.source_url}>{e.source_org}</SourceLink></li>)}</ul>
-          </div>
-        </Card>
+
         {items.length ? (
-          <Card wide title="Claims against the area's events." sub="one lane per claim · ticks above = events" src={`Trend lanes · ${area.name}`}>
-            <Reveal><ChartFrame wide={<TrendLanes data={trendLanesData(ds, items, { areas: [slug], maxLanes: 30 })} size="wide" />} half={<TrendLanes data={trendLanesData(ds, items, { areas: [slug], maxLanes: 30 })} size="half" />} /></Reveal>
+          <Card
+            wide
+            title="Claims and events"
+            takeaway={lanesTakeaway(lanes.lanes, lanes.events)}
+            legend={[
+              { glyph: "solid", label: "said" },
+              { glyph: "hollow", label: "due" },
+              { glyph: "tick", label: "event" },
+            ]}
+            src={`Headline panel · ${area.name}`}
+          >
+            <Reveal>
+              <ChartFrame wide={<TrendLanes data={lanes} size="wide" />} half={<TrendLanes data={lanes} size="half" />} />
+            </Reveal>
           </Card>
         ) : null}
+
         {items.length ? (
-          <Card wide title="Every dated claim in the area." sub="hairline = statement to deadline · solid = true · hollow = false · dashed = pending" src={`Almanac · ${area.name}`}>
-            <Reveal><ChartFrame wide={<LedgerAlmanac data={almanacData(ds, items)} size="wide" />} half={<LedgerAlmanac data={almanacData(ds, items)} size="half" />} /></Reveal>
+          <Card
+            wide
+            title="Claims"
+            legend={[
+              { glyph: "solid", label: "true" },
+              { glyph: "hollow", label: "false" },
+              { glyph: "dash", label: "pending" },
+              { glyph: "void", label: "void" },
+            ]}
+            src={`${area.name} · all admitted items`}
+          >
+            <Reveal>
+              <ChartFrame wide={<LedgerAlmanac data={almanacData(ds, items)} size="wide" />} half={<LedgerAlmanac data={almanacData(ds, items)} size="half" />} />
+            </Reveal>
           </Card>
         ) : null}
-        <Card wide title="Base rates the ledger uses as the reference row." sub="fixed at intake by event class and stage · halved when the window is shorter than the median time" src="Base-rate table v1">
-          <div className="prose scroll-x">
-            <table>
-              <thead><tr><th>class</th><th>p</th><th>median months</th><th>source</th></tr></thead>
-              <tbody>{classes.map((c) => <tr key={c.class}><td>{c.label}</td><td className="mono">{c.p?.toFixed(3)}</td><td className="mono">{c.median_months ?? "–"}</td><td>{c.source_url ? <SourceLink href={c.source_url}>{c.source.slice(0, 60)}</SourceLink> : c.source.slice(0, 60)}</td></tr>)}</tbody>
-            </table>
-          </div>
-        </Card>
       </Grid2>
     </Shell>
   );

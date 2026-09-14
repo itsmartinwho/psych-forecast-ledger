@@ -418,3 +418,30 @@ export const METHODOLOGY = {
 } as const;
 
 export type Methodology = typeof METHODOLOGY;
+
+/** One Method section: the card id, its noun title and its one-sentence takeaway. */
+export interface MethodSection { id: string; title: string; takeaway: string }
+
+/** The 18 sections in page order. Takeaways with a number read it from the rules. */
+export const METHOD_SECTIONS: MethodSection[] = [
+  { id: "headline", title: "Headline", takeaway: "Each number is a Brier score on claims we could check." },
+  { id: "rules", title: "Rules", takeaway: "The rules were fixed before we looked, and each has one reason." },
+  { id: "lexicon", title: "Lexicon", takeaway: "The same word gets the same number for everyone." },
+  { id: "anchors", title: "Anchor table", takeaway: "Only the person's words set a deadline." },
+  { id: "quantities", title: "Quantity rules", takeaway: "A number claim resolves on the named series only." },
+  { id: "exclusions", title: "Reason codes", takeaway: "Vague, controlled and reported claims never enter the score." },
+  { id: "templates", title: "Event templates", takeaway: "Every event is written on the asset, from one of eight templates." },
+  { id: "references", title: "Reference rows", takeaway: "The base rate and the market are scored on the same events as the person." },
+  { id: "metrics", title: "Metrics", takeaway: "Eleven metrics, each with its formula and its minimum n." },
+  { id: "evidence-tiers", title: "Evidence tiers", takeaway: `Below ${T.min_clusters_headline} clusters we show counts, not a score.` },
+  { id: "coverage-tiers", title: "Coverage tiers", takeaway: "We rank only people whose archives were read the same way." },
+  { id: "hindsight", title: "Hindsight controls", takeaway: "Coders never see outcomes, and resolvers never see probabilities." },
+  { id: "sensitivity", title: "Sensitivity panel", takeaway: "The headline is shown again under seven alternative rules." },
+  { id: "reading-a-row", title: "Worked examples", takeaway: "One event gives one vote, however often it was predicted." },
+  { id: "limits", title: "Known limits", takeaway: "The score is honest about what it cannot show." },
+  { id: "corrections", title: "Corrections", takeaway: "Every change to a published number is logged here." },
+  { id: "versions", title: "Versions", takeaway: `Rules version ${RULES_VERSION.version} is in force.` },
+  { id: "glossary", title: "Glossary", takeaway: "Each term keeps one meaning across the site." },
+];
+
+export const METHOD_LEDE = "Every rule was written before an outcome was checked; the tables come from the rule files, so the page and the score cannot disagree.";

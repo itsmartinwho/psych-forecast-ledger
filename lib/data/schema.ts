@@ -40,7 +40,7 @@ export const Forecaster = z.object({
 });
 export type Forecaster = z.infer<typeof Forecaster>;
 
-export const Area = z.object({ slug: AreaSlug, name: z.string(), definition: z.string().max(400), order: z.number().int() });
+export const Area = z.object({ slug: AreaSlug, name: z.string(), short: z.string().max(20).optional(), definition: z.string().max(400), order: z.number().int() });
 export type Area = z.infer<typeof Area>;
 
 // ---- rules -------------------------------------------------------------------------------------

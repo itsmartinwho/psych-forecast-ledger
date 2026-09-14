@@ -2,7 +2,7 @@ import { createElement } from "react";
 import { describe, expect, it } from "vitest";
 import { TickDonut } from "@/components/charts/TickDonut";
 import { tickDonutCensusFixture, tickDonutFixture } from "@/components/charts/fixtures/TickDonut.fixture";
-import { LABEL_GAP, MAX_TICKS, R_INNER, R_OUTER, layoutTickDonut, ticksPerSegment } from "@/components/charts/layout/TickDonut.layout";
+import { FOOTNOTE_PER_RECORD, KEY_GAP, KEY_PITCH, LABEL_MAX_CHARS, LABEL_SIZE, LEADER_MIN_TICKS, MAX_TICKS, R_INNER, R_OUTER, keyWidth, layoutTickDonut, ticksPerSegment, truncateLabel } from "@/components/charts/layout/TickDonut.layout";
 import { countAccent, minFontSize, renderMarkup } from "@/lib/testing/markup";
 import { FONT, FRAME, LADDER, PALETTE } from "@/lib/tokens";
 
@@ -42,8 +42,11 @@ describe("layoutTickDonut", () => {
     expect(ticksPerSegment([3, 4], 7)).toEqual([3, 4]);
     expect(ticksPerSegment([0, 0], 0)).toEqual([0, 0]);
   });
-  it("places each tick from r 92 to r 120 around the centre", () => {
+  it("centres the dial left of the key column and places each tick from r 92 to r 120", () => {
     const L = layoutTickDonut(tickDonutFixture, HW, HH);
+    expect(L.cx).toBe((HW - keyWidth(HW) - KEY_GAP) / 2);
+    expect(L.cy).toBe(HH / 2 - 4);
+    expect(layoutTickDonut(tickDonutCensusFixture, WW, WH).cx).toBe((WW - keyWidth(WW) - KEY_GAP) / 2);
     for (const seg of L.segments) {
       for (const t of seg.ticks) {
         expect(Math.hypot(t.x1 - L.cx, t.y1 - L.cy)).toBeCloseTo(R_INNER, 1);
@@ -64,16 +67,55 @@ describe("layoutTickDonut", () => {
     const hero = layoutTickDonut(tickDonutFixture, HW, HH, { hero: "pending" });
     expect(hero.segments.filter((s) => s.color === PALETTE.accent).map((s) => s.id)).toEqual(["pending"]);
   });
-  it("keeps labels apart on each side and writes the total and unit at the centre", () => {
-    const L = layoutTickDonut(tickDonutCensusFixture, HW, HH);
-    for (const side of ["left", "right"] as const) {
-      const ys = L.segments.filter((s) => s.side === side).map((s) => s.label.y).sort((a, b) => a - b);
-      for (let i = 1; i < ys.length; i++) expect(ys[i] - ys[i - 1]).toBeGreaterThanOrEqual(LABEL_GAP - 0.01);
+  it("lays the key out as one row per segment, right of the dial, KEY_PITCH apart", () => {
+    for (const [data, W, H] of [[tickDonutCensusFixture, HW, HH], [tickDonutCensusFixture, WW, WH], [tickDonutFixture, HW, HH]] as const) {
+      const L = layoutTickDonut(data, W, H);
+      expect(L.segments.length).toBe(data.segments.length);
+      expect(L.keyX).toBe(W - keyWidth(W));
+      for (const s of L.segments) {
+        expect(s.label.x).toBeGreaterThanOrEqual(L.cx + R_OUTER + 12);
+        expect(s.label.anchor).toBe("start");
+        expect(s.countText.anchor).toBe("end");
+        expect(s.countText.x).toBeLessThanOrEqual(W);
+        expect(s.swatch.x).toBe(L.keyX);
+        expect(s.swatch.y2 - s.swatch.y1).toBe(8);
+        expect(s.label.y).toBeGreaterThan(0);
+        expect(s.label.y).toBeLessThan(H);
+      }
+      for (let i = 1; i < L.segments.length; i++) expect(L.segments[i].label.y - L.segments[i - 1].label.y).toBeCloseTo(KEY_PITCH, 5);
     }
+  });
+  it("ties a leader only to right-side segments with three or more ticks", () => {
+    const L = layoutTickDonut(tickDonutCensusFixture, HW, HH);
+    for (const s of L.segments) {
+      expect(s.hasLeader).toBe(s.side === "right" && s.ticks.length >= LEADER_MIN_TICKS);
+      if (s.hasLeader) {
+        expect(s.leader.x2).toBe(L.keyX - 5);
+        expect(s.leader.y2).toBe(s.label.y - 3);
+      }
+    }
+    expect(L.segments.some((s) => s.hasLeader)).toBe(true);
+    expect(L.segments.some((s) => !s.hasLeader)).toBe(true);
+    const small = layoutTickDonut({ segments: [{ id: "a", label: "A", count: 2, tone: "ink" }, { id: "b", label: "B", count: 50, tone: "muted" }], total: 52, centerLabel: "52", unit: "items" }, HW, HH);
+    expect(small.segments.find((s) => s.id === "a")!.hasLeader).toBe(false);
+  });
+  it("cuts long labels to 14 characters and keeps the full text", () => {
+    expect(truncateLabel("VAGUE OR PROMOTIONAL")).toBe("VAGUE OR PROM…");
+    expect(truncateLabel("VAGUE OR PROMOTIONAL").length).toBe(LABEL_MAX_CHARS);
+    expect(truncateLabel("OWN VENTURE")).toBe("OWN VENTURE");
+    const L = layoutTickDonut(tickDonutCensusFixture, HW, HH);
+    const vague = L.segments.find((s) => s.id === "vague")!;
+    expect(vague.label.text).toBe("VAGUE OR PROM…");
+    expect(vague.label.full).toBe("VAGUE OR PROMOTIONAL");
+    expect(L.segments.find((s) => s.id === "control")!.label.text).toBe("OWN VENTURE");
+  });
+  it("writes the total and unit at the centre and the tick unit in the footnote", () => {
+    const L = layoutTickDonut(tickDonutCensusFixture, HW, HH);
     expect(L.total.text).toBe("486");
     expect(L.unit.text).toBe("STATEMENTS");
-    expect(L.footnote.text).toContain("1 tick = 1% of 486");
-    expect(layoutTickDonut(tickDonutFixture, HW, HH).footnote.text).toContain("1 tick = 1 of 84");
+    expect(L.footnote.text).toBe("1 tick = 1% of 486");
+    expect(layoutTickDonut(tickDonutFixture, HW, HH).footnote.text).toBe(FOOTNOTE_PER_RECORD);
+    expect(FOOTNOTE_PER_RECORD).toBe("1 tick = 1 item");
   });
 });
 
@@ -91,19 +133,26 @@ describe("TickDonut markup", () => {
     expect(countAccent(census)).toBe(1);
     expect(countAccent(wide)).toBe(1);
   });
-  it("keeps every font size at or above the floor", () => {
+  it("keeps every font size at 8px or more, above the floor", () => {
+    expect(minFontSize(half)).toBe(LABEL_SIZE);
     expect(minFontSize(half)!).toBeGreaterThanOrEqual(FONT.floorHalf);
     expect(minFontSize(wide)!).toBeGreaterThanOrEqual(FONT.floorWide);
   });
-  it("draws one 1.6px tick per record, dotted leaders, and a 22px halo total", () => {
-    // 84 ticks plus one dotted leader per segment; every tick group carries the 1.6px stroke.
-    expect(half.match(/<line /g)?.length).toBe(84 + tickDonutFixture.segments.length);
-    expect(half.match(/class="fade" style="animation-delay/g)?.length).toBe(84 + tickDonutFixture.segments.length);
-    expect(half.match(/stroke-width="1\.6"/g)?.length).toBe(tickDonutFixture.segments.length);
-    expect(half.match(/stroke-dasharray="1 3"/g)?.length).toBe(tickDonutFixture.segments.length);
+  it("draws one 1.6px tick per record, one swatch per row, leaders on big right segments, and a 22px halo total", () => {
+    const n = tickDonutFixture.segments.length;
+    const L = layoutTickDonut(tickDonutFixture, HW, HH);
+    const leaders = L.segments.filter((s) => s.hasLeader).length;
+    expect(half.match(/<line /g)?.length).toBe(84 + n + leaders);
+    expect(half.match(/class="fade" style="animation-delay/g)?.length).toBe(84);
+    expect(half.match(/class="donut-key fade"/g)?.length).toBe(n);
+    expect(half.match(/stroke-width="1\.6"/g)?.length).toBe(2 * n);
+    expect(half.match(/stroke-dasharray="1 3"/g)?.length).toBe(leaders);
     expect(half).toContain('font-size="22"');
     expect(half).toContain(">84</text>");
-    expect(half).toContain(">FORECASTS</text>");
-    expect(census.match(/<line /g)?.length).toBe(MAX_TICKS + tickDonutCensusFixture.segments.length);
+    expect(half).toContain(">ITEMS</text>");
+    expect(half).toContain(">1 TICK = 1 ITEM</text>");
+    expect(census).toContain(">1 TICK = 1% OF 486</text>");
+    expect(census).toContain("<title>VAGUE OR PROMOTIONAL</title>VAGUE OR PROM…");
+    expect(census.match(/<line /g)?.length).toBe(MAX_TICKS + tickDonutCensusFixture.segments.length + layoutTickDonut(tickDonutCensusFixture, HW, HH).segments.filter((s) => s.hasLeader).length);
   });
 });

@@ -39,7 +39,8 @@ export function layoutMatrixHeat(data: MatrixData, W: number, H: number): Matrix
     });
   });
   const rowLabels = data.rows.map((r, i) => ({ id: r.id, label: r.label.toUpperCase(), x: x0 - 10, y: y0 + i * (cell + gap) + cell / 2 + 3, href: r.href }));
-  const colLabels = data.cols.map((c, j) => ({ id: c.id, label: c.label.toUpperCase().replace(" AND ", " & ").slice(0, 22), x: x0 + j * (cell + gap) + cell / 2, y: y0 - 10, href: c.href }));
+  // The column label is the area's short name when the deriver gives one; the full name stays in the cell titles.
+  const colLabels = data.cols.map((c, j) => ({ id: c.id, label: (c.short ?? c.label).toUpperCase().replace(" AND ", " & ").slice(0, 22), x: x0 + j * (cell + gap) + cell / 2, y: y0 - 10, href: c.href }));
   const legendY = y0 + gridH + 24;
   const legend = [0.05, 0.15, 0.25, 0.35, 0.45].map((v, k) => ({ x: x0 + k * 58, y: legendY, fill: shadeFor(v), label: k === 0 ? "< 0.10 BEST" : k === 4 ? "≥ 0.40" : `${(k * 0.1).toFixed(1)}–${((k + 1) * 0.1).toFixed(1)}` }));
   void gridW;

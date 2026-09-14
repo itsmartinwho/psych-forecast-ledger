@@ -1,9 +1,9 @@
 // Layout for the leaderboard tick rows (Lupi Basics F5 rows plus F15 whisker): one row per forecaster,
-// a whisker for the 95% range, a dot at the score, then the score and the evidence tier at the row end.
+// a whisker for the 95% range, a dot at the score, then a value column and an evidence column at the row end.
+// A scored row shows the Brier and "{n} events"; a T0 row shows "{n} of {minN}" and progress ticks.
 // Pure: data in, positioned numbers and strings out, so a test can snapshot it without React.
 import { scaleLinear } from "d3-scale";
 import type { LeaderboardData, LeaderboardRowDatum, Tier } from "@/components/charts/types";
-import { TIER_LABEL } from "@/components/ui/TierBadge";
 import thresholds from "@/data/rules/thresholds.json";
 import { NA, fmtBrier } from "@/lib/format";
 import { MOTION } from "@/lib/tokens";
@@ -18,6 +18,17 @@ export interface LeaderboardTickRowsOptions {
 }
 
 export type RowVariant = "solid" | "hollow" | "faint";
+
+export interface RowValue {
+  /** The Brier, or the resolved-event count for a T0 row. */
+  text: string;
+  /** "of {minN}" on a T0 row; drawn smaller and muted after the text. */
+  sub?: string;
+  /** Right edge of the value column; the text is end-anchored here. */
+  x: number;
+}
+
+export type RowEvidence = { kind: "progress"; n: number; need: number; x: number; y: number } | { kind: "text"; text: string; x: number; y: number } | null;
 
 export interface TickRow {
   id: string;
@@ -35,30 +46,49 @@ export interface TickRow {
   /** Whisker ends, or null when the row is T0 or carries no interval. */
   lo: number | null;
   hi: number | null;
-  valueText: string;
-  valueX: number;
-  tierText: string;
-  tierX: number;
+  /** Dash pattern for a provisional (T1) whisker; null draws it solid. */
+  whiskerDash: string | null;
+  value: RowValue;
+  evidence: RowEvidence;
   delay: number;
+}
+
+export interface LeaderboardColumns {
+  labelW: number;
+  /** Right edge of the value column (end-anchored text). */
+  valueX: number;
+  valueW: number;
+  /** Left edge of the evidence column (start-anchored). */
+  evidenceX: number;
+  evidenceW: number;
+  /** Gap between the value column and the evidence column. */
+  gutter: number;
 }
 
 export interface LeaderboardTickRowsLayout {
   w: number;
   h: number;
   plot: { x0: number; x1: number; y0: number; y1: number };
+  columns: LeaderboardColumns;
   rows: TickRow[];
   /** y of the hairline under every row but the last. */
   rules: number[];
   baseline: { y: number; ticks: number[]; labels: string[] };
   coinFlip: { x: number; y1: number; y2: number; labelX: number; labelY: number; text: string } | null;
+  /** Direction note at the left of the baseline. */
   footnote: { x: number; y: number; text: string };
+  /** Unit note, end-anchored at the right of the baseline. */
+  unit: { x: number; y: number; text: string };
   heroId: string | null;
 }
 
 export const DOT_RADIUS = 3.5;
 export const FAINT_RADIUS = 2.5;
-export const FOOTNOTE_TEXT = "lower is better · 95% range";
+export const FOOTNOTE_TEXT = "← better";
+export const UNIT_TEXT = "Brier";
 export const COIN_FLIP_TEXT = "coin flip";
+export const PROVISIONAL_DASH = "2 2";
+export const EVIDENCE_UNIT = "events";
 
 const r2 = (v: number): number => Math.round(v * 100) / 100;
 
@@ -74,18 +104,23 @@ export function pickHeroRow(rows: LeaderboardRowDatum[], hero?: string): string 
   return rows.find((r) => r.hero)?.id ?? null;
 }
 
+/** Columns from the right edge: evidence, gutter, value, gutter, then the track ends. */
+export function leaderboardColumns(W: number): LeaderboardColumns {
+  const wide = W >= 600;
+  const evidenceW = wide ? 56 : 48;
+  const gutter = wide ? 16 : 12;
+  const valueW = wide ? 44 : 40;
+  const evidenceX = W - evidenceW;
+  const valueX = evidenceX - gutter;
+  return { labelW: wide ? 120 : 96, valueX, valueW, evidenceX, evidenceW, gutter };
+}
+
 export function layoutLeaderboardTickRows(data: LeaderboardData, W: number, H: number, opts: LeaderboardTickRowsOptions = {}): LeaderboardTickRowsLayout {
   const wide = W >= 600;
   const minN = opts.minN ?? thresholds.min_clusters_headline;
-  // Columns: label, track, score, tier. The track takes what the three text columns leave.
-  const labelW = wide ? 120 : 96;
-  const valueW = 36;
-  const tierW = 60;
-  const gap = 8;
-  const x0 = labelW + gap;
-  const x1 = W - tierW - gap - valueW - gap;
-  const valueX = x1 + gap + valueW;
-  const tierX = W - tierW;
+  const columns = leaderboardColumns(W);
+  const x0 = columns.labelW + 12;
+  const x1 = columns.valueX - columns.valueW - (wide ? 12 : 8);
   const baselineY = H - 38;
   const y0 = 24;
   const y1 = baselineY - 10;
@@ -105,8 +140,9 @@ export function layoutLeaderboardTickRows(data: LeaderboardData, W: number, H: n
     const t0 = r.tier === "T0";
     const hasWhisker = !t0 && hasValue && r.lo !== undefined && r.hi !== undefined;
     const variant: RowVariant = t0 ? "faint" : r.reference ? "hollow" : "solid";
-    // A T0 row has too few resolved events for a stable score, so it shows progress toward the threshold.
-    const valueText = t0 ? `${r.n} of ${minN}`.toUpperCase() : hasValue ? fmtBrier(r.value) : NA;
+    // A T0 row has too few resolved events for a stable score, so it shows progress toward the minimum.
+    const value: RowValue = t0 ? { text: String(r.n), sub: `of ${minN}`, x: columns.valueX } : { text: hasValue ? fmtBrier(r.value) : NA, x: columns.valueX };
+    const evidence: RowEvidence = t0 ? { kind: "progress", n: r.n, need: minN, x: columns.evidenceX, y } : { kind: "text", text: `${r.n} ${EVIDENCE_UNIT}`, x: columns.evidenceX, y: r2(y + 2.5) };
     return {
       id: r.id,
       label: r.label,
@@ -121,10 +157,9 @@ export function layoutLeaderboardTickRows(data: LeaderboardData, W: number, H: n
       variant,
       lo: hasWhisker ? r2(x(r.lo as number)) : null,
       hi: hasWhisker ? r2(x(r.hi as number)) : null,
-      valueText,
-      valueX,
-      tierText: TIER_LABEL[r.tier],
-      tierX,
+      whiskerDash: hasWhisker && r.tier === "T1" ? PROVISIONAL_DASH : null,
+      value,
+      evidence,
       delay: i * MOTION.staggerDotMs,
     };
   });
@@ -138,5 +173,17 @@ export function layoutLeaderboardTickRows(data: LeaderboardData, W: number, H: n
   const cx = r2(x(data.coinFlip));
   const coinFlip = data.coinFlip >= lo && data.coinFlip <= hi ? { x: cx, y1: y0 - 4, y2: baselineY, labelX: cx, labelY: y0 - 9, text: COIN_FLIP_TEXT } : null;
 
-  return { w: W, h: H, plot: { x0, x1, y0, y1 }, rows, rules, baseline, coinFlip, footnote: { x: 0, y: H - 6, text: FOOTNOTE_TEXT }, heroId };
+  return {
+    w: W,
+    h: H,
+    plot: { x0, x1, y0, y1 },
+    columns,
+    rows,
+    rules,
+    baseline,
+    coinFlip,
+    footnote: { x: x0, y: H - 6, text: FOOTNOTE_TEXT },
+    unit: { x: x1, y: H - 6, text: UNIT_TEXT },
+    heroId,
+  };
 }

@@ -3,13 +3,17 @@ import type { AlmanacData, BoldnessData, BrierSeriesData, CalibrationData, Histo
 import type { ForecasterScores, ScoreSnapshot, ScoredItem } from "@/lib/score";
 import { clusterize, median } from "@/lib/score";
 import { addMonths, monthsBetween, yearOf } from "@/lib/dates";
+import { fmtInt } from "@/lib/format";
 import type { Area, Dataset, Forecaster, Item, Outcome, Recheck, RegistryEvent, Statement, TimelineEvent } from "./schema";
 
 export const COIN_FLIP = 0.25;
 
 export const chartState = (s: ScoredItem["state"]): State => (s === "true" ? "true" : s === "false" ? "false" : s === "void" ? "void" : "pending");
 
-export const STATE_WORD: Record<ScoredItem["state"] | "not_admitted", string> = { true: "True", false: "False", pending: "Pending", known_true: "Known true, pending", void: "Void", unresolved: "Awaiting resolution", not_admitted: "Not admitted" };
+export const STATE_WORD: Record<ScoredItem["state"] | "not_admitted", string> = { true: "True", false: "False", pending: "Pending", known_true: "Known true", void: "Void", unresolved: "Awaiting resolution", not_admitted: "Not admitted" };
+
+/** Sort order of the states on the Statements page: true, false, known true, pending, void, not admitted. */
+export const STATE_RANK: Record<ScoredItem["state"] | "not_admitted", number> = { true: 0, false: 1, known_true: 2, pending: 3, unresolved: 3, void: 4, not_admitted: 5 };
 
 export function forecasterBySlug(ds: Dataset): Map<string, Forecaster> {
   return new Map(ds.forecasters.map((f) => [f.slug, f]));
@@ -90,17 +94,62 @@ export function trendLanesData(ds: Dataset, items: ScoredItem[], opts: { hero?: 
   return { lanes, events, start, end, today: ds.version.as_of };
 }
 
-export function statusDonut(counts: ScoreSnapshot["status"][string], centerLabel: string): TickDonutData {
+export function statusDonut(counts: ScoreSnapshot["status"][string], opts: { includeNotAdmitted?: boolean } = {}): TickDonutData {
   const segments = ([
     { id: "true", label: "true", count: counts.true, tone: "ink" },
     { id: "false", label: "false", count: counts.false, tone: "gray-2" },
-    { id: "known_true", label: "known true, pending", count: counts.known_true, tone: "gray-3" },
+    { id: "known_true", label: "known true", count: counts.known_true, tone: "gray-3" },
     { id: "pending", label: "pending", count: counts.pending + counts.unresolved, tone: "muted" },
     { id: "void", label: "void", count: counts.void, tone: "faint" },
-    { id: "not_admitted", label: "not admitted", count: counts.not_admitted, tone: "gray-7" },
+    ...(opts.includeNotAdmitted ? [{ id: "not_admitted", label: "not admitted", count: counts.not_admitted, tone: "gray-7" }] : []),
   ] as TickDonutData["segments"]).filter((s) => s.count > 0);
   const total = segments.reduce((s, x) => s + x.count, 0);
-  return { segments, total, centerLabel, unit: "statements" };
+  return { segments, total, centerLabel: fmtInt(total), unit: opts.includeNotAdmitted ? "statements" : "items" };
+}
+
+// ---- admission and reasons ---------------------------------------------------------------------
+/** Rung bar data with the count each rung stands for. */
+export type RungBarsWithUnit = RungBarsData & { rungUnit: number };
+
+const RUNG_UNITS = [1, 5, 10, 25, 50, 100] as const;
+const RUNGS_MAX = 60;
+
+/** The smallest rung unit that keeps the longest ladder at 60 rungs or fewer. */
+export function rungUnitFor(max: number): number {
+  return RUNG_UNITS.find((u) => Math.ceil(max / u) <= RUNGS_MAX) ?? RUNG_UNITS[RUNG_UNITS.length - 1];
+}
+
+/** Found, sincere, admitted (including void) and resolved: the census as four ladders. */
+export function admissionFunnel(ds: Dataset, snap: ScoreSnapshot, slug?: string): RungBarsWithUnit {
+  const statements = slug ? ds.statements.filter((s) => s.forecaster === slug) : ds.statements;
+  const forecasters = slug ? ds.forecasters.filter((f) => f.slug === slug) : ds.forecasters;
+  const found = statements.length;
+  const sincere = forecasters.reduce((n, f) => n + (snap.forecasters[f.slug]?.composition.sincere ?? 0), 0);
+  const admitted = statements.filter((s) => s.status !== "not_admitted").length;
+  const resolved = snap.items.filter((i) => i.o !== null && (!slug || i.forecaster === slug)).length;
+  return {
+    groups: [
+      { id: "found", label: "Found", count: found },
+      { id: "sincere", label: "Sincere", count: sincere },
+      { id: "admitted", label: "Admitted", count: admitted, hero: true },
+      { id: "resolved", label: "Resolved", count: resolved },
+    ],
+    unit: "statements", rungUnit: rungUnitFor(found),
+  };
+}
+
+/** Not-admitted statements by reason code, largest first, each linked to the filtered Statements page. */
+export function reasonRungBars(ds: Dataset, slug?: string): RungBarsWithUnit {
+  const statements = ds.statements.filter((s) => s.status === "not_admitted" && (!slug || s.forecaster === slug));
+  const counts = new Map<string, number>();
+  for (const s of statements) if (s.reason_code) counts.set(s.reason_code, (counts.get(s.reason_code) ?? 0) + 1);
+  const order: string[] = ds.reason_codes.not_admitted.map((r) => r.code);
+  const labels = new Map<string, string>(ds.reason_codes.not_admitted.map((r) => [r.code, r.label]));
+  const groups = [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || order.indexOf(a[0]) - order.indexOf(b[0]))
+    .map(([code, count]) => ({ id: code, label: labels.get(code) ?? code, count, href: `/predictions?scope=not&r=${code}${slug ? `&f=${slug}` : ""}` }));
+  const max = groups.reduce((m, g) => Math.max(m, g.count), 0);
+  return { groups, unit: "statements", rungUnit: rungUnitFor(max) };
 }
 
 export function boldnessData(ds: Dataset, snap: ScoreSnapshot): BoldnessData {
@@ -146,7 +195,8 @@ export function recedingHorizon(ds: Dataset, clusterItems: ScoredItem[], label: 
 
 // ---- ledger rows ------------------------------------------------------------------------------
 export type LedgerState = ScoredItem["state"] | "not_admitted";
-export interface LedgerRow { id: string; f: string; fn: string; d: string; y: number; a: string; s: LedgerState; r: string; p: number | null; pn: "dated" | "undated" | ""; dl: string; t: string; e: string; q: string }
+/** One Statements row. b = Brier; rl = reason label; kt = known-true deadline or ""; sr = state rank. */
+export interface LedgerRow { id: string; f: string; fn: string; d: string; y: number; a: string; s: LedgerState; r: string; rl: string; p: number | null; b: number | null; pn: "dated" | "undated" | ""; dl: string; kt: string; sr: number; t: string; e: string; q: string }
 
 export function ledgerRows(ds: Dataset, snap: ScoreSnapshot): LedgerRow[] {
   const reg = registryById(ds);
@@ -154,14 +204,18 @@ export function ledgerRows(ds: Dataset, snap: ScoreSnapshot): LedgerRow[] {
   const items = new Map(ds.items.map((i) => [i.id, i]));
   const scoredByStatement = new Map<string, ScoredItem>();
   for (const s of snap.items) for (const id of s.statement_ids) scoredByStatement.set(id, s);
+  const labels = new Map([...ds.reason_codes.not_admitted, ...ds.reason_codes.void].map((r) => [r.code as string, r.label]));
   return ds.statements
     .map((st) => {
       const it = items.get(st.id);
       const sc = scoredByStatement.get(st.id);
+      const s = (st.status === "admitted" ? (sc?.state ?? "pending") : st.status === "void" ? "void" : "not_admitted") as LedgerState;
+      const r = st.reason_code ?? st.void_reason ?? (sc?.void_reason ?? "");
+      const dl = sc ? sc.deadline : it?.deadline ?? "";
       return {
         id: st.id, f: st.forecaster, fn: fby.get(st.forecaster)?.short ?? st.forecaster, d: st.statement_date, y: yearOf(st.statement_date),
-        a: it?.area ?? "", s: (st.status === "admitted" ? (sc?.state ?? "pending") : st.status === "void" ? "void" : "not_admitted") as LedgerState,
-        r: st.reason_code ?? st.void_reason ?? (sc?.void_reason ?? ""), p: it ? it.p : null, pn: (it ? it.panel : "") as LedgerRow["pn"], dl: sc ? sc.deadline : it?.deadline ?? "",
+        a: it?.area ?? "", s, r, rl: labels.get(r) ?? r, p: it ? it.p : null, b: sc?.brier ?? null, pn: (it ? it.panel : "") as LedgerRow["pn"], dl,
+        kt: s === "known_true" ? dl : "", sr: STATE_RANK[s],
         t: it ? reg.get(it.event_id)?.title ?? it.event_id : "", e: it?.event_id ?? "", q: st.quote.length > 140 ? st.quote.slice(0, 137).replace(/\s+\S*$/, "") + "..." : st.quote,
       };
     })
@@ -219,6 +273,37 @@ export function eventViews(ds: Dataset, snap: ScoreSnapshot): EventView[] {
     const items = snap.items.filter((i) => i.event_id === e.id);
     return { event: e, outcome: outcomes.get(e.id) ?? null, items, statements: items.flatMap((i) => i.statement_ids.map((id) => byStatement.get(id)!).filter(Boolean)), timeline: ds.timeline.filter((t) => t.registry_event_ids.includes(e.id)), rechecks: ds.rechecks.filter((r) => r.event_id === e.id) };
   });
+}
+
+/** Status counts of the items in one area, in the shape of snap.status. */
+export function areaStatusCounts(snap: ScoreSnapshot, area: string): ScoreSnapshot["status"][string] {
+  const items = snap.items.filter((i) => i.area === area);
+  const n = (state: ScoredItem["state"]) => items.filter((i) => i.state === state).length;
+  return { true: n("true"), false: n("false"), pending: n("pending"), known_true: n("known_true"), void: n("void"), unresolved: n("unresolved"), not_admitted: 0, undated: items.filter((i) => i.panel === "undated").length };
+}
+
+/** One Sensitivity row: a short variant name, the Brier (null below the minimum) and the cluster count. */
+export interface SensitivityRow { id: string; name: string; note: string; brier: number | null; n: number }
+
+/** The sensitivity panel as table rows with short names. Variant names come from the lexicon maps. */
+export function sensitivityRows(ds: Dataset, f: ForecasterScores): SensitivityRow[] {
+  const maps = ds.lexicon.sensitivity_maps;
+  const mapName = (key: string): string => {
+    const m = maps[key];
+    if (!m) return key;
+    const vals = Object.values(m);
+    if (key === "kent") return "Kent words";
+    if (new Set(vals.filter((v) => v !== 0.5)).size === 1) return `Flat ${vals[0].toFixed(2)}`;
+    return `Lexicon ends ${m.A.toFixed(2)}/${m.E.toFixed(2)}`;
+  };
+  const names: Record<string, string> = {
+    baseline: "Headline",
+    dated_only: "Dated items only",
+    non_affiliated: "Non-affiliated only",
+    prospective_only: "Prospective only",
+    undated_36: `Undated ${ds.thresholds.undated_sensitivity_months} months`,
+  };
+  return Object.entries(f.sensitivity).map(([id, r]) => ({ id, name: names[id] ?? (id.startsWith("map_") ? mapName(id.slice(4)) : id), note: r.note, brier: r.brier, n: r.n_clusters }));
 }
 
 export function areaOf(ds: Dataset, slug: string): Area | undefined {

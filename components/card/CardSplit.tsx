@@ -1,22 +1,21 @@
-// Wide-card split: a 250px column (title, sub, note, legend) beside the chart. The grid comes from .split in globals.css.
+// Wide-card split: a 250px aside column beside the chart. The grid comes from .split in globals.css.
+// The Scoreboard puts its value, verdict and stat list in the aside; the donut sits in the chart column.
 import type { ReactNode } from "react";
-import { Note } from "./Note";
 
 export interface CardSplitProps {
-  /** Title and sub line, rendered at the top of the text column. */
+  /** Card head (title row and takeaway), rendered at the top of the aside. */
   head?: ReactNode;
-  note?: string;
-  legend?: ReactNode;
+  /** Aside content under the head. */
+  aside?: ReactNode;
   children: ReactNode;
 }
 
-export function CardSplit({ head, note, legend, children }: CardSplitProps) {
+export function CardSplit({ head, aside, children }: CardSplitProps) {
   return (
     <div className="split">
       <div className="split-aside">
         {head}
-        {note ? <Note>{note}</Note> : null}
-        {legend}
+        {aside}
       </div>
       <div className="split-chart">{children}</div>
     </div>

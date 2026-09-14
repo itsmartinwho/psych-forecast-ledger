@@ -1,7 +1,8 @@
 // Calibration plumb scatter (Lupi Basics F8): x = what the forecaster said, y = the share that came true,
 // one dot per phrase bin with area = event count, a plumb line from each dot to a barcode floor of one tick
-// per event. The bin furthest from the ideal line is the one accent element.
-// Server component: no state, no effects. The Card wrapper, title and sub line come from the page.
+// per event. The bin furthest from the ideal line is the one accent element. A bin the deriver merged
+// from sparse bins is labelled "all bins"; its title lists the bins it holds.
+// Server component: no state, no effects. The Card wrapper, title and legend come from the page.
 import type { CalibrationData } from "@/components/charts/types";
 import { COUNT_SIZE, HERO_LABEL_SIZE, PLUMB_WIDTH, layoutCalibrationPlumb, type PlumbBin } from "@/components/charts/layout/CalibrationPlumb.layout";
 import { BarcodeFloor } from "@/components/svg/BarcodeFloor";
@@ -13,6 +14,19 @@ import { Mark } from "@/components/svg/Mark";
 import { Tick } from "@/components/svg/Tick";
 import { FRAME, LADDER, PALETTE } from "@/lib/tokens";
 
+/** Footnote text: what the y axis is. One constant, owned by the layout. */
+export { FOOTNOTE_TEXT } from "@/components/charts/layout/CalibrationPlumb.layout";
+/** Label for a bin merged from several sparse bins. */
+export const MERGED_LABEL = "all bins";
+/** The deriver joins merged bin names with this separator when it gives no merged list. */
+const MERGED_JOIN = " + ";
+
+/** The bins a dot stands for when it was merged, else null. */
+export function mergedBins(bin: { bin: string; merged?: string[] }): string[] | null {
+  if (bin.merged && bin.merged.length > 1) return bin.merged;
+  return bin.bin.includes(MERGED_JOIN) ? bin.bin.split(MERGED_JOIN) : null;
+}
+
 export interface CalibrationPlumbProps {
   data: CalibrationData;
   size: "half" | "wide";
@@ -20,12 +34,14 @@ export interface CalibrationPlumbProps {
   hero?: string;
 }
 
-function Bin({ bin }: { bin: PlumbBin }) {
+function Bin({ bin, merged }: { bin: PlumbBin; merged: string[] | null }) {
   const color = bin.hero ? "currentColor" : LADDER[0];
-  const dot = <Mark cx={bin.x} cy={bin.y} r={bin.r} variant={bin.hollow ? "hollow" : "solid"} color={color} className="pop" delay={bin.delay} title={`${bin.id} · ${bin.countText}`} />;
+  const title = merged ? `${MERGED_LABEL}: ${merged.join(", ")} · ${bin.countText}` : `${bin.id} · ${bin.countText}`;
+  const dot = <Mark cx={bin.x} cy={bin.y} r={bin.r} variant={bin.hollow ? "hollow" : "solid"} color={color} className="pop" delay={bin.delay} title={title} />;
   const count = (
     <Halo x={bin.x} y={bin.countY} size={COUNT_SIZE} fill={LADDER[2]} className="fade" delay={bin.delay}>
-      {bin.countText}
+      {merged ? <title>{merged.join(", ")}</title> : null}
+      {merged ? `${MERGED_LABEL} · ${bin.countText}` : bin.countText}
     </Halo>
   );
   if (!bin.hero) {
@@ -53,6 +69,7 @@ function Bin({ bin }: { bin: PlumbBin }) {
 export function CalibrationPlumb({ data, size, hero }: CalibrationPlumbProps) {
   const { w, h } = FRAME[size];
   const L = layoutCalibrationPlumb(data, w, h, { hero });
+  const mergedById = new Map(data.bins.map((b) => [b.bin, mergedBins(b)]));
   return (
     <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label={`Calibration: ${data.label}`} className="chart chart--calibration-plumb" style={{ display: "block" }}>
       <Hairline x1={L.ideal.x1} y1={L.ideal.y1} x2={L.ideal.x2} y2={L.ideal.y2} width={0.7} color={LADDER[4]} dash="3 3" />
@@ -68,7 +85,7 @@ export function CalibrationPlumb({ data, size, hero }: CalibrationPlumbProps) {
       <BarcodeFloor xs={L.floor.xs} y={L.floor.y} />
       <Baseline x1={L.plot.x0} x2={L.plot.x1} y={L.baseline.y} ticks={L.baseline.ticks} labels={L.baseline.labels} />
       {L.bins.map((b) => (
-        <Bin key={b.id} bin={b} />
+        <Bin key={b.id} bin={b} merged={mergedById.get(b.id) ?? null} />
       ))}
       <Footnote x={L.footnote.x} y={L.footnote.y}>
         {L.footnote.text}

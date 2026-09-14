@@ -1,9 +1,9 @@
-// Inline state glyph, the same code as the charts: solid = hit, hollow = miss, dashed hollow = pending, tiny = void.
+// Inline state glyph, the same code as the charts: solid = true, hollow = false, dashed hollow = pending, tiny = void.
 import type { State } from "@/components/charts/types";
 import { Mark } from "@/components/svg/Mark";
 import { PALETTE, STROKE } from "@/lib/tokens";
 
-export const STATE_LABEL: Record<State, string> = { true: "Hit", false: "Miss", pending: "Pending", void: "Void" };
+export const STATE_LABEL: Record<State, string> = { true: "True", false: "False", pending: "Pending", void: "Void" };
 
 export interface StateMarkProps {
   state: State;

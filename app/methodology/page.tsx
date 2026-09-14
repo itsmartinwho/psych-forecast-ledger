@@ -394,5 +394,6 @@ export default function MethodologyPage() {
       };
     }),
   };
-  return <Shell current="/methodology" dataVersion={ds.version.as_of} ruleVersion={ds.version.version}><MethodologyView live={live} asOf={readAsOf()} /></Shell>;
+  const hero = ds.forecasters.find((f) => f.hero) ?? ds.forecasters[0];
+  return <Shell current="/methodology" hero={{ slug: hero.slug, name: hero.name }}><MethodologyView live={live} asOf={readAsOf()} /></Shell>;
 }

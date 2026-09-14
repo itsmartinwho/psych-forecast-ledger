@@ -3,8 +3,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { createElement } from "react";
 import { LeaderboardTickRows } from "@/components/charts/LeaderboardTickRows";
-import { COIN_FLIP_TEXT, FOOTNOTE_TEXT, layoutLeaderboardTickRows, pickHeroRow } from "@/components/charts/layout/LeaderboardTickRows.layout";
+import { COIN_FLIP_TEXT, FOOTNOTE_TEXT, PROVISIONAL_DASH, UNIT_TEXT, layoutLeaderboardTickRows, leaderboardColumns, pickHeroRow } from "@/components/charts/layout/LeaderboardTickRows.layout";
 import { leaderboardTickRowsFixture as fixture } from "@/components/charts/fixtures/LeaderboardTickRows.fixture";
+import { progressWidth } from "@/components/svg/Progress";
 import { countAccent, minFontSize, renderMarkup } from "@/lib/testing/markup";
 import { FONT, FRAME, PALETTE } from "@/lib/tokens";
 
@@ -38,17 +39,51 @@ describe("layoutLeaderboardTickRows", () => {
     expect(pickHeroRow(fixture.rows, "nobody")).toBe("owen");
     expect(pickHeroRow(fixture.rows.map((r) => ({ ...r, hero: false })))).toBeNull();
   });
-  it("gives T0 rows a count instead of a score, no whisker, and a faint dot only when a value exists", () => {
+  it("lays the columns out from the right edge: evidence, gutter, value, gutter, track", () => {
+    expect(leaderboardColumns(FRAME.wide.w)).toEqual({ labelW: 120, valueX: 728, valueW: 44, evidenceX: 744, evidenceW: 56, gutter: 16 });
+    expect(leaderboardColumns(FRAME.half.w)).toEqual({ labelW: 96, valueX: 340, valueW: 40, evidenceX: 352, evidenceW: 48, gutter: 12 });
+    const W = layoutLeaderboardTickRows(fixture, FRAME.wide.w, FRAME.wide.h);
+    expect(W.plot.x0).toBe(132);
+    expect(W.plot.x1).toBe(672);
+    const Hf = layoutLeaderboardTickRows(fixture, FRAME.half.w, FRAME.half.h);
+    expect(Hf.plot.x0).toBe(108);
+    expect(Hf.plot.x1).toBe(292);
+    for (const [L, gutter] of [[W, 16], [Hf, 12]] as const) {
+      for (const r of L.rows) {
+        expect(r.value.x).toBe(L.columns.valueX);
+        expect(r.evidence).not.toBeNull();
+        expect(r.evidence!.x - r.value.x).toBeGreaterThanOrEqual(gutter);
+        expect(r.evidence!.x).toBe(L.columns.evidenceX);
+      }
+      // The progress ticks fit inside the evidence column.
+      expect(progressWidth(10)).toBeLessThanOrEqual(L.columns.evidenceW);
+    }
+  });
+  it("gives T0 rows a count over the minimum, progress ticks, no whisker, and a faint dot only when a value exists", () => {
     const L = layoutLeaderboardTickRows(fixture, FRAME.half.w, FRAME.half.h);
     const doblin = L.rows.find((r) => r.id === "doblin")!;
-    expect(doblin.valueText).toBe("6 OF 10");
-    expect(doblin.tierText).toBe("Counts only");
+    expect(doblin.value).toMatchObject({ text: "6", sub: "of 10" });
+    expect(doblin.evidence).toMatchObject({ kind: "progress", n: 6, need: 10, y: doblin.y });
     expect(doblin.lo).toBeNull();
     expect(doblin.variant).toBe("faint");
     expect(doblin.x).not.toBeNull();
     const market = L.rows.find((r) => r.id === "market")!;
-    expect(market.valueText).toBe("4 OF 10");
+    expect(market.value).toMatchObject({ text: "4", sub: "of 10" });
     expect(market.x).toBeNull();
+    for (const r of L.rows) expect("tierText" in r).toBe(false);
+    const five = layoutLeaderboardTickRows(fixture, FRAME.half.w, FRAME.half.h, { minN: 5 });
+    expect(five.rows.find((r) => r.id === "doblin")!.value.sub).toBe("of 5");
+  });
+  it("gives scored rows the Brier, an events note, and a dashed whisker only when provisional", () => {
+    const L = layoutLeaderboardTickRows(fixture, FRAME.wide.w, FRAME.wide.h);
+    const owen = L.rows.find((r) => r.id === "owen")!;
+    expect(owen.value).toEqual({ text: "0.19", x: L.columns.valueX });
+    expect(owen.evidence).toMatchObject({ kind: "text", text: "41 events" });
+    expect(owen.whiskerDash).toBeNull();
+    const ang = L.rows.find((r) => r.id === "angermayer")!;
+    expect(ang.whiskerDash).toBe(PROVISIONAL_DASH);
+    expect(ang.value.text).toBe("0.31");
+    expect(L.rows.filter((r) => r.whiskerDash !== null).map((r) => r.id)).toEqual(["angermayer"]);
   });
   it("hollows reference rows and keeps whiskers inside the track", () => {
     const L = layoutLeaderboardTickRows(fixture, FRAME.wide.w, FRAME.wide.h);
@@ -67,6 +102,13 @@ describe("layoutLeaderboardTickRows", () => {
     expect(L.coinFlip?.text).toBe(COIN_FLIP_TEXT);
     expect(L.coinFlip?.x).toBe((L.plot.x0 + L.plot.x1) / 2);
     expect(layoutLeaderboardTickRows({ ...fixture, coinFlip: 0.9 }, FRAME.half.w, FRAME.half.h).coinFlip).toBeNull();
+  });
+  it("writes the direction note at the left of the track and the unit at its right", () => {
+    const L = layoutLeaderboardTickRows(fixture, FRAME.wide.w, FRAME.wide.h);
+    expect(FOOTNOTE_TEXT).toBe("← better");
+    expect(UNIT_TEXT).toBe("Brier");
+    expect(L.footnote).toEqual({ x: L.plot.x0, y: FRAME.wide.h - 6, text: FOOTNOTE_TEXT });
+    expect(L.unit).toEqual({ x: L.plot.x1, y: FRAME.wide.h - 6, text: UNIT_TEXT });
   });
 });
 
@@ -92,21 +134,28 @@ describe("LeaderboardTickRows", () => {
     expect(minFontSize(half)).toBeGreaterThanOrEqual(FONT.floorHalf);
     expect(minFontSize(wide)).toBeGreaterThanOrEqual(FONT.floorWide);
   });
-  it("shows the whiskers, the coin flip, the tier text and the footnote", () => {
-    expect(half.match(/class="whisker/g)?.length).toBe(3);
+  it("shows the whiskers, the coin flip, the progress ticks, the events notes and the two footnotes", () => {
+    expect(half.match(/class="whisker fade"/g)?.length).toBe(3);
+    expect(half.match(/class="whisker--dashed" stroke-dasharray="2 2"/g)?.length).toBe(1);
     expect(half).toContain('stroke-dasharray="2 4"');
     expect(half).toContain(">COIN FLIP</text>");
-    expect(half).toContain(">FULL</text>");
-    expect(half).toContain(">COUNTS ONLY</text>");
-    expect(half).toContain(`>${FOOTNOTE_TEXT.toUpperCase()}</text>`);
+    expect(half.match(/class="progress"/g)?.length).toBe(2);
+    expect(half).toContain('aria-label="6 of 10"');
+    expect(half).toContain(">41 EVENTS</text>");
+    expect(half).toContain(">14 EVENTS</text>");
+    expect(half).not.toContain("COUNTS ONLY");
+    expect(half).not.toContain(">FULL<");
+    expect(half).toContain(">← BETTER</text>");
+    expect(half).toContain('text-anchor="end" style="text-transform:uppercase">BRIER</text>');
     expect(half).toContain('href="/forecasters/owen"');
     expect(half).toContain("animation-delay:");
     expect(half).toContain('class="mark mark--solid pop"');
   });
-  it("uses the hero score in weight 800 with a halo", () => {
+  it("writes a T0 value as two tspans and a score in weight 800 with a halo", () => {
+    expect(half).toContain('<tspan>6</tspan><tspan dx="3" font-size="8" font-weight="600" fill="#8F8E88">of 10</tspan>');
     expect(half).toContain('font-weight="800"');
     expect(half).toContain('paint-order="stroke fill"');
-    expect(half).toContain(">0.19</text>");
+    expect(half).toContain("<tspan>0.19</tspan></text>");
   });
 });
 

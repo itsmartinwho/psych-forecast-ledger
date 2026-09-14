@@ -1,22 +1,24 @@
-// Page shell: nav, content, footer inside one 1200px column. Padding comes from .shell in globals.css (40px; 20px under 760px).
+// Page shell: masthead, content, footer inside one 1200px column. Padding comes from .shell in globals.css
+// (40px; 20px 16px under 760px). The masthead owns the gap above main.
 import type { ReactNode } from "react";
 import { Footer } from "./Footer";
-import { Nav } from "./Nav";
+import { Masthead } from "./Masthead";
+import type { NavHero } from "./Nav";
 
 export interface ShellProps {
-  children: ReactNode;
   /** Pathname of the current page, to mark the nav link. */
   current?: string;
-  dataVersion?: string;
-  ruleVersion?: string;
+  /** The hero forecaster: ds.forecasters.find((f) => f.hero). */
+  hero: NavHero;
+  children: ReactNode;
 }
 
-export function Shell({ children, current, dataVersion, ruleVersion }: ShellProps) {
+export function Shell({ current, hero, children }: ShellProps) {
   return (
     <div className="shell" style={{ maxWidth: 1200 }}>
-      <Nav current={current} />
-      <main style={{ marginTop: 40 }}>{children}</main>
-      <Footer dataVersion={dataVersion} ruleVersion={ruleVersion} />
+      <Masthead hero={hero} current={current} />
+      <main>{children}</main>
+      <Footer />
     </div>
   );
 }

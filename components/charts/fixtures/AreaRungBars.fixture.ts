@@ -1,4 +1,5 @@
-// Sample rung-bar data. Counts are scored forecasts; value is the Brier score; practice adoption sits below the minimum n.
+// Sample rung-bar data. Counts are resolved items; value is the Brier score; practice adoption sits below the minimum n.
+// unit is the noun for one record; rungUnit says how many records one rung stands for.
 import type { RungBarsData } from "@/components/charts/types";
 
 /** The five areas for the hero forecaster. as_of 2026-09-13. */
@@ -10,7 +11,7 @@ export const areaRungBarsFixture: RungBarsData = {
     { id: "payer_policy", label: "Payer and policy", count: 18, value: 0.31, n: 18, href: "/areas/payer_policy" },
     { id: "practice_adoption", label: "Practice adoption", count: 6, value: null, n: 6, faint: true, href: "/areas/practice_adoption" },
   ],
-  unit: "one rung = one scored forecast",
+  unit: "resolved items",
   valueLabel: "Brier",
 };
 
@@ -23,6 +24,18 @@ export const forecasterRungBarsFixture: RungBarsData = {
     { id: "base-rate", label: "Base rate", count: 141, value: 0.25, n: 141 },
     { id: "market", label: "Market", count: 9, value: null, n: 9, faint: true },
   ],
-  unit: "one rung = one scored forecast",
+  unit: "resolved items",
   valueLabel: "Brier",
+};
+
+/** The admission funnel over every statement in the census; one rung stands for 50 statements. */
+export const admissionRungBarsFixture: RungBarsData = {
+  groups: [
+    { id: "found", label: "Found", count: 2495 },
+    { id: "sincere", label: "Sincere", count: 2118 },
+    { id: "admitted", label: "Admitted", count: 71, hero: true },
+    { id: "resolved", label: "Resolved", count: 27 },
+  ],
+  unit: "statements",
+  rungUnit: 50,
 };

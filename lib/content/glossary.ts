@@ -1,7 +1,12 @@
 // Glossary as typed data. One term, one meaning, used the same way on every page. Pure.
-export interface GlossaryTerm { term: string; definition: string; see?: string[] }
+export interface GlossaryTerm { term: string; definition: string; see?: string[]; slug: string }
 
-export const GLOSSARY: GlossaryTerm[] = [
+/** Anchor slug for a term: "Brier score" -> "brier-score". The methodology row id is "g-" + slug. */
+export function glossarySlug(term: string): string {
+  return term.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+const TERMS: Omit<GlossaryTerm, "slug">[] = [
   { term: "admitted", definition: "A statement that passed intake: sincere, the person's own claim, forward-looking, inside the five areas, and not excluded by a reason code. Only admitted statements become items.", see: ["reason code", "item"] },
   { term: "affiliated", definition: "A flag on an item where a third party decides the event but the person has a disclosed role, stake, employment, board seat or trial site in an entity named in the event. Scored and flagged; the headline is shown with and without.", see: ["non-affiliated block"] },
   { term: "anchor table", definition: "The fixed table that turns the person's own words ('by 2026', 'Q2', 'within two years') into a deadline. The coder never invents a date.", see: ["deadline", "undated panel"] },
@@ -61,6 +66,8 @@ export const GLOSSARY: GlossaryTerm[] = [
   { term: "Wilson interval", definition: "A 95 percent interval for a share that stays inside 0 and 1 and behaves well at small n. Used for hit rate and scoreable share." },
   { term: "window-close scoring", definition: "An item enters the score only when its deadline has passed and the outcome is true or false. A claim already known true still waits for its deadline.", see: ["as-of date", "known true"] },
 ];
+
+export const GLOSSARY: GlossaryTerm[] = TERMS.map((g) => ({ ...g, slug: glossarySlug(g.term) }));
 
 /** Alphabetical, case-insensitive, for rendering. */
 export const GLOSSARY_SORTED: GlossaryTerm[] = [...GLOSSARY].sort((a, b) => a.term.toLowerCase().localeCompare(b.term.toLowerCase()));

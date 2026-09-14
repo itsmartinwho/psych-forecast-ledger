@@ -1,29 +1,40 @@
 // Tick donut (Lupi Basics F4): a dial of 100 ticks, or one tick per record when the total is 100 or less.
 // Segments keep the data order and take the ladder color of their tone; one empty tick separates segments.
+// Labels never sit on the dial. They form a key column at the right: one row per segment, in data order.
 // Pure: numbers and strings only.
 import { scaleLinear } from "d3-scale";
 import type { DonutSegment, TickDonutData } from "@/components/charts/types";
 import { fmtInt } from "@/lib/format";
-import { LADDER, PALETTE } from "@/lib/tokens";
+import { FONT, LADDER, PALETTE } from "@/lib/tokens";
 
 export const TICK_STROKE = 1.6;
 export const R_INNER = 92;
 export const R_OUTER = 120;
 export const MAX_TICKS = 100;
 export const LEADER_R = 124;
-export const LABEL_R = 132;
-/** Labels keep this many px from the frame edge and from the dial. */
+/** Text keeps this many px from the frame edge. */
 export const EDGE_MARGIN = 6;
-export const DIAL_GAP = 4;
+/** Gap between the dial and the key column. */
+export const KEY_GAP = 12;
+/** Key column width: half frame (W under 600) and wide frame. */
+export const KEY_W_HALF = 118;
+export const KEY_W_WIDE = 150;
+/** Distance between key rows. */
+export const KEY_PITCH = 13;
+/** A leader ties a right-side segment to its key row only from this many ticks. */
+export const LEADER_MIN_TICKS = 3;
+/** Key labels are cut to this many characters; the full text goes in a title. */
+export const LABEL_MAX_CHARS = 14;
 export const TOTAL_SIZE = 22;
-export const UNIT_SIZE = 7;
-export const LABEL_SIZE = 7;
-export const COUNT_SIZE = 8;
-/** Labels on one side keep at least this many px between baselines. */
-export const LABEL_GAP = 10;
+/** Every text in the donut is 8px or more, so the half frame stays above the 6.5px floor at 368px. */
+export const UNIT_SIZE = 8;
+export const LABEL_SIZE = FONT.keyLabel.size;
+export const COUNT_SIZE = FONT.keyCount.size;
+export const FOOTNOTE_SIZE = 8;
 /** Ticks enter one after another; the brief sets dots at 12ms. */
 export const TICK_STAGGER_MS = 12;
 export const LABEL_STAGGER_MS = 100;
+export const FOOTNOTE_PER_RECORD = "1 tick = 1 item";
 
 export const TONE_COLOR: Record<DonutSegment["tone"], string> = {
   ink: LADDER[0],
@@ -51,8 +62,13 @@ export interface DonutSegmentLayout {
   ticks: DonutTick[];
   midAngle: number;
   side: "left" | "right";
+  /** Dotted tie from the dial to the key row. Drawn only when hasLeader. */
   leader: { x1: number; y1: number; x2: number; y2: number };
-  label: { x: number; y: number; text: string; anchor: "start" | "end" };
+  hasLeader: boolean;
+  /** Short vertical line in the segment color at the start of the key row. */
+  swatch: { x: number; y1: number; y2: number };
+  /** Key label, cut to LABEL_MAX_CHARS; full carries the whole text for a title. */
+  label: { x: number; y: number; text: string; full: string; anchor: "start" | "end" };
   countText: { x: number; y: number; text: string; anchor: "start" | "end" };
   delay: number;
 }
@@ -61,6 +77,9 @@ export interface TickDonutLayout {
   H: number;
   cx: number;
   cy: number;
+  /** Left edge of the key column. */
+  keyX: number;
+  keyW: number;
   slots: number;
   ticksTotal: number;
   /** True when every tick is one record. */
@@ -72,11 +91,24 @@ export interface TickDonutLayout {
 }
 
 const r2 = (v: number): number => Math.round(v * 100) / 100;
-/** Rough Inter widths: spaced uppercase runs about 0.72em per glyph, bold digits about 0.65em. */
-const labelWidth = (text: string): number => text.length * LABEL_SIZE * 0.72;
-const countWidth = (text: string): number => text.length * COUNT_SIZE * 0.65;
+const clamp = (v: number, lo: number, hi: number): number => Math.min(hi, Math.max(lo, v));
 const RAD = Math.PI / 180;
 const polar = (cx: number, cy: number, r: number, deg: number): [number, number] => [r2(cx + r * Math.sin(deg * RAD)), r2(cy - r * Math.cos(deg * RAD))];
+
+/** Key column width for a frame width. */
+export function keyWidth(W: number): number {
+  return W < 600 ? KEY_W_HALF : KEY_W_WIDE;
+}
+
+/** A key label cut to LABEL_MAX_CHARS with an ellipsis. */
+export function truncateLabel(text: string, max = LABEL_MAX_CHARS): string {
+  return text.length > max ? `${text.slice(0, max - 1)}…` : text;
+}
+
+/** Footnote: the unit of one tick. */
+export function donutFootnote(oneTickPerRecord: boolean, total: number): string {
+  return oneTickPerRecord ? FOOTNOTE_PER_RECORD : `1 tick = 1% of ${fmtInt(total)}`;
+}
 
 /** Ticks per segment: exact counts when they fit in 100, else largest-remainder shares of 100. */
 export function ticksPerSegment(counts: number[], total: number): number[] {
@@ -106,26 +138,10 @@ export function ticksPerSegment(counts: number[], total: number): number[] {
   return floors;
 }
 
-/** Push labels on one side apart until each pair is LABEL_GAP apart, staying inside [lo, hi]. */
-function spread(ys: number[], lo: number, hi: number): number[] {
-  const idx = ys.map((y, i) => i).sort((a, b) => ys[a] - ys[b]);
-  const out = ys.slice();
-  let prev = -Infinity;
-  for (const i of idx) {
-    out[i] = Math.max(out[i], prev + LABEL_GAP, lo);
-    prev = out[i];
-  }
-  let next = Infinity;
-  for (let k = idx.length - 1; k >= 0; k--) {
-    const i = idx[k];
-    out[i] = Math.min(out[i], next - LABEL_GAP, hi);
-    next = out[i];
-  }
-  return out.map(r2);
-}
-
 export function layoutTickDonut(data: TickDonutData, W: number, H: number, opts: TickDonutOpts = {}): TickDonutLayout {
-  const cx = W / 2;
+  const keyW = keyWidth(W);
+  const keyX = W - keyW;
+  const cx = (W - keyW - KEY_GAP) / 2;
   const cy = H / 2 - 4;
   const counts = data.segments.map((s) => s.count);
   const ticks = ticksPerSegment(counts, data.total);
@@ -138,17 +154,23 @@ export function layoutTickDonut(data: TickDonutData, W: number, H: number, opts:
   // One segment carries the accent: the hero by id, else the first with tone "accent".
   const heroId = opts.hero ?? data.segments.find((s) => s.tone === "accent")?.id ?? null;
 
+  // The key column sits level with the dial's centre and stays inside the frame.
+  const n = live;
+  const keyTop = clamp(cy - (n * KEY_PITCH) / 2 + 4, 12, H - 18 - n * KEY_PITCH);
+  const countX = W - EDGE_MARGIN;
+
   const segments: DonutSegmentLayout[] = [];
   let slot = 0;
   let tickIndex = 0;
+  let row = 0;
   data.segments.forEach((s, j) => {
-    const n = ticks[j];
-    if (n <= 0) return;
+    const count = ticks[j];
+    if (count <= 0) return;
     const accent = s.id === heroId;
     const color = accent ? PALETTE.accent : s.tone === "accent" ? ACCENT_FALLBACK : TONE_COLOR[s.tone];
     const first = slot;
     const segTicks: DonutTick[] = [];
-    for (let k = 0; k < n; k++) {
+    for (let k = 0; k < count; k++) {
       const a = r2(angle(slot + 0.5));
       const [x1, y1] = polar(cx, cy, R_INNER, a);
       const [x2, y2] = polar(cx, cy, R_OUTER, a);
@@ -159,8 +181,10 @@ export function layoutTickDonut(data: TickDonutData, W: number, H: number, opts:
     const midAngle = r2(angle((first + slot) / 2));
     slot += 1; // the empty tick between segments
     const side: "left" | "right" = Math.sin(midAngle * RAD) >= 0 ? "right" : "left";
+    const y = r2(keyTop + row * KEY_PITCH);
+    row += 1;
     const [lx, ly] = polar(cx, cy, LEADER_R, midAngle);
-    const [ax, ay] = polar(cx, cy, LABEL_R, midAngle);
+    const full = s.label.toUpperCase();
     segments.push({
       id: s.id,
       color,
@@ -169,64 +193,28 @@ export function layoutTickDonut(data: TickDonutData, W: number, H: number, opts:
       ticks: segTicks,
       midAngle,
       side,
-      leader: { x1: lx, y1: ly, x2: ax, y2: ay },
-      label: { x: ax, y: ay, text: s.label.toUpperCase(), anchor: side === "right" ? "start" : "end" },
-      countText: { x: ax, y: ay, text: fmtInt(s.count), anchor: side === "right" ? "start" : "end" },
+      leader: { x1: lx, y1: ly, x2: r2(keyX - 5), y2: y },
+      hasLeader: side === "right" && segTicks.length >= LEADER_MIN_TICKS,
+      swatch: { x: keyX, y1: r2(y - 3), y2: r2(y + 5) },
+      label: { x: keyX + 8, y: r2(y + 3), text: truncateLabel(full), full, anchor: "start" },
+      countText: { x: countX, y: r2(y + 3), text: fmtInt(s.count), anchor: "end" },
       delay: TICK_STAGGER_MS * tickIndex + LABEL_STAGGER_MS * j,
     });
   });
 
-  // A label block that would leave the frame slides back inside, then moves up or down until the dial no longer
-  // reaches it: the dial is narrower away from its horizontal middle, so a short vertical nudge frees the room.
-  for (const s of segments) {
-    const blockW = labelWidth(s.label.text) + 4 + countWidth(s.countText.text);
-    let ax = s.label.x;
-    let ay = s.label.y;
-    if (s.side === "right" && ax + blockW > W - EDGE_MARGIN) ax = W - EDGE_MARGIN - blockW;
-    if (s.side === "left" && ax - blockW < EDGE_MARGIN) ax = EDGE_MARGIN + blockW;
-    const reach = (s.side === "right" ? ax - cx : cx - ax) - DIAL_GAP;
-    if (reach < R_OUTER) {
-      const dyMin = Math.sqrt(R_OUTER * R_OUTER - reach * reach);
-      if (Math.abs(ay - cy) < dyMin) ay = cy + (ay >= cy ? dyMin : -dyMin);
-    }
-    s.label = { ...s.label, x: r2(ax), y: r2(ay) };
-    s.countText = { ...s.countText, x: r2(ax), y: r2(ay) };
-  }
-
-  // Labels on each side spread apart vertically; the leader then follows the label.
-  const lo = 12;
-  const hi = H - 18;
-  for (const side of ["left", "right"] as const) {
-    const group = segments.filter((s) => s.side === side);
-    const ys = spread(group.map((s) => s.label.y), lo, hi);
-    group.forEach((s, i) => {
-      const y = ys[i];
-      const labelW = labelWidth(s.label.text);
-      const countW = countWidth(s.countText.text);
-      if (side === "right") {
-        s.label = { ...s.label, y: r2(y + 2.5) };
-        s.countText = { ...s.countText, x: r2(s.label.x + labelW + 4), y: r2(y + 2.8) };
-        s.leader = { ...s.leader, x2: r2(s.label.x - 3), y2: y };
-      } else {
-        s.countText = { ...s.countText, y: r2(y + 2.8) };
-        s.label = { ...s.label, x: r2(s.countText.x - countW - 4), y: r2(y + 2.5) };
-        s.leader = { ...s.leader, x2: r2(s.countText.x + 3), y2: y };
-      }
-    });
-  }
-
-  const footText = oneTickPerRecord ? `${data.centerLabel} · 1 tick = 1 of ${fmtInt(data.total)}` : `${data.centerLabel} · 1 tick = 1% of ${fmtInt(data.total)}`;
   return {
     W,
     H,
     cx: r2(cx),
     cy: r2(cy),
+    keyX,
+    keyW,
     slots,
     ticksTotal,
     oneTickPerRecord,
     segments,
     total: { x: r2(cx), y: r2(cy + 5), text: fmtInt(data.total), delay: TICK_STAGGER_MS * ticksTotal },
     unit: { x: r2(cx), y: r2(cy + 17), text: data.unit.toUpperCase() },
-    footnote: { x: 14, y: H - 8, text: footText },
+    footnote: { x: 14, y: H - 8, text: donutFootnote(oneTickPerRecord, data.total) },
   };
 }

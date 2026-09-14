@@ -1,4 +1,5 @@
-// Rung bars (Lupi Basics F1): one horizontal ladder per group and one rung per unit of count, so a bar is countable.
+// Rung bars (Lupi Basics F1): one horizontal ladder per group and one rung per rungUnit records, so a bar is countable.
+// The deriver picks rungUnit with rungUnitFor(max) so the longest ladder stays at or under RUNG_MAX rungs.
 // Pure: numbers and strings only. Rung jitter comes from the seeded PRNG keyed on the group id, never from a clock.
 import { scaleLinear } from "d3-scale";
 import type { RungBarsData } from "@/components/charts/types";
@@ -23,6 +24,32 @@ export const VALUE_SIZE = 7.5;
 const PITCH_MIN = 1.5;
 const PITCH_MAX = 4.5;
 const ROW_PITCH_MAX = 36;
+/** Records one rung may stand for, smallest first. */
+export const RUNG_UNITS = [1, 5, 10, 25, 50, 100] as const;
+/** Most rungs in one ladder before the unit steps up. */
+export const RUNG_MAX = 60;
+
+/** The smallest unit that keeps the longest ladder at or under RUNG_MAX rungs. */
+export function rungUnitFor(max: number): number {
+  const safe = Math.max(0, max);
+  for (const u of RUNG_UNITS) if (Math.ceil(safe / u) <= RUNG_MAX) return u;
+  return RUNG_UNITS[RUNG_UNITS.length - 1];
+}
+
+/** A whole, positive rung unit; anything else reads as 1. */
+export function normalizeRungUnit(unit: number | undefined): number {
+  return unit !== undefined && Number.isFinite(unit) && unit >= 1 ? Math.round(unit) : 1;
+}
+
+/** Rungs drawn for a count: the count divided by the unit, rounded up so a partial unit still shows. */
+export function rungsFor(count: number, unit: number): number {
+  return Math.max(0, Math.ceil(Math.max(0, count) / normalizeRungUnit(unit)));
+}
+
+/** Footnote: only when one rung is more than one record; the legend carries the unit otherwise. */
+export function rungFootnote(unit: number, noun: string): string {
+  return unit > 1 ? `1 rung = ${fmtInt(unit)} ${noun}` : "";
+}
 
 export interface RungBarsOpts {
   /** Group id that takes the accent; falls back to the first group flagged hero. */
@@ -54,7 +81,8 @@ export interface RungRowLayout {
 export interface RungBarsLayout {
   W: number;
   H: number;
-  ladder: { x0: number; x1: number; pitch: number; maxCount: number };
+  /** maxCount is the longest ladder in rungs; rungUnit is how many records one rung stands for. */
+  ladder: { x0: number; x1: number; pitch: number; maxCount: number; rungUnit: number };
   rows: RungRowLayout[];
   footnote: TextPrimitive;
 }
@@ -66,6 +94,7 @@ const textWidth = (text: string, size: number): number => text.length * size * 0
 
 export function layoutAreaRungBars(data: RungBarsData, W: number, H: number, opts: RungBarsOpts = {}): RungBarsLayout {
   const groups = data.groups;
+  const rungUnit = normalizeRungUnit(data.rungUnit);
   const heroId = opts.hero ?? groups.find((g) => g.hero)?.id ?? null;
   const left = 14;
   const right = 14;
@@ -77,7 +106,7 @@ export function layoutAreaRungBars(data: RungBarsData, W: number, H: number, opt
   const labelW = Math.min(W * 0.34, widestLabel + 12);
   const x0 = left + labelW;
   const x1 = W - right - reserve;
-  const maxCount = Math.max(1, ...groups.map((g) => g.count));
+  const maxCount = Math.max(1, ...groups.map((g) => rungsFor(g.count, rungUnit)));
   const pitch = clamp((x1 - x0) / maxCount, PITCH_MIN, PITCH_MAX);
   const x = scaleLinear().domain([0, maxCount]).range([x0, x0 + maxCount * pitch]);
   const n = Math.max(1, groups.length);
@@ -92,7 +121,8 @@ export function layoutAreaRungBars(data: RungBarsData, W: number, H: number, opt
     const rnd = mulberry32(hashSeed(g.id));
     const rungs: RungPrimitive[] = [];
     const dots: DotPrimitive[] = [];
-    for (let k = 0; k < g.count; k++) {
+    const nRungs = rungsFor(g.count, rungUnit);
+    for (let k = 0; k < nRungs; k++) {
       const len = RUNG_LENGTH + (rnd() - 0.5) * RUNG_JITTER;
       const opacity = RUNG_OPACITY_MIN + rnd() * (1 - RUNG_OPACITY_MIN);
       const rx = r2(x(k + 0.5));
@@ -100,7 +130,7 @@ export function layoutAreaRungBars(data: RungBarsData, W: number, H: number, opt
       if ((k + 1) % DOT_EVERY === 0) dots.push({ cx: rx, cy: r2(rowY + RUNG_LENGTH / 2 + 3), r: DOT_RADIUS });
     }
     const countText = fmtInt(g.count);
-    const countX = r2(x(g.count) + 6);
+    const countX = r2(x(nRungs) + 6);
     const count: TextPrimitive = { x: countX, y: r2(rowY + 3.2), text: countText, size: COUNT_SIZE, anchor: "start" };
     const showValue = !faint && g.value !== null && g.value !== undefined && !Number.isNaN(g.value);
     const value: TextPrimitive | null = showValue
@@ -123,12 +153,11 @@ export function layoutAreaRungBars(data: RungBarsData, W: number, H: number, opt
     };
   });
 
-  const footText = [data.unit, data.valueLabel ? `${data.valueLabel} after the count` : null].filter(Boolean).join(" · ");
   return {
     W,
     H,
-    ladder: { x0: r2(x0), x1: r2(x1), pitch: r2(pitch), maxCount },
+    ladder: { x0: r2(x0), x1: r2(x1), pitch: r2(pitch), maxCount, rungUnit },
     rows,
-    footnote: { x: left, y: H - 8, text: footText, size: 7, anchor: "start" },
+    footnote: { x: left, y: H - 8, text: rungFootnote(rungUnit, data.unit), size: 7, anchor: "start" },
   };
 }

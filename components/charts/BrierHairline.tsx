@@ -1,7 +1,8 @@
 // Brier hairline (Lupi Basics F2): one 1px path per series over a calendar floor of one tick per quarter,
 // one dot per period (hollow under three events), the coin-flip rule at 0.25, labels on the latest value of
 // every series and on the hero's best and worst quarter. The hero series is the one accent element.
-// Server component: no state, no effects. The Card wrapper, title and sub line come from the page.
+// The footnote states the unit and direction only; the hollow-dot meaning sits in the card legend.
+// Server component: no state, no effects. The Card wrapper, title and legend come from the page.
 import type { BrierSeriesData } from "@/components/charts/types";
 import { DOT_RADIUS, NAME_SIZE, VALUE_SIZE, layoutBrierHairline, type HairlineSeries } from "@/components/charts/layout/BrierHairline.layout";
 import { BarcodeFloor } from "@/components/svg/BarcodeFloor";
@@ -12,6 +13,9 @@ import { Mark } from "@/components/svg/Mark";
 import { MedianFlag } from "@/components/svg/MedianFlag";
 import { Tick } from "@/components/svg/Tick";
 import { FRAME, PALETTE, STROKE } from "@/lib/tokens";
+
+/** Footnote text: unit and direction. One constant, owned by the layout. */
+export { FOOTNOTE_TEXT } from "@/components/charts/layout/BrierHairline.layout";
 
 export interface BrierHairlineProps {
   data: BrierSeriesData;

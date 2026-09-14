@@ -73,7 +73,8 @@ export const LABEL_GAP = 20;
 export const VALUE_SIZE = 9;
 export const NAME_SIZE = 7;
 export const COIN_FLIP_TEXT = "coin flip";
-export const FOOTNOTE_TEXT = "brier · lower is better · hollow = fewer than 3 events";
+/** Footnote: unit and direction only. The hollow-dot meaning sits in the card legend. */
+export const FOOTNOTE_TEXT = "Brier · lower is better";
 /** Ladder steps for non-hero series, in series order. */
 const TONES = [1, 3, 4, 5, 6] as const;
 

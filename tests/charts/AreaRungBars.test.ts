@@ -1,8 +1,8 @@
 import { createElement } from "react";
 import { describe, expect, it } from "vitest";
 import { AreaRungBars } from "@/components/charts/AreaRungBars";
-import { areaRungBarsFixture, forecasterRungBarsFixture } from "@/components/charts/fixtures/AreaRungBars.fixture";
-import { FAINT_OPACITY, RUNG_OPACITY_MIN, layoutAreaRungBars } from "@/components/charts/layout/AreaRungBars.layout";
+import { admissionRungBarsFixture, areaRungBarsFixture, forecasterRungBarsFixture } from "@/components/charts/fixtures/AreaRungBars.fixture";
+import { FAINT_OPACITY, RUNG_MAX, RUNG_OPACITY_MIN, layoutAreaRungBars, rungUnitFor, rungsFor } from "@/components/charts/layout/AreaRungBars.layout";
 import { countAccent, minFontSize, renderMarkup } from "@/lib/testing/markup";
 import { FONT, FRAME, PALETTE } from "@/lib/tokens";
 
@@ -58,11 +58,37 @@ describe("layoutAreaRungBars", () => {
     const L = layoutAreaRungBars(areaRungBarsFixture, HW, HH, { hero: "payer_policy" });
     expect(L.rows.filter((r) => r.hero).map((r) => r.id)).toEqual(["payer_policy"]);
   });
-  it("uppercases labels and writes the footnote from the unit", () => {
+  it("uppercases labels and leaves the footnote empty when one rung is one record", () => {
     const L = layoutAreaRungBars(areaRungBarsFixture, HW, HH);
     expect(L.rows[0].label.text).toBe("REGULATORY DECISIONS");
-    expect(L.footnote.text).toContain(areaRungBarsFixture.unit);
-    expect(L.footnote.text).toContain("Brier");
+    expect(L.ladder.rungUnit).toBe(1);
+    expect(L.footnote.text).toBe("");
+  });
+  it("divides counts by the rung unit, rounding up, and writes the unit in the footnote", () => {
+    const L = layoutAreaRungBars(admissionRungBarsFixture, HW, HH);
+    expect(L.ladder.rungUnit).toBe(50);
+    for (const g of admissionRungBarsFixture.groups) {
+      const row = L.rows.find((r) => r.id === g.id)!;
+      expect(row.rungs.length).toBe(Math.ceil(g.count / 50));
+      expect(row.count.text).toBe(g.count.toLocaleString("en-US"));
+    }
+    expect(L.rows.find((r) => r.id === "found")!.rungs.length).toBe(50);
+    expect(L.rows.find((r) => r.id === "resolved")!.rungs.length).toBe(1);
+    expect(L.ladder.maxCount).toBe(50);
+    expect(L.footnote.text).toBe("1 rung = 50 statements");
+    expect(layoutAreaRungBars(admissionRungBarsFixture, HW, HH)).toEqual(layoutAreaRungBars(admissionRungBarsFixture, HW, HH));
+  });
+  it("picks the smallest rung unit that keeps the longest ladder at or under the cap", () => {
+    expect(rungUnitFor(27)).toBe(1);
+    expect(rungUnitFor(60)).toBe(1);
+    expect(rungUnitFor(61)).toBe(5);
+    expect(rungUnitFor(852)).toBe(25);
+    expect(rungUnitFor(2495)).toBe(50);
+    expect(rungUnitFor(10000)).toBe(100);
+    for (const max of [27, 61, 852, 2495]) expect(rungsFor(max, rungUnitFor(max))).toBeLessThanOrEqual(RUNG_MAX);
+    expect(rungsFor(71, 50)).toBe(2);
+    expect(rungsFor(0, 50)).toBe(0);
+    expect(rungsFor(7, 0)).toBe(7);
   });
 });
 
@@ -93,5 +119,14 @@ describe("AreaRungBars markup", () => {
     expect(half).toContain("animation-delay:400ms");
     expect(half).toContain('opacity="0.4"');
     expect(half).toContain('href="/areas/regulatory"');
+    expect(half).not.toContain('class="footnote"');
+  });
+  it("draws one line per rung of 50 and the unit footnote on the admission funnel", () => {
+    const funnel = renderMarkup(createElement(AreaRungBars, { data: admissionRungBarsFixture, size: "half" }));
+    expect(funnel.match(/<line /g)?.length).toBe(50 + 43 + 2 + 1);
+    expect(funnel).toContain(">1 RUNG = 50 STATEMENTS</text>");
+    expect(funnel).toContain(">2,495</text>");
+    expect(countAccent(funnel)).toBe(1);
+    expect(minFontSize(funnel)!).toBeGreaterThanOrEqual(FONT.floorHalf);
   });
 });

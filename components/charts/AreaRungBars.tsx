@@ -1,10 +1,11 @@
-// Rung bars: one ladder per group, one rung per unit, the count in a halo at the end, the hero ladder in the accent.
+// Rung bars: one ladder per group, one rung per rungUnit records, the count in a halo at the end, the hero ladder in the accent.
 // Server component: renders the SVG only; the Card wrapper comes from the page.
 import { Footnote } from "@/components/svg/Footnote";
 import { Halo } from "@/components/svg/Halo";
 import { FRAME, LADDER, PALETTE } from "@/lib/tokens";
 import type { RungBarsData } from "./types";
 import { RUNG_STROKE, layoutAreaRungBars } from "./layout/AreaRungBars.layout";
+import { fmtInt } from "@/lib/format";
 
 export type ChartSize = keyof typeof FRAME;
 
@@ -19,7 +20,7 @@ export function AreaRungBars({ data, size, hero }: AreaRungBarsProps) {
   const { w, h } = FRAME[size];
   const L = layoutAreaRungBars(data, w, h, { hero });
   return (
-    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label={`One ladder per group, one rung per ${data.unit}`} className="chart chart--rung-bars">
+    <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label={`One ladder per group; one rung is ${fmtInt(L.ladder.rungUnit)} ${data.unit}`} className="chart chart--rung-bars">
       {L.rows.map((row) => {
         // The color lives once on the group; rungs and the count read it as currentColor, so the accent appears one time.
         const body = (
@@ -51,9 +52,11 @@ export function AreaRungBars({ data, size, hero }: AreaRungBarsProps) {
           </g>
         );
       })}
-      <Footnote x={L.footnote.x} y={L.footnote.y}>
-        {L.footnote.text}
-      </Footnote>
+      {L.footnote.text ? (
+        <Footnote x={L.footnote.x} y={L.footnote.y}>
+          {L.footnote.text}
+        </Footnote>
+      ) : null}
     </svg>
   );
 }

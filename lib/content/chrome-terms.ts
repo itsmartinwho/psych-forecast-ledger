@@ -1,0 +1,4 @@
+// Every glossary term the site chrome links with <Term>. A test renders each one, so an unknown term fails before build.
+export const CHROME_TERMS = ["admitted", "not admitted", "resolved", "pending", "known true", "void", "Brier score", "cluster", "coin flip", "coverage tier", "evidence tier", "undated panel", "headline panel", "dated view", "base rate", "reference row", "deadline", "anchor table", "lexicon", "bin", "hit rate", "skill score", "scoreable share", "sensitivity panel", "timing", "reason code", "registry event", "outcome", "bootstrap interval", "calibration", "Murphy decomposition", "market reference", "non-affiliated block", "affiliated", "leave-one-out change", "halving rule", "denial", "window-close scoring", "template", "item", "as-of date", "paired comparison", "kappa"] as const;
+
+export type ChromeTerm = (typeof CHROME_TERMS)[number];

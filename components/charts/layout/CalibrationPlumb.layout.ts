@@ -51,7 +51,8 @@ export const PLUMB_WIDTH = 0.55;
 export const COUNT_SIZE = 8;
 export const HERO_LABEL_SIZE = 9;
 export const IDEAL_TEXT = "said = came true";
-export const FOOTNOTE_TEXT = "dot area = events · dashed = perfect calibration";
+/** Footnote: what the y axis is. The dot-area and dashed-line meanings sit in the card legend. */
+export const FOOTNOTE_TEXT = "share that came true";
 
 const r2 = (v: number): number => Math.round(v * 100) / 100;
 const clamp = (v: number, lo: number, hi: number): number => Math.min(hi, Math.max(lo, v));
