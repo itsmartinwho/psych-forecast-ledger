@@ -205,8 +205,10 @@ function referentialRules(ds: Dataset, root: string, freeze: FreezeRelease[], er
   }
   for (const rel of freeze) {
     for (const f of rel.files) {
-      const abs = dataFile(root, f.path);
-      if (!fs.existsSync(abs)) { warn(`intake/freeze.json [${rel.release}]: frozen file ${f.path} is missing`); continue; }
+      // freeze paths are repository-relative ("data/..."); older records may be data-root-relative
+      const candidates = [path.join(root, "..", f.path), dataFile(root, f.path)];
+      const abs = candidates.find((c) => fs.existsSync(c));
+      if (!abs) { warn(`intake/freeze.json [${rel.release}]: frozen file ${f.path} is missing`); continue; }
       if (sha256File(abs) !== f.sha256) warn(`intake/freeze.json [${rel.release}]: ${f.path} changed since the release`);
     }
   }
