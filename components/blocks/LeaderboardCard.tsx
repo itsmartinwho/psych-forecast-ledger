@@ -42,7 +42,7 @@ export function LeaderboardCard({ data, minN, thresholds, ranked, src, hasTierC 
     <>
       Persons are ranked only when both have {fmtInt(minN)} or more <Term t="resolved">resolved</Term> events, share a <Term t="coverage tier">coverage tier</Term>, and their{" "}
       <Term t="bootstrap interval">intervals</Term> do not overlap; otherwise rows are alphabetical. The <Term t="evidence tier">evidence tier</Term> sets whether a row shows a score or a count.{" "}
-      {hasTierC ? "Comparators are ad hoc collections (tier C): rows and counts only. " : null}
+      {hasTierC ? "Comparators are ad hoc collections (tier C): they get a score at the same minimum, but a search-built corpus under-counts claims, so they are never ranked against the full archive. " : null}
       The <Term t="reference row">reference rows</Term> are scored on the same events; the <Term t="coin flip">coin flip</Term> is the score of saying fifty-fifty every time.
     </>
   );

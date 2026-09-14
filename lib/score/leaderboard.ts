@@ -65,7 +65,7 @@ export function leaderboard(forecasters: Forecaster[], scores: Record<string, Fo
       slug: f.slug, name: f.name, kind: "person", coverage_tier: f.coverage.tier, tier: h.tier, label: h.label,
       n_clusters: h.n_clusters, n_true: h.n_true, n_false: h.n_false, n_pending: h.n_pending + h.n_known_true,
       brier: h.brier, hit: h.hit, rank: null,
-      note: f.coverage.tier === "C" ? "Ad hoc corpus: rows only, never ranked" : h.tier === "T0" ? "Fewer than 10 resolved events" : h.tier === "T1" ? "Provisional: fewer than 30 resolved events" : null,
+      note: f.coverage.tier === "C" ? "Ad hoc corpus: scored at the same minimum, never ranked against a full archive" : h.tier === "T0" ? "Fewer than 10 resolved events" : h.tier === "T1" ? "Provisional: fewer than 30 resolved events" : null,
     };
   });
   const base = referenceRow(all, (i) => i.base_p, th, seed, th.min_clusters_headline);
