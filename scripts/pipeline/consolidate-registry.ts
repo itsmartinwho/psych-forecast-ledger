@@ -1,7 +1,8 @@
 // Registry consolidation, two phases.
 //   prep:  collect every "new:" event proposal from coder outputs into data/intake/registry-proposals.json
 //          (deduplicated by normalized title so the consolidation agent reads each distinct wording once).
-//   apply: read the agent's data/intake/registry-consolidated.json { events, map } and write data/registry/events.json
+//   assemble: build data/intake/registry-consolidated.json from registry-groups.json and registry-entries-*.json
+//   apply: read data/intake/registry-consolidated.json { events, map } and write data/registry/events.json
 //          (existing entries kept, new ones appended with sequential ids) and data/intake/registry-map.json.
 //          A map value of "OUT_OF_AREA" records the scope gate: the proposal lies outside the five area definitions.
 import fs from "node:fs";
@@ -41,6 +42,38 @@ if (mode === "prep") {
   const distinct = new Set(proposals.map((p) => norm(p.title ?? p.ref))).size;
   appendAudit({ script: "consolidate-registry prep", proposals: proposals.length, distinct_titles: distinct, existing: existing.length });
   console.log(`proposals: ${proposals.length} (${distinct} distinct titles) from ${coderFiles().length} coder files; existing registry ${existing.length}`);
+} else if (mode === "assemble") {
+  // assemble: registry-groups.json (phase 1: canonical groups with the scope gate) plus registry-entries-*.json
+  // (phase 2: one full entry per in-scope group, keyed by slug) become registry-consolidated.json { events, map }.
+  type Group = { slug: string; title: string; template: string; area: string; gate: "in" | "OUT_OF_AREA"; gate_reason: string | null; refs: string[]; statement_ids: string[]; first_date: string };
+  type Entry = { slug: string; template: string; area: string; asset: string; entity: string; title: string; proposition: string; criterion: string; resolution_source: { name: string; url?: string }; base_rate_class: string | null; quantity: unknown; readings: string[] };
+  const groups = readJson<Group[]>(rel("data/intake/registry-groups.json"));
+  const proposals = readJson<{ proposals: { ref: string; coder: string }[] }>(rel("data/intake/registry-proposals.json")).proposals;
+  const existing = fs.existsSync(rel("data/registry/events.json")) ? readJson<{ id: string }[]>(rel("data/registry/events.json")) : [];
+  const entries = new Map<string, Entry>();
+  for (const f of fs.readdirSync(rel("data/intake")).filter((x) => /^registry-entries-.*\.json$/.test(x))) for (const e of readJson<Entry[]>(rel("data/intake", f))) { if (entries.has(e.slug)) console.error(`${e.slug}: entry appears twice (${f})`); entries.set(e.slug, e); }
+  const problems: string[] = [];
+  const seen = new Map<string, number>();
+  for (const g of groups) for (const r of g.refs) seen.set(r, (seen.get(r) ?? 0) + 1);
+  for (const p of proposals) { const k = `${p.coder}:${p.ref}`; if (!seen.has(k)) problems.push(`${k}: in no group`); else if (seen.get(k)! > 1) problems.push(`${k}: in ${seen.get(k)} groups`); }
+  const inScope = groups.filter((g) => g.gate === "in").sort((x, y) => (x.first_date < y.first_date ? -1 : x.first_date > y.first_date ? 1 : x.slug < y.slug ? -1 : 1));
+  let next = existing.reduce((m, e) => Math.max(m, Number(e.id.slice(2))), 0) + 1;
+  const events: Record<string, unknown>[] = [];
+  const map: Record<string, string> = {};
+  for (const g of inScope) {
+    const e = entries.get(g.slug);
+    if (!e) { problems.push(`${g.slug}: no entry written`); continue; }
+    if (e.template !== g.template || e.area !== g.area) problems.push(`${g.slug}: entry template/area (${e.template}/${e.area}) differ from the group (${g.template}/${g.area})`);
+    const id = `E-${String(next++).padStart(4, "0")}`;
+    events.push({ id, template: e.template, area: e.area, asset: e.asset, entity: e.entity, title: e.title, proposition: e.proposition, criterion: e.criterion, resolution_source: e.resolution_source, base_rate_class: e.base_rate_class ?? null, market_ref_id: null, quantity: e.quantity ?? null, readings: e.readings ?? [], created_by: "registry-consolidation", created_at: "2026-09-13", version: "1.0.0" });
+    for (const r of g.refs) map[r] = id;
+  }
+  for (const g of groups.filter((x) => x.gate !== "in")) for (const r of g.refs) map[r] = "OUT_OF_AREA";
+  for (const slug of entries.keys()) if (!groups.some((g) => g.slug === slug && g.gate === "in")) console.warn(`warning: entry ${slug} matches no in-scope group`);
+  if (problems.length) { console.error(problems.join("\n")); process.exit(1); }
+  writeJson(rel("data/intake/registry-consolidated.json"), { events, map });
+  appendAudit({ script: "consolidate-registry assemble", groups: groups.length, in_scope: inScope.length, out_of_area: groups.length - inScope.length, events: events.length, mapped_refs: Object.keys(map).length });
+  console.log(`assembled ${events.length} events from ${inScope.length} in-scope groups (${groups.length - inScope.length} groups refused by the scope gate); map has ${Object.keys(map).length} refs`);
 } else if (mode === "apply") {
   const cons = readJson<{ events: Record<string, unknown>[]; map: Record<string, string> }>(rel("data/intake/registry-consolidated.json"));
   const proposals = readJson<{ proposals: { ref: string; coder: string }[] }>(rel("data/intake/registry-proposals.json")).proposals;
@@ -71,5 +104,5 @@ if (mode === "prep") {
   appendAudit({ script: "consolidate-registry apply", added: added.length, total: registry.length, mapped_refs: Object.keys(cons.map).length, out_of_area_refs: outOfArea });
   console.log(`registry: ${registry.length} events (${added.length} added); map has ${Object.keys(cons.map).length} refs, ${outOfArea} refused by the scope gate`);
 } else {
-  console.error("usage: consolidate-registry.ts prep|apply"); process.exit(2);
+  console.error("usage: consolidate-registry.ts prep|assemble|apply"); process.exit(2);
 }
