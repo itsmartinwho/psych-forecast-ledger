@@ -34,6 +34,12 @@ const A = loadCoder<RecA>("a"), B = loadCoder<RecB>("b"), C = loadCoder<RecA>("c
 
 // the registry scope gate: the consolidation step maps a proposal outside the five area definitions to "OUT_OF_AREA"
 const gated = (coder: string, ev: Ev): boolean => !!ev && map[`${coder}:${ev.ref}`] === "OUT_OF_AREA";
+// polarity: a coder's proposal that the registry merged as the negation of the canonical proposition has its
+// asserts flag and any stated number flipped, so that p always refers to the registry proposition
+const inverted = new Set<string>(fs.existsSync(rel("data/intake/registry-inverted.json")) ? readJson<string[]>(rel("data/intake/registry-inverted.json")) : []);
+const isInverted = (coder: string, ev: Ev): boolean => !!ev && inverted.has(`${coder}:${ev.ref}`);
+const assertsOf = (coder: string, rec: { event: Ev; asserts: boolean | null }): boolean | null => rec.asserts === null || rec.asserts === undefined ? null : isInverted(coder, rec.event) ? !rec.asserts : rec.asserts;
+const pStatedOf = (coder: string, rec: { event: Ev; p_stated: number | null }): number | null => rec.p_stated === null || rec.p_stated === undefined ? null : isInverted(coder, rec.event) ? 1 - rec.p_stated : rec.p_stated;
 const resolveRef = (coder: string, ev: Ev): string | null => {
   if (!ev) return null;
   if (registryIds.has(ev.ref)) return ev.ref;
@@ -80,8 +86,11 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
     // the admitting coder whose fields are used: A when both admit, else the tiebreak against the admitting side
     const primary: RecA = a.admit ? a : (decider as RecA);
     const other: { event: Ev; deadline: string | null; bin: string | null; p_stated: number | null; asserts: boolean | null } = a.admit && b.admit ? b : (decider && a.admit ? { event: decider.event, deadline: decider.deadline, bin: decider.bin, p_stated: decider.p_stated, asserts: decider.asserts } : b);
-    const evP = resolveRef(primary === a ? "A" : "C", primary.event);
-    const evO = resolveRef(other === b ? "B" : "C", other.event);
+    const coderP = primary === a ? "A" : "C", coderO = other === b ? "B" : "C";
+    const evP = resolveRef(coderP, primary.event);
+    const evO = resolveRef(coderO, other.event);
+    const asP = assertsOf(coderP, primary), asO = assertsOf(coderO, other);
+    const psP = pStatedOf(coderP, primary), psO = pStatedOf(coderO, other);
     const dlP = primary.deadline ?? null, dlO = other.deadline ?? null;
     coderB.push({ id: row.id, admit: b.admit, reason_code: (b.reason_code ?? null) as CoderB["reason_code"], event_id: evO && /^E-\d{4}$/.test(evO) ? evO : null, deadline: dlO, bin: (b.bin ?? null) as CoderB["bin"], asserts: b.asserts ?? null, coder: "B", coded_at: "2026-09-13" });
     if (gated(primary === a ? "A" : "C", primary.event)) {
@@ -90,15 +99,15 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
     if (!evP || !evO || evP !== evO || dlP !== dlO) {
       statements.push({ ...base, status: "void", void_reason: "AMBIGUOUS", coders } as Statement); stats.void_ambiguous++; continue;
     }
-    const pP = pOf(primary.bin, primary.p_stated, primary.asserts), pO = pOf(other.bin, other.p_stated, other.asserts);
+    const pP = pOf(primary.bin, psP, asP), pO = pOf(other.bin, psO, asO);
     if (pP === null) { statements.push({ ...base, status: "void", void_reason: "AMBIGUOUS", coders } as Statement); stats.void_ambiguous++; continue; }
     let p = pP, p_note: string | undefined;
-    if (pO !== null && Math.abs(pP - pO) > 1e-9 && primary.p_stated === null) { p = (pP + pO) / 2; p_note = `coders disagreed on the bin (${primary.bin} vs ${other.bin}); mean of ${pP.toFixed(2)} and ${pO.toFixed(2)}`; stats.bin_mismatch++; }
+    if (pO !== null && Math.abs(pP - pO) > 1e-9 && psP === null) { p = (pP + pO) / 2; p_note = `coders disagreed on the bin (${primary.bin} vs ${other.bin}); mean of ${pP.toFixed(2)} and ${pO.toFixed(2)}`; stats.bin_mismatch++; }
     const panel = dlP ? "headline" : "undated";
     if (panel === "headline") stats.dated++; else stats.undated++;
     const tags = new Set<string>(primary.tags ?? []);
     if (primary.affiliated) tags.add("affiliated");
-    if (primary.asserts === false) tags.add("denial");
+    if (asP === false) tags.add("denial");
     if (primary.p_stated !== null) tags.add("stated_number");
     if (primary.condition) tags.add("conditional");
     if (primary.deadline_origin === "table") tags.add("table_dated");
@@ -114,7 +123,7 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
     const item: Item = {
       id: row.id, forecaster: row.forecaster, statement_date: row.statement_date, quote: row.quote, context: row.context, source: row.source,
       area: (registryArea.get(evP) ?? "regulatory") as Item["area"], event_id: evP, condition_event_id: condRef && /^E-\d{4}$/.test(condRef) ? condRef : null,
-      asserts: primary.asserts !== false, deadline: dlP, deadline_origin: dlP ? (primary.deadline_origin ?? "anchor") : null, deadline_text: primary.deadline_text ?? null, panel,
+      asserts: asP !== false, deadline: dlP, deadline_origin: dlP ? (primary.deadline_origin ?? "anchor") : null, deadline_text: primary.deadline_text ?? null, panel,
       p: clamp(p), p_origin: primary.p_stated !== null ? "stated" : "lexicon", p_note, bin: (primary.bin ?? null) as Item["bin"], phrase: primary.phrase ?? null, stated_number: primary.p_stated !== null ? String(primary.p_stated) : null,
       tags: [...tags] as Item["tags"], base_rate, market_ref_id: null, coder: primary === a ? "A" : "C", rule_version: rules.version, intake_at: "2026-09-13", hindsight_scan: "clean", version: 1, history: [],
     };

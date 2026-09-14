@@ -45,7 +45,7 @@ if (mode === "prep") {
 } else if (mode === "assemble") {
   // assemble: registry-groups.json (phase 1: canonical groups with the scope gate) plus registry-entries-*.json
   // (phase 2: one full entry per in-scope group, keyed by slug) become registry-consolidated.json { events, map }.
-  type Group = { slug: string; title: string; template: string; area: string; gate: "in" | "OUT_OF_AREA"; gate_reason: string | null; refs: string[]; statement_ids: string[]; first_date: string };
+  type Group = { slug: string; title: string; template: string; area: string; gate: "in" | "OUT_OF_AREA"; gate_reason: string | null; refs: string[]; inverted_refs?: string[]; proposition?: string; statement_ids: string[]; first_date: string };
   type Entry = { slug: string; template: string; area: string; asset: string; entity: string; title: string; proposition: string; criterion: string; resolution_source: { name: string; url?: string }; base_rate_class: string | null; quantity: unknown; readings: string[] };
   const groups = readJson<Group[]>(rel("data/intake/registry-groups.json"));
   const proposals = readJson<{ proposals: { ref: string; coder: string }[] }>(rel("data/intake/registry-proposals.json")).proposals;
@@ -69,14 +69,18 @@ if (mode === "prep") {
     for (const r of g.refs) map[r] = id;
   }
   for (const g of groups.filter((x) => x.gate !== "in")) for (const r of g.refs) map[r] = "OUT_OF_AREA";
+  // refs whose own proposition is the negation of the canonical one: intake-merge flips their asserts and p_stated
+  const inverted: string[] = [];
+  for (const g of inScope) for (const r of g.inverted_refs ?? []) { if (!g.refs.includes(r)) problems.push(`${g.slug}: inverted ref ${r} is not in the group`); else inverted.push(r); }
   for (const slug of entries.keys()) if (!groups.some((g) => g.slug === slug && g.gate === "in")) console.warn(`warning: entry ${slug} matches no in-scope group`);
   if (problems.length) { console.error(problems.join("\n")); process.exit(1); }
-  writeJson(rel("data/intake/registry-consolidated.json"), { events, map });
-  appendAudit({ script: "consolidate-registry assemble", groups: groups.length, in_scope: inScope.length, out_of_area: groups.length - inScope.length, events: events.length, mapped_refs: Object.keys(map).length });
-  console.log(`assembled ${events.length} events from ${inScope.length} in-scope groups (${groups.length - inScope.length} groups refused by the scope gate); map has ${Object.keys(map).length} refs`);
+  writeJson(rel("data/intake/registry-consolidated.json"), { events, map, inverted });
+  appendAudit({ script: "consolidate-registry assemble", groups: groups.length, in_scope: inScope.length, out_of_area: groups.length - inScope.length, events: events.length, mapped_refs: Object.keys(map).length, inverted_refs: inverted.length });
+  console.log(`assembled ${events.length} events from ${inScope.length} in-scope groups (${groups.length - inScope.length} groups refused by the scope gate); map has ${Object.keys(map).length} refs, ${inverted.length} inverted`);
 } else if (mode === "apply") {
-  const cons = readJson<{ events: Record<string, unknown>[]; map: Record<string, string> }>(rel("data/intake/registry-consolidated.json"));
+  const cons = readJson<{ events: Record<string, unknown>[]; map: Record<string, string>; inverted?: string[] }>(rel("data/intake/registry-consolidated.json"));
   const proposals = readJson<{ proposals: { ref: string; coder: string }[] }>(rel("data/intake/registry-proposals.json")).proposals;
+  const inverted = cons.inverted ?? [];
   const existing = fs.existsSync(rel("data/registry/events.json")) ? readJson<{ id: string }[]>(rel("data/registry/events.json")) : [];
   const ids = new Set(existing.map((e) => e.id));
   const added: Record<string, unknown>[] = cons.events.filter((e) => !ids.has(String(e.id))).map((e) => ({ ...e, created_by: e.created_by ?? "registry-consolidation", created_at: e.created_at ?? "2026-09-13", version: e.version ?? "1.0.0", readings: e.readings ?? [], market_ref_id: e.market_ref_id ?? null, quantity: e.quantity ?? null, base_rate_class: e.base_rate_class ?? null }));
@@ -94,15 +98,17 @@ if (mode === "prep") {
     if (!(key in cons.map)) problems.push(`${key}: no map entry`);
   }
   for (const [k, v] of Object.entries(cons.map)) if (v !== "OUT_OF_AREA" && !all.has(v)) problems.push(`${k}: maps to unknown event ${v}`);
+  for (const r of inverted) if (!(r in cons.map) || cons.map[r] === "OUT_OF_AREA") problems.push(`${r}: inverted ref is not mapped to an event`);
   const referenced = new Set(Object.values(cons.map));
   for (const e of added) if (!referenced.has(String(e.id))) console.warn(`warning: ${String(e.id)} has no proposal ref pointing at it`);
   if (problems.length) { console.error(problems.join("\n")); process.exit(1); }
   const registry = [...existing, ...added];
   writeJson(rel("data/registry/events.json"), registry);
   writeJson(rel("data/intake/registry-map.json"), cons.map);
+  writeJson(rel("data/intake/registry-inverted.json"), inverted);
   const outOfArea = Object.values(cons.map).filter((v) => v === "OUT_OF_AREA").length;
   appendAudit({ script: "consolidate-registry apply", added: added.length, total: registry.length, mapped_refs: Object.keys(cons.map).length, out_of_area_refs: outOfArea });
-  console.log(`registry: ${registry.length} events (${added.length} added); map has ${Object.keys(cons.map).length} refs, ${outOfArea} refused by the scope gate`);
+  console.log(`registry: ${registry.length} events (${added.length} added); map has ${Object.keys(cons.map).length} refs, ${outOfArea} refused by the scope gate, ${inverted.length} inverted`);
 } else {
   console.error("usage: consolidate-registry.ts prep|assemble|apply"); process.exit(2);
 }
