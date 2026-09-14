@@ -98,7 +98,7 @@
     ],
     "coverage": {
       "tier": "A",
-      "corpus": "The full archive of The Frontier Psychiatrists on Substack, every post from 2021-05-06 to 2026-09-11, free and paid, read in full through the Substack API (free) and the subscriber session (paid). Restacks of other authors are excluded.",
+      "corpus": "The full archive of The Frontier Psychiatrists on Substack, every post from 2021-05-06 to 2026-09-11, free and paid, read in full through the Substack API (free) and the subscriber session (paid). Restacks of other authors are excluded. A second sweep on 2026-09-14 added verbatim quotes from podcast transcripts, press and other channels found by search.",
       "period": {
         "from": "2021-05-06",
         "to": "2026-09-11"
@@ -108,9 +108,19 @@
           "label": "Substack archive API",
           "url": "https://thefrontierpsychiatrists.substack.com/api/v1/archive",
           "note": "1,126 posts: 927 free, 176 paid, 23 founding"
+        },
+        {
+          "label": "Off-site sweep (2026-09-14): podcast and video transcripts, press quotes and posts outside the Substack, found by search; every quote checked on its page",
+          "note": "71 statements added; the Substack archive stays the tier-A corpus"
         }
       ],
-      "search_strings": []
+      "search_strings": [
+        "\"Owen Muir\" TMS",
+        "\"Owen Muir\" accelerated TMS",
+        "\"Owen Muir\" psychedelics FDA",
+        "\"Owen Muir\" podcast transcript",
+        "\"Owen Scott Muir\" predicts"
+      ]
     },
     "hero": true
   },

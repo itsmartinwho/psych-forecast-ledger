@@ -13,11 +13,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "will be",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Undated payer claim; forward-looking reading of 'will be paid for by the health care system'.",
-   "finder": "angermayer-press",
-   "verify_note": "The Fortune page dated 2020-02-17 presents the sentence in quotation marks attributed to Angermayer ('he says'). Verbatim match."
+   "note": "Undated payer claim; forward-looking reading of 'will be paid for by the health care system'."
   },
   {
    "date": "2020-11-16",
@@ -30,11 +28,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "could",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Borderline, undated and hedged.",
-   "finder": "angermayer-press",
-   "verify_note": "Sifted article (Michael Stothard, datePublished 2020-11-16) contains the quote verbatim in quotation marks with 'He adds:'. The live page hides the body behind a registration wall with scrambled text; the Wayback copy shows the full text."
+   "note": "Borderline, undated and hedged."
   },
   {
    "date": "2020-11-23",
@@ -47,11 +43,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I am confident",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Vague target ('on track'); coders may treat as CONTROL (own company).",
-   "finder": "angermayer-press",
-   "verify_note": "CNBC page (datePublished 2020-11-23) carries the quote verbatim in quotation marks, attributed with 'he said' to Angermayer. WebFetch got 403; curl fetched the live page."
+   "note": "Vague target ('on track'); coders may treat as CONTROL (own company)."
   },
   {
    "date": "2021-03-05",
@@ -61,14 +55,12 @@
    "source_url": "https://www.vice.com/en/article/investors-are-debating-who-should-own-the-future-of-psychedelics/",
    "source_type": "article",
    "area": "company_market",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "never",
    "confidence_language": "I also expect ... will never",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Words are from a private investor email dated March 5, 2021, reproduced by VICE; page date is 2021-03-10.",
-   "finder": "angermayer-press",
-   "verify_note": "Vice page (March 10, 2021) quotes all three sentences verbatim from Angermayer's own March 5 email to investors, presented as his words. Month matches."
+   "note": "Words are from a private investor email dated March 5, 2021, reproduced by VICE; page date is 2021-03-10."
   },
   {
    "date": "2021-05-10",
@@ -81,11 +73,9 @@
    "ptype": "dated_event",
    "horizon": "several years away ... not in 10 years",
    "confidence_language": "none",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "The ' ... ' is CNBC's own ellipsis inside the quotation. Interview conducted late 2020 per the article.",
-   "finder": "angermayer-press",
-   "verify_note": "CNBC page (datePublished 2021-05-10) carries the quote verbatim, including the ' ... ' gap, in quotation marks with 'he said' attribution to Angermayer. Fetched via curl after 403."
+   "note": "The ' ... ' is CNBC's own ellipsis inside the quotation. Interview conducted late 2020 per the article."
   },
   {
    "date": "2021-06-18",
@@ -98,11 +88,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "will go up ... I do think",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Compound claim: epidemiology forecast plus own-company claim (CONTROL).",
-   "finder": "angermayer-press",
-   "verify_note": "CNBC page (datePublished 2021-06-18) carries the quote verbatim in quotation marks, attributed to Angermayer speaking on CNBC's Squawk Box that Friday. Fetched via curl after 403."
+   "note": "Compound claim: epidemiology forecast plus own-company claim (CONTROL)."
   },
   {
    "date": "2021-06-19",
@@ -112,14 +100,12 @@
    "source_url": "https://www.handelsblatt.com/technik/medizin/atai-boersengang-christian-angermayer-ein-magic-mushroom-trip-kann-einen-zu-einem-besseren-investor-machen/27300804.html",
    "source_type": "interview",
    "area": "clinical_trial",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "jetzt",
    "confidence_language": "kann potenziell",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Borderline: intent plus a claim of curability. Only the free intro of the paywalled interview was readable.",
-   "finder": "angermayer-press",
-   "verify_note": "Handelsblatt interview page dated 19.06.2021 carries the German quote verbatim in quotation marks as Angermayer's own interview answer."
+   "note": "Borderline: intent plus a claim of curability. Only the free intro of the paywalled interview was readable."
   },
   {
    "date": "2021-07-08",
@@ -132,11 +118,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I fear ... could",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Conditional, hedged policy claim; adjacent: 'If you do things too much at the same time, too quickly, it's going to shift in your face.'",
-   "finder": "angermayer-press",
-   "verify_note": "Business Insider page (datePublished 2021-07-08) carries the quote verbatim in quotation marks with 'Angermayer said'. Fetched via curl after WebFetch was blocked."
+   "note": "Conditional, hedged policy claim; adjacent: 'If you do things too much at the same time, too quickly, it's going to shift in your face.'"
   },
   {
    "date": "2022-02-22",
@@ -146,14 +130,12 @@
    "source_url": "https://www.handelsblatt.com/technik/thespark/trip-auf-rezept-lsd-ketamin-mushrooms-psychedelika-erobern-die-usa-investoren-wittern-milliardengeschaeft/28076058.html",
    "source_type": "article",
    "area": "regulatory",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "nun",
    "confidence_language": "werden",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Borderline: partly retrospective ('vorhergesehen'); the 'nun wieder ... werden' clause reads as a present expectation.",
-   "finder": "angermayer-press",
-   "verify_note": "Handelsblatt page dated 22.02.2022 carries the German quote verbatim in quotation marks, introduced with 'sagt Angermayer'."
+   "note": "Borderline: partly retrospective ('vorhergesehen'); the 'nun wieder ... werden' clause reads as a present expectation."
   },
   {
    "date": "2022-05-05",
@@ -163,14 +145,12 @@
    "source_url": "https://web.archive.org/web/2022/https://www.businessinsider.com/billionaire-doubles-down-on-psychedelic-stocks-btc-amid-valuation-hit-2022-5",
    "source_type": "interview",
    "area": "company_market",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "at the moment",
    "confidence_language": "I think there is room",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Market-sentiment call without a named threshold.",
-   "finder": "angermayer-press",
-   "verify_note": "Wayback snapshot of the Business Insider article shows the exact sentences in quotation marks with 'Angermayer said'. Page dated 2022-05-05. Live page blocked for WebFetch."
+   "note": "Market-sentiment call without a named threshold."
   },
   {
    "date": "2022-05-05",
@@ -183,11 +163,9 @@
    "ptype": "dated_event",
    "horizon": "once markets stabilize and start going up again",
    "confidence_language": "deeply believe ... My conviction is",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "The ' ... ' skips one journalist sentence between two consecutive quoted sentences. Own-company claim (CONTROL).",
-   "finder": "angermayer-press",
-   "verify_note": "Both halves appear verbatim in quotation marks attributed to Angermayer ('he said'); the ' ... ' gap skips one sentence about investors not looking at quality differences. Page dated 2022-05-05."
+   "note": "The ' ... ' skips one journalist sentence between two consecutive quoted sentences. Own-company claim (CONTROL)."
   },
   {
    "date": "2022-06-23",
@@ -200,11 +178,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "we will",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Tweet text quoted inside a press article; statement of intended company action rather than an outcome forecast.",
-   "finder": "angermayer-press",
-   "verify_note": "The article quotes the text verbatim inside quotation marks as Angermayer's tweet and links to twitter.com/C_Angermayer/status/1540038337620238336. fxtwitter confirms the thread is by @C_Angermayer, posted 2022-06-23 (the quoted clause is in part 2/2 of the thread). The article date is 2022-07-11; t"
+   "note": "Tweet text quoted inside a press article; statement of intended company action rather than an outcome forecast."
   },
   {
    "date": "2022-11",
@@ -217,11 +193,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "will only get worse ... will just grow",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Epidemiology claim, not psychiatry-intervention specific.",
-   "finder": "angermayer-press",
-   "verify_note": "Grazia page shows the full passage verbatim inside quotation marks as Angermayer's own words. The page shows no publication date; image file paths are dated 2022/11, so the article is likely November 2022, one month off the candidate date."
+   "note": "Epidemiology claim, not psychiatry-intervention specific."
   },
   {
    "date": "2022-11",
@@ -231,14 +205,12 @@
    "source_url": "https://graziamagazine.com/us/articles/christian-angermayer-combat-mental-health-mushrooms/",
    "source_type": "interview",
    "area": "other",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "soon",
    "confidence_language": "very confident",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Off-domain (longevity); logged for completeness.",
-   "finder": "angermayer-press",
-   "verify_note": "Grazia page shows the sentence verbatim as a direct quote from Angermayer. No publication date on the page; image paths point to November 2022."
+   "note": "Off-domain (longevity); logged for completeness."
   },
   {
    "date": "2022-11-16",
@@ -251,11 +223,9 @@
    "ptype": "dated_event",
    "horizon": "in two three four years",
    "confidence_language": "should be ... have the potential",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Own company (CONTROL). Auto-caption: 'truck' = drug, 'a tie' = atai.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Quote found verbatim in the auto-generated caption track (-xhXocTdqBk) ('multi-billion dollar truck' and 'a tie' are ASR artifacts for 'drug' and 'atai'). Preceded by 'I'm obviously talking as the main shareholder owner founder', which places it with Angermayer. Cached caption copy used; live endpoi"
+   "note": "Own company (CONTROL). Auto-caption: 'truck' = drug, 'a tie' = atai."
   },
   {
    "date": "2022-11-16",
@@ -268,11 +238,9 @@
    "ptype": "dated_event",
    "horizon": "12 months from now",
    "confidence_language": "hopefully ... it's going to be",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Compound claim: readout timing plus first approval.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Quote found verbatim in the auto-generated caption track (-xhXocTdqBk) as the answer to the host's 'if we have this conversation 12 months from now' ('well 12 months from now hopefully we right before the compass readout...'). Cached caption copy used; live endpoint 429. publishDate 2022-11-16 match"
+   "note": "Compound claim: readout timing plus first approval."
   },
   {
    "date": "2022-11-16",
@@ -285,11 +253,9 @@
    "ptype": "dated_event",
    "horizon": "over the next five years",
    "confidence_language": "I deeply believe ... will be",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Verbatim in the YouTube auto-transcript at about 6:07-6:15 (TDR channel, published 2022-11-16). First-person interviewee speech; auto-captions carry no speaker labels, but the content ('I deeply believe') is the guest's answer, not the host's. Date matches."
+   "note": ""
   },
   {
    "date": "2022-11-16",
@@ -304,9 +270,7 @@
    "confidence_language": "definitely",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Quote includes the host's question; Angermayer's answer starts at 'oh definitely'.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Verbatim in the auto-transcript at about 14:06-14:15 (published 2022-11-16). Caveat: the first half ('where is this industry in three years from now') is the host's question; only the answer is Angermayer's own words. The corrected quote keeps the forecaster's part."
+   "note": "Quote includes the host's question; Angermayer's answer starts at 'oh definitely'."
   },
   {
    "date": "2022-11-16",
@@ -319,11 +283,9 @@
    "ptype": "dated_event",
    "horizon": "till end of 2025",
    "confidence_language": "none",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Own company (CONTROL); 'I would never raise money at these crazy low share prices' is a stated intent.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Verbatim in the auto-transcript at about 12:19-12:26 (published 2022-11-16). First-person interviewee speech about the Hercules credit line; the host's turn starts after 'end of 2025'. Date matches."
+   "note": "Own company (CONTROL); 'I would never raise money at these crazy low share prices' is a stated intent."
   },
   {
    "date": "2022-11-16",
@@ -336,11 +298,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I think ... can be",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Own company (CONTROL). Restates a July 2021 line ('total addressable market is 100% of the world population').",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Verbatim in the auto-transcript at about 20:24-20:40 (published 2022-11-16). First-person interviewee speech ('I would say', 'I think'). Note the auto-captions render 100% as '100' and atai as 'a tie'. Date matches."
+   "note": "Own company (CONTROL). Restates a July 2021 line ('total addressable market is 100% of the world population')."
   },
   {
    "date": "2022-11-16",
@@ -353,11 +313,9 @@
    "ptype": "dated_event",
    "horizon": "in December",
    "confidence_language": "none",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Own company (CONTROL); guidance-type statement.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Verbatim in the auto-transcript at about 4:22-4:29 (published 2022-11-16). The 'yeah right' inside the quote is likely a host interjection, but the substantive words ('we have seven late stage drugs ... from DMT ibogaine or ketamine which is reading out in December') are the guest's. Date matches."
+   "note": "Own company (CONTROL); guidance-type statement."
   },
   {
    "date": "2022-12-01",
@@ -370,11 +328,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "could well be",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Undated, hedged adoption claim; early version of his later 'preventative' claims.",
-   "finder": "angermayer-press",
-   "verify_note": "The sentence appears verbatim inside a quotation attributed to Angermayer (preceded by 'Hence,' within the quote). Page metadata datePublished is 2022-12-01T20:51:56Z, matching the candidate date."
+   "note": "Undated, hedged adoption claim; early version of his later 'preventative' claims."
   },
   {
    "date": "2023-04-04",
@@ -387,11 +343,9 @@
    "ptype": "dated_event",
    "horizon": "a year or two after approval of psilocybin",
    "confidence_language": "I would take a huge bet",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "YouTube auto-caption transcript; the line appears in the cold open and again at 15:40.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Quote found verbatim in the auto-generated caption track (i75N6QnHzgw), both in the cold-open clip and in the body ('...what I bet I would take a huge bet with anybody...'). First-person 'our other psychedelics' places it with Angermayer. Check used a cached copy of the caption track (live endpoint "
+   "note": "YouTube auto-caption transcript; the line appears in the cold open and again at 15:40."
   },
   {
    "date": "2023-04-04",
@@ -404,11 +358,9 @@
    "ptype": "dated_event",
    "horizon": "until 2026",
    "confidence_language": "none",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Own company (CONTROL). Auto-caption '150 billion' is likely '150 million'.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Quote found verbatim in the auto-generated caption track (i75N6QnHzgw), as the answer to the host's question about strategy for atai ('so good question so as it is at the moment...'). First-person 'we' as atai places it with Angermayer. Note the caption says '150 billion of credit line' (an ASR arti"
+   "note": "Own company (CONTROL). Auto-caption '150 billion' is likely '150 million'."
   },
   {
    "date": "2023-04-04",
@@ -423,9 +375,7 @@
    "confidence_language": "most likely",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "YouTube auto-caption transcript; 'on our drug' likely 'not our drug'.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Quote found verbatim in the auto-generated caption track (i75N6QnHzgw). 'although it's on our drug' (ASR for 'not our drug') and 'we're very much rooting for them' place it with Angermayer speaking for atai. Cached caption copy used; live endpoint 429. publishDate 2023-04-04 matches."
+   "note": "YouTube auto-caption transcript; 'on our drug' likely 'not our drug'."
   },
   {
    "date": "2023-04-04",
@@ -438,11 +388,9 @@
    "ptype": "dated_event",
    "horizon": "once approve[d]",
    "confidence_language": "that's my opinion",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Own company (CONTROL). YouTube auto-caption transcript.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Quote found verbatim in the auto-generated caption track (i75N6QnHzgw); the host follows immediately with 'okay all right Anthony you want to add', so the preceding words are the guest's. 'that's my opinion... we have seven of them' places it with Angermayer. Cached caption copy used; live endpoint "
+   "note": "Own company (CONTROL). YouTube auto-caption transcript."
   },
   {
    "date": "2023-06",
@@ -455,11 +403,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "extremely optimistic view ... will positively surprise",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Related to census 0009 (rollout speed) but distinct wording; names MAPS and Compass.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Third Wave transcript (June 2023, recorded at MAPS Psychedelic Science) attributes the line to Christian Angermayer at 0:00:46. Page wording differs only in capitalisation and 'substance' (singular) instead of 'substances'; meaning unchanged."
+   "note": "Related to census 0009 (rollout speed) but distinct wording; names MAPS and Compass."
   },
   {
    "date": "2023-06",
@@ -472,11 +418,9 @@
    "ptype": "dated_event",
    "horizon": "Once these drugs will be approved",
    "confidence_language": "will",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Conditional on approval; early statement of his 'first-line' thesis.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Third Wave transcript (June 2023) contains the quote verbatim, speaker label Christian Angermayer, at 0:45:12."
+   "note": "Conditional on approval; early statement of his 'first-line' thesis."
   },
   {
    "date": "2023-07-21",
@@ -489,11 +433,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "very very confident",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "YouTube auto-caption transcript.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Quote found verbatim in the video's auto-generated English caption track (Qj9Ax4Torsk). The live timedtext endpoint returned HTTP 429 today, so the check used a cached copy of the same caption track fetched 2026-09-13. Captions carry no speaker labels; context (first-person answer to Josh Hardman's "
+   "note": "YouTube auto-caption transcript."
   },
   {
    "date": "2023-08-09",
@@ -506,11 +448,9 @@
    "ptype": "dated_event",
    "horizon": "in future studies",
    "confidence_language": "believes",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "He restates management's belief; the full tweet was truncated on the page. Own-company (CONTROL).",
-   "finder": "angermayer-press",
-   "verify_note": "Microdose article (dated August 10, 2023) presents the sentence verbatim as a pull quote credited to Christian Angermayer, taken from his embedded tweet of August 9, 2023. The tweet itself was not fetched directly (no tweet ID in the candidate), so verification rests on the article's attribution."
+   "note": "He restates management's belief; the full tweet was truncated on the page. Own-company (CONTROL)."
   },
   {
    "date": "2024-01-04",
@@ -523,11 +463,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "have the potential ... could",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Hedged press-release language; restated by Psychedelic Alpha and pharmaphorum on 2024-01-04/05.",
-   "finder": "angermayer-press",
-   "verify_note": "GlobeNewswire release dated January 4, 2024 contains the sentence verbatim, attributed to Christian Angermayer, atai Founder and Chairman."
+   "note": "Hedged press-release language; restated by Psychedelic Alpha and pharmaphorum on 2024-01-04/05."
   },
   {
    "date": "2024-02-12",
@@ -537,14 +475,12 @@
    "source_url": "https://x.com/C_Angermayer/status/1757095332117184575",
    "source_type": "social",
    "area": "clinical_trial",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "very soon",
    "confidence_language": "will see",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Vague outcome; near-term horizon.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2024-02-12. The sentence appears verbatim. His own words."
+   "note": "Vague outcome; near-term horizon."
   },
   {
    "date": "2024-02-23",
@@ -557,11 +493,9 @@
    "ptype": "dated_event",
    "horizon": "over time after approval by medical authorities",
    "confidence_language": "will likely",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Undated; adoption-scale claim.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page in the author's own prose. Byline Christian Angermayer; datePublished 2024-02-23. Page uses plain hyphens around the parenthetical."
+   "note": "Undated; adoption-scale claim."
   },
   {
    "date": "2024-02-23",
@@ -571,14 +505,12 @@
    "source_url": "https://christianangermayer.substack.com/p/the-future-is-enhanced",
    "source_type": "own_post",
    "area": "company_market",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "ultimately",
    "confidence_language": "my personal belief is that",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Restatement of an October 2021 LinkedIn claim; undated.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page: 'As I have always said, my personal belief is that the total addressable market for such psychedelic compounds will ultimately be 100% of the world population.' Own byline; date 2024-02-23 confirmed."
+   "note": "Restatement of an October 2021 LinkedIn claim; undated."
   },
   {
    "date": "2024-02-23",
@@ -591,96 +523,9 @@
    "ptype": "dated_event",
    "horizon": "in the years ahead",
    "confidence_language": "My expectation is that",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Not psychiatry-specific; logged for completeness.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page in the author's own prose. Own byline; date 2024-02-23 confirmed."
-  },
-  {
-   "date": "2024-02-27",
-   "quote": "However, I believe the biotech industry as a whole will come back with force in 2024, which should also make investors revisit atai's groundbreaking and innovative approach to addressing the treatment of mental health conditions.",
-   "paraphrase": "Opening section 'The past year: atai was hit hard by the biotech winter'. Sector-timing call tied to atai re-rating.",
-   "source_title": "atai Life Sciences",
-   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
-   "source_type": "own_post",
-   "area": "company_market",
-   "ptype": "dated_event",
-   "horizon": "in 2024",
-   "confidence_language": "I believe ... will",
-   "specificity": 3,
-   "source_confidence": "high",
-   "note": "Companion to census row angermayer-0012 (different sentence, same post).",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim substring of the page sentence, which starts with 'However,'. Own byline; datePublished 2024-02-27 confirmed. Meaning unchanged."
-  },
-  {
-   "date": "2024-02-27",
-   "quote": "I am very optimistic that 2024 and the years to come will be great for atai. Since the beginning of the year, a re-rating of the stock has started, which I believe is just the beginning of a long-term change in sentiment to the better.",
-   "paraphrase": "Lead-in to the ten reasons list; share price sentiment call for atai (Nasdaq: ATAI).",
-   "source_title": "atai Life Sciences",
-   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
-   "source_type": "own_post",
-   "area": "company_market",
-   "ptype": "dated_event",
-   "horizon": "2024 and the years to come",
-   "confidence_language": "very optimistic",
-   "specificity": 3,
-   "source_confidence": "high",
-   "note": "CONTROL candidate (own company).",
-   "finder": "angermayer-substack",
-   "verify_note": "Both sentences appear verbatim and consecutively on the page in the author's own prose. Date 2024-02-27 confirmed."
-  },
-  {
-   "date": "2024-02-27",
-   "quote": "I personally believe that, once approved, the market penetration will likely significantly outpace estimates, driven by exceptional patient outcomes and a passionate patient advocacy movement.",
-   "paraphrase": "Reason 2 'Novelty is an advantage'; claim about post-approval uptake of psychedelic therapy versus analyst estimates.",
-   "source_title": "atai Life Sciences",
-   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
-   "source_type": "own_post",
-   "area": "practice_adoption",
-   "ptype": "dated_event",
-   "horizon": "once approved",
-   "confidence_language": "will likely",
-   "specificity": 3,
-   "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page in the author's own prose. Date 2024-02-27 confirmed."
-  },
-  {
-   "date": "2024-02-27",
-   "quote": "Initial results from the current ELE-01 Phase 1/2a study are anticipated in the first half of 2024.",
-   "paraphrase": "Reason 5 on Beckley Psytech assets; ELE-101 is IV psilocin for MDD.",
-   "source_title": "atai Life Sciences",
-   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
-   "source_type": "own_post",
-   "area": "clinical_trial",
-   "ptype": "dated_event",
-   "horizon": "in the first half of 2024",
-   "confidence_language": "anticipated",
-   "specificity": 3,
-   "source_confidence": "high",
-   "note": "Restates company guidance.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page under the author's own byline (point 5 of his list on the pipeline, not inside a quoted press release). Date 2024-02-27 confirmed. Note: the sentence restates company guidance rather than a personal-belief claim."
-  },
-  {
-   "date": "2024-02-27",
-   "quote": "So, in other words, right now, investing in atai means investing in a company trading close to cash + CMPS and with a strong pipeline of eight (!) clinical-stage (!) mental health programs, and which (per its most recent public filings), has runway into 2026.",
-   "paraphrase": "Reason 1 'Numbers first'; cash runway statement for atai.",
-   "source_title": "atai Life Sciences",
-   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
-   "source_type": "own_post",
-   "area": "company_market",
-   "ptype": "dated_event",
-   "horizon": "into 2026",
-   "confidence_language": "none",
-   "specificity": 3,
-   "source_confidence": "high",
-   "note": "Restates company filing; borderline forecast.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim substring of the page sentence, which starts with 'So, in other words, right now,'. Own prose; date 2024-02-27 confirmed. The market-cap figure cited just before it is as of 8 January 2024."
+   "note": "Not psychiatry-specific; logged for completeness."
   },
   {
    "date": "2024-02-27",
@@ -693,11 +538,84 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I believe ... will",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim on the page under Christian Angermayer's byline; page date February 27, 2024 matches."
+   "note": ""
+  },
+  {
+   "date": "2024-02-27",
+   "quote": "However, I believe the biotech industry as a whole will come back with force in 2024, which should also make investors revisit atai's groundbreaking and innovative approach to addressing the treatment of mental health conditions.",
+   "paraphrase": "Opening section 'The past year: atai was hit hard by the biotech winter'. Sector-timing call tied to atai re-rating.",
+   "source_title": "atai Life Sciences",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "source_type": "own_post",
+   "area": "company_market",
+   "ptype": "dated_event",
+   "horizon": "in 2024",
+   "confidence_language": "I believe ... will",
+   "specificity": 4,
+   "source_confidence": "high",
+   "note": "Companion to census row angermayer-0012 (different sentence, same post)."
+  },
+  {
+   "date": "2024-02-27",
+   "quote": "I am very optimistic that 2024 and the years to come will be great for atai. Since the beginning of the year, a re-rating of the stock has started, which I believe is just the beginning of a long-term change in sentiment to the better.",
+   "paraphrase": "Lead-in to the ten reasons list; share price sentiment call for atai (Nasdaq: ATAI).",
+   "source_title": "atai Life Sciences",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "source_type": "own_post",
+   "area": "company_market",
+   "ptype": "dated_event",
+   "horizon": "2024 and the years to come",
+   "confidence_language": "very optimistic",
+   "specificity": 4,
+   "source_confidence": "high",
+   "note": "CONTROL candidate (own company)."
+  },
+  {
+   "date": "2024-02-27",
+   "quote": "I personally believe that, once approved, the market penetration will likely significantly outpace estimates, driven by exceptional patient outcomes and a passionate patient advocacy movement.",
+   "paraphrase": "Reason 2 'Novelty is an advantage'; claim about post-approval uptake of psychedelic therapy versus analyst estimates.",
+   "source_title": "atai Life Sciences",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "source_type": "own_post",
+   "area": "practice_adoption",
+   "ptype": "dated_event",
+   "horizon": "once approved",
+   "confidence_language": "will likely",
+   "specificity": 2,
+   "source_confidence": "high",
+   "note": ""
+  },
+  {
+   "date": "2024-02-27",
+   "quote": "Initial results from the current ELE-01 Phase 1/2a study are anticipated in the first half of 2024.",
+   "paraphrase": "Reason 5 on Beckley Psytech assets; ELE-101 is IV psilocin for MDD.",
+   "source_title": "atai Life Sciences",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "source_type": "own_post",
+   "area": "clinical_trial",
+   "ptype": "dated_event",
+   "horizon": "in the first half of 2024",
+   "confidence_language": "anticipated",
+   "specificity": 5,
+   "source_confidence": "high",
+   "note": "Restates company guidance."
+  },
+  {
+   "date": "2024-02-27",
+   "quote": "So, in other words, right now, investing in atai means investing in a company trading close to cash + CMPS and with a strong pipeline of eight (!) clinical-stage (!) mental health programs, and which (per its most recent public filings), has runway into 2026.",
+   "paraphrase": "Reason 1 'Numbers first'; cash runway statement for atai.",
+   "source_title": "atai Life Sciences",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "source_type": "own_post",
+   "area": "company_market",
+   "ptype": "dated_event",
+   "horizon": "into 2026",
+   "confidence_language": "none",
+   "specificity": 4,
+   "source_confidence": "high",
+   "note": "Restates company filing; borderline forecast."
   },
   {
    "date": "2024-04-15",
@@ -710,11 +628,9 @@
    "ptype": "dated_event",
    "horizon": "over the next 12 months",
    "confidence_language": "hopefully",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Auto-caption: 'soloc cybin' = psilocybin, 'game Cher' = game changer.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Verbatim in the YouTube auto-transcript (Psychedelic Vantage channel, published 2024-04-15), in the guest's answer to the host's question about the next months. Auto-captions carry no speaker labels but the first-person content is Angermayer's. Date matches."
+   "note": "Auto-caption: 'soloc cybin' = psilocybin, 'game Cher' = game changer."
   },
   {
    "date": "2024-04-15",
@@ -727,11 +643,9 @@
    "ptype": "dated_event",
    "horizon": "two three four years after ... 5 years from now",
    "confidence_language": "I would say ... will",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Auto-caption: 'Mia Tha' = atai.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Verbatim in the auto-transcript (published 2024-04-15), directly after the candidate 5 passage in the same answer. The host's reply ('absolutely') starts after 'in a very good way'. Date matches."
+   "note": "Auto-caption: 'Mia Tha' = atai."
   },
   {
    "date": "2024-04-15",
@@ -744,11 +658,9 @@
    "ptype": "dated_event",
    "horizon": "over the next ... three to four years",
    "confidence_language": "very likely I believe it as well",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Own company (CONTROL); compound claim (approvals plus valuation).",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Verbatim in the auto-transcript at about 4:xx-5:00 (published 2024-04-15), in the guest's first-person answer about the valuation disconnect. Auto-captions render atai as 'a tie' / 'a Tai'. Date matches."
+   "note": "Own company (CONTROL); compound claim (approvals plus valuation)."
   },
   {
    "date": "2024-06-05",
@@ -763,9 +675,7 @@
    "confidence_language": "strong chance",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Restatement of census row angermayer-0014 (X post, same day) in a different source with slightly different wording.",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim (after 'Lykos Therapeutics;') under Christian Angermayer's byline; page date Jun 05, 2024 matches."
+   "note": "Restatement of census row angermayer-0014 (X post, same day) in a different source with slightly different wording."
   },
   {
    "date": "2024-06-05",
@@ -778,11 +688,9 @@
    "ptype": "dated_event",
    "horizon": "by August 11",
    "confidence_language": "expected",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Restates public PDUFA date.",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim (preceded by 'I also want to emphasize that') under Christian Angermayer's byline; page date Jun 05, 2024 matches."
+   "note": "Restates public PDUFA date."
   },
   {
    "date": "2024-06-05",
@@ -795,11 +703,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "can ... potentially",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim under Christian Angermayer's byline; page date Jun 05, 2024 matches."
+   "note": ""
   },
   {
    "date": "2024-06-24",
@@ -812,11 +718,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "will be very positively surprised",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Restates the roll-out-speed view from census row angermayer-0009 (June 2023 podcast) in a new source.",
-   "finder": "angermayer-x",
-   "verify_note": "Quote appears verbatim in the tweet from @C_Angermayer dated 2024-06-24 (fxtwitter API)."
+   "note": "Restates the roll-out-speed view from census row angermayer-0009 (June 2023 podcast) in a new source."
   },
   {
    "date": "2024-06-24",
@@ -826,14 +730,12 @@
    "source_url": "https://x.com/C_Angermayer/status/1805287716105416818",
    "source_type": "social",
    "area": "company_market",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "shortly",
    "confidence_language": "anticipated to",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Third-party drug; he adopts the expectation. Blockbuster usually means $1bn annual sales.",
-   "finder": "angermayer-x",
-   "verify_note": "Quote appears verbatim in the tweet from @C_Angermayer dated 2024-06-24 (fxtwitter API)."
+   "note": "Third-party drug; he adopts the expectation. Blockbuster usually means $1bn annual sales."
   },
   {
    "date": "2024-06-24",
@@ -846,11 +748,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "deeply believe ... will massively pay off",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Undated, no threshold.",
-   "finder": "angermayer-x",
-   "verify_note": "Quote appears verbatim in the tweet from @C_Angermayer dated 2024-06-24 (fxtwitter API)."
+   "note": "Undated, no threshold."
   },
   {
    "date": "2024-07-31",
@@ -865,9 +765,7 @@
    "confidence_language": "It’s going to be ... realistic",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "The ' ... ' skips a journalist aside. Off-domain. The ATAI quote on this page duplicates census row angermayer-0015 and is not re-logged.",
-   "finder": "angermayer-press",
-   "verify_note": "Forbes page (Will Yakowicz, datePublished 2024-07-31) contains both sentences verbatim in quotation marks, attributed to Angermayer ('he continues'). The candidate's ' ... ' gap skips only the attribution clause."
+   "note": "The ' ... ' skips a journalist aside. Off-domain. The ATAI quote on this page duplicates census row angermayer-0015 and is not re-logged."
   },
   {
    "date": "2024-09-30",
@@ -882,9 +780,7 @@
    "confidence_language": "high conviction",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Implicit trial-success call; phrased as company conviction.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2024-09-30. The sentence appears verbatim. His own words."
+   "note": "Implicit trial-success call; phrased as company conviction."
   },
   {
    "date": "2024-09-30",
@@ -897,11 +793,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "extremely undervalued",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Borderline: valuation opinion rather than explicit forecast.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2024-09-30. The page text is prefixed with 'In my view, ' but the candidate's clause appears verbatim. His own words."
+   "note": "Borderline: valuation opinion rather than explicit forecast."
   },
   {
    "date": "2025-02-20",
@@ -914,11 +808,9 @@
    "ptype": "dated_event",
    "horizon": "the next two years",
    "confidence_language": "I personally believe ... will",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Vague outcome; horizon is specific.",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears on the page under Christian Angermayer's byline with only a stray space before the first comma ('issues ,'); page date Feb 20, 2025 matches."
+   "note": "Vague outcome; horizon is specific."
   },
   {
    "date": "2025-02-20",
@@ -931,11 +823,9 @@
    "ptype": "dated_event",
    "horizon": "into 2027",
    "confidence_language": "none",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Restates company statement.",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim under Christian Angermayer's byline; page date Feb 20, 2025 matches."
+   "note": "Restates company statement."
   },
   {
    "date": "2025-02-20",
@@ -948,11 +838,9 @@
    "ptype": "dated_event",
    "horizon": "in a few years",
    "confidence_language": "I personally believe ... will",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Both sentences appear verbatim and consecutively under Christian Angermayer's byline; page date Feb 20, 2025 matches."
+   "note": ""
   },
   {
    "date": "2025-02-20",
@@ -965,11 +853,9 @@
    "ptype": "dated_event",
    "horizon": "once approved ... soon",
    "confidence_language": "I deeply believe ... will",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Earlier version of the claim in census row angermayer-0022 (Oct 2025 X post).",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim (preceded by 'As outlined in my previous blog posts,') under Christian Angermayer's byline; page date Feb 20, 2025 matches."
+   "note": "Earlier version of the claim in census row angermayer-0022 (Oct 2025 X post)."
   },
   {
    "date": "2025-02-20",
@@ -982,11 +868,9 @@
    "ptype": "dated_event",
    "horizon": "before the end of Q1/2026; mid this year",
    "confidence_language": "anticipated",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Compound claim; restates company guidance.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page (list items joined by whitespace only). Byline Christian Angermayer, datePublished 2025-02-20."
+   "note": "Compound claim; restates company guidance."
   },
   {
    "date": "2025-02-20",
@@ -999,11 +883,9 @@
    "ptype": "dated_event",
    "horizon": "Q1 2026",
    "confidence_language": "anticipated",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Earlier statement of the timelines in census row angermayer-0023.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page (two list items joined by whitespace). Byline Christian Angermayer, datePublished 2025-02-20."
+   "note": "Earlier statement of the timelines in census row angermayer-0023."
   },
   {
    "date": "2025-02-20",
@@ -1013,14 +895,12 @@
    "source_url": "https://christianangermayer.substack.com/p/i-just-invested-2275m-more-into-atai",
    "source_type": "own_post",
    "area": "regulatory",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "for good",
    "confidence_language": "most likely",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Negative call on racemic MDMA; contrasts with his June 2024 'strong chance' call.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page. Byline Christian Angermayer, datePublished 2025-02-20."
+   "note": "Negative call on racemic MDMA; contrasts with his June 2024 'strong chance' call."
   },
   {
    "date": "2025-02-20",
@@ -1033,11 +913,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I personally expect",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page. Byline Christian Angermayer, datePublished 2025-02-20."
+   "note": ""
   },
   {
    "date": "2025-03-05",
@@ -1050,11 +928,9 @@
    "ptype": "dated_event",
    "horizon": "mid-2025",
    "confidence_language": "are expected",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Earlier restatement (different source/date) of census row angermayer-0018 from the June 2025 substack.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows tweet by @C_Angermayer, created 2025-03-05. Sentence appears verbatim in the tweet body (his own post, though it paraphrases the atai press release)."
+   "note": "Earlier restatement (different source/date) of census row angermayer-0018 from the June 2025 substack."
   },
   {
    "date": "2025-03-20",
@@ -1067,11 +943,9 @@
    "ptype": "dated_event",
    "horizon": "Over the next 12 months",
    "confidence_language": "anticipates",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page. Byline Christian Angermayer, datePublished 2025-03-20."
+   "note": ""
   },
   {
    "date": "2025-05-16",
@@ -1081,14 +955,12 @@
    "source_url": "https://x.com/C_Angermayer/status/1923429261982994696",
    "source_type": "social",
    "area": "company_market",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "soon",
    "confidence_language": "should be soon. I am very certain",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Share-price re-rating call, near-term.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2025-05-16. The three sentences appear verbatim. His own words."
+   "note": "Share-price re-rating call, near-term."
   },
   {
    "date": "2025-05-16",
@@ -1103,9 +975,7 @@
    "confidence_language": "should",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Conditional on four Phase 2 successes; reply tweet.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the reply by @C_Angermayer dated 2025-05-16. The sentence appears verbatim after the reply handles. His own words."
+   "note": "Conditional on four Phase 2 successes; reply tweet."
   },
   {
    "date": "2025-06-02",
@@ -1118,11 +988,9 @@
    "ptype": "dated_event",
    "horizon": "following the closing",
    "confidence_language": "anticipate",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Deal completion and renaming; conditional on closing.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page. Byline Christian Angermayer, datePublished 2025-06-02."
+   "note": "Deal completion and renaming; conditional on closing."
   },
   {
    "date": "2025-06-02",
@@ -1135,11 +1003,9 @@
    "ptype": "dated_event",
    "horizon": "mid-2025",
    "confidence_language": "anticipated",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page. Byline Christian Angermayer, datePublished 2025-06-02."
+   "note": ""
   },
   {
    "date": "2025-06-02",
@@ -1152,11 +1018,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "couldn’t be more wrong",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page. Byline Christian Angermayer, datePublished 2025-06-02."
+   "note": ""
   },
   {
    "date": "2025-06-02",
@@ -1171,9 +1035,7 @@
    "confidence_language": "will likely",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Both sentences appear verbatim in Angermayer's own Substack post; datePublished 2025-06-02."
+   "note": ""
   },
   {
    "date": "2025-06-02",
@@ -1186,11 +1048,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "ready to act fast",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Restatement of census row angermayer-0017 (X, 2025-05-19) in a different source; repeated again verbatim in the 2025-07-01 post.",
-   "finder": "angermayer-substack",
-   "verify_note": "Sentence appears verbatim in the post (his own words, following his mention of Makary's 'top priority' remark); datePublished 2025-06-02."
+   "note": "Restatement of census row angermayer-0017 (X, 2025-05-19) in a different source; repeated again verbatim in the 2025-07-01 post."
   },
   {
    "date": "2025-06-05",
@@ -1203,11 +1063,9 @@
    "ptype": "dated_event",
    "horizon": "within 10 years",
    "confidence_language": "In my view ... will be",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Dated (by mid-2035), measurable against market-size data.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2025-06-05. The sentence appears verbatim, in his own text, not in the Ferring CEO quote."
+   "note": "Dated (by mid-2035), measurable against market-size data."
   },
   {
    "date": "2025-07-01",
@@ -1222,9 +1080,7 @@
    "confidence_language": "has the potential",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Sentence appears verbatim in his own Substack post; datePublished 2025-07-01."
+   "note": ""
   },
   {
    "date": "2025-07-01",
@@ -1237,11 +1093,9 @@
    "ptype": "dated_event",
    "horizon": "once approved",
    "confidence_language": "I believe ... will",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Both sentences appear verbatim in the post; only difference is a stray space before the period after 'first-line treatments' on the page. His own words; datePublished 2025-07-01."
+   "note": ""
   },
   {
    "date": "2025-07-01",
@@ -1251,14 +1105,12 @@
    "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences-outstanding-phase",
    "source_type": "own_post",
    "area": "practice_adoption",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "upcoming",
    "confidence_language": "I believe ... will; I expect",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "All five sentences appear verbatim and consecutively in the post under 'Rollout Has the Potential to Outpace Spravato'; datePublished 2025-07-01."
+   "note": ""
   },
   {
    "date": "2025-07-01",
@@ -1271,11 +1123,9 @@
    "ptype": "dated_event",
    "horizon": "in 2027",
    "confidence_language": "anticipating",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Third-party (J&J) projection restated; own_claim uncertain.",
-   "finder": "angermayer-substack",
-   "verify_note": "Sentence appears verbatim in the post; his own statement (no attribution to another source on the page); datePublished 2025-07-01."
+   "note": "Third-party (J&J) projection restated; own_claim uncertain."
   },
   {
    "date": "2025-07-01",
@@ -1288,11 +1138,9 @@
    "ptype": "dated_event",
    "horizon": "next 9 – 12 months; mid this year; Q3’2025; Q3’25",
    "confidence_language": "expects; anticipated",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Compound claim; restates company guidance.",
-   "finder": "angermayer-substack",
-   "verify_note": "Intro line and the first three bullets under 'Upcoming Milestones' appear verbatim (bullets are list items, so only whitespace differs). Framed as 'atai expects' but written by Angermayer in his own post; datePublished 2025-07-01."
+   "note": "Compound claim; restates company guidance."
   },
   {
    "date": "2025-07-01",
@@ -1305,11 +1153,9 @@
    "ptype": "dated_event",
    "horizon": "Q1 2026; Q1’2026",
    "confidence_language": "anticipated",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Restates company guidance; same timelines as Feb 2025 and Oct 2025 posts.",
-   "finder": "angermayer-substack",
-   "verify_note": "Both bullets appear verbatim as the last two items of the 'Upcoming Milestones' list in his own post; datePublished 2025-07-01."
+   "note": "Restates company guidance; same timelines as Feb 2025 and Oct 2025 posts."
   },
   {
    "date": "2025-07-01",
@@ -1324,9 +1170,7 @@
    "confidence_language": "will",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim on the Substack post under Christian Angermayer's byline; page dated July 1, 2025."
+   "note": ""
   },
   {
    "date": "2025-07-01",
@@ -1341,9 +1185,7 @@
    "confidence_language": "poised for",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Sector timing; undated.",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim (first person, 'I personally believe') on the July 1, 2025 Substack post by Christian Angermayer."
+   "note": "Sector timing; undated."
   },
   {
    "date": "2025-07-01",
@@ -1356,11 +1198,9 @@
    "ptype": "dated_event",
    "horizon": "over the next years",
    "confidence_language": "My vision ... would be",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Aspiration rather than firm prediction; borderline.",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim on the July 1, 2025 Substack post by Christian Angermayer, in the 'I want atai to be that company' passage."
+   "note": "Aspiration rather than firm prediction; borderline."
   },
   {
    "date": "2025-07-01",
@@ -1375,9 +1215,7 @@
    "confidence_language": "might",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim on the July 1, 2025 Substack post by Christian Angermayer."
+   "note": ""
   },
   {
    "date": "2025-07-01",
@@ -1390,11 +1228,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I believe it will",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Undated, vague threshold ('rich returns').",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows tweet by @C_Angermayer, created 2025-07-01. Sentence appears verbatim."
+   "note": "Undated, vague threshold ('rich returns')."
   },
   {
    "date": "2025-07-25",
@@ -1407,11 +1243,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "will either be",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Three-way disjunctive forecast about atai's own non-psychedelic assets.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows tweet by @C_Angermayer, created 2025-07-25. Sentence appears verbatim in the tweet body."
+   "note": "Three-way disjunctive forecast about atai's own non-psychedelic assets."
   },
   {
    "date": "2025-07-28",
@@ -1424,11 +1258,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "they're going to get approved ... I think that's going to move quicker",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Auto-caption without speaker labels; ellipsis skips the host's one-word interjection.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "YouTube auto-transcript (AdvisorShares channel, published 2025-07-28) contains the words verbatim; the one gap covers a single 'okay'. Spoken by Angermayer as the interview guest (he goes on to say he put in 40 million this year). Date matches."
+   "note": "Auto-caption without speaker labels; ellipsis skips the host's one-word interjection."
   },
   {
    "date": "2025-07-28",
@@ -1443,9 +1275,7 @@
    "confidence_language": "I can actually see at least as one potential possibility ... maybe",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Own company (CONTROL); hedged.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Transcript wording is identical, including '5 MODMT' and '5 MBMT' transcription artifacts. Guest speech in the AdvisorShares interview dated 2025-07-28."
+   "note": "Own company (CONTROL); hedged."
   },
   {
    "date": "2025-07-28",
@@ -1460,9 +1290,7 @@
    "confidence_language": "I'm very confident",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Own company (CONTROL).",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Transcript wording is identical. Angermayer answers a viewer question about the BPL-003 next steps. Published 2025-07-28."
+   "note": "Own company (CONTROL)."
   },
   {
    "date": "2025-07-28",
@@ -1477,9 +1305,7 @@
    "confidence_language": "I expect",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Own company (CONTROL); compound claim (timing plus data quality).",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Transcript wording is identical (including 'MDA RMDMMA' artifact). Guest speech, 2025-07-28."
+   "note": "Own company (CONTROL); compound claim (timing plus data quality)."
   },
   {
    "date": "2025-07-28",
@@ -1492,11 +1318,9 @@
    "ptype": "dated_event",
    "horizon": "today, like this week, like this month",
    "confidence_language": "I really think",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Own sector (CONTROL); implicit forecast that psychedelic stocks rise from here.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Transcript wording is identical. Preceded by 'not financial advice but again as I said I put in 40 million this year', which marks the speaker as Angermayer. Published 2025-07-28."
+   "note": "Own sector (CONTROL); implicit forecast that psychedelic stocks rise from here."
   },
   {
    "date": "2025-07-28",
@@ -1511,9 +1335,7 @@
    "confidence_language": "we're going to have",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Own company (CONTROL); guidance-type.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Transcript wording is identical. Angermayer's closing remarks (followed by his self-promotion of his Twitter handle). Published 2025-07-28."
+   "note": "Own company (CONTROL); guidance-type."
   },
   {
    "date": "2025-08-04",
@@ -1523,14 +1345,12 @@
    "source_url": "https://christianangermayer.substack.com/p/the-psychedelic-sector-today-momentum",
    "source_type": "own_post",
    "area": "clinical_trial",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "soon",
    "confidence_language": "none",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim on the August 4, 2025 Substack post by Christian Angermayer (own words, not inside a quoted press release)."
+   "note": ""
   },
   {
    "date": "2025-08-04",
@@ -1543,11 +1363,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "unlikely",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim on the August 4, 2025 Substack post by Christian Angermayer; on the page it follows the bullet lead-in 'Scalable, healthcare-provider and patient-friendly delivery –'."
+   "note": ""
   },
   {
    "date": "2025-08-04",
@@ -1560,11 +1378,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "never have the chance",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Unnamed competitors.",
-   "finder": "angermayer-substack",
-   "verify_note": "Quote appears verbatim (including 'in my view') on the August 4, 2025 Substack post by Christian Angermayer."
+   "note": "Unnamed competitors."
   },
   {
    "date": "2025-09-23",
@@ -1574,14 +1390,12 @@
    "source_url": "https://x.com/C_Angermayer/status/1970495408351670357",
    "source_type": "social",
    "area": "company_market",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "ultimately",
    "confidence_language": "I'm confident ... will",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Undated sector-leadership call.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2025-09-23. The sentence appears verbatim. His own words."
+   "note": "Undated sector-leadership call."
   },
   {
    "date": "2025-10-01",
@@ -1591,14 +1405,12 @@
    "source_url": "https://x.com/C_Angermayer/status/1973408076645445893",
    "source_type": "social",
    "area": "practice_adoption",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "over time",
    "confidence_language": "I believe ... can become",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Earlier tweet restatement (different source/date) of census row angermayer-0024 (Oct 21 2025 substack).",
-   "finder": "angermayer-x",
-   "verify_note": "Quote appears verbatim in the tweet from @C_Angermayer dated 2025-10-01 (fxtwitter API)."
+   "note": "Earlier tweet restatement (different source/date) of census row angermayer-0024 (Oct 21 2025 substack)."
   },
   {
    "date": "2025-10-01",
@@ -1611,11 +1423,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "likely",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Conditional on pharma wanting exposure; frames partnering rather than a sale.",
-   "finder": "angermayer-x",
-   "verify_note": "Quote appears in the tweet from @C_Angermayer dated 2025-10-01; only a paragraph break separates 'I believe atai is the sector.' from 'Big Pharma is late.' (whitespace difference only)."
+   "note": "Conditional on pharma wanting exposure; frames partnering rather than a sale."
   },
   {
    "date": "2025-10-01",
@@ -1628,11 +1438,9 @@
    "ptype": "dated_event",
    "horizon": "not now, not in the future",
    "confidence_language": "do not presently intend",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Borderline: statement of intent about own holdings.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2025-10-01. The sentence appears verbatim (only the dash differs). His own words."
+   "note": "Borderline: statement of intent about own holdings."
   },
   {
    "date": "2025-10-21",
@@ -1647,9 +1455,7 @@
    "confidence_language": "I believe ... will continue",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Both sentences appear verbatim on the October 21, 2025 Substack post by Christian Angermayer, first person ('I believe')."
+   "note": ""
   },
   {
    "date": "2025-10-21",
@@ -1662,11 +1468,9 @@
    "ptype": "dated_event",
    "horizon": "by the end of next year",
    "confidence_language": "expect",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Macro claim; end of 2026.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page. Own Substack post by Christian Angermayer, dated October 21, 2025."
+   "note": "Macro claim; end of 2026."
   },
   {
    "date": "2025-10-21",
@@ -1679,11 +1483,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "believe",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page. Own Substack post, dated October 21, 2025."
+   "note": ""
   },
   {
    "date": "2025-10-21",
@@ -1698,9 +1500,7 @@
    "confidence_language": "expect to pass; should",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Earlier index-inclusion call than census row angermayer-0027.",
-   "finder": "angermayer-substack",
-   "verify_note": "Both sentences verbatim and adjacent on the page (section '4. Potential Index Inclusions'). Own post, dated October 21, 2025."
+   "note": "Earlier index-inclusion call than census row angermayer-0027."
   },
   {
    "date": "2025-10-21",
@@ -1713,11 +1513,9 @@
    "ptype": "dated_event",
    "horizon": "into 2029",
    "confidence_language": "none",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Restates company statement; implies Phase 3 topline before 2029.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page (only whitespace before the comma differs). Own post, dated October 21, 2025. Note: the sentence reports what atai announced, but it is written in his own byline."
+   "note": "Restates company statement; implies Phase 3 topline before 2029."
   },
   {
    "date": "2025-10-21",
@@ -1730,11 +1528,9 @@
    "ptype": "dated_event",
    "horizon": "several years",
    "confidence_language": "imho",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page. Own post, dated October 21, 2025."
+   "note": ""
   },
   {
    "date": "2025-10-21",
@@ -1747,11 +1543,9 @@
    "ptype": "dated_event",
    "horizon": "roughly 12 months behind",
    "confidence_language": "potential",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page. Own post, dated October 21, 2025."
+   "note": ""
   },
   {
    "date": "2025-10-21",
@@ -1761,14 +1555,12 @@
    "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences-the-leader-in",
    "source_type": "own_post",
    "area": "company_market",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "ultimately",
    "confidence_language": "will; can’t see",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Implicit negative call on long-duration psychedelics such as psilocybin and LSD.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page; 'Short-acting compounds' is the first item of a bulleted list directly after 'three things:'. Own post, dated October 21, 2025."
+   "note": "Implicit negative call on long-duration psychedelics such as psilocybin and LSD."
   },
   {
    "date": "2025-10-21",
@@ -1781,11 +1573,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "my personal belief",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page (section '10. The Psychedelic Industry IS imho atai'). Own post, dated October 21, 2025."
+   "note": ""
   },
   {
    "date": "2025-10-21",
@@ -1795,14 +1585,12 @@
    "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences-the-leader-in",
    "source_type": "own_post",
    "area": "company_market",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "ultimate",
    "confidence_language": "my personal view",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page under Angermayer's byline; post dated October 21, 2025."
+   "note": ""
   },
   {
    "date": "2025-10-21",
@@ -1815,11 +1603,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I deeply believe ... will",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "CONTROL candidate; vague.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page under Angermayer's byline; post dated October 21, 2025."
+   "note": "CONTROL candidate; vague."
   },
   {
    "date": "2025-10-24",
@@ -1832,11 +1618,9 @@
    "ptype": "dated_event",
    "horizon": "end of next year ... early 2027 the latest",
    "confidence_language": "my guess is ... hopefully",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "YouTube auto-transcript (AdvisorShares, published 2025-10-24) contains the words verbatim. Context ('where atai still has a strategic stake') marks the speaker as Angermayer. Date matches."
+   "note": ""
   },
   {
    "date": "2025-10-24",
@@ -1849,11 +1633,9 @@
    "ptype": "dated_event",
    "horizon": "in two years, three years from now",
    "confidence_language": "could be ... What I hope",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Own company (CONTROL); hedged valuation range.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Transcript wording is identical, including 'a Thai' and 'a$10 billion' transcription artifacts. Angermayer speaks ('If I may fill in there'). Published 2025-10-24."
+   "note": "Own company (CONTROL); hedged valuation range."
   },
   {
    "date": "2025-10-24",
@@ -1866,11 +1648,9 @@
    "ptype": "dated_event",
    "horizon": "in the next five plus years",
    "confidence_language": "I think ... can make us",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Own company (CONTROL); conditional on preventative paradigm.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Found verbatim in the YouTube auto-generated transcript panel of tNcLG79eyzo (AdvisorShares AlphaNooner interview, upload date 2025-10-24). Context is Angermayer answering the host about the future treatment paradigm; his own spoken words."
+   "note": "Own company (CONTROL); conditional on preventative paradigm."
   },
   {
    "date": "2025-10-24",
@@ -1883,11 +1663,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I can tell you ... will be",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Own company (CONTROL).",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Found verbatim in the YouTube transcript of tNcLG79eyzo ('...I can tell you the vast majority of the market share will be a tie with short acting psychedelics and we have the patents, we have the IP. I cannot see anybody else doing that.'). Guest's own words in an interview; upload date 2025-10-24 m"
+   "note": "Own company (CONTROL)."
   },
   {
    "date": "2025-10-24",
@@ -1902,9 +1680,7 @@
    "confidence_language": "I believe ... can be",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Own company (CONTROL).",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Found verbatim in the YouTube transcript of tNcLG79eyzo. Spoken by Angermayer as guest (context: 'we collectively as a Thai shareholders'). Upload date 2025-10-24 matches."
+   "note": "Own company (CONTROL)."
   },
   {
    "date": "2025-11-06",
@@ -1917,11 +1693,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "will bring",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Borderline: aspirational; also states 'I have no intention of selling' (own holdings).",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2025-11-06. Both sentences appear verbatim as his own words."
+   "note": "Borderline: aspirational; also states 'I have no intention of selling' (own holdings)."
   },
   {
    "date": "2025-11-28",
@@ -1934,11 +1708,9 @@
    "ptype": "dated_event",
    "horizon": "2028",
    "confidence_language": "sollten sich darauf einstellen",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Off-domain but dated and checkable.",
-   "finder": "angermayer-press",
-   "verify_note": "Süddeutsche page (datePublished 2025-11-28) shows the sentence verbatim as Angermayer's interview answer, in the Q&A body: 'Es gibt immer Sachen, die man kritisieren kann. ... Die Europäer sollten sich darauf einstellen, dass J. D. Vance 2028 zum US-Präsidenten gewählt wird.' WebFetch was blocked; f"
+   "note": "Off-domain but dated and checkable."
   },
   {
    "date": "2025-11-28",
@@ -1953,9 +1725,7 @@
    "confidence_language": "vielleicht schon",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Off-domain; setup for his psychedelics-for-adjustment-disorder thesis.",
-   "finder": "angermayer-press",
-   "verify_note": "Süddeutsche page (datePublished 2025-11-28) shows the sentence verbatim (including the doubled 'in vielleicht schon in') as Angermayer's answer to the question 'Panik wovor?'. Fetched with curl."
+   "note": "Off-domain; setup for his psychedelics-for-adjustment-disorder thesis."
   },
   {
    "date": "2025-12-25",
@@ -1968,11 +1738,9 @@
    "ptype": "dated_event",
    "horizon": "2026",
    "confidence_language": "I'm very sure will",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Vague outcome ('rock 2026'); dated to calendar 2026.",
-   "finder": "angermayer-x",
-   "verify_note": "Quote appears verbatim in the tweet from @C_Angermayer dated 2025-12-25 (fxtwitter API)."
+   "note": "Vague outcome ('rock 2026'); dated to calendar 2026."
   },
   {
    "date": "2025-12-25",
@@ -1985,11 +1753,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "imo ... will own",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Restates the 'own the sector' call from Sep 2025 tweet.",
-   "finder": "angermayer-x",
-   "verify_note": "Quote appears verbatim in the tweet from @C_Angermayer dated 2025-12-25 (fxtwitter API)."
+   "note": "Restates the 'own the sector' call from Sep 2025 tweet."
   },
   {
    "date": "2026-01-14",
@@ -2002,11 +1768,9 @@
    "ptype": "dated_event",
    "horizon": "Q1",
    "confidence_language": "will be",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Compound claim: two dated milestones (EMP-01 Phase 2a data; BPL-003 EoP2b FDA meeting) in Q1 2026. Restatement of census row angermayer-0023 in a different source.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows tweet by @C_Angermayer, created 2026-01-14. Sentence appears verbatim."
+   "note": "Compound claim: two dated milestones (EMP-01 Phase 2a data; BPL-003 EoP2b FDA meeting) in Q1 2026. Restatement of census row angermayer-0023 in a different source."
   },
   {
    "date": "2026-01-14",
@@ -2019,11 +1783,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "none",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Borderline: states eligibility, not inclusion. Related to census row angermayer-0027 (Feb 2026 substack 'I expect major index inclusions').",
-   "finder": "angermayer-x",
-   "verify_note": "Same tweet by @C_Angermayer, 2026-01-14. Sentence appears verbatim."
+   "note": "Borderline: states eligibility, not inclusion. Related to census row angermayer-0027 (Feb 2026 substack 'I expect major index inclusions')."
   },
   {
    "date": "2026-02-18",
@@ -2036,11 +1798,9 @@
    "ptype": "dated_event",
    "horizon": "2026",
    "confidence_language": "I expect",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "All three sentences appear verbatim and consecutively under Angermayer's byline; post dated February 18, 2026."
+   "note": ""
   },
   {
    "date": "2026-02-18",
@@ -2053,11 +1813,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I believe only",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page under Angermayer's byline; post dated February 18, 2026."
+   "note": ""
   },
   {
    "date": "2026-02-18",
@@ -2070,11 +1828,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I believe ... will win",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page under Angermayer's byline; post dated February 18, 2026."
+   "note": ""
   },
   {
    "date": "2026-02-18",
@@ -2087,11 +1843,9 @@
    "ptype": "dated_event",
    "horizon": "at 4 to 6 weeks",
    "confidence_language": "Has the potential",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Bullet fragment; subject is BPL-003.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim as a bullet in the BPL-003 (5-MeO-DMT) list in Angermayer's own post, not marked as a quotation from another source; post dated February 18, 2026."
+   "note": "Bullet fragment; subject is BPL-003."
   },
   {
    "date": "2026-02-18",
@@ -2104,11 +1858,9 @@
    "ptype": "dated_event",
    "horizon": "Q4 2026 ... early 2027 ... 2027",
    "confidence_language": "If this timeline holds",
-   "specificity": 3,
+   "specificity": 5,
    "source_confidence": "high",
-   "note": "Adopted restatement of Compass guidance plus his own conditional conclusion. Same date as substack rows 0026-0028 but different source and wording.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2026-02-18. The quote appears verbatim in the tweet body as his own words."
+   "note": "Adopted restatement of Compass guidance plus his own conditional conclusion. Same date as substack rows 0026-0028 but different source and wording."
   },
   {
    "date": "2026-02-18",
@@ -2121,11 +1873,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I believe ... will increasingly",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Soft market-behaviour call.",
-   "finder": "angermayer-x",
-   "verify_note": "Same tweet by @C_Angermayer, 2026-02-18. The sentence is in the tweet body itself (not the quoted article). Only difference: page uses an em dash where the candidate has a hyphen."
+   "note": "Soft market-behaviour call."
   },
   {
    "date": "2026-02-23",
@@ -2138,11 +1888,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "will intensify; I would not be surprised if",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Low relevance to interventional psychiatry; logged for completeness.",
-   "finder": "angermayer-x",
-   "verify_note": "Quote appears verbatim (dash style aside) in the tweet from @C_Angermayer dated 2026-02-23 (fxtwitter API)."
+   "note": "Low relevance to interventional psychiatry; logged for completeness."
   },
   {
    "date": "2026-03-17",
@@ -2155,11 +1903,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "once approved",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Borderline: normative sentence with an embedded approval assumption.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2026-03-17. The quote appears verbatim; the page sentence continues with ', to be sure that this is what they really want to do in life.' Meaning unchanged."
+   "note": "Borderline: normative sentence with an embedded approval assumption."
   },
   {
    "date": "2026-03-19",
@@ -2172,11 +1918,9 @@
    "ptype": "dated_event",
    "horizon": "soon; it will not take long",
    "confidence_language": "I expect; will",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Both sentences appear verbatim in the same paragraph under Angermayer's byline; the ellipsis covers intervening text; post dated March 19, 2026."
+   "note": ""
   },
   {
    "date": "2026-03-19",
@@ -2186,14 +1930,12 @@
    "source_url": "https://x.com/C_Angermayer/status/2034667935676187034",
    "source_type": "social",
    "area": "company_market",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "long-term",
    "confidence_language": "I believe",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Undated market-size claim; implies analysts' price targets are too low.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows tweet by @C_Angermayer, created 2026-03-19. Both sentences appear verbatim; the first is the tail of a longer sentence ('...but more importantly, I believe they materially underestimate...'), and the second directly follows it."
+   "note": "Undated market-size claim; implies analysts' price targets are too low."
   },
   {
    "date": "2026-04-20",
@@ -2203,14 +1945,12 @@
    "source_url": "https://christianangermayer.substack.com/p/white-house-issues-executive-order",
    "source_type": "own_post",
    "area": "regulatory",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "on the verge",
    "confidence_language": "the market anticipates",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Attributed to 'the market'; own stance implicit.",
-   "finder": "angermayer-substack",
-   "verify_note": "Verbatim on the page under Angermayer's byline, including the capitalised 'Public'; post dated April 20, 2026."
+   "note": "Attributed to 'the market'; own stance implicit."
   },
   {
    "date": "2026-04-20",
@@ -2223,11 +1963,9 @@
    "ptype": "dated_event",
    "horizon": "Once approved; Over time",
    "confidence_language": "I expect",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "",
-   "finder": "angermayer-substack",
-   "verify_note": "Substack post bylined Christian Angermayer, dated April 20, 2026, written in first person. The two sentences appear verbatim in one paragraph."
+   "note": ""
   },
   {
    "date": "2026-04-20",
@@ -2237,14 +1975,12 @@
    "source_url": "https://christianangermayer.substack.com/p/white-house-issues-executive-order",
    "source_type": "own_post",
    "area": "practice_adoption",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "over time",
    "confidence_language": "I personally believe ... have the potential",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Restatement of census row angermayer-0024 on a later date.",
-   "finder": "angermayer-substack",
-   "verify_note": "Same Substack post, April 20, 2026, own byline. The clause appears verbatim as the end of a longer sentence beginning 'Given the favorable safety profiles...'."
+   "note": "Restatement of census row angermayer-0024 on a later date."
   },
   {
    "date": "2026-05-07",
@@ -2259,9 +1995,7 @@
    "confidence_language": "it's going to be",
    "specificity": 3,
    "source_confidence": "high",
-   "note": "Own company (CONTROL).",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Found in the YouTube auto-transcript of 9VhKdb-F8wQ at about 19:19-19:26 as his answer to a viewer question on BPL003 timelines. Only trivial differences: page has 'two to three' instead of '2 to 3' and an added comma. Upload date 2026-05-07 matches."
+   "note": "Own company (CONTROL)."
   },
   {
    "date": "2026-05-07",
@@ -2274,11 +2008,9 @@
    "ptype": "dated_event",
    "horizon": "June (Russell index rebalancing)",
    "confidence_language": "my expectation is ... should create",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Own company (CONTROL); restates census 0027 (index inclusions) with a named index and month. Auto-caption 'at I' = atai.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Found in the YouTube auto-transcript of 9VhKdb-F8wQ at about 25:04-25:16, Angermayer speaking about Russell index inclusion. Differences are ASR artifacts only: page renders 'atai' as 'a tie' (candidate has 'at I') and has an extra 'um'. Meaning unchanged. Date 2026-05-07 matches."
+   "note": "Own company (CONTROL); restates census 0027 (index inclusions) with a named index and month. Auto-caption 'at I' = atai."
   },
   {
    "date": "2026-05-07",
@@ -2291,11 +2023,9 @@
    "ptype": "dated_event",
    "horizon": "in June",
    "confidence_language": "there will be ... I think",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Own company (CONTROL).",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Found in the YouTube auto-transcript of 9VhKdb-F8wQ at about 25:23-25:33. Minor differences: page says 'we're going to get hopefully from June on' (no 'it') and has 'uh' before 'in June'. Meaning unchanged; his own words. Date 2026-05-07 matches."
+   "note": "Own company (CONTROL)."
   },
   {
    "date": "2026-05-07",
@@ -2308,11 +2038,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "I want to make the prediction",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Auto-caption 'the finium' = MindMed.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Found in the YouTube auto-transcript of 9VhKdb-F8wQ at about 25:58-26:04. ASR renders the company name as 'define' (candidate has 'the finium'; the next line renders it 'Definium'). Otherwise the same words; his own statement. Date 2026-05-07 matches."
+   "note": "Auto-caption 'the finium' = MindMed."
   },
   {
    "date": "2026-05-07",
@@ -2322,14 +2050,12 @@
    "source_url": "https://www.youtube.com/watch?v=9VhKdb-F8wQ",
    "source_type": "interview",
    "area": "regulatory",
-   "ptype": "dated_event",
+   "ptype": "undated",
    "horizon": "very soon",
    "confidence_language": "I do [believe]",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Auto-caption 'the finium' = MindMed.",
-   "finder": "angermayer-podcasts-events",
-   "verify_note": "Found in the YouTube auto-transcript of 9VhKdb-F8wQ at about 26:10-26:21. Page wording: 'do I believe that both Compass uh and Definium will very soon then get their approvals? I do as well because both drugs deserve it.' Only filler and name spelling differ. His own words; date 2026-05-07 matches."
+   "note": "Auto-caption 'the finium' = MindMed."
   },
   {
    "date": "2026-06-22",
@@ -2342,11 +2068,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "none",
-   "specificity": 3,
+   "specificity": 1,
    "source_confidence": "high",
-   "note": "Borderline; implicit approval expectation only.",
-   "finder": "angermayer-x",
-   "verify_note": "fxtwitter shows the tweet by @C_Angermayer dated 2026-06-22. The sentence appears verbatim in the tweet body."
+   "note": "Borderline; implicit approval expectation only."
   },
   {
    "date": "2026-07-16",
@@ -2359,11 +2083,9 @@
    "ptype": "undated",
    "horizon": "none",
    "confidence_language": "potentially ... I am confident",
-   "specificity": 3,
+   "specificity": 2,
    "source_confidence": "high",
-   "note": "Press-release language; restated by BioPharma Dive, Pharmaceutical Executive and Proactive on 2026-07-16.",
-   "finder": "angermayer-press",
-   "verify_note": "PR Newswire release dated July 16, 2026 contains the passage verbatim, attributed to Christian Angermayer, founder, largest shareholder, and chairman of the board, AtaiBeckley."
+   "note": "Press-release language; restated by BioPharma Dive, Pharmaceutical Executive and Proactive on 2026-07-16."
   },
   {
    "date": "2026-07-24",
@@ -2376,18 +2098,36 @@
    "ptype": "dated_event",
    "horizon": "the next 10 years",
    "confidence_language": "I believe ... I think",
-   "specificity": 3,
+   "specificity": 4,
    "source_confidence": "high",
-   "note": "Vague; same article also says 'The future is psychedelic, and it is here.'",
-   "finder": "angermayer-press",
-   "verify_note": "Forbes page (Will Yakowicz, Jul 24, 2026) contains the quote verbatim inside quotation marks, attributed 'Angermayer says'. The page is paywalled for readers but the full paragraph is in the page HTML."
+   "note": "Vague; same article also says 'The future is psychedelic, and it is here.'"
   }
  ],
  "search_log": [
-  "angermayer-podcasts-events",
-  "angermayer-press",
-  "angermayer-substack",
-  "angermayer-x"
+  {
+   "finder": "angermayer-substack",
+   "source": "christianangermayer.substack.com",
+   "method": "Post-by-post read of the Substack archive, February 2024 to April 2026",
+   "rows": 58
+  },
+  {
+   "finder": "angermayer-x",
+   "source": "x.com/C_Angermayer",
+   "method": "Tweet timeline scan with quote verification through api.fxtwitter.com",
+   "rows": 27
+  },
+  {
+   "finder": "angermayer-press",
+   "source": "Fortune, CNBC, VICE, Business Insider, Handelsblatt, Sueddeutsche, GRAZIA, Forbes, Sifted, GlobeNewswire, PR Newswire, Microdose, Psychedelic Spotlight",
+   "method": "Google News RSS and direct page fetch; Wayback snapshots where the live page was blocked",
+   "rows": 19
+  },
+  {
+   "finder": "angermayer-podcasts-events",
+   "source": "YouTube (TDR, AdvisorShares, PSYCH Symposium, Psychedelic Vantage), Third Wave podcast",
+   "method": "Auto-caption transcripts and podcast transcript pages; quotes kept as transcribed",
+   "rows": 33
+  }
  ],
- "coverage_note": "Second sweep on 2026-09-14: finders by source modality (bulletins, podcasts, press, talks and social posts, own Substack, X), every quote checked on its page by an independent verifier agent. No outcome was looked up or recorded."
+ "coverage_note": "Sweep 2 adds 140 verified candidates from four finders. All rows are in the speaker's own words and quote-verified, so source_confidence is high throughout. YouTube rows carry auto-caption artifacts (for example \"a tie\" for atai) noted in the note field. Rows that restate census rows are flagged in the note. Several rows are off-domain (longevity, politics, Enhanced Games) or own-company CONTROL candidates and are logged for completeness. Duplicates (same quote and URL) were removed; none were found."
 }

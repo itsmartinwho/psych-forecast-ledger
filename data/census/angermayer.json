@@ -5478,5 +5478,261 @@
    ]
   },
   "prefilter": null
+ },
+ {
+  "id": "angermayer-0172",
+  "forecaster": "angermayer",
+  "statement_date": "2024-04-15",
+  "date_precision": "day",
+  "quote": "if you want to hear my biggest sort of kind of contrarian bet contrarian maybe not to you because you believe it yeah the like contrarian to investors in biotech and pharmacos is that once psychedelics are approved yeah it's going to be even faster than we are officially thinking as a tie",
+  "context": "Psychedelic Vantage, April 2024. Angermayer's 'contrarian bet': patient uptake after approval will be faster than pharma expects and faster than atai officially guides.",
+  "source": {
+   "url": "https://www.youtube.com/watch?v=rLNAgeofL1E",
+   "title": "The Big Picture with Psychedelic Medicine: An Interview with Christian Angermayer (YouTube, Psychedelic Vantage)",
+   "type": "interview",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep2-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "practice_adoption",
+   "note": "source confidence high; dated_event"
+  },
+  "finder": {
+   "horizon_text": "once psychedelics are approved",
+   "confidence_phrase": "my biggest ... contrarian bet",
+   "entities": [],
+   "runs": [
+    "sweep2-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0173",
+  "forecaster": "angermayer",
+  "statement_date": "2024-04-15",
+  "date_precision": "day",
+  "quote": "I can tell you in the future people will go to their therapist and say I don't want to start with the [ __ ] stuff just to at the end come to psychedelics anyway I want to start with psychedelics so I think my expectation is psychedelics Will be the first line of defense not the final line",
+  "context": "Psychedelic Vantage, April 2024. Angermayer expects psychedelics to become first-line treatment rather than last resort, driven by patient demand.",
+  "source": {
+   "url": "https://www.youtube.com/watch?v=rLNAgeofL1E",
+   "title": "The Big Picture with Psychedelic Medicine: An Interview with Christian Angermayer (YouTube, Psychedelic Vantage)",
+   "type": "interview",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep2-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "practice_adoption",
+   "note": "source confidence high; dated_event; '[ __ ]' is YouTube's caption redaction of a profanity."
+  },
+  "finder": {
+   "horizon_text": "in the future",
+   "confidence_phrase": "my expectation is ... Will be",
+   "entities": [],
+   "runs": [
+    "sweep2-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0174",
+  "forecaster": "angermayer",
+  "statement_date": "2024-05-08",
+  "date_precision": "day",
+  "quote": "one leg will read out uh towards the end of the year the other one early next year um and then so if everything goes as we all think it goes um that means soloc cybin should be approved mid next year and being rolled out uh into the healthcare system",
+  "context": "After Earnings podcast, May 2024. Angermayer describes Compass Phase 3: readouts end of 2024 and early 2025, and psilocybin approval mid 2025 if all goes as expected.",
+  "source": {
+   "url": "https://www.youtube.com/watch?v=66gvfEaBnNc",
+   "title": "atai Life Sciences: Psychedelics, Mental Health, & Drug Development w/ Founder Christian Angermayer (YouTube, After Earnings)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep2-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; dated_event; Conditional ('if everything goes as we all think it goes')."
+  },
+  "finder": {
+   "horizon_text": "towards the end of the year ... early next year ... mid next year",
+   "confidence_phrase": "should be approved",
+   "entities": [],
+   "runs": [
+    "sweep2-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0175",
+  "forecaster": "angermayer",
+  "statement_date": "2024-05-08",
+  "date_precision": "day",
+  "quote": "phase 2B the last study was phenomenally successful yeah so I would say the likelihood of a successful phase three is very very hard",
+  "context": "After Earnings, May 2024. Angermayer rates the likelihood of a successful Compass Phase 3 as very high based on Phase 2b.",
+  "source": {
+   "url": "https://www.youtube.com/watch?v=66gvfEaBnNc",
+   "title": "atai Life Sciences: Psychedelics, Mental Health, & Drug Development w/ Founder Christian Angermayer (YouTube, After Earnings)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep2-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; undated; Auto-caption 'hard' is almost certainly 'high' given context."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "very very hard [high]",
+   "entities": [],
+   "runs": [
+    "sweep2-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0176",
+  "forecaster": "angermayer",
+  "statement_date": "2024-05-08",
+  "date_precision": "day",
+  "quote": "if we produce the clinical data in phase three which we supposed I'm very confident to do yeah and by the way again in all the stages before we've produced it then it's an automatism that the FDA not a politician the FDA as a regulator will say the data is that good it's doing what it's supposed to do like yeah we've considered everything we're going to approve the drug",
+  "context": "After Earnings, May 2024. Angermayer says approval is not political: if atai produces Phase 3 data, which he is very confident of, FDA approval follows automatically.",
+  "source": {
+   "url": "https://www.youtube.com/watch?v=66gvfEaBnNc",
+   "title": "atai Life Sciences: Psychedelics, Mental Health, & Drug Development w/ Founder Christian Angermayer (YouTube, After Earnings)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep2-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; Own company (CONTROL); conditional."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "I'm very confident",
+   "entities": [],
+   "runs": [
+    "sweep2-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0177",
+  "forecaster": "angermayer",
+  "statement_date": "2024-05-08",
+  "date_precision": "day",
+  "quote": "solos cybin uh going to have the first phase three readout end of the year we're going to have a very big readout for one of my favorite drugs 5 me odmt yeah mid of the year",
+  "context": "After Earnings, May 2024. Catalysts: Compass psilocybin first Phase 3 readout end of 2024 and a big 5-MeO-DMT (BPL-003) readout mid 2024.",
+  "source": {
+   "url": "https://www.youtube.com/watch?v=66gvfEaBnNc",
+   "title": "atai Life Sciences: Psychedelics, Mental Health, & Drug Development w/ Founder Christian Angermayer (YouTube, After Earnings)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep2-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated_event; Guidance-type; mid-year 5-MeO-DMT readout likely Beckley Psytech data."
+  },
+  "finder": {
+   "horizon_text": "end of the year ... mid of the year",
+   "confidence_phrase": "going to have",
+   "entities": [],
+   "runs": [
+    "sweep2-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0178",
+  "forecaster": "angermayer",
+  "statement_date": "2024-09-20",
+  "date_precision": "day",
+  "quote": "give us another two three years and I think it will be obvious what I believe today that sort of at tying Compass together are practically the only major player in that world",
+  "context": "Invest Like a Boss episode 304, Sept 2024. Angermayer predicts that within two to three years it will be obvious atai and Compass together are practically the only major players in psychedelic medicine.",
+  "source": {
+   "url": "https://www.youtube.com/watch?v=kLcqZpUNctE",
+   "title": "304: Christian Angermayer on Making Psychedelics Legal, Effective & Profitable (YouTube, Invest Like a Boss Podcast)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep2-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; dated_event; Own companies (CONTROL). Auto-caption 'at tying' = atai and."
+  },
+  "finder": {
+   "horizon_text": "another two three years",
+   "confidence_phrase": "I think it will be obvious",
+   "entities": [],
+   "runs": [
+    "sweep2-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0179",
+  "forecaster": "angermayer",
+  "statement_date": "2024-09-20",
+  "date_precision": "day",
+  "quote": "so to say we're jumping forward now and somewhere in the next years there going to be a take-home stuff is a is IR realistic but it would also be I'm very deeply deeply convinced it would be the wrong thing",
+  "context": "Invest Like a Boss, Sept 2024. Asked whether psychedelics become take-home prescriptions, Angermayer calls take-home psychedelics in the next years unrealistic and wrong.",
+  "source": {
+   "url": "https://www.youtube.com/watch?v=kLcqZpUNctE",
+   "title": "304: Christian Angermayer on Making Psychedelics Legal, Effective & Profitable (YouTube, Invest Like a Boss Podcast)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep2-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; dated_event; Negative call; auto-caption 'IR realistic' = unrealistic."
+  },
+  "finder": {
+   "horizon_text": "in the next years",
+   "confidence_phrase": "IR realistic [unrealistic] ... very deeply deeply convinced",
+   "entities": [],
+   "runs": [
+    "sweep2-2026-09-14"
+   ]
+  },
+  "prefilter": null
  }
 ]

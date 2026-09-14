@@ -1,0 +1,704 @@
+{
+ "packet": "code-64.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-2430",
+   "forecaster": "owen",
+   "statement_date": "2022-03-09",
+   "quote": "We are an interventional discipline now, and will be an information driven, AI enabled field in 5 years. Therapy will matter ever more.",
+   "context": "Original tweet tagging Osmind, BrainsWay, Stanford BSL, Nolan Williams, atai and MindMed. Muir predicts psychiatry becomes an information-driven, AI-enabled field within five years.",
+   "post_title": "@ScottMuirMD tweet 1501581709803864066",
+   "source_url": "https://x.com/ScottMuirMD/status/1501581709803864066",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in 5 years",
+   "confidence_phrase": "will be",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "owen-2431",
+   "forecaster": "owen",
+   "statement_date": "2022-04-19",
+   "quote": "we're building out monitoring technology to be able to comply with regulatory monitoring standards in an automated way going forward which i hope will allow us to scale up the economic feasibility of deploying psychedelic medicine at scale",
+   "context": "Grim Drive Podcast. Muir on the MindMed 'session monitoring system' for Spravato/esketamine REMS-style monitoring; he was also an advisor to Janssen on the product.",
+   "post_title": "Interview with Dr Owen Muir (Grim Drive Podcast)",
+   "source_url": "https://www.youtube.com/watch?v=hpSks3VbFJ0",
+   "area_guess": "company_market",
+   "horizon_text": "going forward",
+   "confidence_phrase": "i hope",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; CONTROL-adjacent; hope rather than prediction."
+  },
+  {
+   "id": "owen-2432",
+   "forecaster": "owen",
+   "statement_date": "2022-04-19",
+   "quote": "we didn't like what happened when we did that with opiates and we will similarly not like what's going to happen when we do that with stimulants and i imagine we'll be similarly unhappy when we do that with other controlled substances like psychedelics as well",
+   "context": "Grim Drive Podcast. Discussing Cerebral/Done ADHD prescribing reports, Muir predicts a backlash over telehealth stimulant prescribing and later over psychedelics.",
+   "post_title": "Interview with Dr Owen Muir (Grim Drive Podcast)",
+   "source_url": "https://www.youtube.com/watch?v=hpSks3VbFJ0",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "we will; i imagine",
+   "entities": [],
+   "finder_note": "source confidence high; undated"
+  },
+  {
+   "id": "owen-2433",
+   "forecaster": "owen",
+   "statement_date": "2022-04-19",
+   "quote": "but the fundamental hypothesis is psychedelic treatments are likely to make therapy more effective not just during but after because it helps the brain be more able to change",
+   "context": "Grim Drive Podcast. Muir describes his MindMed principal-investigator work (quantifying psychotherapy at scale) and its underlying hypothesis about psychedelics.",
+   "post_title": "Interview with Dr Owen Muir (Grim Drive Podcast)",
+   "source_url": "https://www.youtube.com/watch?v=hpSks3VbFJ0",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Auto-generated captions, no punctuation. CONTROL-adjacent (MindMed PI)."
+  },
+  {
+   "id": "owen-2434",
+   "forecaster": "owen",
+   "statement_date": "2022-08-02",
+   "quote": "I generally agree with @rikrenard but I don't think the solution is political here: I think we need to create more compelling economic models because we're never gonna out lobby @Optum",
+   "context": "Quote tweet of @rikrenard on single-payer and insurance coverage of therapy. Muir says lobbying will never beat Optum, so economic models must change.",
+   "post_title": "@ScottMuirMD tweet 1554461126070620160",
+   "source_url": "https://x.com/ScottMuirMD/status/1554461126070620160",
+   "area_guess": "payer_policy",
+   "horizon_text": "never",
+   "confidence_phrase": "never gonna",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Borderline; mostly normative with a negative forecast clause."
+  },
+  {
+   "id": "owen-2435",
+   "forecaster": "owen",
+   "statement_date": "2022-09-02",
+   "quote": "I have an article coming on how this will destroy healthcare in Texas as well. Good luck state, struggle now with the dissolution of the appropriate use of law enforcement for appropriate ends",
+   "context": "Tweet linking a Jack Turban post about a Texas policy on gender-affirming care and mandated reporting. Muir predicts the policy will destroy healthcare in Texas.",
+   "post_title": "@ScottMuirMD tweet 1565841966306414593",
+   "source_url": "https://x.com/ScottMuirMD/status/1565841966306414593",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will destroy",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Outside the core areas; the linked Turban tweet was not fetched."
+  },
+  {
+   "id": "owen-2436",
+   "forecaster": "owen",
+   "statement_date": "2022-09-07",
+   "quote": "No one believed it was real. Now it's fda cleared. It won't be paid for for another decade. #hcldr",
+   "context": "Reply in the #hcldr chat the day after Magnus Medical received FDA clearance for the SAINT neuromodulation system. Muir predicts payers will not cover SAINT for another decade.",
+   "post_title": "@ScottMuirMD tweet 1567320133177118722",
+   "source_url": "https://x.com/ScottMuirMD/status/1567320133177118722",
+   "area_guess": "payer_policy",
+   "horizon_text": "for another decade",
+   "confidence_phrase": "won't",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Strong dated payer call."
+  },
+  {
+   "id": "owen-2437",
+   "forecaster": "owen",
+   "statement_date": "2022-09-07",
+   "quote": "But #mdma and #psilocybin are medical science success stories and if we nail the payment model we will relieve suffering. #hcldr",
+   "context": "#hcldr chat answer T4 on psychedelics. Muir calls MDMA and psilocybin success stories and makes a conditional claim about payment models. Same tweet calls the DEA the agency with the least regulatory capture.",
+   "post_title": "@ScottMuirMD tweet 1567321580383965185",
+   "source_url": "https://x.com/ScottMuirMD/status/1567321580383965185",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "if ... we will",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Conditional and vague; borderline."
+  },
+  {
+   "id": "owen-2438",
+   "forecaster": "owen",
+   "statement_date": "2022-10-08",
+   "quote": "The dominance of EPIC and FFS means anyone doing a VBC play is going to build their own tech so they can own some IP. Thus the VBC ehr co will be the VBC clinic co. Which will build an ehr. They are co-evolving",
+   "context": "Reply to @dvasishtha on EHR businesses. Muir predicts value-based-care companies will build their own EHR technology rather than a separate VBC EHR vendor winning.",
+   "post_title": "@ScottMuirMD tweet 1578854334460497920",
+   "source_url": "https://x.com/ScottMuirMD/status/1578854334460497920",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to ... will be",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Health-tech market call, not psychiatry-specific."
+  },
+  {
+   "id": "owen-2439",
+   "forecaster": "owen",
+   "statement_date": "2022-10-29",
+   "quote": "Dear @OptumRx thanks for documenting your lack of compliance with the accountable care act. you'll be hearing for more and more ERISA attorneys soon. If your employer provides @UHC you have grounds to sue over this.",
+   "context": "Reply to @sulmoney about OptumRx. Muir predicts OptumRx will face increasing ERISA litigation soon.",
+   "post_title": "@ScottMuirMD tweet 1586482658653179906",
+   "source_url": "https://x.com/ScottMuirMD/status/1586482658653179906",
+   "area_guess": "payer_policy",
+   "horizon_text": "soon",
+   "confidence_phrase": "you'll be hearing ... soon",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "owen-2440",
+   "forecaster": "owen",
+   "statement_date": "2023-01-10",
+   "quote": "This is never gonna work. Patient won't ever accept it. Doctors won't do it. Too many practical hurdles. Maybe it's a PE play, but never venture.",
+   "context": "Reply to @StuartBlitz about an unnamed healthcare startup pitch. Muir predicts it will never work and is not a venture case.",
+   "post_title": "@ScottMuirMD tweet 1612609492998393856",
+   "source_url": "https://x.com/ScottMuirMD/status/1612609492998393856",
+   "area_guess": "company_market",
+   "horizon_text": "never",
+   "confidence_phrase": "never gonna work",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Target company not named in the tweet; parent tweet not fetched."
+  },
+  {
+   "id": "owen-2441",
+   "forecaster": "owen",
+   "statement_date": "2023-03-10",
+   "quote": "The DEA will require a license in EVERY state in which you will prescribe",
+   "context": "Part of a self-thread on the DEA proposed rule on telemedicine prescribing of controlled substances (comment period March 2023). Muir states what the DEA will require.",
+   "post_title": "@ScottMuirMD tweet 1634303796502200326",
+   "source_url": "https://x.com/ScottMuirMD/status/1634303796502200326",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will require",
+   "entities": [],
+   "finder_note": "source confidence high; undated; May read as a description of the proposed rule rather than a forecast; borderline."
+  },
+  {
+   "id": "owen-2442",
+   "forecaster": "owen",
+   "statement_date": "2023-03-18",
+   "quote": "Small molecules are probably not the future of care, so it's time to start reading. You patients will be teaching you.",
+   "context": "Advice to new psychiatry trainees on Match Day 2023. Muir states small-molecule drugs are probably not the future of psychiatric care.",
+   "post_title": "@ScottMuirMD tweet 1637151802838732800",
+   "source_url": "https://x.com/ScottMuirMD/status/1637151802838732800",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "probably not",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Undated, general."
+  },
+  {
+   "id": "owen-2443",
+   "forecaster": "owen",
+   "statement_date": "2023-03-19",
+   "quote": "In case anyone is wondering why @mindmedco will win, it's because the company has machine learning at the heart of its clinical trials design.",
+   "context": "Original tweet linking an MIT Technology Review piece on AI in drug development. Muir says MindMed will win because of machine learning in its trial design.",
+   "post_title": "@ScottMuirMD tweet 1637579257084887041",
+   "source_url": "https://x.com/ScottMuirMD/status/1637579257084887041",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will win",
+   "entities": [],
+   "finder_note": "source confidence high; undated"
+  },
+  {
+   "id": "owen-2444",
+   "forecaster": "owen",
+   "statement_date": "2023-03-29",
+   "quote": "In light of the ongoing medication shortages and the increasing demand for remote healthcare services, the implementation of a national telehealth prescribing program for controlled substances is not only necessary, but also timely, ... This program would enable health care providers like myself to more efficiently manage our patients' medications, ensuring that they receive the care they need without undue delays or complications.",
+   "context": "BHB story on public comments to the DEA's proposed telehealth controlled-substance rules (Feb 24, 2023). Muir (founder of Fermata Health) wrote in his comment that a DEA special telehealth registration is necessary and timely and would let providers manage medications efficiently.",
+   "post_title": "'This Is a Life and Death Matter': DEA Faces Tsunami of Criticism on Proposed Telehealth-Controlled Substances Rules",
+   "source_url": "https://bhbusiness.com/2023/03/29/dea-faces-tsunami-of-criticism-in-comments-on-proposed-telehealth-controlled-substances-rules/",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "would enable",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Quoted from his written public comment to the DEA; largely normative (should exist) with a conditional consequence. Regulatory area could also fit."
+  },
+  {
+   "id": "owen-2445",
+   "forecaster": "owen",
+   "statement_date": "2023-04-21",
+   "quote": "Contention: the best way to study ketogenic diet for bipolar is with a randomized within subjects withdrawal design. Prediction: study will be stopped by IRB early",
+   "context": "Original tweet on how a ketogenic-diet trial for bipolar disorder should be designed. Muir predicts such a withdrawal-design study would be stopped early by the IRB.",
+   "post_title": "@ScottMuirMD tweet 1649254401524023297",
+   "source_url": "https://x.com/ScottMuirMD/status/1649254401524023297",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "Prediction: ... will be",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Hypothetical study; no named trial."
+  },
+  {
+   "id": "owen-2446",
+   "forecaster": "owen",
+   "statement_date": "2023-06-29",
+   "quote": "If one of your cofounders used to be the CEO of both Optum behavioral health and Optum behavioral health care at the same time, it's a pretty safe bet they are acquisition by Optum could happen, from a de risking standpoint",
+   "context": "Reply to @rikrenard about an unnamed behavioral health startup whose cofounder had led Optum Behavioral Health. Muir calls an Optum acquisition a safe bet.",
+   "post_title": "@ScottMuirMD tweet 1674246770241486849",
+   "source_url": "https://x.com/ScottMuirMD/status/1674246770241486849",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "pretty safe bet ... could happen",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Target company not named in the tweet; parent tweet not fetched."
+  },
+  {
+   "id": "owen-2447",
+   "forecaster": "owen",
+   "statement_date": "2023-07-18",
+   "quote": "PE rollups will blow up in rapid succession, and venture funded healthcare will be an overwhelming failure.",
+   "context": "Reply to @healthcareandy. Muir predicts private-equity rollups in healthcare will fail in quick succession and venture-funded healthcare will be an overwhelming failure.",
+   "post_title": "@ScottMuirMD tweet 1681271801190522880",
+   "source_url": "https://x.com/ScottMuirMD/status/1681271801190522880",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Undated; general market call."
+  },
+  {
+   "id": "owen-2448",
+   "forecaster": "owen",
+   "statement_date": "2023-08-29",
+   "quote": "79% remission from severe depression will be our new standard at @FermataHealth and @AcaciaClinics thanks to @NolanRyWilliams and @StanfordBrain",
+   "context": "Reply to TIME reporter Jamie Ducharme, quoting a tweet about moving beyond SSRIs. Muir says SAINT-level remission (79 percent) will become the standard at Fermata and Acacia Clinics.",
+   "post_title": "@ScottMuirMD tweet 1696337691409793425",
+   "source_url": "https://x.com/ScottMuirMD/status/1696337691409793425",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will be",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Own organizations (Fermata, Acacia); CONTROL."
+  },
+  {
+   "id": "owen-2449",
+   "forecaster": "owen",
+   "statement_date": "2024-01-10",
+   "quote": "I believe GLP-1 drugs will become part of the mainstay of the psychiatrist toolkit.",
+   "context": "Q&A with Awais Aftab's Psychiatry at the Margins. Asked whether psychiatrists should learn to use Ozempic and related drugs, Muir predicts GLP-1 drugs will become a mainstay of psychiatric practice.",
+   "post_title": "Synesthesia of Distress And Other Stories: A Q&A with Owen Scott Muir",
+   "source_url": "https://www.psychiatrymargins.com/p/synesthesia-of-distress-and-other",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I believe ... will become",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Outside the interventional/psychedelic core but a clear dated practice-adoption call."
+  },
+  {
+   "id": "owen-2450",
+   "forecaster": "owen",
+   "statement_date": "2024-01-10",
+   "quote": "I see a hypothetical and neuro-modulated future where suffering is effectively alleviated. But this changes expectations and payment models, and we're going to need to keep up with it, and we're not prepared to do that yet.",
+   "context": "Same Q&A, answer on what makes him hopeful about psychiatry. After listing FDA approvals of SAINT, PRISM and Nightware, Muir foresees a neuromodulation-centred future that will force changes in expectations and payment models.",
+   "post_title": "Synesthesia of Distress And Other Stories: A Q&A with Owen Scott Muir",
+   "source_url": "https://www.psychiatrymargins.com/p/synesthesia-of-distress-and-other",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "hypothetical",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Vague horizon; forward-looking about payment-model change."
+  },
+  {
+   "id": "owen-2451",
+   "forecaster": "owen",
+   "statement_date": "2024-02-20",
+   "quote": "America...this is coming. I promise.",
+   "context": "Quote tweet of a report that more than 6,400 of 13,000 trainee doctors in South Korea resigned. Muir predicts a similar physician walkout is coming to America.",
+   "post_title": "@ScottMuirMD tweet 1759937612939206807",
+   "source_url": "https://x.com/ScottMuirMD/status/1759937612939206807",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is coming. I promise",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Outside the core psychiatry areas."
+  },
+  {
+   "id": "owen-2452",
+   "forecaster": "owen",
+   "statement_date": "2024-04-10",
+   "quote": "This is why stringent REMS programs are in our future.",
+   "context": "Reply to @DrJGiddensRN and @chrisaikenmd. Muir predicts stringent REMS programs are coming; the drug or class under discussion is in the parent tweet, which was not fetched.",
+   "post_title": "@ScottMuirMD tweet 1778053146159223246",
+   "source_url": "https://x.com/ScottMuirMD/status/1778053146159223246",
+   "area_guess": "regulatory",
+   "horizon_text": "in our future",
+   "confidence_phrase": "are in our future",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Subject unclear without the parent tweet; same day he tweeted about psychedelic medicine writing."
+  },
+  {
+   "id": "owen-2453",
+   "forecaster": "owen",
+   "statement_date": "2024-05-24",
+   "quote": "Prediction: 1T will be invested in these non solutions",
+   "context": "Reply to @operationdanish. Muir predicts one trillion dollars will be invested in what he calls non-solutions; the subject of the parent tweet was not fetched.",
+   "post_title": "@ScottMuirMD tweet 1793984831875170520",
+   "source_url": "https://x.com/ScottMuirMD/status/1793984831875170520",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "Prediction: ... will be",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Referent of 'these non solutions' unclear without the parent tweet."
+  },
+  {
+   "id": "owen-2454",
+   "forecaster": "owen",
+   "statement_date": "2024-06-10",
+   "quote": "It will not be just this that derails the approval for the combination therapy in question. They did not submit MDMA to the FDA. They submitted their combination therapy of MDMA –AT.",
+   "context": "Reply to @Drug_Researcher after the June 2024 FDA advisory committee on MDMA-assisted therapy. Muir expects the approval of the Lykos MDMA-AT combination to be derailed by more than one issue.",
+   "post_title": "@ScottMuirMD tweet 1800209974028837003",
+   "source_url": "https://x.com/ScottMuirMD/status/1800209974028837003",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will not be just this that derails",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Implies the approval gets derailed; Lykos not named in the tweet, inferred from the June 2024 context."
+  },
+  {
+   "id": "owen-2455",
+   "forecaster": "owen",
+   "statement_date": "2024-10-27",
+   "quote": "Will want to see what it looks like \"in the wild\" but it's \"about SSRI\" minus (likely) sexual dysfunction, discontinuation effects, etc.",
+   "context": "Reply to @chrisaikenmd about a newly discussed antidepressant (not named in the tweet). Muir expects SSRI-level efficacy without sexual dysfunction or discontinuation effects.",
+   "post_title": "@ScottMuirMD tweet 1850569191297864112",
+   "source_url": "https://x.com/ScottMuirMD/status/1850569191297864112",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Drug not named in the tweet; parent tweet not fetched. Borderline."
+  },
+  {
+   "id": "owen-2456",
+   "forecaster": "owen",
+   "statement_date": "2025-02-04",
+   "quote": "But kind of broadly, you're going to come into an office or in the future, it's going to come near home.",
+   "context": "Psychofarm Podcast, TMS and The Future of Psychiatry Part 1. Muir describes what a TMS treatment looks like today and says that in the future the treatment will move near the home.",
+   "post_title": "TMS and The Future of Psychiatry, Part 1 with Dr. Owen Muir (Psychofarm Podcast transcript)",
+   "source_url": "https://psycho.farm/podcast/tms-and-the-future-of-psychiatry.html",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in the future",
+   "confidence_phrase": "it's going to",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Auto-generated transcript, lightly cleaned per the page. Home TMS is a theme of his Neurolief and Ampa work (CONTROL-adjacent)."
+  },
+  {
+   "id": "owen-2457",
+   "forecaster": "owen",
+   "statement_date": "2025-02-04",
+   "quote": "Well, I'm, I'm a little shocked that TMS hasn't been used for essentially brain doping for athletes because like there's no trace of it. Like they do all sorts of stuff in competitive sports to get even a tiny edge. And I, I strongly suspect this would do it, but it just hasn't caught on yet.",
+   "context": "Psychofarm Part 1. Asked about side effects, Muir says improved cognition is a side effect and predicts TMS could be used for cognitive enhancement in sport. He adds shortly after: 'I'm sure somebody will do it for, performance improvement.'",
+   "post_title": "TMS and The Future of Psychiatry, Part 1 with Dr. Owen Muir (Psychofarm Podcast transcript)",
+   "source_url": "https://psycho.farm/podcast/tms-and-the-future-of-psychiatry.html",
+   "area_guess": "other",
+   "horizon_text": "yet",
+   "confidence_phrase": "strongly suspect",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Undated. Follow-on sentence 'I'm sure somebody will do it for, performance improvement' is separated by another speaker's line."
+  },
+  {
+   "id": "owen-2458",
+   "forecaster": "owen",
+   "statement_date": "2025-02-04",
+   "quote": "many places still do it once a day. I don't think that's the future because I think most people would like to get it over with.",
+   "context": "Psychofarm Part 1. Muir argues accelerated TMS (5 to 20 sessions a day) will replace once-daily TMS as standard practice.",
+   "post_title": "TMS and The Future of Psychiatry, Part 1 with Dr. Owen Muir (Psychofarm Podcast transcript)",
+   "source_url": "https://psycho.farm/podcast/tms-and-the-future-of-psychiatry.html",
+   "area_guess": "practice_adoption",
+   "horizon_text": "the future",
+   "confidence_phrase": "I don't think",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Undated negative call on once-daily TMS."
+  },
+  {
+   "id": "owen-2459",
+   "forecaster": "owen",
+   "statement_date": "2025-02-04",
+   "quote": "And I think you have a greater chance of remission if you use this accelerated approach. But insurance doesn't pay for it yet.",
+   "context": "Psychofarm Part 1. Muir on accelerated TMS: better remission odds, no insurance coverage yet; he then notes CMS changed the medically-unlikely edit so two sessions a day are payable.",
+   "post_title": "TMS and The Future of Psychiatry, Part 1 with Dr. Owen Muir (Psychofarm Podcast transcript)",
+   "source_url": "https://psycho.farm/podcast/tms-and-the-future-of-psychiatry.html",
+   "area_guess": "payer_policy",
+   "horizon_text": "yet",
+   "confidence_phrase": "I think",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Borderline: 'yet' implies expected future coverage but no explicit call."
+  },
+  {
+   "id": "owen-2460",
+   "forecaster": "owen",
+   "statement_date": "2025-02-04",
+   "quote": "If it were paid for tomorrow, I think there would be businesses getting this to every patient everywhere the day after that. If Medicare just said, yep, we're paying for it. I think there's a business model there.",
+   "context": "Psychofarm Part 1. Asked about barriers to broad availability of accelerated TMS, Muir says 'payment model' and makes a conditional call: Medicare coverage would trigger rapid business rollout.",
+   "post_title": "TMS and The Future of Psychiatry, Part 1 with Dr. Owen Muir (Psychofarm Podcast transcript)",
+   "source_url": "https://psycho.farm/podcast/tms-and-the-future-of-psychiatry.html",
+   "area_guess": "payer_policy",
+   "horizon_text": "tomorrow ... the day after that",
+   "confidence_phrase": "I think",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Conditional claim."
+  },
+  {
+   "id": "owen-2461",
+   "forecaster": "owen",
+   "statement_date": "2025-02-04",
+   "quote": "I think I'm dubious that we're going to have a durable version of TMS for ADHD.",
+   "context": "Psychofarm Part 1. Asked which psychiatric conditions TMS is unlikely to help, Muir names ADHD, after saying he was wrong before about schizophrenia and eating disorders.",
+   "post_title": "TMS and The Future of Psychiatry, Part 1 with Dr. Owen Muir (Psychofarm Podcast transcript)",
+   "source_url": "https://psycho.farm/podcast/tms-and-the-future-of-psychiatry.html",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "dubious",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Negative, undated call."
+  },
+  {
+   "id": "owen-2462",
+   "forecaster": "owen",
+   "statement_date": "2025-02-04",
+   "quote": "We have transcranial focused ultrasound coming online. Companies like Sanmai are bringing that technology to the fore.",
+   "context": "Psychofarm Part 1. Muir lists neuromodulation modalities beyond TMS and says transcranial focused ultrasound is arriving, naming Sanmai.",
+   "post_title": "TMS and The Future of Psychiatry, Part 1 with Dr. Owen Muir (Psychofarm Podcast transcript)",
+   "source_url": "https://psycho.farm/podcast/tms-and-the-future-of-psychiatry.html",
+   "area_guess": "company_market",
+   "horizon_text": "coming online",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Weak horizon."
+  },
+  {
+   "id": "owen-2463",
+   "forecaster": "owen",
+   "statement_date": "2025-02-04",
+   "quote": "So it's likely that if your underlying depression is recurrent, you're gonna need the treatment again. And retreatment is, again, necessary and highly likely to be successful, like greater than, I don't actually have the real numbers, but like 90% plus of people are gonna respond to a second course of treatment if they need it.",
+   "context": "Psychofarm Part 1. Muir on durability: TMS causes no permanent brain change, recurrent depression will need retreatment, and he estimates 90%+ response to a second course; durability about a year in his own work.",
+   "post_title": "TMS and The Future of Psychiatry, Part 1 with Dr. Owen Muir (Psychofarm Podcast transcript)",
+   "source_url": "https://psycho.farm/podcast/tms-and-the-future-of-psychiatry.html",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "likely; 90% plus",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Clinical generalization with a stated number, not an event forecast; logged for the coders."
+  },
+  {
+   "id": "owen-2464",
+   "forecaster": "owen",
+   "statement_date": "2025-02-05",
+   "quote": "In my new role as fractional Chief Medical Officer at Neurolief, I'm honored to work alongside Neurolief's exceptional team to bring Proliv™Rx to individuals living with treatment-resistant depression. I couldn't be more excited about the potential of this FDA-Breakthrough designated technology to reach the millions of people still searching for relief.",
+   "context": "Press release announcing Muir as Neurolief's fractional CMO ahead of the planned launch of Proliv Rx (at-home brain stimulation for TRD, FDA Breakthrough designated).",
+   "post_title": "Neurolief Appoints Dr. Owen Muir as Chief Medical Officer to Drive Innovation in Depression Treatment",
+   "source_url": "https://www.prnewswire.com/news-releases/neurolief-appoints-dr-owen-muir-as-chief-medical-officer-to-drive-innovation-in-depression-treatment-302368206.html",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "potential ... to reach",
+   "entities": [],
+   "finder_note": "source confidence high; undated; CONTROL (Neurolief). Borderline: aspirational launch/reach statement, no date."
+  },
+  {
+   "id": "owen-2465",
+   "forecaster": "owen",
+   "statement_date": "2025-06-18",
+   "quote": "clinics like mine which deployed this treatment in a clinical trial can already deploy it in clinical practice and we're working hard on getting it published FDA cleared and most importantly covered by insurance subsequently.",
+   "context": "Muir's own video on the BrainsWay accelerated H1-coil non-inferiority trial (78% remission, 5 sessions a day over 6 days). He states the plan: publication, FDA clearance, then insurance coverage.",
+   "post_title": "Dr. Owen Muir breaks down the best TMS outcomes a new aTMS Clinical Trial (Owen Muir, M.D. YouTube)",
+   "source_url": "https://www.youtube.com/watch?v=TMU22c2vgto",
+   "area_guess": "regulatory",
+   "horizon_text": "subsequently",
+   "confidence_phrase": "working hard on",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Investigator on the trial (CONTROL-adjacent). Sequence plan rather than a dated call."
+  },
+  {
+   "id": "owen-2466",
+   "forecaster": "owen",
+   "statement_date": "2025-07-20",
+   "quote": "Now this decision is not binding on the FDA but a 10 to1 vote is makes it really hard to imagine that this indication Brex peppers all searchene for PTSD is going to get over the line.",
+   "context": "Muir's own video reviewing the FDA advisory committee on brexpiprazole plus sertraline for PTSD (10-1 vote against). He predicts the indication is unlikely to be approved.",
+   "post_title": "Join me for the FDA AdCom review of Brexpiprazole/sertraline for PTSD (Owen Muir, M.D. YouTube)",
+   "source_url": "https://www.youtube.com/watch?v=HTGDIyMq4Ok",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "really hard to imagine",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Auto-generated captions garble the drug names ('Brex peppers all searchene'). Otsuka not named on the page."
+  },
+  {
+   "id": "owen-2467",
+   "forecaster": "owen",
+   "statement_date": "2025-11-10",
+   "quote": "The younger the person is, the closer, and closer, TMS or transcranial magnetic stimulation gets to being the first thing I'd recommend.",
+   "context": "Carlat Psychiatry Podcast, TMS, Teens, and Antidepressants. Asked who the best TMS candidate is, Muir says adolescents; episode frames a possible shift away from antidepressants in youth.",
+   "post_title": "TMS, Teens, and Antidepressants (The Carlat Psychiatry Podcast transcript)",
+   "source_url": "https://www.thecarlatreport.com/blogs/2-the-carlat-psychiatry-podcast/post/5629-tms-teens-and-antidepressants",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Borderline: a practice stance rather than a forecast."
+  },
+  {
+   "id": "owen-2468",
+   "forecaster": "owen",
+   "statement_date": "2025-11-10",
+   "quote": "TMS works. It's an effective treatment that will make depression and particularly suicidality get better in most people we use it with, and increasingly quickly.",
+   "context": "Carlat Psychiatry Podcast, TMS, Teens, and Antidepressants. Muir explains why alarming adolescent suicide-attempt rates draw him to TMS.",
+   "post_title": "TMS, Teens, and Antidepressants (The Carlat Psychiatry Podcast transcript)",
+   "source_url": "https://www.thecarlatreport.com/blogs/2-the-carlat-psychiatry-podcast/post/5629-tms-teens-and-antidepressants",
+   "area_guess": "other",
+   "horizon_text": "increasingly quickly",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Borderline: clinical claim; 'increasingly quickly' reads as a trend expectation."
+  },
+  {
+   "id": "owen-2469",
+   "forecaster": "owen",
+   "statement_date": "2026-03-13",
+   "quote": "By significantly reducing the time and travel, and improving time to remission, accelerated protocols like SWIFT may help more patients start and complete safe and effective treatment.",
+   "context": "Radial press release on publication of the SWIFT accelerated Deep TMS study. Muir predicts accelerated protocols may raise treatment starts and completions.",
+   "post_title": "Radial Announces Publication of Landmark Study of Accelerated Deep TMS for Depression - BioSpace",
+   "source_url": "https://www.biospace.com/press-releases/radial-announces-publication-of-landmark-study-of-accelerated-deep-tms-for-depression",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "may help",
+   "entities": [],
+   "finder_note": "source confidence high; undated; CONTROL. Hedged adoption claim."
+  }
+ ]
+}
