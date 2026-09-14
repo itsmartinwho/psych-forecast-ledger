@@ -1,5 +1,367 @@
 [
  {
+  "event_id": "E-0001",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name:%22midomafetamine%22+OR+openfda.substance_name:%22midomafetamine%22+OR+products.active_ingredients.name:%22midomafetamine%22&limit=5",
+    "title": "openFDA Drugs@FDA API query for midomafetamine (response: NOT_FOUND, 'No matches found!')",
+    "publisher": "US Food and Drug Administration (openFDA / Drugs@FDA)",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+    "title": "Novel Drug Approvals for 2026",
+    "publisher": "US Food and Drug Administration",
+    "date": "2026-09-11",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+    "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+    "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+    "date": "2026-08-10",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://psychedelicalpha.com/news/two-years-after-rejection-resilient-quietly-refiles-mdma-for-ptsd-application/",
+    "title": "Two Years After Rejection, Resilient Quietly Refiles MDMA for PTSD Application",
+    "publisher": "Psychedelic Alpha",
+    "date": "2026-08-12",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Not approved as of 2026-09-13. The Drugs@FDA data (openFDA mirror) return no application for midomafetamine, while the same query returns NDA 211243 for esketamine as a control; FDA's 2026 novel drug approvals list (current to 2026-09-11) has no MDMA, midomafetamine or Rysanso entry. History: the Lykos NDA 215455 received a complete response letter in August 2024, which is not an approval under the criterion. Resilient Pharmaceuticals (successor to MAPS PBC and Lykos) resubmitted the NDA in early August 2026 (MAPS statement 2026-08-10; Psychedelic Alpha 2026-08-12); that review is pending and no approval letter, Drugs@FDA entry or sponsor approval announcement exists.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0002",
+  "state": "occurred",
+  "date": "2021-05-03",
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://maps.org/2021/05/03/maps-phase-3-trial-of-mdma-assisted-therapy-for-ptsd-achieves-successful-results-for-patients-with-severe-chronic-ptsd/",
+    "title": "MAPS' Phase 3 Trial of MDMA-Assisted Therapy for PTSD Achieves Successful Results for Patients with Severe, Chronic PTSD",
+    "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS), sponsor",
+    "date": "2021-05-03",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://clinicaltrials.gov/study/NCT03537014",
+    "title": "A Multi-Site Phase 3 Study of MDMA-Assisted Psychotherapy for PTSD (MAPP1), NCT03537014, results section",
+    "publisher": "ClinicalTrials.gov (US National Library of Medicine)",
+    "date": "2021-09-16",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.nature.com/articles/s41591-021-01336-3",
+    "title": "MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study",
+    "publisher": "Nature Medicine",
+    "date": "2021-05-10",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33972795/",
+    "title": "PubMed record 33972795 (Nature Medicine, electronic publication 2021-05-10; NCT03537014)",
+    "publisher": "PubMed (US National Library of Medicine)",
+    "date": "2021-05-10",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Occurred. The sponsor's topline release of 2021-05-03 first reported that MAPP1 (NCT03537014, 90 participants) met its prespecified primary endpoint: MDMA-assisted therapy gave a significant reduction in CAPS-5 total severity versus placebo with therapy (p<0.0001). The peer-reviewed publication followed in Nature Medicine on 2021-05-10 (d=0.91, P<0.0001), and ClinicalTrials.gov posted results on 2021-09-16 (CAPS-5 change -24.5 vs -12.64). The 2020 interim analysis is excluded by the criterion, so the date is the earliest of the three named sources, the sponsor release.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0003",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name:%22psilocybin%22+OR+openfda.substance_name:%22psilocybin%22+OR+products.active_ingredients.name:%22psilocybin%22&limit=5",
+    "title": "openFDA Drugs@FDA API query for psilocybin (response: NOT_FOUND, 'No matches found!')",
+    "publisher": "US Food and Drug Administration (openFDA / Drugs@FDA)",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+    "title": "Novel Drug Approvals for 2026",
+    "publisher": "US Food and Drug Administration",
+    "date": "2026-09-11",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+    "title": "Compass Pathways Announces Second Quarter and First Half 2026 Financial Results and Business Highlights (Form 8-K exhibit)",
+    "publisher": "Compass Pathways plc via SEC EDGAR",
+    "date": "2026-08-05",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-FDA-Granted-NDA-Rolling-Review-Request-and-Awarded-Commissioners-National-Priority-Voucher/default.aspx",
+    "title": "Compass Pathways Announces FDA Granted NDA Rolling Review Request and Awarded Commissioner's National Priority Voucher",
+    "publisher": "Compass Pathways plc",
+    "date": "2026-04-24",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Not approved as of 2026-09-13. Drugs@FDA (openFDA mirror) returns no drug product with psilocybin as active ingredient, and FDA's 2026 novel drug approvals list (current to 2026-09-11) contains no psilocybin product. The most advanced application, Compass Pathways' COMP360 for treatment-resistant depression, is a rolling NDA: the 2026-08-05 Q2 results say final submission is expected in Q4 2026 and launch in H1 2027 if approved. Rolling review, the Commissioner's National Priority Vouchers (Compass, Usona), breakthrough designations, and state or foreign psilocybin programmes are not FDA approvals; deuterated analogues (CYB003/HLP003) are excluded by the criterion.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0004",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.ema.europa.eu/en/medicines/medicines-human-use-under-evaluation",
+    "title": "Medicines for human use under evaluation (monthly CHMP list, latest September 2026)",
+    "publisher": "European Medicines Agency",
+    "date": "2026-09-09",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.ema.europa.eu/en/documents/report/applications-new-human-medicines-under-evaluation-september-2026_en.xlsx",
+    "title": "Applications for new human medicines under evaluation by the CHMP, September 2026 (spreadsheet)",
+    "publisher": "European Medicines Agency",
+    "date": "2026-09-09",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://ec.europa.eu/health/documents/community-register/html/reg_hum_act.htm",
+    "title": "Union Register of medicinal products for human use: authorised products (active list)",
+    "publisher": "European Commission, DG SANTE",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+    "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+    "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+    "date": "2026-08-10",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Not occurred as of 2026-09-13. The September 2026 CHMP list of initial marketing authorisation applications under evaluation (published 2026-09-09) contains no midomafetamine, MDMA or PTSD entry, and the Commission's Union Register of authorised products contains no midomafetamine product (esketamine/Spravato appears, as a control). No EPAR, CHMP opinion or Commission decision exists. The sponsor line (MAPS PBC, Lykos, now Resilient Pharmaceuticals) has publicly pursued only the FDA route, with an NDA resubmission in August 2026. The EMA full-text search page returned HTTP 401 to the fetch, so the monthly under-evaluation list and the Union Register were used as the database checks.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0005",
+  "state": "occurred",
+  "date": "2024-04-15",
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/cerebral_joint_stipulation_order_permanent_injunction.pdf",
+    "title": "Joint Stipulation for Order for Permanent Injunction, Monetary Judgment, Civil Penalty Judgment, and Other Relief Against Defendant Cerebral, Inc. (U.S. v. Cerebral, Inc., No. 1:24-cv-21376-JLK, S.D. Fla., Document 6, entered on FLSD docket 04/15/2024)",
+    "publisher": "US District Court for the Southern District of Florida, via Federal Trade Commission",
+    "date": "2024-04-15",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2024/04/proposed-ftc-order-will-prohibit-telehealth-firm-cerebral-using-or-disclosing-sensitive-data",
+    "title": "Proposed FTC Order will Prohibit Telehealth Firm Cerebral from Using or Disclosing Sensitive Data for Advertising Purposes, and Require it to Pay $7 Million",
+    "publisher": "Federal Trade Commission",
+    "date": "2024-04-15",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/cerebral-inc-kyle-robertson-us-v-timeline-item-2024-04-15",
+    "title": "Cerebral, Inc. and Kyle Robertson, U.S. v. (timeline item, complaint and joint stipulation filed)",
+    "publisher": "Federal Trade Commission",
+    "date": "2024-04-15",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.courtlistener.com/docket/68432608/united-states-v-cerebral-inc/",
+    "title": "United States v. Cerebral, Inc., 1:24-cv-21376 (S.D. Fla.), docket (date filed 2024-04-12; cause 15:0045 Federal Trade Commission Act)",
+    "publisher": "CourtListener (Free Law Project)",
+    "date": "2024-04-12",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.justice.gov/usao-edny/media/1376051/dl?inline=",
+    "title": "Non-Prosecution Agreement between the U.S. Attorney's Office for the Eastern District of New York and Cerebral, Inc. (letter dated November 1, 2024)",
+    "publisher": "US Department of Justice, US Attorney's Office, Eastern District of New York",
+    "date": "2024-11-01",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.justice.gov/usao-edny/pr/telehealth-company-cerebral-agrees-pay-over-36-million-connection-business-practices",
+    "title": "Telehealth Company Cerebral Agrees to Pay Over $3.6 Million in Connection with Business Practices",
+    "publisher": "US Department of Justice, US Attorney's Office, Eastern District of New York",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://hitconsultant.net/2024/11/04/cerebral-inc-agrees-to-3-6m-settlement-over-unauthorized-distribution-of-controlled-substances/",
+    "title": "Cerebral to Pay $3.6M Settlement Over Unauthorized Distribution of Controlled Substances",
+    "publisher": "HIT Consultant",
+    "date": "2024-11-04",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.courtlistener.com/docket/67980226/united-states-of-america-v-cerebral-inc/",
+    "title": "United States of America v. Cerebral, Inc., 1:22-cv-00055 (N.D. Iowa), qui tam docket (US declined intervention 2023-10-13; voluntary dismissal 2023-11-05; case terminated 2023-11-06)",
+    "publisher": "CourtListener (Free Law Project)",
+    "date": "2022-06-22",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Occurred. First qualifying docket entry: the FTC-referred stipulated order against Cerebral, Inc. (permanent injunction, $5.1M consumer redress, $10M civil penalty with $2M payable) over its data-disclosure and cancellation business practices, filed by DOJ in U.S. v. Cerebral, Inc., No. 1:24-cv-21376 (S.D. Fla.), Document 6 entered on the docket 2024-04-15 (complaint filed 2024-04-12; the FTC copy shows the judge's signature block blank, so court entry came later). The criterion counts a filed settlement over 'prescribing or business practices'. The prescribing-specific outcome came later: the EDNY non-prosecution agreement dated 2024-11-01 ($3.652M forfeiture, $2.922M deferred penalty; announced 2024-11-04) for Controlled Substances Act conduct in 2019-2022. The 2022 N.D. Iowa qui tam (1:22-cv-00055) was declined by the US and voluntarily dismissed on 2023-11-06, so it does not count.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0006",
+  "state": "occurred",
+  "date": "2024-07-10",
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11238064/",
+    "title": "Accelerated Intermittent Theta-Burst Stimulation and Treatment-Refractory Bipolar Depression: A Randomized Clinical Trial (Sheline et al., JAMA Psychiatry, published online July 10, 2024)",
+    "publisher": "JAMA Psychiatry via PubMed Central",
+    "date": "2024-07-10",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://doi.org/10.1001/jamapsychiatry.2024.1787",
+    "title": "Accelerated Intermittent Theta-Burst Stimulation and Treatment-Refractory Bipolar Depression: A Randomized Clinical Trial (DOI record; created 2024-07-10, print issue 2024-09-01)",
+    "publisher": "JAMA Psychiatry (American Medical Association)",
+    "date": "2024-07-10",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://clinicaltrials.gov/study/NCT05228457",
+    "title": "Intensive TMS for Bipolar Depression (NCT05228457; University of Pennsylvania; randomized, triple-masked; conditions: Bipolar Depression, Treatment Resistant Depression; results first posted 2025-03-12)",
+    "publisher": "ClinicalTrials.gov (US National Library of Medicine)",
+    "date": "2025-03-12",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40042840/",
+    "title": "Accelerated Theta-Burst Stimulation for Treatment-Resistant Depression: A Randomized Clinical Trial (Ramos et al., JAMA Psychiatry 2025; NCT05388539)",
+    "publisher": "PubMed (US National Library of Medicine)",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11043680/",
+    "title": "Effect of novel accelerated intermittent theta burst stimulation on suicidal ideation in adolescent patients with major depressive episode: a randomised clinical trial (Huang et al., General Psychiatry; primary endpoint not met, p=0.170)",
+    "publisher": "General Psychiatry via PubMed Central",
+    "date": "2024-04-22",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Occurred. First qualifying report after 2022-07-11: Sheline et al., JAMA Psychiatry, online 2024-07-10 (NCT05228457, Univ. of Pennsylvania): imaging-guided accelerated iTBS, 10 sessions/day for 5 days (90,000 pulses, SNT-like), 24 patients with treatment-resistant bipolar depression, randomized, sham-controlled; primary MADRS at treatment end -14.75 vs sham (P<.001, d -2.19); CT.gov results posted 2025-03-12. Reading: bipolar depression counts as 'a depressive disorder' because the event is 'for depression' and the registered conditions include treatment-resistant depression. Earlier post-2022 accelerated iTBS RCTs missed their primary endpoint (Wilkening 2022; Li 2023; Huang 2024) or had no sham arm (Cheng 2023). If bipolar depression is excluded, the first qualifying MDD trial is Ramos et al., JAMA Psychiatry, online March 2025 (NCT05388539; HDRS-17 at week 5, P<.001).",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0007",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=drug-enforcement-administration&conditions%5Bterm%5D=telemedicine&conditions%5Btype%5D%5B%5D=RULE&order=newest&per_page=40",
+    "title": "Federal Register API: DEA documents of type Rule matching 'telemedicine' (13 documents, newest 2026-06-09; no special-registration final rule)",
+    "publisher": "Office of the Federal Register (federalregister.gov API)",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24123/fourth-temporary-extension-of-covid-19-telemedicine-flexibilities-for-prescription-of-controlled",
+    "title": "Fourth Temporary Extension of COVID-19 Telemedicine Flexibilities for Prescription of Controlled Medications (90 FR 61301; effective 2026-01-01 through 2026-12-31)",
+    "publisher": "Federal Register (DEA and HHS)",
+    "date": "2025-12-31",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.federalregister.gov/documents/2025/01/17/2025-01099/special-registrations-for-telemedicine-and-limited-state-telemedicine-registrations",
+    "title": "Special Registrations for Telemedicine and Limited State Telemedicine Registrations (proposed rule)",
+    "publisher": "Federal Register (DEA)",
+    "date": "2025-01-17",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://connectwithcare.org/dea-prescribing-of-controlled-substances/",
+    "title": "DEA Prescribing of Controlled Substances (status tracker: final special registration rule under OMB/OIRA review since 2026-08-25, release expected November 2026)",
+    "publisher": "Alliance for Connected Care",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Not occurred as of 2026-09-13. No DEA final rule published in the Federal Register lets a practitioner prescribe controlled substances to patients in a state where the practitioner holds no registration at a physical location. The Federal Register API (DEA, type Rule, term telemedicine) lists 13 documents, newest 2026-06-09; the only telemedicine rules since 2023 are four temporary extensions of the COVID-19 flexibilities (latest 2025-12-31, in force through 2026-12-31), excluded by the criterion as emergency exceptions, and the January 2025 buprenorphine and VA rules, which do not change per-state registration. The 'Special Registrations for Telemedicine and Limited State Telemedicine Registrations' rule is still a proposed rule (2025-01-17); it entered OIRA review on 2026-08-25 with final action expected in November 2026. No enacted statute found (TREATS Act still a bill).",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0008",
+  "state": "occurred",
+  "date": "2024-04-30",
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.magnusmedical.com/press-release/commercial-launch/",
+    "title": "Magnus Medical Announces Commercial Launch of Groundbreaking SAINT Neuromodulation System (Burlingame, Calif., April 30, 2024)",
+    "publisher": "Magnus Medical, Inc.",
+    "date": "2024-04-30",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.biospace.com/magnus-medical-announces-commercial-launch-of-groundbreaking-saint-neuromodulation-system",
+    "title": "Magnus Medical Announces Commercial Launch of Groundbreaking SAINT Neuromodulation System (Business Wire release republished)",
+    "publisher": "BioSpace",
+    "date": "2024-04-30",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.magnusmedical.com/press-release/fda-clearance-saint/",
+    "title": "Magnus Medical Receives FDA Clearance for the SAINT Neuromodulation System (states commercial launch expected later in 2023 on a limited basis)",
+    "publisher": "Magnus Medical, Inc.",
+    "date": "2022-09-06",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.magnusmedical.com/press-release/clinical-trial-announcement/",
+    "title": "Magnus Medical Announces First Participants Treated in Study Using SAINT Neuromodulation System for Major Depression (open-label optimization trial, not commercial use)",
+    "publisher": "Magnus Medical, Inc.",
+    "date": "2023-07-20",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.magnusmedical.com/press-release-sitemap.xml",
+    "title": "Magnus Medical press-release sitemap (all 13 press releases; none between 2023-10-23 and 2024-04-30)",
+    "publisher": "Magnus Medical, Inc.",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Occurred. Magnus Medical's press release dated 2024-04-30 'announced the commercial launch of the SAINT neuromodulation system' for treatment-resistant MDD and named the first customer sites (University of Arkansas for Medical Sciences, MUSC Health, Acacia Clinics, Kaizen Brain Center); UAMS is quoted as the first site in the nation to offer SAINT, and the release also reports CMS NTAP approval. This is the sponsor's definitive commercial-availability announcement required by the criterion. Earlier Magnus releases do not qualify: 2022-09-06 FDA clearance (launch 'expected ... later in 2023 on a limited basis'), 2023-05-15 study results, 2023-07-20 first participants treated in the OLO study (trial, not commercial), 2023-10-23 CPT Category III codes. The sponsor's press-release sitemap lists no other release between 2023-10-23 and 2024-04-30.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
   "event_id": "E-0009",
   "state": "occurred",
   "date": "2023-01-05",
@@ -657,6 +1019,392 @@
   "version": 1
  },
  {
+  "event_id": "E-0025",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.justice.gov/opa/pr/digital-health-company-and-medical-practice-indicted-100m-adderall-distribution-scheme",
+    "title": "Digital Health Company and Medical Practice Indicted in $100M Adderall Distribution Scheme",
+    "publisher": "US Department of Justice, Office of Public Affairs",
+    "date": "2025-12-17",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.justice.gov/opa/pr/founderceo-and-clinical-president-digital-health-company-sentenced-8-years-90-million-scheme",
+    "title": "Founder/CEO and Clinical President of Digital Health Company Sentenced to 72 Months and 24 Months, Respectively, for $90 Million Scheme to Distribute over 37 Million Pills of Adderall",
+    "publisher": "US Department of Justice, Office of Public Affairs",
+    "date": "2026-07-07",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.justice.gov/opa/pr/national-health-care-fraud-takedown-results-455-defendants-charged-connection-over-65",
+    "title": "National Health Care Fraud Takedown Results in 455 Defendants Charged in Connection with Over $6.5 Billion in Alleged Fraud",
+    "publisher": "US Department of Justice, Office of Public Affairs",
+    "date": "2026-06-23",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://oig.hhs.gov/fraud/enforcement/2026-national-health-care-fraud-takedown/",
+    "title": "2026 National Health Care Fraud Takedown",
+    "publisher": "HHS Office of Inspector General",
+    "date": "2026-06-23",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.mintz.com/insights-center/viewpoints/2146/2026-01-08-telehealth-update-telehealth-flexibilities-convictions",
+    "title": "Telehealth Update: Telehealth Flexibilities, Convictions and Indictment, and 2026 Outlook",
+    "publisher": "Mintz",
+    "date": "2026-01-08",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.jdsupra.com/topics/telemedicine/healthcare-fraud/telehealth/",
+    "title": "Telemedicine, Healthcare Fraud and Telehealth: News and Analysis",
+    "publisher": "JD Supra",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.healthcarelawinsights.com/category/telehealth/",
+    "title": "Telehealth category archive",
+    "publisher": "Healthcare Law Insights (Husch Blackwell)",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Checked DOJ Office of Public Affairs releases, the June 2026 national takedown materials and law-firm roundups through 2026-09-13. The only DOJ criminal prosecution of a telehealth or digital health company for controlled-substance distribution through its platform is still the Done Global case: executives charged 2024-06-13, convicted 2025-11-19, sentenced 2026-07-07. The 2025-12-17 indictment of Done Global Inc. and Mindful Mental Wellness P.A. is the same case (Done set up MMW to keep filling its prescriptions), so the criterion excludes it. The 2026 takedown (455 defendants) names no telehealth-company controlled-substance case; its Aptihealth matter is a civil billing settlement. Cerebral (subpoena, civil settlements) and Truepill (DEA administrative action) do not qualify. DOJ and DEA site search returned 403; coverage rests on OPA releases, takedown pages and roundups.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0026",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=017442",
+    "title": "Drugs@FDA: MINIPRESS (prazosin hydrochloride) NDA 017442, approval history and supplements",
+    "publisher": "US Food and Drug Administration",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/017442s041lbl.pdf",
+    "title": "Minipress capsules (prazosin hydrochloride) for oral use: FDA-approved prescribing information, NDA 017442 s041",
+    "publisher": "US Food and Drug Administration",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4f55f4db-dab3-4e50-9f71-5595fd3ccc12",
+    "title": "PRAZOSIN HYDROCHLORIDE capsule [Major Pharmaceuticals], prescribing information Rev. 05/25",
+    "publisher": "NLM DailyMed",
+    "date": "2026-09-10",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?drug_name=prazosin+hydrochloride&pagesize=5",
+    "title": "DailyMed SPL listing for prazosin hydrochloride (current labels, September 2026)",
+    "publisher": "NLM DailyMed",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Drugs@FDA lists NDA 017442 (Minipress, Pfizer) with its most recent labeling supplements dated 2013-11-04 and 2015-02-27 and no efficacy supplement that adds an indication. The FDA label (s041) and the current generic label (Major Pharmaceuticals, Rev. 05/25, on DailyMed in September 2026) state one indication: treatment of hypertension. No PTSD, nightmare or sleep-disturbance indication appears on any prazosin label as of 2026-09-13; use for PTSD nightmares remains off-label, and guideline or compendium use does not count. The Drugs@FDA free-text search cannot be run by GET, so the NDA overview page and the DailyMed listing were checked instead.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0027",
+  "state": "occurred",
+  "date": "2024-08-09",
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
+    "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
+    "publisher": "Lykos Therapeutics via PR Newswire",
+    "date": "2024-08-09",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
+    "title": "Complete Response letter, NDA 215455, midomafetamine capsules (Lykos Therapeutics), published in the FDA CRL database",
+    "publisher": "US Food and Drug Administration (openFDA)",
+    "date": "2024-08-08",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://maps.org/2025/09/04/fda-public-release-of-crl/",
+    "title": "MAPS Statement on FDA's Public Release of Complete Response Letter for MDMA-assisted Therapy",
+    "publisher": "MAPS",
+    "date": "2025-09-04",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://psychedelicalpha.com/news/breaking-fda-publishes-lykos-therapeutics-mdma-complete-response-letter-crl/",
+    "title": "BREAKING: FDA Publishes Lykos Therapeutics' MDMA Complete Response Letter (CRL)",
+    "publisher": "Psychedelic Alpha",
+    "date": "2025-09-04",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "The sponsor disclosed the grounds first: on 2024-08-09 Lykos announced the CRL and said FDA 'requested that Lykos conduct an additional Phase 3 trial to further study the safety and efficacy of midomafetamine', a request for additional safety data together with other deficiencies, which satisfies the criterion on that date. The letter itself (dated 2024-08-08, published by FDA on 2025-09-04) confirms the safety-data grounds: the application did not 'establish the safety' of the product; unreported adverse events at two or more sites raised 'substantial concerns about the reliability of the safety data'; phase 3 laboratory data (liver analytes, electrolytes) were absent and the cardiac safety assessment was incomplete; FDA asked for a new trial to 'adequately characterize the safety'. No PDUFA extension was involved; FDA acted on the NDA that was under review in June 2024.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0028",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": 2759233137,
+  "evidence": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000119312526344720/atai-20260630.htm",
+    "title": "AtaiBeckley Inc. Form 10-Q for the quarter ended June 30, 2026 (cover page: 370,864,669 shares outstanding as of August 7, 2026)",
+    "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+    "date": "2026-08-07",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://finance.yahoo.com/quote/ATAI/history/",
+    "title": "AtaiBeckley Inc. (ATAI) stock historical prices and data",
+    "publisher": "Yahoo Finance",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://stockanalysis.com/stocks/atai/history/",
+    "title": "AtaiBeckley (ATAI) stock price history",
+    "publisher": "Stock Analysis",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://stockanalysis.com/stocks/atai/market-cap/",
+    "title": "AtaiBeckley (ATAI) market cap and net worth history",
+    "publisher": "Stock Analysis",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000114036126028604/ef20078103_ex99-1.htm",
+    "title": "Lilly to acquire AtaiBeckley to advance therapies for treatment-resistant depression and other mental health conditions (Form 8-K Exhibit 99.1)",
+    "publisher": "AtaiBeckley Inc. / Eli Lilly via SEC EDGAR",
+    "date": "2026-07-16",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.investing.com/news/company-news/lilly-completes-acquisition-of-ataibeckley-for-mental-health-drugs-93CH-4897978",
+    "title": "Lilly completes acquisition of AtaiBeckley for mental health drugs",
+    "publisher": "Investing.com",
+    "date": "2026-09-11",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Series: Nasdaq close multiplied by the share count on the latest 10-Q cover (370,864,669 as of 2026-08-07). The highest close in the final months of trading was $7.44 on 2026-08-25, giving $2.76B (stored as realized_value); the last closes before Lilly's $6.75-cash-plus-CVR takeover closed on 2026-09-11 were $7.35 (2026-09-10 and 09-11), giving $2.73B. Earlier history is far lower: IPO-day cap $2.29B on 2021-06-18 and year-end caps of $1.22B (2021), $0.44B (2022), $0.23B (2023), $0.22B (2024) and $1.49B (2025). No close ever reached $10B. Closing prices come from Yahoo Finance and Stock Analysis, which both report Nasdaq closes (nasdaq.com timed out). ATAI stopped trading after the acquisition with no successor listing, so no later close can change this result.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0029",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+    "title": "Novel Drug Approvals for 2026",
+    "publisher": "US Food and Drug Administration",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000119312526344720/atai-20260630.htm",
+    "title": "AtaiBeckley Inc. Form 10-Q for the quarter ended June 30, 2026 (clinical-stage company; pending Lilly merger)",
+    "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+    "date": "2026-08-07",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000114036126028604/ef20078103_ex99-1.htm",
+    "title": "Lilly to acquire AtaiBeckley (Form 8-K Exhibit 99.1): BPL-003 in Phase 3, VLS-01 in Phase 2b, CVR contingent on future US approval",
+    "publisher": "AtaiBeckley Inc. / Eli Lilly via SEC EDGAR",
+    "date": "2026-07-16",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.investing.com/news/company-news/lilly-completes-acquisition-of-ataibeckley-for-mental-health-drugs-93CH-4897978",
+    "title": "Lilly completes acquisition of AtaiBeckley for mental health drugs",
+    "publisher": "Investing.com",
+    "date": "2026-09-11",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+    "title": "Compass Pathways second quarter 2026 results press release (Form 8-K exhibit): COMP360 NDA rolling submission underway",
+    "publisher": "COMPASS Pathways plc via SEC EDGAR",
+    "date": "2026-08-05",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "No FDA, EMA, MHRA, TGA or other approval exists for any psychedelic developed, owned or partnered by atai Life Sciences or its successor AtaiBeckley (a Lilly subsidiary since 2026-09-11). FDA's 2026 novel approvals list holds no psychedelic or entactogen; the company's Q2 2026 10-Q calls itself clinical-stage; Lilly's July 2026 deal terms place BPL-003 (mebufotenin, 5-MeO-DMT) in Phase 3 and VLS-01 (DMT) in Phase 2b, with CVR payments contingent on future US approval. COMP360 (Compass Pathways, in which atai held only a shrinking equity stake, not a licence or partnership) is still in rolling NDA submission with modules due in Q4 2026 and no approval. The Drugs@FDA search form cannot be queried by GET, so the FDA approvals list was used instead.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0030",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
+    "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
+    "publisher": "Lykos Therapeutics via PR Newswire",
+    "date": "2024-08-09",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.biospace.com/fda/lykos-announces-productive-meeting-with-fda-regarding-rejected-mdma-drug",
+    "title": "Lykos Announces 'Productive' Meeting With FDA Regarding Rejected MDMA Drug",
+    "publisher": "BioSpace",
+    "date": "2024-10-21",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://psychedelicalpha.com/news/lykos-plots-fda-appeal-reeling-from-crl-and-journal-article-retractions-mdma-developer-hopes-to-change-your-mind",
+    "title": "Lykos Plots FDA Appeal: Reeling from CRL and Journal Article Retractions, MDMA Developer Hopes to Change Your Mind",
+    "publisher": "Psychedelic Alpha",
+    "date": "2024-08-13",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://psychedelicalpha.com/news/two-years-after-rejection-resilient-quietly-refiles-mdma-for-ptsd-application/",
+    "title": "Two Years After Rejection, Resilient Quietly Refiles MDMA for PTSD Application",
+    "publisher": "Psychedelic Alpha",
+    "date": "2026-08-09",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+    "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+    "publisher": "MAPS",
+    "date": "2026-08-10",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://healingmaps.com/mdma-ptsd-nda-resubmitted-fda-resilient/",
+    "title": "MAPS-Funded MDMA Therapy for PTSD Is Back at the FDA, Without a New Phase 3 Trial",
+    "publisher": "Healing Maps",
+    "date": "2026-08-11",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://doubleblindmag.com/mdma-and-the-fda-take-two/",
+    "title": "MDMA and the FDA, Take Two",
+    "publisher": "DoubleBlind",
+    "date": "2026-08-24",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Lykos said on 2024-08-09 it would seek a meeting to ask FDA to reconsider the CRL. After that Type A meeting Lykos reported (2024-10-21) a 'path forward' that still included an additional Phase 3 trial plus a third-party review of prior data, so FDA did not withdraw its request. No formal dispute resolution decision or reconsideration grant has been published by FDA, Lykos or its successor Resilient Pharmaceuticals through 2026-09-13. Resilient's August 2026 resubmission without a new Phase 3 relies on third-party VA data, a 32-subject cardiac safety study and an audit; reporting shows no FDA statement waiving the Phase 3 request, no acceptance-for-review notice and no goal date, and a resubmission accepted for review would not count in any case. The Lykos and Resilient websites could not be read (redirect loop and empty page).",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0031",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/1520697/000119312526321076/achc-20260630.htm",
+    "title": "Acadia Healthcare Company, Inc. Form 10-Q for the quarter ended June 30, 2026 (Note 8, Commitments and Contingencies: Government Investigations)",
+    "publisher": "Acadia Healthcare via SEC EDGAR",
+    "date": "2026-07-28",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/1520697/000095017024119044/achc-20240930.htm",
+    "title": "Acadia Healthcare Company, Inc. Form 10-Q for the quarter ended September 30, 2024 (grand jury subpoenas, SDNY request, SEC subpoena)",
+    "publisher": "Acadia Healthcare via SEC EDGAR",
+    "date": "2024-10-30",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.courtlistener.com/api/rest/v4/search/?q=caseName%3A%22United%20States%22%20AND%20Acadia&type=r&order_by=dateFiled%20asc&filed_after=2024-09-04",
+    "title": "CourtListener RECAP search: dockets captioned 'United States' mentioning Acadia, filed after 2024-09-04",
+    "publisher": "Free Law Project (CourtListener)",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.stocktitan.net/sec-filings/ACHC/10-q-acadia-healthcare-company-inc-quarterly-earnings-report-3c2ba2f243d3.html",
+    "title": "Acadia Healthcare Q2 2026 quarterly report (10-Q) rendering",
+    "publisher": "Stock Titan",
+    "date": "2026-07-28",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "No criminal indictment, information or complaint naming Acadia Healthcare, a subsidiary or any current or former employee over involuntary holds was found through 2026-09-13. Acadia's 10-Q filed 2026-07-28 reports investigations only: DOJ Criminal Division grand jury subpoenas from the W.D. Mo. (first issued in September 2024 to the company and to Lakeland Hospital Acquisition LLC, withdrawn in October 2024, re-issued in December 2024), a withdrawn SDNY request, SEC subpoenas, congressional requests and an internal investigation with 'no findings or conclusions'. RECAP shows no United States v. Acadia docket after 2024-09-04. DOJ's Acadia matters (the $19.85M September 2024 False Claims Act settlement and state Medicaid settlements) are civil and do not count. Justice.gov and DEA search pages returned 403, so DOJ coverage rests on the company's SEC disclosures, RECAP and news.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0032",
+  "state": "occurred",
+  "date": "2024-10-16",
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.courtlistener.com/api/rest/v4/search/?q=%22Acadia%20Healthcare%22&type=r&order_by=dateFiled%20asc&filed_after=2024-09-04",
+    "title": "CourtListener RECAP search: 'Acadia Healthcare' dockets filed after 2024-09-04 (Kachrodia v. Acadia Healthcare Company, Inc., M.D. Tenn. 3:24-cv-01238, filed 2024-10-16)",
+    "publisher": "Free Law Project (CourtListener)",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/1520697/000095017024119044/achc-20240930.htm",
+    "title": "Acadia Healthcare Company, Inc. Form 10-Q for the quarter ended September 30, 2024 (discloses Kachrodia complaint filed 2024-10-16 and Dyar complaint filed 2024-10-29)",
+    "publisher": "Acadia Healthcare via SEC EDGAR",
+    "date": "2024-10-30",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.globenewswire.com/news-release/2024/10/28/2970416/0/en/Acadia-Healthcare-ACHC-Faces-Class-Action-Lawsuit-Over-Patient-Detention-Practices-Hagens-Berman.html",
+    "title": "Acadia Healthcare (ACHC) Faces Class Action Lawsuit Over Patient Detention Practices",
+    "publisher": "Hagens Berman via GlobeNewswire",
+    "date": "2024-10-28",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.pacermonitor.com/public/case/55475356/Kachrodia_v_Acadia_Healthcare_Company,_Inc_et_al",
+    "title": "Kachrodia v. Acadia Healthcare Company, Inc. et al (3:24-cv-01238), Tennessee Middle District Court",
+    "publisher": "PacerMonitor",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/1520697/000119312526321076/achc-20260630.htm",
+    "title": "Acadia Healthcare Company, Inc. Form 10-Q for the quarter ended June 30, 2026 (consolidated Kachrodia complaint; motion to dismiss denied 2026-07-24)",
+    "publisher": "Acadia Healthcare via SEC EDGAR",
+    "date": "2026-07-28",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "First qualifying filing found: the securities class action Kachrodia v. Acadia Healthcare Company, Inc., M.D. Tenn. No. 3:24-cv-01238, docketed 2024-10-16 (amended 2024-10-21; Dyar followed 2024-10-29; consolidated complaint 2025-07-10; motion to dismiss denied 2026-07-24). The complaint alleges that Acadia detained 'patients against their will, even when such detention was not medically necessary' and misled investors about it, the conduct described in the NYT investigation, so a shareholder class action counts under the criterion. Acadia first disclosed it in the 10-Q filed 2024-10-30. The only earlier post-2024-09-04 federal suit naming Acadia in RECAP (Jenkins, W.D. Tenn., 2024-09-18) is an overtime case. State-court patient suits filed between 2024-09-04 and 2024-10-16 could not be excluded (no state docket search), so the date could move earlier if one surfaces.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
   "event_id": "E-0033",
   "state": "not_occurred",
   "date": null,
@@ -925,6 +1673,311 @@
    }
   ],
   "note": "UnitedHealthcare's policy library routes behavioral TMS to the Optum Behavioral Clinical Policy 'Transcranial Magnetic Stimulation' (BH803TMS112025; annual review 2025-11-18, interim review 2026-04-21). It covers a once-daily TMS course for MDD and lists 'Accelerated TMS (aTMS) protocols and/or Theta burst stimulation (TBS) protocols' as unproven and not medically necessary; it notes the 2025-09-16 FDA clearance of BrainsWay's accelerated protocol without changing coverage. UHC's commercial policy 2026T0536W (effective 2026-02-01) and Community Plan policy CS124OH.F (2026-04-01) also deem theta-burst stimulation, including accelerated and MRI-guided protocols, unproven. No UnitedHealthcare policy in force lists a more-than-one-session-per-day protocol (accelerated iTBS, SAINT-type) as proven for MDD, so the proposition is FALSE as of 2026-09-13.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0041",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1717",
+    "title": "S.1717 - 119th Congress (2025-2026): Ensuring Patient Access to Critical Breakthrough Products Act of 2025",
+    "publisher": "Congress.gov (Library of Congress)",
+    "date": "2026-06-11",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://api.congress.gov/v3/bill/119/s/1717",
+    "title": "Congress.gov API bill record for S.1717 (latest action 2025-05-12, laws: none)",
+    "publisher": "Congress.gov (Library of Congress)",
+    "date": "2026-06-11",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5343",
+    "title": "H.R.5343 - 119th Congress (2025-2026): Ensuring Patient Access to Critical Breakthrough Products Act",
+    "publisher": "Congress.gov (Library of Congress)",
+    "date": "2026-09-01",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5343.xml",
+    "title": "BILLSTATUS-119hr5343 (bill status XML: latest action 2025-09-17, no law)",
+    "publisher": "GovInfo (U.S. Government Publishing Office)",
+    "date": "2026-09-01",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.federalregister.gov/documents/2026/08/11/2026-16368/medicare-program-regulatory-alignment-for-predictable-and-immediate-device-rapid-coverage-pathway",
+    "title": "Medicare Program; Regulatory Alignment for Predictable and Immediate Device (RAPID) Coverage Pathway (notice with comment period)",
+    "publisher": "Federal Register",
+    "date": "2026-08-11",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Congress.gov, checked through its API and the GovInfo bill-status data on 2026-09-13, records S.1717's latest action as 2025-05-12 (read twice, referred to Senate Finance) and no law. The House companion H.R.5343 was ordered reported by Ways and Means 37-3 on 2025-09-17, has no floor action and no related bill. No enacted law carrying the operative text (a Medicare coverage pathway for breakthrough devices) was found; CMS's RAPID coverage pathway (Federal Register notice 2026-08-11) is an administrative notice, not an enactment. Committee action does not count under the criterion.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0042",
+  "state": "occurred",
+  "date": "2026-02-26",
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.globenewswire.com/news-release/2026/02/26/3245418/0/en/AtaiBeckley-Announces-Positive-Topline-Results-from-an-Exploratory-Phase-2a-Trial-of-EMP-01-oral-R-MDMA-in-Social-Anxiety-Disorder.html",
+    "title": "AtaiBeckley Announces Positive Topline Results from an Exploratory Phase 2a Trial of EMP-01 (oral R-MDMA) in Social Anxiety Disorder",
+    "publisher": "AtaiBeckley (press release via GlobeNewswire)",
+    "date": "2026-02-26",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://clinicaltrials.gov/study/NCT06693609",
+    "title": "Exploratory Safety and Efficacy of EMP-01 in Social Anxiety Disorder (NCT06693609)",
+    "publisher": "ClinicalTrials.gov",
+    "date": "2026-07-31",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.biospace.com/press-releases/ataibeckley-announces-positive-topline-results-from-an-exploratory-phase-2a-trial-of-emp-01-oral-r-mdma-in-social-anxiety-disorder",
+    "title": "AtaiBeckley Announces Positive Topline Results from an Exploratory Phase 2a Trial of EMP-01 (oral R-MDMA) in Social Anxiety Disorder",
+    "publisher": "BioSpace",
+    "date": "2026-02-26",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "The sponsor's topline release of 2026-02-26 reports the primary endpoint (safety and tolerability through Day 43) as met and gives efficacy results: placebo-adjusted LSAS reduction of 11.85 points at Day 43 (Hedges' g 0.45, p=0.036 one-tailed) and CGI-I responders 49% vs 15%; 71 enrolled, 70 dosed, two 225 mg doses 28 days apart, seven UK sites. The trial is the Phase 2 (sponsor label Phase 2a) exploratory randomized double-blind placebo-controlled study NCT06693609 (sponsor atai Therapeutics; ClinicalTrials.gov phase PHASE2; completed 2025-12-10; no results posted there yet). Direction stored as positive as reported by the sponsor; direction is not required. AtaiBeckley was acquired by Eli Lilly on 2026-09-11, after the event.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0043",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.courtlistener.com/docket/72049187/united-states-v-done-global-inc/",
+    "title": "United States v. Done Global, Inc, 3:25-cr-00432 (N.D. Cal.) - docket",
+    "publisher": "CourtListener (Free Law Project, RECAP/PACER)",
+    "date": "2026-08-14",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.justice.gov/opa/pr/digital-health-company-and-medical-practice-indicted-100m-adderall-distribution-scheme",
+    "title": "Digital Health Company and Medical Practice Indicted in $100M Adderall Distribution Scheme",
+    "publisher": "U.S. Department of Justice",
+    "date": "2025-12-17",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.justice.gov/opa/pr/founderceo-and-clinical-president-digital-health-company-sentenced-8-years-90-million-scheme",
+    "title": "Founder/CEO and Clinical President of Digital Health Company Sentenced to 72 Months and 24 Months, Respectively, for $90 Million Scheme to Distribute over 37 Million Pills of Adderall",
+    "publisher": "U.S. Department of Justice",
+    "date": "2026-07-07",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "The December 2025 indictment is N.D. Cal. case 3:25-cr-00432, filed 2025-12-17 (Done Global, Inc. counts 1-7; Mindful Mental Wellness P.A. count 1), related to the earlier He/Brody cases before Judge Breyer. The CourtListener/RECAP docket, checked 2026-09-13, shows an initial appearance with arraignment plea on 2025-12-24, stipulations, a motion hearing on 2026-03-25, orders on 2026-06-12 and declarations filed 2026-08-14; it shows no change-of-plea hearing, guilty plea, jury verdict or judgment, and no termination date. The July 2026 sentences of Ruthia He and David Brody belong to the earlier case (3:24-cr-00329) and do not count. No DOJ release announces a conviction or plea of the corporate defendants.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0044",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://newmarketpitch.com/blogs/news/brain-computer-interface-funding-trends",
+    "title": "Brain-Computer Interface Funding Trends (2026)",
+    "publisher": "New Market Pitch",
+    "date": "2026-07-13",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.neurofounders.co/articles/bci-enters-a-new-funding-stage",
+    "title": "BCI Funding Reaches A New Scale In 2026",
+    "publisher": "Neurofounders",
+    "date": "2026-03-17",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "The named series is a calendar-year 2026 total, so the proposition cannot become true before the period ends on 2026-12-31 and the source publishes its 2026 figure; as of 2026-09-13 no calendar-2026 figure exists. The packet names the source only as the publisher the forecaster's post cites for a 2025 baseline above US$300M for AI-enabled BCI and neuromodulation health-tech companies; I could not identify that publisher from public pages, so realized_value stays null. Trackers checked, with different company definitions: New Market Pitch (pure-play BCI equity rounds) gives about US$1.0B for 2025 and about US$933M for 2026 through July; Neurofounders gives US$1.75B over the 12 months to March 2026 for 17 BCI companies. Re-resolve after the named source publishes a 2026 total; unresolvable only if none appears within 12 months after the deadline.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0045",
+  "state": "occurred",
+  "date": "2026-02-04",
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://clinicaltrials.gov/study/NCT04593875?tab=results",
+    "title": "Low-Intensity Focused Ultrasound Pulsation for Treatment of Motor Deficits in Parkinson's Disease (NCT04593875) - study results",
+    "publisher": "ClinicalTrials.gov",
+    "date": "2026-02-04",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT04593875",
+    "title": "ClinicalTrials.gov API record NCT04593875 (results first posted 2026-02-04; intervention other name BX Pulsar 1002)",
+    "publisher": "ClinicalTrials.gov",
+    "date": "2026-02-04",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42171549/",
+    "title": "Dose-Escalation Study of Amygdalar Transcranial Focused Ultrasound in Healthy Volunteers (Neuromodulation)",
+    "publisher": "PubMed (National Library of Medicine)",
+    "date": "2026-04-13",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://brainsonix.com/news/",
+    "title": "News - Brain Sonix Corporation",
+    "publisher": "Brainsonix",
+    "date": "2026-08-02",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "ClinicalTrials.gov results for NCT04593875 (UCLA, PI Bookheimer) were first posted 2026-02-04: a randomized triple-blind sham-controlled crossover trial in 31 Parkinson's patients using the Brainsonix BX Pulsar 1002 (the intervention's listed other name), reporting the primary outcomes (UPDRS-III, finger tapping, 9-hole pegboard) for active vs sham with no meaningful separation; direction is not required. This is an investigator results posting of primary-outcome data in patients dated after 2026-01-01; PubMed shows no earlier publication. Not qualifying: the UT Austin amygdala trial (Mol Psychiatry, epub 2025-04-24), the healthy-volunteer dose-escalation paper (Neuromodulation 2026-04-13) and the medRxiv preprint on thalamic sonication in disorders of consciousness (2026-05-28). Brainsonix issued no topline release in 2026.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0046",
+  "state": "occurred",
+  "date": "2026-03-26",
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.courtlistener.com/docket/73064586/hn-v-anthem-blue-cross-and-blue-shield/",
+    "title": "H.N. v. Anthem Blue Cross and Blue Shield, 1:26-cv-11454 (D. Mass.) - docket (complaint filed March 26, 2026)",
+    "publisher": "CourtListener (Free Law Project, RECAP/PACER)",
+    "date": "2026-03-26",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.298095/gov.uscourts.mad.298095.1.0.pdf",
+    "title": "Complaint, H.N. v. Anthem Blue Cross and Blue Shield, Marsh & McLennan Companies, Inc. and Anthem BlueCross BlueShield Medical Plan Options Marsh McLennan Plan (Doc. 1)",
+    "publisher": "U.S. District Court for the District of Massachusetts (via CourtListener RECAP)",
+    "date": "2026-03-26",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.ncwd.123195/gov.uscourts.ncwd.123195.1.0.pdf",
+    "title": "Complaint, L.P. and C.P. v. North Carolina Dental Society et al., 1:26-cv-00104 (W.D.N.C.) (Doc. 1)",
+    "publisher": "U.S. District Court for the Western District of North Carolina (via CourtListener RECAP)",
+    "date": "2026-04-13",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.wied.113565/gov.uscourts.wied.113565.1.0.pdf",
+    "title": "Complaint, Margaret W. and J.W. v. Ascension Wisconsin et al., 2:25-cv-01433 (E.D. Wis.) (Doc. 1)",
+    "publisher": "U.S. District Court for the Eastern District of Wisconsin (via CourtListener RECAP)",
+    "date": "2025-09-17",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Applied as written. H.N. v. Anthem BCBS, Marsh & McLennan Companies, Inc. and the Marsh McLennan Plan (D. Mass. 1:26-cv-11454, complaint docketed 2026-03-26) is brought by a plan beneficiary against the claims administrator and the employer that self-funds the plan. Its Second Cause of Action, 'Violation of MHPAEA (Breach of Fiduciary Duty and Claim for Appropriate Equitable Relief under 29 U.S.C. 1132(a)(3)) (ALL DEFENDANTS)', pleads fiduciary breaches by all defendants based on MHPAEA violations in the plan's administration of mental health benefits, so (a) and (b) are met; it is not a suit only under 502(a)(1)(B) against an insurer. Caveats: in substance a benefit-denial suit, not the Schlichter-style class action in the readings; RECAP coverage is partial; a like pleading predates 2026 (W v. Ascension Wisconsin, 2025-09-17). Later alternate: L.P. v. NC Dental Society (2026-04-13).",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0047",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+    "title": "Compass Pathways Announces Second Quarter and First Half 2026 Financial Results and Business Highlights (Form 8-K exhibit)",
+    "publisher": "Compass Pathways plc via SEC EDGAR",
+    "date": "2026-08-05",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://investingnews.com/compass-pathways-new-52-week-topline-open-label-data-from-phase-3-comp005-trial-demonstrates-additional-benefit-from-another-comp360-dose-in-part-c-extending-durability-out-to-1-year/",
+    "title": "Compass Pathways' New 52-Week Topline Open-Label Data from Phase 3 COMP005 Trial Demonstrates Additional Benefit from Another COMP360 Dose in Part C Extending Durability Out to 1 Year",
+    "publisher": "Compass Pathways press release via Investing News Network",
+    "date": "2026-09-09",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22PSILOCYBIN%22",
+    "title": "openFDA Drugs@FDA dataset query for psilocybin (no matches)",
+    "publisher": "U.S. Food and Drug Administration (openFDA)",
+    "date": "2026-09-11",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "title": "Drugs@FDA: FDA-Approved Drugs",
+    "publisher": "U.S. Food and Drug Administration",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Drugs@FDA, queried through the openFDA drugsfda dataset (data last updated 2026-09-11), lists no application for psilocybin or for Compass Pathways. Compass's Q2 2026 results release (2026-08-05) and its 2026-09-09 release state that the rolling NDA for COMP360 in treatment-resistant depression is still being submitted, with final submission expected in Q4 2026 and commercial launch expected in H1 2027 'subject to FDA approval'. Rolling review, the Commissioner's National Priority Voucher and Breakthrough Therapy designation are not approval. No approval letter exists as of 2026-09-13.",
+  "resolver": "R1",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0048",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-13",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001719406/000143774926028027/nrxp20260630_10q.htm",
+    "title": "NRX Pharmaceuticals, Inc. Form 10-Q for the quarter ended June 30, 2026",
+    "publisher": "NRx Pharmaceuticals via SEC EDGAR",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.stocktitan.net/news/NRXP/fda-completes-first-cycle-review-of-preservative-free-ketamine-anda-5149kwq95zel.html",
+    "title": "FDA Completes First-Cycle Review of Preservative-Free Ketamine ANDA with No Drug Related Major Deficiencies",
+    "publisher": "NRx Pharmaceuticals press release via Stock Titan",
+    "date": "2026-08-07",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://www.globenewswire.com/news-release/2026/05/18/3296477/0/en/nrx-pharmaceuticals-nasdaq-nrxp-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html",
+    "title": "NRx Pharmaceuticals (Nasdaq:NRXP) Reports First Quarter 2026 Financial Results and Provides Corporate Update",
+    "publisher": "NRx Pharmaceuticals via GlobeNewswire",
+    "date": "2026-05-18",
+    "accessed": "2026-09-13"
+   },
+   {
+    "url": "https://api.fda.gov/drug/drugsfda.json?search=products.active_ingredients.name:%22KETAMINE+HYDROCHLORIDE%22&limit=100",
+    "title": "openFDA Drugs@FDA dataset query: ketamine hydrochloride applications (11 holders, none NRx)",
+    "publisher": "U.S. Food and Drug Administration (openFDA)",
+    "date": "2026-09-11",
+    "accessed": "2026-09-13"
+   }
+  ],
+  "note": "Drugs@FDA data (openFDA, updated 2026-09-11) lists 11 ketamine hydrochloride applications, none held by NRx Pharmaceuticals; no KETAFREE or NRX-100 approval exists. NRx's KETAFREE ANDA (received Dec 2025, goal date 2026-07-29) completed first-cycle review on 2026-07-30 with a container-closure deficiency and remained pending after an August 2026 clarification meeting. An ANDA approval would in any case carry only the reference anesthetic indication, not a depressive-disorder indication, and would not count. The NRX-100 NDA for suicidal depression was 'expected to be filed in Q2 2026' (May 2026 release) and the Q2 2026 10-Q still describes cash to 'finance submission' of the NDAs, so no NDA approval is possible as of 2026-09-13.",
   "resolver": "R1",
   "resolved_at": "2026-09-13",
   "version": 1
