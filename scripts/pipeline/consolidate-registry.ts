@@ -50,11 +50,15 @@ if (mode === "prep") {
   // (phase 2: one full entry per in-scope group, keyed by slug) become registry-consolidated.json { events, map }.
   type Group = { slug: string; title: string; template: string; area: string; gate: "in" | "OUT_OF_AREA"; gate_reason: string | null; refs: string[]; inverted_refs?: string[]; proposition?: string; statement_ids: string[]; first_date: string };
   type Entry = { slug: string; template: string; area: string; asset: string; entity: string; title: string; proposition: string; criterion: string; resolution_source: { name: string; url?: string }; base_rate_class: string | null; quantity: unknown; readings: string[] };
-  const groups = readJson<Group[]>(rel("data/intake/registry-groups.json"));
+  // --groups <file> and --entries <prefix> select one consolidation run (default: the release-1.0 files)
+  const argAfter = (flag: string, dflt: string): string => { const i = process.argv.indexOf(flag); return i >= 0 && process.argv[i + 1] ? process.argv[i + 1] : dflt; };
+  const groupsFile = argAfter("--groups", "data/intake/registry-groups.json");
+  const entriesPrefix = argAfter("--entries", "registry-entries-");
+  const groups = readJson<Group[]>(rel(groupsFile));
   const proposals = readJson<{ proposals: { ref: string; coder: string }[] }>(rel("data/intake/registry-proposals.json")).proposals;
   const existing = fs.existsSync(rel("data/registry/events.json")) ? readJson<{ id: string }[]>(rel("data/registry/events.json")) : [];
   const entries = new Map<string, Entry>();
-  for (const f of fs.readdirSync(rel("data/intake")).filter((x) => /^registry-entries-.*\.json$/.test(x))) for (const e of readJson<Entry[]>(rel("data/intake", f))) { if (entries.has(e.slug)) console.error(`${e.slug}: entry appears twice (${f})`); entries.set(e.slug, e); }
+  for (const f of fs.readdirSync(rel("data/intake")).filter((x) => x.startsWith(entriesPrefix) && x.endsWith(".json") && (entriesPrefix !== "registry-entries-" || /^registry-entries-\d+\.json$/.test(x)))) for (const e of readJson<Entry[]>(rel("data/intake", f))) { if (entries.has(e.slug)) console.error(`${e.slug}: entry appears twice (${f})`); entries.set(e.slug, e); }
   const problems: string[] = [];
   const seen = new Map<string, number>();
   for (const g of groups) for (const r of g.refs) seen.set(r, (seen.get(r) ?? 0) + 1);
@@ -68,7 +72,7 @@ if (mode === "prep") {
     if (!e) { problems.push(`${g.slug}: no entry written`); continue; }
     if (e.template !== g.template || e.area !== g.area) problems.push(`${g.slug}: entry template/area (${e.template}/${e.area}) differ from the group (${g.template}/${g.area})`);
     const id = `E-${String(next++).padStart(4, "0")}`;
-    events.push({ id, template: e.template, area: e.area, asset: e.asset, entity: e.entity, title: e.title, proposition: e.proposition, criterion: e.criterion, resolution_source: e.resolution_source, base_rate_class: e.base_rate_class ?? null, market_ref_id: null, quantity: e.quantity ?? null, readings: e.readings ?? [], created_by: "registry-consolidation", created_at: "2026-09-13", version: "1.0.0" });
+    events.push({ id, template: e.template, area: e.area, asset: e.asset, entity: e.entity, title: e.title, proposition: e.proposition, criterion: e.criterion, resolution_source: e.resolution_source, base_rate_class: e.base_rate_class ?? null, market_ref_id: null, quantity: e.quantity ?? null, readings: e.readings ?? [], created_by: "registry-consolidation", created_at: argAfter("--created", "2026-09-13"), version: argAfter("--version", "1.0.0") });
     for (const r of g.refs) map[r] = id;
   }
   for (const g of groups.filter((x) => x.gate !== "in")) for (const r of g.refs) map[r] = "OUT_OF_AREA";
