@@ -1,0 +1,228 @@
+[
+ {
+  "slug": "fda-action-midomafetamine-ptsd-nda",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "midomafetamine (MDMA-assisted therapy) new drug application for PTSD: FDA action (approval or complete response letter)",
+  "entity": "US Food and Drug Administration (FDA)",
+  "title": "FDA action (approval or complete response letter) on the midomafetamine NDA for PTSD",
+  "proposition": "The FDA issues its action (approval or complete response letter) on a new drug application for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
+  "criterion": "TRUE on the date of the FDA's first action letter (an approval letter or a complete response letter) on a new drug application for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder, under any sponsor name, as dated in Drugs@FDA or announced by the sponsor. NDA submission, filing acceptance, a PDUFA date assignment, an advisory committee meeting or a refuse-to-file letter is not an action on the application. FALSE at the deadline when no such action letter is dated. Resolution source: Drugs@FDA, with the sponsor's press release as a secondary source.",
+  "resolution_source": {
+   "name": "Drugs@FDA; sponsor press release as a secondary source",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'On track to be considered for approval by the FDA in 2024' = the FDA issues its action (approval or complete response letter) on the NDA in 2024; submission and filing acceptance alone are not 'considered for approval'.",
+   "The event resolves on either action; it does not score whether the action was an approval (that is E-0001)."
+  ]
+ },
+ {
+  "slug": "mdma-at-cumulative-patients-1-4m",
+  "template": "quantity_threshold",
+  "area": "practice_adoption",
+  "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: cumulative number of people treated",
+  "entity": "MAPS and the sponsor of midomafetamine (MDMA-assisted therapy)",
+  "title": "About 1.4 million people treated with MDMA-assisted therapy",
+  "proposition": "The cumulative number of people treated with midomafetamine (MDMA-assisted therapy) for PTSD reaches about 1.4 million, per the public counts published by MAPS and by the sponsor of the programme.",
+  "criterion": "Resolved on the named data series only: the cumulative count of people treated with midomafetamine (MDMA-assisted therapy) for PTSD, as published by MAPS or by the sponsor of the midomafetamine programme (annual report, press release or investor materials), with a named prescription-data series (for example IQVIA) as the secondary count when the sponsor publishes none. TRUE on the date of the first such publication that reports a cumulative total at or above 1.12 million people, the lower edge of the fixed band of plus or minus 20 percent around the bare point number of about 1.4 million. Patients dosed in clinical trials count. FALSE at the deadline when no publication reports a total in or above that band. If no count has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+  "resolution_source": {
+   "name": "MAPS and sponsor public counts of people treated with MDMA-assisted therapy; a named prescription-data series (IQVIA) as the secondary count"
+  },
+  "base_rate_class": null,
+  "quantity": {
+   "metric": "Cumulative number of people treated with midomafetamine (MDMA-assisted therapy) for PTSD",
+   "threshold": 1400000,
+   "direction": "band",
+   "unit": "people (cumulative)",
+   "series": "MAPS and sponsor published counts of people treated with MDMA-assisted therapy; named prescription-data series (IQVIA) as the secondary count"
+  },
+  "readings": [
+   "'We will hopefully treat about 1.4 million people' is a bare point number, so it takes the fixed band of plus or minus 20 percent: 1.12 million to 1.68 million.",
+   "'We' is read as the MDMA-assisted therapy programme, not MAPS staff, so people treated by any clinic delivering the therapy count.",
+   "'Some estimates' and 'hopefully' are hedges on the number, not a second condition."
+  ]
+ },
+ {
+  "slug": "spravato-annual-sales-1bn",
+  "template": "quantity_threshold",
+  "area": "company_market",
+  "asset": "Spravato (esketamine nasal spray, Johnson & Johnson): worldwide annual net sales",
+  "entity": "Johnson & Johnson (reports Spravato product sales)",
+  "title": "Spravato annual sales at or above US$1 billion",
+  "proposition": "Worldwide net sales of Spravato (esketamine nasal spray) reach at or above US$1 billion in a calendar year, per Johnson & Johnson's reported product sales.",
+  "criterion": "Resolved on the named data series only: worldwide net trade sales of Spravato (esketamine nasal spray) in Johnson & Johnson's product-sales tables in its periodic reports on SEC EDGAR (Form 10-K and 10-Q) and the sales exhibits of its quarterly earnings releases (Form 8-K). TRUE on the date of the first Johnson & Johnson report that shows Spravato worldwide net sales at or above US$1 billion for a calendar year. 'Blockbuster' in the forecaster's words is read as US$1 billion of annual sales, the standard industry meaning, so the event resolves as binary at US$1 billion with no band. FALSE at the deadline when no completed calendar year has reached US$1 billion in the reported series. Unresolvable if the series stops and no figure has published 12 months after the deadline. Realized values are stored, not scored.",
+  "resolution_source": {
+   "name": "Johnson & Johnson product sales tables in its Form 10-K, Form 10-Q and earnings-release exhibits on SEC EDGAR",
+   "url": "https://www.sec.gov/edgar/search/"
+  },
+  "base_rate_class": null,
+  "quantity": {
+   "metric": "Spravato worldwide net sales in a calendar year",
+   "threshold": 1000000000,
+   "direction": ">=",
+   "unit": "USD",
+   "series": "Johnson & Johnson product sales tables (SEC EDGAR Form 10-K, Form 10-Q and earnings-release sales exhibits)"
+  },
+  "readings": [
+   "'\"blockbuster\" status' = annual sales of US$1 billion, the standard industry meaning; the forecaster puts the word in quotation marks and gives no other number.",
+   "'shortly' is not a deadline; the item goes to the undated panel.",
+   "The passive 'anticipated to' is adopted by the forecaster: he uses the Spravato trajectory as the precedent for his own thesis in the same tweet."
+  ]
+ },
+ {
+  "slug": "fda-ibogaine-sud-approval",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "ibogaine for a substance use disorder",
+  "entity": "US Food and Drug Administration (FDA)",
+  "title": "FDA approval of ibogaine for a substance use disorder",
+  "proposition": "The FDA approves an ibogaine drug product for a substance use disorder indication.",
+  "criterion": "TRUE on the date the FDA approval letter or the Drugs@FDA entry for an ibogaine drug product with a substance use disorder indication (for example opioid, alcohol, stimulant or polysubstance use disorder) is dated, under any sponsor and with or without patents. A label for one substance use disorder counts, because the claim names the class. A complete response letter, a positive advisory vote, a filing acceptance, a breakthrough designation or an expanded-access programme is not an approval, and approval of a different molecule (for example noribogaine or another ibogaine analogue) does not count. FALSE at the deadline when no such approval is dated. Resolution source: Drugs@FDA, with the sponsor's approval announcement as a secondary source.",
+  "resolution_source": {
+   "name": "Drugs@FDA; sponsor approval announcement as a secondary source",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'It could go all the way through FDA approval' = the FDA approves an ibogaine product for a substance use disorder; the event is the approval itself.",
+   "'With no patents and be made available as a generic from day one' describes the intended commercial form, not a condition of the approval.",
+   "The funding condition ('if we can get the research ... fully funded') is a separate event and does not gate this one.",
+   "'Substance use disorders' is a class, so a label for any one substance use disorder counts."
+  ]
+ },
+ {
+  "slug": "maps-ibogaine-program-funding",
+  "template": "company_event",
+  "area": "company_market",
+  "asset": "MAPS ibogaine research programme for substance use disorders: funding",
+  "entity": "MAPS (Multidisciplinary Association for Psychedelic Studies)",
+  "title": "MAPS ibogaine research for substance use disorders is fully funded",
+  "proposition": "MAPS announces that its ibogaine research programme for substance use disorders is fully funded, by public money or by donors, through to an FDA decision.",
+  "criterion": "TRUE on the date of a definitive public announcement by MAPS (press release, annual report or MAPS Bulletin), or by the entity that runs the MAPS ibogaine research programme for substance use disorders, that the programme is fully funded by government money or by donations for the work needed to reach an FDA decision. A single grant, a donation, a fundraising target or a pledge that MAPS does not state covers the whole programme does not count, and funding raised by a for-profit sponsor as equity does not count. FALSE at the deadline when no such announcement exists. Resolution source: MAPS press releases and the MAPS Bulletin.",
+  "resolution_source": {
+   "name": "MAPS press releases and MAPS Bulletin"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'If we can get the research on ibogaine for substance use disorders fully funded with public money or by donors' is the event: MAPS states the programme is fully funded.",
+   "'Public money or by donors' is 'or', so either funding route counts; the amount is not named, so MAPS's own statement that the programme is fully funded settles it.",
+   "'Fully funded' is read as funded through to an FDA decision, the horizon named in the same sentence."
+  ]
+ },
+ {
+  "slug": "lykos-financing-after-crl",
+  "template": "company_event",
+  "area": "company_market",
+  "asset": "Midomafetamine (MDMA-assisted therapy) for PTSD program: sponsor financing after the August 2024 complete response letter",
+  "entity": "Lykos Therapeutics (or the successor company that holds the midomafetamine program)",
+  "title": "The sponsor of midomafetamine (MDMA-assisted therapy) raises new financing after the 2024 complete response letter",
+  "proposition": "Lykos Therapeutics, or the successor company that holds the midomafetamine (MDMA-assisted therapy) program, publicly announces a completed financing after 31 October 2024.",
+  "criterion": "TRUE on the date of the definitive public announcement (press release, SEC filing or a filed Form D) by Lykos Therapeutics, or by the renamed or successor company that holds the midomafetamine (MDMA-assisted therapy) NDA program, of a completed equity, debt or grant financing of any size closed after 31 October 2024. A letter of intent, a rumor or a financing by MAPS (the nonprofit) alone does not count. FALSE at the deadline when no such announcement exists.",
+  "resolution_source": {
+   "name": "Company press release; SEC EDGAR (Form D)",
+   "url": "https://www.sec.gov/edgar/search/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Raise the money to do it' names no amount; any completed financing counts.",
+   "The sponsor is identified by the asset (the midomafetamine program), so a rename or acquisition of Lykos does not void the entry.",
+   "'To do it' points at the path agreed with the FDA; the announcement need not state that purpose, because the sponsor has one NDA program."
+  ]
+ },
+ {
+  "slug": "spravato-patients-per-year-200k",
+  "template": "quantity_threshold",
+  "area": "practice_adoption",
+  "asset": "Spravato (esketamine nasal spray, Johnson & Johnson): number of patients treated per year",
+  "entity": "Johnson & Johnson (the sponsor that discloses Spravato patient counts)",
+  "title": "Spravato patients treated per year at or above 200,000",
+  "proposition": "The number of patients treated with Spravato (esketamine) in a 12-month period is at or above 200,000, per Johnson & Johnson's public disclosures.",
+  "criterion": "Resolved on the named data series only: Johnson & Johnson's public disclosures (annual report, earnings materials, investor presentations or press releases) of the number of patients treated with Spravato (esketamine) per year or in a stated 12-month period. TRUE on the date of the first such disclosure, dated between the statement date and the window end, that reports 200,000 or more patients treated with Spravato in a 12-month period (worldwide if J&J reports worldwide; US if J&J reports only US). The threshold is in the forecaster's words ('hundreds of thousands', read at its lower bound), so it resolves as binary at 200,000 with no band. FALSE at the window end when no such disclosure reports 200,000 or more. If Johnson & Johnson has published no patient count 12 months after the window end, the event is unresolvable. Realized values are stored, not scored.",
+  "resolution_source": {
+   "name": "Johnson & Johnson public disclosures of Spravato patients treated (annual report, earnings materials, investor presentations, press releases)",
+   "url": "https://www.investor.jnj.com/"
+  },
+  "base_rate_class": null,
+  "quantity": {
+   "metric": "Number of patients treated with Spravato (esketamine) in a 12-month period",
+   "threshold": 200000,
+   "direction": ">=",
+   "unit": "patients per year",
+   "series": "Johnson & Johnson public disclosures of Spravato patients treated per year"
+  },
+  "readings": [
+   "'Hundreds of thousands' is read at its lower bound, 200,000 patients in a 12-month period (the smallest count that is 'hundreds' of thousands); 'potentially millions' is a hedged higher figure and does not set the threshold.",
+   "'This' refers to the '~55k patients ... treated with Spravato per year' figure in the same sentence, so the metric is patients treated per year, on the same series the forecaster cites (J&J's disclosed patient count).",
+   "'In a few years' has no N and is not an anchor, so the item is undated (24-month window from the statement date); the forecaster's own horizon is longer than the window, and that is logged."
+  ]
+ },
+ {
+  "slug": "rl-007-phase2b-cias-readout",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "RL-007 Phase 2b trial in cognitive impairment associated with schizophrenia (CIAS)",
+  "entity": "Recognify Life Sciences (atai Life Sciences)",
+  "title": "RL-007 Phase 2b trial in cognitive impairment associated with schizophrenia reports topline results",
+  "proposition": "The sponsor reports topline results, positive or negative, of the Phase 2b trial of RL-007 in cognitive impairment associated with schizophrenia.",
+  "criterion": "TRUE on the date of the first public report of topline results of the Phase 2b trial of RL-007 in cognitive impairment associated with schizophrenia: the topline press release of Recognify Life Sciences or atai Life Sciences, the ClinicalTrials.gov results posting, or the publication that first reports the result. The direction of the result does not matter; the event is the readout. Enrolment or last-patient-out news, an interim or blinded update, a safety update, and a conference abstract without the primary-endpoint result do not count. FALSE at the deadline when no topline result has been reported. Resolution source: the sponsor's topline press release, with the ClinicalTrials.gov record of the trial fixing the date if the sponsor publishes none.",
+  "resolution_source": {
+   "name": "Recognify Life Sciences / atai Life Sciences topline press release; ClinicalTrials.gov record of the RL-007 Phase 2b CIAS trial",
+   "url": "https://clinicaltrials.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Phase 2b for RL-007 (cognitive impairment associated with schizophrenia/CIAS), anticipated mid this year' = the sponsor reports topline results; the claim is about the readout, not about the direction of the result.",
+   "'RL-007's anticipated mid-2025 read out of its Phase 2b proof-of-concept trial for pro-cognitive effects in patients with CIAS' names the same trial and the same readout.",
+   "The entry is written on the trial, so atai's 51.9 percent stake in Recognify, a sale of that stake or a rename does not void it."
+  ]
+ },
+ {
+  "slug": "vls-01-phase2-trd-readout",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "VLS-01 (buccal film DMT) Phase 2 trial in treatment-resistant depression",
+  "entity": "atai Life Sciences (sponsor)",
+  "title": "VLS-01 (DMT) Phase 2 trial in treatment-resistant depression reports topline results",
+  "proposition": "atai Life Sciences reports topline results, positive or negative, of the Phase 2 trial of VLS-01 (buccal film DMT) in treatment-resistant depression.",
+  "criterion": "TRUE on the date of the first public report of topline results of the Phase 2 trial of VLS-01 (buccal film DMT) in treatment-resistant depression: atai Life Sciences' topline press release, the ClinicalTrials.gov results posting, or the publication that first reports the result. The direction of the result does not matter; the event is the readout. Enrolment or dosing news, an interim or blinded update, a safety update, open-label data from another VLS-01 study, and a conference abstract without the primary-endpoint result do not count. FALSE at the deadline when no topline result has been reported. Resolution source: atai Life Sciences' topline press release, with the ClinicalTrials.gov record of the trial fixing the date if the sponsor publishes none.",
+  "resolution_source": {
+   "name": "atai Life Sciences topline press release; ClinicalTrials.gov record of the VLS-01 Phase 2 trial in treatment-resistant depression",
+   "url": "https://clinicaltrials.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Phase 2 for DMT (TRD), anticipated in Q1 2026 (fully owned program)' and 'Phase 2 readout for VLS-01 (buccal film DMT) for TRD, anticipated in Q1 2026' name the same trial and the same readout.",
+   "'We have DMT data in the first quarter' is the same readout stated again in speech.",
+   "The claim is about the readout, not about the direction of the result; the direction is a separate event."
+  ]
+ },
+ {
+  "slug": "vls-01-phase2-trd-endpoint-met",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "VLS-01 (buccal film DMT) Phase 2 trial in treatment-resistant depression: primary endpoint",
+  "entity": "atai Life Sciences (sponsor)",
+  "title": "VLS-01 (DMT) Phase 2 trial in treatment-resistant depression meets its primary endpoint",
+  "proposition": "atai Life Sciences reports that the Phase 2 trial of VLS-01 (buccal film DMT) in treatment-resistant depression met its prespecified primary endpoint with statistical significance.",
+  "criterion": "TRUE on the date atai Life Sciences' topline press release, the ClinicalTrials.gov results posting, or the first publication reports that the Phase 2 trial of VLS-01 (buccal film DMT) in treatment-resistant depression met its prespecified primary endpoint with statistical significance, as reported by the sponsor at the trial's prespecified alpha. FALSE on the date the sponsor first reports that the primary endpoint was not met, and FALSE at the deadline when no primary-endpoint result has been reported. Secondary endpoints, subgroup analyses, interim analyses and open-label data do not count. Resolution source: atai Life Sciences' topline press release, with the ClinicalTrials.gov record of the trial as the secondary source.",
+  "resolution_source": {
+   "name": "atai Life Sciences topline press release; ClinicalTrials.gov record of the VLS-01 Phase 2 trial in treatment-resistant depression",
+   "url": "https://clinicaltrials.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'We're going to have the same quality of data as that for DMT' is read as the VLS-01 Phase 2 trial meeting its prespecified primary endpoint with statistical significance; 'the same quality' points at a positive result, not only at a readout.",
+   "'In the first quarter next year ... just nine months behind' sets the timing of the item, not the content of the event.",
+   "The readout itself, in either direction, is the separate event vls-01-phase2-trd-readout."
+  ]
+ }
+]

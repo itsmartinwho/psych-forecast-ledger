@@ -1,0 +1,215 @@
+{
+ "packet": "tiebreak-05.json",
+ "note": "admission splits between coder A and coder B: coder C decides",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "doblin-0204",
+   "forecaster": "doblin",
+   "statement_date": "2023-12-12",
+   "quote": "I think once MDMA, if it becomes approved by the FDA, which we hope may happen in the middle of 2024, psilocybin, I think, will be approved maybe near the end of 2025, 2026 potentially.",
+   "context": "Doblin on StarTalk with Neil deGrasse Tyson expects FDA approval of MDMA in mid 2024 and psilocybin near the end of 2025 or in 2026.",
+   "post_title": "The Psychedelic Mind with Rick Doblin - StarTalk Radio",
+   "source_url": "https://startalkmedia.com/show/the-psychedelic-mind-with-rick-doblin/",
+   "area_guess": "regulatory",
+   "horizon_text": "the middle of 2024; near the end of 2025, 2026",
+   "confidence_phrase": "we hope may; I think ... maybe",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Compound: MDMA and psilocybin approval dates."
+  },
+  {
+   "id": "doblin-0211",
+   "forecaster": "doblin",
+   "statement_date": "2024-02-19",
+   "quote": "By 2032 we've had some estimates that we will hopefully treat about 1.4 million people",
+   "context": "Doblin on the Shawn Ryan Show #97 cites MAPS estimates of treating about 1.4 million people with MDMA-assisted therapy by 2032, against 13 million with PTSD.",
+   "post_title": "Shawn Ryan Show - #97 Rick Doblin - MDMA Psychedelic Assisted Therapy (transcript)",
+   "source_url": "https://podscripts.co/podcasts/shawn-ryan-show/97-rick-doblin-mdma-psychedelic-assisted-therapy",
+   "area_guess": "practice_adoption",
+   "horizon_text": "By 2032",
+   "confidence_phrase": "hopefully",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0217",
+   "forecaster": "doblin",
+   "statement_date": "2024-09-22",
+   "quote": "If we can get the research on ibogaine for substance use disorders fully funded with public money or by donors, it could go all the way through FDA approval with no patents and be made available as a generic from day one.",
+   "context": "Doblin in a Tricycle Day Q&A describes the MAPS 'Open Ibogaine' project and the conditional path to FDA approval of ibogaine as an unpatented generic.",
+   "post_title": "Psychonaut POV - Rick Doblin | Tricycle Day",
+   "source_url": "https://www.tricycleday.com/p/psychonaut-pov-d0b9",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Conditional on funding."
+  },
+  {
+   "id": "doblin-0223",
+   "forecaster": "doblin",
+   "statement_date": "2024-12-27",
+   "quote": "\"They have to do another Phase 3 study, review the videotapes, do various things,\" Doblin says. \"What we are now currently thinking is probably three years from now, they'll come to an agreement and FDA approval will be very likely.\"",
+   "context": "Doblin, quoted by Big Think after Lykos's October 2024 meeting with the FDA, expects agreement and FDA approval of MDMA-assisted therapy in about three years.",
+   "post_title": "Inside the battle for FDA approval of MDMA therapy - Big Think",
+   "source_url": "https://web.archive.org/web/2025id_/https://bigthink.com/the-present/inside-the-battle-for-fda-approval-of-mdma-therapy/",
+   "area_guess": "regulatory",
+   "horizon_text": "three years from now",
+   "confidence_phrase": "probably; very likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Two adjacent quoted sentences joined as printed on the page ('Doblin says' sits between them)."
+  },
+  {
+   "id": "doblin-0228",
+   "forecaster": "doblin",
+   "statement_date": "2025-05-09",
+   "quote": "If the FDA says, we want another phase three study, that could delay approval for another three and a half years or so.",
+   "context": "Doblin on Joe Rogan #2319 gives the alternative scenario: a required new Phase 3 study would delay MDMA approval by about three and a half years.",
+   "post_title": "The Joe Rogan Experience #2319 - Rick Doblin (transcript)",
+   "source_url": "https://podscripts.co/podcasts/the-joe-rogan-experience/2319-rick-doblin",
+   "area_guess": "regulatory",
+   "horizon_text": "another three and a half years or so",
+   "confidence_phrase": "could",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Conditional scenario."
+  }
+ ]
+}

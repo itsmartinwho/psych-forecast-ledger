@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "dt120-next-phase3-endpoint-met",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "DT120 (MM120, lysergide D-tartrate, LSD; Definium Therapeutics, formerly MindMed): the next Phase 3 trial whose topline is reported after 7 May 2026",
+    "entity": "Definium Therapeutics (formerly MindMed), sponsor",
+    "title": "The next DT120 (MM120, LSD) Phase 3 topline meets its primary endpoint",
+    "proposition": "The first Phase 3 trial of DT120 (MM120, LSD) whose topline result Definium Therapeutics reports after 7 May 2026 meets its prespecified primary endpoint with statistical significance.",
+    "criterion": "TRUE on the date of the sponsor's topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that first reports, after 7 May 2026, the primary endpoint result of a Phase 3 trial of DT120 (MM120, lysergide) for any indication, when that report states that the prespecified primary endpoint was met with statistical significance as reported by the sponsor. FALSE on that date when the report states the primary endpoint was not met. Only the first Phase 3 topline reported after 7 May 2026 resolves the event; secondary endpoints, interim analyses and open-label data do not count.",
+    "resolution_source": {
+      "name": "Sponsor topline press release; ClinicalTrials.gov results; peer-reviewed publication",
+      "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'Phase three results ... going to be amazing' is read as the prespecified primary endpoint met with statistical significance; no effect-size threshold is given.",
+      "'Define' / 'the finium' in the auto-caption = Definium Therapeutics (MindMed); its Phase 3 program is DT120 (MM120, LSD).",
+      "The words name no single trial, so the event is written on the next Phase 3 topline reported after the statement date rather than on a named NCT number; E-0065 (Voyage, either direction) is a different outcome type."
+    ]
+  },
+  {
+    "slug": "fda-dt120-lsd-approval",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "DT120 (MM120, lysergide D-tartrate, LSD; Definium Therapeutics, formerly MindMed) for any indication",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of DT120 (MM120, LSD)",
+    "proposition": "The FDA approves DT120 (MM120, lysergide) for any indication.",
+    "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) for a new drug application for DT120 (MM120, lysergide D-tartrate), for any indication and under any sponsor name, is dated. A complete response letter, a breakthrough therapy designation, a positive advisory vote or a filing acceptance is not an approval. FALSE at the deadline when no such approval appears in Drugs@FDA.",
+    "resolution_source": {
+      "name": "Drugs@FDA; sponsor press release as a secondary source",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "No indication is named in the words; any indication (generalized anxiety disorder, major depressive disorder or another) counts.",
+      "Approval under any sponsor name (Definium Therapeutics, MindMed or a successor or acquirer) counts; the entry is on the asset.",
+      "Not mapped to E-0066 (first FDA approval of any psilocybin, LSD or MDMA product): the asset here is DT120 alone.",
+      "Base rate class is fixed per item from the asset's stage on each statement date; the event-level class is null."
+    ]
+  },
+  {
+    "slug": "fda-action-resubmitted-mdma-nda",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "Midomafetamine (MDMA-assisted therapy) for PTSD: FDA action on the resubmitted NDA",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA action on the resubmitted midomafetamine NDA for PTSD",
+    "proposition": "The FDA acts on the resubmitted new drug application for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder, by taking it under review or by issuing an action letter on it.",
+    "criterion": "TRUE on the earlier of (1) the date the sponsor (Resilient Pharmaceuticals, formerly Lykos Therapeutics, or a successor) announces that the FDA has accepted a resubmission of the midomafetamine (MDMA-assisted therapy) NDA for PTSD for review, with or without a stated goal date, or the FDA publishes that acceptance, and (2) the date of an FDA action letter (approval or complete response) on that resubmission, as dated in Drugs@FDA or the sponsor's announcement. A report that the sponsor resubmitted, a meeting, or FDA correspondence that refuses to file the resubmission does not count. FALSE at the deadline when neither has occurred.",
+    "resolution_source": {
+      "name": "Sponsor press release; Drugs@FDA",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'A new evaluation by the FDA' reads as the FDA taking the resubmitted application under review; acceptance for review or an action letter, whichever comes first, resolves it.",
+      "The resubmission itself is reported in the context (Psychedelic Alpha), not asserted by the FDA; the event is the FDA's step, not the sponsor's.",
+      "A complete response letter counts as an FDA action here, although the drug_approval template counts it as no approval; the event is the action, not the approval."
+    ]
+  }
+]

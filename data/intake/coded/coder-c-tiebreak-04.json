@@ -1,0 +1,668 @@
+{
+ "coder": "C",
+ "run": "intake-2026-09-14",
+ "records": [
+  {
+   "id": "angermayer-0140",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null,
+   "condition": null,
+   "asserts": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": null,
+   "p_stated": null,
+   "phrase": null,
+   "affiliated": null,
+   "tags": [],
+   "base_rate_class": null,
+   "stage_note": null,
+   "note": "The sentence names the current administration as the decisive factor between a $10 billion and a $20 billion atai; it does not assert that either valuation happens. 'What I hope' is a preference. No expectation is stated, so no event can be written without inventing the claim."
+  },
+  {
+   "id": "angermayer-0141",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:atai-market-cap-20b",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "asset": "atai Life Sciences common stock (Nasdaq: ATAI, or its successor listing): market capitalization",
+    "entity": "atai Life Sciences",
+    "title": "atai Life Sciences market capitalization at or above US$20 billion",
+    "proposition": "The market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing) is at or above US$20 billion at a market close, per Nasdaq closing price and shares outstanding in SEC filings.",
+    "criterion": "Resolved on the named data series only: the market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing), computed as the Nasdaq closing share price multiplied by the shares outstanding stated on the cover page of atai's most recent periodic SEC filing on EDGAR. TRUE on the first trading day on which that closing market capitalization is at or above US$20 billion. The threshold is in the forecaster's words, so it resolves as binary at US$20 billion with no band. FALSE at the deadline when no market close has reached US$20 billion. If the shares stop trading with no successor listing and no price series has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+    "resolution_source": {
+     "name": "Nasdaq closing price for ATAI and shares outstanding in atai Life Sciences periodic filings on SEC EDGAR",
+     "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "quantity": {
+     "metric": "Market capitalization of atai Life Sciences (Nasdaq: ATAI, or successor listing) at a market close",
+     "threshold": 20000000000,
+     "direction": ">=",
+     "unit": "USD",
+     "series": "Nasdaq closing price of ATAI multiplied by shares outstanding on the cover page of atai's most recent periodic SEC filing (SEC EDGAR)"
+    },
+    "readings": [
+     "'a 20 30 40 $50 billion company' = market capitalization of at least USD 20 billion; the range's lower bound is the threshold, as in E-0028."
+    ]
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2030-10-24",
+   "deadline_origin": "anchor",
+   "deadline_text": "in the next five plus years",
+   "bin": "C",
+   "p_stated": null,
+   "phrase": "I think ... can make us",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": null,
+   "stage_note": "Company valuation; no base-rate class.",
+   "note": "Market capitalization is set by the market, not by atai, so not CONTROL; affiliated (chairman). 'Five plus years' read through the 'in N years' row as statement date plus five years; the 'plus' names no later date. 'Can make us' is a possibility phrase (bin C) inside an 'I think' frame. The preventative-use paradigm in the context is not an observable event, so no condition is coded; the reading is noted here."
+  },
+  {
+   "id": "angermayer-0143",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:atai-market-cap-50b",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "asset": "atai Life Sciences common stock (Nasdaq: ATAI, or its successor listing): market capitalization",
+    "entity": "atai Life Sciences",
+    "title": "atai Life Sciences market capitalization at or above US$50 billion",
+    "proposition": "The market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing) is at or above US$50 billion at a market close, per Nasdaq closing price and shares outstanding in SEC filings.",
+    "criterion": "Resolved on the named data series only: the market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing), computed as the Nasdaq closing share price multiplied by the shares outstanding stated on the cover page of atai's most recent periodic SEC filing on EDGAR. TRUE on the first trading day on which that closing market capitalization is at or above US$50 billion. The threshold is in the forecaster's words, so it resolves as binary at US$50 billion with no band. FALSE at the deadline when no market close has reached US$50 billion. If the shares stop trading with no successor listing and no price series has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+    "resolution_source": {
+     "name": "Nasdaq closing price for ATAI and shares outstanding in atai Life Sciences periodic filings on SEC EDGAR",
+     "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "quantity": {
+     "metric": "Market capitalization of atai Life Sciences (Nasdaq: ATAI, or successor listing) at a market close",
+     "threshold": 50000000000,
+     "direction": ">=",
+     "unit": "USD",
+     "series": "Nasdaq closing price of ATAI multiplied by shares outstanding on the cover page of atai's most recent periodic SEC filing (SEC EDGAR)"
+    },
+    "readings": [
+     "'a 50 billion plus company' = market capitalization of at least USD 50 billion; the range's lower bound is the threshold, as in E-0028."
+    ]
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": "C",
+   "p_stated": null,
+   "phrase": "I believe ... we can be",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": null,
+   "stage_note": "Company valuation; no base-rate class.",
+   "note": "Undated: no time words. 'Can be' is a possibility phrase (bin C) inside an 'I believe' frame. The stated cause (psychedelics helping society through the AI transition) is not an observable event, so no condition is coded. Market capitalization is decided by the market; affiliated (chairman)."
+  },
+  {
+   "id": "angermayer-0149",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "asserts": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": null,
+   "p_stated": null,
+   "phrase": null,
+   "affiliated": null,
+   "tags": [],
+   "base_rate_class": null,
+   "stage_note": null,
+   "note": "Both milestones are events of the forecaster's own company: the timing of atai's EMP-01 Phase 2a data release and atai's End-of-Phase-2b meeting with FDA for BPL-003 (an atai/Beckley asset). The claim is about when atai delivers news flow, not about a third-party outcome."
+  },
+  {
+   "id": "angermayer-0155",
+   "admit": false,
+   "reason_code": "THIRD_PARTY",
+   "event": null,
+   "condition": null,
+   "asserts": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": null,
+   "p_stated": null,
+   "phrase": null,
+   "affiliated": null,
+   "tags": [],
+   "base_rate_class": null,
+   "stage_note": null,
+   "note": "The timeline (Q4 2026 NDA submission, early 2027 launch of COMP360) is Compass Pathways' guidance, passed on and explicitly not adopted: 'If this timeline holds'. His own sentence (2027 is the year regulated psychedelic therapy reaches US patients) is entailed by the condition (an early 2027 launch), so it adds no expectation of his own that can be scored."
+  },
+  {
+   "id": "angermayer-0166",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0059"
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2026-06-30",
+   "deadline_origin": "anchor",
+   "deadline_text": "from June on ... in June",
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "I think we're going to get ... there will be ... I think",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": null,
+   "stage_note": "Index inclusion; no base-rate class.",
+   "note": "'Index flow from June on' and 'buying pressure in June' read as ATAI being added to a major stock index (the June reconstitution) per E-0059; the size of the buying pressure is not scored. The index provider decides, so not CONTROL; affiliated (chairman). 'I think' governs both clauses: bin B."
+  },
+  {
+   "id": "doblin-0037",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": "A",
+   "p_stated": null,
+   "phrase": "soon the FDA-approved sale of MDMA by prescription",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": "phase2_to_approval_all",
+   "stage_note": "Phase 2 program on the statement date; Phase 3 not yet started.",
+   "note": "'FDA-approved sale of MDMA by prescription' = FDA approval of MAPS's MDMA-assisted psychotherapy for PTSD (E-0001); the FDA decides, the sale by MPBC is the own-organization part and is not the event. 'Soon' is not a deadline: undated panel. No hedge word, so the bare assertion takes bin A. Affiliated (MAPS founder; MAPS PBC)."
+  },
+  {
+   "id": "doblin-0042",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:us-insurer-covers-cannabis-ptsd",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "asset": "FDA-approved botanical cannabis (marijuana) for post-traumatic stress disorder: US health insurer coverage",
+    "entity": "US health insurers",
+    "title": "A US health insurer covers FDA-approved cannabis for PTSD",
+    "proposition": "A US health insurer publishes a coverage policy that covers FDA-approved botanical cannabis (marijuana) as a medicine for post-traumatic stress disorder.",
+    "criterion": "TRUE on the effective date of the first published coverage policy, medical policy bulletin or formulary entry of a US commercial health insurer, Medicare or a state Medicaid program that covers an FDA-approved botanical cannabis (marijuana) drug product for post-traumatic stress disorder. Coverage of a synthetic cannabinoid (dronabinol, nabilone) or of state medical-marijuana programs does not count. Resolution source: the payer's published policy bulletin. FALSE at the deadline when no such policy is in effect.",
+    "resolution_source": {
+     "name": "Payer policy bulletins (commercial insurers, CMS Medicare Coverage Database, state Medicaid)",
+     "url": "https://www.cms.gov/medicare-coverage-database/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+     "'insurance companies will then be willing to cover it' = at least one US health insurer publishes a coverage policy (the ledger reads 'plans will cover' as 'a plan covers', as in E-0056).",
+     "'it' = marijuana (botanical cannabis) as a medicine for PTSD, the MAPS study under discussion."
+    ]
+   },
+   "condition": {
+    "ref": "new:fda-approval-cannabis-ptsd",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "botanical cannabis (marijuana) for post-traumatic stress disorder (MAPS-sponsored program or any sponsor)",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of botanical cannabis for PTSD",
+    "proposition": "The FDA approves a botanical cannabis (marijuana) drug product for post-traumatic stress disorder.",
+    "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) for a botanical cannabis (marijuana) drug product with a PTSD indication is dated, under any sponsor. Approval of a synthetic cannabinoid or of a purified cannabinoid (for example cannabidiol) does not count. Resolution source: Drugs@FDA. FALSE at the deadline when no such approval appears there.",
+    "resolution_source": {
+     "name": "Drugs@FDA",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+     "'once we make it into an FDA-approved medicine' = FDA approval of the botanical cannabis product for PTSD."
+    ]
+   },
+   "asserts": true,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "the likelihood that ... will then be willing ... to cover it",
+   "affiliated": true,
+   "tags": [
+    "affiliated",
+    "conditional"
+   ],
+   "base_rate_class": null,
+   "stage_note": "Coverage decision; no base-rate class.",
+   "note": "Conditional: 'once we make it into an FDA-approved medicine' = FDA approval of botanical cannabis for PTSD, decided by the FDA (observable, outside his control; MAPS is the sponsor). Undated: no time words. 'The likelihood' is the governing estimative phrase (likely, bin B). Affiliated: MAPS sponsors the cannabis-for-PTSD program named in the condition."
+  },
+  {
+   "id": "doblin-0055",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "asserts": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": null,
+   "p_stated": null,
+   "phrase": null,
+   "affiliated": null,
+   "tags": [],
+   "base_rate_class": null,
+   "stage_note": null,
+   "note": "'These upcoming studies' for 'a variety of conditions' name no drug, trial or indication, and the condition ('should they demonstrate both safety and efficacy') is not tied to a named trial result. The outcome (prescription access) is entailed by the condition, so no event and no observable condition can be written without inventing them."
+  },
+  {
+   "id": "doblin-0087",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": {
+    "ref": "E-0002"
+   },
+   "asserts": true,
+   "deadline": "2021-12-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "by the end of 2021",
+   "bin": "A",
+   "p_stated": null,
+   "phrase": "FDA will approve",
+   "affiliated": true,
+   "tags": [
+    "affiliated",
+    "conditional"
+   ],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "Phase 3 program started (first Phase 3 trial initiated) on the statement date; window of 33 months is below the 36-month median.",
+   "note": "Different source from doblin-0007 (Bulletin reprint), so not DUPLICATE. Conditional: 'if the results are as we hope ... similar to the Phase 2 studies' = the first Phase 3 trial (MAPP1) meets its primary endpoint (E-0002), observable and not under his control. 'By the end of 2021' = 31 December 2021. Affiliated (MAPS founder; Lykos/MAPS PBC)."
+  },
+  {
+   "id": "doblin-0095",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:mdma-ptsd-competitor-pivotal-trial",
+    "template": "company_event",
+    "area": "clinical_trial",
+    "asset": "midomafetamine (MDMA) for PTSD: a pivotal (Phase 3) trial by a sponsor other than MAPS PBC",
+    "entity": "Any drug sponsor other than MAPS Public Benefit Corporation (or its successor)",
+    "title": "A second sponsor starts its own pivotal trial of MDMA for PTSD",
+    "proposition": "A sponsor other than MAPS Public Benefit Corporation (or its successor) registers its own Phase 3 trial of midomafetamine (MDMA) for post-traumatic stress disorder.",
+    "criterion": "TRUE on the ClinicalTrials.gov study start date of the first interventional Phase 3 (or Phase 2/3) trial of midomafetamine (MDMA) for post-traumatic stress disorder whose sponsor is not MAPS Public Benefit Corporation, MAPS or a successor or licensee of their program. Trials run by MAPS PBC or its successor, trials of MDMA for other indications, and Phase 1 or Phase 2 trials do not count. Resolution source: ClinicalTrials.gov. FALSE at the deadline when no such trial has started.",
+    "resolution_source": {
+     "name": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+     "'generate their own data' = a competitor runs its own pivotal MDMA-for-PTSD trial; 'wait this out' = no such trial is started."
+    ]
+   },
+   "condition": null,
+   "asserts": false,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "probably",
+   "affiliated": true,
+   "tags": [
+    "affiliated",
+    "denial"
+   ],
+   "base_rate_class": null,
+   "stage_note": "Corporate action by third parties; no base-rate class.",
+   "note": "Denial: he says would-be generic competitors will not run their own trials ('they'll probably just wait this out'); asserts false, bin B. 'More than five years' describes how long a trial would take, not a deadline: undated panel. Affiliated: the event names MAPS PBC as the reference sponsor."
+  },
+  {
+   "id": "doblin-0098",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "asserts": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": null,
+   "p_stated": null,
+   "phrase": null,
+   "affiliated": null,
+   "tags": [],
+   "base_rate_class": null,
+   "stage_note": null,
+   "note": "'Our proposals' bundles three FDA negotiation items whose content is not in the quote (therapist MDMA-experience protocol, Expanded Access, co-therapist credentials); no single observable event with a resolution source can be written without choosing or inventing one, and 'eventually' gives no deadline."
+  },
+  {
+   "id": "doblin-0110",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2022-12-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "before the end of 2022",
+   "bin": "A",
+   "p_stated": null,
+   "phrase": "We're hoping ... will be legally available by prescription",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "Phase 3 program under way on the statement date; window of 29 months is below the 36-month median.",
+   "note": "'Legally available by prescription' = FDA approval of MDMA-assisted psychotherapy for PTSD (E-0001). The first clause (done with all the research by mid-2022) is an own-organization milestone (CONTROL) and is not coded. 'Hoping' is not a lexicon phrase; 'will be' sets bin A. Affiliated (MAPS founder; MAPS PBC)."
+  },
+  {
+   "id": "doblin-0118",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2023-12-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "by the beginning of 2023",
+   "bin": "A",
+   "p_stated": null,
+   "phrase": "we hope ... we'll have approval for prescription use",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "Phase 3 program under way on the statement date (second Phase 3 trial still running); window of 38 months is above the 36-month median.",
+   "note": "'Approval for prescription use' = FDA approval (E-0001). 'By the beginning of 2023' read via the year row (31 December 2023), as the registry read 'early next year' for E-0058. The trial-completion clause (finish the second Phase 3 by mid-2022) is an own-organization milestone (CONTROL) and is not coded. 'Hope' is not a lexicon phrase; 'we'll have' sets bin A. Affiliated."
+  },
+  {
+   "id": "doblin-0142",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:us-psychedelic-treatment-centers-5000",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "asset": "Psychedelic-assisted therapy treatment centers in the United States (count of centers)",
+    "entity": "US psychedelic-assisted therapy clinics (count)",
+    "title": "About 5,000 to 6,000 psychedelic treatment centers in the United States",
+    "proposition": "The number of treatment centers in the United States that deliver an FDA-approved psychedelic-assisted therapy is about 5,000 to 6,000 by the period end, per the named series.",
+    "criterion": "Resolved on the named data series only: the count of US sites certified to administer an FDA-approved psychedelic-assisted therapy (MDMA or psilocybin drug product) under that product's REMS, per the REMS program's published certified-site list, summed across approved products with duplicate sites counted once. 'About 5,000 or 6,000' is a point estimate: TRUE if the count at the deadline is within plus or minus 20 percent of 5,500 (4,400 to 6,600). FALSE otherwise. If no such list has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+    "resolution_source": {
+     "name": "REMS certified-site lists of FDA-approved psychedelic-assisted therapy products (FDA REMS@FDA database and the REMS program websites)",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/rems/"
+    },
+    "base_rate_class": null,
+    "quantity": {
+     "metric": "Count of US treatment centers certified to deliver an FDA-approved psychedelic-assisted therapy",
+     "threshold": 5500,
+     "direction": "within a band of plus or minus 20 percent (4,400 to 6,600)",
+     "unit": "centers",
+     "series": "REMS certified-site lists of FDA-approved psychedelic-assisted therapy products (REMS@FDA)"
+    },
+    "readings": [
+     "'These centers' = centers delivering psychedelic-assisted therapy (MDMA, psilocybin) in the United States, the subject of the conversation.",
+     "'About 5,000 or 6,000' is read as a point estimate of 5,500 with the template's plus or minus 20 percent band."
+    ]
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2031-06-04",
+   "deadline_origin": "anchor",
+   "deadline_text": "10 years from now",
+   "bin": "A",
+   "p_stated": null,
+   "phrase": "my prediction is ... there's going to be",
+   "affiliated": false,
+   "tags": [],
+   "base_rate_class": null,
+   "stage_note": "Practice-adoption count; no base-rate class.",
+   "note": "'10 years from now' = statement date plus ten years. 'There's going to be' sets bin A. Clinic counts are decided by the market and by REMS certification, not by MAPS; no MAPS entity is named in the event, so not affiliated."
+  },
+  {
+   "id": "doblin-0146",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2023-12-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "by the end of 2023",
+   "bin": "A",
+   "p_stated": null,
+   "phrase": "will end up, we hope, ... getting permission to sell",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "Phase 3 program on the statement date (first Phase 3 trial reported, second running); window of 31 months is below the 36-month median.",
+   "note": "'Permission to sell' = FDA approval of MDMA-assisted therapy for PTSD (E-0001); the FDA decides. The second clause (MAPS PBC reaches financial sustainability in mid-2024) is an own-organization outcome (CONTROL) and is not coded. 'Hope' is not a lexicon phrase; 'will' sets bin A. Affiliated (MAPS PBC)."
+  },
+  {
+   "id": "doblin-0157-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2023-10-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "in October 2022 ... a year",
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "we think it's a year to where we have FDA approval",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "Phase 3 program on the statement date (second Phase 3 trial running); window of 24 months is below the 36-month median.",
+   "note": "'FDA approval and DEA rescheduling' is 'A and B' and is split: FDA approval here (-a), DEA rescheduling at -b. Deadline from his words only: October 2022 plus a year = October 2023, last day of the month. The first sentence (finish the second Phase 3 study in October 2022) is an own-organization milestone (CONTROL) and is not coded. 'We think' sets bin B. Affiliated."
+  },
+  {
+   "id": "doblin-0157-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:dea-mdma-rescheduling",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA): removal from Schedule I of the Controlled Substances Act",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA reschedules midomafetamine (MDMA) out of Schedule I",
+    "proposition": "The DEA issues a rule that moves midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, out of Schedule I of the Controlled Substances Act.",
+    "criterion": "TRUE on the publication date in the Federal Register of a DEA final rule (or interim final rule) that places midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, in Schedule II, III, IV or V, or removes it from control. A proposed rule, a scheduling recommendation from HHS or FDA, a state law, or a rescheduling of another substance does not count. Resolution source: the Federal Register. FALSE at the deadline when no such rule is published there.",
+    "resolution_source": {
+     "name": "Federal Register",
+     "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+     "'DEA rescheduling' = a DEA rule that takes MDMA (or the approved MDMA product) out of Schedule I; the schedule it lands in is a separate event."
+    ]
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2023-10-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "in October 2022 ... a year",
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "we think it's a year to where we have ... DEA rescheduling",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": null,
+   "stage_note": "DEA scheduling action; no base-rate class.",
+   "note": "Second half of the 'A and B' split of doblin-0157: DEA rescheduling of MDMA. The DEA decides, so not CONTROL; affiliated because the asset is MAPS PBC's midomafetamine. Same deadline reading as -a."
+  },
+  {
+   "id": "doblin-0180",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0009"
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2022-12-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "before the end of the year",
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "I think we'll have statistical significance",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": null,
+   "stage_note": "Trial result; no base-rate class.",
+   "note": "'The second Phase 3 study' = MAPP2 (E-0009); 'statistical significance' = primary endpoint met. 'Good safety profile' is not a binary endpoint and is not scored. 'Before the end of the year' = 31 December 2022. He says the result 'remains to be seen', so not KNOWN on the statement date. 'I think' sets bin B. Affiliated (MAPS PBC sponsor)."
+  },
+  {
+   "id": "doblin-0181",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0004"
+   },
+   "condition": {
+    "ref": "E-0001"
+   },
+   "asserts": true,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "I would say they'll be",
+   "affiliated": true,
+   "tags": [
+    "affiliated",
+    "conditional"
+   ],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "Phase 3 program (second Phase 3 trial running) on the statement date; EU application not yet filed.",
+   "note": "'Two years behind' = EU (EMA) approval of MDMA-assisted therapy for PTSD about two years after the US approval (E-0004). The deadline is relative to an FDA approval that has not happened, so no calendar date can be set: undated panel; conditional on FDA approval (E-0001), which his next sentence makes explicit ('if you have FDA approval'). The host's '2026' is not his word. 'I would say' is a hedge of the 'I think' kind: bin B. The reciprocity sentence (most countries, except Russia, China and Japan) has no countable set and is not coded. Affiliated."
+  },
+  {
+   "id": "doblin-0182",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:dea-mdma-schedule-3-or-4",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA): schedule assigned by the DEA rescheduling rule (Schedule III or IV)",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA places midomafetamine (MDMA) in Schedule III or IV",
+    "proposition": "The DEA rule that reschedules midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, places it in Schedule III or Schedule IV of the Controlled Substances Act.",
+    "criterion": "TRUE on the publication date in the Federal Register of the DEA final rule (or interim final rule) that reschedules midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, when that rule places it in Schedule III or Schedule IV. FALSE on the publication date of a rescheduling rule that places it in Schedule II or Schedule V, and FALSE at the deadline when no rescheduling rule has been published. A proposed rule or an HHS/FDA scheduling recommendation does not count. Resolution source: the Federal Register.",
+    "resolution_source": {
+     "name": "Federal Register",
+     "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+     "'Schedule three or schedule four' is 'A or B': one event.",
+     "'It' = MDMA (the MAPS product) once the DEA acts on it."
+    ]
+   },
+   "condition": {
+    "ref": "new:dea-mdma-rescheduling",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA): removal from Schedule I of the Controlled Substances Act",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA reschedules midomafetamine (MDMA) out of Schedule I",
+    "proposition": "The DEA issues a rule that moves midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, out of Schedule I of the Controlled Substances Act.",
+    "criterion": "TRUE on the publication date in the Federal Register of a DEA final rule (or interim final rule) that places midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, in Schedule II, III, IV or V, or removes it from control. A proposed rule, a scheduling recommendation from HHS or FDA, a state law, or a rescheduling of another substance does not count. Resolution source: the Federal Register. FALSE at the deadline when no such rule is published there.",
+    "resolution_source": {
+     "name": "Federal Register",
+     "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+     "'DEA rescheduling' = a DEA rule that takes MDMA (or the approved MDMA product) out of Schedule I; the schedule it lands in is a separate event."
+    ]
+   },
+   "asserts": true,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": "A",
+   "p_stated": null,
+   "phrase": "We hope it'll be schedule three or schedule four",
+   "affiliated": true,
+   "tags": [
+    "affiliated",
+    "conditional"
+   ],
+   "base_rate_class": null,
+   "stage_note": "DEA scheduling action; no base-rate class.",
+   "note": "Undated: no time words. Conditional on the DEA rescheduling MDMA at all (new:dea-mdma-rescheduling, proposed at doblin-0157-b): the schedule question presupposes a rescheduling action. The DEA decides ('up to the DEA and the FDA controlled substances staff'), so not CONTROL; affiliated (MAPS PBC asset). 'Hope' is not a lexicon phrase; 'it'll be' sets bin A."
+  },
+  {
+   "id": "doblin-0198",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2024-12-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "next year",
+   "bin": "A",
+   "p_stated": null,
+   "phrase": "We hope that ... will be approved by the FDA next year",
+   "affiliated": true,
+   "tags": [
+    "affiliated"
+   ],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "Phase 3 program complete (both Phase 3 trials reported) and NDA not yet submitted on the statement date; window of 15 months is below the 36-month median.",
+   "note": "'Next year' = 31 December 2024 via the year row. The second clause (Open Science principle inspires many more psychedelic-assisted therapies to be validated) has no countable set or deadline (VAGUE) and is not coded. 'Hope' is not a lexicon phrase; 'will be approved' sets bin A. Affiliated (MAPS founder; MAPS PBC / Lykos before 2024-08-31)."
+  }
+ ]
+}

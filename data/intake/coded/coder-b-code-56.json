@@ -1,0 +1,726 @@
+{
+ "coder": "B",
+ "run": "intake-2026-09-14",
+ "records": [
+  {
+   "id": "angermayer-0072",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Especially important in driving access and scale' names no event or threshold."
+  },
+  {
+   "id": "angermayer-0073-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": "2025-04-15",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'I would say' read as 'I think'; 'hopefully' is not in the lexicon. Split: MDMA."
+  },
+  {
+   "id": "angermayer-0073-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0003"
+   },
+   "condition": null,
+   "deadline": "2025-04-15",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Split: psilocybin. Quote names psilocybin only, so the any-sponsor entry applies."
+  },
+  {
+   "id": "angermayer-0074",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0029"
+   },
+   "condition": null,
+   "deadline": "2029-04-15",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "'Come to market' read as approval. Deadline from his own 'let's say 5 years from now'. Landscape clause is vague."
+  },
+  {
+   "id": "angermayer-0075-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0029"
+   },
+   "condition": null,
+   "deadline": "2028-04-15",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Split: approvals. 'Three to four years' read at the outer bound. Affiliated (atai chairman)."
+  },
+  {
+   "id": "angermayer-0075-b",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Split: valuation. 'Should be a multi-billion company ... today' is a present valuation opinion."
+  },
+  {
+   "id": "angermayer-0076",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": {
+    "ref": "E-0022"
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'Strong chance' read as likely. Condition: a new Phase 3 program addressing FDA concerns."
+  },
+  {
+   "id": "angermayer-0077",
+   "admit": false,
+   "reason_code": "REPORT",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Restates the public PDUFA date; passes on information."
+  },
+  {
+   "id": "angermayer-0078",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": {
+    "ref": "E-0022"
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "C",
+   "p_stated": null,
+   "note": "'Can ... potentially' read as possible. Condition: new trials."
+  },
+  {
+   "id": "angermayer-0079",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Very positively surprised' names no threshold or date."
+  },
+  {
+   "id": "angermayer-0080",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:spravato-annual-sales-1bn",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "asset": "Spravato (esketamine) annual net sales",
+    "entity": "Johnson & Johnson",
+    "title": "Spravato annual sales reach US$1 billion (blockbuster)",
+    "proposition": "Spravato (esketamine) annual net sales are at or above US$1 billion in a calendar year, per Johnson & Johnson's reported financial results."
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'Blockbuster' read as US$1 billion annual sales; 'shortly' is not a deadline. He adopts the expectation."
+  },
+  {
+   "id": "angermayer-0081",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Will massively pay off' names no threshold or date."
+  },
+  {
+   "id": "angermayer-0082",
+   "admit": false,
+   "reason_code": "OUT_OF_AREA",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Enhanced Games valuation; not psychiatry."
+  },
+  {
+   "id": "angermayer-0083",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'High conviction in the studies' asserts no outcome; a success reading is not in the text."
+  },
+  {
+   "id": "angermayer-0084",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Present-tense valuation opinion; no future state asserted."
+  },
+  {
+   "id": "angermayer-0085",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Game-changer' and 'decisive' name no event or threshold."
+  },
+  {
+   "id": "angermayer-0086",
+   "admit": false,
+   "reason_code": "REPORT",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'As reported by atai'; restates company guidance on runway."
+  },
+  {
+   "id": "angermayer-0087",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:spravato-patients-per-year-200k",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "asset": "Spravato (esketamine): patients treated per year",
+    "entity": "Johnson & Johnson",
+    "title": "Spravato patients treated per year reach hundreds of thousands",
+    "proposition": "The number of patients treated with Spravato (esketamine) in a year is at or above 200,000, per Johnson & Johnson's public disclosures."
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "'Hundreds of thousands' read as at least 200,000; 'in a few years' is not an anchor pattern. Strongest phrase 'will'."
+  },
+  {
+   "id": "angermayer-0088",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Outperform analysts' expectations' names no benchmark; 'soon' is not a deadline."
+  },
+  {
+   "id": "angermayer-0089-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0020"
+   },
+   "condition": null,
+   "deadline": "2025-12-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Split: BPL-003 Phase 2b readout. 'Mid this year' is not an anchor pattern; read through the year rule. Affiliated."
+  },
+  {
+   "id": "angermayer-0089-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:rl-007-phase2b-cias-topline",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "RL-007 Phase 2b trial in cognitive impairment associated with schizophrenia (CIAS)",
+    "entity": "Recognify Life Sciences (atai Life Sciences)",
+    "title": "RL-007 Phase 2b trial in CIAS reports topline results",
+    "proposition": "Recognify Life Sciences or atai Life Sciences reports topline results, positive or negative, of the Phase 2b trial of RL-007 in cognitive impairment associated with schizophrenia."
+   },
+   "condition": null,
+   "deadline": "2025-12-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Split: RL-007 Phase 2b readout. 'Mid this year' read through the year rule. Affiliated."
+  },
+  {
+   "id": "angermayer-0090-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:vls-01-phase2-trd-topline",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "VLS-01 (buccal film DMT) Phase 2 trial in treatment-resistant depression",
+    "entity": "atai Life Sciences",
+    "title": "VLS-01 (DMT) Phase 2 trial in treatment-resistant depression reports topline results",
+    "proposition": "atai Life Sciences reports topline results, positive or negative, of the Phase 2 trial of VLS-01 (buccal film DMT) in treatment-resistant depression."
+   },
+   "condition": null,
+   "deadline": "2026-03-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Split: VLS-01 DMT Phase 2 readout, Q1 2026. Affiliated."
+  },
+  {
+   "id": "angermayer-0090-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0042"
+   },
+   "condition": null,
+   "deadline": "2026-03-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Split: EMP-01 R-MDMA Phase 2a readout, Q1 2026. Affiliated."
+  },
+  {
+   "id": "angermayer-0091",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": false,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Denial: racemic MDMA 'off the table for good'. 'Front runner' clause is descriptive."
+  },
+  {
+   "id": "angermayer-0092",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Consolidation' names no transaction or threshold; atai as driver is own-company."
+  },
+  {
+   "id": "angermayer-0093",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0020"
+   },
+   "condition": null,
+   "deadline": "2025-12-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'Mid-2025' is not an anchor pattern; read through the year rule. Affiliated."
+  },
+  {
+   "id": "angermayer-0094",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:atai-four-phase2-readouts-12-months",
+    "template": "quantity_threshold",
+    "area": "clinical_trial",
+    "asset": "atai Life Sciences Phase 2 topline readouts announced between 20 March 2025 and 20 March 2026 (count)",
+    "entity": "atai Life Sciences",
+    "title": "atai announces four Phase 2 topline readouts within 12 months",
+    "proposition": "atai Life Sciences announces topline results of at least four Phase 2 trials between 20 March 2025 and 20 March 2026, per atai press releases."
+   },
+   "condition": null,
+   "deadline": "2026-03-20",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Count of readouts within 12 months. Valuation clause is vague. Affiliated."
+  },
+  {
+   "id": "angermayer-0095",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Share price 'should reflect' names no threshold; 'soon' is not a deadline."
+  },
+  {
+   "id": "angermayer-0096",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:atai-share-price-multiple-of-2025-05-16-close",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "asset": "atai Life Sciences common stock (Nasdaq: ATAI): closing share price relative to its 16 May 2025 close",
+    "entity": "atai Life Sciences",
+    "title": "atai share price at a multiple of its 16 May 2025 close",
+    "proposition": "The closing share price of atai Life Sciences (Nasdaq: ATAI, or its successor listing) is at or above two times its 16 May 2025 closing price, per Nasdaq closing prices."
+   },
+   "condition": {
+    "ref": "new:atai-four-phase2-trials-all-positive",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "atai Life Sciences' four Phase 2 trials pending at 16 May 2025 (BPL-003 TRD, RL-007 CIAS, VLS-01 TRD, EMP-01 SAD)",
+    "entity": "atai Life Sciences",
+    "title": "All four pending atai Phase 2 trials report positive primary endpoints",
+    "proposition": "Each of atai Life Sciences' four Phase 2 trials pending at 16 May 2025 reports its prespecified primary endpoint met, as announced by the sponsor."
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'A multiple' read as at least two times. Condition: all four Phase 2 trials positive. Predictive 'should'."
+  },
+  {
+   "id": "angermayer-0097",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Closing of atai's own acquisition and renaming."
+  },
+  {
+   "id": "angermayer-0098",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:rl-007-phase2b-cias-topline",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "RL-007 Phase 2b trial in cognitive impairment associated with schizophrenia (CIAS)",
+    "entity": "Recognify Life Sciences (atai Life Sciences)",
+    "title": "RL-007 Phase 2b trial in CIAS reports topline results",
+    "proposition": "Recognify Life Sciences or atai Life Sciences reports topline results, positive or negative, of the Phase 2b trial of RL-007 in cognitive impairment associated with schizophrenia."
+   },
+   "condition": null,
+   "deadline": "2025-12-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'Mid-2025' read through the year rule. Affiliated."
+  },
+  {
+   "id": "angermayer-0099",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Rollout speed with no threshold or date."
+  },
+  {
+   "id": "angermayer-0100",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Harder to establish' names no measurable event."
+  },
+  {
+   "id": "angermayer-0101",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Ready to act fast' names no decision or date."
+  },
+  {
+   "id": "angermayer-0102",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:mental-health-largest-healthcare-market",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "asset": "Global annual sales of mental health treatments versus other therapeutic areas (oncology, cardiology)",
+    "entity": "Global pharmaceutical market (mental health therapeutic area)",
+    "title": "Mental health becomes the largest therapeutic-area market in healthcare",
+    "proposition": "Global annual sales of mental health treatments exceed those of every other therapeutic area, including oncology and cardiology, per a published therapeutic-area market series such as IQVIA or Evaluate."
+   },
+   "condition": null,
+   "deadline": "2035-06-05",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "Series not named by the forecaster; a published therapeutic-area sales series is proposed."
+  },
+  {
+   "id": "angermayer-0103",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:bpl-003-annual-sales-1bn",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "asset": "BPL-003 (intranasal 5-MeO-DMT) annual net sales",
+    "entity": "atai Life Sciences (atai Beckley)",
+    "title": "BPL-003 annual sales reach US$1 billion (blockbuster)",
+    "proposition": "Annual net sales of BPL-003 (5-MeO-DMT) are at or above US$1 billion in a calendar year, per the sponsor's reported financial results."
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "C",
+   "p_stated": null,
+   "note": "'Has the potential' read as possible; 'blockbuster' read as US$1 billion annual sales. Affiliated."
+  },
+  {
+   "id": "angermayer-0104",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Adopt rapidly' names no measurable uptake."
+  },
+  {
+   "id": "angermayer-0105",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Significantly faster' and 'positively surprise' name no threshold."
+  },
+  {
+   "id": "angermayer-0106",
+   "admit": false,
+   "reason_code": "THIRD_PARTY",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "J&J's revenue projection, attributed to J&J."
+  },
+  {
+   "id": "angermayer-0107-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:rl-007-phase2b-cias-topline",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "RL-007 Phase 2b trial in cognitive impairment associated with schizophrenia (CIAS)",
+    "entity": "Recognify Life Sciences (atai Life Sciences)",
+    "title": "RL-007 Phase 2b trial in CIAS reports topline results",
+    "proposition": "Recognify Life Sciences or atai Life Sciences reports topline results, positive or negative, of the Phase 2b trial of RL-007 in cognitive impairment associated with schizophrenia."
+   },
+   "condition": null,
+   "deadline": "2025-12-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Split: RL-007 readout. 'Mid this year' read through the year rule. Affiliated."
+  },
+  {
+   "id": "angermayer-0107-b",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Split: open-label data release and FDA meeting request are atai's own disclosures and filings."
+  },
+  {
+   "id": "angermayer-0108-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:vls-01-phase2-trd-topline",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "VLS-01 (buccal film DMT) Phase 2 trial in treatment-resistant depression",
+    "entity": "atai Life Sciences",
+    "title": "VLS-01 (DMT) Phase 2 trial in treatment-resistant depression reports topline results",
+    "proposition": "atai Life Sciences reports topline results, positive or negative, of the Phase 2 trial of VLS-01 (buccal film DMT) in treatment-resistant depression."
+   },
+   "condition": null,
+   "deadline": "2026-03-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Split: VLS-01 Phase 2 readout, Q1 2026. Affiliated."
+  },
+  {
+   "id": "angermayer-0108-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0042"
+   },
+   "condition": null,
+   "deadline": "2026-03-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Split: EMP-01 Phase 2a readout, Q1 2026. Affiliated."
+  },
+  {
+   "id": "angermayer-0109",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Some more will [vanish]' has no defined set or event."
+  },
+  {
+   "id": "angermayer-0110",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Sector comeback with no threshold, series or date."
+  },
+  {
+   "id": "angermayer-0111",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'My vision would be' is an aspiration for his own company."
+  }
+ ]
+}

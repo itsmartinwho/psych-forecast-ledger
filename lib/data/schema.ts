@@ -136,7 +136,7 @@ export const RegistryEvent = z.object({
   id: EventId,
   template: Template,
   area: AreaSlug,
-  asset: z.string().max(120),
+  asset: z.string().max(300),
   entity: z.string().max(120),
   title: z.string().max(160),
   proposition: z.string().max(400),

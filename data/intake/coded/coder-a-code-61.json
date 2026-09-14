@@ -1,0 +1,506 @@
+{
+ "coder": "A",
+ "run": "intake-2026-09-14",
+ "records": [
+  {
+   "id": "doblin-0136",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'We will have several major meetings with FDA' and 'the prospect of filing a New Drug Application' are actions of the forecaster's own organization (MAPS and MAPS PBC): meeting requests and filings are in the CONTROL list. The agenda items (therapist credentialing, physician presence, the self-compassion protocol) are questions to be put to the FDA, not forecasts of the FDA's answers, so no third-party event can be written without inventing the outcome. Not split: every clause is a commitment."
+  },
+  {
+   "id": "doblin-0137",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'We will be challenged to raise $30 million' is fundraising by the forecaster's own organization (raises are in the CONTROL list), and 'challenged to' asserts a task, not an outcome. The second clause, that FDA and EMA research 'would support approval for patient access ... in many countries of the world', is a mechanism claim with no countable set of countries, no regulator and no date (VAGUE, logged as the secondary defect). The EMA approval itself is not forecast in these words; census doblin-0016 carries that call."
+  },
+  {
+   "id": "doblin-0138",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'We will launch research into MDMA-assisted group therapy and roll out our new therapist training program' are a trial start and a program launch by the forecaster's own organization, both in the CONTROL list. 'If MDMA-assisted therapy is approved' frames the demand rationale, not a forecast of approval."
+  },
+  {
+   "id": "doblin-0139",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "What the sentence asserts is that the license, the Michigan grant and the publication 'will uncork a decades-long backlog of research into the medical and mental health benefits of cannabis': no series, threshold, body or date can be written from 'uncork a backlog of research'. 'When Prof. Craker obtains his license' presupposes the DEA cultivation registration rather than forecasting it; a coder who reads 'when' as a forecast would write a rule_or_policy event (DEA grants Lyle Craker a bulk-manufacturer registration for cannabis, undated, affiliated through MAPS's sponsorship of the application), and that reading is logged. Cannabis research is also at the edge of the five areas (finder area 'other'); VAGUE is the first failed test on the words as written."
+  },
+  {
+   "id": "doblin-0140",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:fda-midomafetamine-rems-sponsor-training-required",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: FDA labeling or REMS that restricts administration to therapists trained in the sponsor's (MAPS) training program",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of midomafetamine (MDMA-assisted therapy) restricts administration to sponsor-trained therapists",
+    "proposition": "The FDA approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder with labeling or a Risk Evaluation and Mitigation Strategy (REMS) under which only therapists who have completed the sponsor's (MAPS or MAPS PBC) training program may administer the drug to patients.",
+    "criterion": "Resolved on the date of the FDA approval letter or Drugs@FDA entry for midomafetamine (MDMA-assisted therapy) for PTSD. TRUE when the approved labeling or the REMS document (elements to assure safe use, certification requirements) requires that the therapists or healthcare providers who administer the drug or conduct dosing sessions have completed the sponsor's training program (the MAPS or MAPS PBC MDMA Therapy Training Program or its successor under any sponsor name). FALSE when the approval's labeling and REMS permit administration by providers who have not completed the sponsor's program (for example, any certified prescriber or any provider who completes an FDA-approved REMS training that the sponsor does not run). A complete response letter or an advisory vote does not resolve the event. The event resolves only when the condition (FDA approval, E-0001) occurs; if no approval is dated by the deadline the condition is unmet. Resolution source: Drugs@FDA (approval letter, labeling) and the FDA REMS document database (REMS@FDA), with the sponsor's approval announcement as a secondary source.",
+    "resolution_source": { "name": "Drugs@FDA approval letter and labeling; FDA REMS@FDA database for the REMS document", "url": "https://www.accessdata.fda.gov/scripts/cder/rems/" },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+     "'Directly administer it to patients' = the therapists or providers who conduct the MDMA dosing sessions; prescribers who do not sit in the session are not the set the words name.",
+     "'Our training program' = the MAPS / MAPS PBC MDMA Therapy Training Program under any later corporate name (MAPS PBC, Lykos Therapeutics, successors).",
+     "A REMS that names the sponsor's program as one acceptable route among others resolves FALSE: the words say 'the only therapists'."
+    ]
+   },
+   "condition": { "ref": "E-0001" },
+   "asserts": true,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": "A",
+   "p_stated": null,
+   "phrase": "are going to be therapists that have been through our training program",
+   "affiliated": true,
+   "tags": ["affiliated", "conditional"],
+   "base_rate_class": null,
+   "stage_note": "On the statement date (March 2021) MAPP1 had reported a positive primary result (sponsor announcement) with MAPP2 under way; no NDA and no REMS proposal existed. No base-rate class covers the content of a REMS at approval, so b is null.",
+   "note": "Conditional forecast: if the FDA approves MDMA-assisted therapy (A = E-0001, an FDA decision outside the forecaster's control), the approval's labeling or REMS restricts administration to MAPS-trained therapists (B). Who may lawfully administer an approved drug is set by the FDA's labeling and REMS, a third-party decision, so the item is not CONTROL although MAPS runs the training; a coder who reads the sentence as MAPS's own distribution plan would reject CONTROL, and that reading is logged. 'Are going to be' is a bin A phrase; asserts true. No date in the words, so undated (24-month window from 2021-03-19). Affiliated: MAPS (founder and president) and MAPS PBC (founder, board member), whose aliases include 'MDMA-assisted therapy'. Not mapped to E-0023 (REMS on the psychedelic class) or E-0067 to E-0069: different asset (this sponsor's program) and a different REMS content (therapist training restriction)."
+  },
+  {
+   "id": "doblin-0141",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'We have demonstrated that MDMA-assisted therapy is likely to provide relief' is a retrospective characterization of the MAPP1 result published that day; 'likely to provide relief' describes the treatment effect shown, not a future observable event. No trial, regulator, series or date is named for any future state."
+  },
+  {
+   "id": "doblin-0142",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'About 5,000 or 6,000 of these centers throughout the United States': no named series or registry counts psychedelic treatment centers, and 'these centers' has no defined set (ketamine clinics, which existed in 2021, may or may not count). Same defect as census doblin-0008 and doblin-0023. The horizon is usable ('10 years from now' = 2031-06-04, statement date plus 10 years) and the forecaster gives a point number, but a quantity_threshold event cannot be written without inventing the series."
+  },
+  {
+   "id": "doblin-0143",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0001" },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2023-12-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "by the end of 2023",
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "We think by the end of 2023 that we'll have FDA approval for MDMA-assisted therapy for PTSD",
+   "affiliated": true,
+   "tags": ["affiliated"],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "On the statement date (June 2021) the program had one positive Phase 3 trial (MAPP1, published in Nature Medicine in May 2021) and a second Phase 3 (MAPP2) under way; no NDA submitted. Class: Phase 3 program to FDA approval, psychiatry (p 0.563, median 36 months). The window from 2021-06-04 to 2023-12-31 is about 31 months, below the median, so b is halved.",
+   "note": "FDA approval of MDMA-assisted therapy for PTSD by the end of 2023: mapped to E-0001 (same asset, same outcome type). 'By the end of 2023' = 2023-12-31 (year rule, origin anchor). Bin B on 'we think': the hedge governs the that-clause and 'we'll have' is the complement, not a separate certainty phrase (same rule as census doblin-0010); asserts true. Affiliated: founder and president of MAPS and founder and board member of MAPS PBC, the sponsor. Not KNOWN: no NDA and no FDA action on the statement date."
+  },
+  {
+   "id": "doblin-0144",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0003" },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2025-12-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "By 2024, 2025",
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "there should be FDA approval for psilocybin, for depression",
+   "affiliated": false,
+   "tags": [],
+   "base_rate_class": "phase2_to_approval_all",
+   "stage_note": "On the statement date (June 2021) no psilocybin drug product had a Phase 3 trial under way; the most advanced program (COMP360, Compass Pathways) was in a Phase 2b trial in treatment-resistant depression with breakthrough therapy designation (2018), and Usona's psilocybin was in Phase 2 for MDD. Class: Phase 2 program to approval, all indications (p 0.15, median 72 months); the alternative btd_to_approval (p 0.72, median 48 months) fits only the one designated program and not the class asset, so it is logged, not used. The window from 2021-06-04 to 2025-12-31 is about 55 months, below the 72-month median, so b is halved.",
+   "note": "FDA approval of psilocybin by 2024 or 2025: mapped to E-0003 (FDA approves a psilocybin drug product, any sponsor, any indication). The words name depression and 'potentially' alcohol use disorder and 'other indications', so the any-indication reading of E-0003 fits; the depression reading is logged. Deadline: the outer bound of 'By 2024, 2025' = 2025-12-31 (year rule, origin anchor). 'Should be' is the predictive should (bin B); asserts true. 'They'll be administered in these exact kind of centers' has no countable set and is not coded. Not affiliated: the forecaster's organizations sponsor no psilocybin program."
+  },
+  {
+   "id": "doblin-0145",
+   "admit": false,
+   "reason_code": "OUT_OF_AREA",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "A federal law ending marijuana prohibition ('no federal penalties for marijuana. It's up to the states') in 2025 is drug-policy legislation about recreational and general cannabis access, not a regulatory, trial, company, payer or practice-adoption event about drugs, devices or treatments in psychiatry. The claim is otherwise writable (rule_or_policy, Congress enacts, 2025-12-31, 'my current prediction is' bin B), so OUT_OF_AREA is the only failed test."
+  },
+  {
+   "id": "doblin-0146-a",
+   "admit": false,
+   "reason_code": "DUPLICATE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "Split: (a) 'by the end of 2023, getting permission to sell' restates, in the same podcast, the claim captured in doblin-0143 (FDA approval of MDMA-assisted therapy for PTSD by the end of 2023, E-0001); the first row stands (same rule as angermayer-0078). 'Permission to sell' = FDA approval. If coded alone it would take E-0001, 2023-12-31, affiliated; 'we hope' is not a lexicon phrase and would be read as a possibility phrase (bin C), a weaker call than doblin-0143's 'we think'."
+  },
+  {
+   "id": "doblin-0146-b",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "Split: (b) 'we will reach sustainability in the middle of 2024' has no defined metric: MAPS is a non-profit and MAPS PBC a private benefit corporation with no public series for revenue, expenses or margin, and the sentence gives no threshold. Same defect as census doblin-0017. 'The middle of 2024' would anchor 2024-06-30. Alternative code CONTROL (own organization's finances) is secondary."
+  },
+  {
+   "id": "doblin-0147",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'It'll cost us like another 30 [million] or so' is the forecaster's own organization's spending with no public series (VAGUE; CONTROL secondary), and the transcript garbles the number. 'The Europeans will accept all our U.S. data' and 'we only have to do one phase three study in Europe' describe the regulatory pathway MAPS plans to follow rather than a dated, observable EMA decision; the only observable would be the trial basis listed in a future EMA assessment report for an authorisation with no date in the words, which would require inventing the resolution. That drug_approval reading (EMA authorisation of MDMA-assisted therapy for PTSD on the basis of one European Phase 3 trial plus US data, affiliated) is logged."
+  },
+  {
+   "id": "doblin-0148",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:texas-reschedules-mdma-after-fda-approval",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "MDMA (midomafetamine): Texas controlled-substance schedule placement after FDA approval",
+    "entity": "Texas Department of State Health Services (Commissioner of Health)",
+    "title": "Texas reschedules MDMA out of Schedule I after FDA approval",
+    "proposition": "Texas moves MDMA (midomafetamine), or the FDA-approved MDMA drug product, out of Schedule I of the Texas Schedules of Controlled Substances into a schedule that permits prescription.",
+    "criterion": "TRUE on the effective date of a Texas Register notice or a Texas Department of State Health Services schedule action that removes MDMA (midomafetamine) or an FDA-approved MDMA drug product from Schedule I of the Texas Schedules of Controlled Substances, or places it in Schedule II, III, IV or V. A schedule change that takes effect through the Commissioner of Health's non-objection to a federal rescheduling ('automatic' adoption) counts the same as any other schedule action. A federal DEA rescheduling alone, a proposal or a legislative bill does not resolve the event. The event resolves only when the condition (FDA approval, E-0001) occurs; if no approval is dated by the deadline the condition is unmet. Resolution source: the Texas Register (Texas Secretary of State) and the DSHS Texas Schedules of Controlled Substances page.",
+    "resolution_source": { "name": "Texas Register (Texas Secretary of State) and the Texas Department of State Health Services schedules of controlled substances", "url": "https://www.sos.state.tx.us/texreg/" },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+     "'Reschedule automatically' = the Texas procedure by which a federal schedule change takes effect in Texas unless the Commissioner of Health objects; the words forecast the Texas schedule outcome, and 'the Commissioner of Public Health will not object' is the mechanism, not a second event.",
+     "'If we make MDMA into a medicine' = FDA approval of MDMA-assisted therapy for PTSD (E-0001)."
+    ]
+   },
+   "condition": { "ref": "E-0001" },
+   "asserts": true,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "we think Texas will reschedule automatically",
+   "affiliated": true,
+   "tags": ["affiliated", "conditional"],
+   "base_rate_class": null,
+   "stage_note": "On the statement date (June 2021) MDMA was in Schedule I federally and in Texas; the FDA approval that the condition names had no application filed. No base-rate class covers state scheduling actions, so b is null.",
+   "note": "Conditional forecast: if the FDA approves MDMA-assisted therapy (A = E-0001, outside the forecaster's control), Texas reschedules MDMA (B), a decision of the Texas Commissioner of Health and DSHS, a third party. The second clause ('will not object') is the mechanism of the automatic rescheduling and is read with the first, not as an 'A and B' split. 'We think' sets bin B; 'although we don't know' is a hedge on the same clause and does not lower the bin; asserts true. No date in the words, so undated (24-month window from 2021-06-04). Affiliated: the event names MDMA, an alias of MAPS PBC (later Lykos) in the affiliations list, and the forecaster's organizations are the sponsor and were 'already trying to educate' the Texas officials. Area regulatory: scheduling by a state regulator (areas.json)."
+  },
+  {
+   "id": "doblin-0149",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'Somewhere in the neighborhood of $750 million or more in profits during this period of data exclusivity' is a quantity claim about MAPS PBC, a private benefit corporation with no named public financial series, and the exclusivity window starts at an approval with no date in the words, so no deadline can be set. Same defect as census doblin-0009 ($35 million, 2019). 'The estimate is' relays a consultant's figure, but the forecaster adopts it, so THIRD_PARTY is not the first failed test."
+  },
+  {
+   "id": "doblin-0150",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'We're going to need to raise about $150 million more, about $50 million a year for three years' is fundraising by the forecaster's own organization (raises are in the CONTROL list). 'That will make MDMA available in much of the world' has no countable set of countries or regulators, and 'we'll hit this sustainability point' has no metric (both VAGUE, logged as secondary defects; see census doblin-0017)."
+  },
+  {
+   "id": "doblin-0151",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:fda-approval-second-sponsor-mdma-product",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "MDMA (midomafetamine) drug product from a sponsor other than MAPS Public Benefit Corporation: FDA approval",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of an MDMA drug product from a second sponsor",
+    "proposition": "The FDA approves a drug product whose active ingredient is MDMA (midomafetamine), for any indication, under an application held by a sponsor other than MAPS Public Benefit Corporation or its successor.",
+    "criterion": "TRUE on the date of the FDA approval letter or Drugs@FDA entry for a new drug application, 505(b)(2) application or abbreviated new drug application for a product whose active ingredient is MDMA (midomafetamine, any salt or enantiomer mix marketed as MDMA), for any indication, whose applicant is not MAPS Public Benefit Corporation, its successor under any name (for example Lykos Therapeutics) or a company that markets the MAPS PBC product under license. A tentative approval, a complete response letter, an IND, a breakthrough designation or a filing acceptance is not an approval. FALSE at the deadline when Drugs@FDA lists no such approval. Resolution source: Drugs@FDA (application holder and approval date).",
+    "resolution_source": { "name": "Drugs@FDA (approval letters and application holders)", "url": "https://www.accessdata.fda.gov/scripts/cder/daf/" },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+     "'The only seller of MDMA' (the host's question) = no other sponsor holds an FDA approval for an MDMA product; a second sponsor's approval is the observable that ends sole-seller status.",
+     "'It will take people at least five or six years to do that' = a competitor's own research and approval is not completed within five years of the statement."
+    ]
+   },
+   "condition": null,
+   "asserts": false,
+   "deadline": "2026-06-04",
+   "deadline_origin": "anchor",
+   "deadline_text": "at least five or six years",
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "probably yes, because it will take people at least five or six years to do that",
+   "affiliated": true,
+   "tags": ["affiliated", "denial"],
+   "base_rate_class": null,
+   "stage_note": "On the statement date (June 2021) no sponsor other than MAPS PBC had a clinical program for an MDMA drug product beyond early-phase or investigator studies, so no base-rate class fits a second-sponsor approval; b is null.",
+   "note": "Answer to the host's question whether MAPS will be the only seller of MDMA during data exclusivity: 'probably yes' because a competitor needs 'at least five or six years' of its own research. Coded as a denial of a third-party event (the FDA approves a second sponsor's MDMA product) with bin B ('probably') and asserts false, so p(E) = 0.3. Deadline: 'at least five' = the lower bound of the stated interval, statement date plus five years = 2026-06-04 (within-N-years rule, origin anchor); the outer bound (2027-06-04) would strengthen the denial beyond the words and is logged. Affiliated: the event excludes MAPS PBC, the forecaster's organization, by name. Not CONTROL: another sponsor's approval is decided by the FDA and that sponsor. A coder who reads the answer as conditional on MAPS's own approval (exclusivity exists only after approval) would add E-0001 as the condition; this coder reads the five-to-six-year clause as an unconditional claim about competitor timing."
+  },
+  {
+   "id": "doblin-0152",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'Licensed legalization' with people 'legally able to buy psilocybin, MDMA, LSD, all these drugs' names no jurisdiction, body, law or program; it is the forecaster's own licensing concept. Same defect as census doblin-0019 (October 2021, same claim). '2035' would anchor 2035-12-31, but a rule_or_policy event cannot be written without inventing the enacting body. A coder could also reject OUT_OF_AREA (non-medical drug access); VAGUE is kept for consistency with doblin-0019."
+  },
+  {
+   "id": "doblin-0153",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "The timing of the MAPP2 interim analysis ('anticipated by May 2022') and completion ('by August 2022') is trial timing by the forecaster's own organization, the sponsor, in the CONTROL list (same as census doblin-0013). The words forecast when results arrive, not what they show, so no trial_result event on E-0009 can be written from them. The approval clause at the end of the same sentence is census doblin-0015."
+  },
+  {
+   "id": "doblin-0154",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'If MAPS PBC was publicly traded, it would probably have a market cap in the range of or exceeding these other companies' is a counterfactual valuation of a company that is not listed; no future state is asserted and no listing is forecast. If a coder admitted it, the event would be a quantity_threshold on a series that does not exist (VAGUE)."
+  },
+  {
+   "id": "doblin-0155",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'MAPS thus will need to raise additional resources to fund commercialization expenses' is fundraising by the forecaster's own organization (raises are in the CONTROL list); 'will need' is also a statement of requirement rather than of outcome. 'Two or so years prior to approval' is relative to an approval with no date in the words."
+  },
+  {
+   "id": "doblin-0156",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'The likelihood of sustainability in 2024' has no defined metric: MAPS is a non-profit whose public filings do not define sustainability, and the sentence gives no revenue, expense or margin threshold. Restates census doblin-0017 (rejected VAGUE) in the closing line of the same column; a different sentence, so VAGUE rather than DUPLICATE, with the same result. 'In 2024' would anchor 2024-12-31."
+  },
+  {
+   "id": "doblin-0157-a",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "Split: (a) 'We will finish our second Phase 3 study in October 2022' is trial completion timing by the forecaster's own organization, the sponsor of MAPP2, in the CONTROL list (same as census doblin-0013)."
+  },
+  {
+   "id": "doblin-0157-b",
+   "admit": false,
+   "reason_code": "DUPLICATE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "Split: (b) 'From there, we think it's a year to where we have FDA approval and DEA rescheduling' restates, on the same page, the claim captured in census doblin-0018 ('Somewhere in the fourth quarter of 2023, we should have prescription access to MDMA', E-0001, 2023-12-31); the first row stands (same rule as angermayer-0078). If coded alone it would take E-0001, deadline 2023-10-31 (October 2022 plus a year, read from the forecaster's own words, origin anchor), bin B ('we think'), asserts true, affiliated, with DEA rescheduling logged as the statutory consequence of approval rather than a second event."
+  },
+  {
+   "id": "doblin-0158-a",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "Split: (a) 'more and more ketamine clinics that will adopt MDMA, and other therapists that will just work with MDMA' is a quantifier ('more and more') with no countable set, no named series that counts ketamine clinics offering MDMA, and no threshold. 'At the end of 2023, once MDMA is approved' is the condition (E-0001), which is observable, but the consequent cannot be resolved."
+  },
+  {
+   "id": "doblin-0158-b",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0003" },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2025-12-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "at the end of 2023 ... a year or two later",
+   "bin": "A",
+   "p_stated": null,
+   "phrase": "Then a year or two later comes psilocybin",
+   "affiliated": false,
+   "tags": [],
+   "base_rate_class": "phase2_to_approval_all",
+   "stage_note": "On the statement date (October 2021) no psilocybin drug product had a Phase 3 trial under way; the most advanced program (COMP360, Compass Pathways) was a Phase 2b trial in treatment-resistant depression with breakthrough therapy designation, topline not yet reported. Class: Phase 2 program to approval, all indications (p 0.15, median 72 months). The window from 2021-10-27 to 2025-12-31 is about 50 months, below the median, so b is halved.",
+   "note": "Split: (b) psilocybin approval 'a year or two later' than MDMA approval 'at the end of 2023': mapped to E-0003 (FDA approves a psilocybin drug product, any sponsor, any indication). Reading logged: 'comes psilocybin', in parallel with 'once MDMA is approved', = FDA approval of psilocybin. Deadline: the outer bound, end of 2023 plus two years = 2025-12-31, read only from the forecaster's own words in this sentence (same method as census doblin-0011), origin anchor. Bin A: the claim sentence is a plain future indicative ('comes', continuing 'there'll') with no hedge; a coder who reads the narrative timeline as an expectation would code B, and that reading is logged. Asserts true. Not affiliated: no psilocybin program in the forecaster's organizations. Not a duplicate of doblin-0144 (a different source, June 2021)."
+  },
+  {
+   "id": "doblin-0159-a",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0001" },
+   "condition": null,
+   "asserts": true,
+   "deadline": "2023-12-31",
+   "deadline_origin": "anchor",
+   "deadline_text": "at the end of 2023",
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "We expect to have approval at the end of 2023 for prescription use of MDMA",
+   "affiliated": true,
+   "tags": ["affiliated"],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "On the statement date (December 2021) the program had one positive Phase 3 trial (MAPP1) and MAPP2 enrolling, with its interim analysis expected in May 2022 per the same interview; no NDA submitted. Class: Phase 3 program to FDA approval, psychiatry (p 0.563, median 36 months). The window from 2021-12-02 to 2023-12-31 is about 25 months, below the median, so b is halved.",
+   "note": "Split: (a) FDA approval of MDMA for prescription use at the end of 2023: mapped to E-0001 ('approval for prescription use' = FDA approval, reading logged in the event). 'At the end of 2023' = 2023-12-31 (year rule, origin anchor). 'We expect' is a bin B phrase; asserts true. Own words: a Q&A answer quoted directly by Lucid News. Affiliated: MAPS and MAPS PBC roles. A different source from doblin-0143 (June 2021 podcast), so not DUPLICATE."
+  },
+  {
+   "id": "doblin-0159-b",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "Split: (b) 'by the middle of 2024 ... enough money coming in, and profits from the sale of prescription MDMA, that it would cover a staff of roughly 200 people' is a sustainability claim about MAPS PBC, a private benefit corporation with no public series for revenue, profit or staff costs, so no threshold can be resolved (same defect as census doblin-0017). 'The middle of 2024' would anchor 2024-06-30. Alternative code CONTROL (own organization's finances) is secondary."
+  },
+  {
+   "id": "doblin-0160",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'The Boston Consulting Group said $70 or $80 million. I think that's likely to be high': the forecaster's own organization's commercialization spending, with no public series that reports it and no period, so the threshold cannot be resolved. Alternative code CONTROL (own organization decides its spending) is secondary."
+  },
+  {
+   "id": "doblin-0161",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "The dated claims (interim analysis 'in May, 2022'; results 'in October of 2022') are the timing of the forecaster's own organization's trial (MAPP2), in the CONTROL list (same as census doblin-0013). 'If that looks good, then the chances are higher that we will get FDA approval' is a comparative probability with no benchmark, not an assertion that approval happens (VAGUE, logged as the secondary defect); 'we should be able to make a better deal' is a comparative about own financing. No third-party event can be written without rewriting the claim."
+  },
+  {
+   "id": "doblin-0162",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "The number of for-profit partnerships MAPS signs ('three or four' in two to three years, '50 or 60' longer term) is decided by the forecaster's own organization, which chooses whether to sign each partnership. Also VAGUE as a quantity claim: no public series counts MAPS partnerships and 'longer term' is not a deadline."
+  },
+  {
+   "id": "doblin-0163",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'In excess of a billion dollars in profits during this period of data exclusivity' is a quantity claim about MAPS PBC, a private benefit corporation with no named public financial series, and the exclusivity window starts at an approval with no date in the words. Same defect as census doblin-0009 and doblin-0149. 'Potentially' would be bin C."
+  },
+  {
+   "id": "doblin-0164",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'We're running out of money around June' is a cash-runway statement about the forecaster's own organization with no public series that reports its cash position and no threshold; 'if we need it' makes the loan a contingency, not a forecast. Alternative code CONTROL (own organization's finances and financing choices) is secondary; same treatment as census doblin-0026."
+  },
+  {
+   "id": "doblin-0165",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'The goal is to complete the $70 million in the next couple months' is the close of a financing raised by the forecaster's own organization with its partner fund (raises are in the CONTROL list); 'the goal is' also states an aim rather than an expectation. 'The next couple months' has no N in the anchor table."
+  },
+  {
+   "id": "doblin-0166",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'That's going to increase demand for the clinics' is a direction claim with no named series that measures demand for psychedelic clinics, no threshold, no set of clinics and no date. The condition (drug policy reform, 'that') is itself undefined in the words."
+  },
+  {
+   "id": "doblin-0167",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "Whether MAPS takes further direct investment ('the last investment money we take directly from investors') is the forecaster's own organization's financing decision (raises are in the CONTROL list). 'I'm hoping' also states a wish rather than an expectation, and no date is given."
+  },
+  {
+   "id": "doblin-0168",
+   "admit": false,
+   "reason_code": "DUPLICATE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'Then in October of 2022, we should have the results from the second Phase 3 study' is captured verbatim as the last sentence of doblin-0161 in the same interview; the first row stands (rejected CONTROL: own trial timing). The added clause 'our cost of capital should decrease over time as the risk goes down' is a direction claim about own financing with no series or date (VAGUE, CONTROL secondary)."
+  },
+  {
+   "id": "doblin-0169",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'Our wider spaces will include global access to MDMA-assisted therapy for PTSD, as a start' is a slogan: no countable set of countries or regulators, no threshold and no date. 'As MAPS continues to scale' is also own-organization framing (CONTROL secondary)."
+  },
+  {
+   "id": "doblin-0170",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0001" },
+   "condition": { "ref": "E-0009" },
+   "asserts": true,
+   "deadline": "2024-04-07",
+   "deadline_origin": "anchor",
+   "deadline_text": "in MAPS' 37th year",
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "FDA approval will likely take place in MAPS' 37th year",
+   "affiliated": true,
+   "tags": ["affiliated", "conditional"],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "On the statement date (April 2022) the program had one positive Phase 3 trial (MAPP1) and MAPP2 fully enrolled with results pending; no NDA submitted. Class: Phase 3 program to FDA approval, psychiatry (p 0.563, median 36 months). The window from 2022-04-08 to 2024-04-07 is 24 months, below the median, so b is halved.",
+   "note": "Conditional forecast: if MAPP2 'was successful' (A = E-0009, primary endpoint met, decided by the data and outside the forecaster's control), the FDA approves MDMA-assisted therapy for PTSD (B = E-0001) in MAPS' 37th year. Own words: the anniversary post quotes the forecaster in quotation marks. Deadline: the post marks the 36th anniversary of MAPS's founding (1986) on 2022-04-08, and the forecaster places the future MAPP2 readout ('we'll learn') inside 'MAPS' 36th year', so his 36th year runs from that anniversary (2022-04-08 to 2023-04-07) and the 37th year ends 2024-04-07; origin anchor, read only from the post's own dates. The alternative count (37th year ending 2023-04-07) is logged; the chosen deadline coincides with the 24-month undated window, so an undated reading gives the same window. 'Will likely' is a bin B phrase; asserts true. 'MAPS will also likely outlive me' is outside the five areas and is not coded. Affiliated: MAPS and MAPS PBC roles."
+  },
+  {
+   "id": "doblin-0171",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'We'll have the final data point in October' is the data-collection timing of the forecaster's own organization's trial (MAPP2), in the CONTROL list. 'The second one is looking successful' is a present-tense reading of the blinded interim, not a forecast of the primary result; a coder who reads it as a call on E-0009 would code it table-dated (MAPP2 primary completion date plus 12 months), affiliated, with no lexicon phrase, and that reading is logged. 'We have one successful phase three study' is retrospective."
+  },
+  {
+   "id": "doblin-0172",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'The final data point will be gathered near the end of 2022' is data-collection timing for the forecaster's own organization's trial (MAPP2), in the CONTROL list. 'An interim analysis was conducted in May' is retrospective."
+  },
+  {
+   "id": "doblin-0173-a",
+   "admit": true,
+   "reason_code": null,
+   "event": { "ref": "E-0001" },
+   "condition": { "ref": "E-0009" },
+   "asserts": true,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "while not assured, we are on track to receive regulatory approval from FDA",
+   "affiliated": true,
+   "tags": ["affiliated", "conditional"],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "On the statement date (June 2022) the program had one positive Phase 3 trial (MAPP1), MAPP2 past its interim analysis with the final data point expected near the end of 2022; no NDA submitted. Class: Phase 3 program to FDA approval, psychiatry (p 0.563, median 36 months). The 24-month undated window is below the median, so b is halved.",
+   "note": "Split: (a) FDA approval. Conditional forecast: if MAPP2 'is statistically significant and no new safety problems arise' (A = E-0009, the primary endpoint result, decided by the data and outside the forecaster's control; the safety clause is part of the same readout), MAPS receives approval from the FDA (B = E-0001). 'On track' is a lexicon B phrase and 'while not assured' is a hedge on the same clause; asserts true. No date in the words, so undated (24-month window from 2022-06-29). Affiliated: MAPS and MAPS PBC roles. 'FDA, Health Canada, and the Israeli Ministry of Health' is an 'A and B' list; the id scheme allows two records, so the FDA and Health Canada approvals are coded and the Israeli Ministry of Health approval (a third drug_approval event, same asset, entity Israeli Ministry of Health) is logged here for the registry rather than dropped silently."
+  },
+  {
+   "id": "doblin-0173-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:health-canada-midomafetamine-ptsd-approval",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA-assisted therapy) for PTSD, Health Canada marketing authorisation (Notice of Compliance)",
+    "entity": "Health Canada",
+    "title": "Health Canada approval of midomafetamine (MDMA-assisted therapy) for PTSD",
+    "proposition": "Health Canada approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
+    "criterion": "TRUE on the date of the Notice of Compliance (NOC), including a Notice of Compliance with Conditions, that Health Canada issues for a drug product whose active ingredient is midomafetamine (MDMA) with an indication that includes post-traumatic stress disorder, under any sponsor name, as listed in Health Canada's Notice of Compliance database or Drug Product Database (sponsor announcement as a secondary source). A Special Access Programme authorisation, a clinical trial authorisation, a screening acceptance or a Notice of Non-Compliance is not an approval. A label narrower than PTSD counts if the claim's indication reasonably includes it and the reading is logged. FALSE at the deadline when no such NOC is listed. The event resolves only when the condition (MAPP2 primary endpoint met, E-0009) occurs.",
+    "resolution_source": { "name": "Health Canada Notice of Compliance (NOC) database and Drug Product Database", "url": "https://health-products.canada.ca/noc-ac/" },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+     "'Regulatory approval from Health Canada' = a Notice of Compliance (with or without conditions) for MDMA-assisted therapy in PTSD.",
+     "Base rate class is fixed per item from the asset's stage on each statement date; the event-level class is null."
+    ]
+   },
+   "condition": { "ref": "E-0009" },
+   "asserts": true,
+   "deadline": null,
+   "deadline_origin": null,
+   "deadline_text": null,
+   "bin": "B",
+   "p_stated": null,
+   "phrase": "while not assured, we are on track to receive regulatory approval from FDA, Health Canada, and the Israeli Ministry of Health",
+   "affiliated": true,
+   "tags": ["affiliated", "conditional"],
+   "base_rate_class": "phase3_to_approval_psychiatry",
+   "stage_note": "On the statement date (June 2022) the program had one positive Phase 3 trial (MAPP1) and MAPP2 past its interim analysis; no Canadian new drug submission had been filed. Class: Phase 3 program to approval, psychiatry (p 0.563, median 36 months), applied to the Canadian route as the closest external class (same treatment as census doblin-0016 for the EU). The 24-month undated window is below the median, so b is halved.",
+   "note": "Split: (b) Health Canada approval, conditional on E-0009 as in (a). New event proposed on the Canadian route because no registry entry covers Health Canada for this asset (E-0001 is FDA, E-0004 is the EU). 'On track' sets bin B with 'while not assured' as a hedge on the same clause; asserts true. Undated (24-month window from 2022-06-29). Affiliated: MAPS and MAPS PBC roles; MAPS PBC would be the Canadian sponsor. The Israeli Ministry of Health approval in the same list could not take a third record and is logged in (a)."
+  },
+  {
+   "id": "doblin-0174",
+   "admit": false,
+   "reason_code": "REPORT",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'The FDA recently indicated that it will approve a protocol' passes on what the FDA told the sponsor (information received, not the forecaster's own expectation), and the FDA's clearance of a research protocol under an IND is an internal regulatory step the agency had already signalled. If the protocol clearance were coded it would be undated and affiliated (MAPS-sponsored research at the Portland VA)."
+  },
+  {
+   "id": "doblin-0175",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null, "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+   "note": "'Another 30 or so will be treated in conjunction with training of therapists in these seven countries' is enrolment in the forecaster's own organization's Phase 2 therapist-training studies, a trial activity in the CONTROL list. No date is given."
+  }
+ ]
+}

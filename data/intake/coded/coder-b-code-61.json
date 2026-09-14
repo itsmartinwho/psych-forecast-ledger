@@ -1,0 +1,667 @@
+{
+ "coder": "B",
+ "run": "intake-2026-09-14",
+ "records": [
+  {
+   "id": "doblin-0136",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own FDA meetings and own NDA filing decision."
+  },
+  {
+   "id": "doblin-0137",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own fundraising; 'approval in many countries' names no regulator, set or date."
+  },
+  {
+   "id": "doblin-0138",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own group-therapy research launch and own training program."
+  },
+  {
+   "id": "doblin-0139",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Uncork a backlog of cannabis research' has no observable event; the license is presupposed, not forecast."
+  },
+  {
+   "id": "doblin-0140",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:mdma-at-label-restricts-administration-to-maps-trained-therapists",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: FDA-approved labeling or REMS therapist requirement",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA labeling or REMS for MDMA-assisted therapy restricts administration to sponsor-trained therapists",
+    "proposition": "The FDA-approved labeling or REMS for midomafetamine (MDMA-assisted therapy) for PTSD restricts direct administration to therapists who completed the sponsor's (MAPS) therapy training program."
+   },
+   "condition": {
+    "ref": "E-0001"
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "Conditional on FDA approval; FDA sets the REMS. 'Are going to be' (A). Affiliated."
+  },
+  {
+   "id": "doblin-0141",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Statement of demonstrated efficacy; no future event asserted."
+  },
+  {
+   "id": "doblin-0142",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:us-psychedelic-treatment-centers-5000-to-6000-by-2031",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "asset": "Psychedelic-assisted therapy treatment centers (clinics) in the United States: count",
+    "entity": "United States psychedelic treatment centers",
+    "title": "About 5,000 to 6,000 psychedelic treatment centers in the United States by June 2031",
+    "proposition": "The number of psychedelic-assisted therapy treatment centers in the United States is at or beyond about 5,500 (band of plus or minus 20 percent around the stated 5,000 to 6,000) by 4 June 2031, per a named public clinic count."
+   },
+   "condition": null,
+   "deadline": "2031-06-04",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "'10 years from now' = statement date plus 10 years. 'There's going to be' (A). No series named; registry to name one."
+  },
+  {
+   "id": "doblin-0143",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": "2023-12-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'By the end of 2023' = 31 December 2023; 'we think' (B). Affiliated."
+  },
+  {
+   "id": "doblin-0144",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0003"
+   },
+   "condition": null,
+   "deadline": "2025-12-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'By 2024, 2025' = 31 December 2025 (later year). Depression named; E-0003 any-indication reading covers it. 'Should be' predictive (B)."
+  },
+  {
+   "id": "doblin-0145",
+   "admit": false,
+   "reason_code": "OUT_OF_AREA",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Federal marijuana legalization; not a psychiatry drug, device, treatment or access decision."
+  },
+  {
+   "id": "doblin-0146-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": "2023-12-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "C",
+   "p_stated": null,
+   "note": "'Permission to sell' = FDA approval of MDMA-assisted therapy for PTSD. 'We hope' read as C. Affiliated."
+  },
+  {
+   "id": "doblin-0146-b",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Sustainability' undefined; no benchmark or named series (same as doblin-0017)."
+  },
+  {
+   "id": "doblin-0147",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own spending estimate; 'one Phase 3 in Europe' names no writable EMA event or date."
+  },
+  {
+   "id": "doblin-0148",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:texas-reschedules-mdma-after-fda-approval",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "MDMA (midomafetamine): Texas state controlled-substance schedule",
+    "entity": "Texas Department of State Health Services (Commissioner of Public Health)",
+    "title": "Texas reschedules MDMA after FDA approval",
+    "proposition": "Texas moves MDMA (midomafetamine) out of its Schedule I (or otherwise reschedules it to permit prescription use) following FDA approval of MDMA-assisted therapy."
+   },
+   "condition": {
+    "ref": "E-0001"
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Conditional on FDA approval. 'We think' (B); 'commissioner will not object' read as the same rescheduling outcome. Undated."
+  },
+  {
+   "id": "doblin-0149",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Private-company profit with no named series; exclusivity period hangs on an unrealized approval date (same as doblin-0009)."
+  },
+  {
+   "id": "doblin-0150",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own fundraising target; 'much of the world' vague."
+  },
+  {
+   "id": "doblin-0151",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:second-sponsor-mdma-product-fda-approval",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "MDMA (midomafetamine) drug product from a sponsor other than MAPS PBC, Lykos Therapeutics or a successor",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approves an MDMA drug product from a second sponsor",
+    "proposition": "The FDA approves an MDMA (midomafetamine) drug product for any indication from a sponsor other than MAPS PBC, Lykos Therapeutics or a successor."
+   },
+   "condition": {
+    "ref": "E-0001"
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": false,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Denial: MAPS 'probably' the only seller during exclusivity, so a second approved seller is denied (B). Conditional on FDA approval. Undated. Affiliated."
+  },
+  {
+   "id": "doblin-0152",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "No body, jurisdiction or rule named for 'licensed legalization' (same as doblin-0019)."
+  },
+  {
+   "id": "doblin-0153",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own trial timeline (MAPP2 interim analysis and completion)."
+  },
+  {
+   "id": "doblin-0154",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Counterfactual valuation of a private company; no future state asserted."
+  },
+  {
+   "id": "doblin-0155",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own fundraising need."
+  },
+  {
+   "id": "doblin-0156",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Sustainability' undefined; restates doblin-0017."
+  },
+  {
+   "id": "doblin-0157-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": "2023-10-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'A year' after October 2022 completion = October 2023, month end. 'We think' (B). Own trial completion not coded (CONTROL). Affiliated."
+  },
+  {
+   "id": "doblin-0157-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:dea-reschedules-mdma",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "MDMA (midomafetamine): federal controlled-substance schedule",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA reschedules MDMA out of Schedule I",
+    "proposition": "The DEA publishes a final rule moving MDMA (midomafetamine) out of Schedule I of the Controlled Substances Act."
+   },
+   "condition": null,
+   "deadline": "2023-10-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'A year' after October 2022 = October 2023, month end. 'We think' (B). Affiliated."
+  },
+  {
+   "id": "doblin-0158-a",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'More and more ketamine clinics' names no threshold or series."
+  },
+  {
+   "id": "doblin-0158-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0003"
+   },
+   "condition": null,
+   "deadline": "2025-12-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "'A year or two later' after end of 2023 = 31 December 2025. 'Comes psilocybin' read as FDA approval of psilocybin (A)."
+  },
+  {
+   "id": "doblin-0159-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": "2023-12-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'At the end of 2023' = 31 December 2023; 'we expect' (B). Affiliated."
+  },
+  {
+   "id": "doblin-0159-b",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Enough money to cover roughly 200 staff' is own sustainability; no named series (same as doblin-0017)."
+  },
+  {
+   "id": "doblin-0160",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own commercialization spending versus a consultant estimate."
+  },
+  {
+   "id": "doblin-0161",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own trial timeline; approval chance and cost of capital have no bin or date."
+  },
+  {
+   "id": "doblin-0162",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Number of own partnerships is MAPS' own decision."
+  },
+  {
+   "id": "doblin-0163",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Private-company profit with no named series; exclusivity period undated (same as doblin-0149)."
+  },
+  {
+   "id": "doblin-0164",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own runway; own loan available to avert it."
+  },
+  {
+   "id": "doblin-0165",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own fundraising goal."
+  },
+  {
+   "id": "doblin-0166",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Increase demand for the clinics' has no metric, threshold or series."
+  },
+  {
+   "id": "doblin-0167",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Whether MAPS takes more investor money is its own decision."
+  },
+  {
+   "id": "doblin-0168",
+   "admit": false,
+   "reason_code": "DUPLICATE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Same sentence as doblin-0161 in the same interview; own trial timing in any case."
+  },
+  {
+   "id": "doblin-0169",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Global access ... as a start' names no event, set or date."
+  },
+  {
+   "id": "doblin-0170",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": {
+    "ref": "E-0009"
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Conditional on MAPP2 success. 'MAPS' 37th year' is ambiguous (April 2023 to April 2024 or a year earlier); no anchor rule, so undated. 'Will likely' (B). Affiliated."
+  },
+  {
+   "id": "doblin-0171",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own trial data timing."
+  },
+  {
+   "id": "doblin-0172",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own trial data timing."
+  },
+  {
+   "id": "doblin-0173-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": {
+    "ref": "E-0009"
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Conditional on MAPP2 significance. 'On track' (B); undated. Affiliated."
+  },
+  {
+   "id": "doblin-0173-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:health-canada-approves-mdma-at-ptsd",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder, Canadian marketing authorization",
+    "entity": "Health Canada",
+    "title": "Health Canada approves MDMA-assisted therapy for PTSD",
+    "proposition": "Health Canada issues a Notice of Compliance (marketing authorization) for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder."
+   },
+   "condition": {
+    "ref": "E-0009"
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Conditional on MAPP2 significance. 'On track' (B); undated. Israeli MoH clause not coded (split limit of two). Affiliated."
+  },
+  {
+   "id": "doblin-0174",
+   "admit": false,
+   "reason_code": "REPORT",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Passes on what FDA 'recently indicated'; information, not an expectation."
+  },
+  {
+   "id": "doblin-0175",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own European Phase 2 training trials."
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "psychedelic-first-line-guideline",
+    "template": "rule_or_policy",
+    "area": "practice_adoption",
+    "asset": "Psychedelic medicines (class) as a first-line treatment in a major clinical practice guideline for a psychiatric disorder",
+    "entity": "American Psychiatric Association or another major clinical practice guideline body",
+    "title": "A major practice guideline lists a psychedelic medicine as a first-line treatment",
+    "proposition": "A major clinical practice guideline for a psychiatric disorder lists a psychedelic medicine as a first-line treatment option.",
+    "criterion": "TRUE on the publication date, in the guideline body's own published guideline document, of a clinical practice guideline for a psychiatric disorder that lists a psychedelic medicine (for example psilocybin, MDMA, LSD or 5-MeO-DMT) as a first-line treatment option for that disorder. A major guideline body is the American Psychiatric Association, NICE, the VA/DoD, the WFSBP or CANMAT. A draft, a proposal or a public-comment version is not adoption. A guideline that names the medicine only for treatment-resistant, second-line, adjunctive or last-resort use does not count. FALSE at the deadline when no such guideline is published.",
+    "resolution_source": {
+      "name": "The published clinical practice guideline of the guideline body (American Psychiatric Association, NICE, VA/DoD, WFSBP or CANMAT)"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'Psychedelics can become first-line' is read as the class, so any one psychedelic medicine listed as first-line resolves the event.",
+      "'Potentially even preventive treatments' is a second, weaker step in the same words and is not part of the condition; first-line listing alone resolves it."
+    ]
+  },
+  {
+    "slug": "atai-big-pharma-partnership",
+    "template": "company_event",
+    "area": "company_market",
+    "asset": "atai Life Sciences psychedelic programs: partnership, collaboration or licensing agreement with a large pharmaceutical company",
+    "entity": "atai Life Sciences (AtaiBeckley) and a large pharmaceutical company",
+    "title": "A large pharmaceutical company partners with atai on a psychedelic program",
+    "proposition": "atai Life Sciences announces a partnership, collaboration or licensing agreement with a large pharmaceutical company for one of its psychedelic programs.",
+    "criterion": "TRUE on the date of the definitive public announcement (atai press release or SEC filing) of a partnership, collaboration, co-development or licensing agreement between atai Life Sciences, under any corporate name including AtaiBeckley or a successor, and a large pharmaceutical company, for one of atai's psychedelic programs. A large pharmaceutical company is one with annual revenue at or above US$10 billion in its last reported fiscal year. Rumours, letters of intent and non-binding term sheets do not count. An equity investment, a financing, a supply contract or a service contract without a program agreement does not count. FALSE at the deadline when no such announcement exists.",
+    "resolution_source": {
+      "name": "atai Life Sciences press releases; SEC EDGAR filings",
+      "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'If they want exposure, they'll likely need to partner... with us' is read as an announced agreement between atai and a large pharmaceutical company; the counterparty decides, so the words are a prediction about an event, not an intention.",
+      "'Big Pharma' is read as a pharmaceutical company with annual revenue at or above US$10 billion."
+    ]
+  },
+  {
+    "slug": "atai-market-cap-20b",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "asset": "atai Life Sciences / AtaiBeckley common stock (Nasdaq: ATAI, or its successor listing): market capitalization at or above US$20 billion",
+    "entity": "atai Life Sciences (AtaiBeckley)",
+    "title": "atai Life Sciences market capitalization at or above US$20 billion",
+    "proposition": "The market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing) is at or above US$20 billion at a market close, per Nasdaq closing price and shares outstanding in SEC filings.",
+    "criterion": "Resolved on the named data series only: the market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing), computed as the Nasdaq closing share price multiplied by the shares outstanding stated on the cover page of atai's most recent periodic SEC filing on EDGAR. TRUE on the first trading day on which that closing market capitalization is at or above US$20 billion. The threshold is in the forecaster's words, so it resolves as binary at US$20 billion with no band. FALSE at the deadline when no market close has reached US$20 billion. If the shares stop trading with no successor listing and no price series has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+    "resolution_source": {
+      "name": "Nasdaq closing price for ATAI and shares outstanding in atai Life Sciences periodic filings on SEC EDGAR",
+      "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "quantity": {
+      "metric": "Market capitalization of atai Life Sciences (Nasdaq: ATAI, or successor listing) at a market close",
+      "threshold": 20000000000,
+      "direction": ">=",
+      "unit": "USD",
+      "series": "Nasdaq closing price of ATAI multiplied by shares outstanding on the cover page of atai's most recent periodic SEC filing (SEC EDGAR)"
+    },
+    "readings": [
+      "'a 20 30 40 $50 billion company' = market capitalization of at least USD 20 billion; the range's lower bound is the threshold, as in E-0028."
+    ]
+  },
+  {
+    "slug": "atai-market-cap-50b",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "asset": "atai Life Sciences / AtaiBeckley common stock (Nasdaq: ATAI, or its successor listing): market capitalization at or above US$50 billion",
+    "entity": "atai Life Sciences (AtaiBeckley)",
+    "title": "atai Life Sciences market capitalization at or above US$50 billion",
+    "proposition": "The market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing) is at or above US$50 billion at a market close, per Nasdaq closing price and shares outstanding in SEC filings.",
+    "criterion": "Resolved on the named data series only: the market capitalization of atai Life Sciences (Nasdaq: ATAI, or its successor listing), computed as the Nasdaq closing share price multiplied by the shares outstanding stated on the cover page of atai's most recent periodic SEC filing on EDGAR. TRUE on the first trading day on which that closing market capitalization is at or above US$50 billion. The threshold is in the forecaster's words, so it resolves as binary at US$50 billion with no band. FALSE at the deadline when no market close has reached US$50 billion. If the shares stop trading with no successor listing and no price series has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+    "resolution_source": {
+      "name": "Nasdaq closing price for ATAI and shares outstanding in atai Life Sciences periodic filings on SEC EDGAR",
+      "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "quantity": {
+      "metric": "Market capitalization of atai Life Sciences (Nasdaq: ATAI, or successor listing) at a market close",
+      "threshold": 50000000000,
+      "direction": ">=",
+      "unit": "USD",
+      "series": "Nasdaq closing price of ATAI multiplied by shares outstanding on the cover page of atai's most recent periodic SEC filing (SEC EDGAR)"
+    },
+    "readings": [
+      "'a 50 billion plus company' = market capitalization of at least USD 50 billion; the range's lower bound is the threshold, as in E-0028."
+    ]
+  },
+  {
+    "slug": "bpl-003-end-of-phase-2-fda-meeting",
+    "template": "company_event",
+    "area": "regulatory",
+    "asset": "BPL-003 (intranasal 5-MeO-DMT, mebufotenin): End-of-Phase-2 (End-of-Phase-2b) meeting with the FDA",
+    "entity": "atai Life Sciences (AtaiBeckley), sponsor of BPL-003",
+    "title": "BPL-003 End-of-Phase-2 meeting with the FDA is held",
+    "proposition": "The sponsor of BPL-003 (intranasal 5-MeO-DMT) announces that the End-of-Phase-2 meeting with the FDA for BPL-003 has been held.",
+    "criterion": "TRUE on the meeting date stated in the sponsor's public announcement (press release, SEC filing or investor presentation) that the End-of-Phase-2 (End-of-Phase-2b) meeting with the FDA for BPL-003 (intranasal 5-MeO-DMT, mebufotenin) has been held; when the announcement gives no meeting date, the announcement date counts. An FDA written-response-only outcome counts when the sponsor reports it as that End-of-Phase-2 interaction. A granted meeting request, a scheduled but unheld date, a meeting on another program, and a rumour do not count. The sponsor is atai Life Sciences under any corporate name, including AtaiBeckley or a successor. FALSE at the deadline when no such announcement exists.",
+    "resolution_source": {
+      "name": "atai Life Sciences press releases; SEC EDGAR filings",
+      "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'End-of-Phase-2b FDA meeting' is read as the End-of-Phase-2 meeting for BPL-003; the event is that the meeting is held, not what the FDA says at it.",
+      "The entry is on the asset, so a meeting held under a successor sponsor name counts."
+    ]
+  },
+  {
+    "slug": "comp360-trd-nda-submission",
+    "template": "company_event",
+    "area": "company_market",
+    "asset": "COMP360 (Compass Pathways synthetic psilocybin) for treatment-resistant depression: new drug application submitted to the FDA",
+    "entity": "Compass Pathways",
+    "title": "Compass Pathways submits the COMP360 NDA for treatment-resistant depression",
+    "proposition": "Compass Pathways submits a new drug application for COMP360 (psilocybin) in treatment-resistant depression to the FDA.",
+    "criterion": "TRUE on the date of the sponsor's public announcement (press release or SEC filing) that the new drug application for COMP360 (synthetic psilocybin) in treatment-resistant depression has been submitted to the FDA. For a rolling submission, the date the sponsor announces completion of the submission counts. An FDA filing acceptance is not required and is not itself a submission. The sponsor is Compass Pathways under any corporate name or a successor, because the entry is on the asset. FALSE at the deadline when no such announcement exists.",
+    "resolution_source": {
+      "name": "Compass Pathways press releases; SEC EDGAR filings",
+      "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'A Q4 2026 NDA submission' is the observable part of the Compass timeline that precedes the FDA decision; the 'early 2027 commercial launch' part of the same timeline is the outcome side and is not part of the condition.",
+      "The Q4 2026 date is the item's deadline, not part of the event; the event is the submission itself."
+    ]
+  },
+  {
+    "slug": "us-health-plan-covers-mdma-assisted-therapy",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "asset": "Midomafetamine (MDMA-assisted therapy) for PTSD: health plan coverage of the drug and its therapy sessions",
+    "entity": "Any US health insurer or health plan",
+    "title": "A US health plan covers MDMA-assisted therapy for PTSD",
+    "proposition": "A US health insurer or health plan publishes a coverage policy or public bulletin that covers midomafetamine (MDMA-assisted therapy) for PTSD, including the associated therapy sessions.",
+    "criterion": "TRUE on the effective date of a published medical or coverage policy, fee schedule entry, NCD or LCD, or public policy bulletin from a US health insurer, health plan or government program (Medicare, Medicaid, VA or a commercial plan) that covers midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder and pays for both the drug and the therapy sessions delivered with it. A policy that covers the drug alone, a pilot announcement without a policy, or coverage of unapproved use does not count. FALSE at the deadline when no such policy has been published.",
+    "resolution_source": {
+      "name": "Payer policy bulletins; CMS Medicare Coverage Database",
+      "url": "https://www.cms.gov/medicare-coverage-database/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'Insurance will pay for it' names no payer; any US health insurer or program counts.",
+      "'It' is the drug plus therapy, so the policy must cover the therapy sessions as well as the drug.",
+      "FDA approval is a practical prerequisite but is not part of the criterion; the event cannot resolve TRUE without it."
+    ]
+  },
+  {
+    "slug": "ukraine-approves-mdma-or-psilocybin",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "Midomafetamine (MDMA) or psilocybin drug product: marketing authorisation in Ukraine",
+    "entity": "Ministry of Health of Ukraine (State Expert Center)",
+    "title": "Ukraine approves an MDMA or psilocybin drug product",
+    "proposition": "The Ministry of Health of Ukraine grants a marketing authorisation (state registration) for a drug product whose active ingredient is midomafetamine (MDMA) or psilocybin, for any indication.",
+    "criterion": "TRUE on the date of the Ministry of Health of Ukraine order, or the entry in the State Register of Medicinal Products of Ukraine, that registers a medicinal product whose active ingredient is midomafetamine (MDMA) or psilocybin for any indication (or the sponsor's announcement of that registration). A clinical trial authorisation, an import permit for a trial, a compassionate-use or named-patient permission, or an approval in another country does not count. FALSE at the deadline when no such registration exists.",
+    "resolution_source": {
+      "name": "State Register of Medicinal Products of Ukraine (Ministry of Health of Ukraine); sponsor press release"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'MDMA or psilocybin' is one event ('A or B'); either drug's registration resolves it.",
+      "'They'll approve it' names the Ukrainian regulator through 'in Ukraine'; the deciding body is the Ministry of Health of Ukraine on the State Expert Center's recommendation."
+    ]
+  },
+  {
+    "slug": "fda-approves-mdma-or-psilocybin",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "Midomafetamine (MDMA) or psilocybin drug product: first FDA approval of either",
+    "entity": "FDA",
+    "title": "FDA approves an MDMA or psilocybin drug product",
+    "proposition": "The FDA approves a drug product whose active ingredient is midomafetamine (MDMA) or psilocybin, for any indication.",
+    "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) is dated for a drug product whose active ingredient is midomafetamine (MDMA) or psilocybin, for any indication. A complete response letter, a positive advisory vote, a designation or a filing acceptance is not an approval. An LSD approval alone does not satisfy the condition (unlike E-0066). FALSE at the deadline when no such approval appears in Drugs@FDA.",
+    "resolution_source": {
+      "name": "Drugs@FDA",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "Narrower than E-0066 (which also counts LSD); resolution of E-0001, E-0003 or E-0047 satisfies this condition."
+    ]
+  },
+  {
+    "slug": "fda-bpl-003-approval",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "BPL-003 (intranasal 5-MeO-DMT, mebufotenin; Beckley Psytech / AtaiBeckley) for any indication",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of BPL-003 (5-MeO-DMT)",
+    "proposition": "The FDA approves BPL-003 (intranasal 5-MeO-DMT) for any indication.",
+    "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) for a new drug application for BPL-003 (intranasal 5-MeO-DMT, mebufotenin), for any indication and under any sponsor name, is dated. A complete response letter, a breakthrough therapy designation, a positive advisory vote or a filing acceptance is not an approval. FALSE at the deadline when no such approval appears in Drugs@FDA.",
+    "resolution_source": {
+      "name": "Drugs@FDA; sponsor press release as a secondary source",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "No indication is named in the words; any indication counts. The program discussed is in treatment-resistant depression.",
+      "Approval under any sponsor name (Beckley Psytech, AtaiBeckley, atai Life Sciences or a successor or acquirer) counts; the entry is on the asset.",
+      "Not mapped to E-0029 (any regulator approves any atai psychedelic): the asset here is BPL-003 alone, and an approval of another atai program would not resolve this event.",
+      "Base rate class is fixed per item from the asset's stage on each statement date; the event-level class is null."
+    ]
+  }
+]

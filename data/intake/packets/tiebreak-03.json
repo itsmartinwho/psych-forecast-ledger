@@ -1,0 +1,439 @@
+{
+ "packet": "tiebreak-03.json",
+ "note": "admission splits between coder A and coder B: coder C decides",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "angermayer-0040",
+   "forecaster": "angermayer",
+   "statement_date": "2022-02-22",
+   "quote": "Ich bin stolz darauf, der erste Unternehmer weltweit zu sein, der vorhergesehen hat, dass Psychedelika wie zum Beispiel Magic Mushrooms nun wieder medizinisch verfügbar werden",
+   "context": "Handelsblatt feature 'Trip auf Rezept'. Gloss: 'I am proud to be the first entrepreneur worldwide who foresaw that psychedelics such as magic mushrooms will now become medically available again.' Different sentence from the census row on the same page.",
+   "post_title": "Trip auf Rezept: LSD, Ketamin & Mushrooms erobern die USA – Investoren wittern Milliardengeschäft",
+   "source_url": "https://www.handelsblatt.com/technik/thespark/trip-auf-rezept-lsd-ketamin-mushrooms-psychedelika-erobern-die-usa-investoren-wittern-milliardengeschaeft/28076058.html",
+   "area_guess": "regulatory",
+   "horizon_text": "nun",
+   "confidence_phrase": "werden",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Borderline: partly retrospective ('vorhergesehen'); the 'nun wieder ... werden' clause reads as a present expectation."
+  },
+  {
+   "id": "angermayer-0047",
+   "forecaster": "angermayer",
+   "statement_date": "2022-11-16",
+   "quote": "12 months from now hopefully we right before the compass readout which will be the biggest milestone in psychedelic history because it's going to be the first uh approved psychedelic drug since the since the 50s",
+   "context": "Trade to Black #10, Nov 2022. Asked where things stand in 12 months, Angermayer expects to be just before the Compass Phase 3 readout, which he calls the first approved psychedelic since the 1950s.",
+   "post_title": "How Legal Psychedelics Can Cure Mental Health - Trade to Black #10 (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=-xhXocTdqBk",
+   "area_guess": "clinical_trial",
+   "horizon_text": "12 months from now",
+   "confidence_phrase": "hopefully ... it's going to be",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Compound claim: readout timing plus first approval."
+  },
+  {
+   "id": "angermayer-0073",
+   "forecaster": "angermayer",
+   "statement_date": "2024-04-15",
+   "quote": "so I would say from here plus minus over the next 12 months we hopefully have both MDMA and soloc cybin approved which is like I don't I think need to explain why but it's a game Cher",
+   "context": "Psychedelic Vantage interview, April 2024. Asked what he looks forward to in 2024, Angermayer expects both MDMA (Lykos) and psilocybin (Compass) approved within about 12 months.",
+   "post_title": "The Big Picture with Psychedelic Medicine: An Interview with Christian Angermayer (YouTube, Psychedelic Vantage)",
+   "source_url": "https://www.youtube.com/watch?v=rLNAgeofL1E",
+   "area_guess": "regulatory",
+   "horizon_text": "over the next 12 months",
+   "confidence_phrase": "hopefully",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Auto-caption: 'soloc cybin' = psilocybin, 'game Cher' = game changer."
+  },
+  {
+   "id": "angermayer-0074",
+   "forecaster": "angermayer",
+   "statement_date": "2024-04-15",
+   "quote": "then I would say the two three four years after all the other psychedelics which Mia Tha is doing will come to Market as well so let's say 5 years from now the world or the landscape for mental health treatments will be really radically different from from what they know in a very good way",
+   "context": "Psychedelic Vantage, April 2024. After MDMA and psilocybin, Angermayer expects atai's other psychedelics on the market two to four years later; in five years mental health treatment will be radically different.",
+   "post_title": "The Big Picture with Psychedelic Medicine: An Interview with Christian Angermayer (YouTube, Psychedelic Vantage)",
+   "source_url": "https://www.youtube.com/watch?v=rLNAgeofL1E",
+   "area_guess": "regulatory",
+   "horizon_text": "two three four years after ... 5 years from now",
+   "confidence_phrase": "I would say ... will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Auto-caption: 'Mia Tha' = atai."
+  },
+  {
+   "id": "angermayer-0078",
+   "forecaster": "angermayer",
+   "statement_date": "2024-06-05",
+   "quote": "New trials can overcome the shortcomings of this package and potentially result in ultimate approval.",
+   "context": "Same post; hedged call that a new MDMA trial package can reach approval.",
+   "post_title": "Activists are not necessarily drug developers",
+   "source_url": "https://christianangermayer.substack.com/p/activists-are-not-necessarily-drug",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "can ... potentially",
+   "entities": [],
+   "finder_note": "source confidence high; undated"
+  },
+  {
+   "id": "angermayer-0080",
+   "forecaster": "angermayer",
+   "statement_date": "2024-06-24",
+   "quote": "And if you look at Spravato's numbers today you see they are now growing substantially and anticipated to shortly hit \"blockbuster\" status.",
+   "context": "Same tweet; he uses J&J's Spravato as the precedent for a psychedelic-type drug reaching blockbuster ($1bn) sales, saying it will happen shortly.",
+   "post_title": "Christian Angermayer on X: atai (Nasdaq: ATAI) went public almost exactly 3 years ago",
+   "source_url": "https://x.com/C_Angermayer/status/1805287716105416818",
+   "area_guess": "company_market",
+   "horizon_text": "shortly",
+   "confidence_phrase": "anticipated to",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Third-party drug; he adopts the expectation. Blockbuster usually means $1bn annual sales."
+  },
+  {
+   "id": "angermayer-0089",
+   "forecaster": "angermayer",
+   "statement_date": "2025-02-20",
+   "quote": "atai has four Phase 2 catalysts/top line read-outs before the end of Q1/2026, two of which are designed to fit into the “Spravato two-hour window”, namely: Phase 2b for 5-MeO-DMT (indication: treatment resistant depression/TRD), anticipated mid this year (via atai’s 35% stake in Beckley Psytech) Phase 2b for RL-007 (cognitive impairment associated with schizophrenia/CIAS), anticipated mid this year (via atai’s 51.9% stake in Recognify Life Sciences)",
+   "context": "Catalyst list bullet; quote spans the heading and first two list items (line breaks normalized).",
+   "post_title": "I just invested $22.75m more into atai Life Sciences: here's why",
+   "source_url": "https://christianangermayer.substack.com/p/i-just-invested-2275m-more-into-atai",
+   "area_guess": "clinical_trial",
+   "horizon_text": "before the end of Q1/2026; mid this year",
+   "confidence_phrase": "anticipated",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Compound claim; restates company guidance."
+  },
+  {
+   "id": "angermayer-0090",
+   "forecaster": "angermayer",
+   "statement_date": "2025-02-20",
+   "quote": "Phase 2 for DMT (TRD), anticipated in Q1 2026 (fully owned program) Phase 2a for R-MDMA (social anxiety disorder/SAD), anticipated in Q1 2026 (fully owned program)",
+   "context": "Items 3 and 4 of the same catalyst list (VLS-01 DMT; EMP-01 R-MDMA).",
+   "post_title": "I just invested $22.75m more into atai Life Sciences: here's why",
+   "source_url": "https://christianangermayer.substack.com/p/i-just-invested-2275m-more-into-atai",
+   "area_guess": "clinical_trial",
+   "horizon_text": "Q1 2026",
+   "confidence_phrase": "anticipated",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Earlier statement of the timelines in census row angermayer-0023."
+  },
+  {
+   "id": "angermayer-0093",
+   "forecaster": "angermayer",
+   "statement_date": "2025-03-05",
+   "quote": "Topline results from the core stage of the Phase 2b clinical trial are expected in mid-2025.",
+   "context": "Announcing completion of enrollment in the BPL-003 (5-MeO-DMT) Phase 2b core stage in TRD; he calls it one of atai's main read-outs of the next 12 months and gives the readout timing. Own-company claim.",
+   "post_title": "Christian Angermayer on X: One step closer to one of @atai_life's main read-outs of the next 12 months",
+   "source_url": "https://x.com/C_Angermayer/status/1897309521237672416",
+   "area_guess": "clinical_trial",
+   "horizon_text": "mid-2025",
+   "confidence_phrase": "are expected",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Earlier restatement (different source/date) of census row angermayer-0018 from the June 2025 substack."
+  },
+  {
+   "id": "angermayer-0094",
+   "forecaster": "angermayer",
+   "statement_date": "2025-03-20",
+   "quote": "Over the next 12 months, atai anticipates FOUR Phase 2 readouts, each of which has the potential to be a meaningful event for the company and all of its stakeholders. In a positive readout scenario, any one of these milestones could significantly enhance atai’s valuation and financing opportunities.",
+   "context": "Section 'atai's Treasury Strategy Going Forward' in the Bitcoin treasury post.",
+   "post_title": "Why Bitcoin can be a valid part of a corporate treasury – especially in the biotech sector",
+   "source_url": "https://christianangermayer.substack.com/p/why-bitcoin-can-be-a-valid-part-of",
+   "area_guess": "clinical_trial",
+   "horizon_text": "Over the next 12 months",
+   "confidence_phrase": "anticipates",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0098",
+   "forecaster": "angermayer",
+   "statement_date": "2025-06-02",
+   "quote": "And there is more in the atai pipeline that I am personally excited about, including RL-007’s anticipated mid-2025 read out of its Phase 2b proof-of-concept trial for pro-cognitive effects in patients with Cognitive Impairment Associated with Schizophrenia (CIAS).",
+   "context": "Section 'atai's transformation and evolution'.",
+   "post_title": "ATAI acquires Beckley — establishing the clear leader in psychedelics",
+   "source_url": "https://christianangermayer.substack.com/p/atai-acquires-beckley-establishing",
+   "area_guess": "clinical_trial",
+   "horizon_text": "mid-2025",
+   "confidence_phrase": "anticipated",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0102",
+   "forecaster": "angermayer",
+   "statement_date": "2025-06-05",
+   "quote": "In my view, mental health will be the largest market in healthcare within 10 years — surpassing oncology and cardiology.",
+   "context": "Commenting on Ferring Pharmaceuticals taking a stake in $ATAI, he argues big pharma has neglected mental health and forecasts it becomes the largest healthcare market.",
+   "post_title": "Christian Angermayer on X: It has always puzzled me how much big pharma has neglected mental health",
+   "source_url": "https://x.com/C_Angermayer/status/1930584320294457397",
+   "area_guess": "company_market",
+   "horizon_text": "within 10 years",
+   "confidence_phrase": "In my view ... will be",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Dated (by mid-2035), measurable against market-size data."
+  },
+  {
+   "id": "angermayer-0103",
+   "forecaster": "angermayer",
+   "statement_date": "2025-07-01",
+   "quote": "My personal view: BPL-003 has the potential to be a massive blockbuster drug!",
+   "context": "After summarizing the BPL-003 Phase 2b topline data.",
+   "post_title": "atai Life Sciences – Strong Phase 2b topline data for BPL-003 (5-MeO-DMT) and further strategic backing",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences-outstanding-phase",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "has the potential",
+   "entities": [],
+   "finder_note": "source confidence high; undated"
+  },
+  {
+   "id": "angermayer-0107",
+   "forecaster": "angermayer",
+   "statement_date": "2025-07-01",
+   "quote": "For the next 9 – 12 months, atai expects: Phase 2b readout for RL-007 (cognitive impairment associated with schizophrenia/CIAS), anticipated mid this year (via atai’s 51.9% stake in Recognify) Phase 2b open label extension and Phase 2a open label data for BPL-003 in Q3’2025 End-of-Phase 2b meeting request submitted with FDA for BPL-003 in Q3’25",
+   "context": "'Upcoming Milestones' list, first three items (line breaks normalized).",
+   "post_title": "atai Life Sciences – Strong Phase 2b topline data for BPL-003 (5-MeO-DMT) and further strategic backing",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences-outstanding-phase",
+   "area_guess": "clinical_trial",
+   "horizon_text": "next 9 – 12 months; mid this year; Q3’2025; Q3’25",
+   "confidence_phrase": "expects; anticipated",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Compound claim; restates company guidance."
+  },
+  {
+   "id": "angermayer-0108",
+   "forecaster": "angermayer",
+   "statement_date": "2025-07-01",
+   "quote": "Phase 2 readout for VLS-01 (buccal film DMT) for TRD, anticipated in Q1 2026 Phase 2a readout for EMP-01 (oral R-MDMA) for social anxiety disorder, anticipated in Q1’2026",
+   "context": "'Upcoming Milestones' list, last two items.",
+   "post_title": "atai Life Sciences – Strong Phase 2b topline data for BPL-003 (5-MeO-DMT) and further strategic backing",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences-outstanding-phase",
+   "area_guess": "clinical_trial",
+   "horizon_text": "Q1 2026; Q1’2026",
+   "confidence_phrase": "anticipated",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Restates company guidance; same timelines as Feb 2025 and Oct 2025 posts."
+  },
+  {
+   "id": "angermayer-0112",
+   "forecaster": "angermayer",
+   "statement_date": "2025-07-01",
+   "quote": "Furthermore, BPL-003 might deliver even stronger results with a 2-dose induction, to be proven with further data.",
+   "context": "Section 'The Two-Hour Window: Our Sweet Spot'.",
+   "post_title": "atai Life Sciences – Strong Phase 2b topline data for BPL-003 (5-MeO-DMT) and further strategic backing",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences-outstanding-phase",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [],
+   "finder_note": "source confidence high; undated"
+  },
+  {
+   "id": "angermayer-0118",
+   "forecaster": "angermayer",
+   "statement_date": "2025-07-28",
+   "quote": "the same I expect by the way very short uh in the future like in the first quarter next year so just nine months behind 5 Mod DMT we're going to have the same quality of data as that for DMT and then a little bit behind that we're going to come with a novel fully patent protected version of MDA RMDMMA",
+   "context": "AlphaNooner, July 2025. Angermayer expects DMT (VLS-01) data of the same quality as 5-MeO-DMT in Q1 2026, with R-MDMA data a little later.",
+   "post_title": "#AlphaNooner - Inside $ATAI with Christian Angermayer (YouTube, AdvisorShares)",
+   "source_url": "https://www.youtube.com/watch?v=wFGBE7h7i5M",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in the first quarter next year",
+   "confidence_phrase": "I expect",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own company (CONTROL); compound claim (timing plus data quality)."
+  },
+  {
+   "id": "angermayer-0120",
+   "forecaster": "angermayer",
+   "statement_date": "2025-07-28",
+   "quote": "I said it before like we have DMT data in the first quarter, RM uh MDMMA data. We will have actually uh this year we're going to have open label data uh for um uh for 5 MODMT.",
+   "context": "AlphaNooner, July 2025, closing remarks. Angermayer lists upcoming news flow: DMT data in Q1 2026, R-MDMA data, and 5-MeO-DMT open-label data in 2025.",
+   "post_title": "#AlphaNooner - Inside $ATAI with Christian Angermayer (YouTube, AdvisorShares)",
+   "source_url": "https://www.youtube.com/watch?v=wFGBE7h7i5M",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in the first quarter ... this year",
+   "confidence_phrase": "we're going to have",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own company (CONTROL); guidance-type."
+  },
+  {
+   "id": "angermayer-0121",
+   "forecaster": "angermayer",
+   "statement_date": "2025-08-04",
+   "quote": "More Open Label Extension (OLE) data coming soon!",
+   "context": "After the BPL-003 Phase 2b data summary.",
+   "post_title": "The Psychedelic Sector Today: Momentum, Milestones, and What Lies Ahead",
+   "source_url": "https://christianangermayer.substack.com/p/the-psychedelic-sector-today-momentum",
+   "area_guess": "clinical_trial",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0125",
+   "forecaster": "angermayer",
+   "statement_date": "2025-10-01",
+   "quote": "Most analysts look at them as last-resort-treatment, whereas I believe - over time – that psychedelics can become first-line, potentially even preventive treatments.",
+   "context": "After a media misunderstanding about share sales caused intraday swings in $ATAI, he clarifies no shares were sold and gives his practice-adoption view that psychedelics move from last-resort to first-line and preventive use.",
+   "post_title": "Christian Angermayer on X: What a wild day for $ATAI yesterday",
+   "source_url": "https://x.com/C_Angermayer/status/1973408076645445893",
+   "area_guess": "practice_adoption",
+   "horizon_text": "over time",
+   "confidence_phrase": "I believe ... can become",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Earlier tweet restatement (different source/date) of census row angermayer-0024 (Oct 21 2025 substack)."
+  },
+  {
+   "id": "angermayer-0126",
+   "forecaster": "angermayer",
+   "statement_date": "2025-10-01",
+   "quote": "I believe atai is the sector. Big Pharma is late. Very late. If they want exposure, they'll likely need to partner.... with us.",
+   "context": "Same tweet; he predicts large pharma will need to partner with atai to get psychedelic exposure, and adds 'No need to sell out.'",
+   "post_title": "Christian Angermayer on X: What a wild day for $ATAI yesterday",
+   "source_url": "https://x.com/C_Angermayer/status/1973408076645445893",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Conditional on pharma wanting exposure; frames partnering rather than a sale."
+  }
+ ]
+}

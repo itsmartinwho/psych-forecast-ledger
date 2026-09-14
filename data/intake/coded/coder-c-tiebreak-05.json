@@ -1,0 +1,137 @@
+{
+  "coder": "C",
+  "run": "intake-2026-09-14",
+  "records": [
+    {
+      "id": "doblin-0204-a",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0001",
+        "readings": [
+          "'MDMA ... approved by the FDA' = FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD, the only MDMA program the forecaster's organization was pursuing on the statement date."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": "2024-12-31",
+      "deadline_origin": "anchor",
+      "deadline_text": "which we hope may happen in the middle of 2024",
+      "bin": "C",
+      "p_stated": null,
+      "phrase": "we hope may happen",
+      "affiliated": true,
+      "tags": ["affiliated"],
+      "base_rate_class": "phase3_to_approval_psychiatry",
+      "stage_note": "Phase 3 program (MAPP1, MAPP2) complete on the statement date; the quote does not say whether the NDA had been submitted, so the phase 3 class applies.",
+      "note": "Split -a of a compound claim (MDMA and psilocybin). 'The middle of 2024' is not an H1, quarter or month pattern; the year rule gives 31 December 2024. The FDA decides; the forecaster was a Lykos founder and board member on the statement date (affiliation to 2024-08-31), so affiliated true."
+    },
+    {
+      "id": "doblin-0204-b",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0003",
+        "readings": [
+          "No sponsor or indication is named, so the first FDA approval of any psilocybin drug product counts."
+        ]
+      },
+      "condition": {
+        "ref": "E-0001"
+      },
+      "asserts": true,
+      "deadline": "2026-12-31",
+      "deadline_origin": "anchor",
+      "deadline_text": "maybe near the end of 2025, 2026 potentially",
+      "bin": "A",
+      "p_stated": null,
+      "phrase": "I think, will be approved maybe",
+      "affiliated": false,
+      "tags": ["conditional"],
+      "base_rate_class": "phase3_to_approval_psychiatry",
+      "stage_note": "At least one psilocybin program (COMP360, Compass Pathways) was in Phase 3 on the statement date; the forecaster names no sponsor.",
+      "note": "Split -b of a compound claim. The clause 'once MDMA, if it becomes approved by the FDA' makes the psilocybin claim conditional on E-0001, which the FDA decides. The later of the two named years (2026) sets the deadline. 'Will' is the strongest phrase in the sentence and sets bin A; 'maybe' qualifies the timing, not the approval. The forecaster holds no disclosed role in a psilocybin sponsor."
+    },
+    {
+      "id": "doblin-0211",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "asserts": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": null,
+      "p_stated": null,
+      "phrase": null,
+      "affiliated": null,
+      "tags": null,
+      "base_rate_class": null,
+      "stage_note": null,
+      "note": "A count of people treated with MDMA-assisted therapy by 2032 has no named public series that could resolve it; the quantity template requires one and the forecaster gives none. 'We've had some estimates that we will hopefully treat' also cites an internal estimate rather than stating an expectation."
+    },
+    {
+      "id": "doblin-0217",
+      "admit": false,
+      "reason_code": "CONTROL",
+      "event": null,
+      "condition": null,
+      "asserts": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": null,
+      "p_stated": null,
+      "phrase": null,
+      "affiliated": null,
+      "tags": null,
+      "base_rate_class": null,
+      "stage_note": null,
+      "note": "Conditional on 'if we can get the research on ibogaine ... fully funded': the condition is the forecaster's own organization (MAPS, its Open Ibogaine project) raising money and running the program, which the forecaster controls. Under the intake rule a condition under the forecaster's control is rejected as CONTROL. The claim is also undated and 'could'."
+    },
+    {
+      "id": "doblin-0223",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0001",
+        "readings": [
+          "'FDA approval' after 'they'll come to an agreement' = FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD on any review cycle; the agreement with the FDA is not itself the event."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": "2027-12-27",
+      "deadline_origin": "anchor",
+      "deadline_text": "probably three years from now",
+      "bin": "B",
+      "p_stated": null,
+      "phrase": "probably ... very likely",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": "post_crl_eventual_approval",
+      "stage_note": "Post-CRL: the August 2024 complete response letter and the October 2024 FDA meeting are public on the statement date; a further Phase 3 study is required.",
+      "note": "'Three years from now' = statement date plus 3 years. 'Will be very likely' reads as 'very likely' (bin B); 'will' is the auxiliary of 'likely', not an assertion phrase. The Lykos affiliation ended 2024-08-31, before the statement date, and MAPS is not an alias of an entity named in the event, so affiliated false."
+    },
+    {
+      "id": "doblin-0228",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "asserts": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": null,
+      "p_stated": null,
+      "phrase": null,
+      "affiliated": null,
+      "tags": null,
+      "base_rate_class": null,
+      "stage_note": null,
+      "note": "A delay estimate ('could delay approval for another three and a half years or so') gives no proposition that resolves TRUE or FALSE: the words set neither a date by which approval occurs nor a date before which it does not, and 'or so' has no band. Writing either would invent a threshold."
+    }
+  ]
+}

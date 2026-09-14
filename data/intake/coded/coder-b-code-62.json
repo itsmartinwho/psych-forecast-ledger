@@ -1,0 +1,652 @@
+{
+  "coder": "B",
+  "run": "intake-2026-09-14",
+  "records": [
+    {
+      "id": "doblin-0176",
+      "admit": false,
+      "reason_code": "OUT_OF_AREA",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "Size of MAPS' own conference; conference attendance is outside the five areas."
+    },
+    {
+      "id": "doblin-0177",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'Helpful for the pharmaceutical model' has no entity, threshold or observable event."
+    },
+    {
+      "id": "doblin-0178",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'An increase in the number of people' names no series, threshold or date."
+    },
+    {
+      "id": "doblin-0179-a",
+      "admit": false,
+      "reason_code": "CONTROL",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "Split: -a MAPS gathers the final MAPP2 data point (own trial); -b Colorado vote."
+    },
+    {
+      "id": "doblin-0179-b",
+      "admit": false,
+      "reason_code": "KNOWN",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "The Colorado ballot vote was already scheduled at the statement date; no result is forecast."
+    },
+    {
+      "id": "doblin-0180",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0009"
+      },
+      "condition": null,
+      "deadline": "2022-12-31",
+      "deadline_origin": "anchor",
+      "asserts": true,
+      "bin": "B",
+      "p_stated": null,
+      "note": "'I think' (B); 'before the end of the year' = 2022-12-31. 'Good safety profile' has no threshold, not coded. Affiliated."
+    },
+    {
+      "id": "doblin-0181",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0004"
+      },
+      "condition": {
+        "ref": "E-0001"
+      },
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": true,
+      "bin": "B",
+      "p_stated": null,
+      "note": "'Two years behind' is relative to an unrealized FDA approval; no date. 'I would say' read as B. Affiliated."
+    },
+    {
+      "id": "doblin-0182",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:dea-places-mdma-in-schedule-iii-or-iv",
+        "template": "rule_or_policy",
+        "area": "regulatory",
+        "asset": "MDMA (midomafetamine): federal controlled-substance schedule after FDA approval",
+        "entity": "US Drug Enforcement Administration (DEA)",
+        "title": "DEA places MDMA in Schedule III or Schedule IV",
+        "proposition": "The DEA publishes a final rule that places MDMA (midomafetamine) in Schedule III or Schedule IV of the Controlled Substances Act."
+      },
+      "condition": {
+        "ref": "E-0001"
+      },
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": true,
+      "bin": "C",
+      "p_stated": null,
+      "note": "'Schedule three or four' is one 'or' event. Presupposes FDA approval. 'We hope' read as C. Undated. Affiliated."
+    },
+    {
+      "id": "doblin-0183",
+      "admit": false,
+      "reason_code": "CONTROL",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "MAPS' own cost to reach approval and sustainability; relays a consultant estimate."
+    },
+    {
+      "id": "doblin-0184",
+      "admit": false,
+      "reason_code": "CONTROL",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "Timing of MAPS' own NDA submission."
+    },
+    {
+      "id": "doblin-0185",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'Spiritualized humanity' by 2070 has no observable event."
+    },
+    {
+      "id": "doblin-0186",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'On the precipice' is not a lexicon phrase or a deadline; no decision named."
+    },
+    {
+      "id": "doblin-0187",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'We can imagine ... may soon be available to all who could benefit'; no decision or date."
+    },
+    {
+      "id": "doblin-0188",
+      "admit": false,
+      "reason_code": "KNOWN",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "Restates the TGA access decision announced on the statement date."
+    },
+    {
+      "id": "doblin-0189",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "Hope for 'more international discussion'; no body, decision or threshold."
+    },
+    {
+      "id": "doblin-0190",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "Slogan about MAPS' own conference; no observable event."
+    },
+    {
+      "id": "doblin-0191-a",
+      "admit": false,
+      "reason_code": "CONTROL",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "Split: -a MAPS' own NDA submission in September 2023; -b FDA approval."
+    },
+    {
+      "id": "doblin-0191-b",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0001"
+      },
+      "condition": null,
+      "deadline": "2024-06-30",
+      "deadline_origin": "anchor",
+      "asserts": true,
+      "bin": "B",
+      "p_stated": null,
+      "note": "'By June of 2024' (transcript '2020', one year from June 2023) = 2024-06-30. 'Very good chance' read as B. Affiliated."
+    },
+    {
+      "id": "doblin-0192",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:mdma-supervised-clinic-administration-only",
+        "template": "rule_or_policy",
+        "area": "regulatory",
+        "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: FDA-approved labeling or REMS administration setting",
+        "entity": "US Food and Drug Administration (FDA)",
+        "title": "FDA-approved labeling or REMS requires supervised in-clinic administration of midomafetamine",
+        "proposition": "The FDA-approved labeling or REMS for midomafetamine (MDMA-assisted therapy) for PTSD requires that the drug is administered only under direct supervision in a clinic or healthcare setting, with no take-home dispensing."
+      },
+      "condition": {
+        "ref": "E-0001"
+      },
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": true,
+      "bin": "A",
+      "p_stated": null,
+      "note": "'Approved only under direct supervision of therapists' (A). Presupposes approval, so conditional on E-0001. Undated. Affiliated."
+    },
+    {
+      "id": "doblin-0193",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'Cost will be the biggest challenge' has no payer, threshold or date."
+    },
+    {
+      "id": "doblin-0194",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'Net zero trauma by 2070' is a vision with no named metric or series."
+    },
+    {
+      "id": "doblin-0195",
+      "admit": false,
+      "reason_code": "NORMATIVE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'Going to need to use' states a need, not an expected event."
+    },
+    {
+      "id": "doblin-0196",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'Multiple generations' and 'enough openness' set no date, series or threshold."
+    },
+    {
+      "id": "doblin-0197",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:fda-action-on-mdma-at-nda-ptsd",
+        "template": "rule_or_policy",
+        "area": "regulatory",
+        "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: FDA action on the new drug application",
+        "entity": "US Food and Drug Administration (FDA)",
+        "title": "FDA issues its action (approval or complete response letter) on the midomafetamine NDA for PTSD",
+        "proposition": "The FDA issues its action, an approval or a complete response letter, on the new drug application for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder."
+      },
+      "condition": null,
+      "deadline": "2024-12-31",
+      "deadline_origin": "anchor",
+      "asserts": true,
+      "bin": "B",
+      "p_stated": null,
+      "note": "'Considered for approval in 2024' = FDA decision, not approval itself. 'On track' (B); 'in 2024' = 2024-12-31. Affiliated."
+    },
+    {
+      "id": "doblin-0198",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0001"
+      },
+      "condition": null,
+      "deadline": "2024-12-31",
+      "deadline_origin": "anchor",
+      "asserts": true,
+      "bin": "C",
+      "p_stated": null,
+      "note": "'We hope ... will be approved next year' read as C; 'next year' = 2024-12-31. 'First of many' clause is vague, not coded. Affiliated."
+    },
+    {
+      "id": "doblin-0199",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "A proposed vision; no named metric or series exists at the statement date."
+    },
+    {
+      "id": "doblin-0200",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'A new key to unlocking PTSD' and 'could reduce trauma' name no observable event."
+    },
+    {
+      "id": "doblin-0201",
+      "admit": false,
+      "reason_code": "CONTROL",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "MAPS' own plan to build a national trauma metric."
+    },
+    {
+      "id": "doblin-0202",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'Will be needed' states a requirement, not a count reached by a date; no series."
+    },
+    {
+      "id": "doblin-0203",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0001"
+      },
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": true,
+      "bin": "B",
+      "p_stated": null,
+      "note": "'MDMA becoming a medicine' read as FDA approval; 'likely' (B); undated. The 2070 vision is not coded. Affiliated."
+    },
+    {
+      "id": "doblin-0204-a",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0001"
+      },
+      "condition": null,
+      "deadline": "2024-06-30",
+      "deadline_origin": "anchor",
+      "asserts": true,
+      "bin": "C",
+      "p_stated": null,
+      "note": "Split: -a MDMA. 'We hope may happen' read as C; 'the middle of 2024' read as first half 2024 = 2024-06-30. Affiliated."
+    },
+    {
+      "id": "doblin-0204-b",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0003"
+      },
+      "condition": null,
+      "deadline": "2026-12-31",
+      "deadline_origin": "anchor",
+      "asserts": true,
+      "bin": "B",
+      "p_stated": null,
+      "note": "Split: -b psilocybin, no sponsor named. 'I think' (B); latest named year 2026 = 2026-12-31. Not affiliated."
+    },
+    {
+      "id": "doblin-0205",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'Millions of people we hope to help' has no series, threshold or date."
+    },
+    {
+      "id": "doblin-0206",
+      "admit": false,
+      "reason_code": "NOT_FORECAST",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "Describes Lykos' aim and the Helena partnership; no future state asserted."
+    },
+    {
+      "id": "doblin-0207",
+      "admit": false,
+      "reason_code": "KNOWN",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "Restates the FDA-assigned review timing (PDUFA) announced by the sponsor; approval itself is only 'potential'."
+    },
+    {
+      "id": "doblin-0208",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'First of many' names no drug, sponsor or date."
+    },
+    {
+      "id": "doblin-0209",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0001"
+      },
+      "condition": null,
+      "deadline": "2024-06-30",
+      "deadline_origin": "anchor",
+      "asserts": true,
+      "bin": "B",
+      "p_stated": null,
+      "note": "'We project' read as expect (B), the strongest phrase; 'by June of 2024' = 2024-06-30. Affiliated."
+    },
+    {
+      "id": "doblin-0210-a",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:israel-moh-approves-mdma-at-ptsd",
+        "template": "drug_approval",
+        "area": "regulatory",
+        "asset": "midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder: Israeli Ministry of Health marketing approval",
+        "entity": "Israeli Ministry of Health",
+        "title": "Israeli Ministry of Health approves MDMA-assisted therapy for PTSD",
+        "proposition": "The Israeli Ministry of Health approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder."
+      },
+      "condition": {
+        "ref": "E-0001"
+      },
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": true,
+      "bin": "A",
+      "p_stated": null,
+      "note": "Split: -a Israel, -b Canada. 'If we do get FDA approval' = E-0001. 'Will' (A); 'very shortly' is not a deadline. Affiliated."
+    },
+    {
+      "id": "doblin-0210-b",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:health-canada-approves-mdma-at-ptsd",
+        "template": "drug_approval",
+        "area": "regulatory",
+        "asset": "midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder, Canadian marketing authorization",
+        "entity": "Health Canada",
+        "title": "Health Canada approves MDMA-assisted therapy for PTSD",
+        "proposition": "Health Canada issues a Notice of Compliance (marketing authorization) for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder."
+      },
+      "condition": {
+        "ref": "E-0001"
+      },
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": true,
+      "bin": "A",
+      "p_stated": null,
+      "note": "Split: -b Canada. Conditional on FDA approval. 'Will' (A); undated. Affiliated."
+    },
+    {
+      "id": "doblin-0211",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:mdma-at-patients-treated-1-4-million-by-2032",
+        "template": "quantity_threshold",
+        "area": "practice_adoption",
+        "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: cumulative number of patients treated",
+        "entity": "Patients treated with MDMA-assisted therapy for PTSD",
+        "title": "About 1.4 million people treated with MDMA-assisted therapy by 2032",
+        "proposition": "The cumulative number of people treated with midomafetamine (MDMA-assisted therapy) for PTSD is at or beyond about 1.4 million (band of plus or minus 20 percent) by 31 December 2032, per a named public count (sponsor disclosures or a prescription-data series)."
+      },
+      "condition": null,
+      "deadline": "2032-12-31",
+      "deadline_origin": "anchor",
+      "asserts": true,
+      "bin": "C",
+      "p_stated": null,
+      "note": "Adopts the estimate ('we will hopefully treat'); 'hopefully' qualifies 'will', read as C. 'By 2032' = 2032-12-31. Affiliated."
+    },
+    {
+      "id": "doblin-0212",
+      "admit": false,
+      "reason_code": "THIRD_PARTY",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "Psilocybin timing attributed to 'groups ... suggesting'; not adopted as his own here."
+    },
+    {
+      "id": "doblin-0213",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "'Net-zero-trauma test country' in 20 to 30 years names no decision, policy or metric."
+    },
+    {
+      "id": "doblin-0214",
+      "admit": false,
+      "reason_code": "CONTROL",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "MAPS' own therapist training goal; no date."
+    },
+    {
+      "id": "doblin-0215",
+      "admit": false,
+      "reason_code": "CONTROL",
+      "event": null,
+      "condition": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "asserts": null,
+      "bin": null,
+      "p_stated": null,
+      "note": "MAPS' own intent to keep working toward access; no outcome forecast."
+    }
+  ]
+}

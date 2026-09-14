@@ -1,0 +1,211 @@
+[
+ {
+  "slug": "fda-botanical-cannabis-ptsd-approval",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "Botanical (whole-plant or smoked) marijuana for post-traumatic stress disorder",
+  "entity": "US Food and Drug Administration (FDA)",
+  "title": "FDA approval of botanical cannabis (marijuana) for PTSD",
+  "proposition": "The FDA approves a botanical (whole-plant or smoked) marijuana product for post-traumatic stress disorder.",
+  "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) for a botanical whole-plant or smoked marijuana drug product with a post-traumatic stress disorder indication is dated, under any sponsor name. Approval of a purified or synthetic cannabinoid (for example dronabinol, nabilone or a purified cannabidiol product) does not count. A complete response letter, a positive advisory vote or an IND clearance is not an approval. A label narrower than PTSD counts if the claim's indication reasonably includes it and the reading is logged at intake. Resolution source: Drugs@FDA. FALSE at the deadline when no such approval appears there.",
+  "resolution_source": {
+   "name": "Drugs@FDA",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Once we make it into an FDA-approved medicine' = FDA approval of the botanical marijuana product MAPS was studying for PTSD; approval under any sponsor name counts."
+  ]
+ },
+ {
+  "slug": "us-insurer-covers-botanical-cannabis-ptsd",
+  "template": "coverage_decision",
+  "area": "payer_policy",
+  "asset": "FDA-approved botanical (whole-plant or smoked) marijuana for post-traumatic stress disorder: coverage by a US health insurer",
+  "entity": "US health insurers (any US health plan, Medicare or state Medicaid program)",
+  "title": "A US health insurer covers FDA-approved botanical cannabis as a medicine",
+  "proposition": "At least one US health insurer publishes a coverage policy that covers an FDA-approved botanical marijuana product for the indication on its FDA label.",
+  "criterion": "TRUE on the effective date of the first published coverage policy, medical policy bulletin, formulary listing or fee schedule of a US health insurer, Medicare or a state Medicaid program that covers an FDA-approved botanical (whole-plant or smoked) marijuana product for the indication named on its FDA-approved label. Coverage of cannabinoid drugs that are not botanical marijuana (for example dronabinol, nabilone or a purified cannabidiol product) does not count. Reimbursement under a state medical-marijuana program without FDA approval does not count. Resolution source: the payer's published policy bulletin, with the CMS Medicare Coverage Database for Medicare and Medicaid policies. FALSE at the deadline when no such policy is in effect.",
+  "resolution_source": {
+   "name": "Payer policy bulletins (commercial insurers, state Medicaid); CMS Medicare Coverage Database",
+   "url": "https://www.cms.gov/medicare-coverage-database/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Insurance companies will then be willing to cover it as a medicine' is read as at least one US health insurer publishing a coverage policy; no payer is named, so any US health plan counts.",
+   "The ledger reads 'plans will cover' as 'a plan covers', as in E-0056.",
+   "'It' is the marijuana that MAPS is studying for PTSD, the subject of the sentence; the label indication at approval sets the covered indication.",
+   "'Particularly if it saves them money on other medicines' is a reason, not a second condition."
+  ]
+ },
+ {
+  "slug": "dea-craker-research-cannabis-registration",
+  "template": "rule_or_policy",
+  "area": "regulatory",
+  "asset": "DEA Schedule I manufacturer registration for Prof. Lyle Craker (University of Massachusetts Amherst) to produce marijuana for research",
+  "entity": "US Drug Enforcement Administration (DEA)",
+  "title": "DEA registers Prof. Lyle Craker to manufacture cannabis for research",
+  "proposition": "The DEA grants Prof. Lyle Craker (University of Massachusetts Amherst) a Schedule I manufacturer registration to produce marijuana for research.",
+  "criterion": "TRUE on the date the DEA issues a Schedule I bulk manufacturer registration to Prof. Lyle Craker, or to the University of Massachusetts Amherst facility he directs, for the manufacture of marijuana for research, as published in the Federal Register or announced by the DEA Diversion Control Division. A DEA policy statement that it will accept applications, an acceptance of an application for filing, or a court or administration order directing the DEA to act is not a registration. Resolution source: the Federal Register DEA registration notices. FALSE at the deadline when no such registration has been issued.",
+  "resolution_source": {
+   "name": "Federal Register (DEA registration notices); DEA Diversion Control Division announcements",
+   "url": "https://www.federalregister.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Order the DEA to ... issue a license to Prof. Craker' resolves on the DEA registration itself, whoever ordered it; the administration's order is the means, the registration the outcome.",
+   "The words tie the registration to the end of the NIDA monopoly on research cannabis supply; the registration of Craker is the outcome this entry holds."
+  ]
+ },
+ {
+  "slug": "dea-non-nida-research-cannabis-producer",
+  "template": "rule_or_policy",
+  "area": "regulatory",
+  "asset": "DEA Schedule I manufacturer registrations for research marijuana: a producer other than the NIDA contract facility (end of the NIDA single-source supply)",
+  "entity": "US Drug Enforcement Administration (DEA)",
+  "title": "DEA registers a research-cannabis producer other than the NIDA contractor",
+  "proposition": "The DEA grants a Schedule I manufacturer registration to produce marijuana for research to at least one producer other than the NIDA contract facility at the University of Mississippi.",
+  "criterion": "TRUE on the date the DEA issues a Schedule I bulk manufacturer registration for the manufacture of marijuana for research to any applicant other than the NIDA contract facility at the University of Mississippi, as published in the Federal Register or announced by the DEA Diversion Control Division. A DEA policy statement that it will accept applications, or an acceptance of an application for filing, is not a registration. Resolution source: the Federal Register DEA registration notices. FALSE at the deadline when no such registration has been issued.",
+  "resolution_source": {
+   "name": "Federal Register (DEA registration notices); DEA Diversion Control Division announcements",
+   "url": "https://www.federalregister.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'End the NIDA monopoly' is read as the first registration of any research-marijuana producer other than the NIDA contractor; a registration of Prof. Lyle Craker would also resolve this event."
+  ]
+ },
+ {
+  "slug": "psychedelic-assisted-therapy-phase3-endpoint-met",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "Psychedelic-assisted psychotherapy (any psychedelic drug given with psychotherapy, any sponsor, any indication): a Phase 3 trial meets its primary endpoint",
+  "entity": "Sponsors of Phase 3 trials of psychedelic-assisted psychotherapy (MAPS Public Benefit Corporation and others)",
+  "title": "A Phase 3 trial of a psychedelic-assisted psychotherapy meets its primary endpoint",
+  "proposition": "A Phase 3 trial of a psychedelic-assisted psychotherapy, for any indication and any sponsor, reports its prespecified primary efficacy endpoint met with statistical significance.",
+  "criterion": "TRUE on the date of the first sponsor topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports a Phase 3 trial of a psychedelic drug (MDMA, psilocybin, LSD or another classic psychedelic or entactogen) given with psychotherapy, for any indication and under any sponsor, as having met its prespecified primary efficacy endpoint with statistical significance as reported by the sponsor. Phase 2 trials, secondary endpoints, interim analyses and pooled analyses do not count. Resolution source: the sponsor's topline release, with ClinicalTrials.gov results for the same trial. FALSE at the deadline when no such report exists.",
+  "resolution_source": {
+   "name": "Sponsor topline press release; ClinicalTrials.gov results",
+   "url": "https://clinicaltrials.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Should they demonstrate both safety and efficacy' is read as a Phase 3 primary efficacy endpoint met; safety is read into the approval event, not the condition.",
+   "The class-level condition covers the MAPS MDMA Phase 3 program (MAPP1, E-0002) and any other Phase 3 of a psychedelic-assisted psychotherapy; a positive MAPP1 result would resolve it."
+  ]
+ },
+ {
+  "slug": "fda-midomafetamine-blinding-challenge",
+  "template": "rule_or_policy",
+  "area": "regulatory",
+  "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: FDA treatment of the Phase 3 double-blind in its review of the application",
+  "entity": "US Food and Drug Administration (FDA)",
+  "title": "FDA challenges the midomafetamine (MDMA-assisted therapy) Phase 3 results over an unsuccessful double-blind",
+  "proposition": "The FDA's written action on, or review of, the midomafetamine (MDMA-assisted therapy) application for post-traumatic stress disorder cites an unsuccessful double-blind in the Phase 3 trials as a basis for not accepting the efficacy results.",
+  "criterion": "TRUE on the date of an FDA written action (complete response letter, refuse-to-file letter or other written FDA communication the sponsor discloses), an FDA review document posted on Drugs@FDA, or an FDA advisory committee briefing document that names failure or loss of the double-blind (functional unblinding, or expectancy bias from unblinding) in the Phase 3 trials of midomafetamine (MDMA-assisted therapy) for PTSD, under any sponsor name, as a reason the efficacy results are not adequate for approval. A document that only asks a question about blinding, without treating it as a deficiency, does not count. Resolution source: Drugs@FDA (action letters and review documents) with the FDA advisory committee materials page. FALSE when the FDA approves the application with no such finding, or when no such document exists at the deadline.",
+  "resolution_source": {
+   "name": "Drugs@FDA (action letters, review documents); FDA advisory committee materials",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Our final results will not be challenged on the basis of an unsuccessful double-blind' = the FDA does not cite unblinding as a deficiency of the Phase 3 efficacy results; the forecaster denies the proposition.",
+   "Any sponsor name (MAPS, MAPS PBC or a successor) counts; the entry is on the asset.",
+   "Distinct from E-0027 (safety data cited in a non-approval) and from E-0001 (approval): this event is about the stated basis of the FDA's assessment, not the approval decision."
+  ]
+ },
+ {
+  "slug": "mdma-approval-carries-rems",
+  "template": "rule_or_policy",
+  "area": "regulatory",
+  "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: Risk Evaluation and Mitigation Strategy (REMS) at FDA approval",
+  "entity": "US Food and Drug Administration (FDA)",
+  "title": "FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD carries a REMS",
+  "proposition": "The FDA approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder with a Risk Evaluation and Mitigation Strategy (REMS) that controls how the treatment is provided by prescription.",
+  "criterion": "TRUE on the date of an FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD, under any sponsor name, whose approval letter or REMS@FDA entry shows a REMS in force at approval: any REMS with elements to assure safe use, or other elements that restrict who may prescribe, dispense or administer the drug, or where it is given. FALSE on the date of an approval with no REMS. A REMS added after approval does not count. The event is unresolved while no approval exists. Resolution source: Drugs@FDA (approval letter) read with REMS@FDA.",
+  "resolution_source": {
+   "name": "Drugs@FDA (approval letter) with REMS@FDA",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/rems/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "The parenthetical example ('e.g. only by therapists who have been trained by MAPS in our therapeutic method') is illustrative and is not part of this criterion; the sponsor-trained-therapist restriction is the separate event mdma-rems-sponsor-trained-therapists.",
+   "Distinct from E-0023 (every psychedelic medicine the FDA approves carries a REMS, a class reading): this entry is on the single asset midomafetamine for PTSD.",
+   "A REMS added after approval does not count; the words say the REMS 'will control how ... will be provided by prescription', that is at the start of prescription use."
+  ]
+ },
+ {
+  "slug": "mdma-rems-sponsor-trained-therapists",
+  "template": "rule_or_policy",
+  "area": "regulatory",
+  "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: FDA labeling or REMS restriction of administration to therapists trained through the sponsor's program",
+  "entity": "US Food and Drug Administration (FDA)",
+  "title": "FDA labeling or REMS restricts midomafetamine (MDMA-assisted therapy) to sponsor-trained therapists",
+  "proposition": "The FDA approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder with labeling or a REMS under which only therapists who have completed the sponsor's (MAPS) training program may administer the treatment.",
+  "criterion": "TRUE on the date of an FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD, under any sponsor name, whose approved labeling or REMS document requires that the therapists or healthcare providers who administer the drug or conduct dosing sessions complete a training or certification program provided or certified by the sponsor (MAPS, MAPS PBC or a successor), with no other route to eligibility. FALSE on the date of an approval whose labeling and REMS permit administration by providers without sponsor-provided training, name the sponsor's program as one acceptable route among others, or set no provider training requirement. The event is unresolved while no approval exists. Resolution source: Drugs@FDA (approved labeling) read with REMS@FDA.",
+  "resolution_source": {
+   "name": "Drugs@FDA (approved labeling) with REMS@FDA",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/rems/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'The only therapists who will be able to directly administer it ... are going to be therapists that have been through our training program' (doblin-0088) and 'MAPS will be the only FDA-approved entity to train therapists' (doblin-0094) name the same restriction; so does doblin-0140.",
+   "'Directly administer it to patients' = the therapists or providers who conduct the MDMA dosing sessions; prescribers who do not sit in the session are not the set the words name.",
+   "'Our training program' = the MAPS / MAPS PBC MDMA Therapy Training Program under any later corporate name.",
+   "A REMS whose certification program is run by the sponsor, or by a training body it designates, counts; a REMS that accepts training from any accredited provider does not. A REMS that names the sponsor's program as one acceptable route among others resolves FALSE: the words say 'the only therapists'.",
+   "Distinct from mdma-approval-carries-rems (any REMS) and from mdma-rems-supervised-clinic-administration (setting restriction)."
+  ]
+ },
+ {
+  "slug": "mdma-rems-supervised-clinic-administration",
+  "template": "rule_or_policy",
+  "area": "regulatory",
+  "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: FDA labeling or REMS requirement of supervised administration in a healthcare setting with no take-home dispensing",
+  "entity": "US Food and Drug Administration (FDA)",
+  "title": "FDA labeling or REMS requires supervised in-clinic administration of midomafetamine, with no take-home dispensing",
+  "proposition": "The FDA approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder with labeling or a REMS that requires the drug to be administered under direct supervision in a certified healthcare setting and not dispensed to patients for use outside that setting.",
+  "criterion": "TRUE on the date of an FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD, under any sponsor name, whose approved labeling or REMS document requires that each dose is administered in a certified healthcare setting under the supervision of a healthcare provider, and does not permit dispensing the drug to the patient for use outside that setting. FALSE on the date of an approval whose labeling or REMS permits a pharmacy to dispense the product to the patient for use outside a healthcare setting, or permits unsupervised use. The event is unresolved while no approval exists. Resolution source: Drugs@FDA (approved labeling) read with REMS@FDA.",
+  "resolution_source": {
+   "name": "Drugs@FDA (approved labeling) with REMS@FDA",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/rems/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Only be able to administer MDMA under direct supervision in clinic settings', 'not as a take-home drug but only for use in controlled therapeutic settings' and 'it will be approved only under direct supervision of therapists' name the same restriction.",
+   "'Not like a normal drug that's approved' is the contrast with retail dispensing.",
+   "A REMS that certifies healthcare settings and requires monitoring during the session counts as 'direct supervision'; whether the supervising person is a licensed therapist or another healthcare provider does not change the reading.",
+   "The claim presupposes FDA approval of midomafetamine for PTSD; if no approval occurs in the window the condition is unmet and the item is void rather than scored.",
+   "E-0067 (retail-pharmacy dispensing for a psilocybin, LSD or MDMA product, class reading) is the mirror image on a wider asset; this entry is on midomafetamine alone, so that a psilocybin decision does not resolve it. The relation is logged for the registry.",
+   "Distinct from mdma-rems-sponsor-trained-therapists (who may administer) and mdma-approval-carries-rems (any REMS)."
+  ]
+ },
+ {
+  "slug": "israel-moh-midomafetamine-ptsd-approval",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: Israel marketing registration",
+  "entity": "Israel Ministry of Health",
+  "title": "Israel Ministry of Health approval of midomafetamine (MDMA-assisted therapy) for PTSD",
+  "proposition": "The Israel Ministry of Health registers (approves) midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
+  "criterion": "TRUE on the date the Israel Ministry of Health registers a midomafetamine (MDMA) drug product with an indication of post-traumatic stress disorder in its drug registry, under any sponsor name, or the date the sponsor announces that registration. A compassionate-use or named-patient permit, an expanded-access programme, or a clinical trial authorization is not an approval. A label narrower than PTSD counts if the claim's indication reasonably includes it and the reading is logged at intake. Resolution source: the Israel Ministry of Health drug registry, with the sponsor's press release as a secondary source. FALSE at the deadline when no such registration appears there.",
+  "resolution_source": {
+   "name": "Israel Ministry of Health drug registry (Israel Drug Registry); sponsor press release as a secondary source",
+   "url": "https://israeldrugs.health.gov.il/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'It will also become approved in Israel' = marketing registration by the Israel Ministry of Health; the words give no date, only the condition of FDA approval.",
+   "Base rate class is fixed per item from the asset's stage on each statement date; the event-level class is null."
+  ]
+ }
+]

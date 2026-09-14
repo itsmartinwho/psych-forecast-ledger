@@ -1,0 +1,207 @@
+[
+  {
+    "slug": "health-canada-midomafetamine-ptsd-approval",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: Health Canada marketing authorization (Notice of Compliance)",
+    "entity": "Health Canada",
+    "title": "Health Canada approval of midomafetamine (MDMA-assisted therapy) for PTSD",
+    "proposition": "Health Canada approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
+    "criterion": "TRUE on the date of a Health Canada Notice of Compliance (with or without conditions) for a midomafetamine (MDMA) drug product with an indication of post-traumatic stress disorder, as recorded in the Notice of Compliance database or the Drug Product Database; any sponsor name counts. A Special Access Program authorization, a clinical trial authorization, or a Notice of Deficiency or Non-compliance is not an approval. A label narrower than PTSD counts if the claim's indication reasonably includes it and the reading is logged at intake. Resolution source: Health Canada Notice of Compliance database, with the sponsor's press release as a secondary source. FALSE at the deadline when that database lists no such Notice of Compliance.",
+    "resolution_source": {
+      "name": "Health Canada Notice of Compliance database; sponsor press release as a secondary source",
+      "url": "https://health-products.canada.ca/noc-ac/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'It will also become approved ... in Canada' = a Health Canada Notice of Compliance; the words give no date, only the condition of FDA approval.",
+      "Base rate class is fixed per item from the asset's stage on each statement date; the event-level class is null."
+    ]
+  },
+  {
+    "slug": "competitor-mdma-ptsd-program",
+    "template": "company_event",
+    "area": "clinical_trial",
+    "asset": "midomafetamine (MDMA) for PTSD: a program run by a sponsor other than MAPS PBC on that sponsor's own clinical data",
+    "entity": "Any drug sponsor other than MAPS Public Benefit Corporation (or its successor)",
+    "title": "A second sponsor pursues its own MDMA-for-PTSD program with its own clinical data",
+    "proposition": "A sponsor other than MAPS Public Benefit Corporation (or its successor) runs its own clinical program for midomafetamine (MDMA) for post-traumatic stress disorder on its own clinical data.",
+    "criterion": "TRUE on the earlier of (a) the ClinicalTrials.gov study start date of the first interventional Phase 3 (or Phase 2/3) trial of midomafetamine (MDMA) for post-traumatic stress disorder whose sponsor is not MAPS Public Benefit Corporation, MAPS, or a successor or licensee of their program, and (b) the date of the definitive public announcement (press release or SEC filing) that such a sponsor has filed its own US marketing application for MDMA for PTSD on its own clinical data. Trials run by MAPS PBC or its successor, trials of MDMA for other indications, Phase 1 or Phase 2 trials, an application that relies on the MAPS program's data, a rumour and a letter of intent do not count. Resolution source: ClinicalTrials.gov, with the sponsor's press release as a secondary source. FALSE at the deadline when no such trial or application is on record.",
+    "resolution_source": {
+      "name": "ClinicalTrials.gov; sponsor press release or SEC filing as a secondary source",
+      "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'generate their own data' = a competitor runs its own pivotal MDMA-for-PTSD trial; 'wait this out' = no such trial is started.",
+      "'Their own data' excludes an application that relies on the MAPS program's clinical data; the sponsor must produce the data itself."
+    ]
+  },
+  {
+    "slug": "fda-midomafetamine-non-ptsd-approval",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA-assisted therapy) for an indication other than PTSD",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of midomafetamine (MDMA-assisted therapy) for an indication other than PTSD",
+    "proposition": "The FDA approves midomafetamine (MDMA-assisted therapy) for an indication other than post-traumatic stress disorder.",
+    "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) is dated for a midomafetamine (MDMA) drug product, under any sponsor name, whose approved labeling names an indication other than post-traumatic stress disorder (for example an eating disorder, social anxiety or a substance use disorder). An approval for PTSD alone, a PTSD subgroup, a complete response letter, a positive advisory vote, a breakthrough designation or a filing acceptance is not an approval for another indication. Resolution source: Drugs@FDA. FALSE at the deadline when no such approval appears in Drugs@FDA.",
+    "resolution_source": {
+      "name": "Drugs@FDA",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'Then other indications' names no indication; any FDA-approved indication other than PTSD counts, whether or not PTSD was approved first.",
+      "'Legal prescription use' and 'will become available' read as FDA approval, as in the E-0001 readings; DEA rescheduling that follows approval is not a separate requirement.",
+      "Base rate class is fixed per item from the asset's stage on each statement date; the event-level class is null."
+    ]
+  },
+  {
+    "slug": "fda-accepts-maps-mdma-program-proposals",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "MAPS MDMA-assisted therapy for PTSD program: FDA agreement to the three MAPS proposals on therapist MDMA experience, Expanded Access and co-therapist credentials",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA accepts MAPS' three MDMA program proposals",
+    "proposition": "The FDA accepts all three of MAPS' proposals for the MDMA-assisted therapy for PTSD program: the therapist MDMA-experience protocol, the Expanded Access program and the co-therapist credential requirements.",
+    "criterion": "TRUE on the date MAPS, MAPS Public Benefit Corporation or its successor first states publicly that the FDA has agreed to all three proposals named in the claim: the protocol under which therapists receive MDMA themselves, the Expanded Access program for MDMA-assisted therapy for PTSD, and the co-therapist credential requirements. All three must be reported as accepted; acceptance of one or two does not resolve TRUE. A submitted proposal, a scheduled or held FDA meeting, a pending request or an FDA comment short of agreement is not acceptance. Resolution source: MAPS announcements (press releases and the MAPS Bulletin). FALSE at the deadline when MAPS has not reported all three as accepted.",
+    "resolution_source": {
+      "name": "MAPS (MAPS Public Benefit Corporation) press releases and MAPS Bulletin announcements"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'Our three proposals' = the therapist MDMA-experience protocol, the Expanded Access program and the co-therapist credential requirements, the three items named in the statement; 'A and B' would split, but the claim is one package the FDA accepts or does not.",
+      "'Accepts' = the FDA agrees to the proposals as reported by the sponsor, not a published rule or guidance."
+    ]
+  },
+  {
+    "slug": "dea-bronx-va-mdma-study-registration",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "MAPS-sponsored MDMA-assisted therapy for PTSD study at the Bronx VA (principal investigator Rachel Yehuda): DEA Schedule I researcher registration",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA grants the Schedule I registration for the Bronx VA MDMA-assisted therapy PTSD study",
+    "proposition": "The DEA grants the Schedule I researcher registration that the MAPS-sponsored MDMA-assisted therapy for PTSD study at the Bronx VA needs to begin.",
+    "criterion": "TRUE on the earliest of (a) the date the sponsor (MAPS or MAPS PBC), the Bronx VA or the study's investigators publicly state that the DEA registration for the Bronx VA MDMA-assisted therapy for PTSD study has been granted, (b) the date a sponsor or VA announcement reports that the study has begun dosing or enrolling participants at the Bronx VA (dosing MDMA requires the registration), or (c) the date ClinicalTrials.gov first lists the Bronx VA site for that study with status Recruiting. A statement that the registration is pending, an IRB approval or a protocol approval is not the DEA registration. Resolution source: MAPS announcements and the ClinicalTrials.gov site status for that study. FALSE at the deadline when none of these has appeared.",
+    "resolution_source": {
+      "name": "MAPS announcements (press releases, MAPS Bulletin) and ClinicalTrials.gov site status for the Bronx VA MDMA/PTSD study",
+      "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'The Bronx VA study' = the MDMA-assisted therapy for PTSD study at the Veterans Affairs medical center in the Bronx, New York, with Rachel Yehuda as principal investigator, as named in the column.",
+      "'DEA registration' = the Schedule I researcher registration for the site; the study starting at the site is accepted as evidence that the registration was granted."
+    ]
+  },
+  {
+    "slug": "texas-reschedules-mdma",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "MDMA (midomafetamine): Texas controlled-substance schedule placement after FDA approval",
+    "entity": "Texas Department of State Health Services (Commissioner of Health)",
+    "title": "Texas reschedules MDMA out of Schedule I after FDA approval",
+    "proposition": "Texas moves MDMA (midomafetamine), or the FDA-approved MDMA drug product, out of Schedule I of the Texas Schedules of Controlled Substances into a schedule that permits prescription.",
+    "criterion": "TRUE on the effective date of a Texas Register notice or a Texas Department of State Health Services schedule action that removes MDMA (midomafetamine) or an FDA-approved MDMA drug product from Schedule I of the Texas Schedules of Controlled Substances, or places it in Schedule II, III, IV or V. A schedule change that takes effect through the Commissioner of Health's non-objection to a federal rescheduling counts the same as any other schedule action. A federal DEA rescheduling alone, a proposal or a legislative bill does not resolve the event. Resolution source: the Texas Register (Texas Secretary of State) and the DSHS Texas Schedules of Controlled Substances page. FALSE at the deadline when no such Texas schedule action has taken effect.",
+    "resolution_source": {
+      "name": "Texas Register (Texas Secretary of State) and the Texas Department of State Health Services schedules of controlled substances",
+      "url": "https://www.sos.state.tx.us/texreg/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'Reschedule automatically' = the Texas procedure by which a federal schedule change takes effect in Texas unless the Commissioner of Health objects; the words forecast the Texas schedule outcome, and 'the Commissioner of Public Health will not object' is the mechanism, not a second event.",
+      "'If we make MDMA into a medicine' = FDA approval of MDMA-assisted therapy for PTSD (E-0001); the event resolves only when that condition occurs."
+    ]
+  },
+  {
+    "slug": "second-sponsor-mdma-fda-approval",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "MDMA (midomafetamine) drug product from a sponsor other than MAPS Public Benefit Corporation: FDA approval",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of an MDMA drug product from a second sponsor",
+    "proposition": "The FDA approves a drug product whose active ingredient is MDMA (midomafetamine), for any indication, under an application held by a sponsor other than MAPS Public Benefit Corporation or its successor.",
+    "criterion": "TRUE on the date of the FDA approval letter or Drugs@FDA entry for a new drug application, 505(b)(2) application or abbreviated new drug application for a product whose active ingredient is MDMA (midomafetamine, any salt or enantiomer mix marketed as MDMA), for any indication, whose applicant is not MAPS Public Benefit Corporation, its successor under any name, or a company that markets the MAPS PBC product under license. A tentative approval, a complete response letter, an IND, a breakthrough designation or a filing acceptance is not an approval. Resolution source: Drugs@FDA (application holder and approval date). FALSE at the deadline when Drugs@FDA lists no such approval.",
+    "resolution_source": {
+      "name": "Drugs@FDA (approval letters and application holders)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'The only seller of MDMA' (the host's question) = no other sponsor holds an FDA approval for an MDMA product; a second sponsor's approval is the observable that ends sole-seller status.",
+      "'It will take people at least five or six years to do that' = a competitor's own research and approval is not completed within five years of the statement."
+    ]
+  },
+  {
+    "slug": "us-psychedelic-treatment-centers-count",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "asset": "Psychedelic-assisted therapy treatment centers in the United States: count of centers",
+    "entity": "US psychedelic-assisted therapy treatment centers (count)",
+    "title": "About 5,000 to 6,000 psychedelic treatment centers in the United States",
+    "proposition": "The number of treatment centers in the United States that deliver an FDA-approved psychedelic-assisted therapy is about 5,000 to 6,000 by the period end, per the named series.",
+    "criterion": "Resolved on the named data series only: the count of US sites certified to administer an FDA-approved psychedelic-assisted therapy (an MDMA or psilocybin drug product) under that product's REMS, per the REMS program's published certified-site list, summed across approved products with duplicate sites counted once. 'About 5,000 or 6,000' is a point estimate of 5,500 and takes the template's fixed band of plus or minus 20 percent: TRUE when the count at the deadline is 4,400 to 6,600, FALSE otherwise. If no such list has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored. Resolution source: the REMS certified-site lists in REMS@FDA.",
+    "resolution_source": {
+      "name": "REMS certified-site lists of FDA-approved psychedelic-assisted therapy products (FDA REMS@FDA database and the REMS program websites)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/rems/"
+    },
+    "base_rate_class": null,
+    "quantity": {
+      "metric": "Count of US treatment centers certified to deliver an FDA-approved psychedelic-assisted therapy",
+      "threshold": 5500,
+      "direction": "band",
+      "unit": "centers",
+      "series": "REMS certified-site lists of FDA-approved psychedelic-assisted therapy products (REMS@FDA)"
+    },
+    "readings": [
+      "'These centers' = centers delivering psychedelic-assisted therapy (MDMA, psilocybin) in the United States, the subject of the conversation.",
+      "'About 5,000 or 6,000' is read as a point estimate of 5,500 with the template's plus or minus 20 percent band (4,400 to 6,600)."
+    ]
+  },
+  {
+    "slug": "dea-mdma-rescheduling",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA): removal from Schedule I of the Controlled Substances Act",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA reschedules midomafetamine (MDMA) out of Schedule I",
+    "proposition": "The DEA issues a rule that moves midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, out of Schedule I of the Controlled Substances Act.",
+    "criterion": "TRUE on the publication date in the Federal Register of a DEA final rule (or interim final rule) that places midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, in Schedule II, III, IV or V, or removes it from control. A proposed rule, a scheduling recommendation from HHS or FDA, a state law, or a rescheduling of another substance does not count. Resolution source: the Federal Register. FALSE at the deadline when no such rule is published there.",
+    "resolution_source": {
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'DEA rescheduling' = a DEA rule that takes MDMA (or the approved MDMA product) out of Schedule I; the schedule it lands in is a separate event."
+    ]
+  },
+  {
+    "slug": "dea-mdma-schedule-three-or-four",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA): schedule assigned by the DEA rescheduling rule (Schedule III or IV)",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA places midomafetamine (MDMA) in Schedule III or Schedule IV",
+    "proposition": "The DEA rule that reschedules midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, places it in Schedule III or Schedule IV of the Controlled Substances Act.",
+    "criterion": "TRUE on the publication date in the Federal Register of the DEA final rule (or interim final rule) that reschedules midomafetamine (MDMA), or an FDA-approved midomafetamine drug product, when that rule places it in Schedule III or Schedule IV. FALSE on the publication date of a rescheduling rule that places it in Schedule II or Schedule V, and FALSE at the deadline when no rescheduling rule has been published. A proposed rule or an HHS/FDA scheduling recommendation does not count. Resolution source: the Federal Register.",
+    "resolution_source": {
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'Schedule three or schedule four' is 'A or B': one event.",
+      "'It' = MDMA (the MAPS product) once the DEA acts on it."
+    ]
+  }
+]

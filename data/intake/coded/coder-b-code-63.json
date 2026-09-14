@@ -1,0 +1,509 @@
+{
+ "coder": "B",
+ "run": "intake-2026-09-14",
+ "records": [
+  {
+   "id": "doblin-0216",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Not clear that FDA would ever approve' states uncertainty with no direction and no lexicon phrase."
+  },
+  {
+   "id": "doblin-0217",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:fda-approves-ibogaine-for-substance-use-disorder",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "Ibogaine for a substance use disorder",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of ibogaine for a substance use disorder",
+    "proposition": "The FDA approves an ibogaine drug product for a substance use disorder indication."
+   },
+   "condition": {
+    "ref": "new:maps-ibogaine-sud-research-fully-funded",
+    "template": "company_event",
+    "area": "company_market",
+    "asset": "MAPS 'Open Ibogaine' research program for substance use disorders: funding",
+    "entity": "MAPS",
+    "title": "MAPS ibogaine research for substance use disorders is fully funded by public money or donors",
+    "proposition": "MAPS announces that its ibogaine research program for substance use disorders is fully funded through FDA approval by public money or donors."
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "C",
+   "p_stated": null,
+   "note": "Conditional on MAPS funding; FDA decides. 'Could' (C). Affiliated (MAPS)."
+  },
+  {
+   "id": "doblin-0218",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "No named program, trial or threshold; 'not clear' gives no direction."
+  },
+  {
+   "id": "doblin-0219",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own conference plan; attendance is a hope, not a forecast."
+  },
+  {
+   "id": "doblin-0220-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:lykos-raises-funding-for-fda-agreed-mdma-path",
+    "template": "company_event",
+    "area": "company_market",
+    "asset": "Lykos Therapeutics (later Resilient Pharmaceuticals): financing for the FDA-agreed path to midomafetamine approval",
+    "entity": "Lykos Therapeutics",
+    "title": "Lykos raises funding for the FDA-agreed path to midomafetamine approval",
+    "proposition": "Lykos Therapeutics (or its successor) publicly announces a financing to fund the work agreed with the FDA for the midomafetamine (MDMA-assisted therapy) NDA."
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "Split -a: fundraising ('will'). 'Arrive at something' is too vague for its own event. Affiliated (Lykos founder)."
+  },
+  {
+   "id": "doblin-0220-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": "2027-10-31",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Split -b: approval 'in three years or so' = statement date plus 36 months. 'I think ... should be' (B). Affiliated."
+  },
+  {
+   "id": "doblin-0221",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Net zero trauma' names no metric or series; framed as a hope."
+  },
+  {
+   "id": "doblin-0222",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Fully busy for decades' has no observable event; own organization."
+  },
+  {
+   "id": "doblin-0223",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": "2027-12-27",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "B",
+   "p_stated": null,
+   "note": "'Three years from now' = statement date plus 36 months. 'Very likely' (B). Agreement step folded into approval. Affiliated."
+  },
+  {
+   "id": "doblin-0224",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "'Succeed' read as FDA approval ('Lykos is all about the FDA'). 'Will' is the strongest phrase (A). 'Eventually': undated. Affiliated."
+  },
+  {
+   "id": "doblin-0225",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Provide a blueprint' is not observable; own conference."
+  },
+  {
+   "id": "doblin-0226",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": {
+    "ref": "new:fda-reviews-mdma-nda-without-new-phase-3",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "Midomafetamine (MDMA-assisted therapy) NDA: FDA review path without an additional Phase 3 trial",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA agrees to review the midomafetamine NDA without an additional Phase 3 trial",
+    "proposition": "The FDA informs the sponsor of midomafetamine (MDMA-assisted therapy) for PTSD that the application can be resubmitted or reviewed without an additional Phase 3 trial."
+   },
+   "deadline": "2025-09-12",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "C",
+   "p_stated": null,
+   "note": "'In six months or so' = statement date plus 6 months. 'Could' (C). Scenario without a new Phase 3. Affiliated."
+  },
+  {
+   "id": "doblin-0227",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": {
+    "ref": "new:fda-reviews-mdma-nda-without-new-phase-3",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "Midomafetamine (MDMA-assisted therapy) NDA: FDA review path without an additional Phase 3 trial",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA agrees to review the midomafetamine NDA without an additional Phase 3 trial",
+    "proposition": "The FDA informs the sponsor of midomafetamine (MDMA-assisted therapy) for PTSD that the application can be resubmitted or reviewed without an additional Phase 3 trial."
+   },
+   "deadline": "2025-11-09",
+   "deadline_origin": "anchor",
+   "asserts": true,
+   "bin": "C",
+   "p_stated": null,
+   "note": "'Within six months' = statement date plus 6 months. 'Possible ... could' (C). Conditional on no new Phase 3. Affiliated."
+  },
+  {
+   "id": "doblin-0228",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": {
+    "ref": "new:fda-requires-new-phase-3-for-mdma-nda",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "Midomafetamine (MDMA-assisted therapy) NDA: FDA requirement of an additional Phase 3 trial",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA requires an additional Phase 3 trial for the midomafetamine NDA",
+    "proposition": "The FDA informs the sponsor of midomafetamine (MDMA-assisted therapy) for PTSD that an additional Phase 3 trial is required before approval."
+   },
+   "deadline": "2028-11-09",
+   "deadline_origin": "anchor",
+   "asserts": false,
+   "bin": "C",
+   "p_stated": null,
+   "note": "Denial: approval delayed 'three and a half years or so' = no approval by statement date plus 42 months. 'Could' (C). Affiliated."
+  },
+  {
+   "id": "doblin-0229",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:fda-approves-group-format-psychedelic-assisted-therapy",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "Psychedelic-assisted therapy delivered in a group format (any psychedelic drug product, any indication)",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of a psychedelic-assisted therapy delivered in a group format",
+    "proposition": "The FDA approves a psychedelic drug product whose labeling permits administration of the drug-assisted therapy in a group format."
+   },
+   "condition": null,
+   "deadline": "2029-05-09",
+   "deadline_origin": "anchor",
+   "asserts": false,
+   "bin": "B",
+   "p_stated": null,
+   "note": "Denial: 'four or five years, maybe longer' = no approval by statement date plus 4 years. 'Probably' (B). Affiliated."
+  },
+  {
+   "id": "doblin-0230-a",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "Split -a: MDMA-assisted therapy approval. 'Is going to ... will eventually' (A). 'Eventually': undated. Affiliated."
+  },
+  {
+   "id": "doblin-0230-b",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0003"
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "Split -b: 'then they'll approve psilocybin' (A); 'other things' too vague. Undated."
+  },
+  {
+   "id": "doblin-0231",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Unstoppable renaissance' names no event or threshold."
+  },
+  {
+   "id": "doblin-0232",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own MAPS project: duration and enrollment plan for the Israel study."
+  },
+  {
+   "id": "doblin-0233",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Accessibility growth is presupposed with no metric; MAPS leadership is an own commitment."
+  },
+  {
+   "id": "doblin-0234",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own MAPS trial and own CRO choice; conduct standard is not an outcome."
+  },
+  {
+   "id": "doblin-0235",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'More will die' has no countable set, series or date."
+  },
+  {
+   "id": "doblin-0236",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Continue negotiations' has no resolving event; the MAPS program is an own commitment."
+  },
+  {
+   "id": "doblin-0237",
+   "admit": false,
+   "reason_code": "CONTROL",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Own intent ('we will not stop'); the implied access outcome has no set or date."
+  },
+  {
+   "id": "doblin-0238",
+   "admit": false,
+   "reason_code": "NOT_FORECAST",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "Describes persistence after the CRL; approval is implied, not asserted."
+  },
+  {
+   "id": "doblin-0239",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "E-0001"
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "'Become a medicine' mapped to the existing MDMA approval entry (same asset and outcome type). 'Will' (A). 'Eventually': undated. Affiliated."
+  },
+  {
+   "id": "doblin-0240",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:us-health-plan-covers-mdma-assisted-therapy-for-ptsd",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "asset": "Midomafetamine (MDMA-assisted therapy) for PTSD: US health plan coverage",
+    "entity": "US health insurers",
+    "title": "A US health plan covers MDMA-assisted therapy for PTSD",
+    "proposition": "A US health plan publishes a coverage policy that covers midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder, drug and therapy sessions included."
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "'If the benefits are great enough' is stated as already met, so no condition. 'Will' (A). Undated. Affiliated."
+  },
+  {
+   "id": "doblin-0241",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:ukraine-approves-mdma-or-psilocybin",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "MDMA (midomafetamine) or psilocybin drug product: Ukraine marketing approval",
+    "entity": "Ukraine Ministry of Health (State Expert Center)",
+    "title": "Ukraine approves an MDMA or psilocybin drug product",
+    "proposition": "Ukraine's drug regulator (the Ministry of Health through the State Expert Center) approves an MDMA (midomafetamine) or psilocybin drug product for any indication."
+   },
+   "condition": {
+    "ref": "E-0066"
+   },
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "'MDMA or psilocybin' is one event. Condition: US approval, mapped to E-0066. 'They'll' (A). Undated."
+  },
+  {
+   "id": "doblin-0242",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'The big challenge' names no coverage decision, payer or date."
+  },
+  {
+   "id": "doblin-0243",
+   "admit": false,
+   "reason_code": "VAGUE",
+   "event": null,
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": null,
+   "bin": null,
+   "p_stated": null,
+   "note": "'Very helpful' is not an observable event."
+  },
+  {
+   "id": "doblin-0244",
+   "admit": true,
+   "reason_code": null,
+   "event": {
+    "ref": "new:fda-action-on-resubmitted-mdma-nda",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "Midomafetamine (MDMA-assisted therapy) for PTSD: FDA action on the resubmitted NDA",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA action (approval or complete response letter) on the resubmitted midomafetamine NDA",
+    "proposition": "The FDA issues an action (approval or complete response letter) on the resubmitted new drug application for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder."
+   },
+   "condition": null,
+   "deadline": null,
+   "deadline_origin": null,
+   "asserts": true,
+   "bin": "A",
+   "p_stated": null,
+   "note": "'New evaluation by the FDA' read as an FDA action on the resubmission, not approval. 'Will' (A). Undated. Affiliated."
+  }
+ ]
+}

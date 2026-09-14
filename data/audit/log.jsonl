@@ -45,3 +45,14 @@
 {"at":"2026-09-14T04:49:49.469Z","script":"import-sweep","forecaster":"doblin","file":"data/research/comparator-doblin-sweep2.json","added":209,"skipped":5,"paraphrase":0,"too_short":0,"total":244}
 {"at":"2026-09-14T04:49:50.005Z","script":"import-sweep","forecaster":"angermayer","file":"data/research/comparator-angermayer-sweep2.json","added":140,"skipped":0,"paraphrase":0,"too_short":0,"total":171}
 {"at":"2026-09-14T04:50:14.309Z","script":"build-coding-packets","to_code":349,"packets":9,"reject_sample":0,"rejects":0}
+{"at":"2026-09-14T05:10:56.984Z","script":"build-tiebreak-packet","statements":2502,"splits":47,"packets":5}
+{"at":"2026-09-14T05:12:38.109Z","script":"import-sweep","forecaster":"owen","file":"data/research/owen-offsite-sweep.json","added":71,"skipped":1,"paraphrase":3,"too_short":0,"total":2500}
+{"at":"2026-09-14T05:12:38.647Z","script":"import-sweep","forecaster":"angermayer","file":"data/research/comparator-angermayer-sweep2b.json","added":8,"skipped":0,"paraphrase":0,"too_short":0,"total":179}
+{"at":"2026-09-14T05:12:39.128Z","script":"build-coding-packets","to_code":76,"packets":2,"reject_sample":0,"rejects":0}
+{"at":"2026-09-14T05:21:55.527Z","script":"consolidate-registry prep","proposals":92,"distinct_titles":89,"existing":69}
+{"at":"2026-09-14T05:24:10.771Z","script":"build-tiebreak-packet","statements":2578,"splits":0,"packets":5}
+{"at":"2026-09-14T05:31:56.492Z","script":"consolidate-registry prep","proposals":92,"distinct_titles":87,"existing":69}
+{"at":"2026-09-14T05:41:44.471Z","script":"consolidate-registry assemble","groups":53,"in_scope":53,"out_of_area":0,"events":53,"mapped_refs":92,"inverted_refs":1}
+{"at":"2026-09-14T05:42:30.743Z","script":"consolidate-registry assemble","groups":53,"in_scope":53,"out_of_area":0,"events":53,"mapped_refs":92,"inverted_refs":1}
+{"at":"2026-09-14T05:42:42.448Z","script":"consolidate-registry assemble","groups":53,"in_scope":53,"out_of_area":0,"events":53,"mapped_refs":92,"inverted_refs":1}
+{"at":"2026-09-14T05:42:42.934Z","script":"consolidate-registry apply","added":53,"total":122,"mapped_refs":92,"out_of_area_refs":0}

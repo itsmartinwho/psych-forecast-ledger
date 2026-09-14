@@ -1,0 +1,236 @@
+[
+ {
+  "slug": "fda-mdma-nda-no-new-phase3",
+  "template": "rule_or_policy",
+  "area": "regulatory",
+  "asset": "Midomafetamine (MDMA-assisted therapy) for PTSD: FDA agreement on a review or resubmission path without an additional Phase 3 trial",
+  "entity": "US Food and Drug Administration (FDA)",
+  "title": "FDA agrees the midomafetamine NDA can proceed without an additional Phase 3 trial",
+  "proposition": "The FDA informs the sponsor of midomafetamine (MDMA-assisted therapy) for PTSD that the application can be resubmitted or reviewed without an additional Phase 3 trial.",
+  "criterion": "TRUE on the date the sponsor of the midomafetamine (MDMA-assisted therapy) NDA for PTSD publicly announces, or the FDA publishes, that the FDA has agreed the application can be resubmitted or reviewed without an additional Phase 3 trial (a Phase 4 or other post-approval requirement does not defeat the condition). FALSE when the FDA requires an additional Phase 3 trial before resubmission or approval, per the sponsor's announcement or the FDA's published correspondence, and FALSE at the deadline when no such agreement has been announced.",
+  "resolution_source": {
+   "name": "Sponsor press release; FDA published correspondence (Drugs@FDA)",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'They might require what's called a phase four study' names the alternative; the condition is met by any FDA path that does not require a new Phase 3 trial.",
+   "'Approved in six months or so without an additional Phase 3 study' and 'if the FDA says, we want another phase three study' are the two sides of one event; the requirement of a new Phase 3 trial is the FALSE side, not a separate event.",
+   "The corporate name of the sponsor may change; the event is written on the midomafetamine NDA, not on the company."
+  ]
+ },
+ {
+  "slug": "atai-four-phase2-readouts-12-months",
+  "template": "quantity_threshold",
+  "area": "clinical_trial",
+  "asset": "atai Life Sciences Phase 2 topline readouts announced between 20 March 2025 and 20 March 2026 (count)",
+  "entity": "atai Life Sciences",
+  "title": "atai announces four Phase 2 topline readouts within 12 months",
+  "proposition": "atai Life Sciences announces topline results of at least four Phase 2 trials between 20 March 2025 and 20 March 2026, per atai press releases.",
+  "criterion": "Resolved on the named data series only: atai Life Sciences press releases (SEC filings as the secondary source). TRUE on the date of the fourth press release announcing topline results of a Phase 2 trial of a programme atai sponsors, directly or through a company it controls or partners with (for example Beckley Psytech or Recognify Life Sciences), counted over announcements dated 20 March 2025 to 20 March 2026 inclusive. Each trial counts once; Phase 1 readouts, interim analyses and open-label extension reports do not count. FALSE at the window end when fewer than four such topline announcements have appeared. If no such release series has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+  "resolution_source": {
+   "name": "atai Life Sciences press releases; SEC EDGAR filings as a secondary source",
+   "url": "https://www.sec.gov/edgar/search/"
+  },
+  "base_rate_class": null,
+  "quantity": {
+   "metric": "Count of atai Phase 2 topline readouts announced from 20 March 2025 to 20 March 2026",
+   "threshold": 4,
+   "direction": ">=",
+   "unit": "topline readouts (count)",
+   "series": "atai Life Sciences press releases"
+  },
+  "readings": [
+   "'Over the next 12 months, atai anticipates FOUR Phase 2 readouts' is read as a count of at least four topline readouts in the 12 months from the statement date, 20 March 2025.",
+   "'Readout' = a sponsor topline announcement of a Phase 2 trial result; the forecaster's words do not require the results to be positive.",
+   "'Any one of these milestones could significantly enhance atai's valuation' is a consequence clause, not an observable condition; it is not coded."
+  ]
+ },
+ {
+  "slug": "fda-group-format-psychedelic-approval",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "Psychedelic drug product (MDMA or another psychedelic) with FDA-approved labeling that permits group-format dosing sessions",
+  "entity": "FDA",
+  "title": "FDA approves a psychedelic drug product with labeling for group-format dosing",
+  "proposition": "The FDA approves a psychedelic drug product whose approved labeling or REMS permits dosing sessions in which more than one patient is treated together.",
+  "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) is dated for a psychedelic drug product (midomafetamine, psilocybin, LSD, ibogaine or another psychedelic or entactogen) whose approved prescribing information or REMS permits administration of the drug in a session with more than one patient present as a treated group. An approval whose labeling requires individual (one-patient) dosing sessions, a complete response letter, a designation or a filing acceptance does not count. FALSE at the deadline when no such approval appears in Drugs@FDA.",
+  "resolution_source": {
+   "name": "Drugs@FDA",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Group therapy' reads as a group-format dosing session permitted by the approved labeling or REMS; the forecaster names no drug, so any psychedelic drug product counts.",
+   "The forecaster gives a timing estimate ('four or five years ... maybe longer'); the item is scored as a denial of approval within the lower bound (four years)."
+  ]
+ },
+ {
+  "slug": "atai-share-price-double-2025-05-16",
+  "template": "quantity_threshold",
+  "area": "company_market",
+  "asset": "atai Life Sciences common stock (Nasdaq: ATAI, or its successor listing): closing share price relative to the 2025-05-16 close",
+  "entity": "atai Life Sciences",
+  "title": "atai share price at or above twice its 16 May 2025 close",
+  "proposition": "The Nasdaq closing price of atai Life Sciences (ATAI, or its successor listing) is at or above two times its closing price on 16 May 2025, per Nasdaq closing prices.",
+  "criterion": "Resolved on the named data series only: the Nasdaq daily closing price of atai Life Sciences common stock (ATAI, or its successor listing), adjusted for any split or reverse split. The reference price is the ATAI Nasdaq close on 2025-05-16. TRUE on the first trading day after the statement date on which the closing price is at or above 2.0 times the reference price. The threshold is in the forecaster's words ('a multiple of where it trades today', read at its lower bound of two times), so it resolves as binary at 2.0 with no band. FALSE at the window end when no close has reached 2.0 times the reference price. If the shares stop trading with no successor listing and no price series has published 12 months after the window end, the event is unresolvable. Realized values are stored, not scored.",
+  "resolution_source": {
+   "name": "Nasdaq daily closing prices for ATAI (or successor listing)",
+   "url": "https://www.nasdaq.com/market-activity/stocks/atai"
+  },
+  "base_rate_class": null,
+  "quantity": {
+   "metric": "Ratio of the ATAI Nasdaq closing price to the ATAI Nasdaq closing price on 2025-05-16 (split-adjusted)",
+   "threshold": 2,
+   "direction": ">=",
+   "unit": "ratio (times the 2025-05-16 close)",
+   "series": "Nasdaq daily closing price of ATAI (or successor listing)"
+  },
+  "readings": [
+   "'A multiple of where it trades today' is read at its lower bound: a closing price at least two times the 2025-05-16 close, the smallest multiple.",
+   "'Where it trades today' = the Nasdaq closing price on the statement date, 2025-05-16, a fact fixed on that date.",
+   "'It of course always depends on the broader macro environment for biotech' is a hedge, not an observable condition; it is not coded as a condition."
+  ]
+ },
+ {
+  "slug": "atai-four-phase2-trials-all-positive",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "The four atai Life Sciences Phase 2 trials pending at 16 May 2025: BPL-003 Phase 2b in treatment-resistant depression, RL-007 Phase 2b in cognitive impairment associated with schizophrenia, VLS-01 Phase 2 in treatment-resistant depression, EMP-01 Phase 2a in social anxiety disorder",
+  "entity": "atai Life Sciences (sponsor, directly or through Beckley Psytech and Recognify Life Sciences)",
+  "title": "All four pending atai Phase 2 trials meet their primary endpoints",
+  "proposition": "Each of the four atai Life Sciences Phase 2 trials pending at 16 May 2025 (BPL-003 in TRD, RL-007 in CIAS, VLS-01 in TRD, EMP-01 in social anxiety disorder) reports its prespecified primary endpoint met.",
+  "criterion": "TRUE on the date of the last of four sponsor topline press releases (atai Life Sciences or its successor, Beckley Psytech or Recognify Life Sciences), ClinicalTrials.gov results postings or peer-reviewed publications that each report the prespecified primary endpoint met with statistical significance, as reported by the sponsor, for the four trials named in the asset: BPL-003 Phase 2b in treatment-resistant depression, RL-007 Phase 2b in cognitive impairment associated with schizophrenia, VLS-01 Phase 2 in treatment-resistant depression and EMP-01 Phase 2a in social anxiety disorder. FALSE on the date the sponsor first reports that any one of the four did not meet its primary endpoint, and FALSE at the window end if any of the four has not reported a primary endpoint result. Open-label, interim and pooled analyses do not count.",
+  "resolution_source": {
+   "name": "atai Life Sciences (or successor company) topline press releases; ClinicalTrials.gov results as a secondary source",
+   "url": "https://clinicaltrials.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'All 4 phase 2 trials' are the four Phase 2 readouts the forecaster listed in his own 20 February 2025 and 20 March 2025 posts (BPL-003, RL-007, VLS-01, EMP-01); no trial outside that list is added.",
+   "'Successful' = the prespecified primary endpoint met with statistical significance, as reported by the sponsor.",
+   "The sponsor cannot decide a trial's result, so the condition is outside the forecaster's control although atai is his own company; the same treatment as the MAPS Phase 3 condition in doblin-0007."
+  ]
+ },
+ {
+  "slug": "mental-health-largest-therapeutic-area-market",
+  "template": "quantity_threshold",
+  "area": "company_market",
+  "asset": "Global annual sales of mental health treatments, ranked against every other therapeutic area (oncology, cardiology and the rest)",
+  "entity": "Global pharmaceutical market (mental health therapeutic area)",
+  "title": "Mental health becomes the largest therapeutic-area market in healthcare",
+  "proposition": "Global annual sales of mental health treatments exceed those of every other therapeutic area, including oncology and cardiology, per a named published therapeutic-area market series.",
+  "criterion": "Resolved on the named data series only: the IQVIA Institute's global medicine spending by therapeutic area (Global Use of Medicines report). TRUE for the first reporting year in which the series ranks the mental health therapeutic area first by global spending, above oncology, cardiovascular and every other area. The rank is read from the series as published; when the series publishes no separate mental health line, its nearest mental health category is used and the reading is logged at intake. FALSE at the deadline when no published year ranks mental health first. If the series has not published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+  "resolution_source": {
+   "name": "IQVIA Institute, Global Use of Medicines (spending by therapeutic area)",
+   "url": "https://www.iqvia.com/insights/the-iqvia-institute"
+  },
+  "base_rate_class": null,
+  "quantity": {
+   "metric": "Rank of the mental health therapeutic area by global annual medicine spending",
+   "threshold": 1,
+   "direction": "<=",
+   "unit": "rank among therapeutic areas",
+   "series": "IQVIA Institute, Global Use of Medicines: global spending by therapeutic area"
+  },
+  "readings": [
+   "'The largest market in healthcare' is read as the largest therapeutic-area market for medicines, the comparison the forecaster himself makes ('surpassing oncology and cardiology'), not all healthcare spending.",
+   "'Within 10 years' fixes the deadline on the item, not the event.",
+   "A rank of 1 in the named series is the threshold; no band applies, because the claim is a rank, not a point number."
+  ]
+ },
+ {
+  "slug": "bpl-003-annual-sales-1bn",
+  "template": "quantity_threshold",
+  "area": "company_market",
+  "asset": "BPL-003 (intranasal 5-MeO-DMT, mebufotenin): annual worldwide net product sales",
+  "entity": "atai Life Sciences (atai Beckley)",
+  "title": "BPL-003 annual sales at or above US$1 billion",
+  "proposition": "Annual net sales of BPL-003 (intranasal 5-MeO-DMT) are at or above US$1 billion in a calendar year, per the sponsor's reported financial results.",
+  "criterion": "Resolved on the named data series only: worldwide net product sales of BPL-003 (intranasal 5-MeO-DMT, mebufotenin) reported by its sponsor, licensee or successor in audited annual financial statements filed with the SEC. TRUE for the first reported financial year in which those net sales are at or above US$1,000,000,000. The threshold is the blockbuster number the word 'blockbuster' names, so it resolves as binary at US$1 billion with no band. Milestone payments, upfront licence fees, collaboration revenue and non-BPL-003 product sales do not count. FALSE at the deadline when no reported year reaches the threshold. If no such sales figure has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+  "resolution_source": {
+   "name": "Sponsor annual report filed with the SEC (EDGAR); sponsor results press release as a secondary source",
+   "url": "https://www.sec.gov/edgar/search/"
+  },
+  "base_rate_class": null,
+  "quantity": {
+   "metric": "BPL-003 worldwide annual net product sales",
+   "threshold": 1000000000,
+   "direction": ">=",
+   "unit": "USD per year",
+   "series": "Sponsor-reported annual net product sales in SEC filings"
+  },
+  "readings": [
+   "'Blockbuster drug' is read at the standard industry definition: annual net sales at or above US$1 billion.",
+   "'Has the potential to be' is a hedge on likelihood, not a separate condition; the event is the sales threshold itself.",
+   "The event is written on the asset BPL-003, so a change of sponsor name, a licence or an acquisition does not void it."
+  ]
+ },
+ {
+  "slug": "bpl-003-two-dose-induction-larger-effect",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "BPL-003 (intranasal 5-MeO-DMT) two-dose induction regimen in treatment-resistant depression",
+  "entity": "atai Life Sciences / Beckley Psytech (sponsor)",
+  "title": "BPL-003 two-dose induction reports a larger antidepressant effect than the single-dose Phase 2b result",
+  "proposition": "The sponsor reports data in which a two-dose induction regimen of BPL-003 produces a larger reduction in depression score (MADRS) than the single-dose Phase 2b result.",
+  "criterion": "TRUE on the date of the first sponsor topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports a two-dose induction regimen of BPL-003 (intranasal 5-MeO-DMT) in treatment-resistant depression with a larger point-estimate reduction from baseline in the MADRS total score, at the primary timepoint, than the estimate the sponsor reported for the corresponding single active dose in the BPL-003 Phase 2b trial the forecaster describes. The comparison is on the reported point estimates; statistical significance of the difference is not required. FALSE on the date the sponsor first reports a two-dose induction estimate that is not larger, and FALSE at the deadline when no two-dose induction data have been reported.",
+  "resolution_source": {
+   "name": "Sponsor topline press release; ClinicalTrials.gov results or peer-reviewed publication as a secondary source",
+   "url": "https://clinicaltrials.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Even stronger results' is read as a larger reduction in the MADRS total score, the primary depression measure of the Phase 2b trial the forecaster summarises in the same post.",
+   "'To be proven with further data' names the resolution event: the sponsor must report two-dose induction data, not merely plan them.",
+   "'Might deliver' is a hedge on likelihood, not a condition."
+  ]
+ },
+ {
+  "slug": "bpl-003-fda-approval-single-phase3",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "BPL-003 (intranasal 5-MeO-DMT, mebufotenin): FDA approval supported by a single Phase 3 efficacy trial",
+  "entity": "US Food and Drug Administration (FDA)",
+  "title": "FDA approves BPL-003 (5-MeO-DMT) on the basis of one Phase 3 trial",
+  "proposition": "The FDA approves BPL-003 (intranasal 5-MeO-DMT) on an application whose efficacy evidence contains only one Phase 3 trial.",
+  "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) for a new drug application for BPL-003 (intranasal 5-MeO-DMT, mebufotenin), for any indication and under any sponsor name, is dated, when the approval letter, the FDA clinical review or the approved labeling (clinical studies section) lists exactly one adequate and well-controlled Phase 3 efficacy trial as the basis of efficacy; Phase 2 trials, open-label extensions and safety studies are not Phase 3 efficacy trials. An approval whose efficacy basis lists two or more Phase 3 efficacy trials resolves FALSE. A complete response letter, an FDA meeting agreement on a single-trial path, a designation or a filing acceptance is not an approval. FALSE at the deadline when no such approval appears in Drugs@FDA.",
+  "resolution_source": {
+   "name": "Drugs@FDA (approval letter, review documents and labeling); sponsor press release as a secondary source",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Approval for 5-MeO-DMT with just one phase three trial' = an FDA approval of BPL-003 whose efficacy basis is a single Phase 3 trial; the number of trials is read from the approval documents, not from the sponsor's plan.",
+   "No indication is named in the words; any indication counts. The Phase 2b programme referred to was in treatment-resistant depression.",
+   "Base rate class is fixed per item from the asset's stage on each statement date; the event-level class is null.",
+   "'I can actually see ... as one potential possibility' is a hedge on likelihood, not a condition."
+  ]
+ },
+ {
+  "slug": "bpl-003-open-label-data-reported",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "BPL-003 (intranasal 5-MeO-DMT) Phase 2b programme: open-label (extension) data",
+  "entity": "atai Life Sciences / Beckley Psytech (sponsor)",
+  "title": "BPL-003 (5-MeO-DMT) open-label data are reported",
+  "proposition": "The sponsor reports open-label (extension) data for BPL-003 from its Phase 2b programme in treatment-resistant depression.",
+  "criterion": "TRUE on the date of the first sponsor press release, investor presentation, conference presentation, ClinicalTrials.gov results posting or peer-reviewed publication that reports outcome data from open-label dosing of BPL-003 (intranasal 5-MeO-DMT), including an open-label extension of the Phase 2b programme in treatment-resistant depression. At least one quantitative open-label outcome (for example a MADRS change, a response rate or a remission rate) must be reported. A statement that open-label data exist or are coming, a schedule or guidance with no data, and a safety-only listing do not count. FALSE at the deadline when no such report has appeared.",
+  "resolution_source": {
+   "name": "Sponsor press release or investor presentation; ClinicalTrials.gov results as a secondary source",
+   "url": "https://clinicaltrials.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'We're going to have open label data for 5-MeO-DMT' and 'More Open Label Extension (OLE) data coming soon' are one event: the reporting of open-label BPL-003 data.",
+   "The words promise data, not a result; the event is the report itself, whatever the data show.",
+   "'Soon' and 'this year' fix deadlines on the items, not on the event."
+  ]
+ }
+]
