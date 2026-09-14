@@ -1,0 +1,368 @@
+{
+ "resolver": "R1",
+ "run": "resolve-2026-09-13",
+ "outcomes": [
+  {
+   "event_id": "E-0025",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.justice.gov/opa/pr/digital-health-company-and-medical-practice-indicted-100m-adderall-distribution-scheme",
+     "title": "Digital Health Company and Medical Practice Indicted in $100M Adderall Distribution Scheme",
+     "publisher": "US Department of Justice, Office of Public Affairs",
+     "date": "2025-12-17",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.justice.gov/opa/pr/founderceo-and-clinical-president-digital-health-company-sentenced-8-years-90-million-scheme",
+     "title": "Founder/CEO and Clinical President of Digital Health Company Sentenced to 72 Months and 24 Months, Respectively, for $90 Million Scheme to Distribute over 37 Million Pills of Adderall",
+     "publisher": "US Department of Justice, Office of Public Affairs",
+     "date": "2026-07-07",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.justice.gov/opa/pr/national-health-care-fraud-takedown-results-455-defendants-charged-connection-over-65",
+     "title": "National Health Care Fraud Takedown Results in 455 Defendants Charged in Connection with Over $6.5 Billion in Alleged Fraud",
+     "publisher": "US Department of Justice, Office of Public Affairs",
+     "date": "2026-06-23",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://oig.hhs.gov/fraud/enforcement/2026-national-health-care-fraud-takedown/",
+     "title": "2026 National Health Care Fraud Takedown",
+     "publisher": "HHS Office of Inspector General",
+     "date": "2026-06-23",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.mintz.com/insights-center/viewpoints/2146/2026-01-08-telehealth-update-telehealth-flexibilities-convictions",
+     "title": "Telehealth Update: Telehealth Flexibilities, Convictions and Indictment, and 2026 Outlook",
+     "publisher": "Mintz",
+     "date": "2026-01-08",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.jdsupra.com/topics/telemedicine/healthcare-fraud/telehealth/",
+     "title": "Telemedicine, Healthcare Fraud and Telehealth: News and Analysis",
+     "publisher": "JD Supra",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.healthcarelawinsights.com/category/telehealth/",
+     "title": "Telehealth category archive",
+     "publisher": "Healthcare Law Insights (Husch Blackwell)",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "Checked DOJ Office of Public Affairs releases, the June 2026 national takedown materials and law-firm roundups through 2026-09-13. The only DOJ criminal prosecution of a telehealth or digital health company for controlled-substance distribution through its platform is still the Done Global case: executives charged 2024-06-13, convicted 2025-11-19, sentenced 2026-07-07. The 2025-12-17 indictment of Done Global Inc. and Mindful Mental Wellness P.A. is the same case (Done set up MMW to keep filling its prescriptions), so the criterion excludes it. The 2026 takedown (455 defendants) names no telehealth-company controlled-substance case; its Aptihealth matter is a civil billing settlement. Cerebral (subpoena, civil settlements) and Truepill (DEA administrative action) do not qualify. DOJ and DEA site search returned 403; coverage rests on OPA releases, takedown pages and roundups."
+  },
+  {
+   "event_id": "E-0026",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=017442",
+     "title": "Drugs@FDA: MINIPRESS (prazosin hydrochloride) NDA 017442, approval history and supplements",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/017442s041lbl.pdf",
+     "title": "Minipress capsules (prazosin hydrochloride) for oral use: FDA-approved prescribing information, NDA 017442 s041",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4f55f4db-dab3-4e50-9f71-5595fd3ccc12",
+     "title": "PRAZOSIN HYDROCHLORIDE capsule [Major Pharmaceuticals], prescribing information Rev. 05/25",
+     "publisher": "NLM DailyMed",
+     "date": "2026-09-10",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?drug_name=prazosin+hydrochloride&pagesize=5",
+     "title": "DailyMed SPL listing for prazosin hydrochloride (current labels, September 2026)",
+     "publisher": "NLM DailyMed",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "Drugs@FDA lists NDA 017442 (Minipress, Pfizer) with its most recent labeling supplements dated 2013-11-04 and 2015-02-27 and no efficacy supplement that adds an indication. The FDA label (s041) and the current generic label (Major Pharmaceuticals, Rev. 05/25, on DailyMed in September 2026) state one indication: treatment of hypertension. No PTSD, nightmare or sleep-disturbance indication appears on any prazosin label as of 2026-09-13; use for PTSD nightmares remains off-label, and guideline or compendium use does not count. The Drugs@FDA free-text search cannot be run by GET, so the NDA overview page and the DailyMed listing were checked instead."
+  },
+  {
+   "event_id": "E-0027",
+   "state": "occurred",
+   "date": "2024-08-09",
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
+     "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
+     "publisher": "Lykos Therapeutics via PR Newswire",
+     "date": "2024-08-09",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
+     "title": "Complete Response letter, NDA 215455, midomafetamine capsules (Lykos Therapeutics), published in the FDA CRL database",
+     "publisher": "US Food and Drug Administration (openFDA)",
+     "date": "2024-08-08",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://maps.org/2025/09/04/fda-public-release-of-crl/",
+     "title": "MAPS Statement on FDA's Public Release of Complete Response Letter for MDMA-assisted Therapy",
+     "publisher": "MAPS",
+     "date": "2025-09-04",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://psychedelicalpha.com/news/breaking-fda-publishes-lykos-therapeutics-mdma-complete-response-letter-crl/",
+     "title": "BREAKING: FDA Publishes Lykos Therapeutics' MDMA Complete Response Letter (CRL)",
+     "publisher": "Psychedelic Alpha",
+     "date": "2025-09-04",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "The sponsor disclosed the grounds first: on 2024-08-09 Lykos announced the CRL and said FDA 'requested that Lykos conduct an additional Phase 3 trial to further study the safety and efficacy of midomafetamine', a request for additional safety data together with other deficiencies, which satisfies the criterion on that date. The letter itself (dated 2024-08-08, published by FDA on 2025-09-04) confirms the safety-data grounds: the application did not 'establish the safety' of the product; unreported adverse events at two or more sites raised 'substantial concerns about the reliability of the safety data'; phase 3 laboratory data (liver analytes, electrolytes) were absent and the cardiac safety assessment was incomplete; FDA asked for a new trial to 'adequately characterize the safety'. No PDUFA extension was involved; FDA acted on the NDA that was under review in June 2024."
+  },
+  {
+   "event_id": "E-0028",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-13",
+   "realized_value": 2759233137,
+   "evidence": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000119312526344720/atai-20260630.htm",
+     "title": "AtaiBeckley Inc. Form 10-Q for the quarter ended June 30, 2026 (cover page: 370,864,669 shares outstanding as of August 7, 2026)",
+     "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+     "date": "2026-08-07",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://finance.yahoo.com/quote/ATAI/history/",
+     "title": "AtaiBeckley Inc. (ATAI) stock historical prices and data",
+     "publisher": "Yahoo Finance",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://stockanalysis.com/stocks/atai/history/",
+     "title": "AtaiBeckley (ATAI) stock price history",
+     "publisher": "Stock Analysis",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://stockanalysis.com/stocks/atai/market-cap/",
+     "title": "AtaiBeckley (ATAI) market cap and net worth history",
+     "publisher": "Stock Analysis",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000114036126028604/ef20078103_ex99-1.htm",
+     "title": "Lilly to acquire AtaiBeckley to advance therapies for treatment-resistant depression and other mental health conditions (Form 8-K Exhibit 99.1)",
+     "publisher": "AtaiBeckley Inc. / Eli Lilly via SEC EDGAR",
+     "date": "2026-07-16",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.investing.com/news/company-news/lilly-completes-acquisition-of-ataibeckley-for-mental-health-drugs-93CH-4897978",
+     "title": "Lilly completes acquisition of AtaiBeckley for mental health drugs",
+     "publisher": "Investing.com",
+     "date": "2026-09-11",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "Series: Nasdaq close multiplied by the share count on the latest 10-Q cover (370,864,669 as of 2026-08-07). The highest close in the final months of trading was $7.44 on 2026-08-25, giving $2.76B (stored as realized_value); the last closes before Lilly's $6.75-cash-plus-CVR takeover closed on 2026-09-11 were $7.35 (2026-09-10 and 09-11), giving $2.73B. Earlier history is far lower: IPO-day cap $2.29B on 2021-06-18 and year-end caps of $1.22B (2021), $0.44B (2022), $0.23B (2023), $0.22B (2024) and $1.49B (2025). No close ever reached $10B. Closing prices come from Yahoo Finance and Stock Analysis, which both report Nasdaq closes (nasdaq.com timed out). ATAI stopped trading after the acquisition with no successor listing, so no later close can change this result."
+  },
+  {
+   "event_id": "E-0029",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "title": "Novel Drug Approvals for 2026",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000119312526344720/atai-20260630.htm",
+     "title": "AtaiBeckley Inc. Form 10-Q for the quarter ended June 30, 2026 (clinical-stage company; pending Lilly merger)",
+     "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+     "date": "2026-08-07",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000114036126028604/ef20078103_ex99-1.htm",
+     "title": "Lilly to acquire AtaiBeckley (Form 8-K Exhibit 99.1): BPL-003 in Phase 3, VLS-01 in Phase 2b, CVR contingent on future US approval",
+     "publisher": "AtaiBeckley Inc. / Eli Lilly via SEC EDGAR",
+     "date": "2026-07-16",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.investing.com/news/company-news/lilly-completes-acquisition-of-ataibeckley-for-mental-health-drugs-93CH-4897978",
+     "title": "Lilly completes acquisition of AtaiBeckley for mental health drugs",
+     "publisher": "Investing.com",
+     "date": "2026-09-11",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+     "title": "Compass Pathways second quarter 2026 results press release (Form 8-K exhibit): COMP360 NDA rolling submission underway",
+     "publisher": "COMPASS Pathways plc via SEC EDGAR",
+     "date": "2026-08-05",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "No FDA, EMA, MHRA, TGA or other approval exists for any psychedelic developed, owned or partnered by atai Life Sciences or its successor AtaiBeckley (a Lilly subsidiary since 2026-09-11). FDA's 2026 novel approvals list holds no psychedelic or entactogen; the company's Q2 2026 10-Q calls itself clinical-stage; Lilly's July 2026 deal terms place BPL-003 (mebufotenin, 5-MeO-DMT) in Phase 3 and VLS-01 (DMT) in Phase 2b, with CVR payments contingent on future US approval. COMP360 (Compass Pathways, in which atai held only a shrinking equity stake, not a licence or partnership) is still in rolling NDA submission with modules due in Q4 2026 and no approval. The Drugs@FDA search form cannot be queried by GET, so the FDA approvals list was used instead."
+  },
+  {
+   "event_id": "E-0030",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
+     "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
+     "publisher": "Lykos Therapeutics via PR Newswire",
+     "date": "2024-08-09",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.biospace.com/fda/lykos-announces-productive-meeting-with-fda-regarding-rejected-mdma-drug",
+     "title": "Lykos Announces 'Productive' Meeting With FDA Regarding Rejected MDMA Drug",
+     "publisher": "BioSpace",
+     "date": "2024-10-21",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://psychedelicalpha.com/news/lykos-plots-fda-appeal-reeling-from-crl-and-journal-article-retractions-mdma-developer-hopes-to-change-your-mind",
+     "title": "Lykos Plots FDA Appeal: Reeling from CRL and Journal Article Retractions, MDMA Developer Hopes to Change Your Mind",
+     "publisher": "Psychedelic Alpha",
+     "date": "2024-08-13",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://psychedelicalpha.com/news/two-years-after-rejection-resilient-quietly-refiles-mdma-for-ptsd-application/",
+     "title": "Two Years After Rejection, Resilient Quietly Refiles MDMA for PTSD Application",
+     "publisher": "Psychedelic Alpha",
+     "date": "2026-08-09",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+     "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+     "publisher": "MAPS",
+     "date": "2026-08-10",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://healingmaps.com/mdma-ptsd-nda-resubmitted-fda-resilient/",
+     "title": "MAPS-Funded MDMA Therapy for PTSD Is Back at the FDA, Without a New Phase 3 Trial",
+     "publisher": "Healing Maps",
+     "date": "2026-08-11",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://doubleblindmag.com/mdma-and-the-fda-take-two/",
+     "title": "MDMA and the FDA, Take Two",
+     "publisher": "DoubleBlind",
+     "date": "2026-08-24",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "Lykos said on 2024-08-09 it would seek a meeting to ask FDA to reconsider the CRL. After that Type A meeting Lykos reported (2024-10-21) a 'path forward' that still included an additional Phase 3 trial plus a third-party review of prior data, so FDA did not withdraw its request. No formal dispute resolution decision or reconsideration grant has been published by FDA, Lykos or its successor Resilient Pharmaceuticals through 2026-09-13. Resilient's August 2026 resubmission without a new Phase 3 relies on third-party VA data, a 32-subject cardiac safety study and an audit; reporting shows no FDA statement waiving the Phase 3 request, no acceptance-for-review notice and no goal date, and a resubmission accepted for review would not count in any case. The Lykos and Resilient websites could not be read (redirect loop and empty page)."
+  },
+  {
+   "event_id": "E-0031",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1520697/000119312526321076/achc-20260630.htm",
+     "title": "Acadia Healthcare Company, Inc. Form 10-Q for the quarter ended June 30, 2026 (Note 8, Commitments and Contingencies: Government Investigations)",
+     "publisher": "Acadia Healthcare via SEC EDGAR",
+     "date": "2026-07-28",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1520697/000095017024119044/achc-20240930.htm",
+     "title": "Acadia Healthcare Company, Inc. Form 10-Q for the quarter ended September 30, 2024 (grand jury subpoenas, SDNY request, SEC subpoena)",
+     "publisher": "Acadia Healthcare via SEC EDGAR",
+     "date": "2024-10-30",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.courtlistener.com/api/rest/v4/search/?q=caseName%3A%22United%20States%22%20AND%20Acadia&type=r&order_by=dateFiled%20asc&filed_after=2024-09-04",
+     "title": "CourtListener RECAP search: dockets captioned 'United States' mentioning Acadia, filed after 2024-09-04",
+     "publisher": "Free Law Project (CourtListener)",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.stocktitan.net/sec-filings/ACHC/10-q-acadia-healthcare-company-inc-quarterly-earnings-report-3c2ba2f243d3.html",
+     "title": "Acadia Healthcare Q2 2026 quarterly report (10-Q) rendering",
+     "publisher": "Stock Titan",
+     "date": "2026-07-28",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "No criminal indictment, information or complaint naming Acadia Healthcare, a subsidiary or any current or former employee over involuntary holds was found through 2026-09-13. Acadia's 10-Q filed 2026-07-28 reports investigations only: DOJ Criminal Division grand jury subpoenas from the W.D. Mo. (first issued in September 2024 to the company and to Lakeland Hospital Acquisition LLC, withdrawn in October 2024, re-issued in December 2024), a withdrawn SDNY request, SEC subpoenas, congressional requests and an internal investigation with 'no findings or conclusions'. RECAP shows no United States v. Acadia docket after 2024-09-04. DOJ's Acadia matters (the $19.85M September 2024 False Claims Act settlement and state Medicaid settlements) are civil and do not count. Justice.gov and DEA search pages returned 403, so DOJ coverage rests on the company's SEC disclosures, RECAP and news."
+  },
+  {
+   "event_id": "E-0032",
+   "state": "occurred",
+   "date": "2024-10-16",
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.courtlistener.com/api/rest/v4/search/?q=%22Acadia%20Healthcare%22&type=r&order_by=dateFiled%20asc&filed_after=2024-09-04",
+     "title": "CourtListener RECAP search: 'Acadia Healthcare' dockets filed after 2024-09-04 (Kachrodia v. Acadia Healthcare Company, Inc., M.D. Tenn. 3:24-cv-01238, filed 2024-10-16)",
+     "publisher": "Free Law Project (CourtListener)",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1520697/000095017024119044/achc-20240930.htm",
+     "title": "Acadia Healthcare Company, Inc. Form 10-Q for the quarter ended September 30, 2024 (discloses Kachrodia complaint filed 2024-10-16 and Dyar complaint filed 2024-10-29)",
+     "publisher": "Acadia Healthcare via SEC EDGAR",
+     "date": "2024-10-30",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.globenewswire.com/news-release/2024/10/28/2970416/0/en/Acadia-Healthcare-ACHC-Faces-Class-Action-Lawsuit-Over-Patient-Detention-Practices-Hagens-Berman.html",
+     "title": "Acadia Healthcare (ACHC) Faces Class Action Lawsuit Over Patient Detention Practices",
+     "publisher": "Hagens Berman via GlobeNewswire",
+     "date": "2024-10-28",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.pacermonitor.com/public/case/55475356/Kachrodia_v_Acadia_Healthcare_Company,_Inc_et_al",
+     "title": "Kachrodia v. Acadia Healthcare Company, Inc. et al (3:24-cv-01238), Tennessee Middle District Court",
+     "publisher": "PacerMonitor",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1520697/000119312526321076/achc-20260630.htm",
+     "title": "Acadia Healthcare Company, Inc. Form 10-Q for the quarter ended June 30, 2026 (consolidated Kachrodia complaint; motion to dismiss denied 2026-07-24)",
+     "publisher": "Acadia Healthcare via SEC EDGAR",
+     "date": "2026-07-28",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "First qualifying filing found: the securities class action Kachrodia v. Acadia Healthcare Company, Inc., M.D. Tenn. No. 3:24-cv-01238, docketed 2024-10-16 (amended 2024-10-21; Dyar followed 2024-10-29; consolidated complaint 2025-07-10; motion to dismiss denied 2026-07-24). The complaint alleges that Acadia detained 'patients against their will, even when such detention was not medically necessary' and misled investors about it, the conduct described in the NYT investigation, so a shareholder class action counts under the criterion. Acadia first disclosed it in the 10-Q filed 2024-10-30. The only earlier post-2024-09-04 federal suit naming Acadia in RECAP (Jenkins, W.D. Tenn., 2024-09-18) is an overtime case. State-court patient suits filed between 2024-09-04 and 2024-10-16 could not be excluded (no state docket search), so the date could move earlier if one surfaces."
+  }
+ ]
+}
