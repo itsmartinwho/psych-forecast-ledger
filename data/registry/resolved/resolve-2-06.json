@@ -1,0 +1,254 @@
+{
+ "resolver": "R2",
+ "run": "resolve-2-2026-09-14",
+ "outcomes": [
+  {
+   "event_id": "E-0110",
+   "state": "occurred",
+   "date": "2026-07-16",
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000114036126028604/ef20078103_ex99-1.htm",
+     "title": "Lilly to acquire AtaiBeckley to advance therapies for treatment-resistant depression and other mental health conditions (Form 8-K, Exhibit 99.1)",
+     "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+     "date": "2026-07-16",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2081043/000119312526344720/atai-20260630.htm",
+     "title": "AtaiBeckley Inc. Form 10-Q for the quarter ended June 30, 2026 (subsequent events: Agreement and Plan of Merger with Eli Lilly and Company dated July 15, 2026)",
+     "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+     "date": "2026-08-11",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.statnews.com/2026/07/16/eli-lilly-acquire-ataibeckley-psychedelics-depression/",
+     "title": "Eli Lilly to acquire psychedelics-focused biotech AtaiBeckley",
+     "publisher": "STAT News",
+     "date": "2026-07-16",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "AtaiBeckley signed an Agreement and Plan of Merger with Eli Lilly and Company on 2026-07-15 and announced it on 2026-07-16: $6.75 per share in cash (about $2.8B) plus up to $2.50 per share in CVRs tied to BPL-003 and VLS-01 milestones. Lilly revenue is far above US$10B, so it is a large pharmaceutical company, and the agreement is definitive and covers atai's psychedelic programs. Caveat on the criterion: the deal is an acquisition, not a partnership, collaboration, co-development or licensing agreement. A strict reading of the enumerated deal types would give not_occurred. I follow the registry reading, which reads the words as 'an announced agreement between atai and a large pharmaceutical company'; an acquisition of the whole company and its psychedelic programs satisfies that reading. Flagged for adjudication."
+  },
+  {
+   "event_id": "E-0111",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.healthquality.va.gov/guidelines/MH/mdd/",
+     "title": "Management of Major Depressive Disorder (MDD) (2022) - VA/DOD Clinical Practice Guidelines",
+     "publisher": "US Department of Veterans Affairs / Department of Defense",
+     "date": "2022-09-01",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.acpjournals.org/doi/10.7326/M22-1603",
+     "title": "The Management of Major Depressive Disorder: Synopsis of the 2022 U.S. Department of Veterans Affairs and U.S. Department of Defense Clinical Practice Guideline",
+     "publisher": "Annals of Internal Medicine",
+     "date": "2022-09-20",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://psychiatryonline.org/books/guidelines",
+     "title": "American Psychiatric Association Practice Guidelines",
+     "publisher": "American Psychiatric Association (Psychiatry Online)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "No guideline from the named bodies lists a psychedelic medicine as a first-line option. The VA/DoD major depressive disorder guideline page still shows the 2022 version as current; that work group considered psilocybin and other hallucinogens, MDMA and cannabis and recommended against them on safety and efficacy grounds. The APA practice guideline list shows no psychedelic guideline, and the APA position statement still calls the evidence inadequate outside approved research. The 2026 Monash (Australia) MDMA guideline is not from a named body and treats MDMA-assisted psychotherapy as non-routine, not first-line. Searched through 2026-09-14; no NICE, WFSBP or CANMAT first-line listing found."
+  },
+  {
+   "event_id": "E-0112",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": 2725855317,
+   "evidence": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2081043/000119312526344720/atai-20260630.htm",
+     "title": "AtaiBeckley Inc. Form 10-Q for the quarter ended June 30, 2026 (cover page: 370,864,669 shares of common stock outstanding as of August 7, 2026)",
+     "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+     "date": "2026-08-11",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://stockanalysis.com/stocks/atai/market-cap/",
+     "title": "Atai Beckley (ATAI) Market Cap & Net Worth",
+     "publisher": "Stock Analysis",
+     "date": "2026-09-11",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000114036126028604/ef20078103_ex99-1.htm",
+     "title": "Lilly to acquire AtaiBeckley ... $6.75 per share in cash, approximately $2.8 billion in equity value (Form 8-K, Exhibit 99.1)",
+     "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+     "date": "2026-07-16",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "No market close has reached US$20B. The last close before checked_through was $7.35 on 2026-09-11. The cover page of the most recent periodic filing, the 10-Q filed 2026-08-11, states 370,864,669 shares outstanding as of 2026-08-07. 370,864,669 x $7.35 = $2,725,855,317, about 14% of the threshold. The 52-week high close was $7.45, so no close in the past year exceeded about $2.76B, and the market-cap history shows no earlier peak above $2.73B. Eli Lilly's July 2026 agreement values the equity at about $2.8B in cash plus about $1.0B in CVRs, which caps the price near current levels. Checked through 2026-09-14 only."
+  },
+  {
+   "event_id": "E-0113",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": 2725855317,
+   "evidence": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2081043/000119312526344720/atai-20260630.htm",
+     "title": "AtaiBeckley Inc. Form 10-Q for the quarter ended June 30, 2026 (cover page: 370,864,669 shares of common stock outstanding as of August 7, 2026)",
+     "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+     "date": "2026-08-11",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://stockanalysis.com/stocks/atai/market-cap/",
+     "title": "Atai Beckley (ATAI) Market Cap & Net Worth",
+     "publisher": "Stock Analysis",
+     "date": "2026-09-11",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000114036126028604/ef20078103_ex99-1.htm",
+     "title": "Lilly to acquire AtaiBeckley ... $6.75 per share in cash, approximately $2.8 billion in equity value (Form 8-K, Exhibit 99.1)",
+     "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+     "date": "2026-07-16",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "No market close has reached US$50B. The last close before checked_through was $7.35 on 2026-09-11. The cover page of the most recent periodic filing, the 10-Q filed 2026-08-11, states 370,864,669 shares outstanding as of 2026-08-07. 370,864,669 x $7.35 = $2,725,855,317, about 5% of the threshold. No close in the ATAI price history gives a market capitalization above about $2.76B. Eli Lilly's July 2026 agreement to acquire the company values the equity at about $2.8B in cash plus about $1.0B in CVRs, so the traded price stays near that level. Checked through 2026-09-14 only; this says nothing about later dates."
+  },
+  {
+   "event_id": "E-0114",
+   "state": "occurred",
+   "date": "2026-03-03",
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.globenewswire.com/news-release/2026/03/03/3248186/0/en/AtaiBeckley-Announces-Successful-End-of-Phase-2-Meeting-for-BPL-003-in-Treatment-Resistant-Depression.html",
+     "title": "AtaiBeckley Announces Successful End-of-Phase 2 Meeting for BPL-003 in Treatment-Resistant Depression",
+     "publisher": "AtaiBeckley Inc. via GlobeNewswire",
+     "date": "2026-03-03",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://ir.ataibeckley.com/news-releases/news-release-details/ataibeckley-announces-successful-end-phase-2-meeting-bpl-003",
+     "title": "AtaiBeckley Announces Successful End-of-Phase 2 Meeting for BPL-003 in Treatment-Resistant Depression",
+     "publisher": "AtaiBeckley Inc. (investor relations)",
+     "date": "2026-03-03",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://ir.ataibeckley.com/news-releases/news-release-details/bpl-003-phase-3-program-initiation-track-q2-2026-following",
+     "title": "BPL-003 Phase 3 Program Initiation on Track for Q2 2026 Following Successful FDA End-of-Phase 2 Meeting; AtaiBeckley Highlights Key Pipeline Milestones at 2026 Investor Day",
+     "publisher": "AtaiBeckley Inc. (investor relations)",
+     "date": "2026-03-03",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "The sponsor announced on 2026-03-03 that the End-of-Phase 2 meeting with the FDA for BPL-003 (intranasal mebufotenin benzoate, 5-MeO-DMT) in treatment-resistant depression had been held. The release reports FDA support for the proposed pivotal program and feedback on design and safety database size, and refers to minutes from the meeting, so it was a held meeting and not a granted request. The release does not state the meeting date. Per the criterion, the announcement date counts, so date = 2026-03-03. The sponsor is AtaiBeckley, the successor name of atai Life Sciences, which the criterion allows."
+  },
+  {
+   "event_id": "E-0115",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+     "title": "Compass Pathways Announces Second Quarter 2026 Financial Results and Business Highlights (Form 8-K exhibit): rolling submission and initial review are underway, with some modules of the NDA submitted and on track to complete all modules in Q4",
+     "publisher": "COMPASS Pathways plc via SEC EDGAR",
+     "date": "2026-08-05",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-FDA-Granted-NDA-Rolling-Review-Request-and-Awarded-Commissioners-National-Priority-Voucher/default.aspx",
+     "title": "Compass Pathways Announces FDA Granted NDA Rolling Review Request and Awarded Commissioner's National Priority Voucher",
+     "publisher": "Compass Pathways plc",
+     "date": "2026-04-24",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "The NDA is a rolling submission that is not complete. The FDA granted the rolling submission and review request on 2026-04-24. In the Q2 2026 results of 2026-08-05, Compass states that some modules are submitted and that all modules are on track to be completed in Q4 2026. The criterion counts the date the sponsor announces completion of the submission. No such completion announcement exists as of 2026-09-14. The September 2026 Cantor conference update repeats the Q4 2026 target and says the final clinical module waits on the integrated safety summary. Checked through 2026-09-14 only; this says nothing about later dates."
+  },
+  {
+   "event_id": "E-0116",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22MIDOMAFETAMINE%22&limit=5",
+     "title": "openFDA Drugs@FDA query for substance name MIDOMAFETAMINE: NOT_FOUND, no matches found",
+     "publisher": "US Food and Drug Administration (openFDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://psychedelicalpha.com/news/two-years-after-rejection-resilient-quietly-refiles-mdma-for-ptsd-application/",
+     "title": "Two Years After Rejection, Resilient Quietly Refiles MDMA for PTSD Application",
+     "publisher": "Psychedelic Alpha",
+     "date": "2026-08-12",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.hcplive.com/view/mdma-assisted-therapy-nda-resubmitted-fda-ptsd",
+     "title": "MDMA-Assisted Therapy NDA Resubmitted to FDA for PTSD",
+     "publisher": "HCPLive",
+     "date": "2026-08-09",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "No US payer has published a policy that covers midomafetamine for PTSD with its therapy sessions. Midomafetamine is not an approved drug: the Drugs@FDA data set returns no match for the substance, and Resilient Pharmaceuticals only resubmitted the NDA in August 2026 after the August 2024 complete response letter. Without an approval there is no covered product, and a search of payer bulletins and the CMS Medicare Coverage Database on 2026-09-14 found no NCD, LCD or commercial policy for midomafetamine. Note: the CMS database search page renders by script and could not be read directly; the finding rests on the absence of any published policy in search results and on the lack of FDA approval. Checked through 2026-09-14 only."
+  },
+  {
+   "event_id": "E-0117",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22MIDOMAFETAMINE%22&limit=5",
+     "title": "openFDA Drugs@FDA query for substance name MIDOMAFETAMINE: NOT_FOUND, no matches found",
+     "publisher": "US Food and Drug Administration (openFDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22PSILOCYBIN%22&limit=5",
+     "title": "openFDA Drugs@FDA query for substance name PSILOCYBIN: NOT_FOUND, no matches found",
+     "publisher": "US Food and Drug Administration (openFDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://psychedelicalpha.com/news/two-years-after-rejection-resilient-quietly-refiles-mdma-for-ptsd-application/",
+     "title": "Two Years After Rejection, Resilient Quietly Refiles MDMA for PTSD Application",
+     "publisher": "Psychedelic Alpha",
+     "date": "2026-08-12",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+     "title": "Compass Pathways Announces Second Quarter 2026 Financial Results and Business Highlights (Form 8-K exhibit): COMP360 rolling NDA on track to complete all modules in Q4 2026",
+     "publisher": "COMPASS Pathways plc via SEC EDGAR",
+     "date": "2026-08-05",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "The Drugs@FDA data set holds no approved product with midomafetamine or psilocybin as active ingredient. The MDMA application is under review, not approved: Resilient Pharmaceuticals resubmitted the midomafetamine NDA for PTSD in August 2026 after the August 2024 complete response letter, and a resubmission is not an approval. For psilocybin, Compass Pathways is still in a rolling NDA submission for COMP360 in treatment-resistant depression, with all modules due in Q4 2026, and Usona has not submitted. Priority vouchers granted on 2026-04-24 are designations, not approvals. Checked through 2026-09-14 only; this says nothing about later dates."
+  }
+ ]
+}

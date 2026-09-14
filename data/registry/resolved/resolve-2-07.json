@@ -1,0 +1,261 @@
+{
+ "resolver": "R2",
+ "run": "resolve-2-2026-09-14",
+ "outcomes": [
+  {
+   "event_id": "E-0118",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "http://www.drlz.com.ua/ibp/zvity.nsf/all/zvit/$file/reestr.csv",
+     "title": "Derzhavnyi reiestr likarskykh zasobiv Ukrainy: full register export (CSV)",
+     "publisher": "State Expert Center, Ministry of Health of Ukraine",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "http://www.drlz.com.ua/ibp/ddsite.nsf/all/shlist?opendocument",
+     "title": "State Register of Medicinal Products of Ukraine: product search",
+     "publisher": "Ministry of Health of Ukraine / State Expert Center",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.drugscience.org.uk/ukraines-psychedelic-policy",
+     "title": "Ukraine's Psychedelic Policy One Year Later",
+     "publisher": "Drug Science",
+     "date": "2026-05-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://cms.law/en/ukr/legal-updates/ukrainian-health-ministry-supports-use-of-psychedelic-assisted-therapy",
+     "title": "Ukrainian health ministry supports use of psychedelic-assisted therapy",
+     "publisher": "CMS Law",
+     "date": "2023-10-06",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "I downloaded the full State Register of Medicinal Products of Ukraine on 2026-09-14: 16,494 product rows. No row names psilocybin, midomafetamine/MDMA, mebufotenin or lysergide in any field. The same file contains 18 ketamine rows and 6 esketamine rows, so the check finds controlled substances when they are registered. Ukrainian reform to date is limited to a proposed rescheduling for research and a national drug strategy goal; Drug Science reports on 2026-05-14 that the rescheduling is still not approved. No Ministry of Health registration order and no sponsor announcement of a registration exists as of 2026-09-14."
+  },
+  {
+   "event_id": "E-0119",
+   "state": "occurred",
+   "date": "2026-06-22",
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://ir.definiumtx.com/news-events/press-releases/detail/232/definium-therapeutics-announces-positive-topline-results-from-phase-3-emerge-study-of-dt120-orally-disintegrating-tablet-odt-in-major-depressive-disorder",
+     "title": "Definium Therapeutics Announces Positive Topline Results from Phase 3 Emerge Study of DT120 Orally Disintegrating Tablet (ODT) in Major Depressive Disorder",
+     "publisher": "Definium Therapeutics",
+     "date": "2026-06-22",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.psychiatrictimes.com/view/positive-topline-results-from-phase-3-emerge-study-of-dt120-odt-in-major-depressive-disorder",
+     "title": "Positive Topline Results From Phase 3 Emerge Study of DT120 ODT in Major Depressive Disorder",
+     "publisher": "Psychiatric Times",
+     "date": "2026-06-22",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://ir.definiumtx.com/news-events/press-releases/detail/247/definium-therapeutics-receives-breakthrough-therapy-designation-for-dt120-lysergide-orally-disintegrating-tablet-odt-in-major-depressive-disorder-mdd-following-positive-phase-3-results",
+     "title": "Definium Therapeutics Receives Breakthrough Therapy Designation for DT120 (lysergide) ODT in MDD Following Positive Phase 3 Results",
+     "publisher": "Definium Therapeutics",
+     "date": "2026-09-08",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "Emerge is the first DT120 Phase 3 topline reported after 2026-05-07. On 2026-06-22 Definium reported that Emerge met its prespecified primary endpoint: change from baseline in MADRS total score at week 6, 8.1-point placebo-adjusted improvement (DT120 -13.3 vs placebo -5.2), p<0.0001, after a single 100 microgram dose in MDD. The sponsor states the primary and all key secondary endpoints were met. The later Voyage GAD topline (2026-08-12) does not resolve this event, because only the first Phase 3 topline after 2026-05-07 counts."
+  },
+  {
+   "event_id": "E-0120",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=products.active_ingredients.name:%22MEBUFOTENIN%22&limit=3",
+     "title": "Drugs@FDA query for active ingredient MEBUFOTENIN (openFDA): NOT_FOUND, No matches found",
+     "publisher": "US Food and Drug Administration (openFDA, Drugs@FDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+     "title": "Drugs@FDA: FDA-Approved Drugs",
+     "publisher": "US Food and Drug Administration",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.biospace.com/press-releases/bpl-003-phase-3-program-initiation-on-track-for-q2-2026-following-successful-fda-end-of-phase-2-meeting-ataibeckley-highlights-key-pipeline-milestones-at-2026-investor-day",
+     "title": "BPL-003 Phase 3 Program Initiation on Track for Q2 2026 Following Successful FDA End-of-Phase 2 Meeting; AtaiBeckley Highlights Key Pipeline Milestones at 2026 Investor Day",
+     "publisher": "AtaiBeckley (press release via BioSpace)",
+     "date": "2026-03-10",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "Drugs@FDA holds no approved product with the active ingredient mebufotenin (5-MeO-DMT) as of 2026-09-14. BPL-003 is still in clinical development: the sponsor reports a successful End-of-Phase 2 meeting, Phase 3 ReConnection-1 and ReConnection-2 starting in Q2 2026, and planned topline readouts in early 2029. No new drug application has been submitted, so no approval letter can exist. Breakthrough Therapy Designation (October 2025) is not an approval. Eli Lilly completed its acquisition of AtaiBeckley on 2026-09-11; approval under a successor name would still count, but none has occurred."
+  },
+  {
+   "event_id": "E-0121",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=products.active_ingredients.name:%22LYSERGIDE%22&limit=3",
+     "title": "Drugs@FDA query for active ingredient LYSERGIDE (openFDA): NOT_FOUND, No matches found",
+     "publisher": "US Food and Drug Administration (openFDA, Drugs@FDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://ir.definiumtx.com/news-events/press-releases/detail/247/definium-therapeutics-receives-breakthrough-therapy-designation-for-dt120-lysergide-orally-disintegrating-tablet-odt-in-major-depressive-disorder-mdd-following-positive-phase-3-results",
+     "title": "Definium Therapeutics Receives Breakthrough Therapy Designation for DT120 (lysergide) ODT in MDD Following Positive Phase 3 Results",
+     "publisher": "Definium Therapeutics",
+     "date": "2026-09-08",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+     "title": "Drugs@FDA: FDA-Approved Drugs",
+     "publisher": "US Food and Drug Administration",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "Drugs@FDA holds no approved product with the active ingredient lysergide as of 2026-09-14. Definium has two positive Phase 3 readouts in 2026 (Emerge in MDD on 2026-06-22, Voyage in GAD on 2026-08-12) and received Breakthrough Therapy Designation for DT120 ODT in MDD on 2026-09-08. The sponsor's most recent guidance puts a further Phase 3 readout (Panorama) before any NDA filing, so no application is under review. A Breakthrough Therapy Designation is not an approval."
+  },
+  {
+   "event_id": "E-0122",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://psychedelicalpha.com/news/two-years-after-rejection-resilient-quietly-refiles-mdma-for-ptsd-application/",
+     "title": "Two Years After Rejection, Resilient Quietly Refiles MDMA for PTSD Application",
+     "publisher": "Psychedelic Alpha",
+     "date": "2026-08-12",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+     "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+     "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+     "date": "2026-08-10",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=products.active_ingredients.name:%22MIDOMAFETAMINE%22&limit=3",
+     "title": "Drugs@FDA query for active ingredient MIDOMAFETAMINE (openFDA): NOT_FOUND, No matches found",
+     "publisher": "US Food and Drug Administration (openFDA, Drugs@FDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "Resilient Pharmaceuticals resubmitted the midomafetamine NDA for PTSD on or about 2026-08-09, reported by Psychedelic Alpha on 2026-08-12 from anonymous sources; MAPS confirmed the resubmission on 2026-08-10 and said it will start a new evaluation. Neither report states that the FDA accepted or filed the resubmission, and neither gives a review goal date. The sponsor itself has published nothing. Drugs@FDA shows no approved midomafetamine product and no action letter. The criterion excludes a report that the sponsor resubmitted, so nothing has resolved as of 2026-09-14. This says nothing about later dates: an FDA filing decision on a class 2 resubmission would normally follow within about 30 days."
+  },
+  {
+   "event_id": "E-0123",
+   "state": "occurred",
+   "date": "2024-07-01",
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.cms.gov/files/document/r12665cp.pdf",
+     "title": "Transmittal 12665, Change Request 13632: July 2024 Update of the Hospital Outpatient Prospective Payment System (OPPS)",
+     "publisher": "Centers for Medicare & Medicaid Services",
+     "date": "2024-05-31",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.cms.gov/files/document/new-technology-apc-approvals-tracker-updated-04/08/2025.pdf",
+     "title": "New Technology APC Application Approval Tracker (updated 2025-04-08)",
+     "publisher": "Centers for Medicare & Medicaid Services",
+     "date": "2025-04-08",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.businesswire.com/news/home/20251124582323/en/Magnus-Medical-Announces-Uninterrupted-2026-Payment-Stability-for-SAINT-Neuromodulation-in-CMS-OPPS-Final-Rule",
+     "title": "Magnus Medical Announces Uninterrupted 2026 Payment Stability for SAINT Neuromodulation in CMS OPPS Final Rule",
+     "publisher": "Magnus Medical via Business Wire",
+     "date": "2025-11-24",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "CMS Transmittal 12665 (2024-05-31), the July 2024 OPPS update, assigns the four SAINT service codes 0889T, 0890T, 0891T and 0892T status indicator S (separately payable procedure) and New Technology APCs 1511 and 1522, effective 2024-07-01. The CMS New Technology APC Approval Tracker records the same decision for Magnus Medical, Inc., SAINT Neuromodulation System: determination Approval, APC 1511 and APC 1522, effective date and implementation date both 2024-07-01. That is a Medicare fee schedule payment rate, not a bare code assignment, so it meets the criterion. Payment has continued since: CY2025 OPPS moved the treatment-day codes to New Technology APC 1525 and the CY2026 final rule kept the rates."
+  },
+  {
+   "event_id": "E-0124",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": 0,
+   "evidence": [
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=products.active_ingredients.name:%22PSILOCYBIN%22&limit=3",
+     "title": "Drugs@FDA query for active ingredient PSILOCYBIN (openFDA): NOT_FOUND, No matches found",
+     "publisher": "US Food and Drug Administration (openFDA, Drugs@FDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-First-Quarter-2026-Financial-Results-and-Business-Highlights/default.aspx",
+     "title": "Compass Pathways Announces First Quarter 2026 Financial Results and Business Highlights",
+     "publisher": "Compass Pathways",
+     "date": "2026-05-13",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+     "title": "Drugs@FDA: FDA-Approved Drugs",
+     "publisher": "US Food and Drug Administration",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "No psilocybin drug product has FDA approval as of 2026-09-14: Drugs@FDA returns no product with psilocybin as an active ingredient. The furthest-advanced candidate, Compass Pathways COMP360, is in a rolling NDA submission with final submission targeted for Q4 2026 and launch guided to H1 2027. With no approved product, no calendar year through 2025 can show dispensed psilocybin prescriptions in the IQVIA National Prescription Audit, so the ratio to classic antidepressant prescriptions is 0 and the criterion resolves FALSE for every published year. The IQVIA NPA is a subscription series and I could not read its tables directly; the zero rests on the absence of any approved product to dispense."
+  },
+  {
+   "event_id": "E-0125",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.biospace.com/press-releases/bpl-003-phase-3-program-initiation-on-track-for-q2-2026-following-successful-fda-end-of-phase-2-meeting-ataibeckley-highlights-key-pipeline-milestones-at-2026-investor-day",
+     "title": "BPL-003 Phase 3 Program Initiation on Track for Q2 2026 Following Successful FDA End-of-Phase 2 Meeting; AtaiBeckley Highlights Key Pipeline Milestones at 2026 Investor Day",
+     "publisher": "AtaiBeckley (press release via BioSpace)",
+     "date": "2026-03-10",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.biospace.com/press-releases/ataibeckley-reports-first-quarter-2026-financial-results-and-provides-program-and-business-update",
+     "title": "AtaiBeckley Reports First Quarter 2026 Financial Results and Provides Program and Business Update",
+     "publisher": "AtaiBeckley (press release via BioSpace)",
+     "date": "2026-05-12",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1840904/000119312525277583/atai-20250930.htm",
+     "title": "Atai Beckley N.V. Form 10-Q for the quarter ended September 30, 2025",
+     "publisher": "US Securities and Exchange Commission (EDGAR)",
+     "date": "2025-11-12",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "No atai psychedelic programme has reported a Phase 3 primary endpoint as of 2026-09-14. BPL-003 (mebufotenin) started its first Phase 3 studies, ReConnection-1 and ReConnection-2, in Q2 2026, with topline guided to early 2029. VLS-01 and EMP-01 are in Phase 2; VLS-01 Phase 2 topline is guided to H2 2026. Perception's PCN-101 is R-ketamine, which the criterion excludes. Compass Pathways reported positive Phase 3 COMP360 results (COMP005, COMP006), but atai holds only a shrinking minority equity stake in Compass and has no development or commercial partnership on COMP360, so Compass is not a developer, owner or partner of an atai therapeutic under this criterion. Eli Lilly closed its acquisition of AtaiBeckley on 2026-09-11; a successor's Phase 3 would count, but none has read out."
+  }
+ ]
+}

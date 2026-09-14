@@ -1,0 +1,240 @@
+{
+  "resolver": "R2",
+  "run": "resolve-2-2026-09-14",
+  "outcomes": [
+    {
+      "event_id": "E-0086",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.dshs.texas.gov/drug-manufacturers-distributors/schedules-controlled-substances-drug-manufacturers-distributors",
+          "title": "Schedules of Controlled Substances (current schedules and 2025-2026 schedule orders)",
+          "publisher": "Texas Department of State Health Services",
+          "date": "2026-07-31",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
+          "title": "Controlled Substances - Alphabetical Order",
+          "publisher": "US Drug Enforcement Administration, Diversion Control Division",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+          "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+          "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+          "date": "2026-08-10",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "No Texas schedule action has taken effect. The DSHS schedules page lists every schedule order through the notice effective 2026-07-31 (tetrahydrocannabinols) and the orders effective 2026-04-03; none touches MDMA or midomafetamine, and the page does not name either substance. MDMA stays in Texas Schedule I (Penalty Group 2). The federal trigger has also not fired: DEA still lists MDMA in Schedule I, and the midomafetamine NDA is under FDA review after the 2024 complete response letter, so no FDA-approved MDMA product exists for Texas to reschedule. Not occurred as of 2026-09-14; this says nothing about later dates."
+    },
+    {
+      "event_id": "E-0087",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": 0,
+      "evidence": [
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm?event=RemsData.page",
+          "title": "Approved Risk Evaluation and Mitigation Strategies (REMS)",
+          "publisher": "US Food and Drug Administration (REMS@FDA)",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22MIDOMAFETAMINE%22&limit=5",
+          "title": "Drugs@FDA query for substance MIDOMAFETAMINE: NOT_FOUND, No matches found",
+          "publisher": "US Food and Drug Administration (openFDA Drugs@FDA)",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22PSILOCYBIN%22&limit=5",
+          "title": "Drugs@FDA query for substance PSILOCYBIN: NOT_FOUND, No matches found",
+          "publisher": "US Food and Drug Administration (openFDA Drugs@FDA)",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "The named series shows no certified sites. No MDMA or psilocybin drug product is FDA approved: Drugs@FDA returns no application for midomafetamine or psilocybin, and REMS@FDA lists no REMS for either. The count of US sites certified under such a product's REMS is therefore 0, far below the 4,400 to 6,600 band. The event is not unresolvable today: the criterion allows unresolvable only when no list has published 12 months after the deadline, and the deadline is not visible to the resolver. Realized value 0 is the site count, not a figure published by the series. Not occurred as of 2026-09-14."
+    },
+    {
+      "event_id": "E-0088",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=midomafetamine",
+          "title": "Federal Register search: midomafetamine (one result, the May 2024 FDA advisory committee notice; no DEA rule)",
+          "publisher": "Office of the Federal Register",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
+          "title": "Controlled Substances - Alphabetical Order (3,4-Methylenedioxymethamphetamine, code 7405, Schedule I)",
+          "publisher": "US Drug Enforcement Administration, Diversion Control Division",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/orangebook.pdf",
+          "title": "Lists of Scheduling Actions, Controlled Substances, Regulated Chemicals (MDMA scheduling history ends 53 FR 5156, 1988, Schedule I)",
+          "publisher": "US Drug Enforcement Administration, Diversion Control Division",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "No DEA rule moving MDMA out of Schedule I has been published. A Federal Register search for midomafetamine returns only the FDA advisory committee notice of 2024-05-08. A search of DEA documents mentioning MDMA returns quota notices, exempt-preparation notices and Schedule I placements of other substances (most recently 2-fluorodeschloroketamine, 2026-05-22), no rescheduling of MDMA. DEA's current Controlled Substances list still shows 3,4-methylenedioxymethamphetamine in Schedule I, and DEA's scheduling-action history for MDMA ends in 1988. Not occurred as of 2026-09-14; this says nothing about later dates."
+    },
+    {
+      "event_id": "E-0089",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=midomafetamine",
+          "title": "Federal Register search: midomafetamine (one result, the May 2024 FDA advisory committee notice; no DEA rule)",
+          "publisher": "Office of the Federal Register",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
+          "title": "Controlled Substances - Alphabetical Order (3,4-Methylenedioxymethamphetamine, code 7405, Schedule I)",
+          "publisher": "US Drug Enforcement Administration, Diversion Control Division",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "No DEA rescheduling rule for MDMA exists, so no rule has placed it in Schedule III or Schedule IV. The Federal Register holds no DEA final or interim final rule on midomafetamine or MDMA rescheduling, and DEA's current list keeps 3,4-methylenedioxymethamphetamine in Schedule I. The event stays open rather than false, because the criterion sets FALSE only on the publication date of a rule placing the substance in Schedule II or V, or at the deadline. Not occurred as of 2026-09-14; this says nothing about later dates."
+    },
+    {
+      "event_id": "E-0090",
+      "state": "occurred",
+      "date": "2024-08-08",
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
+          "title": "Complete Response Letter, NDA 215455, midomafetamine capsules, Lykos Therapeutics (letter date 08/08/2024)",
+          "publisher": "US Food and Drug Administration (openFDA complete response letter release)",
+          "date": "2024-08-08",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://download.open.fda.gov/transparency/crl/transparency-crl-0001-of-0001.json.zip",
+          "title": "openFDA transparency CRL dataset, record for NDA 215455 (letter_date 08/08/2024, company Lykos Therapeutics, status Unapproved)",
+          "publisher": "US Food and Drug Administration (openFDA)",
+          "date": "2026-09-07",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
+          "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
+          "publisher": "Lykos Therapeutics via PR Newswire",
+          "date": "2024-08-09",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "The FDA's first action on the midomafetamine NDA for PTSD was a complete response letter. FDA's own released letter for NDA 215455 (Lykos Therapeutics, midomafetamine capsules) carries letter date 2024-08-08, recorded as letter_date 08/08/2024 in the openFDA CRL dataset; the sponsor announced it on 2024-08-09. The letter says FDA cannot approve the application and asks for a further phase 3 trial. Date taken as the letter date, 2024-08-08. A later resubmission by Resilient Pharmaceuticals (reported August 2026) does not change the first action."
+    },
+    {
+      "event_id": "E-0091",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": 1700,
+      "evidence": [
+        {
+          "url": "https://maps.org/mdma/",
+          "title": "MDMA (MAPS research overview): MDMA has been administered to approximately 1,700 human subjects",
+          "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+          "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+          "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+          "date": "2026-08-10",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "No publication by MAPS or the sponsor reports a cumulative total at or above 1.12 million people. The highest count MAPS publishes is approximately 1,700 human subjects dosed with MDMA in research, three orders of magnitude below the band. No prescription-data series can add to it: midomafetamine is not approved, so there are no prescriptions; MAPS stated on 2026-08-10 that the NDA was only resubmitted, after the 2024 complete response letter. Realized value 1700 is the MAPS research-subject count, the broadest figure the named series publishes. Not occurred as of 2026-09-14."
+    },
+    {
+      "event_id": "E-0092",
+      "state": "occurred",
+      "date": "2025-01-22",
+      "checked_through": "2026-09-14",
+      "realized_value": 1077000000,
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000003/a2024q4exhibit992.htm",
+          "title": "Form 8-K Exhibit 99.2, Supplementary sales data, full-year 2024: SPRAVATO worldwide $1,077 million (2023: $689 million)",
+          "publisher": "Johnson & Johnson via SEC EDGAR",
+          "date": "2025-01-22",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
+          "title": "Johnson & Johnson Form 10-K for fiscal year 2024 (product sales tables)",
+          "publisher": "Johnson & Johnson via SEC EDGAR",
+          "date": "2025-02-13",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000002/a2025q4exhibit992.htm",
+          "title": "Form 8-K Exhibit 99.2, Supplementary sales data, full-year 2025: SPRAVATO worldwide $1,696 million",
+          "publisher": "Johnson & Johnson via SEC EDGAR",
+          "date": "2026-01-21",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "Spravato passed US$1 billion in calendar year 2024. The first Johnson & Johnson report showing it is the Q4 and full-year 2024 earnings release, Form 8-K Exhibit 99.2 filed 2025-01-22, which gives Spravato worldwide net trade sales of $1,077 million for 2024 (US $929M, international $148M), up 56.4% on 2023. The FY2024 Form 10-K filed 2025-02-13 carries the same product-sales tables. The FY2025 release of 2026-01-21 shows $1,696 million, confirming the series. Date taken as the first reporting date, 2025-01-22; realized value is the 2024 figure."
+    },
+    {
+      "event_id": "E-0093",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22IBOGAINE%22&limit=5",
+          "title": "Drugs@FDA query for substance IBOGAINE: NOT_FOUND, No matches found",
+          "publisher": "US Food and Drug Administration (openFDA Drugs@FDA)",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+          "title": "Drugs@FDA: FDA-Approved Drugs (searched for ibogaine; no approved application)",
+          "publisher": "US Food and Drug Administration",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://download.open.fda.gov/transparency/crl/transparency-crl-0001-of-0001.json.zip",
+          "title": "openFDA transparency CRL dataset (458 records, export 2026-09-07; no ibogaine application)",
+          "publisher": "US Food and Drug Administration (openFDA)",
+          "date": "2026-09-07",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "No ibogaine drug product is FDA approved for any indication. Drugs@FDA holds no application for the substance ibogaine, and the openFDA action-letter dataset exported 2026-09-07 holds no ibogaine record, so no approval letter and no application action is dated. Ibogaine development remains at the investigational stage: the reported US work is IND-stage trials and state-funded research, which the criterion excludes. Not occurred as of 2026-09-14; this says nothing about later dates."
+    }
+  ]
+}

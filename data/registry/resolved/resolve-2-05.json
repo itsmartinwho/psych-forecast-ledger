@@ -1,0 +1,247 @@
+{
+  "resolver": "R2",
+  "run": "resolve-2-2026-09-14",
+  "outcomes": [
+    {
+      "event_id": "E-0102",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/07/25/3121996/0/en/Recognify-Life-Sciences-Provides-Update-on-Phase-2b-Trial-of-Inidascamine-in-Patients-with-Cognitive-Impairment-Associated-with-Schizophrenia.html",
+          "title": "Recognify Life Sciences Provides Update on Phase 2b Trial of Inidascamine in Patients with Cognitive Impairment Associated with Schizophrenia",
+          "publisher": "Recognify Life Sciences (atai Life Sciences) via GlobeNewswire",
+          "date": "2025-07-25",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/07/06/3322260/0/en/AtaiBeckley-Doses-Last-Patient-in-VLS-01-Phase-2b-TRD-Study-Plans-Phase-3-in-Major-Depressive-Disorder.html",
+          "title": "AtaiBeckley Doses Last Patient in VLS-01 Phase 2b TRD Study; Plans Phase 3 in Major Depressive Disorder",
+          "publisher": "AtaiBeckley via GlobeNewswire",
+          "date": "2026-07-06",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/07/01/3108164/0/en/atai-Life-Sciences-and-Beckley-Psytech-Announce-Positive-Topline-Results-from-the-Phase-2b-Study-of-BPL-003-in-Patients-with-Treatment-Resistant-Depression.html",
+          "title": "atai Life Sciences and Beckley Psytech Announce Positive Topline Results from the Phase 2b Study of BPL-003 in Patients with Treatment-Resistant Depression",
+          "publisher": "atai Life Sciences via GlobeNewswire",
+          "date": "2025-07-01",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/02/26/3245418/0/en/AtaiBeckley-Announces-Positive-Topline-Results-from-an-Exploratory-Phase-2a-Trial-of-EMP-01-oral-R-MDMA-in-Social-Anxiety-Disorder.html",
+          "title": "AtaiBeckley Announces Positive Topline Results from an Exploratory Phase 2a Trial of EMP-01 (oral R-MDMA) in Social Anxiety Disorder",
+          "publisher": "AtaiBeckley via GlobeNewswire",
+          "date": "2026-02-26",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "The conjunction is false. On 2025-07-25 Recognify reported that the RL-007 (inidascamine) Phase 2b in CIAS did not meet its primary endpoint: no statistical significance on the MCCB neurocognitive composite at week 6 (n=242). That is the criterion's FALSE trigger date. A second leg is also still open: the VLS-01 Phase 2b (Elumina, n=156, MADRS day 29) dosed its last patient on 2026-07-06 with topline guided to Q4 2026, so no primary-endpoint result exists at checked_through. Of the other two, BPL-003 Phase 2b met its primary endpoint (2025-07-01) and the EMP-01 Phase 2a met its safety and tolerability primary endpoint (2026-02-26). date is null because the proposition never became true."
+    },
+    {
+      "event_id": "E-0103",
+      "state": "occurred",
+      "date": "2025-07-21",
+      "checked_through": "2026-09-14",
+      "realized_value": 2.14,
+      "evidence": [
+        {
+          "url": "https://www.macrotrends.net/assets/php/stock_price_history.php?t=ATAI",
+          "title": "ATAI (atai Life Sciences / AtaiBeckley) daily stock price history, Nasdaq",
+          "publisher": "Macrotrends",
+          "date": "2025-07-21",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/ATAI?period1=1747267200&period2=1789000000&interval=1d",
+          "title": "ATAI daily close series (NasdaqGM), Yahoo Finance chart data",
+          "publisher": "Yahoo Finance",
+          "date": "2025-07-21",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.nasdaq.com/market-activity/stocks/atai",
+          "title": "ATAI market activity, Nasdaq",
+          "publisher": "Nasdaq",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "Reference close 2025-05-16 = USD 1.65; threshold = USD 3.30. Closes after that date: 2025-07-17 2.79, 2025-07-18 3.23, 2025-07-21 3.53. The first close at or above 2.0 times the reference is 2025-07-21 at USD 3.53, a ratio of 2.14. Two independent republishers of the Nasdaq close (Macrotrends and Yahoo Finance) give identical values for 2025-05-16, 2025-07-18 and 2025-07-21. No split or reverse split is recorded in the series. The price stayed far above the threshold afterwards (USD 5.48 October 2025 offering price; USD 7.35 close on 2026-09-11). Eli Lilly completed its acquisition of AtaiBeckley on 2026-09-11, ending the ATAI listing, after the event had resolved."
+    },
+    {
+      "event_id": "E-0104",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/global-medicine-use-trends-2026",
+          "title": "Global Medicine Use Trends 2026 (outlook to 2030)",
+          "publisher": "IQVIA Institute for Human Data Science",
+          "date": "2026-02-11",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/global-oncology-trends-2025",
+          "title": "Global Oncology Trends 2025",
+          "publisher": "IQVIA Institute for Human Data Science",
+          "date": "2025-05-22",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "The named series still ranks mental health well below first. The latest edition, Global Medicine Use Trends 2026 (published 2026-02-11), names oncology, immunology, diabetes and obesity as the leading therapy areas and the drivers of spending growth; no published year ranks mental health first. IQVIA's companion oncology report puts cancer medicine spending at USD 252 billion globally in 2024, rising to a forecast USD 441 billion by 2029, an order of magnitude above global mental health medicine spending. realized_value is null: the public summaries do not publish an exact numeric rank for the mental health line, only that it is not first. The series continues to publish, so the event is resolvable, not unresolvable."
+    },
+    {
+      "event_id": "E-0105",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": 0,
+      "evidence": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/03/10/3252558/0/en/BPL-003-Phase-3-Program-Initiation-on-Track-for-Q2-2026-Following-Successful-FDA-End-of-Phase-2-Meeting-AtaiBeckley-Highlights-Key-Pipeline-Milestones-at-2026-Investor-Day.html",
+          "title": "BPL-003 Phase 3 Program Initiation on Track for Q2 2026 Following Successful FDA End-of-Phase 2 Meeting; AtaiBeckley Highlights Key Pipeline Milestones at 2026 Investor Day",
+          "publisher": "AtaiBeckley via GlobeNewswire",
+          "date": "2026-03-10",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name:%22mebufotenin%22&limit=5",
+          "title": "Drugs@FDA query for mebufotenin (openFDA): no matching application",
+          "publisher": "US Food and Drug Administration (openFDA, Drugs@FDA)",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "BPL-003 has no marketing approval anywhere and therefore no net product sales in any reported financial year. Drugs@FDA holds no application for mebufotenin or BPL-003 at checked_through. The sponsor started the two pivotal Phase 3 studies, ReConnection-1 and ReConnection-2, in Q2 2026 and guides their topline readouts to early 2029, so the first possible approval is later still. Eli Lilly completed its acquisition of AtaiBeckley on 2026-09-11; the event follows the asset, so Lilly filings are now the series to read. realized_value is 0: no annual net product sales figure exists for BPL-003."
+    },
+    {
+      "event_id": "E-0106",
+      "state": "occurred",
+      "date": "2025-09-23",
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/09/23/3154533/0/en/atai-Life-Sciences-and-Beckley-Psytech-Report-Positive-Phase-2a-Data-Demonstrating-Improved-Outcomes-with-a-Two-Dose-Induction-Regimen-of-BPL-003-in-Patients-with-Treatment-Resista.html",
+          "title": "atai Life Sciences and Beckley Psytech Report Positive Phase 2a Data Demonstrating Improved Outcomes with a Two-Dose Induction Regimen of BPL-003 in Patients with Treatment-Resistant Depression",
+          "publisher": "atai Life Sciences and Beckley Psytech via GlobeNewswire",
+          "date": "2025-09-23",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/07/01/3108164/0/en/atai-Life-Sciences-and-Beckley-Psytech-Announce-Positive-Topline-Results-from-the-Phase-2b-Study-of-BPL-003-in-Patients-with-Treatment-Resistant-Depression.html",
+          "title": "atai Life Sciences and Beckley Psytech Announce Positive Topline Results from the Phase 2b Study of BPL-003 in Patients with Treatment-Resistant Depression",
+          "publisher": "atai Life Sciences via GlobeNewswire",
+          "date": "2025-07-01",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/11/10/3184384/0/en/AtaiBeckley-Announces-Positive-Topline-Data-from-the-Phase-2b-Open-Label-Extension-Study-of-BPL-003-Supporting-Safety-and-Efficacy-of-a-Second-Dose-in-Patients-with-Treatment-Resis.html",
+          "title": "AtaiBeckley Announces Positive Topline Data from the Phase 2b Open-Label Extension Study of BPL-003, Supporting Safety and Efficacy of a Second Dose in Patients with Treatment-Resistant Depression",
+          "publisher": "AtaiBeckley via GlobeNewswire",
+          "date": "2025-11-10",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.psychiatrictimes.com/view/bpl-003-positive-phase-2b-open-label-extension-study-data",
+          "title": "BPL-003: Positive Phase 2b Open-Label Extension Study Data",
+          "publisher": "Psychiatric Times",
+          "date": "2025-11-10",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "On 2025-09-23 the sponsor reported the Phase 2a two-dose induction regimen (NCT05660642, 8 mg then 12 mg two weeks later, n=13 enrolled, 12 per protocol): mean MADRS reduction from baseline 13.3 points at day 2, 12.9 at day 8, 19.0 one week after the second dose, and 13.7 at week 12. The corresponding single active dose in the Phase 2b (2025-07-01) gave 12.1 points for 8 mg and 11.1 for 12 mg at the day 29 primary timepoint. The two-dose point estimate, 19.0, is larger, and the week 12 estimate, 13.7, is also larger. The 2025-11-10 Phase 2b open-label extension confirms the direction: 22.3 points at day 57 for patients whose first dose was 8 mg. The criterion asks only for a larger point estimate, not a significant difference."
+    },
+    {
+      "event_id": "E-0107",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name:%22mebufotenin%22&limit=5",
+          "title": "Drugs@FDA query for mebufotenin (openFDA): no matching application",
+          "publisher": "US Food and Drug Administration (openFDA, Drugs@FDA)",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+          "title": "Drugs@FDA: FDA-Approved Drugs (search for BPL-003 / mebufotenin returns no approved application)",
+          "publisher": "US Food and Drug Administration",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/03/10/3252558/0/en/BPL-003-Phase-3-Program-Initiation-on-Track-for-Q2-2026-Following-Successful-FDA-End-of-Phase-2-Meeting-AtaiBeckley-Highlights-Key-Pipeline-Milestones-at-2026-Investor-Day.html",
+          "title": "BPL-003 Phase 3 Program Initiation on Track for Q2 2026 Following Successful FDA End-of-Phase 2 Meeting; AtaiBeckley Highlights Key Pipeline Milestones at 2026 Investor Day",
+          "publisher": "AtaiBeckley via GlobeNewswire",
+          "date": "2026-03-10",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "No FDA approval of BPL-003 exists at checked_through: Drugs@FDA holds no application for mebufotenin or BPL-003. The programme is still pre-submission. After a successful End-of-Phase 2 meeting (2026-03-03), the sponsor started two parallel Phase 3 trials, ReConnection-1 and ReConnection-2, in Q2 2026 and guides both topline readouts to early 2029. Two pivotal trials, not one, are now running, which bears on the single-trial reading, but the criterion reads the number of Phase 3 efficacy trials from the approval documents, and no such documents exist yet. Breakthrough Therapy designation (October 2025) is a designation, not an approval. This states nothing about later dates."
+    },
+    {
+      "event_id": "E-0108",
+      "state": "occurred",
+      "date": "2025-11-10",
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/11/10/3184384/0/en/AtaiBeckley-Announces-Positive-Topline-Data-from-the-Phase-2b-Open-Label-Extension-Study-of-BPL-003-Supporting-Safety-and-Efficacy-of-a-Second-Dose-in-Patients-with-Treatment-Resis.html",
+          "title": "AtaiBeckley Announces Positive Topline Data from the Phase 2b Open-Label Extension Study of BPL-003, Supporting Safety and Efficacy of a Second Dose in Patients with Treatment-Resistant Depression",
+          "publisher": "AtaiBeckley via GlobeNewswire",
+          "date": "2025-11-10",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.biospace.com/press-releases/ataibeckley-announces-positive-topline-data-from-the-phase-2b-open-label-extension-study-of-bpl-003-supporting-safety-and-efficacy-of-a-second-dose-in-patients-with-treatment-resistant-depression",
+          "title": "AtaiBeckley Announces Positive Topline Data from the Phase 2b Open-Label Extension Study of BPL-003 (full release text)",
+          "publisher": "AtaiBeckley via BioSpace",
+          "date": "2025-11-10",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.psychiatrictimes.com/view/bpl-003-positive-phase-2b-open-label-extension-study-data",
+          "title": "BPL-003: Positive Phase 2b Open-Label Extension Study Data",
+          "publisher": "Psychiatric Times",
+          "date": "2025-11-10",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "On 2025-11-10 the sponsor reported topline data from the open-label extension of the BPL-003 Phase 2b programme in TRD (NCT05870540), with quantitative outcomes: mean MADRS reduction from baseline at day 57 of 14.0 points for the 0.3 mg initial-dose group (n=47), 22.3 points for the 8 mg initial-dose group (n=23) and 19.0 points for the pooled active group (n=60), plus 63 percent response and 48 percent remission at week 8. That meets the quantitative-outcome bar. The date follows the asset, which names the Phase 2b programme. Under a wider reading of open-label BPL-003 data of any study, the earlier Phase 2a two-dose induction release of 2025-09-23 would also qualify."
+    },
+    {
+      "event_id": "E-0109",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/07/06/3322260/0/en/AtaiBeckley-Doses-Last-Patient-in-VLS-01-Phase-2b-TRD-Study-Plans-Phase-3-in-Major-Depressive-Disorder.html",
+          "title": "AtaiBeckley Doses Last Patient in VLS-01 Phase 2b TRD Study; Plans Phase 3 in Major Depressive Disorder",
+          "publisher": "AtaiBeckley via GlobeNewswire",
+          "date": "2026-07-06",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06524830",
+          "title": "A Study to Assess the Efficacy, Safety and Tolerability of VLS-01 Buccal Film, Compared to Placebo in Patients With Treatment Resistant Depression (ELUMINA)",
+          "publisher": "ClinicalTrials.gov",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "No primary-endpoint result for the VLS-01 Phase 2b (Elumina, NCT06524830) has been reported at checked_through. The sponsor dosed the last of 156 randomised patients on 2026-07-06 and guides topline data to Q4 2026; the primary endpoint is the change from baseline in MADRS total score at day 29 versus placebo. No ClinicalTrials.gov results posting and no publication exist yet. Eli Lilly completed its acquisition of AtaiBeckley on 2026-09-11, so the successor sponsor will report the readout. This supports not_occurred as of today only; it says nothing about later dates."
+    }
+  ]
+}

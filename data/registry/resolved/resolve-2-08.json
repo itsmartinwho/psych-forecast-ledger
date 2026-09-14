@@ -1,0 +1,85 @@
+{
+  "resolver": "R2",
+  "run": "resolve-2-2026-09-14",
+  "outcomes": [
+    {
+      "event_id": "E-0126",
+      "state": "occurred",
+      "date": "2025-06-23",
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2025/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-First-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx",
+          "title": "Compass Pathways Successfully Achieves Primary Endpoint in First Phase 3 Trial Evaluating COMP360 Psilocybin for Treatment-Resistant Depression",
+          "publisher": "Compass Pathways (investor relations)",
+          "date": "2025-06-23",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT05624268",
+          "title": "Efficacy, Safety, and Tolerability of COMP360 in Participants With TRD (COMP005), Phase 3, status Completed",
+          "publisher": "ClinicalTrials.gov",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "First sponsor topline report of a Phase 3 primary endpoint for COMP360 in treatment-resistant depression. The 2025-06-23 Compass Pathways press release reports COMP005 (NCT05624268, 258 participants, 32 US sites): difference in change from baseline in MADRS at week 6 for a single 25 mg dose versus placebo of -3.6 points, p<0.001. Earlier Compass announcements in the same trial covered recruitment completion and Part A dosing only, so they do not meet the criterion. The later COMP006 topline (2026) and the 52-week Part C open-label data (2026-09-09) are after this date. ClinicalTrials.gov shows the trial as completed with no results posted, so the sponsor release is the resolving source."
+    },
+    {
+      "event_id": "E-0127",
+      "state": "occurred",
+      "date": "2025-06-23",
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2025/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-First-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx",
+          "title": "Compass Pathways Successfully Achieves Primary Endpoint in First Phase 3 Trial Evaluating COMP360 Psilocybin for Treatment-Resistant Depression",
+          "publisher": "Compass Pathways (investor relations)",
+          "date": "2025-06-23",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-Second-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx",
+          "title": "Compass Pathways Successfully Achieves Primary Endpoint in Second Phase 3 Trial Evaluating COMP360 Psilocybin for Treatment-Resistant Depression (COMP006)",
+          "publisher": "Compass Pathways (investor relations)",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "The first Phase 3 trial to report its primary result met it. Compass Pathways states on 2025-06-23 that COMP005 achieved its prespecified primary endpoint: MADRS change from baseline at week 6, 25 mg COMP360 versus placebo, difference -3.6 points, p<0.001, in 258 participants with treatment-resistant depression. The second Phase 3 trial, COMP006 (25 mg versus 1 mg, difference -3.8 points, p<0.001), also met its primary endpoint, but the first report fixes the date. Accessed date used for the COMP006 release because its publication date was not read from the page."
+    },
+    {
+      "event_id": "E-0128",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://api.fda.gov/device/510k.json?search=decision_date:%5B2026-03-24+TO+2026-12-31%5D+AND+product_code:%22OBP%22&limit=100",
+          "title": "openFDA 510(k) query, transcranial magnetic stimulator product code OBP, decisions after 2026-03-23 (4 records; data last updated 2026-08-31)",
+          "publisher": "FDA (openFDA device 510(k) endpoint)",
+          "date": "2026-08-31",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260691",
+          "title": "510(k) K260691, BTL-699, BTL Industries, decision 2026-08-23, product codes OBP and QCI (depression and obsessive-compulsive disorder)",
+          "publisher": "FDA 510(k) Premarket Notification database",
+          "date": "2026-08-23",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?start_search=1&devicename=transcranial",
+          "title": "FDA De Novo database, device name transcranial: 2 grants, DEN170078 (2018) and DEN130022 (2013)",
+          "publisher": "FDA De Novo database",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "No FDA marketing authorization for a TMS device with a psychotic-disorder indication is listed as of 2026-09-14. The four TMS 510(k) clearances dated after 2026-03-23 (K260189 and K260560 on 2026-05-22, K261228 on 2026-08-14, K260691 on 2026-08-23) all sit under product code OBP, the transcranial magnetic stimulator code for major depressive disorder; K260691 adds code QCI, obsessive-compulsive disorder. The De Novo database lists only two transcranial grants, from 2013 (migraine) and 2018 (OCD). No PMA for a TMS psychosis indication appears in the same window. Caveat: the openFDA 510(k) extract is current through 2026-08-31, so clearances in the first two weeks of September 2026 may not yet be listed."
+    }
+  ]
+}

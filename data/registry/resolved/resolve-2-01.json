@@ -1,0 +1,247 @@
+{
+ "resolver": "R2",
+ "run": "resolve-2-2026-09-14",
+ "outcomes": [
+  {
+   "event_id": "E-0070",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22CANNABIS%22&limit=5",
+     "title": "Drugs@FDA query, substance name CANNABIS: no matching application (HTTP 404, no matches); the same query for MARIJUANA also returns no matches, while CANNABIDIOL returns only NDA 210365 Epidiolex",
+     "publisher": "US Food and Drug Administration (openFDA / Drugs@FDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.fda.gov/news-events/public-health-focus/fda-and-cannabis-research-and-drug-approval-process",
+     "title": "FDA and Cannabis: Research and Drug Approval Process",
+     "publisher": "US Food and Drug Administration",
+     "date": "2023-02-24",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "No FDA approval of a botanical marijuana product for PTSD as of 2026-09-14. Drugs@FDA holds no application with the substance cannabis or marijuana. The FDA page states it has not approved a marketing application for cannabis for any disease or condition; the approved cannabinoid products are Epidiolex (purified CBD), Marinol and Syndros (dronabinol) and Cesamet (nabilone), all excluded by the criterion, and none carries a PTSD indication. In 2025 the FDA cleared a Phase 2 trial of smoked cannabis in veterans with PTSD; an IND clearance is not an approval. This says nothing about dates after 2026-09-14."
+  },
+  {
+   "event_id": "E-0071",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22CANNABIS%22&limit=5",
+     "title": "Drugs@FDA query, substance name CANNABIS: no matching application (HTTP 404, no matches)",
+     "publisher": "US Food and Drug Administration (openFDA / Drugs@FDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.cms.gov/medicare-coverage-database/",
+     "title": "Medicare Coverage Database (NCDs, LCDs, articles)",
+     "publisher": "Centers for Medicare & Medicaid Services",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.fda.gov/news-events/public-health-focus/fda-and-cannabis-research-and-drug-approval-process",
+     "title": "FDA and Cannabis: Research and Drug Approval Process",
+     "publisher": "US Food and Drug Administration",
+     "date": "2023-02-24",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "No such coverage policy as of 2026-09-14. The criterion needs a payer policy that covers an FDA-approved botanical marijuana product for its labeled indication. No such product exists: Drugs@FDA holds no cannabis or marijuana application, so no label and no covered indication exist. The Medicare Coverage Database shows no coverage document for a botanical marijuana drug. Coverage of dronabinol, nabilone or Epidiolex does not count, state medical-marijuana reimbursement does not count, and the 2026 Medicare Advantage hemp-product benefit is not an FDA-approved botanical marijuana drug. This says nothing about later dates."
+  },
+  {
+   "event_id": "E-0072",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.deadiversion.usdoj.gov/drugreg/nor/manufacturers/manufacturers.html",
+     "title": "Notice of Registration (NOR), Bulk Manufacturers, 2019 to 2026: no entry for the University of Massachusetts, Amherst or Lyle Craker",
+     "publisher": "DEA Diversion Control Division",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.deadiversion.usdoj.gov/drugreg/marihuana.html",
+     "title": "Marihuana Growers Information: DEA-registered bulk manufacturers of marihuana (BRC, Groff NA Hemplex, Irvine Labs, Maridose, National Center for Development of Natural Products, Royal Emerald, Scottsdale Research Institute)",
+     "publisher": "DEA Diversion Control Division",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.federalregister.gov/documents/2009/01/14/E9-521/lyle-e-craker-denial-of-application",
+     "title": "Lyle E. Craker; Denial of Application",
+     "publisher": "Federal Register (Drug Enforcement Administration)",
+     "date": "2009-01-14",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "The DEA has never registered Prof. Lyle Craker or a University of Massachusetts Amherst facility as a bulk manufacturer of marihuana. His June 2001 application was denied by the DEA on 2009-01-14. The DEA Notice of Registration lists for bulk manufacturers, 2019 through 2026, contain no University of Massachusetts, Amherst or Craker entry, and the DEA marihuana growers page lists seven registered growers, none of them UMass. Craker died in May 2022. Not resolved by inference: this is the DEA's own registration record as of 2026-09-14."
+  },
+  {
+   "event_id": "E-0073",
+   "state": "occurred",
+   "date": "2021-06-26",
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.deadiversion.usdoj.gov/drugreg/nor/manufacturers/2021/DRG-21-0191_DRG-21-0065.html",
+     "title": "Notice of Registration: Groff NA Hemplex LLC, bulk manufacturer of schedule I controlled substances (referring to 85 FR 21889 and 86 FR 13587), signed 6/26/2021",
+     "publisher": "DEA Diversion Control Division",
+     "date": "2021-06-26",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.deadiversion.usdoj.gov/drugreg/nor/manufacturers/2021/DRG-17-0182_DRG-19-0034.html",
+     "title": "Notice of Registration: Biopharmaceutical Research Company, LLC, bulk manufacturer of schedule I controlled substances (referring to 84 FR 44920 and 86 FR 13587), signed 6/26/2021",
+     "publisher": "DEA Diversion Control Division",
+     "date": "2021-06-26",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.deadiversion.usdoj.gov/drugreg/marihuana.html",
+     "title": "Marihuana Growers Information: list of DEA-registered bulk manufacturers of marihuana",
+     "publisher": "DEA Diversion Control Division",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "On 2021-06-26 the DEA signed Notices of Registration granting schedule I bulk manufacturer registrations to Groff NA Hemplex LLC and to Biopharmaceutical Research Company, LLC. Both notices answer the marihuana grower applications published in the Federal Register (85 FR 21889 for Groff; 84 FR 44920 for BRC; both cite 86 FR 13587), so both are research-marijuana producers other than the NIDA contractor at the University of Mississippi. Since November 2019 the DEA publishes these Notices of Registration on its own site, not in the Federal Register. The DEA marihuana growers page still lists both. The May 2021 DEA memoranda of agreement were conditional and do not count."
+  },
+  {
+   "event_id": "E-0074",
+   "state": "occurred",
+   "date": "2021-05-03",
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://maps.org/2021/05/03/maps-phase-3-trial-of-mdma-assisted-therapy-for-ptsd-achieves-successful-results-for-patients-with-severe-chronic-ptsd/",
+     "title": "MAPS' Phase 3 Trial of MDMA-Assisted Therapy for PTSD Achieves Successful Results for Patients with Severe, Chronic PTSD",
+     "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS), sponsor",
+     "date": "2021-05-03",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.nature.com/articles/s41591-021-01336-3",
+     "title": "MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study (MAPP1)",
+     "publisher": "Nature Medicine",
+     "date": "2021-05-10",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://clinicaltrials.gov/study/NCT03537014",
+     "title": "A Multi-Site Phase 3 Study of MDMA-Assisted Psychotherapy for PTSD (MAPP1)",
+     "publisher": "ClinicalTrials.gov",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "The sponsor topline release of 2021-05-03 reports that MAPP1, the first Phase 3 trial of MDMA-assisted therapy for PTSD (NCT03537014, MAPS PBC), met its prespecified primary endpoint: CAPS-5 total severity fell more with MDMA-assisted therapy than with placebo plus therapy, p<0.0001. Nature Medicine published the same result on 2021-05-10 (mean change -24.4 vs -13.9; d=0.91). This is a Phase 3 result on the prespecified primary efficacy endpoint, not an interim or pooled analysis. The date is the sponsor release, which precedes the publication."
+  },
+  {
+   "event_id": "E-0075",
+   "state": "occurred",
+   "date": "2024-08-09",
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
+     "title": "Complete Response Letter, NDA 215455 (midomafetamine capsules), Lykos Therapeutics",
+     "publisher": "US Food and Drug Administration (openFDA CRL release)",
+     "date": "2024-08-08",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
+     "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
+     "publisher": "Lykos Therapeutics via PR Newswire",
+     "date": "2024-08-09",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.fda.gov/media/178984/download",
+     "title": "FDA Briefing Document, NDA 215455 midomafetamine, Psychopharmacologic Drugs Advisory Committee Meeting",
+     "publisher": "US Food and Drug Administration",
+     "date": "2024-06-04",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "The FDA complete response letter for NDA 215455 names functional unblinding as part of the basis for not accepting the efficacy results. Deficiency 3 says prior midomafetamine use made participants 'more likely to recognize the effects of midomafetamine (i.e., leading to functional unblinding) and anticipate a treatment benefit', and concludes: 'These limitations impact the interpretability of MAPP1 and MAPP2 and, together with failure of MPLONG to provide evidence of a durable treatment effect, preclude the ability to establish substantial evidence of effectiveness.' Date is the issue date the sponsor disclosed; the letter's electronic signature reads 08/08/2024. The 2024-06-04 advisory committee briefing document already called functional unblinding a problem for interpreting efficacy, but stopped short of a deficiency finding."
+  },
+  {
+   "event_id": "E-0076",
+   "state": "unresolvable",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22MIDOMAFETAMINE%22&limit=5",
+     "title": "Drugs@FDA query, substance name MIDOMAFETAMINE: no matching application (HTTP 404, no matches)",
+     "publisher": "US Food and Drug Administration (openFDA / Drugs@FDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
+     "title": "Complete Response Letter, NDA 215455 (midomafetamine capsules), Lykos Therapeutics",
+     "publisher": "US Food and Drug Administration (openFDA CRL release)",
+     "date": "2024-08-08",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
+     "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
+     "publisher": "Lykos Therapeutics via PR Newswire",
+     "date": "2024-08-09",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "The criterion cannot be applied yet: it holds the event unresolved while no approval exists, and sets FALSE only on an approval with no REMS. The FDA has not approved midomafetamine for PTSD under any sponsor name. Drugs@FDA holds no midomafetamine application record; the only FDA action on NDA 215455 is the complete response letter, which asks for a new Phase 3 trial. Lykos accepted that path in October 2024 and had announced no resubmission as of 2026-09-14. There is therefore no approval letter and no REMS@FDA entry to read. Re-check after any future approval."
+  },
+  {
+   "event_id": "E-0077",
+   "state": "unresolvable",
+   "date": null,
+   "checked_through": "2026-09-14",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.substance_name:%22MIDOMAFETAMINE%22&limit=5",
+     "title": "Drugs@FDA query, substance name MIDOMAFETAMINE: no matching application (HTTP 404, no matches)",
+     "publisher": "US Food and Drug Administration (openFDA / Drugs@FDA)",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
+     "title": "Complete Response Letter, NDA 215455 (midomafetamine capsules), Lykos Therapeutics",
+     "publisher": "US Food and Drug Administration (openFDA CRL release)",
+     "date": "2024-08-08",
+     "accessed": "2026-09-14"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/rems/",
+     "title": "REMS@FDA: approved Risk Evaluation and Mitigation Strategies",
+     "publisher": "US Food and Drug Administration",
+     "date": "2026-09-14",
+     "accessed": "2026-09-14"
+    }
+   ],
+   "note": "The criterion cannot be applied yet: it holds the event unresolved while no approval exists. The FDA has not approved midomafetamine for PTSD under any sponsor name, so there is no approved labeling and no REMS document to read for a sponsor-trained-therapist requirement. Drugs@FDA holds no midomafetamine application record and REMS@FDA holds no midomafetamine entry. The only FDA action on NDA 215455 is the 2024 complete response letter, which asks for a new Phase 3 trial. Re-check after any future approval."
+  }
+ ]
+}
