@@ -1,0 +1,680 @@
+{
+ "packet": "recheck-01.json",
+ "cases": [
+  {
+   "event": {
+    "id": "E-0002",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "MAPP1 (NCT03537014), the first Phase 3 trial of MDMA-assisted therapy for PTSD",
+    "entity": "MAPS Public Benefit Corporation (sponsor)",
+    "title": "MAPP1 Phase 3 trial of MDMA-assisted therapy for PTSD meets its primary endpoint",
+    "proposition": "MAPP1 (NCT03537014), the first Phase 3 trial of MDMA-assisted therapy for PTSD, reports its prespecified primary endpoint met with statistical significance.",
+    "criterion": "TRUE on the date of the sponsor's topline release, the ClinicalTrials.gov results posting or the peer-reviewed publication that first reports that MAPP1 (NCT03537014), the first Phase 3 trial of MDMA-assisted therapy for PTSD, met its prespecified primary endpoint (change in CAPS-5 total severity score versus placebo with therapy) with statistical significance as reported by the sponsor. FALSE on the date the sponsor first reports that the primary endpoint was not met, and FALSE at the deadline when no primary-endpoint result has been reported. Secondary endpoints, interim analyses and pooled analyses do not count. Resolution source: the ClinicalTrials.gov record NCT03537014 (results section), with the sponsor's topline press release or the first publication fixing the date.",
+    "resolution_source": {
+     "name": "ClinicalTrials.gov record NCT03537014 (results); sponsor topline press release or first publication as the secondary source",
+     "url": "https://clinicaltrials.gov/study/NCT03537014"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'the study' that 'the other people' are finishing (doblin-0012) and 'Phase 3 results match Phase 2' (doblin-0007) both read as the first Phase 3 trial, MAPP1, meeting its primary endpoint.",
+     "Statistical significance is read at the trial's prespecified alpha on the primary endpoint, as reported by the sponsor."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0002",
+    "state": "occurred",
+    "date": "2021-05-03",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://maps.org/2021/05/03/maps-phase-3-trial-of-mdma-assisted-therapy-for-ptsd-achieves-successful-results-for-patients-with-severe-chronic-ptsd/",
+      "title": "MAPS' Phase 3 Trial of MDMA-Assisted Therapy for PTSD Achieves Successful Results for Patients with Severe, Chronic PTSD",
+      "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS), sponsor",
+      "date": "2021-05-03",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://clinicaltrials.gov/study/NCT03537014",
+      "title": "A Multi-Site Phase 3 Study of MDMA-Assisted Psychotherapy for PTSD (MAPP1), NCT03537014, results section",
+      "publisher": "ClinicalTrials.gov (US National Library of Medicine)",
+      "date": "2021-09-16",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.nature.com/articles/s41591-021-01336-3",
+      "title": "MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study",
+      "publisher": "Nature Medicine",
+      "date": "2021-05-10",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33972795/",
+      "title": "PubMed record 33972795 (Nature Medicine, electronic publication 2021-05-10; NCT03537014)",
+      "publisher": "PubMed (US National Library of Medicine)",
+      "date": "2021-05-10",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Occurred. The sponsor's topline release of 2021-05-03 first reported that MAPP1 (NCT03537014, 90 participants) met its prespecified primary endpoint: MDMA-assisted therapy gave a significant reduction in CAPS-5 total severity versus placebo with therapy (p<0.0001). The peer-reviewed publication followed in Nature Medicine on 2021-05-10 (d=0.91, P<0.0001), and ClinicalTrials.gov posted results on 2021-09-16 (CAPS-5 change -24.5 vs -12.64). The 2020 interim analysis is excluded by the criterion, so the date is the earliest of the three named sources, the sponsor release.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0005",
+    "template": "court_outcome",
+    "area": "regulatory",
+    "asset": "Cerebral prescribing and business practices (government enforcement action)",
+    "entity": "US federal or state court, or federal or state enforcement agency (DOJ, DEA, FTC, state attorney general)",
+    "title": "Cerebral: government enforcement outcome over its prescribing practices",
+    "proposition": "A court or government agency convicts, sanctions, rules against, or accepts a settlement from Cerebral (or its executives) for regulatory violations or crimes in its prescribing or business practices.",
+    "criterion": "TRUE on the docket date of a verdict, sentence, judgment, consent order or filed settlement in which a US federal or state court, or a federal or state enforcement agency (for example the Department of Justice, the DEA, the FTC, a state attorney general or a state medical board), convicts, sanctions, enters judgment against, or accepts a settlement or consent order from Cerebral, Inc. or a current or former Cerebral executive over Cerebral's controlled-substance prescribing or business practices. A subpoena, an announced investigation, an unresolved complaint or indictment, a private lawsuit or a voluntary policy change by Cerebral does not count. Resolution source: the court docket on CourtListener or PACER, with the DOJ or agency press release fixing the date of an agency settlement or order. FALSE at the deadline when no such docket entry or agency order exists.",
+    "resolution_source": {
+     "name": "Court docket (CourtListener or PACER); DOJ or agency press release as a secondary source",
+     "url": "https://www.courtlistener.com/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0005",
+    "state": "occurred",
+    "date": "2024-04-15",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/cerebral_joint_stipulation_order_permanent_injunction.pdf",
+      "title": "Joint Stipulation for Order for Permanent Injunction, Monetary Judgment, Civil Penalty Judgment, and Other Relief Against Defendant Cerebral, Inc. (U.S. v. Cerebral, Inc., No. 1:24-cv-21376-JLK, S.D. Fla., Document 6, entered on FLSD docket 04/15/2024)",
+      "publisher": "US District Court for the Southern District of Florida, via Federal Trade Commission",
+      "date": "2024-04-15",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/04/proposed-ftc-order-will-prohibit-telehealth-firm-cerebral-using-or-disclosing-sensitive-data",
+      "title": "Proposed FTC Order will Prohibit Telehealth Firm Cerebral from Using or Disclosing Sensitive Data for Advertising Purposes, and Require it to Pay $7 Million",
+      "publisher": "Federal Trade Commission",
+      "date": "2024-04-15",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/cerebral-inc-kyle-robertson-us-v-timeline-item-2024-04-15",
+      "title": "Cerebral, Inc. and Kyle Robertson, U.S. v. (timeline item, complaint and joint stipulation filed)",
+      "publisher": "Federal Trade Commission",
+      "date": "2024-04-15",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.courtlistener.com/docket/68432608/united-states-v-cerebral-inc/",
+      "title": "United States v. Cerebral, Inc., 1:24-cv-21376 (S.D. Fla.), docket (date filed 2024-04-12; cause 15:0045 Federal Trade Commission Act)",
+      "publisher": "CourtListener (Free Law Project)",
+      "date": "2024-04-12",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.justice.gov/usao-edny/media/1376051/dl?inline=",
+      "title": "Non-Prosecution Agreement between the U.S. Attorney's Office for the Eastern District of New York and Cerebral, Inc. (letter dated November 1, 2024)",
+      "publisher": "US Department of Justice, US Attorney's Office, Eastern District of New York",
+      "date": "2024-11-01",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.justice.gov/usao-edny/pr/telehealth-company-cerebral-agrees-pay-over-36-million-connection-business-practices",
+      "title": "Telehealth Company Cerebral Agrees to Pay Over $3.6 Million in Connection with Business Practices",
+      "publisher": "US Department of Justice, US Attorney's Office, Eastern District of New York",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://hitconsultant.net/2024/11/04/cerebral-inc-agrees-to-3-6m-settlement-over-unauthorized-distribution-of-controlled-substances/",
+      "title": "Cerebral to Pay $3.6M Settlement Over Unauthorized Distribution of Controlled Substances",
+      "publisher": "HIT Consultant",
+      "date": "2024-11-04",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.courtlistener.com/docket/67980226/united-states-of-america-v-cerebral-inc/",
+      "title": "United States of America v. Cerebral, Inc., 1:22-cv-00055 (N.D. Iowa), qui tam docket (US declined intervention 2023-10-13; voluntary dismissal 2023-11-05; case terminated 2023-11-06)",
+      "publisher": "CourtListener (Free Law Project)",
+      "date": "2022-06-22",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Occurred. First qualifying docket entry: the FTC-referred stipulated order against Cerebral, Inc. (permanent injunction, $5.1M consumer redress, $10M civil penalty with $2M payable) over its data-disclosure and cancellation business practices, filed by DOJ in U.S. v. Cerebral, Inc., No. 1:24-cv-21376 (S.D. Fla.), Document 6 entered on the docket 2024-04-15 (complaint filed 2024-04-12; the FTC copy shows the judge's signature block blank, so court entry came later). The criterion counts a filed settlement over 'prescribing or business practices'. The prescribing-specific outcome came later: the EDNY non-prosecution agreement dated 2024-11-01 ($3.652M forfeiture, $2.922M deferred penalty; announced 2024-11-04) for Controlled Substances Act conduct in 2019-2022. The 2022 N.D. Iowa qui tam (1:22-cv-00055) was declined by the US and voluntarily dismissed on 2023-11-06, so it does not count.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0006",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "SNT (Stanford Neuromodulation Therapy, accelerated iTBS) or another accelerated iTBS protocol for depression",
+    "entity": "Magnus Medical, Stanford University, or another sponsor of an accelerated iTBS trial",
+    "title": "SNT or accelerated iTBS for depression: a subsequent RCT meets its primary endpoint",
+    "proposition": "A randomized controlled trial of SNT or another accelerated iTBS protocol for depression, reported after 11 July 2022, meets its prespecified primary endpoint with statistical significance.",
+    "criterion": "TRUE on the date of the first sponsor topline release, ClinicalTrials.gov results posting or peer-reviewed publication dated after 2022-07-11 that reports a randomized controlled trial of SNT (Stanford Neuromodulation Therapy, the accelerated intermittent theta-burst TMS protocol commercialized by Magnus Medical) or another accelerated iTBS protocol for a depressive disorder, distinct from the Stanford SNT trial already published at the statement date, in which the prespecified primary efficacy endpoint met statistical significance versus the control arm as reported by the sponsor or the authors. Open-label series, secondary endpoints and pooled analyses do not count. Resolution source: the trial's ClinicalTrials.gov record and results posting, with the first peer-reviewed publication or sponsor release fixing the date. FALSE at the deadline when no such trial result has been reported.",
+    "resolution_source": {
+     "name": "ClinicalTrials.gov record and results posting of the trial; peer-reviewed publication or sponsor release as the secondary source",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'SNT and similar approaches' is read as SNT or another accelerated iTBS protocol (several iTBS sessions a day over about five days), per the author's own description of SNT in the post.",
+     "'demonstrate statistical significance' is read as the primary efficacy endpoint meeting significance in a randomized controlled trial; the author names randomized controlled trials as the test in the same post (owen-0072).",
+     "'and be Helpful' is split off as owen-0070-b and is not written into this event."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0006",
+    "state": "occurred",
+    "date": "2024-07-10",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11238064/",
+      "title": "Accelerated Intermittent Theta-Burst Stimulation and Treatment-Refractory Bipolar Depression: A Randomized Clinical Trial (Sheline et al., JAMA Psychiatry, published online July 10, 2024)",
+      "publisher": "JAMA Psychiatry via PubMed Central",
+      "date": "2024-07-10",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://doi.org/10.1001/jamapsychiatry.2024.1787",
+      "title": "Accelerated Intermittent Theta-Burst Stimulation and Treatment-Refractory Bipolar Depression: A Randomized Clinical Trial (DOI record; created 2024-07-10, print issue 2024-09-01)",
+      "publisher": "JAMA Psychiatry (American Medical Association)",
+      "date": "2024-07-10",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://clinicaltrials.gov/study/NCT05228457",
+      "title": "Intensive TMS for Bipolar Depression (NCT05228457; University of Pennsylvania; randomized, triple-masked; conditions: Bipolar Depression, Treatment Resistant Depression; results first posted 2025-03-12)",
+      "publisher": "ClinicalTrials.gov (US National Library of Medicine)",
+      "date": "2025-03-12",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40042840/",
+      "title": "Accelerated Theta-Burst Stimulation for Treatment-Resistant Depression: A Randomized Clinical Trial (Ramos et al., JAMA Psychiatry 2025; NCT05388539)",
+      "publisher": "PubMed (US National Library of Medicine)",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11043680/",
+      "title": "Effect of novel accelerated intermittent theta burst stimulation on suicidal ideation in adolescent patients with major depressive episode: a randomised clinical trial (Huang et al., General Psychiatry; primary endpoint not met, p=0.170)",
+      "publisher": "General Psychiatry via PubMed Central",
+      "date": "2024-04-22",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Occurred. First qualifying report after 2022-07-11: Sheline et al., JAMA Psychiatry, online 2024-07-10 (NCT05228457, Univ. of Pennsylvania): imaging-guided accelerated iTBS, 10 sessions/day for 5 days (90,000 pulses, SNT-like), 24 patients with treatment-resistant bipolar depression, randomized, sham-controlled; primary MADRS at treatment end -14.75 vs sham (P<.001, d -2.19); CT.gov results posted 2025-03-12. Reading: bipolar depression counts as 'a depressive disorder' because the event is 'for depression' and the registered conditions include treatment-resistant depression. Earlier post-2022 accelerated iTBS RCTs missed their primary endpoint (Wilkening 2022; Li 2023; Huang 2024) or had no sham arm (Cheng 2023). If bipolar depression is excluded, the first qualifying MDD trial is Ramos et al., JAMA Psychiatry, online March 2025 (NCT05388539; HDRS-17 at week 5, P<.001).",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0008",
+    "template": "company_event",
+    "area": "company_market",
+    "asset": "SAINT neuromodulation system (fMRI-guided accelerated iTBS for depression)",
+    "entity": "Magnus Medical",
+    "title": "SAINT neuromodulation system becomes commercially available in the US",
+    "proposition": "Magnus Medical makes the SAINT neuromodulation system commercially available to patients in the United States.",
+    "criterion": "TRUE on the date of Magnus Medical's definitive public announcement (press release) that the SAINT neuromodulation system is commercially available in the United States, or that the first commercial, non-trial patient has been treated with it at a US clinic. FDA clearance alone, a waitlist or limited-release notice, a research-only installation or a rumor does not count. Resolution source: Magnus Medical press releases. FALSE at the deadline when no such announcement has been made.",
+    "resolution_source": {
+     "name": "Magnus Medical press releases"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'available' is read as commercial availability to patients outside a trial, not general or wide availability",
+     "FDA clearance of SAINT, public at the statement date, does not count as availability"
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0008",
+    "state": "occurred",
+    "date": "2024-04-30",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.magnusmedical.com/press-release/commercial-launch/",
+      "title": "Magnus Medical Announces Commercial Launch of Groundbreaking SAINT Neuromodulation System (Burlingame, Calif., April 30, 2024)",
+      "publisher": "Magnus Medical, Inc.",
+      "date": "2024-04-30",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.biospace.com/magnus-medical-announces-commercial-launch-of-groundbreaking-saint-neuromodulation-system",
+      "title": "Magnus Medical Announces Commercial Launch of Groundbreaking SAINT Neuromodulation System (Business Wire release republished)",
+      "publisher": "BioSpace",
+      "date": "2024-04-30",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.magnusmedical.com/press-release/fda-clearance-saint/",
+      "title": "Magnus Medical Receives FDA Clearance for the SAINT Neuromodulation System (states commercial launch expected later in 2023 on a limited basis)",
+      "publisher": "Magnus Medical, Inc.",
+      "date": "2022-09-06",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.magnusmedical.com/press-release/clinical-trial-announcement/",
+      "title": "Magnus Medical Announces First Participants Treated in Study Using SAINT Neuromodulation System for Major Depression (open-label optimization trial, not commercial use)",
+      "publisher": "Magnus Medical, Inc.",
+      "date": "2023-07-20",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.magnusmedical.com/press-release-sitemap.xml",
+      "title": "Magnus Medical press-release sitemap (all 13 press releases; none between 2023-10-23 and 2024-04-30)",
+      "publisher": "Magnus Medical, Inc.",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Occurred. Magnus Medical's press release dated 2024-04-30 'announced the commercial launch of the SAINT neuromodulation system' for treatment-resistant MDD and named the first customer sites (University of Arkansas for Medical Sciences, MUSC Health, Acacia Clinics, Kaizen Brain Center); UAMS is quoted as the first site in the nation to offer SAINT, and the release also reports CMS NTAP approval. This is the sponsor's definitive commercial-availability announcement required by the criterion. Earlier Magnus releases do not qualify: 2022-09-06 FDA clearance (launch 'expected ... later in 2023 on a limited basis'), 2023-05-15 study results, 2023-07-20 first participants treated in the OLO study (trial, not commercial), 2023-10-23 CPT Category III codes. The sponsor's press-release sitemap lists no other release between 2023-10-23 and 2024-04-30.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0009",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "MAPP2 (NCT04077437), the second Phase 3 trial of MDMA-assisted therapy for PTSD",
+    "entity": "MAPS Public Benefit Corporation (sponsor)",
+    "title": "MAPP2 Phase 3 trial of MDMA-assisted therapy for PTSD meets its primary endpoint",
+    "proposition": "MAPP2 (NCT04077437), the second Phase 3 trial of MDMA-assisted therapy for PTSD, reports its prespecified primary endpoint met with statistical significance.",
+    "criterion": "TRUE on the date of the sponsor's topline release, the ClinicalTrials.gov results posting or the peer-reviewed publication that first reports that MAPP2 (NCT04077437), the second Phase 3 trial of MDMA-assisted therapy for PTSD, met its prespecified primary endpoint (change in CAPS-5 total severity score versus placebo with therapy) with statistical significance as reported by the sponsor. FALSE on the date the sponsor first reports that the primary endpoint was not met, and FALSE at the deadline when no primary-endpoint result has been reported. Secondary endpoints, interim analyses and pooled analyses do not count. Resolution source: the ClinicalTrials.gov record NCT04077437 (results section), with the sponsor's topline press release or the first publication fixing the date.",
+    "resolution_source": {
+     "name": "ClinicalTrials.gov record NCT04077437 (results); sponsor topline press release or first publication as the secondary source",
+     "url": "https://clinicaltrials.gov/study/NCT04077437"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'the second phase three study looks good' reads as MAPP2 meeting its prespecified primary endpoint with statistical significance."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0009",
+    "state": "occurred",
+    "date": "2023-01-05",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.prnewswire.com/news-releases/maps-pbc-announces-positive-results-from-confirmatory-phase-3-mapp2-trial-of-mdma-assisted-therapy-for-treatment-of-ptsd-301713868.html",
+      "title": "MAPS PBC Announces Positive Results from Confirmatory Phase 3 \"MAPP2\" Trial of MDMA-Assisted Therapy for Treatment of PTSD",
+      "publisher": "MAPS Public Benefit Corporation (via PR Newswire)",
+      "date": "2023-01-05",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://clinicaltrials.gov/study/NCT04077437",
+      "title": "A Multi-Site Phase 3 Study of MDMA-Assisted Psychotherapy for PTSD (MAPP2), NCT04077437, results section",
+      "publisher": "ClinicalTrials.gov (U.S. National Library of Medicine)",
+      "date": "2023-10-11",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://europepmc.org/article/MED/37709999",
+      "title": "MDMA-assisted therapy for moderate to severe PTSD: a randomized, placebo-controlled phase 3 trial (Nature Medicine 29:2473-2480; PMID 37709999)",
+      "publisher": "Nature Medicine (record via Europe PMC)",
+      "date": "2023-09-14",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Criterion: the first of the sponsor topline release, the CT.gov results posting or the publication that reports the prespecified primary endpoint (CAPS-5 change vs placebo with therapy) met with statistical significance. The sponsor release of 2023-01-05 states that MAPP2 (NCT04077437; 104 randomized) 'met both the primary endpoint as measured by the change from baseline in CAPS-5' and the key secondary SDS endpoint; it gives no p-value. Significance is confirmed by the peer-reviewed report (Nature Medicine, 2023-09-14: LS mean CAPS-5 change -23.7 vs -14.8, P<0.001, d=0.7) and by the CT.gov results section (first posted 2023-10-11). Date fixed at the topline release, the earliest of the three. The 2024 CRL and the 2026 NDA resubmission concern approval, not this trial-result event.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0010",
+    "template": "company_event",
+    "area": "clinical_trial",
+    "asset": "psilocybin drug product (any sponsor, any indication): first Phase 3 trial start",
+    "entity": "Any sponsor of a psilocybin drug program",
+    "title": "A Phase 3 trial of a psilocybin drug product starts",
+    "proposition": "A sponsor starts a Phase 3 clinical trial of a psilocybin drug product for any indication.",
+    "criterion": "TRUE on the earlier of (a) the date of a sponsor press release that announces the first participant enrolled or dosed in a trial registered as Phase 3 on ClinicalTrials.gov or the EU Clinical Trials Register whose investigational product is psilocybin, for any indication, or (b) the actual study start date recorded for such a trial on ClinicalTrials.gov. Registration alone (status Not yet recruiting), a Phase 2/3 label with no Phase 3 portion under way, and an announcement of plans do not count. Resolution source: ClinicalTrials.gov, with the sponsor press release as a secondary source. FALSE at the deadline when no Phase 3 trial of a psilocybin drug product has started.",
+    "resolution_source": {
+     "name": "ClinicalTrials.gov; sponsor press release as a secondary source",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'The phase three studies will have started with psilocybin' names no sponsor or indication; any Phase 3 trial of psilocybin counts.",
+     "company_event is the closest template for a trial start; the event resolves on the start, not on any result."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0010",
+    "state": "occurred",
+    "date": "2022-03-03",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://clinicaltrials.gov/study/NCT05163496",
+      "title": "Frontline Clinician Psilocybin Study (NCT05163496), University of Washington, Phase 3, actual start 2022-03-03",
+      "publisher": "ClinicalTrials.gov (U.S. National Library of Medicine)",
+      "date": "2025-03-18",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=psilocybin&filter.advanced=AREA%5BPhase%5DPHASE3&sort=StartDate%3Aasc",
+      "title": "ClinicalTrials.gov API v2 search: studies of psilocybin registered as Phase 3, sorted by start date (16 records)",
+      "publisher": "ClinicalTrials.gov (U.S. National Library of Medicine)",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://clinicaltrials.gov/study/NCT05624268",
+      "title": "Efficacy, Safety, and Tolerability of COMP360 in Participants With TRD (COMP005, NCT05624268), Phase 3, actual start 2023-01-24",
+      "publisher": "ClinicalTrials.gov (U.S. National Library of Medicine)",
+      "date": "2026-08-10",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Criterion (b): the actual start date recorded on CT.gov for a trial registered as Phase 3 whose product is psilocybin, any sponsor, any indication; the readings say any Phase 3 psilocybin trial counts. A CT.gov search of Phase 3 psilocybin studies sorted by start date returns NCT05163496 first: University of Washington, 'Frontline Clinician Psilocybin Study', registered PHASE3, psilocybin 25 mg (Usona Institute) vs niacin, n=30, actual start 2022-03-03, completed, results posted. Applied as written: true on 2022-03-03. Flag for recheck: this is a small investigator-initiated trial. The first industry-run Phase 3 is Compass COMP005 (NCT05624268, first posted 2022-11-22, actual start 2023-01-24), then COMP006 (2023-02-14) and Usona uAspire (2024-03-13). If the registry means sponsor-run registrational trials only, the date is 2023-01-24; the state is occurred either way.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0012",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "DEA February 2023 proposed rule on telemedicine prescribing of controlled substances",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA February 2023 proposed telemedicine controlled-substance rule is revised, withdrawn or replaced",
+    "proposition": "DEA revises, withdraws or replaces its February 2023 proposed rule on telemedicine prescribing of controlled substances rather than finalizing it as proposed.",
+    "criterion": "TRUE on the Federal Register publication date of a DEA action on its February 2023 proposed rule on telemedicine prescribing of controlled substances without a prior in-person medical evaluation that departs from finalizing the proposal as written: a final rule whose operative requirements differ materially from the proposal (for example on the in-person evaluation requirement), a formal withdrawal of the proposal, or a new proposed rule that supersedes it. A temporary rule or order that only extends existing flexibilities while the proposal stays pending is not a revision, withdrawal or replacement of the proposal. FALSE on the Federal Register publication date of a final rule that adopts the February 2023 proposal without material change, and FALSE at the deadline when the proposal has been neither revised, withdrawn nor replaced. Resolution source: the Federal Register.",
+    "resolution_source": {
+     "name": "Federal Register",
+     "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0012",
+    "state": "occurred",
+    "date": "2025-01-17",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-17/html/2025-01099.htm",
+      "title": "Special Registrations for Telemedicine and Limited State Telemedicine Registrations; Notice of Proposed Rulemaking, 90 FR 6541 (Docket DEA-407, RIN 1117-AB40)",
+      "publisher": "Federal Register (via GovInfo)",
+      "date": "2025-01-17",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.federalregister.gov/documents/2023/03/01/2023-04248/telemedicine-prescribing-of-controlled-substances-when-the-practitioner-and-the-patient-have-not-had",
+      "title": "Telemedicine Prescribing of Controlled Substances When the Practitioner and the Patient Have Not Had a Prior In-Person Medical Evaluation; Notice of Proposed Rulemaking, 88 FR 12875 (Docket DEA-407, RIN 1117-AB40)",
+      "publisher": "Federal Register",
+      "date": "2023-03-01",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bdocket_id%5D=DEA-407&order=newest",
+      "title": "Federal Register API: all documents in docket DEA-407 (7 documents, 2023-03-01 to 2025-12-31)",
+      "publisher": "Federal Register",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=1117-AB40",
+      "title": "Unified Agenda, RIN 1117-AB40: Special Registrations for Telemedicine and Limited State Telemedicine Registrations (Spring 2025 entry with rulemaking timetable)",
+      "publisher": "Office of Information and Regulatory Affairs (reginfo.gov)",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Criterion: FR publication of a DEA action on the Feb/March 2023 General Telemedicine NPRM (88 FR 12875, RIN 1117-AB40) that departs from finalizing it as written, including a new proposed rule that supersedes it; temporary extensions do not count. On 2025-01-17 DEA published a new NPRM under the same RIN and docket (DEA-407). It says DEA 'reevaluated its approach' after the 2023 comments, rejected the alternative of 'finalizing the proposed March 2023 General Telemedicine NPRM', and that the new proposal 'no longer contains an in-person medical examination requirement' or the 30-day supply limit. The Unified Agenda lists it as the revised NPRM of the same rulemaking. Applied as a superseding new proposal: occurred 2025-01-17. No formal withdrawal notice exists; the docket otherwise holds only temporary extensions (2023 to 2025) and no final rule through 2026-09-13.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0014",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "DEA COVID-era telemedicine flexibilities for prescribing controlled substances",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA extends the COVID-era telemedicine flexibilities for controlled-substance prescribing past the PHE end",
+    "proposition": "DEA issues a rule or order that extends the COVID-era telemedicine flexibilities for prescribing controlled substances beyond the end of the COVID-19 public health emergency.",
+    "criterion": "TRUE on the Federal Register publication date (or the DEA announcement date, if earlier) of a temporary rule or order that extends the COVID-era telemedicine flexibilities for prescribing controlled substances beyond the end of the COVID-19 public health emergency, so that the Ryan Haight Act in-person visit requirement does not return for telehealth patients at the PHE end. A proposed rule is not an extension. FALSE when the flexibilities expire at the PHE end with no such rule or order published, and FALSE at the deadline when no extension appears in the Federal Register. Resolution source: the Federal Register.",
+    "resolution_source": {
+     "name": "Federal Register",
+     "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": "dea_telemedicine_extension",
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'The Ryan Haight Act returns', 'in-office visits return for everybody everywhere' and an 'instant' return to in-person providers are read as the in-person requirement applying again to all telehealth controlled-substance patients at the PHE end.",
+     "Any DEA rule or order that continues remote prescribing of controlled substances without an in-person visit past the PHE end counts as an extension."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0014",
+    "state": "occurred",
+    "date": "2023-05-09",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.federalregister.gov/documents/2023/05/10/2023-09936/temporary-extension-of-covid-19-telemedicine-flexibilities-for-prescription-of-controlled-medications",
+      "title": "Temporary Extension of COVID-19 Telemedicine Flexibilities for Prescription of Controlled Medications; Temporary rule, 88 FR 30037 (Docket DEA-407)",
+      "publisher": "Federal Register",
+      "date": "2023-05-10",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-05-10/html/2023-09936.htm",
+      "title": "Temporary Extension of COVID-19 Telemedicine Flexibilities for Prescription of Controlled Medications (full text, 88 FR 30037-30043)",
+      "publisher": "Federal Register (via GovInfo)",
+      "date": "2023-05-10",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.dea.gov/press-releases/2023/05/09/dea-samhsa-extend-covid-19-telemedicine-flexibilities-for-prescribing",
+      "title": "DEA, SAMHSA Extend COVID-19 Telemedicine Flexibilities for Prescribing Controlled Medications for Six Months While Considering Comments from the Public",
+      "publisher": "U.S. Drug Enforcement Administration",
+      "date": "2023-05-09",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.aamc.org/advocacy-policy/washington-highlights/dea-and-samhsa-temporarily-extend-covid-19-telemedicine-flexibilities",
+      "title": "DEA and SAMHSA Temporarily Extend COVID-19 Telemedicine Flexibilities",
+      "publisher": "Association of American Medical Colleges",
+      "date": "2023-05-12",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Criterion: the FR publication date, or the earlier DEA announcement date, of a temporary rule or order extending the COVID-era telemedicine flexibilities past the PHE end so the Ryan Haight in-person requirement did not return. DEA and SAMHSA announced the 'Temporary Extension of COVID-19 Telemedicine Flexibilities for Prescription of Controlled Medications' on 2023-05-09; it was published 2023-05-10 (88 FR 30037, Docket DEA-407) and took effect 2023-05-11, the PHE end date, keeping the full flexibilities through 2023-11-11 with a one-year grace period to 2024-11-11 for relationships formed by then. Date set to the DEA announcement, 2023-05-09, as the criterion directs. The dea.gov page returned HTTP 403 to automated fetching; its date is fixed by the URL path, the search index and the AAMC item of 2023-05-12 ('On May 9 ... published'), and its content by the FR text.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0015",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "DEA COVID-era telemedicine flexibilities for prescribing controlled substances (second extension)",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA extends the COVID-era telemedicine flexibilities for controlled-substance prescribing a second time",
+    "proposition": "DEA issues a second rule or order that extends the COVID-era telemedicine flexibilities for prescribing controlled substances beyond the end date set by the first extension.",
+    "criterion": "TRUE on the Federal Register publication date of a second DEA rule or order that extends the COVID-era telemedicine flexibilities for prescribing controlled substances beyond the end date set by the first extension. Requires that a first extension exists. A proposed rule is not an extension; a permanent final rule that replaces the flexibilities is not an extension. FALSE at the deadline when no second extension has been published in the Federal Register, including when the flexibilities lapse at the end date set by the first extension. Resolution source: the Federal Register.",
+    "resolution_source": {
+     "name": "Federal Register",
+     "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": "dea_telemedicine_extension",
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'Another extension' is read as a second temporary extension after the first; a permanent final rule that replaces the flexibilities is not an extension."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0015",
+    "state": "occurred",
+    "date": "2023-10-10",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.federalregister.gov/documents/2023/10/10/2023-22406/second-temporary-extension-of-covid-19-telemedicine-flexibilities-for-prescription-of-controlled",
+      "title": "Second Temporary Extension of COVID-19 Telemedicine Flexibilities for Prescription of Controlled Medications; Temporary rule, 88 FR 69879 (Docket DEA-407)",
+      "publisher": "Federal Register",
+      "date": "2023-10-10",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-10-10/html/2023-22406.htm",
+      "title": "Second Temporary Extension of COVID-19 Telemedicine Flexibilities for Prescription of Controlled Medications (full text, 88 FR 69879-69883)",
+      "publisher": "Federal Register (via GovInfo)",
+      "date": "2023-10-10",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bdocket_id%5D=DEA-407&order=newest",
+      "title": "Federal Register API: all documents in docket DEA-407 (7 documents, 2023-03-01 to 2025-12-31)",
+      "publisher": "Federal Register",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Criterion: the FR publication date of a second DEA rule or order extending the flexibilities beyond the end date set by the first extension (2023-11-11, grace period to 2024-11-11). The first extension exists (88 FR 30037, 2023-05-10). The 'Second Temporary Extension' (Docket DEA-407, RIN 1117-AB40 and 1117-AB78) was published 2023-10-10, took effect 2023-11-11, and extends the full flexibilities for all practitioner-patient relationships through 2024-12-31. It is a temporary rule, not a permanent replacement, so it qualifies. DEA announced it on 2023-10-06, but this criterion names only the FR publication date. The later third (2024-11-19) and fourth (2025-12-31) extensions do not change the first-true date.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0016",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "asset": "SAINT Neuromodulation (Magnus Medical): Medicare new technology add-on payment (NTAP)",
+    "entity": "Centers for Medicare & Medicaid Services (CMS)",
+    "title": "Medicare new technology add-on payment for SAINT Neuromodulation",
+    "proposition": "CMS approves a Medicare New Technology Add-On Payment (NTAP) for SAINT Neuromodulation under the inpatient prospective payment system.",
+    "criterion": "TRUE on the effective date of a Medicare inpatient prospective payment system (IPPS) final rule, published in the Federal Register by CMS, that approves a New Technology Add-On Payment for SAINT Neuromodulation. The proposed rule, the open comment period, a coding assignment or a national coverage analysis is not approval. Resolution source: the Federal Register (CMS Medicare IPPS final rule, NTAP determinations). FALSE at the deadline when no IPPS final rule approving an NTAP for SAINT Neuromodulation has been published.",
+    "resolution_source": {
+     "name": "Federal Register (CMS Medicare IPPS final rule, NTAP determinations)",
+     "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'under Medicare, go to a hospital with depression and leave no longer depressed' is read as Medicare paying for SAINT in hospitals through the NTAP program the post names.",
+     "'79% of the time' restates the SAINT trial remission rate; it is not a separate scored claim."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0016",
+    "state": "occurred",
+    "date": "2023-10-01",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-08-28/html/2023-16252.htm",
+      "title": "Medicare Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals and the Long-Term Care Hospital Prospective Payment System and Policy Changes and Fiscal Year 2024 Rates; final rule, 88 FR 58640, NTAP item (8) SAINT Neuromodulation System",
+      "publisher": "Federal Register (via GovInfo)",
+      "date": "2023-08-28",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.federalregister.gov/documents/2023/08/28/2023-16252/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-and-the",
+      "title": "FY 2024 IPPS/LTCH PPS final rule, 88 FR 58640 (effective 2023-10-01)",
+      "publisher": "Federal Register",
+      "date": "2023-08-28",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.magnusmedical.com/press-releases/magnus-medical-announces-commercial-launch-of-groundbreaking-saint-neuromodulation-system/",
+      "title": "Magnus Medical Announces Commercial Launch of Groundbreaking SAINT Neuromodulation System",
+      "publisher": "Magnus Medical, Inc.",
+      "date": "2024-04-30",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=%22SAINT%20Neuromodulation%22&conditions%5Bagencies%5D%5B%5D=centers-for-medicare-medicaid-services&order=oldest",
+      "title": "Federal Register API: CMS documents mentioning 'SAINT Neuromodulation' (FY 2024 to FY 2027 IPPS and OPPS rules)",
+      "publisher": "Federal Register",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Criterion: the effective date of a CMS IPPS final rule in the Federal Register that approves an NTAP for SAINT Neuromodulation. The FY 2024 IPPS/LTCH PPS final rule (88 FR 58640, published 2023-08-28, effective 2023-10-01) states: 'we are finalizing our proposal to approve new technology add-on payments for the SAINT Neuromodulation System for FY 2024', maximum add-on payment $12,675 (65% of the $19,500 cost per case), cases identified by ICD-10-PCS X0Z0X18, for MDD in adults who failed prior antidepressant medication. Date = effective date 2023-10-01. Magnus's 2024-04-30 launch release confirms the NTAP ('up to $12,675 per hospital inpatient treatment'). The NTAP was continued for FY 2025 and FY 2026; the FY 2027 final rule (published 2026-08-04, effective 2026-10-01) discontinues it, which does not alter the first-true date.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  }
+ ]
+}

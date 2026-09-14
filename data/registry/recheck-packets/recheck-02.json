@@ -1,0 +1,614 @@
+{
+ "packet": "recheck-02.json",
+ "cases": [
+  {
+   "event": {
+    "id": "E-0017",
+    "template": "company_event",
+    "area": "practice_adoption",
+    "asset": "SAINT (fMRI-guided accelerated iTBS neuromodulation, Magnus Medical) in US hospital settings",
+    "entity": "Magnus Medical (supplier) and adopting US hospitals",
+    "title": "SAINT neuromodulation becomes available to patients in a US hospital setting",
+    "proposition": "SAINT (fMRI-guided accelerated iTBS) is offered to patients in at least one US hospital setting, as announced by Magnus Medical or the hospital.",
+    "criterion": "TRUE on the date of the definitive public announcement (Magnus Medical press release or the hospital's own public announcement) that SAINT is available to patients in a US hospital setting (inpatient or hospital outpatient department), or that a first patient has been treated with SAINT at a US hospital. Availability only through a Magnus Medical research or open-label study at non-hospital clinics, a hospital's stated intention or agreement to install without patient availability, and any CMS payment decision by itself do not count. Resolution source: Magnus Medical press releases, with the adopting hospital's public announcement as a secondary source. FALSE at the deadline when no such announcement has been made.",
+    "resolution_source": {
+     "name": "Magnus Medical press releases; adopting hospital's public announcement as a secondary source"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'available in hospital settings' = at least one US hospital offers SAINT to patients (inpatient or hospital outpatient department); one hospital suffices.",
+     "'under the new technology add-on payment program' is the payment route the forecaster names, not a separate forecast of a CMS decision; the item does not resolve on any CMS action, so the sentence is one event, not an 'A and B' split."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0017",
+    "state": "occurred",
+    "date": "2024-06-11",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://news.uams.edu/2024/06/11/uams-first-in-nation-to-offer-groundbreaking-therapy-for-treatment-resistant-depression/",
+      "title": "UAMS First in Nation to Offer Groundbreaking Therapy for Treatment-Resistant Depression",
+      "publisher": "University of Arkansas for Medical Sciences (UAMS News)",
+      "date": "2024-06-11",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.magnusmedical.com/press-release/commercial-launch/",
+      "title": "Magnus Medical Announces Commercial Launch of Groundbreaking SAINT Neuromodulation System",
+      "publisher": "Magnus Medical",
+      "date": "2024-04-30",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.magnusmedical.com/press-release/cms-payment-approval-2025/",
+      "title": "Magnus Medical Announces CMS Approval of New Payment Rate for SAINT Treatment in 2025 Hospital Outpatient Rule",
+      "publisher": "Magnus Medical",
+      "date": "2024-11-12",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.musc.edu/content-hub/News/2026/04/14/tms-treatment",
+      "title": "A breakthrough for severe depression: MUSC Health delivers relief in days, not months",
+      "publisher": "Medical University of South Carolina",
+      "date": "2026-04-14",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.magnusmedical.com/press-release/magnus-expands-access-to-5-day-saint-depression-therapy/",
+      "title": "Magnus Expands Access to 5-Day SAINT Depression Therapy as Leading Health Systems Scale Nationwide Adoption",
+      "publisher": "Magnus Medical",
+      "date": "2026-05-05",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "First definitive announcement: UAMS news release of 2024-06-11 says UAMS is 'the first medical facility in the United States to provide' SAINT and that 'currently, SAINT can only be provided to patients who are being treated as inpatients'. That is the hospital's own announcement of patient availability in a hospital inpatient setting: TRUE on 2024-06-11. The Magnus launch release of 2024-04-30 named UAMS and MUSC Health as first customer sites and quoted UAMS as 'first site in the nation to offer' SAINT, but stated no patient availability or treated patient ('will work ... to implement'), so it was not treated as definitive; a rechecker could argue for 2024-04-30. Corroboration: Magnus 2024-11-12 (MUSC Health quoted; hospital outpatient payment from 2025-01-01), MUSC 2026-04-14 (first hospital system to offer SAINT in 2024), Magnus 2026-05-05. CMS payment decisions were not used.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0019",
+    "template": "device_authorization",
+    "area": "regulatory",
+    "asset": "Transcranial magnetic stimulation (TMS) devices, any manufacturer: a new authorized indication",
+    "entity": "US Food and Drug Administration (CDRH)",
+    "title": "FDA authorizes a TMS device for a new indication",
+    "proposition": "The FDA grants a 510(k) clearance, De Novo authorization or PMA approval for a transcranial magnetic stimulation device for a disease or condition beyond those authorized for any TMS device at the statement date.",
+    "criterion": "TRUE on the decision date in the FDA 510(k), De Novo or PMA database of a marketing authorization, dated after 2024-01-04, for a transcranial magnetic stimulation device whose indications-for-use statement names a disease or condition that no TMS device was authorized for on 2024-01-04. Conditions already authorized at the statement date (major depressive disorder including treatment-resistant depression, anxious depression, smoking cessation, obsessive-compulsive disorder, migraine for single-pulse TMS) do not count. A new population or protocol within an authorized condition, a breakthrough designation, an investigational device exemption or a non-US authorization does not count. Resolution source: the FDA 510(k) Premarket Notification database, with the De Novo and PMA databases for other pathways. FALSE at the deadline when no such authorization appears there.",
+    "resolution_source": {
+     "name": "FDA 510(k) Premarket Notification database; De Novo and PMA databases for other pathways",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'indications' = FDA-authorized indications for use of TMS devices. The forecaster lists the four conditions he treats as current; they are the FDA-cleared psychiatric and addiction indications at the statement date.",
+     "'more indications' = at least one disease or condition new to TMS as a device class; one authorization for one new condition suffices. Any TMS manufacturer counts, since the forecaster names none.",
+     "A population expansion or a protocol change within an already authorized condition is not a new indication; a listed condition under another name (MDD for TRD) is not new.",
+     "TRD counts as MDD.",
+     "The forecaster counts anxious depression as its own indication, so a new patient population for a listed disorder counts as a new indication."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0019",
+    "state": "occurred",
+    "date": "2026-06-03",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260402",
+      "title": "510(k) Premarket Notification K260402: MeRT System (Wave Neuroscience), product code SIG, decision date 06/03/2026",
+      "publisher": "U.S. Food and Drug Administration (510(k) database)",
+      "date": "2026-06-03",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260402.pdf",
+      "title": "K260402 substantial equivalence letter (June 3, 2026) and 510(k) Summary: MeRT System, indications for use as an adjunct for the treatment of adult patients suffering from Post Traumatic Stress Disorder (PTSD)",
+      "publisher": "U.S. Food and Drug Administration",
+      "date": "2026-06-03",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://api.fda.gov/device/classification.json?search=product_code:SIG",
+      "title": "openFDA device classification: product code SIG, Transcranial Magnetic Stimulation System For Post Traumatic Stress Disorder (PTSD), 21 CFR 882.5802",
+      "publisher": "U.S. Food and Drug Administration (openFDA)",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://api.fda.gov/device/510k.json?search=product_code:(OBP+QCI+QMD+OKP+SIG)+AND+decision_date:%5B2024-01-05+TO+2026-09-13%5D&limit=100",
+      "title": "openFDA 510(k) query: transcranial magnetic stimulation clearances (product codes OBP, QCI, QMD, OKP, SIG) decided 2024-01-05 to 2026-09-13",
+      "publisher": "U.S. Food and Drug Administration (openFDA)",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.prnewswire.com/news-releases/wave-neuroscience-announces-fda-clearance-of-mert-for-ptsd-302797513.html",
+      "title": "Wave Neuroscience Announces FDA Clearance of MeRT for PTSD",
+      "publisher": "Wave Neuroscience via PR Newswire",
+      "date": "2026-06-11",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "FDA 510(k) K260402 (Wave Neuroscience MeRT System) has decision date 2026-06-03 under 21 CFR 882.5802 with new product code SIG; the indications for use name an adjunct for treatment of adult patients with PTSD. PTSD was not an authorized TMS indication on 2024-01-04 (authorized: MDD/TRD, anxious depression, OCD, smoking cessation, sTMS migraine), so TRUE on 2026-06-03. Earlier check: every TMS 510(k) decided 2024-01-05 to 2026-06-02 carried product code OBP (MDD) or QCI (OCD); the adolescent MDD clearances (Neuronetics K231926, 2024-03-22; BrainsWay K251391, 2025-11-07) and accelerated protocols are population or protocol changes that the criterion excludes; no TMS PMA and no other new TMS product code exist. One registry reading says a new population counts; the criterion as written excludes it and governs here. Under that reading the date would be 2024-03-22 (K231926).",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0020",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "BPL-003 (intranasal 5-MeO-DMT) Phase 2b trial in treatment-resistant depression",
+    "entity": "Beckley Psytech",
+    "title": "BPL-003 (5-MeO-DMT) Phase 2b trial in treatment-resistant depression reports topline results",
+    "proposition": "Beckley Psytech or its parent reports topline results, positive or negative, of the Phase 2b trial of BPL-003 in treatment-resistant depression.",
+    "criterion": "TRUE on the date of the first sponsor topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports the primary endpoint result, positive or negative, of the Phase 2b randomized controlled trial of BPL-003 (intranasal 5-MeO-DMT) in treatment-resistant depression sponsored by Beckley Psytech, its parent company or a successor sponsor of BPL-003. Phase 2a or open-label results, an interim or pooled analysis, a trial-start or enrollment announcement, and a conference abstract that omits the primary endpoint result do not count. Resolution source: the sponsor's topline press release, with the trial's ClinicalTrials.gov record as the secondary source. FALSE at the deadline when no primary endpoint result of that trial has been reported.",
+    "resolution_source": {
+     "name": "Beckley Psytech topline press release; ClinicalTrials.gov record of the trial as the secondary source",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0020",
+    "state": "occurred",
+    "date": "2025-07-01",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.sec.gov/Archives/edgar/data/1840904/000114036125024290/ef20051402_ex99-1.htm",
+      "title": "atai Life Sciences and Beckley Psytech Announce Positive Topline Results from the Phase 2b Study of BPL-003 in Patients with Treatment-Resistant Depression (Form 8-K, Exhibit 99.1)",
+      "publisher": "ATAI Life Sciences N.V. via SEC EDGAR",
+      "date": "2025-07-01",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.globenewswire.com/news-release/2025/07/01/3108164/0/en/atai-Life-Sciences-and-Beckley-Psytech-Announce-Positive-Topline-Results-from-the-Phase-2b-Study-of-BPL-003-in-Patients-with-Treatment-Resistant-Depression.html",
+      "title": "atai Life Sciences and Beckley Psytech Announce Positive Topline Results from the Phase 2b Study of BPL-003 in Patients with Treatment-Resistant Depression",
+      "publisher": "atai Life Sciences and Beckley Psytech via GlobeNewswire",
+      "date": "2025-07-01",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://clinicaltrials.gov/study/NCT05870540",
+      "title": "BPL-003 Efficacy and Safety in Treatment Resistant Depression (NCT05870540), Beckley Psytech Limited; results first posted 2026-09-10",
+      "publisher": "ClinicalTrials.gov (National Library of Medicine)",
+      "date": "2026-09-10",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Sponsor topline press release dated 2025-07-01 (also filed as an 8-K exhibit the same day) reports the primary endpoint of the quadruple-masked, dose-finding core stage of Phase 2b NCT05870540 (Beckley Psytech Limited, parent atai): change from baseline in MADRS at Day 29, 12 mg vs 0.3 mg BPL-003, -11.1 vs -5.8 points, p=0.0038; 193 participants, 38 sites, 6 countries. This is the randomized core-stage primary result, not a Phase 2a, open-label, interim or pooled analysis, so TRUE on 2025-07-01. ClinicalTrials.gov results were posted later (2026-09-10) and match the primary outcome measure.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0027",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "Midomafetamine (MDMA-assisted therapy) for PTSD: the Lykos Therapeutics NDA under FDA review in June 2024",
+    "entity": "FDA",
+    "title": "FDA non-approval of the midomafetamine (MDMA-assisted therapy) NDA cites insufficient safety data",
+    "proposition": "The FDA's action on the Lykos Therapeutics midomafetamine NDA under review in June 2024 informs the sponsor that the application lacks the safety data necessary for approval: a complete response letter or other written non-approval that cites insufficient safety data or requests additional safety data.",
+    "criterion": "TRUE on the date the sponsor (Lykos Therapeutics) publicly discloses, or the FDA publicly states, that the FDA's action letter on the midomafetamine NDA under review on the statement date cites insufficient or missing safety data or requests additional safety data, alone or together with other deficiencies. FALSE on the date the FDA approves that NDA in the pending review cycle, on the date the sponsor's or the FDA's disclosed summary of the action letter names only deficiencies that do not concern safety data, or at the deadline when no FDA action letter on that NDA has been disclosed. A PDUFA date extension or a request for more review time is not the event. If the FDA has acted but neither the sponsor nor the FDA discloses the grounds within 12 months after the action, the event is unresolvable.",
+    "resolution_source": {
+     "name": "Lykos Therapeutics press releases and public statements describing the FDA action letter; FDA public statements as a secondary source"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'inform the study sponsor that they don't have the safety data necessary to approve the drug' = an FDA action letter on the pending NDA that cites insufficient safety data or requests additional safety data; the post names EKG and laboratory data, but any safety-data deficiency counts.",
+     "A complete response letter is the usual form of such a letter; any written FDA non-approval communication that the sponsor discloses counts.",
+     "MDMA-assisted therapy, MDMA-AT and midomafetamine name the same asset."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0027",
+    "state": "occurred",
+    "date": "2024-08-09",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
+      "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
+      "publisher": "Lykos Therapeutics via PR Newswire",
+      "date": "2024-08-09",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
+      "title": "Complete Response letter, NDA 215455, midomafetamine capsules (Lykos Therapeutics), published in the FDA CRL database",
+      "publisher": "US Food and Drug Administration (openFDA)",
+      "date": "2024-08-08",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://maps.org/2025/09/04/fda-public-release-of-crl/",
+      "title": "MAPS Statement on FDA's Public Release of Complete Response Letter for MDMA-assisted Therapy",
+      "publisher": "MAPS",
+      "date": "2025-09-04",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://psychedelicalpha.com/news/breaking-fda-publishes-lykos-therapeutics-mdma-complete-response-letter-crl/",
+      "title": "BREAKING: FDA Publishes Lykos Therapeutics' MDMA Complete Response Letter (CRL)",
+      "publisher": "Psychedelic Alpha",
+      "date": "2025-09-04",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "The sponsor disclosed the grounds first: on 2024-08-09 Lykos announced the CRL and said FDA 'requested that Lykos conduct an additional Phase 3 trial to further study the safety and efficacy of midomafetamine', a request for additional safety data together with other deficiencies, which satisfies the criterion on that date. The letter itself (dated 2024-08-08, published by FDA on 2025-09-04) confirms the safety-data grounds: the application did not 'establish the safety' of the product; unreported adverse events at two or more sites raised 'substantial concerns about the reliability of the safety data'; phase 3 laboratory data (liver analytes, electrolytes) were absent and the cardiac safety assessment was incomplete; FDA asked for a new trial to 'adequately characterize the safety'. No PDUFA extension was involved; FDA acted on the NDA that was under review in June 2024.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0032",
+    "template": "court_outcome",
+    "area": "company_market",
+    "asset": "Acadia Healthcare involuntary psychiatric holds alleged in the New York Times investigation: litigation",
+    "entity": "US federal or state courts (Acadia Healthcare as defendant)",
+    "title": "Litigation filed over Acadia Healthcare involuntary psychiatric holds",
+    "proposition": "A lawsuit or government enforcement action over the involuntary psychiatric holds alleged in the New York Times investigation is filed against Acadia Healthcare.",
+    "criterion": "TRUE on the docket date of the first civil complaint (including a patient or shareholder class action) or government civil or criminal action filed on or after 2024-09-04 against Acadia Healthcare or a subsidiary, or the date of the Acadia Healthcare SEC filing that first discloses such an action, in which the allegations include holding psychiatric patients against their will or beyond medical necessity as described in the New York Times investigation the author discusses. Suits that do not allege that conduct (for example ordinary malpractice claims), suits filed before 2024-09-04, and subpoenas or investigations without a filed action do not count. FALSE when no such action has been filed or disclosed by the deadline.",
+    "resolution_source": {
+     "name": "Court dockets (CourtListener, PACER); Acadia Healthcare SEC filings (legal proceedings)",
+     "url": "https://www.courtlistener.com/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'Litigation' is read as any filed civil or government action tied to the alleged involuntary holds; the author names no plaintiff type, so patient, shareholder and government actions all count.",
+     "'Will now ensue' is read as litigation not yet filed at the statement date; a suit filed before 2024-09-04 does not count.",
+     "company_event is used because the criterion resolves on a court filing or SEC disclosure about the company. The implied claim about profitability is not coded."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0032",
+    "state": "occurred",
+    "date": "2024-10-16",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.courtlistener.com/api/rest/v4/search/?q=%22Acadia%20Healthcare%22&type=r&order_by=dateFiled%20asc&filed_after=2024-09-04",
+      "title": "CourtListener RECAP search: 'Acadia Healthcare' dockets filed after 2024-09-04 (Kachrodia v. Acadia Healthcare Company, Inc., M.D. Tenn. 3:24-cv-01238, filed 2024-10-16)",
+      "publisher": "Free Law Project (CourtListener)",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.sec.gov/Archives/edgar/data/1520697/000095017024119044/achc-20240930.htm",
+      "title": "Acadia Healthcare Company, Inc. Form 10-Q for the quarter ended September 30, 2024 (discloses Kachrodia complaint filed 2024-10-16 and Dyar complaint filed 2024-10-29)",
+      "publisher": "Acadia Healthcare via SEC EDGAR",
+      "date": "2024-10-30",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.globenewswire.com/news-release/2024/10/28/2970416/0/en/Acadia-Healthcare-ACHC-Faces-Class-Action-Lawsuit-Over-Patient-Detention-Practices-Hagens-Berman.html",
+      "title": "Acadia Healthcare (ACHC) Faces Class Action Lawsuit Over Patient Detention Practices",
+      "publisher": "Hagens Berman via GlobeNewswire",
+      "date": "2024-10-28",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.pacermonitor.com/public/case/55475356/Kachrodia_v_Acadia_Healthcare_Company,_Inc_et_al",
+      "title": "Kachrodia v. Acadia Healthcare Company, Inc. et al (3:24-cv-01238), Tennessee Middle District Court",
+      "publisher": "PacerMonitor",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.sec.gov/Archives/edgar/data/1520697/000119312526321076/achc-20260630.htm",
+      "title": "Acadia Healthcare Company, Inc. Form 10-Q for the quarter ended June 30, 2026 (consolidated Kachrodia complaint; motion to dismiss denied 2026-07-24)",
+      "publisher": "Acadia Healthcare via SEC EDGAR",
+      "date": "2026-07-28",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "First qualifying filing found: the securities class action Kachrodia v. Acadia Healthcare Company, Inc., M.D. Tenn. No. 3:24-cv-01238, docketed 2024-10-16 (amended 2024-10-21; Dyar followed 2024-10-29; consolidated complaint 2025-07-10; motion to dismiss denied 2026-07-24). The complaint alleges that Acadia detained 'patients against their will, even when such detention was not medically necessary' and misled investors about it, the conduct described in the NYT investigation, so a shareholder class action counts under the criterion. Acadia first disclosed it in the 10-Q filed 2024-10-30. The only earlier post-2024-09-04 federal suit naming Acadia in RECAP (Jenkins, W.D. Tenn., 2024-09-18) is an overtime case. State-court patient suits filed between 2024-09-04 and 2024-10-16 could not be excluded (no state docket search), so the date could move earlier if one surfaces.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0042",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "EMP-01 (oral R-MDMA) Phase 2 trial in social anxiety disorder",
+    "entity": "atai Life Sciences (trial sponsor)",
+    "title": "EMP-01 (R-MDMA) Phase 2 trial in social anxiety disorder reports topline results",
+    "proposition": "atai Life Sciences reports topline results, positive or negative, of the Phase 2 trial of EMP-01 (R-MDMA) in social anxiety disorder.",
+    "criterion": "TRUE on the date of the first atai Life Sciences (or successor company) press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports the primary-endpoint result of the Phase 2 trial of EMP-01 (oral R-MDMA) in social anxiety disorder, in any direction; the sponsor's topline release is the primary source. 'Positive' means the prespecified primary endpoint met significance as reported by the sponsor; the direction is stored, not required. A trial start, an enrollment update, an interim safety report or a conference teaser without the primary-endpoint result does not count. FALSE at the deadline when no such topline result has been reported.",
+    "resolution_source": {
+     "name": "atai Life Sciences (or successor company) press releases; ClinicalTrials.gov results posting as a secondary source",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0042",
+    "state": "occurred",
+    "date": "2026-02-26",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.globenewswire.com/news-release/2026/02/26/3245418/0/en/AtaiBeckley-Announces-Positive-Topline-Results-from-an-Exploratory-Phase-2a-Trial-of-EMP-01-oral-R-MDMA-in-Social-Anxiety-Disorder.html",
+      "title": "AtaiBeckley Announces Positive Topline Results from an Exploratory Phase 2a Trial of EMP-01 (oral R-MDMA) in Social Anxiety Disorder",
+      "publisher": "AtaiBeckley (press release via GlobeNewswire)",
+      "date": "2026-02-26",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://clinicaltrials.gov/study/NCT06693609",
+      "title": "Exploratory Safety and Efficacy of EMP-01 in Social Anxiety Disorder (NCT06693609)",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026-07-31",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.biospace.com/press-releases/ataibeckley-announces-positive-topline-results-from-an-exploratory-phase-2a-trial-of-emp-01-oral-r-mdma-in-social-anxiety-disorder",
+      "title": "AtaiBeckley Announces Positive Topline Results from an Exploratory Phase 2a Trial of EMP-01 (oral R-MDMA) in Social Anxiety Disorder",
+      "publisher": "BioSpace",
+      "date": "2026-02-26",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "The sponsor's topline release of 2026-02-26 reports the primary endpoint (safety and tolerability through Day 43) as met and gives efficacy results: placebo-adjusted LSAS reduction of 11.85 points at Day 43 (Hedges' g 0.45, p=0.036 one-tailed) and CGI-I responders 49% vs 15%; 71 enrolled, 70 dosed, two 225 mg doses 28 days apart, seven UK sites. The trial is the Phase 2 (sponsor label Phase 2a) exploratory randomized double-blind placebo-controlled study NCT06693609 (sponsor atai Therapeutics; ClinicalTrials.gov phase PHASE2; completed 2025-12-10; no results posted there yet). Direction stored as positive as reported by the sponsor; direction is not required. AtaiBeckley was acquired by Eli Lilly on 2026-09-11, after the event.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0045",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "Brainsonix transcranial focused ultrasound (tFUS) device: clinical trial topline results",
+    "entity": "Brainsonix (device maker) and the investigators of clinical trials of its tFUS device",
+    "title": "Brainsonix transcranial focused ultrasound trial reports topline results",
+    "proposition": "Brainsonix, or the investigators of a clinical trial of a Brainsonix transcranial focused ultrasound device, publicly report topline (primary-outcome) results of that trial, in any direction.",
+    "criterion": "TRUE on the date of the first sponsor or investigator topline press release, ClinicalTrials.gov results posting or peer-reviewed publication, dated after 2026-01-01, that reports primary-outcome results (positive, negative or mixed) of a clinical trial of a Brainsonix transcranial focused ultrasound device in human participants. Trial-start or enrollment announcements, preclinical or healthy-volunteer mechanistic data without a clinical primary outcome, conference teasers without primary-outcome results, and results already public on the statement date do not count. Resolution source: Brainsonix press releases, with ClinicalTrials.gov results and PubMed as secondary sources. FALSE when no such topline result has been reported by the deadline.",
+    "resolution_source": {
+     "name": "Brainsonix press releases (company newsroom); ClinicalTrials.gov results and PubMed as secondary sources",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'Top-lines' = topline (primary-outcome) results of a clinical trial; the forecaster asserts no direction, so any result counts.",
+     "Brainsonix trials are often run by academic investigators, so an investigator publication of a trial of a Brainsonix device counts.",
+     "Second half of the split list; Sanmai is coded at owen-2026-a; 'other tFUS companies' is not coded."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0045",
+    "state": "occurred",
+    "date": "2026-02-04",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://clinicaltrials.gov/study/NCT04593875?tab=results",
+      "title": "Low-Intensity Focused Ultrasound Pulsation for Treatment of Motor Deficits in Parkinson's Disease (NCT04593875) - study results",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026-02-04",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04593875",
+      "title": "ClinicalTrials.gov API record NCT04593875 (results first posted 2026-02-04; intervention other name BX Pulsar 1002)",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026-02-04",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42171549/",
+      "title": "Dose-Escalation Study of Amygdalar Transcranial Focused Ultrasound in Healthy Volunteers (Neuromodulation)",
+      "publisher": "PubMed (National Library of Medicine)",
+      "date": "2026-04-13",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://brainsonix.com/news/",
+      "title": "News - Brain Sonix Corporation",
+      "publisher": "Brainsonix",
+      "date": "2026-08-02",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "ClinicalTrials.gov results for NCT04593875 (UCLA, PI Bookheimer) were first posted 2026-02-04: a randomized triple-blind sham-controlled crossover trial in 31 Parkinson's patients using the Brainsonix BX Pulsar 1002 (the intervention's listed other name), reporting the primary outcomes (UPDRS-III, finger tapping, 9-hole pegboard) for active vs sham with no meaningful separation; direction is not required. This is an investigator results posting of primary-outcome data in patients dated after 2026-01-01; PubMed shows no earlier publication. Not qualifying: the UT Austin amygdala trial (Mol Psychiatry, epub 2025-04-24), the healthy-volunteer dose-escalation paper (Neuromodulation 2026-04-13) and the medRxiv preprint on thalamic sonication in disorders of consciousness (2026-05-28). Brainsonix issued no topline release in 2026.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0046",
+    "template": "court_outcome",
+    "area": "payer_policy",
+    "asset": "ERISA fiduciary-breach litigation over employer group health plans that pleads mental health parity (MHPAEA) violations",
+    "entity": "US federal district courts (complaint filed by plan participants, their counsel or the Department of Labor)",
+    "title": "ERISA fiduciary lawsuit citing mental health parity (MHPAEA) violations is filed",
+    "proposition": "A lawsuit is filed in a US federal court that pleads an ERISA breach-of-fiduciary-duty claim against the sponsor or fiduciaries of an employer group health plan and cites violations of the Mental Health Parity and Addiction Equity Act as a basis for the breach.",
+    "criterion": "TRUE on the docket date of a complaint filed in a US federal district court within the window that (a) pleads a claim under ERISA for breach of fiduciary duty against the sponsor, plan committee or other named fiduciaries of an employer-sponsored group health plan over the plan's design or administration, whether brought by plan participants or by the Department of Labor, and (b) cites the Mental Health Parity and Addiction Equity Act (MHPAEA, 'mental health parity') as a basis of the alleged breach, as shown by the complaint text. A suit only for denied benefits under ERISA section 502(a)(1)(B) against an insurer or administrator, a state-court suit, or an amended complaint in a case filed before the window does not count. Legal press reports are a finding aid only. FALSE when no such complaint has been filed by the deadline.",
+    "resolution_source": {
+     "name": "Federal court dockets (CourtListener / PACER)",
+     "url": "https://www.courtlistener.com/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'ERISA lawsuit' is read, from the post's discussion of the Schlichter Bogard fiduciary-breach suits against employers (United Airlines, CHS, Universal Services of America, LabCorp), as a fiduciary-breach suit against a plan sponsor or its fiduciaries, not a benefit-denial suit against an insurer.",
+     "'The first' is read as 'at least one such suit is filed within the window'; the ledger does not verify that none existed before the statement date.",
+     "'Referencing mental health parity violations' = the complaint cites MHPAEA (or 'mental health parity') as a basis of the fiduciary breach."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0046",
+    "state": "occurred",
+    "date": "2026-03-26",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.courtlistener.com/docket/73064586/hn-v-anthem-blue-cross-and-blue-shield/",
+      "title": "H.N. v. Anthem Blue Cross and Blue Shield, 1:26-cv-11454 (D. Mass.) - docket (complaint filed March 26, 2026)",
+      "publisher": "CourtListener (Free Law Project, RECAP/PACER)",
+      "date": "2026-03-26",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.298095/gov.uscourts.mad.298095.1.0.pdf",
+      "title": "Complaint, H.N. v. Anthem Blue Cross and Blue Shield, Marsh & McLennan Companies, Inc. and Anthem BlueCross BlueShield Medical Plan Options Marsh McLennan Plan (Doc. 1)",
+      "publisher": "U.S. District Court for the District of Massachusetts (via CourtListener RECAP)",
+      "date": "2026-03-26",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.ncwd.123195/gov.uscourts.ncwd.123195.1.0.pdf",
+      "title": "Complaint, L.P. and C.P. v. North Carolina Dental Society et al., 1:26-cv-00104 (W.D.N.C.) (Doc. 1)",
+      "publisher": "U.S. District Court for the Western District of North Carolina (via CourtListener RECAP)",
+      "date": "2026-04-13",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.wied.113565/gov.uscourts.wied.113565.1.0.pdf",
+      "title": "Complaint, Margaret W. and J.W. v. Ascension Wisconsin et al., 2:25-cv-01433 (E.D. Wis.) (Doc. 1)",
+      "publisher": "U.S. District Court for the Eastern District of Wisconsin (via CourtListener RECAP)",
+      "date": "2025-09-17",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Applied as written. H.N. v. Anthem BCBS, Marsh & McLennan Companies, Inc. and the Marsh McLennan Plan (D. Mass. 1:26-cv-11454, complaint docketed 2026-03-26) is brought by a plan beneficiary against the claims administrator and the employer that self-funds the plan. Its Second Cause of Action, 'Violation of MHPAEA (Breach of Fiduciary Duty and Claim for Appropriate Equitable Relief under 29 U.S.C. 1132(a)(3)) (ALL DEFENDANTS)', pleads fiduciary breaches by all defendants based on MHPAEA violations in the plan's administration of mental health benefits, so (a) and (b) are met; it is not a suit only under 502(a)(1)(B) against an insurer. Caveats: in substance a benefit-denial suit, not the Schlichter-style class action in the readings; RECAP coverage is partial; a like pleading predates 2026 (W v. Ascension Wisconsin, 2025-09-17). Later alternate: L.P. v. NC Dental Society (2026-04-13).",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0065",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "DT120 (lysergide tartrate ODT, LSD) Voyage Phase 3 trial (NCT06741228) in generalized anxiety disorder: topline result",
+    "entity": "Definium Therapeutics",
+    "title": "DT120 (LSD) Voyage Phase 3 trial in generalized anxiety disorder reports its topline result",
+    "proposition": "Definium Therapeutics reports the topline primary endpoint result of the Voyage Phase 3 trial (NCT06741228) of DT120 in generalized anxiety disorder (either direction).",
+    "criterion": "TRUE on the date of the first public report of the Voyage trial's primary endpoint result: Definium Therapeutics' topline press release, a results posting on the ClinicalTrials.gov record NCT06741228, or the first peer-reviewed publication that reports the primary result, whichever is first. The result may be positive or negative; the event is about a primary result being reported. An enrollment-complete or last-patient-visit announcement, an interim safety update, a conference abstract without the primary endpoint estimate, or a readout of a different DT120 trial (for example the MDD trial EMERGE) does not count. FALSE at the deadline when no such report is dated by then. Resolution source: Definium Therapeutics' topline press release, with the ClinicalTrials.gov record NCT06741228 as a secondary source.",
+    "resolution_source": {
+     "name": "Definium Therapeutics topline press release; ClinicalTrials.gov record NCT06741228 as secondary source",
+     "url": "https://clinicaltrials.gov/study/NCT06741228"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'Their GAD readout, which is expected later this year' is read as: Definium Therapeutics reports the topline primary result of its GAD Phase 3 program in 2026.",
+     "The author names that trial in the same post as Voyage, NCT06741228 (the registry bullet coded at owen-2281), so the event is written on that trial.",
+     "The claim is about timing, so the event resolves on the first public report of the primary result in either direction, not on whether the endpoint is met.",
+     "'Later this year' = by 31 December 2026 (anchors.json: a year means its last day; origin anchor).",
+     "'Readout' = public report of topline primary-endpoint data. An announcement that the trial has completed or that data are in hand, without the result, does not count.",
+     "'Is expected' is written in the author's own voice with no source cited, so it is read as his expectation (bin B). A coder who reads it as relayed company guidance would code REPORT; that reading is logged here."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-13",
+    "version": "1.0.0"
+   },
+   "outcome": {
+    "event_id": "E-0065",
+    "state": "occurred",
+    "date": "2026-08-12",
+    "checked_through": "2026-09-13",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://ir.definiumtx.com/news-events/press-releases/detail/243/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder",
+      "title": "Definium Therapeutics Announces Positive Topline Results from Phase 3 Voyage Study of DT120 ODT in Generalized Anxiety Disorder",
+      "publisher": "Definium Therapeutics",
+      "date": "2026-08-12",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://clinicaltrials.gov/study/NCT06741228",
+      "title": "A Phase 3 Trial of DT120 for Generalized Anxiety Disorder (Voyage) - NCT06741228 (Definium Therapeutics US; primary completion 2026-07-15; no results posted; last update posted 2026-09-02)",
+      "publisher": "ClinicalTrials.gov (US National Library of Medicine)",
+      "date": "2026-09-02",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.biospace.com/press-releases/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder",
+      "title": "Definium Therapeutics Announces Positive Topline Results from Phase 3 Voyage Study of DT120 ODT in Generalized Anxiety Disorder (Business Wire release, republished)",
+      "publisher": "BioSpace",
+      "date": "2026-08-12",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://ir.definiumtx.com/news-events/press-releases/detail/242/definium-therapeutics-reports-second-quarter-2026-financial-results-and-recent-highlights",
+      "title": "Definium Therapeutics Reports Second Quarter 2026 Financial Results and Recent Highlights (Voyage enrollment complete; topline anticipated week of August 10, 2026; no result disclosed)",
+      "publisher": "Definium Therapeutics",
+      "date": "2026-08-06",
+      "accessed": "2026-09-13"
+     }
+    ],
+    "note": "Criterion: first public report of the Voyage (NCT06741228) primary endpoint result, either direction. Definium's press release of 2026-08-12 (07:00 ET) reports the primary endpoint: HAM-A total score change at week 12, LS mean -11.6 (DT120 ODT 100 ug) vs -6.2 (placebo), difference -5.4, p<0.0001, d=0.81; the result is positive. The 2026-08-06 Q2 release gave only timing guidance ('Voyage results anticipated week of August 10'), so nothing earlier disclosed the result. ClinicalTrials.gov NCT06741228 (Definium Therapeutics US, Phase 3, GAD, primary completion 2026-07-15) shows no results posted as of its 2026-09-02 update, and no peer-reviewed publication precedes the release. Emerge (MDD, 2026-06-22) and Panorama (GAD, results announced for 2026-09-14) are different trials and do not count. Date = 2026-08-12.",
+    "resolver": "R1",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  }
+ ]
+}

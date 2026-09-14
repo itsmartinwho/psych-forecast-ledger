@@ -3,7 +3,10 @@ import fs from "node:fs";
 import { rel, readJson, writeJson, appendAudit } from "./common";
 const SIZE = Number(process.argv[2] ?? 10);
 const registry = new Map(readJson<{ id: string }[]>(rel("data/registry/events.json")).map((e) => [e.id, e]));
-const outcomes = readJson<{ event_id: string }[]>(rel("data/registry/outcomes.json"));
+const onlyOccurred = process.argv.includes("--occurred");
+const rechecked = fs.existsSync(rel("data/registry/rechecks.json")) ? new Set(readJson<{ event_id: string }[]>(rel("data/registry/rechecks.json")).map((r) => r.event_id)) : new Set<string>();
+// --occurred: only outcomes recorded as occurred (the ones that move a score); outcomes already rechecked are skipped
+const outcomes = readJson<{ event_id: string; state: string }[]>(rel("data/registry/outcomes.json")).filter((o) => (!onlyOccurred || o.state === "occurred") && !rechecked.has(o.event_id));
 const dir = rel("data/registry/recheck-packets");
 fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
 let n = 0;
