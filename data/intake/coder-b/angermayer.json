@@ -19,7 +19,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0007",
@@ -52,7 +52,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0010",
@@ -96,7 +96,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0014",
@@ -129,7 +129,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0017",
@@ -140,7 +140,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0018",
@@ -155,14 +155,14 @@
  },
  {
   "id": "angermayer-0019",
-  "admit": false,
-  "reason_code": "VAGUE",
-  "event_id": null,
-  "deadline": null,
-  "bin": null,
-  "asserts": null,
+  "admit": true,
+  "reason_code": null,
+  "event_id": "E-0092",
+  "deadline": "2026-12-31",
+  "bin": "B",
+  "asserts": true,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0020",
@@ -173,7 +173,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0021",
@@ -184,7 +184,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0022",
@@ -195,7 +195,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0023",
@@ -210,14 +210,14 @@
  },
  {
   "id": "angermayer-0024",
-  "admit": false,
-  "reason_code": "VAGUE",
-  "event_id": null,
+  "admit": true,
+  "reason_code": null,
+  "event_id": "E-0111",
   "deadline": null,
-  "bin": null,
-  "asserts": null,
+  "bin": "B",
+  "asserts": true,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0025",
@@ -239,7 +239,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0027",
@@ -250,7 +250,7 @@
   "bin": "B",
   "asserts": true,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0028",
@@ -272,7 +272,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0030",
@@ -283,7 +283,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0031",
@@ -294,16 +294,16 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "angermayer-0032",
-  "admit": false,
-  "reason_code": "VAGUE",
-  "event_id": null,
+  "admit": true,
+  "reason_code": null,
+  "event_id": "E-0132",
   "deadline": null,
-  "bin": null,
-  "asserts": null,
+  "bin": "A",
+  "asserts": true,
   "coder": "B",
   "coded_at": "2026-09-14"
  },
@@ -321,7 +321,7 @@
  {
   "id": "angermayer-0034",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
@@ -859,12 +859,12 @@
  },
  {
   "id": "angermayer-0083",
-  "admit": false,
-  "reason_code": "VAGUE",
-  "event_id": null,
+  "admit": true,
+  "reason_code": null,
+  "event_id": "E-0127",
   "deadline": null,
-  "bin": null,
-  "asserts": null,
+  "bin": "B",
+  "asserts": true,
   "coder": "B",
   "coded_at": "2026-09-14"
  },
@@ -959,7 +959,7 @@
  {
   "id": "angermayer-0092",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
@@ -1926,12 +1926,12 @@
  },
  {
   "id": "angermayer-0180",
-  "admit": false,
-  "reason_code": "NOT_FORECAST",
-  "event_id": null,
+  "admit": true,
+  "reason_code": null,
+  "event_id": "E-0067",
   "deadline": null,
-  "bin": null,
-  "asserts": null,
+  "bin": "A",
+  "asserts": false,
   "coder": "B",
   "coded_at": "2026-09-14"
  },

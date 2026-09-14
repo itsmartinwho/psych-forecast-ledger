@@ -63,18 +63,18 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "doblin-0009",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "doblin-0010",
@@ -89,14 +89,14 @@
  },
  {
   "id": "doblin-0011",
-  "admit": false,
-  "reason_code": "VAGUE",
-  "event_id": null,
+  "admit": true,
+  "reason_code": null,
+  "event_id": "E-0003",
   "deadline": null,
-  "bin": null,
-  "asserts": null,
+  "bin": "B",
+  "asserts": true,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "doblin-0012",
@@ -156,13 +156,13 @@
  {
   "id": "doblin-0017",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "doblin-0018",
@@ -184,7 +184,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "doblin-0020",
@@ -195,7 +195,7 @@
   "bin": "B",
   "asserts": true,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "doblin-0021",
@@ -221,14 +221,14 @@
  },
  {
   "id": "doblin-0023",
-  "admit": false,
-  "reason_code": "VAGUE",
-  "event_id": null,
+  "admit": true,
+  "reason_code": null,
+  "event_id": "E-0087",
   "deadline": null,
-  "bin": null,
-  "asserts": null,
+  "bin": "A",
+  "asserts": true,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "doblin-0024",
@@ -255,13 +255,13 @@
  {
   "id": "doblin-0026",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "doblin-0027",
@@ -305,7 +305,7 @@
   "bin": null,
   "asserts": null,
   "coder": "B",
-  "coded_at": "2026-09-13"
+  "coded_at": "2026-09-14"
  },
  {
   "id": "doblin-0035",
@@ -343,7 +343,7 @@
  {
   "id": "doblin-0038",
   "admit": false,
-  "reason_code": "NOT_FORECAST",
+  "reason_code": "VAGUE",
   "event_id": null,
   "deadline": null,
   "bin": null,
@@ -1453,12 +1453,12 @@
  },
  {
   "id": "doblin-0139",
-  "admit": false,
-  "reason_code": "VAGUE",
-  "event_id": null,
+  "admit": true,
+  "reason_code": null,
+  "event_id": "E-0072",
   "deadline": null,
-  "bin": null,
-  "asserts": null,
+  "bin": "A",
+  "asserts": true,
   "coder": "B",
   "coded_at": "2026-09-14"
  },
@@ -1542,7 +1542,7 @@
  {
   "id": "doblin-0147",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
@@ -1564,7 +1564,7 @@
  {
   "id": "doblin-0149",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
@@ -1641,7 +1641,7 @@
  {
   "id": "doblin-0156",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
@@ -1718,7 +1718,7 @@
  {
   "id": "doblin-0163",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
@@ -2249,7 +2249,7 @@
   "reason_code": null,
   "event_id": "E-0091",
   "deadline": "2032-12-31",
-  "bin": "C",
+  "bin": "A",
   "asserts": true,
   "coder": "B",
   "coded_at": "2026-09-14"
@@ -2434,8 +2434,8 @@
   "id": "doblin-0228",
   "admit": true,
   "reason_code": null,
-  "event_id": "E-0001",
-  "deadline": "2028-11-09",
+  "event_id": "E-0099",
+  "deadline": null,
   "bin": "C",
   "asserts": false,
   "coder": "B",
@@ -2488,7 +2488,7 @@
  {
   "id": "doblin-0233",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
@@ -2521,7 +2521,7 @@
  {
   "id": "doblin-0236",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,
@@ -2796,7 +2796,7 @@
  {
   "id": "doblin-0261",
   "admit": false,
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "event_id": null,
   "deadline": null,
   "bin": null,

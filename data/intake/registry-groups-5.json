@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "us-payer-covers-a-psychedelic-medicine",
+    "title": "A US health care payer pays for a psychedelic medicine",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": ["B:new:health-plan-pays-for-a-psychedelic-medicine"],
+    "inverted_refs": [],
+    "proposition": "A US health insurer or public health program publishes a coverage policy or bulletin that pays for a psychedelic medicine.",
+    "statement_ids": ["angermayer-0032"],
+    "first_date": "2020-02-17"
+  },
+  {
+    "slug": "us-licensed-adult-psychedelic-purchase",
+    "title": "A US licence lets adults legally buy psychedelics for unsupervised personal use",
+    "template": "rule_or_policy",
+    "area": "payer_policy",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": [
+      "A:new:us-licensed-adult-access-to-psychedelics",
+      "C:new:us-licensed-psychedelic-legalization"
+    ],
+    "inverted_refs": [],
+    "proposition": "A United States federal or state law, regulation or programme takes effect under which an adult who holds a licence may lawfully buy a psychedelic drug and take it without medical supervision.",
+    "statement_ids": ["doblin-0019", "doblin-0124", "doblin-0131", "doblin-0152"],
+    "first_date": "2020-11-06"
+  },
+  {
+    "slug": "non-us-regulator-approves-midomafetamine-ptsd",
+    "title": "A regulator outside the United States approves MDMA-assisted therapy for PTSD",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": ["A:new:non-us-approval-of-midomafetamine"],
+    "inverted_refs": [],
+    "proposition": "A medicines regulator outside the United States approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
+    "statement_ids": ["doblin-0123", "doblin-0130"],
+    "first_date": "2020-11-06"
+  },
+  {
+    "slug": "us-psychedelic-clinics-6500",
+    "title": "About 6,000 to 7,000 psychedelic clinics in the United States",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": [
+      "A:new:us-psychedelic-clinics-6500",
+      "C:new:us-psychedelic-clinics-6500"
+    ],
+    "inverted_refs": [],
+    "proposition": "The number of clinics in the United States that deliver an approved psychedelic-assisted therapy is about 6,500 by the period end, per the named series.",
+    "statement_ids": ["doblin-0023"],
+    "first_date": "2022-11-01"
+  },
+  {
+    "slug": "europe-psychedelic-clinics-6000",
+    "title": "About 6,000 psychedelic clinics in Europe",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": ["C:new:europe-psychedelic-clinics-6000"],
+    "inverted_refs": [],
+    "proposition": "The number of clinics in Europe that deliver an approved psychedelic-assisted therapy is about 6,000 by the period end, per the named series.",
+    "statement_ids": ["doblin-0023"],
+    "first_date": "2022-11-01"
+  },
+  {
+    "slug": "spravato-2026-sales-3b",
+    "title": "Spravato 2026 sales at or above US$3 billion",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": ["C:new:spravato-2026-sales-several-billion"],
+    "inverted_refs": [],
+    "proposition": "Worldwide net sales of Spravato (esketamine nasal spray) in calendar year 2026 are at or above US$3 billion, per Johnson & Johnson's reported product sales.",
+    "statement_ids": ["angermayer-0019"],
+    "first_date": "2025-06-02"
+  }
+]

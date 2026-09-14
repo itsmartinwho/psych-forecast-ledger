@@ -252,12 +252,12 @@
    "note": "source confidence high; quantity"
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -310,13 +310,10 @@
    "area_guess": "regulatory",
    "note": "source confidence medium; comparative"
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
    "a_admit": true,
-   "b_admit": false,
-   "tiebreak_admit": false,
-   "b_reason": "VAGUE"
+   "b_admit": true
   }
  },
  {
@@ -486,12 +483,12 @@
    "note": "source confidence high; conditional"
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -544,12 +541,11 @@
    "area_guess": "payer_policy",
    "note": "source confidence high; dated_event"
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
+   "a_admit": true,
    "b_admit": false,
-   "a_reason": "VAGUE",
+   "tiebreak_admit": true,
    "b_reason": "VAGUE"
   }
  },
@@ -575,13 +571,10 @@
    "area_guess": "regulatory",
    "note": "source confidence high; conditional"
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
-   "b_admit": true,
-   "tiebreak_admit": false,
-   "a_reason": "VAGUE"
+   "a_admit": true,
+   "b_admit": true
   }
  },
  {
@@ -665,13 +658,13 @@
    "area_guess": "practice_adoption",
    "note": "source confidence medium; quantity"
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "void",
+  "void_reason": "AMBIGUOUS",
   "coders": {
    "a_admit": false,
-   "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "b_admit": true,
+   "tiebreak_admit": true,
+   "a_reason": "VAGUE"
   }
  },
  {
@@ -754,12 +747,12 @@
    "note": "source confidence high; dated_event"
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -1095,12 +1088,12 @@
    "note": "source confidence high; dated_event; Conditional forecast about post-approval market structure for botanical cannabis."
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "NOT_FORECAST",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "NOT_FORECAST"
+   "a_reason": "NOT_FORECAST",
+   "b_reason": "VAGUE"
   }
  },
  {
@@ -1911,11 +1904,11 @@
    "note": "source confidence high; dated_event"
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
+   "a_reason": "CONTROL",
    "b_reason": "CONTROL"
   }
  },
@@ -2187,11 +2180,11 @@
    "note": "source confidence high; undated; Conditional."
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
+   "a_reason": "CONTROL",
    "b_reason": "VAGUE"
   }
  },
@@ -2908,13 +2901,10 @@
    "area_guess": "regulatory",
    "note": "source confidence high; dated_event; Refers to three FDA negotiation items described earlier in the paragraph."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
-   "b_admit": true,
-   "tiebreak_admit": false,
-   "a_reason": "VAGUE"
+   "a_admit": true,
+   "b_admit": true
   }
  },
  {
@@ -3694,12 +3684,11 @@
    "area_guess": "payer_policy",
    "note": "source confidence high; dated_event"
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
+   "a_admit": true,
    "b_admit": false,
-   "a_reason": "VAGUE",
+   "tiebreak_admit": true,
    "b_reason": "VAGUE"
   }
  },
@@ -3908,12 +3897,11 @@
    "area_guess": "payer_policy",
    "note": "source confidence high; dated_event; Vague horizon."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
+   "a_admit": true,
    "b_admit": false,
-   "a_reason": "VAGUE",
+   "tiebreak_admit": true,
    "b_reason": "VAGUE"
   }
  },
@@ -4153,13 +4141,10 @@
    "area_guess": "other",
    "note": "source confidence high; undated; Cannabis topic; 'When' presupposes the license is obtained."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
-   "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_admit": true,
+   "b_admit": true
   }
  },
  {
@@ -4391,12 +4376,12 @@
    "note": "source confidence high; undated; Auto-transcript garbles the number ('30 or a million'); likely $30 million."
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -4450,12 +4435,12 @@
    "note": "source confidence high; dated_event; Own organization (CONTROL candidate); compare census doblin-0009 ($35 million, 2019)."
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -4540,12 +4525,11 @@
    "area_guess": "payer_policy",
    "note": "source confidence high; dated_event; Earlier, own-words version of census doblin-0019 (Oct 2021)."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
+   "a_admit": true,
    "b_admit": false,
-   "a_reason": "VAGUE",
+   "tiebreak_admit": true,
    "b_reason": "VAGUE"
   }
  },
@@ -4665,12 +4649,12 @@
    "note": "source confidence high; dated_event; Restatement within the same column of census doblin-0017; coders may merge."
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -4785,11 +4769,11 @@
    "note": "source confidence high; undated"
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
+   "a_reason": "CONTROL",
    "b_reason": "CONTROL"
   }
  },
@@ -4878,12 +4862,12 @@
    "note": "source confidence high; dated_event"
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -4909,11 +4893,11 @@
    "note": "source confidence high; dated_event; June 2022 implied by interview date."
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
+   "a_reason": "CONTROL",
    "b_reason": "CONTROL"
   }
  },
@@ -5613,12 +5597,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; dated_event; Fetched via https://api.fxtwitter.com/RickDoblin/status/1611028194957877249. Vague horizon; weak claim."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
+   "a_admit": true,
    "b_admit": false,
-   "a_reason": "VAGUE",
+   "tiebreak_admit": true,
    "b_reason": "VAGUE"
   }
  },
@@ -6341,13 +6324,10 @@
    "area_guess": "practice_adoption",
    "note": "source confidence high; dated_event"
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
-   "b_admit": true,
-   "tiebreak_admit": false,
-   "a_reason": "VAGUE"
+   "a_admit": true,
+   "b_admit": true
   }
  },
  {
@@ -6856,13 +6836,10 @@
    "area_guess": "regulatory",
    "note": "source confidence high; dated_event; Conditional scenario."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
-   "b_admit": true,
-   "tiebreak_admit": false,
-   "a_reason": "VAGUE"
+   "a_admit": true,
+   "b_admit": true
   }
  },
  {
@@ -7006,12 +6983,12 @@
    "note": "source confidence high; undated; Borderline: accessibility growth is presupposed, not asserted with a date."
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -7099,12 +7076,12 @@
    "note": "source confidence high; undated; Forecast of company action (Lykos/Resilient) plus own-organization plans (CONTROL)."
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -7840,7 +7817,7 @@
    "a_admit": false,
    "b_admit": false,
    "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "b_reason": "CONTROL"
   }
  },
  {

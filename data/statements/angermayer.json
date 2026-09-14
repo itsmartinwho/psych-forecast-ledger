@@ -542,13 +542,13 @@
    "area_guess": "company_market",
    "note": "source confidence high; quantity"
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "void",
+  "void_reason": "AMBIGUOUS",
   "coders": {
    "a_admit": false,
-   "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "b_admit": true,
+   "tiebreak_admit": true,
+   "a_reason": "KNOWN"
   }
  },
  {
@@ -697,13 +697,10 @@
    "area_guess": "practice_adoption",
    "note": "source confidence high; directional"
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
-   "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_admit": true,
+   "b_admit": true
   }
  },
  {
@@ -789,13 +786,10 @@
    "area_guess": "company_market",
    "note": "source confidence high; dated_event"
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
-   "b_admit": true,
-   "tiebreak_admit": false,
-   "a_reason": "VAGUE"
+   "a_admit": true,
+   "b_admit": true
   }
  },
  {
@@ -948,9 +942,9 @@
   "reason_code": "VAGUE",
   "coders": {
    "a_admit": false,
-   "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "b_admit": true,
+   "tiebreak_admit": false,
+   "a_reason": "VAGUE"
   }
  },
  {
@@ -1012,7 +1006,7 @@
    "a_admit": false,
    "b_admit": false,
    "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -1921,13 +1915,10 @@
    "area_guess": "practice_adoption",
    "note": "source confidence high; dated_event; Undated; adoption-scale claim."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
-   "b_admit": true,
-   "tiebreak_admit": false,
-   "a_reason": "VAGUE"
+   "a_admit": true,
+   "b_admit": true
   }
  },
  {
@@ -2495,13 +2486,10 @@
    "area_guess": "clinical_trial",
    "note": "source confidence high; undated; Implicit trial-success call; phrased as company conviction."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
-   "a_admit": false,
-   "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_admit": true,
+   "b_admit": true
   }
  },
  {
@@ -2769,12 +2757,12 @@
    "note": "source confidence high; undated"
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "CONTROL",
   "coders": {
    "a_admit": false,
    "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "VAGUE"
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
   }
  },
  {
@@ -5422,12 +5410,12 @@
    "note": "source confidence high; undated; event sweep target E-0067; The existing ledger holds five other quotes from this episode, none about pharmacy dispensing."
   },
   "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "reason_code": "NOT_FORECAST",
   "coders": {
    "a_admit": false,
-   "b_admit": false,
-   "a_reason": "VAGUE",
-   "b_reason": "NOT_FORECAST"
+   "b_admit": true,
+   "tiebreak_admit": false,
+   "a_reason": "NOT_FORECAST"
   }
  },
  {
@@ -5641,9 +5629,9 @@
   "status": "not_admitted",
   "reason_code": "VAGUE",
   "coders": {
-   "a_admit": true,
+   "a_admit": false,
    "b_admit": false,
-   "tiebreak_admit": false,
+   "a_reason": "VAGUE",
    "b_reason": "VAGUE"
   }
  },

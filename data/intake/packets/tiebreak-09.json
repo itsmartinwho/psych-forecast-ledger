@@ -1,0 +1,280 @@
+{
+ "packet": "tiebreak-09.json",
+ "note": "admission splits between coder A and coder B: coder C decides",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "angermayer-0019",
+   "forecaster": "angermayer",
+   "statement_date": "2025-06-02",
+   "quote": "Spravato is a blockbuster drug, projected to make several billion revenues in 2026",
+   "context": "J&J's esketamine will earn several billion dollars in 2026.",
+   "post_title": "atai acquires Beckley, establishing the undisputed leader in psychedelics (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-acquires-beckley-establishing",
+   "area_guess": "company_market",
+   "horizon_text": "FY2026",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; quantity",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "doblin-0019",
+   "forecaster": "doblin",
+   "statement_date": "2021-10-27",
+   "quote": "I think what's going to happen is that it will take 10 years for the culture to really move to the point where we're ready for a licensed legalization. That will be 2035",
+   "context": "A licensed-legalization system for psychedelics (trained-use licenses) will arrive around 2035.",
+   "post_title": "Driver's Licenses to Trip on Psychedelics by 2035? Rick Doblin Maps Out the Future (Psychedelic Spotlight)",
+   "source_url": "https://psychedelicspotlight.com/rick-doblin-maps-out-future-of-spiritualized-humanity-psychedelic-drivers-licenses/",
+   "area_guess": "payer_policy",
+   "horizon_text": "2035",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "doblin-0023",
+   "forecaster": "doblin",
+   "statement_date": "2022-11-01",
+   "quote": "there'll be six or 7,000 psychedelic clinics in America, another 6,000 in Europe, and who knows another 10,000 or more in the rest of the world",
+   "context": "After approval, 6,000-7,000 psychedelic clinics in the US, 6,000 in Europe, 10,000+ elsewhere.",
+   "post_title": "Healing the Heart of Humanity: Legalizing Psychedelic Medicine – Rick Doblin (Third Wave podcast ep. 173)",
+   "source_url": "https://thethirdwave.co/podcast/episode-173-rick-doblin-phd/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "unstated; post-approval build-out (implied 2020s-2030s)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence medium; quantity",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "angermayer-0032",
+   "forecaster": "angermayer",
+   "statement_date": "2020-02-17",
+   "quote": "We’re trying to bring psychedelics into the medical world so it will be affordable to people because it will be paid for by the health care system",
+   "context": "Same Fortune feature; asked about ATAI's aggressive patenting ('Darth Vader of the psychedelics galaxy'), Angermayer says the medical route will make psychedelics affordable because the health care system will pay for them, and 'the only way to do that is with patents'.",
+   "post_title": "Business gets ready to trip: How psychedelic drugs may revolutionize mental health care",
+   "source_url": "https://fortune.com/longform/psychedelic-drugs-business-mental-health/",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will be",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Undated payer claim; forward-looking reading of 'will be paid for by the health care system'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "doblin-0124",
+   "forecaster": "doblin",
+   "statement_date": "2020-11-06",
+   "quote": "Eventually, we're guessing by 2035, the clinics could become sites of initiation where mentally healthy people could go to have their first psychedelic experience under supervision and then could receive a license to purchase psychedelics to do on their own.",
+   "context": "Dr. Bronner's blog article by Doblin. Dated long-range vision: by 2035 psychedelic clinics become licensed initiation sites for healthy adults.",
+   "post_title": "Reflecting On MAPS' 34-Year History and What's Ahead – Dr. Bronner's (by Rick Doblin)",
+   "source_url": "https://info.drbronner.com/all-one-blog/2020/11/rick-doblin-on-maps-34-year-history-and-whats-ahead/",
+   "area_guess": "payer_policy",
+   "horizon_text": "by 2035",
+   "confidence_phrase": "we're guessing ... could",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "doblin-0131",
+   "forecaster": "doblin",
+   "statement_date": "2020-12-13",
+   "quote": "Eventually, in a post-prohibition world, there could be a licensed regulatory system for adults to legally access psychedelics to take on their own without supervision by therapists with access to minors only with permission from their parents or guardians.",
+   "context": "Autumn 2020 column. Long-term drug-policy vision of licensed adult access to psychedelics.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Autumn 2020",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-autumn-2020/",
+   "area_guess": "payer_policy",
+   "horizon_text": "Eventually",
+   "confidence_phrase": "could be",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Vague horizon.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "doblin-0152",
+   "forecaster": "doblin",
+   "statement_date": "2021-06-04",
+   "quote": "And eventually, I think 2035, after a decade of clinics, I think we'll have licensed legalization and people will be legally able to buy psilocybin, MDMA, LSD, all these drugs.",
+   "context": "Doblin on Joe Rogan #1661 predicts licensed legalization of psychedelics in 2035, after a decade of clinics changes public opinion.",
+   "post_title": "The Joe Rogan Experience #1661 - Rick Doblin (transcript)",
+   "source_url": "https://podscripts.co/podcasts/the-joe-rogan-experience/1661-rick-doblin",
+   "area_guess": "payer_policy",
+   "horizon_text": "2035",
+   "confidence_phrase": "I think",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Earlier, own-words version of census doblin-0019 (Oct 2021).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "doblin-0187",
+   "forecaster": "doblin",
+   "statement_date": "2023-01-05",
+   "quote": "Today, we can imagine that MDMA-assisted therapy for PTSD may soon be available and accessible to all who could benefit.",
+   "context": "@RickDoblin tweet on the day MAPS announced positive confirmatory Phase 3 (MAPP2) results. He says MDMA-assisted therapy for PTSD may soon be available and accessible to all who could benefit.",
+   "post_title": "Rick Doblin, Ph.D., of MAPS on X (tweet 1611028194957877249)",
+   "source_url": "https://twitter.com/RickDoblin/status/1611028194957877249",
+   "area_guess": "regulatory",
+   "horizon_text": "soon",
+   "confidence_phrase": "may soon",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Fetched via https://api.fxtwitter.com/RickDoblin/status/1611028194957877249. Vague horizon; weak claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "angermayer-0180",
+   "forecaster": "angermayer",
+   "statement_date": "2023-06-01",
+   "quote": "It's just different, it's not the typical, oh, pop a pill per day, like go to your pharmacy",
+   "context": "Podcast transcript. He contrasts psychedelic treatment with a normal prescription medicine collected at a pharmacy and taken daily at home.",
+   "post_title": "Democratizing Psychedelics: From Ancient Rituals to Modern Medicalization - Christian Angermayer",
+   "source_url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; undated; event sweep target E-0067; The existing ledger holds five other quotes from this episode, none about pharmacy dispensing.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

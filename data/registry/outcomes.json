@@ -3191,20 +3191,6 @@
    },
    {
     "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
-    "title": "Complete Response Letter, NDA 215455 (midomafetamine capsules), Lykos Therapeutics; electronic signature 08/08/2024; deficiency 3 cites functional unblinding",
-    "publisher": "US Food and Drug Administration (openFDA complete response letter release)",
-    "date": "2024-08-08",
-    "accessed": "2026-09-14"
-   },
-   {
-    "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
-    "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
-    "publisher": "Lykos Therapeutics via PR Newswire",
-    "date": "2024-08-09",
-    "accessed": "2026-09-14"
-   },
-   {
-    "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
     "title": "Complete Response Letter, NDA 215455 (midomafetamine capsules), Lykos Therapeutics",
     "publisher": "US Food and Drug Administration (openFDA CRL release)",
     "date": "2024-08-08",
@@ -3226,9 +3212,9 @@
    }
   ],
   "note": "The FDA complete response letter for NDA 215455 names functional unblinding as part of the basis for not accepting the efficacy results. Deficiency 3 says prior midomafetamine use made participants 'more likely to recognize the effects of midomafetamine (i.e., leading to functional unblinding) and anticipate a treatment benefit', and concludes: 'These limitations impact the interpretability of MAPP1 and MAPP2 and, together with failure of MPLONG to provide evidence of a durable treatment effect, preclude the ability to establish substantial evidence of effectiveness.' Date is the issue date the sponsor disclosed; the letter's  | overturned on recheck: The state is safe: the complete response letter for NDA 215455 does name functional unblinding as a deficiency, saying participants with prior midomafetamine use are 'more likely to recognize the effects of midomafetamine (i.e., leading to ",
-  "resolver": "R2+X2+X2",
+  "resolver": "R2+X2",
   "resolved_at": "2026-09-13",
-  "version": 3
+  "version": 2
  },
  {
   "event_id": "E-0076",
@@ -5165,6 +5151,189 @@
    }
   ],
   "note": "No US health plan policy that lists IV ketamine as covered for bipolar depression was found in force on 2026-09-14. Checked: UnitedHealthcare Community Plan CS2026D0069AA, effective 2026-05-01, calls ketamine injection investigational for psychiatric disorders, and names bipolar disorder; Excellus BCBS 3.01.13, effective 2026-01-22, calls it investigational for all diagnosis codes; Wisconsin Medicaid (ForwardHealth Update 2024-53, effective 2025-01-01) covers IV ketamine only for major depressive disorder and refuses prior authorization for any other off-label indication, so it is excluded; Kaiser Washington criteria, last reviewed 2025-12-02, are non-coverage and record no Medicare NCD or LCD. The Ket-BD RCT published in JAMA Psychiatry in 2026 has not yet produced a payer policy. This states nothing about later dates.",
+  "resolver": "R2",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0132",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-14",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/search.aspx?keyword=psilocybin",
+    "title": "Medicare Coverage Database: search for psilocybin, MDMA and midomafetamine",
+    "publisher": "Centers for Medicare & Medicaid Services",
+    "date": "2026-09-14",
+    "accessed": "2026-09-14"
+   },
+   {
+    "url": "https://www.ptsd.va.gov/professional/treat/txessentials/psychedelics_assisted_therapy.asp",
+    "title": "Psychedelic-Assisted Therapy for PTSD",
+    "publisher": "US Department of Veterans Affairs, National Center for PTSD",
+    "date": "2026-06-02",
+    "accessed": "2026-09-14"
+   },
+   {
+    "url": "https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm",
+    "title": "Approved Risk Evaluation and Mitigation Strategies (REMS)",
+    "publisher": "US Food and Drug Administration",
+    "date": "2026-09-14",
+    "accessed": "2026-09-14"
+   }
+  ],
+  "note": "No US payer policy that pays for a classic psychedelic or MDMA has taken effect as of 2026-09-14. The CMS Medicare Coverage Database returns no NCD or LCD for psilocybin, MDMA or midomafetamine. No such drug product is FDA-approved (REMS@FDA lists no psychedelic REMS), so no drug benefit can attach. VA states that clinical use outside research waits on FDA approval; VA activity is research funding, not coverage. Esketamine (Spravato) is covered by US payers but is not a classic psychedelic or MDMA, so the criterion excludes it. The New Mexico Medical Psilocybin Treatment Equity Fund is a state subsidy fund and the programme has not opened; a subsidy fund is not a published coverage policy. This says nothing about later dates.",
+  "resolver": "R2",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0133",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-14",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.health.govt.nz/news/two-psychiatrists-granted-approval-to-prescribe-medicinal-mdma-for-ptsd",
+    "title": "Two psychiatrists granted approval to prescribe medicinal MDMA for PTSD",
+    "publisher": "New Zealand Ministry of Health (Medsafe)",
+    "date": "2026-09-04",
+    "accessed": "2026-09-14"
+   },
+   {
+    "url": "https://www.euronews.com/health/2026/09/04/new-zealand-approves-party-drug-mdma-for-treating-patients-with-ptsd",
+    "title": "New Zealand approves party-drug MDMA for treating patients with PTSD",
+    "publisher": "Euronews Health",
+    "date": "2026-09-04",
+    "accessed": "2026-09-14"
+   },
+   {
+    "url": "https://www.ema.europa.eu/en/medicines",
+    "title": "Medicines (medicine finder): no authorised midomafetamine or MDMA medicine",
+    "publisher": "European Medicines Agency",
+    "date": "2026-09-14",
+    "accessed": "2026-09-14"
+   }
+  ],
+  "note": "No non-US regulator has granted a marketing authorisation for a midomafetamine (MDMA) product for PTSD as of 2026-09-14. The nearest events are excluded by the criterion. Australia rescheduled MDMA on 2023-07-01 and allows Authorised Prescribers; that is a rescheduling plus a prescriber scheme, not an approval. New Zealand Medsafe on 2026-09-04 permitted two named psychiatrists to prescribe pharmaceutical-grade MDMA under Regulation 22 of the Misuse of Drugs Regulations 1977, and states that MDMA stays an unapproved medicine; that is a named-prescriber scheme, not an approval. No EMA, MHRA, Health Canada or TGA product registration exists. This says nothing about later dates.",
+  "resolver": "R2",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0134",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-14",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://leg.colorado.gov/bills/HB26-1325",
+    "title": "HB26-1325 Natural Medicine (signed 2026-06-04, effective 2026-08-12)",
+    "publisher": "Colorado General Assembly",
+    "date": "2026-06-04",
+    "accessed": "2026-09-14"
+   },
+   {
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/04/fact-sheet-president-donald-j-trump-is-accelerating-medical-treatments-for-serious-mental-illness/",
+    "title": "Fact Sheet: President Donald J. Trump is Accelerating Medical Treatments for Serious Mental Illness (Executive Order 14401)",
+    "publisher": "The White House",
+    "date": "2026-04-18",
+    "accessed": "2026-09-14"
+   },
+   {
+    "url": "https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx",
+    "title": "Oregon Psilocybin Services (ORS 475A; OAR 333-333)",
+    "publisher": "Oregon Health Authority",
+    "date": "2026-09-14",
+    "accessed": "2026-09-14"
+   }
+  ],
+  "note": "No US federal or state law, rule or licensed programme lets a licence holder buy a psychedelic and take it unsupervised, as of 2026-09-14. The closest development is Colorado HB26-1325, signed 2026-06-04 and effective 2026-08-12, with emergency rules for a Limited Regulated Natural Medicine Sales License. That licence is tied to supervision: the bill widens administration session to cover product the participant buys to consume during the administration session, and healing centers may not sell except through a co-located limited sales licensee. Oregon keeps consumption at a licensed service center with a facilitator. Executive Order 14401 of 2026-04-18 speeds research, investigational access and rescheduling review; it creates no purchase licence. This says nothing about later dates.",
+  "resolver": "R2",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0135",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-14",
+  "realized_value": 0,
+  "evidence": [
+   {
+    "url": "https://www.ema.europa.eu/en/medicines",
+    "title": "Medicines (medicine finder): no authorised psilocybin or MDMA medicine",
+    "publisher": "European Medicines Agency",
+    "date": "2026-09-14",
+    "accessed": "2026-09-14"
+   },
+   {
+    "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-FDA-Granted-NDA-Rolling-Review-Request-and-Awarded-Commissioners-National-Priority-Voucher/default.aspx",
+    "title": "Compass Pathways Announces FDA Granted NDA Rolling Review Request and Awarded Commissioner's National Priority Voucher",
+    "publisher": "Compass Pathways plc",
+    "date": "2026-04-24",
+    "accessed": "2026-09-14"
+   }
+  ],
+  "note": "The count is 0 and is outside the 4,800 to 7,200 band as of 2026-09-14. No MDMA or psilocybin medicine holds an EMA marketing authorisation, so no controlled-distribution or risk-management-plan certified-centre list exists for Europe and no site can be certified. COMP360 psilocybin, the most advanced candidate, is still investigational: Compass Pathways reported a rolling FDA review on 2026-04-24 and names no EU filing. Esketamine (Spravato) is EMA-authorised but is not an MDMA or psilocybin medicine, so the series excludes it. The criterion's unresolvable clause turns on 12 months after the deadline; the resolver does not see the deadline, so it is not applied here. This says nothing about later dates.",
+  "resolver": "R2",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0136",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-14",
+  "realized_value": 0,
+  "evidence": [
+   {
+    "url": "https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm",
+    "title": "Approved Risk Evaluation and Mitigation Strategies (REMS): no midomafetamine, MDMA or psilocybin programme listed",
+    "publisher": "US Food and Drug Administration",
+    "date": "2026-09-14",
+    "accessed": "2026-09-14"
+   },
+   {
+    "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+    "title": "MAPS responds to report of progress for MDMA-assisted therapy for PTSD with FDA",
+    "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+    "date": "2026-08-10",
+    "accessed": "2026-09-14"
+   }
+  ],
+  "note": "The count is 0 and is outside the 5,200 to 7,800 band as of 2026-09-14. REMS@FDA lists no REMS for midomafetamine, MDMA or psilocybin, so no certified-site list exists and no US site can be certified. FDA issued a complete response letter for midomafetamine on 2024-08-09; the sponsor (former Lykos Therapeutics, now Resilient Pharmaceuticals) resubmitted the application, still under review in August 2026. Psilocybin has no FDA approval either. The criterion's unresolvable clause turns on 12 months after the deadline; the resolver does not see the deadline, so it is not applied here. This says nothing about later dates.",
+  "resolver": "R2",
+  "resolved_at": "2026-09-13",
+  "version": 1
+ },
+ {
+  "event_id": "E-0137",
+  "state": "not_occurred",
+  "date": null,
+  "checked_through": "2026-09-14",
+  "realized_value": null,
+  "evidence": [
+   {
+    "url": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q2-2026-results-raises-2026-outlook/default.aspx",
+    "title": "Johnson & Johnson reports Q2 2026 results, raises 2026 outlook (product sales exhibit: Spravato)",
+    "publisher": "Johnson & Johnson",
+    "date": "2026-07-15",
+    "accessed": "2026-09-14"
+   },
+   {
+    "url": "https://www.sec.gov/edgar/search/#/q=Spravato&entityName=Johnson%2520%2526%2520Johnson",
+    "title": "EDGAR full-text search: Johnson & Johnson periodic reports, Spravato product sales",
+    "publisher": "US Securities and Exchange Commission",
+    "date": "2026-09-14",
+    "accessed": "2026-09-14"
+   }
+  ],
+  "note": "No Johnson & Johnson report shows a calendar-2026 Spravato figure as of 2026-09-14, so the threshold has not been met. Calendar year 2026 is not complete and the full-year figure publishes with the Q4 and 10-K reports in early 2027. Reported so far: Spravato worldwide sales of US$584 million in Q2 2026 (Q2 2025: US$414 million) and US$1,052 million for the six months to June 2026 (six months 2025: US$734 million), per the Q2 2026 earnings release of 2026-07-15. realized_value stays null because the named series has not yet published a calendar-2026 number. This says nothing about the later full-year figure.",
   "resolver": "R2",
   "resolved_at": "2026-09-13",
   "version": 1

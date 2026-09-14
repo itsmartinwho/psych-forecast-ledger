@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "us-payer-covers-a-psychedelic-medicine",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "asset": "Psychedelic medicines (class): payment by a US health insurer or public health program",
+    "entity": "US health insurers and public health programs",
+    "title": "A US health care payer pays for a psychedelic medicine",
+    "proposition": "A US health insurer or public health program publishes a coverage policy or bulletin that pays for a psychedelic medicine.",
+    "criterion": "TRUE on the effective date of a published coverage policy, bulletin, fee schedule, national coverage determination or local coverage determination of a US health insurer or US public health program (Medicare, Medicaid, the Veterans Health Administration or a commercial plan) that pays for a psychedelic medicine, meaning a drug product whose active ingredient is a classic psychedelic (for example psilocybin, LSD or ibogaine) or MDMA, or for the administration of such a product. A pilot grant, a research grant, a cash-pay price list and a single negotiated case are not coverage. FALSE at the deadline when no such policy has taken effect. Resolution source: the CMS Medicare Coverage Database and the published policy bulletins of the paying insurer or program.",
+    "resolution_source": {
+      "name": "CMS Medicare Coverage Database; published payer policy bulletins of the paying insurer or program",
+      "url": "https://www.cms.gov/medicare-coverage-database/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": []
+  },
+  {
+    "slug": "us-licensed-adult-psychedelic-purchase",
+    "template": "rule_or_policy",
+    "area": "payer_policy",
+    "asset": "Licensed adult access to psychedelics in the United States: a licence to buy a psychedelic and take it without supervision",
+    "entity": "The United States Congress, a US federal agency (FDA or DEA) or a US state legislature or regulator",
+    "title": "A US licence lets adults legally buy psychedelics for unsupervised personal use",
+    "proposition": "A United States federal or state law, regulation or programme takes effect under which an adult who holds a licence may lawfully buy a psychedelic drug and take it without medical supervision.",
+    "criterion": "TRUE on the effective date of the first federal or state law, regulation or licensed programme in the United States, as published in the Federal Register, a state register or the text of the enacted bill, under which an adult who holds a licence, permit or certificate may lawfully purchase a psychedelic drug (for example psilocybin, MDMA or LSD) and take it on their own, outside medical or facilitator supervision. A programme that requires the dose to be taken under supervision at a licensed service centre, a medical prescription route, a decriminalisation measure that removes penalties without creating a licence to purchase, and a bill that has not taken effect, do not count. FALSE at the deadline when no such law, regulation or programme has taken effect. Resolution source: the Federal Register and state legislature records.",
+    "resolution_source": {
+      "name": "Federal Register; state registers and enacted state legislation (state legislature records)",
+      "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'Licensed legalization' and 'a licensed regulatory system for adults to legally access psychedelics to take on their own' are read as one outcome: a licence that lets an adult buy a psychedelic and take it unsupervised.",
+      "'We' is read as the United States, the jurisdiction the forecaster speaks about in every version of this claim.",
+      "A supervised-use service-centre programme does not count, because the forecaster's own words say 'to do on their own' and 'without supervision by therapists'.",
+      "'Access to minors only with permission from their parents or guardians' is a detail of the vision, not part of the criterion.",
+      "'After a decade of clinics' and 'in a post-prohibition world' are the forecaster's reasons, not second conditions.",
+      "Psilocybin, MDMA and LSD are the drugs the forecaster names ('A or B' is one event).",
+      "The forecaster names no jurisdiction beyond the United States, so the first enacting US jurisdiction, federal or a state, counts; this reading is logged at intake."
+    ]
+  },
+  {
+    "slug": "non-us-regulator-approves-midomafetamine-ptsd",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "Midomafetamine (MDMA-assisted therapy) for PTSD: approval by a medicines regulator outside the United States",
+    "entity": "Any national or regional medicines regulator outside the United States",
+    "title": "A regulator outside the United States approves MDMA-assisted therapy for PTSD",
+    "proposition": "A medicines regulator outside the United States approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
+    "criterion": "TRUE on the date of the first marketing authorisation, registration or approval decision by a national or regional medicines regulator outside the United States (for example the European Commission on a CHMP positive opinion, the MHRA, Health Canada, the TGA or the Israel Ministry of Health) for a midomafetamine (MDMA) product for post-traumatic stress disorder, under any sponsor name. A special access, compassionate use, authorised prescriber or named-patient scheme, a designation, a rescheduling and a filing acceptance are not approvals. FALSE at the deadline when no such approval has been granted. Resolution source: the approving regulator's own medicines database or decision notice, with the sponsor's press release as a secondary source.",
+    "resolution_source": {
+      "name": "The approving regulator's medicines database (EMA EPAR, MHRA, Health Canada Drug Product Database, TGA ARTG, Israel Ministry of Health); sponsor press release as a secondary source",
+      "url": "https://www.ema.europa.eu/en/medicines"
+    },
+    "base_rate_class": "phase3_to_approval_psychiatry",
+    "quantity": null,
+    "readings": [
+      "'Regulatory approvals around the world' is read as approval by at least one medicines regulator outside the United States; the forecaster names no country, so any non-US regulator counts.",
+      "The claim is conditional on FDA approval of midomafetamine for PTSD (E-0001); that is carried as the condition, not written into this criterion.",
+      "The clinics clause in the same passage is the second half of the compound claim and is coded separately."
+    ]
+  },
+  {
+    "slug": "us-psychedelic-clinics-6500",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "asset": "Psychedelic clinics in the United States: count of clinics",
+    "entity": "US psychedelic clinics (count)",
+    "title": "About 6,000 to 7,000 psychedelic clinics in the United States",
+    "proposition": "The number of clinics in the United States that deliver an approved psychedelic-assisted therapy is about 6,500 by the period end, per the named series.",
+    "criterion": "Resolved on the named data series only: the count of US sites certified to administer an FDA-approved psychedelic-assisted therapy (an MDMA or psilocybin drug product) under that product's REMS, per the REMS programme's published certified-site list, summed across approved products with a duplicate site counted once. 'Six or 7,000' is a point estimate of 6,500 and takes the template's fixed band of plus or minus 20 percent: TRUE when the count at the deadline is 5,200 to 7,800, FALSE otherwise. If no such list has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored. Resolution source: the REMS certified-site lists in REMS@FDA.",
+    "resolution_source": {
+      "name": "REMS certified-site lists in REMS@FDA",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/rems/"
+    },
+    "base_rate_class": null,
+    "quantity": {
+      "metric": "Count of US clinics certified to deliver an FDA-approved psychedelic-assisted therapy",
+      "threshold": 6500,
+      "direction": "band",
+      "unit": "clinics",
+      "series": "REMS certified-site lists of FDA-approved psychedelic-assisted therapy products (REMS@FDA)"
+    },
+    "readings": [
+      "'Six or 7,000 psychedelic clinics in America' is a bare point number of 6,500 and takes the template's fixed band of plus or minus 20 percent (5,200 to 7,800), the same reading the registry applies in E-0087.",
+      "'Psychedelic clinics' = clinics that deliver an FDA-approved psychedelic-assisted therapy, the subject of the passage.",
+      "The European figure in the same sentence is the second half of the compound claim (doblin-0023-b) and is not part of this event; 'who knows another 10,000 or more in the rest of the world' is a hedge, not a third number."
+    ]
+  },
+  {
+    "slug": "europe-psychedelic-clinics-6000",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "asset": "Psychedelic clinics in Europe: count of clinics",
+    "entity": "European psychedelic treatment clinics (count)",
+    "title": "About 6,000 psychedelic clinics in Europe",
+    "proposition": "The number of clinics in Europe that deliver an approved psychedelic-assisted therapy is about 6,000 by the period end, per the named series.",
+    "criterion": "Resolved on the named data series only: the count of European sites certified or registered to administer an approved psychedelic-assisted therapy (an MDMA or psilocybin medicine), per the certified treatment-centre list published under that medicine's controlled-distribution or risk-management plan on the European Medicines Agency medicine page and by the marketing authorisation holder, summed across approved medicines with duplicate sites counted once. 'Another 6,000' is a bare point number and takes the template's fixed band of plus or minus 20 percent: TRUE when the count at the deadline is 4,800 to 7,200, FALSE otherwise. If no such list has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+    "resolution_source": {
+      "name": "Certified treatment-centre lists published under the controlled-distribution or risk-management plan of an EMA-approved psychedelic medicine (EMA medicine page and marketing authorisation holder site)",
+      "url": "https://www.ema.europa.eu/en/medicines"
+    },
+    "base_rate_class": null,
+    "quantity": {
+      "metric": "Count of European clinics certified to deliver an approved psychedelic-assisted therapy",
+      "threshold": 6000,
+      "direction": "band",
+      "unit": "clinics",
+      "series": "Certified treatment-centre lists under the risk-management plan of an EMA-approved psychedelic medicine"
+    },
+    "readings": [
+      "'Another 6,000 in Europe' = European sites delivering an approved psychedelic-assisted therapy.",
+      "Europe = the countries covered by the EMA marketing authorisation, with the equivalent national register of another European country counted when it publishes one."
+    ]
+  },
+  {
+    "slug": "spravato-2026-sales-3b",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "asset": "Spravato (esketamine nasal spray, Johnson & Johnson): worldwide net sales in calendar year 2026",
+    "entity": "Johnson & Johnson (reports Spravato product sales)",
+    "title": "Spravato 2026 sales at or above US$3 billion",
+    "proposition": "Worldwide net sales of Spravato (esketamine nasal spray) in calendar year 2026 are at or above US$3 billion, per Johnson & Johnson's reported product sales.",
+    "criterion": "Resolved on the named data series only: worldwide net trade sales of Spravato (esketamine nasal spray) in Johnson & Johnson's product-sales tables in its periodic reports on SEC EDGAR (Form 10-K and Form 10-Q) and the sales exhibits of its quarterly earnings releases (Form 8-K). TRUE on the date of the first Johnson & Johnson report that shows Spravato worldwide net sales at or above US$3 billion for calendar year 2026. 'Several billion revenues in 2026' is read at its lower bound, US$3 billion, the smallest count that is 'several' billion, so the event resolves as binary at US$3 billion with no band. FALSE at the deadline when the reported calendar-2026 figure is below US$3 billion. Unresolvable if no calendar-2026 figure has published 12 months after the deadline. Realized values are stored, not scored.",
+    "resolution_source": {
+      "name": "Johnson & Johnson product sales tables in its Form 10-K, Form 10-Q and earnings-release sales exhibits on SEC EDGAR",
+      "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "quantity": {
+      "metric": "Spravato worldwide net sales in calendar year 2026",
+      "threshold": 3000000000,
+      "direction": ">=",
+      "unit": "USD",
+      "series": "Johnson & Johnson product sales tables (SEC EDGAR Form 10-K, Form 10-Q and earnings-release sales exhibits)"
+    },
+    "readings": [
+      "'Several billion' is read at its lower bound, US$3 billion, the same lower-bound reading the registry applies to 'hundreds of thousands' in E-0097.",
+      "The passive 'projected to' is adopted by the forecaster: he uses the Spravato revenue trajectory as the precedent for his own psychedelics thesis in the same post (the reading logged on E-0092).",
+      "'Blockbuster' in the first clause is the present state of the asset and is not the claim; the claim is the calendar-2026 revenue figure."
+    ]
+  }
+]

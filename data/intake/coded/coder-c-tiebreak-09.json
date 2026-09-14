@@ -1,0 +1,351 @@
+{
+  "coder": "C",
+  "run": "intake-2026-09-14d",
+  "records": [
+    {
+      "id": "angermayer-0019",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:spravato-2026-sales-several-billion",
+        "template": "quantity_threshold",
+        "area": "company_market",
+        "asset": "Spravato (esketamine nasal spray, Johnson & Johnson): worldwide net sales in calendar year 2026",
+        "entity": "Johnson & Johnson (reports Spravato product sales)",
+        "title": "Spravato 2026 sales at or above US$3 billion",
+        "proposition": "Worldwide net sales of Spravato (esketamine nasal spray) in calendar year 2026 are at or above US$3 billion, per Johnson & Johnson's reported product sales.",
+        "criterion": "Resolved on the named data series only: worldwide net trade sales of Spravato (esketamine nasal spray) in Johnson & Johnson's product-sales tables in its periodic reports on SEC EDGAR (Form 10-K and Form 10-Q) and the sales exhibits of its quarterly earnings releases (Form 8-K). TRUE on the date of the first Johnson & Johnson report that shows Spravato worldwide net sales at or above US$3 billion for calendar year 2026. 'Several billion revenues in 2026' is read at its lower bound, US$3 billion, the smallest count that is 'several' billion, so the event resolves as binary at US$3 billion with no band. FALSE at the deadline when the reported calendar-2026 figure is below US$3 billion. Unresolvable if no calendar-2026 figure has published 12 months after the deadline. Realized values are stored, not scored.",
+        "resolution_source": {
+          "name": "Johnson & Johnson product sales tables in its Form 10-K, Form 10-Q and earnings-release sales exhibits on SEC EDGAR",
+          "url": "https://www.sec.gov/edgar/search/"
+        },
+        "base_rate_class": null,
+        "quantity": {
+          "metric": "Spravato worldwide net sales in calendar year 2026",
+          "threshold": 3000000000,
+          "direction": ">=",
+          "unit": "USD",
+          "series": "Johnson & Johnson product sales tables (SEC EDGAR Form 10-K, Form 10-Q and earnings-release sales exhibits)"
+        },
+        "readings": [
+          "'Several billion' is read at its lower bound, US$3 billion, the same lower-bound reading the registry applies to 'hundreds of thousands' in E-0097.",
+          "The passive 'projected to' is adopted by the forecaster: he uses the Spravato revenue trajectory as the precedent for his own psychedelics thesis in the same post (the reading logged on E-0092).",
+          "'Blockbuster' in the first clause is the present state of the asset and is not the claim; the claim is the calendar-2026 revenue figure."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": "2026-12-31",
+      "deadline_origin": "anchor",
+      "deadline_text": "in 2026",
+      "bin": "B",
+      "p_stated": null,
+      "phrase": "projected to make several billion revenues in 2026",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Spravato is an approved, marketed product with reported sales at the statement date; the claim is about the calendar-2026 reported revenue figure. No base-rate class covers a product-sales threshold.",
+      "note": "Separate event from E-0092 (Spravato annual sales at or above US$1 billion): the same asset and series, but a different threshold and a fixed calendar year. The registry may consolidate the two."
+    },
+    {
+      "id": "doblin-0019",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:us-licensed-psychedelic-legalization",
+        "template": "rule_or_policy",
+        "area": "payer_policy",
+        "asset": "Licensed legal access to psychedelics for adult personal use in the United States (a licensing system outside medical prescribing)",
+        "entity": "United States federal and state legislatures and drug-control agencies",
+        "title": "A US licensed-legalization system for adult psychedelic use is established",
+        "proposition": "A United States jurisdiction establishes a licensed-legalization system under which an adult may obtain a license and then legally buy a psychedelic for personal use outside medical supervision.",
+        "criterion": "TRUE on the signing or effective date named in the first enacted United States federal law or state law, or in the first final federal or state rule implementing such a law, under which an adult may obtain a license or permit and then legally buy a psychedelic drug (psilocybin, MDMA or LSD) for personal use outside a clinical trial and outside a prescription or a supervised-administration requirement. A bill passed by one chamber, a proposed rule, a ballot measure that is not yet enacted, a decriminalisation law that removes penalties without creating licensed purchase, and a supervised-services programme that does not license the person to buy and use the drug on their own do not count. Resolution source: the enacted bill text in the Congressional record (Congress.gov) or the state legislature record, with the Federal Register or the state register for an implementing rule. FALSE at the deadline when no such law or rule has taken effect.",
+        "resolution_source": {
+          "name": "Enacted law text in the Congressional record (Congress.gov) or the state legislature record, with the Federal Register or the state register for implementing rules",
+          "url": "https://www.congress.gov/"
+        },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'Licensed legalization' = a licensing system under which an adult holds a license and may then legally buy psychedelics to use on their own, the forecaster's own description across his statements.",
+          "The forecaster names no jurisdiction beyond the United States, so the first enacting US jurisdiction, federal or a state, counts; this reading is logged at intake.",
+          "Psilocybin, MDMA and LSD are the drugs the forecaster names ('A or B' is one event)."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": "2035-12-31",
+      "deadline_origin": "anchor",
+      "deadline_text": "That will be 2035",
+      "bin": "B",
+      "p_stated": null,
+      "phrase": "I think what's going to happen",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Drug-policy claim with no regulatory stage class; no base-rate class fits.",
+      "note": "Reading: 'the culture ... ready for a licensed legalization. That will be 2035' is read as the licensed-legalization system arriving in 2035; the second sentence dates the arrival. Bin: the epistemic qualifier 'I think' scopes over the whole claim, so the bare future auxiliary inside its scope does not raise the bin."
+    },
+    {
+      "id": "doblin-0023-a",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:us-psychedelic-clinics-6500",
+        "template": "quantity_threshold",
+        "area": "practice_adoption",
+        "asset": "Psychedelic clinics in the United States: count of clinics",
+        "entity": "US psychedelic treatment clinics (count)",
+        "title": "About 6,000 to 7,000 psychedelic clinics in the United States",
+        "proposition": "The number of clinics in the United States that deliver an approved psychedelic-assisted therapy is about 6,500 by the period end, per the named series.",
+        "criterion": "Resolved on the named data series only: the count of US sites certified to administer an FDA-approved psychedelic-assisted therapy (an MDMA or psilocybin drug product) under that product's REMS, per the REMS programme's published certified-site list, summed across approved products with duplicate sites counted once. 'Six or 7,000' is a point estimate of 6,500 and takes the template's fixed band of plus or minus 20 percent: TRUE when the count at the deadline is 5,200 to 7,800, FALSE otherwise. If no such list has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored. Resolution source: the REMS certified-site lists in REMS@FDA.",
+        "resolution_source": {
+          "name": "REMS certified-site lists of FDA-approved psychedelic-assisted therapy products (FDA REMS@FDA database and the REMS programme websites)",
+          "url": "https://www.accessdata.fda.gov/scripts/cder/rems/"
+        },
+        "base_rate_class": null,
+        "quantity": {
+          "metric": "Count of US clinics certified to deliver an approved psychedelic-assisted therapy",
+          "threshold": 6500,
+          "direction": "band",
+          "unit": "clinics",
+          "series": "REMS certified-site lists of FDA-approved psychedelic-assisted therapy products (REMS@FDA)"
+        },
+        "readings": [
+          "'Psychedelic clinics in America' = US sites delivering an approved psychedelic-assisted therapy, the subject of the conversation.",
+          "'Six or 7,000' is read as a point estimate of 6,500 with the template's plus or minus 20 percent band (5,200 to 7,800), the same reading the registry applies in E-0087."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": "A",
+      "p_stated": null,
+      "phrase": "there'll be six or 7,000 psychedelic clinics in America",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Practice-uptake count with no regulatory stage class; no base-rate class fits.",
+      "note": "Split 'A and B': part a is the US count, part b the Europe count. The third clause ('who knows another 10,000 or more in the rest of the world') is an explicit hedge with no countable claim and is not coded. Near-duplicate of E-0087 on the same asset and series but at a different threshold; the registry may consolidate. The horizon words give no date, so the item goes to the undated panel."
+    },
+    {
+      "id": "doblin-0023-b",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:europe-psychedelic-clinics-6000",
+        "template": "quantity_threshold",
+        "area": "practice_adoption",
+        "asset": "Psychedelic clinics in Europe: count of clinics",
+        "entity": "European psychedelic treatment clinics (count)",
+        "title": "About 6,000 psychedelic clinics in Europe",
+        "proposition": "The number of clinics in Europe that deliver an approved psychedelic-assisted therapy is about 6,000 by the period end, per the named series.",
+        "criterion": "Resolved on the named data series only: the count of European sites certified or registered to administer an approved psychedelic-assisted therapy (an MDMA or psilocybin medicine), per the certified treatment-centre list published under that medicine's controlled-distribution or risk-management plan on the European Medicines Agency medicine page and by the marketing authorisation holder, summed across approved medicines with duplicate sites counted once. 'Another 6,000' is a bare point number and takes the template's fixed band of plus or minus 20 percent: TRUE when the count at the deadline is 4,800 to 7,200, FALSE otherwise. If no such list has published 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
+        "resolution_source": {
+          "name": "Certified treatment-centre lists published under the controlled-distribution or risk-management plan of an EMA-approved psychedelic medicine (EMA medicine page and marketing authorisation holder site)",
+          "url": "https://www.ema.europa.eu/en/medicines"
+        },
+        "base_rate_class": null,
+        "quantity": {
+          "metric": "Count of European clinics certified to deliver an approved psychedelic-assisted therapy",
+          "threshold": 6000,
+          "direction": "band",
+          "unit": "clinics",
+          "series": "Certified treatment-centre lists under the risk-management plan of an EMA-approved psychedelic medicine"
+        },
+        "readings": [
+          "'Another 6,000 in Europe' = European sites delivering an approved psychedelic-assisted therapy.",
+          "Europe = the countries covered by the EMA marketing authorisation, with the equivalent national register of another European country counted when it publishes one."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": "A",
+      "p_stated": null,
+      "phrase": "another 6,000 in Europe",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Practice-uptake count with no regulatory stage class; no base-rate class fits.",
+      "note": "Part b of the split. The bin comes from 'there'll be', which governs the whole list."
+    },
+    {
+      "id": "angermayer-0032",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null,
+      "condition": null,
+      "asserts": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": null,
+      "p_stated": null,
+      "phrase": null,
+      "affiliated": null,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": null,
+      "note": "A purpose clause about his own venture's strategy. No payer, no country, no treatment and no threshold can be written: 'psychedelics' names no asset and 'the health care system' names no deciding body, so no observable coverage event follows from the quote or its immediate context."
+    },
+    {
+      "id": "doblin-0124",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:us-licensed-psychedelic-legalization",
+        "template": "rule_or_policy",
+        "area": "payer_policy",
+        "asset": "Licensed legal access to psychedelics for adult personal use in the United States (a licensing system outside medical prescribing)",
+        "entity": "United States federal and state legislatures and drug-control agencies",
+        "title": "A US licensed-legalization system for adult psychedelic use is established",
+        "proposition": "A United States jurisdiction establishes a licensed-legalization system under which an adult may obtain a license and then legally buy a psychedelic for personal use outside medical supervision.",
+        "criterion": "TRUE on the signing or effective date named in the first enacted United States federal law or state law, or in the first final federal or state rule implementing such a law, under which an adult may obtain a license or permit and then legally buy a psychedelic drug (psilocybin, MDMA or LSD) for personal use outside a clinical trial and outside a prescription or a supervised-administration requirement. A bill passed by one chamber, a proposed rule, a ballot measure that is not yet enacted, a decriminalisation law that removes penalties without creating licensed purchase, and a supervised-services programme that does not license the person to buy and use the drug on their own do not count. Resolution source: the enacted bill text in the Congressional record (Congress.gov) or the state legislature record, with the Federal Register or the state register for an implementing rule. FALSE at the deadline when no such law or rule has taken effect.",
+        "resolution_source": {
+          "name": "Enacted law text in the Congressional record (Congress.gov) or the state legislature record, with the Federal Register or the state register for implementing rules",
+          "url": "https://www.congress.gov/"
+        },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'Receive a license to purchase psychedelics to do on their own' is the licensed-purchase system the event names; the clinic initiation step is the mechanism the forecaster describes, not a second event."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": "2035-12-31",
+      "deadline_origin": "anchor",
+      "deadline_text": "we're guessing by 2035",
+      "bin": "B",
+      "p_stated": null,
+      "phrase": "we're guessing by 2035, the clinics could become sites of initiation",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Drug-policy claim with no regulatory stage class; no base-rate class fits.",
+      "note": "Same event as doblin-0019, doblin-0131 and doblin-0152. Bin: the claim sentence holds 'we're guessing' (bin B) and 'could' (bin C); the strongest phrase decides, so bin B. 'Eventually' is overridden by the stated year."
+    },
+    {
+      "id": "doblin-0131",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:us-licensed-psychedelic-legalization",
+        "template": "rule_or_policy",
+        "area": "payer_policy",
+        "asset": "Licensed legal access to psychedelics for adult personal use in the United States (a licensing system outside medical prescribing)",
+        "entity": "United States federal and state legislatures and drug-control agencies",
+        "title": "A US licensed-legalization system for adult psychedelic use is established",
+        "proposition": "A United States jurisdiction establishes a licensed-legalization system under which an adult may obtain a license and then legally buy a psychedelic for personal use outside medical supervision.",
+        "criterion": "TRUE on the signing or effective date named in the first enacted United States federal law or state law, or in the first final federal or state rule implementing such a law, under which an adult may obtain a license or permit and then legally buy a psychedelic drug (psilocybin, MDMA or LSD) for personal use outside a clinical trial and outside a prescription or a supervised-administration requirement. A bill passed by one chamber, a proposed rule, a ballot measure that is not yet enacted, a decriminalisation law that removes penalties without creating licensed purchase, and a supervised-services programme that does not license the person to buy and use the drug on their own do not count. Resolution source: the enacted bill text in the Congressional record (Congress.gov) or the state legislature record, with the Federal Register or the state register for an implementing rule. FALSE at the deadline when no such law or rule has taken effect.",
+        "resolution_source": {
+          "name": "Enacted law text in the Congressional record (Congress.gov) or the state legislature record, with the Federal Register or the state register for implementing rules",
+          "url": "https://www.congress.gov/"
+        },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'A licensed regulatory system for adults to legally access psychedelics to take on their own without supervision' is the licensed-purchase system the event names.",
+          "'In a post-prohibition world' describes the same legal state of affairs as the licensed system, so it is not coded as a separate condition.",
+          "The clause about minors is a detail of the described regime; the criterion resolves on licensed adult purchase."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": "C",
+      "p_stated": null,
+      "phrase": "there could be a licensed regulatory system",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Drug-policy claim with no regulatory stage class; no base-rate class fits.",
+      "note": "'Eventually' is not a deadline, so the item goes to the undated panel. Same event as doblin-0019, doblin-0124 and doblin-0152."
+    },
+    {
+      "id": "doblin-0152",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:us-licensed-psychedelic-legalization",
+        "template": "rule_or_policy",
+        "area": "payer_policy",
+        "asset": "Licensed legal access to psychedelics for adult personal use in the United States (a licensing system outside medical prescribing)",
+        "entity": "United States federal and state legislatures and drug-control agencies",
+        "title": "A US licensed-legalization system for adult psychedelic use is established",
+        "proposition": "A United States jurisdiction establishes a licensed-legalization system under which an adult may obtain a license and then legally buy a psychedelic for personal use outside medical supervision.",
+        "criterion": "TRUE on the signing or effective date named in the first enacted United States federal law or state law, or in the first final federal or state rule implementing such a law, under which an adult may obtain a license or permit and then legally buy a psychedelic drug (psilocybin, MDMA or LSD) for personal use outside a clinical trial and outside a prescription or a supervised-administration requirement. A bill passed by one chamber, a proposed rule, a ballot measure that is not yet enacted, a decriminalisation law that removes penalties without creating licensed purchase, and a supervised-services programme that does not license the person to buy and use the drug on their own do not count. Resolution source: the enacted bill text in the Congressional record (Congress.gov) or the state legislature record, with the Federal Register or the state register for an implementing rule. FALSE at the deadline when no such law or rule has taken effect.",
+        "resolution_source": {
+          "name": "Enacted law text in the Congressional record (Congress.gov) or the state legislature record, with the Federal Register or the state register for implementing rules",
+          "url": "https://www.congress.gov/"
+        },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'Licensed legalization and people will be legally able to buy psilocybin, MDMA, LSD' is the forecaster's own definition of the event; the three drugs are a disjunction, so one event covers them.",
+          "'After a decade of clinics' is the mechanism he describes, not a separate condition."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": "2035-12-31",
+      "deadline_origin": "anchor",
+      "deadline_text": "I think 2035",
+      "bin": "B",
+      "p_stated": null,
+      "phrase": "I think we'll have licensed legalization",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Drug-policy claim with no regulatory stage class; no base-rate class fits.",
+      "note": "Same event as doblin-0019, doblin-0124 and doblin-0131. Bin: 'I think' scopes over the whole claim, so the future auxiliary inside its scope does not raise the bin. The stated year overrides 'eventually'."
+    },
+    {
+      "id": "doblin-0187",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "E-0001"
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": "C",
+      "p_stated": null,
+      "phrase": "we can imagine that MDMA-assisted therapy for PTSD may soon be available",
+      "affiliated": true,
+      "tags": ["affiliated"],
+      "base_rate_class": "phase3_to_approval_psychiatry",
+      "stage_note": "Phase 3 programme: both confirmatory Phase 3 trials of midomafetamine for PTSD have reported at the statement date and the NDA is not yet submitted.",
+      "note": "Reading: 'available' = FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD, the step the announcement in the tweet leads to; 'accessible to all who could benefit' is rhetorical emphasis, not a second condition. 'Soon' is not a deadline, so the item goes to the undated panel. Bin C from 'may' and 'we can imagine'. Affiliated: the forecaster founded MAPS and the sponsor of the asset named in the event."
+    },
+    {
+      "id": "angermayer-0180",
+      "admit": false,
+      "reason_code": "NOT_FORECAST",
+      "event": null,
+      "condition": null,
+      "asserts": null,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": null,
+      "p_stated": null,
+      "phrase": null,
+      "affiliated": null,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": null,
+      "note": "Present-tense description of how psychedelic treatment differs from a daily pill collected at a pharmacy. No future state is asserted and no modal appears, so reading it as a denial of retail-pharmacy dispensing (E-0067) would add words the forecaster did not say."
+    }
+  ]
+}
