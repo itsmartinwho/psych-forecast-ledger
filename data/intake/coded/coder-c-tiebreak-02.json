@@ -1,0 +1,431 @@
+{
+  "coder": "C",
+  "run": "intake-2026-09-13",
+  "records": [
+    {
+      "id": "owen-1202",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:cms-cy2025-pfs-conversion-factor-cut",
+        "template": "coverage_decision",
+        "area": "payer_policy",
+        "asset": "Medicare Physician Fee Schedule conversion factor, calendar year 2025",
+        "entity": "Centers for Medicare & Medicaid Services",
+        "title": "CY2025 Physician Fee Schedule final rule cuts the conversion factor",
+        "proposition": "The CMS final rule for the CY2025 Medicare Physician Fee Schedule sets a conversion factor below the CY2024 conversion factor.",
+        "criterion": "TRUE on the effective date of the CY2025 Medicare Physician Fee Schedule final rule if the CY2025 conversion factor it publishes in the Federal Register is lower than the final CY2024 conversion factor in force on 2024-08-16. Later congressional or CMS revisions of the CY2025 factor do not change the result. FALSE if the final CY2025 factor equals or exceeds the CY2024 factor.",
+        "resolution_source": { "name": "Federal Register, CMS CY2025 Physician Fee Schedule final rule", "url": "https://www.federalregister.gov/" },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'physician reimbursement' = the fee schedule conversion factor; 'decrease it a little bit' = any reduction versus the prior year, no size threshold.",
+          "'every year', in a post on the CY2025 comment period, is read as applying to the CY2025 rule."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": "2025-12-31",
+      "deadline_origin": "anchor",
+      "deadline_text": "2025 (post title: CMS Physicians Fee Schedule Open Comment Period 2025); 'every year'",
+      "bin": "A",
+      "p_stated": null,
+      "phrase": "so they decrease it a little bit",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "CY2025 proposed rule in its comment period at the statement date; final rule pending. No base-rate class for fee schedule changes.",
+      "note": "Habitual assertion applied to the pending CY2025 rule; flat indicative read as bin A. Year anchor from the post title."
+    },
+    {
+      "id": "owen-1215",
+      "admit": false,
+      "reason_code": "OUT_OF_AREA",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Criminal investigation and prosecution over hospital admission practices falls outside all five area definitions."
+    },
+    {
+      "id": "owen-1216",
+      "admit": false,
+      "reason_code": "OUT_OF_AREA",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Litigation against a hospital operator is not a listed company, regulatory or payer outcome; the profit implication has no threshold."
+    },
+    {
+      "id": "owen-1269",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:uhc-optum-prepayment-review-parity-case",
+        "template": "court_outcome",
+        "area": "payer_policy",
+        "asset": "Optum/UnitedHealthcare pre-payment review of behavioral health claims (mental health parity)",
+        "entity": "Federal or state court; US Department of Labor; state attorney general",
+        "title": "New parity case against UnitedHealthcare or Optum over pre-payment review",
+        "proposition": "A new mental health parity lawsuit or enforcement action is brought against UnitedHealthcare, United Behavioral Health or Optum over its pre-payment review policy for behavioral health claims.",
+        "criterion": "TRUE on the docket date of a complaint filed in a federal or state court, or the date of a Department of Labor or state attorney general enforcement announcement, dated after 2024-10-14, that names UnitedHealthcare, United Behavioral Health or Optum, alleges a violation of federal or state mental health parity law, and challenges the pre-payment review of behavioral health claims. Actions filed by the forecaster's own organizations do not count.",
+        "resolution_source": { "name": "Court dockets (CourtListener/PACER); DOL EBSA and state attorney general press releases", "url": "https://www.courtlistener.com/" },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'yet more litigation' = a new parity suit or enforcement action on the pre-payment review policy; the 2021 settlement matter itself does not count.",
+          "Private, Department of Labor or state attorney general actions all count; the plaintiff is not named."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": "C",
+      "p_stated": null,
+      "phrase": "it seems it might be",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Pre-payment review policy described as new at the statement date; no parity case on it named. No base-rate class for litigation.",
+      "note": "Hedged assertion with a question mark, read as a forecast; 'might' sets bin C. No time words: undated."
+    },
+    {
+      "id": "owen-1575",
+      "admit": false,
+      "reason_code": "OUT_OF_AREA",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "A defamation suit by an insurer against a physician is outside all five area definitions."
+    },
+    {
+      "id": "owen-1751",
+      "admit": false,
+      "reason_code": "NOT_FORECAST",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Describes regulatory status and data needs; eventual clearance is presupposed, not stated as an expectation."
+    },
+    {
+      "id": "owen-1832",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Race against pet access to accelerated TMS: a comparative whose benchmark has no countable set or definition."
+    },
+    {
+      "id": "owen-1918",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:s1717-breakthrough-products-act-enacted",
+        "template": "rule_or_policy",
+        "area": "payer_policy",
+        "asset": "S.1717, Ensuring Patient Access to Critical Breakthrough Products Act of 2025 (Medicare coverage of FDA breakthrough-designated products)",
+        "entity": "United States Congress",
+        "title": "Ensuring Patient Access to Critical Breakthrough Products Act enacted",
+        "proposition": "Congress enacts S.1717, the Ensuring Patient Access to Critical Breakthrough Products Act of 2025.",
+        "criterion": "TRUE on the date S.1717 (119th Congress), or a bill that carries its operative text on Medicare coverage of breakthrough-designated products, is signed into law or otherwise becomes law, per Congress.gov. Introduction, committee approval or passage by one chamber is not enactment.",
+        "resolution_source": { "name": "Congress.gov", "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1717" },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'as part of the compromise' names the expected vehicle, not a condition; enactment through any vehicle counts."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": "C",
+      "p_stated": null,
+      "phrase": "Maybe",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Introduced Senate bill at the statement date, per the author's naming. No base-rate class for legislation.",
+      "note": "Aside about a real bill inside a satirical post, read as sincere; 'maybe' sets bin C. No date words: undated."
+    },
+    {
+      "id": "owen-2024",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Doubling claim names no series and shifts category from the 2025 tally to BCI companies; the second clause has no threshold."
+    },
+    {
+      "id": "owen-2033",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:two-pandemic-era-mental-health-companies-shut-down-2026",
+        "template": "company_event",
+        "area": "company_market",
+        "asset": "Pandemic-era mental health companies (founded or launched 2020 to 2022)",
+        "entity": "The companies themselves (public shutdown announcements or bankruptcy filings)",
+        "title": "At least two pandemic-era mental health companies publicly cease operations in 2026",
+        "proposition": "At least two mental health companies founded or launched between 2020 and 2022 publicly cease operations during 2026.",
+        "criterion": "TRUE on the date of the second definitive public announcement (press release, company notice, SEC filing or bankruptcy court filing), dated in 2026, that a company whose primary business is mental health care or mental health software, founded or launched in 2020, 2021 or 2022, has ceased or will cease operations, or has filed for liquidation. Acquisitions, mergers, Chapter 11 reorganizations that continue operations, pivots and companies affiliated with the forecaster do not count.",
+        "resolution_source": { "name": "Company announcements, SEC EDGAR and bankruptcy dockets (CourtListener), indexed by trade press", "url": "https://www.courtlistener.com/" },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'pandemic-era' = founded or launched in 2020 to 2022.",
+          "'publicly cease operations' = a definitive public shutdown or liquidation announcement; the fictional company named is not a candidate."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": "2026-12-31",
+      "deadline_origin": "anchor",
+      "deadline_text": "2026 (annual predictions list dated 1 January 2026)",
+      "bin": "A",
+      "p_stated": null,
+      "phrase": "will",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Count on an open class of companies; no base-rate class covers company shutdowns.",
+      "note": "Numeric threshold (two) on a class defined by reading; set membership logged. Predictions-list anchor sets 31 December 2026."
+    },
+    {
+      "id": "owen-2034",
+      "admit": false,
+      "reason_code": "OUT_OF_AREA",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Criminal prosecutions of controlled-substance sellers and a conviction are enforcement outcomes outside all five area definitions."
+    },
+    {
+      "id": "owen-2099",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Timing-only claim; 'years out' gives no threshold or anchor-table deadline and describes trial stage, not an outcome."
+    },
+    {
+      "id": "owen-2240",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:accelerated-tms-coverage-ptsd-bipolar-ocd-adhd",
+        "template": "coverage_decision",
+        "area": "payer_policy",
+        "asset": "Accelerated TMS (SAINT, SWIFT or comparable multi-session-per-day protocols) for PTSD, bipolar disorder, OCD or ADHD",
+        "entity": "US health plans (Blue Cross Blue Shield plans or other payers)",
+        "title": "A US health plan covers accelerated TMS for PTSD, bipolar disorder, OCD or ADHD",
+        "proposition": "A US health plan publishes a medical policy that covers accelerated TMS as medically necessary for at least one of PTSD, bipolar disorder, OCD or ADHD.",
+        "criterion": "TRUE on the effective date of a published US health plan medical policy or coverage bulletin, dated after 2026-05-11, that lists an accelerated TMS protocol (SAINT, SWIFT or a comparable protocol with several sessions a day) as medically necessary for PTSD, bipolar disorder, OCD or ADHD. Coverage of once-daily TMS for OCD, and coverage limited to depression, do not count.",
+        "resolution_source": { "name": "Payer medical policy bulletins (Blue Cross Blue Shield plan policy libraries and other US payers)", "url": null },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "The list is read as 'at least one of' PTSD, bipolar disorder, OCD or ADHD; depression is excluded as already covered per the author.",
+          "The first clause, on a depression standard being set, is description, not a coded forecast."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": "B",
+      "p_stated": null,
+      "phrase": "it’s likely",
+      "affiliated": false,
+      "tags": [],
+      "base_rate_class": null,
+      "stage_note": "Several BCBS plans cover accelerated TMS for depression at the statement date, per the author; none named for the other indications. No base-rate class.",
+      "note": "Forecast clause coded; 'likely' outranks 'might' for bin B. 'Next' is not a deadline: undated. SWIFT link noted, not in affiliations."
+    },
+    {
+      "id": "owen-2343-a",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:next-novel-psychedelic-approval-requires-session-monitoring",
+        "template": "rule_or_policy",
+        "area": "regulatory",
+        "asset": "REMS or labeling of the first novel psychedelic approved by FDA after 2026-08-19",
+        "entity": "US Food and Drug Administration",
+        "title": "First novel psychedelic approval carries a required in-session monitoring program",
+        "proposition": "FDA approves the first novel psychedelic after 2026-08-19 with a REMS or prescribing information that requires monitoring of the patient by a healthcare provider during the dosing session.",
+        "criterion": "TRUE on the approval date if the FDA approval of the first novel psychedelic drug approved after 2026-08-19 (the condition event) carries a REMS, per REMS@FDA, or prescribing information, per Drugs@FDA, that requires a healthcare provider to monitor the patient during the dosing session. FALSE if that approval carries no such requirement.",
+        "resolution_source": { "name": "FDA REMS@FDA and Drugs@FDA", "url": "https://www.accessdata.fda.gov/scripts/cder/rems/" },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'monitoring built in' = an FDA-required monitoring element (REMS or labeling), per the REMS section context; resolved on the first qualifying approval.",
+          "The auditable-video clause is split off as owen-2343-b."
+        ]
+      },
+      "condition": {
+        "ref": "new:fda-approves-novel-psychedelic",
+        "template": "drug_approval",
+        "area": "regulatory",
+        "asset": "A novel psychedelic drug (psilocybin, LSD, DMT, 5-MeO-DMT, MDMA, ibogaine or a related psychedelic or entactogen) for a psychiatric indication",
+        "entity": "US Food and Drug Administration",
+        "title": "FDA approves a novel psychedelic for a psychiatric indication",
+        "proposition": "FDA approves a novel psychedelic drug for a psychiatric indication.",
+        "criterion": "TRUE on the date of the first FDA approval letter, dated after 2026-08-19, for a psychedelic or entactogen drug (psilocybin, LSD, DMT, 5-MeO-DMT, MDMA, ibogaine or a related compound) for any psychiatric indication, per Drugs@FDA. Ketamine and esketamine products do not count.",
+        "resolution_source": { "name": "Drugs@FDA", "url": "https://www.accessdata.fda.gov/scripts/cder/daf/" },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "Novel psychedelics reaching clinical care = FDA approval of a psychedelic for a psychiatric indication."
+        ]
+      },
+      "asserts": true,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": "A",
+      "p_stated": null,
+      "phrase": "will come with monitoring built in",
+      "affiliated": false,
+      "tags": ["conditional"],
+      "base_rate_class": null,
+      "stage_note": "Author treats novel psychedelic approval as pending at the statement date. No base-rate class for REMS content.",
+      "note": "Conditional on an FDA approval outside the forecaster's control. The 'universe listening' aside is not a lexicon phrase; 'will' sets bin A."
+    },
+    {
+      "id": "owen-2343-b",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Comparative on auditable video has no benchmark; no REMS element can be written without invention."
+    },
+    {
+      "id": "angermayer-0011",
+      "admit": false,
+      "reason_code": "CONTROL",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Readout timing of BPL-003 is an action of Beckley Psytech, an affiliated organization in the atai alias list."
+    },
+    {
+      "id": "angermayer-0015",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:atai-market-cap-10-billion",
+        "template": "quantity_threshold",
+        "area": "company_market",
+        "asset": "atai Life Sciences market capitalization (Nasdaq: ATAI)",
+        "entity": "Public equity market (Nasdaq listing of atai Life Sciences)",
+        "title": "atai market capitalization reaches USD 10 billion",
+        "proposition": "The market capitalization of atai Life Sciences closes at or above USD 10 billion.",
+        "criterion": "Resolved on Nasdaq closing price multiplied by shares outstanding per atai's latest SEC filing only. TRUE on the first trading day on which the market capitalization of atai Life Sciences, or of its listed successor after a merger or rename, closes at or above USD 10 billion, the lower bound of 'double-digit billion'. If the series stops (delisting without a listed successor), the event is unresolvable.",
+        "resolution_source": { "name": "Nasdaq closing prices and SEC EDGAR share counts", "url": "https://www.sec.gov/edgar/search/" },
+        "base_rate_class": null,
+        "quantity": {
+          "metric": "market capitalization of atai Life Sciences",
+          "threshold": "USD 10 billion (lower bound of 'double-, triple-digit billion')",
+          "direction": "at or above",
+          "unit": "USD",
+          "series": "Nasdaq closing price x shares outstanding (SEC filings)"
+        },
+        "readings": [
+          "'double-, triple-digit billion-dollar company' = market capitalization of at least USD 10 billion; the range's lower bound is the threshold."
+        ]
+      },
+      "condition": {
+        "ref": "new:fda-approves-atai-affiliated-psychedelic",
+        "template": "drug_approval",
+        "area": "regulatory",
+        "asset": "A psychedelic drug developed by atai Life Sciences or a company in which atai held a disclosed stake at the statement date (Compass Pathways, Beckley Psytech)",
+        "entity": "US Food and Drug Administration",
+        "title": "FDA approves an atai-affiliated psychedelic for a psychiatric indication",
+        "proposition": "FDA approves a psychedelic drug developed by atai Life Sciences or an atai-invested company for a psychiatric indication.",
+        "criterion": "TRUE on the date of the FDA approval letter, per Drugs@FDA, for a psychedelic drug developed by atai Life Sciences or by a company in which atai held a disclosed stake on 2024-07-31 (including Compass Pathways and Beckley Psytech), for any psychiatric indication.",
+        "resolution_source": { "name": "Drugs@FDA", "url": "https://www.accessdata.fda.gov/scripts/cder/daf/" },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'if we succeed, and if we medicalise psychedelics' = FDA approval of an atai-affiliated psychedelic; FDA, not atai, decides approval."
+        ]
+      },
+      "asserts": true,
+      "deadline": null,
+      "deadline_origin": null,
+      "deadline_text": null,
+      "bin": "A",
+      "p_stated": null,
+      "phrase": "will be",
+      "affiliated": true,
+      "tags": ["conditional", "affiliated"],
+      "base_rate_class": null,
+      "stage_note": "atai listed and well below USD 10 billion, with no approved psychedelic, at the statement date. No base-rate class for market capitalization.",
+      "note": "Founder's conditional valuation claim with a numeric floor; the condition is an FDA outcome, not a company decision. Undated."
+    },
+    {
+      "id": "angermayer-0018",
+      "admit": false,
+      "reason_code": "CONTROL",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Readout timing of BPL-003 is an action of the forecaster's own organization; atai is acquiring Beckley in the same post."
+    },
+    {
+      "id": "angermayer-0025",
+      "admit": true,
+      "reason_code": null,
+      "event": {
+        "ref": "new:comp360-fda-decision-trd",
+        "template": "drug_approval",
+        "area": "regulatory",
+        "asset": "COMP360 (psilocybin) for treatment-resistant depression",
+        "entity": "US Food and Drug Administration",
+        "title": "FDA issues its decision on the COMP360 NDA for treatment-resistant depression",
+        "proposition": "FDA issues an approval or a complete response letter on Compass Pathways' NDA for COMP360 in treatment-resistant depression.",
+        "criterion": "TRUE on the date of the FDA action letter on the COMP360 NDA for treatment-resistant depression: an approval, per Drugs@FDA, or a complete response letter, per Compass Pathways' announcement. Filing acceptance, a PDUFA date assignment, an advisory committee vote or a refuse-to-file letter is not a decision. Reading: the claim is about timing, so approval and complete response count alike.",
+        "resolution_source": { "name": "Drugs@FDA; Compass Pathways press releases for a complete response letter", "url": "https://www.accessdata.fda.gov/scripts/cder/daf/" },
+        "base_rate_class": null,
+        "quantity": null,
+        "readings": [
+          "'a decision' = an FDA action letter of either kind; this event is distinct from an approval event on COMP360."
+        ]
+      },
+      "condition": null,
+      "asserts": true,
+      "deadline": "2027-12-31",
+      "deadline_origin": "anchor",
+      "deadline_text": "late this year or early next year",
+      "bin": "B",
+      "p_stated": null,
+      "phrase": "should get Compass a decision",
+      "affiliated": true,
+      "tags": ["affiliated"],
+      "base_rate_class": null,
+      "stage_note": "Rolling NDA submission under way at the statement date, per the quoted words. Event is the FDA action, not approval, so no approval base rate.",
+      "note": "Quoted words endorsed as his own. Predictive 'should' outranks 'potentially' for bin B. 'Next year' anchors to 31 December 2027."
+    },
+    {
+      "id": "angermayer-0027",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "'Major index' names no index or provider; no countable set can be written without invention. 'Coming months' sets no deadline."
+    },
+    {
+      "id": "doblin-0011",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Timing relative to an undated benchmark (MDMA approval); no fixed deadline can be written without invention."
+    },
+    {
+      "id": "doblin-0020",
+      "admit": false,
+      "reason_code": "VAGUE",
+      "event": null, "condition": null, "asserts": null, "deadline": null, "deadline_origin": null, "deadline_text": null,
+      "bin": null, "p_stated": null, "phrase": null, "affiliated": null, "tags": null, "base_rate_class": null, "stage_note": null,
+      "note": "Organization target timed relative to an undated benchmark (FDA approval); no fixed deadline can be written without invention."
+    }
+  ]
+}

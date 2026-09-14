@@ -364,6 +364,30 @@
    "first_date": "2022-08-09"
   },
   {
+   "ref": "new:dea-physical-office-rule-removed",
+   "template": "rule_or_policy",
+   "area": "regulatory",
+   "asset": "DEA physical-office registration requirement for controlled-substance prescribers",
+   "entity": "DEA",
+   "title": "DEA physical-office requirement for controlled-substance prescribers removed",
+   "proposition": "The DEA by final rule, or Congress by enacted law, removes the requirement that prescribers of controlled substances hold a DEA registration at a physical office location.",
+   "criterion": "TRUE on the Federal Register publication date of a DEA final rule, or the signing date of an enacted federal law, that removes the requirement that a prescriber of controlled substances hold a DEA registration at a physical office location. A proposed rule, a temporary telemedicine flexibility or an extension of one does not count.",
+   "resolution_source": {
+    "name": "Federal Register",
+    "url": "https://www.federalregister.gov/"
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "'Not going to go down without a drawn out fight' is read as no removal within the undated 24-month window."
+   ],
+   "coder": "C",
+   "statement_ids": [
+    "owen-0121"
+   ],
+   "first_date": "2022-08-09"
+  },
+  {
    "ref": "new:saint-commercial-availability-us",
    "template": "company_event",
    "area": "company_market",
@@ -897,6 +921,31 @@
     "A population expansion or a protocol change within an already authorized condition is not a new indication; a listed condition under another name (MDD for TRD) is not new."
    ],
    "coder": "A",
+   "statement_ids": [
+    "owen-0831"
+   ],
+   "first_date": "2024-01-04"
+  },
+  {
+   "ref": "new:fda-tms-additional-indication",
+   "template": "device_authorization",
+   "area": "regulatory",
+   "asset": "Transcranial magnetic stimulation (TMS) devices",
+   "entity": "FDA",
+   "title": "TMS authorized by FDA for an additional indication",
+   "proposition": "FDA grants 510(k) clearance, De Novo or PMA approval for a TMS device for an indication other than major depressive disorder, anxious depression, smoking cessation or OCD.",
+   "criterion": "TRUE on the decision date in the FDA 510(k), De Novo or PMA database of an authorization for any TMS device whose indication for use is not one of: major depressive disorder (TRD counts as MDD), MDD with anxious distress, smoking cessation, OCD. A new patient population for a listed disorder counts as a new indication. A breakthrough designation alone does not count.",
+   "resolution_source": {
+    "name": "FDA 510(k), De Novo and PMA databases",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm"
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "TRD counts as MDD.",
+    "The forecaster counts anxious depression as its own indication, so a new patient population for a listed disorder counts as a new indication."
+   ],
+   "coder": "C",
    "statement_ids": [
     "owen-0831"
    ],
@@ -1540,6 +1589,60 @@
    "first_date": "2024-07-31"
   },
   {
+   "ref": "new:atai-market-cap-10-billion",
+   "template": "quantity_threshold",
+   "area": "company_market",
+   "asset": "atai Life Sciences market capitalization (Nasdaq: ATAI)",
+   "entity": "Public equity market (Nasdaq listing of atai Life Sciences)",
+   "title": "atai market capitalization reaches USD 10 billion",
+   "proposition": "The market capitalization of atai Life Sciences closes at or above USD 10 billion.",
+   "criterion": "Resolved on Nasdaq closing price multiplied by shares outstanding per atai's latest SEC filing only. TRUE on the first trading day on which the market capitalization of atai Life Sciences, or of its listed successor after a merger or rename, closes at or above USD 10 billion, the lower bound of 'double-digit billion'. If the series stops (delisting without a listed successor), the event is unresolvable.",
+   "resolution_source": {
+    "name": "Nasdaq closing prices and SEC EDGAR share counts",
+    "url": "https://www.sec.gov/edgar/search/"
+   },
+   "base_rate_class": null,
+   "quantity": {
+    "metric": "market capitalization of atai Life Sciences",
+    "threshold": "USD 10 billion (lower bound of 'double-, triple-digit billion')",
+    "direction": "at or above",
+    "unit": "USD",
+    "series": "Nasdaq closing price x shares outstanding (SEC filings)"
+   },
+   "readings": [
+    "'double-, triple-digit billion-dollar company' = market capitalization of at least USD 10 billion; the range's lower bound is the threshold."
+   ],
+   "coder": "C",
+   "statement_ids": [
+    "angermayer-0015"
+   ],
+   "first_date": "2024-07-31"
+  },
+  {
+   "ref": "new:fda-approves-atai-affiliated-psychedelic",
+   "template": "drug_approval",
+   "area": "regulatory",
+   "asset": "A psychedelic drug developed by atai Life Sciences or a company in which atai held a disclosed stake at the statement date (Compass Pathways, Beckley Psytech)",
+   "entity": "US Food and Drug Administration",
+   "title": "FDA approves an atai-affiliated psychedelic for a psychiatric indication",
+   "proposition": "FDA approves a psychedelic drug developed by atai Life Sciences or an atai-invested company for a psychiatric indication.",
+   "criterion": "TRUE on the date of the FDA approval letter, per Drugs@FDA, for a psychedelic drug developed by atai Life Sciences or by a company in which atai held a disclosed stake on 2024-07-31 (including Compass Pathways and Beckley Psytech), for any psychiatric indication.",
+   "resolution_source": {
+    "name": "Drugs@FDA",
+    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "'if we succeed, and if we medicalise psychedelics' = FDA approval of an atai-affiliated psychedelic; FDA, not atai, decides approval."
+   ],
+   "coder": "C",
+   "statement_ids": [
+    "angermayer-0015"
+   ],
+   "first_date": "2024-07-31"
+  },
+  {
    "ref": "new:fda-midomafetamine-crl-appeal-granted",
    "template": "court_outcome",
    "area": "regulatory",
@@ -1588,6 +1691,31 @@
    "title": "CMS cuts the CY2025 physician fee schedule conversion factor",
    "proposition": "The CY2025 Medicare Physician Fee Schedule conversion factor in the CMS final rule is below the CY2024 conversion factor, per the CMS PFS final rule in the Federal Register.",
    "coder": "B",
+   "statement_ids": [
+    "owen-1202"
+   ],
+   "first_date": "2024-08-16"
+  },
+  {
+   "ref": "new:cms-cy2025-pfs-conversion-factor-cut",
+   "template": "coverage_decision",
+   "area": "payer_policy",
+   "asset": "Medicare Physician Fee Schedule conversion factor, calendar year 2025",
+   "entity": "Centers for Medicare & Medicaid Services",
+   "title": "CY2025 Physician Fee Schedule final rule cuts the conversion factor",
+   "proposition": "The CMS final rule for the CY2025 Medicare Physician Fee Schedule sets a conversion factor below the CY2024 conversion factor.",
+   "criterion": "TRUE on the effective date of the CY2025 Medicare Physician Fee Schedule final rule if the CY2025 conversion factor it publishes in the Federal Register is lower than the final CY2024 conversion factor in force on 2024-08-16. Later congressional or CMS revisions of the CY2025 factor do not change the result. FALSE if the final CY2025 factor equals or exceeds the CY2024 factor.",
+   "resolution_source": {
+    "name": "Federal Register, CMS CY2025 Physician Fee Schedule final rule",
+    "url": "https://www.federalregister.gov/"
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "'physician reimbursement' = the fee schedule conversion factor; 'decrease it a little bit' = any reduction versus the prior year, no size threshold.",
+    "'every year', in a post on the CY2025 comment period, is read as applying to the CY2025 rule."
+   ],
+   "coder": "C",
    "statement_ids": [
     "owen-1202"
    ],
@@ -1664,6 +1792,31 @@
     "court_outcome is the closest template for a litigation claim; the event resolves on initiation (docket date of the complaint or announcement of the enforcement action), not on a later ruling."
    ],
    "coder": "A",
+   "statement_ids": [
+    "owen-1269"
+   ],
+   "first_date": "2024-10-14"
+  },
+  {
+   "ref": "new:uhc-optum-prepayment-review-parity-case",
+   "template": "court_outcome",
+   "area": "payer_policy",
+   "asset": "Optum/UnitedHealthcare pre-payment review of behavioral health claims (mental health parity)",
+   "entity": "Federal or state court; US Department of Labor; state attorney general",
+   "title": "New parity case against UnitedHealthcare or Optum over pre-payment review",
+   "proposition": "A new mental health parity lawsuit or enforcement action is brought against UnitedHealthcare, United Behavioral Health or Optum over its pre-payment review policy for behavioral health claims.",
+   "criterion": "TRUE on the docket date of a complaint filed in a federal or state court, or the date of a Department of Labor or state attorney general enforcement announcement, dated after 2024-10-14, that names UnitedHealthcare, United Behavioral Health or Optum, alleges a violation of federal or state mental health parity law, and challenges the pre-payment review of behavioral health claims. Actions filed by the forecaster's own organizations do not count.",
+   "resolution_source": {
+    "name": "Court dockets (CourtListener/PACER); DOL EBSA and state attorney general press releases",
+    "url": "https://www.courtlistener.com/"
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "'yet more litigation' = a new parity suit or enforcement action on the pre-payment review policy; the 2021 settlement matter itself does not count.",
+    "Private, Department of Labor or state attorney general actions all count; the plaintiff is not named."
+   ],
+   "coder": "C",
    "statement_ids": [
     "owen-1269"
    ],
@@ -2024,6 +2177,30 @@
     "The forecaster tied passage to a shutdown compromise ('as part of the compromise'); enactment by any legislative vehicle counts, and the vehicle is not part of the event."
    ],
    "coder": "A",
+   "statement_ids": [
+    "owen-1918"
+   ],
+   "first_date": "2025-09-29"
+  },
+  {
+   "ref": "new:s1717-breakthrough-products-act-enacted",
+   "template": "rule_or_policy",
+   "area": "payer_policy",
+   "asset": "S.1717, Ensuring Patient Access to Critical Breakthrough Products Act of 2025 (Medicare coverage of FDA breakthrough-designated products)",
+   "entity": "United States Congress",
+   "title": "Ensuring Patient Access to Critical Breakthrough Products Act enacted",
+   "proposition": "Congress enacts S.1717, the Ensuring Patient Access to Critical Breakthrough Products Act of 2025.",
+   "criterion": "TRUE on the date S.1717 (119th Congress), or a bill that carries its operative text on Medicare coverage of breakthrough-designated products, is signed into law or otherwise becomes law, per Congress.gov. Introduction, committee approval or passage by one chamber is not enactment.",
+   "resolution_source": {
+    "name": "Congress.gov",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1717"
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "'as part of the compromise' names the expected vehicle, not a condition; enactment through any vehicle counts."
+   ],
+   "coder": "C",
    "statement_ids": [
     "owen-1918"
    ],
@@ -2540,6 +2717,31 @@
    "first_date": "2026-01-01"
   },
   {
+   "ref": "new:two-pandemic-era-mental-health-companies-shut-down-2026",
+   "template": "company_event",
+   "area": "company_market",
+   "asset": "Pandemic-era mental health companies (founded or launched 2020 to 2022)",
+   "entity": "The companies themselves (public shutdown announcements or bankruptcy filings)",
+   "title": "At least two pandemic-era mental health companies publicly cease operations in 2026",
+   "proposition": "At least two mental health companies founded or launched between 2020 and 2022 publicly cease operations during 2026.",
+   "criterion": "TRUE on the date of the second definitive public announcement (press release, company notice, SEC filing or bankruptcy court filing), dated in 2026, that a company whose primary business is mental health care or mental health software, founded or launched in 2020, 2021 or 2022, has ceased or will cease operations, or has filed for liquidation. Acquisitions, mergers, Chapter 11 reorganizations that continue operations, pivots and companies affiliated with the forecaster do not count.",
+   "resolution_source": {
+    "name": "Company announcements, SEC EDGAR and bankruptcy dockets (CourtListener), indexed by trade press",
+    "url": "https://www.courtlistener.com/"
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "'pandemic-era' = founded or launched in 2020 to 2022.",
+    "'publicly cease operations' = a definitive public shutdown or liquidation announcement; the fictional company named is not a candidate."
+   ],
+   "coder": "C",
+   "statement_ids": [
+    "owen-2033"
+   ],
+   "first_date": "2026-01-01"
+  },
+  {
    "ref": "new:additional-health-plan-covers-tms-adolescent-depression",
    "template": "coverage_decision",
    "area": "payer_policy",
@@ -2628,6 +2830,30 @@
    "title": "FDA issues a decision on the COMP360 NDA for treatment-resistant depression",
    "proposition": "The FDA issues its action (approval or complete response letter) on Compass Pathways' new drug application for COMP360 (psilocybin) in treatment-resistant depression.",
    "coder": "B",
+   "statement_ids": [
+    "angermayer-0025"
+   ],
+   "first_date": "2026-02-04"
+  },
+  {
+   "ref": "new:comp360-fda-decision-trd",
+   "template": "drug_approval",
+   "area": "regulatory",
+   "asset": "COMP360 (psilocybin) for treatment-resistant depression",
+   "entity": "US Food and Drug Administration",
+   "title": "FDA issues its decision on the COMP360 NDA for treatment-resistant depression",
+   "proposition": "FDA issues an approval or a complete response letter on Compass Pathways' NDA for COMP360 in treatment-resistant depression.",
+   "criterion": "TRUE on the date of the FDA action letter on the COMP360 NDA for treatment-resistant depression: an approval, per Drugs@FDA, or a complete response letter, per Compass Pathways' announcement. Filing acceptance, a PDUFA date assignment, an advisory committee vote or a refuse-to-file letter is not a decision. Reading: the claim is about timing, so approval and complete response count alike.",
+   "resolution_source": {
+    "name": "Drugs@FDA; Compass Pathways press releases for a complete response letter",
+    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "'a decision' = an FDA action letter of either kind; this event is distinct from an approval event on COMP360."
+   ],
+   "coder": "C",
    "statement_ids": [
     "angermayer-0025"
    ],
@@ -2774,6 +3000,31 @@
    "coder": "B",
    "statement_ids": [
     "owen-2239"
+   ],
+   "first_date": "2026-05-11"
+  },
+  {
+   "ref": "new:accelerated-tms-coverage-ptsd-bipolar-ocd-adhd",
+   "template": "coverage_decision",
+   "area": "payer_policy",
+   "asset": "Accelerated TMS (SAINT, SWIFT or comparable multi-session-per-day protocols) for PTSD, bipolar disorder, OCD or ADHD",
+   "entity": "US health plans (Blue Cross Blue Shield plans or other payers)",
+   "title": "A US health plan covers accelerated TMS for PTSD, bipolar disorder, OCD or ADHD",
+   "proposition": "A US health plan publishes a medical policy that covers accelerated TMS as medically necessary for at least one of PTSD, bipolar disorder, OCD or ADHD.",
+   "criterion": "TRUE on the effective date of a published US health plan medical policy or coverage bulletin, dated after 2026-05-11, that lists an accelerated TMS protocol (SAINT, SWIFT or a comparable protocol with several sessions a day) as medically necessary for PTSD, bipolar disorder, OCD or ADHD. Coverage of once-daily TMS for OCD, and coverage limited to depression, do not count.",
+   "resolution_source": {
+    "name": "Payer medical policy bulletins (Blue Cross Blue Shield plan policy libraries and other US payers)",
+    "url": null
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "The list is read as 'at least one of' PTSD, bipolar disorder, OCD or ADHD; depression is excluded as already covered per the author.",
+    "The first clause, on a depression standard being set, is description, not a coded forecast."
+   ],
+   "coder": "C",
+   "statement_ids": [
+    "owen-2240"
    ],
    "first_date": "2026-05-11"
   },
@@ -2963,6 +3214,55 @@
    "title": "Psychedelic labeling or REMS requires video recording of dosing sessions",
    "proposition": "FDA approves a novel psychedelic drug product whose labeling or REMS requires video recording (auditable video) of dosing sessions.",
    "coder": "B",
+   "statement_ids": [
+    "owen-2343"
+   ],
+   "first_date": "2026-08-19"
+  },
+  {
+   "ref": "new:next-novel-psychedelic-approval-requires-session-monitoring",
+   "template": "rule_or_policy",
+   "area": "regulatory",
+   "asset": "REMS or labeling of the first novel psychedelic approved by FDA after 2026-08-19",
+   "entity": "US Food and Drug Administration",
+   "title": "First novel psychedelic approval carries a required in-session monitoring program",
+   "proposition": "FDA approves the first novel psychedelic after 2026-08-19 with a REMS or prescribing information that requires monitoring of the patient by a healthcare provider during the dosing session.",
+   "criterion": "TRUE on the approval date if the FDA approval of the first novel psychedelic drug approved after 2026-08-19 (the condition event) carries a REMS, per REMS@FDA, or prescribing information, per Drugs@FDA, that requires a healthcare provider to monitor the patient during the dosing session. FALSE if that approval carries no such requirement.",
+   "resolution_source": {
+    "name": "FDA REMS@FDA and Drugs@FDA",
+    "url": "https://www.accessdata.fda.gov/scripts/cder/rems/"
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "'monitoring built in' = an FDA-required monitoring element (REMS or labeling), per the REMS section context; resolved on the first qualifying approval.",
+    "The auditable-video clause is split off as owen-2343-b."
+   ],
+   "coder": "C",
+   "statement_ids": [
+    "owen-2343"
+   ],
+   "first_date": "2026-08-19"
+  },
+  {
+   "ref": "new:fda-approves-novel-psychedelic",
+   "template": "drug_approval",
+   "area": "regulatory",
+   "asset": "A novel psychedelic drug (psilocybin, LSD, DMT, 5-MeO-DMT, MDMA, ibogaine or a related psychedelic or entactogen) for a psychiatric indication",
+   "entity": "US Food and Drug Administration",
+   "title": "FDA approves a novel psychedelic for a psychiatric indication",
+   "proposition": "FDA approves a novel psychedelic drug for a psychiatric indication.",
+   "criterion": "TRUE on the date of the first FDA approval letter, dated after 2026-08-19, for a psychedelic or entactogen drug (psilocybin, LSD, DMT, 5-MeO-DMT, MDMA, ibogaine or a related compound) for any psychiatric indication, per Drugs@FDA. Ketamine and esketamine products do not count.",
+   "resolution_source": {
+    "name": "Drugs@FDA",
+    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+   },
+   "base_rate_class": null,
+   "quantity": null,
+   "readings": [
+    "Novel psychedelics reaching clinical care = FDA approval of a psychedelic for a psychiatric indication."
+   ],
+   "coder": "C",
    "statement_ids": [
     "owen-2343"
    ],
