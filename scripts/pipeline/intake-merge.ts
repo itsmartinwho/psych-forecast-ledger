@@ -37,7 +37,8 @@ const loadCoder = <T extends { id: string }>(letter: string): Map<string, T> => 
   const m = new Map<string, T>();
   const dir = rel("data/intake/coded");
   if (!fs.existsSync(dir)) return m;
-  for (const f of fs.readdirSync(dir).filter((x) => x.startsWith(`coder-${letter}-`) && x.endsWith(".json"))) for (const r of readJson<{ records: T[] }>(rel("data/intake/coded", f)).records ?? []) m.set(r.id, r);
+  // sorted, so a re-coding file (coder-x-recode-NN) overrides the release-1 record (coder-x-code-NN) for the same id
+  for (const f of fs.readdirSync(dir).filter((x) => x.startsWith(`coder-${letter}-`) && x.endsWith(".json")).sort()) for (const r of readJson<{ records: T[] }>(rel("data/intake/coded", f)).records ?? []) m.set(r.id, r);
   return m;
 };
 const A = loadCoder<RecA>("a"), B = loadCoder<RecB>("b"), C = loadCoder<RecA>("c");
@@ -46,9 +47,10 @@ const RELEASE_1_PACKETS = 54;
 const codedAt = new Map<string, string>();
 {
   const dir = rel("data/intake/coded");
-  if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir).filter((x) => x.startsWith("coder-a-code-") && x.endsWith(".json"))) {
-    const n = Number(f.slice("coder-a-code-".length, -5));
-    for (const r of readJson<{ records: RecA[] }>(rel("data/intake/coded", f)).records ?? []) codedAt.set(r.id.replace(/-[ab]$/, ""), n > RELEASE_1_PACKETS ? "2026-09-14" : "2026-09-13");
+  if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir).filter((x) => /^coder-a-(code|recode)-\d+\.json$/.test(x)).sort()) {
+    const recode = f.startsWith("coder-a-recode-");
+    const n = Number(f.replace(/^coder-a-(code|recode)-/, "").slice(0, -5));
+    for (const r of readJson<{ records: RecA[] }>(rel("data/intake/coded", f)).records ?? []) codedAt.set(r.id.replace(/-[ab]$/, ""), recode || n > RELEASE_1_PACKETS ? "2026-09-14" : "2026-09-13");
   }
 }
 

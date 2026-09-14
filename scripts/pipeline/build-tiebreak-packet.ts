@@ -9,7 +9,7 @@ type Packet = { packet: string; affiliations: Record<string, unknown>; statement
 const dir = rel("data/intake/coded");
 const load = (letter: string) => {
   const m = new Map<string, Rec>();
-  for (const f of fs.readdirSync(dir).filter((x) => x.startsWith(`coder-${letter}-code-`) && x.endsWith(".json"))) for (const r of readJson<{ records: Rec[] }>(rel("data/intake/coded", f)).records ?? []) m.set(r.id, r);
+  for (const f of fs.readdirSync(dir).filter((x) => new RegExp(`^coder-${letter}-(code|recode)-\\d+\\.json$`).test(x)).sort()) for (const r of readJson<{ records: Rec[] }>(rel("data/intake/coded", f)).records ?? []) m.set(r.id, r);
   return m;
 };
 const A = load("a"), B = load("b");
@@ -17,7 +17,7 @@ const A = load("a"), B = load("b");
 const onlyNew = process.argv.includes("--new");
 const decided = new Set<string>();
 if (onlyNew) for (const f of fs.readdirSync(dir).filter((x) => x.startsWith("coder-c-") && x.endsWith(".json"))) for (const r of readJson<{ records: Rec[] }>(rel("data/intake/coded", f)).records ?? []) decided.add(r.id.replace(/-[ab]$/, ""));
-const packets = fs.readdirSync(rel("data/intake/packets")).filter((x) => /^code-\d+\.json$/.test(x)).map((x) => readJson<Packet>(rel("data/intake/packets", x)));
+const packets = fs.readdirSync(rel("data/intake/packets")).filter((x) => /^(code|recode)-\d+\.json$/.test(x)).map((x) => readJson<Packet>(rel("data/intake/packets", x)));
 const affiliations = packets[0].affiliations;
 const rows = packets.flatMap((p) => p.statements);
 const admitOf = (m: Map<string, Rec>, id: string): boolean | null => { const r = m.get(id) ?? m.get(`${id}-a`); return r ? r.admit : null; };
