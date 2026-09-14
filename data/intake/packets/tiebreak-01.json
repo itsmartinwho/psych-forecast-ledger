@@ -1,0 +1,867 @@
+{
+ "packet": "tiebreak-01.json",
+ "note": "admission splits between coder A and coder B: coder C decides",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0064",
+   "forecaster": "owen",
+   "statement_date": "2022-07-06",
+   "quote": "Cerebral may be guilty of a variety of regulatory and other missteps or crimes—we will find out soon enough.",
+   "context": "Part 7, near the end. The author hedges on whether Cerebral committed regulatory violations or crimes and expects the answer soon, with investigations and reporting under way.",
+   "post_title": "Cerebral: Vastly Exceeding the Standard of Care?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cerebral-vastly-exceeding-the-standard",
+   "area_guess": "regulatory",
+   "horizon_text": "soon enough",
+   "confidence_phrase": "may be guilty",
+   "entities": [
+    "Cerebral"
+   ],
+   "finder_note": "Hedged both ways; the testable part is that a determination on Cerebral's conduct arrives 'soon enough'."
+  },
+  {
+   "id": "owen-0104",
+   "forecaster": "owen",
+   "statement_date": "2022-07-26",
+   "quote": "But overall, any contention that actually reducing cost is what is going to happen is fictional at best and fraudulent at worst.",
+   "context": "Same section. Negative call: payers will not actually reduce total health care cost, whatever they say. The preceding sentence concedes some market segments where saving makes sense.",
+   "post_title": "The Passion of the Medical Loss Ratio: Why Hath Payers Forsaken Mental Health Treatments that Work?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "fictional at best and fraudulent at worst",
+   "entities": [
+    "Blue Cross",
+    "UnitedHealthcare",
+    "Cigna",
+    "Aetna",
+    "Anthem",
+    "Magellan",
+    "Oscar",
+    "Elevance",
+    "Evernorth"
+   ],
+   "finder_note": "Negative call on overall payer cost reduction; prior authorization is described as a tool that raises total cost."
+  },
+  {
+   "id": "owen-0106",
+   "forecaster": "owen",
+   "statement_date": "2022-07-26",
+   "quote": "Costs have to go up every year, and because there are multiple companies in the space, they essentially have to go up somewhat uniformly across all of the companies. That way premiums for everybody go up some semi-palatable amount every year.",
+   "context": "Core mechanism of the essay: because the MLR caps the insurer margin as a percentage, insurers must grow total spending to grow profit, so costs and premiums rise every year across all carriers roughly uniformly. Earlier: 'if you can only ever make a 20% profit margin, and you still want to increase profits, you need to increase both premium costs and what you spend on care.'",
+   "post_title": "The Passion of the Medical Loss Ratio: Why Hath Payers Forsaken Mental Health Treatments that Work?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio",
+   "area_guess": "payer_policy",
+   "horizon_text": "every year",
+   "confidence_phrase": "have to",
+   "entities": [],
+   "finder_note": "Structural, open-ended trend call; restated in the part-one conclusion and again in part two."
+  },
+  {
+   "id": "owen-0107",
+   "forecaster": "owen",
+   "statement_date": "2022-07-26",
+   "quote": "the incentive that is driving the balance sheets of our major payers forces them inevitably in a direction, whether anyone knows it or not, that leads to higher costs, more sickness, more dysfunctional systems, and higher premiums. Rinse, repeat, every year, without end until we are all broke and dead.",
+   "context": "Closing summary of part one ('The Breaking of the Fellowship'). The author denies a sinister plot and says the MLR incentive inevitably produces higher costs, more sickness, more dysfunctional systems and higher premiums each year.",
+   "post_title": "The Passion of the Medical Loss Ratio: Why Hath Payers Forsaken Mental Health Treatments that Work?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio",
+   "area_guess": "payer_policy",
+   "horizon_text": "every year, without end",
+   "confidence_phrase": "inevitably",
+   "entities": [],
+   "finder_note": "Compound claim (costs, sickness, system dysfunction, premiums); 'until we are all broke and dead' is hyperbole."
+  },
+  {
+   "id": "owen-0110",
+   "forecaster": "owen",
+   "statement_date": "2022-08-02",
+   "quote": "The Medical Loss Ratio (MLR) (a fixed profit margin) means ever increasing healthcare spending. ... Thus, costs go up and outcomes don’t improve.",
+   "context": "Opening review bullets restating part one's thesis: the MLR implies ever-increasing health care spending, rising costs with flat outcomes, and therefore limiting access to mental health care is the payers' profitable strategy.",
+   "post_title": "Insurance Plan Requires More Studies on Parachutes: “Unproven and Experimental”",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/insurance-plan-requires-more-studies",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "means",
+   "entities": [],
+   "finder_note": "Restatement of the part-one call (post of 2022-07-26). Two bullets joined with ' ... '."
+  },
+  {
+   "id": "owen-0111",
+   "forecaster": "owen",
+   "statement_date": "2022-08-02",
+   "quote": "Now that we are up to speed…follow as the magic unfolds. With incentives for cost to go up, it will happen!",
+   "context": "Transition into part two of the MLR essay. The author asserts that health care costs will go up because the MLR gives payers the incentive.",
+   "post_title": "Insurance Plan Requires More Studies on Parachutes: “Unproven and Experimental”",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/insurance-plan-requires-more-studies",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Restatement of the part-one trend call."
+  },
+  {
+   "id": "owen-0112",
+   "forecaster": "owen",
+   "statement_date": "2022-08-02",
+   "quote": "Expecting them to lower costs, in violation of their fiduciary role to shareholders, however, is a fever dream.",
+   "context": "The author says payers are not to blame for perverse incentives; they generate shareholder value, and expecting them to lower costs is unrealistic.",
+   "post_title": "Insurance Plan Requires More Studies on Parachutes: “Unproven and Experimental”",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/insurance-plan-requires-more-studies",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is a fever dream",
+   "entities": [],
+   "finder_note": "Negative call: payers will not lower costs."
+  },
+  {
+   "id": "owen-0121",
+   "forecaster": "owen",
+   "statement_date": "2022-08-09",
+   "quote": "Venture capital can disrupt a lot of things, but the fundamental rules around DEA licensure are not going to go down without a drawn out fight.",
+   "context": "Prediction that the DEA licensure rules (physical office requirement for controlled-substance prescribers) will persist; any change will need a drawn-out fight despite venture capital pressure.",
+   "post_title": "It’s the End of Telehealth as We Know It (and I Feel Fine)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "are not going to",
+   "entities": [
+    "DEA",
+    "venture capital"
+   ],
+   "finder_note": "Negative call on regulatory change."
+  },
+  {
+   "id": "owen-0344",
+   "forecaster": "owen",
+   "statement_date": "2023-03-12",
+   "quote": "Were this to be addressed as a HIPAA issue, it might be an extinction level event.",
+   "context": "After arguing the FTC-described data sharing was deliberate use of protected health information for financial gain, the author says that if it were treated as a HIPAA matter (HHS/DOJ) rather than an FTC trade matter, it might be an extinction-level event for the company (BetterHelp and parent Teladoc).",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "BetterHelp",
+    "Teladoc",
+    "HIPAA",
+    "FTC",
+    "HHS"
+   ],
+   "finder_note": "Conditional call contingent on HIPAA enforcement; the central forecast of the post."
+  },
+  {
+   "id": "owen-0377",
+   "forecaster": "owen",
+   "statement_date": "2023-03-22",
+   "quote": "I have it on good authority that the DEA is interested in reading all of our public comments as they were mandated to do by law. And if we get enough of them in, maybe they'll change something.",
+   "context": "Open letter to the author's wife urging her to file a public comment on the DEA proposed rule for telehealth prescribing of controlled substances (no schedule II without an in-person visit). He says the DEA will read the comments and that enough comments may lead the DEA to change the rule.",
+   "post_title": "An Open Letter To My Wife",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-my-wife",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "maybe",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Conditional hedged call that public comments could change the DEA telehealth rule."
+  },
+  {
+   "id": "owen-0484",
+   "forecaster": "owen",
+   "statement_date": "2023-05-07",
+   "quote": "an annotated exploration of horrific contact moderation decisions that will destroy this company",
+   "context": "Body restatement of the title claim, addressed to Substack CEO Chris Best: content moderation decisions will destroy Substack.",
+   "post_title": "Don't Feed the Trolls: Substack's Content Moderation Punt Will Destroy the Platform.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-feed-the-trolls-substacks-content",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will destroy",
+   "entities": [
+    "Substack",
+    "Chris Best"
+   ],
+   "finder_note": "Restatement of the headline call."
+  },
+  {
+   "id": "owen-0700",
+   "forecaster": "owen",
+   "statement_date": "2023-09-06",
+   "quote": "This treatment is available in the outpatient setting through the open label dose optimization study offered by Magnus Medical, and soon, in hospital settings under the new technology add-on payment program.",
+   "context": "77-word video post 'The Best Treatment for Depression in Under One Minute' about the fMRI-guided TMS protocol (presumably SAINT, Magnus Medical's product). The author says the treatment is available now outpatient through a Magnus Medical open-label dose-optimization study and will soon be available in hospital settings under the new technology add-on payment (NTAP) program. He adds that he started a company to help hospitals get it.",
+   "post_title": "The Best Treatment for Depression in Under One Minute",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-treatment-for-depression",
+   "area_guess": "practice_adoption",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "Magnus Medical",
+    "new technology add-on payment program (NTAP)"
+   ],
+   "finder_note": "Compound: availability in hospitals soon (adoption) and payment under NTAP (payer). The author's unnamed company helps hospitals adopt it; coder may mark CONTROL."
+  },
+  {
+   "id": "owen-0831",
+   "forecaster": "owen",
+   "statement_date": "2024-01-04",
+   "quote": "Without further ado, the side effect profile of an effective treatment for Treatment-resistant depression, Anxious Depression, Smoking Cessation, and OCD, with more indications on the way…",
+   "context": "Introduction to a review of TMS side effects (2024-01-04). The author, who provides TMS at Radial, lists the current TMS indications (treatment-resistant depression, anxious depression, smoking cessation, OCD) and asserts more indications are coming.",
+   "post_title": "What Are the Side Effects of Transcranial Magnetic Stimulation (TMS) Treatment?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-are-the-side-effects-of-transcranial",
+   "area_guess": "regulatory",
+   "horizon_text": "on the way",
+   "confidence_phrase": "none",
+   "entities": [
+    "TMS",
+    "Radial",
+    "FDA"
+   ],
+   "finder_note": "Vague call that additional TMS indications are coming; no named indication or date."
+  },
+  {
+   "id": "owen-0895",
+   "forecaster": "owen",
+   "statement_date": "2024-02-25",
+   "quote": "Well, of course , that wasn’t going to change.",
+   "context": "Reacting to UnitedHealth Group's SEC 8-K on the February 21, 2024 Change Healthcare cyberattack, which said the company had not determined the incident was reasonably likely to materially impact its financial condition or results of operations. The author, sarcastically, agrees: UHG's financial condition will not be materially hurt.",
+   "post_title": "Change Healthcare...In What Direction, Though?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcarein-what-direction",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "of course",
+   "entities": [
+    "UnitedHealth Group",
+    "Optum",
+    "Change Healthcare",
+    "SEC"
+   ],
+   "finder_note": "Sarcastic tone but reads as a real expectation; endorses UHG's own filing language as the obvious outcome."
+  },
+  {
+   "id": "owen-0899",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "If there is documentation that they knew before, the fines on the HIPAA breach and the scale of that HIPAA breach may be financially catastrophic in a way that a $40 million ransom payment would be trivial next to.",
+   "context": "UHG had 48 hours to report the breach to HHS. Conditional: if documents show UHG/Change knew of the intrusion earlier than reported, HIPAA fines may be financially catastrophic, dwarfing a $40 million ransom.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "may be",
+   "entities": [
+    "United Healthcare",
+    "Change Healthcare",
+    "HIPAA",
+    "HHS",
+    "SEC"
+   ],
+   "finder_note": "Conditional call."
+  },
+  {
+   "id": "owen-1105",
+   "forecaster": "owen",
+   "statement_date": "2024-06-22",
+   "quote": "But overall, any contention that reducing cost is what will happen is fictional at best and fraudulent at worst.",
+   "context": "Section 'Let's Play Pretend!'. The author lists major carriers (Blue Cross, United, Cigna, Aetna, Anthem, Magellan, Oscar, Elevance, Evernorth) that claim to control costs. He denies that cost reduction will happen under the MLR incentive structure.",
+   "post_title": "The Passion of the Medical Loss Ratio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio-b98",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "fictional at best and fraudulent at worst",
+   "entities": [
+    "Blue Cross",
+    "UnitedHealthcare",
+    "Cigna",
+    "Aetna",
+    "Anthem",
+    "Magellan",
+    "Oscar",
+    "Elevance",
+    "Evernorth"
+   ],
+   "finder_note": "Negative call: insurers will not reduce total healthcare cost."
+  },
+  {
+   "id": "owen-1106",
+   "forecaster": "owen",
+   "statement_date": "2024-06-22",
+   "quote": "With incentives for costs to go up, it will happen!",
+   "context": "Closing line of the MLR mechanics section, right after noting that Amazon bought One Medical. The author asserts that because the MLR rewards higher spend, healthcare costs will rise.",
+   "post_title": "The Passion of the Medical Loss Ratio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio-b98",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Medical Loss Ratio",
+    "Amazon",
+    "One Medical",
+    "health insurers"
+   ],
+   "finder_note": "Core thesis: MLR incentives push total healthcare cost up."
+  },
+  {
+   "id": "owen-1107",
+   "forecaster": "owen",
+   "statement_date": "2024-06-22",
+   "quote": "Costs have to go up every year, and because multiple companies are in the space, they essentially have to go up somewhat uniformly across all companies. That way, premiums for everybody go up by some semi-palatable amount yearly.",
+   "context": "MLR mechanics section. The author predicts that health insurer costs and premiums rise every year, roughly uniformly across carriers, as a structural consequence of the 80/20 MLR rule.",
+   "post_title": "The Passion of the Medical Loss Ratio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio-b98",
+   "area_guess": "payer_policy",
+   "horizon_text": "every year; yearly",
+   "confidence_phrase": "have to",
+   "entities": [
+    "Medical Loss Ratio",
+    "health insurers"
+   ],
+   "finder_note": "Compound recurring claim: costs rise yearly, uniformly across carriers, premiums rise yearly."
+  },
+  {
+   "id": "owen-1109",
+   "forecaster": "owen",
+   "statement_date": "2024-06-22",
+   "quote": "The incentives driving the balance sheets of our major payers force them inevitably to higher costs, sickness, and premiums. Rinse, repeat, every year, without end, until we are all broke and dead.",
+   "context": "MLR mechanics section, right after 'I do not believe there is a sinister plot.' The author predicts that major payers are driven inevitably to higher costs, more sickness and higher premiums, repeating every year without end.",
+   "post_title": "The Passion of the Medical Loss Ratio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio-b98",
+   "area_guess": "payer_policy",
+   "horizon_text": "every year, without end",
+   "confidence_phrase": "inevitably",
+   "entities": [
+    "major payers",
+    "Medical Loss Ratio"
+   ],
+   "finder_note": "Compound claim: higher costs, sickness and premiums. Hyperbolic ending ('until we are all broke and dead')."
+  },
+  {
+   "id": "owen-1110",
+   "forecaster": "owen",
+   "statement_date": "2024-06-22",
+   "quote": "Expecting them to lower costs, in violation of their fiduciary role to shareholders, however, is a fever dream.",
+   "context": "Second half (mental health system section). The author says payers generate shareholder value and will not lower costs because that would violate their fiduciary duty to shareholders.",
+   "post_title": "The Passion of the Medical Loss Ratio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio-b98",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is a fever dream",
+   "entities": [
+    "health insurers",
+    "payers"
+   ],
+   "finder_note": "Negative call; restates the earlier claim that payers will not reduce cost."
+  },
+  {
+   "id": "owen-1173",
+   "forecaster": "owen",
+   "statement_date": "2024-07-31",
+   "quote": "I don't mean their companies. I mean, employers—the humans—will be held personally liable for a very expensive issue.",
+   "context": "Opening of a piece on ERISA fiduciary-duty class actions over employee health benefits (Wells Fargo, Johnson & Johnson, Mayo Clinic). The author predicts individual employers/plan committee members will be held personally liable, with no meaningful D&O insurance protection, for almost every private employer in America.",
+   "post_title": "Every Employer Will Be Sued...Personally ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/every-employer-will-be-suedpersonally",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "ERISA",
+    "Wells Fargo",
+    "Johnson & Johnson",
+    "Mayo Clinic",
+    "Express Scripts",
+    "Cigna",
+    "Aon"
+   ],
+   "finder_note": "Restates an earlier newsletter call that a legal change would lead to a firestorm of litigation."
+  },
+  {
+   "id": "owen-1202",
+   "forecaster": "owen",
+   "statement_date": "2024-08-16",
+   "quote": "You get paid less, by some amount, that gets argued about every year. Because they built a decrease in physician reimbursement every year, there's a fight about that catastrophic decrease every year, so they decrease it a little bit.",
+   "context": "CMS will again cut physician reimbursement (the conversion factor) in the upcoming CY2025 fee schedule, as it does every year after the annual fight.",
+   "post_title": "CMS Physicians Fee Schedule Open Comment Period 2025",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cms-physicians-fee-schedule-open",
+   "area_guess": "payer_policy",
+   "horizon_text": "2025 (inferred: CY2025 physician fee schedule)",
+   "confidence_phrase": "certain",
+   "entities": [
+    "CMS",
+    "physician fee schedule"
+   ],
+   "finder_note": "hint: CMS CY2025 Physician Fee Schedule final rule (Nov 2024): conversion factor cut of about 2.83%"
+  },
+  {
+   "id": "owen-1215",
+   "forecaster": "owen",
+   "statement_date": "2024-09-04",
+   "quote": "I also have every reason to doubt this will be the case.",
+   "context": "Reacting to the NY Times investigation alleging Acadia Healthcare held psychiatric patients against their will for insurance money. In the preceding paragraph the author hopes the described circumstances will be investigated and, if substantiated, every person involved will face criminal charges and prosecution; 'this' refers to that hope. He then says he doubts it will happen.",
+   "post_title": "Checking the Locks: Avoiding the Horrors of Involuntary Psychiatry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/checking-the-locks-avoiding-the-horrors",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "every reason to doubt",
+   "entities": [
+    "Acadia Healthcare",
+    "The New York Times"
+   ],
+   "finder_note": "Negative call: the author doubts the Acadia allegations will be investigated and prosecuted (legal enforcement). Antecedent is in the prior paragraph."
+  },
+  {
+   "id": "owen-1216",
+   "forecaster": "owen",
+   "statement_date": "2024-09-04",
+   "quote": "It is a profitable for-profit company. At least, it was profitable prior to the litigation that will now ensue.",
+   "context": "About Acadia Healthcare, the publicly traded psychiatric hospital operator accused in the NY Times of holding patients against their will. The author shows its recent financials and asserts that litigation will now follow the Times report, implying its profitability is at risk.",
+   "post_title": "Checking the Locks: Avoiding the Horrors of Involuntary Psychiatry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/checking-the-locks-avoiding-the-horrors",
+   "area_guess": "company_market",
+   "horizon_text": "now",
+   "confidence_phrase": "will now ensue",
+   "entities": [
+    "Acadia Healthcare",
+    "The New York Times"
+   ],
+   "finder_note": "Compound: litigation against Acadia will ensue (explicit); its profitability held only before that litigation (implied)."
+  },
+  {
+   "id": "owen-1269",
+   "forecaster": "owen",
+   "statement_date": "2024-10-14",
+   "quote": "So, given United Healthcare admitted to violating the Mental Health Parity Law in New York in 2021 , which means they agree they are responsible for complying with the law, it seems it might be the basis for yet more litigation to be at it all over again?",
+   "context": "After quoting the 2021 DOL / New York AG settlement ($13.6 million to beneficiaries, $2,084,249 in penalties) with United Behavioral Health and UnitedHealthcare, the author suggests Optum's pre-payment review policy might be the basis for new mental health parity litigation. The post title asks if this is the first new parity test case.",
+   "post_title": "Pre-Payment Review: Do We Have Our First New Mental Health Parity Test Case?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/pre-payment-review-do-we-have-our",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "it seems it might be",
+   "entities": [
+    "United Healthcare",
+    "United Behavioral Health",
+    "Optum",
+    "Mental Health Parity Law",
+    "Department of Labor",
+    "New York State Attorney General"
+   ],
+   "finder_note": "Phrased with a question mark but reads as a hedged assertion that litigation will follow."
+  },
+  {
+   "id": "owen-1575",
+   "forecaster": "owen",
+   "statement_date": "2025-02-11",
+   "quote": "why I think this United case against a physician is a loser, from a legal standpoint",
+   "context": "Thesis of the post. UHG, through Clare Locke, sent a defamation threat letter to Dr. Elisabeth Potter. The author judges that any defamation case UHG brings against her would lose in court.",
+   "post_title": "UnitedHealth Group Gotta Weird Case",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-gotta-weird-case",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I think",
+   "entities": [
+    "UnitedHealth Group",
+    "Elisabeth Potter",
+    "Clare Locke"
+   ],
+   "finder_note": "Restated as 'why this is such a loser of a case for UHG'. Legal-outcome call conditional on a suit being filed."
+  },
+  {
+   "id": "owen-1751",
+   "forecaster": "owen",
+   "statement_date": "2025-05-18",
+   "quote": "They now have an alternate algorithm for treating depression that has been studied in a small sample and evaluated as safe by the FDA—we have to gather more data before it gets clearance for the indication of depression treatment.",
+   "context": "About GrayMatters Health's PRISM EEG-fMRI-pattern neurofeedback (PRISM Suite). The author says an alternate algorithm for depression has been studied in a small sample (49 people) and evaluated as safe by the FDA, and that more data must be gathered before it gets FDA clearance for the depression indication. Earlier in the same post he writes 'They just got another FDA clearance, this time for use in depression'.",
+   "post_title": "Can A Video Game You Play With Your Brain Help Depression?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-a-video-game-you-play-with-your",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "before it gets clearance",
+   "entities": [
+    "GrayMatters Health",
+    "PRISM",
+    "FDA",
+    "Fermata"
+   ],
+   "finder_note": "Presupposes eventual FDA clearance of PRISM for depression; conflicts with the earlier line saying a depression clearance was just obtained."
+  },
+  {
+   "id": "owen-1832",
+   "forecaster": "owen",
+   "statement_date": "2025-08-09",
+   "quote": "However, I’ll put a cash-money bet on your pets getting access to accelerated TMS before your family, at least it comes to UnitedHealth Group’s plans’ coverage.",
+   "context": "Central bet of the post. Prompted by a Frontiers in Veterinary Medicine RCT of a three-day rTMS protocol for drug-resistant epilepsy in dogs, the author bets that pets will get access to accelerated TMS before UnitedHealth Group plans cover it for humans.",
+   "post_title": "Why Pet Insurance May Approve Cutting-Edge Treatments Before UnitedHealth Group",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/your-dog-might-get-life-saving-brain",
+   "area_guess": "payer_policy",
+   "horizon_text": "before your family",
+   "confidence_phrase": "I’ll put a cash-money bet",
+   "entities": [
+    "UnitedHealth Group",
+    "accelerated TMS"
+   ],
+   "finder_note": "Restated later in the post as 'Accelerated TMS for Dogs will be at scale before United covers it.'"
+  },
+  {
+   "id": "owen-1918",
+   "forecaster": "owen",
+   "statement_date": "2025-09-29",
+   "quote": "Maybe they even pass the S.1717 - Ensuring Patient Access to Critical Breakthrough Products Act of 2025 as part of the compromise?",
+   "context": "Closing aside of the shutdown satire. The author speculates that Congress might pass S.1717, the Ensuring Patient Access to Critical Breakthrough Products Act of 2025 (a bill on Medicare coverage of FDA breakthrough-designated products), as part of a shutdown compromise.",
+   "post_title": "Shutdown Crisis Looming As Newsletter Runs Out Of Words",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/shutdown-crisis-looming-as-newsletter",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "Maybe",
+   "entities": [
+    "Congress",
+    "S.1717 Ensuring Patient Access to Critical Breakthrough Products Act of 2025",
+    "Medicare"
+   ],
+   "finder_note": "Phrased as a question with 'Maybe'; hopeful speculation about a real bill inside a satirical post. The author has an interest in device (TMS) coverage."
+  },
+  {
+   "id": "owen-2024",
+   "forecaster": "owen",
+   "statement_date": "2026-01-01",
+   "quote": "I think 2026 doubles that number into AI-enabled BCI companies, and we will see additional dollars and deal flow into non-invasive devices, too.",
+   "context": "Item 3 of the 2026 predictions list. Setup: 2025 saw over $300m invested in neuromodulation health-tech companies (Radial, Beckley Clinical, Stella Centers, NRx subsidiary Hope Theraputics, plus Big Leap, Osmind's pivot, Everbright). The author predicts 2026 investment doubles (over $600m) into AI-enabled BCI companies with more deal flow into non-invasive devices.",
+   "post_title": "Ten 2026 Predictions on Which to Hang Your Hat.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ten-2026-predictions-on-which-to",
+   "area_guess": "company_market",
+   "horizon_text": "2026",
+   "confidence_phrase": "I think; will",
+   "entities": [
+    "Radial",
+    "Beckley Clinical",
+    "Stella Centers",
+    "NRx Pharmaceuticals",
+    "Hope Theraputics",
+    "Big Leap",
+    "Osmind",
+    "Everbright"
+   ],
+   "finder_note": "Numeric: doubling of >$300m. Radial is the author's employer; CONTROL candidate."
+  },
+  {
+   "id": "owen-2033",
+   "forecaster": "owen",
+   "statement_date": "2026-01-01",
+   "quote": "At least two pandemic-era mental-health companies will publicly cease operations— I’m looking at you, fictional DeathStance Health .",
+   "context": "Item 11 of the 2026 predictions list: at least two pandemic-era mental health companies publicly shut down in 2026. 'DeathStance Health' is a fictional stand-in name.",
+   "post_title": "Ten 2026 Predictions on Which to Hang Your Hat.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ten-2026-predictions-on-which-to",
+   "area_guess": "company_market",
+   "horizon_text": "2026",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Numeric: at least two companies. The named company is explicitly fictional."
+  },
+  {
+   "id": "owen-2034",
+   "forecaster": "owen",
+   "statement_date": "2026-01-01",
+   "quote": "There will be an additional 2-3 major criminal cases brought against companies selling controlled substances. Done will be convicted all over again .",
+   "context": "Item 11 of the 2026 predictions list, continued: two to three more major criminal cases against companies selling controlled substances in 2026, and Done Global convicted again in its new indictment.",
+   "post_title": "Ten 2026 Predictions on Which to Hang Your Hat.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ten-2026-predictions-on-which-to",
+   "area_guess": "other",
+   "horizon_text": "2026",
+   "confidence_phrase": "will",
+   "entities": [
+    "Done Global",
+    "DOJ"
+   ],
+   "finder_note": "Compound claim: 2-3 new criminal cases; Done convicted again. Legal/enforcement area."
+  },
+  {
+   "id": "owen-2099",
+   "forecaster": "owen",
+   "statement_date": "2026-02-25",
+   "quote": "There is now a named trial — the Kale Award trial — specifically designed to address whether bilateral stimulation is superior to unilateral for suicidal ideation. It’s years out from results.",
+   "context": "Right-sided stimulation and suicidality section. The author notes a named trial (Kale Award trial) that tests bilateral versus unilateral TMS for suicidal ideation and states its results are years away.",
+   "post_title": "Dr. Paul Fitzgerald Took Questions at Brain Stimulation 2025 ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dr-paul-fitzgerald-took-questions",
+   "area_guess": "clinical_trial",
+   "horizon_text": "years out",
+   "confidence_phrase": "none",
+   "entities": [
+    "Kale Award trial",
+    "Paul Fitzgerald"
+   ],
+   "finder_note": "Timing call on a trial readout."
+  },
+  {
+   "id": "owen-2240",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "a nationwide standard of medical necessity is being set in the treatment of depression, and it’s likely that PTSD, bipolar, depression, OCD, and even ADHD might be next.",
+   "context": "The author reports new accelerated TMS (SAINT and/or SWIFT) coverage policies in Blue Cross Blue Shield plans in California, Texas and South Carolina, following Highmark BCBS, Premera BCBS, CareFirst BCBS. He says a nationwide medical-necessity standard is being set for depression and forecasts PTSD, bipolar, OCD and ADHD coverage may follow.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "payer_policy",
+   "horizon_text": "next",
+   "confidence_phrase": "it’s likely ... might be next",
+   "entities": [
+    "Blue Cross Blue Shield",
+    "Highmark BCBS",
+    "Premera BCBS",
+    "CareFirst BCBS",
+    "SAINT",
+    "SWIFT",
+    "accelerated TMS",
+    "PTSD",
+    "OCD",
+    "ADHD"
+   ],
+   "finder_note": "Compound: trend claim on depression coverage plus hedged forecast of expansion to other indications. SWIFT is the author's own protocol (BrainsWay)."
+  },
+  {
+   "id": "owen-2343",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "Novel psychedelics coming to the world of clinical care, if the universe has been listening to me rant, will come with monitoring built in, likely with even more auditable video.",
+   "context": "REMS section. The author predicts novel psychedelics entering clinical care will carry built-in monitoring requirements, likely including auditable video.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will come ... likely",
+   "entities": [],
+   "finder_note": "Hedged by the aside 'if the universe has been listening to me rant'."
+  },
+  {
+   "id": "angermayer-0011",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-27",
+   "quote": "Phase 2b readout of BPL-003 in treatment resistant depression (TRD), anticipated in the second half of 2024",
+   "context": "Beckley Psytech's 5-MeO-DMT Phase 2b topline would come in H2 2024.",
+   "post_title": "atai Life Sciences (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "area_guess": "clinical_trial",
+   "horizon_text": "H2 2024",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0015",
+   "forecaster": "angermayer",
+   "statement_date": "2024-07-31",
+   "quote": "If we succeed, and if we medicalise psychedelics, ATAI will be a double-, triple-digit billion-dollar company.",
+   "context": "atai would be worth US$10B to US$100B+ once psychedelics are medicalised.",
+   "post_title": "Meet the crypto-pioneering, biohacking, psychedelic-promoting billionaire who wants to reimagine the Olympics (Forbes, W. Yakowicz; text verified via Forbes Australia reprint of 2024-08-03)",
+   "source_url": "https://www.forbes.com.au/news/billionaires/meet-the-crypto-pioneering-biohacking-psychedelic-promoting-billionaire-who-wants-to-reimagine-the-olympics/",
+   "area_guess": "company_market",
+   "horizon_text": "unspecified",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "source confidence high; conditional"
+  },
+  {
+   "id": "angermayer-0018",
+   "forecaster": "angermayer",
+   "statement_date": "2025-06-02",
+   "quote": "Phase2b data for BPL-003 are anticipated for mid-2025",
+   "context": "BPL-003 (5-MeO-DMT) Phase 2b topline by mid-2025.",
+   "post_title": "atai acquires Beckley, establishing the undisputed leader in psychedelics (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/atai-acquires-beckley-establishing",
+   "area_guess": "clinical_trial",
+   "horizon_text": "mid-2025",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0025",
+   "forecaster": "angermayer",
+   "statement_date": "2026-02-04",
+   "quote": "the voucher in any case wouldn't have changed anything more or less, and that \"the FDA is allowing … to submit data on a rolling basis, which should get Compass a decision potentially late this year or early next year\"",
+   "context": "Endorses a COMP360 FDA decision in late 2026 or early 2027 and says the missing priority voucher is immaterial; also says the coming years will be a watershed for the field.",
+   "post_title": "X post by @C_Angermayer on Compass being 'snubbed' for a National Priority Voucher",
+   "source_url": "https://x.com/c_angermayer/status/2019150330563379204",
+   "area_guess": "regulatory",
+   "horizon_text": "late 2026 to early 2027",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0027",
+   "forecaster": "angermayer",
+   "statement_date": "2026-02-18",
+   "quote": "I expect major index inclusions over the coming months.",
+   "context": "AtaiBeckley would be added to major stock indices in the first half of 2026.",
+   "post_title": "Psychedelic Medicines - a Time for Stockpickers (Christian's Substack)",
+   "source_url": "https://christianangermayer.substack.com/p/psychedelic-medicines-a-time-for",
+   "area_guess": "company_market",
+   "horizon_text": "coming months (by mid-2026)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0011",
+   "forecaster": "doblin",
+   "statement_date": "2020-05-01",
+   "quote": "psilocybin is probably one year or two years behind us",
+   "context": "Psilocybin therapy will reach approval one to two years after MDMA (i.e., about 2023-2024).",
+   "post_title": "Psychedelic Research and Culture: An Interview with Rick Doblin (Qualia Life)",
+   "source_url": "https://www.qualialife.com/psychedelic-research-and-culture-an-interview-with-rick-doblin",
+   "area_guess": "regulatory",
+   "horizon_text": "1-2 years after MDMA approval (~2023-2024)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence medium; comparative"
+  },
+  {
+   "id": "doblin-0020",
+   "forecaster": "doblin",
+   "statement_date": "2022-06-29",
+   "quote": "Regulatory approval by EMA is targeted for about a year or two after approval in the US",
+   "context": "EMA approval will follow FDA approval by one to two years.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – June 2022 (MAPS Bulletin)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-june-2022/",
+   "area_guess": "regulatory",
+   "horizon_text": "1-2 years after FDA approval (then expected 2023-2024)",
+   "confidence_phrase": "likely",
+   "entities": [],
+   "finder_note": "source confidence high; conditional"
+  }
+ ]
+}
