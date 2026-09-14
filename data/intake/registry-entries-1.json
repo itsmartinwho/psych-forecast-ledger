@@ -1,0 +1,458 @@
+[
+  {
+    "slug": "fda-midomafetamine-ptsd-approval",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of midomafetamine (MDMA-assisted therapy) for PTSD",
+    "proposition": "The FDA approves midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
+    "criterion": "TRUE on the date the FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder is dated, on any review cycle and under any sponsor name. A complete response letter, a positive advisory vote, a filing acceptance, a breakthrough designation or an expanded-access program is not an approval. A label narrower than PTSD (for example a PTSD subgroup or severity band) counts if the claim's indication reasonably includes it and the reading is logged at intake; a label that requires a REMS or a psychological-intervention component counts. Resolution source: Drugs@FDA, with the sponsor's press release as a secondary source. FALSE at the deadline when no such approval appears in Drugs@FDA.",
+    "resolution_source": {
+      "name": "Drugs@FDA; sponsor press release as a secondary source",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    },
+    "base_rate_class": "phase3_to_approval_psychiatry",
+    "quantity": null,
+    "readings": [
+      "Approval under any sponsor name (Lykos Therapeutics, MAPS PBC or a successor) counts; the entry is on the asset.",
+      "Eventual approval on any review cycle counts; the first-cycle proposal for the Lykos NDA under review in June 2024 (owen-1072, owen-1090, owen-1137, doblin-0031) is merged into this event.",
+      "'As it stands' (owen-1072) and 'at this stage' (owen-1090) refer to the NDA review cycle pending on the statement date; in the merged event a complete response letter is not an approval and does not by itself resolve the event.",
+      "MDMA-assisted therapy, MDMA-AT and midomafetamine name the same asset.",
+      "'MDMA' and 'get over the line' = FDA approval of the midomafetamine (MDMA-assisted therapy) NDA for PTSD that the post discusses; approval of MDMA for any other indication does not count.",
+      "A label with a REMS or a mandated psychological-intervention component counts as approval."
+    ]
+  },
+  {
+    "slug": "mdma-at-mapp1-primary-endpoint",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "MAPP1 (NCT03537014), the first Phase 3 trial of MDMA-assisted therapy for PTSD",
+    "entity": "MAPS Public Benefit Corporation (sponsor)",
+    "title": "MAPP1 Phase 3 trial of MDMA-assisted therapy for PTSD meets its primary endpoint",
+    "proposition": "MAPP1 (NCT03537014), the first Phase 3 trial of MDMA-assisted therapy for PTSD, reports its prespecified primary endpoint met with statistical significance.",
+    "criterion": "TRUE on the date of the sponsor's topline release, the ClinicalTrials.gov results posting or the peer-reviewed publication that first reports that MAPP1 (NCT03537014), the first Phase 3 trial of MDMA-assisted therapy for PTSD, met its prespecified primary endpoint (change in CAPS-5 total severity score versus placebo with therapy) with statistical significance as reported by the sponsor. FALSE on the date the sponsor first reports that the primary endpoint was not met, and FALSE at the deadline when no primary-endpoint result has been reported. Secondary endpoints, interim analyses and pooled analyses do not count. Resolution source: the ClinicalTrials.gov record NCT03537014 (results section), with the sponsor's topline press release or the first publication fixing the date.",
+    "resolution_source": {
+      "name": "ClinicalTrials.gov record NCT03537014 (results); sponsor topline press release or first publication as the secondary source",
+      "url": "https://clinicaltrials.gov/study/NCT03537014"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'the study' that 'the other people' are finishing (doblin-0012) and 'Phase 3 results match Phase 2' (doblin-0007) both read as the first Phase 3 trial, MAPP1, meeting its primary endpoint.",
+      "Statistical significance is read at the trial's prespecified alpha on the primary endpoint, as reported by the sponsor."
+    ]
+  },
+  {
+    "slug": "fda-psilocybin-approval",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "psilocybin (any psilocybin drug product, any sponsor, any indication)",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "FDA approval of a psilocybin drug product",
+    "proposition": "The FDA approves a drug product whose active ingredient is psilocybin for any indication.",
+    "criterion": "TRUE on the date of the first FDA approval letter or Drugs@FDA entry (or the sponsor's approval announcement) for a drug product whose active ingredient is psilocybin, for any indication and under any sponsor (COMP360 by Compass Pathways, or another psilocybin product). A complete response letter, a positive advisory vote, a breakthrough therapy designation, a filing acceptance or a state program that permits psilocybin use is not an FDA approval. Approval of a psilocybin analogue (for example a deuterated psilocybin) or of another tryptamine (5-MeO-DMT, DMT) does not count. Resolution source: Drugs@FDA. FALSE at the deadline when no such approval appears in Drugs@FDA.",
+    "resolution_source": {
+      "name": "Drugs@FDA",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    },
+    "base_rate_class": "phase2_to_approval_all",
+    "quantity": null,
+    "readings": [
+      "The forecaster names no indication or sponsor, so any psilocybin product for any indication counts.",
+      "'behind us' reads as reaching FDA approval after MDMA-assisted therapy; the event resolves on the FDA approval of psilocybin alone, without reference to the MDMA approval date.",
+      "'These substances' (MDMA and psilocybin, with 'psilocybin soon to follow' in the same passage) names the substance, not a sponsor or indication, so any psilocybin NDA approval for a psychiatric indication counts.",
+      "The event is on products whose active ingredient is psilocybin (as COMP360 is), not on analogues or other tryptamines."
+    ]
+  },
+  {
+    "slug": "ema-midomafetamine-ptsd-approval",
+    "template": "drug_approval",
+    "area": "regulatory",
+    "asset": "midomafetamine (MDMA-assisted therapy) for PTSD, EU marketing authorisation",
+    "entity": "European Medicines Agency (CHMP) and European Commission",
+    "title": "EU approval of midomafetamine (MDMA-assisted therapy) for PTSD",
+    "proposition": "The European Medicines Agency's CHMP gives a positive opinion, or the European Commission grants a marketing authorisation, for midomafetamine (MDMA-assisted therapy) for post-traumatic stress disorder.",
+    "criterion": "TRUE on the earlier of the date of a CHMP positive opinion recommending marketing authorisation, or the date of the European Commission marketing authorisation decision, for a midomafetamine (MDMA) product for post-traumatic stress disorder, under any sponsor name. A negative opinion, a withdrawal of the application, a PRIME designation, a national compassionate-use scheme or a single-country authorisation is not EU approval. A label narrower than PTSD counts if it names a PTSD population and the reading is logged. Resolution source: the EMA medicines database (EPAR pages), with the European Commission Union Register as the secondary source for the Commission decision date. FALSE at the deadline when neither a CHMP positive opinion nor a Commission authorisation for midomafetamine for PTSD is recorded there.",
+    "resolution_source": {
+      "name": "EMA medicines database (EPAR); European Commission Union Register as a secondary source",
+      "url": "https://www.ema.europa.eu/en/medicines"
+    },
+    "base_rate_class": "phase3_to_approval_psychiatry",
+    "quantity": null,
+    "readings": [
+      "'approval by the European Medicines Agency' reads as the EU centralised route: a CHMP positive opinion or the Commission decision that follows it, whichever comes first.",
+      "Approval under any sponsor name (MAPS Europe, MAPS PBC, Lykos Therapeutics or a successor) counts; the entry is on the asset."
+    ]
+  },
+  {
+    "slug": "cerebral-enforcement-outcome",
+    "template": "court_outcome",
+    "area": "regulatory",
+    "asset": "Cerebral prescribing and business practices (government enforcement action)",
+    "entity": "US federal or state court, or federal or state enforcement agency (DOJ, DEA, FTC, state attorney general)",
+    "title": "Cerebral: government enforcement outcome over its prescribing practices",
+    "proposition": "A court or government agency convicts, sanctions, rules against, or accepts a settlement from Cerebral (or its executives) for regulatory violations or crimes in its prescribing or business practices.",
+    "criterion": "TRUE on the docket date of a verdict, sentence, judgment, consent order or filed settlement in which a US federal or state court, or a federal or state enforcement agency (for example the Department of Justice, the DEA, the FTC, a state attorney general or a state medical board), convicts, sanctions, enters judgment against, or accepts a settlement or consent order from Cerebral, Inc. or a current or former Cerebral executive over Cerebral's controlled-substance prescribing or business practices. A subpoena, an announced investigation, an unresolved complaint or indictment, a private lawsuit or a voluntary policy change by Cerebral does not count. Resolution source: the court docket on CourtListener or PACER, with the DOJ or agency press release fixing the date of an agency settlement or order. FALSE at the deadline when no such docket entry or agency order exists.",
+    "resolution_source": {
+      "name": "Court docket (CourtListener or PACER); DOJ or agency press release as a secondary source",
+      "url": "https://www.courtlistener.com/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": []
+  },
+  {
+    "slug": "snt-accelerated-itbs-subsequent-rct-positive",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "SNT (Stanford Neuromodulation Therapy, accelerated iTBS) or another accelerated iTBS protocol for depression",
+    "entity": "Magnus Medical, Stanford University, or another sponsor of an accelerated iTBS trial",
+    "title": "SNT or accelerated iTBS for depression: a subsequent RCT meets its primary endpoint",
+    "proposition": "A randomized controlled trial of SNT or another accelerated iTBS protocol for depression, reported after 11 July 2022, meets its prespecified primary endpoint with statistical significance.",
+    "criterion": "TRUE on the date of the first sponsor topline release, ClinicalTrials.gov results posting or peer-reviewed publication dated after 2022-07-11 that reports a randomized controlled trial of SNT (Stanford Neuromodulation Therapy, the accelerated intermittent theta-burst TMS protocol commercialized by Magnus Medical) or another accelerated iTBS protocol for a depressive disorder, distinct from the Stanford SNT trial already published at the statement date, in which the prespecified primary efficacy endpoint met statistical significance versus the control arm as reported by the sponsor or the authors. Open-label series, secondary endpoints and pooled analyses do not count. Resolution source: the trial's ClinicalTrials.gov record and results posting, with the first peer-reviewed publication or sponsor release fixing the date. FALSE at the deadline when no such trial result has been reported.",
+    "resolution_source": {
+      "name": "ClinicalTrials.gov record and results posting of the trial; peer-reviewed publication or sponsor release as the secondary source",
+      "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'SNT and similar approaches' is read as SNT or another accelerated iTBS protocol (several iTBS sessions a day over about five days), per the author's own description of SNT in the post.",
+      "'demonstrate statistical significance' is read as the primary efficacy endpoint meeting significance in a randomized controlled trial; the author names randomized controlled trials as the test in the same post (owen-0072).",
+      "'and be Helpful' is split off as owen-0070-b and is not written into this event."
+    ]
+  },
+  {
+    "slug": "dea-per-state-registration-requirement-rescinded",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "DEA per-state physical-location registration requirement for prescribing controlled substances",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA per-state physical-location registration requirement for controlled-substance prescribing is rescinded",
+    "proposition": "The DEA adopts a final rule that lets a practitioner prescribe controlled substances to patients located in a state outside the states where the practitioner holds a registration at a physical location.",
+    "criterion": "TRUE on the Federal Register publication date of a DEA final rule (or the effective date of an enacted statute that the DEA implements) that permits a practitioner to prescribe controlled substances to patients located in a state where the practitioner holds no DEA registration at a physical location, on a non-emergency basis. A proposed rule, a temporary emergency exception, or the extension of an emergency exception is not adoption. Resolution source: the Federal Register. FALSE at the deadline when no such final rule has been published in the Federal Register.",
+    "resolution_source": {
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'the fundamental rules around DEA licensure' read as the per-state physical-office registration requirement the post describes"
+    ]
+  },
+  {
+    "slug": "saint-us-commercial-availability",
+    "template": "company_event",
+    "area": "company_market",
+    "asset": "SAINT neuromodulation system (fMRI-guided accelerated iTBS for depression)",
+    "entity": "Magnus Medical",
+    "title": "SAINT neuromodulation system becomes commercially available in the US",
+    "proposition": "Magnus Medical makes the SAINT neuromodulation system commercially available to patients in the United States.",
+    "criterion": "TRUE on the date of Magnus Medical's definitive public announcement (press release) that the SAINT neuromodulation system is commercially available in the United States, or that the first commercial, non-trial patient has been treated with it at a US clinic. FDA clearance alone, a waitlist or limited-release notice, a research-only installation or a rumor does not count. Resolution source: Magnus Medical press releases. FALSE at the deadline when no such announcement has been made.",
+    "resolution_source": {
+      "name": "Magnus Medical press releases"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'available' is read as commercial availability to patients outside a trial, not general or wide availability",
+      "FDA clearance of SAINT, public at the statement date, does not count as availability"
+    ]
+  },
+  {
+    "slug": "mdma-at-mapp2-primary-endpoint",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "MAPP2 (NCT04077437), the second Phase 3 trial of MDMA-assisted therapy for PTSD",
+    "entity": "MAPS Public Benefit Corporation (sponsor)",
+    "title": "MAPP2 Phase 3 trial of MDMA-assisted therapy for PTSD meets its primary endpoint",
+    "proposition": "MAPP2 (NCT04077437), the second Phase 3 trial of MDMA-assisted therapy for PTSD, reports its prespecified primary endpoint met with statistical significance.",
+    "criterion": "TRUE on the date of the sponsor's topline release, the ClinicalTrials.gov results posting or the peer-reviewed publication that first reports that MAPP2 (NCT04077437), the second Phase 3 trial of MDMA-assisted therapy for PTSD, met its prespecified primary endpoint (change in CAPS-5 total severity score versus placebo with therapy) with statistical significance as reported by the sponsor. FALSE on the date the sponsor first reports that the primary endpoint was not met, and FALSE at the deadline when no primary-endpoint result has been reported. Secondary endpoints, interim analyses and pooled analyses do not count. Resolution source: the ClinicalTrials.gov record NCT04077437 (results section), with the sponsor's topline press release or the first publication fixing the date.",
+    "resolution_source": {
+      "name": "ClinicalTrials.gov record NCT04077437 (results); sponsor topline press release or first publication as the secondary source",
+      "url": "https://clinicaltrials.gov/study/NCT04077437"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'the second phase three study looks good' reads as MAPP2 meeting its prespecified primary endpoint with statistical significance."
+    ]
+  },
+  {
+    "slug": "psilocybin-phase3-trial-start",
+    "template": "company_event",
+    "area": "clinical_trial",
+    "asset": "psilocybin drug product (any sponsor, any indication): first Phase 3 trial start",
+    "entity": "Any sponsor of a psilocybin drug program",
+    "title": "A Phase 3 trial of a psilocybin drug product starts",
+    "proposition": "A sponsor starts a Phase 3 clinical trial of a psilocybin drug product for any indication.",
+    "criterion": "TRUE on the earlier of (a) the date of a sponsor press release that announces the first participant enrolled or dosed in a trial registered as Phase 3 on ClinicalTrials.gov or the EU Clinical Trials Register whose investigational product is psilocybin, for any indication, or (b) the actual study start date recorded for such a trial on ClinicalTrials.gov. Registration alone (status Not yet recruiting), a Phase 2/3 label with no Phase 3 portion under way, and an announcement of plans do not count. Resolution source: ClinicalTrials.gov, with the sponsor press release as a secondary source. FALSE at the deadline when no Phase 3 trial of a psilocybin drug product has started.",
+    "resolution_source": {
+      "name": "ClinicalTrials.gov; sponsor press release as a secondary source",
+      "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'The phase three studies will have started with psilocybin' names no sponsor or indication; any Phase 3 trial of psilocybin counts.",
+      "company_event is the closest template for a trial start; the event resolves on the start, not on any result."
+    ]
+  },
+  {
+    "slug": "betterhelp-teladoc-ceases-operations",
+    "template": "company_event",
+    "area": "company_market",
+    "asset": "BetterHelp (online therapy platform, subsidiary of Teladoc Health)",
+    "entity": "Teladoc Health",
+    "title": "BetterHelp or Teladoc Health ceases operations",
+    "proposition": "BetterHelp or its parent Teladoc Health ceases operations (shuts down, files for bankruptcy or is dissolved).",
+    "criterion": "TRUE on the date of the definitive public announcement (SEC filing, press release or court filing) that BetterHelp ceases operations, or that Teladoc Health files for bankruptcy or is dissolved. A fine, a settlement, a stock decline, a write-down or a sale of BetterHelp as a going concern does not count. Resolution source: SEC EDGAR filings of Teladoc Health, with the company press release or bankruptcy docket as a secondary source. FALSE at the deadline when BetterHelp still operates and Teladoc Health has not filed for bankruptcy or been dissolved.",
+    "resolution_source": {
+      "name": "SEC EDGAR (Teladoc Health filings); company press release or bankruptcy docket as a secondary source",
+      "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'extinction level event' = BetterHelp ceases operations, or Teladoc Health files for bankruptcy or is dissolved. Fines, settlements, write-downs and stock declines do not count.",
+      "'the company' = BetterHelp and its parent Teladoc Health, per the post context and title ('Will It Destroy Teladoc?'). Either counts: 'A or B' is one event."
+    ]
+  },
+  {
+    "slug": "dea-telemedicine-proposed-rule-2023-changed",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "DEA February 2023 proposed rule on telemedicine prescribing of controlled substances",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA February 2023 proposed telemedicine controlled-substance rule is revised, withdrawn or replaced",
+    "proposition": "DEA revises, withdraws or replaces its February 2023 proposed rule on telemedicine prescribing of controlled substances rather than finalizing it as proposed.",
+    "criterion": "TRUE on the Federal Register publication date of a DEA action on its February 2023 proposed rule on telemedicine prescribing of controlled substances without a prior in-person medical evaluation that departs from finalizing the proposal as written: a final rule whose operative requirements differ materially from the proposal (for example on the in-person evaluation requirement), a formal withdrawal of the proposal, or a new proposed rule that supersedes it. A temporary rule or order that only extends existing flexibilities while the proposal stays pending is not a revision, withdrawal or replacement of the proposal. FALSE on the Federal Register publication date of a final rule that adopts the February 2023 proposal without material change, and FALSE at the deadline when the proposal has been neither revised, withdrawn nor replaced. Resolution source: the Federal Register.",
+    "resolution_source": {
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": []
+  },
+  {
+    "slug": "tms-first-line-depression-guideline",
+    "template": "rule_or_policy",
+    "area": "practice_adoption",
+    "asset": "TMS (including accelerated protocols) as a first-line treatment for major depressive disorder",
+    "entity": "American Psychiatric Association",
+    "title": "A depression practice guideline lists TMS as a first-line treatment",
+    "proposition": "The American Psychiatric Association issues a practice guideline for major depressive disorder that lists TMS (including accelerated protocols) as a first-line treatment option.",
+    "criterion": "TRUE on the publication date of an American Psychiatric Association practice guideline, or guideline update, for major depressive disorder that recommends TMS (any protocol, including accelerated protocols) or another non-ECT neuromodulation modality as a first-line treatment option, that is, as an initial treatment not conditioned on prior antidepressant failure. A draft for comment, a payer policy, or a recommendation limited to treatment-resistant depression is not adoption. Resolution source: the APA Practice Guidelines (psychiatryonline.org). FALSE at the deadline when no such APA guideline has been published.",
+    "resolution_source": {
+      "name": "American Psychiatric Association Practice Guidelines (psychiatryonline.org)"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'Neuromodulation (especially accelerated TMS)' resolves on TMS; another non-ECT neuromodulation modality listed as first-line for MDD also counts.",
+      "ECT does not count: its existing role in severe or psychotic depression is not the change the claim describes.",
+      "'First-line treatment for depression' means the guideline lists the modality as an initial treatment option for MDD without requiring prior antidepressant failure; a listing only for treatment-resistant depression does not count."
+    ]
+  },
+  {
+    "slug": "dea-telemedicine-flexibilities-extension",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "DEA COVID-era telemedicine flexibilities for prescribing controlled substances",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA extends the COVID-era telemedicine flexibilities for controlled-substance prescribing past the PHE end",
+    "proposition": "DEA issues a rule or order that extends the COVID-era telemedicine flexibilities for prescribing controlled substances beyond the end of the COVID-19 public health emergency.",
+    "criterion": "TRUE on the Federal Register publication date (or the DEA announcement date, if earlier) of a temporary rule or order that extends the COVID-era telemedicine flexibilities for prescribing controlled substances beyond the end of the COVID-19 public health emergency, so that the Ryan Haight Act in-person visit requirement does not return for telehealth patients at the PHE end. A proposed rule is not an extension. FALSE when the flexibilities expire at the PHE end with no such rule or order published, and FALSE at the deadline when no extension appears in the Federal Register. Resolution source: the Federal Register.",
+    "resolution_source": {
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": "dea_telemedicine_extension",
+    "quantity": null,
+    "readings": [
+      "'The Ryan Haight Act returns', 'in-office visits return for everybody everywhere' and an 'instant' return to in-person providers are read as the in-person requirement applying again to all telehealth controlled-substance patients at the PHE end.",
+      "Any DEA rule or order that continues remote prescribing of controlled substances without an in-person visit past the PHE end counts as an extension."
+    ]
+  },
+  {
+    "slug": "dea-telemedicine-flexibilities-second-extension",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "DEA COVID-era telemedicine flexibilities for prescribing controlled substances (second extension)",
+    "entity": "US Drug Enforcement Administration (DEA)",
+    "title": "DEA extends the COVID-era telemedicine flexibilities for controlled-substance prescribing a second time",
+    "proposition": "DEA issues a second rule or order that extends the COVID-era telemedicine flexibilities for prescribing controlled substances beyond the end date set by the first extension.",
+    "criterion": "TRUE on the Federal Register publication date of a second DEA rule or order that extends the COVID-era telemedicine flexibilities for prescribing controlled substances beyond the end date set by the first extension. Requires that a first extension exists. A proposed rule is not an extension; a permanent final rule that replaces the flexibilities is not an extension. FALSE at the deadline when no second extension has been published in the Federal Register, including when the flexibilities lapse at the end date set by the first extension. Resolution source: the Federal Register.",
+    "resolution_source": {
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": "dea_telemedicine_extension",
+    "quantity": null,
+    "readings": [
+      "'Another extension' is read as a second temporary extension after the first; a permanent final rule that replaces the flexibilities is not an extension."
+    ]
+  },
+  {
+    "slug": "cms-ntap-saint-neuromodulation",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "asset": "SAINT Neuromodulation (Magnus Medical): Medicare new technology add-on payment (NTAP)",
+    "entity": "Centers for Medicare & Medicaid Services (CMS)",
+    "title": "Medicare new technology add-on payment for SAINT Neuromodulation",
+    "proposition": "CMS approves a Medicare New Technology Add-On Payment (NTAP) for SAINT Neuromodulation under the inpatient prospective payment system.",
+    "criterion": "TRUE on the effective date of a Medicare inpatient prospective payment system (IPPS) final rule, published in the Federal Register by CMS, that approves a New Technology Add-On Payment for SAINT Neuromodulation. The proposed rule, the open comment period, a coding assignment or a national coverage analysis is not approval. Resolution source: the Federal Register (CMS Medicare IPPS final rule, NTAP determinations). FALSE at the deadline when no IPPS final rule approving an NTAP for SAINT Neuromodulation has been published.",
+    "resolution_source": {
+      "name": "Federal Register (CMS Medicare IPPS final rule, NTAP determinations)",
+      "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'under Medicare, go to a hospital with depression and leave no longer depressed' is read as Medicare paying for SAINT in hospitals through the NTAP program the post names.",
+      "'79% of the time' restates the SAINT trial remission rate; it is not a separate scored claim."
+    ]
+  },
+  {
+    "slug": "saint-us-hospital-availability",
+    "template": "company_event",
+    "area": "practice_adoption",
+    "asset": "SAINT (fMRI-guided accelerated iTBS neuromodulation, Magnus Medical) in US hospital settings",
+    "entity": "Magnus Medical (supplier) and adopting US hospitals",
+    "title": "SAINT neuromodulation becomes available to patients in a US hospital setting",
+    "proposition": "SAINT (fMRI-guided accelerated iTBS) is offered to patients in at least one US hospital setting, as announced by Magnus Medical or the hospital.",
+    "criterion": "TRUE on the date of the definitive public announcement (Magnus Medical press release or the hospital's own public announcement) that SAINT is available to patients in a US hospital setting (inpatient or hospital outpatient department), or that a first patient has been treated with SAINT at a US hospital. Availability only through a Magnus Medical research or open-label study at non-hospital clinics, a hospital's stated intention or agreement to install without patient availability, and any CMS payment decision by itself do not count. Resolution source: Magnus Medical press releases, with the adopting hospital's public announcement as a secondary source. FALSE at the deadline when no such announcement has been made.",
+    "resolution_source": {
+      "name": "Magnus Medical press releases; adopting hospital's public announcement as a secondary source"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'available in hospital settings' = at least one US hospital offers SAINT to patients (inpatient or hospital outpatient department); one hospital suffices.",
+      "'under the new technology add-on payment program' is the payment route the forecaster names, not a separate forecast of a CMS decision; the item does not resolve on any CMS action, so the sentence is one event, not an 'A and B' split."
+    ]
+  },
+  {
+    "slug": "medicare-ntap-psychedelic-medicine",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "asset": "Medicare NTAP for a psychedelic medicine (a psychedelic-class drug, or a therapy that administers one)",
+    "entity": "Centers for Medicare & Medicaid Services (CMS)",
+    "title": "Medicare new technology add-on payment for a psychedelic medicine",
+    "proposition": "CMS approves a Medicare new technology add-on payment (NTAP) for a psychedelic medicine (a psychedelic-class drug, or a therapy that administers one) in an inpatient prospective payment system final rule.",
+    "criterion": "TRUE on the effective date (1 October of the fiscal year) of the Medicare inpatient prospective payment system (IPPS) final rule, published in the Federal Register by CMS, that approves a new technology add-on payment for a psychedelic-class drug (psilocybin, MDMA, LSD, DMT or a related compound) or for a therapy that administers one. An NTAP application, a proposed rule, a CPT code, an FDA approval, a Medicaid or commercial payer decision, or a payment for ketamine or esketamine does not count. Resolution source: the Federal Register, Medicare IPPS final rule, new technology add-on payment section. FALSE at the deadline when no such NTAP approval has been published.",
+    "resolution_source": {
+      "name": "Federal Register (Medicare IPPS final rule, new technology add-on payment section)",
+      "url": "https://www.federalregister.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'this' = the Medicare new technology add-on payment (NTAP) mechanism that the post describes for SAINT; the event is written on that mechanism, not on any payment model in general.",
+      "'psychedelic medicine' = a psychedelic-class drug (psilocybin, MDMA, LSD, DMT and related compounds) or a therapy that administers one; ketamine and esketamine are not counted.",
+      "'paid for' = approval of the add-on payment in a final rule; an application or a proposed rule is not payment."
+    ]
+  },
+  {
+    "slug": "tms-fda-new-indication",
+    "template": "device_authorization",
+    "area": "regulatory",
+    "asset": "Transcranial magnetic stimulation (TMS) devices, any manufacturer: a new authorized indication",
+    "entity": "US Food and Drug Administration (CDRH)",
+    "title": "FDA authorizes a TMS device for a new indication",
+    "proposition": "The FDA grants a 510(k) clearance, De Novo authorization or PMA approval for a transcranial magnetic stimulation device for a disease or condition beyond those authorized for any TMS device at the statement date.",
+    "criterion": "TRUE on the decision date in the FDA 510(k), De Novo or PMA database of a marketing authorization, dated after 2024-01-04, for a transcranial magnetic stimulation device whose indications-for-use statement names a disease or condition that no TMS device was authorized for on 2024-01-04. Conditions already authorized at the statement date (major depressive disorder including treatment-resistant depression, anxious depression, smoking cessation, obsessive-compulsive disorder, migraine for single-pulse TMS) do not count. A new population or protocol within an authorized condition, a breakthrough designation, an investigational device exemption or a non-US authorization does not count. Resolution source: the FDA 510(k) Premarket Notification database, with the De Novo and PMA databases for other pathways. FALSE at the deadline when no such authorization appears there.",
+    "resolution_source": {
+      "name": "FDA 510(k) Premarket Notification database; De Novo and PMA databases for other pathways",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'indications' = FDA-authorized indications for use of TMS devices. The forecaster lists the four conditions he treats as current; they are the FDA-cleared psychiatric and addiction indications at the statement date.",
+      "'more indications' = at least one disease or condition new to TMS as a device class; one authorization for one new condition suffices. Any TMS manufacturer counts, since the forecaster names none.",
+      "A population expansion or a protocol change within an already authorized condition is not a new indication; a listed condition under another name (MDD for TRD) is not new."
+    ]
+  },
+  {
+    "slug": "bpl-003-phase2b-trd-readout",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "BPL-003 (intranasal 5-MeO-DMT) Phase 2b trial in treatment-resistant depression",
+    "entity": "Beckley Psytech",
+    "title": "BPL-003 (5-MeO-DMT) Phase 2b trial in treatment-resistant depression reports topline results",
+    "proposition": "Beckley Psytech or its parent reports topline results, positive or negative, of the Phase 2b trial of BPL-003 in treatment-resistant depression.",
+    "criterion": "TRUE on the date of the first sponsor topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports the primary endpoint result, positive or negative, of the Phase 2b randomized controlled trial of BPL-003 (intranasal 5-MeO-DMT) in treatment-resistant depression sponsored by Beckley Psytech, its parent company or a successor sponsor of BPL-003. Phase 2a or open-label results, an interim or pooled analysis, a trial-start or enrollment announcement, and a conference abstract that omits the primary endpoint result do not count. Resolution source: the sponsor's topline press release, with the trial's ClinicalTrials.gov record as the secondary source. FALSE at the deadline when no primary endpoint result of that trial has been reported.",
+    "resolution_source": {
+      "name": "Beckley Psytech topline press release; ClinicalTrials.gov record of the trial as the secondary source",
+      "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": []
+  },
+  {
+    "slug": "pcn-101-arketamine-discontinued",
+    "template": "company_event",
+    "area": "clinical_trial",
+    "asset": "PCN-101 (arketamine, R-ketamine) clinical program",
+    "entity": "atai Life Sciences (Perception Neuroscience)",
+    "title": "PCN-101 (arketamine) development is discontinued",
+    "proposition": "The sponsor of PCN-101 (arketamine) announces that clinical development of the program is discontinued.",
+    "criterion": "TRUE on the date of the first definitive public statement by the sponsor of PCN-101 (atai Life Sciences, its subsidiary Perception Neuroscience, or a successor owner or licensee of the asset), in a press release, SEC filing or investor presentation, that development of PCN-101 (arketamine, R-ketamine) is discontinued or terminated, or that the program has been removed from the pipeline with no further development planned. A missed endpoint, a pause pending data, a search for a partner, or a deprioritization that keeps the program under evaluation is not discontinuation. Development that continues under a licensee or new owner of the asset is not discontinuation. Resolution source: atai Life Sciences press releases and SEC filings (EDGAR). FALSE at the deadline when no such discontinuation statement has been made.",
+    "resolution_source": {
+      "name": "atai Life Sciences press releases and SEC filings (EDGAR)",
+      "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'The arketamine story is over' is read as the sponsor discontinuing the PCN-101 (arketamine) program, the only arketamine program in the post. The forecaster says this is unlikely.",
+      "The event is written on the asset, so it follows PCN-101 through a rename, a partnership or a sale; continued development by a licensee or new owner keeps the event FALSE."
+    ]
+  },
+  {
+    "slug": "midomafetamine-new-phase3-trial-result",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "midomafetamine (MDMA-assisted therapy) for PTSD: a Phase 3 trial that starts after 5 June 2024",
+    "entity": "Lykos Therapeutics (or a successor sponsor of midomafetamine)",
+    "title": "A new Phase 3 trial of midomafetamine (MDMA-assisted therapy) for PTSD reports its primary result",
+    "proposition": "The sponsor of midomafetamine (MDMA-assisted therapy) for PTSD reports the primary endpoint result of a Phase 3 trial that starts after 5 June 2024.",
+    "criterion": "TRUE on the date of the first public report of the primary endpoint result (sponsor topline press release, ClinicalTrials.gov results posting or peer-reviewed publication, whichever is first) of a Phase 3 trial of midomafetamine (MDMA-assisted therapy) for PTSD whose ClinicalTrials.gov start date is after 2024-06-05. The result may be positive or negative. The two Phase 3 trials discussed at the 4 June 2024 advisory committee (MAPP1, MAPP2) do not count; a trial start, an enrollment announcement or an FDA request for a trial does not count. Resolution source: ClinicalTrials.gov, with the sponsor's topline press release as a secondary source. FALSE at the deadline when no such trial has reported a primary endpoint result.",
+    "resolution_source": {
+      "name": "ClinicalTrials.gov; sponsor topline press release as a secondary source",
+      "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "'With a properly conducted Phase 3 trial' is read as: a new Phase 3 trial is run to a primary result. 'Properly conducted' is not scored; any new Phase 3 trial that reports a primary result satisfies the condition.",
+      "The condition is observable on ClinicalTrials.gov and outside the forecaster's control (his affiliations include no role in Lykos or MAPS)."
+    ]
+  },
+  {
+    "slug": "fda-psychedelic-approval-rems",
+    "template": "rule_or_policy",
+    "area": "regulatory",
+    "asset": "psychedelic medicines (class): REMS at FDA approval",
+    "entity": "US Food and Drug Administration (FDA)",
+    "title": "REMS requirement on FDA-approved psychedelic medicines",
+    "proposition": "Every psychedelic medicine the FDA approves carries a Risk Evaluation and Mitigation Strategy (REMS) on its label at approval.",
+    "criterion": "Resolved on the FDA REMS database (REMS@FDA) read together with Drugs@FDA. For each drug in the psychedelic class (MDMA or midomafetamine, psilocybin, ibogaine and any other compound its sponsor or the FDA describes as a psychedelic or an entactogen; esketamine and ketamine excluded) that receives FDA approval between the statement date and the item's deadline, check whether a REMS is in force on the approval date. FALSE on the date of the first such approval that has no REMS. TRUE at the deadline if every such approval carried a REMS. If no drug in the class is approved by the deadline, the condition is unmet and the item is void. Resolution source: REMS@FDA, with Drugs@FDA for the approval dates.",
+    "resolution_source": {
+      "name": "FDA REMS database (REMS@FDA), with Drugs@FDA for approval dates",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm"
+    },
+    "base_rate_class": null,
+    "quantity": null,
+    "readings": [
+      "Psychedelic class: MDMA (midomafetamine), psilocybin, ibogaine, and any other compound its sponsor or the FDA describes as a psychedelic or an entactogen. Esketamine and ketamine are excluded: the author uses esketamine as the comparator, not as a member of the class.",
+      "'Come to market' reads as FDA approval; 'with one of these REMS on the FDA-label' reads as a REMS in force on the approval date.",
+      "'100%' is the share of the class, not a probability; the confidence phrase is 'will'."
+    ]
+  }
+]

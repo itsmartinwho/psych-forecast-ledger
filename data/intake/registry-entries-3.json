@@ -1,0 +1,479 @@
+[
+ {
+  "slug": "fda-comp360-mdd-approval",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "COMP360 (Compass Pathways' synthetic psilocybin) for major depressive disorder, including TRD",
+  "entity": "US Food and Drug Administration",
+  "title": "FDA approval of COMP360 (psilocybin) for major depressive disorder",
+  "proposition": "The FDA approves COMP360 (psilocybin) for a major depressive disorder indication.",
+  "criterion": "TRUE on the date of the FDA approval letter (Drugs@FDA entry; Compass Pathways' approval announcement as a secondary source) for COMP360 (psilocybin) with an indication in major depressive disorder, including treatment-resistant depression or another MDD subpopulation. A complete response letter, a positive advisory committee vote, filing acceptance, priority review or breakthrough therapy designation is not approval. An approval for an indication outside the depressive disorders (for example PTSD alone) does not count. FALSE at the deadline when no such approval is dated in Drugs@FDA by then. Resolution source: Drugs@FDA.",
+  "resolution_source": {
+   "name": "Drugs@FDA; Compass Pathways press release as a secondary source",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": "phase3_to_approval_psychiatry",
+  "quantity": null,
+  "readings": [
+   "TRD counts as MDD: a label narrower than the claim's indication counts when the claim's indication reasonably includes it (template rule, reading logged).",
+   "'COMP360 and KetaFree ... will be approved for MDD by FDA' is 'A and B' and is split; KetaFree is coded at owen-2032-b.",
+   "Related proposal new:fda-psilocybin-approval (angermayer-0008-b) is on any psilocybin product; this event is on COMP360 for MDD specifically."
+  ]
+ },
+ {
+  "slug": "fda-ketafree-iv-ketamine-mdd-approval",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "KetaFree (NRX-100, NRx Pharmaceuticals' preservative-free intravenous ketamine) for major depressive disorder",
+  "entity": "US Food and Drug Administration",
+  "title": "FDA approval of KetaFree (NRX-100 intravenous ketamine) for major depressive disorder",
+  "proposition": "The FDA approves NRx Pharmaceuticals' intravenous ketamine product (KetaFree) for a major depressive disorder indication.",
+  "criterion": "TRUE on the date of the FDA approval letter (Drugs@FDA entry; NRx Pharmaceuticals' approval announcement as a secondary source) of NRx Pharmaceuticals' new drug application for its intravenous ketamine product (KetaFree) with an indication in a depressive disorder (major depressive disorder, including depression with suicidal ideation or treatment-resistant depression). A complete response letter, filing acceptance, a tentative approval, or a marketing authorization without a depressive-disorder indication is not approval. FALSE at the deadline when no such approval is dated in Drugs@FDA by then. Resolution source: Drugs@FDA.",
+  "resolution_source": {
+   "name": "Drugs@FDA; NRx Pharmaceuticals press release as a secondary source",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": "nda_submitted_to_approval",
+  "quantity": null,
+  "readings": [
+   "'KetaFree (IV Ketamine)' = NRx Pharmaceuticals' intravenous ketamine product, per the post context (NRx).",
+   "'For MDD' includes narrower depressive-disorder labels such as depression with suicidal ideation or TRD (a label narrower than the claim's indication counts when the claim's indication reasonably includes it; reading logged).",
+   "Second half of the split claim; COMP360 is coded at owen-2032-a."
+  ]
+ },
+ {
+  "slug": "global-antidepressant-prescriptions-fall-2026",
+  "template": "quantity_threshold",
+  "area": "practice_adoption",
+  "asset": "Global antidepressant prescription volume (antidepressants, ATC N06A), calendar year 2026 versus 2025",
+  "entity": "IQVIA (publisher of the global prescription audit)",
+  "title": "Global antidepressant prescription volume falls in 2026 versus 2025",
+  "proposition": "Global antidepressant prescription volume for calendar year 2026 is below the volume for calendar year 2025, per IQVIA's global data.",
+  "criterion": "Resolved on IQVIA global antidepressant volume data only (IQVIA MIDAS, as published by IQVIA or the IQVIA Institute in its global medicine-use reports). TRUE if the published global antidepressant volume for calendar year 2026 (prescriptions, or the report's standard-unit or defined-daily-dose measure for antidepressants, ATC N06A) is lower than the published figure for calendar year 2025 in the same series and unit; FALSE if it is equal or higher. A direction resolves as binary at the prior-year value. Regional or single-country series do not count. If the series has not published both years' values 12 months after the deadline, the event is unresolvable.",
+  "resolution_source": {
+   "name": "IQVIA global antidepressant volume (IQVIA MIDAS), as published by IQVIA or the IQVIA Institute"
+  },
+  "base_rate_class": null,
+  "quantity": {
+   "metric": "global antidepressant prescription volume (antidepressants, ATC N06A) for calendar year 2026, compared with the calendar-2025 value in the same series",
+   "threshold": null,
+   "direction": "<",
+   "unit": "prescriptions or standard units, year total",
+   "series": "IQVIA MIDAS global antidepressant volume, calendar years 2025 and 2026, as published by IQVIA or the IQVIA Institute"
+  },
+  "readings": [
+   "'Antidepressant prescriptions' is read as dispensed antidepressant volume in the unit the series publishes.",
+   "'Globally' = the worldwide total, so only a global series resolves the event.",
+   "'For the first time' is historical framing and is not scored; the direction is judged against 2025 only."
+  ]
+ },
+ {
+  "slug": "national-payer-covers-accelerated-tms-outpatient",
+  "template": "coverage_decision",
+  "area": "payer_policy",
+  "asset": "Accelerated TMS (more than one session per day, such as accelerated iTBS or SAINT/SNT protocols) in outpatient clinics",
+  "entity": "A US health payer with national scope (a national commercial insurer or a federal program)",
+  "title": "A national US payer covers accelerated TMS in the outpatient clinic setting",
+  "proposition": "A US health payer with national scope covers accelerated TMS delivered in outpatient clinics, through a published coverage policy or a publicly announced pilot or network agreement.",
+  "criterion": "TRUE on the effective date of (a) a published medical policy, bulletin or fee schedule of a US health payer with national scope (a national commercial insurer or a federal program) that lists an accelerated TMS protocol (more than one session per day, e.g. accelerated iTBS or SAINT/SNT) as covered or medically necessary in an outpatient clinic, or (b) a public announcement by such a payer, alone or with a provider, of a pilot or network agreement that pays for accelerated TMS in outpatient clinics. Once-daily TMS coverage, trial-only coverage, case exceptions, a single-state or regional plan, an unpublished contract, or inpatient-only coverage does not count. FALSE at the deadline when no such policy or announcement is dated by then. Resolution source: the payer's policy bulletin or fee schedule, or the payer's or provider's press release for the agreement.",
+  "resolution_source": {
+   "name": "The payer's published medical policy bulletin or fee schedule; payer or provider press release for a pilot or network agreement"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'or Accelerated TMS' is read as 'for Accelerated TMS' (typo), per the finder and the sentence structure.",
+   "'A national payor—or two' = at least one payer with national scope; a single-state or regional plan does not count.",
+   "'It won't be broad—it will start with pilots and narrow network deals': the forecaster counts pilots and narrow network arrangements as coverage, so a publicly announced pilot or network agreement satisfies the event.",
+   "'Accelerated TMS' = protocols with more than one TMS session per day (accelerated iTBS, SAINT/SNT-type), as in the related proposals new:uhc-covers-accelerated-tms-depression and new:additional-health-plan-covers-accelerated-tms.",
+   "'We' is read as accelerated-TMS providers, which include the forecaster's employer Radial."
+  ]
+ },
+ {
+  "slug": "pediatric-society-warning-non-fluoxetine-antidepressants-youth",
+  "template": "rule_or_policy",
+  "area": "practice_adoption",
+  "asset": "Professional-society guidance against antidepressants other than fluoxetine for depression in children and adolescents",
+  "entity": "American Academy of Pediatrics, American Academy of Child and Adolescent Psychiatry, or another pediatric-care society",
+  "title": "A pediatric or child-psychiatry society warns against non-fluoxetine antidepressants for youth depression",
+  "proposition": "A professional society for children's health care issues a warning, policy statement or clinical guideline that recommends against prescribing antidepressant medications other than fluoxetine for depression in children and adolescents.",
+  "criterion": "TRUE on the publication date of an official policy statement, clinical practice guideline, clinical report or public warning issued by the American Academy of Pediatrics (AAP), the American Academy of Child and Adolescent Psychiatry (AACAP), or another professional society whose members care for children or adolescents, that recommends against, or advises clinicians not to prescribe, antidepressants other than fluoxetine for depression in children and/or adolescents, as shown by the document text. A guideline that ranks fluoxetine first while still endorsing other antidepressants, a statement about a single drug, an individual member's editorial, or an FDA action does not count. FALSE at the deadline when no such document has been published by then. Resolution source: the issuing society's official publication or website (AAP: Pediatrics, aap.org; AACAP: JAACAP, aacap.org).",
+  "resolution_source": {
+   "name": "The issuing society's official publication or website (AAP: Pediatrics, aap.org; AACAP: JAACAP, aacap.org)"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'All drugs (except prozac) for depression in youth' = antidepressant medications other than fluoxetine, for depression in children and adolescents.",
+   "'A warning (or stern guideline)' = a formal society document that recommends against such prescribing; ranking fluoxetine first while still endorsing alternatives does not count.",
+   "'AAP, AACAP, or the like' = any professional society for children's care ('A or B' is one event)."
+  ]
+ },
+ {
+  "slug": "sanmai-tfus-trial-topline",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "Sanmai transcranial focused ultrasound (tFUS) therapy: clinical trial topline (primary-outcome) results",
+  "entity": "Sanmai (sponsor) and the investigators of clinical trials of its tFUS therapy",
+  "title": "Sanmai transcranial focused ultrasound trial reports topline results",
+  "proposition": "Sanmai, or the investigators of a clinical trial of Sanmai's transcranial focused ultrasound therapy, publicly report topline (primary-outcome) results of that trial, in any direction.",
+  "criterion": "TRUE on the date of the first sponsor topline press release, ClinicalTrials.gov results posting or peer-reviewed publication, dated after 2026-01-01, that reports primary-outcome results (positive, negative or mixed) of a clinical trial of a Sanmai transcranial focused ultrasound treatment in human participants. Trial-start or enrollment announcements, preclinical or healthy-volunteer mechanistic data without a clinical primary outcome, conference teasers without primary-outcome results, and results already public on the statement date do not count. FALSE at the deadline when no such report is dated by then. Resolution source: Sanmai press releases, with ClinicalTrials.gov results and PubMed as secondary sources.",
+  "resolution_source": {
+   "name": "Sanmai press releases (company newsroom); ClinicalTrials.gov results and PubMed as secondary sources",
+   "url": "https://clinicaltrials.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Top-lines' = topline (primary-outcome) results of a clinical trial; the forecaster asserts no direction, so a positive, negative or mixed result all count.",
+   "'Make news' is read as the public release of the results; press coverage is not required.",
+   "'Sanmai, Brainsonix, and other tFUS companies' is 'A and B': Brainsonix is coded at owen-2026-b; 'other tFUS companies' is an uncountable set and is not coded."
+  ]
+ },
+ {
+  "slug": "three-at-home-depression-devices-us-market",
+  "template": "quantity_threshold",
+  "area": "company_market",
+  "asset": "At-home (home-use) depression treatment devices legally marketed in the United States (count of devices)",
+  "entity": "US Food and Drug Administration (device authorizations) and the device sponsors (commercial availability)",
+  "title": "Three or more at-home depression treatment devices on the US market",
+  "proposition": "By the period end, three or more distinct hardware devices with an FDA authorization naming a depressive disorder indication and home use are commercially available in the United States, per FDA device databases and sponsor availability announcements.",
+  "criterion": "Resolved on FDA device authorization records and sponsor announcements only. Count the distinct hardware devices that, at the period end, (a) hold an FDA marketing authorization (510(k) clearance, De Novo grant or PMA approval, per the FDA 510(k), De Novo and PMA databases) whose indications for use name a depressive disorder (major depressive disorder or depression) and home use or use outside a clinical setting, and (b) are commercially available to patients in the United States per the sponsor's public announcement (press release or product website). TRUE if the count is three or more; FALSE otherwise. Devices marketed for depression without such an authorization, software-only products, and devices authorized only for in-clinic use do not count. If the FDA databases and sponsor announcements cannot establish the count 12 months after the deadline, the event is unresolvable.",
+  "resolution_source": {
+   "name": "FDA 510(k), De Novo and PMA databases (authorizations) with sponsor press releases (commercial availability)",
+   "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm"
+  },
+  "base_rate_class": null,
+  "quantity": {
+   "metric": "number of distinct at-home depression treatment devices legally marketed in the US (FDA home-use depression authorization plus commercial availability)",
+   "threshold": 3,
+   "direction": ">=",
+   "unit": "devices",
+   "series": "FDA 510(k), De Novo and PMA authorization records with home-use depression indications, plus sponsor commercial-availability announcements"
+  },
+  "readings": [
+   "'On the market' is read as legally marketed in the United States: an FDA authorization naming depression and home use, plus commercial availability. The forecaster counts 'the Flow approval' as the first, so Flow counts if it is marketed by the period end.",
+   "'At-home depression treatment devices' = hardware devices (the forecaster's example is a Flow headset) whose FDA indications for use name a depressive disorder and home use; the device type (tDCS, TMS, nerve stimulation, other) is not restricted; software-only digital therapeutics are not counted.",
+   "'We already have the Flow approval announced, and more is coming' is context for the count, not a separate coded claim."
+  ]
+ },
+ {
+  "slug": "two-new-criminal-cases-controlled-substance-companies",
+  "template": "court_outcome",
+  "area": "regulatory",
+  "asset": "New federal criminal cases against companies selling or prescribing controlled substances (Done Global-type cases)",
+  "entity": "US Department of Justice (federal prosecutors)",
+  "title": "At least two new federal criminal cases against companies selling controlled substances",
+  "proposition": "US federal prosecutors bring at least two additional criminal cases, of the kind brought against Done Global, against companies (or their principals) for selling or prescribing controlled substances.",
+  "criterion": "TRUE on the docket date on which the second qualifying case is filed. A qualifying case is a federal criminal case (indictment, information or complaint) filed after the statement date by US federal prosecutors against a company that sells or prescribes controlled substances (manufacturer, distributor, pharmacy, or telehealth or clinic prescriber), or against its principals, on charges about that sale, distribution or prescribing, as in the Done Global prosecution. Each qualifying case is a distinct docket against a different company. Civil or DEA administrative actions, settlements without charges, superseding indictments in an existing case, and the pending Done Global case do not count. FALSE at the deadline when fewer than two qualifying cases have been filed by then. Resolution source: federal court dockets (CourtListener/PACER); DOJ press releases as a secondary source.",
+  "resolution_source": {
+   "name": "Federal court dockets (CourtListener/PACER); DOJ press releases as a secondary source",
+   "url": "https://www.courtlistener.com/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "Range '2-3' read as at least 2. 'Major' read as federal criminal charges. Done Global, named next, is the reference class."
+  ]
+ },
+ {
+  "slug": "two-pandemic-era-mental-health-companies-cease-operations",
+  "template": "company_event",
+  "area": "company_market",
+  "asset": "Pandemic-era mental-health companies: public announcements of ceasing operations (count of companies)",
+  "entity": "Pandemic-era mental-health companies (each company announces its own shutdown)",
+  "title": "At least two pandemic-era mental-health companies cease operations",
+  "proposition": "At least two pandemic-era (founded or grown during the COVID-19 pandemic) mental-health companies publicly announce that they are ceasing operations.",
+  "criterion": "TRUE on the date of the second definitive public announcement after the statement date that a distinct pandemic-era mental-health company is ceasing operations: a company statement or press release, an SEC filing, a Chapter 7 or dissolution filing, or a closure notice to patients or customers. 'Pandemic-era mental-health company' = a company whose main business is mental-health care or software (telehealth psychiatry or therapy, apps, clinics, benefits platforms), founded or launched in that business between March 2020 and December 2022. A layoff, a pivot, an acquisition that keeps the service running, a Chapter 11 filing with continued operations, or a rumor does not count. FALSE at the deadline when fewer than two such shutdowns have been announced by then. Resolution source: company press releases and statements; SEC EDGAR and bankruptcy dockets as secondary sources.",
+  "resolution_source": {
+   "name": "Company press releases and public statements; SEC EDGAR filings and bankruptcy dockets as secondary sources"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "Threshold 2 ('at least two'). 'DeathStance Health' is fictional and not an entity."
+  ]
+ },
+ {
+  "slug": "additional-health-plan-covers-adolescent-tms",
+  "template": "coverage_decision",
+  "area": "payer_policy",
+  "asset": "Transcranial magnetic stimulation (TMS) for depression in adolescents: health plan coverage",
+  "entity": "US health plans other than UnitedHealth Group (UnitedHealthcare) and Cigna",
+  "title": "An additional US health plan covers TMS for adolescent depression",
+  "proposition": "An additional US health plan, beyond those that covered TMS for adolescent depression on 5 January 2026, adopts a coverage policy that covers TMS for depression in adolescents.",
+  "criterion": "TRUE on the effective date of a published medical policy or coverage bulletin from a US health plan (commercial or public), other than UnitedHealth Group/UnitedHealthcare and Cigna, that newly lists transcranial magnetic stimulation as covered or medically necessary for major depressive disorder in adolescents (an age range that includes patients under 18), where the plan's policy in force on 2026-01-05 did not cover TMS for patients under 18, as shown by the policy's revision history or the prior policy text. Adult-only TMS coverage, individual case exceptions and coverage limited to clinical trials do not count. FALSE at the deadline when no such policy has taken effect by then. Resolution source: the health plan's published medical policy bulletin (policy library with revision history).",
+  "resolution_source": {
+   "name": "The health plan's published medical policy bulletin (policy library with revision history)"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Other plans will follow' = at least one additional US health plan adopts adolescent TMS coverage; the countable set is US health plans with a published TMS policy, baseline the plans covering adolescents on the statement date (UnitedHealth Group, Cigna, 'Medical' and 'more', per the forecaster).",
+   "'Medical' in the quote is not resolved to a named plan; any plan already covering on the statement date is excluded by the 'newly' test rather than by name.",
+   "'Adolescent depression' = major depressive disorder in patients under 18; a policy whose covered age range includes ages below 18 counts."
+  ]
+ },
+ {
+  "slug": "monarch-etns-replication-trial-results-published",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "Monarch eTNS (external trigeminal nerve stimulation, NeuroSigma): large-scale replication trial results",
+  "entity": "NeuroSigma and the academic investigators running trials of the Monarch eTNS device",
+  "title": "Monarch eTNS large-scale replication trial results are published",
+  "proposition": "Results of a randomized controlled replication trial of the Monarch eTNS device, larger than the trial behind its existing FDA clearance, are published, in any direction.",
+  "criterion": "TRUE on the date of the first peer-reviewed publication (PubMed-indexed) or ClinicalTrials.gov results posting, dated after 2026-01-15, that reports primary-outcome results of a randomized controlled trial of the Monarch eTNS (external trigeminal nerve stimulation) device in one of the indications the forecaster names as cleared (ADHD in youth, or refractory seizures), designed to test the efficacy finding of the trial that supported the existing FDA clearance, and randomizing more participants than that pivotal trial. Any direction of result counts. Secondary analyses of earlier trials, open-label studies, and results already public on the statement date do not count. FALSE at the deadline when no such publication or posting is dated by then. Resolution source: PubMed (peer-reviewed publication), with ClinicalTrials.gov results as a secondary source.",
+  "resolution_source": {
+   "name": "PubMed (peer-reviewed publication); ClinicalTrials.gov results as a secondary source",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Large scale replication trials' is read as randomized controlled trials that test the efficacy finding behind the current clearance and randomize more participants than that pivotal trial; the forecaster gives no number, so size is judged against the pivotal trial.",
+   "'New data ... published' is read as a peer-reviewed publication or a results posting, in any direction.",
+   "'Soon' sets no deadline."
+  ]
+ },
+ {
+  "slug": "fda-comp360-trd-nda-decision",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "COMP360 (synthetic psilocybin) new drug application for treatment-resistant depression: FDA action",
+  "entity": "US Food and Drug Administration",
+  "title": "FDA action (approval or complete response letter) on the COMP360 NDA for treatment-resistant depression",
+  "proposition": "The FDA issues its action (approval or complete response letter) on Compass Pathways' new drug application for COMP360 (psilocybin) in treatment-resistant depression.",
+  "criterion": "TRUE on the date of the FDA's first action on Compass Pathways' new drug application for COMP360 (psilocybin) in treatment-resistant depression, in either direction: the approval letter as dated in Drugs@FDA (or in Compass Pathways' approval announcement), or a complete response letter as dated in Compass Pathways' announcement of it. The event is about the FDA reaching its decision, not the direction. A filing acceptance, a PDUFA goal date, an advisory committee vote, a review extension, a refuse-to-file letter or withdrawal of the application is not an action; if the application is never submitted, no action occurs. FALSE at the deadline when neither an approval in Drugs@FDA nor an announced complete response letter is dated by then. Resolution source: Drugs@FDA for an approval; Compass Pathways' press release for a complete response letter.",
+  "resolution_source": {
+   "name": "Drugs@FDA (approval); Compass Pathways press release for a complete response letter",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "Quoted words endorsed as his own. 'A decision' is any FDA action, not approval. 'Early next year' read via the year row."
+  ]
+ },
+ {
+  "slug": "ataibeckley-major-index-inclusion",
+  "template": "company_event",
+  "area": "company_market",
+  "asset": "AtaiBeckley common stock (Nasdaq: ATAI): addition to a major stock market index",
+  "entity": "AtaiBeckley (atai Life Sciences); the index provider decides",
+  "title": "AtaiBeckley (ATAI) added to a major stock index",
+  "proposition": "AtaiBeckley (atai Life Sciences, Nasdaq: ATAI) is added to a major stock market index, per the index provider's announcement.",
+  "criterion": "TRUE on the date of the index provider's announcement (an addition notice or a reconstitution list) that names AtaiBeckley (atai Life Sciences, Nasdaq: ATAI) as an addition to a major stock market index, read as: the S&P 500, S&P MidCap 400 or S&P SmallCap 600; the Russell 1000, 2000 or 3000; the Nasdaq-100 or the Nasdaq Biotechnology Index; or an MSCI standard or small-cap country, regional or world index. An index of which ATAI was already a constituent on the statement date, a thematic or custom index built for one fund, or a total-market index that admits every listed stock automatically (for example the Nasdaq Composite) does not count. FALSE at the deadline when no such announcement is dated by then. Resolution source: the index provider's announcement (S&P Dow Jones Indices, FTSE Russell, Nasdaq or MSCI); the company's press release or SEC filing as a secondary source.",
+  "resolution_source": {
+   "name": "Index provider announcements (S&P Dow Jones Indices, FTSE Russell, Nasdaq, MSCI); AtaiBeckley press release or SEC filing as a secondary source"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Over the coming months' is not a deadline; 'major' index is left to the resolution criterion."
+  ]
+ },
+ {
+  "slug": "kale-award-trial-primary-result",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "Kale Award trial (bilateral versus unilateral TMS for suicidal ideation): primary outcome result",
+  "entity": "Kale Award trial investigators",
+  "title": "Kale Award trial (bilateral versus unilateral TMS for suicidal ideation) reports its primary result",
+  "proposition": "The Kale Award trial reports its primary comparison of bilateral versus unilateral stimulation for suicidal ideation (either direction).",
+  "criterion": "TRUE on the date of the first public report of the Kale Award trial's primary outcome result: the peer-reviewed primary results publication, the investigators' topline release, or a results posting in the trial's registry entry, whichever is first. The result may favour bilateral, unilateral or neither; the event is about a primary result being reported. A protocol publication, a recruitment update, an interim safety report or a conference abstract without the primary outcome estimate does not count. FALSE at the deadline when no such report is dated by then. Resolution source: the peer-reviewed primary results publication (PubMed), with the trial registry entry as the secondary source.",
+  "resolution_source": {
+   "name": "Kale Award trial primary results publication (PubMed); trial registry entry as secondary source",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "The trial is identified only by the author's words: 'the Kale Award trial', designed to test whether bilateral stimulation is superior to unilateral for suicidal ideation, discussed in Paul Fitzgerald's Brain Stimulation 2025 session. No registry number or sponsor is given, so none is written.",
+   "The claim is about timing, so the event resolves on the first public report of the primary outcome in either direction, not on which arm wins.",
+   "'It's years out from results' is read as a denial that a primary result is reported within the undated 24-month window from the statement date (2026-02-25 to 2028-02-25). A coder who reads the sentence as relayed session information would reject as REPORT or NOT_FORECAST."
+  ]
+ },
+ {
+  "slug": "ibogaine-legal-pathway-us",
+  "template": "rule_or_policy",
+  "area": "regulatory",
+  "asset": "Lawful pathway to ibogaine treatment in the United States outside registered clinical trials (FDA or DEA action)",
+  "entity": "US Food and Drug Administration or US Drug Enforcement Administration",
+  "title": "FDA or DEA opens a legal pathway to ibogaine treatment in the United States",
+  "proposition": "The FDA or the DEA issues a final rule, guidance, order or program that permits patients in the United States to receive ibogaine treatment lawfully outside a registered clinical trial.",
+  "criterion": "TRUE on the publication date, in the Federal Register or on the FDA or DEA site, of a final rule, final guidance, order, scheduling action or operational program from the FDA or the DEA under which a patient in the United States may lawfully receive ibogaine treatment outside a registered clinical trial (for example a Right to Try pathway as directed by the 18 April 2026 executive order). A proposed rule, draft guidance, request for comment, statement of intent or the executive order itself is not the pathway. A state law or a foreign program does not count. FALSE at the deadline when no such final action has been published by then. Resolution source: the Federal Register (FDA and DEA documents), with FDA and DEA announcements as secondary sources.",
+  "resolution_source": {
+   "name": "Federal Register (FDA and DEA documents); FDA and DEA announcements as secondary sources",
+   "url": "https://www.federalregister.gov/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'open a legal pathway to ibogaine treatment in the United States' = a final FDA or DEA action that makes lawful ibogaine treatment available to US patients outside a registered clinical trial; either agency counts ('A or B' is one event).",
+   "The executive order directs FDA and DEA to build a Right to Try pathway for investigational psychedelics including ibogaine (the authors' own context); a pathway covering investigational psychedelics generally counts if ibogaine is included."
+  ]
+ },
+ {
+  "slug": "accelerated-tms-coverage-ptsd-bipolar-ocd-adhd",
+  "template": "coverage_decision",
+  "area": "payer_policy",
+  "asset": "Accelerated TMS (multiple sessions per day, such as SAINT/SNT or SWIFT) for PTSD, bipolar disorder, OCD or ADHD",
+  "entity": "US health plans (Blue Cross Blue Shield plans and other commercial or public payers)",
+  "title": "A US health plan covers accelerated TMS for PTSD, bipolar disorder, OCD or ADHD",
+  "proposition": "A US health plan publishes a medical policy that covers accelerated TMS as medically necessary for at least one of PTSD, bipolar disorder, OCD or ADHD.",
+  "criterion": "TRUE on the effective date of a published medical policy, coverage bulletin or fee schedule from a US health plan (a Blue Cross Blue Shield plan or another commercial or public payer) that lists an accelerated TMS protocol (multiple sessions per day, such as SAINT/SNT or SWIFT) as medically necessary for at least one of post-traumatic stress disorder, bipolar disorder, obsessive-compulsive disorder or attention-deficit/hyperactivity disorder. Coverage of conventional once-daily TMS for these indications does not count, and coverage of accelerated TMS for depression alone does not count. FALSE at the deadline when no such policy has taken effect by then. Resolved on the payer's published policy bulletin.",
+  "resolution_source": {
+   "name": "US health plan medical policy bulletins (Blue Cross Blue Shield plan policy libraries and other payer policy sites)"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'PTSD, bipolar, depression, OCD, and even ADHD might be next' is read as one event satisfied by a policy on any one of the listed indications ('A or B' is one event).",
+   "'depression' in the list is read as already covered by the first clause ('a nationwide standard of medical necessity is being set in the treatment of depression') and is excluded; the new indications are PTSD, bipolar disorder, OCD and ADHD.",
+   "'next' = a coverage policy published after the depression policies the forecaster describes; the payer set is US health plans, as in the forecaster's BCBS examples."
+  ]
+ },
+ {
+  "slug": "tms-fda-authorization-adhd",
+  "template": "device_authorization",
+  "area": "regulatory",
+  "asset": "Transcranial magnetic stimulation (TMS, including iTBS) device for attention-deficit/hyperactivity disorder (ADHD)",
+  "entity": "US Food and Drug Administration (CDRH)",
+  "title": "FDA authorizes a TMS device for ADHD",
+  "proposition": "The FDA grants a marketing authorization (510(k) clearance, De Novo grant or PMA approval) for a transcranial magnetic stimulation device whose indications for use include ADHD.",
+  "criterion": "TRUE on the decision date in the FDA 510(k), De Novo or PMA database of a marketing authorization for a transcranial magnetic stimulation device, from any sponsor, whose indications for use name attention-deficit/hyperactivity disorder (adult or pediatric). Any setting of use (clinic or home) counts, as the claim names none. A breakthrough device designation, an investigational device exemption, a trial result or a publication is not an authorization. Off-label use and clinical guidelines do not count. FALSE at the deadline when no such authorization decision is dated in the FDA databases by then. Resolution source: the FDA 510(k), De Novo and PMA databases.",
+  "resolution_source": {
+   "name": "FDA 510(k), De Novo and PMA databases",
+   "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'an FDA label from somebody' = a marketing authorization for any sponsor's TMS device with ADHD in the indications for use; the forecaster names no company.",
+   "'it' in 'it's coming' = the FDA label for TMS in ADHD, per the surrounding sentences on the pediatric ADHD iTBS trials; a pediatric-only or an adult-only ADHD indication both count."
+  ]
+ },
+ {
+  "slug": "additional-health-plan-covers-accelerated-tms",
+  "template": "coverage_decision",
+  "area": "payer_policy",
+  "asset": "Accelerated TMS (multiple sessions per day, such as SAINT/SNT or SWIFT): coverage by an additional US health plan",
+  "entity": "US health plans beyond Premera, Highmark, CareFirst and the BCBS plans of California, South Carolina, Texas and Vermont",
+  "title": "An additional US health plan covers accelerated TMS",
+  "proposition": "A US health plan other than Premera, Highmark, CareFirst and the Blue Cross Blue Shield plans of California, South Carolina, Texas and Vermont publishes a medical policy that covers accelerated TMS.",
+  "criterion": "TRUE on the effective date of a published medical policy, coverage bulletin or fee schedule from a US health plan that is not one of the seven plans the forecaster listed on 16 May 2026 (Premera, Highmark, CareFirst, and the Blue Cross Blue Shield plans of California, South Carolina, Texas and Vermont) and that lists an accelerated TMS protocol (multiple sessions per day, such as SAINT/SNT or SWIFT) as medically necessary for any indication. A policy update or expansion by one of the seven listed plans does not count; coverage of conventional once-daily TMS does not count. FALSE at the deadline when no such policy has taken effect by then. Resolved on the payer's published policy bulletin.",
+  "resolution_source": {
+   "name": "US health plan medical policy bulletins (Blue Cross Blue Shield plan policy libraries and other payer policy sites)"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'more to come' = at least one additional US health plan beyond the seven the forecaster named; the countable set is US health plans with a published accelerated TMS coverage policy.",
+   "'Premara' is read as Premera Blue Cross; 'California, South Carolina, Texas, Vermont' are read as the Blue Cross Blue Shield plans in those states, per the post context.",
+   "The forecaster names no indication, so a policy for any indication counts."
+  ]
+ },
+ {
+  "slug": "dt120-voyage-gad-phase3-result",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "DT120 (lysergide tartrate ODT, LSD) Voyage Phase 3 trial (NCT06741228) in generalized anxiety disorder: topline result",
+  "entity": "Definium Therapeutics",
+  "title": "DT120 (LSD) Voyage Phase 3 trial in generalized anxiety disorder reports its topline result",
+  "proposition": "Definium Therapeutics reports the topline primary endpoint result of the Voyage Phase 3 trial (NCT06741228) of DT120 in generalized anxiety disorder (either direction).",
+  "criterion": "TRUE on the date of the first public report of the Voyage trial's primary endpoint result: Definium Therapeutics' topline press release, a results posting on the ClinicalTrials.gov record NCT06741228, or the first peer-reviewed publication that reports the primary result, whichever is first. The result may be positive or negative; the event is about a primary result being reported. An enrollment-complete or last-patient-visit announcement, an interim safety update, a conference abstract without the primary endpoint estimate, or a readout of a different DT120 trial (for example the MDD trial EMERGE) does not count. FALSE at the deadline when no such report is dated by then. Resolution source: Definium Therapeutics' topline press release, with the ClinicalTrials.gov record NCT06741228 as a secondary source.",
+  "resolution_source": {
+   "name": "Definium Therapeutics topline press release; ClinicalTrials.gov record NCT06741228 as secondary source",
+   "url": "https://clinicaltrials.gov/study/NCT06741228"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Their GAD readout, which is expected later this year' is read as: Definium Therapeutics reports the topline primary result of its GAD Phase 3 program in 2026.",
+   "The author names that trial in the same post as Voyage, NCT06741228 (the registry bullet coded at owen-2281), so the event is written on that trial.",
+   "The claim is about timing, so the event resolves on the first public report of the primary result in either direction, not on whether the endpoint is met.",
+   "'Later this year' = by 31 December 2026 (anchors.json: a year means its last day; origin anchor).",
+   "'Readout' = public report of topline primary-endpoint data. An announcement that the trial has completed or that data are in hand, without the result, does not count.",
+   "'Is expected' is written in the author's own voice with no source cited, so it is read as his expectation (bin B). A coder who reads it as relayed company guidance would code REPORT; that reading is logged here."
+  ]
+ },
+ {
+  "slug": "fda-psilocybin-lsd-or-mdma-first-approval",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "Psilocybin, LSD (lysergide) and MDMA (midomafetamine) drug products: first FDA approval of any of the three",
+  "entity": "US Food and Drug Administration",
+  "title": "First FDA approval of a psilocybin, LSD or MDMA drug product",
+  "proposition": "The FDA approves at least one drug product whose active ingredient is psilocybin, LSD (lysergide) or MDMA (midomafetamine), for any indication.",
+  "criterion": "TRUE on the date of the first FDA approval letter in Drugs@FDA for a drug product whose active ingredient is psilocybin, LSD (lysergide, any salt) or MDMA (midomafetamine, any salt), for any indication and from any sponsor. A complete response letter, a positive advisory vote or a filing acceptance is not an approval. FALSE at the deadline when no approval letter for such a product is dated in Drugs@FDA by then. Resolution source: Drugs@FDA.",
+  "resolution_source": {
+   "name": "Drugs@FDA",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "Same three-compound reading as the main event new:psilocybin-lsd-mdma-drug-dispensed-through-retail-pharmacy."
+  ]
+ },
+ {
+  "slug": "psychedelic-retail-pharmacy-dispensing",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "Psilocybin, LSD and MDMA drug products: retail-pharmacy dispensing under the FDA-approved labeling or REMS",
+  "entity": "US Food and Drug Administration",
+  "title": "Psilocybin, LSD or MDMA drug product approved with retail-pharmacy dispensing",
+  "proposition": "The FDA approves a psilocybin, LSD or MDMA drug product whose approved labeling or REMS permits a retail pharmacy to dispense it to the patient for use outside a healthcare setting.",
+  "criterion": "Resolved on Drugs@FDA (approval letters and approved labeling) read with the FDA REMS database (REMS@FDA). For each drug product whose active ingredient is psilocybin, LSD (lysergide, any salt) or MDMA (midomafetamine, any salt) that the FDA approves between the statement date and the deadline, check the approved labeling and any REMS in force on the approval date. TRUE on the approval date of the first such product whose labeling or REMS permits a retail or community pharmacy to dispense it to the patient or caregiver for use outside a healthcare setting. FALSE at the deadline if at least one such product has been approved and every such approval restricts dispensing to certified healthcare settings or requires administration under healthcare-provider supervision in a healthcare setting. If no such product is approved in the window, the condition is unmet and the item is void.",
+  "resolution_source": {
+   "name": "Drugs@FDA (approval letters and labeling) with the FDA REMS database (REMS@FDA)",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "'Go through a retail pharmacy' reads as the FDA-approved labeling or REMS permitting a retail or community pharmacy to dispense the product to the patient for use outside a healthcare setting.",
+   "A product restricted to certified healthcare settings, or whose label requires administration under healthcare-provider supervision in a healthcare setting (the Spravato model the author uses as the reference), does not go through a retail pharmacy.",
+   "'Them' and 'these drugs' = drug products whose active ingredient is psilocybin, LSD (lysergide) or MDMA (midomafetamine), in any salt or formulation the sponsor names as such. 'None of them' denies the disjunction, so one event covers all three ('A or B' is one event).",
+   "Denial: the forecaster asserts that the proposition is false. The claim presupposes at least one approval; if none occurs in the window, the condition is unmet and the item is void rather than scored as a correct denial."
+  ]
+ },
+ {
+  "slug": "fda-psychedelic-approval-no-post-dose-monitoring",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "Novel psychedelic drug products: FDA labeling and REMS with no required in-clinic monitoring during or after dosing",
+  "entity": "US Food and Drug Administration",
+  "title": "FDA approves a psychedelic drug product with no required post-dose monitoring",
+  "proposition": "The FDA approves a novel psychedelic drug product whose labeling and REMS omit any requirement for in-clinic monitoring of the patient during and after dosing.",
+  "criterion": "Resolved on Drugs@FDA (approval letters and labeling) read with REMS@FDA. A novel psychedelic drug product is the first FDA-approved product with a psychedelic or entactogen active ingredient (the class the forecaster illustrates with psilocybin, LSD and MDMA); ketamine and esketamine products and new formulations of approved drugs do not count. TRUE on the approval date of the first such product, approved after the statement date, whose labeling and REMS require no monitoring of the patient by a healthcare provider during or after dosing (no observation period, no certified-setting dosing requirement). FALSE at the deadline if at least one such product has been approved and every one requires in-clinic monitoring during or after dosing. If none is approved in the window, the condition is unmet and the item is void.",
+  "resolution_source": {
+   "name": "Drugs@FDA (approval letters and labeling) with the FDA REMS database (REMS@FDA)",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "Split -a: 'will come with monitoring built in' as a denial. 'If the universe has been listening' is an aside, not a condition."
+  ]
+ },
+ {
+  "slug": "fda-psychedelic-rems-video-recording",
+  "template": "drug_approval",
+  "area": "regulatory",
+  "asset": "Novel psychedelic drug products: FDA labeling or REMS that requires video recording of dosing sessions",
+  "entity": "US Food and Drug Administration",
+  "title": "Psychedelic drug product labeling or REMS requires video recording of dosing sessions",
+  "proposition": "The FDA approves a novel psychedelic drug product whose labeling or REMS requires video recording (auditable video) of dosing sessions.",
+  "criterion": "Resolved on Drugs@FDA (approval letters and labeling) read with REMS@FDA. A novel psychedelic drug product is the first FDA-approved product with a psychedelic or entactogen active ingredient (the class the forecaster illustrates with psilocybin, LSD and MDMA); ketamine and esketamine do not count. TRUE on the approval date of the first such product, approved after the statement date, whose labeling or REMS (including elements to assure safe use) requires video recording of dosing sessions, or a video record of each session kept or available for audit. Observation without recording, a non-binding recommendation, or a sponsor's voluntary program outside the labeling or REMS does not count. FALSE at the deadline if at least one such product has been approved and none carries such a requirement. If none is approved in the window, the condition is unmet and the item is void.",
+  "resolution_source": {
+   "name": "Drugs@FDA (approval letters and labeling) with the FDA REMS database (REMS@FDA)",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+  },
+  "base_rate_class": null,
+  "quantity": null,
+  "readings": [
+   "Split -b: 'likely with even more auditable video'. Positive event resolves on the first such approval; undated panel."
+  ]
+ }
+]
