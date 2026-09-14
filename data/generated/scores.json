@@ -1,26 +1,26 @@
 {
   "agreement": {
     "admission": {
-      "agree": 2530,
-      "kappa": 0.8046663883823623,
-      "n": 2615
+      "agree": 2537,
+      "kappa": 0.8054492030985667,
+      "n": 2622
     },
     "below_target": [],
     "bin": {
-      "agree": 176,
-      "kappa": 0.844849246231156,
-      "n": 195,
-      "weighted_kappa": 0.7880632239232368
+      "agree": 177,
+      "kappa": 0.8453873619530017,
+      "n": 196,
+      "weighted_kappa": 0.7888451120413694
     },
     "deadline": {
-      "agree": 196,
+      "agree": 197,
       "kappa": 1,
-      "n": 196
+      "n": 197
     },
     "event": {
-      "agree": 196,
+      "agree": 197,
       "kappa": 1,
-      "n": 196
+      "n": 197
     },
     "recheck": {
       "escalated": 9,
@@ -53,7 +53,7 @@
     "E-0019": 2,
     "E-0021": 1,
     "E-0023": 2,
-    "E-0024": 6,
+    "E-0024": 7,
     "E-0025": 1,
     "E-0026": 1,
     "E-0028": 3,
@@ -131,9 +131,9 @@
   "forecasters": {
     "angermayer": {
       "boldness": {
-        "mean_abs_p_minus_b": 0.43616666666666676,
-        "mean_abs_p_minus_half": 0.30755244755244754,
-        "n": 6
+        "mean_abs_p_minus_b": 0.4622142857142858,
+        "mean_abs_p_minus_half": 0.3141558441558442,
+        "n": 7
       },
       "by_area": {
         "clinical_trial": {
@@ -158,69 +158,69 @@
         },
         "regulatory": {
           "brier": null,
-          "n_clusters": 2,
-          "n_items": 19
+          "n_clusters": 3,
+          "n_items": 20
         }
       },
       "calibration": {
         "bins": [
           {
             "bin": "B",
-            "f": 0.7396363636363636,
+            "f": 0.7396363636363638,
             "merged_from": [
               "B"
             ],
             "n": 7,
-            "observed": 0.6,
-            "weight": 0.5555555555555556
+            "observed": 0.6000000000000001,
+            "weight": 0.5
           },
           {
             "bin": "A",
-            "f": 0.9,
+            "f": 0.9000000000000001,
             "merged_from": [
               "A"
             ],
-            "n": 6,
+            "n": 7,
             "observed": 0,
-            "weight": 0.4444444444444444
+            "weight": 0.5
           }
         ],
         "murphy": null,
         "murphy_shown": false,
-        "n_clusters": 9,
+        "n_clusters": 10,
         "shown": false
       },
       "composition": {
-        "admitted": 47,
-        "affiliated_share": 0.6382978723404256,
+        "admitted": 48,
+        "affiliated_share": 0.6458333333333334,
         "by_area": {
           "clinical_trial": 7,
           "company_market": 13,
           "practice_adoption": 6,
-          "regulatory": 21
+          "regulatory": 22
         },
         "by_year": {
           "2018": 1,
           "2019": 1,
           "2020": 3,
-          "2021": 7,
+          "2021": 8,
           "2022": 15,
-          "2023": 13,
-          "2024": 42,
-          "2025": 75,
+          "2023": 16,
+          "2024": 44,
+          "2025": 76,
           "2026": 33
         },
         "clusters_headline": 25,
-        "concentration": 0.23076923076923078,
+        "concentration": 0.21428571428571427,
         "dated": 19,
-        "extreme_bin_share": 0.3829787234042553,
-        "found": 190,
+        "extreme_bin_share": 0.3958333333333333,
+        "found": 197,
         "known_true_headline": 6,
         "max_deadlines_in_cluster": 6,
         "median_lead_months": 24,
-        "not_admitted": 140,
+        "not_admitted": 146,
         "not_admitted_by_reason": {
-          "CONTROL": 30,
+          "CONTROL": 32,
           "DUPLICATE": 1,
           "NORMATIVE": 3,
           "NOT_FORECAST": 10,
@@ -228,21 +228,21 @@
           "PARAPHRASE": 4,
           "REPORT": 1,
           "THIRD_PARTY": 4,
-          "VAGUE": 72
+          "VAGUE": 76
         },
         "pending_headline": 22,
         "prospective_share": 0,
-        "redated_clusters": 8,
-        "resolved_headline": 9,
+        "redated_clusters": 9,
+        "resolved_headline": 10,
         "scoreable_share": {
-          "hi": 0.15402782099697138,
-          "lo": 0.0663748726170732,
-          "n": 186,
-          "point": 0.10215053763440861
+          "hi": 0.14863282702145006,
+          "lo": 0.06393199667435406,
+          "n": 193,
+          "point": 0.09844559585492228
         },
-        "sincere": 186,
-        "undated": 28,
-        "undated_share": 0.5957446808510638,
+        "sincere": 193,
+        "undated": 29,
+        "undated_share": 0.6041666666666666,
         "void": 3,
         "void_by_reason": {
           "AMBIGUOUS": 3,
@@ -283,27 +283,37 @@
         "tier": "T0"
       },
       "headline": {
-        "brier": null,
+        "brier": {
+          "hi": 0.70107305785124,
+          "lo": 0.32334988429752065,
+          "n": 10,
+          "point": 0.5200730578512396
+        },
         "hit": {
           "hits": 3,
-          "n": 9,
-          "rate": null
+          "n": 10,
+          "rate": {
+            "hi": 0.6032267800204348,
+            "lo": 0.10778928748621186,
+            "n": 10,
+            "point": 0.3000000000000001
+          }
         },
-        "label": "counts",
-        "loo_max_change": null,
-        "n_clusters": 9,
-        "n_false": 10,
-        "n_items_resolved": 13,
-        "n_items_total": 44,
+        "label": "provisional",
+        "loo_max_change": 0.053341450872359975,
+        "n_clusters": 10,
+        "n_false": 11,
+        "n_items_resolved": 14,
+        "n_items_total": 45,
         "n_known_true": 6,
         "n_pending": 22,
         "n_true": 3,
         "n_unresolved": 0,
         "n_void": 3,
         "skill_base": {
-          "n_clusters": 2,
-          "own_brier": 0.6500000000000001,
-          "ref_brier": 0.2424623333333333,
+          "n_clusters": 3,
+          "own_brier": 0.7033333333333335,
+          "ref_brier": 0.18805563888888885,
           "value": null
         },
         "skill_market": {
@@ -312,7 +322,7 @@
           "ref_brier": null,
           "value": null
         },
-        "tier": "T0"
+        "tier": "T1"
       },
       "headline_non_affiliated": {
         "brier": null,
@@ -363,30 +373,37 @@
         },
         {
           "brier": 0.81,
-          "cumulative": 0.7033333333333335,
-          "cumulative_n": 3,
+          "cumulative": 0.7166666666666667,
+          "cumulative_n": 4,
+          "n": 1,
+          "period": "2025-Q3"
+        },
+        {
+          "brier": 0.81,
+          "cumulative": 0.7300000000000001,
+          "cumulative_n": 4,
           "n": 1,
           "period": "2025-Q4"
         },
         {
           "brier": 0.65,
-          "cumulative": 0.682,
-          "cumulative_n": 5,
+          "cumulative": 0.7033333333333335,
+          "cumulative_n": 6,
           "n": 2,
           "period": "2026-Q1"
         },
         {
           "brier": 0.2451826446280992,
-          "cumulative": 0.4878589531680442,
-          "cumulative_n": 9,
+          "cumulative": 0.5200730578512396,
+          "cumulative_n": 10,
           "n": 4,
           "period": "2026-Q2"
         }
       ],
       "sensitivity": {
         "baseline": {
-          "brier": null,
-          "n_clusters": 9,
+          "brier": 0.5200730578512396,
+          "n_clusters": 10,
           "note": "Headline as published: every admitted item, lexicon v1.0.0"
         },
         "dated_only": {
@@ -395,18 +412,18 @@
           "note": "Dated items only: undated items removed (the rules 1.0 headline)"
         },
         "map_ends85": {
-          "brier": null,
-          "n_clusters": 9,
+          "brier": 0.48624999999999996,
+          "n_clusters": 10,
           "note": "Lexicon replaced by the ends85 map (0.85 / 0.7 / 0.5 / 0.3 / 0.15)"
         },
         "map_flat75": {
-          "brier": null,
-          "n_clusters": 9,
+          "brier": 0.4125,
+          "n_clusters": 10,
           "note": "Lexicon replaced by the flat75 map (0.75 / 0.75 / 0.5 / 0.25 / 0.25)"
         },
         "map_kent": {
-          "brier": null,
-          "n_clusters": 9,
+          "brier": 0.5637000000000001,
+          "n_clusters": 10,
           "note": "Lexicon replaced by the kent map (0.93 / 0.75 / 0.5 / 0.25 / 0.07)"
         },
         "non_affiliated": {
@@ -421,7 +438,7 @@
         },
         "undated_36": {
           "brier": null,
-          "n_clusters": 5,
+          "n_clusters": 6,
           "note": "Undated window at 36 months instead of 24"
         }
       },
@@ -443,22 +460,22 @@
         "brier": null,
         "hit": {
           "hits": 2,
-          "n": 6,
+          "n": 7,
           "rate": null
         },
         "label": "counts",
         "loo_max_change": null,
-        "n_clusters": 6,
-        "n_false": 4,
-        "n_items_resolved": 6,
-        "n_items_total": 27,
+        "n_clusters": 7,
+        "n_false": 5,
+        "n_items_resolved": 7,
+        "n_items_total": 28,
         "n_known_true": 6,
         "n_pending": 12,
         "n_true": 2,
         "n_unresolved": 0,
         "n_void": 3,
         "skill_base": {
-          "n_clusters": 2,
+          "n_clusters": 3,
           "own_brier": 0.81,
           "ref_brier": 0.07924224999999999,
           "value": null
@@ -475,24 +492,24 @@
         "brier": null,
         "hit": {
           "hits": 1,
-          "n": 5,
+          "n": 6,
           "rate": null
         },
         "label": "counts",
         "loo_max_change": null,
-        "n_clusters": 5,
-        "n_false": 7,
-        "n_items_resolved": 8,
-        "n_items_total": 43,
+        "n_clusters": 6,
+        "n_false": 8,
+        "n_items_resolved": 9,
+        "n_items_total": 44,
         "n_known_true": 8,
         "n_pending": 27,
         "n_true": 1,
         "n_unresolved": 0,
         "n_void": 0,
         "skill_base": {
-          "n_clusters": 2,
-          "own_brier": 0.6233333333333333,
-          "ref_brier": 0.2028412083333333,
+          "n_clusters": 3,
+          "own_brier": 0.6855555555555556,
+          "ref_brier": 0.1616415555555555,
           "value": null
         },
         "skill_market": {
@@ -1724,6 +1741,46 @@
       ],
       "tags": [
         "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": 0.2815,
+      "bin": "A",
+      "brier": 0.81,
+      "conditional": false,
+      "deadline": "2025-08-07",
+      "event_date": null,
+      "event_id": "E-0024",
+      "first_date": "2023-08-07",
+      "forecaster": "angermayer",
+      "key": "angermayer|E-0024|2025-08-07",
+      "last_date": "2023-08-07",
+      "market_p": null,
+      "o": 0,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2023-08-07",
+          "denial": false,
+          "id": "angermayer-0194",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "false",
+      "statement_ids": [
+        "angermayer-0194"
+      ],
+      "tags": [
+        "affiliated",
         "retrospective"
       ],
       "timing_months": null,
@@ -8741,24 +8798,34 @@
   ],
   "leaderboard": [
     {
-      "brier": null,
+      "brier": {
+        "hi": 0.70107305785124,
+        "lo": 0.32334988429752065,
+        "n": 10,
+        "point": 0.5200730578512396
+      },
       "coverage_tier": "C",
       "hit": {
         "hits": 3,
-        "n": 9,
-        "rate": null
+        "n": 10,
+        "rate": {
+          "hi": 0.6032267800204348,
+          "lo": 0.10778928748621186,
+          "n": 10,
+          "point": 0.3000000000000001
+        }
       },
       "kind": "person",
-      "label": "counts",
-      "n_clusters": 9,
-      "n_false": 10,
+      "label": "provisional",
+      "n_clusters": 10,
+      "n_false": 11,
       "n_pending": 28,
       "n_true": 3,
       "name": "Christian Angermayer",
       "note": "Ad hoc corpus: scored at the same minimum, never ranked against a full archive",
       "rank": null,
       "slug": "angermayer",
-      "tier": "T0"
+      "tier": "T1"
     },
     {
       "brier": {
@@ -8830,8 +8897,8 @@
       },
       "kind": "reference",
       "label": "counts",
-      "n_clusters": 8,
-      "n_false": 36,
+      "n_clusters": 9,
+      "n_false": 37,
       "n_pending": 0,
       "n_true": 1,
       "name": "Base rate",
@@ -8901,7 +8968,7 @@
       "area": "regulatory",
       "brier": null,
       "forecaster": "angermayer",
-      "n_clusters": 2,
+      "n_clusters": 3,
       "shown": false
     },
     {
@@ -8971,11 +9038,11 @@
   "pairwise": [
     {
       "a": "owen",
-      "a_better": 1,
+      "a_better": 2,
       "b": "angermayer",
       "b_better": 0,
       "mean_diff": null,
-      "n_events": 1,
+      "n_events": 2,
       "shown": false,
       "ties": 0
     },
@@ -9326,8 +9393,16 @@
       "event_id": "E-0024",
       "forecasters": [
         {
-          "cluster_brier": null,
+          "cluster_brier": 0.81,
           "items": [
+            {
+              "brier": 0.81,
+              "deadline": "2025-08-07",
+              "first_date": "2023-08-07",
+              "market_p": null,
+              "p": 0.9,
+              "state": "false"
+            },
             {
               "brier": null,
               "deadline": "2031-05-10",
@@ -9518,22 +9593,22 @@
   ],
   "status": {
     "all": {
-      "false": 60,
+      "false": 61,
       "known_true": 12,
-      "not_admitted": 2734,
+      "not_admitted": 2740,
       "pending": 66,
       "true": 15,
-      "undated": 128,
+      "undated": 129,
       "unresolved": 0,
       "void": 41
     },
     "angermayer": {
-      "false": 10,
+      "false": 11,
       "known_true": 6,
-      "not_admitted": 140,
+      "not_admitted": 146,
       "pending": 22,
       "true": 3,
-      "undated": 28,
+      "undated": 29,
       "unresolved": 0,
       "void": 6
     },

@@ -234,6 +234,53 @@
     }
    ],
    "note": "Intake frozen before resolution; every item in this release is retrospective (coded after its outcome was public) unless tagged prospective."
+  },
+  {
+   "release": "1.1.2",
+   "frozen_at": "2026-09-14T07:42:17.711Z",
+   "files": [
+    {
+     "path": "data/intake/owen.json",
+     "sha256": "729d7387296cf42d80fca65597977cf8211217846f6c71fc25440b0ff13a094f"
+    },
+    {
+     "path": "data/intake/angermayer.json",
+     "sha256": "b7125fc6ab2c7c0cdb1a60f116aa10fc83ff5f745fe4fd8b37807b3a16d95490"
+    },
+    {
+     "path": "data/intake/doblin.json",
+     "sha256": "29b5d00a2d314970b55d7504d117638e0b122306f86a6c8a02d66fba8238ce7e"
+    },
+    {
+     "path": "data/intake/coder-b/owen.json",
+     "sha256": "1fa1b974c4d9776fb1c4c3a863e433f6c32f8b1df0308288c30971c50a593c3b"
+    },
+    {
+     "path": "data/intake/coder-b/angermayer.json",
+     "sha256": "1a8c71fc237986d4bdd3e486b73826c906eef6e24f8f8fae65bf582abbeb6e43"
+    },
+    {
+     "path": "data/intake/coder-b/doblin.json",
+     "sha256": "b2ccf8ed7e165b9b98fbfdce7907014c4a056d0b07ef4c579cb9ce6ed666435d"
+    },
+    {
+     "path": "data/registry/events.json",
+     "sha256": "c48a49ebe6ac50b3308b0a0aa2f5d07939791dcb3a42baddaf56e8b7da4bb859"
+    },
+    {
+     "path": "data/statements/owen.json",
+     "sha256": "65cac2594434315ca70699b98bfda1272c407e2ccd647dd63ab806b9cae3f5c0"
+    },
+    {
+     "path": "data/statements/angermayer.json",
+     "sha256": "fc3e0be9c7f3e30252069f1801bbc516014fc9a09ec330a387013fbb2daed486"
+    },
+    {
+     "path": "data/statements/doblin.json",
+     "sha256": "0dd63ba8c59ddf799388e250683724934b8d5ac50337139db322a1c9313b4e88"
+    }
+   ],
+   "note": "Intake frozen before resolution; every item in this release is retrospective (coded after its outcome was public) unless tagged prospective."
   }
  ]
 }

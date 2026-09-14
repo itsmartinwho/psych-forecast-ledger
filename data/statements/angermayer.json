@@ -5727,5 +5727,219 @@
    "tiebreak_admit": false,
    "b_reason": "THIRD_PARTY"
   }
+ },
+ {
+  "id": "angermayer-0191",
+  "forecaster": "angermayer",
+  "statement_date": "2021-11-29",
+  "quote": "Being confident all along about the results for their phase 2b trial, COMPASS management has shown conviction and already prepared everything for their phase 3 study of psilocybin in TRD, which is anticipated to launch in 2022.",
+  "context": "In his own post explaining why atai raised its Compass Pathways stake above 20%, Angermayer says Compass has everything ready for the first Phase 3 study of psilocybin in treatment-resistant depression and puts the launch in 2022.",
+  "source": {
+   "url": "https://www.linkedin.com/pulse/our-reasons-increase-stake-compass-pathways-christian-angermayer",
+   "title": "Our reasons to increase our stake in COMPASS Pathways",
+   "type": "own_post",
+   "accessed": "2026-09-14"
+  },
+  "date_precision": "day",
+  "extraction": {
+   "run": "sweep4-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated; event sweep target E-0010; Made before the 2023-01-24 cut-off. The same post also says atai's R-Ketamine Phase 2a data are \"expected in late 2021\" - a data-timing claim only, so not logged."
+  },
+  "status": "not_admitted",
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
+  }
+ },
+ {
+  "id": "angermayer-0192",
+  "forecaster": "angermayer",
+  "statement_date": "2023-03-29",
+  "quote": "The first patient was recently dosed in the phase 2b study of RL-007 in patients with CIAS and topline results from this study are expected in the 2nd half of 2024.",
+  "context": "Angermayer gives a dated expectation for the RL-007 Phase 2b topline readout, one of the atai Phase 2 programs named in event 1.",
+  "source": {
+   "url": "https://www.linkedin.com/pulse/14-reasons-why-i-am-increasing-my-stake-atai-life-angermayer",
+   "title": "14 reasons why I am increasing my stake in atai Life Sciences",
+   "type": "own_post",
+   "accessed": "2026-09-14"
+  },
+  "date_precision": "day",
+  "extraction": {
+   "run": "sweep4-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated; event sweep target other; Timing claim only, no result claim. Logged because it names an event-1 program with a horizon."
+  },
+  "status": "not_admitted",
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
+  }
+ },
+ {
+  "id": "angermayer-0193",
+  "forecaster": "angermayer",
+  "statement_date": "2023-03-29",
+  "quote": "Looking at atai's valuation, I have the feeling investors assign zero value to those two late-stage programs (and atai's other 5 clinical stage assets for that matter) at the moment; however, I personally believe these 2 non-psychedelic drugs are \"gems within a goldmine\".",
+  "context": "Angermayer says the two named atai programs RL-007 (Phase 2b, cognitive impairment in schizophrenia) and GRX-917 (ready for Phase 2, anxiety) are undervalued gems, an implicit claim that their trials will deliver.",
+  "source": {
+   "url": "https://www.linkedin.com/pulse/14-reasons-why-i-am-increasing-my-stake-atai-life-angermayer",
+   "title": "14 reasons why I am increasing my stake in atai Life Sciences",
+   "type": "own_post",
+   "accessed": "2026-09-14"
+  },
+  "date_precision": "day",
+  "extraction": {
+   "run": "sweep4-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; undated; event sweep target other; Dated claim on event 1 (an atai Phase 2 trial meeting its primary endpoint), naming RL-007 and GRX-917. Verified from the saved page HTML."
+  },
+  "status": "not_admitted",
+  "reason_code": "VAGUE",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "VAGUE",
+   "b_reason": "VAGUE"
+  }
+ },
+ {
+  "id": "angermayer-0194",
+  "forecaster": "angermayer",
+  "statement_date": "2023-08-07",
+  "quote": "I think even like if you would talk to a pharma CEO, to a scientist, they're all like, look, your data, and by the way, the same is true for MAPS yeah, is really very, very solid ... Yes, this should be approved, will be approved, whatever.",
+  "context": "Speaking about Compass, atai and MAPS in a podcast transcript under his name, Angermayer states flatly that the psychedelic compounds will be approved. No year is named.",
+  "source": {
+   "url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "title": "Democratizing Psychedelics: From Ancient Rituals to Modern Medicalization - Christian Angermayer (Psychedelic Podcast Ep. 207)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "date_precision": "day",
+  "extraction": {
+   "run": "sweep4-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0024; Adjacent in the transcript to angermayer-0008 (\"the probability that these substances will be approved soon is very high\"), but a distinct sentence. Contains one \" ... \" eli"
+  },
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
+ },
+ {
+  "id": "angermayer-0195",
+  "forecaster": "angermayer",
+  "statement_date": "2024-02-27",
+  "quote": "I personally believe these two non-psychedelic drugs are 'gems within a goldmine'.",
+  "context": "Restatement, eleven months after the LinkedIn version, of his claim that RL-007 (in Phase 2b) and GRX-917 (ready for Phase 2) are undervalued assets.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "title": "atai Life Sciences - Christian's Substack",
+   "type": "own_post",
+   "accessed": "2026-09-14"
+  },
+  "date_precision": "day",
+  "extraction": {
+   "run": "sweep4-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; undated; event sweep target other; Same claim as the 2023-03-29 row, restated on a new date in a new source. Verified from the page HTML."
+  },
+  "status": "not_admitted",
+  "reason_code": "VAGUE",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "VAGUE",
+   "b_reason": "VAGUE"
+  }
+ },
+ {
+  "id": "angermayer-0196",
+  "forecaster": "angermayer",
+  "statement_date": "2024-02-27",
+  "quote": "Compared to other ways of administering 5-MeO-DMT, we believe the Beckley version is far superior.",
+  "context": "Angermayer describes BPL-003 (intranasal 5-MeO-DMT) as superior to other 5-MeO-DMT formulations, in the section of his atai post that presents Beckley's assets as best-in-class drug candidates ahead of the BPL-003 Phase 2b readout he says is anticipated in the second half of 2024.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "title": "atai Life Sciences - Christian's Substack",
+   "type": "own_post",
+   "accessed": "2026-09-14"
+  },
+  "date_precision": "day",
+  "extraction": {
+   "run": "sweep4-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; undated; event sweep target E-0020; Quality/best-in-class claim about the Phase 2b asset, not a timing claim. Verified by fetching the page HTML and reading the sentence."
+  },
+  "status": "not_admitted",
+  "reason_code": "VAGUE",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "VAGUE",
+   "b_reason": "VAGUE"
+  }
+ },
+ {
+  "id": "angermayer-0197",
+  "forecaster": "angermayer",
+  "statement_date": "2025-03-05",
+  "quote": "The promising data from earlier clinical studies of BPL-003 have demonstrated that a single dose can induce rapid, significant, and lasting antidepressant effects, further reinforcing $ATAI confidence in its potential to revolutionize treatment for difficult-to-treat depression.",
+  "context": "In the same post that announces completion of Phase 2b enrollment, Angermayer states confidence that BPL-003 can revolutionize treatment of treatment-resistant depression, about four months before the topline readout.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/1897309521237672416",
+   "title": "Christian Angermayer on X: completion of patient enrollment in the BPL-003 Phase 2b core stage",
+   "type": "own_post",
+   "accessed": "2026-09-14"
+  },
+  "date_precision": "day",
+  "extraction": {
+   "run": "sweep4-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; undated; event sweep target E-0020; Existing row angermayer-0093 records only the timing sentence of this same post. This is a separate sentence carrying a result claim."
+  },
+  "status": "not_admitted",
+  "reason_code": "VAGUE",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "VAGUE",
+   "b_reason": "VAGUE"
+  }
  }
 ]

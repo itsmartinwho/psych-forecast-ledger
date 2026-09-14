@@ -1888,5 +1888,49 @@
   "hindsight_scan": "clean",
   "version": 1,
   "history": []
+ },
+ {
+  "id": "angermayer-0194",
+  "forecaster": "angermayer",
+  "statement_date": "2023-08-07",
+  "quote": "I think even like if you would talk to a pharma CEO, to a scientist, they're all like, look, your data, and by the way, the same is true for MAPS yeah, is really very, very solid ... Yes, this should be approved, will be approved, whatever.",
+  "context": "Speaking about Compass, atai and MAPS in a podcast transcript under his name, Angermayer states flatly that the psychedelic compounds will be approved. No year is named.",
+  "source": {
+   "url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "title": "Democratizing Psychedelics: From Ancient Rituals to Modern Medicalization - Christian Angermayer (Psychedelic Podcast Ep. 207)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "area": "regulatory",
+  "event_id": "E-0024",
+  "condition_event_id": null,
+  "asserts": true,
+  "deadline": null,
+  "deadline_origin": null,
+  "deadline_text": null,
+  "panel": "undated",
+  "p": 0.9,
+  "p_origin": "lexicon",
+  "bin": "A",
+  "phrase": "will be approved",
+  "stated_number": null,
+  "tags": [
+   "affiliated",
+   "retrospective"
+  ],
+  "base_rate": {
+   "class": "phase3_to_approval_psychiatry",
+   "p_raw": 0.563,
+   "p": 0.2815,
+   "halved": true,
+   "median_months": 36
+  },
+  "market_ref_id": "M-005",
+  "coder": "A",
+  "rule_version": "1.1.0",
+  "intake_at": "2026-09-14",
+  "hindsight_scan": "clean",
+  "version": 1,
+  "history": []
  }
 ]
