@@ -1,0 +1,906 @@
+{
+ "packet": "recode-08.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0788",
+   "forecaster": "owen",
+   "statement_date": "2023-11-29",
+   "quote": "I wrote earlier this year about my prediction that ADA will be brought to bear in the fight for accessible mental health care. ... GAME ON, people. GAME ON.",
+   "context": "Health policy update on the DOJ's first ADA settlement resolving employment discrimination based on alcohol use disorder. The author restates his earlier 2023 prediction (from his Perez v. Sturgis article) that the Americans with Disabilities Act will be used as an enforcement tool for access to mental health care.",
+   "post_title": "Alcohol Use Disorder is a Disability According to the US DOJ: Mental Health Parity is Joined by ADA Enforcement?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/alcohol-use-disorder-is-a-disability",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Americans with Disabilities Act",
+    "DOJ",
+    "Perez v. Sturgis",
+    "Supreme Court"
+   ],
+   "finder_note": "Restatement of an earlier call; the post treats the DOJ settlement as supporting evidence.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0789",
+   "forecaster": "owen",
+   "statement_date": "2023-11-29",
+   "quote": "So if alcohol use disorder is a disability…and it is an ADA violation to discriminate, it follows that reasonable accommodations are also due to those with alcohol use disorder…and it might follow other psychiatric disabilities.",
+   "context": "After quoting the DOJ settlement (alcohol use disorder is an ADA-covered disability), the author infers that reasonable accommodations are due for AUD and might extend to other psychiatric disabilities. He then applies this to payer 'fail first' policies (NQTLs) and access to SAINT neuromodulation.",
+   "post_title": "Alcohol Use Disorder is a Disability According to the US DOJ: Mental Health Parity is Joined by ADA Enforcement?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/alcohol-use-disorder-is-a-disability",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "DOJ",
+    "Americans with Disabilities Act",
+    "Department of Labor",
+    "SAINT",
+    "Fermata"
+   ],
+   "finder_note": "Conditional legal inference; anticipates ADA accommodation claims extending to psychiatric disabilities and payer policies.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0793",
+   "forecaster": "owen",
+   "statement_date": "2023-11-30",
+   "quote": "We will all survive without private equity investors.",
+   "context": "Discussing 70,000 Kaiser nurses on strike and UK doctors' strikes, the author predicts society will survive without private equity investors in health care, in contrast to the consequences of losing doctors and nurses.",
+   "post_title": " \"I Am Determined to Prove A Villain\" is Great Theater and Bad Health Care Policy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-am-determined-to-prove-a-villan",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Kaiser",
+    "private equity"
+   ],
+   "finder_note": "Rhetorical contrast asserting private equity is dispensable to health care.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0794",
+   "forecaster": "owen",
+   "statement_date": "2023-11-30",
+   "quote": "Very few of us will survive the kinds of predictable causes of early death that will commonly befall us if we let all the doctors and nurses quit.",
+   "context": "Conditional warning: if doctors and nurses are allowed to quit en masse (strikes, burnout, private equity), predictable causes of early death (appendicitis, accidents, infections, psychiatric emergencies) will kill many people.",
+   "post_title": " \"I Am Determined to Prove A Villain\" is Great Theater and Bad Health Care Policy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-am-determined-to-prove-a-villan",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Conditional ('if we let all the doctors and nurses quit'); extreme framing.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0795",
+   "forecaster": "owen",
+   "statement_date": "2023-12-01",
+   "quote": "This is the beginning of a remarkable change in the treatment of psychiatric disorders.",
+   "context": "Post celebrating Medicare NTAP (new technology add-on payment) approval for SAINT (Stanford Accelerated Intelligent Neuromodulation Treatment) in the inpatient setting and AMA category III CPT codes for outpatient use. The author predicts these payment pathways mark the start of a remarkable change in psychiatric treatment.",
+   "post_title": "NTAP Means SAINT Treatment for Depression can be Paid By Medicare in the Hospital ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ntap-means-saint-treatment-for-depression",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Medicare",
+    "SAINT",
+    "American Medical Association"
+   ],
+   "finder_note": "Author is a SAINT provider (Fermata) and advocated for the NTAP; own-interest claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0796",
+   "forecaster": "owen",
+   "statement_date": "2023-12-01",
+   "quote": "It opens the door for every breakthrough treatment to get additional payment models in the future. To be very clear, this is how psychedelic medicine will be paid for.",
+   "context": "The author claims the NTAP precedent for SAINT opens the door for other breakthrough treatments to get add-on payment models, and states that psychedelic medicine will be paid for through the same Medicare payment mechanism.",
+   "post_title": "NTAP Means SAINT Treatment for Depression can be Paid By Medicare in the Hospital ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ntap-means-saint-treatment-for-depression",
+   "area_guess": "payer_policy",
+   "horizon_text": "in the future",
+   "confidence_phrase": "will",
+   "entities": [
+    "Medicare",
+    "NTAP",
+    "SAINT",
+    "psychedelic medicine"
+   ],
+   "finder_note": "Compound: general claim about breakthrough treatments plus a specific call on how psychedelic medicine will be reimbursed.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0797",
+   "forecaster": "owen",
+   "statement_date": "2023-12-01",
+   "quote": "let’s keep advocating for coverage in EVERY setting, not just hospitals. It’s a huge leap forward. More are coming….",
+   "context": "Close of the NTAP post. After urging advocacy for SAINT coverage in every setting, not just hospitals, the author says more coverage advances are coming.",
+   "post_title": "NTAP Means SAINT Treatment for Depression can be Paid By Medicare in the Hospital ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ntap-means-saint-treatment-for-depression",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "SAINT",
+    "Medicare"
+   ],
+   "finder_note": "Vague; 'More are coming' refers to further payment or coverage advances for rapid-acting treatments.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0807",
+   "forecaster": "owen",
+   "statement_date": "2023-12-12",
+   "quote": "My friend Dave Chase has been writing about the coming apocalypse in liability for corporate America for a while ... I’m not a lawyer. But I can see the writing on the wall…and write about it.",
+   "context": "ERISA section of the daily-writing essay. The author restates Dave Chase's forecast of a coming liability apocalypse for corporate America from ERISA fiduciary lawsuits, citing lawyer Jerry Schlichter (2-0 at the Supreme Court, $600M+ retirement settlements) now targeting healthcare plans at firms such as Anthem, Target, T-Mobile, Walgreens and Lockheed Martin. The author endorses it: he can see the writing on the wall.",
+   "post_title": "Writing Every Day: You Won't Read it All, Which Is The Point.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/writing-every-day-you-wont-read-it",
+   "area_guess": "payer_policy",
+   "horizon_text": "coming",
+   "confidence_phrase": "I can see the writing on the wall",
+   "entities": [
+    "Dave Chase",
+    "Jerry Schlichter",
+    "ERISA",
+    "Association of Corporate Counsel",
+    "Anthem",
+    "Boston Scientific",
+    "Cargill",
+    "Caterpillar",
+    "CSL Behring",
+    "Dollar Tree",
+    "Genuine Parts Company",
+    "Insperity",
+    "Kohl’s",
+    "Lockheed Martin",
+    "Medical Solutions",
+    "MGM Resorts",
+    "Nordstrom",
+    "Oracle",
+    "Performance Food Group",
+    "PetSmart",
+    "State Farm",
+    "Stryker",
+    "T-Mobile",
+    "Target",
+    "Trinity Health",
+    "Walgreens"
+   ],
+   "finder_note": "Endorsed restatement of Dave Chase's third-party forecast; the Schlichter target list is quoted from Chase, not the author.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0808",
+   "forecaster": "owen",
+   "statement_date": "2023-12-12",
+   "quote": "Alternatively, you can have class action lawyers and federal regulators dismantle the next decade of your fortune.",
+   "context": "Closing the ERISA section, the author addresses wealthy corporate decision-makers: either change health coverage to include mental health benefits that help people with psychiatric illness, or face class action lawyers and federal regulators dismantling the next decade of their fortune. Conditional call on ERISA fiduciary liability enforcement.",
+   "post_title": "Writing Every Day: You Won't Read it All, Which Is The Point.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/writing-every-day-you-wont-read-it",
+   "area_guess": "payer_policy",
+   "horizon_text": "the next decade",
+   "confidence_phrase": "can have",
+   "entities": [
+    "ERISA",
+    "Jerry Schlichter",
+    "federal regulators"
+   ],
+   "finder_note": "Conditional and rhetorical (offered as a choice); implies ERISA class actions and federal enforcement against employer health plans over the next decade.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0813",
+   "forecaster": "owen",
+   "statement_date": "2023-12-19",
+   "quote": "This is also going to be a huge pain in the neck for individuals working in those settings, because more suicides will be a big deal. ... Honestly, I hope the numbers are as sobering as I fear they will be.",
+   "context": "Author's expectation about the effect of The Joint Commission's 2024 sentinel-event rule on staff in inpatient, emergency, residential and intensive outpatient settings: more post-discharge suicides will count and be scrutinized.",
+   "post_title": "I Was Today Years Old When Suicide Became a Sentinel Event*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-was-today-years-old-when-suicide",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "is also going to be",
+   "entities": [
+    "The Joint Commission"
+   ],
+   "finder_note": "Implied horizon is 2024 when the rule takes effect.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0814",
+   "forecaster": "owen",
+   "statement_date": "2023-12-19",
+   "quote": "However, making it something we have to follow up on, something we have to report on, and some hospitals are graded on, and audited for brings an entire new level of seriousness to post-discharge suicide and its follow up.",
+   "context": "Author's claim that mandatory reporting, grading and auditing under the 2024 Joint Commission sentinel-event rule will raise the seriousness with which hospitals treat post-discharge suicide and follow-up.",
+   "post_title": "I Was Today Years Old When Suicide Became a Sentinel Event*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-was-today-years-old-when-suicide",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "The Joint Commission"
+   ],
+   "finder_note": "Present-tense assertion about a consequence of a rule that has not yet taken effect; borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0815",
+   "forecaster": "owen",
+   "statement_date": "2023-12-19",
+   "quote": "Honestly, I hope the numbers are as sobering as I fear they will be. And I hope they push us towards more effective treatments, like SAINT neuromodulation , Esketamine, and other rapid-acting therapeutics.",
+   "context": "Author expects that once post-discharge suicides are counted as sentinel events from 2024, the counts will be sobering (high), and hopes this pushes the field toward SAINT neuromodulation, esketamine and other rapid-acting treatments.",
+   "post_title": "I Was Today Years Old When Suicide Became a Sentinel Event*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-was-today-years-old-when-suicide",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I fear they will be",
+   "entities": [
+    "The Joint Commission",
+    "SAINT",
+    "esketamine"
+   ],
+   "finder_note": "Compound: a fear-based expectation about the counted numbers plus a hope about treatment adoption. The hope has no predictive reading on its own.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0820",
+   "forecaster": "owen",
+   "statement_date": "2023-12-25",
+   "quote": "There is still a lot of research to be done before these become well-established medicines. ... But this Christmas, I am hopeful we will have new and powerful treatments for depression under the tree in the near future!",
+   "context": "After arguing that COMP360's phase 2b TRD result (29.1% remission at week 3, p<0.002) shows a phase-3-sized difference in a phase-2-sized trial, the author tempers expectations: psilocybin-class drugs will need much more research before becoming established medicines for depression and PTSD.",
+   "post_title": "Mushrooms: The Original Christmas Miracle?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mushrooms-the-original-christmas",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "still a lot of research to be done",
+   "entities": [
+    "Compass Pathways",
+    "COMP360",
+    "psilocybin"
+   ],
+   "finder_note": "Implies eventual establishment but with a substantial delay; no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0833",
+   "forecaster": "owen",
+   "statement_date": "2024-01-05",
+   "quote": "Today, a new paper hit the press. And it will change what you understand to be possible.",
+   "context": "Post (2024-01-05) on the SHIFT trial (Stanford Hypnosis Integrated with Functional Connectivity-targeted Transcranial Stimulation; Faerman et al., Nature Mental Health, 2024; Nolan Williams senior author group) that used fMRI-guided TMS to change hypnotizability, a stable trait. The author claims the paper will change what readers understand to be possible: modifying traits, not only states, with neuromodulation.",
+   "post_title": "A SHIFT in The Possible: fMRI Guided Brain Stimulation Crosses a New Threshold",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-shift-in-the-possible-fmri-guided",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Nolan Williams",
+    "SHIFT",
+    "Stanford",
+    "Nature Mental Health"
+   ],
+   "finder_note": "Rhetorical impact claim about a just-published paper; hard to resolve.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0835",
+   "forecaster": "owen",
+   "statement_date": "2024-01-05",
+   "quote": "I’m thrilled to see that if SHIFT can’t be modified to treat my problems, Kristen Cherian, Ph.D. et al.’s remarkable work with magnesium-ibogaine might be the kind of broad spectrum and potent healing we all hope for access to, in the context of both psychiatric illness and traumatic brain injury",
+   "context": "Commenting on Cherian et al. (Nature Medicine, Jan 2024) on magnesium-ibogaine in special operations veterans with TBI, where the author says disability, trauma, depression and anxiety all resolved in historically hard-to-treat cases, he suggests magnesium-ibogaine might be a broad-spectrum, potent healing therapy that people will gain access to for psychiatric illness and TBI.",
+   "post_title": "A SHIFT in The Possible: fMRI Guided Brain Stimulation Crosses a New Threshold",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-shift-in-the-possible-fmri-guided",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might be",
+   "entities": [
+    "magnesium-ibogaine",
+    "Kristen Cherian",
+    "Nolan Williams"
+   ],
+   "finder_note": "Hedged potential-and-hope statement about a therapy's future role and access; no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0837",
+   "forecaster": "owen",
+   "statement_date": "2024-01-07",
+   "quote": "I will highlight a few of the technologies that I see as plausibly useful on the horizon for healing the minds and hearts of individuals injured by trauma:",
+   "context": "After documenting PTSD rates in ICU survivors (about 20%) and ICU staff (up to 73% after COVID-19), the author lists technologies he sees as plausibly useful on the horizon for trauma: magnesium-ibogaine, MDMA (submitted to the FDA for PTSD by Lykos Therapeutics), COMP360 (Phase IIb data for PTSD), Nightware, the PRISM EEG neurofeedback system from GreyMatters Health, EMDR, and GammaCore (submitted for FDA breakthrough status for PTSD). He closes: 'The options are increasing. We need them.'",
+   "post_title": "The ICU is Traumatic For Everyone",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-icu-is-traumatic-for-everyone",
+   "area_guess": "practice_adoption",
+   "horizon_text": "on the horizon",
+   "confidence_phrase": "plausibly",
+   "entities": [
+    "magnesium-ibogaine",
+    "MDMA",
+    "Lykos Therapeutics",
+    "FDA",
+    "COMP360",
+    "Nightware",
+    "PRISM",
+    "GreyMatters Health",
+    "Fermata",
+    "EMDR",
+    "GammaCore"
+   ],
+   "finder_note": "Umbrella call over seven PTSD technologies. The MDMA/Lykos FDA submission and the GammaCore breakthrough request are stated as facts with no explicit approval call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0838",
+   "forecaster": "owen",
+   "statement_date": "2024-01-07",
+   "quote": "Psilocybin analog COMP360 has Phase IIb safety data announced—with more data coming—for PTSD.",
+   "context": "Item in the list of trauma technologies the author sees as 'plausibly useful on the horizon'. COMP360, a psilocybin analog, has Phase IIb safety data for PTSD announced, and the author says more data are coming.",
+   "post_title": "The ICU is Traumatic For Everyone",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-icu-is-traumatic-for-everyone",
+   "area_guess": "clinical_trial",
+   "horizon_text": "coming",
+   "confidence_phrase": "none",
+   "entities": [
+    "COMP360"
+   ],
+   "finder_note": "Expects further COMP360 PTSD data; no date given and the sponsor is not named in the text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0840",
+   "forecaster": "owen",
+   "statement_date": "2024-01-12",
+   "quote": "We have hope on the horizon. Psychedelic medicines like LSD have promising early clinical data and more coming in GAD (pre-print from my group).",
+   "context": "Closing section of a post on benzodiazepines and suicide risk. The author says better anxiety treatments are needed and expects more clinical data on LSD for generalized anxiety disorder (GAD), citing a pre-print from his own research group.",
+   "post_title": "Benzos (benzodiazepines) Are Associated With Death By Suicide.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/benzos-benzodiazepines-are-associated",
+   "area_guess": "clinical_trial",
+   "horizon_text": "on the horizon",
+   "confidence_phrase": "more coming",
+   "entities": [
+    "LSD"
+   ],
+   "finder_note": "Vague; expects more LSD-in-GAD clinical data. Author's own group (control candidate).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0848",
+   "forecaster": "owen",
+   "statement_date": "2024-01-31",
+   "quote": "Pre-prints may be a bit of a jailbreak? We shall see.",
+   "context": "Post on the failures of peer review and the rise of pre-prints since COVID-19, with Elsevier profit margins as evidence of a broken academic publishing business. The author hedges that pre-prints may be a way around traditional publishing.",
+   "post_title": "Get the Word Out: Preprints, Peer-Review, and It's Discontents",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/get-the-word-out-preprints-peer-review",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [],
+   "finder_note": "Vague, phrased as a question with 'We shall see'; no concrete outcome.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0851",
+   "forecaster": "owen",
+   "statement_date": "2024-02-03",
+   "quote": "It was heavy on my face after 30 min, as was some neck strain. This will make it not a productivity tool unless you are in the “neck workout set.”",
+   "context": "After a hands-on in-store demo of the Apple Vision Pro (heavy on the face after 30 minutes, neck strain), the author claims the headset will not become a productivity tool. The post is a self-described satirical weekend piece, but this line reads as a sincere product assessment ('Everything other reviewers say is true').",
+   "post_title": "The Best As-Of-Yet-Unannounced App for the Apple Vision Pro?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-as-of-yet-unannounced-app",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Apple",
+    "Apple Vision Pro"
+   ],
+   "finder_note": "Satirical post, sincere-reading product call about Vision Pro adoption as a productivity device.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0857",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "This is the real gravamen 4 of this case (and the thousands of others coming): no prudent person would agree to this nonsense.",
+   "context": "500th post. A class action alleges Johnson & Johnson's Pension & Benefits Committee breached ERISA fiduciary duty by letting its PBM charge $10,239.69 for a generic drug available for about $40. The author says thousands of similar ERISA fiduciary cases are coming. '4' is a footnote marker defining 'gravamen'.",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "coming",
+   "entities": [
+    "Johnson & Johnson",
+    "ERISA"
+   ],
+   "finder_note": "Quantified expectation of follow-on ERISA fiduciary litigation ('thousands').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0858",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "I have argued that the “PBM part” of the ERISA fiduciary breach claims is just the beginning.",
+   "context": "Under the heading 'I made great predictions.' The J&J case is about PBM drug pricing; the author expects ERISA fiduciary-breach claims to expand beyond PBM costs to the whole health plan ('The entire health plan needs not be a scam').",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "just the beginning",
+   "entities": [
+    "ERISA",
+    "Johnson & Johnson"
+   ],
+   "finder_note": "Restates an earlier call from the author's ERISA articles.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0859",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "The next enforcement, I predict, will focus on prior authorization and its role in strategically blocking cost-effective care to increase the plant administrator's profits at the expense of the plan member.",
+   "context": "Explicit prediction of the next wave of ERISA fiduciary enforcement after the J&J PBM case: prior authorization practices of plan administrators. 'plant administrator' is the author's typo for plan administrator.",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "payer_policy",
+   "horizon_text": "next",
+   "confidence_phrase": "I predict, will",
+   "entities": [
+    "ERISA"
+   ],
+   "finder_note": "Direct, self-labelled prediction.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0861",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "This also means there are a ton of lawsuits in the making against plan administrators by employers asking them to provide the data to demonstrate that they are behaving appropriately.",
+   "context": "Item 'Get Your Data' in the author's list of next steps for employers after the J&J ERISA case. He expects many employer-versus-plan-administrator lawsuits over access to claims data.",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "in the making",
+   "entities": [
+    "ERISA"
+   ],
+   "finder_note": "Litigation-volume call about employers suing plan administrators for data.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0862",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "I predict there will be a stampede towards self-funded plans",
+   "context": "Item 'Go Self-Funded' in the next-steps list. The author predicts employers will move en masse to self-funded health plans because fiduciary liability under fully insured plans is too high.",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I predict",
+   "entities": [
+    "ERISA"
+   ],
+   "finder_note": "Compound sentence; the second half (implosion of fully funded plans) is logged separately.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0863",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "we may see in the next year or two the complete implosion of fully funded plans sponsored by employers—the liability is just too high.",
+   "context": "Second half of the 'Go Self-Funded' item: the author says fully funded (fully insured) employer-sponsored health plans may collapse completely within one to two years of the post (dated 2024-02-07).",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "payer_policy",
+   "horizon_text": "in the next year or two",
+   "confidence_phrase": "may",
+   "entities": [
+    "ERISA"
+   ],
+   "finder_note": "Dated, hedged call; companion to the self-funded stampede statement.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0864",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "PBM lawsuits will be relatively easy with this precedent, so there will be many more of those",
+   "context": "Item 'Get a New PBM'. With the J&J complaint as precedent, the author expects many more lawsuits over pharmacy benefit manager pricing.",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "ERISA",
+    "Johnson & Johnson"
+   ],
+   "finder_note": "Litigation-volume call about PBM suits.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0865",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "essentially every company using anything other than cost-plus drugs , Capital RX , or one of the other cost-plus PBM vendors. Dead in the water in the employer market.",
+   "context": "Continuation of 'Get a New PBM': the author says traditional (non-cost-plus) PBMs are finished in the employer market, and any employer not using Cost Plus Drugs, Capital Rx or another cost-plus PBM is exposed to suit.",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "Dead in the water",
+   "entities": [
+    "Cost Plus Drugs",
+    "Capital Rx"
+   ],
+   "finder_note": "Spacing before the commas is in the source text. Market-shift call about traditional PBMs.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0866",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "Validated solutions for cost savings that offer plausible deniability or actual fulfillment of fiduciary duty will become popular.",
+   "context": "Item 'Buy Validated Solutions'. The author expects independently validated cost-saving vendors (he cites the Validation Institute) to gain popularity with employers as fiduciary pressure grows. He discloses that one of his own jobs sells a validated mental health solution with a $1 million D&O indemnification.",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will become",
+   "entities": [
+    "Validation Institute"
+   ],
+   "finder_note": "Author has a disclosed interest (a validated mental health vendor, likely Acacia Clinics).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0867",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "that means employers have to stop getting scammed, or they will be held personally responsible, and nobody wants that for themselves.",
+   "context": "Closing paragraph. Conditional: if employers do not stop overpaying for health benefits and pharmacy costs, their named fiduciaries will be held personally liable under ERISA.",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "ERISA"
+   ],
+   "finder_note": "Exhortation with a predictive consequence clause.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0868",
+   "forecaster": "owen",
+   "statement_date": "2024-02-07",
+   "quote": "Now we know who those people will be in the subsequent lawsuits at your company",
+   "context": "Footnote 2, attached to the explanation that health benefits are tax-exempt because a fiduciary agrees to act in members' interest. The author expects subsequent ERISA lawsuits at other companies to name benefits-committee members personally, as the J&J complaint did.",
+   "post_title": "Lawsuits for Health Plan Scams Have Begun!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/lawsuits-for-health-plan-scams-have",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will be",
+   "entities": [
+    "ERISA",
+    "Johnson & Johnson"
+   ],
+   "finder_note": "Footnote text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0873",
+   "forecaster": "owen",
+   "statement_date": "2024-02-15",
+   "quote": "Please spread the good word—healing is coming, and more evidence is needed to understand when and for whom",
+   "context": "Podcast post on the Cherian et al. Nature Medicine study of magnesium-ibogaine in veterans with TBI and PTSD, discussed with Jeremy Fox. The author closes with a general expectation that psychedelic treatments such as ibogaine will bring healing, while noting the evidence gap.",
+   "post_title": "Magnesium-Ibogaine in Veterans With TBI and PTSD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/magnesium-ibogaine-in-veterans-with",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "ibogaine",
+    "Nature Medicine",
+    "Jeremy Fox"
+   ],
+   "finder_note": "Vague, aspirational call; no specific event or date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0878",
+   "forecaster": "owen",
+   "statement_date": "2024-02-17",
+   "quote": "In the near future, fMRI-guided neuromodulation treatment, robust walking , and other novel interventions will be the standard of care.",
+   "context": "Personal essay on bipolar disorder and residency accommodations. The author, now treated with TMS, predicts fMRI-guided neuromodulation (the approach his Acacia Clinics uses), 'robust walking' and other novel interventions will become the standard of care for mood disorders.",
+   "post_title": "Reasonable Accommodations",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/reasonable-accommodations",
+   "area_guess": "practice_adoption",
+   "horizon_text": "In the near future",
+   "confidence_phrase": "will be",
+   "entities": [
+    "fMRI-guided TMS",
+    "Acacia Clinics"
+   ],
+   "finder_note": "Author's own clinic sells fMRI-guided TMS; coder may mark CONTROL. Spacing before the comma is in the source.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0886",
+   "forecaster": "owen",
+   "statement_date": "2024-02-22",
+   "quote": "I can only imagine the rate of adult male humans who will book a chemical castration follow-up with a PCP is likely to be low.",
+   "context": "Discussing chemical castration (Lupron and similar medicines) as a treatment for pedophilic urges, after citing Korean law and recidivism data. The author expects voluntary uptake of chemical castration through primary care to be low among men who have not offended.",
+   "post_title": "My High-School Advisor was Arrested for Child Pornography",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-high-school-advisor-was-arrested",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "is likely to be low",
+   "entities": [
+    "Lupron",
+    "chemical castration",
+    "primary care physicians"
+   ],
+   "finder_note": "Hedged uptake prediction about general behavior; no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0887",
+   "forecaster": "owen",
+   "statement_date": "2024-02-22",
+   "quote": "My patients report fewer cravings sexually. This will be an open question. Perhaps it will be a plausible way to reduce risk.",
+   "context": "The author cites data that GLP-1 medicines such as semaglutide (Ozempic) reduce cravings beyond food, notes trials underway in alcohol and nicotine use disorders, and says his patients report fewer sexual cravings. 'It' = GLP-1 medication as a way to reduce child sexual abuse risk in people with pedophilic urges. Preceded by 'This will be an open question.' and followed by 'People could request the treatment without having to scream, I am a pedophile.'",
+   "post_title": "My High-School Advisor was Arrested for Child Pornography",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-high-school-advisor-was-arrested",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "Perhaps it will be",
+   "entities": [
+    "GLP-1 medicines",
+    "semaglutide",
+    "Ozempic"
+   ],
+   "finder_note": "Speculative; hedged with 'Perhaps'. Concerns a possible future clinical use, not a trial readout.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0894",
+   "forecaster": "owen",
+   "statement_date": "2024-02-24",
+   "quote": "This is not a particularly practical way to get treatment. Business models built on this impracticality won’t work either.",
+   "context": "Essay prompted by Greenbrook TMS being delisted from a stock exchange. 'This impracticality' = traditional TMS requiring 36 once-daily visits because insurers pay once a day, which depressed patients with pathological indecision cannot manage. The author predicts business models built on 36-day TMS will not work.",
+   "post_title": "\"Interventional Psychiatric Care\" Needs To Include A Feeling of \"Being Cared For\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/interventional-psychiatric-care-needs",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "won't work",
+   "entities": [
+    "Greenbrook TMS",
+    "TMS",
+    "insurers"
+   ],
+   "finder_note": "General prediction about TMS clinic business models; the author is founder of Fermata, a competing interventional psychiatry practice.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0897",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "Change Healthcare may be down for a very long time.",
+   "context": "From a background conversation with a cybersecurity professional: average 73 days to resolve a ransomware attack, but BlackCat is an unreliable actor who may re-encrypt after a decrypt key is bought. Author forecasts the Change Healthcare outage could last a very long time.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "company_market",
+   "horizon_text": "a very long time",
+   "confidence_phrase": "may",
+   "entities": [
+    "Change Healthcare",
+    "BlackCat",
+    "UnitedHealth Group",
+    "Optum"
+   ],
+   "finder_note": "Outage-duration call; base rate of 73 days given as setup.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0898",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "The much bigger financial problem for United Healthcare is that the information in question is all protected health information, that, for an average of hundreds of days, was being accessed by somebody in a way that is a violation of HIPAA.",
+   "context": "Author relays a cybersecurity source's estimate that the going ransom for a breach of this scale is about $40 million, small next to UHG's $8.9 billion quarterly earnings. Read as an implicit estimate of the ransom UHG would face.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "around",
+   "entities": [
+    "United Healthcare",
+    "Change Healthcare",
+    "BlackCat"
+   ],
+   "finder_note": "Borderline: phrased as a market rate, not an explicit prediction; sourced to an unnamed cybersecurity professional. Same $40M figure reused later as the ransom comparator.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0900",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "“What did they know and when did they know it” is going to be a really important question.",
+   "context": "Author forecasts that the timing of UnitedHealth's knowledge of the Change Healthcare intrusion will become a central question, feeding both HIPAA penalties and the DOJ records preservation request.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to be",
+   "entities": [
+    "UnitedHealth Group",
+    "Change Healthcare",
+    "Department of Justice",
+    "HHS"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0901",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "there may be some pissed-off for our cyber security professionals who have every incentive to report what they knew",
+   "context": "Optum laid off cybersecurity staff just before the breach was reported. Author expects some fired professionals may report what the company knew, linking to the DOJ preservation-of-records request.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "may be",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group",
+    "Department of Justice"
+   ],
+   "finder_note": "Whistleblower call; hedged.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

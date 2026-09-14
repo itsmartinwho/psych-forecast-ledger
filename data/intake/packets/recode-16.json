@@ -1,0 +1,906 @@
+{
+ "packet": "recode-16.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1748",
+   "forecaster": "owen",
+   "statement_date": "2025-05-16",
+   "quote": "Not just blood, but spit too! Not just the too-small-for-realistic-physics MiniLab, but a wearable device! Get out your checkbooks, investors. This will go big or go home.",
+   "context": "The author's sarcastic reaction to Haemanthus's marketing claims (laser scan of blood, saliva or urine from pets in seconds; a wearable device for humans). He calls the device 'too-small-for-realistic-physics', echoing Theranos's MiniLab, and says the venture will 'go big or go home'. The implied claim is that the technology is physically implausible and the venture is a boom-or-bust bet he expects to fail.",
+   "post_title": "Theranos..for Pets!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/theranosfor-pets",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Haemanthus",
+    "Billy Evans",
+    "Theranos",
+    "MiniLab"
+   ],
+   "finder_note": "Sarcastic framing; the sincere underlying claim is that the device is physically implausible. Compound.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1753",
+   "forecaster": "owen",
+   "statement_date": "2025-05-18",
+   "quote": "The first is that it may prove another practical option for treating depression without medicine or external stimulation of any kind. With PRISM, the brain is its own stimulator, with a safety profile of which drugs can only dream.",
+   "context": "First of two reasons the author finds PRISM's MDD data exciting: PRISM neurofeedback (the brain as its own stimulator, no medication or external stimulation) may become another practical depression treatment option.",
+   "post_title": "Can A Video Game You Play With Your Brain Help Depression?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-a-video-game-you-play-with-your",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "may prove",
+   "entities": [
+    "PRISM",
+    "GrayMatters Health"
+   ],
+   "finder_note": "Hedged. The author uses PRISM at Fermata and GrayMatters Health sponsors his event.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1754",
+   "forecaster": "owen",
+   "statement_date": "2025-05-18",
+   "quote": "The future of mental health is effective . It's not just medicines and therapy. It's changing your brain in ways it’s hard to imagine —safely, quickly, and for the better.",
+   "context": "Closing thesis after discussing PRISM's ML-trained EEG neurofeedback for PTSD and depression: the author asserts that the future of mental health treatment is effective brain-changing treatments, not just medicines and therapy.",
+   "post_title": "Can A Video Game You Play With Your Brain Help Depression?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-a-video-game-you-play-with-your",
+   "area_guess": "practice_adoption",
+   "horizon_text": "The future",
+   "confidence_phrase": "is",
+   "entities": [
+    "PRISM",
+    "GrayMatters Health"
+   ],
+   "finder_note": "Broad, undated field-level forecast.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1759",
+   "forecaster": "owen",
+   "statement_date": "2025-06-02",
+   "quote": "As we ponder which jobs AI will displace, I have initiated the trend by displacing myself",
+   "context": "Post announcing publication of the author's co-authored J Clin Psychiatry paper on video-based AI detection of tardive dyskinesia (TD), ROC-AUC 0.89, n=351. The author says AI will displace jobs and that he, a human rater in the trial, was outperformed by the algorithm.",
+   "post_title": "The First Commercially Available AI Screening Tool In Psychiatry...is FREE.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-first-commercially-available",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Owen Muir",
+    "J Clin Psychiatry",
+    "TDscreen.ai"
+   ],
+   "finder_note": "Presupposition that AI will displace jobs, including TD rating; borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1761",
+   "forecaster": "owen",
+   "statement_date": "2025-06-02",
+   "quote": "It provides hope that more and more screening tasks can be accomplished more effectively, faster, and more frequently, allowing clinicians to focus on diagnosis and treatment.",
+   "context": "Same post: from a small two-site sample (n=351) in which the model beat human raters, the author extrapolates that more and more screening tasks will be done by AI more effectively, faster and more frequently, freeing clinicians for diagnosis and treatment.",
+   "post_title": "The First Commercially Available AI Screening Tool In Psychiatry...is FREE.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-first-commercially-available",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "provides hope that",
+   "entities": [],
+   "finder_note": "Hedged field-level forecast.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1763",
+   "forecaster": "owen",
+   "statement_date": "2025-06-04",
+   "quote": "It doesn’t address the vulnerable individuals, those for whom insomnia is a risk factor for completed suicide, who will be treated with this safe-in-others medicine.",
+   "context": "Critique of an NIH-funded eight-month zolpidem (Ambien) RCT that excluded people with psychiatric or medical illness. The author says the reassuring safety result does not cover vulnerable, suicide-risk insomnia patients, who in real practice will still be prescribed Ambien.",
+   "post_title": "Oh, Ambien",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/oh-ambien",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Ambien",
+    "zolpidem",
+    "NIH",
+    "FDA"
+   ],
+   "finder_note": "Borderline: general claim that vulnerable patients will keep being prescribed zolpidem; not tied to a dated or specific event.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1765",
+   "forecaster": "owen",
+   "statement_date": "2025-06-05",
+   "quote": "They’re not gonna turn around and decide that the entire Pharma business model is all wrong",
+   "context": "Footnote 13 on venture-funded mental health start-ups (the author went through the What If Ventures fellowship). He says young founders build businesses to be acquired by pharma and will not reject the pharma business model, since that would sound anti-psychiatry.",
+   "post_title": "Obesity, an Inconvient Truth",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/obesity-an-inconvient-truth",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "not gonna",
+   "entities": [
+    "What If Ventures",
+    "Stephen Hayes"
+   ],
+   "finder_note": "Negative call about start-up founder behavior; general, undated.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1766",
+   "forecaster": "owen",
+   "statement_date": "2025-06-05",
+   "quote": "You’re never going to get a company funded with that attitude.",
+   "context": "Same footnote 13: the author says a start-up that argues the entire pharma business model is wrong will never get venture funding, because that stance sounds like anti-psychiatry.",
+   "post_title": "Obesity, an Inconvient Truth",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/obesity-an-inconvient-truth",
+   "area_guess": "company_market",
+   "horizon_text": "never",
+   "confidence_phrase": "never",
+   "entities": [
+    "What If Ventures"
+   ],
+   "finder_note": "General negative call about venture funding; hyperbolic tone, no specific company.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1767",
+   "forecaster": "owen",
+   "statement_date": "2025-06-06",
+   "quote": "None of them, unfortunately, are drugs. Even ketamine, a rapid-acting treatment for treatment-resistant depression, is unlikely to be helpful as a first-line treatment in severe personality disorders.",
+   "context": "Closing of an essay on personality disorders. After saying effective treatments (MBT, DBT, schema therapy, TFP, GPM) are psychotherapies and none are drugs, the author estimates ketamine will not be a helpful first-line treatment for severe personality disorders.",
+   "post_title": "On Breakups, Apropos of Nothing",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/on-breakups-apropos-of-nothing",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "ketamine"
+   ],
+   "finder_note": "Clinical-efficacy expectation rather than an event forecast; logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1768",
+   "forecaster": "owen",
+   "statement_date": "2025-06-09",
+   "quote": "What follows is a pre-apocalyptic press release that we suggest UHG just crib from before their world ends, from a stock price standpoint…",
+   "context": "Opening of a satirical fake press release about UnitedHealth Group (UHG) and Optum acquisitions, written after UHG leaked internal executive guidance to STAT news. The aside presupposes that UHG's stock price is heading for collapse.",
+   "post_title": "Leviathan: “We are Proud to Partner With Everything That Is” ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/leviathan-we-are-proud-to-partner-2ef",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "UnitedHealth Group",
+    "Optum",
+    "STAT"
+   ],
+   "finder_note": "Satirical framing, but the stock-collapse expectation reads as half-serious; sincere set true with caution.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1776",
+   "forecaster": "owen",
+   "statement_date": "2025-06-16",
+   "quote": "The replication will be challenging, and it is also a moral imperative. This is a revolution, assuming it replicates, and if only decision makers notice.",
+   "context": "Closing paragraph on the MOAM randomized controlled trial (Fonagy et al., Lancet Psychiatry 2025) of mentalization-based treatment (MBT-ASPD) for antisocial personality disorder in male offenders on probation in England and Wales (effect size 0.74, fewer offences at year 3). The author expects replication of the trial to be difficult and calls it a moral imperative.",
+   "post_title": "Effective Treatment for Antisocial Personality Disorder",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/effective-treatment-for-antisocial",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will be",
+   "entities": [
+    "Mentalization-Based Treatment (MBT)",
+    "MBT-ASPD",
+    "MOAM trial",
+    "Peter Fonagy",
+    "Anthony Bateman",
+    "Anna Freud Centre"
+   ],
+   "finder_note": "Compound: forecast (replication will be challenging) plus a normative clause (moral imperative). Author is an official MBT supervisor.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1778",
+   "forecaster": "owen",
+   "statement_date": "2025-06-19",
+   "quote": "Peer Reviewers working diligently at major payors? Sharpen your denial skills; even more excellent data on TMS is coming your way.",
+   "context": "Closing line of a post on the MAINT-R trial (Noda et al., JAMA Netw Open 2025), which found once-weekly 1 Hz rTMS as effective as low-dose lithium for preventing depression relapse, with fewer adverse events. The author tells payer peer reviewers that more strong TMS data is coming, after asserting maintenance TMS is no longer 'Experimental and Unproven'.",
+   "post_title": "Can rTMS be Used As A Maintenance Treatment in Depression?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-rtms-be-used-as-a-maintenance",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "rTMS",
+    "TMS",
+    "MAINT-R trial",
+    "lithium",
+    "BrainsWay",
+    "payors"
+   ],
+   "finder_note": "Undated call that further TMS evidence will arrive; author is a BrainsWay trial investigator and Radial co-founder.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1781",
+   "forecaster": "owen",
+   "statement_date": "2025-06-23",
+   "quote": "we have an announcement from HHS and CMS that a new day is almost here, sorta, when it comes to prior authorization.",
+   "context": "Third news item: HHS and CMS (Robert F. Kennedy Jr. and Mehmet Oz) announced voluntary insurer pledges to simplify prior authorization. The author frames the announcement skeptically as 'a new day is almost here, sorta', signalling doubt that the pledges will bring real change.",
+   "post_title": "NEWS BLAST! COMP360, HHS wants to simplify Prior Auth, Radial is Here, and I'm Back on The Carlat Podcast!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/news-blast-comp360-hhs-wants-to-simplify",
+   "area_guess": "payer_policy",
+   "horizon_text": "almost here",
+   "confidence_phrase": "sorta",
+   "entities": [
+    "HHS",
+    "CMS",
+    "Robert F. Kennedy Jr.",
+    "Mehmet Oz",
+    "prior authorization"
+   ],
+   "finder_note": "Author's skeptical restatement of a government announcement; 'sorta' and 'who knows what to make of this' mark low confidence.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1784",
+   "forecaster": "owen",
+   "statement_date": "2025-06-23",
+   "quote": "Much like the purity pledge for teens, we will see if health plans can hold it together or will resort to other solutions.",
+   "context": "Author's closing verdict on the insurer prior-authorization pledges announced by HHS/CMS. He likens the pledges to a teen purity pledge and says we will see whether health plans keep their commitments or 'resort to other solutions'; the analogy implies he expects them not to hold.",
+   "post_title": "NEWS BLAST! COMP360, HHS wants to simplify Prior Auth, Radial is Here, and I'm Back on The Carlat Podcast!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/news-blast-comp360-hhs-wants-to-simplify",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "we will see if",
+   "entities": [
+    "Aetna",
+    "AHIP",
+    "Blue Cross Blue Shield Association",
+    "CareFirst BlueCross BlueShield",
+    "Centene",
+    "The Cigna Group",
+    "Elevance Health",
+    "GuideWell",
+    "Highmark Health",
+    "Humana",
+    "Kaiser Permanente",
+    "UnitedHealthcare",
+    "HHS",
+    "CMS",
+    "prior authorization"
+   ],
+   "finder_note": "Stated as uncertainty, but the purity-pledge analogy ('reluctant teenage boys asked to hold out till marriage') implies an expectation that plans will not keep the pledges.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1785",
+   "forecaster": "owen",
+   "statement_date": "2025-06-25",
+   "quote": "This probably works pretty well for them—a lot of people aren't paying attention, and people have heard United is not doing well on the news.",
+   "context": "Podcast post on Tutanota LLC's mini-tender offer to buy one percent of UnitedHealth Group at $325 a share, a price that only executes if the market price exceeds $325 at closing. The author explains the scheme profits from inattentive shareholders and judges that it probably works well for Tutanota, given negative news about United and a share price near $300.",
+   "post_title": "A Mini-Tender Offer For UnitedHealth?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-mini-tender-offer-for-unitedhealth",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "Tutanota LLC",
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "Bank of America",
+    "Intel",
+    "Home Depot"
+   ],
+   "finder_note": "Borderline: assessment of an ongoing scheme; the outcome of the current UNH offer lies after the post date. Also 'And it probably works!'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1786",
+   "forecaster": "owen",
+   "statement_date": "2025-06-25",
+   "quote": "Their whole business strategy is to hope people are confused. And it probably works!",
+   "context": "Tutanota LLC's conditional mini-tender for 1% of UnitedHealth Group at $325/share will probably profit by acquiring shares from inattentive holders below market on the closing date (the author calls the sellers 'scammed').",
+   "post_title": "A Mini-Tender Offer For UnitedHealth?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-mini-tender-offer-for-unitedhealth",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Tutanota LLC",
+    "UnitedHealth Group",
+    "UNH"
+   ],
+   "finder_note": "hint: UnitedHealth Group statement/SEC filing on the Tutanota mini-tender; UNH share price at offer expiration versus $325",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1787",
+   "forecaster": "owen",
+   "statement_date": "2025-06-30",
+   "quote": "It could heal deep regions of the brain that have required surgery in the past, non-invasively. It could do a lot of things.",
+   "context": "Post introducing transcranial focused ultrasound (tFUS) as Jay Sanguinetti's company Sanmai leaves stealth. The author says tFUS could non-invasively heal deep brain regions that previously required surgery, and could do many other things.",
+   "post_title": "Transcranial Focused Ultrasound (tFUS) Will Blow Your Mind",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/transcranial-focused-ultrasound-tfus-578",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "tFUS",
+    "Sanmai",
+    "Jay Sanguinetti"
+   ],
+   "finder_note": "Capability claim about an emerging modality; no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1788",
+   "forecaster": "owen",
+   "statement_date": "2025-06-30",
+   "quote": "It might heal depression, as we see in this graphic from a recent RCT: ... It might heal anxiety: ... It might heal PTSD ... And dozens of other brain disorders besides.",
+   "context": "Same tFUS post. Hedged call that tFUS might treat depression, citing a graphic from a recent randomized controlled trial (not reproduced in the text).",
+   "post_title": "Transcranial Focused Ultrasound (tFUS) Will Blow Your Mind",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/transcranial-focused-ultrasound-tfus-578",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "tFUS",
+    "Sanmai"
+   ],
+   "finder_note": "Hedged efficacy call; the cited RCT graphic is not in the text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1789",
+   "forecaster": "owen",
+   "statement_date": "2025-06-30",
+   "quote": "It might heal anxiety",
+   "context": "Same tFUS post. Hedged call that tFUS might treat anxiety, supported by a quoted pilot study of low-intensity focused ultrasound in treatment-resistant generalized anxiety disorder (Mahdavi et al., 2023; 32 percent remission).",
+   "post_title": "Transcranial Focused Ultrasound (tFUS) Will Blow Your Mind",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/transcranial-focused-ultrasound-tfus-578",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "tFUS",
+    "Sanmai",
+    "Mahdavi et al. 2023",
+    "generalized anxiety disorder"
+   ],
+   "finder_note": "Hedged efficacy call based on a small pilot study.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1790",
+   "forecaster": "owen",
+   "statement_date": "2025-06-30",
+   "quote": "It might heal PTSD ... And dozens of other brain disorders besides.",
+   "context": "Same tFUS post. Hedged call that tFUS might treat PTSD (citing Barksdale et al., 2025, amygdala neuromodulation) and dozens of other brain disorders.",
+   "post_title": "Transcranial Focused Ultrasound (tFUS) Will Blow Your Mind",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/transcranial-focused-ultrasound-tfus-578",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "tFUS",
+    "Sanmai",
+    "Barksdale et al. 2025",
+    "PTSD"
+   ],
+   "finder_note": "Quote joins two adjacent lines separated by a footnote marker and a graphic. Broad, undated call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1792",
+   "forecaster": "owen",
+   "statement_date": "2025-07-02",
+   "quote": "What Shan’s data suggest is that we can do even better if we place these coils in just the right spot.",
+   "context": "After reviewing Baldi and Siddiqi's retrospective McLean Hospital study (Neuropsychopharmacology 2025) showing that H1-coil e-field overlap with a causal depression circuit correlates with dTMS response (r = 0.41), the author asserts that outcomes can be improved beyond the 78 percent remission of the accelerated TMS trial if coils are placed in the right spot.",
+   "post_title": "Are Brain Circuits Driving Depression?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-brain-circuits-driving-depression",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "suggest is that we can",
+   "entities": [
+    "Shan Siddiqi (spelled 'Siqqiqi' in post)",
+    "Samantha Baldi",
+    "McLean Hospital",
+    "H1 coil",
+    "dTMS",
+    "BrainsWay",
+    "Harvard"
+   ],
+   "finder_note": "Conditional on precise coil placement; based on retrospective data that the study authors say needs prospective validation.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1793",
+   "forecaster": "owen",
+   "statement_date": "2025-07-02",
+   "quote": "It is also plausible that this coil placement could be determined for H-coils at a lower cost and with more available structural MRI options versus expensive fMRI.",
+   "context": "Same post. The author says it is plausible that optimal H-coil placement could be determined with cheaper, more available structural MRI instead of the expensive fMRI neuronavigation that SAINT requires.",
+   "post_title": "Are Brain Circuits Driving Depression?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-brain-circuits-driving-depression",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "plausible ... could",
+   "entities": [
+    "H-coil",
+    "dTMS",
+    "structural MRI",
+    "fMRI",
+    "SAINT"
+   ],
+   "finder_note": "Hedged technology and cost call; no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1794",
+   "forecaster": "owen",
+   "statement_date": "2025-07-02",
+   "quote": "More work needs to be done, but depression may be a solved problem for the vast majority of people shortly, if only insurance keeps up.",
+   "context": "Closing line of the post. After the accelerated TMS trial (87.8 percent response, 78.0 percent remission) and the circuit-targeting data, the author says depression may be a solved problem for the vast majority of people 'shortly', conditional on insurance keeping up.",
+   "post_title": "Are Brain Circuits Driving Depression?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-brain-circuits-driving-depression",
+   "area_guess": "practice_adoption",
+   "horizon_text": "shortly",
+   "confidence_phrase": "may be",
+   "entities": [
+    "TMS",
+    "dTMS",
+    "BrainsWay",
+    "insurance",
+    "depression"
+   ],
+   "finder_note": "Big-picture call; conditional on payer coverage; 'shortly' is undated.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1796",
+   "forecaster": "owen",
+   "statement_date": "2025-07-09",
+   "quote": "Either way, well-designed studies will suss out the truth, if we will allow dispassionate science to do what it does best—tease out cause and effect, even when it’s difficult.",
+   "context": "Closing lines of an essay arguing there is no robust evidence that psychotherapy is a necessary component of psychedelic or ketamine treatment. The author expects that well-designed trials (drug with versus without therapy) will settle whether therapy adds anything, conditional on 'dispassionate science' being allowed to run such trials.",
+   "post_title": "Does \"Psychedelic-Assisted Therapy\" Have Supporting Evidence?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-is-no-robust-evidence-for-therapy",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "psychedelic-assisted therapy",
+    "ketamine"
+   ],
+   "finder_note": "Conditional ('if we will allow'); no date. Generic expectation that future trials will resolve the therapy question.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1797",
+   "forecaster": "owen",
+   "statement_date": "2025-07-09",
+   "quote": "I don’t see any reason why post-treatment psychotherapy, when paired with the needs of the patient, should be any less effective than these treatments already are.",
+   "context": "Section on the plausibility of psychotherapy after (not during) psychedelic dosing. The author expects post-treatment psychotherapy paired with a psychedelic to be at least as effective as psychotherapy paired with existing antidepressants such as Prozac or Zoloft, which he says get better outcomes when therapy is added.",
+   "post_title": "Does \"Psychedelic-Assisted Therapy\" Have Supporting Evidence?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-is-no-robust-evidence-for-therapy",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I don’t see any reason why",
+   "entities": [
+    "psychedelics",
+    "Prozac",
+    "Zoloft"
+   ],
+   "finder_note": "Hedged expectation about the efficacy of a not-yet-tested sequence (psychedelic, then therapy); no trial or date named.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1798",
+   "forecaster": "owen",
+   "statement_date": "2025-07-09",
+   "quote": "Still, despite the remarkable promise this compound —perhaps above all others—holds to relieve profound human suffering, it’s really, really hard to argue that the therapy could assist much during the process.",
+   "context": "Ibogaine section ('Ibogaine: (head shake)'). Compound claim: ibogaine holds remarkable promise, perhaps above all other psychedelic compounds, to relieve profound human suffering; and therapy is unlikely to assist during the ibogaine experience itself, because patients need cardiac telemetry, an escort to the bathroom, and sit with an eye mask on.",
+   "post_title": "Does \"Psychedelic-Assisted Therapy\" Have Supporting Evidence?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-is-no-robust-evidence-for-therapy",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "remarkable promise; really, really hard to argue that the therapy could assist",
+   "entities": [
+    "ibogaine"
+   ],
+   "finder_note": "Compound claim: promise of ibogaine plus doubt that in-session therapy helps. Both undated potential claims.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1800",
+   "forecaster": "owen",
+   "statement_date": "2025-07-12",
+   "quote": "But this is not the world we live in—we will spend endless time ignoring the causes of problems, and pouring gas on fires.",
+   "context": "After noting that child sexual abuse and youth cannabis use are the main drivers of depersonalization, the author says a just world would focus on prevention, then predicts society will instead keep ignoring the causes ('Public health is so last year!'). Cynical forecast about public-health priorities, used to justify focusing on treatment (TMS).",
+   "post_title": "Depersonalization and Its Discontents",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depersonalization-and-its-discontents",
+   "area_guess": "other",
+   "horizon_text": "endless time",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Rhetorical, cynical forecast about society; no date, no measurable target.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1808",
+   "forecaster": "owen",
+   "statement_date": "2025-07-19",
+   "quote": "Because child sexual abuse is a plague on the house of humanity, and even a semblance of justice for the victims won’t undo that. It would, however, be a nice start.",
+   "context": "Closing of the Epstein essay, answering 'Why are we talking about Jeffrey Epstein?'. The author says CSA is a plague on humanity and that even a semblance of justice for the victims would not undo that harm, though it would be a start.",
+   "post_title": "Epstein Was A Symptom of a Public Health Problem",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/jeffery-epstein-was-a-symptom-of",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "Jeffrey Epstein"
+   ],
+   "finder_note": "Conditional negative claim (justice, if it comes, will not undo the harm); low forecast value.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1812",
+   "forecaster": "owen",
+   "statement_date": "2025-07-27",
+   "quote": "I started writing this before the Administration’s latest “health initiative” that proposes massive involuntary treatment, so it’s even more likely now.",
+   "context": "Opening section. The author says he began the article before the federal administration's 'health initiative' (executive order on civil commitment) that proposes massive involuntary treatment; 'it' is 'even more likely now'. The referent is ambiguous: more involuntary treatment happening, or the relevance of his critique.",
+   "post_title": "Is Involuntary Psychiatric Hospitalization Causing Harm?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-involuntary-psychiatric-hospitalization",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "even more likely",
+   "entities": [
+    "the Administration (federal executive order on civil commitment)"
+   ],
+   "finder_note": "Borderline: ambiguous referent of 'it'. Logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1813",
+   "forecaster": "owen",
+   "statement_date": "2025-07-27",
+   "quote": "We have IV Ketamine, Spravato, Accelerated TMS, SAINT TMS, and soon psychedelic treatments.",
+   "context": "Arguing that a 5-7 day inpatient stay with oral antidepressants cannot work because they take weeks. Lists existing faster-acting treatments and asserts that psychedelic treatments will soon be among them (implying imminent approval or availability).",
+   "post_title": "Is Involuntary Psychiatric Hospitalization Causing Harm?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-involuntary-psychiatric-hospitalization",
+   "area_guess": "regulatory",
+   "horizon_text": "soon",
+   "confidence_phrase": "none",
+   "entities": [
+    "IV Ketamine",
+    "Spravato",
+    "Accelerated TMS",
+    "SAINT TMS",
+    "psychedelic treatments"
+   ],
+   "finder_note": "Later in the post the author hedges: 'rapid-acting psychedelics, if approved by the FDA'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1819",
+   "forecaster": "owen",
+   "statement_date": "2025-07-27",
+   "quote": "This practice shift will be challenging for all the reasons Awais Aftab highlights—liability is a concern, the optics of that risk are a concern, and more.",
+   "context": "Closing section. The author calls on clinicians to default to discharge instead of involuntary admission in edge cases and predicts this shift in practice will be difficult because of liability and optics concerns.",
+   "post_title": "Is Involuntary Psychiatric Hospitalization Causing Harm?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-involuntary-psychiatric-hospitalization",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Awais Aftab"
+   ],
+   "finder_note": "Prediction about the difficulty of a practice change the author advocates.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1821",
+   "forecaster": "owen",
+   "statement_date": "2025-08-02",
+   "quote": "This makes me more comfortable with the validity of these results, and thus more excited to pull together an article that won’t make me look dumb a year later if the findings don’t hold up.",
+   "context": "Meta-article on a Spanish retrospective cohort (Moleón-Ruiz et al., Clinical Neurophysiology 2025; n=104) in which 30 sessions of bilateral DLPFC rTMS reduced suicidal ideation (61% SI remission), with lower baseline anxiety predicting greater SI reduction. Because this matches Siddiqi et al.'s circuit findings, the author expresses confidence the results will hold up.",
+   "post_title": "Is TMS A Rapid Acting Treatment for Suicidal Thoughts?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-tms-a-rapid-acting-treatment-for",
+   "area_guess": "clinical_trial",
+   "horizon_text": "a year later",
+   "confidence_phrase": "more comfortable with the validity",
+   "entities": [
+    "Moleón-Ruiz et al.",
+    "Siddiqi et al.",
+    "rTMS"
+   ],
+   "finder_note": "Implicit forecast that the rTMS-for-suicidal-ideation findings will hold up. Borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1826",
+   "forecaster": "owen",
+   "statement_date": "2025-08-05",
+   "quote": "Young people are busy building businesses to be acquired by Pharma. They’re not gonna turn around and decide that the entire Pharma business model is all wrong… that’s just crazy talk.",
+   "context": "Footnote 12 on the What If Ventures fellowship and the 2000+ funded mental-health startups: young founders build companies to be acquired by pharma and will not challenge the pharma business model, so startups will not address antipsychotic-driven metabolic harm.",
+   "post_title": "An Inconvenient Truth about the Mental Health Crisis: Obesity!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-inconvenient-truth-about-the-mental-65c",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "not gonna",
+   "entities": [
+    "What If Ventures",
+    "pharmaceutical industry (Pharma)",
+    "mental health start-ups"
+   ],
+   "finder_note": "Footnote in a 'revisited' repost of an older article; original date not given. Sibling: 'never going to get a company funded'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1827",
+   "forecaster": "owen",
+   "statement_date": "2025-08-05",
+   "quote": "You’re never going to get a company funded with that attitude.",
+   "context": "Footnote 12: a founder who says the entire pharma business model is wrong will never get venture funding; such a stance sounds 'anti-psychiatry'.",
+   "post_title": "An Inconvenient Truth about the Mental Health Crisis: Obesity!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-inconvenient-truth-about-the-mental-65c",
+   "area_guess": "company_market",
+   "horizon_text": "never",
+   "confidence_phrase": "never going to",
+   "entities": [
+    "venture capital",
+    "pharmaceutical industry (Pharma)"
+   ],
+   "finder_note": "Negative call; part of a repost of an older article.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1830",
+   "forecaster": "owen",
+   "statement_date": "2025-08-07",
+   "quote": "However, the benefit to society of bulking up adept therapists is that they might also be able to treat the “emotional distress” of our white male perpetrators, before they do something awful, too.",
+   "context": "Conditional: if society invests in more skilled therapists for murder-suicide survivors, those therapists might also treat the distress of would-be perpetrators before violence occurs. Hedged.",
+   "post_title": "Is Murder-Suicide A New \"Rare Disease\" Category?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-murder-suicide-a-new-rare-disease",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [],
+   "finder_note": "Conditional and hedged; low resolvability.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1831",
+   "forecaster": "owen",
+   "statement_date": "2025-08-09",
+   "quote": "Depression—we have among the most remarkable treatments ever, already here, now, published, and more data are on the way.",
+   "context": "Opening of the post. The author says accelerated TMS treatments for depression (SAINT at 79% remission; a Brainsway H1-coil six-half-day protocol at 78% remission, top-lined) are already published and that more data are coming.",
+   "post_title": "Why Pet Insurance May Approve Cutting-Edge Treatments Before UnitedHealth Group",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/your-dog-might-get-life-saving-brain",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "are on the way",
+   "entities": [
+    "accelerated TMS",
+    "SAINT",
+    "Brainsway H1 coil"
+   ],
+   "finder_note": "Low-specificity call that further accelerated-TMS data will be published.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1832",
+   "forecaster": "owen",
+   "statement_date": "2025-08-09",
+   "quote": "However, I’ll put a cash-money bet on your pets getting access to accelerated TMS before your family, at least it comes to UnitedHealth Group’s plans’ coverage.",
+   "context": "Central bet of the post. Prompted by a Frontiers in Veterinary Medicine RCT of a three-day rTMS protocol for drug-resistant epilepsy in dogs, the author bets that pets will get access to accelerated TMS before UnitedHealth Group plans cover it for humans.",
+   "post_title": "Why Pet Insurance May Approve Cutting-Edge Treatments Before UnitedHealth Group",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/your-dog-might-get-life-saving-brain",
+   "area_guess": "payer_policy",
+   "horizon_text": "before your family",
+   "confidence_phrase": "I’ll put a cash-money bet",
+   "entities": [
+    "UnitedHealth Group",
+    "accelerated TMS"
+   ],
+   "finder_note": "Restated later in the post as 'Accelerated TMS for Dogs will be at scale before United covers it.'",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1834",
+   "forecaster": "owen",
+   "statement_date": "2025-08-09",
+   "quote": "I think Private Equity will see the goldmine in Accelerated TMS…except…for dogs. Cause despite ample evidence, United ain’t budging any time soon, when it comes to humans.",
+   "context": "After noting private-equity roll-ups of veterinary practices and PE interest in human TMS, the author predicts PE will pursue accelerated TMS for dogs (veterinary), not for humans.",
+   "post_title": "Why Pet Insurance May Approve Cutting-Edge Treatments Before UnitedHealth Group",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/your-dog-might-get-life-saving-brain",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... will",
+   "entities": [
+    "private equity",
+    "accelerated TMS"
+   ],
+   "finder_note": "Paired with the next sentence about United not budging on human coverage.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1837",
+   "forecaster": "owen",
+   "statement_date": "2025-08-10",
+   "quote": "An important note: I'm highly dubious that, absent a much larger data set, we would see a difference. Death is a rare outcome in young people.",
+   "context": "Commentary on Mughal, Young et al. (JCPP Advances), a meta-analysis of therapeutic interventions after adolescent self-harm (29 RCTs, 3470 participants). The pooled analysis found no difference in mortality; the author expects no mortality difference will be shown without a much larger dataset.",
+   "post_title": "Does Intervention After Self-Harm Save Young Lives?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-help-for-kids-after-self-harm-ee1",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I'm highly dubious",
+   "entities": [
+    "Mughal/Young et al. meta-analysis (JCPP Advances)"
+   ],
+   "finder_note": "Conditional negative call about future evidence on youth mortality after self-harm interventions.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1838",
+   "forecaster": "owen",
+   "statement_date": "2025-08-10",
+   "quote": "The good news is that we could do these psychotherapeutic things in hospitals, and they might be effective.",
+   "context": "After stating there is no evidence that medication-focused psychiatric hospitalization saves the lives of youth after self-harm, the author suggests specialized psychotherapies delivered inside hospitals might be effective.",
+   "post_title": "Does Intervention After Self-Harm Save Young Lives?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-help-for-kids-after-self-harm-ee1",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "could ... might",
+   "entities": [
+    "psychiatric hospitalization"
+   ],
+   "finder_note": "Hedged possibility, not a firm call.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

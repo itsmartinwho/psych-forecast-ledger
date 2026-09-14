@@ -1,0 +1,889 @@
+{
+ "packet": "recode-12.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1276",
+   "forecaster": "owen",
+   "statement_date": "2024-10-17",
+   "quote": "Two hundred individuals volunteered for this 15-person trial. If we conduct ourselves ethically, these studies will continue to enroll robustly.",
+   "context": "Two hundred people volunteered for the 15-person veteran psilocybin trial. The author predicts veteran psychedelic studies will keep enrolling strongly if researchers conduct themselves ethically.",
+   "post_title": "Yet More Data on Psychedelics in Veterans with Depression",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/yet-more-data-on-psychedelics-in",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will continue",
+   "entities": [
+    "psilocybin"
+   ],
+   "finder_note": "Conditional ('If we conduct ourselves ethically').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1278",
+   "forecaster": "owen",
+   "statement_date": "2024-10-20",
+   "quote": "More transparency would put this kind of speculation to rest, but that's not what we've gotten from that sizeable corporate entity, and I doubt we will.",
+   "context": "Closing of a post that uses TikTok viewer geography (over 223,000 views from the Philippines on a video about UnitedHealthcare layoffs) to infer the scale of UnitedHealthcare/Optum's offshore workforce, after noting that UnitedHealthcare does not report US layoffs under the federal WARN Act. The author expects no more transparency from the company.",
+   "post_title": "Can TikToK Map UnitedHealthcares' Global Workforce?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-tiktok-map-unitedhealthcares",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I doubt",
+   "entities": [
+    "UnitedHealthcare",
+    "Optum",
+    "WARN Act",
+    "TikTok"
+   ],
+   "finder_note": "Negative call: the author does not expect UnitedHealthcare to become transparent about layoffs or offshore staffing.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1285",
+   "forecaster": "owen",
+   "statement_date": "2024-10-27",
+   "quote": "Our editorial point of view is that medical devices that modulate the brain will be the future.",
+   "context": "Review of the Nature Medicine phase 2 fully remote sham-controlled trial of home-based transcranial direct current stimulation (Flow Neuroscience device; the author nicknames it HEAD-TRIP, real name EMPOWER). Opening editorial stance: brain-modulating medical devices, not oral medicines, will be the future of treatment.",
+   "post_title": "The Devices Are Coming! Depression Treated At-Home Without Meds?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-devices-are-coming-depression",
+   "area_guess": "practice_adoption",
+   "horizon_text": "the future",
+   "confidence_phrase": "will be",
+   "entities": [
+    "Flow Neuroscience",
+    "transcranial direct current stimulation (tDCS)",
+    "Nature Medicine"
+   ],
+   "finder_note": "Restates a recurring editorial thesis of the newsletter; contrasted with Elon Musk's 'it's coming' self-driving promises.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1286",
+   "forecaster": "owen",
+   "statement_date": "2024-10-27",
+   "quote": "Despite being an at-home trial, it probably doesn't generalize to Medicaid populations easily, for example.",
+   "context": "Same tDCS review; after listing the trial's exclusion criteria (no prior ketamine or esketamine, no psychiatric hospitalization, no bipolar, PTSD, OCD or primary anxiety diagnoses, a current psychiatrist and an up-to-date phone required), the author judges the results unlikely to generalize to Medicaid populations.",
+   "post_title": "The Devices Are Coming! Depression Treated At-Home Without Meds?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-devices-are-coming-depression",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "Flow Neuroscience",
+    "transcranial direct current stimulation (tDCS)",
+    "Medicaid"
+   ],
+   "finder_note": "Borderline: generalizability judgment about the EMPOWER trial; implicitly a call about results in broader, sicker populations.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1289",
+   "forecaster": "owen",
+   "statement_date": "2024-10-27",
+   "quote": "And we shouldn't expect that from tDCS, based on prior studies.",
+   "context": "Same review; the author asks whether home tDCS is 'at home SAINT TMS' and answers no: tDCS should not be expected to match SAINT-level efficacy, based on prior studies (pooled tDCS effect size 0.46; this trial 0.37).",
+   "post_title": "The Devices Are Coming! Depression Treated At-Home Without Meds?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-devices-are-coming-depression",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "shouldn't expect",
+   "entities": [
+    "transcranial direct current stimulation (tDCS)",
+    "SAINT (Stanford accelerated TMS)",
+    "Flow Neuroscience"
+   ],
+   "finder_note": "Negative expectation: tDCS will not reach SAINT-like effect sizes.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1298",
+   "forecaster": "owen",
+   "statement_date": "2024-11-03",
+   "quote": "I think that will take technology and better contracts",
+   "context": "Roundup of the author's own research and clinical projects (Fermata, Acacia Clinics, Psyrin, Videra Health). Opening: the author calls himself 'an enthusiast for the future to be better' and thinks that better future will require technology and better (payer) contracts.",
+   "post_title": "Innovation is Coming!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/innovation-is-coming",
+   "area_guess": "practice_adoption",
+   "horizon_text": "the future",
+   "confidence_phrase": "I think",
+   "entities": [
+    "Fermata",
+    "Acacia Clinics",
+    "Psyrin",
+    "Videra Health"
+   ],
+   "finder_note": "Vague structural claim about what improvement in mental health care will require.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1301",
+   "forecaster": "owen",
+   "statement_date": "2024-11-04",
+   "quote": "This is why expensive and error-prone universal screening like preneuvo is a terrible idea. The test will get it wrong enough that people will be subjected to subsequent risk from excessive and invasive workups to follow up on an incidental finding that wouldn't have mattered.",
+   "context": "Statistics essay on sampling, sensitivity and specificity, applied to election polls. Aside on universal screening: whole-body screening like Prenuvo ('preneuvo') will produce enough false positives that people will face risk from invasive follow-up workups.",
+   "post_title": "The Election Polls Are All Wrong!?!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-election-polls-are-all-wrong",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Prenuvo (spelled 'preneuvo')"
+   ],
+   "finder_note": "General predictive claim about the consequences of universal screening; a recurring position of the author.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1308",
+   "forecaster": "owen",
+   "statement_date": "2024-11-13",
+   "quote": "It's got a restricted range of side effects that are annoying, but not life-threatening. Will we discover more at large scale? Probably.",
+   "context": "Review of Cobenfy (xanomeline-trospium), newly FDA-approved for schizophrenia. After noting its side effects are annoying but not life-threatening, the author expects more adverse effects to be discovered once the drug is used at large scale.",
+   "post_title": "Cobenfy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cobenfy",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "Probably",
+   "entities": [
+    "Cobenfy",
+    "xanomeline",
+    "trospium"
+   ],
+   "finder_note": "Post-marketing safety call; question-and-answer form.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1316",
+   "forecaster": "owen",
+   "statement_date": "2024-11-18",
+   "quote": "RCTs aren’t going away any time soon—they’re still an important tool. But like SSRIs, they can’t be the solution that we rely on as gold standard",
+   "context": "Closing thesis of Ben Spielberg's guest essay: randomized controlled trials will remain in use but should not be the sole gold standard. The author closes the post with 'Thanks, Ben, for sharing this with us, I tend to agree.'",
+   "post_title": "Randomized Controlled Trials Are The SSRIs of Trial Design",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/randomized-controlled-trials-are",
+   "area_guess": "clinical_trial",
+   "horizon_text": "any time soon",
+   "confidence_phrase": "aren’t going away",
+   "entities": [
+    "Ben Spielberg",
+    "RCTs",
+    "SSRIs"
+   ],
+   "finder_note": "Guest text endorsed by the author ('I tend to agree'), so own_claim set true; second sentence is normative, first is predictive.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1317",
+   "forecaster": "owen",
+   "statement_date": "2024-11-19",
+   "quote": "We have written about the potential for GLP-1 medicines (Brand names Ozempic, Monjauro, Wegovy, Zepbound, etc.) to reduce, among other things, my personal problems of diabetes and obesity and, maybe, help with addiction.",
+   "context": "Opening of an article on a Swedish registry cohort study in JAMA Psychiatry (227,866 people with alcohol use disorder). The author restates the newsletter's earlier hedged view that GLP-1 drugs may help with addiction, beyond diabetes and obesity.",
+   "post_title": "GLP-1s May Work Better In Alcohol Use Disorder than Approved Treatments",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/glp-1s-may-work-better-in-alcohol",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "maybe",
+   "entities": [
+    "GLP-1",
+    "Ozempic",
+    "Mounjaro",
+    "Wegovy",
+    "Zepbound",
+    "semaglutide",
+    "liraglutide"
+   ],
+   "finder_note": "Borderline; restatement of an earlier hedged call. The author spells Mounjaro as 'Monjauro'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1318",
+   "forecaster": "owen",
+   "statement_date": "2024-11-19",
+   "quote": "Alcohol use disorder has been difficult to treat, but it may be that semeglutide, liraglutide, hold promise as both safer and more effective treatments in subsequent evaluations.",
+   "context": "Conclusion of the same article. The cohort study found semaglutide and liraglutide cut alcohol-related hospitalization more than approved AUD drugs, which also raised suicide-attempt risk (aHR 1.15). The author expects later evaluations to support GLP-1s as safer and more effective AUD treatments.",
+   "post_title": "GLP-1s May Work Better In Alcohol Use Disorder than Approved Treatments",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/glp-1s-may-work-better-in-alcohol",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in subsequent evaluations",
+   "confidence_phrase": "it may be that ... hold promise",
+   "entities": [
+    "semaglutide",
+    "liraglutide",
+    "GLP-1",
+    "naltrexone",
+    "JAMA Psychiatry"
+   ],
+   "finder_note": "Hedged compound call: safer and more effective than approved AUD medications.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1321",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "It may be that the driving force of CMS—which, to be very clear, has been people not wanting to do something stupid and get canned—might not be so important anymore. If everyone is maybe getting fired from all government, you may be able to incentivize different behaviors.",
+   "context": "Letter to Dr. Oz on CMS culture. The author hedges that CMS staff's fear-of-firing motive may weaken under mass firings, letting the administrator incentivize different behaviors.",
+   "post_title": "Letters to Dr. Oz",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "It may be",
+   "entities": [
+    "CMS",
+    "Mehmet Oz",
+    "Trump administration"
+   ],
+   "finder_note": "Hedged conditional on mass government firings.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1323",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "Use the CMS levers to create novel payment pathways for breakthrough medical devices. Over the long term, you’ll pay less.",
+   "context": "Core advice of the letter to Dr. Oz: if CMS creates new payment pathways for FDA breakthrough-designated medical devices, CMS will pay less over the long term.",
+   "post_title": "Letters to Dr. Oz",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
+   "area_guess": "payer_policy",
+   "horizon_text": "Over the long term",
+   "confidence_phrase": "you’ll",
+   "entities": [
+    "CMS",
+    "Mehmet Oz",
+    "FDA breakthrough devices"
+   ],
+   "finder_note": "Advice plus predicted consequence; the imperative is normative, the second sentence is predictive.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1324",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "If you do this, you won’t have to pay off the big pharmacy benefit managers to negotiate rebates back and forth.",
+   "context": "Letter to Dr. Oz, continuing the breakthrough-device payment advice: paying for devices would avoid PBM rebate negotiations.",
+   "post_title": "Letters to Dr. Oz",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "CMS",
+    "pharmacy benefit managers"
+   ],
+   "finder_note": "Conditional on CMS creating device payment pathways.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1325",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "This would allow these breakthrough medical devices—which, importantly, aren’t drugs with endless markups—to get rapidly to people who need them. This would also drive investment dollars into technology, not just pharma.",
+   "context": "Letter to Dr. Oz, after describing the Breakthrough Treatments Act (automatic payment for breakthrough devices in hospital and outpatient settings). The author predicts such payment would get devices to patients rapidly and shift investment toward technology.",
+   "post_title": "Letters to Dr. Oz",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [
+    "Breakthrough Treatments Act",
+    "CMS",
+    "FDA breakthrough devices"
+   ],
+   "finder_note": "Conditional on CMS action or passage of the Breakthrough Treatments Act; compound claim (access plus investment flows).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1326",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "And if you try to do that with better drugs, it’s going to cost more because we already know drug prices go up forever.",
+   "context": "Letter to Dr. Oz on making outpatient care cheaper. The author predicts a drug-centered strategy will cost more because drug prices keep rising indefinitely.",
+   "post_title": "Letters to Dr. Oz",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
+   "area_guess": "payer_policy",
+   "horizon_text": "forever",
+   "confidence_phrase": "it’s going to",
+   "entities": [
+    "CMS",
+    "Mehmet Oz"
+   ],
+   "finder_note": "Conditional plus a standing claim that drug prices rise forever.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1327",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "There’s $485+ billion a year in pharmacy benefit management rebates. And that goes up at 8.8% every year. That will eat up your entire budget at CMS, given enough time.",
+   "context": "Letter to Dr. Oz. Numeric premise: PBM rebates of $485+ billion a year growing 8.8% a year; prediction that this will consume the whole CMS budget given enough time, unless Oz stops it ('If you let it.').",
+   "post_title": "Letters to Dr. Oz",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
+   "area_guess": "payer_policy",
+   "horizon_text": "given enough time",
+   "confidence_phrase": "will eat up",
+   "entities": [
+    "CMS",
+    "pharmacy benefit managers",
+    "Mehmet Oz"
+   ],
+   "finder_note": "Numeric growth claim (8.8% per year) with an open-ended horizon; conditional 'If you let it.'",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1328",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "However, if you start paying physicians more, you will get better outcomes—stop slow-rolling at-risk contracts!",
+   "context": "Letter to Dr. Oz, closing advice on at-risk contracts: paying physicians more (tied to risk) will yield better outcomes.",
+   "post_title": "Letters to Dr. Oz",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "CMS",
+    "physicians"
+   ],
+   "finder_note": "Conditional on CMS paying physicians more under at-risk contracts.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1329",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "Start paying for breakthrough medical devices that will allow physicians in the outpatient setting to drive down costs.",
+   "context": "Letter to Dr. Oz. Imperative with a predictive clause: paying for breakthrough devices will let outpatient physicians drive down costs.",
+   "post_title": "Letters to Dr. Oz",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will allow",
+   "entities": [
+    "CMS",
+    "FDA breakthrough devices",
+    "physicians"
+   ],
+   "finder_note": "Imperative sentence; the predictive clause is the logged claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1330",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "And this might mean you have to pay psychiatrists as much as neurosurgeons.",
+   "context": "Letter to Dr. Oz. Hedged consequence of at-risk, outcome-based payment: psychiatrists who take on high-risk patients and cut costs might be paid as much as neurosurgeons.",
+   "post_title": "Letters to Dr. Oz",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-dr-oz",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "CMS",
+    "psychiatrists",
+    "neurosurgeons"
+   ],
+   "finder_note": "Hedged and conditional on outcome-based payment reform; author flags self-interest ('Said a psychiatrist!').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1336",
+   "forecaster": "owen",
+   "statement_date": "2024-11-22",
+   "quote": "However, I think the decisions Dr Pinsky would make would be for the public good.",
+   "context": "Letter to RFK Jr. The author predicts Pinsky's decisions as SAMHSA administrator would serve the public good.",
+   "post_title": "Letters to The Trump Administration: Dr. Drew for SAMHSA Administrator ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I think",
+   "entities": [
+    "Drew Pinsky",
+    "SAMHSA"
+   ],
+   "finder_note": "Conditional on appointment.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1340",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "I recommend setting standards inside the FDA regarding the timeframe for the review of these submissions. It will allow your agency to get more money, it will encourage industry to pay you for the advice before the submissions, and this will lead to less uncompensated work reviewing submitted applications.",
+   "context": "Open letter to Martin Makary, FDA commissioner nominee. The author recommends review-time standards for 513(g) device classification requests and predicts this will bring FDA more fee income, more industry pre-submission requests, and less uncompensated review work.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "FDA",
+    "Martin Makary",
+    "Section 513(g)"
+   ],
+   "finder_note": "Conditional on FDA adopting 513(g) review timelines; compound (money, industry behavior, workload).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1341",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "It will improve the quality of submissions to the FDA and teach medical device manufacturers, many of whom are from outside traditional biosciences, to submit better applications to your agency, which speeds up everything later.",
+   "context": "Letter to Dr. Makary, same 513(g) recommendation: predicted downstream effect on device submission quality and review speed.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "regulatory",
+   "horizon_text": "later",
+   "confidence_phrase": "will improve",
+   "entities": [
+    "FDA",
+    "Martin Makary",
+    "medical device manufacturers"
+   ],
+   "finder_note": "Conditional on FDA adopting 513(g) review timelines.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1343",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "We can develop all the remarkable technologies we want, but if it is too expensive to obtain approval and those therapies never get paid for in the healthcare marketplace? Investors will not put money into them and will not get to the public.",
+   "context": "Letter to Dr. Makary, 'Breakthroughs + Payment'. Conditional: if approval stays expensive and therapies are not paid for, investors will not fund them and they will not reach the public.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will not",
+   "entities": [
+    "FDA",
+    "CMS",
+    "investors"
+   ],
+   "finder_note": "Conditional on approval cost and payment failure.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1344",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "Pharmaceuticals will not be the best way to treat every problem.",
+   "context": "Letter to Dr. Makary. Standalone claim that drugs will not be the best treatment for every problem, in support of device and payment reform.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will not be",
+   "entities": [
+    "FDA",
+    "pharmaceuticals"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1345",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "So let’s let Industry pay the FDA for advice at market rates, and that will speed up the process of getting things approved, especially if the FDA and CMS work hand-in-hand to ensure approval and payment are the same thing.",
+   "context": "Letter to Dr. Makary. Predicts that industry paying FDA for advice at market rates will speed approvals, especially with FDA-CMS coordination on payment.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will speed up",
+   "entities": [
+    "FDA",
+    "CMS",
+    "industry"
+   ],
+   "finder_note": "Conditional on FDA charging market rates for advice.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1346",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "If we don’t get this part right, we’re incentivizing capital to go flow into innovations that fail to get anyone healthier.",
+   "context": "Letter to Dr. Makary. Conditional: without linking approval to payment and cost-effectiveness, capital will flow into innovations that do not improve health.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "FDA",
+    "CMS"
+   ],
+   "finder_note": "Conditional; present-progressive phrasing with a forward reading.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1347",
+   "forecaster": "owen",
+   "statement_date": "2024-11-23",
+   "quote": "There’s going to be a lot of bad behavior in the industry. If the hammer doesn’t come down, open up the floodgates for approval on bad behavior.",
+   "context": "Postscript of the letter to Dr. Makary urging that the FDA Bad Ad Program cover devices. The author predicts much industry misconduct and, without enforcement, more of it alongside faster approvals.",
+   "post_title": "Letters to The Trump Administration: Advice for The FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/letters-to-the-trump-administration-c9c",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "There’s going to be",
+   "entities": [
+    "FDA",
+    "Bad Ad Program",
+    "industry"
+   ],
+   "finder_note": "Compound: a direct call plus a conditional on enforcement.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1364",
+   "forecaster": "owen",
+   "statement_date": "2024-11-29",
+   "quote": "That is precisely what BlueSky is doing, and that's why it will get more journalist users and more breaking news.",
+   "context": "Essay on Bluesky's personalized moderation. The author cites a report that Bluesky already drives more traffic to news sites than X and at least twice as many visits as Threads, and predicts Bluesky will gain journalists and breaking news.",
+   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Bluesky",
+    "X",
+    "Threads",
+    "The Guardian"
+   ],
+   "finder_note": "Platform-adoption call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1365",
+   "forecaster": "owen",
+   "statement_date": "2024-11-29",
+   "quote": "That will accelerate the death of what was a global town square.",
+   "context": "Follows the Bluesky claim: journalists moving to Bluesky will accelerate the decline ('death') of X, formerly Twitter, as the global town square.",
+   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "X",
+    "Twitter",
+    "Bluesky",
+    "Elon Musk"
+   ],
+   "finder_note": "Call on X's decline; compound with the preceding Bluesky statement.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1366",
+   "forecaster": "owen",
+   "statement_date": "2024-11-29",
+   "quote": "The town Square can turn into downtown San Francisco a lot faster than one could imagine with poor governance",
+   "context": "Metaphor comparing X under Musk's governance to downtown San Francisco's store closures; implies X will hollow out quickly. Followed by 'Places that are lawless and nasty do become a post-apocalyptic ghost-town pretty quickly, huh?'",
+   "post_title": "A Prayer for The Dying: Bluesky Sticks the Landing Via Personalized Moderation",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-prayer-for-the-dying-bluesky-sticks",
+   "area_guess": "company_market",
+   "horizon_text": "a lot faster than one could imagine",
+   "confidence_phrase": "can",
+   "entities": [
+    "X",
+    "Elon Musk"
+   ],
+   "finder_note": "Borderline: metaphorical, hedged claim about X's decline; logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1373",
+   "forecaster": "owen",
+   "statement_date": "2024-12-01",
+   "quote": "I'm not sure this will be the case forever, but the older I get, the less a grueling internal medicine residency is going to seem appealing",
+   "context": "Discussing the training barrier to dual specialization in psychiatry and rheumatology (a rheumatology fellowship requires an internal medicine residency, then two to three more years). The author hedges that this requirement may not last forever, while he himself is unlikely to go back for it.",
+   "post_title": "Vagus Nerve Stimulation for Rheumatoid Arthritis?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/vagus-nerve-stimulation-for-rheumatoid",
+   "area_guess": "other",
+   "horizon_text": "forever",
+   "confidence_phrase": "I'm not sure this will be the case forever",
+   "entities": [
+    "Owen Muir"
+   ],
+   "finder_note": "Borderline: hedged possibility that training pathways change, plus a personal-career statement; logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1374",
+   "forecaster": "owen",
+   "statement_date": "2024-12-01",
+   "quote": "We're all—those interested in this crucial overlap— going to be “winging it.”",
+   "context": "Because structured cross-training between psychiatry and rheumatology is hard to obtain, the author predicts clinicians working at the psychiatry-rheumatology overlap (autoimmune and psychiatric conditions) will improvise.",
+   "post_title": "Vagus Nerve Stimulation for Rheumatoid Arthritis?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/vagus-nerve-stimulation-for-rheumatoid",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "going to be",
+   "entities": [
+    "Owen Muir"
+   ],
+   "finder_note": "Prediction about clinical practice at the psychiatry-rheumatology interface.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1378",
+   "forecaster": "owen",
+   "statement_date": "2024-12-03",
+   "quote": "It is buying investigator time or study coordinator time early to have those conversations with potential subjects. If we pay for it, they will prioritize these conversations, like any other line item in a budget.",
+   "context": "Essay (inspired by Dan Karlin, M.D., CMO at MindMed) on aligning incentives between trial investigators and subjects. The author argues that budgeting investigator or study-coordinator time for early informed-consent conversations will make sites prioritize those conversations.",
+   "post_title": "The Uncomfortable Reality of Clinical Trials",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-uncomfortable-reality-of-clinical",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Dan Karlin",
+    "MindMed"
+   ],
+   "finder_note": "Borderline: general conditional claim about trial operations, close to a truism; logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1379",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "People hate you with a uniformity of opinion that is traditionally reserved for people who are literal mass murderers. And I think that kind of public relations problem isn't going to go away— absent radical changes.",
+   "context": "Addressing healthcare companies and specifically UnitedHealthcare after CEO Brian Thompson's murder and the vitriolic public reaction in the author's TikTok comments. He predicts the public-hatred / PR problem will persist unless the company changes radically.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... isn't going to",
+   "entities": [
+    "UnitedHealthcare",
+    "Brian Thompson"
+   ],
+   "finder_note": "Conditional ('absent radical changes').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1380",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "there are a lot more crackpots out there, and as life gets cheaper and cheaper; it's going to be harder to get decent people to try to turn the ship around.",
+   "context": "The author argues the assassination of UnitedHealthcare's CEO will make it harder to recruit decent people into insurance leadership to reform the system.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "it's going to be harder",
+   "entities": [
+    "UnitedHealthcare"
+   ],
+   "finder_note": "Compound: also implies continued violence risk ('a lot more crackpots out there').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1381",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "the only people who are going to take the job of insurance executive are people who are cold-blooded enough to think, “The risk is worth it.”",
+   "context": "Prediction about who will take insurance-executive jobs in a world where executives are murdered in the street; the author wants a better insurance system but says the candidate pool is being cut down.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to",
+   "entities": [
+    "UnitedHealthcare"
+   ],
+   "finder_note": "Rhetorical but sincere prediction about the insurance-executive labor pool.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1382",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "This assassination creates a worse world; only the most callous will sign up for managing systems that require empathy and compassion. Without this compassion, we will be left bereft of people motivated to balance ethics and profit motives appropriately.",
+   "context": "Continues the argument: the murder will select for callous managers of health-insurance systems and leave the system without people able to balance ethics and profit.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "UnitedHealthcare"
+   ],
+   "finder_note": "Compound claim; stronger restatement of the preceding labor-pool prediction.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1383",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "These systems desperately need more good people driven by moral scruples and passion, not just piles of money. We're going to get less of those now.",
+   "context": "About UnitedHealthcare's roughly 140,000 employees and insurance systems generally; the author predicts fewer principled people will join after the murder.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "company_market",
+   "horizon_text": "now",
+   "confidence_phrase": "We're going to",
+   "entities": [
+    "UnitedHealthcare"
+   ],
+   "finder_note": "First sentence is normative; the second is the prediction. Restates the labor-pool call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1384",
+   "forecaster": "owen",
+   "statement_date": "2024-12-05",
+   "quote": "United Healthcare is under no apprehension that its deeds, no matter how criminal, will ever lead to personal consequences for its executives or meaningful consequences for its shareholders.",
+   "context": "The author asserts UnitedHealthcare's political donations have 'kept a leash on the Department of Justice regarding enforcement'. Framed as the company's belief, the sentence carries the author's own expectation that no personal or shareholder consequences will follow from its conduct.",
+   "post_title": "Deny, Defend, Depose",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/deny-defend-depose",
+   "area_guess": "regulatory",
+   "horizon_text": "ever",
+   "confidence_phrase": "will ever",
+   "entities": [
+    "UnitedHealthcare",
+    "Department of Justice"
+   ],
+   "finder_note": "Framed as UHC's belief; the surrounding text endorses it. Negative call on enforcement consequences.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

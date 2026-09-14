@@ -1,0 +1,866 @@
+{
+ "packet": "recode-17.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1840",
+   "forecaster": "owen",
+   "statement_date": "2025-08-10",
+   "quote": "More to the point, if these drugs work on their own, without extra-magic therapy , many more people will be able to access them. It will drive costs down dramatically. It will reduce the need for potentially exploitative training for therapists, which can cost thousands of dollars.",
+   "context": "Commentary on Hultgren et al. (General Hospital Psychiatry, 2025), a meta-analysis finding therapy hours do not predict psilocybin outcomes. Conditional forecast: if psychedelics work without adjunctive therapy, access expands, costs fall dramatically, and demand for therapist training falls.",
+   "post_title": "The \"Therapy\" in Psychedelic Assisted Therapy Doesn't Seem to Matter...Again.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-therapy-in-psychedelic-assisted",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "psilocybin",
+    "psychedelic-assisted therapy"
+   ],
+   "finder_note": "Compound conditional (access, cost, training demand) premised on 'if these drugs work on their own'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1841",
+   "forecaster": "owen",
+   "statement_date": "2025-08-10",
+   "quote": "This problem won’t solve itself overnight.",
+   "context": "The 'problem' is the lack of diversity in the therapist workforce (about 75% women, 75-85% white; underrepresentation of Black, Hispanic/Latino and male trainees), which the author says makes an equitable new cadre of psychedelic therapists hard to build.",
+   "post_title": "The \"Therapy\" in Psychedelic Assisted Therapy Doesn't Seem to Matter...Again.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-therapy-in-psychedelic-assisted",
+   "area_guess": "other",
+   "horizon_text": "overnight",
+   "confidence_phrase": "won’t",
+   "entities": [],
+   "finder_note": "Near-truism about a slow-moving workforce trend; logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1842",
+   "forecaster": "owen",
+   "statement_date": "2025-08-10",
+   "quote": "That would mean a more scalable, accessible, and just treatment for many people.",
+   "context": "Closing of the post. If the mushrooms (psilocybin) themselves are 'the magic' rather than the therapy, the author expects a more scalable, accessible and equitable treatment for many people.",
+   "post_title": "The \"Therapy\" in Psychedelic Assisted Therapy Doesn't Seem to Matter...Again.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-therapy-in-psychedelic-assisted",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [
+    "psilocybin"
+   ],
+   "finder_note": "Conditional on psilocybin working without adjunctive therapy; restates the earlier access/cost claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1843",
+   "forecaster": "owen",
+   "statement_date": "2025-08-10",
+   "quote": "I would argue that no one loses out if this turns out to be true, other than those in the business of s elling unvalidated training.",
+   "context": "Follows 'What if the therapy added nothing?' The author claims that if adjunctive therapy adds nothing to psychedelic treatment, the only losers are vendors of unvalidated psychedelic-therapy training.",
+   "post_title": "The \"Therapy\" in Psychedelic Assisted Therapy Doesn't Seem to Matter...Again.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-therapy-in-psychedelic-assisted",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I would argue",
+   "entities": [
+    "psychedelic-assisted therapy"
+   ],
+   "finder_note": "Conditional; the 's elling' spacing is in the source text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1855",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "Up until now, only therapists and scientists have had access to these awesome tools. This will change once people read this book.",
+   "context": "Pitch Overview section (pitch text written 'a year or two' before the post, per the author). Claim that the general public will gain access to mentalizing tools, so far used only by therapists and scientists, once the book 'Don't Panic' is read.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "practice_adoption",
+   "horizon_text": "once people read this book",
+   "confidence_phrase": "will",
+   "entities": [
+    "mentalizing (mentalization-based treatment)",
+    "Don't Panic (book pitch)",
+    "Peter Fonagy",
+    "Anthony Bateman"
+   ],
+   "finder_note": "Conditional on a book that, per the 2025 framing, was not sold and is 'not going to be in your hands any time soon'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1856",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "When you’re done with this book, you won’t be so worried.",
+   "context": "Pitch Overview section. Promised reader outcome of the book 'Don't Panic'; the author adds a disclaimer that this is not medical advice.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "other",
+   "horizon_text": "When you’re done with this book",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Promotional efficacy claim from the pitch text; the book was not sold.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1857",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "This is what I’ve spent years learning how to do, and it’s going to be a much quicker journey for you.",
+   "context": "Pitch Overview section. The author claims readers will learn mentalizing much faster than he did because he already made the mistakes.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "going to be",
+   "entities": [
+    "Owen Scott Muir",
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Promotional claim from the pitch text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1858",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "But you’re probably not gonna return it. Because people don’t do a very good job of that, but that’s a different problem.",
+   "context": "Pitch Overview section, right after the line that a reader who dislikes the premise 'spent $30 on the wrong book'. Prediction that readers will not return the book.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "probably not gonna",
+   "entities": [
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Joke framing, but the underlying expectation (buyers rarely return books) reads as sincere. Implies a $30 price.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1860",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "We foresee two large audiences for Don’t Panic.",
+   "context": "Pitch Target Audience section. Forecast of two audiences for the book: people suffering or worried about family members (about 20% of the US population at any given time) and buyers of self-help books (18.6M copies a year per the NPD Group).",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "foresee",
+   "entities": [
+    "Don't Panic (book pitch)",
+    "NPD Group"
+   ],
+   "finder_note": "Market-sizing claim from the pitch text; the book was not sold.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1861",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "This book has the potential to attain a global audience in subsequent translations, serving this same target audience worldwide.",
+   "context": "Pitch Target Audience section, about the first audience cohort (people worried about themselves or a family member). Claim the book could reach a global audience through translations.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "has the potential to",
+   "entities": [
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Hedged market claim from the pitch text; the book was not sold.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1862",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "It’s also likely the most humorous book intended to help deep despair you are likely to have land on your desk, with, I imagine, limited direct competitors.",
+   "context": "Pitch section 'A Note About Patient Stories', addressed to the publisher. Estimate of the book's competitive position: the most humorous book on deep despair, with few direct competitors.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Hedged competitive-position claim from the pitch text; 'I imagine' also hedges.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1863",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "And even if they don’t, they’ll appreciate honest guidance about what to say when their own life gets heavy.",
+   "context": "Pitch section 'A Note About Patient Stories'. Prediction that readers who do not have to deal with another person's despair will still value the book's guidance.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "they’ll",
+   "entities": [
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Borderline: promotional reader-reaction claim from the pitch text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1864",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "Mentalizing transformed my life, it has saved the lives of many, many scores of my patients, and it will transform the reader’s life.",
+   "context": "Pitch Chapter Outline, Chapter 1 'The Mentalizing Revolution'. Claimed outcome for readers of the book.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will transform",
+   "entities": [
+    "mentalizing (mentalization-based treatment)",
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Compound: past claims about the author and his patients plus a forward claim about readers. Promotional efficacy claim from the pitch text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1865",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "This communication mastery will transform your relationships.",
+   "context": "Pitch Chapter Outline, Chapter 4 'Empathy Superpowers: Mentalizing Others with Precision'. Claimed outcome for readers who learn the chapter's perspective-taking methods.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will transform",
+   "entities": [
+    "mentalizing (mentalization-based treatment)",
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Promotional efficacy claim from the pitch text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1866",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "Once you develop this secret sense, you’ll be able to resolve conflicts of all varieties.",
+   "context": "Pitch Chapter Outline, Chapter 6 'Resolve Conflicts like a Pro: The Mentalizing Secret'. Conditional claim: readers who learn to measure the emotional temperature in the room will resolve conflicts of all kinds.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "other",
+   "horizon_text": "Once you develop this secret sense",
+   "confidence_phrase": "you’ll be able to",
+   "entities": [
+    "mentalizing (mentalization-based treatment)",
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Conditional promotional claim from the pitch text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1867",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "It’ll remind you of the power of mentalizing and how, done well with persistence, it will totally transform your life.",
+   "context": "Pitch Chapter Outline, Chapter 11 'The Mentalizing Mindset: Embrace the Journey'. Claimed outcome for readers.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will totally transform",
+   "entities": [
+    "mentalizing (mentalization-based treatment)",
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Restates the Chapter 1 claim that mentalizing 'will transform the reader's life'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1868",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "If I do a really good job, you’ll learn how to build trust with yourself and others.",
+   "context": "Sample excerpt from Chapter One of the pitch. Conditional claim about the outcome for readers of the book's trust-building 'recipe'.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "you’ll",
+   "entities": [
+    "Owen Scott Muir",
+    "Don't Panic (book pitch)"
+   ],
+   "finder_note": "Conditional promotional claim from the pitch's sample chapter.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1869",
+   "forecaster": "owen",
+   "statement_date": "2025-08-16",
+   "quote": "When you Rewind, Rewind to when people were curious! It will save you from some very difficult conversations that go nowhere.",
+   "context": "Sample excerpt 'Distract and Return and Rewind'. Advice to use the Rewind technique only toward moments of curiosity, with a predicted effect for readers.",
+   "post_title": "A Book Pitch, Deferred",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-book-pitch-deferred",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will save",
+   "entities": [
+    "The Rewind (mentalizing technique)"
+   ],
+   "finder_note": "Borderline: advice plus a predicted effect. Logged for the predictive reading.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1874",
+   "forecaster": "owen",
+   "statement_date": "2025-08-21",
+   "quote": "We have learned, since then, that functional unblinding will be THE issue on which these compounds and their administration protocols are judged.",
+   "context": "Review of Ross et al. (General Hospital Psychiatry, 2025), a Usona-sponsored phase 2b trial of psilocybin vs niacin in 35 patients with life-threatening illness that did not assess blinding. After the FDA advisory committee on MDMA, the author predicts functional unblinding will be the decisive issue on which psychedelic compounds and protocols are judged.",
+   "post_title": "\"No formal assessment of blinding integrity...was conducted\" Psychedelic Research Can't Go Back in Time, Can It?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/no-formal-assessment-of-blinding",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will be THE issue",
+   "entities": [
+    "FDA",
+    "MDMA",
+    "psilocybin",
+    "Usona Institute",
+    "psychedelics"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1884",
+   "forecaster": "owen",
+   "statement_date": "2025-08-27",
+   "quote": "I mean, there has been so much consolidation it could be any of them because they are all acquiring each other until there is nothing left.",
+   "context": "Footnote 3 of the parody. The fictional insurer UnitedHealthShare is said not to parody any specific half-trillion-dollar company; the author says large health insurers keep acquiring each other toward an endpoint of total consolidation.",
+   "post_title": "Dorothy Utilizes Her Health Plan's Care Navigation Solution",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dorothy-utilizes-her-health-plans",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Hyperbolic trend claim about health-insurer consolidation; no real company is named (the footnote disclaims any specific target).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1890",
+   "forecaster": "owen",
+   "statement_date": "2025-09-05",
+   "quote": "is moving to release more of these “complete response letters.” (CRL)",
+   "context": "Opening of a post on the FDA's complete response letter for the Lykos/MAPS MDMA-assisted therapy application. The author says the FDA, as part of a push toward transparency, is moving to release more CRLs publicly.",
+   "post_title": "The FDA Kills \"Psychedelic-Assisted\"Branded Therapy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fda-kills-psychedelic-assistedbranded",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "is moving to",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Describes an in-progress agency trend; implies more CRL releases to come.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1894",
+   "forecaster": "owen",
+   "statement_date": "2025-09-05",
+   "quote": "any future psychedelic-assisted therapy trials intended for approval from FDA won’t include kooky inner healing intelligen ce or recreating psychotherapy from scratch.",
+   "context": "Summary conclusion after the CRL advised a factorial design with a no-psychotherapy arm and evidence-based standard-of-care psychotherapy: the author predicts that future FDA-approval psychedelic trials will not use MAPS-style 'inner healing intelligence' or newly invented psychotherapies.",
+   "post_title": "The FDA Kills \"Psychedelic-Assisted\"Branded Therapy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-fda-kills-psychedelic-assistedbranded",
+   "area_guess": "clinical_trial",
+   "horizon_text": "any future",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "FDA",
+    "MAPS"
+   ],
+   "finder_note": "Verbatim text splits 'intelligence' as 'intelligen ce'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1901",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "why I think this drug, and others like it, might actually be best understood as a turning point for Medicaid plans.",
+   "context": "Thesis of a post on MindMed's phase 2b JAMA paper on MM-120 (oral LSD) for GAD: the author thinks single-dose psychedelics like MM-120 may become a turning point for Medicaid plans because rapid remission could save money within short enrollment spans.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... might",
+   "entities": [
+    "MindMed",
+    "MM-120",
+    "Medicaid"
+   ],
+   "finder_note": "Author discloses about 500 MindMed shares and a past PI role on MindMed trials.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1902",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "MM-120, if approved, is a single-dose treatment with durability that could quickly realize its benefits in individuals on Medicaid, potentially accomplishing the almost impossible task of saving money in a Medicaid health plan.",
+   "context": "Crux of the argument: conditional on FDA approval, MM-120's single-dose fast-acting profile could save money for Medicaid plans, which the author calls almost impossible normally because average Medicaid enrollment is measured in months.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "payer_policy",
+   "horizon_text": "if approved",
+   "confidence_phrase": "could ... potentially",
+   "entities": [
+    "MindMed",
+    "MM-120",
+    "Medicaid",
+    "FDA"
+   ],
+   "finder_note": "Conditional on approval; compound (approval plus plan savings).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1903",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "If MM120 works in a single day and single dose, and people who don't have anxiety get back to work, that alone could reduce the number of Medicaid beneficiaries out of work.",
+   "context": "Conditional claim that fast GAD remission from MM120 could reduce the number of Medicaid beneficiaries who are out of work, which the author says is good for state budgets.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "MM-120",
+    "Medicaid"
+   ],
+   "finder_note": "Conditional mechanism claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1904",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "since MM120 works so quickly, the savings might be realized in the timeframe in which the individual is on the plan.",
+   "context": "Even for beneficiaries who stay on Medicaid but change plans, the author says a Medicaid plan might realize MM120-driven savings within the enrollee's time on the plan (average 11.6 months over a 12-month span).",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "MM-120",
+    "Medicaid"
+   ],
+   "finder_note": "Hedged mechanism claim tied to short Medicaid enrollment spans.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1905",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "This story will get even stronger if MM120 gets a major depressive disorder indication.",
+   "context": "The author notes MindMed also runs phase III trials for MDD; if MM120 gets an MDD indication, the Medicaid savings case becomes stronger.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will ... if",
+   "entities": [
+    "MindMed",
+    "MM-120",
+    "FDA",
+    "Medicaid"
+   ],
+   "finder_note": "Conditional on a future MDD indication.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1906",
+   "forecaster": "owen",
+   "statement_date": "2025-09-14",
+   "quote": "We might have a very rare combination of excellent outcomes, limited risks, and the ability to drive savings with one treatment if the data from the phase 2b trial is replicated in subsequent studies and into the real world.",
+   "context": "Closing hedge: the favorable outcome, risk and savings profile of MM-120 holds if the phase 2b results replicate in phase III and in real-world use.",
+   "post_title": "MindMed's LSD for Generalized Anxiety Disorder (GAD) Might Be A Success for...Medicaid?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mindmeds-lsd-for-generalized-anxiety",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "might ... if",
+   "entities": [
+    "MindMed",
+    "MM-120",
+    "Medicaid"
+   ],
+   "finder_note": "Conditional on replication of phase 2b data.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1907",
+   "forecaster": "owen",
+   "statement_date": "2025-09-17",
+   "quote": "More treatments exist, and are coming too. One addresses anhedonia and doesn’t hurt at all—brand name PRISM-MDD . Another, ProLivRx, can be done entirely at home .",
+   "context": "After describing the FDA clearance (granted the day of the post) of the Brainsway accelerated deep TMS protocol, the author says more depression treatments are coming: PRISM-MDD (anhedonia, painless), ProLivRx (fully at home), and psychedelics.",
+   "post_title": "Depression Can Be Over In 6 Half-Days With No Drugs?!? ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-can-be-over-in-6-half",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are coming",
+   "entities": [
+    "PRISM-MDD",
+    "ProLivRx",
+    "Brainsway"
+   ],
+   "finder_note": "Compound: several upcoming treatments named; 'Let's not forget psychedelics!' follows. Verbatim text has spaces before periods.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1911",
+   "forecaster": "owen",
+   "statement_date": "2025-09-24",
+   "quote": "I suspect that accelerated transcranial magnetic stimulation will also be effective, and we have some data to suggest that is the case.",
+   "context": "Closing of the suicide-prevention essay: after noting that ketamine is rapidly effective at reducing suicidality in treatment-seeking people, the author predicts accelerated TMS will also be effective for reducing suicidality.",
+   "post_title": "Can We Prevent Suicide?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-we-prevent-suicide",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I suspect ... will",
+   "entities": [
+    "ketamine",
+    "accelerated TMS"
+   ],
+   "finder_note": "The author's clinic (Radial) offers accelerated TMS and he is an accelerated TMS researcher; coder may consider CONTROL.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1929",
+   "forecaster": "owen",
+   "statement_date": "2025-10-06",
+   "quote": "However, 12% of the US population is now being treated with “open-label” and often higher-dose GLP-1 drugs already. It might be enough to drive alcohol use off a cliff!",
+   "context": "After citing a 24-person semaglutide RCT and noting that 12% of US adults report GLP-1 use, the author says open-label, often higher-dose GLP-1 use at population scale might be enough to drive alcohol use off a cliff (a steep fall in drinking).",
+   "post_title": "Are GLP-1s The Cure For Drunken Rape Culture?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-semaglutide-and-tirzepatide-the",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "GLP-1 agonists",
+    "semaglutide",
+    "alcohol industry"
+   ],
+   "finder_note": "Core forecast of the post; no quantity or date. Area could also be 'other' (population drinking behavior).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1931",
+   "forecaster": "owen",
+   "statement_date": "2025-10-06",
+   "quote": "I'm gonna miss the CDC when these kinds of numbers are deemed inconvenient by the men in power who find their sexual assaulting impinged upon by such data",
+   "context": "Parenthetical aside while citing CDC intimate-partner-violence statistics: the author expects CDC data of this kind to become unavailable when 'the men in power' deem it inconvenient, that is, he expects the CDC or its data to be curtailed.",
+   "post_title": "Are GLP-1s The Cure For Drunken Rape Culture?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-semaglutide-and-tirzepatide-the",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "gonna",
+   "entities": [
+    "CDC"
+   ],
+   "finder_note": "Sardonic political aside that implies expected suppression of CDC data. Borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1933",
+   "forecaster": "owen",
+   "statement_date": "2025-10-06",
+   "quote": "Yes, that's the same medicines that have been the cornerstone of alcohol use disorder treatment for years—and they work less well than semaglutide, probably.",
+   "context": "Semaglutide will prove more effective than naltrexone and topiramate for alcohol use disorder; the author also calls semaglutide possibly the best AUD treatment ever created.",
+   "post_title": "Are GLP-1s The Cure For Drunken Rape Culture?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-semaglutide-and-tirzepatide-the",
+   "area_guess": "science_claim",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "semaglutide",
+    "naltrexone",
+    "topiramate",
+    "alcohol use disorder"
+   ],
+   "finder_note": "hint: Large RCTs or head-to-head trials of semaglutide in AUD (NIH, Novo Nordisk) published 2026 onward",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1934",
+   "forecaster": "owen",
+   "statement_date": "2025-10-11",
+   "quote": "As for Nolan's role in the future of care for human suffering, I can only say that his work and ideas will evolve into a stunning set of treatments.",
+   "context": "Eulogy (dated 2025-10-11) for Nolan Williams of Stanford, developer of SAINT / Stanford Neuromodulation Therapy (accelerated fMRI-guided TMS) and ibogaine researcher, who founded companies to bring the work to market. The author paraphrases Philip K. Dick's letter about Blade Runner and applies it to Williams: his work and ideas will evolve into a stunning set of treatments.",
+   "post_title": "The Remarkable Life of Nolan Ryan Williams, M.D.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-eulogy-for-nolan-ryan-williams",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in the future",
+   "confidence_phrase": "will",
+   "entities": [
+    "Nolan Williams",
+    "SAINT",
+    "Stanford Neuromodulation Therapy",
+    "ibogaine",
+    "Philip K. Dick"
+   ],
+   "finder_note": "Explicit paraphrase of a Philip K. Dick quote, adopted as the author's own tribute; eulogistic hyperbole stated as expectation.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1935",
+   "forecaster": "owen",
+   "statement_date": "2025-10-11",
+   "quote": "The future Nolan saw will be one hell of a commercial success; it will prove invincible and become the standard of care for people suffering in the future.",
+   "context": "Same paraphrased passage: the author says the treatments Williams envisioned (accelerated fMRI-guided TMS such as SAINT/SNT, ibogaine therapy) will be a major commercial success and will become the standard of care.",
+   "post_title": "The Remarkable Life of Nolan Ryan Williams, M.D.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-eulogy-for-nolan-ryan-williams",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in the future",
+   "confidence_phrase": "will",
+   "entities": [
+    "Nolan Williams",
+    "SAINT",
+    "Stanford Neuromodulation Therapy",
+    "ibogaine"
+   ],
+   "finder_note": "Compound: commercial success plus standard of care. Paraphrase of Philip K. Dick's Blade Runner letter. The author offers SAINT-type care at Radial.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1945",
+   "forecaster": "owen",
+   "statement_date": "2025-11-12",
+   "quote": "We're not gonna fix that with a chat bot. We're not gonna fix that with drugs, because, as you'll remember me telling you, the largest data sets tell us they don't work.",
+   "context": "Same rant on the youth mental health crisis. The author denies that chatbots or oral antidepressant drugs will fix high adolescent suicide-attempt rates, on the grounds that large data sets show the drugs do not work.",
+   "post_title": "There are only two effective biological interventions for adolescence depression.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-are-only-two-effective-biological",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "not gonna",
+   "entities": [],
+   "finder_note": "Negative call about two intervention classes (chatbots, antidepressant drugs); compound claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1946",
+   "forecaster": "owen",
+   "statement_date": "2025-11-12",
+   "quote": "There will never be enough of those Therapists. There will absolutely never be enough child Psychiatrists.",
+   "context": "Same rant. The author says psychotherapy works for adolescent depression but requires humans and training, then predicts a permanent shortage of therapists and of child psychiatrists.",
+   "post_title": "There are only two effective biological interventions for adolescence depression.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-are-only-two-effective-biological",
+   "area_guess": "other",
+   "horizon_text": "never",
+   "confidence_phrase": "will never",
+   "entities": [],
+   "finder_note": "Workforce forecast; compound claim (therapists and child psychiatrists).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1947",
+   "forecaster": "owen",
+   "statement_date": "2025-11-12",
+   "quote": "You know what might work? Accelerated transcranial magnetic stimulation. We have an FDA label on once a day transcranial magnetic stimulation, which probably works, and doesn't have a black box warning for increasing suicide suicidal ideation.",
+   "context": "Same rant. After listing oral antidepressants he says do not work for adolescent depression, the author proposes accelerated TMS as the treatment that might work, notes once-daily TMS already has an FDA label, and urges running studies on accelerated protocols because rapid designs make group differences easier to detect.",
+   "post_title": "There are only two effective biological interventions for adolescence depression.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-are-only-two-effective-biological",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "accelerated transcranial magnetic stimulation",
+    "FDA"
+   ],
+   "finder_note": "Hedged efficacy call ahead of trial evidence; paired with 'We should run to the studies on accelerated transcranial magnetic stimulation'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1949",
+   "forecaster": "owen",
+   "statement_date": "2025-11-14",
+   "quote": "Now, more kids will get more effective treatment for their depression.",
+   "context": "Post dated 2025-11-14, the day the FDA cleared the Brainsway H1 coil (deep TMS) for adolescent depression, about a year after Neuronetics got the first adolescent TMS label. The author thanks patients who paid out of pocket before the label and predicts more adolescents will now receive more effective depression treatment.",
+   "post_title": "Today, Finally, Deep TMS is an FDA-Cleared Treatment for Adolescent Depression!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/today-finally-deep-tms-is-an-fda",
+   "area_guess": "practice_adoption",
+   "horizon_text": "Now",
+   "confidence_phrase": "will",
+   "entities": [
+    "FDA",
+    "Brainsway",
+    "Neuronetics"
+   ],
+   "finder_note": "Author's employer Radial provides deep TMS; coder may consider CONTROL.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1950",
+   "forecaster": "owen",
+   "statement_date": "2025-11-15",
+   "quote": "One of the potential agents I’ve highlighted is the class of drugs called GLP-1 drugs—semeglutide, liguratide, tirzepetide, and more coming soon.",
+   "context": "Intro to the author's CNS Summit panel prep on GLP-1 receptor agonists for neuropsychiatric illness. He lists semaglutide, liraglutide and tirzepatide (author's spellings differ) and says more drugs in the class are coming soon.",
+   "post_title": "Do GLP-1s Increase the Risk of Suicide?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/do-glp-1s-increase-the-risk-of-suicide",
+   "area_guess": "company_market",
+   "horizon_text": "soon",
+   "confidence_phrase": "coming soon",
+   "entities": [
+    "GLP-1 receptor agonists",
+    "semaglutide",
+    "liraglutide",
+    "tirzepatide"
+   ],
+   "finder_note": "Pipeline call for the GLP-1 drug class; no company or product named for the coming drugs.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

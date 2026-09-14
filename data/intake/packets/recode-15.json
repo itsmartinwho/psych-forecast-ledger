@@ -1,0 +1,872 @@
+{
+ "packet": "recode-15.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1618",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "There is absolutely more effective treatment coming. There are treatments in the pipeline that are not here right now, like low-dose LSD for ADHD, probably TMS for ADHD, maybe even transcranial focused ultrasound, we may get fMRI-EEG neurofeedback, I don't actually know. I do know there's likely to be more in the future.",
+   "context": "After listing current ADHD treatments (stimulants, organizational skills training, the Monarch eTNS device), the author forecasts that more effective ADHD treatments will arrive and names pipeline candidates.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "clinical_trial",
+   "horizon_text": "coming; in the future",
+   "confidence_phrase": "absolutely; probably; maybe even; may; likely",
+   "entities": [
+    "LSD",
+    "TMS",
+    "transcranial focused ultrasound",
+    "fMRI-EEG neurofeedback"
+   ],
+   "finder_note": "Compound claim: one general call plus four hedged candidate treatments, each with its own confidence word.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1620",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "So we're never gonna have the rock-solid causality answer, we're only gonna strongly suspect that the treatment that reduces symptoms is good in a long-term.",
+   "context": "The author says long-term randomized trials that withhold ADHD treatment from children would be unethical, so causal proof that childhood treatment reduces adult ADHD burden will never exist.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "clinical_trial",
+   "horizon_text": "never",
+   "confidence_phrase": "never gonna",
+   "entities": [],
+   "finder_note": "Negative call about future evidence in general, not about a named trial.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1621",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "I am highly skeptical any of those therapists are who you will match with on Talkspace.",
+   "context": "Discussion of organizational skills training (OST), the one psychotherapy the author says works for ADHD executive dysfunction; he doubts a Talkspace user will be matched with an OST-trained therapist.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "highly skeptical",
+   "entities": [
+    "Talkspace"
+   ],
+   "finder_note": "Borderline: a claim about Talkspace's current therapist pool phrased as what a future user will get.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1622",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "The next generation of treatments are exciting. They promise better efficacy and a lower side effect profile.",
+   "context": "After listing novel ADHD treatments under research (TMS, the FDA-approved Monarch eTNS device, and LSD derivatives in clinical trials sponsored by Mind Medicine), the author expects the next generation to beat current treatments on efficacy and side effects.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "promise",
+   "entities": [
+    "TMS",
+    "Monarch eTNS",
+    "NeuroSigma",
+    "Mind Medicine",
+    "LSD"
+   ],
+   "finder_note": "Expectation about a class of treatments; no single trial readout named.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1624",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "We need more evidence and novel treatments, and as you can see above, they're coming",
+   "context": "The author's endorsement right after the 2013 alpha-agonist review quote; he asserts that novel ADHD treatments are on the way.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "clinical_trial",
+   "horizon_text": "coming",
+   "confidence_phrase": "they're coming",
+   "entities": [],
+   "finder_note": "Restatement of the earlier 'more effective treatment coming' call; the sentence begins 'For me, in 2023', so recycled text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1628",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "It is a revolution in ADHD for kids and another example of the Neuro-modulated future of our field.",
+   "context": "The author argues the Monarch eTNS device should be first-line for pediatric ADHD and frames it as evidence that psychiatry's future is neuromodulation.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "practice_adoption",
+   "horizon_text": "future",
+   "confidence_phrase": "none",
+   "entities": [
+    "Monarch eTNS",
+    "NeuroSigma"
+   ],
+   "finder_note": "Directional claim about the field. The author's practice Fermata offers the device, a conflict he flags in the post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1629",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "If physicians prescribe this medical device, which is not a controlled substance, they may avoid stimulants in many cases.",
+   "context": "Efficacy section on the Monarch eTNS device; conditional claim that prescribing it would let physicians avoid stimulant medication for many children.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "Monarch eTNS"
+   ],
+   "finder_note": "Conditional practice claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1630",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "I don't think we solve ADHD at scale by doing things that aren't scalable.",
+   "context": "Closing argument that the ADHD treatment crisis (stimulant shortages, DEA constraints, prescribing hassle) is solved by better treatments such as Monarch eTNS rather than by more stimulant prescribing; the author cites a hard limit on stimulant supply.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I don't think",
+   "entities": [
+    "Monarch eTNS",
+    "DEA"
+   ],
+   "finder_note": "Negative call about how the treatment crisis resolves; borderline general claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1634",
+   "forecaster": "owen",
+   "statement_date": "2025-03-03",
+   "quote": "Much like bonsai trees, value based contracts take years of careful pruning.",
+   "context": "Photo caption in a post on how to reach a value-based behavioral health contract with a major payer, drawn from the author's 18 months of negotiations with UnitedHealth Group leadership; he asserts such contracts take years.",
+   "post_title": "Getting to a Value-Based Contract with A Major Payor",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/getting-to-a-value-based-contract",
+   "area_guess": "payer_policy",
+   "horizon_text": "years",
+   "confidence_phrase": "none",
+   "entities": [
+    "UnitedHealth Group"
+   ],
+   "finder_note": "General timing claim from experience, not a dated forecast; borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1639",
+   "forecaster": "owen",
+   "statement_date": "2025-03-08",
+   "quote": "just this past month we have networks for psychosis, and more is coming",
+   "context": "Author describes lesion network mapping and connectome work (Mike Fox, Sean Siddiqi, Shan Siddiqi) that has produced functional network targets for depression, anxiety, PTSD and, this past month, psychosis. He asserts that more such network targets are coming.",
+   "post_title": "Can Brain Stimulation Get Better as a Treatment for OCD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-brain-stimulation-get-better",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "Shan Siddiqi",
+    "Mike Fox",
+    "Human Connectome Project"
+   ],
+   "finder_note": "Vague, open-ended call about further network-mapping targets for new disorders.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1640",
+   "forecaster": "owen",
+   "statement_date": "2025-03-08",
+   "quote": "I think these two lines of evidence, taken together, will allow a more effective discipline to emerge.",
+   "context": "Author's synthesis: two lines of evidence, connectome-based fMRI targeting and iTBS combined with pro-plasticity drugs like d-cycloserine, will together let a more effective brain-stimulation discipline emerge.",
+   "post_title": "Can Brain Stimulation Get Better as a Treatment for OCD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-brain-stimulation-get-better",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... will",
+   "entities": [
+    "d-cycloserine",
+    "iTBS",
+    "TMS"
+   ],
+   "finder_note": "Field-direction call without a date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1641",
+   "forecaster": "owen",
+   "statement_date": "2025-03-08",
+   "quote": "iTBS on its own would be a remarkable, game changing OCD treatment",
+   "context": "Commenting on the McGirr et al. 2025 American Journal of Psychiatry trial of iTBS plus d-cycloserine for treatment-refractory OCD (large effect sizes), the author asserts iTBS alone would be a game-changing OCD treatment and the combination even better. He notes the treatment is available at Fermata in NYC now.",
+   "post_title": "Can Brain Stimulation Get Better as a Treatment for OCD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-brain-stimulation-get-better",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "would be",
+   "entities": [
+    "iTBS",
+    "d-cycloserine",
+    "American Journal of Psychiatry",
+    "Ampa Health",
+    "Fermata"
+   ],
+   "finder_note": "Evaluative claim with an implicit future-impact reading; borderline. Author's clinic offers the treatment (possible CONTROL).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1642",
+   "forecaster": "owen",
+   "statement_date": "2025-03-10",
+   "quote": "Even if we had a cure for depression, tomorrow, that worked 100% of the time, I'm still not sure if we can get it paid for in a decade.",
+   "context": "Author's framing before sharing the BrainFutures / Collaborative for the Economics of Psychedelics press release: psychedelic medicine is exciting but not here yet, the market forces needed to bring it to the world are complicated, and even a perfect depression cure might not get paid for within a decade.",
+   "post_title": "A New White Paper about Psychedelic Medicine and it's Economics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-white-paper-about-psychedelic",
+   "area_guess": "payer_policy",
+   "horizon_text": "in a decade",
+   "confidence_phrase": "I'm still not sure",
+   "entities": [
+    "BrainFutures",
+    "Collaborative for the Economics of Psychedelics"
+   ],
+   "finder_note": "Conditional, hedged pessimism about payer adoption speed; applies to psychedelic medicine by context.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1643",
+   "forecaster": "owen",
+   "statement_date": "2025-03-10",
+   "quote": "I've been hustling for more appropriate payment for transcranial magnetic stimulation for years, and we still have a long way to go.",
+   "context": "Same framing paragraph about healthcare payment complexity; the author says TMS payment reform still has a long way to go after years of his advocacy.",
+   "post_title": "A New White Paper about Psychedelic Medicine and it's Economics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-new-white-paper-about-psychedelic",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "still have a long way to go",
+   "entities": [
+    "TMS"
+   ],
+   "finder_note": "Implicit call that appropriate TMS payment remains distant; borderline forward-looking.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1651",
+   "forecaster": "owen",
+   "statement_date": "2025-03-12",
+   "quote": "there are additional investigations happening right now for other conduct on their part in other places that may meet the level of criminal or civil liability.",
+   "context": "After congratulating UnitedHealth Group on a federal Special Master's recommendation to dismiss the DOJ Medicare Advantage upcoding qui tam case (UHC of California, 2009-2016 conduct), the author cautions that other ongoing investigations into UnitedHealth may result in criminal or civil liability.",
+   "post_title": "UnitedHealth Group Deserves Our Congratulations, Today.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-group-deserves-our-congratulations",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "Department of Justice",
+    "Medicare Advantage"
+   ],
+   "finder_note": "Hedged legal-exposure call about pending investigations.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1656",
+   "forecaster": "owen",
+   "statement_date": "2025-03-15",
+   "quote": "there are vastly more primary care doctors than there will ever be psychiatrists. This is even more true for children. Those primary care doctors are going to see patients suffering, and they're gonna try to help. They will try to help with tools at their disposal, which are overwhelmingly not psychotherapy.",
+   "context": "Argument that primary care will keep carrying most psychiatric prescribing: primary care doctors will always outnumber psychiatrists, especially for children, and will reach for non-psychotherapy tools (pills), which sets up the long-term movement-disorder risk the post explains.",
+   "post_title": "Why We Have Millions of Movement Disorders Caused By Our Medicines",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-we-have-millions-of-movement",
+   "area_guess": "practice_adoption",
+   "horizon_text": "ever",
+   "confidence_phrase": "will ever be; are going to; will",
+   "entities": [],
+   "finder_note": "Compound structural claim; near-truism about workforce supply and prescribing behavior.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1659",
+   "forecaster": "owen",
+   "statement_date": "2025-03-15",
+   "quote": "This includes a vastly broader use of transcranial magnetic stimulation and other neuromodulatory approaches, of which more are coming to market soon.",
+   "context": "Summary section: the author advocates safer non-medication treatment for depression, including much broader TMS use and other neuromodulatory approaches, and asserts more such approaches are coming to market soon.",
+   "post_title": "Why We Have Millions of Movement Disorders Caused By Our Medicines",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-we-have-millions-of-movement",
+   "area_guess": "company_market",
+   "horizon_text": "soon",
+   "confidence_phrase": "are coming",
+   "entities": [
+    "TMS"
+   ],
+   "finder_note": "Vague market-entry call for neuromodulation devices.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1665",
+   "forecaster": "owen",
+   "statement_date": "2025-03-21",
+   "quote": "there is a fiduciary duty to uphold , and the time for scams is over.",
+   "context": "Closing line of a math think piece. The author sketches a satirical value-based care vendor that enrolls the top 1% of claimants, does nothing, and claims the savings that regression to the mean produces the next year. He then argues that Bayesian reasoning lets payers see through such pitches and declares the time for such scams over.",
+   "post_title": "Regression (to the Mean) Health",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/regression-to-the-mean-health-ff7",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "value-based care population management vendors",
+    "health plans (payers)"
+   ],
+   "finder_note": "Borderline: a rhetorical declaration, not a dated forecast. Reads as an expectation that payers stop paying for regression-to-the-mean 'savings'. Logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1666",
+   "forecaster": "owen",
+   "statement_date": "2025-03-23",
+   "quote": "However, where there is neurocircuitry, TMS researchers will soon find a way to modulate it.",
+   "context": "After listing the negative symptoms of schizophrenia (apathy, anhedonia, asociality, avolition, alogia, affective flattening) and noting that abulia has its own neurocircuitry, the author predicts TMS researchers will soon find ways to modulate that circuitry. He credits colleagues Shan Siddiqi, Mike Fox, David Carreon, Nolan Williams and Deepak Sarpal.",
+   "post_title": "Accelerated TMS for Schizophrenia! ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/accelerated-tms-for-schizophrenia",
+   "area_guess": "clinical_trial",
+   "horizon_text": "soon",
+   "confidence_phrase": "will soon",
+   "entities": [
+    "TMS",
+    "Shan Siddiqi",
+    "Mike Fox",
+    "David Carreon",
+    "Nolan Williams",
+    "Deepak Sarpal"
+   ],
+   "finder_note": "General call about the pace of TMS research on negative-symptom neurocircuitry.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1670",
+   "forecaster": "owen",
+   "statement_date": "2025-03-26",
+   "quote": "There are four major domains of brain stimulation that are going to bear tremendous fruit.",
+   "context": "The author's answer to Kyle McAndrews' 'Request for Startups' question about the most promising approaches to brain health. He sets psychedelics aside and asserts that brain stimulation will deliver; he then walks through circuit-based TMS, low-dose electrical stimulation devices, and transcranial focused ultrasound.",
+   "post_title": "The Physician and the Financier",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-physician-and-the-financier",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to",
+   "entities": [
+    "transcranial magnetic stimulation",
+    "electrical brain stimulation devices",
+    "transcranial focused ultrasound"
+   ],
+   "finder_note": "Headline call for the section; the specific sub-claims are logged separately.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1671",
+   "forecaster": "owen",
+   "statement_date": "2025-03-26",
+   "quote": "Instead of just having one treatment, for depression, now we have the opportunity to treat movement disorders, obsessive compulsive disorder, post traumatic stress disorder, bipolar depression, anxiety, dementia, insomnia, chronic pain, and addiction. It is an explosive array of treatments that are rapidly becoming possible.",
+   "context": "First domain: brain-circuit-based TMS guided by fMRI. The author claims circuit science will expand TMS beyond depression to a long list of indications and that these treatments are rapidly becoming possible.",
+   "post_title": "The Physician and the Financier",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-physician-and-the-financier",
+   "area_guess": "practice_adoption",
+   "horizon_text": "rapidly",
+   "confidence_phrase": "rapidly becoming possible",
+   "entities": [
+    "TMS",
+    "fMRI"
+   ],
+   "finder_note": "Compound claim across many indications; no dates.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1672",
+   "forecaster": "owen",
+   "statement_date": "2025-03-26",
+   "quote": "We've already seen many of these devices come to market for things like migraine headache, and more are coming for depression, PTSD, and other disorders of the brain. These are overwhelmingly: non-invasive, lightweight, inexpensive, and can be deployed in the home.",
+   "context": "Second domain: low-dose electrical (rather than magnetic) neuromodulation devices that are non-invasive, lightweight, inexpensive and home-deployable. The author expects more such devices to reach the market for depression, PTSD and other brain disorders.",
+   "post_title": "The Physician and the Financier",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-physician-and-the-financier",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "are coming",
+   "entities": [
+    "electrical neuromodulation devices",
+    "migraine",
+    "depression",
+    "PTSD"
+   ],
+   "finder_note": "Market entry of medical devices implies clearance; could also be coded company_market. No company named.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1673",
+   "forecaster": "owen",
+   "statement_date": "2025-03-26",
+   "quote": "None of this is in the clinical domain yet, it's still in research studies. However, the ability to wake humans up out of a coma by stimulating the thalamus seems extremely promising. So, to, the ability to address depression, or PTSD, deep in the brain, and with very limited risk.",
+   "context": "Third domain: transcranial focused ultrasound, described as 'very hard to ignore'. The author expects it to prove out for waking coma patients via thalamic stimulation and for treating depression or PTSD deep in the brain, while conceding it is research-stage only.",
+   "post_title": "The Physician and the Financier",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-physician-and-the-financier",
+   "area_guess": "clinical_trial",
+   "horizon_text": "yet",
+   "confidence_phrase": "seems extremely promising",
+   "entities": [
+    "transcranial focused ultrasound",
+    "thalamus",
+    "depression",
+    "PTSD"
+   ],
+   "finder_note": "Hedged; two indications in one statement.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1674",
+   "forecaster": "owen",
+   "statement_date": "2025-03-26",
+   "quote": "The future is both now, and more is coming!",
+   "context": "Closing line of the brain-stimulation answer, after 'We have a range of interventions that are exciting. We have the ability to heal without causing unnecessary harm.' A general claim that more brain-stimulation interventions will arrive.",
+   "post_title": "The Physician and the Financier",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-physician-and-the-financier",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "more is coming",
+   "entities": [
+    "brain stimulation"
+   ],
+   "finder_note": "Vague closing flourish; borderline truism. Logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1677",
+   "forecaster": "owen",
+   "statement_date": "2025-03-27",
+   "quote": "I hope better-designed devices that are easier to bring to patients will make a real difference—not just in depression, but especially in disorders where mobility is a serious barrier, like Parkinson’s Disease.",
+   "context": "After introducing Ampa Health's portable TMS device (co-founded by Jonathan Downar, now out of stealth), the author expects portable, easy-to-deploy TMS devices to matter for depression and especially for mobility-limited conditions like Parkinson's disease.",
+   "post_title": "Parkinson's Disease: Can TMS Help?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/parkinsons-disease-can-tms-help",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I hope ... will",
+   "entities": [
+    "Ampa Health",
+    "Jonathan Downar",
+    "TMS",
+    "Parkinson's Disease"
+   ],
+   "finder_note": "Framed as hope; borderline wish with a predictive reading. Ampa is an author-affiliated company.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1684",
+   "forecaster": "owen",
+   "statement_date": "2025-03-30",
+   "quote": "the following RCT protocol was published before the trial is concluded, which I hope will meaningfully answer more of the most important questions we have about what to do for women who are pregnant and depressed",
+   "context": "Introducing the Early-TMS protocol ('Effectiveness of rTMS compared to SSRI as early treatment of depression'). The author expects the trial to answer key questions about treating depression in pregnancy.",
+   "post_title": "Depression In Pregnancy? rTMS Might Be Our Most Safe Treatment",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-in-pregnancy-rtms-might",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I hope will",
+   "entities": [
+    "Early-TMS trial",
+    "rTMS",
+    "SSRIs"
+   ],
+   "finder_note": "Framed as hope; borderline wish with a predictive reading.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1685",
+   "forecaster": "owen",
+   "statement_date": "2025-03-30",
+   "quote": "The authors will compare iTBS stimulation to SSRIs in pregnant women with depression to determine which is better ... I know which I’d be betting on, but we don’t have to rely on a gut check or hunches when we have empirical answers.",
+   "context": "On the Early-TMS RCT (iTBS versus SSRIs in pregnant women with depression). The author signals an implicit bet on the outcome; given the post's thesis that rTMS is the safest and an effective option, the implied pick is iTBS/rTMS over SSRIs. He does not name the pick.",
+   "post_title": "Depression In Pregnancy? rTMS Might Be Our Most Safe Treatment",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-in-pregnancy-rtms-might",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I know which I’d be betting on",
+   "entities": [
+    "Early-TMS trial",
+    "iTBS",
+    "rTMS",
+    "SSRIs"
+   ],
+   "finder_note": "Implicit direction inferred from the post's argument; the author does not state the pick outright. Joined across a footnote marker.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1686",
+   "forecaster": "owen",
+   "statement_date": "2025-03-30",
+   "quote": "Science will move forward. The one bet I’m willing to make? The science will absolutely LAP the payment models if we don’t raise all our voices to both our employers and elected representatives.",
+   "context": "Right after the Early-TMS discussion. The author bets that the science of rTMS for depression in pregnancy will outrun insurer payment models unless clinicians lobby employers and legislators.",
+   "post_title": "Depression In Pregnancy? rTMS Might Be Our Most Safe Treatment",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/depression-in-pregnancy-rtms-might",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "absolutely",
+   "entities": [
+    "rTMS",
+    "payment models",
+    "employers",
+    "elected representatives"
+   ],
+   "finder_note": "Conditional ('if we don't raise all our voices'); explicitly framed as a bet.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1693",
+   "forecaster": "owen",
+   "statement_date": "2025-04-02",
+   "quote": "It also treats OCD, and it is likely to be able to treat other conditions as well.",
+   "context": "Background paragraph on transcranial magnetic stimulation (TMS) in a post celebrating Cigna's national adolescent-depression TMS coverage policy. The author states TMS treats depression and OCD and expects it to treat further conditions.",
+   "post_title": "Cigna Unveils National Coverage Policy for Adolescent Depression Including TMS!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cigna-unveils-national-coverage-policy",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "is likely to be able to",
+   "entities": [
+    "TMS",
+    "OCD"
+   ],
+   "finder_note": "Open-ended efficacy expectation; no named condition or date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1694",
+   "forecaster": "owen",
+   "statement_date": "2025-04-02",
+   "quote": "insurance tends to follow the FDA and will rarely approve treatments in broader populations than the FDA was willing to sign off on.",
+   "context": "Explaining why the Neuronetics adolescent (15+) FDA label matters: insurers follow FDA labels and will rarely cover populations broader than the label.",
+   "post_title": "Cigna Unveils National Coverage Policy for Adolescent Depression Including TMS!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cigna-unveils-national-coverage-policy",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will rarely",
+   "entities": [
+    "FDA",
+    "Neuronetics"
+   ],
+   "finder_note": "Generalization about payer behavior; borderline truism.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1696",
+   "forecaster": "owen",
+   "statement_date": "2025-04-02",
+   "quote": "If you're an insurance company, do you really want to be in the position of demanding that the children take drugs that have a risk of suicidal thoughts before we offer them a treatment that doesn't have a risk of increased suicidality? Because what does that sound like? It is a lawsuit waiting to happen.",
+   "context": "Cigna/Evernorth's adolescent TMS policy demands two failed antidepressant trials (drugs carrying the FDA black-box suicidality warning) before TMS, which has no such warning. The author predicts this requirement will produce a lawsuit.",
+   "post_title": "Cigna Unveils National Coverage Policy for Adolescent Depression Including TMS!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cigna-unveils-national-coverage-policy",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "waiting to happen",
+   "entities": [
+    "Cigna",
+    "Evernorth",
+    "FDA",
+    "TMS"
+   ],
+   "finder_note": "Legal-consequence forecast tied to a coverage policy; earlier in the post the same requirement is called 'asking for trouble'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1699",
+   "forecaster": "owen",
+   "statement_date": "2025-04-02",
+   "quote": "This covered policy is an excellent step in the right direction, but I also think it's a time bomb.",
+   "context": "Verdict on Cigna/Evernorth's new adolescent TMS coverage policy: progress, but the two-antidepressant-trial requirement is a 'time bomb' for future liability.",
+   "post_title": "Cigna Unveils National Coverage Policy for Adolescent Depression Including TMS!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cigna-unveils-national-coverage-policy",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I also think",
+   "entities": [
+    "Cigna",
+    "Evernorth"
+   ],
+   "finder_note": "Metaphorical forecast of future liability; the author adds it is easy to defuse by covering TMS with standard of care.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1701",
+   "forecaster": "owen",
+   "statement_date": "2025-04-02",
+   "quote": "For those health plans, I think they're even more exposed to liability, not only for a coverage policy that adds additional risk, but for ERISA fiduciary breach.",
+   "context": "Closing: health plans with no adolescent TMS coverage at all are, in the author's view, even more exposed to liability than Cigna, including ERISA fiduciary breach, now that a major plan covers it.",
+   "post_title": "Cigna Unveils National Coverage Policy for Adolescent Depression Including TMS!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cigna-unveils-national-coverage-policy",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I think",
+   "entities": [
+    "ERISA",
+    "Cigna"
+   ],
+   "finder_note": "Borderline: present-state liability exposure implying future claims against other payers.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1720",
+   "forecaster": "owen",
+   "statement_date": "2025-04-17",
+   "quote": "It is going to be lit.",
+   "context": "Right after the RAMHT speaker list: the author predicts the May 18, 2025 event will be great.",
+   "post_title": "How to Succeed in Academic Medicine: Publishing Strategy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-succeed-in-academic-medicine",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to be",
+   "entities": [
+    "RAMHT"
+   ],
+   "finder_note": "Colloquial hype about the author's own event; low forecast value.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1724",
+   "forecaster": "owen",
+   "statement_date": "2025-04-22",
+   "quote": "Legal cannabis means that all the people who were kept away from cannabis by its criminal status might begin using cannabis now. Even old people. It makes the cannabis market—and thus the range of those who ingest it—bigger.",
+   "context": "Framing for two Ontario cohort papers (JAMA Neurology, JAMA Network Open) on cannabis-related acute care, dementia and 5-year mortality. The author expects legalization to expand cannabis use and the user base, including older adults.",
+   "post_title": "Does Cannabis Cause Dementia and Kill You?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-cannabis-cause-dementia-and",
+   "area_guess": "other",
+   "horizon_text": "now",
+   "confidence_phrase": "might",
+   "entities": [],
+   "finder_note": "Mechanistic expectation about legalization and use; partly describes a trend the cited data already show.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1725",
+   "forecaster": "owen",
+   "statement_date": "2025-04-22",
+   "quote": "We’re gonna need to understand this risk factor in more detail in older adults, especially as cannabis products become increasingly legal and increasingly common.",
+   "context": "Closing of the cannabis review: the author expects cannabis products to become increasingly legal and common, and says the dementia/mortality risk in older adults will need more study.",
+   "post_title": "Does Cannabis Cause Dementia and Kill You?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/does-cannabis-cause-dementia-and",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Compound: research need (normative) plus a trend expectation that cannabis becomes more legal and common.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1730",
+   "forecaster": "owen",
+   "statement_date": "2025-04-26",
+   "quote": "It is not stopping. Our hearts will be ground into the dirt.",
+   "context": "Footnote 1 to the opening content warning of the essay on suicide, loss and hopelessness; the author asserts the crisis is not stopping and will keep grinding people down.",
+   "post_title": "\"The Mental Health Crisis\" ...is a Crisis",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-mental-health-crisis-is-a-crisis",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Rhetorical but sincere; open-ended, no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1738",
+   "forecaster": "owen",
+   "statement_date": "2025-05-14",
+   "quote": "Don’t worry, he still has insider trading investigations by the DOJ to be deposed in the discovery phase, as I satirized here.",
+   "context": "After describing Witty's resignation and UNH's roughly $300 billion market-cap loss, the author expects Witty to still face deposition in the discovery phase of DOJ insider-trading investigations; links to the author's earlier satire on the topic.",
+   "post_title": "Andrew Witty's Exit and The Unimaginable Scale of the Collapse of UnitedHealth Group",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/andrew-wittys-exit-and-the-unimaginable",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "still has",
+   "entities": [
+    "Andrew Witty",
+    "UnitedHealth Group",
+    "Department of Justice (DOJ)"
+   ],
+   "finder_note": "Expectation that Witty will be deposed in DOJ insider-trading probes; phrased with a nod to the author's own satire piece.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1740",
+   "forecaster": "owen",
+   "statement_date": "2025-05-14",
+   "quote": "We wanted corporate responsibility, and we may or may not get it, yet. But the market has spoken, for the time being.",
+   "context": "Closing of the post; the author credits media pressure (ProPublica, American Prospect, his readers) for the market's reaction to UNH and is uncertain whether corporate accountability will follow the share collapse.",
+   "post_title": "Andrew Witty's Exit and The Unimaginable Scale of the Collapse of UnitedHealth Group",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/andrew-wittys-exit-and-the-unimaginable",
+   "area_guess": "company_market",
+   "horizon_text": "yet; for the time being",
+   "confidence_phrase": "may or may not",
+   "entities": [
+    "UnitedHealth Group",
+    "ProPublica",
+    "American Prospect"
+   ],
+   "finder_note": "Explicitly uncertain ('may or may not'); no direction.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1744",
+   "forecaster": "owen",
+   "statement_date": "2025-05-16",
+   "quote": "as much as I actually believe that the total addressable market of a disruptive company in the lab testing space could possibly be huge",
+   "context": "The author revisits his earlier satirical article arguing that Theranos's investment thesis is still venture-fundable. He states sincerely that the total addressable market for a disruptive lab-testing company could be huge, before saying he meant the article as satire because Elizabeth Holmes is in jail for fraud.",
+   "post_title": "Theranos..for Pets!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/theranosfor-pets",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "could possibly",
+   "entities": [
+    "Theranos",
+    "Elizabeth Holmes"
+   ],
+   "finder_note": "Hedged market-potential claim; weakly forward-looking.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

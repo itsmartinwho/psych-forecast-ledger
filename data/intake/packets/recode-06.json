@@ -1,0 +1,847 @@
+{
+ "packet": "recode-06.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0531",
+   "forecaster": "owen",
+   "statement_date": "2023-06-07",
+   "quote": "The counterculture? It feels like a board complaint waiting to happen.",
+   "context": "Same satirical essay. The author expects that counterculture framing of psychedelic medicine will produce medical-board complaints against clinicians, because 'The House of Medicine only wants to hear from the most culturally bounded institutions.'",
+   "post_title": "William Osler, M.D. for Psychedelic Medicine Key Opinion Leader",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/william-osler-md-for-psychedelic",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "waiting to happen",
+   "entities": [],
+   "finder_note": "Hedged expectation of professional-board discipline arising from counterculture psychedelic practice; satirical tone, sincere concern.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0532",
+   "forecaster": "owen",
+   "statement_date": "2023-06-07",
+   "quote": "The only fun that matters will have a somber, defensible go-to-market strategy with a proven history of execution and an extremely conservative approach to regulatory compliance.",
+   "context": "In the satirical Do/Don't section ('Don't: Explore Fun'; 'Do: Embed Osler's resurrection in Apple Vision Pro'), the author claims the psychedelic ventures that will matter or succeed are those with conservative, regulator-friendly go-to-market strategies.",
+   "post_title": "William Osler, M.D. for Psychedelic Medicine Key Opinion Leader",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/william-osler-md-for-psychedelic",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Advice dressed as prediction ('will have'); borderline normative. Overlaps with the Blackberry/iPhone statement from the same post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0533",
+   "forecaster": "owen",
+   "statement_date": "2023-06-07",
+   "quote": "Psychedelic Medicine should stop trying to be the Blackberry—only to fail—and get on board with being the stodgy iPhone",
+   "context": "Analogy in the same essay: the counterculture path for psychedelic medicine is the Blackberry, which fails; the conservative, slow, Apple-like path is the iPhone. Embedded prediction: the counterculture approach fails.",
+   "post_title": "William Osler, M.D. for Psychedelic Medicine Key Opinion Leader",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/william-osler-md-for-psychedelic",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "only to fail",
+   "entities": [
+    "Blackberry",
+    "Apple"
+   ],
+   "finder_note": "'Should' sentence with an embedded predictive reading ('only to fail'); normative set false for that reason. Compound with the go-to-market statement.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0534",
+   "forecaster": "owen",
+   "statement_date": "2023-06-09",
+   "quote": "Although SAINT brain stimulation has promise in suicidal patients , therapy has robust evidence now.",
+   "context": "Evidence review arguing specialized psychotherapies (DBT, MBT, schema therapy) are the effective treatments for borderline personality disorder and suicidality. The author notes SAINT (Stanford accelerated TMS protocol) 'has promise' in suicidal patients, a mild expectation about future evidence or use, while therapy already has robust evidence.",
+   "post_title": "What \"Works\" For Borderline Personality Disorder (BPD)?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-works-for-bpd",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "has promise",
+   "entities": [
+    "SAINT"
+   ],
+   "finder_note": "Borderline: 'has promise' is a weak forward-looking expectation; the main clause is present-tense.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0538",
+   "forecaster": "owen",
+   "statement_date": "2023-06-14",
+   "quote": "Given the vastly reduced cost and better outcomes, there is little explanation for this other than a breach of fiduciary duty on the part of plan sponsors going forward.",
+   "context": "Closing of the same post. After citing cost-effectiveness data for rTMS after one failed medication and Medicare carriers (Novitas, Noridian) that cover it, the author claims that insurers' continued 'fail first' policies that block dTMS will amount to a breach of fiduciary duty by plan sponsors from now on.",
+   "post_title": "Your Depression Should be Over Already.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/your-depression-should-be-over-already",
+   "area_guess": "payer_policy",
+   "horizon_text": "going forward",
+   "confidence_phrase": "little explanation for this other than",
+   "entities": [
+    "plan sponsors",
+    "Brainsway",
+    "Novitas Solutions",
+    "Noridian Healthcare Solutions"
+   ],
+   "finder_note": "Legal/policy characterization with forward-looking wording; borderline as a forecast (no specific payer action predicted).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0542",
+   "forecaster": "owen",
+   "statement_date": "2023-06-19",
+   "quote": "well, it is not likely to go viral, but it’s what is happening right now.",
+   "context": "Self-interview about the newsletter's strategy of daily, deliberately obfuscating writing. The author predicts the newsletter is not likely to go viral.",
+   "post_title": "Why I Write",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-i-write",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "not likely",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "About the author's own newsletter; CONTROL candidate. Low forecast value.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0549",
+   "forecaster": "owen",
+   "statement_date": "2023-06-23",
+   "quote": "It would be hard to argue that this is not advertising for their pharmaceutical product. That is what the federal Office of Prescription Drug Promotion at FDA might call an “ extravagant claim .”",
+   "context": "The author compares Doblin's on-stage statement ('We're going to need to use psychedelics for conflict resolution') with the FDA Bad Ad program's untitled letter over a Lomaira exhibit-hall panel. He predicts FDA's Office of Prescription Drug Promotion might treat the MAPS statement as an 'extravagant claim', i.e., a promotional violation ('This presents some regulatory concerns').",
+   "post_title": " 🛑 Psychedelic Conferences...Might Be a Bad Ad? ✋ ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/psychedelic-conferencesmight-be-a",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "FDA",
+    "Office of Prescription Drug Promotion",
+    "MAPS",
+    "Rick Doblin",
+    "MDMA"
+   ],
+   "finder_note": "Hedged call about how FDA OPDP would view MAPS conference statements; no enforcement action predicted outright.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0550",
+   "forecaster": "owen",
+   "statement_date": "2023-06-23",
+   "quote": "In the process of trying to change psychedelic medicines from schedule I DEA regulated substances to schedule II or III DEA and FDA regulated substances, we don't get less regulations, we get more.",
+   "context": "Closing claim of the post: as psychedelic medicines move from DEA Schedule I toward FDA-approved Schedule II or III drugs, the regulatory burden on the field increases rather than decreases.",
+   "post_title": " 🛑 Psychedelic Conferences...Might Be a Bad Ad? ✋ ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/psychedelic-conferencesmight-be-a",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "DEA",
+    "FDA"
+   ],
+   "finder_note": "Directional claim about the regulatory trajectory of psychedelic medicines; sincere claim in a satirical piece (see the author's footnote).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0553",
+   "forecaster": "owen",
+   "statement_date": "2023-06-24",
+   "quote": "Your employer needs to get compliant. And they’re probably going to call their Benefits Broker. It is in the interests of those parties to file suit to cover their own liability, too.",
+   "context": "Under the heading 'The Covering Of @&$ Begins.': predicted employer reaction to the 2021 ERISA fiduciary-duty rules. Employers will seek compliance and turn to their benefits brokers.",
+   "post_title": "Can’t Find a Psychiatrist Who Will See You in Network? Now, You Can Sue Your Company!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cant-find-a-psychiatrist-who-will",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "ERISA"
+   ],
+   "finder_note": "Behavioral prediction about employers; first sentence is normative, second predictive.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0555",
+   "forecaster": "owen",
+   "statement_date": "2023-06-24",
+   "quote": "At a bare minimum, they’re probably going to want to buy a compliant plan during the next enrollment cycle.",
+   "context": "Employers under ERISA will move to compliant health plans at the next enrollment cycle, or go self-funded and check compliance with a tool like the Health Rosetta Plan Grader.",
+   "post_title": "Can’t Find a Psychiatrist Who Will See You in Network? Now, You Can Sue Your Company!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cant-find-a-psychiatrist-who-will",
+   "area_guess": "payer_policy",
+   "horizon_text": "during the next enrollment cycle",
+   "confidence_phrase": "probably",
+   "entities": [
+    "ERISA",
+    "Health Rosetta"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0556",
+   "forecaster": "owen",
+   "statement_date": "2023-06-24",
+   "quote": "And if ERISA wasn’t bad enough, I suspect Perez v. Sturgis will be applied for damages under ADA next. Health Plans— the new Lawyer Employment Act of 2023!",
+   "context": "Legal forecast near the end of the essay: the Supreme Court decision Perez v. Sturgis will next be used to seek damages under the Americans with Disabilities Act in health-plan disputes.",
+   "post_title": "Can’t Find a Psychiatrist Who Will See You in Network? Now, You Can Sue Your Company!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cant-find-a-psychiatrist-who-will",
+   "area_guess": "payer_policy",
+   "horizon_text": "next",
+   "confidence_phrase": "I suspect",
+   "entities": [
+    "ERISA",
+    "Perez v. Sturgis",
+    "Americans with Disabilities Act"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0559",
+   "forecaster": "owen",
+   "statement_date": "2023-06-24",
+   "quote": "it seems trial design will need to embrace the most robust safety standards. This is not without its costs.",
+   "context": "After quoting the FDA draft guidance on cardiac valve (5-HT2B agonist) risk and repeat-dose toxicology for psychedelics, the author expects psychedelic trial designs to have to adopt the strictest safety standards, at a cost to sponsors.",
+   "post_title": "I'm a Psychic...About Timing of Articles Related to Open Comment Periods Related to Psychedelics.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-a-psychicabout-timing-of-articles",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "it seems ... will need to",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Hedged; compound claim (stricter safety standards + added costs).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0561",
+   "forecaster": "owen",
+   "statement_date": "2023-06-24",
+   "quote": "This requirement is plausibly more challenging to staff than the Licensed Lead Monitor role.",
+   "context": "Footnote 1 on the draft guidance's assistant-monitor requirement (bachelor's degree plus at least one year of clinical experience in a licensed mental health setting). The author expects this role to be harder for trial sponsors to staff than the licensed lead monitor role.",
+   "post_title": "I'm a Psychic...About Timing of Articles Related to Open Comment Periods Related to Psychedelics.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-a-psychicabout-timing-of-articles",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "plausibly",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0562",
+   "forecaster": "owen",
+   "statement_date": "2023-06-24",
+   "quote": "given employment law, it almost can’t be the same person the whole time. Some breaks will need to be taken.",
+   "context": "Footnote: a psychedelic treatment session can run 12 continuous hours. The author expects that, under employment law and overtime rules, one assistant monitor cannot cover a whole session, so breaks or staff changes will be needed in trials.",
+   "post_title": "I'm a Psychic...About Timing of Articles Related to Open Comment Periods Related to Psychedelics.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-a-psychicabout-timing-of-articles",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "almost can’t ... will need to",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0563",
+   "forecaster": "owen",
+   "statement_date": "2023-06-24",
+   "quote": "Clarification will be required, but scheduling concerns, safety, and scalability will all be paramount.",
+   "context": "Closing footnote on the FDA draft psychedelic guidance monitor requirements. The author expects the FDA will have to clarify the staffing requirements, and that scheduling, safety and scalability will be the dominant concerns.",
+   "post_title": "I'm a Psychic...About Timing of Articles Related to Open Comment Periods Related to Psychedelics.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/im-a-psychicabout-timing-of-articles",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will be required",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Compound claim (clarification needed + which concerns will dominate).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0565",
+   "forecaster": "owen",
+   "statement_date": "2023-06-26",
+   "quote": "These are different motives, and won’t be universally appealing.",
+   "context": "Contrasting the author's own disclosure motives with Rick Doblin's politically expedient choice of PTSD as MAPS's indication; the author predicts Doblin's motives and messaging will not appeal universally.",
+   "post_title": "What the History of Medicine has to say about \"All MDMA Therapists Should Take MDMA,\" a Critique.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-the-history-of-medicine-has",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t be",
+   "entities": [
+    "Rick Doblin",
+    "MAPS",
+    "MDMA"
+   ],
+   "finder_note": "Weak, general reception claim; borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0566",
+   "forecaster": "owen",
+   "statement_date": "2023-06-26",
+   "quote": "The more therapists who are exposed to the biasing experience of psychedelic treatment the fewer of them will have as much doubt as will be useful some of the time . Some of the time, they will not help.",
+   "context": "Closing argument against Doblin's proposal that all MDMA therapists take MDMA: more exposed therapists means less useful clinical doubt, and psychedelic treatments will fail some of the time.",
+   "post_title": "What the History of Medicine has to say about \"All MDMA Therapists Should Take MDMA,\" a Critique.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-the-history-of-medicine-has",
+   "area_guess": "practice_adoption",
+   "horizon_text": "some of the time",
+   "confidence_phrase": "will",
+   "entities": [
+    "Rick Doblin",
+    "MAPS",
+    "MDMA"
+   ],
+   "finder_note": "Compound: a dose-response claim about therapist bias plus a general 'treatments will sometimes fail' claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0571",
+   "forecaster": "owen",
+   "statement_date": "2023-06-28",
+   "quote": "Psychedelic exceptionalism needs to stop , or it will get in the way of psychedelic medicine being actual medicine .",
+   "context": "Item 4 ('Dear Psychedelic Exceptionalism') setup: conditional claim that psychedelic exceptionalism, if it continues, will obstruct psychedelic medicine from becoming accepted, regulated medicine.",
+   "post_title": "Happy National Insurance Awareness Day!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/happy-national-insurance-awareness",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Conditional forecast about the psychedelic field; first clause is normative ('needs to stop'), second clause predictive.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0577",
+   "forecaster": "owen",
+   "statement_date": "2023-06-30",
+   "quote": "If I am telling you it is offensive, other people are just quietly making sure your interventions don't go anywhere.",
+   "context": "Whimsical essay against demanding that all psychedelic therapists take the drugs. The author warns that the exceptionalist attitude alienates gatekeepers who will quietly block psychedelic interventions.",
+   "post_title": "Dear Psychedelic Exceptionalism...🛑🙏✋ ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dear-psychedelic-exceptionalism",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Implicit prediction that psychedelic interventions will be blocked by alienated stakeholders; borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0578",
+   "forecaster": "owen",
+   "statement_date": "2023-06-30",
+   "quote": "We don’t need an insufferable counter-culture nu-Phish concert in an unconvincing Phrma cos-play scene that drags on endlessly till the FDA takes it down for being a Bad Ad.",
+   "context": "Closing line: the author warns that psychedelic counter-culture promotion dressed up as pharma will eventually draw FDA enforcement (the Bad Ad program) if it continues.",
+   "post_title": "Dear Psychedelic Exceptionalism...🛑🙏✋ ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dear-psychedelic-exceptionalism",
+   "area_guess": "regulatory",
+   "horizon_text": "till the FDA takes it down",
+   "confidence_phrase": "none",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Satirical framing (author labels the post 'whimsy being used to make a serious point'); the FDA-enforcement expectation reads as a sincere warning.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0585",
+   "forecaster": "owen",
+   "statement_date": "2023-07-03",
+   "quote": "The crucial point to understand about private equity investment, specifically in healthcare: is that it is a scam for the rest of us, and maybe for their investors too. It can’t generate value . The timeline is too short.",
+   "context": "Act II: the author argues that PE's 3-7 year hold period cannot produce real health value, so PE healthcare deals will fail to create value and may burn investors. Footnote 4: 2-4 years is enough for balance-sheet sleight of hand, not for improving health. American Physician Partners is the example.",
+   "post_title": "Where There is Smoke: Emergency Medicine's Disaster Match Previews Private Equity Funded Chaos in Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/where-there-is-smoke-emergency-medicines",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "maybe",
+   "entities": [
+    "private equity",
+    "American Physician Partners"
+   ],
+   "finder_note": "Structural claim with predictive implication (PE healthcare investments will not create value; investor losses possible).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0587",
+   "forecaster": "owen",
+   "statement_date": "2023-07-03",
+   "quote": "The risks that keep doctors accountable can also limit private equity investors, possibly deterring them from meddling in medicine.",
+   "context": "Act IV proposal: if corporate-practice-of-medicine violations carried personal liability for executives, like license risk for doctors, that could deter private equity from healthcare.",
+   "post_title": "Where There is Smoke: Emergency Medicine's Disaster Match Previews Private Equity Funded Chaos in Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/where-there-is-smoke-emergency-medicines",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "possibly",
+   "entities": [
+    "private equity"
+   ],
+   "finder_note": "Conditional policy prediction tied to a normative proposal.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0594",
+   "forecaster": "owen",
+   "statement_date": "2023-07-07",
+   "quote": "Every state can craft its own privacy laws— except, practically, California will dictate the standards across all healthcare products given the size of the market. ... I would be shocked if they didn't take a swing at Texas in this manner.",
+   "context": "In a satirical 'fan fiction' brief arguing that Dobbs ended the federal right to privacy and that HIPAA should be scrapped, the author predicts that, with privacy law left to the states, California will set the de facto privacy standard for all healthcare products because of its market size.",
+   "post_title": "Cerebral Class Action Defense Fan Fiction, Dobbs Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cerebral-class-action-defense-fan",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "California",
+    "HIPAA",
+    "Cerebral"
+   ],
+   "finder_note": "Conditional on HIPAA being scrapped / no federal privacy right. Satirical post, but the California-standard claim reads sincere (fuel-efficiency precedent cited).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0595",
+   "forecaster": "owen",
+   "statement_date": "2023-07-07",
+   "quote": "This is already standard operating procedure for the state of California when it comes to fuel efficiency standards, and I would be shocked if they didn't take a swing at Texas in this manner.",
+   "context": "Same passage: the author expects California to use state privacy law-making to counter Texas (abortion-enforcement access to health data), as it does with fuel-efficiency standards.",
+   "post_title": "Cerebral Class Action Defense Fan Fiction, Dobbs Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cerebral-class-action-defense-fan",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I would be shocked if they didn't",
+   "entities": [
+    "California",
+    "Texas",
+    "HIPAA"
+   ],
+   "finder_note": "Conditional on a state-level privacy regime replacing HIPAA; satirical post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0598",
+   "forecaster": "owen",
+   "statement_date": "2023-07-07",
+   "quote": "Honestly, privacy is over. Privacy is a terrible legal framework with which to protect healthcare information.",
+   "context": "Footnote 1: the author declares privacy finished as a legal framework for protecting health information and argues property law is the better framework.",
+   "post_title": "Cerebral Class Action Defense Fan Fiction, Dobbs Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cerebral-class-action-defense-fan",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is over",
+   "entities": [
+    "HIPAA"
+   ],
+   "finder_note": "Present-tense 'is dead'-style negative call; borderline forward-looking.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0606",
+   "forecaster": "owen",
+   "statement_date": "2023-07-10",
+   "quote": "You might never meet the deductible— 50% never do each year , and climbing.",
+   "context": "Argument that premiums do not count toward deductibles: the author states that half of plan members never meet their deductible each year and that this share is rising.",
+   "post_title": "SopranoRX: \"Modern Gangsters\" ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
+   "area_guess": "payer_policy",
+   "horizon_text": "each year",
+   "confidence_phrase": "and climbing",
+   "entities": [],
+   "finder_note": "Trend claim: the share of members who never meet the deductible is increasing.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0608",
+   "forecaster": "owen",
+   "statement_date": "2023-07-10",
+   "quote": "If one were paying for interplanetary travel, the trip from Earth to Saturn, at $1 a meter, would be affordable next year if costs go up at current rates — it’s 1.38 trillion meters away.",
+   "context": "Scale illustration after citing 2022 Big Insurance revenue of $1.25 trillion: at current growth rates, Big Health revenue would reach about $1.38 trillion next year.",
+   "post_title": "SopranoRX: \"Modern Gangsters\" ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
+   "area_guess": "company_market",
+   "horizon_text": "next year",
+   "confidence_phrase": "would be affordable next year if costs go up at current rates",
+   "entities": [
+    "Big Insurance",
+    "PBMs"
+   ],
+   "finder_note": "Humorous framing (the author calls the space comparison an exaggeration), but the numeric extrapolation (revenue of at least $1.38T next year at current growth) reads sincere.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0609",
+   "forecaster": "owen",
+   "statement_date": "2023-07-10",
+   "quote": "We can never get there. This “never” is important to understand; just like the mob, Big Health really can not stop putting the squeeze on you.",
+   "context": "Argument that 'value' rhetoric is hollow: Big Health companies will never reach value and cannot stop extracting money because of their fiduciary duty to shareholders.",
+   "post_title": "SopranoRX: \"Modern Gangsters\" ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
+   "area_guess": "company_market",
+   "horizon_text": "never",
+   "confidence_phrase": "never",
+   "entities": [
+    "Big Health",
+    "PBMs"
+   ],
+   "finder_note": "Negative structural call about payer / PBM behaviour.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0610",
+   "forecaster": "owen",
+   "statement_date": "2023-07-10",
+   "quote": "The Culture of Obedience, endless doublespeak, complexity, and mind-numbing profits can’t be undone by outsiders. It’s too powerful.",
+   "context": "RICO analogy: the author asserts outsiders cannot dismantle the Big Health / PBM system; only insiders using its own logic can.",
+   "post_title": "SopranoRX: \"Modern Gangsters\" ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "can’t be undone",
+   "entities": [
+    "Big Health",
+    "PBMs"
+   ],
+   "finder_note": "Negative call about who can change the system; paired with the next statement.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0611",
+   "forecaster": "owen",
+   "statement_date": "2023-07-10",
+   "quote": "The Big Health Mafia used complexity to shake us down. In turn, it will be taken down by those who ran the scam.",
+   "context": "Prediction that former insiders (Wendell Potter, Dave Chase, Mark Cuban's Cost Plus Drugs, ERISA lawyers such as Doug Aldeen) will bring down the Big Health / PBM system.",
+   "post_title": "SopranoRX: \"Modern Gangsters\" ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will be taken down",
+   "entities": [
+    "Big Health",
+    "PBMs",
+    "Wendell Potter",
+    "Dave Chase",
+    "Mark Cuban"
+   ],
+   "finder_note": "Open-ended, no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0615",
+   "forecaster": "owen",
+   "statement_date": "2023-07-10",
+   "quote": "you can ask your pharmacist to tell you how much your prescription would be “with your insurance” and its co-pay, and how much it would be not using your insurance with the above cost plus discount card. The answer is likely to surprise you!",
+   "context": "Claim that the cost-plus card cash price will often be lower than the insurance co-pay (the 'clawback').",
+   "post_title": "SopranoRX: \"Modern Gangsters\" ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "PBMs",
+    "CapitalRx",
+    "Rethinking Heroes"
+   ],
+   "finder_note": "Generic expectation about price comparisons; the author is affiliated with the card.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0616",
+   "forecaster": "owen",
+   "statement_date": "2023-07-10",
+   "quote": "I wasn’t looking for money; I was testing for sincerity. They failed, but others will sue and win. It’s already heating up with Perez, Ca 2021 enforcement and regulatory scrutiny.",
+   "context": "Footnote 9 on the health plan's late legal reply: the author predicts other plaintiffs will sue Big Health plans / PBMs over fiduciary breaches and win, citing rising CAA 2021 enforcement.",
+   "post_title": "SopranoRX: \"Modern Gangsters\" ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "CAA 2021",
+    "ERISA",
+    "Troutman Pepper",
+    "Big Health"
+   ],
+   "finder_note": "Litigation-outcome call; 'Perez' appears to reference an ERISA case.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0618",
+   "forecaster": "owen",
+   "statement_date": "2023-07-10",
+   "quote": "but I imagine the discovery, in that case, is most of the evidence needed for this one, vastly reducing the cost of the litigation",
+   "context": "Footnote 12 on Ford's Sherman Act antitrust suit against Blue Cross plans: the author expects discovery from the earlier $2.7b class action settlement to supply most of the evidence and cut Ford's litigation costs.",
+   "post_title": "SopranoRX: \"Modern Gangsters\" ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-modern-gangsters",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I imagine",
+   "entities": [
+    "Ford",
+    "Blue Cross",
+    "Sherman Act"
+   ],
+   "finder_note": "Litigation-process call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0622",
+   "forecaster": "owen",
+   "statement_date": "2023-07-12",
+   "quote": "II. Payers Demand Pilots That Will Fail",
+   "context": "Item II of the author's 'Rule of the House of Odds' for healthcare businesses (a House of God parody): pilots demanded by payers will fail.",
+   "post_title": "Never Raise Money For Your Healthcare Startup",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/never-raise-money-for-your-healthcare",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "Will Fail",
+   "entities": [],
+   "finder_note": "Aphoristic generic rule; low resolvability.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0623",
+   "forecaster": "owen",
+   "statement_date": "2023-07-12",
+   "quote": "VI. There is no healthcare play that can succeed absent a guaranteed government payer",
+   "context": "Item VI of the same rules: no healthcare business can succeed without a guaranteed government payer.",
+   "post_title": "Never Raise Money For Your Healthcare Startup",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/never-raise-money-for-your-healthcare",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "There is no healthcare play that can succeed",
+   "entities": [],
+   "finder_note": "Aphoristic generic negative call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0624",
+   "forecaster": "owen",
+   "statement_date": "2023-07-12",
+   "quote": "The expectations venture investors have are that they're going to want you to grow fast, and that means you're gonna have a very hard time maintaining the kind of quality that creates sustainable business model.",
+   "context": "Argument against raising venture capital for healthcare companies: VC growth pressure will erode care quality and business sustainability.",
+   "post_title": "Never Raise Money For Your Healthcare Startup",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/never-raise-money-for-your-healthcare",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "gonna",
+   "entities": [],
+   "finder_note": "Generic conditional claim about VC-backed healthcare startups.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0625",
+   "forecaster": "owen",
+   "statement_date": "2023-07-12",
+   "quote": "They will also expect to a burn rate. This means you spend more money than you make. This also means you create a business that fails the second the necessary extra cash dries up.",
+   "context": "Same argument: VC-expected burn rates create healthcare businesses that fail when outside funding stops.",
+   "post_title": "Never Raise Money For Your Healthcare Startup",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/never-raise-money-for-your-healthcare",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Generic conditional claim; coder may treat as truism.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0626",
+   "forecaster": "owen",
+   "statement_date": "2023-07-13",
+   "quote": "If we think narcissism is related to abuse, treating narcissism, and creating help that is understood as helpful to those suffering from NPD? It may lead to less abuse of others! Insults to potential abusers— adding a pejorative or even an accurate label—can't help.",
+   "context": "Opinion piece against the phrase 'narcissistic abuse': treating narcissistic personality disorder may reduce abuse of others, while stigmatizing labels cannot help.",
+   "post_title": "Narcissistic Abuse is an Abusive Phrase...for Us All.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/narcissistic-abuse-is-an-abusive",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "NPD"
+   ],
+   "finder_note": "Hedged conditional clinical claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0628",
+   "forecaster": "owen",
+   "statement_date": "2023-07-14",
+   "quote": "And so I think we’re going to see is that every employer is either going to have to be suing their health plan for this information or they’re open themselves up to liability for not doing so.",
+   "context": "After explaining PBMs and ERISA fiduciary duty to his mother (plan sponsors paying more than necessary for drugs; ACA/ERISA 10-day behavioral health wait standard versus a 48-day average wait for child therapy), the author predicts every employer will have to sue its health plan for claims and pricing data or face fiduciary liability.",
+   "post_title": "I Explained Healthcare to My Mom...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-explained-healthcare-to-my-mom",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I think we’re going to see",
+   "entities": [
+    "ERISA",
+    "ACA",
+    "PBMs",
+    "employer health plans"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0629",
+   "forecaster": "owen",
+   "statement_date": "2023-07-14",
+   "quote": "once one of these lawsuits wins for one type of claim, every lawyer, everywhere is going to be bringing the same easy to prove claim against every other plan sponsor, or on behalf of every other plan sponsor, against their broker, or with the broker against their plan, depending on who is willing to get out of the way of the wrecking ball first.",
+   "context": "Conditional forecast in the PBM/ERISA post: once an ERISA fiduciary-breach lawsuit over health plan costs wins on one type of claim, the author expects a wave of copycat suits against and on behalf of plan sponsors, brokers and plans. He adds that the best business model is 'popcorn to crunch for the show'.",
+   "post_title": "I Explained Healthcare to My Mom...",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-explained-healthcare-to-my-mom",
+   "area_guess": "payer_policy",
+   "horizon_text": "once one of these lawsuits wins",
+   "confidence_phrase": "is going to be",
+   "entities": [
+    "ERISA",
+    "plan sponsors",
+    "brokers"
+   ],
+   "finder_note": "Conditional on a first successful ERISA fiduciary lawsuit.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

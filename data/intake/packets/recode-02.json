@@ -1,0 +1,859 @@
+{
+ "packet": "recode-02.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0091",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "Our visionary leader will have a market insight. It will be breathtakingly simple.",
+   "context": "Item 1 of the closing 'predictions, or perhaps ... prophecies' list about the Elon Musk for Healthcare (EMH).",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Prophecies list; mock-biblical framing but presented as the author's predictions.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0092",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "Elon Musk for Healthcare (EMH) will not be a 22 year old 1st time start-up founder.",
+   "context": "Item 2 of the prophecies list: healthcare is too complicated for a first-time 22-year-old founder to find the simple insight; experience is needed.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will not be",
+   "entities": [],
+   "finder_note": "Negative trait call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0093",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "EMH will probably not be actual Elon Musk. He would have talked about health care more. He talks about everything else.",
+   "context": "Item 3 of the prophecies list.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will probably not be",
+   "entities": [
+    "Elon Musk"
+   ],
+   "finder_note": "Hedged negative call on a named person.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0094",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "I also don’t think Jeff Bezos is the chosen one. Time will tell, but he’s more likely in the running for Darth Vader/Anakin Skywalker of healthcare. Jeff is our Savior’s dad at best, and his redemption is similarly nigh.",
+   "context": "Item 4 of the prophecies list, days after Amazon's One Medical deal: Bezos is not the visionary healthcare leader; more likely a villain-then-redeemed figure.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "Time will tell",
+   "confidence_phrase": "I also don’t think ... more likely",
+   "entities": [
+    "Jeff Bezos",
+    "Amazon"
+   ],
+   "finder_note": "Star Wars framing; sincere core: Bezos/Amazon will not be the transformative healthcare leader.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0095",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "She— who is coming to Disrupt Healthcare as Elon disrupted our batteries— is likely to be from outside PrimeHealth. It’s hard to see the Matrix from within.",
+   "context": "Item 5 of the prophecies list: EMH will likely come from outside 'PrimeHealth' (pseudonym for a large incumbent payer).",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "is likely to be",
+   "entities": [
+    "PrimeHealth"
+   ],
+   "finder_note": "Hedged origin call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0096",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "She, of whom we were forewarned by a Frontier Psychiatrist , will have a Compelling Story of Lived Experience of a Serious Health Condition. Of this, we will learn on a special episode of the JRE .",
+   "context": "Item 6 of the prophecies list: EMH will have a lived-experience story of serious illness, revealed on the Joe Rogan Experience (JRE); Rogan's lack of libertarian dismissal will mark her as the true EMH.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will have",
+   "entities": [
+    "Joe Rogan Experience"
+   ],
+   "finder_note": "Lived-experience part reads sincere; the JRE/Rogan detail is satirical.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0097",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "Her funding, blessed be, will likely be from sources both smart and unorthodox . I mean, Annie Lamont will also get in early, cause Oak HC/FT just raised a 5th fund. Is saying no to Oak HC/FT even allowed anymore?",
+   "context": "Item 8 of the prophecies list: EMH's funding will likely be smart and unorthodox, and Annie Lamont / Oak HC/FT (which just raised a fifth fund) will invest early.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will likely ... will also",
+   "entities": [
+    "Annie Lamont",
+    "Oak HC/FT"
+   ],
+   "finder_note": "Two parts: unorthodox funding sources; Oak HC/FT gets in early.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0098",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "She will be rumored to have had experiences with psychedelic medicine (honestly this is just playing the numbers at this point), and some will believe from this experience, insights came to make the world a better place.",
+   "context": "Item 9 of the prophecies list: EMH will be rumored to have used psychedelic medicine; the author notes this is 'playing the numbers' given how common it is.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will be rumored",
+   "entities": [
+    "psychedelic medicine"
+   ],
+   "finder_note": "Half-joking base-rate call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0099",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "She will destroy all those who came before by the end of her rule, including PrimeHealth.",
+   "context": "Item 10, the final prophecy: EMH will destroy incumbent healthcare companies including 'PrimeHealth' (pseudonym for a real large payer). The post closes: 'Thus, it was foretold, and thus it will be.'",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "by the end of her rule",
+   "confidence_phrase": "will destroy",
+   "entities": [
+    "PrimeHealth"
+   ],
+   "finder_note": "Grandiose mock-prophecy; treated as the author's stated expectation.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0101",
+   "forecaster": "owen",
+   "statement_date": "2022-07-26",
+   "quote": "Sadly, people waiting on Transcranial Magnetic Stimulation or Esketamine will still be waiting for prior authorization for several weeks more.",
+   "context": "Image caption under a picture of the Harrowing of Hell (Jesus's three days in Hell). The author contrasts that three-day stay with psychiatric patients who wait weeks for payer prior authorization of TMS or esketamine. Part one of a two-part essay on the Medical Loss Ratio (MLR) and payer incentives.",
+   "post_title": "The Passion of the Medical Loss Ratio: Why Hath Payers Forsaken Mental Health Treatments that Work?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio",
+   "area_guess": "payer_policy",
+   "horizon_text": "several weeks more",
+   "confidence_phrase": "will still be waiting",
+   "entities": [
+    "Transcranial Magnetic Stimulation",
+    "Esketamine"
+   ],
+   "finder_note": "Joke framing (caption against a biblical image) but the underlying claim about multi-week prior-authorization waits reads as sincere.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0102",
+   "forecaster": "owen",
+   "statement_date": "2022-07-26",
+   "quote": "The business model profits on suffering. This would predict “more suffering.” And it does. And we do.",
+   "context": "The author's stated hypothesis: the fee-for-service insurance system, constrained by the MLR, profits from suffering, so the model predicts more suffering for psychiatric patients. Stated as a present-tense confirmation with an implied continuing trend.",
+   "post_title": "The Passion of the Medical Loss Ratio: Why Hath Payers Forsaken Mental Health Treatments that Work?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "would predict",
+   "entities": [],
+   "finder_note": "Borderline: structural prediction stated as present and continuing; coder may treat as analysis rather than forecast.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0103",
+   "forecaster": "owen",
+   "statement_date": "2022-07-26",
+   "quote": "Blue Cross, United, Cigna, Aetna (BUCA for short) Anthem, Magellan, Oscar, Elevance, Evernorth, Optimus Prime—and other carrier names following that pattern will pretend to want to save money all day long. The fiction of “controlling costs” never gets old.",
+   "context": "Section 'Let's Play Pretend!'. The author claims the major carriers will keep pretending to control costs while the MLR structure rewards higher total spending.",
+   "post_title": "The Passion of the Medical Loss Ratio: Why Hath Payers Forsaken Mental Health Treatments that Work?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will pretend",
+   "entities": [
+    "Blue Cross",
+    "UnitedHealthcare",
+    "Cigna",
+    "Aetna",
+    "Anthem",
+    "Magellan",
+    "Oscar",
+    "Elevance",
+    "Evernorth"
+   ],
+   "finder_note": "'Optimus Prime' is a joke insertion in the carrier list; the claim about carrier behavior reads as sincere.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0105",
+   "forecaster": "owen",
+   "statement_date": "2022-07-26",
+   "quote": "It can tilt backwards and forwards between Harvard, Princeton, and Yale but no one has to worry that UMass will knock them out of the running for the top three spots.",
+   "context": "Analogy: comparison shopping among health plans is like the top-colleges ranking. Underlying claim: the leading payers keep their market positions, no smaller entrant displaces them, and their premiums rise in step every year.",
+   "post_title": "The Passion of the Medical Loss Ratio: Why Hath Payers Forsaken Mental Health Treatments that Work?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "no one has to worry",
+   "entities": [
+    "Harvard",
+    "Princeton",
+    "Yale",
+    "UMass"
+   ],
+   "finder_note": "Analogy; the sincere underlying claim is that incumbent payers keep their positions. Entities listed are the analogy's, not payers.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0113",
+   "forecaster": "owen",
+   "statement_date": "2022-08-02",
+   "quote": "My Spirited Dissent…Won’t Matter.",
+   "context": "Section heading near the end of the piece. The author predicts his argument against 'unproven and experimental' denials (for TMS and other FDA-cleared treatments) will change nothing, because controlling the MLR is the only rational strategy for the health care conglomerates.",
+   "post_title": "Insurance Plan Requires More Studies on Parachutes: “Unproven and Experimental”",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/insurance-plan-requires-more-studies",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "Won’t",
+   "entities": [],
+   "finder_note": "Self-referential heading; borderline forecast that the essay has no effect on payer behavior.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0114",
+   "forecaster": "owen",
+   "statement_date": "2022-08-02",
+   "quote": "If we had more treatments that lead to remission paid for by payers, it would would mean less depression, PTSD , OCD, and more. But... Less profits.",
+   "context": "Conditional counterfactual: if payers covered more remission-inducing treatments (TMS and others), there would be less depression, PTSD and OCD, and less payer profit.",
+   "post_title": "Insurance Plan Requires More Studies on Parachutes: “Unproven and Experimental”",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/insurance-plan-requires-more-studies",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [],
+   "finder_note": "Conditional/counterfactual; compound (clinical outcomes and payer profits). Text has the duplicated word 'would would'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0115",
+   "forecaster": "owen",
+   "statement_date": "2022-08-02",
+   "quote": "Claims are going to be administered. Claims are going to be denied. Prior authorization is going to be required. The machinery of prior authorization will be tinkered with.",
+   "context": "Closing argument that no sinister plot is needed: siloed employees doing their jobs will keep administering and denying claims and requiring prior authorization, and the machinery will keep being adjusted.",
+   "post_title": "Insurance Plan Requires More Studies on Parachutes: “Unproven and Experimental”",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/insurance-plan-requires-more-studies",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "going to be",
+   "entities": [],
+   "finder_note": "Open-ended continuation call about payer behavior.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0117",
+   "forecaster": "owen",
+   "statement_date": "2022-08-02",
+   "quote": "So given depression, as just one illness, will drive cost, one could wonder if our system was one cynically intended to to prevent it’s effective treatment?",
+   "context": "Footnote 10, after citing Validation Institute data (44% higher cost with co-occurring major depression) and replicated cost studies. The author asserts depression will drive cost and asks rhetorically whether the system is designed to prevent effective treatment.",
+   "post_title": "Insurance Plan Requires More Studies on Parachutes: “Unproven and Experimental”",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/insurance-plan-requires-more-studies",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will drive",
+   "entities": [
+    "Validation Institute"
+   ],
+   "finder_note": "Weak forecast: general causal claim from past data inside a rhetorical question. Text has 'to to' and 'it's'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0118",
+   "forecaster": "owen",
+   "statement_date": "2022-08-09",
+   "quote": "The TL;DR: With the end of the Covid-19 public health emergency, which apparently has already ended according to the DEA, there will be no telehealth-only companies anymore as we know them today.",
+   "context": "Headline forecast: because the DEA treats the Covid-19 public health emergency as over and requires a physical office for DEA registration (controlled-substance prescribing), telehealth-only companies such as Cerebral will not exist in their current form.",
+   "post_title": "It’s the End of Telehealth as We Know It (and I Feel Fine)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know",
+   "area_guess": "company_market",
+   "horizon_text": "With the end of the Covid-19 public health emergency",
+   "confidence_phrase": "there will be no",
+   "entities": [
+    "DEA",
+    "Cerebral",
+    "Covid-19 public health emergency"
+   ],
+   "finder_note": "Core thesis of the post; restated in the headings 'Brick and Mortar is Back in a Big Way for Healthcare' and 'Hyperscaleable Virtual-Care is Dead'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0119",
+   "forecaster": "owen",
+   "statement_date": "2022-08-09",
+   "quote": "The kicker: if you can’t get a medical license + DEA number, there's no credentialing with major payers! It follows that, absent a physical office in every single state for all your prescribing humans, no more national “telehealth-only” plays.",
+   "context": "Mechanism for the thesis: DEA registration requires a physical office in each state; without a DEA number there is no payer credentialing; therefore national telehealth-only business models cannot continue.",
+   "post_title": "It’s the End of Telehealth as We Know It (and I Feel Fine)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "It follows that",
+   "entities": [
+    "DEA",
+    "major payers"
+   ],
+   "finder_note": "Compound: present regulatory description plus forecast. Nearby: 'If they can't do this, they won't issue a new license' (DEA inspection requirement).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0120",
+   "forecaster": "owen",
+   "statement_date": "2022-08-09",
+   "quote": "This is an expensive problem for telehealth start ups which assumed they would never, ever have to pay for any yucky offices to run their business. Good bye, capital efficiency…",
+   "context": "Implication of the DEA office requirement for telehealth startups: they will have to pay for physical offices, ending their capital-efficient model.",
+   "post_title": "It’s the End of Telehealth as We Know It (and I Feel Fine)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "Good bye",
+   "entities": [
+    "telehealth start ups",
+    "DEA"
+   ],
+   "finder_note": "Borderline: present cost problem with a forward implication (loss of capital efficiency).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0122",
+   "forecaster": "owen",
+   "statement_date": "2022-08-09",
+   "quote": "Stop burning money on dubious companies that don’t take concerns about patient care and liability seriously. Your portfolios will thank me.",
+   "context": "Advice to investors framed as a 'snarky public service message': stop funding telehealth companies that ignore patient care and liability; the predictive reading is that such investments will perform badly.",
+   "post_title": "It’s the End of Telehealth as We Know It (and I Feel Fine)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "venture capital"
+   ],
+   "finder_note": "Borderline: imperative advice with a predictive tail ('Your portfolios will thank me').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0124",
+   "forecaster": "owen",
+   "statement_date": "2022-08-09",
+   "quote": "Hyperscaleable Virtual-Care is Dead",
+   "context": "Section heading: the author declares hyperscalable virtual-only care models dead, because DEA rules require physical offices and because 'There is no such thing as a huge and perfectly scalable company'.",
+   "post_title": "It’s the End of Telehealth as We Know It (and I Feel Fine)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "is Dead",
+   "entities": [
+    "virtual care",
+    "venture capital",
+    "DEA"
+   ],
+   "finder_note": "Negative call in a heading; restates the TL;DR thesis.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0125",
+   "forecaster": "owen",
+   "statement_date": "2022-08-09",
+   "quote": "The hope that the conceit of investing in healthcare would be easy and wildly profitable without real innovation might—finally—have a wooden stake stabbed in is heart.",
+   "context": "With the DEA reasserting regulation of controlled-substance prescribing, the author hopes, with a hedge, that the venture-capital conceit of easy, scalable, wildly profitable healthcare investing without real innovation is ending.",
+   "post_title": "It’s the End of Telehealth as We Know It (and I Feel Fine)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "might—finally—",
+   "entities": [
+    "venture capital",
+    "DEA",
+    "Private Equity"
+   ],
+   "finder_note": "Hedged ('might'); framed as hope. Typo 'in is heart' is in the source.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0126",
+   "forecaster": "owen",
+   "statement_date": "2022-08-09",
+   "quote": "Private equity does not act in the interest of patients. It’s not their job. They’re not ever going to do that.",
+   "context": "Footnote 11: the author asserts private equity in healthcare will never act in patients' interest, because its fiduciary duty is to investors ('don't expect scorpions not to sting').",
+   "post_title": "It’s the End of Telehealth as We Know It (and I Feel Fine)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know",
+   "area_guess": "company_market",
+   "horizon_text": "not ever",
+   "confidence_phrase": "not ever going to",
+   "entities": [
+    "Private Equity"
+   ],
+   "finder_note": "Negative call ('never') about a class of actors; low resolvability.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0127",
+   "forecaster": "owen",
+   "statement_date": "2022-08-12",
+   "quote": "what happens when the DEA stops being polite, and starts getting real",
+   "context": "Entire body of a 23-word podcast blurb: narration of a newsletter article titled 'It's the End of Telehealth as We Know it (and I Feel Fine)'. The blurb presupposes the DEA will stop being lenient (on telehealth prescribing); the title implies telehealth as practiced will end.",
+   "post_title": "It’s the End of Telehealth as We Know it (and I Feel Fine)*",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know-0d7",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Borderline: implicit claim carried mostly by the post title, which is not part of the quotable text. Logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0139",
+   "forecaster": "owen",
+   "statement_date": "2022-09-02",
+   "quote": "It may be an excellent treatment for others. But given current payment models, it’s really unlikely that we’re gonna find out anytime soon.",
+   "context": "DBT (dialectical behavior therapy) for suicidal adolescents. The author argues DBT is shown superior only within study samples meeting strict inclusion criteria. He predicts that, under current payment (insurance reimbursement) models, evidence on whether DBT works for broader populations will not arrive anytime soon.",
+   "post_title": "Louboutins are the Best Shoes We Have, Expert Says",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/louboutins-are-the-best-shoes-we",
+   "area_guess": "clinical_trial",
+   "horizon_text": "anytime soon",
+   "confidence_phrase": "really unlikely",
+   "entities": [
+    "DBT",
+    "dialectical behavior therapy",
+    "New York Times"
+   ],
+   "finder_note": "Negative call on future evidence generation for DBT beyond trial samples; hinges on payment models.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0140",
+   "forecaster": "owen",
+   "statement_date": "2022-09-02",
+   "quote": "Then, predictably, they will be demoralized when they can’t get their insurance to pay for it. Which I’m here to promise you, it won’t. Not without a fight.",
+   "context": "After the NYT piece holds DBT up as 'the best tool we have' for self-harming and suicidal teens, the author predicts families will be demoralized because insurance will not pay for DBT, not without a fight.",
+   "post_title": "Louboutins are the Best Shoes We Have, Expert Says",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/louboutins-are-the-best-shoes-we",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I’m here to promise you, it won’t",
+   "entities": [
+    "DBT",
+    "New York Times",
+    "insurance companies"
+   ],
+   "finder_note": "Compound: families demoralized + insurers will not pay for DBT; 'Not without a fight' qualifier.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0141",
+   "forecaster": "owen",
+   "statement_date": "2022-09-02",
+   "quote": "I am bullish on teams in healthcare.",
+   "context": "While explaining why DBT is expensive (weekly individual therapy, multi-family groups, coaching calls, a large team), the author states a general positive expectation about team-based care in healthcare.",
+   "post_title": "Louboutins are the Best Shoes We Have, Expert Says",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/louboutins-are-the-best-shoes-we",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "bullish",
+   "entities": [
+    "DBT"
+   ],
+   "finder_note": "Borderline: general stance with no resolvable claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0142",
+   "forecaster": "owen",
+   "statement_date": "2022-09-02",
+   "quote": "A healthcare system that can only profit off of the expensive is the one that will feature endless expense.",
+   "context": "Setup: GPM (General Psychiatric Management for BPD) is designed to be inexpensive and scalable, so no one profits enough to promote it. The author then states that a profit-driven system will keep featuring endless expense, illustrated by a 5-year stock chart of a company profiting from expensive care.",
+   "post_title": "Louboutins are the Best Shoes We Have, Expert Says",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/louboutins-are-the-best-shoes-we",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "GPM",
+    "General Psychiatric Management",
+    "UnitedHealthcare"
+   ],
+   "finder_note": "Borderline: structural claim close to a truism; implies cheap scalable treatments like GPM will not get investment.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0147",
+   "forecaster": "owen",
+   "statement_date": "2022-09-06",
+   "quote": "The that workaround allows insane markups hidden from the rest of us and buried in our insurance premiums to go on even longer.",
+   "context": "Book 7 conclusion. The author argues Mark Cuban's cash-pay pharmacy (MCCPDC) is a workaround that lets hidden PBM and insurer markups buried in premiums persist longer instead of fixing the system.",
+   "post_title": "The Devil’s Advocate: Martin Shkreli vs. Mark Cuban",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-devils-advocate-martin-shkreli",
+   "area_guess": "payer_policy",
+   "horizon_text": "even longer",
+   "confidence_phrase": "none",
+   "entities": [
+    "Mark Cuban",
+    "Mark Cuban Cost Plus Drug Company (MCCPDC)",
+    "pharmacy benefit managers (PBMs)",
+    "health insurers"
+   ],
+   "finder_note": "Systemic-effect claim. Text typo ('The that') quoted verbatim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0151",
+   "forecaster": "owen",
+   "statement_date": "2022-09-08",
+   "quote": "What do you wanna bet your insurance isn’t gonna pay for it?",
+   "context": "Rhetorical question right after the call to action; the author predicts health insurers will not cover SAINT when it becomes available.",
+   "post_title": "Could Your Depression Be In Remission in 5 Days?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/could-your-depression-be-in-remission",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "What do you wanna bet",
+   "entities": [
+    "SAINT",
+    "Magnus",
+    "health insurers"
+   ],
+   "finder_note": "Question in form, prediction in substance (insurers will not pay). Logged under the recall-first rule.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0153",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "Medical malpractice insurance will not underwrite risk they cannot manage.",
+   "context": "TL;DR bullet 2 of the Texas gender-affirming-care essay. After Governor Abbott's directive defining gender-affirming care as child abuse, the author predicts malpractice carriers will refuse to underwrite physicians facing that unmanageable risk.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will not",
+   "entities": [
+    "Greg Abbott",
+    "Texas",
+    "medical malpractice carriers",
+    "American Professional Agency",
+    "Allied World Insurance"
+   ],
+   "finder_note": "TL;DR bullet; the body cites carrier calls (American Professional Agency, Allied World) that would not confirm continued coverage.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0154",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "No malpractice insurance, no medical practice.* (it’s legal in Texas to practice without medical malpractice insurance, I just don’t know how many doctors are gonna want to do that!)",
+   "context": "TL;DR bullet 4. If carriers withdraw coverage, the author expects doctors to stop practicing, since few will practice uninsured in Texas.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I just don’t know how many doctors are gonna want to do that",
+   "entities": [
+    "Texas"
+   ],
+   "finder_note": "Implied prediction that physicians will stop practicing or leave rather than go uninsured.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0157",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "It’s a contravention of the standards of professional ethics for doctors, so should not be a needle in a haystack to find those with legal standing.",
+   "context": "The author asks the ACLU to arrange a malpractice suit against a physician who complied with the Texas reporting mandate, and predicts plaintiffs with legal standing will be easy to find.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "should not be",
+   "entities": [
+    "ACLU",
+    "Texas"
+   ],
+   "finder_note": "Advocacy plus prediction; 'should' here is probabilistic, not normative.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0160",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "This mandate has even opened the wormhole of legal horror that is the imminent collapse of the very Texas Department of Family Protective Services that is supposed to be the headsman for Governor Abbott’s politically popular execution",
+   "context": "The author predicts the Texas Department of Family and Protective Services, tasked with investigating families under Abbott's directive, faces imminent collapse because failures to investigate are themselves reportable to the same agency.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "regulatory",
+   "horizon_text": "imminent",
+   "confidence_phrase": "imminent collapse",
+   "entities": [
+    "Texas DFPS",
+    "Greg Abbott"
+   ],
+   "finder_note": "Hyperbolic register but sincere; names DFPS collapse as imminent.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0161",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "Failure to investigate any allegations on the part of that agency itself is reportable…to the same agency…with the same dire consequences. This could lead to a möbius loop of iterative reports of failures to protect kids.",
+   "context": "Continuation of the DFPS point: the agency's failure to investigate is itself reportable to DFPS; the author expects a self-referential loop of reports of failures to protect children.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "Texas DFPS"
+   ],
+   "finder_note": "Hedged mechanism claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0162",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "Political Action as new agency mission— over the objections of civil servants— is a poor employee retention plan in Child Protection circles, I would imagine.",
+   "context": "The author expects DFPS staff attrition as the agency is redirected to politically driven investigations; he cites Statesman reporting (Chuck Lindell) on employee objections.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I would imagine",
+   "entities": [
+    "Texas DFPS",
+    "Greg Abbott",
+    "Austin American-Statesman"
+   ],
+   "finder_note": "Hedged retention/attrition prediction.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0163",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "If sued, she can and should loose. Subsequently her insurance would have to pay out on the claim. Medical Malpractice risk management starts to get nervous right about now.",
+   "context": "Hypothetical ER child psychiatrist bound by the Texas mandate: the author predicts she would lose a malpractice suit, her carrier would pay out, and carriers' risk management would react.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "can and should ... would have to",
+   "entities": [
+    "Texas",
+    "medical malpractice carriers"
+   ],
+   "finder_note": "Conditional on a hypothetical case; compound (loses suit, insurer pays, carriers get nervous).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0165",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "They make the standard of care illegal, and pretty quickly, the sequela of that — medical malpractice lawsuits, doctors fleeing your state, etc— create what some of us in healthcare advocacy would consider an opportunity",
+   "context": "Summing up: Abbott-style actions make the standard of care illegal, and the author predicts malpractice suits and physician flight from Texas will follow quickly, creating an ERISA-enforcement opportunity for advocates. Earlier he asks readers to imagine wait times 'when doctors start fleeing your state'.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "practice_adoption",
+   "horizon_text": "pretty quickly",
+   "confidence_phrase": "none",
+   "entities": [
+    "Greg Abbott",
+    "Texas",
+    "ERISA"
+   ],
+   "finder_note": "Compound: lawsuits, doctor flight, advocacy opportunity.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0166",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "They create ERISA plan insufficiencies that are clear and unambiguous. This opens the door for definitive enforcement of the fiduciary rule under the CA 2020 law.",
+   "context": "The author expects the Texas ban to produce clear ERISA network insufficiencies, enabling definitive enforcement of the broker/plan-sponsor fiduciary rule from the Consolidated Appropriations Act (which he labels 'CA 2020'). He then argues a claim against a Texas employer would be 'unbelievably easy'.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "opens the door",
+   "entities": [
+    "ERISA",
+    "Consolidated Appropriations Act 2020",
+    "Texas"
+   ],
+   "finder_note": "Enforcement-opportunity claim.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

@@ -1,0 +1,921 @@
+{
+ "packet": "recode-10.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-1076",
+   "forecaster": "owen",
+   "statement_date": "2024-06-09",
+   "quote": "Unfortunately, the more exciting a scientific field, like, again, psychedelic medicine? This also biases our outcomes to falsehood",
+   "context": "The author applies Ioannidis's corollaries (greater financial interests and hotter fields make findings less likely to be true) to psychedelic medicine, implying its research findings are more likely to prove false. Dan Karlin (CMO, Mind Medicine) is quoted nearby on disclosures.",
+   "post_title": "Why Science is Often Bad",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-science-is-often-bad",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "biases our outcomes to falsehood",
+   "entities": [
+    "John Ioannidis",
+    "Dan Karlin",
+    "Mind Medicine"
+   ],
+   "finder_note": "Implicit: predicts psychedelic-medicine findings will not hold up, via Ioannidis's hot-field and conflict-of-interest corollaries. Not dated.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1077",
+   "forecaster": "owen",
+   "statement_date": "2024-06-10",
+   "quote": "The worst part of psychedelic medicine is yet to come. If you think it's bad now, just wait till there are prior authorization hoops to jump through!",
+   "context": "Opening of Part IV, after Stat News coverage of the Lykos/MAPS drama and of Elevance firing its CarelonRx PBM director. The author predicts payer prior authorization requirements will become the worst part of psychedelic medicine once it reaches the market.",
+   "post_title": "Saving MDMA from \"AT\": Part IV",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-from-at-part-iv",
+   "area_guess": "payer_policy",
+   "horizon_text": "yet to come",
+   "confidence_phrase": "is yet to come",
+   "entities": [
+    "Elevance",
+    "CarelonRx",
+    "Lykos Therapeutics",
+    "MAPS"
+   ],
+   "finder_note": "Presumes psychedelic medicines reach a commercial, payer-covered stage.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1078",
+   "forecaster": "owen",
+   "statement_date": "2024-06-10",
+   "quote": "I strongly suspect we're going to need additional safeguards in place",
+   "context": "After the FDA open comment period and advisory committee on Lykos's MDMA-AT, the author expects additional safeguards will be needed to market a drug-plus-procedure combination safely; the article then proposes clinical trial design fixes.",
+   "post_title": "Saving MDMA from \"AT\": Part IV",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-from-at-part-iv",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "I strongly suspect",
+   "entities": [
+    "FDA",
+    "Lykos Therapeutics",
+    "MDMA"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1079",
+   "forecaster": "owen",
+   "statement_date": "2024-06-10",
+   "quote": "None of this means that the underlying compounds being studied in clinical trials can’t be successfully studied and brought to market.",
+   "context": "Despite former MAPS employees describing cult-like tendencies at MAPS in Stat News, the author holds that psychedelic compounds such as MDMA can still be studied properly and brought to market, and outlines a path forward.",
+   "post_title": "Saving MDMA from \"AT\": Part IV",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-from-at-part-iv",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "None of this means ... can’t",
+   "entities": [
+    "MAPS",
+    "Lykos Therapeutics",
+    "MDMA",
+    "FDA"
+   ],
+   "finder_note": "Double-negative, possibility-level call that psychedelic compounds still reach the market.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1081",
+   "forecaster": "owen",
+   "statement_date": "2024-06-11",
+   "quote": "MDMA and other psychedelics hold the promise to break through to hope. However, caution is warranted.",
+   "context": "In a passage on how difficult and dangerous psychotherapy is for patients and therapists, the author grants that MDMA and other psychedelics may deliver a breakthrough to hope, with a caution hedge. Part V of the MDMA-AT series.",
+   "post_title": "Bad Touch!  Saving MDMA: Part V",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bad-touch-saving-mdma-part-v",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "hold the promise",
+   "entities": [
+    "MDMA"
+   ],
+   "finder_note": "Hedged statement of therapeutic potential; borderline as a forecast.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1082",
+   "forecaster": "owen",
+   "statement_date": "2024-06-11",
+   "quote": "Even that 0.66% rate, at the scale of 1,000,000 patients treated, would be… 6,600 additional sexually assaulted patients—by their therapists",
+   "context": "The author takes the one sexual boundary violation known from the MAPS Phase 3 MDMA-AT sample (two studies, n = 150) as a 0.66% rate and projects that, if MDMA-AT were deployed to 1,000,000 patients, about 6,600 additional patients would be sexually assaulted by their therapists. Conditional numeric projection about MDMA-AT at scale.",
+   "post_title": "Bad Touch!  Saving MDMA: Part V",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/bad-touch-saving-mdma-part-v",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "would be",
+   "entities": [
+    "MAPS",
+    "Lykos Therapeutics",
+    "MDMA-AT",
+    "Rick Doblin",
+    "Meaghan Buisson"
+   ],
+   "finder_note": "Conditional numeric projection from a single Phase 3 case; the preceding sentence is a question, the projection itself is the author's own claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1085",
+   "forecaster": "owen",
+   "statement_date": "2024-06-14",
+   "quote": "Physicians will be needed, and on site, for these psychedelic treatments.",
+   "context": "Part VI proposes a staffing model for psychedelic medicine: nurses monitor patients while they are under the drug, therapists work afterward, and physicians must be on site, by analogy with the on-site REMS certification required for esketamine.",
+   "post_title": "Saving MDMA (and other psychedelic therapies): VI",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-and-other-psychedelic",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will be needed",
+   "entities": [
+    "FDA",
+    "Esketamine"
+   ],
+   "finder_note": "Reads both as a prediction of how psychedelic treatment will be staffed and as the author's recommendation.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1087",
+   "forecaster": "owen",
+   "statement_date": "2024-06-14",
+   "quote": "The more controlled the substance, the more restrictive the REMS, the more this approach becomes a meaningful barrier to entry for competition. Thus, this has the potential to be a profitable product without having to rely on selling tons of expensive therapy training to therapists.",
+   "context": "Business-model claim: owning the REMS and risk-mitigation intellectual property (as Jazz Pharmaceuticals did with Xyrem/sodium oxybate) can make a psychedelic drug a profitable, competition-protected product without selling therapist training, which the author says looks like NXIVM or Scientology.",
+   "post_title": "Saving MDMA (and other psychedelic therapies): VI",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-and-other-psychedelic",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "has the potential",
+   "entities": [
+    "Jazz Pharmaceuticals",
+    "Xyrem",
+    "FDA"
+   ],
+   "finder_note": "Hedged business-model forecast, generic to psychedelic sponsors rather than a named company.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1088",
+   "forecaster": "owen",
+   "statement_date": "2024-06-14",
+   "quote": "We need more excellent treatments, and I believe MDMA will have a place at the table.",
+   "context": "Written from the Clinical TMS Society meeting while listening to Dr. Rodriguez from Stanford present on MDMA for OCD paired with ExRP therapy; the author expects MDMA to find a role in psychiatric treatment despite his criticism of MDMA-AT.",
+   "post_title": "Saving MDMA (and other psychedelic therapies): VI",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-and-other-psychedelic",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I believe ... will",
+   "entities": [
+    "MDMA",
+    "Dr. Rodriguez (Stanford)",
+    "Clinical TMS Society"
+   ],
+   "finder_note": "Positive call on MDMA's eventual clinical role; no date or indication specified.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1097",
+   "forecaster": "owen",
+   "statement_date": "2024-06-17",
+   "quote": "For employers, perhaps having a bit more rigor will go better in subsequent discovery when the endless ERISA lawsuits land on your desk too?",
+   "context": "The author's own closing line after the Al Lewis column on Aon's Lyra analysis: employers who rely on weak vendor analyses face discovery in ERISA lawsuits, which he expects to be endless and to reach employers.",
+   "post_title": "Al Lewis Weighs in On Lyra Health Claims",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/al-lewis-weighs-in-on-lyra-health",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "perhaps ... when the endless ERISA lawsuits land",
+   "entities": [
+    "Aon",
+    "Lyra Health",
+    "ERISA"
+   ],
+   "finder_note": "Phrased as a question but asserts that ERISA lawsuits against employer health plans are coming. Legal/benefits area.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1099",
+   "forecaster": "owen",
+   "statement_date": "2024-06-18",
+   "quote": "Perhaps we need a warning label on warning labels from regulators and surgeons general? Warning: Unintended Consequences May Follow.",
+   "context": "Close of the argument against Murthy's proposed social media warning label. The author expects unintended consequences from warning labels issued by regulators and surgeons general, drawing on the antidepressant boxed warning and tobacco label evidence. Public health policy domain.",
+   "post_title": "Warning Labels for Social Media Are A Terrible Idea.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/warning-labels-for-social-media-are",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "May Follow",
+   "entities": [
+    "Vivek Murthy",
+    "Surgeon General"
+   ],
+   "finder_note": "Rhetorical mock warning label; hedged.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1100",
+   "forecaster": "owen",
+   "statement_date": "2024-06-19",
+   "quote": "This is not the last word on MDMA-AT, MDMA, or any other psychedelic medicine.",
+   "context": "Post sharing a two-part Carlat Psychiatry Podcast on what went wrong in the MAPS/Lykos trials reviewed by the FDA Advisory Committee. The author says the MDMA-AT story is not over and recalls that the FDA set a high bar for clozapine (safety monitoring, superiority, treatment-resistant patients).",
+   "post_title": "What Went Wrong? MDMA-AT on the Carlat Psychiatry Podcast",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-went-wrong-mdma-on-the-carlat",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "not the last word",
+   "entities": [
+    "MDMA-AT",
+    "MDMA",
+    "MAPS",
+    "Lykos Therapeutics",
+    "FDA",
+    "Carlat Psychiatry Podcast"
+   ],
+   "finder_note": "Weak forward-looking statement. The clozapine analogy implies the FDA may demand a similar bar for MDMA-AT, but the author does not say so directly.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1102",
+   "forecaster": "owen",
+   "statement_date": "2024-06-21",
+   "quote": "Nobody's going to make any money if they get an FDA label—they are already generic. ... To be clear, this problem only gets worse with time.",
+   "context": "Setup for the prazosin discussion: older generic medications (prazosin among them) will not earn a sponsor money even if they get a new FDA label, so nobody pays for the trials. General economic claim about repurposing off-patent drugs.",
+   "post_title": "Prazosin",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/prazosin",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "Nobody's going to",
+   "entities": [
+    "FDA",
+    "prazosin"
+   ],
+   "finder_note": "Borderline: general economic claim close to a truism; logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1103",
+   "forecaster": "owen",
+   "statement_date": "2024-06-21",
+   "quote": "To be clear, this problem only gets worse with time.",
+   "context": "The problem: off-patent chemicals never get developed into labeled treatments because no sponsor can profit ('drugs that can't make a bazillion dollars'). The author expects this problem to worsen over time.",
+   "post_title": "Prazosin",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/prazosin",
+   "area_guess": "other",
+   "horizon_text": "with time",
+   "confidence_phrase": "only gets worse",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Vague trend claim; hard to resolve.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1104",
+   "forecaster": "owen",
+   "statement_date": "2024-06-22",
+   "quote": "Sadly, people waiting on transcranial magnetic stimulation or esketamine will still be waiting for prior authorization for several more weeks.",
+   "context": "Republished 2022 essay on the Medical Loss Ratio (MLR). Caption-style aside after the Harrowing of Hell image: patients seeking TMS or esketamine will keep waiting on payer prior authorization for weeks. Generic claim about ongoing payer practice, not a specific event.",
+   "post_title": "The Passion of the Medical Loss Ratio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio-b98",
+   "area_guess": "payer_policy",
+   "horizon_text": "several more weeks",
+   "confidence_phrase": "will still be waiting",
+   "entities": [
+    "transcranial magnetic stimulation (TMS)",
+    "esketamine",
+    "health insurers"
+   ],
+   "finder_note": "Glib aside; continuation claim about prior authorization delays. Body text written in 2022, post dated 2024-06-22.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1108",
+   "forecaster": "owen",
+   "statement_date": "2024-06-22",
+   "quote": "It can tilt backward and forwards between Harvard, Princeton, and Yale, but no one has to worry that UMass will knock them out of the running for the top three spots.",
+   "context": "MLR mechanics section, comparing health plan comparison shopping to college rankings. Metaphor: the ranking among the top carriers may shuffle, but no outsider will displace the top health plans.",
+   "post_title": "The Passion of the Medical Loss Ratio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio-b98",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "no one has to worry",
+   "entities": [
+    "health insurers"
+   ],
+   "finder_note": "Metaphor for payer market concentration staying stable; underlying claim reads as sincere. Borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1111",
+   "forecaster": "owen",
+   "statement_date": "2024-06-22",
+   "quote": "My Spirited Dissent…Won’t Matter.",
+   "context": "Section heading before the argument that insisting on non-scientific standards of proof is inhumane and that payer coverage of more remission-inducing treatments would mean less illness but less profit. The author expects his own dissent to have no effect on payer behavior.",
+   "post_title": "The Passion of the Medical Loss Ratio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio-b98",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "Won’t",
+   "entities": [
+    "Owen Scott Muir",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Section heading; call about the author's own influence. The 2024 preamble later claims the articles did influence OCD coverage policy.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1112",
+   "forecaster": "owen",
+   "statement_date": "2024-06-22",
+   "quote": "If we had more treatments that lead to remission paid for by payers, it would mean less depression, PTSD , OCD, and more. But... Less profits.",
+   "context": "Section 'My Spirited Dissent...Won't Matter.' Conditional: if payers covered more remission-inducing treatments, population depression, PTSD and OCD would fall, and payer profits would fall.",
+   "post_title": "The Passion of the Medical Loss Ratio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio-b98",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [
+    "payers",
+    "depression",
+    "PTSD",
+    "OCD"
+   ],
+   "finder_note": "Conditional counterfactual; compound (less illness, less profit).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1113",
+   "forecaster": "owen",
+   "statement_date": "2024-06-22",
+   "quote": "Claims are going to be administered. Claims are going to be denied. Prior authorization is going to be required. The machinery of prior authorization will be tinkered with.",
+   "context": "Section 'The Fall', describing healthcare megacorps (Optum, UnitedHealth) with no sinister plot. The author predicts that claims denial and prior authorization will continue and the prior authorization machinery will keep being adjusted.",
+   "post_title": "The Passion of the Medical Loss Ratio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-passion-of-the-medical-loss-ratio-b98",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to be; will be",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group",
+    "health insurers"
+   ],
+   "finder_note": "Continuation claim about payer practice.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1117",
+   "forecaster": "owen",
+   "statement_date": "2024-06-24",
+   "quote": "If one were paying for interplanetary travel, the trip from Earth to Saturn, at $1 a meter, would be affordable next year if costs go up at current rates — it’s 1.38 trillion meters away.",
+   "context": "Section 'Intergalactic Expense is Not Enough', after citing 2022 Big Insurance revenue of $1.25 trillion and profits of $69.3 billion. Implied numeric call: at current growth rates, Big Health revenue exceeds $1.38 trillion next year. Original text written July 2023, republished June 2024.",
+   "post_title": "SopranoRX: The PBM Mafia, Revisited",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-the-pbm-mafia-revisited",
+   "area_guess": "company_market",
+   "horizon_text": "next year",
+   "confidence_phrase": "would be",
+   "entities": [
+    "Big Insurance",
+    "PBMs",
+    "UnitedHealth Group",
+    "Cigna",
+    "CVS"
+   ],
+   "finder_note": "Humorous framing (author calls it an exaggeration), but the arithmetic extrapolation (revenue above $1.38T next year) reads as a real expectation.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1118",
+   "forecaster": "owen",
+   "statement_date": "2024-06-24",
+   "quote": "We’re always moving in the direction of value. We can never get there. This “never” is important to understand; just like the mob, Big Health really can not stop putting the squeeze on you.",
+   "context": "Section on 'value' rhetoric in Big Health podcasts. The author asserts Big Health (insurer-owned PBMs) will never reach 'value' and can never stop raising costs on members, because doing so would violate fiduciary duty to shareholders.",
+   "post_title": "SopranoRX: The PBM Mafia, Revisited",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-the-pbm-mafia-revisited",
+   "area_guess": "company_market",
+   "horizon_text": "never",
+   "confidence_phrase": "never; can not stop",
+   "entities": [
+    "Big Health",
+    "PBMs",
+    "UnitedHealth Group",
+    "Cigna",
+    "CVS"
+   ],
+   "finder_note": "Negative call; same structural thesis as the MLR post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1119",
+   "forecaster": "owen",
+   "statement_date": "2024-06-24",
+   "quote": "The Culture of Obedience, endless doublespeak, complexity, and mind-numbing profits can’t be undone by outsiders. It’s too powerful.",
+   "context": "Section comparing the RICO takedown of the Mafia to Big Health. The author claims outsiders (regulators, critics) cannot dismantle the Big Health and PBM system; insiders are needed.",
+   "post_title": "SopranoRX: The PBM Mafia, Revisited",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-the-pbm-mafia-revisited",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "can’t be undone",
+   "entities": [
+    "Big Health",
+    "PBMs"
+   ],
+   "finder_note": "Negative call; followed by the normative 'We need heroes from inside that culture to tear it apart'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1120",
+   "forecaster": "owen",
+   "statement_date": "2024-06-24",
+   "quote": "The Big Health Mafia used complexity to shake us down. In turn, it will be taken down by those who ran the scam.",
+   "context": "Section 'The Empire Strikes Back'. The author predicts that Big Health (insurer-owned PBMs) will be taken down by former insiders speaking out, citing Wendell Potter, Dave Chase and Mark Cuban, and the Consolidated Appropriations Act 2021 fiduciary rule.",
+   "post_title": "SopranoRX: The PBM Mafia, Revisited",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-the-pbm-mafia-revisited",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Big Health",
+    "PBMs",
+    "Wendell Potter",
+    "Dave Chase",
+    "Mark Cuban",
+    "Consolidated Appropriations Act 2021"
+   ],
+   "finder_note": "Direct call; mechanism is former insiders plus CAA fiduciary duty litigation.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1123",
+   "forecaster": "owen",
+   "statement_date": "2024-06-24",
+   "quote": "They failed, but others will sue and win. It’s already heating up with Perez, Ca 2021 enforcement and regulatory scrutiny.",
+   "context": "Footnote 9, on the law firm's late legal reply to the author's ADA complaint against his health plan. The author predicts other plaintiffs will sue Big Health plans and PBMs for fiduciary breach under ERISA and CAA 2021 and win.",
+   "post_title": "SopranoRX: The PBM Mafia, Revisited",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-the-pbm-mafia-revisited",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "ERISA",
+    "Consolidated Appropriations Act 2021",
+    "Troutman Pepper",
+    "Big Health"
+   ],
+   "finder_note": "Footnote; litigation outcome call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1124",
+   "forecaster": "owen",
+   "statement_date": "2024-06-24",
+   "quote": "I imagine the discovery, in that case, is most of the evidence needed for this one, vastly reducing the cost of the litigation…",
+   "context": "Footnote 12 on Ford's Sherman Act antitrust suit against the Blue Cross plans. The author expects discovery from the prior $2.7b class action settlement to supply most of the evidence for Ford's case and greatly reduce its litigation cost.",
+   "post_title": "SopranoRX: The PBM Mafia, Revisited",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sopranorx-the-pbm-mafia-revisited",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I imagine",
+   "entities": [
+    "Ford",
+    "Blue Cross Blue Shield",
+    "Sherman Act"
+   ],
+   "finder_note": "Footnote; hedged call about the course of a specific lawsuit.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1127",
+   "forecaster": "owen",
+   "statement_date": "2024-06-25",
+   "quote": "The overturn of Roe might be the legal precedent to reclaim privacy, both for women, and for all of us.",
+   "context": "Thesis of the post: the author argues that the Dobbs reasoning (no federal right to privacy) creates an opportunity to challenge HIPAA and to rebuild privacy protections at the state level.",
+   "post_title": "United Healthcare v. HIPAA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might be",
+   "entities": [
+    "Roe v. Wade",
+    "Dobbs v. Jackson",
+    "HIPAA",
+    "Supreme Court"
+   ],
+   "finder_note": "Hedged; setup for the HIPAA-overturn call later in the post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1129",
+   "forecaster": "owen",
+   "statement_date": "2024-06-25",
+   "quote": "There will be no meaningful punishments brought to bear by the Department of Justice. It would bankrupt United Healthcare.",
+   "context": "On the Change Healthcare cyber attack (Change is a UnitedHealth Group subsidiary). The author predicts the federal government (DOJ) will not impose meaningful HIPAA penalties on United Healthcare for the breach, because a fine sized to the breach would bankrupt the company and the company donates heavily to politicians.",
+   "post_title": "United Healthcare v. HIPAA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "There will be no",
+   "entities": [
+    "Department of Justice",
+    "United Healthcare",
+    "UnitedHealth Group",
+    "Change Healthcare",
+    "HIPAA"
+   ],
+   "finder_note": "Negative call on a federal enforcement outcome.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1131",
+   "forecaster": "owen",
+   "statement_date": "2024-06-25",
+   "quote": "If the challenge were based on the Dobbs decision? The Supreme Court will never do anything to undercut that",
+   "context": "Conditional: if United Healthcare (or anyone) challenged HIPAA on the basis of the Dobbs decision's reasoning, the author predicts the Supreme Court would not rule in a way that undercuts Dobbs, so the challenge would prevail.",
+   "post_title": "United Healthcare v. HIPAA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
+   "area_guess": "other",
+   "horizon_text": "never",
+   "confidence_phrase": "will never",
+   "entities": [
+    "Supreme Court",
+    "Dobbs v. Jackson",
+    "HIPAA",
+    "United Healthcare"
+   ],
+   "finder_note": "Conditional call about Supreme Court behavior.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1133",
+   "forecaster": "owen",
+   "statement_date": "2024-06-25",
+   "quote": "California’s laws already offer this, and other states could follow suit.",
+   "context": "'This' is a private right of action for health-privacy violations. The author expects other states could follow California in enacting one, after the wish 'I would love to see a private right of action.'",
+   "post_title": "United Healthcare v. HIPAA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "California"
+   ],
+   "finder_note": "Hedged state-policy call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1134",
+   "forecaster": "owen",
+   "statement_date": "2024-06-25",
+   "quote": "Massive data breaches that leak our information are going to continue happening",
+   "context": "The author predicts continued large health-data breaches like the Change Healthcare attack; this is his reason for citizens to have a private right of action.",
+   "post_title": "United Healthcare v. HIPAA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to continue",
+   "entities": [
+    "Change Healthcare"
+   ],
+   "finder_note": "Trend-continuation call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1135",
+   "forecaster": "owen",
+   "statement_date": "2024-06-25",
+   "quote": "I believe this will allow for all of us to robustly defend our protected and very personal health information from Hackers and government busybodies alike.",
+   "context": "'This' is the combination of HIPAA being overturned and states enforcing privacy as an unenumerated right. The author expects the result to be stronger protection of health data against hackers and government access.",
+   "post_title": "United Healthcare v. HIPAA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I believe this will",
+   "entities": [
+    "HIPAA"
+   ],
+   "finder_note": "Conditional on the HIPAA-overturn call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1136",
+   "forecaster": "owen",
+   "statement_date": "2024-06-25",
+   "quote": "United Healthcare defending its right to not pay a dime? It might be the one path to winning our right to privacy back.",
+   "context": "Closing line: the author expects a United Healthcare legal challenge to HIPAA (to avoid fines for the Change Healthcare breach) might be the path that restores a right to privacy.",
+   "post_title": "United Healthcare v. HIPAA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/united-healthcare-v-hipaa",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "might be",
+   "entities": [
+    "United Healthcare",
+    "HIPAA",
+    "Change Healthcare"
+   ],
+   "finder_note": "Hedged restatement of the HIPAA-overturn thesis.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1141",
+   "forecaster": "owen",
+   "statement_date": "2024-06-26",
+   "quote": "Either be prepared to spend much, much much more, because that's on average what it costs, or it may be that you don't have the access to capital necessary to bring a new therapeutic to market in the United States?",
+   "context": "After citing a 2020 study putting the median cost of bringing a new drug to market at $1.3b and noting Lykos has spent only a tiny fraction: Lykos will need to spend far more, or may lack the capital to bring MDMA-AT to market.",
+   "post_title": "Saving MDMA VII: This isn't The First Drug to Have Problems Getting Approved",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/saving-mdma-vii-this-isnt-the-first",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "may be",
+   "entities": [
+    "Lykos Therapeutics",
+    "MDMA-AT"
+   ],
+   "finder_note": "Addressed to Lykos in the second person; compound either/or claim about capital needs.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1147",
+   "forecaster": "owen",
+   "statement_date": "2024-06-28",
+   "quote": "A new Apex predator is in town. It doesn't care if you're in the water. And it sure as F- isn’t going to disclose it.",
+   "context": "Closing of a satirical piece in which Optum/UnitedHealthcare 'acquires' the largest great white shark nursery off Rockaway Beach. The sincere underlying claim: UnitedHealth Group will keep making acquisitions without public disclosure because they fall below the 'material to earnings' threshold.",
+   "post_title": "Optum Announces Strategic Baby Shark Program",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/optum-announces-strategic-baby-shark",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "isn’t going to",
+   "entities": [
+    "UnitedHealthcare",
+    "UnitedHealth Group",
+    "Optum",
+    "Change Healthcare"
+   ],
+   "finder_note": "Satirical framing; the non-disclosure claim reads as a real expectation.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1149",
+   "forecaster": "owen",
+   "statement_date": "2024-07-04",
+   "quote": "disavow these usurpations, which, would inevitably interrupt our connections and fiscal viability of their industry—be it either pharma or med device!",
+   "context": "Parody of the Declaration's address to 'British brethren', here aimed at non-physician colleagues in pharma and medical devices: the author asserts that payer usurpations (coverage restrictions and hoops before reimbursement) would inevitably damage the fiscal viability of the pharma and device industries.",
+   "post_title": "The Declaration of Medical Independence (Second Level Appeal)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-declaration-of-medical-independence",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "would inevitably",
+   "entities": [
+    "health plans",
+    "pharma industry",
+    "medical device industry"
+   ],
+   "finder_note": "Borderline: parody text with a conditional consequence; forward-looking only in a general sense.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1157",
+   "forecaster": "owen",
+   "statement_date": "2024-07-17",
+   "quote": "I under-appreciate the savvy behind Mark Cuban’s Cost Plus Drugs. I underappreciated the strategy. And, to be clear, I have become a customer myself. Mark might end up a real, actual Saint in the bedeviled hellscape of American Healthcare.",
+   "context": "2024 preface to a republished satirical piece. The author apologizes to Mark Cuban and the Cost Plus Drugs team, says he under-appreciated the strategy, and expects Cuban's Cost Plus Drug Company may end up a real force for good ('Saint') in American healthcare, meaning it succeeds at cutting drug costs.",
+   "post_title": "Revisiting Martin Shkreli vs. Mark Cuban",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/revisiting-martin-shkreli-vs-mark",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "Mark Cuban",
+    "Mark Cuban Cost Plus Drug Company (MCCPDC)",
+    "Martin Shkreli"
+   ],
+   "finder_note": "Metaphorical 'Saint' = Cost Plus Drugs succeeds at lowering drug costs. Preface written 2024, reverses the 2022 satire's stance.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1159",
+   "forecaster": "owen",
+   "statement_date": "2024-07-17",
+   "quote": "That workaround allows insane markups, hidden from the rest of us and buried in our insurance premiums, to continue for even longer.",
+   "context": "Closing of the satirical 2022 piece (Book 7: Genesis). The author argues Cost Plus Drugs' cash-pay workaround lets PBM/insurer markups hidden in insurance premiums persist longer, rather than fixing the system.",
+   "post_title": "Revisiting Martin Shkreli vs. Mark Cuban",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/revisiting-martin-shkreli-vs-mark",
+   "area_guess": "payer_policy",
+   "horizon_text": "for even longer",
+   "confidence_phrase": "none",
+   "entities": [
+    "Mark Cuban Cost Plus Drug Company (MCCPDC)",
+    "Mark Cuban",
+    "pharmacy benefit managers (PBMs)",
+    "UnitedHealthcare",
+    "CVS Caremark"
+   ],
+   "finder_note": "Inside a satirical piece but the claim reads as sincere. The 2024 preface partly retracts the piece ('I was Wrong').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1161",
+   "forecaster": "owen",
+   "statement_date": "2024-07-20",
+   "quote": "United Healthcare provides so much money to politicians in Congress! Enforcement actions against it will never ever make a change in behavior— or a dent in it’s remarkable profits.",
+   "context": "After describing United/Optum mass layoffs in Texas and Florida and possible WARN Act violations, the author asserts that enforcement actions (WARN Act, DOJ) will never change UnitedHealth's behavior or dent its profits.",
+   "post_title": "UnitedHealth Group's \"Firing Squad\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-groups-firing-squad",
+   "area_guess": "regulatory",
+   "horizon_text": "never ever",
+   "confidence_phrase": "will never ever",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "Optum",
+    "WARN Act",
+    "Department of Justice",
+    "Congress"
+   ],
+   "finder_note": "Reinforced by 'Any fine, however large, is a rounding error.'",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1162",
+   "forecaster": "owen",
+   "statement_date": "2024-07-20",
+   "quote": "The remarkable thing about United Healthcare? It gets away with behavior that is going to harm more of us—and more profoundly—than the opioid crisis.",
+   "context": "Comparing UnitedHealth to big oil, big tobacco and Purdue Pharma, the author predicts United's conduct will harm more Americans, more profoundly, than the opioid crisis; cites the Change Healthcare cyberattack as an example.",
+   "post_title": "UnitedHealth Group's \"Firing Squad\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-groups-firing-squad",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthcare",
+    "Purdue Pharma",
+    "Change Healthcare"
+   ],
+   "finder_note": "Comparative harm claim; hard to resolve but a sincere forward-looking call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1174",
+   "forecaster": "owen",
+   "statement_date": "2024-07-31",
+   "quote": "This firestorm? Employee Health Benefits. This, by the way, isn’t an accident. It’s a plan by evangelicals in the self-funded employer space. It will destroy Big Health as we know it.",
+   "context": "The author predicts the wave of ERISA fiduciary lawsuits over employee health benefits, driven by self-funded-employer advocates, will destroy the large vertically integrated insurers ('Big Health': Express Scripts/Cigna, OptumRx/UnitedHealth, Caremark/CVS, CarelonRx/Elevance).",
+   "post_title": "Every Employer Will Be Sued...Personally ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/every-employer-will-be-suedpersonally",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will destroy",
+   "entities": [
+    "Big Health",
+    "Cigna",
+    "Express Scripts",
+    "UnitedHealth Group",
+    "OptumRx",
+    "CVS Health",
+    "Caremark",
+    "Elevance",
+    "CarelonRx",
+    "ERISA"
+   ],
+   "finder_note": "Strong, undated call.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

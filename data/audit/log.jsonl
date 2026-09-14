@@ -56,3 +56,8 @@
 {"at":"2026-09-14T05:42:30.743Z","script":"consolidate-registry assemble","groups":53,"in_scope":53,"out_of_area":0,"events":53,"mapped_refs":92,"inverted_refs":1}
 {"at":"2026-09-14T05:42:42.448Z","script":"consolidate-registry assemble","groups":53,"in_scope":53,"out_of_area":0,"events":53,"mapped_refs":92,"inverted_refs":1}
 {"at":"2026-09-14T05:42:42.934Z","script":"consolidate-registry apply","added":53,"total":122,"mapped_refs":92,"out_of_area_refs":0}
+{"at":"2026-09-14T05:43:39.625Z","script":"build-recode-packets","forecaster":"owen","reasons":["VAGUE"],"statements":828,"packets":21}
+{"at":"2026-09-14T05:52:09.868Z","script":"import-sweep","forecaster":"doblin","file":"data/research/comparator-doblin-sweep3.json","added":26,"skipped":1,"paraphrase":0,"too_short":0,"total":270}
+{"at":"2026-09-14T05:52:10.254Z","script":"import-sweep","forecaster":"angermayer","file":"data/research/comparator-angermayer-sweep3.json","added":11,"skipped":2,"paraphrase":0,"too_short":0,"total":190}
+{"at":"2026-09-14T05:52:10.718Z","script":"build-coding-packets","to_code":37,"packets":1,"reject_sample":0,"rejects":0}
+{"at":"2026-09-14T05:52:41.313Z","script":"build-tiebreak-packet","statements":3443,"splits":3,"packets":6}

@@ -1,0 +1,880 @@
+{
+ "packet": "recode-01.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0007",
+   "forecaster": "owen",
+   "statement_date": "2021-06-01",
+   "quote": "We were thrilled to see that Brandon Batstone and his show about the healing potential of psychedelics joined us, and is another important step in psychedelic medicine becoming more mainstream.",
+   "context": "In the post announcing selection to Clubhouse's first Creator First accelerator class, the author frames a psychedelics show joining the class as a step in psychedelic medicine becoming more mainstream. Implicit trend claim that mainstreaming of psychedelic medicine continues.",
+   "post_title": "Clubhouse Creator First ‘Inaugural Class’ ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/clubhouse-creator-first-inaugural",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Brandon Batstone",
+    "Clubhouse",
+    "psychedelic medicine"
+   ],
+   "finder_note": "Borderline: trend claim ('becoming more mainstream') with an implicit forward reading; no date or mechanism.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0011",
+   "forecaster": "owen",
+   "statement_date": "2021-06-20",
+   "quote": "While the above is still quite a ways away from prime time for humans",
+   "context": "CTMSS 2021 recap. After Harold Sackeim's talk on a 2017 optogenetics study that turned 'loser' mice into 'winners' and the idea of cosmetic brain stimulation to dial up grit / 'learned resilience', the author judges that such human use is far off.",
+   "post_title": "Magnetic Fields, Magic and Mental Health",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/magnetic-fields-magic-and-mental",
+   "area_guess": "other",
+   "horizon_text": "still quite a ways away",
+   "confidence_phrase": "still quite a ways away from prime time",
+   "entities": [
+    "Harold Sackeim",
+    "Clinical TMS Society",
+    "optogenetics",
+    "cosmetic brain stimulation"
+   ],
+   "finder_note": "Horizon-only call: cosmetic brain stimulation for grit in humans is not near. Author also calls the idea 'both frightening and exhilarating'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0014",
+   "forecaster": "owen",
+   "statement_date": "2021-06-20",
+   "quote": "As more and more psychiatrists start to incorporate interventional procedures like TMS and psychedelic medicine like Esketamine into their repertoire, device manufacturer registries and forward thinking mental health electronic medical record startups need to be on our radar.",
+   "context": "Presupposed trend: growing adoption by psychiatrists of interventional procedures (TMS) and psychedelic medicine (esketamine), which makes device outcome registries (Neurostar, Brainsway) and mental-health EMR startups (Osmind, Maya Health) important. The author has joined Osmind's Clinical Advisory Board.",
+   "post_title": "Magnetic Fields, Magic and Mental Health",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/magnetic-fields-magic-and-mental",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "TMS",
+    "Esketamine",
+    "Osmind",
+    "Maya Health",
+    "Brainsway",
+    "Neurostar"
+   ],
+   "finder_note": "Trend presupposed in an 'as more and more...' clause; the 'need to be on our radar' part is normative. Author has an Osmind advisory role (possible CONTROL link).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0015",
+   "forecaster": "owen",
+   "statement_date": "2021-06-20",
+   "quote": "Given the favorable side effect profile of TMS and concern around the systemic impact of some psychiatric medications, it offers great promise for this population.",
+   "context": "TMS for perinatal mood and anxiety disorders. CTMSS's affinity group launched a TMS Perinatal Registry; the author's practice has a perinatal team led by Dr. Amanda Tinkelman; a poster reported a 4-patient case series in pregnancy. The author expects TMS to become useful for this population while saying the field must still determine its place.",
+   "post_title": "Magnetic Fields, Magic and Mental Health",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/magnetic-fields-magic-and-mental",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "great promise",
+   "entities": [
+    "TMS",
+    "Clinical TMS Society",
+    "TMS Perinatal Registry",
+    "Amanda Tinkelman"
+   ],
+   "finder_note": "Borderline: 'offers great promise' is an expectation, not a dated call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0016",
+   "forecaster": "owen",
+   "statement_date": "2021-06-20",
+   "quote": "It is possible that a different protocol could work for PTSD in conjunction with SDI, such as a protocol targeting the dorsolateral prefrontal cortex, could have more promising results but further research is clearly needed.",
+   "context": "After Brainsway medical director Aron Tendler presented a failed deep TMS trial for PTSD (sham beat active; the medial prefrontal cortex target seemed to interfere with script-driven imagery exposure), the author speculates that a DLPFC-targeting protocol combined with SDI could succeed.",
+   "post_title": "Magnetic Fields, Magic and Mental Health",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/magnetic-fields-magic-and-mental",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "It is possible",
+   "entities": [
+    "Brainsway",
+    "Aron Tendler",
+    "deep TMS",
+    "PTSD",
+    "Script Driven Imagery"
+   ],
+   "finder_note": "Hedged clinical hypothesis; compound with 'further research is clearly needed'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0024",
+   "forecaster": "owen",
+   "statement_date": "2021-07-04",
+   "quote": "If we apply this principle to the social audio world, it is possible that the addition of gems, stars or other outward reward systems could make people less likely to want to participate on a platform despite rich conversations happening on them.",
+   "context": "Applying panelist Matt Wallaert's point that extrinsic rewards degrade intrinsic motivation: gamification via Greenroom gems (Spotify) and Facebook stars could reduce participation on social audio platforms. Followed by: if extrinsic rewards become the driving force, 'we are in trouble'.",
+   "post_title": "Connection is the Crown Jewel of Social Audio, not Gems",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/connection-is-the-crown-jewel-of",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "it is possible",
+   "entities": [
+    "Greenroom",
+    "Spotify",
+    "Facebook",
+    "Clubhouse",
+    "Matt Wallaert"
+   ],
+   "finder_note": "Hedged behavioral forecast about gamified social audio platforms. Post voice appears to be co-author Carlene MacMillan's.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0026",
+   "forecaster": "owen",
+   "statement_date": "2021-07-04",
+   "quote": "This is the absolute worst combination for performance enhancement and would be expected to result in high initial engagement but then significant churn of users growing bored as the novelty wears off.",
+   "context": "Greenroom gems (Spotify) as designed in July 2021: lowest possible standard (no real value) with highest confidence of obtaining them (press a button at a fixed interval), framed via Claude Steele's expectation/performance study raised by Matt Wallaert. The author predicts high initial engagement then significant user churn, and notes their own Greenroom use already dropped off.",
+   "post_title": "Connection is the Crown Jewel of Social Audio, not Gems",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/connection-is-the-crown-jewel-of",
+   "area_guess": "company_market",
+   "horizon_text": "as the novelty wears off",
+   "confidence_phrase": "would be expected to",
+   "entities": [
+    "Greenroom",
+    "Spotify",
+    "Matt Wallaert",
+    "Claude Steele",
+    "Clubhouse"
+   ],
+   "finder_note": "Main forecast of the post: Greenroom gem gamification leads to user churn. Post voice appears to be co-author Carlene MacMillan's.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0029",
+   "forecaster": "owen",
+   "statement_date": "2021-07-12",
+   "quote": "Therefore, online social media platforms from TikTok to YouTube to Clubhouse, have an increasingly large role to play in educating people about mental illness.",
+   "context": "Essay on faked mental disorders (DID, Tourette's, ADHD, autism) trending on TikTok. Because professional assessments are costly and waitlists long, the author says social platforms will increasingly educate the public about mental illness.",
+   "post_title": "DSM-5-TikTok",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dsm-5-tiktok",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "TikTok",
+    "YouTube",
+    "Clubhouse"
+   ],
+   "finder_note": "Borderline trend claim ('increasingly large role'). Post voice appears to be co-author Carlene MacMillan's (McLean Hospital attending).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0030",
+   "forecaster": "owen",
+   "statement_date": "2021-07-12",
+   "quote": "If we as licensed professionals don’t join in these conversations, we run the risk of influencers with zero mental health or medical training having the loudest voice and glamorizing disorders in ways that invalidate the experiences of those who actually have them.",
+   "context": "Conditional forecast: if licensed clinicians stay off TikTok, YouTube and Clubhouse, untrained mental health influencers will dominate and glamorize disorders such as DID and Tourette's.",
+   "post_title": "DSM-5-TikTok",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dsm-5-tiktok",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "we run the risk",
+   "entities": [
+    "TikTok",
+    "YouTube",
+    "Clubhouse"
+   ],
+   "finder_note": "Conditional; consequence framed as a risk, not a definite outcome.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0037",
+   "forecaster": "owen",
+   "statement_date": "2021-08-21",
+   "quote": "Now, I believe they represent endless possibilities when it comes to building online communities, establishing identities and transforming industries, including the mental health industry.",
+   "context": "Opening section of the NFT/metaverse essay (post dated 2021-08-21). 'They' are NFTs (non-fungible tokens). The author's view shifted from 'weird art things' to a belief that NFTs will transform industries, including the mental health industry.",
+   "post_title": "Mental Health in the Metaverse",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-in-the-metaverse",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I believe",
+   "entities": [
+    "NFTs"
+   ],
+   "finder_note": "Borderline: a belief about potential, not a dated call. Logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0038",
+   "forecaster": "owen",
+   "statement_date": "2021-08-21",
+   "quote": "I think more and more NFT projects will include charitable giving as part of their roadmap.",
+   "context": "After describing Blazed Cats (about $250,000 raised for Mental Health America in under 3 weeks) and Alpha Betty Doodles (donations to teachers via DonorsChoose). Trend call that charitable giving becomes a common part of NFT project roadmaps.",
+   "post_title": "Mental Health in the Metaverse",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-in-the-metaverse",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... will",
+   "entities": [
+    "Blazed Cats",
+    "Alpha Betty Doodles",
+    "Mental Health America",
+    "DonorsChoose"
+   ],
+   "finder_note": "Trend call with no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0039",
+   "forecaster": "owen",
+   "statement_date": "2021-08-21",
+   "quote": "Blazed Cats caught my attention because in under 3 weeks since launching, they raised around a quarter of a million dollars for Mental Health America and are just getting started.",
+   "context": "Section 'Blazed Cats- Show those Penguins the Way!'. The Blazed Cats NFT project raised about $250,000 for Mental Health America in under 3 weeks; 'just getting started' implies continued fundraising and growth.",
+   "post_title": "Mental Health in the Metaverse",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/mental-health-in-the-metaverse",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Blazed Cats",
+    "Mental Health America"
+   ],
+   "finder_note": "Borderline: implied continuation claim ('just getting started'); the rest is a past fact.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0050",
+   "forecaster": "owen",
+   "statement_date": "2022-07-02",
+   "quote": "Turning back the clock fifty years on Roe will lead to similarly catastrophic outcomes—physician shortages, dead patients beyond those seeking abortions, and tax liability for large employers in impacted states.",
+   "context": "Thesis of the July 1 essay, via an H. G. Wells 'Time Machine' analogy. Predicted consequences of Roe v. Wade being overturned: physician shortages, deaths beyond abortion seekers, and tax liability for large employers in states with abortion bans.",
+   "post_title": "Post Roe Crisis: Mandatory Malpractice Creates Problems for Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-roe-crisis-mandatory-malpractice",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will lead to",
+   "entities": [
+    "Roe v. Wade",
+    "Supreme Court",
+    "large employers"
+   ],
+   "finder_note": "Compound claim with three testable parts.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0051",
+   "forecaster": "owen",
+   "statement_date": "2022-07-02",
+   "quote": "Violating standards invites malpractice lawsuits. Therefore, were the law for post-operative chest-stabbing passed, it would create a problem for the medical malpractice carriers covering surgeons. Families would sue, and win.",
+   "context": "Hypothetical analogy: a law mandating surgeons stab patients stands in for abortion bans that force doctors to violate standards of care. Underlying claim: bans will create problems for malpractice carriers, and families will sue doctors and win.",
+   "post_title": "Post Roe Crisis: Mandatory Malpractice Creates Problems for Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-roe-crisis-mandatory-malpractice",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [
+    "medical malpractice carriers"
+   ],
+   "finder_note": "Fictional analogy; the underlying claim about bans and malpractice carriers reads as sincere.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0052",
+   "forecaster": "owen",
+   "statement_date": "2022-07-02",
+   "quote": "Once you mandate malpractice, you create uninsurable doctors. Uninsured doctors won’t practice in states withs bans.",
+   "context": "Mechanism claim: abortion bans mandate malpractice, which makes doctors uninsurable; uninsurable doctors will not practice in ban states. ('withs' is the author's typo.)",
+   "post_title": "Post Roe Crisis: Mandatory Malpractice Creates Problems for Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-roe-crisis-mandatory-malpractice",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "medical malpractice carriers",
+    "abortion-ban states"
+   ],
+   "finder_note": "Chain of causal forecasts; see the following statements from the same paragraph.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0053",
+   "forecaster": "owen",
+   "statement_date": "2022-07-02",
+   "quote": "So, as soon as patients sue doctors who can’t follow established medical guidelines, doctors will flee those states.",
+   "context": "Predicted physician flight from abortion-ban states once malpractice suits over withheld standard care begin. Author notes most doctors carry debt and need insurable practice.",
+   "post_title": "Post Roe Crisis: Mandatory Malpractice Creates Problems for Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-roe-crisis-mandatory-malpractice",
+   "area_guess": "practice_adoption",
+   "horizon_text": "as soon as patients sue",
+   "confidence_phrase": "will flee",
+   "entities": [
+    "abortion-ban states"
+   ],
+   "finder_note": "Conditional on lawsuits starting.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0054",
+   "forecaster": "owen",
+   "statement_date": "2022-07-02",
+   "quote": "When you create gaps in doctor availability, you end up with health plans that don’t provide comprehensive medical care. No one can legally sell these, or buy them.",
+   "context": "Next link in the chain: doctor shortages make health plans in ban states non-comprehensive, and such plans cannot legally be sold or bought (ERISA fiduciary argument). Author notes employers already buy plane tickets as a workaround.",
+   "post_title": "Post Roe Crisis: Mandatory Malpractice Creates Problems for Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-roe-crisis-mandatory-malpractice",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "health plans",
+    "ERISA",
+    "employers"
+   ],
+   "finder_note": "Mechanism forecast; legal-interpretation claim in the second sentence.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0055",
+   "forecaster": "owen",
+   "statement_date": "2022-07-02",
+   "quote": "This problem becomes worse over time— not enough OB/GYN‘s means no med school education in such states.",
+   "context": "The doctor-availability gap in abortion-ban states is predicted to compound: too few OB/GYNs means medical education in those states collapses.",
+   "post_title": "Post Roe Crisis: Mandatory Malpractice Creates Problems for Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-roe-crisis-mandatory-malpractice",
+   "area_guess": "practice_adoption",
+   "horizon_text": "over time",
+   "confidence_phrase": "becomes worse",
+   "entities": [
+    "OB/GYNs",
+    "medical schools",
+    "abortion-ban states"
+   ],
+   "finder_note": "Long-horizon compounding claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0057",
+   "forecaster": "owen",
+   "statement_date": "2022-07-02",
+   "quote": "In the wreckage that follows, doctors can’t practice for lack of insurance, patients can’t get medical care they need, and employers have a massive tax bill if they try to provide insurance.",
+   "context": "Jenga analogy: Roe v. Wade as the bottom block of legal precedent. Compound forecast of consequences after its removal: uninsurable doctors, patients without care, employers with a massive tax bill.",
+   "post_title": "Post Roe Crisis: Mandatory Malpractice Creates Problems for Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-roe-crisis-mandatory-malpractice",
+   "area_guess": "other",
+   "horizon_text": "In the wreckage that follows",
+   "confidence_phrase": "none",
+   "entities": [
+    "Roe v. Wade",
+    "employers"
+   ],
+   "finder_note": "Compound claim; restates earlier calls in the same post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0058",
+   "forecaster": "owen",
+   "statement_date": "2022-07-02",
+   "quote": "There are a hell of a lot of lawsuits coming. This will be catastrophic for most patients, their employers, doctors– and even insurance conglomerates.",
+   "context": "Closing paragraph. A wave of lawsuits is predicted after Roe's overturn, catastrophic for patients, employers, doctors and insurers.",
+   "post_title": "Post Roe Crisis: Mandatory Malpractice Creates Problems for Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-roe-crisis-mandatory-malpractice",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will be catastrophic",
+   "entities": [
+    "insurance conglomerates",
+    "employers",
+    "Supreme Court"
+   ],
+   "finder_note": "Two parts: many lawsuits coming; catastrophic effect on four groups.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0059",
+   "forecaster": "owen",
+   "statement_date": "2022-07-02",
+   "quote": "Buckle up. It’s going to get bumpy.",
+   "context": "Final lines of the post; generic warning of turbulence after Roe's overturn.",
+   "post_title": "Post Roe Crisis: Mandatory Malpractice Creates Problems for Health Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-roe-crisis-mandatory-malpractice",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "going to",
+   "entities": [],
+   "finder_note": "Vague; logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0061",
+   "forecaster": "owen",
+   "statement_date": "2022-07-06",
+   "quote": "This is a huge problem. But it’s not a problem Cerebral can solve even with the most aggressive messages from bubbly recruiters on LinkedIn.",
+   "context": "Part 6. Workforce shortage: about 30,000 US psychiatrists vs about 5.7M diagnosed bipolar patients; most mental illness is treated by primary care or mid-level clinicians. The author says Cerebral cannot solve the specialist shortage despite $462M raised.",
+   "post_title": "Cerebral: Vastly Exceeding the Standard of Care?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cerebral-vastly-exceeding-the-standard",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "not a problem Cerebral can solve",
+   "entities": [
+    "Cerebral",
+    "LinkedIn"
+   ],
+   "finder_note": "Capability denial; borderline forward-looking.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0062",
+   "forecaster": "owen",
+   "statement_date": "2022-07-06",
+   "quote": "And every single one of the incidents reported was done by someone who was unable to be tracked previously, and after they leave Cerebral are highly unlikely to have their practice tracked thereafter.",
+   "context": "Part 6, on Cerebral's 2,060 incident reports in seven months of 2021. The clinicians involved were untracked before Cerebral and, the author predicts, will be untracked again after leaving.",
+   "post_title": "Cerebral: Vastly Exceeding the Standard of Care?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cerebral-vastly-exceeding-the-standard",
+   "area_guess": "practice_adoption",
+   "horizon_text": "thereafter",
+   "confidence_phrase": "highly unlikely",
+   "entities": [
+    "Cerebral"
+   ],
+   "finder_note": "Claim about the practice environment clinicians return to; hard to resolve.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0063",
+   "forecaster": "owen",
+   "statement_date": "2022-07-06",
+   "quote": "They’re probably charging more now after leaving Cerebral and many will not continue to take insurance in solo practice.",
+   "context": "Part 6. Clinicians who left Cerebral: the author expects they still treat patients, charge more, and that many will stop taking insurance in solo practice.",
+   "post_title": "Cerebral: Vastly Exceeding the Standard of Care?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cerebral-vastly-exceeding-the-standard",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "many will not",
+   "entities": [
+    "Cerebral"
+   ],
+   "finder_note": "Present hedge ('probably') plus a future call on insurance participation.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0064",
+   "forecaster": "owen",
+   "statement_date": "2022-07-06",
+   "quote": "Cerebral may be guilty of a variety of regulatory and other missteps or crimes—we will find out soon enough.",
+   "context": "Part 7, near the end. The author hedges on whether Cerebral committed regulatory violations or crimes and expects the answer soon, with investigations and reporting under way.",
+   "post_title": "Cerebral: Vastly Exceeding the Standard of Care?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cerebral-vastly-exceeding-the-standard",
+   "area_guess": "regulatory",
+   "horizon_text": "soon enough",
+   "confidence_phrase": "may be guilty",
+   "entities": [
+    "Cerebral"
+   ],
+   "finder_note": "Hedged both ways; the testable part is that a determination on Cerebral's conduct arrives 'soon enough'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0065",
+   "forecaster": "owen",
+   "statement_date": "2022-07-11",
+   "quote": "FDA Breakthrough treatments like SNT neuromodulation by Magnus Medical have the potential to relieve suffering vastly more than current treatments.",
+   "context": "TL;DR of the essay: Stanford Neuromodulation Therapy (SNT), an accelerated intermittent theta burst TMS protocol commercialized by Magnus Medical with FDA Breakthrough status, is expected to relieve depression far more than current treatments.",
+   "post_title": "Can You Cure Depression with this One Weird Trick? ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-can-cure-depression-with-this",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "have the potential to",
+   "entities": [
+    "FDA",
+    "SNT",
+    "Stanford Neuromodulation Therapy",
+    "Magnus Medical"
+   ],
+   "finder_note": "Headline claim of the post; the detailed forecast follows ('I believe that SNT and similar approaches will demonstrate...').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0069",
+   "forecaster": "owen",
+   "statement_date": "2022-07-11",
+   "quote": "YES, this is a treatment that has to go through an appropriate regulatory pathway. When it is broadly offered, we will thusly understand enough about the risks and benefits to be able to offer it to the right people for the right problems at the right times.",
+   "context": "The author expects SNT to pass through a regulatory pathway and then be broadly offered, with enough understanding of risks and benefits by then to target it correctly.",
+   "post_title": "Can You Cure Depression with this One Weird Trick? ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-can-cure-depression-with-this",
+   "area_guess": "practice_adoption",
+   "horizon_text": "When it is broadly offered",
+   "confidence_phrase": "will",
+   "entities": [
+    "SNT",
+    "Stanford Neuromodulation Therapy",
+    "FDA"
+   ],
+   "finder_note": "Presupposes SNT will be broadly offered after regulatory clearance; compound with a knowledge claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0073",
+   "forecaster": "owen",
+   "statement_date": "2022-07-11",
+   "quote": "the effort the field of psychiatry will put into sounding overly-cautious about empirically validated and wildly effective treatments will be a poor choice.",
+   "context": "Prediction that psychiatry as a field will communicate over-cautiously about effective new treatments like SNT, and that this will prove a poor choice, by analogy to Covid-19 vaccine messaging failures.",
+   "post_title": "Can You Cure Depression with this One Weird Trick? ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-can-cure-depression-with-this",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "psychiatry",
+    "SNT"
+   ],
+   "finder_note": "Claim about field behavior; hard to resolve. Logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0074",
+   "forecaster": "owen",
+   "statement_date": "2022-07-11",
+   "quote": "Depression sucks, and we shouldn’t put up with it any longer than we absolutely have to. And I hope in the very near future that standard is going to be about five days",
+   "context": "Closing line: the author hopes and expects that in the very near future the standard time a patient must endure depression before relief will be about five days, i.e. SNT-style accelerated TMS becomes standard care.",
+   "post_title": "Can You Cure Depression with this One Weird Trick? ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-can-cure-depression-with-this",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in the very near future",
+   "confidence_phrase": "I hope ... is going to be",
+   "entities": [
+    "SNT",
+    "Stanford Neuromodulation Therapy"
+   ],
+   "finder_note": "Hope plus prediction; 'five days' is the SNT treatment course. First sentence is normative, second carries the forecast.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0077",
+   "forecaster": "owen",
+   "statement_date": "2022-07-18",
+   "quote": "We call bullshit that any of our patients will be meaningfully impacted in the near term by this change.",
+   "context": "Section 'Help is Not on the Way'. The authors predict the 988 rollout will not meaningfully affect any of their patients in the near term.",
+   "post_title": "Will 988 Be a Joke in Your Town?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/will-988-be-a-joke-in-your-town",
+   "area_guess": "payer_policy",
+   "horizon_text": "in the near term",
+   "confidence_phrase": "We call bullshit that ... will be",
+   "entities": [
+    "988"
+   ],
+   "finder_note": "Own-patient framing, but a general near-term impact call on 988.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0078",
+   "forecaster": "owen",
+   "statement_date": "2022-07-18",
+   "quote": "While this initial funding push will help, serious doubts exist if it will be sustained or enough to meet increased demand caused by publicizing the new 988 number.",
+   "context": "988 budget: $282M in 2021 and $150M in 2022 for an understaffed Lifeline (1 in 6 calls disconnected before reaching a counselor). The authors expect the funding to help but doubt it will be sustained or sufficient for demand created by publicity.",
+   "post_title": "Will 988 Be a Joke in Your Town?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/will-988-be-a-joke-in-your-town",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "serious doubts exist",
+   "entities": [
+    "988",
+    "National Suicide Prevention Lifeline"
+   ],
+   "finder_note": "Compound: funding helps (positive) plus doubt on sustainability and adequacy (negative).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0079",
+   "forecaster": "owen",
+   "statement_date": "2022-07-18",
+   "quote": "Starting on July 16, however, the caller may logically think to themselves “Oh I should call that new mental health number about this suicidal crisis!” and dial 988. That would be wrong. Calling the wrong number wastes precious time your loved one’s poisoned liver does not have as the crisis counselor needs to redirect you to 911 and get an ambulance dispatched.",
+   "context": "Predicted harm from splitting 'medical' (911) and 'mental health' (988) emergencies: callers facing a Tylenol overdose may dial 988 instead of 911 and lose time; 988 also lacks 911's geolocation and routes by area code.",
+   "post_title": "Will 988 Be a Joke in Your Town?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/will-988-be-a-joke-in-your-town",
+   "area_guess": "other",
+   "horizon_text": "Starting on July 16",
+   "confidence_phrase": "may",
+   "entities": [
+    "988",
+    "911"
+   ],
+   "finder_note": "Hedged mechanism forecast about misrouting of overdose calls.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0081",
+   "forecaster": "owen",
+   "statement_date": "2022-07-18",
+   "quote": "988 can save lives too if more effort and funding is directed at what happens when the callers needing more help than the line on its own hang up the phone.",
+   "context": "Conditional near the end: 988 can save lives if downstream services (what happens after the call) get funding and effort; otherwise it is like a 'Fire Support Hotline' while the house burns.",
+   "post_title": "Will 988 Be a Joke in Your Town?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/will-988-be-a-joke-in-your-town",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "can ... if",
+   "entities": [
+    "988"
+   ],
+   "finder_note": "Conditional positive call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0082",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "We are waiting for our Elon Musk for Healthcare (EMH for short). I’ll set the stage, make my case for Elon the Visionary, and describe what EMH will look like when she arrives.",
+   "context": "Opening, after Amazon's $3.9B acquisition of One Medical. Umbrella premise of the post: a visionary healthcare leader ('Elon Musk for Healthcare', EMH) will arrive; the closing 'prophecies' list describes her.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "when she arrives",
+   "confidence_phrase": "will",
+   "entities": [
+    "Amazon",
+    "One Medical",
+    "Elon Musk"
+   ],
+   "finder_note": "Presupposes the arrival of an EMH; specific traits are logged from the closing list.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0084",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "Every other adorable, scrappy start up company, issuing lovable press releases every day… is but a poor player strutting and fretting their hour up on the stage until either failure or acquisition. And both of those outcomes are determined by the Real Companies at the BUCA level...or Amazon level.",
+   "context": "Section 'The Deciders': mega-payers (BUCA, the big four insurers) and Amazon price, pay and decide; every healthcare startup ends in failure or acquisition at their discretion. Even Cerebral at a $4.5B valuation is called 'cute' next to them.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "BUCA",
+    "Amazon",
+    "Cerebral",
+    "Softbank"
+   ],
+   "finder_note": "Structural prediction: all healthcare startups end in failure or acquisition decided by mega-payers or Amazon.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0085",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "Pro Tip: never, ever, ever name your company Done . It’s just asking for trouble in a Greek Tragedy kinda way.",
+   "context": "Aside after an embedded clip about a 'displeasing entity' being 'terminated from all systems'. Done (an ADHD telehealth prescriber) is implied to be headed for a hubris-driven downfall.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Done"
+   ],
+   "finder_note": "Joke framing; the underlying expectation (Done faces a bad end) reads as semi-sincere. Borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0086",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "The game IS rigged for medical innovators. That isn’t changing for us…unless we gradually take over the leadership of these endeavors ? Nah. I’m kidding. They will never risk their profits!",
+   "context": "After recounting his own company's lost 'PrimeHealth' contract (PrimeHealth is the author's pseudonym for a real large payer). The author predicts the market stays rigged against medical innovators and incumbents will never risk their profits.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "never",
+   "confidence_phrase": "never",
+   "entities": [
+    "PrimeHealth"
+   ],
+   "finder_note": "Negative structural call; 'PrimeHealth' is a fictionalized name.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0087",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "They will never risk their profits! Without real, serious companies—with bold Jeff-named founders—ready to deploy massive resources to change market fundamentals, this can’t happen.",
+   "context": "Conditional: changing healthcare market fundamentals requires mega-companies at Amazon/Jeff Bezos scale deploying massive resources; without them, the position of medical innovators does not change.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "can’t",
+   "entities": [
+    "Amazon",
+    "Jeff Bezos"
+   ],
+   "finder_note": "Conditional necessity claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0089",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "She will have died (in the fire-y wreck of a startup?) in yet another move “towards value based care” that was smote by the Wrath of the one true Payer ?). Praise be Layoffs.fyi , she is Born Again in a new leadership role, and harken unto the good word as told in a Forbes puff-piece shared all across the LinkedIn lands, the fit will be better.",
+   "context": "Section 'Taking Physics Seriously': regulators and 'Nervous Nellies' block flying, self-driving and tunnels; the author predicts visionaries will disrupt that regulatory mindset.",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Vague; logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0090",
+   "forecaster": "owen",
+   "statement_date": "2022-07-22",
+   "quote": "EMH will have this restraint. She will see the future, but not tell us more than we are ready to hear.",
+   "context": "After the Overton Window argument (sell the believable next step, not the far future). Predicted trait of the coming Elon Musk for Healthcare (EMH).",
+   "post_title": "Where is our Visionary Healthcare Leadership?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazon-bought-into-healthcare-with",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Elon Musk"
+   ],
+   "finder_note": "Trait prediction about a hypothetical future leader; hard to resolve.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

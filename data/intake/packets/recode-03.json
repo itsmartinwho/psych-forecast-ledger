@@ -1,0 +1,902 @@
+{
+ "packet": "recode-03.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0167",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "What is the number of providers available to provide gender affirming care to trans youth in the state of Texas? Answer : zero. All of them will go to jail if they do so.",
+   "context": "Worked example of an ERISA adequacy violation: the author asserts zero providers of gender-affirming care remain in Texas and that any who provide it will go to jail. Nearby he adds that families who seek care out of state 'still might' be prosecuted on return.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Texas",
+    "Greg Abbott"
+   ],
+   "finder_note": "Hyperbolic conditional ('will go to jail if they do so').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0169",
+   "forecaster": "owen",
+   "statement_date": "2022-09-13",
+   "quote": "I’ve been waiting for the ability to have a ERISA attorney file lawsuits that are just going to totally crush noncompliant plans.",
+   "context": "'Texas: I Left My Heart In You' section. The author expects ERISA lawsuits filed by an ERISA attorney to crush noncompliant health plans, now made easy by the Texas ban; this is also his own advocacy aim.",
+   "post_title": "Don’t Mess With Texas: Defining Gender Affirming Care as “Child Abuse” is a Disaster…for Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/first-do-no-harm-defining-gender",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "are just going to totally crush",
+   "entities": [
+    "ERISA",
+    "Texas"
+   ],
+   "finder_note": "Author's own litigation intent plus outcome prediction; coder may treat as CONTROL-adjacent.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0171",
+   "forecaster": "owen",
+   "statement_date": "2022-09-14",
+   "quote": "Further data is coming, but we know that greater than half of patients (58%) with treatment resistant OCD (trOCD) get a 30% or greater reduction in symptoms. We are publishing, in the future, an open label data, demonstrating that around 20% of patients can get to remission of their OCD symptoms.",
+   "context": "After the coverage news, the author says more data on deep TMS (BrainsWay H7 coil) for treatment-resistant OCD is coming, alongside the present 58% response figure from post-marketing data.",
+   "post_title": "New Hope, for OCD, Is Insurance Covered*, Thanks to This Very Persuasive Newsletter",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/new-hope-for-ocd-is-insurance-covered",
+   "area_guess": "clinical_trial",
+   "horizon_text": "coming",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "BrainsWay",
+    "deep TMS",
+    "OCD"
+   ],
+   "finder_note": "Only 'Further data is coming' is forward-looking; the 58% figure is a present claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0176",
+   "forecaster": "owen",
+   "statement_date": "2022-09-14",
+   "quote": "You will remember \"having fewer OCD symptoms\" for a while, but not forever, probably.",
+   "context": "Footnote 15, explaining brain stimulation: repeated TMS sessions teach the brain like flash cards; the benefit (fewer OCD symptoms) lasts a while but probably not forever. Generic clinical durability claim addressed to a hypothetical patient.",
+   "post_title": "New Hope, for OCD, Is Insurance Covered*, Thanks to This Very Persuasive Newsletter",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/new-hope-for-ocd-is-insurance-covered",
+   "area_guess": "other",
+   "horizon_text": "for a while, but not forever",
+   "confidence_phrase": "probably",
+   "entities": [
+    "TMS",
+    "deep TMS",
+    "OCD"
+   ],
+   "finder_note": "Generic clinical claim about durability of TMS benefit; borderline forward-looking.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0178",
+   "forecaster": "owen",
+   "statement_date": "2022-09-22",
+   "quote": "There is no law so invasive or punitive that lawmakers will demure if it comes to controlling either doctors or women. Preferably both.",
+   "context": "Reacting to a headline seen the morning of writing; the author predicts lawmakers will not shy away from any invasive or punitive law that controls doctors or women (abortion-enforcement context).",
+   "post_title": "How HIPAA Was Transformed From “The Secret Service” to “The TSA” For Your Privacy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-hipaa-was-transformed-from-the",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "lawmakers",
+    "Texas"
+   ],
+   "finder_note": "Rhetorical generalization about future legislative behavior; near-truism.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0180",
+   "forecaster": "owen",
+   "statement_date": "2022-09-29",
+   "quote": "Some of you have been following my series of arguments about the coming enforcement crisis/opportunity in Healthcare. This has been brought about by things like the overturn of Roe v. Wade at the federal level.",
+   "context": "Opening of a short thread post about the Texas Attorney General avoiding a subpoena. The author refers to his running thesis that a healthcare enforcement crisis/opportunity is coming, triggered by the overturn of Roe v. Wade and fiduciary-duty clarifications.",
+   "post_title": "Texas Attorney General runs away from being served with subpoena in abortion enforcement lawsuit…",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/texas-attorney-general-runs-away",
+   "area_guess": "regulatory",
+   "horizon_text": "coming",
+   "confidence_phrase": "coming",
+   "entities": [
+    "Roe v. Wade",
+    "Texas Attorney General"
+   ],
+   "finder_note": "Restatement of an earlier series thesis.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0181",
+   "forecaster": "owen",
+   "statement_date": "2022-09-29",
+   "quote": "I also believe there will be a tidal wave of enforcement coming with the passage of the Combined Appropriations Act of 2020 and its clarification of the fiduciary duty of plan sponsors and brokers when it comes to health benefits and the like.",
+   "context": "The author predicts a wave of enforcement actions following the Consolidated Appropriations Act (he writes 'Combined Appropriations Act of 2020') and its fiduciary-duty clarifications for health plan sponsors and brokers. He cites DOJ suing Idaho over EMTALA and a Department of Labor amicus brief in Massachusetts on Blue Cross Blue Shield fiduciary duty as early signs.",
+   "post_title": "Texas Attorney General runs away from being served with subpoena in abortion enforcement lawsuit…",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/texas-attorney-general-runs-away",
+   "area_guess": "regulatory",
+   "horizon_text": "coming",
+   "confidence_phrase": "I also believe there will be",
+   "entities": [
+    "Consolidated Appropriations Act (author: Combined Appropriations Act of 2020)",
+    "Department of Labor",
+    "Department of Justice",
+    "Blue Cross Blue Shield",
+    "plan sponsors",
+    "brokers"
+   ],
+   "finder_note": "Payer/employer-plan fiduciary enforcement; area could also be payer_policy.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0185",
+   "forecaster": "owen",
+   "statement_date": "2022-10-04",
+   "quote": "Thus, the endless platform solutions that are doing clinicians a service by making it easier to take insurance are in for, possibly, a really harsh awakening unless they can change the way payers value the mental health clinicians in their network.",
+   "context": "Discussion: insurance-enablement platforms for therapists (the author names Alma, Grow Therapy, Talkspace and BetterHelp in the next paragraph) face a harsh awakening unless payers change how they value in-network mental health clinicians.",
+   "post_title": "“I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes Towards Taking Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "possibly",
+   "entities": [
+    "Alma",
+    "Grow Therapy",
+    "Talkspace",
+    "BetterHelp",
+    "insurance payers"
+   ],
+   "finder_note": "Conditional ('unless'). Company names appear in the following paragraph.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0186",
+   "forecaster": "owen",
+   "statement_date": "2022-10-04",
+   "quote": "Paying a few dollars more per claim is not going to cut it.",
+   "context": "Same Discussion passage; the author predicts small per-claim reimbursement increases will not fix clinician attrition from insurance networks.",
+   "post_title": "“I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes Towards Taking Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is not going to",
+   "entities": [
+    "insurance payers",
+    "Alma",
+    "Grow Therapy"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0188",
+   "forecaster": "owen",
+   "statement_date": "2022-10-04",
+   "quote": "These force clinicians to take insurance as service platforms haven't been around long enough to have their panels of therapists all quit.",
+   "context": "Implicit prediction that, given enough time, therapists on insurance-enablement platforms (Alma, Grow Therapy, etc.) will quit their panels, as 27% of surveyed clinicians already resigned from insurance panels. Author calls the platforms' model a bait and switch.",
+   "post_title": "“I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes Towards Taking Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Alma",
+    "Grow Therapy",
+    "Talkspace",
+    "BetterHelp"
+   ],
+   "finder_note": "Implicit forecast (therapists will quit the platforms in time). Reads as 'force-clinicians-to-take-insurance-as-a-service platforms'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0189",
+   "forecaster": "owen",
+   "statement_date": "2022-10-04",
+   "quote": "Maybe these platform solutions will do a better job of negotiating those contracts, but it's not that much better.",
+   "context": "On insurance rates paid to therapists (called absurd; a $7 group-therapy rate; under $100 per session typical): platforms may negotiate somewhat better payer contracts, but not much better.",
+   "post_title": "“I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes Towards Taking Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "Maybe ... will",
+   "entities": [
+    "Alma",
+    "Grow Therapy",
+    "insurance payers"
+   ],
+   "finder_note": "Hedged; the second clause is present tense but concerns the platforms' negotiated rates.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0190",
+   "forecaster": "owen",
+   "statement_date": "2022-10-04",
+   "quote": "A bunch of different companies scrambling to get pieces of that limited pie is going to make for a couple of exits, but it's not gonna change healthcare.",
+   "context": "Therapist time is a non-scalable, limited resource (45- or 60-minute blocks); the author predicts the platform race will produce a couple of company exits but will not change healthcare.",
+   "post_title": "“I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes Towards Taking Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to ... not gonna",
+   "entities": [
+    "Alma",
+    "Grow Therapy",
+    "Talkspace",
+    "BetterHelp"
+   ],
+   "finder_note": "Two-part claim: some exits will happen; healthcare will not change.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0191",
+   "forecaster": "owen",
+   "statement_date": "2022-10-04",
+   "quote": "And therapists are going to quit. And then they're going to go back to doing less scalable work, and everyone's gonna be worse off.",
+   "context": "Continuation of the exits claim: therapists on insurance platforms will quit and return to less scalable (private-pay) work, leaving everyone worse off.",
+   "post_title": "“I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes Towards Taking Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to",
+   "entities": [
+    "therapists",
+    "Alma",
+    "Grow Therapy",
+    "Talkspace",
+    "BetterHelp"
+   ],
+   "finder_note": "Clinician-behavior forecast tied to the platform calls; area could also be company_market.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0192",
+   "forecaster": "owen",
+   "statement_date": "2022-10-04",
+   "quote": "And arbitrage on the difference between what we therapists think is nice and what people are actually worth is a fine strategy for a company until it's not.",
+   "context": "Platforms profit from therapists' willingness to accept low fees (sliding scales); the author predicts this arbitrage strategy works only until it stops working.",
+   "post_title": "“I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes Towards Taking Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "until it's not",
+   "entities": [
+    "Alma",
+    "Grow Therapy",
+    "Talkspace",
+    "BetterHelp"
+   ],
+   "finder_note": "Near-truism ('works until it doesn't'); implicit forecast that the strategy fails.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0196",
+   "forecaster": "owen",
+   "statement_date": "2022-10-04",
+   "quote": "The opportunity for behavioral health providers who are willing to go \"at risk\" and work in teams that approximate the acuity managed by IOP/PHP/some inpatient providers is coming.",
+   "context": "Solutions section: the author predicts at-risk (value-based) contracting opportunities will come for outpatient behavioral health teams that manage IOP/PHP-level acuity, especially with self-funded employers; providers need to be ready.",
+   "post_title": "“I Did Not Want to Be Angry All the Time”: Mental Health Clinicians’ Attitudes Towards Taking Insurance",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-did-not-want-to-be-angry-all-the",
+   "area_guess": "payer_policy",
+   "horizon_text": "is coming",
+   "confidence_phrase": "is coming",
+   "entities": [
+    "behavioral health providers",
+    "IOP",
+    "PHP",
+    "self-funded employers"
+   ],
+   "finder_note": "Followed by the normative 'Our providers need to be ready'. Relevant to the author's own at-risk ventures; coder may consider CONTROL.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0202",
+   "forecaster": "owen",
+   "statement_date": "2022-10-10",
+   "quote": "Young people are busy building businesses to be acquired by Pharma. They’re not gonna turn around and decide that the entire Pharma business model is all wrong… that’s just crazy talk. That makes you sound like some sort of anti-psychiatry lunatic. You’re never going to get a company funded with that attitude.",
+   "context": "Footnote 13 on the What If Ventures fellowship and the 2000+ funded mental health start-ups. The author predicts that young founders will keep building companies to be acquired by pharma and will not challenge the pharma business model, and that a company with an anti-pharma-model stance will not get venture funding.",
+   "post_title": "An Inconvenient Truth about the Mental Health Crisis: Obesity!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-inconvenient-truth-about-the-mental",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "never going to",
+   "entities": [
+    "What If Ventures",
+    "pharmaceutical industry",
+    "mental health start-ups"
+   ],
+   "finder_note": "Compound claim: founder behavior ('not gonna') plus a venture-funding generalization ('never going to').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0213",
+   "forecaster": "owen",
+   "statement_date": "2022-10-19",
+   "quote": "It’s the end of telehealth as we know it, it’s the end of telehealth as we know it, it’s the end of telehealth as we know it, and I feel…",
+   "context": "Closing R.E.M. parody echoing the post title. Underlying claim: DEA enforcement of in-person requirements for controlled-substance prescribers (inspections of new license holders' physical locations) ends telehealth-only prescribing as practiced during the pandemic.",
+   "post_title": "It’s the End of Telehealth as We Know It: Update!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/its-the-end-of-telehealth-as-we-know-92b",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "DEA",
+    "R.E.M.",
+    "telehealth"
+   ],
+   "finder_note": "Parody lyric and title; underlying claim reads sincere. Ends 'fined?'. Same call as the prior 'End of Telehealth' post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0221",
+   "forecaster": "owen",
+   "statement_date": "2022-11-04",
+   "quote": "All of the above could be litigated, and even lose billions.",
+   "context": "'Gem #3' lists UHG's incentives: a hiring system that collects voluntary disability disclosures and then rejects applicants (class-action disability discrimination exposure), possible retaliation in hiring, and ugly corporate email headers. The author says all of it could be litigated and UHG could lose billions.",
+   "post_title": "An Open Letter to UnitedHealth Group after Declining My Employment Application",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-unitedhealth-group",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Semi-serious ('seriously, see the footnotes'). Footnote 31 sarcastically implies UHG 'generated a class that could take legal action'; folded here.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0222",
+   "forecaster": "owen",
+   "statement_date": "2022-11-04",
+   "quote": "those expenses, all of those expenses , would find their way to the UnitedHealth Group balance sheet in a way that increased the total cost of doing business for their health insurance business, and thus increased the amount of profits they were allowed to make using a fixed medical loss ratio calculation",
+   "context": "Follows the litigation claim. The author argues that litigation losses would raise UHG's costs and, under a fixed medical loss ratio, raise the absolute profit UHG is allowed to make ('UnitedHealthCare = More Profits From More Expenses').",
+   "post_title": "An Open Letter to UnitedHealth Group after Declining My Employment Application",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-unitedhealth-group",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [
+    "UnitedHealth Group",
+    "UnitedHealthCare"
+   ],
+   "finder_note": "Conditional on litigation losses. Restated in the closing: UHG hungers 'to be sued ... lose, and just make more money in the process' and in footnote 35.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0230",
+   "forecaster": "owen",
+   "statement_date": "2022-11-22",
+   "quote": "I really do think “Theranos” tech—what they actually built—is a hot opportunity for investors in health tech, if it weren’t for the obvious imprisoned-founder problem. ... Theranos’ technology is nothing if not undervalued at this point.",
+   "context": "Opening of 'Theranos is a Great Investment Opportunity!'. The author asserts that the technology Theranos actually built (the Edison, plausibly able to do one or two fingerstick tests) is a hot opportunity for health-tech investors, setting aside Elizabeth Holmes's conviction.",
+   "post_title": "Theranos is a Great Investment Opportunity!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/theranos-is-a-great-investment-opportunity",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I really do think",
+   "entities": [
+    "Theranos",
+    "Elizabeth Holmes",
+    "Edison"
+   ],
+   "finder_note": "Title claim of the post; conditional aside about the imprisoned founder. Weakly resolvable investment-opportunity claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0233",
+   "forecaster": "owen",
+   "statement_date": "2022-11-22",
+   "quote": "don’t think this is not normal Silicon Valley behavior. It is. ... And it will continue till we demand otherwise—and use verification in public, I don’t know, like on a blockchain or something",
+   "context": "After discussing Elizabeth Holmes and Sam Bankman-Fried (FTX), the author says fake-it-till-you-make-it and near-fraud are normal Silicon Valley startup behavior and will continue until the public demands verification, such as a public ledger of startup finances and governance.",
+   "post_title": "Theranos is a Great Investment Opportunity!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/theranos-is-a-great-investment-opportunity",
+   "area_guess": "company_market",
+   "horizon_text": "till we demand otherwise",
+   "confidence_phrase": "will continue",
+   "entities": [
+    "Silicon Valley",
+    "Elizabeth Holmes",
+    "Theranos",
+    "Sam Bankman-Fried",
+    "FTX"
+   ],
+   "finder_note": "Joined across an image caption. Conditional persistence call: startup near-fraud persists absent public verification.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0240",
+   "forecaster": "owen",
+   "statement_date": "2022-12-08",
+   "quote": "By reducing the standard of risk by which someone can be brought in the door, you limit information which determines who is a risk or not.",
+   "context": "Addressed to Mayor Adams. Consequence claim about the NYC directive that lets police bring people to psychiatric ERs on a risk standard below imminent danger: ER doctors will have less information to judge who is a risk.",
+   "post_title": "Involuntary Psychiatric Hospitalization Can Be Horrifying",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/involuntary-psychiatric-hospitalization",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Eric Adams",
+    "NYPD",
+    "New York City"
+   ],
+   "finder_note": "Consequence claim about a directive not yet in effect; present tense.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0241",
+   "forecaster": "owen",
+   "statement_date": "2022-12-08",
+   "quote": "By changing the standard by which people can be brought in, you hamper our ability to do a good job of caring for those same humans.",
+   "context": "Same argument: the directive will degrade ER psychiatrists' ability to gather collateral information and care for the people brought in.",
+   "post_title": "Involuntary Psychiatric Hospitalization Can Be Horrifying",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/involuntary-psychiatric-hospitalization",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Eric Adams",
+    "NYPD"
+   ],
+   "finder_note": "Consequence claim; present tense.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0242",
+   "forecaster": "owen",
+   "statement_date": "2022-12-08",
+   "quote": "Because we won’t know why they’re presenting for care. And if we don’t have EMS there, I strongly doubt we’re going to get a great medical history.",
+   "context": "Predicted effect of the directive on ER evaluations: without police or EMS context on dangerousness, doctors will not know why the person was brought in and will not get a good medical history. Author cites Eric Garner's death as an example of a missed medical condition.",
+   "post_title": "Involuntary Psychiatric Hospitalization Can Be Horrifying",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/involuntary-psychiatric-hospitalization",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I strongly doubt",
+   "entities": [
+    "Eric Adams",
+    "NYPD",
+    "EMS"
+   ],
+   "finder_note": "Conditional ('if we don't have EMS there').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0243",
+   "forecaster": "owen",
+   "statement_date": "2022-12-08",
+   "quote": "Your executive order makes our job much more difficult. Crucially, even if your officers are told to ignore mental hygiene law, we can’t. If someone is brought in for evaluation because your officers found them in a park, we still can’t legally admit them, as physicians, because we would lose our licenses by admitting patients in contravention of mental health law around involuntary commitment.",
+   "context": "Prediction that under the Adams directive, people brought in by police on the lower standard will not be admissible by physicians under New York mental hygiene law, so the order will make ER work harder without producing admissions.",
+   "post_title": "Involuntary Psychiatric Hospitalization Can Be Horrifying",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/involuntary-psychiatric-hospitalization",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Eric Adams",
+    "NYPD",
+    "New York mental hygiene law"
+   ],
+   "finder_note": "Compound: effect on ER work plus a legal-conditional claim. Restated in footnote 2 (separate entry).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0244",
+   "forecaster": "owen",
+   "statement_date": "2022-12-08",
+   "quote": "Involuntary care creates mistrust. It’s terrifying. It’s rarely helpful. At best, it’s going to lead to a lot of overworked emergency doctors. It will also lead to patients with even less trust in the police and healthcare than they already have.",
+   "context": "Section 'This Is a Bad Idea'. Predicted outcomes of the Adams involuntary-removal directive: more overworked emergency doctors and less patient trust in police and healthcare.",
+   "post_title": "Involuntary Psychiatric Hospitalization Can Be Horrifying",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/involuntary-psychiatric-hospitalization",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "it’s going to lead to / It will also lead to",
+   "entities": [
+    "Eric Adams",
+    "NYPD",
+    "New York City"
+   ],
+   "finder_note": "Compound: two predicted consequences plus general claims about involuntary care.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0245",
+   "forecaster": "owen",
+   "statement_date": "2022-12-08",
+   "quote": "If you want to help homeless humans who are suffering, actually propose something that’s intended to help them. They will say YES if it’s understood as helpful!",
+   "context": "Conditional prediction: if the city proposes services that are genuinely helpful, homeless people with mental illness will accept them voluntarily.",
+   "post_title": "Involuntary Psychiatric Hospitalization Can Be Horrifying",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/involuntary-psychiatric-hospitalization",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Eric Adams",
+    "New York City"
+   ],
+   "finder_note": "Conditional; first sentence is advice, second is predictive.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0246",
+   "forecaster": "owen",
+   "statement_date": "2022-12-08",
+   "quote": "Dear Eric Adams, and all policy makers: create helpful solutions! People will want those, voluntarily, without coercion.",
+   "context": "Closing appeal of the open letter; prediction that people will voluntarily take up helpful, non-coercive solutions.",
+   "post_title": "Involuntary Psychiatric Hospitalization Can Be Horrifying",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/involuntary-psychiatric-hospitalization",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Eric Adams"
+   ],
+   "finder_note": "Restates the previous conditional; imperative plus prediction.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0248",
+   "forecaster": "owen",
+   "statement_date": "2022-12-08",
+   "quote": "It would mean that the people being brought by NYPD to the psych ER would be evaluated by doctors who would then be legally … UNABLE TO ADMIT THEM TO THE HOSPITAL ANYWAY",
+   "context": "Footnote 2 conclusion: under the directive, people transported by NYPD on the lower standard would be evaluated and then found legally inadmissible under the §9.39 and §9.27 admission standards.",
+   "post_title": "Involuntary Psychiatric Hospitalization Can Be Horrifying",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/involuntary-psychiatric-hospitalization",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [
+    "NYPD",
+    "New York mental hygiene law §9.39",
+    "New York mental hygiene law §9.27"
+   ],
+   "finder_note": "Conditional consequence claim; restates the main-text claim. The ellipsis is the author's own.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0257",
+   "forecaster": "owen",
+   "statement_date": "2023-01-04",
+   "quote": "I think it’s possible to create psychiatric hospitalization that would work more like medical hospitalizations, with procedural care, rapid acting interventions, and complex treatments that require the kind of nursing care that hospitals provide.",
+   "context": "Essay arguing the data show psychiatric hospitalization does not reduce suicide (Denmark, US veteran, meta-analysis, Brazil data). The author says he would be thrilled to be proven wrong and thinks a procedural, rapid-intervention inpatient model is possible; notes only 1 in 10 US hospitals has ECT access.",
+   "post_title": "Psychiatric hospitalization doesn't prevent suicide, according to the data.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-we-telling-the-truth-about-suicide",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I think it’s possible",
+   "entities": [
+    "electroconvulsive therapy"
+   ],
+   "finder_note": "Possibility claim; no horizon.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0258",
+   "forecaster": "owen",
+   "statement_date": "2023-01-04",
+   "quote": "We now have a whole array of treatments that have either gotten FDA approval, or are very close. These treatments work rapidly, and they work in ways that are dramatically better than traditional psychiatric treatment.",
+   "context": "Section 'The Future Could Actually Be Bright'. Claim that rapid-acting treatments are FDA approved or near approval. The next paragraph names SAINT and HOPE TMS (remission in five days), Rotational Field TMS, MDMA, psilocybin and ECT.",
+   "post_title": "Psychiatric hospitalization doesn't prevent suicide, according to the data.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-we-telling-the-truth-about-suicide",
+   "area_guess": "regulatory",
+   "horizon_text": "very close",
+   "confidence_phrase": "are very close",
+   "entities": [
+    "FDA",
+    "SAINT",
+    "HOPE TMS",
+    "MDMA",
+    "psilocybin",
+    "electroconvulsive therapy"
+   ],
+   "finder_note": "Implicit regulatory forecast: unnamed treatments 'very close' to FDA approval. Compound with an efficacy claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0260",
+   "forecaster": "owen",
+   "statement_date": "2023-01-04",
+   "quote": "Rotational Field TMS is on the horizon.",
+   "context": "Same section, listing rapid-acting treatments coming to inpatient psychiatry after SAINT and HOPE TMS.",
+   "post_title": "Psychiatric hospitalization doesn't prevent suicide, according to the data.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-we-telling-the-truth-about-suicide",
+   "area_guess": "regulatory",
+   "horizon_text": "on the horizon",
+   "confidence_phrase": "is on the horizon",
+   "entities": [
+    "Rotational Field TMS"
+   ],
+   "finder_note": "Flat near-term availability claim for a TMS technology; no date. Area could also be company_market.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0262",
+   "forecaster": "owen",
+   "statement_date": "2023-01-04",
+   "quote": "Inpatient psychiatric hospitalization could be the place where things are done that can’t be done otherwise. That would produce dramatically better outcomes. The hospital could be something other than a place for patients to become even more more at risk. In the future, psychiatric hospitalization can be much better.",
+   "context": "Closing of 'The Future Could Actually Be Bright': hedged forecast that inpatient psychiatry rebuilt around rapid procedural treatments (accelerated TMS, psychedelics, ECT) can produce much better outcomes.",
+   "post_title": "Psychiatric hospitalization doesn't prevent suicide, according to the data.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-we-telling-the-truth-about-suicide",
+   "area_guess": "practice_adoption",
+   "horizon_text": "In the future",
+   "confidence_phrase": "could be / can be",
+   "entities": [],
+   "finder_note": "Hedged, undated vision statement; compound with 'would produce dramatically better outcomes'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0266",
+   "forecaster": "owen",
+   "statement_date": "2023-01-17",
+   "quote": "The next generation of treatments are exciting. They promise better efficacy and a lower side effect profile. And that's what we need.",
+   "context": "Author's opinion box after listing novel ADHD treatments under research: TMS, the recently FDA-approved Monarch eTNS device, and LSD derivatives in clinical trials sponsored by Mind Medicine (MindMed). Claims the next generation of ADHD treatments will bring better efficacy and fewer side effects. The author discloses he is a small MindMed shareholder (footnote 9).",
+   "post_title": "You Won’t Believe How Much Procrastination You Can Achieve Just by Reading about Adult ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-wont-believe-how-much-procrastination",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "promise",
+   "entities": [
+    "Mind Medicine (MindMed)",
+    "Monarch eTNS",
+    "TMS",
+    "FDA"
+   ],
+   "finder_note": "Hedged, undated expectation about a class of ADHD treatments; author holds MindMed shares.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0267",
+   "forecaster": "owen",
+   "statement_date": "2023-01-17",
+   "quote": "We need more evidence and novel treatments, and as you can see above, they're coming, but the awareness of what already exists is also important.",
+   "context": "After quoting a 2013 review on alpha-2 agonists (clonidine, guanfacine) that mentions a long-acting clonidine in development for ADHD, the author says novel ADHD treatments are coming. Refers back to TMS, Monarch eTNS and MindMed LSD derivatives listed earlier in the post.",
+   "post_title": "You Won’t Believe How Much Procrastination You Can Achieve Just by Reading about Adult ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-wont-believe-how-much-procrastination",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "they're coming",
+   "entities": [
+    "clonidine",
+    "guanfacine",
+    "Mind Medicine (MindMed)",
+    "Monarch eTNS",
+    "TMS"
+   ],
+   "finder_note": "Vague directional call that new ADHD treatments will arrive; no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0274",
+   "forecaster": "owen",
+   "statement_date": "2023-01-24",
+   "quote": "You don’t learn why private equity is going to buyer clinic later, or why it’s a terrible idea to have anything to do with that.",
+   "context": "Footnote 4, on the gap in healthcare economics and business in the medical curriculum. As an aside, the author asserts that private equity is going to buy the reader-physician's clinic later. 'buyer clinic' is the original text (apparent typo for 'buy your clinic').",
+   "post_title": "How Much Do Neurosurgeons Learn About Adult ADHD?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-much-do-neurosurgeons-learn-about",
+   "area_guess": "company_market",
+   "horizon_text": "later",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "private equity"
+   ],
+   "finder_note": "Footnote aside; a general expectation of private-equity acquisition of physician clinics, no named acquirer or date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0275",
+   "forecaster": "owen",
+   "statement_date": "2023-01-25",
+   "quote": "In the future, ethics and compassion will be the most crucial human qualities healers can possess, and our AI buddies can take care of the knowledge base.",
+   "context": "Opening line, in the author's own voice, of a Dante parody about an AI ('ChatCPT' / 'EpicAI') inside an EHR. Claims AI will take over the clinical knowledge base and that ethics and compassion will become the key human qualities for clinicians.",
+   "post_title": "Abandon All Hope, Ye Who Enter Healthcare. ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-inferno-by-chatcpt",
+   "area_guess": "practice_adoption",
+   "horizon_text": "In the future",
+   "confidence_phrase": "will",
+   "entities": [
+    "ChatGPT",
+    "Epic"
+   ],
+   "finder_note": "Sincere framing sentence placed before the parody.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0278",
+   "forecaster": "owen",
+   "statement_date": "2023-01-27",
+   "quote": "It's only a matter of time. I've seen the future. ... it's so convincing that I think Big Healthcare is about to get a brutal wake up call.",
+   "context": "Opening of the post 'The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare'. The author claims AI-generated legal filings will destroy the current Big Healthcare business (insurers, PBMs).",
+   "post_title": "The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-insurgency-will-be-automated",
+   "area_guess": "company_market",
+   "horizon_text": "only a matter of time",
+   "confidence_phrase": "only a matter of time",
+   "entities": [
+    "UnitedHealthcare",
+    "ChatGPT",
+    "OpenAI"
+   ],
+   "finder_note": "Vague; the title supplies the claim (AI will destroy Big Healthcare).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0280",
+   "forecaster": "owen",
+   "statement_date": "2023-01-27",
+   "quote": "Said law mandates “plan sponsors” act as fiduciaries in the best interest of members are not broadly enforced. Let’s amplify the notion that this will change very soon with AI.",
+   "context": "The author says fiduciary laws such as the 'Fiduciary Rule under Ca 2021' (likely the Consolidated Appropriations Act of 2021) that require plan sponsors to act in members' interest are not broadly enforced, and predicts AI will change this very soon.",
+   "post_title": "The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-insurgency-will-be-automated",
+   "area_guess": "payer_policy",
+   "horizon_text": "very soon",
+   "confidence_phrase": "will",
+   "entities": [
+    "Consolidated Appropriations Act 2021 (fiduciary rule)",
+    "ERISA",
+    "plan sponsors"
+   ],
+   "finder_note": "The author writes 'Ca 2021'; read as the Consolidated Appropriations Act of 2021.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0282",
+   "forecaster": "owen",
+   "statement_date": "2023-01-27",
+   "quote": "Like a grain of sand in an hourglass, the future of legal challenges to Big Health appear before us, hidden in plain sight. These automated, mandatory actions which covers the asses of employers might be on the line. Buckle up.",
+   "context": "Introduces the ChatGPT-generated text. The author says automated legal actions to enforce employer plan-sponsor fiduciary duties may be coming, and adds that this is terrifying for UnitedHealthcare and any Pharmacy Benefit Manager.",
+   "post_title": "The Insurgency Will Be Automated: How AI Will Destroy Big Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-insurgency-will-be-automated",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "UnitedHealthcare",
+    "Pharmacy Benefit Managers",
+    "ChatGPT"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

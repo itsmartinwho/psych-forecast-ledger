@@ -1,0 +1,887 @@
+{
+ "packet": "recode-09.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0903",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "The cyber security issue is the least of United Healthcare's problems, it's the HIPAA breach on top of the cyber security invasion that causes a compliance nightmare",
+   "context": "Author says the HIPAA breach, layered on the cyber intrusion, will create a compliance nightmare for UnitedHealth that outweighs the cybersecurity problem itself; he then walks through per-record HIPAA penalty tiers.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "United Healthcare",
+    "Change Healthcare",
+    "HIPAA"
+   ],
+   "finder_note": "Restatement of the earlier 'much bigger financial problem' call in the same post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0905",
+   "forecaster": "owen",
+   "statement_date": "2024-02-28",
+   "quote": "All of us should care. And will, in the coming days.",
+   "context": "On the Change Healthcare outage's effects on providers and patients (not getting paid, not getting meds), the author predicts everyone will come to care in the coming days.",
+   "post_title": "Change Healthcare is a Big Enough Problem for United Healthcare to Notice.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-is-a-big-enough",
+   "area_guess": "other",
+   "horizon_text": "in the coming days",
+   "confidence_phrase": "will",
+   "entities": [
+    "Change Healthcare",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "'should care' is normative but 'And will' carries a predictive reading.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0907",
+   "forecaster": "owen",
+   "statement_date": "2024-02-29",
+   "quote": "Today, we have another imagined press release from UHG in what I imagine will be the only way to get 6TB of PHI to not be a catastrophic HIPAA-fine disaster.",
+   "context": "The author's own framing sentence before a satirical press release imagining Optum acquiring the BlackCat ransomware group ('Why not just acquire the breach?'). Implies that the Change Healthcare breach of about 6TB of protected health information will otherwise be a catastrophic HIPAA-fine disaster for UnitedHealth Group.",
+   "post_title": "UnitedHealth Group's Optum Announces Acquisition of BlackCat RaaS Platform.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/unitedhealth-groups-optum-announces",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "I imagine will be",
+   "entities": [
+    "UnitedHealth Group",
+    "Optum",
+    "Change Healthcare",
+    "BlackCat",
+    "HIPAA"
+   ],
+   "finder_note": "Implicit forecast of catastrophic HIPAA fines; the press-release body is fiction and was not logged.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0914",
+   "forecaster": "owen",
+   "statement_date": "2024-03-02",
+   "quote": "At some point, somebody is going to get subpoenaed about this, if they haven't been already, and they're gonna have to answer a lot of questions.",
+   "context": "About the Change Healthcare (UnitedHealthcare / Optum) cyberattack and data breach, after the author's TikTok explainer went viral. The author predicts subpoenas and questioning of those responsible; the question he wants answered is what Change Healthcare does.",
+   "post_title": "I Finally Went Viral on TikTok!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-finally-went-viral-on-tiktok",
+   "area_guess": "regulatory",
+   "horizon_text": "At some point",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "Change Healthcare",
+    "UnitedHealthcare",
+    "Optum",
+    "BlackCat"
+   ],
+   "finder_note": "Compound: subpoena plus questioning; hedged by 'if they haven't been already'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0915",
+   "forecaster": "owen",
+   "statement_date": "2024-03-02",
+   "quote": "This is a real problem. Is the protected health information version of Chernobyl. Knock-on effects, toxic waste, and scorched landscape of healthcare infrastructure so lightly protected 6 TB that are in the hands of people who would like to profit in every possible way of that information.",
+   "context": "The Change Healthcare breach will have long-lasting knock-on harms across healthcare infrastructure, and the stolen 6TB of PHI will be exploited for profit.",
+   "post_title": "I Finally Went Viral on TikTok!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-finally-went-viral-on-tiktok",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "certain",
+   "entities": [],
+   "finder_note": "hint: UHG breach notifications (190M+ individuals, Jan 2025); reports of leaked Change data being sold or used for fraud",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0920",
+   "forecaster": "owen",
+   "statement_date": "2024-03-04",
+   "quote": "You're in the big leagues now, UHC is gonna crush you like they do all the rest of us.",
+   "context": "Closing warning to the ransomware hackers: the author predicts UnitedHealthcare will prevail over them, as it does over providers and patients. Preceded by 'Their incentive is not to get this over with quickly.'",
+   "post_title": "An Open Letter To Ransomware Hackers Attempting to Extort United Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-ransomware-hackers",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "is gonna",
+   "entities": [
+    "UnitedHealthcare",
+    "BlackCat"
+   ],
+   "finder_note": "Rhetorical open-letter framing; reads as a real expectation that UHC comes out ahead of the extortionists.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0922",
+   "forecaster": "owen",
+   "statement_date": "2024-03-06",
+   "quote": "Now, it's probably the worst liability I can imagine when it comes to cyber security and a flood of incoming lawsuits.",
+   "context": "Opening of an illustrated tour of Optum's public Change Healthcare service-status page (created the evening of March 5, 2024). The author characterizes Change Healthcare as the worst cyber-security liability he can imagine and expects a flood of incoming lawsuits.",
+   "post_title": "Change Healthcare: Apocalypse Now!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-apocalypse-now",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "Change Healthcare",
+    "Optum",
+    "UnitedHealthcare"
+   ],
+   "finder_note": "Compound: liability characterization plus an expected flood of lawsuits (litigation).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0923",
+   "forecaster": "owen",
+   "statement_date": "2024-03-06",
+   "quote": "It's just the beginning.",
+   "context": "Immediately after 'Oh my God, that looks like a lot of problems with information systems!' while walking through screenshots of the Change Healthcare service-status page. The phrase may mean more problems are coming, or may only introduce the rest of the page tour (next line: 'Let's start with what's going well').",
+   "post_title": "Change Healthcare: Apocalypse Now!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-apocalypse-now",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Change Healthcare",
+    "Optum"
+   ],
+   "finder_note": "Ambiguous: may not be a forecast at all; logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0924",
+   "forecaster": "owen",
+   "statement_date": "2024-03-06",
+   "quote": "There are just so many services… credentialing is going to slow down!",
+   "context": "Commenting on the status page section showing Change Healthcare's provider communications and credentialing services offline; the author predicts provider credentialing will slow down as a consequence of the outage.",
+   "post_title": "Change Healthcare: Apocalypse Now!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/change-healthcare-apocalypse-now",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "Change Healthcare",
+    "Optum"
+   ],
+   "finder_note": "Operational consequence of the outage.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0930",
+   "forecaster": "owen",
+   "statement_date": "2024-03-17",
+   "quote": "The FDA review of this non-label makes it clear—people are going to prescribe this anyway. Nothing we say about this negative trial will stop them.",
+   "context": "Section 'Irritability Associated with Autism…Problematic Data' of Abilify I. Otsuka's maintenance trial of aripiprazole for irritability in autistic children was negative (p=0.097) and the FDA declined a maintenance label. The author quotes the FDA reviewer ('It is unlikely that the results ... would significantly alter the clinical practice of prescribers ... it is likely that aripiprazole would be continued') and adopts the view that prescribers will keep using it regardless.",
+   "post_title": "Abilify I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/aripiprazole",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to",
+   "entities": [
+    "Abilify",
+    "aripiprazole",
+    "Otsuka",
+    "FDA"
+   ],
+   "finder_note": "Endorsed restatement of the FDA reviewer's forecast that prescribers would continue aripiprazole despite the negative maintenance trial; the author's stance is the statement.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0942",
+   "forecaster": "owen",
+   "statement_date": "2024-03-28",
+   "quote": "We have data that demonstrate psychiatric interventions t hat work rapidly might provide the most robust savings for the economics of Medicaid.",
+   "context": "Argument that state Medicaid plans should cover TMS. Because Medicaid enrollment averages about 10 months, the author claims rapid-acting psychiatric interventions such as TMS might give Medicaid the largest savings.",
+   "post_title": "Transcranial Magnetic Stimulation (TMS) Should Be Covered by Medicaid: An Argument",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/transcranial-magnetic-stimulation",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "Medicaid",
+    "TMS"
+   ],
+   "finder_note": "Borderline: hedged analytic claim about savings if adopted. The 't hat' typo is verbatim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0948",
+   "forecaster": "owen",
+   "statement_date": "2024-03-30",
+   "quote": "This science is more likely to be dismissed as flights of fancy by the rest of you",
+   "context": "The author argues that research on nutritional ketosis for bipolar disorder, often championed by people who themselves have bipolar disorder, is likely to be dismissed by others because of stigma.",
+   "post_title": "Nutritional Ketosis for Bipolar Disorder",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/nutritional-ketosis-for-bipolar-disorder",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "more likely",
+   "entities": [
+    "nutritional ketosis",
+    "ketogenic diet",
+    "bipolar disorder"
+   ],
+   "finder_note": "General tendency claim about how the science will be received; borderline forward-looking.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0950",
+   "forecaster": "owen",
+   "statement_date": "2024-03-31",
+   "quote": "And if placebo response is getting more and more robust (according to expert raters), that becomes harder.",
+   "context": "Citing a meta-analysis (Rief et al. 2009) showing rising expert-rated placebo response in antidepressant trials, the author says beating placebo to demonstrate efficacy becomes harder if that trend continues.",
+   "post_title": "Whence, Placebo? Controlled Trials Beyond Double Blind RCTs",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/whence-placebo-controlled-trials",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Rief et al. (2009)"
+   ],
+   "finder_note": "Conditional trend statement; borderline forward-looking (trend continuation makes trials harder).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0951",
+   "forecaster": "owen",
+   "statement_date": "2024-04-01",
+   "quote": "We should expect a storm of these reviews, meta-reviews, and network-meta-meta-meta analyses.",
+   "context": "After critiquing the Yao et al. 2024 psychedelic meta-analysis (Psychiatry Research) for omitting the MindMed MM-120 LSD trial, the author predicts a flood of reviews and meta-analyses on psychedelic medicine because they are easier than original research; adds 'even not-so-good reviews will get cited'.",
+   "post_title": "How Big of A Deal Are Psychedelic Medicines Likely to Be?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-big-of-a-deal-are-psychedelic",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "should expect",
+   "entities": [
+    "Yao et al. (2024)",
+    "Psychiatry Research",
+    "psilocybin",
+    "MDMA",
+    "LSD",
+    "MindMed"
+   ],
+   "finder_note": "'should expect' is predictive, not normative.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0961",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "it would require fines from the DOJ at a scale I highly doubt they are willing to levy.",
+   "context": "Same post. The author says only very large DOJ fines would change UnitedHealth Group's behavior and doubts the DOJ will levy them.",
+   "post_title": "BREAKING!: Second Ransomware Attack on Change Healthcare",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/breaking-second-ransomware-attack",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "I highly doubt",
+   "entities": [
+    "DOJ",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Negative call on the scale of DOJ enforcement.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0966",
+   "forecaster": "owen",
+   "statement_date": "2024-04-08",
+   "quote": "Maybe you want to understand how AI will transform psychiatric care?",
+   "context": "Rhetorical question setting up the mdhub.ai and Videra Health panel at RAMHT NYC 2024; it presupposes that AI will transform psychiatric care.",
+   "post_title": "The Frontier Psychiatrists...LIVE! May 5th, 2024",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-frontier-psychiatristslive-may",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "mdhub.ai",
+    "Videra Health",
+    "AI"
+   ],
+   "finder_note": "Embedded in a rhetorical question; a presupposition, not an explicit call. Borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0992",
+   "forecaster": "owen",
+   "statement_date": "2024-04-19",
+   "quote": "The revenues are so much that not even a massive cyber attack matters financially to UHC.",
+   "context": "Post asking why UnitedHealth Group executives sold $105m in shares before the DOJ probe was revealed. Amid discussion of unreported Optum layoffs (WARN Act) and a share price up 12.3% on the week, the author asserts that UHC's revenues are so large that the Change Healthcare cyberattack will not matter to it financially.",
+   "post_title": "What the Heck is Happening at UnitedHealth Group?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-the-heck-is-happening-at-unitedhealth",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "UnitedHealth Group",
+    "UHC",
+    "Optum",
+    "Change Healthcare"
+   ],
+   "finder_note": "Present-tense assertion with a forward reading about the financial impact of the cyberattack on UHG.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0995",
+   "forecaster": "owen",
+   "statement_date": "2024-04-20",
+   "quote": "We will, I suppose, have to wait and see. I’m sure they have something that will generate significant shareholder value planned.",
+   "context": "Closing of the Optum Virtual Care post. After asking where in-person capacity for 34 million extra visits a year will come from, the author says, sarcastically, that UnitedHealth Group/Optum surely has a plan that will generate significant shareholder value.",
+   "post_title": "Optum's \"Game Changer\" Virtual Care with 34,000,000+ visits a Year is... Over?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/optums-game-changer-virtual-care",
+   "area_guess": "company_market",
+   "horizon_text": "wait and see",
+   "confidence_phrase": "I’m sure",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Sarcastic tone; the underlying expectation is that UHG acts to raise shareholder value. Vague.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1003",
+   "forecaster": "owen",
+   "statement_date": "2024-04-24",
+   "quote": "Oh my. They can always acquire more.",
+   "context": "Quip after the Optum Virtual Care shutdown and layoff news; implies Optum/UnitedHealth will keep acquiring companies.",
+   "post_title": "Remember When I Said \"Optum Virtual Care\" Might Be Shutting Down?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/remember-when-i-said-optum-virtual",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "can always",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Cynical aside; borderline as a forecast (continued acquisitions).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1004",
+   "forecaster": "owen",
+   "statement_date": "2024-04-25",
+   "quote": "Today: a psychedelic compound, well on its way to becoming a medicine.",
+   "context": "Opening of Ibogaine I, a review of Cherian et al. 2024 (Nature Medicine) on magnesium-ibogaine therapy (MISTIC) in special operations veterans with traumatic brain injury. The author asserts that ibogaine is well on its way to becoming a medicine.",
+   "post_title": "Ibogaine I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ibogaine-i",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "well on its way",
+   "entities": [
+    "Ibogaine",
+    "Iboga"
+   ],
+   "finder_note": "Implies future approval or medicalization of ibogaine; no date given.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1005",
+   "forecaster": "owen",
+   "statement_date": "2024-04-25",
+   "quote": "It's worth noting that this is an extremely hard study to do, and it will be extremely hard to blind, if impossible. It's just really hard to make people unaware of whether they've had a life-changing experience like this, so we may need to look at design that look at within subjects controls",
+   "context": "Near the end of Ibogaine I. Looking past the open-label Cherian et al. study toward controlled trials of ibogaine, the author predicts that blinding such trials will be extremely hard or impossible.",
+   "post_title": "Ibogaine I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/ibogaine-i",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will be extremely hard to blind, if impossible",
+   "entities": [
+    "Ibogaine",
+    "MISTIC"
+   ],
+   "finder_note": "Methodological forecast about future ibogaine trials.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1017",
+   "forecaster": "owen",
+   "statement_date": "2024-05-01",
+   "quote": "If they didn't have endless money for lawyers, more than the everyone who will sue them…",
+   "context": "After describing UnitedHealth/Change Healthcare's failure to enforce its own two-factor authentication policy, the author implies that many parties will sue them, and that UnitedHealth's legal resources will shield it from consequences.",
+   "post_title": "\"Two-Factor Authentication Was Not Used\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/two-factor-authentication-was-not",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "UnitedHealth Group",
+    "Change Healthcare"
+   ],
+   "finder_note": "Incomplete sentence (trails off); implied forecast of lawsuits against UnitedHealth over the Change breach.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1020",
+   "forecaster": "owen",
+   "statement_date": "2024-05-08",
+   "quote": "If we lost our way, I hope this may be rediscovering a road back to healing.",
+   "context": "After the COMP360 PTSD phase 2 data, the author hopes psilocybin-type compounds may become a route to healing trauma. The next sentence adds that science must still determine for whom the treatment is most appropriate.",
+   "post_title": "Post-traumatic stress disorder is real. New Compass Pathways data suggest psilocybin may be remarkably helpful.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/post-traumatic-stress-disorder-is",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I hope this may",
+   "entities": [
+    "COMP360",
+    "psilocybin",
+    "Compass Pathways"
+   ],
+   "finder_note": "Hope-framed; borderline wish rather than a call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1043",
+   "forecaster": "owen",
+   "statement_date": "2024-05-21",
+   "quote": "we can understand that biological treatments intervening in this crucial structure will have a hard time getting it to accomplish anything other than what it's biologically attuned to.",
+   "context": "Setup for a review of GLP-1 drugs in addiction. The 'crucial structure' is the nucleus accumbens; the author expects biological addiction treatments that act on reward circuitry to struggle to change what it does.",
+   "post_title": "GLP-1 Medications In Addiction",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/glp-1-medications-in-addiction",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will have a hard time",
+   "entities": [
+    "nucleus accumbens"
+   ],
+   "finder_note": "General mechanistic expectation; borderline truism.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1044",
+   "forecaster": "owen",
+   "statement_date": "2024-05-21",
+   "quote": "We have a signal—that's what we call noticing in science—that GLP-1s might be helpful for addictions.",
+   "context": "Review of GLP-1 receptor agonists (semaglutide, liraglutide, exenatide) in substance use disorders. Evidence is mostly preclinical plus small human signals; human trials such as SEMALCO are recruiting. The author reads the signal as hedged promise pending trials.",
+   "post_title": "GLP-1 Medications In Addiction",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/glp-1-medications-in-addiction",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "might be helpful",
+   "entities": [
+    "GLP-1",
+    "semaglutide",
+    "Ozempic",
+    "Wegovy",
+    "liraglutide",
+    "exenatide",
+    "SEMALCO"
+   ],
+   "finder_note": "Hedged efficacy call; the author adds that current evidence does not support treating primary addiction with these drugs yet.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1046",
+   "forecaster": "owen",
+   "statement_date": "2024-05-23",
+   "quote": "I see a future that has less suffering, more effective treatments, more rapidly deployed, faster acting, safer, with less inpatient psychiatric hospitalization and dramatically less restraint and seclusion",
+   "context": "Closing section of the 'updates' post on why the author works so many gigs. He describes the future he sees: less suffering, more effective and faster-acting treatments deployed more rapidly, less inpatient psychiatric hospitalization, and dramatically less restraint and seclusion.",
+   "post_title": "Owen Muir-Centric Updates!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-centric-updates",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I see a future",
+   "entities": [],
+   "finder_note": "Vision statement; the next sentences ('I want to see people get well') frame it as an agenda or wish more than a prediction. Logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1047",
+   "forecaster": "owen",
+   "statement_date": "2024-05-23",
+   "quote": "I think technology can get us there when compassion and sense are augmented.",
+   "context": "Same closing section of the 'updates' post. After stating his aim of less death and desperation and more hope, the author says technology can get us to that better world when compassion and sense are augmented.",
+   "post_title": "Owen Muir-Centric Updates!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-centric-updates",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... can",
+   "entities": [],
+   "finder_note": "Vague, hedged belief that technology will deliver a better mental health future; no specific event or horizon.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1048",
+   "forecaster": "owen",
+   "statement_date": "2024-05-23",
+   "quote": "I imagine we're going to have lawsuits for mental health parity violations",
+   "context": "Discussion of the Consolidated Appropriations Act of 2021 and the ERISA fiduciary duty of employers. The author notes that several lawsuits by employees against employer groups already exist, as he argued they would, and then predicts lawsuits for mental health parity violations, which he says is also part of the law thanks to the (Affordable) Care Act.",
+   "post_title": "Owen Muir-Centric Updates!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-centric-updates",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I imagine we're going to",
+   "entities": [
+    "Consolidated Appropriations Act of 2021",
+    "ERISA",
+    "Accountable Care Act"
+   ],
+   "finder_note": "Author frames this as continuing an earlier call that predicted the current ERISA fiduciary lawsuits ('arguments I've made long before those lawsuits were filed').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1049",
+   "forecaster": "owen",
+   "statement_date": "2024-05-23",
+   "quote": "I don't see any way towards parity of better treatments. There just aren't enough treaters to keep up with the demand for (albeit ineffective) treatment.",
+   "context": "Same passage on parity and employer fiduciary duty. The author says he sees no path to parity of better treatments because there are not enough treaters to meet the demand even for the current (in his view ineffective) treatment, so the underlying assumptions of what is possible must change.",
+   "post_title": "Owen Muir-Centric Updates!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/owen-muir-centric-updates",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I don't see any way",
+   "entities": [],
+   "finder_note": "Negative call about access to better treatments under parity; the reason given (treater shortage) is present-tense analysis.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1054",
+   "forecaster": "owen",
+   "statement_date": "2024-05-26",
+   "quote": "That is beginning to change— MUSC, for example, has one of its hospital's first comercial Magnus Medical SAINT systems.",
+   "context": "Same post. The author says rapid-acting treatments like SAINT are easier to access at outpatient clinics (Fermata in New York, Acacia Clinics in California) than in most hospitals, but that this is beginning to change, citing MUSC having one of the first commercial Magnus Medical SAINT systems in a hospital.",
+   "post_title": "We Made Inpatient Psychiatric Treatment Suck Less with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-made-inpatient-psychiatric-treatment",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "is beginning to change",
+   "entities": [
+    "MUSC",
+    "Magnus Medical",
+    "SAINT",
+    "Fermata",
+    "Acacia Clinics"
+   ],
+   "finder_note": "Trend call on inpatient hospital adoption of SAINT; the author has ties to Fermata, Acacia Clinics and Magnus Medical.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1055",
+   "forecaster": "owen",
+   "statement_date": "2024-05-26",
+   "quote": "Psychedelic medicines are likely going to need to follow a similar path to payment in the hospital setting.",
+   "context": "Same post, after arguing that the NTAP add-on payment finally gives psychiatric hospitals a financial route to adopt SAINT. The author states that psychedelic medicines will likely need to follow a similar payment path (add-on payments under bundled hospital payment) to be used in the hospital setting.",
+   "post_title": "We Made Inpatient Psychiatric Treatment Suck Less with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-made-inpatient-psychiatric-treatment",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "likely going to need to",
+   "entities": [
+    "Medicare",
+    "NTAP"
+   ],
+   "finder_note": "Hedged call on future payment mechanics for psychedelic medicines in hospitals.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1057",
+   "forecaster": "owen",
+   "statement_date": "2024-05-26",
+   "quote": "any decent machine learning engineer can back-solve DRG multipliers based on claims data. So, good luck keeping that Private and proprietary.",
+   "context": "Footnote 2 of the hospital payment post, about the DRG multipliers that third-party payers treat as proprietary. The author says any decent machine learning engineer can back-solve them from claims data, so payers will not manage to keep them private.",
+   "post_title": "We Made Inpatient Psychiatric Treatment Suck Less with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-made-inpatient-psychiatric-treatment",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "can ... good luck",
+   "entities": [
+    "DRG"
+   ],
+   "finder_note": "Sarcastic framing ('good luck') but sincere; implies proprietary DRG multipliers will not stay secret. No horizon.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1059",
+   "forecaster": "owen",
+   "statement_date": "2024-05-26",
+   "quote": "It doesn't matter how good your intentions are if you're going to financially cripple, your hospital setting, or at least you're afraid you will; it's really hard to imagine you're gonna adopt some novel treatment that will reduce the number of paid days in your hospital.",
+   "context": "Condition: a psychiatric hospital is paid per diem. Prediction: such hospitals will not adopt novel rapid-acting treatments like SAINT that shorten stays; adoption will come from IPF PPS hospitals that can bill the NTAP.",
+   "post_title": "We Made Inpatient Psychiatric Treatment Suck Less with this One Weird Trick",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/we-made-inpatient-psychiatric-treatment",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [],
+   "finder_note": "hint: SAINT hospital installation list cross-referenced with per diem vs IPF PPS contracting",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1061",
+   "forecaster": "owen",
+   "statement_date": "2024-05-29",
+   "quote": "sugar and pharma are now no longer in sync. GLP-1s are a shot across the bow",
+   "context": "Dispatch from the thINc360 food-as-medicine conference. The author says Big Sugar and pharma interests have diverged and GLP-1 drugs are an opening salvo against the sugar industry, citing South Park's 'The End of Obesity'.",
+   "post_title": "Food As Medicine",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/food-as-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "GLP-1",
+    "Big Sugar",
+    "PepsiCo",
+    "Quaker"
+   ],
+   "finder_note": "Metaphor implying a coming conflict between GLP-1 makers and the sugar industry; borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1063",
+   "forecaster": "owen",
+   "statement_date": "2024-06-05",
+   "quote": "I believe MDMA, Ibogaine, Psilocybin, and other psychedelic compounds will eventually deliver us from the purgatory of crappy treatments for PTSD.",
+   "context": "Part I of a series on the FDA advisory committee meeting of 2024-06-04, where the committee voted against MDMA-AT (Lykos Therapeutics) for PTSD. The author, who says he has PTSD himself and no stake in this modality winning, states his belief that MDMA, ibogaine, psilocybin and other psychedelic compounds will eventually deliver better treatments for PTSD than the current standard of care.",
+   "post_title": "Can MDMA-AT Be Saved?: Part I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-i",
+   "area_guess": "practice_adoption",
+   "horizon_text": "eventually",
+   "confidence_phrase": "I believe ... will eventually",
+   "entities": [
+    "MDMA",
+    "Ibogaine",
+    "Psilocybin",
+    "Lykos Therapeutics",
+    "FDA"
+   ],
+   "finder_note": "Long-horizon call hedged only by 'eventually'; covers a class of compounds, not one product or one regulatory decision.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1065",
+   "forecaster": "owen",
+   "statement_date": "2024-06-05",
+   "quote": "This is not a serious therapy manual, nor a serious therapy adherence manual, and the FDA doesn't regulate therapy. It will not be particularly attuned to that issue, but I'm here to tell you— it's a fact.",
+   "context": "Part I of the MDMA-AT series, after comparing the Lykos MDMA-AT therapy manual and adherence manual unfavorably with the validated MBT adherence scale. The author says the FDA does not regulate therapy and will not be particularly attuned to the weakness of the therapy manual, though he insists the weakness is a fact.",
+   "post_title": "Can MDMA-AT Be Saved?: Part I",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-i",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will not be",
+   "entities": [
+    "FDA",
+    "Lykos Therapeutics",
+    "MDMA-AT"
+   ],
+   "finder_note": "Borderline: a prediction about the FDA's attention during its MDMA-AT review, close to a description of the agency's remit.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1068",
+   "forecaster": "owen",
+   "statement_date": "2024-06-06",
+   "quote": "The more therapists who are exposed to the biasing experience of psychedelic treatment, the fewer of them will have as much doubt as will be useful some of the time",
+   "context": "Arguing against Rick Doblin's proposal that every therapist administering MDMA-AT should first take MDMA, the author claims that wider therapist exposure to psychedelics will reduce the clinical doubt that is useful when treatments fail. General causal claim conditional on that policy.",
+   "post_title": "Can MDMA-AT Be Saved? Part II",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/can-mdma-at-be-saved-part-ii",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Rick Doblin",
+    "MAPS",
+    "Lykos Therapeutics",
+    "MDMA-AT",
+    "MDMA"
+   ],
+   "finder_note": "Borderline: a general causal prediction about therapist behavior, not a dated event. Logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1071",
+   "forecaster": "owen",
+   "statement_date": "2024-06-07",
+   "quote": "Harms and misconduct will scale if they are allowed to train and certify therapists.",
+   "context": "Subtitle of Part III on the Lykos Therapeutics MDMA-assisted therapy FDA submission. 'They' is Lykos/MAPS PBC; the claim is that if the sponsor is allowed to train and certify MDMA-AT therapists, the harms and misconduct alleged in the trials will scale.",
+   "post_title": "*Should* MDMA-AT Be Saved? Part III",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/should-mdma-at-be-saved-part-iii",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will scale",
+   "entities": [
+    "Lykos Therapeutics",
+    "MAPS PBC",
+    "FDA",
+    "MDMA"
+   ],
+   "finder_note": "Conditional on Lykos/MAPS training and certifying therapists after approval.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1073",
+   "forecaster": "owen",
+   "statement_date": "2024-06-07",
+   "quote": "deeply disturbing claims that the FDA will now be forced to investigate",
+   "context": "Public comment at the June 2024 FDA advisory committee alleged unreported suicide attempts and adverse events in the MAPS/Lykos MDMA-AT trials. The author says the FDA will now be forced to investigate these claims.",
+   "post_title": "*Should* MDMA-AT Be Saved? Part III",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/should-mdma-at-be-saved-part-iii",
+   "area_guess": "regulatory",
+   "horizon_text": "now",
+   "confidence_phrase": "will now be forced",
+   "entities": [
+    "FDA",
+    "Lykos Therapeutics",
+    "MAPS PBC",
+    "MDMA"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1074",
+   "forecaster": "owen",
+   "statement_date": "2024-06-09",
+   "quote": "Much of it is beyond bad writing—that is, the published results will not turn out to replicate! It’s factually false.",
+   "context": "Opening of an essay on Ioannidis and publication bias: the author asserts that much of the published science he reads for the newsletter is false and will fail to replicate, citing the STAR*D reanalysis as an example.",
+   "post_title": "Why Science is Often Bad",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-science-is-often-bad",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will not",
+   "entities": [
+    "John Ioannidis",
+    "STAR*D"
+   ],
+   "finder_note": "Generic claim about published science as a whole, not a specific study or date. Borderline.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

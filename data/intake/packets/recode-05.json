@@ -1,0 +1,861 @@
+{
+ "packet": "recode-05.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0409",
+   "forecaster": "owen",
+   "statement_date": "2023-04-07",
+   "quote": "some people, maybe even my readers , will make a metric ton of money betting against this nightmare scenario being sustainable.",
+   "context": "After quoting Wendell Potter on Aetna, the author says he is not hopeless because people will profit by betting against the sustainability of the Big Health (UnitedHealth, CVS, Aetna) business model.",
+   "post_title": "UnitedHealth Group Makes $330,000,000,000 a Year, And You Can Profit Too!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-make-a-trillion-dollars-write",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "UnitedHealth Group",
+    "CVS",
+    "Aetna",
+    "Wendell Potter"
+   ],
+   "finder_note": "The article frames itself as ironic 'do not do this' investment satire, but this thesis reads as sincere.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0410",
+   "forecaster": "owen",
+   "statement_date": "2023-04-07",
+   "quote": "I’ve written about automated compliance and how the #AI revolution and novel technology like will be a vector for a better future.",
+   "context": "Restatement of an earlier call: AI-driven automated compliance and novel technology will improve healthcare; the author links it to his citizen journalism on illegal billing and ADA noncompliance.",
+   "post_title": "UnitedHealth Group Makes $330,000,000,000 a Year, And You Can Profit Too!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-make-a-trillion-dollars-write",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will be",
+   "entities": [],
+   "finder_note": "Restatement of an earlier call; the source sentence has a missing word after 'like'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0417",
+   "forecaster": "owen",
+   "statement_date": "2023-04-07",
+   "quote": "I helpfully informed them that this was an automated complaint and that I really just want them to know automated complaints are coming.",
+   "context": "Footnote 2 on Mount Sinai: the author filed an automated ADA/501(r) complaint and tells Mount Sinai that automated compliance complaints are coming to hospitals; he adds ironically that their tax-exempt status is not on the line and 'They should be fine.'",
+   "post_title": "UnitedHealth Group Makes $330,000,000,000 a Year, And You Can Profit Too!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-make-a-trillion-dollars-write",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "are coming",
+   "entities": [
+    "Mount Sinai"
+   ],
+   "finder_note": "Prediction that automated compliance complaints will spread; surrounding remarks about Mount Sinai's tax-exempt status are ironic.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0419",
+   "forecaster": "owen",
+   "statement_date": "2023-04-09",
+   "quote": "Become a paid subscriber—it is a safer bet than investing in truly disruptive healthcare technologies while accepting the Matrix.",
+   "context": "Closing line of an essay on the Pear Therapeutics bankruptcy (maker of the FDA-cleared CBT-I prescription digital therapeutic Somryst, spelled Somyrst by the author). The author argues a proven suicide-risk-modifying device did not succeed in the healthcare market and that 'Accepting the Matrix is a losing game'; he asserts a newsletter subscription is a safer bet than investing in disruptive healthcare technologies under the current payment system.",
+   "post_title": "Requiem For a 🍐: The Tragedy of the Pear Therapeutics Bankruptcy for Suicide Prevention",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/requiem-for-a-the-tragedy-of-the",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "a safer bet",
+   "entities": [
+    "Pear Therapeutics",
+    "Somryst",
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Joke framing (Matrix riff, subscription pitch) over a sincere view that disruptive health-tech investments lose under current payment models. Borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0421",
+   "forecaster": "owen",
+   "statement_date": "2023-04-10",
+   "quote": "Neuromodulation (various modalities) will be the first line for almost all psychiatric conditions in 10 years",
+   "context": "Item 2 of 16 in the 'Predictions About The Future' list (self-described 'outlandish predictions' made 'so I can be on record'). Claim: neuromodulation of various kinds becomes first-line treatment for almost all psychiatric conditions within 10 years (about 2033).",
+   "post_title": "Predictions About The Future",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/predictions-about-the-future",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in 10 years",
+   "confidence_phrase": "will",
+   "entities": [
+    "neuromodulation"
+   ],
+   "finder_note": "Broader companion to item 1.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0422",
+   "forecaster": "owen",
+   "statement_date": "2023-04-10",
+   "quote": "Antipsychotic medication augmentation in depression will be deemed dubious in 5 years and barbaric in 10",
+   "context": "Item 3 of 16 in the 'Predictions About The Future' list. Claim: the practice of augmenting antidepressants with antipsychotic medication in depression will be viewed as dubious within 5 years and as barbaric within 10 years.",
+   "post_title": "Predictions About The Future",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/predictions-about-the-future",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in 5 years and barbaric in 10",
+   "confidence_phrase": "will",
+   "entities": [
+    "antipsychotics"
+   ],
+   "finder_note": "Compound claim with two horizons: 'dubious' at 5 years, 'barbaric' at 10 years.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0423",
+   "forecaster": "owen",
+   "statement_date": "2023-04-10",
+   "quote": "Psychiatry, as a medical discipline, will manage obesity and other general medical problems routinely in 10 years",
+   "context": "Item 4 of 16 in the 'Predictions About The Future' list. Claim: within 10 years psychiatrists routinely manage obesity and other general medical problems as part of their discipline.",
+   "post_title": "Predictions About The Future",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/predictions-about-the-future",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in 10 years",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0426",
+   "forecaster": "owen",
+   "statement_date": "2023-04-10",
+   "quote": "Interventional psychiatry fellowships will exist.",
+   "context": "Item 7 of 16 in the 'Predictions About The Future' list. Claim: formal interventional psychiatry fellowship training programs will exist.",
+   "post_title": "Predictions About The Future",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/predictions-about-the-future",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "No date given.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0427",
+   "forecaster": "owen",
+   "statement_date": "2023-04-10",
+   "quote": "PBMs will be unrecognizable in 3-4 years or regulated away.",
+   "context": "Item 8 of 16 in the 'Predictions About The Future' list. Claim: pharmacy benefit managers (PBMs) will be transformed beyond recognition within 3-4 years, or else regulated out of existence.",
+   "post_title": "Predictions About The Future",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/predictions-about-the-future",
+   "area_guess": "payer_policy",
+   "horizon_text": "in 3-4 years",
+   "confidence_phrase": "will",
+   "entities": [
+    "PBMs"
+   ],
+   "finder_note": "Either-or compound claim: unrecognizable or regulated away.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0428",
+   "forecaster": "owen",
+   "statement_date": "2023-04-10",
+   "quote": "The Big Health payers will have AI Equipped short sellers who will come at them hard.",
+   "context": "Item 9 of 16 in the 'Predictions About The Future' list. Claim: large health insurers ('Big Health' is the author's term) will face aggressive short sellers equipped with AI.",
+   "post_title": "Predictions About The Future",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/predictions-about-the-future",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Big Health payers"
+   ],
+   "finder_note": "No specific payer named; no date given.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0439",
+   "forecaster": "owen",
+   "statement_date": "2023-04-16",
+   "quote": "And for anyone who wants to get the ball rolling by forwarding this article to the authorities in the state of Missouri, that action would legally trigger an investigation into The AG:",
+   "context": "The author claims that forwarding his article to the Missouri Board of Healing Arts would legally trigger an investigation into Attorney General Andrew Bailey for unlicensed practice of medicine under Missouri statute 334.240.",
+   "post_title": "Missouri's Attorney General Fraudulently Practices Medicine Without a License ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/missouris-attorney-general-fraudulently",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [
+    "Andrew Bailey",
+    "Missouri Attorney General",
+    "Missouri Board of Healing Arts"
+   ],
+   "finder_note": "Conditional on a reader filing a report.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0441",
+   "forecaster": "owen",
+   "statement_date": "2023-04-16",
+   "quote": "His emergency order constitutes a serious danger to the health, safety, or welfare of a patient in that his rules effectively abruptly discontinue or prohibit gender affirming care.",
+   "context": "The author's assessment of the effect of the Missouri AG's emergency rule (effective April 27, 2023): it will effectively end or prohibit gender-affirming care in Missouri.",
+   "post_title": "Missouri's Attorney General Fraudulently Practices Medicine Without a License ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/missouris-attorney-general-fraudulently",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "effectively",
+   "entities": [
+    "Andrew Bailey",
+    "Missouri Attorney General"
+   ],
+   "finder_note": "Effect claim about a rule not yet in force at the post date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0443",
+   "forecaster": "owen",
+   "statement_date": "2023-04-20",
+   "quote": "Deep TMS: Most (58%) treatment-resistant patients get substantial improvement and will be replicated in large real-world data.",
+   "context": "List of OCD treatment options beyond EXRP; the author states the 58% response rate of Deep TMS in treatment-resistant OCD will be replicated in large real-world data.",
+   "post_title": "Are You Sure I’m Not Annoying You? Yes, But OCD is Real!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/are-you-sure-im-not-annoying-you",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "will be replicated",
+   "entities": [
+    "Deep TMS"
+   ],
+   "finder_note": "Claim about future real-world replication of trial data.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0456",
+   "forecaster": "owen",
+   "statement_date": "2023-05-01",
+   "quote": "To let the public health emergency expire with no action from the DEA as it relates to the millions of people who are now getting their controlled substances prescribed via telehealth? That would be a public health disaster; somebody would look like a huge dope, there would be congressional hearings, somebody would get fired, and other people would be embarrassed.",
+   "context": "Conditional consequence forecast: if the DEA takes no action before the PHE expires, there would be a public health disaster, congressional hearings and firings. Used as the reason the DEA will act.",
+   "post_title": "A Crucial Update on Prescribing Controlled Substances Past May 11th That Explains Everything And Removes All Doubt and Worry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-crucial-update-on-prescribing-controlled",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "would",
+   "entities": [
+    "DEA",
+    "Congress",
+    "COVID-19 public health emergency"
+   ],
+   "finder_note": "Conditional on DEA inaction; the author expects the condition not to occur.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0460",
+   "forecaster": "owen",
+   "statement_date": "2023-05-01",
+   "quote": "And eventually, they'll figure it out.",
+   "context": "Third linked call: the DEA will eventually settle a permanent rule for telehealth prescribing of controlled substances.",
+   "post_title": "A Crucial Update on Prescribing Controlled Substances Past May 11th That Explains Everything And Removes All Doubt and Worry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-crucial-update-on-prescribing-controlled",
+   "area_guess": "regulatory",
+   "horizon_text": "eventually",
+   "confidence_phrase": "they'll",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Third of three linked calls; vague resolution criterion.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0463",
+   "forecaster": "owen",
+   "statement_date": "2023-05-01",
+   "quote": "Transcranial magnetic stimulation, ketamine, Esketamine, psychotherapy, and see a whole generation of psychedelic medications, electroconvulsive therapy, vagal nerve stimulation, deep brain stimulation, the gamma core device, the ketogenic diet, and the list goes on.",
+   "context": "List of alternatives to antipsychotic augmentation for depression; 'see a whole generation of psychedelic medications' implies a coming generation of psychedelic drugs.",
+   "post_title": "That Time I Did Not Disagree with Scientology: Tardive Dyskinesia Sucks",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/that-time-i-did-not-disagree-with",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "TMS",
+    "ketamine",
+    "esketamine",
+    "psychedelic medications",
+    "electroconvulsive therapy",
+    "vagal nerve stimulation",
+    "deep brain stimulation",
+    "gammaCore"
+   ],
+   "finder_note": "Garbled sentence; borderline implicit call that psychedelic medications are coming.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0471",
+   "forecaster": "owen",
+   "statement_date": "2023-05-03",
+   "quote": "Experts will have industry involvement and conflicts of interest in the AI-driven healthcare age.",
+   "context": "After resigning from an AACAP CME planning committee because of ACCME ineligible-company rules, the author argues that in the coming AI-driven healthcare era experts will routinely have industry ties, which current CME rules cannot accommodate.",
+   "post_title": "Compliance With Ethical Standards in Healthcare Isn't Optional",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/compliance-with-ethical-standards",
+   "area_guess": "other",
+   "horizon_text": "in the AI-driven healthcare age",
+   "confidence_phrase": "will",
+   "entities": [
+    "AACAP",
+    "ACCME"
+   ],
+   "finder_note": "General forward-looking claim about the profession; not dated.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0472",
+   "forecaster": "owen",
+   "statement_date": "2023-05-03",
+   "quote": "That resignation comes with a warning: not everyone who has a conflict will do what I just did. 100% of the people looking to scam us will not take that step.",
+   "context": "Closing warning: others with conflicts of interest will not self-report and resign as the author did; people looking to scam will never take that step.",
+   "post_title": "Compliance With Ethical Standards in Healthcare Isn't Optional",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/compliance-with-ethical-standards",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will not; 100%",
+   "entities": [
+    "AACAP"
+   ],
+   "finder_note": "Generic behavioral prediction with a stated 100% figure.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0473",
+   "forecaster": "owen",
+   "statement_date": "2023-05-04",
+   "quote": "This also means that the party is over. It is time for psychedelic treatments to get boring. Fast. It’s a cultural norm in the house of medicine.",
+   "context": "The AMA approved a CPT III code for psychedelic therapies. The author reads this as the end of the festival era: psychedelic medicine will now have to become conventional, 'boring' medicine. Partly exhortation.",
+   "post_title": "Dear Psychedelic Medicine: Congrats on Your AMA CPT Codes! Now, Get More Boring",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dear-psychedelic-medicine-congrats",
+   "area_guess": "practice_adoption",
+   "horizon_text": "Fast",
+   "confidence_phrase": "none",
+   "entities": [
+    "AMA",
+    "CPT III code",
+    "MAPS"
+   ],
+   "finder_note": "Borderline: 'the party is over' is declarative but the sentence also reads as advice. Logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0476",
+   "forecaster": "owen",
+   "statement_date": "2023-05-04",
+   "quote": "I believe psychedelic medicine has tremendous promise.",
+   "context": "Author's overall stance on the future value of psychedelic medicine, stated before arguing the field must adopt a sober medical culture to be accepted.",
+   "post_title": "Dear Psychedelic Medicine: Congrats on Your AMA CPT Codes! Now, Get More Boring",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dear-psychedelic-medicine-congrats",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "I believe",
+   "entities": [],
+   "finder_note": "Borderline: promise statement without a concrete resolvable claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0478",
+   "forecaster": "owen",
+   "statement_date": "2023-05-05",
+   "quote": "I’m saying in less than time it will take you to get an invite code, two physical and real world books exist about this buzzy thing you are excluded from.",
+   "context": "Post about the invite-only Bluesky Social app (2023-05-05). The author says he wrote and published two poetry books about the Bluesky 'hellthread' faster than the reader will obtain an invite code; implies invite codes will stay scarce and slow for some time.",
+   "post_title": "A Guide to Missing Out On Blue Sky, The Hot Invite Only App You Are Not On",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-guide-to-missing-out-on-blue-sky",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Bluesky Social",
+    "Hellthread (poetry book)"
+   ],
+   "finder_note": "Quip in a jokey post, but the underlying expectation (invites stay scarce) reads as real. Low forecast value.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0483",
+   "forecaster": "owen",
+   "statement_date": "2023-05-07",
+   "quote": "Don't Feed the Trolls: Substack's Content Moderation Punt Will Destroy the Platform.",
+   "context": "Title of the post. After a troll encounter in Substack comments, the author claims Substack's refusal to moderate content will destroy the platform (the 'Nazi bar' argument).",
+   "post_title": "Don't Feed the Trolls: Substack's Content Moderation Punt Will Destroy the Platform.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/dont-feed-the-trolls-substacks-content",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "Will Destroy",
+   "entities": [
+    "Substack",
+    "Chris Best"
+   ],
+   "finder_note": "Headline claim; restated in the body ('will destroy this company').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0489",
+   "forecaster": "owen",
+   "statement_date": "2023-05-09",
+   "quote": "Selling drugs illegally is illegal, and the people doing that can and should be prosecuted to the full extent of the law… until we decriminalize those things as well.",
+   "context": "Aside in the author's 'keynote' on DEA regulation and diversion, implying he expects eventual decriminalization of currently illegal drug sales.",
+   "post_title": "AMAZING NEWS: DEA KICKS CAN DOWN ROAD Regarding Telemedicine Prescribing of Controlled Substances.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/amazing-news-dea-kicks-can-down-road",
+   "area_guess": "regulatory",
+   "horizon_text": "until",
+   "confidence_phrase": "none",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Borderline: 'until we decriminalize' implies an expectation but sits inside a normative sentence.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0491",
+   "forecaster": "owen",
+   "statement_date": "2023-05-09",
+   "quote": "I wonder if there was some way we could take phenomenal amounts of money plus innovative ideas in healthcare and change anything? Probably not. It's just a crazy dream.",
+   "context": "Satirical riff on UnitedHealth Group's 'Until It's Fixed' podcast: despite $330 billion in annual revenue, UHG will probably not change anything in healthcare. Satirical framing; the underlying expectation reads as sincere.",
+   "post_title": "\"Honestly, I Am Terrified I Will End Up In Your Newsletter\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/honestly-i-am-terrified-i-will-end",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "Probably not",
+   "entities": [
+    "UnitedHealth Group",
+    "Optum"
+   ],
+   "finder_note": "Satirical framing; underlying claim (UHG will not use its resources to change healthcare) reads as the author's real expectation.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0492",
+   "forecaster": "owen",
+   "statement_date": "2023-05-09",
+   "quote": "There is no solution to the problem of being the largest healthcare company on earth, there's only the relentless pursuit of getting even bigger.",
+   "context": "Author's claim about UnitedHealth Group's trajectory: it will keep pursuing growth rather than fix healthcare.",
+   "post_title": "\"Honestly, I Am Terrified I Will End Up In Your Newsletter\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/honestly-i-am-terrified-i-will-end",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Present-tense characterization with a forward-looking reading (continued growth pursuit).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0495",
+   "forecaster": "owen",
+   "statement_date": "2023-05-16",
+   "quote": "Our current relentless grief is moving closer to that fiction. Those writers imagined enough loss would drive us mad. I suspect they are correct. We are not prepared.",
+   "context": "Essay comparing US drug overdose deaths to the HBO show The Leftovers, where 2% of people vanish and society goes mad (2023-05-16). The author says real grief is approaching the fiction and suspects that loss at this scale will drive us mad.",
+   "post_title": "How Opiate Use Disorder Made Our World \"The Leftovers\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-opiate-use-disorder-made-our",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I suspect",
+   "entities": [
+    "The Leftovers",
+    "HBO"
+   ],
+   "finder_note": "Compound: present trend ('moving closer') plus hedged prediction of collective madness.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0499",
+   "forecaster": "owen",
+   "statement_date": "2023-05-16",
+   "quote": "The grief can and will drive us mad.",
+   "context": "The author frames ongoing, indiscriminate overdose deaths as a 'Relentless Departure' and predicts that collective grief will drive society mad.",
+   "post_title": "How Opiate Use Disorder Made Our World \"The Leftovers\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-opiate-use-disorder-made-our",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "The Leftovers"
+   ],
+   "finder_note": "Restates the earlier 'I suspect they are correct' claim with stronger confidence.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0501",
+   "forecaster": "owen",
+   "statement_date": "2023-05-16",
+   "quote": "It won't be long now …until you have a chance to save somebody's life.",
+   "context": "Closing of the call to action to keep Narcan at home and at parties as soon as it is available; the author predicts readers will soon face an overdose they can reverse.",
+   "post_title": "How Opiate Use Disorder Made Our World \"The Leftovers\"",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-opiate-use-disorder-made-our",
+   "area_guess": "other",
+   "horizon_text": "won't be long now",
+   "confidence_phrase": "won't be long",
+   "entities": [
+    "Narcan",
+    "naloxone"
+   ],
+   "finder_note": "Prediction addressed to readers; implies continued high overdose frequency.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0503",
+   "forecaster": "owen",
+   "statement_date": "2023-05-21",
+   "quote": "And that is on the verge of changing…Follow for More!",
+   "context": "Explainer on how inpatient psychiatric care is paid (per diem or IPF PPS, not DRGs), which left psychiatric hospitals no incentive for efficient discharge and no mechanism to pay for innovative treatments. The author says this is about to change with the 2024 CMS update that inspired the article.",
+   "post_title": "Inpatient Psychiatric Care is Paid Differently than All Other Hospital Care",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/inpatient-psychiatric-care-is-paid",
+   "area_guess": "payer_policy",
+   "horizon_text": "on the verge",
+   "confidence_phrase": "on the verge of changing",
+   "entities": [
+    "CMS",
+    "Medicare",
+    "IPF PPS"
+   ],
+   "finder_note": "Refers to the 2024 CMS IPF PPS update mentioned earlier in the post; foreshadows a follow-up.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0508",
+   "forecaster": "owen",
+   "statement_date": "2023-05-22",
+   "quote": "There's a whole generation of people who are now out of work who used to come up with names for drugs, and GPT4 is going to do that?",
+   "context": "Footnote 2, an aside about drug brand names: the author suggests GPT-4 will take over the drug-naming work of now-unemployed naming specialists.",
+   "post_title": "Antipsychotics Should Never be Used For Augmentation In Depression Anymore",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/antipsychotics-should-never-be-used",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "GPT-4",
+    "OpenAI"
+   ],
+   "finder_note": "Phrased as a rhetorical question; half-joking aside in a footnote.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0510",
+   "forecaster": "owen",
+   "statement_date": "2023-05-24",
+   "quote": "And we are just getting started.",
+   "context": "Recap of an APA talk (with Dan Karlin, CMO of Mind Medicine) on precision, context and granular data from a study in patients with anxiety on which the author was PI. The author says the work of turning such data into knowledge is only beginning.",
+   "post_title": "Is False Equivalency is the New Precision?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-false-equivalency-is-the-new-precision",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Dan Karlin",
+    "Mind Medicine",
+    "APA"
+   ],
+   "finder_note": "Vague; low forecast value.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0512",
+   "forecaster": "owen",
+   "statement_date": "2023-05-30",
+   "quote": "This is likely to be the highest hurdle for new technologies. Specific data demonstrating clinical IMPROVEMENT in Medicare patients is a high bar, generally, and it is expensive on average to run these kinds of studies…",
+   "context": "Explaining the three NTAP (New Technology Add-On Payment) criteria under the FY2024 Medicare IPPS proposed rule: newness, cost, substantial clinical improvement. The author predicts the substantial clinical improvement criterion (data specific or generalizable to Medicare patients) will be the highest hurdle for new technologies.",
+   "post_title": "You Can Cure* Inpatient Psychiatry With this One Weird Open Comment Period",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/you-can-cure-inpatient-psychiatry",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "CMS",
+    "Medicare",
+    "NTAP",
+    "FDA"
+   ],
+   "finder_note": "",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0515",
+   "forecaster": "owen",
+   "statement_date": "2023-05-31",
+   "quote": "It is a revolution in ADHD for kids and another example of the Neuro-modulated future of our field.",
+   "context": "Closing argument of a post (title: 'The Future Will Be Neuromodulated') about the Monarch eTNS trigeminal nerve stimulation device by NeuroSigma, FDA-cleared as monotherapy for ADHD in children aged 7-12. The author calls the device a revolution and asserts psychiatry has a neuromodulated future (devices displacing drugs).",
+   "post_title": "The Future Will Be Neuromodulated: Medication-Free ADHD Treatment is FDA Cleared NOW",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-future-will-be-neuromodulated",
+   "area_guess": "practice_adoption",
+   "horizon_text": "future",
+   "confidence_phrase": "none",
+   "entities": [
+    "Monarch eTNS",
+    "NeuroSigma",
+    "FDA"
+   ],
+   "finder_note": "Directional trend call with no date; the post title makes the same call ('The Future Will Be Neuromodulated'). Author's practice Fermata offers the device (disclosed in the post).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0520",
+   "forecaster": "owen",
+   "statement_date": "2023-06-01",
+   "quote": "It works because it's compliant, so these legacy technologies stay around like a cockroach after nuclear Armageddon.",
+   "context": "Opening argument (outside the satire list): fax machines and pagers persist in healthcare because communication over phone lines is exempt from additional HIPAA regulation. The author asserts these legacy technologies keep surviving; 'Fax machines do that to this day.'",
+   "post_title": "Compliant is the New Disruptive: A Venture Backed Health Playbook",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/compliant-is-the-new-disruptive-a",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "HIPAA"
+   ],
+   "finder_note": "Borderline: present-tense description with an implied forecast that fax machines and pagers persist in healthcare.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0522",
+   "forecaster": "owen",
+   "statement_date": "2023-06-04",
+   "quote": "It is not an overstatement to say that the capacity of SAINT Neuromodulation to achieve depression remission without the use of medications could revolutionize our approach to mental health treatment.",
+   "context": "From a sample CMS comment letter (Re: SAINT Neuromodulation NTAP Coverage) the author generated with GPT-4 and posted as a template for readers to adapt. The letter also calls the decision 'a watershed moment in the future of mental health care' and says SAINT 'could be a much-needed lifeline' for treatment-resistant patients.",
+   "post_title": "If CMS Doesn't Cover Revolutionary Depression Care it--Might Be Your Fault?!?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/if-cms-doesnt-cover-revolutionary",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "could revolutionize",
+   "entities": [
+    "SAINT",
+    "CMS",
+    "NTAP"
+   ],
+   "finder_note": "GPT-4-drafted sample letter; author calls it a parody of self-praise but endorses SAINT. Coder should weigh authorship.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0523",
+   "forecaster": "owen",
+   "statement_date": "2023-06-04",
+   "quote": "NTAP coverage of SAINT Neuromodulation could help democratize access to this promising therapy, thereby improving the quality of life for countless individuals suffering from depression.",
+   "context": "Same GPT-4-drafted sample comment letter to CMS. Conditional: if CMS grants New Technology Add-On Payment coverage for SAINT, access to the therapy widens.",
+   "post_title": "If CMS Doesn't Cover Revolutionary Depression Care it--Might Be Your Fault?!?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/if-cms-doesnt-cover-revolutionary",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "could help",
+   "entities": [
+    "SAINT",
+    "CMS",
+    "NTAP",
+    "Medicare"
+   ],
+   "finder_note": "GPT-4-drafted sample letter posted as a template; hedged conditional. Coder should weigh authorship.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0524",
+   "forecaster": "owen",
+   "statement_date": "2023-06-06",
+   "quote": "I think it's cute they didn't just immediately make that above workplace a hospital. But it's obviously going to be a hospital. Just make a little adjustment, in the surgical OR, without having to touch anything!",
+   "context": "Satirical open letter written in Apple's voice after the Vision Pro announcement (June 5, 2023). Here the author's own voice breaks through: the workplace demo Apple showed will become a hospital use case, for example hands-free adjustments in a surgical operating room.",
+   "post_title": "An Open Letter to Every Company from Apple",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-every-company-from",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "obviously going to be",
+   "entities": [
+    "Apple",
+    "Apple Vision Pro"
+   ],
+   "finder_note": "Inside a satirical letter but reads as a sincere prediction of Vision Pro adoption in hospitals and operating rooms.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0527",
+   "forecaster": "owen",
+   "statement_date": "2023-06-06",
+   "quote": "We finally get a say on what the most major payer—medicare—does. This sets a precedent.",
+   "context": "The author claims the CMS decision on NTAP payment for a psychiatric treatment (SAINT) in psychiatric hospitals sets a precedent for how Medicare, the largest payer, pays for new psychiatric technologies.",
+   "post_title": "Why Insurance Won't Cover Innovative Treatments for Depression--Answered!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-insurance-wont-cover-innovative",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "CMS",
+    "Medicare",
+    "NTAP",
+    "SAINT"
+   ],
+   "finder_note": "Implied forecast: this NTAP decision will shape later payer decisions on new psychiatric treatments.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0528",
+   "forecaster": "owen",
+   "statement_date": "2023-06-06",
+   "quote": "Medical devices? Of all kinds! They will need this payment model.",
+   "context": "After saying the CMS NTAP decision sets a precedent, the author predicts psychedelic treatments will need an NTAP-style Medicare payment model to reach patients.",
+   "post_title": "Why Insurance Won't Cover Innovative Treatments for Depression--Answered!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-insurance-wont-cover-innovative",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will need",
+   "entities": [
+    "CMS",
+    "Medicare",
+    "NTAP"
+   ],
+   "finder_note": "Paired with the same claim for medical devices in the next line.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0530",
+   "forecaster": "owen",
+   "statement_date": "2023-06-07",
+   "quote": "Getting them firmly ensconced in the mainstream is the way to prevent the haters from destroying the revolution all over again. ... Psychedelic Medicine should stop trying to be the Blackberry—only to fail—and get on board with being the stodgy iPhone",
+   "context": "Satirical essay proposing the late William Osler as psychedelic medicine's key opinion leader. The sincere argument beneath the satire: psychedelic medicine must become boring and mainstream, otherwise opponents will destroy the psychedelic 'revolution' again, as happened before.",
+   "post_title": "William Osler, M.D. for Psychedelic Medicine Key Opinion Leader",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/william-osler-md-for-psychedelic",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Conditional/strategic claim inside satire; underlying expectation (backlash destroys psychedelic medicine unless mainstreamed) reads sincere.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

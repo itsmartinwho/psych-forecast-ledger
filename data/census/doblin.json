@@ -7818,5 +7818,837 @@
    ]
   },
   "prefilter": null
+ },
+ {
+  "id": "doblin-0245",
+  "forecaster": "doblin",
+  "statement_date": "2018-01-05",
+  "date_precision": "day",
+  "quote": "Unlike other drugs, the only people that can prescribe MDMA are therapists we have trained. And they can only administer it under direct supervision in special clinics. It's never gonna be a take home drug.",
+  "context": "Doblin says an approved MDMA product will be administered only by MAPS-trained therapists in clinics, and will never be given to the patient to take away. This denies retail-pharmacy dispensing for out-of-clinic use.",
+  "source": {
+   "url": "https://refractor.io/science/the-journey-from-ecstasy-to-medicine-rick-doblins-long-strange-mdma-trip/",
+   "title": "The journey from ecstasy to medicine: Rick Doblin's long, strange MDMA trip (New Atlas)",
+   "type": "article",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0067; Same interview text also appears at refractor.io, which the ledger already cites for a different quote (doblin-0002). This take-home/pharmacy sentence is not in the existing"
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "never gonna be",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0246",
+  "forecaster": "doblin",
+  "statement_date": "2019-01-14",
+  "date_precision": "day",
+  "quote": "Considering that tens of millions of people have been taking MDMA for more than 40 years, we already know the risk profile very well. So, the key factor is whether we obtain statistically significant results.",
+  "context": "Doblin says the only real question for the first Phase 3 trial is whether it reaches statistical significance, because safety is already known.",
+  "source": {
+   "url": "https://www.psymposia.com/magazine/future-of-mdma-phase-3-and-beyond/",
+   "title": "The Future of MDMA: Phase 3 and Beyond",
+   "type": "article",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; undated; event sweep target E-0002; Said as MAPS started Phase 3 (MAPP1). Quote read in page text, not a snippet."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0247",
+  "forecaster": "doblin",
+  "statement_date": "2019-01-14",
+  "date_precision": "day",
+  "quote": "Even that is fairly assured since we will conduct an 'interim analysis' by an unblinded data-monitoring committee to review the data when 60% of the results are in. If we need to add more subjects to obtain statistically significant results, we will be told that.",
+  "context": "Doblin says statistical significance in the first Phase 3 trial is close to assured because an interim analysis can add participants.",
+  "source": {
+   "url": "https://www.psymposia.com/magazine/future-of-mdma-phase-3-and-beyond/",
+   "title": "The Future of MDMA: Phase 3 and Beyond",
+   "type": "article",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; undated; event sweep target E-0002; The page uses curly quotation marks around 'interim analysis'."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "fairly assured",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0248",
+  "forecaster": "doblin",
+  "statement_date": "2019-01-24",
+  "date_precision": "day",
+  "quote": "I am OK with making the overnight stays after each MDMA session — [a current part of MAPS' protocol] — optional as a potential cost savings. But, I am much less comfortable going to a one-therapist model due to the safety and support provided by a two-therapist team.",
+  "context": "Doblin says he would accept making the post-session overnight stay optional to cut cost, but not a one-therapist model. This is his view on how far post-dose monitoring could be relaxed.",
+  "source": {
+   "url": "https://www.psymposia.com/magazine/mdma-insurance/",
+   "title": "Will MDMA-assisted psychotherapy be covered by health insurance? (Psymposia)",
+   "type": "article",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0068; Bracketed words are the publication's insertion, shown as printed. Relates to post-dose monitoring (overnight stay), not to a full removal of in-clinic monitoring."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "I am OK with",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0249",
+  "forecaster": "doblin",
+  "statement_date": "2019-05-10",
+  "date_precision": "day",
+  "quote": "The main difference is that cannabis is a take-home medicine for people to use on their own. And MDMA is only to assist psychotherapy—it's always used under direct supervision of trained therapists.",
+  "context": "Doblin contrasts cannabis with MDMA: MDMA is always used under direct supervision of trained therapists, never self-administered at home. This denies an approval with no in-clinic supervision.",
+  "source": {
+   "url": "https://maps.org/news/media/hellomd-maps-founder-rick-doblin-talks-psychedelics-mdma-the-fda/",
+   "title": "HelloMD: MAPS Founder Rick Doblin Talks Psychedelics, MDMA and the FDA",
+   "type": "interview",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0068; Also bears on E-0067 (no take-home dispensing)."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "always",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0250",
+  "forecaster": "doblin",
+  "statement_date": "2020-05-28",
+  "date_precision": "day",
+  "quote": "So in this case the REMS that we have proposed preliminary with the FDA is that the only people that can treat patients, and the only people that can prescribe MDMA are people that have been through our training program",
+  "context": "Doblin describes the REMS that MAPS proposed to the FDA: only graduates of the MAPS training program may prescribe MDMA and treat patients. This forecasts a restrictive, therapist-gated REMS.",
+  "source": {
+   "url": "https://www.qualialife.com/psychedelic-research-and-culture-an-interview-with-rick-doblin",
+   "title": "Psychedelic Research and Culture: An Interview with Rick Doblin (Qualia Life)",
+   "type": "interview",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0068; The existing ledger has other quotes from this URL under dates 2020-05-01 and 2020-05-28; this REMS passage is not among them."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "we have proposed preliminary",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0251",
+  "forecaster": "doblin",
+  "statement_date": "2020-08-26",
+  "date_precision": "day",
+  "quote": "what we learned is that we were doing great, that we didn't need to add a single person to the study and that we had a 90% or greater probability of statistical significance once the study was completed, and we had the primary outcome data for all 100",
+  "context": "Doblin reports the MAPP1 interim analysis result and the probability that the full trial reaches statistical significance.",
+  "source": {
+   "url": "https://psychiatryinstitute.com/podcast/maestro-mdma-psychotherapy-doblin/",
+   "title": "A Dive with the Maestro behind MDMA Psychotherapy Research - Rick Doblin - HPP 62",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; undated; event sweep target E-0002; Transcript line under 'Dr. Rick Doblin'. Same claim as an existing Tim Ferriss row, but a different source and date."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "90% or greater probability",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0252",
+  "forecaster": "doblin",
+  "statement_date": "2020-08-26",
+  "date_precision": "day",
+  "quote": "the 90% or greater probability of statistical significance was with all hundred people. And so we decided that we would end it with 90. And so the last data point is now coming in about two weeks. And we will have before the end of September, we're going to know if the first phase three study was statistically significant.",
+  "context": "Doblin says MAPP1 stopped at 90 participants and that the result will be known before the end of September 2020.",
+  "source": {
+   "url": "https://psychiatryinstitute.com/podcast/maestro-mdma-psychotherapy-doblin/",
+   "title": "A Dive with the Maestro behind MDMA Psychotherapy Research - Rick Doblin - HPP 62",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated_event; event sweep target E-0002; "
+  },
+  "finder": {
+   "horizon_text": "before the end of September",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0253",
+  "forecaster": "doblin",
+  "statement_date": "2020-08-26",
+  "date_precision": "day",
+  "quote": "And so now we're assuming two years that the second phase three study will be done by the middle of 2022. We're hoping to be approved before the end of 2022 or early 2023 assuming our data justifies that.",
+  "context": "Doblin dates the end of the second Phase 3 trial (MAPP2) to mid-2022 and FDA approval to late 2022 or early 2023.",
+  "source": {
+   "url": "https://psychiatryinstitute.com/podcast/maestro-mdma-psychotherapy-doblin/",
+   "title": "A Dive with the Maestro behind MDMA Psychotherapy Research - Rick Doblin - HPP 62",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated_event; event sweep target E-0009; "
+  },
+  "finder": {
+   "horizon_text": "by the middle of 2022",
+   "confidence_phrase": "we're hoping",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0254",
+  "forecaster": "doblin",
+  "statement_date": "2020-08-26",
+  "date_precision": "day",
+  "quote": "Right, so that's called the REMS, the risk evaluation and mitigation strategies. So the thalidomide, which was the sort of quintessential bad drug. It was for morning sickness because of birth defects. The FDA was able to develop special requirements for special risks for the drug and they first did that with thalidomide. Now they do that for every drug and there needs to be these REMS. So we're already preliminary negotiating this with FDA and DEA.",
+  "context": "Asked what MDMA approval will look like on the ground, Doblin says the answer is the REMS, states that FDA now requires a REMS for every drug, and says MAPS is already negotiating the MDMA REMS with FDA and DEA. He then describes the proposed terms: only sponsor-trained people may work with patients, and the drug is given only under direct supervision.",
+  "source": {
+   "url": "https://psychiatryinstitute.com/podcast/maestro-mdma-psychotherapy-doblin/",
+   "title": "A Dive with the Maestro behind MDMA Psychotherapy Research - Rick Doblin - HPP 62 (Higher Practice Podcast, Integrative Psychiatry Institute)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0023; Strongest REMS statement found in Doblin's own words. The existing ledger holds only one REMS item (2017 MAPS financial report), so this is new. Transcript is machine-made; "
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "there needs to be these REMS",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0255",
+  "forecaster": "doblin",
+  "statement_date": "2020-10-22",
+  "date_precision": "day",
+  "quote": "we are now, um, about a month away from having. The data from a first of two phase three studies, as far as whether it's statistically significant",
+  "context": "Doblin tells Andrew Weil the first Phase 3 trial result is about a month away.",
+  "source": {
+   "url": "https://awcim.arizona.edu/podcast/episode11_doblin.html",
+   "title": "Body of Wonder Episode #11 Psychedelic-Assisted Trauma Therapy with Rick Doblin, PhD",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated_event; event sweep target E-0002; Transcript line under 'Rick Doblin:'. Punctuation is as the published transcript prints it."
+  },
+  "finder": {
+   "horizon_text": "about a month away",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0256",
+  "forecaster": "doblin",
+  "statement_date": "2020-10-22",
+  "date_precision": "day",
+  "quote": "one of the key scaling factor is training therapists and our, our, our current model. What we're hoping to do is by 2030, Have trained 20,000 therapists.",
+  "context": "Doblin sets a target of 20,000 trained psychedelic therapists by 2030.",
+  "source": {
+   "url": "https://awcim.arizona.edu/podcast/episode11_doblin.html",
+   "title": "Body of Wonder Episode #11 Psychedelic-Assisted Trauma Therapy with Rick Doblin, PhD",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "practice_adoption",
+   "note": "source confidence high; dated_event; event sweep target other; Not one of the five events; a separate dated, checkable claim."
+  },
+  "finder": {
+   "horizon_text": "by 2030",
+   "confidence_phrase": "we're hoping",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0257",
+  "forecaster": "doblin",
+  "statement_date": "2021-07-21",
+  "date_precision": "day",
+  "quote": "Well, the end of 2023. So two and a half years from now We anticipate FDA approval for the prescription use of MDMA for PTSD because the FDA does not regulate the practice of medicine, there is what's called off-label prescription.",
+  "context": "Asked when a doctor could prescribe a psychedelic, Doblin predicts FDA approval of MDMA for PTSD at the end of 2023 and explains that off-label prescribing would then follow.",
+  "source": {
+   "url": "https://podscripts.co/podcasts/lex-fridman-podcast/202-rick-doblin-psychedelics",
+   "title": "Lex Fridman Podcast #202 - Rick Doblin: Psychedelics (transcript)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; dated_event; event sweep target E-0066; Also bears on E-0024. Lex Fridman episode is not among the sources in the existing Doblin file. Machine transcript; wording copied exactly, including the missing sentence br"
+  },
+  "finder": {
+   "horizon_text": "the end of 2023. So two and a half years from now",
+   "confidence_phrase": "We anticipate",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0258",
+  "forecaster": "doblin",
+  "statement_date": "2021-07-21",
+  "date_precision": "day",
+  "quote": "Yeah, so I think that what we're gonna have, 2023 is MDMA approved by the FDA. Chances are, psilocybin will be a year or two after that.",
+  "context": "Doblin predicts FDA approval of MDMA in 2023 and psilocybin approval one or two years later, then a decade of psychedelic clinics.",
+  "source": {
+   "url": "https://podscripts.co/podcasts/lex-fridman-podcast/202-rick-doblin-psychedelics",
+   "title": "Lex Fridman Podcast #202 - Rick Doblin: Psychedelics (transcript)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; dated_event; event sweep target E-0066; Covers both an MDMA product and a psilocybin product, so it also bears on E-0024."
+  },
+  "finder": {
+   "horizon_text": "2023 ... a year or two after that",
+   "confidence_phrase": "I think",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0259",
+  "forecaster": "doblin",
+  "statement_date": "2022-01-05",
+  "date_precision": "day",
+  "quote": "We think by the third quarter of 2023 we will have FDA approval assuming the second phase 3 study goes well. And then by the fourth quarter, the DEA has to reschedule [MDMA].",
+  "context": "Doblin dates FDA approval of MDMA-assisted therapy to Q3 2023 and DEA rescheduling to Q4 2023, conditional on MAPP2.",
+  "source": {
+   "url": "https://www.plantmedicine.org/podcast/mdma-assisted-therapy-for-ptsd-rick-doblin-phd-5hk5z",
+   "title": "MDMA-Assisted Therapy for PTSD with Rick Doblin, PhD - Psychedelic Medicine Podcast",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; dated_event; event sweep target other; Quote printed in the episode page's Quotes section at 51:18; bracketed insertion is the publisher's."
+  },
+  "finder": {
+   "horizon_text": "by the third quarter of 2023",
+   "confidence_phrase": "We think",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0260",
+  "forecaster": "doblin",
+  "statement_date": "2022-01-05",
+  "date_precision": "day",
+  "quote": "FDA is legally bound to approve MDMA for PTSD if these [phase 3] studies generate statistically significant evidence of efficacy, and there are no new safety problems.",
+  "context": "Doblin says the FDA agreement letter forces approval if the Phase 3 trials are statistically significant and safe.",
+  "source": {
+   "url": "https://www.plantmedicine.org/podcast/mdma-assisted-therapy-for-ptsd-rick-doblin-phd-5hk5z",
+   "title": "MDMA-Assisted Therapy for PTSD with Rick Doblin, PhD - Psychedelic Medicine Podcast",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target other; Quote printed in the episode page's Quotes section at 40:27."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "legally bound",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0261",
+  "forecaster": "doblin",
+  "statement_date": "2022-02-03",
+  "date_precision": "day",
+  "quote": "a key challenge in 2022 will be the early negotiations with insurance companies for possible coverage of psychedelic-assisted therapies post-approval for prescription use",
+  "context": "Doblin names insurance coverage talks as the main 2022 task for MAPS.",
+  "source": {
+   "url": "https://psychedelicalpha.com/news/looking-ahead-to-a-psychedelic-2022/",
+   "title": "Looking Ahead to a Psychedelic 2022",
+   "type": "article",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "payer_policy",
+   "note": "source confidence high; dated_event; event sweep target other; Doblin gave this to the outlet directly; not one of the five events."
+  },
+  "finder": {
+   "horizon_text": "in 2022",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0262",
+  "forecaster": "doblin",
+  "statement_date": "2022-02-03",
+  "date_precision": "day",
+  "quote": "MAPS will complete the training of about 40 therapists in 6 countries and 9 sites in England and Europe who will be conducting Phase 3 research into MDMA-assisted therapy for PTSD ... we'll train another 800 or more therapists in MDMA-assisted therapy for PTSD.",
+  "context": "Doblin gives 2022 therapist-training targets for the European Phase 3 program.",
+  "source": {
+   "url": "https://psychedelicalpha.com/news/looking-ahead-to-a-psychedelic-2022/",
+   "title": "Looking Ahead to a Psychedelic 2022",
+   "type": "article",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "practice_adoption",
+   "note": "source confidence high; dated_event; event sweep target other; Two quoted sentences from the same passage joined with ' ... '."
+  },
+  "finder": {
+   "horizon_text": "in 2022",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0263",
+  "forecaster": "doblin",
+  "statement_date": "2022-02-03",
+  "date_precision": "day",
+  "quote": "with many running out of money or seeing their ideas not borne out once actual research is started",
+  "context": "Doblin predicts a major consolidation of for-profit psychedelic companies in 2022.",
+  "source": {
+   "url": "https://psychedelicalpha.com/news/looking-ahead-to-a-psychedelic-2022/",
+   "title": "Looking Ahead to a Psychedelic 2022",
+   "type": "article",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; dated_event; event sweep target other; The outlet also quotes his word 'major' for the consolidation."
+  },
+  "finder": {
+   "horizon_text": "in the coming year",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0264",
+  "forecaster": "doblin",
+  "statement_date": "2022-12-12",
+  "date_precision": "day",
+  "quote": "Unlike Spravato, Ketamine, which you can take at home, this will only be under direct supervision of a therapist, never a take home medicine.",
+  "context": "Doblin contrasts MDMA with Spravato/ketamine: MDMA will be given only under direct therapist supervision and will never be a take-home medicine. This denies retail-pharmacy dispensing for home use.",
+  "source": {
+   "url": "https://thethirdwave.co/podcast/episode-173-rick-doblin-phd/",
+   "title": "Healing the Heart of Humanity: Legalizing Psychedelic Medicine - Rick Doblin, Ph.D. (Third Wave podcast transcript)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0067; Not in the existing file. Also bears on E-0068."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "never",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0265",
+  "forecaster": "doblin",
+  "statement_date": "2023-03-31",
+  "date_precision": "day",
+  "quote": "the difference is that it's not a take-home medicine. So it's only administered under direct supervision of a therapist.",
+  "context": "Asked about illegal diversion if MDMA becomes legal, Doblin answers that the approved product is not a take-home medicine and is given only under direct therapist supervision.",
+  "source": {
+   "url": "https://podscripts.co/podcasts/the-joe-rogan-experience/1964-rick-doblin",
+   "title": "The Joe Rogan Experience #1964 - Rick Doblin (transcript)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0068; The ledger holds no rows from this episode. Also bears on E-0067."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "only",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0266",
+  "forecaster": "doblin",
+  "statement_date": "2024-02-19",
+  "date_precision": "day",
+  "quote": "We're also starting research in Europe. So we're trying to get approval by the European Medicines Agency. So we're doing studies in around 10 sites and 7 countries in Europe.",
+  "context": "Doblin states that MAPS is running European trials at about 10 sites in 7 countries with the aim of EMA approval of MDMA-assisted therapy. No date is attached.",
+  "source": {
+   "url": "https://podscripts.co/podcasts/shawn-ryan-show/97-rick-doblin-mdma-psychedelic-assisted-therapy",
+   "title": "Shawn Ryan Show #97 - Rick Doblin, MDMA Psychedelic Assisted Therapy (transcript)",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0004; The sentence immediately before this one (Israel and Canada) is already logged as doblin-0210; the EMA sentences are not."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "we're trying to",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0267",
+  "forecaster": "doblin",
+  "statement_date": "2024-08-01",
+  "date_precision": "month",
+  "quote": "Appeals, though the outcomes are uncertain, are in process for the FDA's rejection and the retraction of the papers. FDA has called for a third Phase 3 study, and if Lykos is unsuccessful in its appeal, potential FDA approval is now at least two years away, possibly more.",
+  "context": "In his open letter to the MAPS community after the August 2024 complete response letter, Doblin says appeals of the FDA rejection are under way, calls the outcomes uncertain, and gives the consequence if the Lykos appeal fails: approval at least two years away.",
+  "source": {
+   "url": "https://maps.org/news/update/fda-decision-redoubling-of-maps-efforts-and-lykos-board-resignation/",
+   "title": "FDA Decision, Redoubling of MAPS Efforts, and Lykos Board Resignation - MAPS",
+   "type": "own_post",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; dated_event; event sweep target E-0030; Only Doblin statement found that names the Lykos appeal of the 2024 CRL. The existing Doblin file holds no statement mentioning an appeal or dispute resolution."
+  },
+  "finder": {
+   "horizon_text": "at least two years away, possibly more",
+   "confidence_phrase": "the outcomes are uncertain",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0268",
+  "forecaster": "doblin",
+  "statement_date": "2024-08-16",
+  "date_precision": "day",
+  "quote": "I believe Lykos will eventually succeed in obtaining FDA approval. We must sustain resilience and passionate persistence in the face of adversity.",
+  "context": "Doblin says Lykos will get FDA approval in the end, after the rejection and the call for a third Phase 3 trial.",
+  "source": {
+   "url": "https://maps.org/news/update/fda-decision-redoubling-of-maps-efforts-and-lykos-board-resignation/",
+   "title": "FDA Decision, Redoubling of MAPS Efforts, and Lykos Board Resignation",
+   "type": "own_post",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; dated_event; event sweep target E-0022; "
+  },
+  "finder": {
+   "horizon_text": "eventually",
+   "confidence_phrase": "I believe",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0269",
+  "forecaster": "doblin",
+  "statement_date": "2025-09-05",
+  "date_precision": "day",
+  "quote": "MAPS is now engaged in discussions with people in the administration, not in the FDA, about whether we already have an evidence-based therapy.",
+  "context": "Doblin describes a route to approval that avoids a further Phase 3 trial.",
+  "source": {
+   "url": "https://www.biospace.com/drug-development/with-lykos-mdma-rejection-letter-out-maps-founder-decries-change-of-the-goal-posts",
+   "title": "With Lykos MDMA Rejection Letter Out, MAPS Founder Decries 'Change of the Goal Posts'",
+   "type": "article",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0022; Quote read through WebFetch of the article page; I did not see the raw HTML."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "doblin-0270",
+  "forecaster": "doblin",
+  "statement_date": "2026-08-10",
+  "date_precision": "day",
+  "quote": "Two years after FDA rejected the initial application for MDMA-assisted therapy for PTSD, Resilient's new NDA is being submitted without a new Phase 3 study.",
+  "context": "Doblin states the refiled application carries no new Phase 3 trial, so no new Phase 3 primary result is coming.",
+  "source": {
+   "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+   "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+   "type": "article",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0022; Attributed block quote signed '- Rick Doblin, Ph.D., Founder and President, MAPS'. A denial that a new Phase 3 trial will report."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
  }
 ]

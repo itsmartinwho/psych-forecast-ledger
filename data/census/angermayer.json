@@ -5734,5 +5734,357 @@
    ]
   },
   "prefilter": null
+ },
+ {
+  "id": "angermayer-0180",
+  "forecaster": "angermayer",
+  "statement_date": "2023-06-01",
+  "date_precision": "month",
+  "quote": "It's just different, it's not the typical, oh, pop a pill per day, like go to your pharmacy",
+  "context": "Podcast transcript. He contrasts psychedelic treatment with a normal prescription medicine collected at a pharmacy and taken daily at home.",
+  "source": {
+   "url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "title": "Democratizing Psychedelics: From Ancient Rituals to Modern Medicalization - Christian Angermayer",
+   "type": "podcast",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "practice_adoption",
+   "note": "source confidence high; undated; event sweep target E-0067; The existing ledger holds five other quotes from this episode, none about pharmacy dispensing."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0181",
+  "forecaster": "angermayer",
+  "statement_date": "2024-02-23",
+  "date_precision": "day",
+  "quote": "They must be prescription only, and some of them – like most psychedelics – should only be taken under supervision by a facilitator, therapist, or doctor during consumption.",
+  "context": "In his essay on enhancement drugs he states that psychedelics should be taken only under supervision during consumption. A denial that an approved psychedelic would come without in-clinic supervision.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/the-future-is-enhanced",
+   "title": "The future is enhanced",
+   "type": "own_post",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0068; The existing ledger holds three other quotes from this post, none about supervision."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "must",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0182",
+  "forecaster": "angermayer",
+  "statement_date": "2024-06-05",
+  "date_precision": "day",
+  "quote": "The first \"psychedelic drug\", Spravato by Johnson & Johnson, has already been approved a while ago, showcasing that the challenges MDMA and other #psychedelics face can be successfully overcome.",
+  "context": "In his thread on the FDA advisory committee vote against Lykos, he argues the regulatory obstacles facing MDMA and other psychedelics can be overcome, citing the earlier Spravato approval.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/1798368569429750026",
+   "title": "Christian Angermayer on X: take on the FDA Advisory Committee vote against Lykos/MAPS MDMA therapy",
+   "type": "tweet",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0066; Separate bullet of the same thread; the existing ledger holds only the \"strong chance that MDMA ... will get approved\" line from this post."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "showcasing that ... can be successfully overcome",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0183",
+  "forecaster": "angermayer",
+  "statement_date": "2024-06-05",
+  "date_precision": "day",
+  "quote": "It isn't MDMA itself that was rejected per se, but the specific, poor data set provided by Lykos; the committee particularly cited discrepancies in clinical trial design + conduct, inadequate collection of safety + other relevant data, bias in the evaluation of patients, and cases of patient abuse during the trials.",
+  "context": "Two months before the FDA action on the Lykos NDA, he states the problem is the Lykos data package and names inadequate safety data collection as a cited defect.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/1798368569429750026",
+   "title": "Christian Angermayer on X: take on the FDA Advisory Committee vote against Lykos/MAPS MDMA therapy",
+   "type": "tweet",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0027; Made before the 2024-08-09 cutoff. Describes the advisory committee's grounds rather than forecasting the FDA letter, so it is indirect evidence of his expectation about the"
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0184",
+  "forecaster": "angermayer",
+  "statement_date": "2024-06-05",
+  "date_precision": "day",
+  "quote": "Even if the original / racemic MDMA does not recover from this setback, atai has a new, potentially better and patent-protected version of MDMA in its pipeline, which in early trials has demonstrated a much better initial safety profile.",
+  "context": "He allows that racemic MDMA (the Lykos product) may not recover, and points to atai's R-MDMA as the alternative. A doubt about a further midomafetamine Phase 3 programme.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/1798368569429750026",
+   "title": "Christian Angermayer on X: take on the FDA Advisory Committee vote against Lykos/MAPS MDMA therapy",
+   "type": "tweet",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; undated; event sweep target E-0022; Separate bullet of the same thread, not in the existing ledger."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "Even if ... does not recover",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0185",
+  "forecaster": "angermayer",
+  "statement_date": "2024-06-14",
+  "date_precision": "day",
+  "quote": "it isn't MDMA itself that was rejected per se, but the specific poor data set provided by Lykos Therapeutics.",
+  "context": "The Microdose round-up of industry reactions to the advisory committee vote quotes him saying the Lykos data package, not MDMA, is the problem.",
+  "source": {
+   "url": "https://themicrodose.substack.com/p/the-psychedelics-world-reacts-to",
+   "title": "The psychedelics world reacts after a FDA Advisory Committee votes against MDMA for PTSD",
+   "type": "article",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0027; Restatement of the 5 June wording in a second source, with slightly different punctuation."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0186",
+  "forecaster": "angermayer",
+  "statement_date": "2025-06-01",
+  "date_precision": "day",
+  "quote": "What the world truly needs are psychedelics that are fully medical: FDA-approved, pharmaceutical-grade, administered by your local doctor, and covered by health insurance. That's exactly what we're working toward at @atai_life",
+  "context": "Replying to data on low patient numbers under Australia's rescheduling, Angermayer argues that only FDA-approved medical psychedelics will work, and says atai is working toward that.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/1929208993609904128",
+   "title": "Christian Angermayer on X: grassroots psychedelic initiatives do not work",
+   "type": "tweet",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0024; A goal statement, not a forecast with a date. It names FDA approval of psychedelics as the target. Low value for scoring; included because it is dated, verbatim and on-event"
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0187",
+  "forecaster": "angermayer",
+  "statement_date": "2025-12-31",
+  "date_precision": "day",
+  "quote": "Just in time for the New Year, @ataibeckley has become a U.S.-domiciled company - a key prerequisite for inclusion in major equity indices. 2026 will be a defining year for $ATAI. Let's go!",
+  "context": "Angermayer says the U.S. re-domiciliation of AtaiBeckley is a key prerequisite for inclusion in major equity indices, and frames 2026 as the defining year for the stock. He signals that index inclusion is now in reach.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/2006368173499801945",
+   "title": "Christian Angermayer on X: U.S.-domiciled company, prerequisite for index inclusion",
+   "type": "tweet",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "company_market",
+   "note": "source confidence high; dated_event; event sweep target E-0059; Fetched through https://api.fxtwitter.com/C_Angermayer/status/2006368173499801945. Not in existing-angermayer.json; the nearest existing rows are angermayer-0150 (2026-01-14"
+  },
+  "finder": {
+   "horizon_text": "2026 will be a defining year",
+   "confidence_phrase": "none",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0188",
+  "forecaster": "angermayer",
+  "statement_date": "2026-02-18",
+  "date_precision": "day",
+  "quote": "FDA guidance has been consistent: psychedelic therapies can only be administered under medical supervision.",
+  "context": "In his 2026 sector note he states that FDA guidance restricts psychedelic therapies to administration under medical supervision. A denial that a retail pharmacy would dispense such a product for use outside a healthcare setting.",
+  "source": {
+   "url": "https://christianangermayer.substack.com/p/psychedelic-medicines-a-time-for",
+   "title": "Psychedelic Medicines - a Time for Stockpickers",
+   "type": "own_post",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; undated; event sweep target E-0067; The existing ledger holds five other quotes from this post, none about the administration setting."
+  },
+  "finder": {
+   "horizon_text": "none",
+   "confidence_phrase": "has been consistent",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0189",
+  "forecaster": "angermayer",
+  "statement_date": "2026-02-19",
+  "date_precision": "day",
+  "quote": "especially before @ataibeckley's anticipated Phase 2b FDA meeting minutes for BPL-003 and Phase 2 EMP-01 (R-MDMA) data will be released this first quarter of 2026... Gonna be a busy and exciting quarter for the AtaiBeckley team!",
+  "context": "Angermayer says the BPL-003 end-of-Phase-2b FDA meeting minutes and the EMP-01 (R-MDMA) Phase 2 data will both be released in the first quarter of 2026.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/2024467868599935303",
+   "title": "Christian Angermayer on X: view on the psychedelic sector before Q1 2026 catalysts",
+   "type": "tweet",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "clinical_trial",
+   "note": "source confidence high; dated_event; event sweep target other; Two dated claims in one quote: Q1 2026 release of the BPL-003 end-of-Phase-2b FDA meeting minutes, and Q1 2026 EMP-01 Phase 2 data. Neither is one of the five registry events"
+  },
+  "finder": {
+   "horizon_text": "this first quarter of 2026",
+   "confidence_phrase": "anticipated",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
+ },
+ {
+  "id": "angermayer-0190",
+  "forecaster": "angermayer",
+  "statement_date": "2026-04-18",
+  "date_precision": "day",
+  "quote": "The public sentiment around psychedelics as FDA-regulated drugs has gone from \"this is a crazy idea that will ruin your career\" to being on the verge of what the market anticipates will be the first regulatory approval of a psychedelic with COMP360... all in less than a decade.",
+  "context": "On the day of the Presidential Executive Order on psychedelics, Angermayer says the field is on the verge of the first regulatory approval of a psychedelic, naming COMP360 as the compound.",
+  "source": {
+   "url": "https://x.com/C_Angermayer/status/2045507709244686618",
+   "title": "Christian Angermayer on X: Presidential Executive Order on psychedelics",
+   "type": "tweet",
+   "accessed": "2026-09-14"
+  },
+  "extraction": {
+   "run": "sweep3-2026-09-14",
+   "sincere": true,
+   "own_claim": true,
+   "normative": false,
+   "forward_looking": true,
+   "area_guess": "regulatory",
+   "note": "source confidence high; dated_event; event sweep target E-0024; Near-identical text is already logged as angermayer-0161 from the Substack post dated 2026-04-20. This X post is two days earlier and is a separate channel. Treat as a possi"
+  },
+  "finder": {
+   "horizon_text": "on the verge",
+   "confidence_phrase": "what the market anticipates",
+   "entities": [],
+   "runs": [
+    "sweep3-2026-09-14"
+   ]
+  },
+  "prefilter": null
  }
 ]

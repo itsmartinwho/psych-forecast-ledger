@@ -1,0 +1,870 @@
+{
+ "packet": "recode-04.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0297",
+   "forecaster": "owen",
+   "statement_date": "2023-02-01",
+   "quote": "Who’s up next? Thanks to artificial intelligence, everyone.",
+   "context": "Closing line after the author filed an AI-generated EEOC complaint against UnitedHealth Group. He lists hospital price transparency, IRS regulation 501(r) compliance, discrimination and mental health parity violations, and late payment as targets, and expects AI-generated complaints to reach every organization.",
+   "post_title": "I Just Used AI to File My Equal Opportunity Complaint Against UnitedHealth Group!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-future-is-now-i-just-used-ai",
+   "area_guess": "other",
+   "horizon_text": "next",
+   "confidence_phrase": "none",
+   "entities": [
+    "DoNotPay",
+    "UnitedHealth Group",
+    "Equal Employment Opportunity Commission",
+    "IRS"
+   ],
+   "finder_note": "Broad claim that AI tools will let anyone file compliance complaints against anyone; restates the author's earlier call that AI 'was going to automate Compliance', which he says has now come true.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0308",
+   "forecaster": "owen",
+   "statement_date": "2023-02-12",
+   "quote": "Clearly, the path forward toward the best care for severely ill patients with mood and psychotic disorders isn't always easiest or most obvious treatment, and it will take well-informed child psychiatrists to advocate for these options.",
+   "context": "In the 2014 personal statement, after a survey at Zucker Hillside Hospital in which over 30% of caregivers saw benefits in long-acting injectable (LAI) antipsychotics for first-episode youth, the author claims that wider use of these options will require well-informed child psychiatrists to advocate for them.",
+   "post_title": "“The Best Personal Statement of the Year”",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-personal-statement-of-the",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will take",
+   "entities": [
+    "long-acting injectable antipsychotics",
+    "Zucker Hillside Hospital",
+    "Christoph Correll",
+    "John Kane"
+   ],
+   "finder_note": "Borderline: truism-like claim about a necessary condition for LAI adoption in youth; from the 2014 text republished in 2023.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0309",
+   "forecaster": "owen",
+   "statement_date": "2023-02-13",
+   "quote": "It doesn’t even matter if a journalist figures it out—because they won’t even care!",
+   "context": "The author describes the Pew Charitable Trusts' covert campaign-finance-reform playbook (secretly funded experts, groups, reports and ads) and proposes reusing it for healthcare lobbying. He predicts that exposure by a journalist would not matter because nobody would care.",
+   "post_title": "How to Create a Fake Mass Movement.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-create-a-fake-mass-movement",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t even care",
+   "entities": [
+    "Pew Charitable Trusts",
+    "Congress"
+   ],
+   "finder_note": "Borderline: generic prediction about journalist and public reaction to an astroturf healthcare campaign; no date or specific event. Author says 'I’m not actually criticizing the above'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0314",
+   "forecaster": "owen",
+   "statement_date": "2023-02-15",
+   "quote": "Or whatever the limit is on the size of the pill. It will not be a money maker, but it will be important.",
+   "context": "The author proposes a hypothetical lithium product, 'Dr. M’s Lith-o-sure', an Eskalith CR-like formulation in larger strengths (600mg to 1400mg), addressed to Mark Cuban's Cost Plus Drugs team. He predicts such a product would not be profitable but would be important.",
+   "post_title": "Does Lithium Prevent Suicide in Bipolar Disorder? An Existential Guide.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-lithium-still-good-medicine-in",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will not be",
+   "entities": [
+    "Mark Cuban Cost Plus Drugs",
+    "Eskalith CR",
+    "lithium"
+   ],
+   "finder_note": "Conditional on a hypothetical product no company has announced; a wish plus a forecast about its commercial value.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0315",
+   "forecaster": "owen",
+   "statement_date": "2023-02-15",
+   "quote": "No one has to remind you to check your text messages or other notifications on your phone. We know how to shape behavior. I think the better future of healthcare includes “adherence augmentation” with technologies like iRxReminder (a company at which I’m now Chief Medical Officer).",
+   "context": "Disclosure section headed 'The Most Commercially Biased Opinion': the author predicts that the better future of healthcare includes adherence-augmentation technologies such as iRxReminder, where he is Chief Medical Officer.",
+   "post_title": "Does Lithium Prevent Suicide in Bipolar Disorder? An Existential Guide.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-lithium-still-good-medicine-in",
+   "area_guess": "practice_adoption",
+   "horizon_text": "the better future of healthcare",
+   "confidence_phrase": "I think",
+   "entities": [
+    "iRxReminder",
+    "Owen Muir"
+   ],
+   "finder_note": "Author's own company; coder marks CONTROL. The author himself labels it commercially biased.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0317",
+   "forecaster": "owen",
+   "statement_date": "2023-02-15",
+   "quote": "Stendra also exists and works quite a bit faster than viagra (30m as opposed to 2h for the drug to start working). These are reasonable options if this side effect presents itself. Expect to fight for prior authorization.",
+   "context": "Erectile dysfunction side-effect section: Viagra and Stendra are options for lithium-related sexual dysfunction; the author tells prescribers to expect prior-authorization fights from payers for these drugs.",
+   "post_title": "Does Lithium Prevent Suicide in Bipolar Disorder? An Existential Guide.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-lithium-still-good-medicine-in",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "Expect",
+   "entities": [
+    "Stendra",
+    "Viagra",
+    "lithium"
+   ],
+   "finder_note": "Generic expectation about payer prior-authorization behavior; imperative form with a predictive reading.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0318",
+   "forecaster": "owen",
+   "statement_date": "2023-02-21",
+   "quote": "The Frontier Psychiatrists is a newsletter for our life and complex times. And it’s probably going to pay off if you subscribe. But the PPV for that isn’t perfect",
+   "context": "Sign-off after the screening and Bayesian explainer: the author says subscribing to The Frontier Psychiatrists will probably pay off, then undercuts it with a positive-predictive-value joke.",
+   "post_title": "Should We Be Universally Screening to Prevent Death by Bolt of Lightning?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/should-we-be-universally-screening",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "The Frontier Psychiatrists"
+   ],
+   "finder_note": "Newsletter self-promotion in joke form; coder may mark CONTROL; very low forecast value.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0319",
+   "forecaster": "owen",
+   "statement_date": "2023-02-23",
+   "quote": "Any of those three approaches or even all three of them could be implemented by a company trying to build a treatment solution, there is already a significant amount of advocacy from patients and families that would jump all over the opportunity to have this be more accessible.",
+   "context": "Startup-ideas post modeled on NOCD (OCD telehealth, $33M Series B). Under the heading Borderline Personality Disorder, the author lists DBT (training owned by Behavioral Tech), MBT and Good Psychiatric Management (John Gunderson, McLean) as three clinical models and expects patient and family advocacy to embrace a company that makes BPD treatment more accessible.",
+   "post_title": "The Best Mental Health Startups That Don't Exist Yet?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-mental-health-startups-that",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "would jump all over the opportunity",
+   "entities": [
+    "NOCD",
+    "Behavioral Tech",
+    "John Gunderson",
+    "McLean"
+   ],
+   "finder_note": "Hypothetical: a conditional demand forecast for a company that does not exist yet.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0320",
+   "forecaster": "owen",
+   "statement_date": "2023-02-23",
+   "quote": "There aren't that many other medications to master, and doing the evidence-based thing is probably going to do a great job compared to the standard of care—which is not doing any of those things.",
+   "context": "Under the heading Bipolar Disorder, the author proposes a company built on Interpersonal and Social Rhythm Therapy plus prescribing centered on lithium ('the actual answer is lithium'), and predicts this evidence-based model would probably outperform the standard of care. He adds that Cerebral should have pivoted to this after its ADHD business blew up.",
+   "post_title": "The Best Mental Health Startups That Don't Exist Yet?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-mental-health-startups-that",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "probably going to",
+   "entities": [
+    "lithium",
+    "Cerebral",
+    "NOCD"
+   ],
+   "finder_note": "Hypothetical company; clinical-outcome claim for an evidence-based care model versus standard of care, no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0321",
+   "forecaster": "owen",
+   "statement_date": "2023-02-23",
+   "quote": "There is even a government payer, in Medicaid and Medicare for the disabled, and probably an exit to united healthcare exists, just to drive down the cost of their dual eligibles with Medicare/Medicaid.",
+   "context": "Under the heading Schizophrenia, the author sketches a company delivering clozapine, long-acting injectables, early treatment programs and tech-enabled care (citing John Kane's ICRC study at Zucker-Hillside). He expects Medicaid/Medicare to pay for it and a probable acquisition exit to UnitedHealthcare to reduce dual-eligible costs.",
+   "post_title": "The Best Mental Health Startups That Don't Exist Yet?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-mental-health-startups-that",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "probably",
+   "entities": [
+    "UnitedHealthcare",
+    "Medicaid",
+    "Medicare",
+    "John Kane",
+    "TripleAimPartners"
+   ],
+   "finder_note": "Hypothetical exit for a company that does not exist yet; 'united healthcare' is lowercase in the original.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0322",
+   "forecaster": "owen",
+   "statement_date": "2023-02-23",
+   "quote": "This would be good for patients and good for the world. There are zero reasons this isn't a huge company. It's 1% of the population.",
+   "context": "Still under Schizophrenia: the author claims a company doing full evidence-based schizophrenia care would be huge, citing 3.3 million people in the US and a $281.6 billion market size in 2020. He contrasts it with Firsthand, which in his understanding does not do all the care.",
+   "post_title": "The Best Mental Health Startups That Don't Exist Yet?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-mental-health-startups-that",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "zero reasons",
+   "entities": [
+    "Firsthand",
+    "Medicaid",
+    "Medicare"
+   ],
+   "finder_note": "Hypothetical market-size claim for a company that does not exist yet; not a dated call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0323",
+   "forecaster": "owen",
+   "statement_date": "2023-02-23",
+   "quote": "However, the success of this company makes a bunch of other companies completely obvious to me, but I don't have the time to build all of them, so you can if you want. Somebody should, and I'll go condition by condition.",
+   "context": "Borderline, preview-only: the author endorses NOCD (payer-contracted, human-delivered, condition-specific ERP therapy, $33M Series B) as a winning model and implies that condition-specific copies of the model will be viable businesses. Mostly a 'should' framing; the specific ideas are paywalled.",
+   "post_title": "The Best Mental Health Startups That Don't Exist Yet?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-mental-health-startups-that",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "NOCD"
+   ],
+   "finder_note": "hint: NOCD funding rounds and payer contracts 2023-2026; emergence of condition-specific specialty telehealth companies",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0325",
+   "forecaster": "owen",
+   "statement_date": "2023-02-25",
+   "quote": "This minimum varies from locality to locality, but the minimum requirement is unlikely to be none whatsoever",
+   "context": "Same footnote 9: the returning federal adequacy standards set minimum provider-to-enrollee ratios that vary by locality. The author asserts the minimum for a given problem will not be zero providers.",
+   "post_title": "The Cyclone...Insurance Policy",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-cycloneinsurance-policy",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "unlikely",
+   "entities": [
+    "Affordable Care Act (ACA)",
+    "federally facilitated exchanges",
+    "health plans"
+   ],
+   "finder_note": "Borderline: hedged claim about the content of a returning standard; weak forecast value.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0330",
+   "forecaster": "owen",
+   "statement_date": "2023-03-01",
+   "quote": "This is in no way a parody of any specific 1/2 trillion dollar company. I mean, there has been so much consolidation it could be any of them because they are all acquiring each other until there is nothing left.",
+   "context": "Footnote 3 of chapter 2 of the 'Wizard of Odds' parody. The author says the fictional insurer 'UnitedHealthShare' is not a parody of any specific half-trillion-dollar company because the large insurers keep acquiring each other. Implicit claim that insurer consolidation continues until few or none remain.",
+   "post_title": "How Dorothy Utilized Her Care Navigation Solution's Call Center",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-dorothy-called-her-care-navigation",
+   "area_guess": "company_market",
+   "horizon_text": "until there is nothing left",
+   "confidence_phrase": "none",
+   "entities": [
+    "UnitedHealthShare (fictional insurer)",
+    "US health insurers"
+   ],
+   "finder_note": "Hyperbolic footnote; the underlying claim of continuing insurer consolidation reads as sincere.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0337",
+   "forecaster": "owen",
+   "statement_date": "2023-03-10",
+   "quote": "The failure to reckon with the minds of regulators will still doom the enterprise.",
+   "context": "SXSW dispatch arguing psychedelic medicine needs to get profit focused. After contrasting psychedelic enthusiasm with Timothy Leary's reckless messaging that 'ruined decades of medical progress', the author asserts that the psychedelic medicine enterprise will be doomed if it fails to reckon with how regulators think.",
+   "post_title": "SXSW Dispatch: Psychedelic Medicine Needs to Get Profit Focused.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-psychedelic-medicine",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Timothy Leary"
+   ],
+   "finder_note": "Conditional: doom follows a failure to reckon with regulators; no named regulator, company or date. The 'could transform everything' hype earlier in the post is voiced sarcastically, not endorsed.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0338",
+   "forecaster": "owen",
+   "statement_date": "2023-03-10",
+   "quote": "Accessible sounds good, but a drug company that makes the bold choice to not make as much money will be bought by a smart financier who sees the opportunity to charge more.",
+   "context": "Same dispatch. Noting that the average cost of a drug introduced in 2023 is $180,000 and that there is no accepted rationale to price psychedelic drugs lower, the author predicts that a psychedelic drug company that chooses lower profits will be acquired by a financier who raises prices, naming Martin Shkreli as the archetype ('others aren't' out of the game).",
+   "post_title": "SXSW Dispatch: Psychedelic Medicine Needs to Get Profit Focused.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-psychedelic-medicine",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will be bought",
+   "entities": [
+    "Martin Shkreli"
+   ],
+   "finder_note": "Conditional on a psychedelic drug company choosing lower prices; general claim, no named company or date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0340",
+   "forecaster": "owen",
+   "statement_date": "2023-03-12",
+   "quote": "This article details what is revealed in that complaint, why it’s a problem from a consumer protection standpoint, and why it is a much, much bigger problem for its parent company, Teledoc.",
+   "context": "Opening of the SXSW dispatch on the FTC complaint against BetterHelp (title: 'BetterHelp Is a Disaster, Will It Destroy Teladoc?'). The author frames the complaint as a much bigger problem for parent company Teladoc than a consumer-protection matter, because of civil and criminal HIPAA exposure under HHS.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "BetterHelp",
+    "Teladoc",
+    "FTC",
+    "HHS"
+   ],
+   "finder_note": "Thesis statement; present tense with a forward reading of unresolved liability for Teladoc. The title poses 'Will It Destroy Teladoc?' as a question.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0344",
+   "forecaster": "owen",
+   "statement_date": "2023-03-12",
+   "quote": "Were this to be addressed as a HIPAA issue, it might be an extinction level event.",
+   "context": "After arguing the FTC-described data sharing was deliberate use of protected health information for financial gain, the author says that if it were treated as a HIPAA matter (HHS/DOJ) rather than an FTC trade matter, it might be an extinction-level event for the company (BetterHelp and parent Teladoc).",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "BetterHelp",
+    "Teladoc",
+    "HIPAA",
+    "FTC",
+    "HHS"
+   ],
+   "finder_note": "Conditional call contingent on HIPAA enforcement; the central forecast of the post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0345",
+   "forecaster": "owen",
+   "statement_date": "2023-03-12",
+   "quote": "In this case, life imitates art, just substitute HIPAA for COPPA.",
+   "context": "Analogy to HBO's Silicon Valley: PiperChat violated COPPA and the acquirer Hooli was devastated by fines. The author says life imitates art here with HIPAA in place of COPPA, implying that acquirer Teladoc faces devastating fines for BetterHelp's conduct.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Teladoc",
+    "BetterHelp",
+    "HIPAA",
+    "COPPA"
+   ],
+   "finder_note": "Implicit forecast by analogy; borderline. Devastating fines for the acquirer are the implied outcome.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0346",
+   "forecaster": "owen",
+   "statement_date": "2023-03-12",
+   "quote": "And there are some carveouts for covered entities under HIPAA, but at least as a company that began as a direct-to-consumer model company, it won’t benefit from any of those plausible exceptions.",
+   "context": "HHS allows marketing by covered entities with patient authorization and with some carve-outs. The author asserts BetterHelp, which began as a direct-to-consumer company, will not benefit from those exceptions, and that once it sold into health plans via Teladoc (acquired 2015) it became a covered entity.",
+   "post_title": "SXSW Dispatch: BetterHelp Is a Disaster, Will It Destroy Teladoc?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-betterhelp-is-a-disaster",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "won't",
+   "entities": [
+    "BetterHelp",
+    "Teladoc",
+    "HHS",
+    "HIPAA"
+   ],
+   "finder_note": "Legal-outcome call about the applicability of HIPAA marketing exceptions.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0350",
+   "forecaster": "owen",
+   "statement_date": "2023-03-12",
+   "quote": "The Overton Window rarely moves fast, and expecting payment models and accounting methodology to keep up with Healthcare Innovation is unrealistic.",
+   "context": "SXSW 2023 dispatch praising a Johnson and Johnson orthopedic surgical robot for a realistic go-to-market that fits existing hospital payment and accounting models (staffing cost turned into depreciable capital cost). The author states as a general expectation that payment models and accounting methods will not keep pace with healthcare innovation, and tells psychedelics panels to take note.",
+   "post_title": "SXSW Dispatch: Johnson and Johnson is Disrupting by Going-To-Market Successfully.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-johnson-and-johnson",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "unrealistic",
+   "entities": [
+    "Johnson and Johnson"
+   ],
+   "finder_note": "Borderline: general structural claim that payment models lag innovation; close to a truism, no date or mechanism.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0351",
+   "forecaster": "owen",
+   "statement_date": "2023-03-13",
+   "quote": "If you think hearing about ADHD is annoying now, imagine all of the people who can’t stop talking about it off their helpful medication —abruptly.",
+   "context": "Open letter to AI written at SXSW 2023 about the end of the COVID public health emergency and the DEA proposed rule on telehealth prescribing of controlled substances. The author implies that patients with ADHD will be taken off their stimulant medication abruptly when the telehealth flexibilities end.",
+   "post_title": "SXSW Dispatch: An Open Letter to AI re: Advocating For Better DEA Regulations ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-an-open-letter-to-ai",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Implicit forecast in a joking aside; the underlying expectation (abrupt loss of ADHD medication access) reads as sincere.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0353",
+   "forecaster": "owen",
+   "statement_date": "2023-03-13",
+   "quote": "And this is something that people with ADHD who aren't going to get their meds will be bad at.",
+   "context": "Same open letter. The author says people with ADHD will not get their medications under the DEA proposed telehealth rule once the public health emergency ends, and so will be bad at advocating for regulatory change.",
+   "post_title": "SXSW Dispatch: An Open Letter to AI re: Advocating For Better DEA Regulations ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-an-open-letter-to-ai",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "aren't going to",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Implicit forecast embedded in a relative clause; compound with a claim about advocacy ability.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0354",
+   "forecaster": "owen",
+   "statement_date": "2023-03-13",
+   "quote": "Together, it'll be more accessible in the future.",
+   "context": "Same open letter. After proposing a 'Generative Advocacy' tool that drafts regulations.gov comments from any rule a user wants changed, the author says that if someone builds it, commenting on regulations will be more accessible in the future.",
+   "post_title": "SXSW Dispatch: An Open Letter to AI re: Advocating For Better DEA Regulations ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-an-open-letter-to-ai",
+   "area_guess": "other",
+   "horizon_text": "in the future",
+   "confidence_phrase": "it'll be",
+   "entities": [
+    "regulations.gov",
+    "ChatGPT"
+   ],
+   "finder_note": "Borderline: conditional on someone building the proposed tool; vague referent.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0355",
+   "forecaster": "owen",
+   "statement_date": "2023-03-13",
+   "quote": "In short, the current role will be a disaster, so we need to leave comments to let the DEA know by clicking here.",
+   "context": "Closing of the open letter. The author calls the DEA proposed rule on telehealth prescribing of controlled substances after the public health emergency ('the current role', a typo for rule) a coming disaster and urges readers to file public comments.",
+   "post_title": "SXSW Dispatch: An Open Letter to AI re: Advocating For Better DEA Regulations ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-an-open-letter-to-ai",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will be a disaster",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "'role' is the author's typo for 'rule'. Forecast that the DEA rule as proposed will be a disaster; second clause is a call to action.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0356",
+   "forecaster": "owen",
+   "statement_date": "2023-03-13",
+   "quote": "Psychedelic medicine would be disruptive!",
+   "context": "SXSW 2023 'insincere apology' to psychedelics and health tech panels. The author says psychedelic medicine would be disruptive innovation against bad health outcomes, then gives his equation Medicine = science + payment + regulation as the condition for that to happen.",
+   "post_title": "SXSW Dispatch: Dear Panels on Psychedelics and Health Tech; An Insincere Apology",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-dear-panels-on-psychedelics",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "would be",
+   "entities": [
+    "psychedelic medicine"
+   ],
+   "finder_note": "Borderline: hypothetical about impact, conditional on science, payment and regulation aligning.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0357",
+   "forecaster": "owen",
+   "statement_date": "2023-03-13",
+   "quote": "Otherwise, much like Oregon— scams and criminals.",
+   "context": "Same post. Right after the equation Medicine = science + payment + regulation, the author says that without those elements psychedelics end up as scams and criminal activity, as he says has happened in Oregon.",
+   "post_title": "SXSW Dispatch: Dear Panels on Psychedelics and Health Tech; An Insincere Apology",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-dear-panels-on-psychedelics",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Oregon",
+    "psychedelic medicine"
+   ],
+   "finder_note": "Conditional negative call: psychedelics without payment and regulation become scams and crime; Oregon offered as the current example.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0358",
+   "forecaster": "owen",
+   "statement_date": "2023-03-13",
+   "quote": "If we don't make the most profits, people will take our good intentions away from us in ways that make more money.",
+   "context": "Same post, in the list of points behind the author's panel questions. Conditional claim that ethical healthcare ventures that are not the most profitable will be displaced by more profitable actors.",
+   "post_title": "SXSW Dispatch: Dear Panels on Psychedelics and Health Tech; An Insincere Apology",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-dear-panels-on-psychedelics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Conditional; general claim about healthcare business dynamics, no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0359",
+   "forecaster": "owen",
+   "statement_date": "2023-03-13",
+   "quote": "Thus, the most ethical business in Healthcare will also be the most profitable.",
+   "context": "Same list. The author concludes that the most ethical healthcare business will also be the most profitable one.",
+   "post_title": "SXSW Dispatch: Dear Panels on Psychedelics and Health Tech; An Insincere Apology",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-dear-panels-on-psychedelics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "General claim, no date; follows from the preceding conditional about profits.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0360",
+   "forecaster": "owen",
+   "statement_date": "2023-03-14",
+   "quote": "submitting a comment to the DEA is what needs to happen now. Otherwise, psychedelics don’t happen.",
+   "context": "Short satirical SXSW 2023 post that lists panel platitudes, then gives the author's real point: readers must comment on the DEA proposed telehealth prescribing rule. He asserts that without those comments psychedelics do not happen.",
+   "post_title": "SXSW Dispatch: Amazing Insights Regarding AI and Psychedelics (Write This Down!)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-amazing-insights-regarding",
+   "area_guess": "regulatory",
+   "horizon_text": "now",
+   "confidence_phrase": "none",
+   "entities": [
+    "DEA",
+    "psychedelics"
+   ],
+   "finder_note": "Conditional negative call; the first clause is normative, the second clause is the forecast.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0361",
+   "forecaster": "owen",
+   "statement_date": "2023-03-14",
+   "quote": "The current rule will disrupt care for people with this life-saving treatment.",
+   "context": "Same post. Suggested text for readers to paste into a DEA public comment: the proposed telehealth controlled-substance rule will disrupt care for patients on life-saving treatment.",
+   "post_title": "SXSW Dispatch: Amazing Insights Regarding AI and Psychedelics (Write This Down!)",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sxsw-dispatch-amazing-insights-regarding",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Template comment the author offers readers; he presents it as his own view.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0370",
+   "forecaster": "owen",
+   "statement_date": "2023-03-18",
+   "quote": "In healthcare, there's 4.6 trillion of spending, much of which is so poorly allocated…it could be dealt with overnight.",
+   "context": "Closing of the arbitrage post: the author says US healthcare spending of $4.6 trillion is largely misallocated, that such mispricing could be fixed overnight, and invites financiers to help drive healthcare costs down.",
+   "post_title": "Arbitrage: Hard to Find in Finance, and Easy to Find in Healthcare?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/arbitrage-hard-to-find-in-finance",
+   "area_guess": "other",
+   "horizon_text": "overnight",
+   "confidence_phrase": "could",
+   "entities": [
+    "US healthcare spending"
+   ],
+   "finder_note": "Possibility claim, hyperbolic; weak forecast value.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0372",
+   "forecaster": "owen",
+   "statement_date": "2023-03-18",
+   "quote": "So if you have venture money and you want to sell a thing that saves money or works better—self-funded employers + dual-eligible Medicare/Medicaid populations are the only ones who will have aligned incentives. Thus savings plays take more capital to get to scale, not less.",
+   "context": "Tip 1 ('It Needs to Work') of six tips for selling health products to self-funded employer plans. The author argues venture-backed companies can run effectiveness trials, that only self-funded employers and dual-eligible Medicare/Medicaid populations will have incentives aligned with savings, and therefore savings-based plays need more capital to scale.",
+   "post_title": "Sales to Self-Funded Insurance Plans?: 6 Tips for Healthcare Innovators",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sales-to-self-funded-insurance-plans",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "self-funded employers",
+    "Medicare",
+    "Medicaid",
+    "venture-backed health tech companies"
+   ],
+   "finder_note": "Compound claim: payer incentive alignment plus a capital-needs claim for savings-based start-ups.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0373",
+   "forecaster": "owen",
+   "statement_date": "2023-03-18",
+   "quote": "This is thanks to the combined appropriations act of 2021, which is going to create a Sea Change in healthcare. You heard it here first",
+   "context": "Footnote 2 to the closing line that benefits brokers must now disclose their payments and act as fiduciaries. The author says the Consolidated Appropriations Act of 2021 (he writes 'combined appropriations act') is going to create a sea change in healthcare, and that he has said so for years.",
+   "post_title": "Sales to Self-Funded Insurance Plans?: 6 Tips for Healthcare Innovators",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/sales-to-self-funded-insurance-plans",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is going to",
+   "entities": [
+    "Consolidated Appropriations Act of 2021 (CAA 2021)",
+    "ERISA",
+    "benefits brokers",
+    "self-funded plans"
+   ],
+   "finder_note": "Restatement of a long-held call ('you've heard me talk about this for years'). No date or mechanism given for the sea change.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0377",
+   "forecaster": "owen",
+   "statement_date": "2023-03-22",
+   "quote": "I have it on good authority that the DEA is interested in reading all of our public comments as they were mandated to do by law. And if we get enough of them in, maybe they'll change something.",
+   "context": "Open letter to the author's wife urging her to file a public comment on the DEA proposed rule for telehealth prescribing of controlled substances (no schedule II without an in-person visit). He says the DEA will read the comments and that enough comments may lead the DEA to change the rule.",
+   "post_title": "An Open Letter To My Wife",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-my-wife",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "maybe",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Conditional hedged call that public comments could change the DEA telehealth rule.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0378",
+   "forecaster": "owen",
+   "statement_date": "2023-03-22",
+   "quote": "Remember thousands of patients getting buprenorphine by Telehealth for the past three years are going to die if you don't do this.",
+   "context": "Same open letter. The author warns that if the DEA rule is not changed through public comments, thousands of patients who received buprenorphine by telehealth during the public health emergency will die.",
+   "post_title": "An Open Letter To My Wife",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-my-wife",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to",
+   "entities": [
+    "DEA",
+    "buprenorphine"
+   ],
+   "finder_note": "Conditional; hyperbolic in tone but sincere about the direction of harm.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0379",
+   "forecaster": "owen",
+   "statement_date": "2023-03-22",
+   "quote": "And children who need stimulant medication for their ADHD? Also out of luck. And some trans humans? Not going to be able to get testosterone.",
+   "context": "Same open letter. Further consequences the author expects if the DEA telehealth rule stands as proposed: children with ADHD lose access to stimulant medication and some trans patients cannot get testosterone by telehealth.",
+   "post_title": "An Open Letter To My Wife",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/an-open-letter-to-my-wife",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "Not going to be able",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Compound conditional forecast of access loss under the proposed rule.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0391",
+   "forecaster": "owen",
+   "statement_date": "2023-03-30",
+   "quote": "Every employer and payer has to do this. It's mandatory. Now I get to see how big the kickbacks really are!",
+   "context": "Closing of the gag clause post. The author expects that mandatory GCPCA attestations, which end the confidentiality of negotiated rates, will let him see the size of payer and PBM 'kickbacks'.",
+   "post_title": "National Gag Clause Remembrance Day",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/national-gag-clause-remembrance-day",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "Now I get to see",
+   "entities": [
+    "GCPCA"
+   ],
+   "finder_note": "Compound: mandatory compliance (statement of law) plus the expectation that disclosures will reveal kickback sizes. Exuberant tone; the underlying expectation reads sincere.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0392",
+   "forecaster": "owen",
+   "statement_date": "2023-03-31",
+   "quote": "there is a fiduciary duty to uphold , and the time for scams is over.",
+   "context": "Closing of a parody pitch for a care-management company that would claim savings actually produced by regression to the mean among top-1% cost claimants. The author says Bayesian reasoning lets payers and fiduciaries see through such vendor claims, and declares the era of these scams over.",
+   "post_title": "Regression (to the Mean) Health",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/regression-to-the-mean-health",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is over",
+   "entities": [],
+   "finder_note": "Rhetorical declaration that vendor savings scams will end; not a dated call. Borderline. The space before the comma is in the source text.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0408",
+   "forecaster": "owen",
+   "statement_date": "2023-04-07",
+   "quote": "for one human to have a “burn rate” just for meds of more than twice the annual household income? This is not sustainable. For me, or for any employer, plan member, adult, child, duck, dog, or adorable emoji.",
+   "context": "The author describes his own drug costs (Taltz, Xeljanz, a GLP-1) under Anthem coverage and claims a medication burn rate above twice the household income cannot last for patients, employers or plan members; an implicit call that the current Big Health cost model must change.",
+   "post_title": "UnitedHealth Group Makes $330,000,000,000 a Year, And You Can Profit Too!",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/how-to-make-a-trillion-dollars-write",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "not sustainable",
+   "entities": [
+    "Anthem",
+    "Taltz",
+    "Xeljanz"
+   ],
+   "finder_note": "Borderline: an unsustainability claim implies future change without a date.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}

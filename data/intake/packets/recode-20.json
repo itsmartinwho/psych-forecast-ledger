@@ -1,0 +1,875 @@
+{
+ "packet": "recode-20.json",
+ "note": "re-coding pass: statements not admitted in release 1.0 as VAGUE, read again against the full registry",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-2221",
+   "forecaster": "owen",
+   "statement_date": "2026-05-04",
+   "quote": "In the future, ethics and compassion will be the most crucial human qualities healers can possess, and our AI buddies can take care of the knowledge base.",
+   "context": "Opening line (sincere, before the parody begins) of a Dante Canto III parody about GenAI in clinical care. The author predicts a division of labor in future healthcare: human clinicians supply ethics and compassion while AI systems hold the knowledge base.",
+   "post_title": "Abandon Most Hope, Ye Who Enter Healthcare. ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/abandon-most-hope-ye-who-enter-healthcare",
+   "area_guess": "practice_adoption",
+   "horizon_text": "In the future",
+   "confidence_phrase": "will",
+   "entities": [
+    "AI",
+    "LLM",
+    "healers"
+   ],
+   "finder_note": "General trend forecast, no date. Sincere framing line that precedes the satire.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2223",
+   "forecaster": "owen",
+   "statement_date": "2026-05-04",
+   "quote": "Thus was the character count reached, and yet I realized I had many iterations yet to go before answers to my patients most crucial queries would be found.",
+   "context": "Closing line of the parody, narrator's voice (the author as clinician using GenAI in an EHR). After stale, wrong and truncated responses, he concludes that many more iterations of the technology are needed before AI answers patients' most crucial clinical questions. The underlying claim (GenAI is far from answering crucial clinical queries) reads as the author's sincere view.",
+   "post_title": "Abandon Most Hope, Ye Who Enter Healthcare. ",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/abandon-most-hope-ye-who-enter-healthcare",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "GenAI",
+    "LLM",
+    "EHR"
+   ],
+   "finder_note": "Borderline: fictional framing, vague horizon ('many iterations yet to go'). Implies answers eventually come, but not soon.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2224",
+   "forecaster": "owen",
+   "statement_date": "2026-05-05",
+   "quote": "I humbly submit that if HHS covers brain stimulation treatment more broadly than it does medications, the problem will resolve more quickly.",
+   "context": "Closing argument of a post on HHS Secretary Robert F. Kennedy Jr.'s program to reduce antidepressant prescribing (reported by Ellen Barry in the NYT). The author argues antidepressant discontinuation raises suicide risk and that CMS/HHS should remove prior authorization and prior-medication-trial requirements for TMS and other neuromodulation. Conditional forecast: broader HHS coverage of brain stimulation than of medications leads to faster resolution of the overmedication problem.",
+   "post_title": "Crucial Context for HHS Secretary Kennedy's Anti-Antidepressant Push",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/crucial-context-for-hhs-secretary",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "HHS",
+    "CMS",
+    "Robert F. Kennedy Jr.",
+    "Medicare",
+    "TMS",
+    "brain stimulation"
+   ],
+   "finder_note": "Conditional ('if HHS covers ... then'). The condition is a policy the author advocates; the outcome ('the problem will resolve more quickly') is loosely defined.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2225",
+   "forecaster": "owen",
+   "statement_date": "2026-05-05",
+   "quote": "the links at the bottom of the article in The NY Times give us a tantalizing hint at what the future could look like—or what the present looks like, if you are a reader of this newsletter.",
+   "context": "The author says the NYT article on Kennedy's antidepressant plan omitted brain stimulation, then points to a linked NYT brain stimulation article as a hint of the future of non-drug depression care. He lists ProlivRx, Flow, TMS, DBS, SWIFT, SAINT, One-D, Prism, and companies Salma Health, Radial (his own), Beckley Clinical, Mindful Health Solutions as that present/future.",
+   "post_title": "Crucial Context for HHS Secretary Kennedy's Anti-Antidepressant Push",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/crucial-context-for-hhs-secretary",
+   "area_guess": "practice_adoption",
+   "horizon_text": "the future",
+   "confidence_phrase": "could",
+   "entities": [
+    "The New York Times",
+    "brain stimulation",
+    "ProlivRx",
+    "Flow",
+    "TMS",
+    "SWIFT",
+    "SAINT",
+    "Prism",
+    "Radial",
+    "Salma Health",
+    "Beckley Clinical",
+    "Mindful Health Solutions"
+   ],
+   "finder_note": "Hedged, vague implied forecast that brain stimulation is the future of non-pharmacologic depression treatment. Mentions Radial (author's company).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2234",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "All of these tools are becoming a standard part of Brain Medicine care. This kind of care, when it's deployed as Dr. Carpenter does, will require multiple disciplines working together, and it will enabled by AI.",
+   "context": "Discussing Dr. Linda Carpenter's iTBS-for-ADHD trial (Brain Stimulation, 2026), which combined TMS with MRI guidance and concurrent EEG. The author says this supports his 'brain medicine is here' thesis (advanced in the newsletter and at Radial): TMS, MRI and EEG tools are becoming standard parts of brain medicine care.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are becoming",
+   "entities": [
+    "TMS",
+    "MRI",
+    "EEG",
+    "Linda Carpenter",
+    "Radial"
+   ],
+   "finder_note": "Trend claim (present progressive) that implies future standardization. Mentions Radial (author's company).",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2235",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "This kind of care, when it’s deployed as Dr. Carpenter does, will require multiple disciplines working together, and it will enabled by AI.",
+   "context": "Same passage on the brain medicine thesis: the author forecasts that multimodal brain medicine care (TMS plus MRI plus EEG, as in Carpenter's lab) will require multidisciplinary teams and will be enabled by AI.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "AI",
+    "TMS",
+    "MRI",
+    "EEG",
+    "Linda Carpenter"
+   ],
+   "finder_note": "Compound claim: multidisciplinary teams and AI enablement. No date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2236",
+   "forecaster": "owen",
+   "statement_date": "2026-05-11",
+   "quote": "That suggests that the difference that Dr. Carpenter has detected is actually a very large one—anything you can see clearly in a small sample is more likely to be a big difference at scale, if it replicates.",
+   "context": "Interpreting the results of the 34-adolescent double-blind sham-controlled crossover trial of iTBS for ADHD (significant effects on parent-reported working memory, ADHD symptoms, anger, depression, anxiety). The author infers the effect is likely large at scale, conditional on replication.",
+   "post_title": "Finally, ADHD Has A Published accelerated TMS Trial",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/finally-adhd-has-a-published-accelerated",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "more likely ... if it replicates",
+   "entities": [
+    "Linda Carpenter",
+    "iTBS",
+    "TMS",
+    "ADHD",
+    "Brain Stimulation"
+   ],
+   "finder_note": "Conditional expectation about effect size at scale; partly statistical reasoning rather than a dated call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2255",
+   "forecaster": "owen",
+   "statement_date": "2026-05-29",
+   "quote": "My personal hunch is the much more refractory nature of the SNT sample is what matters here, but time will tell.",
+   "context": "Comparing one-year durability of BrainsWay SWIFT accelerated dTMS (interim 64-patient follow-up with high sustained remission) against SNT long-term data that needed personalized re-treatment in many patients. Author expects the durability gap to be explained by the SNT cohort's greater treatment resistance rather than by the protocol.",
+   "post_title": "I Was On Good Morning America Today",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-was-on-good-morning-america-today",
+   "area_guess": "clinical_trial",
+   "horizon_text": "time will tell",
+   "confidence_phrase": "My personal hunch",
+   "entities": [
+    "BrainsWay",
+    "SWIFT dTMS",
+    "SNT",
+    "Magnus"
+   ],
+   "finder_note": "Hedged mechanistic call awaiting future evidence. Author was an investigator on the SWIFT trial and coauthor of the durability abstract.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2256",
+   "forecaster": "owen",
+   "statement_date": "2026-05-29",
+   "quote": "Thanks, friends and coauthors at Brainsway, Magnus, Ampa, and others as we push accelerated TMS (and dTMS) protocols into the mainstream.",
+   "context": "After the author's Good Morning America segment featuring a patient's recovery with BrainsWay SWIFT accelerated dTMS. Author frames the national attention as part of an effort to move accelerated TMS and dTMS protocols into mainstream clinical practice.",
+   "post_title": "I Was On Good Morning America Today",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-was-on-good-morning-america-today",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "BrainsWay",
+    "Magnus",
+    "Ampa"
+   ],
+   "finder_note": "Weak: describes an ongoing effort with an implied expectation of mainstream adoption. Ampa is one of the author's own organizations.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2257",
+   "forecaster": "owen",
+   "statement_date": "2026-05-29",
+   "quote": "So there you have it—I may be on to not only one thing, but two for depression.",
+   "context": "After summarizing the JAMA Psychiatry proof-of-concept RCT of tocilizumab (IL-6 inhibition) in difficult-to-treat depression with low-grade inflammation (n=30; no endpoint significant, remission and response favored tocilizumab, baseline hs-CRP tracked improvement). Author suggests his two long-held bets, accelerated dTMS and the inflammation/autoimmune link to depression, will both be borne out.",
+   "post_title": "I Was On Good Morning America Today",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/i-was-on-good-morning-america-today",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "tocilizumab",
+    "interleukin 6",
+    "JAMA Psychiatry",
+    "BrainsWay SWIFT dTMS"
+   ],
+   "finder_note": "Hedged compound claim: two implied calls (accelerated dTMS; IL-6/inflammation as a depression treatment target) in one sentence.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2262",
+   "forecaster": "owen",
+   "statement_date": "2026-05-31",
+   "quote": "Will United pay more to the company it will later acquire using its increased revenue to justify the acquisition costs while increasing the cost of care for its services busines s and thus increasing its share of the medical loss ratio on both sides of the ledger? Yes, yes, it will.",
+   "context": "Satirical 'math behind a scam' essay on private equity in healthcare. Author describes the PE roll-up playbook: buy 51% of a practice, negotiate higher payer contracts, then sell to a payer-owned services arm (United, Cigna, CVS). Rhetorical question answered in the affirmative: United will pay more to companies it later acquires, raising the cost of care and its services-side share of the medical loss ratio.",
+   "post_title": "Is Private Equity a Bad Deal?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/is-private-equity-a-bad-deal",
+   "area_guess": "company_market",
+   "horizon_text": "later",
+   "confidence_phrase": "Yes, yes, it will",
+   "entities": [
+    "UnitedHealth",
+    "Cigna",
+    "CVS"
+   ],
+   "finder_note": "Generic pattern claim in a satirical essay; reads sincere. Source text has typo 'busines s'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2272",
+   "forecaster": "owen",
+   "statement_date": "2026-06-07",
+   "quote": "The science we do will turn into a product, and to make it the most scalable product, we have to answer some of these questions. To generate the next, even more scalable product to help the most people, we need to tease these differences apart.",
+   "context": "After listing the parameter changes bundled into SAINT/SNT (accelerated, fMRI-guided TMS by Nolan Williams), the author states that the research will become a product and that working out which parameters matter is needed for the next, more scalable product.",
+   "post_title": "Do Brain Scans Have A Place in Depression Treatment?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/do-brain-scans-have-a-place-in-depression",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "SAINT",
+    "SNT",
+    "Nolan Williams",
+    "Radial"
+   ],
+   "finder_note": "Compound: forecast (science becomes a product) plus a normative need statement. The author offers SAINT at Radial.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2283",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "The actual amount of time patients are likely to sit in an office is not outlandish.",
+   "context": "After noting that most EMERGE patients were no longer woozy after five or six hours rather than 12, the author expects that in-office time for DT120 (LSD) treatment in practice will not be outlandish.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "likely",
+   "entities": [
+    "DT120",
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Hedged call about future clinic workflow for LSD-based treatment.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2284",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "Speed of capital follows speed of evidence. If the next program in this company’s pipeline runs on the same clock, the implied cost of capital for psychedelic medicine drops—this is financially material. Every other CNS program may get benchmarked against it.",
+   "context": "'Capital flows at trial speed' section, after Definium raised $805 million following the readout. Conditional call: if Definium's next program runs as fast, the cost of capital for psychedelic medicine drops and other CNS programs may be benchmarked against it.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "may",
+   "entities": [
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Compound conditional: cost-of-capital drop (if the condition holds) plus a hedged benchmarking claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2285",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "Is it possible that this will work? I think the answer is yes. I think the psychedelic medicines are coming.",
+   "context": "Closing argument. After years of investor hand-wringing, the author states his belief that psychedelic medicines will reach patients and the market.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... are coming",
+   "entities": [
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Direct call; no date.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2286",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "I think their effect sizes are going to be undeniable. They will be different in different patient populations, but we have at least 7 psychiatric disorder treatments—lysergide, comp360, ibogaine derivatives, methylone, DMT, 5-MEO-DMT, MDMA and it’s enantomers, all of which are looking as remarkable as GLP-1s are for metabolic disorders.",
+   "context": "Closing argument. The author predicts the effect sizes of psychedelic medicines (lysergide, COMP360, ibogaine derivatives, methylone, DMT, 5-MeO-DMT, MDMA and its enantiomers) will be undeniable and compares them to GLP-1s for metabolic disorders.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to be undeniable",
+   "entities": [
+    "lysergide",
+    "COMP360",
+    "ibogaine",
+    "methylone",
+    "DMT",
+    "5-MeO-DMT",
+    "MDMA",
+    "GLP-1"
+   ],
+   "finder_note": "Compound: efficacy call across seven psychedelic classes; GLP-1 comparison.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2288",
+   "forecaster": "owen",
+   "statement_date": "2026-07-02",
+   "quote": "Bigger, better results are possible for our patients.",
+   "context": "Closing lines after EMERGE. The author asserts that outcomes better than EMERGE's are possible once psychedelic medicine workflows mature.",
+   "post_title": "The Best Depression Drug Results Ever?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/the-best-depression-drug-results",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "are possible",
+   "entities": [
+    "Definium Therapeutics"
+   ],
+   "finder_note": "Hedged forward call; low specificity.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2301",
+   "forecaster": "owen",
+   "statement_date": "2026-07-14",
+   "quote": "Let's make getting help for suicide a great customer experience. Then, everyone will want suicide prevention treatment. Because, and I know this sounds outrageous, but having a great experience with a suicide prevention approach would make you more likely to prevent suicide for yourself. You might even recommend suicide prevention to a friend.",
+   "context": "Closing argument of the essay 'Why is Suicide So Hard to Prevent?': the author proposes that if suicide-prevention care became a great customer experience, everyone would want it and individual outcomes would improve.",
+   "post_title": "Why is Suicide So Hard to Prevent?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/why-is-suicide-so-hard-to-prevent",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Conditional forecast contingent on a proposed change; compound with 'would make you more likely' and 'might even recommend'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2304",
+   "forecaster": "owen",
+   "statement_date": "2026-07-16",
+   "quote": "Some practices want to offer all-day treatment with TMS. Others want to offer only once-a-day treatment. Yet others feature fMRI ! Others still will use EEG to calibrate treatment.",
+   "context": "In arguing for flexible CPT coding, the author lists the variety of TMS practice models, ending with the claim that some practices will use EEG to calibrate treatment.",
+   "post_title": "What Do Omakase Sushi and CPT Coding Have in Common?",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/what-do-omakase-sushi-and-cpt-coding",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "TMS",
+    "fMRI",
+    "EEG"
+   ],
+   "finder_note": "Borderline: 'will use' sits in a list of present-tense practice descriptions and may be habitual rather than predictive. Logged for recall.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2308",
+   "forecaster": "owen",
+   "statement_date": "2026-07-20",
+   "quote": "Brain Medicine, as an emerging specialty, brings change. That change needs to be measured. EEG might be one such tool.",
+   "context": "General claim that EEG might become a tool for measuring treatment-driven brain change in the emerging specialty the author calls Brain Medicine (interventional psychiatry and neuromodulation).",
+   "post_title": "A Deep Dive into EEG with Firefly Neuroscience's Dave DeCaprio",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-deep-dive-into-eeg-with-firefly",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "EEG",
+    "Brain Medicine"
+   ],
+   "finder_note": "Hedged general adoption call. Middle sentence ('needs to be measured') is normative; the call is the last sentence.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2314",
+   "forecaster": "owen",
+   "statement_date": "2026-08-03",
+   "quote": "So it may be that for children who are likely to find this treatment helpful, EEG could give us a signature letting us know that is the case?",
+   "context": "Author's leading question after Keeley describes the right-prefrontal EEG power increase as a candidate biomarker to predict and track response to Monarch eTNS in ADHD. Keeley answers 'That would be the ideal'.",
+   "post_title": "ADHD Treated with a Device Instead of a Drug",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/adhd-treated-with-a-device-instead",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "may be ... could",
+   "entities": [
+    "NeuroSigma",
+    "Monarch eTNS",
+    "Colin Keeley"
+   ],
+   "finder_note": "Phrased as a question to the interviewee; borderline. Logged for recall as a hedged expectation that EEG becomes a response biomarker.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2323",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "pharmaceutical and device companies will only keep creating miracles if they make a hell of a lot of money doing it.",
+   "context": "Opening premise of the essay: continued innovation by pharmaceutical and device companies depends on large profits; sets up the argument that doctors should capture part of the psychedelic treatment economics.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will only",
+   "entities": [],
+   "finder_note": "General conditional premise; borderline truism.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2325",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "The pipeline drugs behind Spravato — psilocybin, LSD, MDMA — will almost all require longer monitoring than we can currently bill, and none of them will go through a retail pharmacy.",
+   "context": "'The leverage' section: pipeline psychedelics will need in-clinic monitoring longer than current billing allows (the author earlier notes the prolonged-service code ceiling makes billing stop working past about two hours).",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will almost all",
+   "entities": [
+    "Spravato",
+    "psilocybin",
+    "LSD",
+    "MDMA"
+   ],
+   "finder_note": "First half of a compound sentence; the retail-pharmacy half is logged separately.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2328",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "Those clinics need rooms — with cameras, IT infrastructure, furniture comfortable enough for a full day of treatment — and whoever pays for the rooms owns the economics.",
+   "context": "Claim that whoever funds psychedelic clinic infrastructure will capture the economics; the author names two candidates, physicians or the conglomerates acquiring them.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "General claim about future value capture; borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2330",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "We can stay terrible, and Optum and its colleagues will happily handle the details and pocket the dollars without us.",
+   "context": "Conditional: if doctors stay bad at business, Optum (UnitedHealth) and similar conglomerates will capture the psychedelic clinic economics.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [
+    "Optum",
+    "UnitedHealth"
+   ],
+   "finder_note": "Conditional call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2331",
+   "forecaster": "owen",
+   "statement_date": "2026-08-16",
+   "quote": "I’d bet they’d prefer the set and setting of a clinic owned and operated by physicians",
+   "context": "Patients ('they') would prefer physician-owned psychedelic clinics over clinics run by insurer-owned companies.",
+   "post_title": "Cut the Doctors In On Psychedelics",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-on-psychedelics",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I’d bet",
+   "entities": [],
+   "finder_note": "Preference claim; hard to resolve. Borderline.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2335",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "pharmaceutical companies and medical device companies are only gonna keep creating miracles if they make a hell of a lot of money in the process.",
+   "context": "Thesis setup. The author claims pharma and device companies will keep producing breakthrough psychiatric treatments only if they stay highly profitable.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "only gonna ... if",
+   "entities": [],
+   "finder_note": "Conditional general claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2336",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "J&J’s Spravato was the beginning of this process, at least in psychiatry, but it won’t be the end of it, and that, as you can tell, is what I’m arguing should happen.",
+   "context": "Buy-and-bill section. The author predicts Spravato (esketamine, Johnson & Johnson) will not be the last in-clinic, buy-and-bill psychiatric medication; more will follow with psychedelics.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "won’t",
+   "entities": [
+    "Johnson & Johnson",
+    "Spravato"
+   ],
+   "finder_note": "Mixed predictive and normative ('what I'm arguing should happen').",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2337",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "the financials of small pills versus the psychedelics and medical devices that are coming",
+   "context": "Supply-chain aside. The author presupposes that psychedelic drugs and medical devices are coming to psychiatry, and contrasts their economics with one-a-day pills.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "are coming",
+   "entities": [],
+   "finder_note": "Presupposition embedded in a clause; restated more directly later in the post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2339",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "The above compounds might have repeated dosing, but on the order of 1 to 4 doses in a year, not twice a week for the first month and more thereafter.",
+   "context": "Lifetime-value section. The author expects pipeline psychedelics (MDMA, LSD, psilocybin, ibogaine, methylone) to be dosed about 1 to 4 times a year, unlike Spravato's frequent dosing, which lowers patient lifetime value for clinics.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in a year",
+   "confidence_phrase": "might",
+   "entities": [
+    "MDMA",
+    "LSD",
+    "psilocybin",
+    "ibogaine",
+    "methylone",
+    "Spravato"
+   ],
+   "finder_note": "Hedged dosing-frequency call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2341",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "The entire premise of this essay is that psychiatrists are likely to respond to incentives in the same way as every other human, and act accordingly. They will prescribe more of what I suspect will be better treatments.",
+   "context": "Incentive section, after the oncology buy-and-bill comparison. The author predicts that, given margin-on-drug incentives, psychiatrists will prescribe more psychedelic treatments, which he suspects will be better treatments.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "likely ... will ... I suspect",
+   "entities": [],
+   "finder_note": "Compound: behavioral prediction conditional on incentives, plus a hedged efficacy claim.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2344",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "Not only will pharmaceutical companies bring these drugs to market with the ability to have a sense of what’s happening in the room, but so will the third-party payors with whom we partner (with occasional consternation) to bring care to our patients.",
+   "context": "REMS section. The author predicts both pharma companies and third-party payers will have visibility (monitoring) into the treatment room during psychedelic dosing sessions.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "Extends the monitoring prediction to payers.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2345",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "Almost all of them will require longer monitoring than we can currently account for.",
+   "context": "On the pipeline drugs behind Spravato (psilocybin, LSD, MDMA based): the author predicts almost all will require monitoring longer than current billing codes cover (two-hour 99417 MUE limit, six-hour CPT III limit).",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will require",
+   "entities": [
+    "psilocybin",
+    "LSD",
+    "MDMA",
+    "Spravato"
+   ],
+   "finder_note": "Follows the 'pipeline drugs that are coming behind Spravato' setup.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2348",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "These clinics are going to need extra rooms, and even more extra rooms, because if they don’t have enough extra rooms, we’re not gonna be able to help all the people who need it. Those rooms may need special cameras, IT infrastructure, comfortable furniture for an entire day of treatment.",
+   "context": "The author predicts psychedelic clinics will need many additional treatment rooms with cameras, IT infrastructure and day-long furniture; otherwise demand will not be met.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "are going to need ... may need",
+   "entities": [],
+   "finder_note": "Compound infrastructure call.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2349",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "Somebody has to pay for all of that, and whoever pays for the rooms owns the economics of the distribution channel.",
+   "context": "The author claims whoever funds psychedelic clinic infrastructure (physicians, payer conglomerates such as Optum, or nobody) will own the distribution economics of psychedelic medicine.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [
+    "Optum"
+   ],
+   "finder_note": "Followed by three candidate scenarios: physicians, conglomerates acquiring physicians, or only the wealthy get access.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2350",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "if we don’t become a viable part of the actual business of business, our patients don’t get to have any good new stuff.",
+   "context": "Buy-and-bill section. Conditional prediction: unless psychiatrists take part in the business side, patients will not get new treatments.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Conditional; borderline rhetorical.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2351",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "We can stay terrible at it, and Optum and its colleagues will be happy to handle all the details and pocket all the dollars. Or we can get good at business while we still have the leverage.",
+   "context": "Closing argument. If physicians stay bad at business, Optum (UnitedHealth Group) and similar conglomerates will capture the economics of psychedelic care; the author implies physician leverage is time-limited ('while we still have the leverage').",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "will be happy to",
+   "entities": [
+    "Optum",
+    "UnitedHealth Group"
+   ],
+   "finder_note": "Conditional scenario; implies physician leverage will fade.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2352",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "I’m willing to bet they’d prefer the set and setting of a clinic owned and operated by physicians over the set and setting you’d expect from the companies that brought you prior authorization of Zoloft.",
+   "context": "Closing. The author bets patients would prefer physician-owned psychedelic clinics over ones owned by payer conglomerates.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I’m willing to bet",
+   "entities": [
+    "Zoloft"
+   ],
+   "finder_note": "Preference claim framed as a bet; borderline forward-looking.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2362",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "The constraint on patient access to FDA-approved psychedelic therapies is likely to be financial. The supply chain that made oral drugs accessible is essentially not relevant to the deployment of psychedelic medicines.",
+   "context": "Summary of the author's comment to FDA: access to approved psychedelic therapies will be limited mainly by finances and reimbursement, not by supply.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "is likely to be",
+   "entities": [
+    "FDA"
+   ],
+   "finder_note": "Thesis of the comment.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2364",
+   "forecaster": "owen",
+   "statement_date": "2026-08-27",
+   "quote": "The clinics that become the outpatient distribution centers become the “distribution channel” for these medicines",
+   "context": "Summary: clinics will be the distribution channel for psychedelic medicines; the sentence continues with the normative point that dispensing must be economically viable for individual clinics and large operators alike.",
+   "post_title": "My Open Comment on Psychedelic Medicine to FDA",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-open-comment-on-psychedelic-medicine",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "Compound sentence; the normative second half is not logged.",
+   "earlier_reason": "VAGUE"
+  }
+ ]
+}
