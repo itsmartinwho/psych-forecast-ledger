@@ -975,8 +975,8 @@
         "n_false": 10,
         "n_items_resolved": 14,
         "n_items_total": 33,
-        "n_known_true": 0,
-        "n_pending": 18,
+        "n_known_true": 3,
+        "n_pending": 15,
         "n_true": 4,
         "n_unresolved": 0,
         "n_void": 1,
@@ -1007,8 +1007,8 @@
         "n_false": 1,
         "n_items_resolved": 5,
         "n_items_total": 33,
-        "n_known_true": 1,
-        "n_pending": 27,
+        "n_known_true": 4,
+        "n_pending": 24,
         "n_true": 4,
         "n_unresolved": 0,
         "n_void": 0,
@@ -3091,7 +3091,7 @@
       "brier": null,
       "conditional": false,
       "deadline": "2028-01-15",
-      "event_date": null,
+      "event_date": "2026-01-16",
       "event_id": "E-0057",
       "first_date": "2026-01-15",
       "forecaster": "owen",
@@ -3112,7 +3112,7 @@
           "p_stated": null
         }
       ],
-      "state": "pending",
+      "state": "known_true",
       "statement_ids": [
         "owen-2057"
       ],
@@ -3169,7 +3169,7 @@
       "brier": null,
       "conditional": false,
       "deadline": "2028-05-11",
-      "event_date": null,
+      "event_date": "2023-02-03",
       "event_id": "E-0062",
       "first_date": "2026-05-11",
       "forecaster": "owen",
@@ -3190,7 +3190,7 @@
           "p_stated": null
         }
       ],
-      "state": "pending",
+      "state": "known_true",
       "statement_ids": [
         "owen-2240"
       ],
@@ -3247,7 +3247,7 @@
       "brier": null,
       "conditional": false,
       "deadline": "2028-05-16",
-      "event_date": null,
+      "event_date": "2024-07-01",
       "event_id": "E-0064",
       "first_date": "2026-05-16",
       "forecaster": "owen",
@@ -3268,7 +3268,7 @@
           "p_stated": null
         }
       ],
-      "state": "pending",
+      "state": "known_true",
       "statement_ids": [
         "owen-2248"
       ],
@@ -3778,9 +3778,9 @@
   "status": {
     "all": {
       "false": 22,
-      "known_true": 2,
+      "known_true": 5,
       "not_admitted": 2424,
-      "pending": 27,
+      "pending": 24,
       "true": 5,
       "undated": 38,
       "unresolved": 0,
@@ -3808,9 +3808,9 @@
     },
     "owen": {
       "false": 11,
-      "known_true": 2,
+      "known_true": 5,
       "not_admitted": 2377,
-      "pending": 26,
+      "pending": 23,
       "true": 5,
       "undated": 35,
       "unresolved": 0,
