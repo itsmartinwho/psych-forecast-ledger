@@ -12,6 +12,7 @@
     "validate": "tsx scripts/validate.ts",
     "snapshot": "tsx scripts/snapshot.ts",
     "check-drift": "tsx scripts/check-drift.ts",
+    "check-pages": "tsx scripts/check-pages.ts",
     "data:archive": "tsx scripts/fetch-archive.ts",
     "data:posts": "tsx scripts/fetch-posts.ts",
     "data:receiver": "tsx scripts/paid-receiver.ts",

@@ -38,6 +38,7 @@ a:hover { text-decoration: underline; text-decoration-thickness: 0.6px; text-und
 
 /* ---- card anatomy: head (h2 noun phrase · count), takeaway, legend, chart, how to read, src ---- */
 .card {
+  min-width: 0;
   background: var(--color-paper);
   border-radius: var(--radius-card);
   padding: 24px 24px 18px;
@@ -89,7 +90,7 @@ a:hover { text-decoration: underline; text-decoration-thickness: 0.6px; text-und
 .card--dark .legend .glyph--hollow { background: transparent; box-shadow: inset 0 0 0 1px var(--color-paper); }
 
 .split { display: grid; grid-template-columns: 250px 1fr; gap: 24px; align-items: start; }
-@media (max-width: 760px) { .split { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .split { grid-template-columns: minmax(0, 1fr); } .legend-item { white-space: normal; } }
 
 /* ---- term popover: glossary links in chrome and body text; CSS only ---- */
 .term { position: relative; }
@@ -133,9 +134,9 @@ a:hover { text-decoration: underline; text-decoration-thickness: 0.6px; text-und
 @media (max-width: 760px) { .shell { padding: 20px 16px; } }
 .grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .grid2 > .wide { grid-column: 1 / -1; }
-@media (max-width: 900px) { .grid2 { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .grid2 { grid-template-columns: minmax(0, 1fr); } }
 .grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
-@media (max-width: 900px) { .grid3 { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .grid3 { grid-template-columns: minmax(0, 1fr); } }
 
 /* masthead: wordmark · subject (tagline popover) · nav; one hairline under it */
 .masthead { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; padding-bottom: 14px; border-bottom: 0.6px solid var(--color-grid); margin-bottom: 28px; }
@@ -152,13 +153,14 @@ a:hover { text-decoration: underline; text-decoration-thickness: 0.6px; text-und
 .nav-link[aria-current="page"] { color: var(--color-ink); }
 @media (max-width: 900px) {
   .masthead { flex-wrap: wrap; gap: 12px 24px; }
-  .masthead .nav { flex-basis: 100%; }
+  .masthead .nav { flex-basis: 100%; min-width: 0; max-width: 100%; }
 }
 @media (max-width: 760px) {
   .masthead-brand { flex-direction: column; align-items: flex-start; gap: 2px; }
   .masthead-dot { display: none; }
   .nav ul { flex-wrap: nowrap; overflow-x: auto; white-space: nowrap; scrollbar-width: none; margin: 0 -16px; padding: 0 16px; }
   .nav ul::-webkit-scrollbar { display: none; }
+  .section-nav { position: static; }
 }
 
 /* page header: H1 with the stamp on its baseline, dateline, optional lede */
@@ -208,9 +210,9 @@ button.chip { font-family: inherit; border: 0; cursor: pointer; line-height: inh
 .scope-chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .ledger-search { font-family: inherit; font-size: 12.5px; color: var(--color-ink); background: transparent; border: 0; border-bottom: 0.6px solid var(--color-grid); padding: 4px 0; width: 240px; max-width: 100%; }
 .ledger-search:focus { outline: none; border-bottom-color: var(--color-ink); }
-.facet { display: flex; align-items: baseline; gap: 8px; margin-top: 8px; }
+.facet { display: flex; align-items: baseline; gap: 8px; margin-top: 8px; min-width: 0; max-width: 100%; }
 .facet-label { flex: 0 0 80px; font-size: 9.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-muted); }
-.facet-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.facet-chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1 1 auto; min-width: 0; }
 .count-line { font-size: 9.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-muted); margin: 16px 0 6px; }
 @media (max-width: 760px) {
   .ledger-search { width: 100%; }
@@ -245,7 +247,7 @@ button.chip { font-family: inherit; border: 0; cursor: pointer; line-height: inh
   .ledger { table-layout: auto; }
   .ledger thead { display: none; }
   .ledger tbody, .ledger tr { display: block; }
-  .ledger-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding: 10px 0; border-top: 0.6px solid var(--color-grid); }
+  .ledger tr.ledger-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding: 10px 0; border-top: 0.6px solid var(--color-grid); }
   .ledger td { display: block; padding: 0; border: 0; width: auto; }
   .ledger-state, .ledger-said, .ledger-who { order: 1; font-size: 9.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-muted); }
   .ledger-state { color: var(--color-ink); }

@@ -41,14 +41,14 @@ describe("layoutLeaderboardTickRows", () => {
   });
   it("lays the columns out from the right edge: evidence, gutter, value, gutter, track", () => {
     expect(leaderboardColumns(FRAME.wide.w)).toEqual({ labelW: 120, valueX: 728, valueW: 44, evidenceX: 744, evidenceW: 56, gutter: 16 });
-    expect(leaderboardColumns(FRAME.half.w)).toEqual({ labelW: 96, valueX: 340, valueW: 40, evidenceX: 352, evidenceW: 48, gutter: 12 });
+    expect(leaderboardColumns(FRAME.half.w)).toEqual({ labelW: 96, valueX: 336, valueW: 38, evidenceX: 346, evidenceW: 54, gutter: 10 });
     const W = layoutLeaderboardTickRows(fixture, FRAME.wide.w, FRAME.wide.h);
     expect(W.plot.x0).toBe(132);
     expect(W.plot.x1).toBe(672);
     const Hf = layoutLeaderboardTickRows(fixture, FRAME.half.w, FRAME.half.h);
     expect(Hf.plot.x0).toBe(108);
-    expect(Hf.plot.x1).toBe(292);
-    for (const [L, gutter] of [[W, 16], [Hf, 12]] as const) {
+    expect(Hf.plot.x1).toBe(290);
+    for (const [L, gutter] of [[W, 16], [Hf, 10]] as const) {
       for (const r of L.rows) {
         expect(r.value.x).toBe(L.columns.valueX);
         expect(r.evidence).not.toBeNull();

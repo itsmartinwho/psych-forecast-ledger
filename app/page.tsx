@@ -19,7 +19,7 @@ import { ChartFrame } from "@/components/motion/ChartFrame";
 import { Reveal } from "@/components/motion/Reveal";
 import { Scoreboard } from "@/components/scoreboard/Scoreboard";
 import { Term } from "@/components/ui/Term";
-import { lockState } from "@/lib/content/display";
+import { lockState, type LockKey } from "@/lib/content/display";
 import { SITE_NAME } from "@/lib/content/site";
 import { getDataset } from "@/lib/data/cached";
 import { COIN_FLIP, almanacData, boldnessData, brierSeriesData, calibrationData, leaderboardData, matrixData } from "@/lib/data/derive";
@@ -29,7 +29,33 @@ import { fmtInt } from "@/lib/format";
 
 export const metadata: Metadata = { title: SITE_NAME };
 
+/** Resolved items in "Claims that came due", newest deadline first. */
 const RECENT_N = 12;
+
+/** The charts the Waiting for data card lists when they are below their minimum, in this order. */
+const HOME_LOCKS: readonly LockKey[] = ["calibration", "over_time", "matrix", "boldness", "timing"];
+
+interface LinkRowProps {
+  label: string;
+  links: { href: string; text: string }[];
+}
+
+/** One meta-register row: a label, then links joined by dots. No arrows. */
+function LinkRow({ label, links }: LinkRowProps) {
+  return (
+    <p className="dateline">
+      <span className="dateline-part" style={{ marginRight: 12 }}>
+        {label}
+      </span>
+      {links.map((l, i) => (
+        <span key={l.href} className="dateline-part">
+          {i > 0 ? <span className="dateline-dot"> · </span> : null}
+          <Link href={l.href}>{l.text}</Link>
+        </span>
+      ))}
+    </p>
+  );
+}
 
 export default function Home() {
   const ds = getDataset();
@@ -41,6 +67,7 @@ export default function Home() {
   const ctx = { f: heroScores, snap };
   const recent = snap.items.filter((i) => i.o !== null).sort((a, b) => (a.deadline > b.deadline ? -1 : 1)).slice(0, RECENT_N);
   const persons = snap.leaderboard.filter((r) => r.kind === "person").length;
+  const hasTierC = ds.forecasters.some((f) => f.coverage.tier === "C");
   const overTime = lockState("over_time", ctx);
   const calibration = lockState("calibration", ctx);
   const matrix = lockState("matrix", ctx);
@@ -53,7 +80,7 @@ export default function Home() {
       <Grid2>
         <Scoreboard f={hero} s={heroScores} status={snap.status[hero.slug]} minN={minN} thresholds={th} />
 
-        <LeaderboardCard data={leaderboardData(ds, snap)} minN={minN} thresholds={th} ranked src={`Headline panel · ${plural(persons, "forecaster")}`} hasTierC={ds.forecasters.some((f) => f.coverage.tier === "C")} />
+        <LeaderboardCard data={leaderboardData(ds, snap)} minN={minN} thresholds={th} ranked src={`Headline panel · ${plural(persons, "forecaster")}`} hasTierC={hasTierC} />
 
         {overTime.shown ? (
           <Card
@@ -72,8 +99,6 @@ export default function Home() {
             </Reveal>
           </Card>
         ) : null}
-
-        <AdmissionCards ds={ds} snap={snap} scope="all forecasters" />
 
         {calibration.shown ? (
           <Card
@@ -125,6 +150,8 @@ export default function Home() {
           </Card>
         ) : null}
 
+        <AdmissionCards ds={ds} snap={snap} scope="all forecasters" />
+
         {recent.length ? (
           <Card
             wide
@@ -133,8 +160,6 @@ export default function Home() {
             legend={[
               { glyph: "solid", label: "true" },
               { glyph: "hollow", label: "false" },
-              { glyph: "text", label: "dot area = p" },
-              { glyph: "text", label: "hairline = said to due" },
             ]}
             src="Headline panel · newest first"
           >
@@ -146,28 +171,12 @@ export default function Home() {
 
         <SharedEventsCard ds={ds} shared={snap.shared_events} />
 
-        <WaitingCard keys={["calibration", "matrix", "boldness", "timing"]} ctx={ctx} />
+        <WaitingCard keys={HOME_LOCKS} ctx={ctx} />
       </Grid2>
 
       <section className="link-rows" style={{ marginTop: 32 }}>
-        <p className="dateline">
-          <span className="dateline-part">Forecasters</span>
-          {ds.forecasters.map((f) => (
-            <span key={f.slug} className="dateline-part">
-              <span className="dateline-dot"> · </span>
-              <Link href={`/forecasters/${f.slug}`}>{f.name}</Link>
-            </span>
-          ))}
-        </p>
-        <p className="dateline">
-          <span className="dateline-part">Areas</span>
-          {ds.areas.map((a) => (
-            <span key={a.slug} className="dateline-part">
-              <span className="dateline-dot"> · </span>
-              <Link href={`/areas/${a.slug}`}>{a.name}</Link>
-            </span>
-          ))}
-        </p>
+        <LinkRow label="Forecasters" links={ds.forecasters.map((f) => ({ href: `/forecasters/${f.slug}`, text: f.name }))} />
+        <LinkRow label="Areas" links={ds.areas.map((a) => ({ href: `/areas/${a.slug}`, text: a.name }))} />
       </section>
     </Shell>
   );

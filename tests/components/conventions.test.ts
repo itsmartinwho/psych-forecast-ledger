@@ -6,7 +6,7 @@ import path from "node:path";
 const ROOT = path.resolve(__dirname, "../..");
 // Directories that must exist are listed first; the scoreboard and ledger directories are created by other groups
 // and are read when present.
-const DIRS = ["components/layout", "components/card", "components/motion", "components/svg", "components/ui", "components/charts", "components/charts/layout", "components/scoreboard", "components/ledger", "lib/testing"];
+const DIRS = ["components/layout", "components/card", "components/motion", "components/svg", "components/ui", "components/charts", "components/charts/layout", "components/scoreboard", "components/ledger", "components/blocks", "components/events", "lib/testing"];
 const FILES = [
   ...DIRS.filter((d) => fs.existsSync(path.join(ROOT, d))).flatMap((d) => fs.readdirSync(path.join(ROOT, d)).map((f) => path.join(d, f))),
   "lib/format.ts",

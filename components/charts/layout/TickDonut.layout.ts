@@ -215,6 +215,6 @@ export function layoutTickDonut(data: TickDonutData, W: number, H: number, opts:
     segments,
     total: { x: r2(cx), y: r2(cy + 5), text: fmtInt(data.total), delay: TICK_STAGGER_MS * ticksTotal },
     unit: { x: r2(cx), y: r2(cy + 17), text: data.unit.toUpperCase() },
-    footnote: { x: 14, y: H - 8, text: donutFootnote(oneTickPerRecord, data.total) },
+    footnote: { x: keyX, y: H - 8, text: donutFootnote(oneTickPerRecord, data.total) },
   };
 }

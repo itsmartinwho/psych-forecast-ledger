@@ -30,8 +30,8 @@ export function RecedingHorizon({ data, size }: RecedingHorizonProps) {
       {L.today ? <line x1={L.today.x} y1={L.plot.y0} x2={L.today.x} y2={L.plot.y1} stroke={LADDER[3]} strokeWidth={0.6} strokeDasharray="1 3" /> : null}
       {L.today ? <Footnote x={L.today.x + 3} y={L.plot.y0 + 8} anchor="start">TODAY</Footnote> : null}
       <path d={L.path} fill="none" stroke={PALETTE.ink} strokeWidth={0.7} pathLength={1} className="draw" />
-      {L.dots.map((d) => (
-        <g key={`${d.statementDate}-${d.predictedDate}`}>
+      {L.dots.map((d, i) => (
+        <g key={`${i}-${d.statementDate}-${d.predictedDate}`}>
           {d.href ? <a href={d.href}><Mark cx={d.x} cy={d.y} r={d.r} variant="solid" className="pop" delay={d.delay} title={d.title} /></a> : <Mark cx={d.x} cy={d.y} r={d.r} variant="solid" className="pop" delay={d.delay} title={d.title} />}
         </g>
       ))}

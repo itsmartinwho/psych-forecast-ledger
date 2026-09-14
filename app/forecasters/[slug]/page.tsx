@@ -8,12 +8,11 @@ import { HowToRead } from "@/components/card/HowToRead";
 import { AreaRungBars } from "@/components/charts/AreaRungBars";
 import { BrierHairline } from "@/components/charts/BrierHairline";
 import { CalibrationPlumb } from "@/components/charts/CalibrationPlumb";
-import { LedgerAlmanac, almanacRowsRendered } from "@/components/charts/LedgerAlmanac";
+import { LedgerAlmanac } from "@/components/charts/LedgerAlmanac";
 import { RecedingHorizon } from "@/components/charts/RecedingHorizon";
 import { TimingRungHistogram } from "@/components/charts/TimingRungHistogram";
 import { TrendLanes } from "@/components/charts/TrendLanes";
 import { HOLLOW_BELOW } from "@/components/charts/layout/BrierHairline.layout";
-import { ROW_CAP } from "@/components/charts/layout/LedgerAlmanac.layout";
 import { Grid2 } from "@/components/layout/Grid2";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Shell } from "@/components/layout/Shell";
@@ -27,7 +26,7 @@ import { getDataset } from "@/lib/data/cached";
 import { COIN_FLIP, almanacData, areaRungBars, brierSeriesData, calibrationData, forecasterView, recedingHorizon, registryById, sensitivityRows, timingHistogram, trendLanesData } from "@/lib/data/derive";
 import { FORECASTER_SLUGS } from "@/lib/data/schema";
 import { getScores } from "@/lib/data/scores";
-import { areasTakeaway, calibrationTakeaway, claimsTakeaway, coveragePhrase, f2, horizonTakeaway, lanesTakeaway, overTimeTakeaway, plural, roleParts, sensitivityTakeaway, timingTakeaway } from "@/lib/data/text";
+import { areasTakeaway, calibrationTakeaway, claimsTakeaway, coveragePhrase, f2, horizonTakeaway, lanesTakeaway, metricNeed, overTimeTakeaway, plural, roleParts, sensitivityTakeaway, timingTakeaway } from "@/lib/data/text";
 import { fmtInt } from "@/lib/format";
 
 export const dynamicParams = false;
@@ -41,7 +40,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 const MAX_LANES = 30;
-const MAX_HORIZONS = 6;
+/** Sensitivity rows in the order of the spec: the headline first, then each alternative rule. */
+const SENSITIVITY_ORDER = ["baseline", "dated_only", "map_ends85", "map_flat75", "map_kent", "non_affiliated", "prospective_only", "undated_36"];
+const sensitivityRank = (id: string) => {
+  const i = SENSITIVITY_ORDER.indexOf(id);
+  return i === -1 ? SENSITIVITY_ORDER.length : i;
+};
 
 export default async function ForecasterPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -55,15 +59,14 @@ export default async function ForecasterPage({ params }: { params: Promise<{ slu
   const minN = th.min_clusters_headline;
   const ctx = { f: s, snap };
   const reg = registryById(ds);
-  const horizonClusters = v.clusters.filter((c) => c.deadlines >= 2).slice(0, MAX_HORIZONS);
+  const horizonClusters = v.clusters.filter((c) => c.deadlines >= 2);
   const overTime = lockState("over_time", ctx);
   const calibration = lockState("calibration", ctx);
   const timing = lockState("timing", ctx);
   const sensitivity = lockState("sensitivity", ctx);
   const claims = almanacData(ds, v.items);
-  const claimWindows = Math.max(1, Math.ceil(claims.rows.length / ROW_CAP));
   const lanes = trendLanesData(ds, v.items, { maxLanes: MAX_LANES });
-  const sens = sensitivityRows(ds, s);
+  const sens = [...sensitivityRows(ds, s)].sort((a, b) => sensitivityRank(a.id) - sensitivityRank(b.id));
 
   return (
     <Shell current={`/forecasters/${slug}`} hero={{ slug: hero.slug, name: hero.name }}>
@@ -125,7 +128,9 @@ export default async function ForecasterPage({ params }: { params: Promise<{ slu
                   <tr>
                     <th>Variant</th>
                     <th>
-                      <Term t="Brier score" plain>Brier</Term>
+                      <Term t="Brier score" side="end">
+                        Brier
+                      </Term>
                     </th>
                     <th>N</th>
                   </tr>
@@ -134,7 +139,7 @@ export default async function ForecasterPage({ params }: { params: Promise<{ slu
                   {sens.map((r) => (
                     <tr key={r.id} title={r.note}>
                       <td>{r.name}</td>
-                      <td className="mono">{r.brier === null ? `— needs ${fmtInt(minN)} · ${fmtInt(r.n)} now` : f2(r.brier)}</td>
+                      <td className="mono">{r.brier === null ? `— ${metricNeed(minN, r.n, "events")}` : f2(r.brier)}</td>
                       <td className="mono">{fmtInt(r.n)}</td>
                     </tr>
                   ))}
@@ -177,29 +182,24 @@ export default async function ForecasterPage({ params }: { params: Promise<{ slu
           </Card>
         ) : null}
 
-        {v.items.length
-          ? Array.from({ length: claimWindows }, (_, k) => k * ROW_CAP).map((offset) =>
-              almanacRowsRendered(claims, offset) > 0 ? (
-                <Card
-                  key={offset}
-                  wide
-                  title="Claims"
-                  takeaway={offset === 0 ? claimsTakeaway(v.items) : undefined}
-                  legend={[
-                    { glyph: "solid", label: "true" },
-                    { glyph: "hollow", label: "false" },
-                    { glyph: "dash", label: "pending" },
-                    { glyph: "void", label: "void" },
-                  ]}
-                  src="All admitted items"
-                >
-                  <Reveal>
-                    <ChartFrame wide={<LedgerAlmanac data={claims} size="wide" offset={offset} />} half={<LedgerAlmanac data={claims} size="half" offset={offset} />} />
-                  </Reveal>
-                </Card>
-              ) : null,
-            )
-          : null}
+        {v.items.length ? (
+          <Card
+            wide
+            title="Claims"
+            takeaway={claimsTakeaway(v.items)}
+            legend={[
+              { glyph: "solid", label: "true" },
+              { glyph: "hollow", label: "false" },
+              { glyph: "dash", label: "pending" },
+              { glyph: "void", label: "void" },
+            ]}
+            src="All admitted items"
+          >
+            <Reveal>
+              <ChartFrame wide={<LedgerAlmanac data={claims} size="wide" />} half={<LedgerAlmanac data={claims} size="half" />} />
+            </Reveal>
+          </Card>
+        ) : null}
 
         {v.items.length ? (
           <Card

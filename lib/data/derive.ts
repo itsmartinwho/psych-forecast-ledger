@@ -59,7 +59,7 @@ export function areaRungBars(ds: Dataset, f: ForecasterScores, items: ScoredItem
     groups: ds.areas.map((a) => {
       const resolved = items.filter((i) => i.area === a.slug && i.o !== null);
       const stat = f.by_area[a.slug];
-      return { id: a.slug, label: a.name, count: resolved.length, value: stat?.brier ? stat.brier.point : null, n: stat?.n_clusters ?? 0, hero: a.slug === heroArea, href: `/areas/${a.slug}`, faint: resolved.length === 0 };
+      return { id: a.slug, label: a.short ?? a.name, count: resolved.length, value: stat?.brier ? stat.brier.point : null, n: stat?.n_clusters ?? 0, hero: a.slug === heroArea, href: `/areas/${a.slug}`, faint: resolved.length === 0 };
     }),
     unit: "one rung = one resolved item", valueLabel: "Brier",
   };
@@ -293,7 +293,7 @@ export function sensitivityRows(ds: Dataset, f: ForecasterScores): SensitivityRo
     if (!m) return key;
     const vals = Object.values(m);
     if (key === "kent") return "Kent words";
-    if (new Set(vals.filter((v) => v !== 0.5)).size === 1) return `Flat ${vals[0].toFixed(2)}`;
+    if (new Set(vals.filter((v) => v !== 0.5)).size === 1 || (m.A === m.B && m.D === m.E)) return `Flat ${m.A.toFixed(2)}`;
     return `Lexicon ends ${m.A.toFixed(2)}/${m.E.toFixed(2)}`;
   };
   const names: Record<string, string> = {

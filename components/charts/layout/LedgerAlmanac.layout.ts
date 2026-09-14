@@ -183,7 +183,7 @@ export function layoutLedgerAlmanac(data: AlmanacData, W: number, opts: AlmanacO
     };
   });
 
-  const noteParts = ["solid = true", "hollow = false", "tiny = void", "dashed = pending", "area = p"];
+  const noteParts = ["dot area = p", "hairline = said to due"];
   if (sorted.length > rowsRendered) noteParts.push(`rows ${offset + 1} to ${offset + rowsRendered} of ${sorted.length}`);
   return {
     W,

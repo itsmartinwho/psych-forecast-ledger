@@ -107,9 +107,9 @@ export function pickHeroRow(rows: LeaderboardRowDatum[], hero?: string): string 
 /** Columns from the right edge: evidence, gutter, value, gutter, then the track ends. */
 export function leaderboardColumns(W: number): LeaderboardColumns {
   const wide = W >= 600;
-  const evidenceW = wide ? 56 : 48;
-  const gutter = wide ? 16 : 12;
-  const valueW = wide ? 44 : 40;
+  const evidenceW = wide ? 56 : 54;
+  const gutter = wide ? 16 : 10;
+  const valueW = wide ? 44 : 38;
   const evidenceX = W - evidenceW;
   const valueX = evidenceX - gutter;
   return { labelW: wide ? 120 : 96, valueX, valueW, evidenceX, evidenceW, gutter };

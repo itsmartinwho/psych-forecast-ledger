@@ -351,7 +351,7 @@ export const WORKED_EXAMPLES: WorkedExample[] = [
       { step: "Date", detail: "The post is an annual predictions list published on 1 January, so the anchor table sets the deadline to 2026-12-31 for both events (origin: anchor)." },
       { step: "Probability", detail: `'will' is bin A, so p = ${fmt2(BIN_VALUES.A)} for each event (origin: lexicon). No stated number.` },
       { step: "Tags", detail: "Coded before the outcome was public, so both items carry the prospective flag." },
-      { step: "State", detail: `As of ${RULES_VERSION.as_of} the deadline has not passed. Both items are pending and count as zero observations in every metric.` },
+      { step: "State", detail: "The deadline is after the as-of date, so it has not passed. Both items are pending and count as zero observations in every metric." },
       { step: "Known true", detail: "If FDA approves one drug before 2026-12-31, the row shows 'known true, enters on 2026-12-31'. It is still pending in every metric until that date." },
       { step: "What it will score", detail: `On 2026-12-31 each event scores (${fmt2(BIN_VALUES.A)} - 1)^2 = ${fmt2(brier(BIN_VALUES.A, 1))} if approved by then, or (${fmt2(BIN_VALUES.A)} - 0)^2 = ${fmt2(brier(BIN_VALUES.A, 0))} if not. The two events are two votes.` },
     ],
@@ -381,8 +381,8 @@ export const LIMITS: Limit[] = [
   { id: "L11", limit: "The registry is generous on indication.", effect: "An approval narrower than the claimed indication counts as true when the reading was logged at intake. This favours the person." },
 ];
 
-// ---- corrections log placeholder ---------------------------------------------------------------
-export const CORRECTIONS: CorrectionRow[] = [];
+// ---- corrections log -----------------------------------------------------------------------------
+// The rows come from data/corrections.json through the dataset (ds.corrections). Only the copy lives here.
 export const CORRECTIONS_EMPTY = "No corrections yet. A row is added here for every change to a published number or rule.";
 export const CORRECTIONS_COLUMNS = ["date", "scope", "change", "reason", "from", "to"] as const;
 
@@ -413,35 +413,75 @@ export const METHODOLOGY = {
   sensitivity: { variants: SENSITIVITY_VARIANTS, note: SENSITIVITY_NOTE },
   examples: WORKED_EXAMPLES,
   limits: LIMITS,
-  corrections: { rows: CORRECTIONS, empty: CORRECTIONS_EMPTY, columns: CORRECTIONS_COLUMNS },
+  corrections: { empty: CORRECTIONS_EMPTY, columns: CORRECTIONS_COLUMNS },
   versions: VERSION_HISTORY,
 } as const;
 
 export type Methodology = typeof METHODOLOGY;
 
-/** One Method section: the card id, its noun title and its one-sentence takeaway. */
-export interface MethodSection { id: string; title: string; takeaway: string }
+/** One Method section: the card id, its noun title, its one-sentence takeaway and the src line (a file path, never a version). */
+export interface MethodSection { id: string; title: string; takeaway: string; src: string }
 
 /** The 18 sections in page order. Takeaways with a number read it from the rules. */
 export const METHOD_SECTIONS: MethodSection[] = [
-  { id: "headline", title: "Headline", takeaway: "Each number is a Brier score on claims we could check." },
-  { id: "rules", title: "Rules", takeaway: "The rules were fixed before we looked, and each has one reason." },
-  { id: "lexicon", title: "Lexicon", takeaway: "The same word gets the same number for everyone." },
-  { id: "anchors", title: "Anchor table", takeaway: "Only the person's words set a deadline." },
-  { id: "quantities", title: "Quantity rules", takeaway: "A number claim resolves on the named series only." },
-  { id: "exclusions", title: "Reason codes", takeaway: "Vague, controlled and reported claims never enter the score." },
-  { id: "templates", title: "Event templates", takeaway: "Every event is written on the asset, from one of eight templates." },
-  { id: "references", title: "Reference rows", takeaway: "The base rate and the market are scored on the same events as the person." },
-  { id: "metrics", title: "Metrics", takeaway: "Eleven metrics, each with its formula and its minimum n." },
-  { id: "evidence-tiers", title: "Evidence tiers", takeaway: `Below ${T.min_clusters_headline} clusters we show counts, not a score.` },
-  { id: "coverage-tiers", title: "Coverage tiers", takeaway: "We rank only people whose archives were read the same way." },
-  { id: "hindsight", title: "Hindsight controls", takeaway: "Coders never see outcomes, and resolvers never see probabilities." },
-  { id: "sensitivity", title: "Sensitivity panel", takeaway: "The headline is shown again under seven alternative rules." },
-  { id: "reading-a-row", title: "Worked examples", takeaway: "One event gives one vote, however often it was predicted." },
-  { id: "limits", title: "Known limits", takeaway: "The score is honest about what it cannot show." },
-  { id: "corrections", title: "Corrections", takeaway: "Every change to a published number is logged here." },
-  { id: "versions", title: "Versions", takeaway: `Rules version ${RULES_VERSION.version} is in force.` },
-  { id: "glossary", title: "Glossary", takeaway: "Each term keeps one meaning across the site." },
+  { id: "headline", title: "Headline", takeaway: "Each number is a Brier score on claims we could check.", src: "lib/content/methodology.ts" },
+  { id: "rules", title: "Rules", takeaway: "The rules were fixed before we looked, and each has one reason.", src: "data/rules" },
+  { id: "lexicon", title: "Lexicon", takeaway: "The same word gets the same number for everyone.", src: "data/rules/lexicon.json" },
+  { id: "anchors", title: "Anchor table", takeaway: "Only the person's words set a deadline.", src: "data/rules/anchors.json" },
+  { id: "quantities", title: "Quantity rules", takeaway: "A number claim resolves on the named series only.", src: "data/rules/templates.json · quantity_threshold" },
+  { id: "exclusions", title: "Reason codes", takeaway: "Vague, controlled and reported claims never enter the score.", src: "data/rules/reason-codes.json" },
+  { id: "templates", title: "Event templates", takeaway: "Every event is written on the asset, from one of eight templates.", src: "data/rules/templates.json" },
+  { id: "references", title: "Reference rows", takeaway: "The base rate and the market are scored on the same events as the person.", src: "data/rules/base-rates.json" },
+  { id: "metrics", title: "Metrics", takeaway: "Eleven metrics, each with its formula and its minimum n.", src: "data/rules/thresholds.json" },
+  { id: "evidence-tiers", title: "Evidence tiers", takeaway: `Below ${T.min_clusters_headline} clusters we show counts, not a score.`, src: "data/rules/thresholds.json" },
+  { id: "coverage-tiers", title: "Coverage tiers", takeaway: "We rank only people whose archives were read the same way.", src: "data/forecasters.json · corpus_tier" },
+  { id: "hindsight", title: "Hindsight controls", takeaway: "Coders never see outcomes, and resolvers never see probabilities.", src: "lib/data/schema.ts · data/rules" },
+  { id: "sensitivity", title: "Sensitivity panel", takeaway: "The headline is shown again under seven alternative rules.", src: "data/rules/lexicon.json · sensitivity_maps" },
+  { id: "reading-a-row", title: "Worked examples", takeaway: "One event gives one vote, however often it was predicted.", src: "lib/score/brier.ts" },
+  { id: "limits", title: "Known limits", takeaway: "The score is honest about what it cannot show.", src: "lib/content/methodology.ts" },
+  { id: "corrections", title: "Corrections", takeaway: "Every change to a published number is logged here.", src: "data/corrections.json" },
+  { id: "versions", title: "Versions", takeaway: `Rules version ${RULES_VERSION.version} is in force.`, src: "data/rules/version.json · data/VERSION" },
+  { id: "glossary", title: "Glossary", takeaway: "Each term keeps one meaning across the site.", src: "lib/content/glossary.ts" },
 ];
 
+/** A section by id. Throws on an unknown id, so a typo fails the build. */
+export function methodSection(id: string): MethodSection {
+  const s = METHOD_SECTIONS.find((x) => x.id === id);
+  if (!s) throw new Error(`Unknown method section: "${id}"`);
+  return s;
+}
+
 export const METHOD_LEDE = "Every rule was written before an outcome was checked; the tables come from the rule files, so the page and the score cannot disagree.";
+
+// ---- live-number sentences (body text; every number comes from the data) ---------------------------
+const int = (n: number): string => new Intl.NumberFormat("en-US").format(n);
+
+/** The line above the kappa table, after the words "Coder agreement (kappa)". */
+export function kappaSentence(k: KappaLive): string {
+  return `on ${int(k.n_pairs)} double-coded statements.${k.note ? ` ${k.note}` : ""}`;
+}
+
+/** The note that follows the kappa line: which fields were compared on how many items, and the rechecks. */
+export function kappaNote(a: { event_n: number; bin_n: number; recheck_n: number; upheld: number }): string {
+  return `Event and deadline on ${int(a.event_n)} admitted items; bin on ${int(a.bin_n)}; ${int(a.recheck_n)} outcomes rechecked, ${int(a.upheld)} upheld.`;
+}
+
+/** The prefilter audit as one paragraph. */
+export function prefilterSentence(p: PrefilterLive): string {
+  return `Prefilter check: the census finder set ${int(p.rejects_total)} statements aside as not forecasts and sent ${int(p.to_code_total)} to the coders. Coder B re-read a seeded sample of ${int(p.sample_size)} of the set-aside statements and admitted ${int(p.sample_admitted)}, an estimated ${int(p.estimated_missed)} missed forecasts in the whole set-aside group.`;
+}
+
+/** A sensitivity cell: the Brier to three places and its n, or the null mark. */
+export function sensitivityCell(value: number | null, n: number, nullMark: string): string {
+  return value === null ? nullMark : `${fmt3(value)} (n ${int(n)})`;
+}
+
+/** The glossary letter index: each letter present, with the slug of its first term (input already sorted). */
+export function glossaryLetters(sorted: { term: string; slug: string }[]): { letter: string; slug: string }[] {
+  const out: { letter: string; slug: string }[] = [];
+  for (const g of sorted) {
+    const letter = g.term.charAt(0).toUpperCase();
+    if (!out.some((x) => x.letter === letter)) out.push({ letter, slug: g.slug });
+  }
+  return out;
+}

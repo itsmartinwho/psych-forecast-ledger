@@ -1,4 +1,5 @@
 // Events: the registry (the propositions the ledger scores) and the ground truth (dated, sourced events).
+// The page is static. The ?a={area} filter runs in the browser (AreaFilter) over the data-area rows.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
@@ -10,14 +11,15 @@ import { Shell } from "@/components/layout/Shell";
 import { SourceLink } from "@/components/ui/SourceLink";
 import { StateMark } from "@/components/ui/StateMark";
 import { Term } from "@/components/ui/Term";
+import type { State } from "@/components/charts/types";
+import { METHOD_PATH } from "@/lib/content/site";
 import { getDataset } from "@/lib/data/cached";
 import { chartState, eventViews, type EventView } from "@/lib/data/derive";
-import type { TimelineEvent } from "@/lib/data/schema";
+import type { Recheck, TimelineEvent } from "@/lib/data/schema";
 import { getScores } from "@/lib/data/scores";
 import { groundTruthTakeaway, plural, registryTakeaway } from "@/lib/data/text";
 import { quarterOf, yearOf } from "@/lib/dates";
 import { fmtDate, fmtInt } from "@/lib/format";
-import type { State } from "@/components/charts/types";
 
 export const metadata: Metadata = { title: "Events" };
 
@@ -27,26 +29,101 @@ const OPEN_QUARTERS = 4;
 const OUTCOME_WORD = { occurred: "Occurred", not_occurred: "Not occurred", unresolvable: "Unresolvable" } as const;
 const OUTCOME_STATE: Record<keyof typeof OUTCOME_WORD, State> = { occurred: "true", not_occurred: "false", unresolvable: "void" };
 
-/** One entry per forecaster and state; repeats collapse to "×n" with the deadlines in a title. */
-function claimGroups(v: EventView, short: Map<string, string>) {
-  const groups = new Map<string, { slug: string; state: State; deadlines: string[]; id: string }>();
+/** "2023-Q2" -> "2023 Q2" for a details summary. */
+const quarterText = (q: string) => q.replace("-", " ");
+
+interface ClaimGroup {
+  slug: string;
+  label: string;
+  state: State;
+  deadlines: string[];
+  /** Statement id of the first item, for the link. */
+  id: string;
+}
+
+/** One entry per forecaster and state, sorted by name; repeats collapse to "×n" with the deadlines in a title. */
+function claimGroups(v: EventView, short: Map<string, string>): ClaimGroup[] {
+  const groups = new Map<string, ClaimGroup>();
   for (const i of v.items) {
     const state = chartState(i.state);
     const key = `${i.forecaster}-${state}`;
-    const g = groups.get(key) ?? { slug: i.forecaster, state, deadlines: [], id: i.statement_ids[0] };
+    const g = groups.get(key) ?? { slug: i.forecaster, label: short.get(i.forecaster) ?? i.forecaster, state, deadlines: [], id: i.statement_ids[0] };
     g.deadlines.push(i.deadline);
     groups.set(key, g);
   }
-  return [...groups.values()].map((g) => ({ ...g, label: short.get(g.slug) ?? g.slug }));
+  return [...groups.values()].sort((a, b) => a.label.localeCompare(b.label) || a.state.localeCompare(b.state));
+}
+
+/** The year an outcome carries: the date it became true, else the date the resolver checked through. */
+const outcomeYear = (o: NonNullable<EventView["outcome"]>) => yearOf(o.date ?? o.checked_through);
+
+function RecheckList({ rechecks }: { rechecks: Recheck[] }) {
+  return (
+    <details className="how">
+      <summary>Recheck ×{fmtInt(rechecks.length)}</summary>
+      <div>
+        {rechecks.map((r, k) => (
+          <p key={k}>
+            <span className="chip chip--hollow">{r.verdict}</span> {r.challenged} · {fmtDate(r.rechecked_at)}
+            <br />
+            {r.argument}
+          </p>
+        ))}
+      </div>
+    </details>
+  );
+}
+
+function RegistryRow({ v, areaName, short }: { v: EventView; areaName: Map<string, string>; short: Map<string, string> }) {
+  const src = v.event.resolution_source;
+  return (
+    <tr id={v.event.id} data-area={v.event.area}>
+      <td>
+        <strong>{v.event.title}</strong>
+        <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", gap: "0 10px", marginTop: 3 }}>
+          <span className="ledger-event" style={{ margin: 0 }}>{v.event.id}</span>
+          <details className="how" style={{ marginTop: 0 }}>
+            <summary>Criterion</summary>
+            <div>
+              <p>{v.event.criterion}</p>
+              <p>{src.url ? <SourceLink href={src.url}>{src.name}</SourceLink> : src.name}</p>
+            </div>
+          </details>
+        </div>
+      </td>
+      <td>
+        <Link href={`/areas/${v.event.area}`}>{areaName.get(v.event.area) ?? v.event.area}</Link>
+      </td>
+      <td>
+        {v.outcome ? (
+          <span style={{ whiteSpace: "nowrap" }}>
+            <StateMark state={OUTCOME_STATE[v.outcome.state]} /> {OUTCOME_WORD[v.outcome.state]} · {outcomeYear(v.outcome)}
+          </span>
+        ) : (
+          <span className="chip chip--hollow">Open</span>
+        )}
+        {v.rechecks.length ? <RecheckList rechecks={v.rechecks} /> : null}
+      </td>
+      <td>
+        {claimGroups(v, short).map((g) => (
+          <Link key={`${g.slug}-${g.state}`} href={`/predictions/${g.id}`} style={{ marginRight: 10, whiteSpace: "nowrap" }} title={g.deadlines.map(fmtDate).join(", ")}>
+            <StateMark state={g.state} /> {g.label}
+            {g.deadlines.length > 1 ? ` ×${fmtInt(g.deadlines.length)}` : ""}
+          </Link>
+        ))}
+      </td>
+    </tr>
+  );
 }
 
 function Quarter({ q, rows, open }: { q: string; rows: TimelineEvent[]; open: boolean }) {
   return (
     <details className="how" open={open}>
       <summary>
-        {q.replace("-", " ")} · {plural(rows.length, "event")}
+        {quarterText(q)} · {plural(rows.length, "event")}
       </summary>
-      <div>
+      {/* .how > div caps body text at 68ch; the table needs the full card width. */}
+      <div style={{ maxWidth: "none" }}>
         <table className="registry" data-quarter={q}>
           <tbody>
             {rows.map((t) => (
@@ -86,20 +163,23 @@ export default function EventsPage() {
   const quarters = [...byQuarter.keys()].sort().reverse();
   const years = ds.timeline.map((t) => yearOf(t.date));
   const span = years.length ? `${Math.min(...years)} to ${Math.max(...years)}` : "";
+  // The area filter renders inside the last fragment, so an inactive filter leaves no empty fragment.
   const meta = [
     <span key="reg">
       {fmtInt(ds.registry.length)} <Term t="registry event">registry events</Term>
     </span>,
     plural(ds.timeline.length, "ground-truth event"),
-    span,
-    <Suspense key="area" fallback={null}>
-      <AreaFilter areas={ds.areas} />
-    </Suspense>,
+    <span key="span">
+      {span}
+      <Suspense fallback={null}>
+        <AreaFilter areas={ds.areas} />
+      </Suspense>
+    </span>,
   ];
   const registryHow = (
     <>
-      A <Term t="registry event">registry event</Term> is one proposition with one criterion and one resolution source, written before outcomes are looked up. The <Term t="outcome">outcome</Term> is{" "}
-      <Term t="resolved">resolved</Term> from the source named at intake. <Link href="/methodology#templates">Method › Event templates</Link>
+      A registry event is one proposition with one criterion and one resolution source, written before outcomes are looked up.{" "}
+      <Link href={`${METHOD_PATH}#templates`}>Method › Event templates</Link>
     </>
   );
 
@@ -107,7 +187,7 @@ export default function EventsPage() {
     <Shell current="/events" hero={{ slug: hero.slug, name: hero.name }}>
       <PageHeader title="Events" version={ds.version} meta={meta} />
       <Grid2>
-        <Card wide title="Registry" takeaway={registryTakeaway(views)} n={plural(views.length, "event")} how={registryHow} src="Registry">
+        <Card wide title="Registry" takeaway={registryTakeaway(views)} how={registryHow} src={`Registry · ${plural(views.length, "event")}`}>
           <table className="registry">
             <thead>
               <tr>
@@ -116,59 +196,16 @@ export default function EventsPage() {
                 </th>
                 <th>Area</th>
                 <th>
-                  <Term t="outcome">Outcome</Term>
+                  <Term t="outcome" side="end">
+                    Outcome
+                  </Term>
                 </th>
                 <th>Claims</th>
               </tr>
             </thead>
             <tbody>
               {views.map((v) => (
-                <tr key={v.event.id} id={v.event.id} data-area={v.event.area}>
-                  <td>
-                    <strong>{v.event.title}</strong>
-                    <span className="ledger-event">{v.event.id}</span>
-                    <details className="how">
-                      <summary>Criterion</summary>
-                      <div>
-                        <p>{v.event.criterion}</p>
-                        <p>{v.event.resolution_source.url ? <SourceLink href={v.event.resolution_source.url}>{v.event.resolution_source.name}</SourceLink> : v.event.resolution_source.name}</p>
-                      </div>
-                    </details>
-                  </td>
-                  <td>
-                    <Link href={`/areas/${v.event.area}`}>{areaName.get(v.event.area) ?? v.event.area}</Link>
-                  </td>
-                  <td>
-                    {v.outcome ? (
-                      <span>
-                        <StateMark state={OUTCOME_STATE[v.outcome.state]} /> {OUTCOME_WORD[v.outcome.state]}
-                        {v.outcome.date ? ` · ${yearOf(v.outcome.date)}` : ""}
-                      </span>
-                    ) : (
-                      <span className="chip chip--hollow">Open</span>
-                    )}
-                    {v.rechecks.length ? (
-                      <details className="how">
-                        <summary>Recheck ×{fmtInt(v.rechecks.length)}</summary>
-                        <div>
-                          {v.rechecks.map((r, k) => (
-                            <p key={k}>
-                              {r.verdict} ({r.challenged}): {r.argument}
-                            </p>
-                          ))}
-                        </div>
-                      </details>
-                    ) : null}
-                  </td>
-                  <td>
-                    {claimGroups(v, short).map((g) => (
-                      <Link key={`${g.slug}-${g.state}`} href={`/predictions/${g.id}`} style={{ marginRight: 10, whiteSpace: "nowrap" }} title={g.deadlines.map(fmtDate).join(", ")}>
-                        <StateMark state={g.state} /> {g.label}
-                        {g.deadlines.length > 1 ? ` ×${fmtInt(g.deadlines.length)}` : ""}
-                      </Link>
-                    ))}
-                  </td>
-                </tr>
+                <RegistryRow key={v.event.id} v={v} areaName={areaName} short={short} />
               ))}
             </tbody>
           </table>

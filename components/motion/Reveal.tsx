@@ -22,16 +22,21 @@ export function Reveal({ children, className }: RevealProps) {
       el.classList.add("is-in");
       return;
     }
+    // A tall block never reaches the 30 percent ratio in a short viewport, so a block also counts as in view
+    // when the visible part is at least 40 percent of the viewport height.
     const io = new IntersectionObserver(
       (entries) => {
         for (const e of entries) {
-          if (e.isIntersecting) {
+          if (!e.isIntersecting) continue;
+          const viewport = e.rootBounds?.height ?? window.innerHeight;
+          const enough = e.intersectionRatio >= MOTION.observerThreshold || e.intersectionRect.height >= viewport * 0.4;
+          if (enough) {
             el.classList.add("is-in");
             io.unobserve(el);
           }
         }
       },
-      { threshold: MOTION.observerThreshold },
+      { threshold: [0, 0.1, 0.2, MOTION.observerThreshold] },
     );
     io.observe(el);
     return () => io.disconnect();

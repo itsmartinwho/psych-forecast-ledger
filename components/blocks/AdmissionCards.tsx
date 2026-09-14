@@ -14,9 +14,12 @@ import type { ScoreSnapshot } from "@/lib/score";
 export const ADMISSION_TITLE = "Admission";
 export const REASONS_TITLE = "Not admitted by reason";
 
-/** The one-item legend of a rung-bar card: what one rung stands for. */
-export function rungLegend(rungUnit: number, unit: string): LegendItem[] {
-  return [{ glyph: "tick", label: `${fmtInt(rungUnit)} ${unit}` }];
+/**
+ * The legend of a rung-bar card: what one rung stands for, only when one rung is one record.
+ * A larger unit is written once, by the SVG footnote ("1 rung = 50 statements"), so the legend stays empty.
+ */
+export function rungLegend(rungUnit: number, one: string): LegendItem[] {
+  return rungUnit > 1 ? [] : [{ glyph: "tick", label: `one ${one}` }];
 }
 
 export interface AdmissionCardsProps {
@@ -32,7 +35,6 @@ export function AdmissionCards({ ds, snap, slug, scope }: AdmissionCardsProps) {
   const funnel = admissionFunnel(ds, snap, slug);
   const reasons = reasonRungBars(ds, slug);
   const admitted = funnel.groups.find((g) => g.id === "admitted")?.count ?? 0;
-  const found = funnel.groups.find((g) => g.id === "found")?.count ?? 0;
   const funnelHow = (
     <>
       Found is every forward-looking statement in the corpus. Sincere removes satire and third-party claims. <Term t="admitted">Admitted</Term> passed intake under the rules. <Term t="resolved">Resolved</Term> has an{" "}
@@ -53,10 +55,10 @@ export function AdmissionCards({ ds, snap, slug, scope }: AdmissionCardsProps) {
   );
   return (
     <>
-      <Card title={ADMISSION_TITLE} takeaway={admissionTakeaway(funnel)} n={`${fmtInt(admitted)} admitted`} legend={rungLegend(funnel.rungUnit, "statements")} how={funnelHow} src={`Every statement · ${scope}`}>
+      <Card title={ADMISSION_TITLE} takeaway={admissionTakeaway(funnel)} n={`${fmtInt(admitted)} admitted`} legend={rungLegend(funnel.rungUnit, "statement")} how={funnelHow} src={`Every statement · ${scope}`}>
         <AreaRungBars data={funnel} size="half" />
       </Card>
-      <Card title={REASONS_TITLE} takeaway={reasonsTakeaway(reasons.groups)} n={`${fmtInt(found - admitted)} not admitted`} legend={rungLegend(reasons.rungUnit, "statements")} how={reasonsHow} src="Not admitted · reason codes">
+      <Card title={REASONS_TITLE} takeaway={reasonsTakeaway(reasons.groups)} legend={rungLegend(reasons.rungUnit, "statement")} how={reasonsHow} src="Not admitted · reason codes">
         <AreaRungBars data={reasons} size="half" />
       </Card>
     </>

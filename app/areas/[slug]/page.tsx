@@ -1,4 +1,5 @@
 // Area page: the leaderboard inside the area, the status of its claims, and the claims against the area's events.
+// The dateline links to the area's ground-truth events and to the base rates; those two cards are cut.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -7,6 +8,7 @@ import { Card } from "@/components/card/Card";
 import { LedgerAlmanac } from "@/components/charts/LedgerAlmanac";
 import { TickDonut } from "@/components/charts/TickDonut";
 import { TrendLanes } from "@/components/charts/TrendLanes";
+import { LANE_CAP } from "@/components/charts/layout/TrendLanes.layout";
 import { Grid2 } from "@/components/layout/Grid2";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Shell } from "@/components/layout/Shell";
@@ -17,7 +19,7 @@ import { getDataset } from "@/lib/data/cached";
 import { almanacData, areaOf, areaStatusCounts, leaderboardData, statusDonut, trendLanesData } from "@/lib/data/derive";
 import { AREA_SLUGS } from "@/lib/data/schema";
 import { getScores } from "@/lib/data/scores";
-import { lanesTakeaway, plural, statusTakeaway } from "@/lib/data/text";
+import { claimsTakeaway, lanesTakeaway, plural, statusTakeaway } from "@/lib/data/text";
 import { fmtInt } from "@/lib/format";
 
 export const dynamicParams = false;
@@ -29,8 +31,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: areaOf(getDataset(), slug)?.name ?? "Area" };
 }
 
-const MAX_LANES = 30;
-
 export default async function AreaPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const ds = getDataset();
@@ -39,12 +39,16 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
   if (!area) notFound();
   const hero = ds.forecasters.find((x) => x.hero) ?? ds.forecasters[0];
   const th = ds.thresholds;
+  // A row on the area leaderboard needs the per-bin minimum, not the headline minimum.
   const minN = th.calibration_min_per_bin;
   const items = snap.items.filter((i) => i.area === slug);
   const counts = areaStatusCounts(snap, slug);
-  const resolved = counts.true + counts.false;
+  // Resolved counts clusters, as the glossary defines it; the leaderboard rows count the same clusters.
+  const resolved = ds.forecasters.reduce((n, f) => n + (snap.forecasters[f.slug]?.by_area[slug]?.n_clusters ?? 0), 0);
   const events = ds.timeline.filter((t) => t.area === slug);
-  const lanes = trendLanesData(ds, items, { areas: [slug], maxLanes: MAX_LANES });
+  // The chart draws at most LANE_CAP lanes; the takeaway counts the lanes it draws.
+  const lanes = trendLanesData(ds, items, { areas: [slug], maxLanes: LANE_CAP });
+  const claims = almanacData(ds, items);
   const meta = [
     <span key="adm">
       {fmtInt(items.length)} <Term t="admitted">admitted</Term> claims
@@ -56,7 +60,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       {plural(events.length, "ground-truth event")}
     </Link>,
     <Link key="br" href="/methodology#references">
-      <Term t="base rate">Base rates</Term>
+      Base rates
     </Link>,
   ];
 
@@ -94,6 +98,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
           <Card
             wide
             title="Claims"
+            takeaway={claimsTakeaway(items)}
             legend={[
               { glyph: "solid", label: "true" },
               { glyph: "hollow", label: "false" },
@@ -103,7 +108,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             src={`${area.name} · all admitted items`}
           >
             <Reveal>
-              <ChartFrame wide={<LedgerAlmanac data={almanacData(ds, items)} size="wide" />} half={<LedgerAlmanac data={almanacData(ds, items)} size="half" />} />
+              <ChartFrame wide={<LedgerAlmanac data={claims} size="wide" />} half={<LedgerAlmanac data={claims} size="half" />} />
             </Reveal>
           </Card>
         ) : null}

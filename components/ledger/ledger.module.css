@@ -1,0 +1,9 @@
+/* Ledger-only spacing. Column classes, chips and the stacked rows live in app/globals.css. */
+.undated { display: block; width: fit-content; margin-top: 3px; }
+.stateCell { display: inline-flex; align-items: center; gap: 6px; }
+.more { margin: 12px 0 0; }
+.row {}
+@media (max-width: 760px) {
+  /* globals.css sets ".ledger tr" to block after ".ledger-row" sets flex; this selector wins on specificity. */
+  :global(.ledger) tr.row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+}
