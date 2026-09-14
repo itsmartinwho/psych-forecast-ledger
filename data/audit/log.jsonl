@@ -82,3 +82,12 @@
 {"at":"2026-09-14T06:12:46.155Z","script":"build-resolution-packets","events":59,"packets":8}
 {"at":"2026-09-14T06:26:25.912Z","script":"apply-outcomes","files":17,"applied":127,"rejected":1,"total":127}
 {"at":"2026-09-14T06:26:45.508Z","script":"apply-outcomes","files":17,"applied":128,"rejected":0,"total":128}
+{"at":"2026-09-14T06:27:01.848Z","script":"build-recheck-packets","outcomes":19,"packets":2}
+{"at":"2026-09-14T06:27:17.124Z","script":"build-tiebreak-packet","statements":2615,"splits":14,"packets":7}
+{"at":"2026-09-14T06:27:33.748Z","script":"build-tiebreak-packet","statements":2615,"splits":14,"packets":8}
+{"at":"2026-09-14T06:34:16.356Z","script":"consolidate-registry prep","proposals":4,"distinct_titles":4,"existing":128}
+{"at":"2026-09-14T06:36:28.874Z","script":"consolidate-registry assemble","groups":3,"in_scope":3,"out_of_area":0,"events":3,"mapped_refs":4,"inverted_refs":0}
+{"at":"2026-09-14T06:36:33.556Z","script":"consolidate-registry apply","added":3,"total":131,"mapped_refs":4,"out_of_area_refs":0}
+{"at":"2026-09-14T06:36:41.961Z","script":"intake-merge","statements":2960,"admitted":191,"void_ambiguous":18,"not_admitted":2745,"gate_out_of_area":6,"split_to_c":0,"uncoded":0,"bin_mismatch":14,"undated":117,"dated":74}
+{"at":"2026-09-14T06:36:45.563Z","script":"freeze","release":"1.1.0","files":10}
+{"at":"2026-09-14T06:36:52.245Z","script":"build-resolution-packets","events":3,"packets":1}

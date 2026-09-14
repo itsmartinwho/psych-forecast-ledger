@@ -1,0 +1,366 @@
+{
+ "packet": "tiebreak-07.json",
+ "note": "admission splits between coder A and coder B: coder C decides",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "owen-0421",
+   "forecaster": "owen",
+   "statement_date": "2023-04-10",
+   "quote": "Neuromodulation (various modalities) will be the first line for almost all psychiatric conditions in 10 years",
+   "context": "Item 2 of 16 in the 'Predictions About The Future' list (self-described 'outlandish predictions' made 'so I can be on record'). Claim: neuromodulation of various kinds becomes first-line treatment for almost all psychiatric conditions within 10 years (about 2033).",
+   "post_title": "Predictions About The Future",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/predictions-about-the-future",
+   "area_guess": "practice_adoption",
+   "horizon_text": "in 10 years",
+   "confidence_phrase": "will",
+   "entities": [
+    "neuromodulation"
+   ],
+   "finder_note": "Broader companion to item 1.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0460",
+   "forecaster": "owen",
+   "statement_date": "2023-05-01",
+   "quote": "And eventually, they'll figure it out.",
+   "context": "Third linked call: the DEA will eventually settle a permanent rule for telehealth prescribing of controlled substances.",
+   "post_title": "A Crucial Update on Prescribing Controlled Substances Past May 11th That Explains Everything And Removes All Doubt and Worry",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/a-crucial-update-on-prescribing-controlled",
+   "area_guess": "regulatory",
+   "horizon_text": "eventually",
+   "confidence_phrase": "they'll",
+   "entities": [
+    "DEA"
+   ],
+   "finder_note": "Third of three linked calls; vague resolution criterion.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-0878",
+   "forecaster": "owen",
+   "statement_date": "2024-02-17",
+   "quote": "In the near future, fMRI-guided neuromodulation treatment, robust walking , and other novel interventions will be the standard of care.",
+   "context": "Personal essay on bipolar disorder and residency accommodations. The author, now treated with TMS, predicts fMRI-guided neuromodulation (the approach his Acacia Clinics uses), 'robust walking' and other novel interventions will become the standard of care for mood disorders.",
+   "post_title": "Reasonable Accommodations",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/reasonable-accommodations",
+   "area_guess": "practice_adoption",
+   "horizon_text": "In the near future",
+   "confidence_phrase": "will be",
+   "entities": [
+    "fMRI-guided TMS",
+    "Acacia Clinics"
+   ],
+   "finder_note": "Author's own clinic sells fMRI-guided TMS; coder may mark CONTROL. Spacing before the comma is in the source.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1618",
+   "forecaster": "owen",
+   "statement_date": "2025-03-02",
+   "quote": "There is absolutely more effective treatment coming. There are treatments in the pipeline that are not here right now, like low-dose LSD for ADHD, probably TMS for ADHD, maybe even transcranial focused ultrasound, we may get fMRI-EEG neurofeedback, I don't actually know. I do know there's likely to be more in the future.",
+   "context": "After listing current ADHD treatments (stimulants, organizational skills training, the Monarch eTNS device), the author forecasts that more effective ADHD treatments will arrive and names pipeline candidates.",
+   "post_title": "My Actual Advice to Parents of Kids With ADHD",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/my-actual-advice-to-parents-of-kids",
+   "area_guess": "clinical_trial",
+   "horizon_text": "coming; in the future",
+   "confidence_phrase": "absolutely; probably; maybe even; may; likely",
+   "entities": [
+    "LSD",
+    "TMS",
+    "transcranial focused ultrasound",
+    "fMRI-EEG neurofeedback"
+   ],
+   "finder_note": "Compound claim: one general call plus four hedged candidate treatments, each with its own confidence word.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1834",
+   "forecaster": "owen",
+   "statement_date": "2025-08-09",
+   "quote": "I think Private Equity will see the goldmine in Accelerated TMS…except…for dogs. Cause despite ample evidence, United ain’t budging any time soon, when it comes to humans.",
+   "context": "After noting private-equity roll-ups of veterinary practices and PE interest in human TMS, the author predicts PE will pursue accelerated TMS for dogs (veterinary), not for humans.",
+   "post_title": "Why Pet Insurance May Approve Cutting-Edge Treatments Before UnitedHealth Group",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/your-dog-might-get-life-saving-brain",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... will",
+   "entities": [
+    "private equity",
+    "accelerated TMS"
+   ],
+   "finder_note": "Paired with the next sentence about United not budging on human coverage.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-1947",
+   "forecaster": "owen",
+   "statement_date": "2025-11-12",
+   "quote": "You know what might work? Accelerated transcranial magnetic stimulation. We have an FDA label on once a day transcranial magnetic stimulation, which probably works, and doesn't have a black box warning for increasing suicide suicidal ideation.",
+   "context": "Same rant. After listing oral antidepressants he says do not work for adolescent depression, the author proposes accelerated TMS as the treatment that might work, notes once-daily TMS already has an FDA label, and urges running studies on accelerated protocols because rapid designs make group differences easier to detect.",
+   "post_title": "There are only two effective biological interventions for adolescence depression.",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/there-are-only-two-effective-biological",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "might",
+   "entities": [
+    "accelerated transcranial magnetic stimulation",
+    "FDA"
+   ],
+   "finder_note": "Hedged efficacy call ahead of trial evidence; paired with 'We should run to the studies on accelerated transcranial magnetic stimulation'.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "owen-2337",
+   "forecaster": "owen",
+   "statement_date": "2026-08-19",
+   "quote": "the financials of small pills versus the psychedelics and medical devices that are coming",
+   "context": "Supply-chain aside. The author presupposes that psychedelic drugs and medical devices are coming to psychiatry, and contrasts their economics with one-a-day pills.",
+   "post_title": "Cut the Doctors In on Psychedelics: Subscriber-Only Edition",
+   "source_url": "https://thefrontierpsychiatrists.substack.com/p/cut-the-doctors-in-subscriber-only",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "are coming",
+   "entities": [],
+   "finder_note": "Presupposition embedded in a clause; restated more directly later in the post.",
+   "earlier_reason": "VAGUE"
+  },
+  {
+   "id": "angermayer-0182",
+   "forecaster": "angermayer",
+   "statement_date": "2024-06-05",
+   "quote": "The first \"psychedelic drug\", Spravato by Johnson & Johnson, has already been approved a while ago, showcasing that the challenges MDMA and other #psychedelics face can be successfully overcome.",
+   "context": "In his thread on the FDA advisory committee vote against Lykos, he argues the regulatory obstacles facing MDMA and other psychedelics can be overcome, citing the earlier Spravato approval.",
+   "post_title": "Christian Angermayer on X: take on the FDA Advisory Committee vote against Lykos/MAPS MDMA therapy",
+   "source_url": "https://x.com/C_Angermayer/status/1798368569429750026",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "showcasing that ... can be successfully overcome",
+   "entities": [],
+   "finder_note": "source confidence high; undated; event sweep target E-0066; Separate bullet of the same thread; the existing ledger holds only the \"strong chance that MDMA ... will get approved\" line from this post."
+  },
+  {
+   "id": "angermayer-0187",
+   "forecaster": "angermayer",
+   "statement_date": "2025-12-31",
+   "quote": "Just in time for the New Year, @ataibeckley has become a U.S.-domiciled company - a key prerequisite for inclusion in major equity indices. 2026 will be a defining year for $ATAI. Let's go!",
+   "context": "Angermayer says the U.S. re-domiciliation of AtaiBeckley is a key prerequisite for inclusion in major equity indices, and frames 2026 as the defining year for the stock. He signals that index inclusion is now in reach.",
+   "post_title": "Christian Angermayer on X: U.S.-domiciled company, prerequisite for index inclusion",
+   "source_url": "https://x.com/C_Angermayer/status/2006368173499801945",
+   "area_guess": "company_market",
+   "horizon_text": "2026 will be a defining year",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; event sweep target E-0059; Fetched through https://api.fxtwitter.com/C_Angermayer/status/2006368173499801945. Not in existing-angermayer.json; the nearest existing rows are angermayer-0150 (2026-01-14"
+  },
+  {
+   "id": "angermayer-0188",
+   "forecaster": "angermayer",
+   "statement_date": "2026-02-18",
+   "quote": "FDA guidance has been consistent: psychedelic therapies can only be administered under medical supervision.",
+   "context": "In his 2026 sector note he states that FDA guidance restricts psychedelic therapies to administration under medical supervision. A denial that a retail pharmacy would dispense such a product for use outside a healthcare setting.",
+   "post_title": "Psychedelic Medicines - a Time for Stockpickers",
+   "source_url": "https://christianangermayer.substack.com/p/psychedelic-medicines-a-time-for",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "has been consistent",
+   "entities": [],
+   "finder_note": "source confidence high; undated; event sweep target E-0067; The existing ledger holds five other quotes from this post, none about the administration setting."
+  },
+  {
+   "id": "angermayer-0190",
+   "forecaster": "angermayer",
+   "statement_date": "2026-04-18",
+   "quote": "The public sentiment around psychedelics as FDA-regulated drugs has gone from \"this is a crazy idea that will ruin your career\" to being on the verge of what the market anticipates will be the first regulatory approval of a psychedelic with COMP360... all in less than a decade.",
+   "context": "On the day of the Presidential Executive Order on psychedelics, Angermayer says the field is on the verge of the first regulatory approval of a psychedelic, naming COMP360 as the compound.",
+   "post_title": "Christian Angermayer on X: Presidential Executive Order on psychedelics",
+   "source_url": "https://x.com/C_Angermayer/status/2045507709244686618",
+   "area_guess": "regulatory",
+   "horizon_text": "on the verge",
+   "confidence_phrase": "what the market anticipates",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; event sweep target E-0024; Near-identical text is already logged as angermayer-0161 from the Substack post dated 2026-04-20. This X post is two days earlier and is a separate channel. Treat as a possi"
+  },
+  {
+   "id": "doblin-0250",
+   "forecaster": "doblin",
+   "statement_date": "2020-05-28",
+   "quote": "So in this case the REMS that we have proposed preliminary with the FDA is that the only people that can treat patients, and the only people that can prescribe MDMA are people that have been through our training program",
+   "context": "Doblin describes the REMS that MAPS proposed to the FDA: only graduates of the MAPS training program may prescribe MDMA and treat patients. This forecasts a restrictive, therapist-gated REMS.",
+   "post_title": "Psychedelic Research and Culture: An Interview with Rick Doblin (Qualia Life)",
+   "source_url": "https://www.qualialife.com/psychedelic-research-and-culture-an-interview-with-rick-doblin",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "we have proposed preliminary",
+   "entities": [],
+   "finder_note": "source confidence high; undated; event sweep target E-0068; The existing ledger has other quotes from this URL under dates 2020-05-01 and 2020-05-28; this REMS passage is not among them."
+  },
+  {
+   "id": "doblin-0252",
+   "forecaster": "doblin",
+   "statement_date": "2020-08-26",
+   "quote": "the 90% or greater probability of statistical significance was with all hundred people. And so we decided that we would end it with 90. And so the last data point is now coming in about two weeks. And we will have before the end of September, we're going to know if the first phase three study was statistically significant.",
+   "context": "Doblin says MAPP1 stopped at 90 participants and that the result will be known before the end of September 2020.",
+   "post_title": "A Dive with the Maestro behind MDMA Psychotherapy Research - Rick Doblin - HPP 62",
+   "source_url": "https://psychiatryinstitute.com/podcast/maestro-mdma-psychotherapy-doblin/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "before the end of September",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; event sweep target E-0002; "
+  },
+  {
+   "id": "doblin-0255",
+   "forecaster": "doblin",
+   "statement_date": "2020-10-22",
+   "quote": "we are now, um, about a month away from having. The data from a first of two phase three studies, as far as whether it's statistically significant",
+   "context": "Doblin tells Andrew Weil the first Phase 3 trial result is about a month away.",
+   "post_title": "Body of Wonder Episode #11 Psychedelic-Assisted Trauma Therapy with Rick Doblin, PhD",
+   "source_url": "https://awcim.arizona.edu/podcast/episode11_doblin.html",
+   "area_guess": "clinical_trial",
+   "horizon_text": "about a month away",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; event sweep target E-0002; Transcript line under 'Rick Doblin:'. Punctuation is as the published transcript prints it."
+  }
+ ]
+}

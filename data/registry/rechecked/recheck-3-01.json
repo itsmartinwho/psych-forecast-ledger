@@ -1,0 +1,95 @@
+{
+ "rechecker": "X2",
+ "run": "recheck-3-2026-09-14",
+ "rechecks": [
+  {
+   "event_id": "E-0073",
+   "challenged": "date",
+   "argument": "I tried to pull the date earlier than 2021-06-26. The May 2021 DEA memoranda of agreement are excluded by the criterion, and no earlier grant exists: the Scottsdale Research Institute notice of registration is dated 2022 (DRG-22-0034), and the DEA marihuana growers page gives no earlier entry. Trade press points the other way, not earlier (Royal Emerald December 2021, Groff 'March 2022'), so it cannot beat the DEA record. I fetched both cited notices: Groff NA Hemplex LLC (citing 85 FR 21889 and 86 FR 13587) and Biopharmaceutical Research Company LLC (citing 84 FR 44920 and 86 FR 13587) are each signed 26 June 2021 by Assistant Administrator William T. McDermott. Before that date only the University of Mississippi facility held a marihuana bulk manufacturer registration. State and date stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0074",
+   "challenged": "date",
+   "argument": "I looked for an earlier report that a Phase 3 psychedelic-assisted psychotherapy met its primary endpoint. The best candidate is the MAPS newsletter of December 2020, which says MAPS PBC completed the data analysis of the first Phase 3 trial in November 2020 and that 'the results confirmed Phase 2 results and prior expectations from an independent interim analysis'. I read that page: it claims no statistical significance on the prespecified primary endpoint and gives no p-value, so it fails the criterion. Esketamine Phase 3 trials are excluded: esketamine is not a classic psychedelic or entactogen and was not given with psychotherapy. COMP360 Phase 3 read out in 2025, later. The MAPS release of 2021-05-03 reports the primary endpoint met at p<0.0001 and precedes the Nature Medicine paper of 2021-05-10. Date stands.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0075",
+   "challenged": "date",
+   "argument": "The recorded date is one day late. I downloaded the released letter (CRL_NDA215455_20240808.pdf) and extracted the text: the electronic signature manifest reads '08/08/2024 02:39:42 PM', and openFDA records letter_date 08/08/2024. The criterion fixes the date of the FDA written action, not the date the sponsor disclosed it, so the action date is 2024-08-08. The registry uses 2024-08-08 for the same letter in E-0090, so 2024-08-09 is also internally inconsistent. The substance holds: deficiency 3 says prior use makes participants 'more likely to recognize the effects of midomafetamine (i.e., leading to functional unblinding)' and that these limitations 'preclude the ability to establish substantial evidence of effectiveness'. I also tested the 2024-06-04 briefing document: it lists unblinding as a key efficacy issue and a point for discussion, not as an FDA deficiency finding, so it does not move the date earlier.",
+   "verdict": "overturned",
+   "corrected": {
+    "state": "occurred",
+    "date": "2024-08-08",
+    "evidence": [
+     {
+      "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
+      "title": "Complete Response Letter, NDA 215455 (midomafetamine capsules), Lykos Therapeutics; electronic signature 08/08/2024; deficiency 3 cites functional unblinding",
+      "publisher": "US Food and Drug Administration (openFDA complete response letter release)",
+      "date": "2024-08-08",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
+      "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
+      "publisher": "Lykos Therapeutics via PR Newswire",
+      "date": "2024-08-09",
+      "accessed": "2026-09-14"
+     }
+    ]
+   }
+  },
+  {
+   "event_id": "E-0081",
+   "challenged": "date",
+   "argument": "I queried ClinicalTrials.gov for every Phase 3 and Phase 2/3 MDMA PTSD record to find a start date before 2023-10-06. One record beats it: NCT06189027, interventional, Phase 3, drug arm MDMA, lead sponsor University of Southern California (MAPS only a collaborator), actual start 2018-11-20. I read the record: it is an add-on substudy to MAPP1 that adds saliva collection for epigenetics, primary purpose basic science, and the MDMA is given in the MAPS parent trial. It is therefore not a sponsor running its own MDMA-for-PTSD programme on its own clinical data, so the resolver's exclusion holds. The other records are MAPS or Resilient. NCT05979844 is weak (an 8-veteran open-label pilot labelled Phase 3), but the criterion keys on the registered phase and sponsor, and its actual start of 2023-10-06 is confirmed.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0084",
+   "challenged": "date",
+   "argument": "I argued for the earlier date 2021-11-08, the actual study start, since dosing needs the registration. The criterion blocks it: all three legs, (a), (b) and (c), date a public statement, and the earliest such statement is the record update. I pulled the ClinicalTrials.gov history API for NCT04784143. Version 4, submitted 2021-11-09 and posted 2021-11-10, still reads NOT_YET_RECRUITING with an estimated start of 2021-12-18 and no site listed. Version 5, submitted 2021-11-16 and posted 2021-11-17, is the first with overall status RECRUITING, the James J. Peters VA Medical Center listed as RECRUITING, and an actual start of 2021-11-08. So no public source before 2021-11-17 reports the study open at the Bronx site, and the MAPS pages of 2021-02-25 and 2021-09-22 still call the registration pending. Date stands.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0090",
+   "challenged": "date",
+   "argument": "I tested 2024-08-09, the sponsor announcement date, against the letter date. The letter wins: I extracted the text of the released letter and the signature manifest reads '08/08/2024 02:39:42 PM', matching the openFDA file name and the dataset field letter_date 08/08/2024. The criterion takes the date of the action letter as dated in Drugs@FDA, with the press release only as a secondary source. I also tested earlier candidates: NDA submission (December 2023), filing acceptance, the PDUFA date and the advisory committee meeting of 2024-06-04 are all excluded by the criterion, and no refuse-to-file letter exists. State occurred and date 2024-08-08 stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0092",
+   "challenged": "date",
+   "argument": "I looked for an earlier report at or above US$1 billion. There is none: the same exhibit gives Spravato worldwide sales of $689 million for 2023, so no completed calendar year before 2024 reaches the threshold, and the 2024 interim reports are below it. I confirmed the filing date on EDGAR: accession 0000200406-25-000003, Form 8-K, filed 2025-01-22, whose Exhibit 99.2 I read; it shows SPRAVATO worldwide $1,077 million for 2024 against $689 million for 2023, up 56.4 percent. The FY2024 Form 10-K came later, on 2025-02-13. One weakness noted, not enough to overturn: J&J's fiscal year 2024 ended 2024-12-29, while the exhibit labels the period 'twelve months ended December 31, 2024'. State, date and realized value stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0095",
+   "challenged": "evidence",
+   "argument": "The primary source is dead: news.lykospbc.com/2025-05-30-Lykos-Series-B-Financing-First-Close-Completed returns HTTP 404, so the recorded evidence cannot be verified at its own URL. I therefore attacked the fact itself and looked for either no announcement or an earlier one. Psychedelic Alpha, read today, dates the announcement to 2025-05-30 and reports a completed first close of $50 million by the Gracias and CH foundations, with a $100 million target. Reporting on the recapitalisation says Gracias and Hohn were still planning it in January 2025, and I found no completed Lykos or Resilient financing announced between 2024-11-01 and 2025-05-30, and no Form D. So the date holds on a second dated source, but the evidence list should carry a live citation.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0096",
+   "challenged": "date",
+   "argument": "I looked for a public report of the primary endpoint before 2025-07-25. atai's earlier communications give only guidance, that the Phase 2b would read out mid-2025; guidance is not a result. The GlobeNewswire release of 2025-07-25, carried the same day by BioSpace, Nasdaq and the atai investor site, is the first document that states the outcome: the trial in 242 patients missed its primary endpoint, the MCCB neurocognitive composite at week 6, with numerical improvement in the active arms. The title says 'Provides Update', but the body reports the primary-endpoint result, so it is a topline report and not an interim, blinded or safety update. The direction does not matter under the criterion. State and date stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0100",
+   "challenged": "criterion",
+   "argument": "The count turns on one release, and the criterion does not settle it. The release of 2025-05-20 reports Part 2 of Phase 2a study NCT05660642. I read the ClinicalTrials.gov record: it is one open-label Phase 2a study with monotherapy and SSRI-adjunctive parts, and it produced three topline announcements, Part 1 on 2024-03-27 (before the window), Part 2 on 2025-05-20, and a two-dose cohort on 2025-09-23. If 'each trial counts once' applies to the trial, NCT05660642 was already read out before the window and only three trials read out inside it: BPL-003 Phase 2b (2025-07-01), inidascamine Phase 2b (2025-07-25) and EMP-01 Phase 2a (2026-02-26). The event is then FALSE at 2026-03-20, because the BPL-003 open-label extension is excluded and VLS-01 slipped to late 2026. If the rule is only a dedup inside the window, the count reaches four on 2026-02-26. The state flips on that reading.",
+   "verdict": "escalated",
+   "corrected": null
+  }
+ ]
+}

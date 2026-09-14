@@ -1,0 +1,69 @@
+{
+ "rechecker": "X2",
+ "run": "recheck-3-2026-09-14",
+ "rechecks": [
+  {
+   "event_id": "E-0103",
+   "challenged": "date",
+   "argument": "I tried to find an earlier crossing of the 2.0x threshold. Reference close 2025-05-16 = USD 1.65, so the threshold is USD 3.30. I pulled the full daily close series from the Nasdaq price republisher for 2025-05-16 to 2025-08-01. June 2025 peaked at USD 2.71 (2025-07-01), far below. The July run was 2025-07-16 2.70, 2025-07-17 2.79, 2025-07-18 3.23, then 2025-07-21 3.53. No close before 2025-07-21 reaches 3.30, so an earlier date cannot be argued. A later date also fails, because 3.53 on 2025-07-21 gives 2.139, at or above 2.0. I checked for a split or reverse split that would move the reference price and found none; the series is continuous to the 2026 Lilly cash merger. Ratio 3.53/1.65 = 2.14, as recorded.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0106",
+   "challenged": "criterion",
+   "argument": "The criterion demands a larger MADRS reduction 'at the primary timepoint', and the 2025-09-23 Phase 2a release names no primary endpoint or primary timepoint, so no timepoint matches the Phase 2b day 29 primary. The strongest attack is that the 19.0-point figure is measured one week after the second dose, not at day 29, and comes from an open-label arm of 12 per-protocol patients, so the comparison is not like for like. That attack fails on the criterion's own terms, which ask only for a larger point estimate. Every reported two-dose estimate beats both Phase 2b single active doses (12.1 for 8 mg, 11.1 for 12 mg at day 29): day 2 13.3, day 8 12.9, one week after the second dose 19.0, week 12 13.7. Under any timepoint matching the answer is the same, so the state and the 2025-09-23 date stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0108",
+   "challenged": "criterion",
+   "argument": "The criterion resolves on the first report of 'outcome data from open-label dosing of BPL-003, including an open-label extension of the Phase 2b programme'. Read literally, that main clause is satisfied long before 2025-11-10. On 2024-03-27 atai reported initial results from Beckley Psytech's Phase 2a OPEN LABEL study of BPL-003 in TRD with quantitative outcomes (55 percent remission at week 4, 45 percent at week 12). The 2025-09-23 Phase 2a two-dose release is a second earlier candidate, which the resolver also noted. The asset line and the readings instead scope the event to the Phase 2b programme OLE, which gives 2025-11-10. The criterion text and the asset scope conflict, and the criterion sets no floor at the statement date, so a 2024 report could resolve a later forecast. The date turns on which scope an adjudicator picks, so I escalate rather than pick one.",
+   "verdict": "escalated",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0110",
+   "challenged": "criterion",
+   "argument": "The criterion counts only 'a partnership, collaboration, co-development or licensing agreement ... for one of atai's psychedelic programs', and excludes an equity investment or a financing. The Lilly transaction of 2026-07-16 is none of the four named types: it is an Agreement and Plan of Merger signed 2026-07-15 to buy the whole company for USD 6.75 per share in cash plus CVRs. On the strict enumerated reading the recorded state fails and the event runs to the deadline as not_occurred. I searched for a qualifying deal and found none: the Psilera DMT patent licence (2025) is with a small private company, the NIDA award is a grant, and the Beckley merger is not a large pharmaceutical company. The entry's own readings, however, broaden the words to 'an announced agreement between atai and a large pharmaceutical company', which the merger meets. Criterion text and readings conflict inside the entry, so this needs adjudication.",
+   "verdict": "escalated",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0114",
+   "challenged": "date",
+   "argument": "I tried to move the date earlier to the day the meeting was actually held. The criterion uses the stated meeting date when the announcement gives one. I read the 2026-03-03 GlobeNewswire release in full: it reports that the FDA End-of-Phase 2 meeting for BPL-003 in TRD took place and cites minutes from the meeting, but it states no meeting date and no meeting format. No earlier sponsor announcement of a held meeting exists; earlier statements were guidance on a planned Phase 3 start. So the fallback applies and the date is the announcement date, 2026-03-03. The 'minutes from the meeting' wording also defeats the argument that this was only a granted request. One evidence defect: the third item, the Investor Day release on Phase 3 initiation, is dated 2026-03-10, not 2026-03-03. That does not move the state or the date.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0119",
+   "challenged": "date",
+   "argument": "The event resolves on the first DT120 Phase 3 topline reported after 2026-05-07, so I looked for a Phase 3 topline between 2026-05-07 and 2026-06-22 that could displace Emerge, and for a miss. I found none: Definium reported no Phase 3 topline in May 2026, Voyage in GAD came later on 2026-08-12 and the sponsor itself calls it the second positive Phase 3 readout, and Panorama was still guided to September 2026. Emerge on 2026-06-22 therefore fixes the date. On state, the sponsor reports the prespecified primary endpoint met: MADRS change from baseline at week 6, DT120 100 microgram ODT -13.3 versus placebo -5.2, an 8.1-point placebo-adjusted difference, p<0.0001, in MDD. Both the state and the date stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0123",
+   "challenged": "date",
+   "argument": "I attacked the date from both sides. Earlier: I looked for a commercial medical policy bulletin or a Medicare policy paying for SAINT before 2024-07-01 and found none; the four Category III codes 0889T to 0892T only took effect 2024-07-01, and reported commercial coverage came after, with Magnus citing broad payer coverage only from 2025 to 2026. Later: the argument that the July 2024 action is a bare code assignment, which the criterion excludes, fails. CMS Transmittal 12665 assigns status indicator S, separately payable, and New Technology APCs 1511 and 1522, and the New Technology APC Approval Tracker records the approval for Magnus Medical with effective date 2024-07-01. That is a Medicare payment rate, which the criterion accepts. The criterion asks for the effective date, so 2024-07-01, not the 2024-05-31 transmittal date, is right.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0126",
+   "challenged": "date",
+   "argument": "The event asks for the first Compass report of a Phase 3 primary endpoint in TRD, in either direction, so I looked for an earlier qualifying report. The earlier COMP005 announcements cover completion of recruitment and completion of Part A dosing only, with no primary estimate, and the criterion excludes those. No Phase 3 primary result was reported before 2025-06-23. I confirmed the release date on the Compass investor relations page: 23 June 2025, reporting COMP005 (NCT05624268) with a MADRS difference from placebo at week 6 of -3.6 points, p<0.001. A later date also fails, because COMP006 reported on 2026-02-17 and the 52-week Part C open-label data came in September 2026, both after. ClinicalTrials.gov still posts no results, so the sponsor release is the correct resolving source.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0127",
+   "challenged": "evidence",
+   "argument": "The recorded state and date survive: the first Phase 3 primary result reported, COMP005 on 2025-06-23, was reported as met with statistical significance (MADRS week 6, 25 mg versus placebo, -3.6 points, p<0.001), so the FALSE branch for a first-report miss does not apply, and no earlier Phase 3 primary report exists. The evidence is defective, however. The second item, the COMP006 release, is dated 2026-09-14 in the record, which is the accessed date, not the publication date. I opened the page: it was published on 2026-02-17 and reports two fixed doses of COMP360 25 mg versus 1 mg, difference -3.8 points, p<0.001. The seven-month error should be fixed, since a wrong date on a supporting item weakens any later audit. It does not change the state or the resolving date.",
+   "verdict": "upheld",
+   "corrected": null
+  }
+ ]
+}

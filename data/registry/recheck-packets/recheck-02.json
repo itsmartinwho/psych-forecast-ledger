@@ -1,0 +1,544 @@
+{
+ "packet": "recheck-02.json",
+ "cases": [
+  {
+   "event": {
+    "id": "E-0103",
+    "template": "quantity_threshold",
+    "area": "company_market",
+    "asset": "atai Life Sciences common stock (Nasdaq: ATAI, or its successor listing): closing share price relative to the 2025-05-16 close",
+    "entity": "atai Life Sciences",
+    "title": "atai share price at or above twice its 16 May 2025 close",
+    "proposition": "The Nasdaq closing price of atai Life Sciences (ATAI, or its successor listing) is at or above two times its closing price on 16 May 2025, per Nasdaq closing prices.",
+    "criterion": "Resolved on the named data series only: the Nasdaq daily closing price of atai Life Sciences common stock (ATAI, or its successor listing), adjusted for any split or reverse split. The reference price is the ATAI Nasdaq close on 2025-05-16. TRUE on the first trading day after the statement date on which the closing price is at or above 2.0 times the reference price. The threshold is in the forecaster's words ('a multiple of where it trades today', read at its lower bound of two times), so it resolves as binary at 2.0 with no band. FALSE at the window end when no close has reached 2.0 times the reference price. If the shares stop trading with no successor listing and no price series has published 12 months after the window end, the event is unresolvable. Realized values are stored, not scored.",
+    "resolution_source": {
+     "name": "Nasdaq daily closing prices for ATAI (or successor listing)",
+     "url": "https://www.nasdaq.com/market-activity/stocks/atai"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": {
+     "metric": "Ratio of the ATAI Nasdaq closing price to the ATAI Nasdaq closing price on 2025-05-16 (split-adjusted)",
+     "threshold": 2,
+     "direction": ">=",
+     "unit": "ratio (times the 2025-05-16 close)",
+     "series": "Nasdaq daily closing price of ATAI (or successor listing)"
+    },
+    "readings": [
+     "'A multiple of where it trades today' is read at its lower bound: a closing price at least two times the 2025-05-16 close, the smallest multiple.",
+     "'Where it trades today' = the Nasdaq closing price on the statement date, 2025-05-16, a fact fixed on that date.",
+     "'It of course always depends on the broader macro environment for biotech' is a hedge, not an observable condition; it is not coded as a condition."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-14",
+    "version": "1.1.0"
+   },
+   "outcome": {
+    "event_id": "E-0103",
+    "state": "occurred",
+    "date": "2025-07-21",
+    "checked_through": "2026-09-14",
+    "realized_value": 2.14,
+    "evidence": [
+     {
+      "url": "https://www.macrotrends.net/assets/php/stock_price_history.php?t=ATAI",
+      "title": "ATAI (atai Life Sciences / AtaiBeckley) daily stock price history, Nasdaq",
+      "publisher": "Macrotrends",
+      "date": "2025-07-21",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/ATAI?period1=1747267200&period2=1789000000&interval=1d",
+      "title": "ATAI daily close series (NasdaqGM), Yahoo Finance chart data",
+      "publisher": "Yahoo Finance",
+      "date": "2025-07-21",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.nasdaq.com/market-activity/stocks/atai",
+      "title": "ATAI market activity, Nasdaq",
+      "publisher": "Nasdaq",
+      "date": "2026-09-14",
+      "accessed": "2026-09-14"
+     }
+    ],
+    "note": "Reference close 2025-05-16 = USD 1.65; threshold = USD 3.30. Closes after that date: 2025-07-17 2.79, 2025-07-18 3.23, 2025-07-21 3.53. The first close at or above 2.0 times the reference is 2025-07-21 at USD 3.53, a ratio of 2.14. Two independent republishers of the Nasdaq close (Macrotrends and Yahoo Finance) give identical values for 2025-05-16, 2025-07-18 and 2025-07-21. No split or reverse split is recorded in the series. The price stayed far above the threshold afterwards (USD 5.48 October 2025 offering price; USD 7.35 close on 2026-09-11). Eli Lilly completed its acquisition of AtaiBeckley on 2026-09-11, ending the ATAI listing, after the event had resolved.",
+    "resolver": "R2",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0106",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "BPL-003 (intranasal 5-MeO-DMT) two-dose induction regimen in treatment-resistant depression",
+    "entity": "atai Life Sciences / Beckley Psytech (sponsor)",
+    "title": "BPL-003 two-dose induction reports a larger antidepressant effect than the single-dose Phase 2b result",
+    "proposition": "The sponsor reports data in which a two-dose induction regimen of BPL-003 produces a larger reduction in depression score (MADRS) than the single-dose Phase 2b result.",
+    "criterion": "TRUE on the date of the first sponsor topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports a two-dose induction regimen of BPL-003 (intranasal 5-MeO-DMT) in treatment-resistant depression with a larger point-estimate reduction from baseline in the MADRS total score, at the primary timepoint, than the estimate the sponsor reported for the corresponding single active dose in the BPL-003 Phase 2b trial the forecaster describes. The comparison is on the reported point estimates; statistical significance of the difference is not required. FALSE on the date the sponsor first reports a two-dose induction estimate that is not larger, and FALSE at the deadline when no two-dose induction data have been reported.",
+    "resolution_source": {
+     "name": "Sponsor topline press release; ClinicalTrials.gov results or peer-reviewed publication as a secondary source",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'Even stronger results' is read as a larger reduction in the MADRS total score, the primary depression measure of the Phase 2b trial the forecaster summarises in the same post.",
+     "'To be proven with further data' names the resolution event: the sponsor must report two-dose induction data, not merely plan them.",
+     "'Might deliver' is a hedge on likelihood, not a condition."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-14",
+    "version": "1.1.0"
+   },
+   "outcome": {
+    "event_id": "E-0106",
+    "state": "occurred",
+    "date": "2025-09-23",
+    "checked_through": "2026-09-14",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.globenewswire.com/news-release/2025/09/23/3154533/0/en/atai-Life-Sciences-and-Beckley-Psytech-Report-Positive-Phase-2a-Data-Demonstrating-Improved-Outcomes-with-a-Two-Dose-Induction-Regimen-of-BPL-003-in-Patients-with-Treatment-Resista.html",
+      "title": "atai Life Sciences and Beckley Psytech Report Positive Phase 2a Data Demonstrating Improved Outcomes with a Two-Dose Induction Regimen of BPL-003 in Patients with Treatment-Resistant Depression",
+      "publisher": "atai Life Sciences and Beckley Psytech via GlobeNewswire",
+      "date": "2025-09-23",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.globenewswire.com/news-release/2025/07/01/3108164/0/en/atai-Life-Sciences-and-Beckley-Psytech-Announce-Positive-Topline-Results-from-the-Phase-2b-Study-of-BPL-003-in-Patients-with-Treatment-Resistant-Depression.html",
+      "title": "atai Life Sciences and Beckley Psytech Announce Positive Topline Results from the Phase 2b Study of BPL-003 in Patients with Treatment-Resistant Depression",
+      "publisher": "atai Life Sciences via GlobeNewswire",
+      "date": "2025-07-01",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.globenewswire.com/news-release/2025/11/10/3184384/0/en/AtaiBeckley-Announces-Positive-Topline-Data-from-the-Phase-2b-Open-Label-Extension-Study-of-BPL-003-Supporting-Safety-and-Efficacy-of-a-Second-Dose-in-Patients-with-Treatment-Resis.html",
+      "title": "AtaiBeckley Announces Positive Topline Data from the Phase 2b Open-Label Extension Study of BPL-003, Supporting Safety and Efficacy of a Second Dose in Patients with Treatment-Resistant Depression",
+      "publisher": "AtaiBeckley via GlobeNewswire",
+      "date": "2025-11-10",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.psychiatrictimes.com/view/bpl-003-positive-phase-2b-open-label-extension-study-data",
+      "title": "BPL-003: Positive Phase 2b Open-Label Extension Study Data",
+      "publisher": "Psychiatric Times",
+      "date": "2025-11-10",
+      "accessed": "2026-09-14"
+     }
+    ],
+    "note": "On 2025-09-23 the sponsor reported the Phase 2a two-dose induction regimen (NCT05660642, 8 mg then 12 mg two weeks later, n=13 enrolled, 12 per protocol): mean MADRS reduction from baseline 13.3 points at day 2, 12.9 at day 8, 19.0 one week after the second dose, and 13.7 at week 12. The corresponding single active dose in the Phase 2b (2025-07-01) gave 12.1 points for 8 mg and 11.1 for 12 mg at the day 29 primary timepoint. The two-dose point estimate, 19.0, is larger, and the week 12 estimate, 13.7, is also larger. The 2025-11-10 Phase 2b open-label extension confirms the direction: 22.3 points at day 57 for patients whose first dose was 8 mg. The criterion asks only for a larger point estimate, not a significant difference.",
+    "resolver": "R2",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0108",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "BPL-003 (intranasal 5-MeO-DMT) Phase 2b programme: open-label (extension) data",
+    "entity": "atai Life Sciences / Beckley Psytech (sponsor)",
+    "title": "BPL-003 (5-MeO-DMT) open-label data are reported",
+    "proposition": "The sponsor reports open-label (extension) data for BPL-003 from its Phase 2b programme in treatment-resistant depression.",
+    "criterion": "TRUE on the date of the first sponsor press release, investor presentation, conference presentation, ClinicalTrials.gov results posting or peer-reviewed publication that reports outcome data from open-label dosing of BPL-003 (intranasal 5-MeO-DMT), including an open-label extension of the Phase 2b programme in treatment-resistant depression. At least one quantitative open-label outcome (for example a MADRS change, a response rate or a remission rate) must be reported. A statement that open-label data exist or are coming, a schedule or guidance with no data, and a safety-only listing do not count. FALSE at the deadline when no such report has appeared.",
+    "resolution_source": {
+     "name": "Sponsor press release or investor presentation; ClinicalTrials.gov results as a secondary source",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'We're going to have open label data for 5-MeO-DMT' and 'More Open Label Extension (OLE) data coming soon' are one event: the reporting of open-label BPL-003 data.",
+     "The words promise data, not a result; the event is the report itself, whatever the data show.",
+     "'Soon' and 'this year' fix deadlines on the items, not on the event."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-14",
+    "version": "1.1.0"
+   },
+   "outcome": {
+    "event_id": "E-0108",
+    "state": "occurred",
+    "date": "2025-11-10",
+    "checked_through": "2026-09-14",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.globenewswire.com/news-release/2025/11/10/3184384/0/en/AtaiBeckley-Announces-Positive-Topline-Data-from-the-Phase-2b-Open-Label-Extension-Study-of-BPL-003-Supporting-Safety-and-Efficacy-of-a-Second-Dose-in-Patients-with-Treatment-Resis.html",
+      "title": "AtaiBeckley Announces Positive Topline Data from the Phase 2b Open-Label Extension Study of BPL-003, Supporting Safety and Efficacy of a Second Dose in Patients with Treatment-Resistant Depression",
+      "publisher": "AtaiBeckley via GlobeNewswire",
+      "date": "2025-11-10",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.biospace.com/press-releases/ataibeckley-announces-positive-topline-data-from-the-phase-2b-open-label-extension-study-of-bpl-003-supporting-safety-and-efficacy-of-a-second-dose-in-patients-with-treatment-resistant-depression",
+      "title": "AtaiBeckley Announces Positive Topline Data from the Phase 2b Open-Label Extension Study of BPL-003 (full release text)",
+      "publisher": "AtaiBeckley via BioSpace",
+      "date": "2025-11-10",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.psychiatrictimes.com/view/bpl-003-positive-phase-2b-open-label-extension-study-data",
+      "title": "BPL-003: Positive Phase 2b Open-Label Extension Study Data",
+      "publisher": "Psychiatric Times",
+      "date": "2025-11-10",
+      "accessed": "2026-09-14"
+     }
+    ],
+    "note": "On 2025-11-10 the sponsor reported topline data from the open-label extension of the BPL-003 Phase 2b programme in TRD (NCT05870540), with quantitative outcomes: mean MADRS reduction from baseline at day 57 of 14.0 points for the 0.3 mg initial-dose group (n=47), 22.3 points for the 8 mg initial-dose group (n=23) and 19.0 points for the pooled active group (n=60), plus 63 percent response and 48 percent remission at week 8. That meets the quantitative-outcome bar. The date follows the asset, which names the Phase 2b programme. Under a wider reading of open-label BPL-003 data of any study, the earlier Phase 2a two-dose induction release of 2025-09-23 would also qualify.",
+    "resolver": "R2",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0110",
+    "template": "company_event",
+    "area": "company_market",
+    "asset": "atai Life Sciences psychedelic programs: partnership, collaboration or licensing agreement with a large pharmaceutical company",
+    "entity": "atai Life Sciences (AtaiBeckley) and a large pharmaceutical company",
+    "title": "A large pharmaceutical company partners with atai on a psychedelic program",
+    "proposition": "atai Life Sciences announces a partnership, collaboration or licensing agreement with a large pharmaceutical company for one of its psychedelic programs.",
+    "criterion": "TRUE on the date of the definitive public announcement (atai press release or SEC filing) of a partnership, collaboration, co-development or licensing agreement between atai Life Sciences, under any corporate name including AtaiBeckley or a successor, and a large pharmaceutical company, for one of atai's psychedelic programs. A large pharmaceutical company is one with annual revenue at or above US$10 billion in its last reported fiscal year. Rumours, letters of intent and non-binding term sheets do not count. An equity investment, a financing, a supply contract or a service contract without a program agreement does not count. FALSE at the deadline when no such announcement exists.",
+    "resolution_source": {
+     "name": "atai Life Sciences press releases; SEC EDGAR filings",
+     "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'If they want exposure, they'll likely need to partner... with us' is read as an announced agreement between atai and a large pharmaceutical company; the counterparty decides, so the words are a prediction about an event, not an intention.",
+     "'Big Pharma' is read as a pharmaceutical company with annual revenue at or above US$10 billion."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-14",
+    "version": "1.1.0"
+   },
+   "outcome": {
+    "event_id": "E-0110",
+    "state": "occurred",
+    "date": "2026-07-16",
+    "checked_through": "2026-09-14",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.sec.gov/Archives/edgar/data/0002081043/000114036126028604/ef20078103_ex99-1.htm",
+      "title": "Lilly to acquire AtaiBeckley to advance therapies for treatment-resistant depression and other mental health conditions (Form 8-K, Exhibit 99.1)",
+      "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+      "date": "2026-07-16",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.sec.gov/Archives/edgar/data/2081043/000119312526344720/atai-20260630.htm",
+      "title": "AtaiBeckley Inc. Form 10-Q for the quarter ended June 30, 2026 (subsequent events: Agreement and Plan of Merger with Eli Lilly and Company dated July 15, 2026)",
+      "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+      "date": "2026-08-11",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.statnews.com/2026/07/16/eli-lilly-acquire-ataibeckley-psychedelics-depression/",
+      "title": "Eli Lilly to acquire psychedelics-focused biotech AtaiBeckley",
+      "publisher": "STAT News",
+      "date": "2026-07-16",
+      "accessed": "2026-09-14"
+     }
+    ],
+    "note": "AtaiBeckley signed an Agreement and Plan of Merger with Eli Lilly and Company on 2026-07-15 and announced it on 2026-07-16: $6.75 per share in cash (about $2.8B) plus up to $2.50 per share in CVRs tied to BPL-003 and VLS-01 milestones. Lilly revenue is far above US$10B, so it is a large pharmaceutical company, and the agreement is definitive and covers atai's psychedelic programs. Caveat on the criterion: the deal is an acquisition, not a partnership, collaboration, co-development or licensing agreement. A strict reading of the enumerated deal types would give not_occurred. I follow the registry reading, which reads the words as 'an announced agreement between atai and a large pharmaceutical company'; an acquisition of the whole company and its psychedelic programs satisfies that reading. Flagged for adjudication.",
+    "resolver": "R2",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0114",
+    "template": "company_event",
+    "area": "regulatory",
+    "asset": "BPL-003 (intranasal 5-MeO-DMT, mebufotenin): End-of-Phase-2 (End-of-Phase-2b) meeting with the FDA",
+    "entity": "atai Life Sciences (AtaiBeckley), sponsor of BPL-003",
+    "title": "BPL-003 End-of-Phase-2 meeting with the FDA is held",
+    "proposition": "The sponsor of BPL-003 (intranasal 5-MeO-DMT) announces that the End-of-Phase-2 meeting with the FDA for BPL-003 has been held.",
+    "criterion": "TRUE on the meeting date stated in the sponsor's public announcement (press release, SEC filing or investor presentation) that the End-of-Phase-2 (End-of-Phase-2b) meeting with the FDA for BPL-003 (intranasal 5-MeO-DMT, mebufotenin) has been held; when the announcement gives no meeting date, the announcement date counts. An FDA written-response-only outcome counts when the sponsor reports it as that End-of-Phase-2 interaction. A granted meeting request, a scheduled but unheld date, a meeting on another program, and a rumour do not count. The sponsor is atai Life Sciences under any corporate name, including AtaiBeckley or a successor. FALSE at the deadline when no such announcement exists.",
+    "resolution_source": {
+     "name": "atai Life Sciences press releases; SEC EDGAR filings",
+     "url": "https://www.sec.gov/edgar/search/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'End-of-Phase-2b FDA meeting' is read as the End-of-Phase-2 meeting for BPL-003; the event is that the meeting is held, not what the FDA says at it.",
+     "The entry is on the asset, so a meeting held under a successor sponsor name counts."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-14",
+    "version": "1.1.0"
+   },
+   "outcome": {
+    "event_id": "E-0114",
+    "state": "occurred",
+    "date": "2026-03-03",
+    "checked_through": "2026-09-14",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.globenewswire.com/news-release/2026/03/03/3248186/0/en/AtaiBeckley-Announces-Successful-End-of-Phase-2-Meeting-for-BPL-003-in-Treatment-Resistant-Depression.html",
+      "title": "AtaiBeckley Announces Successful End-of-Phase 2 Meeting for BPL-003 in Treatment-Resistant Depression",
+      "publisher": "AtaiBeckley Inc. via GlobeNewswire",
+      "date": "2026-03-03",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://ir.ataibeckley.com/news-releases/news-release-details/ataibeckley-announces-successful-end-phase-2-meeting-bpl-003",
+      "title": "AtaiBeckley Announces Successful End-of-Phase 2 Meeting for BPL-003 in Treatment-Resistant Depression",
+      "publisher": "AtaiBeckley Inc. (investor relations)",
+      "date": "2026-03-03",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://ir.ataibeckley.com/news-releases/news-release-details/bpl-003-phase-3-program-initiation-track-q2-2026-following",
+      "title": "BPL-003 Phase 3 Program Initiation on Track for Q2 2026 Following Successful FDA End-of-Phase 2 Meeting; AtaiBeckley Highlights Key Pipeline Milestones at 2026 Investor Day",
+      "publisher": "AtaiBeckley Inc. (investor relations)",
+      "date": "2026-03-03",
+      "accessed": "2026-09-14"
+     }
+    ],
+    "note": "The sponsor announced on 2026-03-03 that the End-of-Phase 2 meeting with the FDA for BPL-003 (intranasal mebufotenin benzoate, 5-MeO-DMT) in treatment-resistant depression had been held. The release reports FDA support for the proposed pivotal program and feedback on design and safety database size, and refers to minutes from the meeting, so it was a held meeting and not a granted request. The release does not state the meeting date. Per the criterion, the announcement date counts, so date = 2026-03-03. The sponsor is AtaiBeckley, the successor name of atai Life Sciences, which the criterion allows.",
+    "resolver": "R2",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0119",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "DT120 (MM120, lysergide D-tartrate, LSD; Definium Therapeutics, formerly MindMed): the next Phase 3 trial whose topline is reported after 7 May 2026",
+    "entity": "Definium Therapeutics (formerly MindMed), sponsor",
+    "title": "The next DT120 (MM120, LSD) Phase 3 topline meets its primary endpoint",
+    "proposition": "The first Phase 3 trial of DT120 (MM120, LSD) whose topline result Definium Therapeutics reports after 7 May 2026 meets its prespecified primary endpoint with statistical significance.",
+    "criterion": "TRUE on the date of the sponsor's topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that first reports, after 7 May 2026, the primary endpoint result of a Phase 3 trial of DT120 (MM120, lysergide) for any indication, when that report states that the prespecified primary endpoint was met with statistical significance as reported by the sponsor. FALSE on that date when the report states the primary endpoint was not met. Only the first Phase 3 topline reported after 7 May 2026 resolves the event; secondary endpoints, interim analyses and open-label data do not count.",
+    "resolution_source": {
+     "name": "Sponsor topline press release; ClinicalTrials.gov results; peer-reviewed publication",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'Phase three results ... going to be amazing' is read as the prespecified primary endpoint met with statistical significance; no effect-size threshold is given.",
+     "'Define' / 'the finium' in the auto-caption = Definium Therapeutics (MindMed); its Phase 3 program is DT120 (MM120, LSD).",
+     "The words name no single trial, so the event is written on the next Phase 3 topline reported after the statement date rather than on a named NCT number; E-0065 (Voyage, either direction) is a different outcome type."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-14",
+    "version": "1.1.0"
+   },
+   "outcome": {
+    "event_id": "E-0119",
+    "state": "occurred",
+    "date": "2026-06-22",
+    "checked_through": "2026-09-14",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://ir.definiumtx.com/news-events/press-releases/detail/232/definium-therapeutics-announces-positive-topline-results-from-phase-3-emerge-study-of-dt120-orally-disintegrating-tablet-odt-in-major-depressive-disorder",
+      "title": "Definium Therapeutics Announces Positive Topline Results from Phase 3 Emerge Study of DT120 Orally Disintegrating Tablet (ODT) in Major Depressive Disorder",
+      "publisher": "Definium Therapeutics",
+      "date": "2026-06-22",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.psychiatrictimes.com/view/positive-topline-results-from-phase-3-emerge-study-of-dt120-odt-in-major-depressive-disorder",
+      "title": "Positive Topline Results From Phase 3 Emerge Study of DT120 ODT in Major Depressive Disorder",
+      "publisher": "Psychiatric Times",
+      "date": "2026-06-22",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://ir.definiumtx.com/news-events/press-releases/detail/247/definium-therapeutics-receives-breakthrough-therapy-designation-for-dt120-lysergide-orally-disintegrating-tablet-odt-in-major-depressive-disorder-mdd-following-positive-phase-3-results",
+      "title": "Definium Therapeutics Receives Breakthrough Therapy Designation for DT120 (lysergide) ODT in MDD Following Positive Phase 3 Results",
+      "publisher": "Definium Therapeutics",
+      "date": "2026-09-08",
+      "accessed": "2026-09-14"
+     }
+    ],
+    "note": "Emerge is the first DT120 Phase 3 topline reported after 2026-05-07. On 2026-06-22 Definium reported that Emerge met its prespecified primary endpoint: change from baseline in MADRS total score at week 6, 8.1-point placebo-adjusted improvement (DT120 -13.3 vs placebo -5.2), p<0.0001, after a single 100 microgram dose in MDD. The sponsor states the primary and all key secondary endpoints were met. The later Voyage GAD topline (2026-08-12) does not resolve this event, because only the first Phase 3 topline after 2026-05-07 counts.",
+    "resolver": "R2",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0123",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "asset": "SAINT neuromodulation system (fMRI-guided accelerated intermittent theta-burst stimulation, Magnus Medical): payment by a US health plan or Medicare",
+    "entity": "US health plans and Medicare (Centers for Medicare & Medicaid Services)",
+    "title": "A US payer pays for SAINT neuromodulation",
+    "proposition": "A US health plan or Medicare adopts a coverage policy or payment rate that pays for treatment with the SAINT neuromodulation system.",
+    "criterion": "TRUE on the effective date of a published payer policy document, dated after 2022-09-07, under which a US health plan or Medicare pays for treatment with the SAINT neuromodulation system (fMRI-guided accelerated intermittent theta-burst stimulation, Magnus Medical): a national or local coverage determination, a Medicare fee schedule or add-on payment, or a commercial plan's public medical policy bulletin that lists the treatment as covered. A CPT or HCPCS code assignment on its own, a proposed rule, a pilot, a single case-by-case or appeal approval, and a manufacturer statement are not a coverage policy. Resolution source: the CMS Medicare Coverage Database for Medicare policies, and the payer's own public medical policy bulletin for a commercial plan. FALSE at the deadline when no such policy is published.",
+    "resolution_source": {
+     "name": "CMS Medicare Coverage Database (NCD and LCD records and fee schedule rules), and the payer's own public medical policy bulletin for a commercial plan",
+     "url": "https://www.cms.gov/medicare-coverage-database/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-14",
+    "version": "1.1.0"
+   },
+   "outcome": {
+    "event_id": "E-0123",
+    "state": "occurred",
+    "date": "2024-07-01",
+    "checked_through": "2026-09-14",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://www.cms.gov/files/document/r12665cp.pdf",
+      "title": "Transmittal 12665, Change Request 13632: July 2024 Update of the Hospital Outpatient Prospective Payment System (OPPS)",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "date": "2024-05-31",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.cms.gov/files/document/new-technology-apc-approvals-tracker-updated-04/08/2025.pdf",
+      "title": "New Technology APC Application Approval Tracker (updated 2025-04-08)",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "date": "2025-04-08",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.businesswire.com/news/home/20251124582323/en/Magnus-Medical-Announces-Uninterrupted-2026-Payment-Stability-for-SAINT-Neuromodulation-in-CMS-OPPS-Final-Rule",
+      "title": "Magnus Medical Announces Uninterrupted 2026 Payment Stability for SAINT Neuromodulation in CMS OPPS Final Rule",
+      "publisher": "Magnus Medical via Business Wire",
+      "date": "2025-11-24",
+      "accessed": "2026-09-14"
+     }
+    ],
+    "note": "CMS Transmittal 12665 (2024-05-31), the July 2024 OPPS update, assigns the four SAINT service codes 0889T, 0890T, 0891T and 0892T status indicator S (separately payable procedure) and New Technology APCs 1511 and 1522, effective 2024-07-01. The CMS New Technology APC Approval Tracker records the same decision for Magnus Medical, Inc., SAINT Neuromodulation System: determination Approval, APC 1511 and APC 1522, effective date and implementation date both 2024-07-01. That is a Medicare fee schedule payment rate, not a bare code assignment, so it meets the criterion. Payment has continued since: CY2025 OPPS moved the treatment-day codes to New Technology APC 1525 and the CY2026 final rule kept the rates.",
+    "resolver": "R2",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0126",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "COMP360 (Compass Pathways' synthetic psilocybin): the first Phase 3 topline readout in treatment-resistant depression",
+    "entity": "Compass Pathways",
+    "title": "Compass Pathways reports its first COMP360 Phase 3 topline readout",
+    "proposition": "Compass Pathways reports the topline primary-endpoint result, in either direction, of the first Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression.",
+    "criterion": "TRUE on the date of the first Compass Pathways topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports the primary endpoint result, in either direction, of a Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression. A Phase 2 result, an enrollment or trial-start announcement, a guidance statement on the expected readout date, an interim safety report and a conference abstract without the primary estimate do not count. Resolution source: Compass Pathways press releases, with ClinicalTrials.gov results as the secondary source. FALSE at the deadline when no such report is dated by then.",
+    "resolution_source": {
+     "name": "Compass Pathways topline press releases; ClinicalTrials.gov results as the secondary source",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'Readout' reads as the sponsor's first public report of the trial's primary endpoint result, in either direction."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-14",
+    "version": "1.1.0"
+   },
+   "outcome": {
+    "event_id": "E-0126",
+    "state": "occurred",
+    "date": "2025-06-23",
+    "checked_through": "2026-09-14",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2025/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-First-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx",
+      "title": "Compass Pathways Successfully Achieves Primary Endpoint in First Phase 3 Trial Evaluating COMP360 Psilocybin for Treatment-Resistant Depression",
+      "publisher": "Compass Pathways (investor relations)",
+      "date": "2025-06-23",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://clinicaltrials.gov/study/NCT05624268",
+      "title": "Efficacy, Safety, and Tolerability of COMP360 in Participants With TRD (COMP005), Phase 3, status Completed",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026-09-14",
+      "accessed": "2026-09-14"
+     }
+    ],
+    "note": "First sponsor topline report of a Phase 3 primary endpoint for COMP360 in treatment-resistant depression. The 2025-06-23 Compass Pathways press release reports COMP005 (NCT05624268, 258 participants, 32 US sites): difference in change from baseline in MADRS at week 6 for a single 25 mg dose versus placebo of -3.6 points, p<0.001. Earlier Compass announcements in the same trial covered recruitment completion and Part A dosing only, so they do not meet the criterion. The later COMP006 topline (2026) and the 52-week Part C open-label data (2026-09-09) are after this date. ClinicalTrials.gov shows the trial as completed with no results posted, so the sponsor release is the resolving source.",
+    "resolver": "R2",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  },
+  {
+   "event": {
+    "id": "E-0127",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "COMP360 (Compass Pathways' synthetic psilocybin): Phase 3 programme in treatment-resistant depression",
+    "entity": "Compass Pathways",
+    "title": "A COMP360 (psilocybin) Phase 3 trial in treatment-resistant depression meets its primary endpoint",
+    "proposition": "A Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression reports its prespecified primary efficacy endpoint met with statistical significance.",
+    "criterion": "TRUE on the date of the first Compass Pathways topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports a Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression as having met its prespecified primary efficacy endpoint with statistical significance against the control arm, as reported by the sponsor. A Phase 2 result, a secondary endpoint, an interim analysis, a long-term follow-up report and a conference abstract without the primary estimate do not count. Resolution source: Compass Pathways topline press releases, with ClinicalTrials.gov results as the secondary source. FALSE at the deadline when the first reported Phase 3 primary endpoint missed significance, or when no Phase 3 primary result is reported.",
+    "resolution_source": {
+     "name": "Compass Pathways topline press releases; ClinicalTrials.gov results as the secondary source",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [
+     "'A successful phase three' reads as the prespecified primary efficacy endpoint met with statistical significance.",
+     "The first Phase 3 trial to report its primary result resolves the event."
+    ],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-14",
+    "version": "1.1.0"
+   },
+   "outcome": {
+    "event_id": "E-0127",
+    "state": "occurred",
+    "date": "2025-06-23",
+    "checked_through": "2026-09-14",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2025/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-First-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx",
+      "title": "Compass Pathways Successfully Achieves Primary Endpoint in First Phase 3 Trial Evaluating COMP360 Psilocybin for Treatment-Resistant Depression",
+      "publisher": "Compass Pathways (investor relations)",
+      "date": "2025-06-23",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Successfully-Achieves-Primary-Endpoint-in-Second-Phase-3-Trial-Evaluating-COMP360-Psilocybin-for-Treatment-Resistant-Depression/default.aspx",
+      "title": "Compass Pathways Successfully Achieves Primary Endpoint in Second Phase 3 Trial Evaluating COMP360 Psilocybin for Treatment-Resistant Depression (COMP006)",
+      "publisher": "Compass Pathways (investor relations)",
+      "date": "2026-09-14",
+      "accessed": "2026-09-14"
+     }
+    ],
+    "note": "The first Phase 3 trial to report its primary result met it. Compass Pathways states on 2025-06-23 that COMP005 achieved its prespecified primary endpoint: MADRS change from baseline at week 6, 25 mg COMP360 versus placebo, difference -3.6 points, p<0.001, in 258 participants with treatment-resistant depression. The second Phase 3 trial, COMP006 (25 mg versus 1 mg, difference -3.8 points, p<0.001), also met its primary endpoint, but the first report fixes the date. Accessed date used for the COMP006 release because its publication date was not read from the page.",
+    "resolver": "R2",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
+  }
+ ]
+}
