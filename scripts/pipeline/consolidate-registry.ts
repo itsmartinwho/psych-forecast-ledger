@@ -22,6 +22,8 @@ const mode = process.argv[2];
 if (mode === "prep") {
   const existing = fs.existsSync(rel("data/registry/events.json")) ? readJson<{ id: string; title: string; proposition: string; asset: string; template: string; area: string }[]>(rel("data/registry/events.json")) : [];
   const proposals: (Proposal & { coder: string; statement_ids: string[]; first_date: string })[] = [];
+  // refs the registry already mapped (a previous consolidation) are not proposed again
+  const mapped = fs.existsSync(rel("data/intake/registry-map.json")) ? readJson<Record<string, string>>(rel("data/intake/registry-map.json")) : {};
   const dates = new Map<string, string>();
   for (const f of ["owen", "angermayer", "doblin"]) { const p = rel(`data/census/${f}.json`); if (fs.existsSync(p)) for (const r of readJson<{ id: string; statement_date: string }[]>(p)) dates.set(r.id, r.statement_date); }
   for (const { coder, file } of coderFiles()) {
@@ -30,6 +32,7 @@ if (mode === "prep") {
       for (const ev of [r.event, r.condition]) {
         if (!ev || !("ref" in ev) || !String(ev.ref).startsWith("new:")) continue;
         const key = `${coder}:${ev.ref}`;
+        if (key in mapped) continue;
         const found = proposals.find((p) => `${p.coder}:${p.ref}` === key);
         const sid = r.id.replace(/-[ab]$/, "");
         if (found) { found.statement_ids.push(sid); if ((dates.get(sid) ?? "9999") < found.first_date) found.first_date = dates.get(sid)!; }
@@ -104,8 +107,11 @@ if (mode === "prep") {
   if (problems.length) { console.error(problems.join("\n")); process.exit(1); }
   const registry = [...existing, ...added];
   writeJson(rel("data/registry/events.json"), registry);
-  writeJson(rel("data/intake/registry-map.json"), cons.map);
-  writeJson(rel("data/intake/registry-inverted.json"), inverted);
+  // merge with the map and inverted list of earlier consolidations: old refs keep their entries
+  const oldMap = fs.existsSync(rel("data/intake/registry-map.json")) ? readJson<Record<string, string>>(rel("data/intake/registry-map.json")) : {};
+  const oldInverted = fs.existsSync(rel("data/intake/registry-inverted.json")) ? readJson<string[]>(rel("data/intake/registry-inverted.json")) : [];
+  writeJson(rel("data/intake/registry-map.json"), { ...oldMap, ...cons.map });
+  writeJson(rel("data/intake/registry-inverted.json"), [...new Set([...oldInverted, ...inverted])]);
   const outOfArea = Object.values(cons.map).filter((v) => v === "OUT_OF_AREA").length;
   appendAudit({ script: "consolidate-registry apply", added: added.length, total: registry.length, mapped_refs: Object.keys(cons.map).length, out_of_area_refs: outOfArea });
   console.log(`registry: ${registry.length} events (${added.length} added); map has ${Object.keys(cons.map).length} refs, ${outOfArea} refused by the scope gate, ${inverted.length} inverted`);

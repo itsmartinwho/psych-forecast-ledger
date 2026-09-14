@@ -41,6 +41,16 @@ const loadCoder = <T extends { id: string }>(letter: string): Map<string, T> => 
   return m;
 };
 const A = loadCoder<RecA>("a"), B = loadCoder<RecB>("b"), C = loadCoder<RecA>("c");
+// statements coded in the release-1.0 packets (code-01 to code-54) keep their 2026-09-13 intake stamp; later packets are stamped with their own date
+const RELEASE_1_PACKETS = 54;
+const codedAt = new Map<string, string>();
+{
+  const dir = rel("data/intake/coded");
+  if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir).filter((x) => x.startsWith("coder-a-code-") && x.endsWith(".json"))) {
+    const n = Number(f.slice("coder-a-code-".length, -5));
+    for (const r of readJson<{ records: RecA[] }>(rel("data/intake/coded", f)).records ?? []) codedAt.set(r.id.replace(/-[ab]$/, ""), n > RELEASE_1_PACKETS ? "2026-09-14" : "2026-09-13");
+  }
+}
 
 // the registry scope gate: the consolidation step maps a proposal outside the five area definitions to "OUT_OF_AREA"
 const gated = (coder: string, ev: Ev): boolean => !!ev && map[`${coder}:${ev.ref}`] === "OUT_OF_AREA";
@@ -82,7 +92,7 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
     if (!a || !b) { stats.uncoded++; statements.push({ ...base, status: "not_admitted", reason_code: "NOT_FORECAST", coders: {} } as Statement); continue; }
     // coder B's own answers for every double-coded statement: the denominator of the agreement (kappa) tables
     const evB = resolveRef("B", b.event);
-    coderB.push({ id: row.id, admit: b.admit, reason_code: (b.reason_code ?? null) as CoderB["reason_code"], event_id: evB && /^E-\d{4}$/.test(evB) ? evB : null, deadline: b.deadline ?? null, bin: (b.bin ?? null) as CoderB["bin"], asserts: b.asserts ?? null, coder: "B", coded_at: "2026-09-13" });
+    coderB.push({ id: row.id, admit: b.admit, reason_code: (b.reason_code ?? null) as CoderB["reason_code"], event_id: evB && /^E-\d{4}$/.test(evB) ? evB : null, deadline: b.deadline ?? null, bin: (b.bin ?? null) as CoderB["bin"], asserts: b.asserts ?? null, coder: "B", coded_at: codedAt.get(row.id) ?? "2026-09-13" });
     let decider: RecA | null = null;
     let admitted = a.admit && b.admit;
     if (a.admit !== b.admit) {
@@ -138,7 +148,7 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
       area: (registryArea.get(evP) ?? "regulatory") as Item["area"], event_id: evP, condition_event_id: condRef && /^E-\d{4}$/.test(condRef) ? condRef : null,
       asserts: asP !== false, deadline: dlP, deadline_origin: dlP ? (primary.deadline_origin ?? "anchor") : null, deadline_text: primary.deadline_text ?? null, panel,
       p: clamp(p), p_origin: primary.p_stated !== null ? "stated" : "lexicon", p_note, bin: (primary.bin ?? null) as Item["bin"], phrase: primary.phrase ?? null, stated_number: primary.p_stated !== null ? String(primary.p_stated) : null,
-      tags: [...tags] as Item["tags"], base_rate, market_ref_id: marketRefFor(evP, dlP ?? undatedEnd), coder: primary === a ? "A" : "C", rule_version: rules.version, intake_at: "2026-09-13", hindsight_scan: "clean", version: 1, history: [],
+      tags: [...tags] as Item["tags"], base_rate, market_ref_id: marketRefFor(evP, dlP ?? undatedEnd), coder: primary === a ? "A" : "C", rule_version: rules.version, intake_at: codedAt.get(row.id) ?? "2026-09-13", hindsight_scan: "clean", version: 1, history: [],
     };
     const parsed = Item.safeParse(item);
     if (!parsed.success) { console.error(`${row.id}: item fails schema: ${parsed.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`); statements.push({ ...base, status: "void", void_reason: "AMBIGUOUS", coders } as Statement); stats.void_ambiguous++; continue; }
