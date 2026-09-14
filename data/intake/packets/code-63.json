@@ -1,0 +1,550 @@
+{
+ "packet": "code-63.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "doblin-0216",
+   "forecaster": "doblin",
+   "statement_date": "2024-09-01",
+   "quote": "it's not clear that FDA would ever approve for couples therapy",
+   "context": "Washington Post profile after the August 2024 CRL, syndicated by the Arkansas Democrat-Gazette. Doblin on future MDMA indications beyond PTSD.",
+   "post_title": "Psychedelic advocate optimistic on ecstasy's future",
+   "source_url": "https://www.arkansasonline.com/news/2024/sep/01/psychedelic-advocate-optimistic-on-ecstasys-future/",
+   "area_guess": "regulatory",
+   "horizon_text": "ever",
+   "confidence_phrase": "not clear",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Negative or hedged call. Extracted via WebFetch; washingtonpost.com original returns 403."
+  },
+  {
+   "id": "doblin-0217",
+   "forecaster": "doblin",
+   "statement_date": "2024-09-22",
+   "quote": "If we can get the research on ibogaine for substance use disorders fully funded with public money or by donors, it could go all the way through FDA approval with no patents and be made available as a generic from day one.",
+   "context": "Doblin in a Tricycle Day Q&A describes the MAPS 'Open Ibogaine' project and the conditional path to FDA approval of ibogaine as an unpatented generic.",
+   "post_title": "Psychonaut POV - Rick Doblin | Tricycle Day",
+   "source_url": "https://www.tricycleday.com/p/psychonaut-pov-d0b9",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Conditional on funding."
+  },
+  {
+   "id": "doblin-0218",
+   "forecaster": "doblin",
+   "statement_date": "2024-09-22",
+   "quote": "Reducing it to \"psychological support\" is an attempt to lower costs by using non-therapist staff, so that they can sell more of the drug. Whether the results will be as strong is not clear.",
+   "context": "Doblin in a Tricycle Day Q&A names pharma and insurer pressure to strip therapy from psychedelic treatment as the first risk, and doubts that reduced-therapy models will match the results.",
+   "post_title": "Psychonaut POV - Rick Doblin | Tricycle Day",
+   "source_url": "https://www.tricycleday.com/p/psychonaut-pov-d0b9",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "is not clear",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Hedged doubt about drug-only or 'psychological support' models."
+  },
+  {
+   "id": "doblin-0219",
+   "forecaster": "doblin",
+   "statement_date": "2024-09-22",
+   "quote": "We're planning another Psychedelic Science conference for June 2025 in Colorado. Last year, we had 12,400 people, and we're hoping for even more this time.",
+   "context": "Doblin in a Tricycle Day Q&A says MAPS plans Psychedelic Science 2025 for June 2025 in Colorado and hopes to exceed the 12,400 attendance of 2023.",
+   "post_title": "Psychonaut POV - Rick Doblin | Tricycle Day",
+   "source_url": "https://www.tricycleday.com/p/psychonaut-pov-d0b9",
+   "area_guess": "other",
+   "horizon_text": "June 2025",
+   "confidence_phrase": "we're hoping",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own event (CONTROL candidate); attendance threshold checkable."
+  },
+  {
+   "id": "doblin-0220",
+   "forecaster": "doblin",
+   "statement_date": "2024-10-31",
+   "quote": "I believe that in the current negotiations between Lykos and the FDA, they will arrive at something, and Lykos will then raise the money to do it. I think in three years or so, MDMA-assisted therapy should be approved for PTSD by the FDA.",
+   "context": "Interview with Marc Caron and Stephen Gray at the Plant Spirit Medicine conference, about eleven weeks after the FDA complete response letter. Doblin predicts Lykos and FDA will agree on a path, Lykos will raise money for it, and FDA approval will come in about three years.",
+   "post_title": "Rick Doblin Speaks on the Future of MAPS - Tripsitter",
+   "source_url": "https://tripsitter.substack.com/p/rick-doblin-the-future-of-maps",
+   "area_guess": "regulatory",
+   "horizon_text": "in three years or so",
+   "confidence_phrase": "I believe; will; I think; should be",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Compound: negotiation outcome, fundraising, and approval timing."
+  },
+  {
+   "id": "doblin-0221",
+   "forecaster": "doblin",
+   "statement_date": "2024-10-31",
+   "quote": "Can we reach this point of Net Zero trauma by 2070, That's kind of what we hope.",
+   "context": "Same Plant Spirit Medicine interview. Doblin restates the 2070 net-zero-trauma goal as a hope.",
+   "post_title": "Rick Doblin Speaks on the Future of MAPS - Tripsitter",
+   "source_url": "https://tripsitter.substack.com/p/rick-doblin-the-future-of-maps",
+   "area_guess": "other",
+   "horizon_text": "by 2070",
+   "confidence_phrase": "what we hope",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Restatement of the 2070 vision; framed as a hope, not a prediction."
+  },
+  {
+   "id": "doblin-0222",
+   "forecaster": "doblin",
+   "statement_date": "2024-10-31",
+   "quote": "I think Maps is going to be fully busy, for decades and decades and decades to come.",
+   "context": "Same interview. Doblin says the nonprofit MAPS will go where suffering is but there is no money (Africa, Ukraine, couples therapy) and will remain busy for decades.",
+   "post_title": "Rick Doblin Speaks on the Future of MAPS - Tripsitter",
+   "source_url": "https://tripsitter.substack.com/p/rick-doblin-the-future-of-maps",
+   "area_guess": "company_market",
+   "horizon_text": "for decades and decades and decades to come",
+   "confidence_phrase": "is going to be",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Borderline: about his own organization; vague horizon."
+  },
+  {
+   "id": "doblin-0223",
+   "forecaster": "doblin",
+   "statement_date": "2024-12-27",
+   "quote": "\"They have to do another Phase 3 study, review the videotapes, do various things,\" Doblin says. \"What we are now currently thinking is probably three years from now, they'll come to an agreement and FDA approval will be very likely.\"",
+   "context": "Doblin, quoted by Big Think after Lykos's October 2024 meeting with the FDA, expects agreement and FDA approval of MDMA-assisted therapy in about three years.",
+   "post_title": "Inside the battle for FDA approval of MDMA therapy - Big Think",
+   "source_url": "https://web.archive.org/web/2025id_/https://bigthink.com/the-present/inside-the-battle-for-fda-approval-of-mdma-therapy/",
+   "area_guess": "regulatory",
+   "horizon_text": "three years from now",
+   "confidence_phrase": "probably; very likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Two adjacent quoted sentences joined as printed on the page ('Doblin says' sits between them)."
+  },
+  {
+   "id": "doblin-0224",
+   "forecaster": "doblin",
+   "statement_date": "2024-12-27",
+   "quote": "Lykos, in particular, is all about the FDA. Lykos will eventually succeed, I believe.",
+   "context": "Doblin, quoted by Big Think, predicts Lykos Therapeutics will eventually win FDA approval for MDMA-assisted therapy.",
+   "post_title": "Inside the battle for FDA approval of MDMA therapy - Big Think",
+   "source_url": "https://web.archive.org/web/2025id_/https://bigthink.com/the-present/inside-the-battle-for-fda-approval-of-mdma-therapy/",
+   "area_guess": "regulatory",
+   "horizon_text": "eventually",
+   "confidence_phrase": "I believe",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0225",
+   "forecaster": "doblin",
+   "statement_date": "2025-03-07",
+   "quote": "With Oregon surpassing 10,000 legal psychedelic-assisted treatment sessions and Colorado pioneering new regulatory models, PS2025 will provide a blueprint for bringing these life-changing treatments to scale safely, ethically, and equitably.",
+   "context": "MAPS speaker announcement for Psychedelic Science 2025 (Denver, June 16-20, 2025). Doblin cites Oregon and Colorado state programs and forecasts the conference will provide a scaling blueprint.",
+   "post_title": "Psychedelic Science 2025 Announces Select Speakers for the Leading Conference on Psychedelic Research, Policy, and Thought Leadership",
+   "source_url": "https://maps.org/2025/03/07/psychedelic-science-2025-announces-select-speakers-for-the-leading-conference-on-psychedelic-research-policy-and-thought-leadership/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "will provide",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Low-specificity claim about an own event; the state-program numbers are stated as present facts."
+  },
+  {
+   "id": "doblin-0226",
+   "forecaster": "doblin",
+   "statement_date": "2025-03-12",
+   "quote": "MDMA could be approved in six months or so without an additional Phase 3 study. That's the best option",
+   "context": "SXSW 2025 talk 'MDMA-Assisted Therapy: Going to the Trauma, Not the Profits'. Doblin describes a fork in the road: FDA-assigned independent third-party reviewers may find the Lykos trial data reliable, in which case MDMA could be approved in about six months without a new Phase 3 study.",
+   "post_title": "Not everything's bigger in Texas - The Microdose",
+   "source_url": "https://themicrodose.substack.com/p/not-everythings-bigger-in-texas",
+   "area_guess": "regulatory",
+   "horizon_text": "in six months or so",
+   "confidence_phrase": "could",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Conditional on third-party reviewers accepting the data. Reporter's frame around the quote; quoted words are Doblin's."
+  },
+  {
+   "id": "doblin-0227",
+   "forecaster": "doblin",
+   "statement_date": "2025-05-09",
+   "quote": "They might require what's called a phase four study, which is after approval you gather information about safety, about durability, different things. And if that's the case, it's possible that within six months the FDA could say yes to approving MDMA-assisted therapy for PTSD.",
+   "context": "Doblin on Joe Rogan #2319 describes the fork in Lykos's negotiations with the new FDA/HHS: if no new Phase 3 is required, approval could come within six months.",
+   "post_title": "The Joe Rogan Experience #2319 - Rick Doblin (transcript)",
+   "source_url": "https://podscripts.co/podcasts/the-joe-rogan-experience/2319-rick-doblin",
+   "area_guess": "regulatory",
+   "horizon_text": "within six months",
+   "confidence_phrase": "it's possible",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Conditional scenario; census doblin-0033 is a third-party summary of this episode, not these words."
+  },
+  {
+   "id": "doblin-0228",
+   "forecaster": "doblin",
+   "statement_date": "2025-05-09",
+   "quote": "If the FDA says, we want another phase three study, that could delay approval for another three and a half years or so.",
+   "context": "Doblin on Joe Rogan #2319 gives the alternative scenario: a required new Phase 3 study would delay MDMA approval by about three and a half years.",
+   "post_title": "The Joe Rogan Experience #2319 - Rick Doblin (transcript)",
+   "source_url": "https://podscripts.co/podcasts/the-joe-rogan-experience/2319-rick-doblin",
+   "area_guess": "regulatory",
+   "horizon_text": "another three and a half years or so",
+   "confidence_phrase": "could",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Conditional scenario."
+  },
+  {
+   "id": "doblin-0229",
+   "forecaster": "doblin",
+   "statement_date": "2025-05-09",
+   "quote": "So I think in terms of timeframe, it's probably four or five years before FDA will approve group therapy, maybe longer.",
+   "context": "Doblin on Joe Rogan #2319 estimates FDA approval of group-format psychedelic therapy is four or five years away or more, after individual-format approvals.",
+   "post_title": "The Joe Rogan Experience #2319 - Rick Doblin (transcript)",
+   "source_url": "https://podscripts.co/podcasts/the-joe-rogan-experience/2319-rick-doblin",
+   "area_guess": "regulatory",
+   "horizon_text": "four or five years",
+   "confidence_phrase": "probably",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0230",
+   "forecaster": "doblin",
+   "statement_date": "2025-05-09",
+   "quote": "So I think that Lycos is going to succeed, whether it takes six months or three and a half years or whatever We will eventually FDA will eventually approve MD maces the therapy for PTSD Then they'll approve psilocybin and other things",
+   "context": "Doblin on Joe Rogan #2319 predicts Lykos will eventually win FDA approval for MDMA-assisted therapy for PTSD, followed by psilocybin and other psychedelics.",
+   "post_title": "The Joe Rogan Experience #2319 - Rick Doblin (transcript)",
+   "source_url": "https://podscripts.co/podcasts/the-joe-rogan-experience/2319-rick-doblin",
+   "area_guess": "regulatory",
+   "horizon_text": "six months or three and a half years; eventually",
+   "confidence_phrase": "I think ... is going to; will eventually",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Auto-transcript spells Lykos as 'Lycos' and garbles 'MDMA-assisted' as 'MD maces'; kept verbatim."
+  },
+  {
+   "id": "doblin-0231",
+   "forecaster": "doblin",
+   "statement_date": "2025-05-09",
+   "quote": "that this psychedelic renaissance was really moving forward and that that was this wave that I think is unstoppable, that we're seeing the healing potentials in so many different ways with so many different drugs.",
+   "context": "Doblin on Joe Rogan #2319 says that after the FDA rejection he concluded the psychedelic renaissance is unstoppable regardless of what happens to MAPS or Lykos.",
+   "post_title": "The Joe Rogan Experience #2319 - Rick Doblin (transcript)",
+   "source_url": "https://podscripts.co/podcasts/the-joe-rogan-experience/2319-rick-doblin",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "I think is unstoppable",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Broad, low-checkability claim."
+  },
+  {
+   "id": "doblin-0232",
+   "forecaster": "doblin",
+   "statement_date": "2025-05-09",
+   "quote": "Well, it's gonna be about three years for the project in Israel I mean, it's gonna be about 160 people",
+   "context": "Doblin on Joe Rogan #2319 gives the expected duration (about three years) and size (about 160 people) of the MDMA group-therapy PTSD project in Israel.",
+   "post_title": "The Joe Rogan Experience #2319 - Rick Doblin (transcript)",
+   "source_url": "https://podscripts.co/podcasts/the-joe-rogan-experience/2319-rick-doblin",
+   "area_guess": "clinical_trial",
+   "horizon_text": "about three years",
+   "confidence_phrase": "gonna be",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Answer follows Rogan's question about timeline."
+  },
+  {
+   "id": "doblin-0233",
+   "forecaster": "doblin",
+   "statement_date": "2025-07-16",
+   "quote": "This is our moment to ensure that as psychedelics become more accessible, they remain tools for genuine healing rather than just another consumer product. MAPS will continue leading this integration because the future we're building requires wisdom, intention, and unwavering commitment to the public good.",
+   "context": "MAPS post after Psychedelic Science 2025. Doblin presupposes psychedelics will become more accessible and commits MAPS to lead integration.",
+   "post_title": "Following Psychedelic Science 2025 Success, MAPS Publishes First of Hundreds of Conference Session Videos",
+   "source_url": "https://maps.org/2025/07/16/following-psychedelic-science-2025-success-maps-publishes-first-of-hundreds-of-conference-session-videos/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "as psychedelics become more accessible",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Borderline: accessibility growth is presupposed, not asserted with a date."
+  },
+  {
+   "id": "doblin-0234",
+   "forecaster": "doblin",
+   "statement_date": "2025-08-27",
+   "quote": "Changemark's background ensures the study will be conducted with the highest scientific standards to deliver the evidence that Veterans and their healthcare providers need.",
+   "context": "MAPS names Changemark as CRO for the MJP2 Phase 2 study of inhaled cannabis for PTSD in veterans, funded by a $12.9M Michigan grant. Doblin forecasts the conduct and evidentiary output of the study.",
+   "post_title": "MAPS Partners with Changemark to Advance Cannabis PTSD Research for Veterans",
+   "source_url": "https://maps.org/2025/08/27/maps-partners-with-changemark-to-advance-cannabis-ptsd-research-for-veterans/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "ensures the study will be conducted",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Own-organization trial (CONTROL). Near-identical sentence reappears in the December 26, 2025 bulletin column."
+  },
+  {
+   "id": "doblin-0235",
+   "forecaster": "doblin",
+   "statement_date": "2025-09-04",
+   "quote": "Every year of delay means more will die by suicide and more remain trapped in cycles of trauma and despair.",
+   "context": "MAPS statement on the FDA's public release of the Lykos complete response letter. Doblin argues the FDA moved the goalposts and forecasts the human cost of continued delay.",
+   "post_title": "MAPS Statement on FDA's Public Release of Complete Response Letter for MDMA-assisted Therapy",
+   "source_url": "https://maps.org/2025/09/04/fda-public-release-of-crl/",
+   "area_guess": "other",
+   "horizon_text": "Every year of delay",
+   "confidence_phrase": "will die",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Conditional-on-delay claim; not a dated regulatory call."
+  },
+  {
+   "id": "doblin-0236",
+   "forecaster": "doblin",
+   "statement_date": "2025-09-04",
+   "quote": "Lykos will continue negotiations with the FDA. MAPS will keep driving forward: incubating and accelerating new MDMA-focused research, training therapists around the globe, catalyzing humanitarian projects in high trauma/low resource areas of the world, and building the infrastructure for a future where psychedelic-assisted healing and personal growth are not delayed by shifting politics, but delivered as a matter of compassion and justice.",
+   "context": "Same CRL-release statement. Doblin states Lykos will keep negotiating with FDA and lists MAPS' forward program.",
+   "post_title": "MAPS Statement on FDA's Public Release of Complete Response Letter for MDMA-assisted Therapy",
+   "source_url": "https://maps.org/2025/09/04/fda-public-release-of-crl/",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will continue",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Forecast of company action (Lykos/Resilient) plus own-organization plans (CONTROL)."
+  },
+  {
+   "id": "doblin-0237",
+   "forecaster": "doblin",
+   "statement_date": "2025-09-04",
+   "quote": "We will not stop until safe, legal access to psychedelic-assisted therapies and psychedelics for personal growth is a reality for everyone who needs it.",
+   "context": "Same CRL-release statement. Closing commitment implying eventual legal access.",
+   "post_title": "MAPS Statement on FDA's Public Release of Complete Response Letter for MDMA-assisted Therapy",
+   "source_url": "https://maps.org/2025/09/04/fda-public-release-of-crl/",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "We will not stop until",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Borderline: intent statement rather than an outcome forecast."
+  },
+  {
+   "id": "doblin-0238",
+   "forecaster": "doblin",
+   "statement_date": "2025-12-26",
+   "quote": "Even though FDA approval has been delayed, MAPS, dedicated therapists, advocates, and researchers, and Resilient Pharmaceuticals (formerly known as Lykos), continue to persist in efforts to make these treatments available to those who are suffering from PTSD.",
+   "context": "From the Desk of Rick Doblin year-end 2025 column. Doblin frames the 2024 CRL as a delay of FDA approval, not a denial, and notes Resilient continues to pursue market approval for MDMA.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. (MAPS Bulletin, December 2025)",
+   "source_url": "https://maps.org/news/bulletin/from-ricks-desk-2025/",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "has been delayed",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Implicit forecast (delay implies eventual approval). Column also says 'Resilient is continuing to focus on efforts to obtain market approval for MDMA.'"
+  },
+  {
+   "id": "doblin-0239",
+   "forecaster": "doblin",
+   "statement_date": "2026-01-07",
+   "quote": "MDMA will eventually become a medicine",
+   "context": "Same article. Doblin, quoted from a video interview, asserts MDMA will eventually be approved as a medicine, with no date.",
+   "post_title": "The 'Psychedelic Renaissance' Continues - The Libertarian Institute",
+   "source_url": "https://libertarianinstitute.org/articles/the-psychedelic-renaissance-continues/",
+   "area_guess": "regulatory",
+   "horizon_text": "eventually; however long that ultimately takes",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Underlying video (youtu.be/Jr12_LHReQE) not opened; date unknown. Undated but firm claim."
+  },
+  {
+   "id": "doblin-0240",
+   "forecaster": "doblin",
+   "statement_date": "2026-03-25",
+   "quote": "When you have the drug plus therapy, if the benefits are great enough, which they've been in terms of outcomes, then insurance will pay for it.",
+   "context": "DoubleBlind feature on the takeover of Lykos (now Resilient) and Doblin's return. Doblin argues that keeping MDMA paired with therapy will secure insurance coverage.",
+   "post_title": "Inside the Billionaire Takeover of Lykos—and Rick Doblin's Comeback",
+   "source_url": "https://doubleblindmag.com/inside-the-billionaire-takeover-of-lykos-and-rick-doblins-comeback-free/",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Conditional call. Quote taken from the WebFetch extraction; apostrophe style may differ from the page."
+  },
+  {
+   "id": "doblin-0241",
+   "forecaster": "doblin",
+   "statement_date": "2026-04-21",
+   "quote": "A lot of regulatory agencies around the world are looking for the United States to go first, particularly the FDA… if MDMA or psilocybin is approved in the U.S., then they’ll approve it in Ukraine.",
+   "context": "Rolling Stone explainer on Trump's April 2026 psychedelics executive order. Doblin on the global ripple effect of a US approval.",
+   "post_title": "Psychedelics Research: What Does Trump's New Executive Order Mean?",
+   "source_url": "https://www.rollingstone.com/culture/culture-features/psychedelics-research-trump-executive-order-explained-1235551737/",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "they’ll",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Conditional call. Ellipsis is the page's own."
+  },
+  {
+   "id": "doblin-0242",
+   "forecaster": "doblin",
+   "statement_date": "2026-04-21",
+   "quote": "The key to optimizing patient outcomes and treating as many people as possible will be insurance coverage. And many therapists in America don’t even accept insurance. I think that’s going to be the big challenge: how do we roll this out in a way where it’s not just what’s best for the pharma company, which is selling the drug, but what’s best for patients.",
+   "context": "Rolling Stone explainer on the April 2026 executive order. Doblin on the rollout of psychedelic treatments: insurance coverage as the decisive factor.",
+   "post_title": "Psychedelics Research: What Does Trump's New Executive Order Mean?",
+   "source_url": "https://www.rollingstone.com/culture/culture-features/psychedelics-research-trump-executive-order-explained-1235551737/",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I think",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Borderline: names a future challenge rather than a checkable event."
+  },
+  {
+   "id": "doblin-0243",
+   "forecaster": "doblin",
+   "statement_date": "2026-05-04",
+   "quote": "This Congressional letter is most welcome, wisely written, and likely to be very helpful.",
+   "context": "MAPS statement on a bipartisan letter from over 30 members of Congress to FDA Commissioner Makary asking FDA to make the SPA process more predictable and to explain advisory committee expertise and the role of psychotherapy. Doblin forecasts the letter will help expedite psychedelic drug development.",
+   "post_title": "MAPS Statement on Bipartisan Congressional Letter to FDA",
+   "source_url": "https://maps.org/2026/05/04/maps-statement-on-bipartisan-congressional-letter-to-fda/",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "likely to be very helpful",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Same statement asserts many psychedelic companies are in a 'race to the bottom' to minimize therapy; that is a present assessment, not logged separately."
+  },
+  {
+   "id": "doblin-0244",
+   "forecaster": "doblin",
+   "statement_date": "2026-08-10",
+   "quote": "I'm grateful that everyone who contributed to those trials — the donors, researchers, independent raters, and most importantly the participants — will see a new evaluation by the FDA.",
+   "context": "MAPS response to the Psychedelic Alpha report that Resilient Pharmaceuticals resubmitted the MDMA-assisted therapy NDA without a new Phase 3 study. Doblin expects a fresh FDA evaluation of the data.",
+   "post_title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+   "source_url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will see a new evaluation",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Another sentence from this same quote block is already in the census as doblin-0035; this sentence is distinct."
+  }
+ ]
+}

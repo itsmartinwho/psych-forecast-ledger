@@ -1,0 +1,704 @@
+{
+ "packet": "code-55.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "angermayer-0032",
+   "forecaster": "angermayer",
+   "statement_date": "2020-02-17",
+   "quote": "We’re trying to bring psychedelics into the medical world so it will be affordable to people because it will be paid for by the health care system",
+   "context": "Same Fortune feature; asked about ATAI's aggressive patenting ('Darth Vader of the psychedelics galaxy'), Angermayer says the medical route will make psychedelics affordable because the health care system will pay for them, and 'the only way to do that is with patents'.",
+   "post_title": "Business gets ready to trip: How psychedelic drugs may revolutionize mental health care",
+   "source_url": "https://fortune.com/longform/psychedelic-drugs-business-mental-health/",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "will be",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Undated payer claim; forward-looking reading of 'will be paid for by the health care system'."
+  },
+  {
+   "id": "angermayer-0033",
+   "forecaster": "angermayer",
+   "statement_date": "2020-11-16",
+   "quote": "Some people will find it hard to cope with an ever quicker changing world, but psychedelics could help with that as well. They could help us keep the lust for life alive.",
+   "context": "Sifted 'Brunch with Sifted' interview. In a longevity discussion Angermayer predicts psychedelics could help people cope with accelerating change; early form of his later 'adjustment disorder' thesis.",
+   "post_title": "Brunch with Sifted: psychedelic investor Christian Angermayer",
+   "source_url": "https://web.archive.org/web/2021/https://sifted.eu/articles/christian-angermayer-compass-atai",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "could",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Borderline, undated and hedged."
+  },
+  {
+   "id": "angermayer-0034",
+   "forecaster": "angermayer",
+   "statement_date": "2020-11-23",
+   "quote": "Even if things work, you can still mess it up with the wrong trial design, or there can be political hurdles. But I am confident we are well on track.",
+   "context": "CNBC report on ATAI's $125m Series C with Peter Thiel. Angermayer, via Zoom, says he is confident ATAI's drugs work in principle for mental health problems and that the company is on track despite trial-design and political risks.",
+   "post_title": "Peter Thiel backs Berlin start-up making psychedelics in $125 million round",
+   "source_url": "https://www.cnbc.com/2020/11/23/peter-thiel-backs-psychedelics-startup-atai.html",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "I am confident",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Vague target ('on track'); coders may treat as CONTROL (own company)."
+  },
+  {
+   "id": "angermayer-0035",
+   "forecaster": "angermayer",
+   "statement_date": "2021-03-05",
+   "quote": "I also expect a starting differentiation between solid players in the psychedelics space—to be honest I really just see ATAI and Compass—and copycats. Most of these copycats miss one important thing: patents. Many psychedelic companies out there will never be able to bring a product to market, as they will hit the patents of Compass and Atai.",
+   "context": "VICE/Motherboard on the psychedelic patent debate. Quotes a March 5, 2021 email Angermayer sent to investors (screenshot shown) predicting a split between ATAI/Compass and 'copycats' that will never reach market because of ATAI and Compass patents.",
+   "post_title": "Investors Are Debating Who Should Own the Future of Psychedelics",
+   "source_url": "https://www.vice.com/en/article/investors-are-debating-who-should-own-the-future-of-psychedelics/",
+   "area_guess": "company_market",
+   "horizon_text": "never",
+   "confidence_phrase": "I also expect ... will never",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Words are from a private investor email dated March 5, 2021, reproduced by VICE; page date is 2021-03-10."
+  },
+  {
+   "id": "angermayer-0036",
+   "forecaster": "angermayer",
+   "statement_date": "2021-05-10",
+   "quote": "This must be legal as a treatment. ... We're several years away. It's not tomorrow, but it's not in 10 years",
+   "context": "CNBC Healthy Returns piece on psychedelic medicine. Angermayer recounts his first-trip thought that psychedelics must become a legal treatment and gives a timeline: several years away, less than 10 years.",
+   "post_title": "A psychedelic drug boom in mental health treatment comes closer to reality",
+   "source_url": "https://www.cnbc.com/2021/05/10/psychedelic-drug-boom-in-mental-health-treatment-nears-reality-.html",
+   "area_guess": "regulatory",
+   "horizon_text": "several years away ... not in 10 years",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; The ' ... ' is CNBC's own ellipsis inside the quotation. Interview conducted late 2020 per the article."
+  },
+  {
+   "id": "angermayer-0037",
+   "forecaster": "angermayer",
+   "statement_date": "2021-06-18",
+   "quote": "The world we're building is a bad place for our brain, so mental health issues will go up. But I do think we have some real shots in our portfolio to end the mental health crisis.",
+   "context": "CNBC report on Atai's Nasdaq debut; Angermayer on Squawk Box predicts rising mental-health burden and says Atai's portfolio has real shots at ending the crisis.",
+   "post_title": "Peter Thiel-backed psychedelic start-up's shares pop in Wall Street debut",
+   "source_url": "https://www.cnbc.com/2021/06/18/peter-thiel-backed-psychedelic-start-ups-shares-pop-in-wall-street-debut.html",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will go up ... I do think",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Compound claim: epidemiology forecast plus own-company claim (CONTROL)."
+  },
+  {
+   "id": "angermayer-0038",
+   "forecaster": "angermayer",
+   "statement_date": "2021-06-19",
+   "quote": "Wenn man an einer mentalen Krankheit leidet, kann diese potenziell geheilt werden. Das wollen wir jetzt ein für alle Mal streng wissenschaftlich beweisen",
+   "context": "Handelsblatt interview on the Atai IPO. Gloss: 'If you suffer from a mental illness, it can potentially be cured. We now want to prove that rigorously and scientifically once and for all.' Claim that psychedelics can cure mental illness and that Atai's trials will prove it.",
+   "post_title": "Atai-Börsengang: Christian Angermayer: „Ein Magic-Mushroom-Trip kann einen zu einem besseren Investor machen“",
+   "source_url": "https://www.handelsblatt.com/technik/medizin/atai-boersengang-christian-angermayer-ein-magic-mushroom-trip-kann-einen-zu-einem-besseren-investor-machen/27300804.html",
+   "area_guess": "clinical_trial",
+   "horizon_text": "jetzt",
+   "confidence_phrase": "kann potenziell",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Borderline: intent plus a claim of curability. Only the free intro of the paywalled interview was readable."
+  },
+  {
+   "id": "angermayer-0039",
+   "forecaster": "angermayer",
+   "statement_date": "2021-07-08",
+   "quote": "I fear that if we do wider legalization, it could be very detrimental and bad for those who really need it and it could push back the whole effort",
+   "context": "Business Insider on a PSYCH Investor Summit panel with Rick Doblin. Angermayer favours decriminalisation but not legalisation; predicts wider legalisation could create a backlash that sets back medical psychedelics.",
+   "post_title": "The founder of the biggest psychedelics company says legalizing magic mushrooms risks creating a backlash that could undermine the industry",
+   "source_url": "https://www.businessinsider.com/atai-founder-christian-angermayer-legalization-risk-backlash-psychedelics-2021-7",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "I fear ... could",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Conditional, hedged policy claim; adjacent: 'If you do things too much at the same time, too quickly, it's going to shift in your face.'"
+  },
+  {
+   "id": "angermayer-0040",
+   "forecaster": "angermayer",
+   "statement_date": "2022-02-22",
+   "quote": "Ich bin stolz darauf, der erste Unternehmer weltweit zu sein, der vorhergesehen hat, dass Psychedelika wie zum Beispiel Magic Mushrooms nun wieder medizinisch verfügbar werden",
+   "context": "Handelsblatt feature 'Trip auf Rezept'. Gloss: 'I am proud to be the first entrepreneur worldwide who foresaw that psychedelics such as magic mushrooms will now become medically available again.' Different sentence from the census row on the same page.",
+   "post_title": "Trip auf Rezept: LSD, Ketamin & Mushrooms erobern die USA – Investoren wittern Milliardengeschäft",
+   "source_url": "https://www.handelsblatt.com/technik/thespark/trip-auf-rezept-lsd-ketamin-mushrooms-psychedelika-erobern-die-usa-investoren-wittern-milliardengeschaeft/28076058.html",
+   "area_guess": "regulatory",
+   "horizon_text": "nun",
+   "confidence_phrase": "werden",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Borderline: partly retrospective ('vorhergesehen'); the 'nun wieder ... werden' clause reads as a present expectation."
+  },
+  {
+   "id": "angermayer-0041",
+   "forecaster": "angermayer",
+   "statement_date": "2022-05-05",
+   "quote": "My feeling at the moment is that everything is priced for the worst. The mood is so depressed that I think there is room for positive surprises.",
+   "context": "Business Insider interview after Atai fell 40% and Compass 60% in 2022. Angermayer contrasts 2021 ('priced for perfection') with 2022 and predicts room for positive surprises in psychedelic and biotech stocks.",
+   "post_title": "2022 has been a 'lost year in terms of valuation' for Christian Angermayer. The 44-year-old German billionaire told us why he is doubling down on his investments in psychedelic stocks and remains 'extremely bullish' on bitcoin.",
+   "source_url": "https://web.archive.org/web/2022/https://www.businessinsider.com/billionaire-doubles-down-on-psychedelic-stocks-btc-amid-valuation-hit-2022-5",
+   "area_guess": "company_market",
+   "horizon_text": "at the moment",
+   "confidence_phrase": "I think there is room",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Market-sentiment call without a named threshold."
+  },
+  {
+   "id": "angermayer-0042",
+   "forecaster": "angermayer",
+   "statement_date": "2022-05-05",
+   "quote": "As a founder, obviously, I really deeply believe that Atai is worth much more ... My conviction is that once markets stabilize and start going up again, investors will choose high-quality companies in the sector.",
+   "context": "Same Business Insider interview; Angermayer, who extended his lock-up and bought a capped call on 1m shares, says Atai is worth much more and that once markets recover investors will favour high-quality psychedelic companies such as Atai.",
+   "post_title": "2022 has been a 'lost year in terms of valuation' for Christian Angermayer. The 44-year-old German billionaire told us why he is doubling down on his investments in psychedelic stocks and remains 'extremely bullish' on bitcoin.",
+   "source_url": "https://web.archive.org/web/2022/https://www.businessinsider.com/billionaire-doubles-down-on-psychedelic-stocks-btc-amid-valuation-hit-2022-5",
+   "area_guess": "company_market",
+   "horizon_text": "once markets stabilize and start going up again",
+   "confidence_phrase": "deeply believe ... My conviction is",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; The ' ... ' skips one journalist sentence between two consecutive quoted sentences. Own-company claim (CONTROL)."
+  },
+  {
+   "id": "angermayer-0043",
+   "forecaster": "angermayer",
+   "statement_date": "2022-06-23",
+   "quote": "we will vigorously enforce our patents when it comes to commercial competitors",
+   "context": "Psychedelic Spotlight article on USPTO rejecting patent challenges against Compass; reproduces Angermayer's tweet on the decision, in which he says Compass/atai patents do not affect academics but will be enforced against commercial competitors.",
+   "post_title": "The Battle for Psychedelic Patents",
+   "source_url": "https://psychedelicspotlight.com/the-battle-for-psychedelic-patents/",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "we will",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Tweet text quoted inside a press article; statement of intended company action rather than an outcome forecast."
+  },
+  {
+   "id": "angermayer-0044",
+   "forecaster": "angermayer",
+   "statement_date": "2022-11-01",
+   "quote": "If we don’t start now, the mental health crisis will only get worse. It’s already the number one disease out there and the numbers will just grow, as the modern world around us seems to be toxic for our mental health, so we need to solve the problem.",
+   "context": "Same GRAZIA interview; conditional forecast that mental illness prevalence will keep growing.",
+   "post_title": "Magic Hour: Christian Angermayer Is On A Mission To Combat The Mental Health Crisis",
+   "source_url": "https://graziamagazine.com/us/articles/christian-angermayer-combat-mental-health-mushrooms/",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "will only get worse ... will just grow",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Epidemiology claim, not psychiatry-intervention specific."
+  },
+  {
+   "id": "angermayer-0045",
+   "forecaster": "angermayer",
+   "statement_date": "2022-11-01",
+   "quote": "I am very confident we soon will be able to slow down and even reverse aging and push life expectancy up significantly.",
+   "context": "Same GRAZIA interview, longevity section (Cambrian, Rejuveron). Off-domain longevity forecast; the article adds that products are five to 15 years away and that he expects 'our drugs will come to market over the next 20 years'.",
+   "post_title": "Magic Hour: Christian Angermayer Is On A Mission To Combat The Mental Health Crisis",
+   "source_url": "https://graziamagazine.com/us/articles/christian-angermayer-combat-mental-health-mushrooms/",
+   "area_guess": "other",
+   "horizon_text": "soon",
+   "confidence_phrase": "very confident",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Off-domain (longevity); logged for completeness."
+  },
+  {
+   "id": "angermayer-0046",
+   "forecaster": "angermayer",
+   "statement_date": "2022-11-16",
+   "quote": "every single one actually should be once approved a multi-billion dollar truck so I would actually make up make the make the calculation that we have the potential of a tie to become a 10 20 billion dollar business and not in 10 years but in two three four years",
+   "context": "Trade to Black #10 (The Dales Report), Nov 2022, atai trading near cash. Angermayer says atai could be a $10-20 billion business within two to four years.",
+   "post_title": "How Legal Psychedelics Can Cure Mental Health - Trade to Black #10 (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=-xhXocTdqBk",
+   "area_guess": "company_market",
+   "horizon_text": "in two three four years",
+   "confidence_phrase": "should be ... have the potential",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own company (CONTROL). Auto-caption: 'truck' = drug, 'a tie' = atai."
+  },
+  {
+   "id": "angermayer-0047",
+   "forecaster": "angermayer",
+   "statement_date": "2022-11-16",
+   "quote": "12 months from now hopefully we right before the compass readout which will be the biggest milestone in psychedelic history because it's going to be the first uh approved psychedelic drug since the since the 50s",
+   "context": "Trade to Black #10, Nov 2022. Asked where things stand in 12 months, Angermayer expects to be just before the Compass Phase 3 readout, which he calls the first approved psychedelic since the 1950s.",
+   "post_title": "How Legal Psychedelics Can Cure Mental Health - Trade to Black #10 (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=-xhXocTdqBk",
+   "area_guess": "clinical_trial",
+   "horizon_text": "12 months from now",
+   "confidence_phrase": "hopefully ... it's going to be",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Compound claim: readout timing plus first approval."
+  },
+  {
+   "id": "angermayer-0048",
+   "forecaster": "angermayer",
+   "statement_date": "2022-11-16",
+   "quote": "I deeply believe that's a great um uh investment uh opportunity and I think biotech as a sector will be one of the best performing sectors over the next five years",
+   "context": "Trade to Black #10, Nov 2022. On biotech valuations disconnected from reality, Angermayer predicts biotech will be a top performing sector over the next five years.",
+   "post_title": "How Legal Psychedelics Can Cure Mental Health - Trade to Black #10 (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=-xhXocTdqBk",
+   "area_guess": "company_market",
+   "horizon_text": "over the next five years",
+   "confidence_phrase": "I deeply believe ... will be",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0049",
+   "forecaster": "angermayer",
+   "statement_date": "2022-11-16",
+   "quote": "oh definitely two approved drugs compass and Maps meaning MDMA",
+   "context": "Trade to Black #10, Nov 2022, rapid-fire questions. Host asks where the industry is in three years; Angermayer answers definitely two approved drugs, Compass psilocybin and MAPS MDMA.",
+   "post_title": "How Legal Psychedelics Can Cure Mental Health - Trade to Black #10 (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=-xhXocTdqBk",
+   "area_guess": "regulatory",
+   "horizon_text": "three years from now",
+   "confidence_phrase": "definitely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Quote includes the host's question; Angermayer's answer starts at 'oh definitely'."
+  },
+  {
+   "id": "angermayer-0050",
+   "forecaster": "angermayer",
+   "statement_date": "2022-11-16",
+   "quote": "decided to give us this credit line which allows us because I would never raise money at these crazy low share prices to be fully financed till end of 2025",
+   "context": "Trade to Black #10, Nov 2022. On the Hercules $175M term loan, Angermayer says it lets atai be fully financed to end of 2025 without raising equity at low prices.",
+   "post_title": "How Legal Psychedelics Can Cure Mental Health - Trade to Black #10 (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=-xhXocTdqBk",
+   "area_guess": "company_market",
+   "horizon_text": "till end of 2025",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own company (CONTROL); 'I would never raise money at these crazy low share prices' is a stated intent."
+  },
+  {
+   "id": "angermayer-0051",
+   "forecaster": "angermayer",
+   "statement_date": "2022-11-16",
+   "quote": "ultimately I would say the total addressable market for psychedelics will be 100 of a population which has the potential I know it's a daring answer but like I think a tie can be one of the most valuable companies in the world",
+   "context": "Trade to Black #10, Nov 2022. Angermayer claims the total addressable market for psychedelics is 100% of the population and atai can become one of the most valuable companies in the world.",
+   "post_title": "How Legal Psychedelics Can Cure Mental Health - Trade to Black #10 (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=-xhXocTdqBk",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "I think ... can be",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Own company (CONTROL). Restates a July 2021 line ('total addressable market is 100% of the world population')."
+  },
+  {
+   "id": "angermayer-0052",
+   "forecaster": "angermayer",
+   "statement_date": "2022-11-16",
+   "quote": "we have seven late stage drugs yeah right from DMT ibogaine or ketamine which is reading out in December",
+   "context": "Trade to Black #10, Nov 2022. Angermayer lists atai's seven late-stage drugs and says the ketamine program (PCN-101, R-ketamine) reads out in December 2022.",
+   "post_title": "How Legal Psychedelics Can Cure Mental Health - Trade to Black #10 (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=-xhXocTdqBk",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in December",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own company (CONTROL); guidance-type statement."
+  },
+  {
+   "id": "angermayer-0053",
+   "forecaster": "angermayer",
+   "statement_date": "2022-12-01",
+   "quote": "Hence, it could well be that people will seek out psychedelic-assisted therapy in challenging moments in their life before they actually slide into a mental health issue.",
+   "context": "GRAZIA USA profile/interview. Angermayer suggests psychedelic-assisted therapy may be used preventively by people without a diagnosed mental health issue.",
+   "post_title": "Magic Hour: Christian Angermayer Is On A Mission To Combat The Mental Health Crisis",
+   "source_url": "https://graziamagazine.com/us/articles/christian-angermayer-combat-mental-health-mushrooms/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "could well be",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Undated, hedged adoption claim; early version of his later 'preventative' claims."
+  },
+  {
+   "id": "angermayer-0054",
+   "forecaster": "angermayer",
+   "statement_date": "2023-04-04",
+   "quote": "I would take a huge bet with anybody who wants to hold against it that give it a year or two after approval of psilocybin and then of our other psychedelics yeah there will be a massive pressure coming from the patients going to the doctor and saying look I don't want to start with ssris",
+   "context": "The Dales Report exclusive after his '14 reasons to remain optimistic' Substack post. Angermayer bets that within a year or two after psilocybin approval, patient pressure will push psychedelics ahead of SSRIs.",
+   "post_title": "atai Founder Reveals 14 Reasons To Remain Optimistic - TDR Exclusive (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=i75N6QnHzgw",
+   "area_guess": "practice_adoption",
+   "horizon_text": "a year or two after approval of psilocybin",
+   "confidence_phrase": "I would take a huge bet",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; YouTube auto-caption transcript; the line appears in the cold open and again at 15:40."
+  },
+  {
+   "id": "angermayer-0055",
+   "forecaster": "angermayer",
+   "statement_date": "2023-04-04",
+   "quote": "as it is at the moment like we can do everything ourselves and are still fine until 2026. yeah so why because we're not just in having 250 million what is net cash we also have access which we haven't used practically have access to more than 150 billion of credit line",
+   "context": "TDR interview, April 2023. Asked whether atai needs partners or more cash, Angermayer says atai can fund everything itself until 2026 with net cash plus an unused credit line.",
+   "post_title": "atai Founder Reveals 14 Reasons To Remain Optimistic - TDR Exclusive (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=i75N6QnHzgw",
+   "area_guess": "company_market",
+   "horizon_text": "until 2026",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own company (CONTROL). Auto-caption '150 billion' is likely '150 million'."
+  },
+  {
+   "id": "angermayer-0056",
+   "forecaster": "angermayer",
+   "statement_date": "2023-04-04",
+   "quote": "compass like in round about one to two years approval most likely and then Maps although it's on our drug but like we're very much rooting for them yeah they are shortly yeah approval which will sort of rise the whole sector",
+   "context": "TDR interview, April 2023. Asked what excites him, Angermayer expects Compass approval in roughly one to two years and MAPS approval shortly, lifting the sector.",
+   "post_title": "atai Founder Reveals 14 Reasons To Remain Optimistic - TDR Exclusive (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=i75N6QnHzgw",
+   "area_guess": "regulatory",
+   "horizon_text": "in round about one to two years",
+   "confidence_phrase": "most likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; YouTube auto-caption transcript; 'on our drug' likely 'not our drug'."
+  },
+  {
+   "id": "angermayer-0057",
+   "forecaster": "angermayer",
+   "statement_date": "2023-04-04",
+   "quote": "every single drug that's my opinion once approve is worth billions we have seven of them for several indications so in any case yeah they're coming back trading below cash is just wrong",
+   "context": "TDR interview, April 2023. Angermayer argues atai trading below cash is wrong because each of its seven late-stage drugs is worth billions once approved.",
+   "post_title": "atai Founder Reveals 14 Reasons To Remain Optimistic - TDR Exclusive (YouTube, TDR)",
+   "source_url": "https://www.youtube.com/watch?v=i75N6QnHzgw",
+   "area_guess": "company_market",
+   "horizon_text": "once approve[d]",
+   "confidence_phrase": "that's my opinion",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own company (CONTROL). YouTube auto-caption transcript."
+  },
+  {
+   "id": "angermayer-0058",
+   "forecaster": "angermayer",
+   "statement_date": "2023-06-01",
+   "quote": "I actually have an extremely optimistic view, meaning I think both maps and compass with their respective substance, they will positively surprise for one very simple reason",
+   "context": "Third Wave podcast at MAPS Psychedelic Science 2023. Asked about commercialization skepticism, Angermayer predicts MAPS (MDMA) and Compass (psilocybin) will positively surprise on rollout because everyone touched by psychedelics becomes an advocate.",
+   "post_title": "Episode 207: Christian Angermayer - Democratizing Psychedelics (Third Wave)",
+   "source_url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "extremely optimistic view ... will positively surprise",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Related to census 0009 (rollout speed) but distinct wording; names MAPS and Compass."
+  },
+  {
+   "id": "angermayer-0059",
+   "forecaster": "angermayer",
+   "statement_date": "2023-06-01",
+   "quote": "Once these drugs will be approved, people will go to their therapist and say, look, I don't wanna try literally bad stuff before. Why don't we start with it?",
+   "context": "Third Wave podcast. Angermayer argues bottom-up patient demand is underestimated; after approval patients will ask for psychedelics first rather than after SSRIs.",
+   "post_title": "Episode 207: Christian Angermayer - Democratizing Psychedelics (Third Wave)",
+   "source_url": "https://thethirdwave.co/podcast/episode-207-christian-angermayer/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "Once these drugs will be approved",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Conditional on approval; early statement of his 'first-line' thesis."
+  },
+  {
+   "id": "angermayer-0060",
+   "forecaster": "angermayer",
+   "statement_date": "2023-07-21",
+   "quote": "that's the number one issue which will decide about the sort of success or not success of sort of psychedelics will be that rollout question and I'm very very confident that people patients will demand it yeah and we're gonna see a fairly easy rollout",
+   "context": "PSYCH Symposium 2023. Angermayer says rollout is the decisive issue and predicts patients will demand psychedelics and the rollout will be fairly easy.",
+   "post_title": "PSYCH Symposium: Reassessing the Psychedelic Space (YouTube, PSYCH Symposium channel)",
+   "source_url": "https://www.youtube.com/watch?v=Qj9Ax4Torsk",
+   "area_guess": "practice_adoption",
+   "horizon_text": "none",
+   "confidence_phrase": "very very confident",
+   "entities": [],
+   "finder_note": "source confidence high; undated; YouTube auto-caption transcript."
+  },
+  {
+   "id": "angermayer-0061",
+   "forecaster": "angermayer",
+   "statement_date": "2023-08-09",
+   "quote": "atai’s management believes these data support the concept of at-home use of PCN-101 in future studies.",
+   "context": "Microdose article reproducing Angermayer's X post on atai's Phase 1 subcutaneous PCN-101 (R-ketamine) bridging study after the January 2023 Phase 2 miss; he relays management's expectation that PCN-101 can be developed for at-home use.",
+   "post_title": "Christian Angermayer Gives Insight on Future of Atai’s Ketamine Program",
+   "source_url": "https://microdose.buzz/news/christain-angermayer-pcn101/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in future studies",
+   "confidence_phrase": "believes",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; He restates management's belief; the full tweet was truncated on the page. Own-company (CONTROL)."
+  },
+  {
+   "id": "angermayer-0062",
+   "forecaster": "angermayer",
+   "statement_date": "2024-01-04",
+   "quote": "Short-duration psychedelics have the potential to offer similar clinical benefit to longer-acting psychedelics, in a more efficient and scalable way, which could lead to increased patient access.",
+   "context": "atai press release on its $50m strategic investment in Beckley Psytech (BPL-003, ELE-101). Angermayer quote on short-duration psychedelics matching longer-acting ones and increasing access.",
+   "post_title": "atai Life Sciences Announces Strategic Investment in Beckley Psytech to Accelerate the Clinical Development of Short-Duration Psychedelics",
+   "source_url": "https://www.globenewswire.com/news-release/2024/01/04/2803828/0/en/atai-life-sciences-announces-strategic-investment-in-beckley-psytech-to-accelerate-the-clinical-development-of-short-duration-psychedelics.html",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "have the potential ... could",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Hedged press-release language; restated by Psychedelic Alpha and pharmaphorum on 2024-01-04/05."
+  },
+  {
+   "id": "angermayer-0063",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-12",
+   "quote": "We are only at the beginning of the psychedelic renaissance and will see much more scientific validation of the positive effects of psychedelics, beyond what we already know they can do for #mentalhealth, very soon.",
+   "context": "On the atai-Beckley Psytech partnership adding 5-MeO-DMT and psilocin, he predicts more scientific validation of psychedelics beyond mental health in the near term.",
+   "post_title": "Christian Angermayer on X: I couldn't have wished for a better start to 2024 than @atai_life's partnership with @BeckleyPsytech",
+   "source_url": "https://x.com/C_Angermayer/status/1757095332117184575",
+   "area_guess": "clinical_trial",
+   "horizon_text": "very soon",
+   "confidence_phrase": "will see",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Vague outcome; near-term horizon."
+  },
+  {
+   "id": "angermayer-0064",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-23",
+   "quote": "Psilocybin - the active molecule in magic mushrooms - will likely replace classic antidepressants over time after approval by medical authorities.",
+   "context": "In the 'Sexual enhancement' section of 'The future is enhanced', Angermayer lists psychedelics among enhancement tools and claims psilocybin will displace classic antidepressants once approved.",
+   "post_title": "The future is enhanced",
+   "source_url": "https://christianangermayer.substack.com/p/the-future-is-enhanced",
+   "area_guess": "practice_adoption",
+   "horizon_text": "over time after approval by medical authorities",
+   "confidence_phrase": "will likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Undated; adoption-scale claim."
+  },
+  {
+   "id": "angermayer-0065",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-23",
+   "quote": "my personal belief is that the total addressable market for such psychedelic compounds will ultimately be 100% of the world population",
+   "context": "'Happiness enhancement' section; restates his 2021 LinkedIn thesis that the psychedelic TAM is the whole world population.",
+   "post_title": "The future is enhanced",
+   "source_url": "https://christianangermayer.substack.com/p/the-future-is-enhanced",
+   "area_guess": "company_market",
+   "horizon_text": "ultimately",
+   "confidence_phrase": "my personal belief is that",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Restatement of an October 2021 LinkedIn claim; undated."
+  },
+  {
+   "id": "angermayer-0066",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-23",
+   "quote": "My expectation is that the new autonomy we are gaining over our bodies will also make off-label-use more accepted and common and will make it a significant economic driver for the biotech pharma industry in the years ahead.",
+   "context": "Section on the 'Enhanced zeitgeist' after the GLP-1 discussion; claim about off-label prescribing becoming a major economic driver.",
+   "post_title": "The future is enhanced",
+   "source_url": "https://christianangermayer.substack.com/p/the-future-is-enhanced",
+   "area_guess": "other",
+   "horizon_text": "in the years ahead",
+   "confidence_phrase": "My expectation is that",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Not psychiatry-specific; logged for completeness."
+  },
+  {
+   "id": "angermayer-0067",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-27",
+   "quote": "However, I believe the biotech industry as a whole will come back with force in 2024, which should also make investors revisit atai's groundbreaking and innovative approach to addressing the treatment of mental health conditions.",
+   "context": "Opening section 'The past year: atai was hit hard by the biotech winter'. Sector-timing call tied to atai re-rating.",
+   "post_title": "atai Life Sciences",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "area_guess": "company_market",
+   "horizon_text": "in 2024",
+   "confidence_phrase": "I believe ... will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Companion to census row angermayer-0012 (different sentence, same post)."
+  },
+  {
+   "id": "angermayer-0068",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-27",
+   "quote": "I am very optimistic that 2024 and the years to come will be great for atai. Since the beginning of the year, a re-rating of the stock has started, which I believe is just the beginning of a long-term change in sentiment to the better.",
+   "context": "Lead-in to the ten reasons list; share price sentiment call for atai (Nasdaq: ATAI).",
+   "post_title": "atai Life Sciences",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "area_guess": "company_market",
+   "horizon_text": "2024 and the years to come",
+   "confidence_phrase": "very optimistic",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; CONTROL candidate (own company)."
+  },
+  {
+   "id": "angermayer-0069",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-27",
+   "quote": "I personally believe that, once approved, the market penetration will likely significantly outpace estimates, driven by exceptional patient outcomes and a passionate patient advocacy movement.",
+   "context": "Reason 2 'Novelty is an advantage'; claim about post-approval uptake of psychedelic therapy versus analyst estimates.",
+   "post_title": "atai Life Sciences",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "area_guess": "practice_adoption",
+   "horizon_text": "once approved",
+   "confidence_phrase": "will likely",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "angermayer-0070",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-27",
+   "quote": "Initial results from the current ELE-01 Phase 1/2a study are anticipated in the first half of 2024.",
+   "context": "Reason 5 on Beckley Psytech assets; ELE-101 is IV psilocin for MDD.",
+   "post_title": "atai Life Sciences",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in the first half of 2024",
+   "confidence_phrase": "anticipated",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Restates company guidance."
+  },
+  {
+   "id": "angermayer-0071",
+   "forecaster": "angermayer",
+   "statement_date": "2024-02-27",
+   "quote": "So, in other words, right now, investing in atai means investing in a company trading close to cash + CMPS and with a strong pipeline of eight (!) clinical-stage (!) mental health programs, and which (per its most recent public filings), has runway into 2026.",
+   "context": "Reason 1 'Numbers first'; cash runway statement for atai.",
+   "post_title": "atai Life Sciences",
+   "source_url": "https://christianangermayer.substack.com/p/atai-life-sciences",
+   "area_guess": "company_market",
+   "horizon_text": "into 2026",
+   "confidence_phrase": "none",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Restates company filing; borderline forecast."
+  }
+ ]
+}

@@ -42,3 +42,6 @@
 {"at":"2026-09-14T02:23:15.700Z","script":"apply-rechecks","files":2,"upheld":12,"overturned":4,"escalated":3,"rejected":0}
 {"at":"2026-09-14T02:24:19.761Z","script":"intake-merge","statements":2495,"admitted":67,"void_ambiguous":4,"not_admitted":2418,"gate_out_of_area":6,"split_to_c":0,"uncoded":0,"bin_mismatch":1,"undated":38,"dated":29}
 {"at":"2026-09-14T02:24:20.258Z","script":"freeze","release":"1.0.2","files":10}
+{"at":"2026-09-14T04:49:49.469Z","script":"import-sweep","forecaster":"doblin","file":"data/research/comparator-doblin-sweep2.json","added":209,"skipped":5,"paraphrase":0,"too_short":0,"total":244}
+{"at":"2026-09-14T04:49:50.005Z","script":"import-sweep","forecaster":"angermayer","file":"data/research/comparator-angermayer-sweep2.json","added":140,"skipped":0,"paraphrase":0,"too_short":0,"total":171}
+{"at":"2026-09-14T04:50:14.309Z","script":"build-coding-packets","to_code":349,"packets":9,"reject_sample":0,"rejects":0}

@@ -1,0 +1,704 @@
+{
+ "packet": "code-59.json",
+ "affiliations": {
+  "owen": [
+   {
+    "entity": "Radial",
+    "role": "Chief Medical Officer",
+    "aliases": [
+     "Radial Health"
+    ]
+   },
+   {
+    "entity": "Neurolief",
+    "role": "executive and advisor",
+    "aliases": [
+     "Relivion",
+     "Proliv Rx",
+     "eCOT-AS"
+    ]
+   },
+   {
+    "entity": "Fermata",
+    "role": "co-founder",
+    "aliases": [
+     "Fermata Health"
+    ]
+   },
+   {
+    "entity": "Acacia Clinics",
+    "role": "clinician and trial site",
+    "aliases": [
+     "Acacia"
+    ]
+   },
+   {
+    "entity": "Ampa",
+    "role": "trial site",
+    "aliases": [
+     "ONE-D"
+    ]
+   },
+   {
+    "entity": "Psyrin",
+    "role": "strategic advisor",
+    "aliases": []
+   },
+   {
+    "entity": "Videra Health",
+    "role": "strategic advisor",
+    "aliases": [
+     "TDscreen",
+     "TDetect"
+    ]
+   },
+   {
+    "entity": "Yung Sidekick",
+    "role": "strategic advisor",
+    "aliases": [
+     "Yung Therapist Sidekick"
+    ]
+   },
+   {
+    "entity": "Outro Health",
+    "role": "advisor",
+    "aliases": [
+     "Outro"
+    ]
+   },
+   {
+    "entity": "iRxReminder",
+    "role": "Chief Medical Officer (2024)",
+    "aliases": []
+   },
+   {
+    "entity": "Osmind",
+    "role": "spouse employed",
+    "aliases": []
+   },
+   {
+    "entity": "RAMHT",
+    "role": "organizer",
+    "aliases": [
+     "Rapid-Acting Mental Health Treatment"
+    ]
+   }
+  ],
+  "angermayer": [
+   {
+    "entity": "atai Life Sciences",
+    "role": "co-founder and chairman",
+    "aliases": [
+     "atai",
+     "AtaiBeckley",
+     "Beckley Psytech",
+     "BPL-003",
+     "VLS-01",
+     "EMP-01",
+     "PCN-101",
+     "Perception Neuroscience",
+     "Recognify",
+     "DemeRx"
+    ]
+   },
+   {
+    "entity": "Compass Pathways",
+    "role": "investor",
+    "aliases": [
+     "COMP360",
+     "Compass"
+    ]
+   },
+   {
+    "entity": "Apeiron Investment Group",
+    "role": "founder",
+    "aliases": [
+     "Apeiron"
+    ]
+   }
+  ],
+  "doblin": [
+   {
+    "entity": "MAPS",
+    "role": "founder and president",
+    "aliases": [
+     "Multidisciplinary Association for Psychedelic Studies"
+    ]
+   },
+   {
+    "entity": "Lykos Therapeutics",
+    "role": "founder, former board member",
+    "to": "2024-08-31",
+    "aliases": [
+     "MAPS PBC",
+     "MAPS Public Benefit Corporation",
+     "Resilient Pharmaceuticals",
+     "midomafetamine",
+     "MDMA-assisted therapy"
+    ]
+   }
+  ]
+ },
+ "statements": [
+  {
+   "id": "doblin-0056",
+   "forecaster": "doblin",
+   "statement_date": "2017-04-19",
+   "quote": "We're currently estimating 2021 for FDA approval of MDMA.",
+   "context": "SF Weekly preview of Psychedelic Science 2017 in Oakland. Doblin says the path to prescription approval has begun with Phase 3 for PTSD and gives 2021 as the current estimate for FDA approval of MDMA.",
+   "post_title": "The Biggest Psychedelics Conference Ever Starts Today in Oakland - SF Weekly",
+   "source_url": "https://www.sfweekly.com/archives/the-biggest-psychedelics-conference-ever-starts-today-in-oakland/article_ec6f0463-d303-51ca-a4e7-83730fe49990.html",
+   "area_guess": "regulatory",
+   "horizon_text": "2021",
+   "confidence_phrase": "currently estimating",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Earlier than census doblin-0001 (Sept 2017 bulletin); same 2021 target, different source and date."
+  },
+  {
+   "id": "doblin-0057",
+   "forecaster": "doblin",
+   "statement_date": "2017-09-05",
+   "quote": "Now that FDA has provided MAPS with an Agreement Letter, we know that our final results will not be challenged on the basis of an unsuccessful double-blind.",
+   "context": "After the July 28, 2017 FDA Special Protocol Assessment Agreement Letter; claim about how FDA will treat Phase 3 results.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Summer 2017 (MAPS Bulletin Vol. 27, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-phd-summer2017/",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "we know that ... will not",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Claim about future FDA conduct."
+  },
+  {
+   "id": "doblin-0058",
+   "forecaster": "doblin",
+   "statement_date": "2017-09-05",
+   "quote": "FDA approval for the prescription use of MDMA-assisted psychotherapy for PTSD now depends on fundraising commitments from our supporters, with $25 million needed and $12.5 million already raised or pledged. It also relies on the compassion and therapeutic skill of the 80 co-therapists, most of whom we have newly trained, who will work on our over one dozen Phase 3 sites in the US, Canada, and Israel.",
+   "context": "Sentences immediately before the census row doblin-0001 ('on track for FDA approval by 2021'). Sets out $25M need and 80 co-therapists at over a dozen Phase 3 sites.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Summer 2017 (MAPS Bulletin Vol. 27, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-phd-summer2017/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "none",
+   "confidence_phrase": "depends on",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Same column as doblin-0001; different sentences."
+  },
+  {
+   "id": "doblin-0059",
+   "forecaster": "doblin",
+   "statement_date": "2017-12-06",
+   "quote": "As of the beginning of November, when I finished writing this letter, MAPS has either raised or received multi-year pledges of more than $18 million of the $26 million we currently estimate we will need for FDA approval of MDMA-assisted psychotherapy for PTSD. That same $26 million may also be sufficient for subsequent approval by the European Medicines Agency (EMA), though we’ll know more after our negotiations about Phase 3 requirements with the European regulators, which we’re just starting now.",
+   "context": "Cost estimate for FDA approval raised to $26 million; same sum may cover EMA approval.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Winter 2017 (MAPS Bulletin Vol. 27, No. 3)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-winter-2017/",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "currently estimate ... may also be sufficient",
+   "entities": [],
+   "finder_note": "source confidence high; undated"
+  },
+  {
+   "id": "doblin-0060",
+   "forecaster": "doblin",
+   "statement_date": "2017-12-06",
+   "quote": "Based on the current timeline, the first Phase 3 study is expected to be initiated in the first half of 2018 in the U.S., Canada, and Israel. We anticipate submitting our New Drug Application to the FDA in 2021.",
+   "context": "Projections for FY2017-18 in the annual financial report written by Doblin.",
+   "post_title": "Annual Financial Report Fiscal Year 2016–17 (MAPS Bulletin Winter 2017)",
+   "source_url": "https://maps.org/news/bulletin/fy-2017-financial-report/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "first half of 2018; in 2021",
+   "confidence_phrase": "expected ... anticipate",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Compound: Phase 3 start and NDA timing."
+  },
+  {
+   "id": "doblin-0061",
+   "forecaster": "doblin",
+   "statement_date": "2017-12-06",
+   "quote": "Nevertheless, we won’t know how many subjects we are going to need for Phase 3 until the interim analysis of our first Phase 3 study which we anticipate will take place near the beginning of 2019.",
+   "context": "Interim analysis timing for the first Phase 3 MDMA/PTSD study.",
+   "post_title": "Annual Financial Report Fiscal Year 2016–17 (MAPS Bulletin Winter 2017)",
+   "source_url": "https://maps.org/news/bulletin/fy-2017-financial-report/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "near the beginning of 2019",
+   "confidence_phrase": "anticipate",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0062",
+   "forecaster": "doblin",
+   "statement_date": "2017-12-06",
+   "quote": "Estimated spending in FY18 is projected to be $8,397,560, $2,653,969 more than in FY17, as the first Phase 3 study begins. The following year, FY19, expenses are expected to increase to over $12 million, as Phase 3 recruits the most subjects.",
+   "context": "MAPS expense projections for FY18 and FY19.",
+   "post_title": "Annual Financial Report Fiscal Year 2016–17 (MAPS Bulletin Winter 2017)",
+   "source_url": "https://maps.org/news/bulletin/fy-2017-financial-report/",
+   "area_guess": "company_market",
+   "horizon_text": "FY18; FY19",
+   "confidence_phrase": "projected ... expected",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own-organization financial projection."
+  },
+  {
+   "id": "doblin-0063",
+   "forecaster": "doblin",
+   "statement_date": "2017-12-06",
+   "quote": "As MAPS initiates its Phase 3 MDMA/PTSD studies, research and educational expenses will continue to increase each year until FY20 when we’ll complete gathering the Phase 3 data. In FY21, MAPS’ Phase 3 research will shift to much less expensive data analytic work and submitting a New Drug Application to FDA.",
+   "context": "Timeline: Phase 3 data gathering complete in FY20 (June 2019-May 2020); NDA in FY21.",
+   "post_title": "Annual Financial Report Fiscal Year 2016–17 (MAPS Bulletin Winter 2017)",
+   "source_url": "https://maps.org/news/bulletin/fy-2017-financial-report/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "until FY20; In FY21",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0064",
+   "forecaster": "doblin",
+   "statement_date": "2017-12-06",
+   "quote": "MAPS’ current estimate is that $26 million is needed to complete Phase 3 studies for FDA, of which about $18 million is in hand or in multi-year pledges. To complete Phase 3 funding for FDA, MAP needs additional donations and multi-year pledges of about $8 million. MAPS is seeking to raise these funds by the end of February 2018, when we need to plan the roll-out of Phase 3.",
+   "context": "Fundraising target and deadline for Phase 3.",
+   "post_title": "Annual Financial Report Fiscal Year 2016–17 (MAPS Bulletin Winter 2017)",
+   "source_url": "https://maps.org/news/bulletin/fy-2017-financial-report/",
+   "area_guess": "company_market",
+   "horizon_text": "by the end of February 2018",
+   "confidence_phrase": "seeking to",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; 'MAP' typo is in the source."
+  },
+  {
+   "id": "doblin-0065",
+   "forecaster": "doblin",
+   "statement_date": "2017-12-06",
+   "quote": "Once that threshold is crossed, the MAPS Public Benefit Corporation can begin the sale of medical grade MDMA by prescription. From that point on, income from the sales of MDMA can be generated for mission-related projects. Over time, this income can supplement and potentially even replace the need for philanthropic donations.",
+   "context": "Conditional on FDA/EMA approval: MPBC sells MDMA by prescription and sales income may replace donations.",
+   "post_title": "Annual Financial Report Fiscal Year 2016–17 (MAPS Bulletin Winter 2017)",
+   "source_url": "https://maps.org/news/bulletin/fy-2017-financial-report/",
+   "area_guess": "company_market",
+   "horizon_text": "Over time",
+   "confidence_phrase": "can ... potentially",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0066",
+   "forecaster": "doblin",
+   "statement_date": "2017-12-06",
+   "quote": "In FY18, we will begin discussions with FDA about the potential prescription use of MDMA-assisted psychotherapy for PTSD in the context of meetings about our Breakthrough Therapy Designation.",
+   "context": "Planned FDA commercialization discussions under Breakthrough Therapy Designation.",
+   "post_title": "Annual Financial Report Fiscal Year 2016–17 (MAPS Bulletin Winter 2017)",
+   "source_url": "https://maps.org/news/bulletin/fy-2017-financial-report/",
+   "area_guess": "regulatory",
+   "horizon_text": "In FY18",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own plan."
+  },
+  {
+   "id": "doblin-0067",
+   "forecaster": "doblin",
+   "statement_date": "2017-12-06",
+   "quote": "the Risk Evaluation and Mitigation Strategies (REMS) that will control how MDMA-assisted psychotherapy will be provided by prescription (e.g. only by therapists who have been trained by MAPS in our therapeutic method)",
+   "context": "Expectation that a REMS will restrict prescription MDMA-assisted psychotherapy to MAPS-trained therapists.",
+   "post_title": "Annual Financial Report Fiscal Year 2016–17 (MAPS Bulletin Winter 2017)",
+   "source_url": "https://maps.org/news/bulletin/fy-2017-financial-report/",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Fragment of a longer list sentence; describes expected post-approval controls."
+  },
+  {
+   "id": "doblin-0068",
+   "forecaster": "doblin",
+   "statement_date": "2017-12-06",
+   "quote": "Both studies are expected to be completed with scientific papers submitted for publication by the end of FY18.",
+   "context": "Refers to the MDMA studies for social anxiety in autistic adults and for anxiety with life-threatening illness.",
+   "post_title": "Annual Financial Report Fiscal Year 2016–17 (MAPS Bulletin Winter 2017)",
+   "source_url": "https://maps.org/news/bulletin/fy-2017-financial-report/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "by the end of FY18",
+   "confidence_phrase": "expected",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; FY18 ends May 31, 2018."
+  },
+  {
+   "id": "doblin-0069",
+   "forecaster": "doblin",
+   "statement_date": "2018-06-15",
+   "quote": "The Agreement Letter is a written commitment by the FDA to approve MDMA-assisted psychotherapy for PTSD if our Phase 3 protocol design generates statistically significant results, and no new safety issues arise during Phase 3.",
+   "context": "Characterization of the FDA SPA Agreement Letter as a conditional commitment to approve.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Spring 2018 (MAPS Bulletin Vol. 28, No. 1)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-spring-2018/",
+   "area_guess": "regulatory",
+   "horizon_text": "none",
+   "confidence_phrase": "commitment ... if",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Conditional claim about FDA behavior."
+  },
+  {
+   "id": "doblin-0070",
+   "forecaster": "doblin",
+   "statement_date": "2018-06-15",
+   "quote": "We anticipate completing the training of all of our Phase 3 therapists by Fall 2018, with Phase 3 starting at most of our sites this August and taking roughly two years to complete.",
+   "context": "Phase 3 start (August 2018) and duration (about two years); about 80 therapists at 15-16 sites.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Spring 2018 (MAPS Bulletin Vol. 28, No. 1)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-spring-2018/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "by Fall 2018; this August; roughly two years",
+   "confidence_phrase": "anticipate",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0071",
+   "forecaster": "doblin",
+   "statement_date": "2018-06-15",
+   "quote": "We anticipate coming to agreement with EMA before the end of this year. If we can raise the roughly $5 million we’re currently estimating we’ll need for new data for EMA, we can begin Phase 3 in Europe in the summer of 2019—and I think we can. We can then complete Phase 3 trials in Europe in 12 to 16 months, depending on how many subjects EMA will require to be treated in Europe and how many Phase 3 sites we establish.",
+   "context": "EMA negotiation and European Phase 3 timeline; in-person EMA meeting in London scheduled early June 2018.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Spring 2018 (MAPS Bulletin Vol. 28, No. 1)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-spring-2018/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "before the end of this year; summer of 2019; 12 to 16 months",
+   "confidence_phrase": "anticipate ... I think we can",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Compound: EMA agreement, $5M estimate, EU Phase 3 start and duration."
+  },
+  {
+   "id": "doblin-0072",
+   "forecaster": "doblin",
+   "statement_date": "2018-06-15",
+   "quote": "MAPS’ 18-year effort, which started in 2000, to end the 50-year federal monopoly on the supply of DEA-licensed cannabis legal for use in FDA-regulated research, is also approaching what feels likely to be a successful conclusion.",
+   "context": "On the DEA cannabis cultivation license applications blocked under Attorney General Sessions; Senators demanded action by August 11, 2018.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Spring 2018 (MAPS Bulletin Vol. 28, No. 1)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-spring-2018/",
+   "area_guess": "payer_policy",
+   "horizon_text": "none",
+   "confidence_phrase": "feels likely",
+   "entities": [],
+   "finder_note": "source confidence high; undated"
+  },
+  {
+   "id": "doblin-0073",
+   "forecaster": "doblin",
+   "statement_date": "2018-06-15",
+   "quote": "The wait for actions rather than just words may soon be ending, though of course nothing is certain.",
+   "context": "Same passage on DEA cannabis licenses and Sessions.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Spring 2018 (MAPS Bulletin Vol. 28, No. 1)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-spring-2018/",
+   "area_guess": "payer_policy",
+   "horizon_text": "soon",
+   "confidence_phrase": "may ... nothing is certain",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0074",
+   "forecaster": "doblin",
+   "statement_date": "2018-06-15",
+   "quote": "Once the federal marijuana monopoly does end, MAPS will have access to a supply of cannabis that could ultimately be sold as a prescription medicine.",
+   "context": "Conditional on the end of the NIDA monopoly.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Spring 2018 (MAPS Bulletin Vol. 28, No. 1)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-spring-2018/",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "could ultimately",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Conditional."
+  },
+  {
+   "id": "doblin-0075",
+   "forecaster": "doblin",
+   "statement_date": "2018-08-18",
+   "quote": "We currently estimate that the studies will take about three years from the first enrollment until the end of 2021, when we project we’ll obtain FDA approval for the prescription use of MDMA-assisted psychotherapy for posttraumatic stress disorder (PTSD).",
+   "context": "Phase 3 multi-site studies at 16 sites in the U.S., Canada and Israel about to begin screening.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Summer 2018 (MAPS Bulletin Vol. 28, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-summer-2018/",
+   "area_guess": "regulatory",
+   "horizon_text": "until the end of 2021",
+   "confidence_phrase": "we project",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0076",
+   "forecaster": "doblin",
+   "statement_date": "2018-08-18",
+   "quote": "As you read this edition of the Bulletin, our FDA Phase 3 multi-site studies will be in their very earliest stages, with screening for subjects underway and perhaps even the first subject enrolled at one of our 16 sites in the U.S., Canada, and Israel.",
+   "context": "Short-horizon expectation for Phase 3 start.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Summer 2018 (MAPS Bulletin Vol. 28, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-summer-2018/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "As you read this edition",
+   "confidence_phrase": "will ... perhaps",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0077",
+   "forecaster": "doblin",
+   "statement_date": "2018-08-18",
+   "quote": "We anticipate that by the end of Summer 2019, this program will allow some treatment-resistant PTSD patients to obtain MDMA-assisted psychotherapy from therapists MAPS has trained without a placebo control group as in the Phase 3 trials, with patients paying for their own treatments.",
+   "context": "FDA Expanded Access (compassionate use) program for MDMA-assisted psychotherapy for PTSD.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Summer 2018 (MAPS Bulletin Vol. 28, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-summer-2018/",
+   "area_guess": "regulatory",
+   "horizon_text": "by the end of Summer 2019",
+   "confidence_phrase": "anticipate",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0078",
+   "forecaster": "doblin",
+   "statement_date": "2018-08-18",
+   "quote": "When MAPS can proceed into actual Phase 3 clinical trials for EMA approval depends on how quickly we can raise $8.5 million—ideally by the end of 2018.",
+   "context": "European Phase 3 funding target after the EMA Scientific Advice process.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Summer 2018 (MAPS Bulletin Vol. 28, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-summer-2018/",
+   "area_guess": "company_market",
+   "horizon_text": "by the end of 2018",
+   "confidence_phrase": "ideally",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0079",
+   "forecaster": "doblin",
+   "statement_date": "2018-08-18",
+   "quote": "MAPS is preparing a lawsuit against DEA, should the August 11 deadline pass without action, an outcome which seems likely at the time I’m writing this. By the time you’re reading this, our lawsuit might even have been filed. We’re also seeing signs that the federal marijuana monopoly has the potential to become a significant election-year issue.",
+   "context": "Eight Senators set an August 11, 2018 deadline for DEA to act on 26 cannabis cultivation applications.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Summer 2018 (MAPS Bulletin Vol. 28, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-summer-2018/",
+   "area_guess": "payer_policy",
+   "horizon_text": "August 11; By the time you’re reading this",
+   "confidence_phrase": "seems likely ... might",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Compound: DEA inaction likely, lawsuit possible, election-year issue."
+  },
+  {
+   "id": "doblin-0080",
+   "forecaster": "doblin",
+   "statement_date": "2018-11-18",
+   "quote": "By the time you are reading this, MAPS’ Phase 3 clinical trials of MDMA-assisted psychotherapy for PTSD will finally have begun screening participants.",
+   "context": "Sentence preceding the census rows doblin-0004 and doblin-0005 in the Winter 2018 column.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Winter 2018 (MAPS Bulletin Vol. 28, No. 3)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-winter-2018/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "By the time you are reading this",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Same column as doblin-0004/0005; different sentence."
+  },
+  {
+   "id": "doblin-0081",
+   "forecaster": "doblin",
+   "statement_date": "2018-11-18",
+   "quote": "We’ve also recently enrolled the 76th and final participant in our Phase 2 clinical trial of four different varieties of smoked cannabis for veterans with chronic, treatment-resistant PTSD. We will be able to remove the blind and begin data analysis in the first few months of 2019.",
+   "context": "Cannabis/PTSD veterans trial (Sue Sisley, Phoenix) unblinding timeline.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Winter 2018 (MAPS Bulletin Vol. 28, No. 3)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-winter-2018/",
+   "area_guess": "clinical_trial",
+   "horizon_text": "in the first few months of 2019",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0082",
+   "forecaster": "doblin",
+   "statement_date": "2018-11-18",
+   "quote": "MPBC was created in December 2015 to conduct MAPS’ clinical research and eventually to market MDMA as an FDA-approved prescription medicine for PTSD, an outcome we currently anticipate will take place in 2021 (additional information can be found at mapsbcorp.com). MAPS Europe BV was created in February 2018 to conduct MAPS’ clinical research and eventually to market MDMA in Europe with approval by the European Medicines Agency (EMA), estimated in 2022.",
+   "context": "FY2018 annual financial report written by Doblin: FDA approval 2021, EMA approval 2022.",
+   "post_title": "Annual Financial Report Winter 2018 (MAPS Bulletin Vol. 28, No. 3)",
+   "source_url": "https://maps.org/news/bulletin/articles/435-maps-bulletin-winter-2018-vol-28-no-3/7508-annual-financial-report-winter-2018",
+   "area_guess": "regulatory",
+   "horizon_text": "in 2021; in 2022",
+   "confidence_phrase": "anticipate ... estimated",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; First bulletin statement of a 2022 EMA date."
+  },
+  {
+   "id": "doblin-0083",
+   "forecaster": "doblin",
+   "statement_date": "2018-11-18",
+   "quote": "We anticipate that we will be able to make MDMA-assisted psychotherapy for PTSD into a legal prescription treatment in Europe through the EMA for approximately one-third the cost of the FDA program.",
+   "context": "Cost expectation for the EMA program because EMA will accept FDA data as confirmatory and require one additional Phase 3 study.",
+   "post_title": "Annual Financial Report Winter 2018 (MAPS Bulletin Vol. 28, No. 3)",
+   "source_url": "https://maps.org/news/bulletin/articles/435-maps-bulletin-winter-2018-vol-28-no-3/7508-annual-financial-report-winter-2018",
+   "area_guess": "company_market",
+   "horizon_text": "none",
+   "confidence_phrase": "anticipate",
+   "entities": [],
+   "finder_note": "source confidence high; undated"
+  },
+  {
+   "id": "doblin-0084",
+   "forecaster": "doblin",
+   "statement_date": "2018-11-18",
+   "quote": "We anticipate submitting our New Drug Application to the FDA in 2021. We are currently training potential European researchers, selecting potential study sites, and preparing regulatory submission in hopes of initiating studies in Europe near the end of FY19, however this is dependent on raising the $9 million needed to fund these studies.",
+   "context": "Projections for FY19 section.",
+   "post_title": "Annual Financial Report Winter 2018 (MAPS Bulletin Vol. 28, No. 3)",
+   "source_url": "https://maps.org/news/bulletin/articles/435-maps-bulletin-winter-2018-vol-28-no-3/7508-annual-financial-report-winter-2018",
+   "area_guess": "regulatory",
+   "horizon_text": "in 2021; near the end of FY19",
+   "confidence_phrase": "anticipate ... in hopes of",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; FY19 ends May 31, 2019."
+  },
+  {
+   "id": "doblin-0085",
+   "forecaster": "doblin",
+   "statement_date": "2018-11-18",
+   "quote": "Now, our fundraising focus turns to EMA Phase 3 studies, which we anticipate will cost approximately $9 million, of which about $900,000 is already raised. MAPS is seeking to raise these funds by the end of FY19.",
+   "context": "EMA Phase 3 fundraising target.",
+   "post_title": "Annual Financial Report Winter 2018 (MAPS Bulletin Vol. 28, No. 3)",
+   "source_url": "https://maps.org/news/bulletin/articles/435-maps-bulletin-winter-2018-vol-28-no-3/7508-annual-financial-report-winter-2018",
+   "area_guess": "company_market",
+   "horizon_text": "by the end of FY19",
+   "confidence_phrase": "anticipate ... seeking to",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0086",
+   "forecaster": "doblin",
+   "statement_date": "2018-11-18",
+   "quote": "Estimated spending in FY19 is projected to be over $13.25 million, an increase of nearly $5.5 million over FY18, and by far the largest expenditures in a single fiscal year in MAPS’ entire 33-year existence due to the ongoing Phase 3 studies.",
+   "context": "MAPS FY19 expense projection.",
+   "post_title": "Annual Financial Report Winter 2018 (MAPS Bulletin Vol. 28, No. 3)",
+   "source_url": "https://maps.org/news/bulletin/articles/435-maps-bulletin-winter-2018-vol-28-no-3/7508-annual-financial-report-winter-2018",
+   "area_guess": "company_market",
+   "horizon_text": "FY19",
+   "confidence_phrase": "projected",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Own-organization financial projection."
+  },
+  {
+   "id": "doblin-0087",
+   "forecaster": "doblin",
+   "statement_date": "2019-04-01",
+   "quote": "I’m proud to say that we have now initiated our Phase 3 studies. And if the results are as we hope, and if they’re similar to the Phase 2 studies, by the end of 2021, FDA will approve MDMA-assisted psychotherapy for PTSD.",
+   "context": "Bulletin reprint of the April 2019 TED2019 talk transcript. Restates the end-of-2021 FDA approval call already in the census from a podcast transcript (doblin-0007).",
+   "post_title": "TED Talk: The Future of Psychedelic-Assisted Therapy (MAPS Bulletin Summer 2019, Vol. 29, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/ted-talk-the-future-of-psychedelic-assisted-psychotherapy/",
+   "area_guess": "regulatory",
+   "horizon_text": "by the end of 2021",
+   "confidence_phrase": "will ... if the results are as we hope",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Restatement of doblin-0007 in a different source (MAPS Bulletin reprint)."
+  },
+  {
+   "id": "doblin-0088",
+   "forecaster": "doblin",
+   "statement_date": "2019-04-01",
+   "quote": "If approved, the only therapists who will be able to directly administer it to patients are going to be therapists that have been through our training program, and they will only be able to administer MDMA under direct supervision in clinic settings.",
+   "context": "Post-approval access model: only MAPS-trained therapists, supervised clinic settings.",
+   "post_title": "TED Talk: The Future of Psychedelic-Assisted Therapy (MAPS Bulletin Summer 2019, Vol. 29, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/ted-talk-the-future-of-psychedelic-assisted-psychotherapy/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "If approved",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Conditional on approval."
+  },
+  {
+   "id": "doblin-0089",
+   "forecaster": "doblin",
+   "statement_date": "2019-04-01",
+   "quote": "We anticipate that over the next several decades, there will be thousands of psychedelic clinics established, at which, therapists will be able to administer MDMA, psilocybin, ketamine and other psychedelics to potentially millions of patients.",
+   "context": "Clinic-count forecast; restates doblin-0008 in the Bulletin reprint.",
+   "post_title": "TED Talk: The Future of Psychedelic-Assisted Therapy (MAPS Bulletin Summer 2019, Vol. 29, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/ted-talk-the-future-of-psychedelic-assisted-psychotherapy/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "over the next several decades",
+   "confidence_phrase": "anticipate",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Restatement of doblin-0008 in a different source."
+  },
+  {
+   "id": "doblin-0090",
+   "forecaster": "doblin",
+   "statement_date": "2019-04-18",
+   "quote": "MAPS has started FDA-approved Phase 3 research into MDMA-assisted psychotherapy for PTSD, with approval anticipated at the end of 2021, though of course nothing can be taken for granted. MAPS is about a year behind in starting Phase 3 research in Europe compared to the U.S., and needs to raise another $8.1 million to fund that research.",
+   "context": "Women and Psychedelics special issue column; FDA approval anticipated end of 2021; Europe about a year behind.",
+   "post_title": "From the Desk of Rick Doblin, Ph.D. – Spring 2019 (MAPS Bulletin Vol. 29, No. 1)",
+   "source_url": "https://maps.org/news/bulletin/from-the-desk-of-rick-doblin-ph-d-spring-2019/",
+   "area_guess": "regulatory",
+   "horizon_text": "at the end of 2021",
+   "confidence_phrase": "anticipated ... nothing can be taken for granted",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event"
+  },
+  {
+   "id": "doblin-0091",
+   "forecaster": "doblin",
+   "statement_date": "2019-06-12",
+   "quote": "doctors may be able to legally prescribe MDMA for use in psychotherapy, not as a take-home drug but only for use in controlled therapeutic settings, by 2021.",
+   "context": "Aspen Ideas Q&A with Doblin before his 2019 Aspen Ideas: Health appearance. He describes the Phase 3 program and says doctors may be able to prescribe MDMA for supervised psychotherapy by 2021.",
+   "post_title": "Mental Health is Getting the Psychedelic Treatment - Aspen Ideas",
+   "source_url": "https://www.aspenideas.org/articles/mental-health-is-getting-the-psychedelic-treatment",
+   "area_guess": "regulatory",
+   "horizon_text": "by 2021",
+   "confidence_phrase": "may be able to",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Q&A format; presented as Doblin's own answers."
+  },
+  {
+   "id": "doblin-0092",
+   "forecaster": "doblin",
+   "statement_date": "2019-06-12",
+   "quote": "it's looking very hopeful that I'll be able to fulfill my dream of becoming a legal psychedelic therapist—before I'm too old to change careers!",
+   "context": "Same Aspen Ideas Q&A. Doblin ties his personal goal of practicing legally to the expected 2021 approval.",
+   "post_title": "Mental Health is Getting the Psychedelic Treatment - Aspen Ideas",
+   "source_url": "https://www.aspenideas.org/articles/mental-health-is-getting-the-psychedelic-treatment",
+   "area_guess": "other",
+   "horizon_text": "none",
+   "confidence_phrase": "very hopeful",
+   "entities": [],
+   "finder_note": "source confidence high; undated; Borderline personal expectation; implies legal MDMA therapy within his working life."
+  },
+  {
+   "id": "doblin-0093",
+   "forecaster": "doblin",
+   "statement_date": "2019-09-04",
+   "quote": "Oh yeah, we’re globalizing. Our Phase 3 studies are actually being done in Israel, Canada and the United States. So once we get approval in FDA, it will also become approved in Israel and in Canada. We’re just starting research in Europe. And we’re actually going to be training some therapists from China.",
+   "context": "Q&A after the TED talk with host Corey Hajim.",
+   "post_title": "TED Talk: The Future of Psychedelic-Assisted Therapy (MAPS Bulletin Summer 2019, Vol. 29, No. 2)",
+   "source_url": "https://maps.org/news/bulletin/ted-talk-the-future-of-psychedelic-assisted-psychotherapy/",
+   "area_guess": "regulatory",
+   "horizon_text": "once we get approval in FDA",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Compound: Israel and Canada approvals follow FDA; China therapist training."
+  },
+  {
+   "id": "doblin-0094",
+   "forecaster": "doblin",
+   "statement_date": "2019-09-10",
+   "quote": "MAPS will be the only FDA-approved entity to train therapists for MDMA-assisted therapy. Once the therapists have been trained, they can set up their own clinics. There will be 10,000 clinics in America eventually.",
+   "context": "Boston Magazine Q&A. Answer to whether MDMA will be a take-home drug after FDA approval. Claims MAPS training monopoly and 10,000 US clinics eventually.",
+   "post_title": "The Interview: MDMA-Therapy Expert Dr. Rick Doblin",
+   "source_url": "https://www.bostonmagazine.com/health/2019/09/10/rick-doblin/",
+   "area_guess": "practice_adoption",
+   "horizon_text": "eventually",
+   "confidence_phrase": "will",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Same page as census doblin-0009 (maps.org mirror) but a different statement. Compound: training exclusivity plus clinic count."
+  },
+  {
+   "id": "doblin-0095",
+   "forecaster": "doblin",
+   "statement_date": "2019-09-10",
+   "quote": "So if somebody wanted to market a generic, they could if they generate their own data. But it’s going to take them more than five years and $35 million or $40 million. So they’ll probably just wait this out.",
+   "context": "Boston Magazine Q&A on the anti-patent strategy and five-year data exclusivity. Doblin predicts generic competitors will not run their own trials during the exclusivity window.",
+   "post_title": "The Interview: MDMA-Therapy Expert Dr. Rick Doblin",
+   "source_url": "https://www.bostonmagazine.com/health/2019/09/10/rick-doblin/",
+   "area_guess": "company_market",
+   "horizon_text": "more than five years",
+   "confidence_phrase": "probably",
+   "entities": [],
+   "finder_note": "source confidence high; dated_event; Same page as census doblin-0009; different statement."
+  }
+ ]
+}
