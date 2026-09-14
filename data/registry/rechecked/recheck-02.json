@@ -1,0 +1,106 @@
+{
+ "rechecker": "X1",
+ "run": "recheck-2026-09-13",
+ "rechecks": [
+  {
+   "event_id": "E-0017",
+   "challenged": "date",
+   "argument": "Attacked the date both ways. Earlier: Magnus's 2024-04-30 launch release names UAMS and MUSC Health as 'first customer sites' and quotes UAMS as 'first site in the nation to offer' SAINT, but the teams 'will implement' it and no patient availability or treated patient is stated: an agreement to install, which the criterion excludes. MUSC in fact treated patients first: its article of 2024-08-09 (musc.edu) says MUSC was 'the first hospital system in the country to actually perform the SAINT method for patients in May' 2024; the Post and Courier (2024-08-19) agrees. But the criterion keys on the announcement date, and MUSC's first public announcement came 2024-08-09, after the UAMS release of 2024-06-11, which states SAINT 'can only be provided to patients who are being treated as inpatients'. No hospital or Magnus announcement of patient availability between 2024-04-30 and 2024-06-11 was found. 2024-06-11 stands; UAMS's 'first' claim is wrong in fact but not in date.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0019",
+   "challenged": "criterion",
+   "argument": "Verified K260402 (Wave Neuroscience MeRT, new product code SIG, 21 CFR 882.5802, decision 2026-06-03, PTSD) in the FDA 510(k) database and openFDA. openFDA lists 24 OBP (MDD) and 2 QCI (OCD) clearances from 2024-01-05 to 2026-09-13, no new QMD or OKP entries, and SIG as the only new TMS product code. Population and protocol clearances (NeuroStar adolescents K231926 2024-03-22; Magstim K243869; MagVenture K251119; BrainsWay K251391; Nexstim K252358) are excluded by the criterion text. Magstim's 2025-07-09 'pain' clearance is peripheral nerve stimulation held since K992911 (2000), not a new TMS condition. So under the criterion as written 2026-06-03 is right. But reading 5 says 'a new patient population for a listed disorder counts as a new indication', which makes K231926 (2024-03-22) the first-true date, 26 months earlier and possibly inside deadlines the criterion text resolves FALSE. Criterion and readings contradict each other; a human must pick which governs.",
+   "verdict": "escalated",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0020",
+   "challenged": "date",
+   "argument": "Looked for an earlier or later first report. The GlobeNewswire release is dated 2025-07-01 06:00 ET (also an 8-K exhibit that day) and reports the primary endpoint of the quadruple-masked, dose-finding core stage of Phase 2b NCT05870540: MADRS change at Day 29, 12 mg vs 0.3 mg, -11.1 vs -5.8 points, p=0.0038, n=193. Beckley's Phase 2a open-label TRD data (2024) and the enrollment-complete release carry no primary endpoint; the open-label extension topline (2025-11-10) came later; no conference abstract, interim or pooled analysis preceded 2025-07-01; the ClinicalTrials.gov results posting (2026-09-10) is later. The sponsor is Beckley Psytech with parent atai, as the criterion allows. 2025-07-01 stands.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0027",
+   "challenged": "state",
+   "argument": "Argued that Lykos's 2024-08-09 disclosure names only non-safety grounds (durability, expectancy bias, psychotherapy) and that a request for a new trial is not a request for safety data. It fails: the release (PR Newswire, 2024-08-09 17:27 ET) says the FDA 'requested that Lykos conduct an additional Phase 3 trial to further study the safety and efficacy of midomafetamine', a request for additional safety data with other deficiencies, so the FALSE branch ('only deficiencies that do not concern safety data') does not apply. The letter, signed 2024-08-08 14:39 and published by FDA on 2025-09-04, confirms it: the NDA did not 'establish the safety', unreported adverse events raise 'substantial concerns about the reliability of the safety data', Phase 3 laboratory data were missing, and FDA asked for a new trial to 'adequately characterize the safety'. The letter date is earlier, but the criterion keys on the sponsor's disclosure, and FDA said nothing publicly before 2025. 2024-08-09 stands.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0032",
+   "challenged": "date",
+   "argument": "The resolver flagged that state-court patient suits were not searched. One exists: Dustin Fogt v. Options Behavioral Health System and Acadia Healthcare Company Inc., Marion Superior Court No. 49D13-2409-CT-044449, filed 2024-09-30 (Mirror Indy, 2024-10-03: 'a Sept. 30 lawsuit'; The Indiana Lawyer, 2024-12-04, confirms it). He alleges he was held three days beyond his involuntary hold, was threatened with longer detention if he pressed charges, and that Options held patients 'based not on treatment decisions, but upon the maximum amount the center could bill' insurance: the NYT conduct, against Acadia and a subsidiary, after 2024-09-04 and 16 days before Kachrodia. Nothing earlier surfaced: Dufour's 2024-09-11 filing was a proposed malpractice complaint with the Indiana Department of Insurance, not a court docket; Jenkins (W.D. Tenn., 2024-09-18) is an employment case; the DOJ settlement of 2024-09-26 resolved qui tam suits filed in 2017. First-true date: 2024-09-30.",
+   "verdict": "overturned",
+   "corrected": {
+    "state": "occurred",
+    "date": "2024-09-30",
+    "evidence": [
+     {
+      "url": "https://mirrorindy.org/indianapolis-acadia-healthcare-patients-abuse-lawsuit-options-behavioral-health-hospital/",
+      "title": "Indiana patients describe abuse at Acadia facility in Lawrence (Dustin Fogt lawsuit filed Sept. 30, 2024 against Acadia Healthcare; held beyond his involuntary hold)",
+      "publisher": "Mirror Indy",
+      "date": "2024-10-03",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.theindianalawyer.com/articles/mental-health-treatment-center-facing-five-lawsuits-for-allegedly-mistreating-patients",
+      "title": "Mental health treatment center facing five lawsuits for allegedly mistreating patients (Fogt v. Options Behavioral Health System, Acadia Healthcare Company Inc., Marion Superior Court 49D13-2409-CT-044449, September 2024)",
+      "publisher": "The Indiana Lawyer",
+      "date": "2024-12-04",
+      "accessed": "2026-09-13"
+     }
+    ]
+   }
+  },
+  {
+   "event_id": "E-0042",
+   "challenged": "criterion",
+   "argument": "Attacked the fit: the sponsor labels the trial an 'exploratory, double-blind, placebo-controlled, first-in-patient Phase 2a study' with a safety and tolerability primary endpoint, while the criterion asks for 'the Phase 2 trial' and its 'primary-endpoint result'. The attack fails: ClinicalTrials.gov NCT06693609 lists the study as Phase 2 and it is the only Phase 2 trial of EMP-01 in social anxiety disorder; the release (GlobeNewswire, 2026-02-26 07:00 ET) reports the primary endpoint (safety and tolerability through Day 43, met) and the LSAS efficacy result (placebo-adjusted -11.85 points, Hedges' g 0.45, p=0.036 one-tailed; 71 enrolled, 70 dosed, 69 completed) in the sponsor's own topline release, which the criterion names as the primary source. Web search finds no earlier disclosure of these results; the 'additional Phase 2a results' release came later. Direction is stored, not required. 2026-02-26 stands.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0045",
+   "challenged": "date",
+   "argument": "Attacked the date. Earlier: PubMed (E-utilities) shows no journal publication of NCT04593875, and the only pallidal tFUS trial paper in Parkinson's disease (Lin, Mov Disord, epub 2025-10-23) used a Taiwanese device, not Brainsonix. Of 26 tFUS papers dated 2026-01-01 to 2026-02-04, none is a peer-reviewed patient trial of a Brainsonix device: Schachtner (Front Psychiatry, 2026-01-20) used an Openwater device, Subramaniam (medRxiv, 2026-01-13) is a preprint, the coupling-pad paper is preclinical. ClinicalTrials.gov lists 22 Brainsonix or BX Pulsar studies and only NCT04593875 has results posted after 2026-01-01 (first posted 2026-02-04; UCLA; BX Pulsar 1002; 31 Parkinson's patients; randomized sham-controlled crossover; UPDRS-III, finger tapping and pegboard primary outcomes reported). Later: the Brainsonix news page has no topline release; its 2026 items relay older or healthy-volunteer papers. No prior publication or abstract made the results public before 2026. 2026-02-04 stands.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0046",
+   "challenged": "date",
+   "argument": "An earlier 2026 complaint fits the criterion as applied at least as well as H.N.: M.M. v. Aetna Life Insurance Co., Bank of America Corp., its Corporate Benefits Committee and its Group Benefits Program, W.D.N.C. No. 3:26-cv-00219, filed 2026-03-19. It names the employer as sponsor of a self-funded plan and the plan committee as administrator, pleads that they 'are fiduciaries of the Plan' (para 13) and 'breached their fiduciary duties' (para 66), and its Second Cause of Action, 'Violation of the MHPAEA (29 U.S.C. 1132(a)(3))', says 'these MHPAEA violations by Defendants are breaches of fiduciary duty' (para 78). H.N. (2026-03-26) instead concedes 'Marsh played no role in the decision' (para 3). Both are single-family benefit suits, not the Schlichter-style class actions in the readings; under that reading neither counts (RECAP shows no such 2026 suit). Under the criterion as written the first-true date moves to 2026-03-19, if in window; an earlier 2026 filing may exist outside RECAP.",
+   "verdict": "overturned",
+   "corrected": {
+    "state": "occurred",
+    "date": "2026-03-19",
+    "evidence": [
+     {
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.ncwd.122985/gov.uscourts.ncwd.122985.1.0.pdf",
+      "title": "Complaint, M.M. v. Aetna Life Insurance Company, Bank of America Corporation, Bank of America Corporation Corporate Benefits Committee and the Bank of America Group Benefits Program, 3:26-cv-00219 (W.D.N.C.) (Doc. 1, filed 03/19/26)",
+      "publisher": "U.S. District Court for the Western District of North Carolina (via CourtListener RECAP)",
+      "date": "2026-03-19",
+      "accessed": "2026-09-13"
+     },
+     {
+      "url": "https://www.courtlistener.com/api/rest/v4/search/?q=%22Mental%20Health%20Parity%22%20AND%20%221132(a)(3)%22&type=r&order_by=dateFiled%20asc&filed_after=2026-01-01&filed_before=2026-03-25",
+      "title": "CourtListener RECAP search: dockets filed 2026-01-01 to 2026-03-25 whose documents cite 'Mental Health Parity' and '1132(a)(3)' (M.M. v. Aetna Life Insurance Company, 3:26-cv-00219, filed 2026-03-19)",
+      "publisher": "Free Law Project (CourtListener)",
+      "accessed": "2026-09-13"
+     }
+    ]
+   }
+  },
+  {
+   "event_id": "E-0065",
+   "challenged": "date",
+   "argument": "Checked for an earlier or later first report. Definium's Q2 2026 release (2026-08-06) says only that Voyage enrollment was complete (214 randomized) and that 'topline data anticipated the week of August 10, 2026', with no result. The topline release (ir.definiumtx.com and Business Wire, 2026-08-12 07:00 ET) reports the primary endpoint: HAM-A change at week 12, -11.6 (DT120 ODT 100 ug) vs -6.2 (placebo), difference -5.4, p<0.0001, and calls it the Company's second Phase 3 readout after Emerge (MDD, June), a different trial. ClinicalTrials.gov NCT06741228 (Definium Therapeutics US; primary completion 2026-07-15; last update 2026-09-02) has no results posted, and no peer-reviewed publication or conference abstract with the primary estimate predates the release; Panorama (September) is a different trial. 2026-08-12 stands.",
+   "verdict": "upheld",
+   "corrected": null
+  }
+ ]
+}
