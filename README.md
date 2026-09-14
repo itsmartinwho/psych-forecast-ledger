@@ -4,7 +4,7 @@ Scored, sourced predictions in interventional psychiatry and psychedelic medicin
 
 ## Method in one paragraph
 
-Each person's number is a Brier score on dated, checkable claims. A claim is admitted when the person said in public, on a known date, that a specific thing would or would not happen by a specific time, and a third party decides the outcome. Words become probabilities through a fixed lexicon (will 0.90, probably 0.70, may 0.50, unlikely 0.30, never 0.10); stated numbers are used as stated. Two independent coders map each claim to a registry event and a deadline; a mismatch voids the item. The registry accepts only events inside the five area definitions; a proposal outside them returns the statement to not admitted (OUT_OF_AREA). Items enter the score only after their deadline passes. One event counts once per person. The full method, tables and thresholds live in `data/rules/` and on `/methodology`.
+Each person's number is a Brier score on checkable claims. A claim is admitted when the person said in public, on a known date, that a specific thing would or would not happen, and a third party decides the outcome. A claim with a deadline in the person's words is checked at that deadline; a claim with no deadline is checked 24 months after it was made (rules 1.1.0; rules 1.0 scored dated claims only). Words become probabilities through a fixed lexicon (will 0.90, probably 0.70, may 0.50, unlikely 0.30, never 0.10); stated numbers are used as stated. Two independent coders map each claim to a registry event and a deadline; a mismatch voids the item. The registry accepts only events inside the five area definitions; a proposal outside them returns the statement to not admitted (OUT_OF_AREA). Items enter the score only after their deadline or window passes. One event counts once per person. The dated-only score stays visible as a view and a sensitivity variant. The full method, tables and thresholds live in `data/rules/` and on `/methodology`.
 
 ## Layout
 
@@ -27,6 +27,14 @@ pnpm snapshot        # recompute data/generated/scores.json
 pnpm build           # validate, drift check, static build
 pnpm dev
 ```
+
+## Adding statements after a release
+
+`import-sweep.ts <slug> <research file>` appends verified rows to the census with stable ids; `build-coding-packets.ts --new` packs only uncoded rows into new packets; coder A and coder B agents code them; `build-tiebreak-packet.ts --new` sends the admission splits to coder C; `consolidate-registry.ts prep` lists only unmapped proposals, a grouping agent writes `registry-groups-N.json`, entry agents write `registry-entries-N-*.json`, then `assemble --groups ... --entries ... --created <date> --version <rules>` and `apply` (the map merges with earlier runs); `intake-merge.ts` rebuilds the statements and items (idempotent); `freeze.ts <release>`; `build-resolution-packets.ts 8 --missing`; resolver agents; `apply-outcomes.ts`; `build-recheck-packets.ts 10 --occurred`; recheck agents; `apply-rechecks.ts`; `pnpm snapshot`.
+
+## Site
+
+The pages follow `docs/ux-spec.md`: a masthead with the site name and subject, one page header with the rules stamp, cards named by a noun phrase with a computed takeaway, a glyph legend, a collapsed "How to read" note, and glossary words linked to the method page through the `Term` component. Charts below their minimum n sit in one "Waiting for data" card.
 
 ## Pipeline order
 
