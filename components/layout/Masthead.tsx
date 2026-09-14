@@ -5,11 +5,12 @@ import { SITE_NAME, SUBJECT, TAGLINE } from "@/lib/content/site";
 import { Nav, type NavHero } from "./Nav";
 
 export interface MastheadProps {
-  hero: NavHero;
+  /** Forecasters in nav order, the hero first. */
+  forecasters: NavHero[];
   current?: string;
 }
 
-export function Masthead({ hero, current }: MastheadProps) {
+export function Masthead({ forecasters, current }: MastheadProps) {
   return (
     <header className="masthead">
       <div className="masthead-brand">
@@ -28,7 +29,7 @@ export function Masthead({ hero, current }: MastheadProps) {
           </span>
         </span>
       </div>
-      <Nav hero={hero} current={current} />
+      <Nav forecasters={forecasters} current={current} />
     </header>
   );
 }

@@ -1,30 +1,29 @@
-// Home: the hero's scoreboard, the leaderboard, the record, and what is waiting for data.
+// Overview: only what compares the forecasters. The leaderboard, one row per person, the admission funnel of the
+// whole census, the claims that came due, the shared events, and the cross-person charts. A person's own charts live
+// on that person's page.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { AdmissionCards } from "@/components/blocks/AdmissionCards";
+import { ForecastersCard } from "@/components/blocks/ForecastersCard";
 import { LeaderboardCard } from "@/components/blocks/LeaderboardCard";
 import { SharedEventsCard } from "@/components/blocks/SharedEventsCard";
 import { WaitingCard } from "@/components/blocks/WaitingCard";
 import { Card } from "@/components/card/Card";
 import { BoldnessPlumb } from "@/components/charts/BoldnessPlumb";
-import { BrierHairline } from "@/components/charts/BrierHairline";
-import { CalibrationPlumb } from "@/components/charts/CalibrationPlumb";
 import { LedgerAlmanac } from "@/components/charts/LedgerAlmanac";
 import { MatrixHeat } from "@/components/charts/MatrixHeat";
-import { HOLLOW_BELOW } from "@/components/charts/layout/BrierHairline.layout";
 import { Grid2 } from "@/components/layout/Grid2";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Shell } from "@/components/layout/Shell";
 import { ChartFrame } from "@/components/motion/ChartFrame";
 import { Reveal } from "@/components/motion/Reveal";
-import { Scoreboard } from "@/components/scoreboard/Scoreboard";
 import { Term } from "@/components/ui/Term";
 import { lockState, type LockKey } from "@/lib/content/display";
 import { SITE_NAME } from "@/lib/content/site";
 import { getDataset } from "@/lib/data/cached";
-import { COIN_FLIP, almanacData, boldnessData, brierSeriesData, calibrationData, leaderboardData, matrixData } from "@/lib/data/derive";
+import { almanacData, boldnessData, leaderboardData, matrixData } from "@/lib/data/derive";
 import { getScores } from "@/lib/data/scores";
-import { boldnessTakeaway, calibrationTakeaway, coveragePhrase, f2, matrixTakeaway, overTimeTakeaway, plural, recentTakeaway, roleParts } from "@/lib/data/text";
+import { boldnessTakeaway, matrixTakeaway, plural, recentTakeaway } from "@/lib/data/text";
 import { fmtInt } from "@/lib/format";
 
 export const metadata: Metadata = { title: SITE_NAME };
@@ -32,8 +31,8 @@ export const metadata: Metadata = { title: SITE_NAME };
 /** Resolved items in "Claims that came due", newest deadline first. */
 const RECENT_N = 12;
 
-/** The charts the Waiting for data card lists when they are below their minimum, in this order. */
-const HOME_LOCKS: readonly LockKey[] = ["calibration", "over_time", "matrix", "boldness", "timing"];
+/** The cross-person charts the Waiting for data card lists when they are below their minimum. */
+const HOME_LOCKS: readonly LockKey[] = ["matrix", "boldness"];
 
 interface LinkRowProps {
   label: string;
@@ -60,62 +59,37 @@ function LinkRow({ label, links }: LinkRowProps) {
 export default function Home() {
   const ds = getDataset();
   const snap = getScores();
-  const hero = ds.forecasters.find((f) => f.hero) ?? ds.forecasters[0];
-  const heroScores = snap.forecasters[hero.slug];
   const th = ds.thresholds;
   const minN = th.min_clusters_headline;
-  const ctx = { f: heroScores, snap };
+  const ctx = { snap };
   const recent = snap.items.filter((i) => i.o !== null).sort((a, b) => (a.deadline > b.deadline ? -1 : 1)).slice(0, RECENT_N);
   const persons = snap.leaderboard.filter((r) => r.kind === "person").length;
   const hasTierC = ds.forecasters.some((f) => f.coverage.tier === "C");
-  const overTime = lockState("over_time", ctx);
-  const calibration = lockState("calibration", ctx);
   const matrix = lockState("matrix", ctx);
   const boldness = lockState("boldness", ctx);
+  const resolvedEvents = ds.forecasters.reduce((n, f) => n + snap.forecasters[f.slug].headline.n_clusters, 0);
 
   return (
-    <Shell current="/" hero={{ slug: hero.slug, name: hero.name }}>
-      <PageHeader title={hero.name} version={ds.version} meta={[...roleParts(hero.role), <Term key="cov" t="coverage tier">{coveragePhrase(hero.coverage.tier)}</Term>]} />
+    <Shell current="/">
+      <PageHeader
+        title="Overview"
+        version={ds.version}
+        meta={[
+          plural(persons, "forecaster"),
+          plural(ds.statements.length, "statement"),
+          <span key="adm">
+            {fmtInt(ds.items.length)} <Term t="admitted">admitted</Term>
+          </span>,
+          <span key="res">
+            {fmtInt(resolvedEvents)} <Term t="resolved">resolved</Term> events
+          </span>,
+        ]}
+      />
 
       <Grid2>
-        <Scoreboard f={hero} s={heroScores} status={snap.status[hero.slug]} minN={minN} thresholds={th} />
-
         <LeaderboardCard data={leaderboardData(ds, snap)} minN={minN} thresholds={th} ranked src={`Headline panel · ${plural(persons, "forecaster")}`} hasTierC={hasTierC} />
 
-        {overTime.shown ? (
-          <Card
-            wide
-            title="Brier over time"
-            takeaway={overTimeTakeaway(heroScores)}
-            legend={[
-              { glyph: "solid", label: "quarter" },
-              { glyph: "hollow", label: `fewer than ${fmtInt(HOLLOW_BELOW)} events` },
-              { glyph: "dash", label: `coin flip ${f2(COIN_FLIP)}` },
-            ]}
-            src="Headline panel · by deadline quarter"
-          >
-            <Reveal>
-              <ChartFrame wide={<BrierHairline data={brierSeriesData(heroScores, hero.slug, hero.short)} size="wide" />} half={<BrierHairline data={brierSeriesData(heroScores, hero.slug, hero.short)} size="half" />} />
-            </Reveal>
-          </Card>
-        ) : null}
-
-        {calibration.shown ? (
-          <Card
-            title="Calibration"
-            takeaway={calibrationTakeaway(hero.short, heroScores)}
-            legend={[
-              { glyph: "solid", label: "bin, area = events" },
-              { glyph: "dash", label: "perfect calibration" },
-              { glyph: "text", label: "x = stated confidence" },
-            ]}
-            src={`Headline panel · ${plural(heroScores.calibration.n_clusters, "event")}`}
-          >
-            <Reveal>
-              <CalibrationPlumb data={calibrationData(ds, heroScores, hero.short)} size="half" />
-            </Reveal>
-          </Card>
-        ) : null}
+        <ForecastersCard ds={ds} snap={snap} minN={minN} />
 
         {matrix.shown ? (
           <Card
@@ -161,7 +135,7 @@ export default function Home() {
               { glyph: "solid", label: "true" },
               { glyph: "hollow", label: "false" },
             ]}
-            src="Headline panel · newest first"
+            src="Headline panel · all forecasters · newest first"
           >
             <Reveal>
               <ChartFrame wide={<LedgerAlmanac data={almanacData(ds, recent)} size="wide" />} half={<LedgerAlmanac data={almanacData(ds, recent)} size="half" />} />
@@ -175,7 +149,6 @@ export default function Home() {
       </Grid2>
 
       <section className="link-rows" style={{ marginTop: 32 }}>
-        <LinkRow label="Forecasters" links={ds.forecasters.map((f) => ({ href: `/forecasters/${f.slug}`, text: f.name }))} />
         <LinkRow label="Areas" links={ds.areas.map((a) => ({ href: `/areas/${a.slug}`, text: a.name }))} />
       </section>
     </Shell>

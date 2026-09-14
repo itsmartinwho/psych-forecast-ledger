@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { renderMarkup } from "@/lib/testing/markup";
-import { Nav, firstSegment, navLinks } from "@/components/layout/Nav";
+import { MORE_LINKS, Nav, firstSegment, isCurrent, navLinks } from "@/components/layout/Nav";
 import { Masthead } from "@/components/layout/Masthead";
 import { PageHeader, stampText } from "@/components/layout/PageHeader";
 import { Footer, FOOTER_LINKS } from "@/components/layout/Footer";
@@ -11,32 +11,37 @@ import { REPO_URL, SUBJECT, TAGLINE } from "@/lib/content/site";
 const hero = { slug: "owen", name: "Owen Scott Muir" };
 
 describe("Nav", () => {
-  it("links the six sections in order with the hero as item 2", () => {
-    const m = renderMarkup(<Nav hero={hero} />);
+  const people = [hero, { slug: "angermayer", name: "Christian Angermayer" }, { slug: "doblin", name: "Rick Doblin" }];
+  it("links Overview, every forecaster, then the More menu with the four reference pages", () => {
+    const m = renderMarkup(<Nav forecasters={people} />);
     const hrefs = [...m.matchAll(/href="([^"]+)"/g)].map((x) => x[1]);
-    expect(hrefs).toEqual(["/", "/forecasters/owen", "/predictions", "/events", "/methodology", "/about"]);
-    expect(navLinks(hero).map((l) => l.href)).toEqual(hrefs);
-    expect(navLinks(hero).map((l) => l.label)).toEqual(["Overview", "Owen Scott Muir", "Statements", "Events", "Method", "About"]);
-    expect(m.match(/class="nav-link"/g)?.length).toBe(6);
+    expect(hrefs).toEqual(["/", "/forecasters/owen", "/forecasters/angermayer", "/forecasters/doblin", "/predictions", "/events", "/methodology", "/about"]);
+    expect(navLinks(people).map((l) => l.label)).toEqual(["Overview", "Owen Scott Muir", "Christian Angermayer", "Rick Doblin"]);
+    expect(MORE_LINKS.map((l) => l.label)).toEqual(["Statements", "Events", "Method", "About"]);
     expect(m).toContain('<nav aria-label="Main"');
+    expect(m).toContain('class="nav-more"');
+    expect(m).toContain('class="nav-more-menu"');
     expect(m).not.toContain("aria-current");
   });
-  it("marks the current page by first path segment", () => {
-    const m = renderMarkup(<Nav hero={hero} current="/events" />);
-    expect(m.match(/aria-current="page"/g)?.length).toBe(1);
-    expect(m).toContain('class="nav-link" aria-current="page" href="/events"');
-    expect(renderMarkup(<Nav hero={hero} current="/forecasters/owen" />)).toContain('aria-current="page" href="/forecasters/owen"');
-    expect(renderMarkup(<Nav hero={hero} current="/predictions/owen-0412" />)).toContain('aria-current="page" href="/predictions"');
-    expect(renderMarkup(<Nav hero={hero} current="/" />)).toContain('aria-current="page" href="/"');
-    expect(renderMarkup(<Nav hero={hero} current="/gallery" />)).not.toContain("aria-current");
+  it("marks the current page: a forecaster by slug, other pages by first path segment, and the More label for its pages", () => {
+    const m = renderMarkup(<Nav forecasters={people} current="/events" />);
+    expect(m).toContain('aria-current="page" href="/events"');
+    expect(m).toContain('nav-more-label" aria-haspopup="true" aria-current="page"');
+    expect(renderMarkup(<Nav forecasters={people} current="/forecasters/doblin" />)).toContain('aria-current="page" href="/forecasters/doblin"');
+    expect(renderMarkup(<Nav forecasters={people} current="/forecasters/doblin" />)).not.toContain('aria-current="page" href="/forecasters/owen"');
+    expect(renderMarkup(<Nav forecasters={people} current="/predictions/owen-0412" />)).toContain('aria-current="page" href="/predictions"');
+    expect(renderMarkup(<Nav forecasters={people} current="/" />)).toContain('aria-current="page" href="/"');
+    expect(renderMarkup(<Nav forecasters={people} current="/gallery" />)).not.toContain("aria-current");
     expect(firstSegment("/predictions/owen-0412")).toBe("predictions");
     expect(firstSegment("/")).toBe("");
+    expect(isCurrent("/forecasters/owen", "/forecasters/owen#x")).toBe(true);
+    expect(isCurrent("/forecasters/owen", "/forecasters/doblin")).toBe(false);
   });
 });
 
 describe("Masthead", () => {
   it("renders the wordmark, the subject with the tagline popover, and the nav", () => {
-    const m = renderMarkup(<Masthead hero={hero} current="/about" />);
+    const m = renderMarkup(<Masthead forecasters={[hero]} current="/about" />);
     expect(m.startsWith('<header class="masthead">')).toBe(true);
     expect(m).toContain('class="wordmark" href="/">Forecast Ledger</a>');
     expect(m).toContain('<span class="masthead-dot" aria-hidden="true">·</span>');
