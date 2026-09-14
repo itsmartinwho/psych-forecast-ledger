@@ -1,0 +1,3725 @@
+{
+  "agreement": {
+    "admission": {
+      "agree": 67,
+      "kappa": -0.0694444444444443,
+      "n": 77
+    },
+    "below_target": [
+      "admission"
+    ],
+    "bin": {
+      "agree": 58,
+      "kappa": 0.8984854686860415,
+      "n": 62,
+      "weighted_kappa": 0.8357180710121885
+    },
+    "deadline": {
+      "agree": 62,
+      "kappa": 1,
+      "n": 62
+    },
+    "event": {
+      "agree": 62,
+      "kappa": 1,
+      "n": 62
+    },
+    "recheck": {
+      "escalated": 0,
+      "n": 0,
+      "overturned": 0,
+      "upheld": 0,
+      "upheld_share": null
+    },
+    "target": 0.7
+  },
+  "as_of": "2026-09-13",
+  "events_with_items": {
+    "E-0001": 20,
+    "E-0004": 1,
+    "E-0006": 1,
+    "E-0007": 1,
+    "E-0008": 1,
+    "E-0013": 1,
+    "E-0014": 4,
+    "E-0015": 1,
+    "E-0016": 1,
+    "E-0019": 1,
+    "E-0021": 1,
+    "E-0023": 2,
+    "E-0025": 1,
+    "E-0026": 1,
+    "E-0028": 1,
+    "E-0030": 1,
+    "E-0033": 1,
+    "E-0034": 1,
+    "E-0035": 1,
+    "E-0036": 2,
+    "E-0039": 1,
+    "E-0040": 1,
+    "E-0041": 1,
+    "E-0043": 1,
+    "E-0046": 1,
+    "E-0047": 1,
+    "E-0049": 1,
+    "E-0050": 1,
+    "E-0051": 1,
+    "E-0052": 1,
+    "E-0053": 1,
+    "E-0055": 1,
+    "E-0056": 1,
+    "E-0057": 1,
+    "E-0058": 1,
+    "E-0061": 1,
+    "E-0062": 1,
+    "E-0063": 1,
+    "E-0064": 1,
+    "E-0065": 1,
+    "E-0067": 2,
+    "E-0068": 1
+  },
+  "forecasters": {
+    "angermayer": {
+      "boldness": {
+        "mean_abs_p_minus_b": null,
+        "mean_abs_p_minus_half": null,
+        "n": 0
+      },
+      "by_area": {
+        "clinical_trial": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 0
+        },
+        "company_market": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 0
+        },
+        "payer_policy": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 0
+        },
+        "practice_adoption": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 0
+        },
+        "regulatory": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 2
+        }
+      },
+      "calibration": {
+        "bins": [],
+        "murphy": null,
+        "murphy_shown": false,
+        "n_clusters": 0,
+        "shown": false
+      },
+      "composition": {
+        "admitted": 6,
+        "affiliated_share": 0.3333333333333333,
+        "by_area": {
+          "company_market": 1,
+          "regulatory": 5
+        },
+        "by_year": {
+          "2018": 1,
+          "2019": 1,
+          "2021": 2,
+          "2022": 1,
+          "2023": 4,
+          "2024": 6,
+          "2025": 9,
+          "2026": 7
+        },
+        "clusters_headline": 2,
+        "concentration": null,
+        "dated": 3,
+        "extreme_bin_share": 0.3333333333333333,
+        "found": 31,
+        "known_true_headline": 0,
+        "max_deadlines_in_cluster": 1,
+        "median_lead_months": 18,
+        "not_admitted": 25,
+        "not_admitted_by_reason": {
+          "CONTROL": 4,
+          "NOT_FORECAST": 1,
+          "OUT_OF_AREA": 1,
+          "PARAPHRASE": 4,
+          "VAGUE": 15
+        },
+        "pending_headline": 1,
+        "prospective_share": 0,
+        "redated_clusters": 0,
+        "resolved_headline": 0,
+        "scoreable_share": {
+          "hi": 0.2805818254397295,
+          "lo": 0.03851964789498724,
+          "n": 27,
+          "point": 0.1111111111111111
+        },
+        "sincere": 27,
+        "undated": 3,
+        "undated_share": 0.5,
+        "void": 0,
+        "void_by_reason": {
+          "CONDITION_UNMET": 1
+        }
+      },
+      "coverage_tier": "C",
+      "headline": {
+        "brier": null,
+        "hit": {
+          "hits": 0,
+          "n": 0,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 0,
+        "n_false": 0,
+        "n_items_resolved": 0,
+        "n_items_total": 2,
+        "n_known_true": 0,
+        "n_pending": 1,
+        "n_true": 0,
+        "n_unresolved": 1,
+        "n_void": 0,
+        "skill_base": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      },
+      "headline_non_affiliated": {
+        "brier": null,
+        "hit": {
+          "hits": 0,
+          "n": 0,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 0,
+        "n_false": 0,
+        "n_items_resolved": 0,
+        "n_items_total": 1,
+        "n_known_true": 0,
+        "n_pending": 0,
+        "n_true": 0,
+        "n_unresolved": 1,
+        "n_void": 0,
+        "skill_base": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      },
+      "over_time": [],
+      "sensitivity": {
+        "baseline": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Headline as published: dated items, lexicon v1.0.0"
+        },
+        "map_ends85": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Lexicon replaced by the ends85 map (0.85 / 0.7 / 0.5 / 0.3 / 0.15)"
+        },
+        "map_flat75": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Lexicon replaced by the flat75 map (0.75 / 0.75 / 0.5 / 0.25 / 0.25)"
+        },
+        "map_kent": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Lexicon replaced by the kent map (0.93 / 0.75 / 0.5 / 0.25 / 0.07)"
+        },
+        "non_affiliated": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Affiliated items removed"
+        },
+        "prospective_only": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Items frozen before their outcome was public"
+        },
+        "undated_36": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Undated panel at 36 months"
+        },
+        "undated_pooled": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Undated panel (24 months) pooled into the headline"
+        }
+      },
+      "slug": "angermayer",
+      "timing": {
+        "median": null,
+        "n": 0,
+        "q1": null,
+        "q3": null,
+        "values": []
+      },
+      "undated": {
+        "brier": null,
+        "hit": {
+          "hits": 0,
+          "n": 0,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 0,
+        "n_false": 0,
+        "n_items_resolved": 0,
+        "n_items_total": 3,
+        "n_known_true": 0,
+        "n_pending": 0,
+        "n_true": 0,
+        "n_unresolved": 2,
+        "n_void": 1,
+        "skill_base": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      },
+      "undated_36": {
+        "brier": null,
+        "hit": {
+          "hits": 0,
+          "n": 0,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 0,
+        "n_false": 0,
+        "n_items_resolved": 0,
+        "n_items_total": 3,
+        "n_known_true": 0,
+        "n_pending": 2,
+        "n_true": 0,
+        "n_unresolved": 1,
+        "n_void": 0,
+        "skill_base": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      }
+    },
+    "doblin": {
+      "boldness": {
+        "mean_abs_p_minus_b": null,
+        "mean_abs_p_minus_half": null,
+        "n": 0
+      },
+      "by_area": {
+        "clinical_trial": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 0
+        },
+        "company_market": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 0
+        },
+        "payer_policy": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 0
+        },
+        "practice_adoption": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 0
+        },
+        "regulatory": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 9
+        }
+      },
+      "calibration": {
+        "bins": [],
+        "murphy": null,
+        "murphy_shown": false,
+        "n_clusters": 0,
+        "shown": false
+      },
+      "composition": {
+        "admitted": 11,
+        "affiliated_share": 1,
+        "by_area": {
+          "regulatory": 11
+        },
+        "by_year": {
+          "2017": 1,
+          "2018": 4,
+          "2019": 4,
+          "2020": 5,
+          "2021": 5,
+          "2022": 5,
+          "2023": 6,
+          "2024": 2,
+          "2025": 2,
+          "2026": 1
+        },
+        "clusters_headline": 2,
+        "concentration": null,
+        "dated": 11,
+        "extreme_bin_share": 0.09090909090909091,
+        "found": 35,
+        "known_true_headline": 0,
+        "max_deadlines_in_cluster": 8,
+        "median_lead_months": 28,
+        "not_admitted": 22,
+        "not_admitted_by_reason": {
+          "CONTROL": 5,
+          "NOT_FORECAST": 1,
+          "OUT_OF_AREA": 1,
+          "PARAPHRASE": 6,
+          "VAGUE": 9
+        },
+        "pending_headline": 0,
+        "prospective_share": 0,
+        "redated_clusters": 1,
+        "resolved_headline": 0,
+        "scoreable_share": {
+          "hi": 0.5599777379071503,
+          "lo": 0.22687795730867344,
+          "n": 29,
+          "point": 0.3793103448275862
+        },
+        "sincere": 29,
+        "undated": 0,
+        "undated_share": 0,
+        "void": 2,
+        "void_by_reason": {
+          "AMBIGUOUS": 2
+        }
+      },
+      "coverage_tier": "C",
+      "headline": {
+        "brier": null,
+        "hit": {
+          "hits": 0,
+          "n": 0,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 0,
+        "n_false": 0,
+        "n_items_resolved": 0,
+        "n_items_total": 9,
+        "n_known_true": 0,
+        "n_pending": 0,
+        "n_true": 0,
+        "n_unresolved": 9,
+        "n_void": 0,
+        "skill_base": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      },
+      "headline_non_affiliated": {
+        "brier": null,
+        "hit": {
+          "hits": 0,
+          "n": 0,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 0,
+        "n_false": 0,
+        "n_items_resolved": 0,
+        "n_items_total": 0,
+        "n_known_true": 0,
+        "n_pending": 0,
+        "n_true": 0,
+        "n_unresolved": 0,
+        "n_void": 0,
+        "skill_base": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      },
+      "over_time": [],
+      "sensitivity": {
+        "baseline": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Headline as published: dated items, lexicon v1.0.0"
+        },
+        "map_ends85": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Lexicon replaced by the ends85 map (0.85 / 0.7 / 0.5 / 0.3 / 0.15)"
+        },
+        "map_flat75": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Lexicon replaced by the flat75 map (0.75 / 0.75 / 0.5 / 0.25 / 0.25)"
+        },
+        "map_kent": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Lexicon replaced by the kent map (0.93 / 0.75 / 0.5 / 0.25 / 0.07)"
+        },
+        "non_affiliated": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Affiliated items removed"
+        },
+        "prospective_only": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Items frozen before their outcome was public"
+        },
+        "undated_36": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Undated panel at 36 months"
+        },
+        "undated_pooled": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Undated panel (24 months) pooled into the headline"
+        }
+      },
+      "slug": "doblin",
+      "timing": {
+        "median": null,
+        "n": 0,
+        "q1": null,
+        "q3": null,
+        "values": []
+      },
+      "undated": {
+        "brier": null,
+        "hit": {
+          "hits": 0,
+          "n": 0,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 0,
+        "n_false": 0,
+        "n_items_resolved": 0,
+        "n_items_total": 0,
+        "n_known_true": 0,
+        "n_pending": 0,
+        "n_true": 0,
+        "n_unresolved": 0,
+        "n_void": 0,
+        "skill_base": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      },
+      "undated_36": {
+        "brier": null,
+        "hit": {
+          "hits": 0,
+          "n": 0,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 0,
+        "n_false": 0,
+        "n_items_resolved": 0,
+        "n_items_total": 0,
+        "n_known_true": 0,
+        "n_pending": 0,
+        "n_true": 0,
+        "n_unresolved": 0,
+        "n_void": 0,
+        "skill_base": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      }
+    },
+    "owen": {
+      "boldness": {
+        "mean_abs_p_minus_b": null,
+        "mean_abs_p_minus_half": 0.38461538461538464,
+        "n": 0
+      },
+      "by_area": {
+        "clinical_trial": {
+          "brier": null,
+          "n_clusters": 1,
+          "n_items": 3
+        },
+        "company_market": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 2
+        },
+        "payer_policy": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 2
+        },
+        "practice_adoption": {
+          "brier": null,
+          "n_clusters": 0,
+          "n_items": 3
+        },
+        "regulatory": {
+          "brier": null,
+          "n_clusters": 1,
+          "n_items": 2
+        }
+      },
+      "calibration": {
+        "bins": [
+          {
+            "bin": "D",
+            "f": 0.8846153846153846,
+            "merged_from": [
+              "D",
+              "A",
+              "C",
+              "B"
+            ],
+            "n": 2,
+            "observed": 0.5,
+            "weight": 1
+          }
+        ],
+        "murphy": null,
+        "murphy_shown": false,
+        "n_clusters": 2,
+        "shown": false
+      },
+      "composition": {
+        "admitted": 50,
+        "affiliated_share": 0.04,
+        "by_area": {
+          "clinical_trial": 6,
+          "company_market": 3,
+          "payer_policy": 11,
+          "practice_adoption": 3,
+          "regulatory": 27
+        },
+        "by_year": {
+          "2021": 47,
+          "2022": 209,
+          "2023": 569,
+          "2024": 632,
+          "2025": 559,
+          "2026": 413
+        },
+        "clusters_headline": 12,
+        "concentration": 0.5,
+        "dated": 15,
+        "extreme_bin_share": 0.62,
+        "found": 2429,
+        "known_true_headline": 1,
+        "max_deadlines_in_cluster": 1,
+        "median_lead_months": 11,
+        "not_admitted": 2377,
+        "not_admitted_by_reason": {
+          "CONTROL": 516,
+          "DUPLICATE": 24,
+          "KNOWN": 26,
+          "NORMATIVE": 41,
+          "NOT_FORECAST": 272,
+          "OUT_OF_AREA": 351,
+          "REPORT": 20,
+          "SATIRE": 138,
+          "THIRD_PARTY": 161,
+          "VAGUE": 828
+        },
+        "pending_headline": 9,
+        "prospective_share": 0,
+        "redated_clusters": 0,
+        "resolved_headline": 2,
+        "scoreable_share": {
+          "hi": 0.011652608423604589,
+          "lo": 0.0042965557364345024,
+          "n": 2118,
+          "point": 0.007082152974504249
+        },
+        "sincere": 2118,
+        "undated": 35,
+        "undated_share": 0.7,
+        "void": 2,
+        "void_by_reason": {
+          "AMBIGUOUS": 2,
+          "CONDITION_UNMET": 1
+        }
+      },
+      "coverage_tier": "A",
+      "headline": {
+        "brier": null,
+        "hit": {
+          "hits": 1,
+          "n": 2,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 2,
+        "n_false": 1,
+        "n_items_resolved": 2,
+        "n_items_total": 12,
+        "n_known_true": 1,
+        "n_pending": 9,
+        "n_true": 1,
+        "n_unresolved": 0,
+        "n_void": 0,
+        "skill_base": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      },
+      "headline_non_affiliated": {
+        "brier": null,
+        "hit": {
+          "hits": 1,
+          "n": 2,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 2,
+        "n_false": 1,
+        "n_items_resolved": 2,
+        "n_items_total": 10,
+        "n_known_true": 1,
+        "n_pending": 7,
+        "n_true": 1,
+        "n_unresolved": 0,
+        "n_void": 0,
+        "skill_base": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      },
+      "over_time": [
+        {
+          "brier": 0.017100591715976325,
+          "cumulative": 0.017100591715976325,
+          "cumulative_n": 1,
+          "n": 1,
+          "period": "2023-Q2"
+        },
+        {
+          "brier": 0.81,
+          "cumulative": 0.4135502958579882,
+          "cumulative_n": 2,
+          "n": 1,
+          "period": "2025-Q4"
+        }
+      ],
+      "sensitivity": {
+        "baseline": {
+          "brier": 0.4135502958579882,
+          "n_clusters": 2,
+          "note": "Headline as published: dated items, lexicon v1.0.0"
+        },
+        "map_ends85": {
+          "brier": 0.39445266272189344,
+          "n_clusters": 2,
+          "note": "Lexicon replaced by the ends85 map (0.85 / 0.7 / 0.5 / 0.3 / 0.15)"
+        },
+        "map_flat75": {
+          "brier": 0.33468934911242604,
+          "n_clusters": 2,
+          "note": "Lexicon replaced by the flat75 map (0.75 / 0.75 / 0.5 / 0.25 / 0.25)"
+        },
+        "map_kent": {
+          "brier": 0.452914201183432,
+          "n_clusters": 2,
+          "note": "Lexicon replaced by the kent map (0.93 / 0.75 / 0.5 / 0.25 / 0.07)"
+        },
+        "non_affiliated": {
+          "brier": 0.4135502958579882,
+          "n_clusters": 2,
+          "note": "Affiliated items removed"
+        },
+        "prospective_only": {
+          "brier": null,
+          "n_clusters": 0,
+          "note": "Items frozen before their outcome was public"
+        },
+        "undated_36": {
+          "brier": 0.17,
+          "n_clusters": 2,
+          "note": "Undated panel at 36 months"
+        },
+        "undated_pooled": {
+          "brier": 0.3445167652859961,
+          "n_clusters": 6,
+          "note": "Undated panel (24 months) pooled into the headline"
+        }
+      },
+      "slug": "owen",
+      "timing": {
+        "median": null,
+        "n": 0,
+        "q1": null,
+        "q3": null,
+        "values": []
+      },
+      "undated": {
+        "brier": null,
+        "hit": {
+          "hits": 2,
+          "n": 3,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 4,
+        "n_false": 2,
+        "n_items_resolved": 4,
+        "n_items_total": 33,
+        "n_known_true": 0,
+        "n_pending": 18,
+        "n_true": 2,
+        "n_unresolved": 10,
+        "n_void": 1,
+        "skill_base": {
+          "n_clusters": 1,
+          "own_brier": 0.09000000000000002,
+          "ref_brier": 0.028900000000000012,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      },
+      "undated_36": {
+        "brier": null,
+        "hit": {
+          "hits": 1,
+          "n": 1,
+          "rate": null
+        },
+        "label": "counts",
+        "loo_max_change": null,
+        "n_clusters": 2,
+        "n_false": 0,
+        "n_items_resolved": 2,
+        "n_items_total": 33,
+        "n_known_true": 1,
+        "n_pending": 27,
+        "n_true": 2,
+        "n_unresolved": 3,
+        "n_void": 0,
+        "skill_base": {
+          "n_clusters": 1,
+          "own_brier": 0.09000000000000002,
+          "ref_brier": 0.028900000000000012,
+          "value": null
+        },
+        "skill_market": {
+          "n_clusters": 0,
+          "own_brier": null,
+          "ref_brier": null,
+          "value": null
+        },
+        "tier": "T0"
+      }
+    }
+  },
+  "items": [
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.2815,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2024-12-31",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2023-06-01",
+      "forecaster": "angermayer",
+      "key": "angermayer|E-0001|2024-12-31",
+      "last_date": "2024-02-27",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2023-06-01",
+          "denial": false,
+          "id": "angermayer-0007",
+          "p": 0.7,
+          "p_stated": null
+        },
+        {
+          "bin": "B",
+          "date": "2024-02-27",
+          "denial": false,
+          "id": "angermayer-0010",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "angermayer-0007",
+        "angermayer-0010"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.2815,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2025-06-01",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2023-06-01",
+      "forecaster": "angermayer",
+      "key": "angermayer|E-0001|2025-06-01",
+      "last_date": "2023-06-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2023-06-01",
+          "denial": false,
+          "id": "angermayer-0008",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "angermayer-0008"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.33,
+      "bin": "B",
+      "brier": null,
+      "conditional": true,
+      "deadline": "2026-06-05",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2024-06-05",
+      "forecaster": "angermayer",
+      "key": "angermayer|E-0001|2026-06-05",
+      "last_date": "2024-06-05",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2024-06-05",
+          "denial": false,
+          "id": "angermayer-0014",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "void",
+      "statement_ids": [
+        "angermayer-0014"
+      ],
+      "tags": [
+        "conditional",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": "CONDITION_UNMET"
+    },
+    {
+      "affiliated": true,
+      "area": "company_market",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": true,
+      "deadline": "2026-07-31",
+      "event_date": null,
+      "event_id": "E-0028",
+      "first_date": "2024-07-31",
+      "forecaster": "angermayer",
+      "key": "angermayer|E-0028|2026-07-31",
+      "last_date": "2024-07-31",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2024-07-31",
+          "denial": false,
+          "id": "angermayer-0015",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "angermayer-0015"
+      ],
+      "tags": [
+        "conditional",
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2027-12-31",
+      "event_date": null,
+      "event_id": "E-0058",
+      "first_date": "2026-02-04",
+      "forecaster": "angermayer",
+      "key": "angermayer|E-0058|2027-12-31",
+      "last_date": "2026-02-04",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2026-02-04",
+          "denial": false,
+          "id": "angermayer-0025",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "angermayer-0025"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": 0.563,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2021-12-31",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2017-09-05",
+      "forecaster": "doblin",
+      "key": "doblin|E-0001|2021-12-31",
+      "last_date": "2019-04-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.8273764258555133,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2017-09-05",
+          "denial": false,
+          "id": "doblin-0001",
+          "p": 0.7,
+          "p_stated": null
+        },
+        {
+          "bin": "A",
+          "date": "2019-04-01",
+          "denial": false,
+          "id": "doblin-0007",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "doblin-0001",
+        "doblin-0007"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective",
+        "conditional"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": 0.2815,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2022-12-31",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2020-05-01",
+      "forecaster": "doblin",
+      "key": "doblin|E-0001|2022-12-31",
+      "last_date": "2020-05-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2020-05-01",
+          "denial": false,
+          "id": "doblin-0010",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "doblin-0010"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": 0.2815,
+      "bin": "C",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2023-06-30",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2020-12-13",
+      "forecaster": "doblin",
+      "key": "doblin|E-0001|2023-06-30",
+      "last_date": "2020-12-13",
+      "market_p": null,
+      "o": null,
+      "p": 0.5,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2020-12-13",
+          "denial": false,
+          "id": "doblin-0014",
+          "p": 0.5,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "doblin-0014"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": 0.2815,
+      "bin": "C",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2023-12-31",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2021-08-25",
+      "forecaster": "doblin",
+      "key": "doblin|E-0001|2023-12-31",
+      "last_date": "2021-10-27",
+      "market_p": null,
+      "o": null,
+      "p": 0.6853146853146853,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2021-08-25",
+          "denial": false,
+          "id": "doblin-0015",
+          "p": 0.5,
+          "p_stated": null
+        },
+        {
+          "bin": "B",
+          "date": "2021-10-27",
+          "denial": false,
+          "id": "doblin-0018",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "doblin-0015",
+        "doblin-0018"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": 0.2815,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2024-05-31",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2023-01-25",
+      "forecaster": "doblin",
+      "key": "doblin|E-0001|2024-05-31",
+      "last_date": "2023-01-25",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2023-01-25",
+          "denial": false,
+          "id": "doblin-0028",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "doblin-0028"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": 0.2815,
+      "bin": "B",
+      "brier": null,
+      "conditional": true,
+      "deadline": "2024-06-30",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2022-11-01",
+      "forecaster": "doblin",
+      "key": "doblin|E-0001|2024-06-30",
+      "last_date": "2022-11-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2022-11-01",
+          "denial": false,
+          "id": "doblin-0022",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "doblin-0022"
+      ],
+      "tags": [
+        "conditional",
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": 0.165,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2024-08-31",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2024-06-01",
+      "forecaster": "doblin",
+      "key": "doblin|E-0001|2024-08-31",
+      "last_date": "2024-06-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2024-06-01",
+          "denial": false,
+          "id": "doblin-0031",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "doblin-0031"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": 0.2815,
+      "bin": "C",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2024-12-31",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2023-01-23",
+      "forecaster": "doblin",
+      "key": "doblin|E-0001|2024-12-31",
+      "last_date": "2023-01-23",
+      "market_p": null,
+      "o": null,
+      "p": 0.5,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2023-01-23",
+          "denial": false,
+          "id": "doblin-0025",
+          "p": 0.5,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "doblin-0025"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "regulatory",
+      "base_p": 0.563,
+      "bin": "C",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2024-12-31",
+      "event_date": null,
+      "event_id": "E-0004",
+      "first_date": "2021-08-25",
+      "forecaster": "doblin",
+      "key": "doblin|E-0004|2024-12-31",
+      "last_date": "2021-08-25",
+      "market_p": null,
+      "o": null,
+      "p": 0.5,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2021-08-25",
+          "denial": false,
+          "id": "doblin-0016",
+          "p": 0.5,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "doblin-0016"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.33,
+      "bin": "C",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-06-07",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2024-06-07",
+      "forecaster": "owen",
+      "key": "owen|E-0001|2026-06-07",
+      "last_date": "2024-06-07",
+      "market_p": null,
+      "o": null,
+      "p": 0.5,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2024-06-07",
+          "denial": true,
+          "id": "owen-1072",
+          "p": 0.5,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "owen-1072"
+      ],
+      "tags": [
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.33,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-06-15",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2024-06-15",
+      "forecaster": "owen",
+      "key": "owen|E-0001|2026-06-15",
+      "last_date": "2024-06-15",
+      "market_p": null,
+      "o": null,
+      "p": 0.30000000000000004,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2024-06-15",
+          "denial": true,
+          "id": "owen-1090",
+          "p": 0.30000000000000004,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "owen-1090"
+      ],
+      "tags": [
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.33,
+      "bin": "C",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-06-26",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2024-06-26",
+      "forecaster": "owen",
+      "key": "owen|E-0001|2026-06-26",
+      "last_date": "2024-06-26",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2024-06-26",
+          "denial": false,
+          "id": "owen-1142",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "owen-1142"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.64,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-08-11",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2024-08-11",
+      "forecaster": "owen",
+      "key": "owen|E-0001|2026-08-11",
+      "last_date": "2024-08-11",
+      "market_p": null,
+      "o": null,
+      "p": 0.09999999999999998,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2024-08-11",
+          "denial": true,
+          "id": "owen-1194",
+          "p": 0.09999999999999998,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "owen-1194"
+      ],
+      "tags": [
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.64,
+      "bin": "D",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2027-09-05",
+      "event_date": null,
+      "event_id": "E-0001",
+      "first_date": "2025-09-05",
+      "forecaster": "owen",
+      "key": "owen|E-0001|2027-09-05",
+      "last_date": "2025-09-05",
+      "market_p": null,
+      "o": null,
+      "p": 0.10027359781121749,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "D",
+          "date": "2025-09-05",
+          "denial": false,
+          "id": "owen-1891",
+          "p": 0.3,
+          "p_stated": null
+        },
+        {
+          "bin": "A",
+          "date": "2025-09-05",
+          "denial": true,
+          "id": "owen-1893",
+          "p": 0.09999999999999998,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-1891",
+        "owen-1893"
+      ],
+      "tags": [
+        "retrospective",
+        "denial"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "clinical_trial",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2024-07-11",
+      "event_date": null,
+      "event_id": "E-0006",
+      "first_date": "2022-07-11",
+      "forecaster": "owen",
+      "key": "owen|E-0006|2024-07-11",
+      "last_date": "2022-07-11",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2022-07-11",
+          "denial": false,
+          "id": "owen-0070",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "owen-0070"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2024-08-09",
+      "event_date": null,
+      "event_id": "E-0007",
+      "first_date": "2022-08-09",
+      "forecaster": "owen",
+      "key": "owen|E-0007|2024-08-09",
+      "last_date": "2022-08-09",
+      "market_p": null,
+      "o": null,
+      "p": 0.09999999999999998,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2022-08-09",
+          "denial": true,
+          "id": "owen-0121",
+          "p": 0.09999999999999998,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "owen-0121"
+      ],
+      "tags": [
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "company_market",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2024-09-08",
+      "event_date": null,
+      "event_id": "E-0008",
+      "first_date": "2022-09-08",
+      "forecaster": "owen",
+      "key": "owen|E-0008|2024-09-08",
+      "last_date": "2022-09-08",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2022-09-08",
+          "denial": false,
+          "id": "owen-0150",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "owen-0150"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "practice_adoption",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2028-04-10",
+      "event_date": null,
+      "event_id": "E-0013",
+      "first_date": "2023-04-10",
+      "forecaster": "owen",
+      "key": "owen|E-0013|2028-04-10",
+      "last_date": "2023-04-10",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2023-04-10",
+          "denial": false,
+          "id": "owen-0420",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-0420"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "B",
+      "brier": 0.017100591715976325,
+      "conditional": false,
+      "deadline": "2023-05-11",
+      "event_date": "2023-05-09",
+      "event_id": "E-0014",
+      "first_date": "2023-05-01",
+      "forecaster": "owen",
+      "key": "owen|E-0014|2023-05-11",
+      "last_date": "2023-05-01",
+      "market_p": null,
+      "o": 1,
+      "p": 0.8692307692307693,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2023-05-01",
+          "denial": true,
+          "id": "owen-0454",
+          "p": 0.7,
+          "p_stated": null
+        },
+        {
+          "bin": "D",
+          "date": "2023-05-01",
+          "denial": true,
+          "id": "owen-0455",
+          "p": 0.7,
+          "p_stated": null
+        },
+        {
+          "bin": "A",
+          "date": "2023-05-01",
+          "denial": true,
+          "id": "owen-0457",
+          "p": 0.9,
+          "p_stated": null
+        },
+        {
+          "bin": "A",
+          "date": "2023-05-01",
+          "denial": false,
+          "id": "owen-0458",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "true",
+      "statement_ids": [
+        "owen-0454",
+        "owen-0455",
+        "owen-0457",
+        "owen-0458"
+      ],
+      "tags": [
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.83,
+      "bin": "B",
+      "brier": 0.09000000000000002,
+      "conditional": true,
+      "deadline": "2025-05-01",
+      "event_date": "2023-10-10",
+      "event_id": "E-0015",
+      "first_date": "2023-05-01",
+      "forecaster": "owen",
+      "key": "owen|E-0015|2025-05-01",
+      "last_date": "2023-05-01",
+      "market_p": null,
+      "o": 1,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2023-05-01",
+          "denial": false,
+          "id": "owen-0459",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "true",
+      "statement_ids": [
+        "owen-0459"
+      ],
+      "tags": [
+        "conditional",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "payer_policy",
+      "base_p": null,
+      "bin": "C",
+      "brier": 0.25,
+      "conditional": false,
+      "deadline": "2025-06-06",
+      "event_date": "2023-10-01",
+      "event_id": "E-0016",
+      "first_date": "2023-06-06",
+      "forecaster": "owen",
+      "key": "owen|E-0016|2025-06-06",
+      "last_date": "2023-06-06",
+      "market_p": null,
+      "o": 1,
+      "p": 0.5,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2023-06-06",
+          "denial": false,
+          "id": "owen-0529",
+          "p": 0.5,
+          "p_stated": null
+        }
+      ],
+      "state": "true",
+      "statement_ids": [
+        "owen-0529"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": 0.81,
+      "conditional": false,
+      "deadline": "2026-01-04",
+      "event_date": "2026-06-03",
+      "event_id": "E-0019",
+      "first_date": "2024-01-04",
+      "forecaster": "owen",
+      "key": "owen|E-0019|2026-01-04",
+      "last_date": "2024-01-04",
+      "market_p": null,
+      "o": 0,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2024-01-04",
+          "denial": false,
+          "id": "owen-0831",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "false",
+      "statement_ids": [
+        "owen-0831"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": 5,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "clinical_trial",
+      "base_p": null,
+      "bin": "D",
+      "brier": 0.09,
+      "conditional": false,
+      "deadline": "2026-03-29",
+      "event_date": null,
+      "event_id": "E-0021",
+      "first_date": "2024-03-29",
+      "forecaster": "owen",
+      "key": "owen|E-0021|2026-03-29",
+      "last_date": "2024-03-29",
+      "market_p": null,
+      "o": 0,
+      "p": 0.3,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "D",
+          "date": "2024-03-29",
+          "denial": false,
+          "id": "owen-0945",
+          "p": 0.3,
+          "p_stated": null
+        }
+      ],
+      "state": "false",
+      "statement_ids": [
+        "owen-0945"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": true,
+      "deadline": "2026-06-14",
+      "event_date": null,
+      "event_id": "E-0023",
+      "first_date": "2024-06-14",
+      "forecaster": "owen",
+      "key": "owen|E-0023|2026-06-14",
+      "last_date": "2024-06-14",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2024-06-14",
+          "denial": false,
+          "id": "owen-1086",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "void",
+      "statement_ids": [
+        "owen-1086"
+      ],
+      "tags": [
+        "conditional",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": "CONDITION_UNMET"
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": true,
+      "deadline": "2028-08-19",
+      "event_date": null,
+      "event_id": "E-0023",
+      "first_date": "2026-08-19",
+      "forecaster": "owen",
+      "key": "owen|E-0023|2028-08-19",
+      "last_date": "2026-08-19",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-08-19",
+          "denial": false,
+          "id": "owen-2342",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2342"
+      ],
+      "tags": [
+        "conditional",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "C",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-06-16",
+      "event_date": null,
+      "event_id": "E-0025",
+      "first_date": "2024-06-16",
+      "forecaster": "owen",
+      "key": "owen|E-0025|2026-06-16",
+      "last_date": "2024-06-16",
+      "market_p": null,
+      "o": null,
+      "p": 0.5,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2024-06-16",
+          "denial": false,
+          "id": "owen-1093",
+          "p": 0.5,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "owen-1093"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-06-21",
+      "event_date": null,
+      "event_id": "E-0026",
+      "first_date": "2024-06-21",
+      "forecaster": "owen",
+      "key": "owen|E-0026|2026-06-21",
+      "last_date": "2024-06-21",
+      "market_p": null,
+      "o": null,
+      "p": 0.09999999999999998,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2024-06-21",
+          "denial": true,
+          "id": "owen-1101",
+          "p": 0.09999999999999998,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "owen-1101"
+      ],
+      "tags": [
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-08-10",
+      "event_date": null,
+      "event_id": "E-0030",
+      "first_date": "2024-08-10",
+      "forecaster": "owen",
+      "key": "owen|E-0030|2026-08-10",
+      "last_date": "2024-08-10",
+      "market_p": null,
+      "o": null,
+      "p": 0.09999999999999998,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2024-08-10",
+          "denial": true,
+          "id": "owen-1192",
+          "p": 0.09999999999999998,
+          "p_stated": null
+        }
+      ],
+      "state": "unresolved",
+      "statement_ids": [
+        "owen-1192"
+      ],
+      "tags": [
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "payer_policy",
+      "base_p": null,
+      "bin": "C",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-10-14",
+      "event_date": null,
+      "event_id": "E-0033",
+      "first_date": "2024-10-14",
+      "forecaster": "owen",
+      "key": "owen|E-0033|2026-10-14",
+      "last_date": "2024-10-14",
+      "market_p": null,
+      "o": null,
+      "p": 0.5,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2024-10-14",
+          "denial": false,
+          "id": "owen-1269",
+          "p": 0.5,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-1269"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-11-13",
+      "event_date": null,
+      "event_id": "E-0034",
+      "first_date": "2024-11-13",
+      "forecaster": "owen",
+      "key": "owen|E-0034|2026-11-13",
+      "last_date": "2024-11-13",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2024-11-13",
+          "denial": false,
+          "id": "owen-1309",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-1309"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "clinical_trial",
+      "base_p": null,
+      "bin": "A",
+      "brier": 0.81,
+      "conditional": false,
+      "deadline": "2025-12-31",
+      "event_date": null,
+      "event_id": "E-0035",
+      "first_date": "2025-03-30",
+      "forecaster": "owen",
+      "key": "owen|E-0035|2025-12-31",
+      "last_date": "2025-03-30",
+      "market_p": null,
+      "o": 0,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2025-03-30",
+          "denial": false,
+          "id": "owen-1683",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "false",
+      "statement_ids": [
+        "owen-1683"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "payer_policy",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2027-04-02",
+      "event_date": null,
+      "event_id": "E-0036",
+      "first_date": "2025-04-02",
+      "forecaster": "owen",
+      "key": "owen|E-0036|2027-04-02",
+      "last_date": "2025-04-02",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2025-04-02",
+          "denial": false,
+          "id": "owen-1698",
+          "p": 0.9,
+          "p_stated": null
+        },
+        {
+          "bin": "A",
+          "date": "2025-04-02",
+          "denial": false,
+          "id": "owen-1700",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-1698",
+        "owen-1700"
+      ],
+      "tags": [
+        "retrospective",
+        "conditional"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.33,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2027-07-21",
+      "event_date": null,
+      "event_id": "E-0039",
+      "first_date": "2025-07-21",
+      "forecaster": "owen",
+      "key": "owen|E-0039|2027-07-21",
+      "last_date": "2025-07-21",
+      "market_p": null,
+      "o": null,
+      "p": 0.30000000000000004,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2025-07-21",
+          "denial": true,
+          "id": "owen-1809",
+          "p": 0.30000000000000004,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-1809"
+      ],
+      "tags": [
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "payer_policy",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2027-08-09",
+      "event_date": null,
+      "event_id": "E-0040",
+      "first_date": "2025-08-09",
+      "forecaster": "owen",
+      "key": "owen|E-0040|2027-08-09",
+      "last_date": "2025-08-09",
+      "market_p": null,
+      "o": null,
+      "p": 0.09999999999999998,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2025-08-09",
+          "denial": true,
+          "id": "owen-1835",
+          "p": 0.09999999999999998,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-1835"
+      ],
+      "tags": [
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "payer_policy",
+      "base_p": null,
+      "bin": "C",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2027-09-29",
+      "event_date": null,
+      "event_id": "E-0041",
+      "first_date": "2025-09-29",
+      "forecaster": "owen",
+      "key": "owen|E-0041|2027-09-29",
+      "last_date": "2025-09-29",
+      "market_p": null,
+      "o": null,
+      "p": 0.5,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2025-09-29",
+          "denial": false,
+          "id": "owen-1918",
+          "p": 0.5,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-1918"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "D",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2027-12-18",
+      "event_date": null,
+      "event_id": "E-0043",
+      "first_date": "2025-12-18",
+      "forecaster": "owen",
+      "key": "owen|E-0043|2027-12-18",
+      "last_date": "2025-12-18",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "D",
+          "date": "2025-12-18",
+          "denial": true,
+          "id": "owen-1994",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-1994"
+      ],
+      "tags": [
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "payer_policy",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-12-31",
+      "event_date": null,
+      "event_id": "E-0046",
+      "first_date": "2026-01-01",
+      "forecaster": "owen",
+      "key": "owen|E-0046|2026-12-31",
+      "last_date": "2026-01-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-01-01",
+          "denial": false,
+          "id": "owen-2022",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2022"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": 0.2815,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-12-31",
+      "event_date": null,
+      "event_id": "E-0047",
+      "first_date": "2026-01-01",
+      "forecaster": "owen",
+      "key": "owen|E-0047|2026-12-31",
+      "last_date": "2026-01-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-01-01",
+          "denial": false,
+          "id": "owen-2032",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2032"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "practice_adoption",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-12-31",
+      "event_date": null,
+      "event_id": "E-0049",
+      "first_date": "2026-01-01",
+      "forecaster": "owen",
+      "key": "owen|E-0049|2026-12-31",
+      "last_date": "2026-01-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-01-01",
+          "denial": false,
+          "id": "owen-2030",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2030"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "payer_policy",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-12-31",
+      "event_date": null,
+      "event_id": "E-0050",
+      "first_date": "2026-01-01",
+      "forecaster": "owen",
+      "key": "owen|E-0050|2026-12-31",
+      "last_date": "2026-01-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-01-01",
+          "denial": false,
+          "id": "owen-2028",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2028"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "practice_adoption",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-12-31",
+      "event_date": null,
+      "event_id": "E-0051",
+      "first_date": "2026-01-01",
+      "forecaster": "owen",
+      "key": "owen|E-0051|2026-12-31",
+      "last_date": "2026-01-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-01-01",
+          "denial": false,
+          "id": "owen-2031",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2031"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "clinical_trial",
+      "base_p": null,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-12-31",
+      "event_date": null,
+      "event_id": "E-0052",
+      "first_date": "2026-01-01",
+      "forecaster": "owen",
+      "key": "owen|E-0052|2026-12-31",
+      "last_date": "2026-01-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2026-01-01",
+          "denial": false,
+          "id": "owen-2026",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2026"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": true,
+      "area": "company_market",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-12-31",
+      "event_date": null,
+      "event_id": "E-0053",
+      "first_date": "2026-01-01",
+      "forecaster": "owen",
+      "key": "owen|E-0053|2026-12-31",
+      "last_date": "2026-01-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-01-01",
+          "denial": false,
+          "id": "owen-2029",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2029"
+      ],
+      "tags": [
+        "affiliated",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "company_market",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-12-31",
+      "event_date": null,
+      "event_id": "E-0055",
+      "first_date": "2026-01-01",
+      "forecaster": "owen",
+      "key": "owen|E-0055|2026-12-31",
+      "last_date": "2026-01-01",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-01-01",
+          "denial": false,
+          "id": "owen-2033",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2033"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "payer_policy",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2028-01-05",
+      "event_date": null,
+      "event_id": "E-0056",
+      "first_date": "2026-01-05",
+      "forecaster": "owen",
+      "key": "owen|E-0056|2028-01-05",
+      "last_date": "2026-01-05",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-01-05",
+          "denial": false,
+          "id": "owen-2038",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2038"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "clinical_trial",
+      "base_p": null,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2028-01-15",
+      "event_date": null,
+      "event_id": "E-0057",
+      "first_date": "2026-01-15",
+      "forecaster": "owen",
+      "key": "owen|E-0057|2028-01-15",
+      "last_date": "2026-01-15",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2026-01-15",
+          "denial": false,
+          "id": "owen-2057",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2057"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "C",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2028-05-10",
+      "event_date": null,
+      "event_id": "E-0061",
+      "first_date": "2026-05-10",
+      "forecaster": "owen",
+      "key": "owen|E-0061|2028-05-10",
+      "last_date": "2026-05-10",
+      "market_p": null,
+      "o": null,
+      "p": 0.5,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "C",
+          "date": "2026-05-10",
+          "denial": false,
+          "id": "owen-2232",
+          "p": 0.5,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2232"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "payer_policy",
+      "base_p": null,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2028-05-11",
+      "event_date": null,
+      "event_id": "E-0062",
+      "first_date": "2026-05-11",
+      "forecaster": "owen",
+      "key": "owen|E-0062|2028-05-11",
+      "last_date": "2026-05-11",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2026-05-11",
+          "denial": false,
+          "id": "owen-2240",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2240"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2028-05-11",
+      "event_date": null,
+      "event_id": "E-0063",
+      "first_date": "2026-05-11",
+      "forecaster": "owen",
+      "key": "owen|E-0063|2028-05-11",
+      "last_date": "2026-05-11",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-05-11",
+          "denial": false,
+          "id": "owen-2239",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2239"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "payer_policy",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2028-05-16",
+      "event_date": null,
+      "event_id": "E-0064",
+      "first_date": "2026-05-16",
+      "forecaster": "owen",
+      "key": "owen|E-0064|2028-05-16",
+      "last_date": "2026-05-16",
+      "market_p": null,
+      "o": null,
+      "p": 0.9,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-05-16",
+          "denial": false,
+          "id": "owen-2248",
+          "p": 0.9,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2248"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "clinical_trial",
+      "base_p": null,
+      "bin": "B",
+      "brier": null,
+      "conditional": false,
+      "deadline": "2026-12-31",
+      "event_date": "2026-08-12",
+      "event_id": "E-0065",
+      "first_date": "2026-07-02",
+      "forecaster": "owen",
+      "key": "owen|E-0065|2026-12-31",
+      "last_date": "2026-07-02",
+      "market_p": null,
+      "o": null,
+      "p": 0.7,
+      "p_origin": "lexicon",
+      "panel": "headline",
+      "parts": [
+        {
+          "bin": "B",
+          "date": "2026-07-02",
+          "denial": false,
+          "id": "owen-2280",
+          "p": 0.7,
+          "p_stated": null
+        }
+      ],
+      "state": "known_true",
+      "statement_ids": [
+        "owen-2280"
+      ],
+      "tags": [
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": true,
+      "deadline": "2028-08-16",
+      "event_date": null,
+      "event_id": "E-0067",
+      "first_date": "2026-08-16",
+      "forecaster": "owen",
+      "key": "owen|E-0067|2028-08-16",
+      "last_date": "2026-08-16",
+      "market_p": null,
+      "o": null,
+      "p": 0.09999999999999998,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-08-16",
+          "denial": true,
+          "id": "owen-2326",
+          "p": 0.09999999999999998,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2326"
+      ],
+      "tags": [
+        "denial",
+        "conditional",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": true,
+      "deadline": "2028-08-19",
+      "event_date": null,
+      "event_id": "E-0067",
+      "first_date": "2026-08-19",
+      "forecaster": "owen",
+      "key": "owen|E-0067|2028-08-19",
+      "last_date": "2026-08-19",
+      "market_p": null,
+      "o": null,
+      "p": 0.09999999999999998,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-08-19",
+          "denial": true,
+          "id": "owen-2346",
+          "p": 0.09999999999999998,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2346"
+      ],
+      "tags": [
+        "denial",
+        "conditional",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    },
+    {
+      "affiliated": false,
+      "area": "regulatory",
+      "base_p": null,
+      "bin": "A",
+      "brier": null,
+      "conditional": true,
+      "deadline": "2028-08-19",
+      "event_date": null,
+      "event_id": "E-0068",
+      "first_date": "2026-08-19",
+      "forecaster": "owen",
+      "key": "owen|E-0068|2028-08-19",
+      "last_date": "2026-08-19",
+      "market_p": null,
+      "o": null,
+      "p": 0.09999999999999998,
+      "p_origin": "lexicon",
+      "panel": "undated",
+      "parts": [
+        {
+          "bin": "A",
+          "date": "2026-08-19",
+          "denial": true,
+          "id": "owen-2343",
+          "p": 0.09999999999999998,
+          "p_stated": null
+        }
+      ],
+      "state": "pending",
+      "statement_ids": [
+        "owen-2343"
+      ],
+      "tags": [
+        "conditional",
+        "denial",
+        "retrospective"
+      ],
+      "timing_months": null,
+      "void_reason": null
+    }
+  ],
+  "leaderboard": [
+    {
+      "brier": null,
+      "coverage_tier": "C",
+      "hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "kind": "person",
+      "label": "counts",
+      "n_clusters": 0,
+      "n_false": 0,
+      "n_pending": 1,
+      "n_true": 0,
+      "name": "Christian Angermayer",
+      "note": "Ad hoc corpus: rows only, never ranked",
+      "rank": null,
+      "slug": "angermayer",
+      "tier": "T0"
+    },
+    {
+      "brier": null,
+      "coverage_tier": "A",
+      "hit": {
+        "hits": 1,
+        "n": 2,
+        "rate": null
+      },
+      "kind": "person",
+      "label": "counts",
+      "n_clusters": 2,
+      "n_false": 1,
+      "n_pending": 10,
+      "n_true": 1,
+      "name": "Owen Scott Muir",
+      "note": "Fewer than 10 resolved events",
+      "rank": null,
+      "slug": "owen",
+      "tier": "T0"
+    },
+    {
+      "brier": null,
+      "coverage_tier": "C",
+      "hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "kind": "person",
+      "label": "counts",
+      "n_clusters": 0,
+      "n_false": 0,
+      "n_pending": 0,
+      "n_true": 0,
+      "name": "Rick Doblin",
+      "note": "Ad hoc corpus: rows only, never ranked",
+      "rank": null,
+      "slug": "doblin",
+      "tier": "T0"
+    },
+    {
+      "brier": null,
+      "coverage_tier": null,
+      "hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "kind": "reference",
+      "label": "counts",
+      "n_clusters": 0,
+      "n_false": 0,
+      "n_pending": 0,
+      "n_true": 0,
+      "name": "Base rate",
+      "note": "Published base rates on the same events, fixed at intake",
+      "rank": null,
+      "slug": "base-rate",
+      "tier": "T0"
+    },
+    {
+      "brier": null,
+      "coverage_tier": null,
+      "hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "kind": "reference",
+      "label": "counts",
+      "n_clusters": 0,
+      "n_false": 0,
+      "n_pending": 0,
+      "n_true": 0,
+      "name": "Prediction markets",
+      "note": "Last market quote before each statement; indicative",
+      "rank": null,
+      "slug": "market",
+      "tier": "T0"
+    }
+  ],
+  "matrix": [
+    {
+      "area": "regulatory",
+      "brier": null,
+      "forecaster": "owen",
+      "n_clusters": 1,
+      "shown": false
+    },
+    {
+      "area": "clinical_trial",
+      "brier": null,
+      "forecaster": "owen",
+      "n_clusters": 1,
+      "shown": false
+    },
+    {
+      "area": "company_market",
+      "brier": null,
+      "forecaster": "owen",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "payer_policy",
+      "brier": null,
+      "forecaster": "owen",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "practice_adoption",
+      "brier": null,
+      "forecaster": "owen",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "regulatory",
+      "brier": null,
+      "forecaster": "angermayer",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "clinical_trial",
+      "brier": null,
+      "forecaster": "angermayer",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "company_market",
+      "brier": null,
+      "forecaster": "angermayer",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "payer_policy",
+      "brier": null,
+      "forecaster": "angermayer",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "practice_adoption",
+      "brier": null,
+      "forecaster": "angermayer",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "regulatory",
+      "brier": null,
+      "forecaster": "doblin",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "clinical_trial",
+      "brier": null,
+      "forecaster": "doblin",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "company_market",
+      "brier": null,
+      "forecaster": "doblin",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "payer_policy",
+      "brier": null,
+      "forecaster": "doblin",
+      "n_clusters": 0,
+      "shown": false
+    },
+    {
+      "area": "practice_adoption",
+      "brier": null,
+      "forecaster": "doblin",
+      "n_clusters": 0,
+      "shown": false
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "owen",
+      "a_better": 0,
+      "b": "angermayer",
+      "b_better": 0,
+      "mean_diff": null,
+      "n_events": 0,
+      "shown": false,
+      "ties": 0
+    },
+    {
+      "a": "owen",
+      "a_better": 0,
+      "b": "doblin",
+      "b_better": 0,
+      "mean_diff": null,
+      "n_events": 0,
+      "shown": false,
+      "ties": 0
+    },
+    {
+      "a": "angermayer",
+      "a_better": 0,
+      "b": "doblin",
+      "b_better": 0,
+      "mean_diff": null,
+      "n_events": 0,
+      "shown": false,
+      "ties": 0
+    }
+  ],
+  "rules_version": "1.0.0",
+  "seed": 20260913,
+  "shared_events": [
+    {
+      "event_id": "E-0001",
+      "forecasters": [
+        {
+          "cluster_brier": null,
+          "items": [
+            {
+              "brier": null,
+              "deadline": "2024-12-31",
+              "first_date": "2023-06-01",
+              "market_p": null,
+              "p": 0.7,
+              "state": "unresolved"
+            }
+          ],
+          "slug": "angermayer"
+        },
+        {
+          "cluster_brier": null,
+          "items": [
+            {
+              "brier": null,
+              "deadline": "2021-12-31",
+              "first_date": "2017-09-05",
+              "market_p": null,
+              "p": 0.8273764258555133,
+              "state": "unresolved"
+            },
+            {
+              "brier": null,
+              "deadline": "2022-12-31",
+              "first_date": "2020-05-01",
+              "market_p": null,
+              "p": 0.7,
+              "state": "unresolved"
+            },
+            {
+              "brier": null,
+              "deadline": "2023-06-30",
+              "first_date": "2020-12-13",
+              "market_p": null,
+              "p": 0.5,
+              "state": "unresolved"
+            },
+            {
+              "brier": null,
+              "deadline": "2023-12-31",
+              "first_date": "2021-08-25",
+              "market_p": null,
+              "p": 0.6853146853146853,
+              "state": "unresolved"
+            },
+            {
+              "brier": null,
+              "deadline": "2024-05-31",
+              "first_date": "2023-01-25",
+              "market_p": null,
+              "p": 0.7,
+              "state": "unresolved"
+            },
+            {
+              "brier": null,
+              "deadline": "2024-06-30",
+              "first_date": "2022-11-01",
+              "market_p": null,
+              "p": 0.7,
+              "state": "unresolved"
+            },
+            {
+              "brier": null,
+              "deadline": "2024-08-31",
+              "first_date": "2024-06-01",
+              "market_p": null,
+              "p": 0.7,
+              "state": "unresolved"
+            },
+            {
+              "brier": null,
+              "deadline": "2024-12-31",
+              "first_date": "2023-01-23",
+              "market_p": null,
+              "p": 0.5,
+              "state": "unresolved"
+            }
+          ],
+          "slug": "doblin"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "all": {
+      "false": 3,
+      "known_true": 1,
+      "not_admitted": 2424,
+      "pending": 28,
+      "true": 3,
+      "undated": 38,
+      "unresolved": 22,
+      "void": 6
+    },
+    "angermayer": {
+      "false": 0,
+      "known_true": 0,
+      "not_admitted": 25,
+      "pending": 1,
+      "true": 0,
+      "undated": 3,
+      "unresolved": 3,
+      "void": 1
+    },
+    "doblin": {
+      "false": 0,
+      "known_true": 0,
+      "not_admitted": 22,
+      "pending": 0,
+      "true": 0,
+      "undated": 0,
+      "unresolved": 9,
+      "void": 2
+    },
+    "owen": {
+      "false": 3,
+      "known_true": 1,
+      "not_admitted": 2377,
+      "pending": 27,
+      "true": 3,
+      "undated": 35,
+      "unresolved": 10,
+      "void": 3
+    }
+  }
+}

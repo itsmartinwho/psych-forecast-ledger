@@ -1,0 +1,241 @@
+{
+ "resolver": "R1",
+ "run": "resolve-2026-09-13",
+ "outcomes": [
+  {
+   "event_id": "E-0065",
+   "state": "occurred",
+   "date": "2026-08-12",
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://ir.definiumtx.com/news-events/press-releases/detail/243/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder",
+     "title": "Definium Therapeutics Announces Positive Topline Results from Phase 3 Voyage Study of DT120 ODT in Generalized Anxiety Disorder",
+     "publisher": "Definium Therapeutics",
+     "date": "2026-08-12",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://clinicaltrials.gov/study/NCT06741228",
+     "title": "A Phase 3 Trial of DT120 for Generalized Anxiety Disorder (Voyage) - NCT06741228 (Definium Therapeutics US; primary completion 2026-07-15; no results posted; last update posted 2026-09-02)",
+     "publisher": "ClinicalTrials.gov (US National Library of Medicine)",
+     "date": "2026-09-02",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.biospace.com/press-releases/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder",
+     "title": "Definium Therapeutics Announces Positive Topline Results from Phase 3 Voyage Study of DT120 ODT in Generalized Anxiety Disorder (Business Wire release, republished)",
+     "publisher": "BioSpace",
+     "date": "2026-08-12",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://ir.definiumtx.com/news-events/press-releases/detail/242/definium-therapeutics-reports-second-quarter-2026-financial-results-and-recent-highlights",
+     "title": "Definium Therapeutics Reports Second Quarter 2026 Financial Results and Recent Highlights (Voyage enrollment complete; topline anticipated week of August 10, 2026; no result disclosed)",
+     "publisher": "Definium Therapeutics",
+     "date": "2026-08-06",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "Criterion: first public report of the Voyage (NCT06741228) primary endpoint result, either direction. Definium's press release of 2026-08-12 (07:00 ET) reports the primary endpoint: HAM-A total score change at week 12, LS mean -11.6 (DT120 ODT 100 ug) vs -6.2 (placebo), difference -5.4, p<0.0001, d=0.81; the result is positive. The 2026-08-06 Q2 release gave only timing guidance ('Voyage results anticipated week of August 10'), so nothing earlier disclosed the result. ClinicalTrials.gov NCT06741228 (Definium Therapeutics US, Phase 3, GAD, primary completion 2026-07-15) shows no results posted as of its 2026-09-02 update, and no peer-reviewed publication precedes the release. Emerge (MDD, 2026-06-22) and Panorama (GAD, results announced for 2026-09-14) are different trials and do not count. Date = 2026-08-12."
+  },
+  {
+   "event_id": "E-0066",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm",
+     "title": "Drugs@FDA: FDA-Approved Drugs - basic searches for 'psilocybin', 'midomafetamine' and 'lysergide' each returned 'Your Drugs@FDA Search Did Not Return Any Results'",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "title": "Novel Drug Approvals for 2026 (39 entries, none with a psilocybin, lysergide, midomafetamine or other psychedelic active ingredient)",
+     "publisher": "US Food and Drug Administration",
+     "date": "2026-09-11",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=reportsSearch.process&rptName=1&reportSelectMonth=9&reportSelectYear=2026",
+     "title": "Drugs@FDA: Drug Approval Reports by Month - All Approvals and Tentative Approvals, September 2026 (no psilocybin, lysergide or midomafetamine product)",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://api.fda.gov/drug/drugsfda.json?search=products.active_ingredients.name:%22PSILOCYBIN%22",
+     "title": "openFDA Drugs@FDA API - 'No matches found' for active ingredient PSILOCYBIN; same result for MIDOMAFETAMINE and LYSERGIDE (data last updated 2026-09-11)",
+     "publisher": "US Food and Drug Administration (openFDA)",
+     "date": "2026-09-11",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+     "title": "Compass Pathways Announces Second Quarter and First Half 2026 Financial Results and Business Highlights (Form 8-K exhibit): COMP360 rolling NDA, final modules expected Q4 2026",
+     "publisher": "Compass Pathways via SEC EDGAR",
+     "date": "2026-08-05",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.globenewswire.com/news-release/2026/08/10/3342145/0/en/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda.html",
+     "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA (Resilient Pharmaceuticals has resubmitted the midomafetamine NDA)",
+     "publisher": "MAPS via GlobeNewswire",
+     "date": "2026-08-10",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "Criterion: first approval letter in Drugs@FDA for a product whose active ingredient is psilocybin, lysergide or midomafetamine, any indication, any sponsor. Checked 2026-09-13: Drugs@FDA searches for 'psilocybin', 'midomafetamine' and 'lysergide' each return 'Your Drugs@FDA Search Did Not Return Any Results'; the openFDA Drugs@FDA API (data of 2026-09-11) returns 'No matches found' for all three; FDA Novel Drug Approvals 2026 (current 2026-09-11) and the Drugs@FDA September 2026 approvals report list no such product. Candidates: Compass COMP360 psilocybin is a rolling NDA, final modules expected Q4 2026 (8-K, 2026-08-05); Resilient (ex-Lykos) resubmitted its midomafetamine NDA in August 2026, under review; Usona has not filed; Definium DT120 is pre-NDA. Vouchers, breakthrough designations, the 2024 CRL and the 2026-09-14 hearing are not approvals. Not occurred as of 2026-09-13."
+  },
+  {
+   "event_id": "E-0067",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm",
+     "title": "Drugs@FDA: FDA-Approved Drugs - basic searches for 'psilocybin', 'midomafetamine' and 'lysergide' each returned 'Your Drugs@FDA Search Did Not Return Any Results'",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "title": "Novel Drug Approvals for 2026 (39 entries, none with a psilocybin, lysergide, midomafetamine or other psychedelic active ingredient)",
+     "publisher": "US Food and Drug Administration",
+     "date": "2026-09-11",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm",
+     "title": "Approved Risk Evaluation and Mitigation Strategies (REMS) - no REMS for a psilocybin, lysergide or midomafetamine product",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=reportsSearch.process&rptName=1&reportSelectMonth=9&reportSelectYear=2026",
+     "title": "Drugs@FDA: Drug Approval Reports by Month - All Approvals and Tentative Approvals, September 2026 (no psilocybin, lysergide or midomafetamine product)",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+     "title": "Compass Pathways Announces Second Quarter and First Half 2026 Financial Results and Business Highlights (Form 8-K exhibit): COMP360 rolling NDA, final modules expected Q4 2026",
+     "publisher": "Compass Pathways via SEC EDGAR",
+     "date": "2026-08-05",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.globenewswire.com/news-release/2026/08/10/3342145/0/en/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda.html",
+     "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA (Resilient Pharmaceuticals has resubmitted the midomafetamine NDA)",
+     "publisher": "MAPS via GlobeNewswire",
+     "date": "2026-08-10",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "Criterion: for each psilocybin, LSD or MDMA product approved in the window, read the approved labeling and any REMS; TRUE on the first approval that permits a retail or community pharmacy to dispense for use outside a healthcare setting. As of 2026-09-13 no such product is approved: Drugs@FDA searches for psilocybin, midomafetamine and lysergide return no results, FDA Novel Drug Approvals 2026 (current 2026-09-11) lists none, and REMS@FDA has no REMS for such a product. There is no approved labeling or REMS to read, so the proposition is not true as of checked_through. Pending: Compass COMP360 rolling NDA (final modules Q4 2026) and Resilient's midomafetamine NDA resubmitted August 2026. Scoring note: the criterion voids the item (condition unmet) if no such product is approved by the deadline; this outcome records only the state as of 2026-09-13."
+  },
+  {
+   "event_id": "E-0068",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "title": "Novel Drug Approvals for 2026 (39 entries, none with a psilocybin, lysergide, midomafetamine or other psychedelic active ingredient)",
+     "publisher": "US Food and Drug Administration",
+     "date": "2026-09-11",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm",
+     "title": "Drugs@FDA: FDA-Approved Drugs - basic searches for 'psilocybin', 'midomafetamine' and 'lysergide' each returned 'Your Drugs@FDA Search Did Not Return Any Results'",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm",
+     "title": "Approved Risk Evaluation and Mitigation Strategies (REMS) - no REMS for a psilocybin, lysergide or midomafetamine product",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=reportsSearch.process&rptName=1&reportSelectMonth=9&reportSelectYear=2026",
+     "title": "Drugs@FDA: Drug Approval Reports by Month - All Approvals and Tentative Approvals, September 2026 (no psilocybin, lysergide or midomafetamine product)",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+     "title": "Compass Pathways Announces Second Quarter and First Half 2026 Financial Results and Business Highlights (Form 8-K exhibit): COMP360 rolling NDA, final modules expected Q4 2026",
+     "publisher": "Compass Pathways via SEC EDGAR",
+     "date": "2026-08-05",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.globenewswire.com/news-release/2026/08/10/3342145/0/en/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda.html",
+     "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA (Resilient Pharmaceuticals has resubmitted the midomafetamine NDA)",
+     "publisher": "MAPS via GlobeNewswire",
+     "date": "2026-08-10",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "Criterion: the first FDA-approved product with a psychedelic or entactogen active ingredient (ketamine, esketamine and reformulations of approved drugs excluded), approved after the statement date, whose labeling and REMS require no monitoring during or after dosing. As of 2026-09-13 no such product exists: FDA Novel Drug Approvals 2026 (current 2026-09-11, 39 entries) contains no psilocybin, lysergide, midomafetamine, methylone, DMT or 5-MeO-DMT product; Drugs@FDA searches for psilocybin, midomafetamine and lysergide return no results; REMS@FDA lists no such REMS. The nearest applications, the Compass COMP360 rolling NDA (final modules Q4 2026) and the midomafetamine NDA resubmitted in August 2026, are undecided. No labeling or REMS exists to test, so not occurred as of checked_through. Scoring note: the criterion voids the item (condition unmet) if none is approved by the deadline."
+  },
+  {
+   "event_id": "E-0069",
+   "state": "not_occurred",
+   "date": null,
+   "checked_through": "2026-09-13",
+   "realized_value": null,
+   "evidence": [
+    {
+     "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "title": "Novel Drug Approvals for 2026 (39 entries, none with a psilocybin, lysergide, midomafetamine or other psychedelic active ingredient)",
+     "publisher": "US Food and Drug Administration",
+     "date": "2026-09-11",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm",
+     "title": "Drugs@FDA: FDA-Approved Drugs - basic searches for 'psilocybin', 'midomafetamine' and 'lysergide' each returned 'Your Drugs@FDA Search Did Not Return Any Results'",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm",
+     "title": "Approved Risk Evaluation and Mitigation Strategies (REMS) - no REMS for a psilocybin, lysergide or midomafetamine product",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=reportsSearch.process&rptName=1&reportSelectMonth=9&reportSelectYear=2026",
+     "title": "Drugs@FDA: Drug Approval Reports by Month - All Approvals and Tentative Approvals, September 2026 (no psilocybin, lysergide or midomafetamine product)",
+     "publisher": "US Food and Drug Administration",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm",
+     "title": "Compass Pathways Announces Second Quarter and First Half 2026 Financial Results and Business Highlights (Form 8-K exhibit): COMP360 rolling NDA, final modules expected Q4 2026",
+     "publisher": "Compass Pathways via SEC EDGAR",
+     "date": "2026-08-05",
+     "accessed": "2026-09-13"
+    },
+    {
+     "url": "https://www.globenewswire.com/news-release/2026/08/10/3342145/0/en/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda.html",
+     "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA (Resilient Pharmaceuticals has resubmitted the midomafetamine NDA)",
+     "publisher": "MAPS via GlobeNewswire",
+     "date": "2026-08-10",
+     "accessed": "2026-09-13"
+    }
+   ],
+   "note": "Criterion: the first FDA-approved product with a psychedelic or entactogen active ingredient (ketamine and esketamine excluded), approved after the statement date, whose labeling or REMS requires video recording of dosing sessions or an auditable video record. As of 2026-09-13 no such product exists: FDA Novel Drug Approvals 2026 (current 2026-09-11, 39 entries) contains no psychedelic or entactogen product; Drugs@FDA searches for psilocybin, midomafetamine and lysergide return no results; REMS@FDA lists no such REMS. The Compass COMP360 rolling NDA (final modules Q4 2026) and the midomafetamine NDA resubmitted in August 2026 are undecided, so no labeling or REMS exists to test. Not occurred as of checked_through. Scoring note: the criterion voids the item (condition unmet) if none is approved by the deadline."
+  }
+ ]
+}

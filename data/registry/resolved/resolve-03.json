@@ -1,0 +1,361 @@
+{
+  "resolver": "R1",
+  "run": "resolve-2026-09-13",
+  "outcomes": [
+    {
+      "event_id": "E-0017",
+      "state": "occurred",
+      "date": "2024-06-11",
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://news.uams.edu/2024/06/11/uams-first-in-nation-to-offer-groundbreaking-therapy-for-treatment-resistant-depression/",
+          "title": "UAMS First in Nation to Offer Groundbreaking Therapy for Treatment-Resistant Depression",
+          "publisher": "University of Arkansas for Medical Sciences (UAMS News)",
+          "date": "2024-06-11",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.magnusmedical.com/press-release/commercial-launch/",
+          "title": "Magnus Medical Announces Commercial Launch of Groundbreaking SAINT Neuromodulation System",
+          "publisher": "Magnus Medical",
+          "date": "2024-04-30",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.magnusmedical.com/press-release/cms-payment-approval-2025/",
+          "title": "Magnus Medical Announces CMS Approval of New Payment Rate for SAINT Treatment in 2025 Hospital Outpatient Rule",
+          "publisher": "Magnus Medical",
+          "date": "2024-11-12",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.musc.edu/content-hub/News/2026/04/14/tms-treatment",
+          "title": "A breakthrough for severe depression: MUSC Health delivers relief in days, not months",
+          "publisher": "Medical University of South Carolina",
+          "date": "2026-04-14",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.magnusmedical.com/press-release/magnus-expands-access-to-5-day-saint-depression-therapy/",
+          "title": "Magnus Expands Access to 5-Day SAINT Depression Therapy as Leading Health Systems Scale Nationwide Adoption",
+          "publisher": "Magnus Medical",
+          "date": "2026-05-05",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "First definitive announcement: UAMS news release of 2024-06-11 says UAMS is 'the first medical facility in the United States to provide' SAINT and that 'currently, SAINT can only be provided to patients who are being treated as inpatients'. That is the hospital's own announcement of patient availability in a hospital inpatient setting: TRUE on 2024-06-11. The Magnus launch release of 2024-04-30 named UAMS and MUSC Health as first customer sites and quoted UAMS as 'first site in the nation to offer' SAINT, but stated no patient availability or treated patient ('will work ... to implement'), so it was not treated as definitive; a rechecker could argue for 2024-04-30. Corroboration: Magnus 2024-11-12 (MUSC Health quoted; hospital outpatient payment from 2025-01-01), MUSC 2026-04-14 (first hospital system to offer SAINT in 2024), Magnus 2026-05-05. CMS payment decisions were not used."
+    },
+    {
+      "event_id": "E-0018",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15833/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and",
+          "title": "Medicare Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals (IPPS) and the Long-Term Care Hospital Prospective Payment System and Policy Changes and Fiscal Year (FY) 2027 Rates (final rule, CMS-1849-F)",
+          "publisher": "Federal Register (CMS)",
+          "date": "2026-08-04",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.federalregister.gov/documents/2025/08/04/2025-14681/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and",
+          "title": "Medicare Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals (IPPS) and the Long-Term Care Hospital Prospective Payment System and Policy Changes and Fiscal Year (FY) 2026 Rates (final rule)",
+          "publisher": "Federal Register (CMS)",
+          "date": "2025-08-04",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.federalregister.gov/documents/2024/08/28/2024-17021/medicare-and-medicaid-programs-and-the-childrens-health-insurance-program-hospital-inpatient",
+          "title": "Medicare and Medicaid Programs and the Children's Health Insurance Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals and the Long-Term Care Hospital Prospective Payment System and Policy Changes and Fiscal Year 2025 Rates (final rule)",
+          "publisher": "Federal Register (CMS)",
+          "date": "2024-08-28",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=centers-for-medicare-medicaid-services&conditions%5Btype%5D%5B%5D=RULE&conditions%5Bpublication_date%5D%5Bgte%5D=2024-07-01&conditions%5Bterm%5D=psilocybin",
+          "title": "Federal Register API full-text search: CMS rules published since 2024-07-01 containing 'psilocybin' (0 documents)",
+          "publisher": "Federal Register",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=centers-for-medicare-medicaid-services&conditions%5Btype%5D%5B%5D=RULE&conditions%5Bpublication_date%5D%5Bgte%5D=2024-07-01&conditions%5Bterm%5D=psychedelic",
+          "title": "Federal Register API full-text search: CMS rules published since 2024-07-01 containing 'psychedelic' (0 documents)",
+          "publisher": "Federal Register",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.cms.gov/medicare/payment/prospective-payment-systems/acute-inpatient-pps/new-medical-services-and-new-technologies",
+          "title": "New Medical Services and New Technologies (new technology add-on payments)",
+          "publisher": "Centers for Medicare & Medicaid Services",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+          "title": "Novel Drug Approvals for 2026",
+          "publisher": "U.S. Food and Drug Administration",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "The IPPS final rules for FY2025 (published 2024-08-28), FY2026 (2025-08-04) and FY2027 (2026-08-04, effective 2026-10-01) approve no new technology add-on payment for a psychedelic-class drug or a therapy that administers one. Federal Register full-text searches of CMS rules published since 2024-07-01 for psilocybin, MDMA, midomafetamine, psychedelic, lysergide and COMP360 each return 0 documents. No psychedelic-class drug holds FDA approval as of 2026-09-13 (FDA Novel Drug Approvals 2026 lists none through 2026-09-11), and NTAP requires an FDA-authorized product. The SAINT device NTAP (FY2025) and any ketamine or esketamine payment are excluded by the criterion. Next possible qualifying event: the FY2028 IPPS final rule (about August 2027, effective 2027-10-01). Not occurred as of 2026-09-13."
+    },
+    {
+      "event_id": "E-0019",
+      "state": "occurred",
+      "date": "2026-06-03",
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260402",
+          "title": "510(k) Premarket Notification K260402: MeRT System (Wave Neuroscience), product code SIG, decision date 06/03/2026",
+          "publisher": "U.S. Food and Drug Administration (510(k) database)",
+          "date": "2026-06-03",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260402.pdf",
+          "title": "K260402 substantial equivalence letter (June 3, 2026) and 510(k) Summary: MeRT System, indications for use as an adjunct for the treatment of adult patients suffering from Post Traumatic Stress Disorder (PTSD)",
+          "publisher": "U.S. Food and Drug Administration",
+          "date": "2026-06-03",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://api.fda.gov/device/classification.json?search=product_code:SIG",
+          "title": "openFDA device classification: product code SIG, Transcranial Magnetic Stimulation System For Post Traumatic Stress Disorder (PTSD), 21 CFR 882.5802",
+          "publisher": "U.S. Food and Drug Administration (openFDA)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://api.fda.gov/device/510k.json?search=product_code:(OBP+QCI+QMD+OKP+SIG)+AND+decision_date:%5B2024-01-05+TO+2026-09-13%5D&limit=100",
+          "title": "openFDA 510(k) query: transcranial magnetic stimulation clearances (product codes OBP, QCI, QMD, OKP, SIG) decided 2024-01-05 to 2026-09-13",
+          "publisher": "U.S. Food and Drug Administration (openFDA)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/wave-neuroscience-announces-fda-clearance-of-mert-for-ptsd-302797513.html",
+          "title": "Wave Neuroscience Announces FDA Clearance of MeRT for PTSD",
+          "publisher": "Wave Neuroscience via PR Newswire",
+          "date": "2026-06-11",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "FDA 510(k) K260402 (Wave Neuroscience MeRT System) has decision date 2026-06-03 under 21 CFR 882.5802 with new product code SIG; the indications for use name an adjunct for treatment of adult patients with PTSD. PTSD was not an authorized TMS indication on 2024-01-04 (authorized: MDD/TRD, anxious depression, OCD, smoking cessation, sTMS migraine), so TRUE on 2026-06-03. Earlier check: every TMS 510(k) decided 2024-01-05 to 2026-06-02 carried product code OBP (MDD) or QCI (OCD); the adolescent MDD clearances (Neuronetics K231926, 2024-03-22; BrainsWay K251391, 2025-11-07) and accelerated protocols are population or protocol changes that the criterion excludes; no TMS PMA and no other new TMS product code exist. One registry reading says a new population counts; the criterion as written excludes it and governs here. Under that reading the date would be 2024-03-22 (K231926)."
+    },
+    {
+      "event_id": "E-0020",
+      "state": "occurred",
+      "date": "2025-07-01",
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1840904/000114036125024290/ef20051402_ex99-1.htm",
+          "title": "atai Life Sciences and Beckley Psytech Announce Positive Topline Results from the Phase 2b Study of BPL-003 in Patients with Treatment-Resistant Depression (Form 8-K, Exhibit 99.1)",
+          "publisher": "ATAI Life Sciences N.V. via SEC EDGAR",
+          "date": "2025-07-01",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/07/01/3108164/0/en/atai-Life-Sciences-and-Beckley-Psytech-Announce-Positive-Topline-Results-from-the-Phase-2b-Study-of-BPL-003-in-Patients-with-Treatment-Resistant-Depression.html",
+          "title": "atai Life Sciences and Beckley Psytech Announce Positive Topline Results from the Phase 2b Study of BPL-003 in Patients with Treatment-Resistant Depression",
+          "publisher": "atai Life Sciences and Beckley Psytech via GlobeNewswire",
+          "date": "2025-07-01",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT05870540",
+          "title": "BPL-003 Efficacy and Safety in Treatment Resistant Depression (NCT05870540), Beckley Psytech Limited; results first posted 2026-09-10",
+          "publisher": "ClinicalTrials.gov (National Library of Medicine)",
+          "date": "2026-09-10",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "Sponsor topline press release dated 2025-07-01 (also filed as an 8-K exhibit the same day) reports the primary endpoint of the quadruple-masked, dose-finding core stage of Phase 2b NCT05870540 (Beckley Psytech Limited, parent atai): change from baseline in MADRS at Day 29, 12 mg vs 0.3 mg BPL-003, -11.1 vs -5.8 points, p=0.0038; 193 participants, 38 sites, 6 countries. This is the randomized core-stage primary result, not a Phase 2a, open-label, interim or pooled analysis, so TRUE on 2025-07-01. ClinicalTrials.gov results were posted later (2026-09-10) and match the primary outcome measure."
+    },
+    {
+      "event_id": "E-0021",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2081043/000119312526096926/atai-20251231.htm",
+          "title": "AtaiBeckley Inc. Annual Report on Form 10-K for the fiscal year ended December 31, 2025",
+          "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+          "date": "2026-03-06",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1840904/000095017025040244/atai-20241231.htm",
+          "title": "ATAI Life Sciences N.V. Annual Report on Form 10-K for the fiscal year ended December 31, 2024",
+          "publisher": "ATAI Life Sciences N.V. via SEC EDGAR",
+          "date": "2025-03-17",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2081043/000119312526344720/atai-20260630.htm",
+          "title": "AtaiBeckley Inc. Quarterly Report on Form 10-Q for the quarter ended June 30, 2026",
+          "publisher": "AtaiBeckley Inc. via SEC EDGAR",
+          "date": "2026-08-11",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://efts.sec.gov/LATEST/search-index?q=%22PCN-101%22+OR+%22arketamine%22&dateRange=custom&startdt=2024-01-01&enddt=2026-09-13",
+          "title": "EDGAR full-text search: \"PCN-101\" OR \"arketamine\", filings 2024-01-01 to 2026-09-13 (15 hits, all reviewed)",
+          "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/AtaiBeckley",
+          "title": "AtaiBeckley (lists arketamine (PCN-101) among previous candidates, without a sponsor source)",
+          "publisher": "Wikipedia",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "No sponsor statement of discontinuation was found; all 15 EDGAR full-text hits for PCN-101/arketamine since 2024 were reviewed. The FY2024 10-K (2025-03-17) says atai is 'seeking strategic partnership options, for example, with ... Perception Neuroscience' and reports Otsuka's January 2025 notice terminating its Japan arketamine license effective 2025-04-24 (a licensee action, not sponsor discontinuation). The FY2025 10-K (2026-03-06) and Q2 2026 10-Q (2026-08-11) still report direct R&D expenses for PCN-101 and Perception Neuroscience as a 59.2%-owned controlled VIE; PCN-101 is absent from the pipeline text, but no filing or release says development is discontinued or removed with no further development planned. A partner search or deprioritization is not discontinuation under the criterion. Wikipedia's 'previous candidate' label has no sponsor source. Not occurred as of 2026-09-13."
+    },
+    {
+      "event_id": "E-0022",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=midomafetamine%20OR%20MDMA%20OR%20methylenedioxymethamphetamine&filter.advanced=AREA%5BPhase%5DPHASE3%20AND%20AREA%5BStartDate%5DRANGE%5B2024-06-06,MAX%5D&fields=NCTId,BriefTitle,Phase,OverallStatus,StartDate,PrimaryCompletionDate,LeadSponsorName,ResultsFirstPostDate",
+          "title": "ClinicalTrials.gov API v2 query: Phase 3 studies of MDMA/midomafetamine with start date after 2024-06-05 (2 studies, no results posted)",
+          "publisher": "ClinicalTrials.gov (National Library of Medicine)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://clinicaltrials.gov/api/v2/studies?query.spons=Resilient%20Pharmaceuticals&fields=NCTId,BriefTitle,Phase,OverallStatus,StartDate,PrimaryCompletionDate,LeadSponsorName,ResultsFirstPostDate",
+          "title": "ClinicalTrials.gov API v2 query: studies sponsored by Resilient Pharmaceuticals (formerly Lykos Therapeutics / MAPS PBC)",
+          "publisher": "ClinicalTrials.gov (National Library of Medicine)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06117306",
+          "title": "MDMA-assisted Massed Prolonged Exposure for PTSD (NCT06117306), Healing Breakthrough; start 2024-10-25, active not recruiting, no results",
+          "publisher": "ClinicalTrials.gov (National Library of Medicine)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT07118839",
+          "title": "MDMA-Assisted Therapy for Veterans With PTSD and Alcohol Use Disorder (NCT07118839), VA Office of Research and Development; Phase 2/3, start 2026-05-18, recruiting",
+          "publisher": "ClinicalTrials.gov (National Library of Medicine)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+          "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+          "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+          "date": "2026-08-10",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "Lykos Therapeutics now appears on ClinicalTrials.gov as Resilient Pharmaceuticals (sponsor of MAPP1 NCT03537014 and MAPP2 NCT04077437, both excluded by the criterion). Resilient has no Phase 3 midomafetamine trial with a start date after 2024-06-05. The only Phase 3 MDMA-for-PTSD records with later start dates are NCT06117306 (Healing Breakthrough; start 2024-10-25; primary completion 2027-03; no results) and NCT07118839 (VA; Phase 2/3; start 2026-05-18; no results). MAPS states (2026-08-10) that Resilient resubmitted the NDA in August 2026 'without a new Phase 3 study'. No primary endpoint result of a qualifying trial has been reported by any sponsor as of 2026-09-13, so not occurred."
+    },
+    {
+      "event_id": "E-0023",
+      "state": "unresolvable",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+          "title": "Novel Drug Approvals for 2026 (39 approvals through 2026-09-11; no psychedelic-class drug)",
+          "publisher": "U.S. Food and Drug Administration",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm",
+          "title": "Approved Risk Evaluation and Mitigation Strategies (REMS)",
+          "publisher": "U.S. Food and Drug Administration (REMS@FDA)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name:%22psilocybin%22+OR+products.active_ingredients.name:%22psilocybin%22",
+          "title": "openFDA Drugs@FDA query: psilocybin (no matches)",
+          "publisher": "U.S. Food and Drug Administration (openFDA)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name:%22midomafetamine%22+OR+products.active_ingredients.name:%22midomafetamine%22",
+          "title": "openFDA Drugs@FDA query: midomafetamine (no matches)",
+          "publisher": "U.S. Food and Drug Administration (openFDA)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1816590/000181659026000059/q22026pressrelease.htm",
+          "title": "Compass Pathways Announces Second Quarter and First Half 2026 Financial Results and Business Highlights (Form 8-K exhibit)",
+          "publisher": "COMPASS Pathways plc via SEC EDGAR",
+          "date": "2026-08-05",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+          "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+          "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+          "date": "2026-08-10",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "The criterion can only be applied once the FDA approves a psychedelic-class drug. As of 2026-09-13 none is approved: Drugs@FDA (openFDA) has no entry for psilocybin, psilocin, midomafetamine/MDMA, lysergide, ibogaine, mebufotenin or DMT; FDA Novel Drug Approvals 2026 lists 39 approvals through 2026-09-11, none in the class; REMS@FDA lists no psychedelic REMS. Nearest candidates: COMP360 psilocybin NDA in rolling submission, all modules due Q4 2026, launch expected H1 2027 subject to approval (Compass, 2026-08-05); midomafetamine NDA resubmitted August 2026, decision pending (MAPS, 2026-08-10); DT120 lysergide has Phase 3 results but no NDA. The criterion says that with no class approval the condition is unmet and the item is void, so neither TRUE nor FALSE applies: unresolvable as of 2026-09-13. Re-check REMS@FDA on the approval date if a class approval arrives before the deadline."
+    },
+    {
+      "event_id": "E-0024",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+          "title": "Novel Drug Approvals for 2026 (39 approvals through 2026-09-11; no psychedelic-class drug)",
+          "publisher": "U.S. Food and Drug Administration",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name:%22psilocybin%22+OR+products.active_ingredients.name:%22psilocybin%22",
+          "title": "openFDA Drugs@FDA query: psilocybin (no matches)",
+          "publisher": "U.S. Food and Drug Administration (openFDA)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name:%22midomafetamine%22+OR+products.active_ingredients.name:%22midomafetamine%22",
+          "title": "openFDA Drugs@FDA query: midomafetamine (no matches)",
+          "publisher": "U.S. Food and Drug Administration (openFDA)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1816590/000181659026000059/q22026pressrelease.htm",
+          "title": "Compass Pathways Announces Second Quarter and First Half 2026 Financial Results and Business Highlights (Form 8-K exhibit)",
+          "publisher": "COMPASS Pathways plc via SEC EDGAR",
+          "date": "2026-08-05",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+          "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA",
+          "publisher": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+          "date": "2026-08-10",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://finance.yahoo.com/healthcare/articles/definium-therapeutics-announces-positive-topline-110000715.html",
+          "title": "Definium Therapeutics Announces Positive Topline Results from Phase 3 Voyage Study of DT120 ODT in Generalized Anxiety Disorder",
+          "publisher": "Definium Therapeutics via Business Wire (Yahoo Finance)",
+          "date": "2026-08-12",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "No FDA approval letter or Drugs@FDA entry exists for any psychedelic-class drug as of 2026-09-13 (esketamine and ketamine excluded). openFDA Drugs@FDA returns no match for psilocybin, psilocin, midomafetamine/MDMA, lysergide, ibogaine, mebufotenin or DMT, and FDA Novel Drug Approvals 2026 lists 39 approvals through 2026-09-11, none in the class. Closest programs: COMP360 (psilocybin) NDA in rolling submission, all modules due Q4 2026, launch expected H1 2027 subject to approval (Compass, 2026-08-05); midomafetamine NDA resubmitted August 2026 by Resilient Pharmaceuticals (formerly Lykos), decision pending (MAPS, 2026-08-10); DT120/MM120 (lysergide) has two positive Phase 3 readouts (June and August 2026) and no NDA; BPL-003 is at Phase 2b. CRLs, priority vouchers, rolling review and breakthrough designations are not approvals. Not occurred as of 2026-09-13."
+    }
+  ]
+}

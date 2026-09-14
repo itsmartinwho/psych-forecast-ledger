@@ -1,0 +1,255 @@
+{
+  "resolver": "R1",
+  "run": "resolve-2026-09-13",
+  "outcomes": [
+    {
+      "event_id": "E-0033",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.courtlistener.com/api/rest/v4/search/?type=r&q=%28%22pre-payment+review%22+OR+%22prepayment+review%22+OR+%22pre-payment+reviews%22+OR+%22prepayment+reviews%22%29+AND+%28parity+OR+MHPAEA%29+AND+%28UnitedHealthcare+OR+%22United+Behavioral+Health%22+OR+Optum+OR+%22UnitedHealth%22%29&filed_after=2021-09-01&order_by=dateFiled+desc",
+          "title": "CourtListener RECAP docket search: pre-payment review AND parity AND UnitedHealthcare / United Behavioral Health / Optum, filed after 2021-09-01 (4 dockets, none on point)",
+          "publisher": "Free Law Project (CourtListener)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.courtlistener.com/api/rest/v4/search/?type=r&q=%22United+Behavioral+Health%22+AND+%28parity+OR+MHPAEA%29&filed_after=2024-08-01&order_by=dateFiled+desc",
+          "title": "CourtListener RECAP docket search: United Behavioral Health AND parity, filed after 2024-08-01 (21 dockets, ERISA treatment-denial suits)",
+          "publisher": "Free Law Project (CourtListener)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://news.delaware.gov/2025/09/17/450k-in-mental-health-parity-penalties-issued-to-unitedhealthcare/",
+          "title": "$450K in Mental Health Parity Penalties Issued to UnitedHealthcare",
+          "publisher": "Delaware Department of Insurance",
+          "date": "2025-09-17",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://clearhealthcosts.com/blog/2025/03/insurers-wide-payment-reviews-drive-therapy-practices-to-despair/",
+          "title": "Insurers' wide payment reviews drive therapy practices to despair",
+          "publisher": "ClearHealthCosts",
+          "date": "2025-03-28",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "CourtListener RECAP searched for complaints naming UnitedHealthcare, United Behavioral Health or Optum with pre-payment/prepayment review and parity/MHPAEA, filed after the Aug 2021 DOL/NY AG settlement: none. Hits were unrelated: Neuromon Professionals v. UHC (D.N.J. 2:26-cv-05603, neuromonitoring reimbursement), Massachusetts v. UHC (D. Mass. 1:26-cv-12853, MassHealth upcoding) and ERISA treatment-denial suits vs UBH. Delaware DOI's 2025-09-17 $450,000 parity penalty on UnitedHealthcare cites preauthorization, step therapy, formulary definitions, MAT prior authorization and claims handling, not pre-payment review of MH/SUD claims, so it fails the criterion; no DOL/EBSA or NY AG action on pre-payment review found. News (ClearHealthCosts to 2025-03-28) reports Optum's Aug 2024 pre-payment reviews and a pause, no complaint filed. Not occurred as of 2026-09-13."
+    },
+    {
+      "event_id": "E-0034",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216158",
+          "title": "Drugs@FDA: COBENFY (xanomeline and trospium chloride) NDA 216158, approval date(s) and history",
+          "publisher": "U.S. Food and Drug Administration",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=cobenfy",
+          "title": "DailyMed: COBENFY (xanomeline and trospium chloride) capsules label, E.R. Squibb & Sons",
+          "publisher": "National Library of Medicine (DailyMed)",
+          "date": "2026-01-16",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000008/a2026q1ex991.htm",
+          "title": "Bristol Myers Squibb first quarter 2026 results, Form 8-K Exhibit 99.1",
+          "publisher": "Bristol Myers Squibb via SEC EDGAR",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "Drugs@FDA for NDA 216158 lists a single action, ORIG-1 approved 2024-09-26 (schizophrenia), and no efficacy supplement. The current DailyMed label (updated 2026-01-16) states Cobenfy is indicated for the treatment of schizophrenia in adults only. BMS's Q1 2026 8-K exhibit reports only schizophrenia data for Cobenfy; the bipolar I mania phase 3 program remains in trials (secondary coverage places the readout in 2027) with no filing or approval. No bipolar I or II indication of any kind (manic, mixed, depressive or maintenance; monotherapy or adjunct) appears on the label, so the criterion is not met as of 2026-09-13."
+    },
+    {
+      "event_id": "E-0035",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06545474",
+          "title": "Effects of rTMS Compared to SSRI as Early Treatment of Depression (Early-TMS), NCT06545474",
+          "publisher": "ClinicalTrials.gov (U.S. National Library of Medicine)",
+          "date": "2024-08-19",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12500817/",
+          "title": "Effectiveness of rTMS compared to SSRI as early treatment of depression - study protocol of a randomized controlled trial (Early-TMS)",
+          "publisher": "European Archives of Psychiatry and Clinical Neuroscience (via PubMed Central)",
+          "date": "2025-02-22",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Early-TMS%22+OR+(rTMS+SSRI+%22early+treatment%22+depression+Becker-Sadzio)&retmode=json&retmax=50&sort=date",
+          "title": "PubMed E-utilities search for Early-TMS publications (1 record: the protocol, PMID 39985658)",
+          "publisher": "NCBI PubMed",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "The Early-TMS trial is identified by the Becker-Sadzio et al. protocol (Eur Arch Psychiatry Clin Neurosci, 2025-02-22), which names ClinicalTrials.gov NCT06545474 as its registry (sponsor University Hospital Tuebingen). PubMed holds only the protocol (PMID 39985658); no primary-results paper. The ClinicalTrials.gov record (last update posted 2024-08-19) shows status 'Not yet recruiting', estimated primary completion 2026-12-31, 106 planned participants and no posted results; no investigator topline release was found. Reading note: the proposition says 'pregnant women with depression', but the registered Early-TMS trial enrols medication-naive adults (18-65) with MDD and excludes pregnancy. Resolved on the named trial; the registry should correct the population wording. No primary result reported as of 2026-09-13."
+    },
+    {
+      "event_id": "E-0036",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.courtlistener.com/api/rest/v4/search/?type=r&q=%28Cigna+OR+Evernorth%29+AND+%22transcranial+magnetic+stimulation%22&filed_after=2025-01-01&order_by=dateFiled+desc",
+          "title": "CourtListener RECAP docket search: (Cigna OR Evernorth) AND \"transcranial magnetic stimulation\", filed after 2025-01-01 (0 dockets)",
+          "publisher": "Free Law Project (CourtListener)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.courtlistener.com/api/rest/v4/search/?type=r&q=caseName%3A%28Cigna+OR+Evernorth%29+AND+%28adolescent+OR+minor+OR+teen%29+AND+depression&filed_after=2025-01-01&order_by=dateFiled+desc",
+          "title": "CourtListener RECAP docket search: case name Cigna/Evernorth AND adolescent/minor/teen AND depression, filed after 2025-01-01 (5 ERISA dockets, none on TMS)",
+          "publisher": "Free Law Project (CourtListener)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://bergermontague.com/cases/greenwood-vs-cigna-health-and-life-insurance-company-and-evernorth-behavioral-health-inc/",
+          "title": "Greenwood vs. Cigna Health and Life Insurance Company and Evernorth Behavioral Health, Inc.",
+          "publisher": "Berger Montague",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "Checked CourtListener RECAP for complaints naming Cigna or Evernorth with 'transcranial magnetic stimulation' filed on or after 2025-01-01: none. A case-name search for Cigna/Evernorth suits mentioning adolescents or minors and depression since 2025 returned five anonymised ERISA dockets (D. Conn., D. Utah, S.D.N.Y., E.D. Cal.) with no TMS reference in their indexed text. The Greenwood v. Cigna/Evernorth class action (filed 2025-08-22) concerns residential mental-health treatment criteria, not TMS. No news report of a complaint over the adolescent TMS antidepressant-trial requirement was found; the only TMS suit against Cigna located is Weil (filed 2015, settled 2017), which predates the policy. Cigna's EN0383 policy still carries the requirement (see E-0037). Not occurred as of 2026-09-13; state-court dockets outside RECAP could not be searched exhaustively."
+    },
+    {
+      "event_id": "E-0037",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/medical/en_mm_0383_coveragepositioncriteria_transcranial_magnetic_stimulation.pdf",
+          "title": "Evernorth Coverage Policy EN0383: Transcranial Magnetic Stimulation (effective 3/15/2026)",
+          "publisher": "Cigna / Evernorth Health Services",
+          "date": "2026-03-15",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "Resolved on the published Cigna/Evernorth coverage policy EN0383 (effective 2026-03-15, next review 2027-03-15), fetched from Cigna's coverage-policy site on 2026-09-13. The policy in force still requires, for MDD in 'an adolescent age 15-17: failure of two trials of antidepressant medications' (adequate dose for at least four weeks without significant improvement, or documented intolerance or contraindication), plus a psychotherapy trial. Revision Details show the 2026-03-15 annual review made 'no clinical policy statement changes'; the last statement change was 2025-03-15. No revision removing the antidepressant-trial requirement for ages 15 to 18 has taken effect, so the proposition is FALSE as of 2026-09-13. The same policy keeps accelerated protocols (TBS, SAINT, SNT) as experimental, investigational or unproven."
+    },
+    {
+      "event_id": "E-0038",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22GRAYMATTERS%22&limit=20",
+          "title": "openFDA 510(k) database query: applicant GRAYMATTERS (1 record, K222101)",
+          "publisher": "U.S. Food and Drug Administration (openFDA)",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K222101",
+          "title": "510(k) Premarket Notification K222101: Prism, Graymatters Health, Ltd.",
+          "publisher": "U.S. Food and Drug Administration",
+          "date": "2023-03-17",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?start_search=1&Applicant=graymatters",
+          "title": "De Novo database search: requester name graymatters (no records found)",
+          "publisher": "U.S. Food and Drug Administration",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.graymatters-health.com/regulatory",
+          "title": "Regulatory | GrayMatters Health",
+          "publisher": "GrayMatters Health",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/graymatters-health-launches-prism-imagine-302769484.html",
+          "title": "GrayMatters Health Launches Prism Imagine",
+          "publisher": "GrayMatters Health via PR Newswire",
+          "date": "2026-05-12",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "Devices@FDA (openFDA 510(k) API and the 510(k) database) lists one GrayMatters Health record: K222101, Prism, substantially equivalent 2023-03-17, product code HCC (biofeedback device), which is the PTSD clearance. The De Novo database has no GrayMatters record. GrayMatters' regulatory page names only the PTSD indication as FDA cleared, and its 2026-05-12 Prism Imagine release states the platform 'is being used to treat PTSD (FDA 510(k) cleared) and help patients live better with Depression', so the depression protocol (launched in the Prism Suite on 2025-05-15) carries no FDA clearance. No 510(k) or De Novo decision with depression in the indications for use exists as of 2026-09-13."
+    },
+    {
+      "event_id": "E-0039",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205422",
+          "title": "Drugs@FDA: REXULTI (brexpiprazole) NDA 205422, approval date(s) and history",
+          "publisher": "U.S. Food and Drug Administration",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d301358-6291-4ec1-bd87-37b4ad9bd850",
+          "title": "DailyMed: REXULTI (brexpiprazole) tablets label, Otsuka America Pharmaceutical",
+          "publisher": "National Library of Medicine (DailyMed)",
+          "date": "2026-05-06",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.otsuka.co.jp/en/company/newsreleases/2025/20250920_1.html",
+          "title": "Otsuka and Lundbeck Receive Complete Response Letter from U.S. FDA for sNDA of REXULTI (brexpiprazole) in Combination with Sertraline for the Treatment of Adults with PTSD",
+          "publisher": "Otsuka Pharmaceutical Co., Ltd.",
+          "date": "2025-09-20",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.otsuka-us.com/news",
+          "title": "Otsuka US newsroom (2026 releases; none on Rexulti or PTSD)",
+          "publisher": "Otsuka America Pharmaceutical",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "Drugs@FDA for NDA 205422 shows the latest actions as SUPPL-14 (2025-05-09, efficacy-labeling change with clinical data) and SUPPL-17 (2026-04-30, labeling-package insert); no PTSD efficacy supplement is approved. The current label (revised 4/2026, DailyMed updated 2026-05-06) lists three indications: adjunctive treatment of MDD, schizophrenia (age 13+), and agitation associated with dementia due to Alzheimer's disease; PTSD appears only in the safety-population description. The sNDA for brexpiprazole with sertraline in PTSD received a complete response letter (Otsuka release 2025-09-20) after the 2025-07-18 advisory committee voted 1-10 against efficacy; the FDA said additional adequate and well-controlled trials would be needed. Otsuka's 2026 newsroom shows no PTSD resubmission or approval. Per the criterion the CRL does not close the event; it is not occurred as of 2026-09-13."
+    },
+    {
+      "event_id": "E-0040",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-13",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://public.providerexpress.com/content/dam/ope-provexpr/us/pdfs/clinResourcesMain/guidelines/bcp/tmsMCS.pdf",
+          "title": "Optum Behavioral Clinical Policy: Transcranial Magnetic Stimulation (BH803TMS112025; annual review 2025-11-18, interim review 2026-04-21)",
+          "publisher": "Optum Behavioral Health Solutions (UnitedHealth Group)",
+          "date": "2026-04-21",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/comm-medical-drug/transcranial-magnetic-stimulation.pdf",
+          "title": "UnitedHealthcare Commercial and Individual Exchange Medical Policy 2026T0536W: Transcranial Magnetic Stimulation for Treating Physical Health Conditions",
+          "publisher": "UnitedHealthcare",
+          "date": "2026-02-01",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/oh/transcranial-magnetic-stimulation-oh-cs.pdf",
+          "title": "UnitedHealthcare Community Plan Medical Policy CS124OH.F: Transcranial Magnetic Stimulation for Treating Physical Health Conditions (for Ohio Only)",
+          "publisher": "UnitedHealthcare",
+          "date": "2026-04-01",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "note": "UnitedHealthcare's policy library routes behavioral TMS to the Optum Behavioral Clinical Policy 'Transcranial Magnetic Stimulation' (BH803TMS112025; annual review 2025-11-18, interim review 2026-04-21). It covers a once-daily TMS course for MDD and lists 'Accelerated TMS (aTMS) protocols and/or Theta burst stimulation (TBS) protocols' as unproven and not medically necessary; it notes the 2025-09-16 FDA clearance of BrainsWay's accelerated protocol without changing coverage. UHC's commercial policy 2026T0536W (effective 2026-02-01) and Community Plan policy CS124OH.F (2026-04-01) also deem theta-burst stimulation, including accelerated and MRI-guided protocols, unproven. No UnitedHealthcare policy in force lists a more-than-one-session-per-day protocol (accelerated iTBS, SAINT-type) as proven for MDD, so the proposition is FALSE as of 2026-09-13."
+    }
+  ]
+}
