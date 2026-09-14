@@ -3,162 +3,37 @@
  "as_of": "2026-09-13",
  "events": [
   {
-   "id": "E-0057",
+   "id": "E-0126",
    "template": "trial_result",
    "area": "clinical_trial",
-   "asset": "Monarch eTNS (external trigeminal nerve stimulation, NeuroSigma): large-scale replication trial results",
-   "entity": "NeuroSigma and the academic investigators running trials of the Monarch eTNS device",
-   "title": "Monarch eTNS large-scale replication trial results are published",
-   "proposition": "Results of a randomized controlled replication trial of the Monarch eTNS device, larger than the trial behind its existing FDA clearance, are published, in any direction.",
-   "criterion": "TRUE on the date of the first peer-reviewed publication (PubMed-indexed) or ClinicalTrials.gov results posting, dated after 2026-01-15, that reports primary-outcome results of a randomized controlled trial of the Monarch eTNS (external trigeminal nerve stimulation) device in one of the indications the forecaster names as cleared (ADHD in youth, or refractory seizures), designed to test the efficacy finding of the trial that supported the existing FDA clearance, and randomizing more participants than that pivotal trial. Any direction of result counts. Secondary analyses of earlier trials, open-label studies, and results already public on the statement date do not count. FALSE at the deadline when no such publication or posting is dated by then. Resolution source: PubMed (peer-reviewed publication), with ClinicalTrials.gov results as a secondary source.",
+   "asset": "COMP360 (Compass Pathways' synthetic psilocybin): the first Phase 3 topline readout in treatment-resistant depression",
+   "entity": "Compass Pathways",
+   "title": "Compass Pathways reports its first COMP360 Phase 3 topline readout",
+   "proposition": "Compass Pathways reports the topline primary-endpoint result, in either direction, of the first Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression.",
+   "criterion": "TRUE on the date of the first Compass Pathways topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports the primary endpoint result, in either direction, of a Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression. A Phase 2 result, an enrollment or trial-start announcement, a guidance statement on the expected readout date, an interim safety report and a conference abstract without the primary estimate do not count. Resolution source: Compass Pathways press releases, with ClinicalTrials.gov results as the secondary source. FALSE at the deadline when no such report is dated by then.",
    "resolution_source": {
-    "name": "PubMed (peer-reviewed publication); ClinicalTrials.gov results as a secondary source",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/"
+    "name": "Compass Pathways topline press releases; ClinicalTrials.gov results as the secondary source",
+    "url": "https://clinicaltrials.gov/"
    },
    "base_rate_class": null,
    "market_ref_id": null,
    "quantity": null,
    "readings": [
-    "'Large scale replication trials' is read as randomized controlled trials that test the efficacy finding behind the current clearance and randomize more participants than that pivotal trial; the forecaster gives no number, so size is judged against the pivotal trial.",
-    "'New data ... published' is read as a peer-reviewed publication or a results posting, in any direction.",
-    "'Soon' sets no deadline."
+    "'Readout' reads as the sponsor's first public report of the trial's primary endpoint result, in either direction."
    ],
    "created_by": "registry-consolidation",
-   "created_at": "2026-09-13",
-   "version": "1.0.0",
+   "created_at": "2026-09-14",
+   "version": "1.1.0",
    "related_timeline": [
     {
-     "id": "T-0013",
-     "date": "2022-12-08",
-     "entity": "Relmada Therapeutics (REL-1017)",
-     "event": "Relmada's esmethadone fails a second large phase 3 depression trial two months after the October 2022 RELIANCE III miss; shares fall further.",
-     "source_url": "https://www.biopharmadive.com/news/relmada-rel-1017-depression-trial-failure/638504/",
-     "source_org": "BioPharma Dive",
-     "key_number": "two phase 3 misses in ~2 months"
-    },
-    {
-     "id": "T-0020",
-     "date": "2023-03-07",
-     "entity": "Synthesis Institute",
-     "event": "Synthesis Institute, a psilocybin retreat operator and Oregon's largest facilitator-training program, confirms bankruptcy after running out of funding.",
-     "source_url": "https://psychedelicalpha.com/news/inside-synthesis-institutes-implosion/",
-     "source_org": "Psychedelic Alpha",
-     "key_number": "students locked out of curriculum"
-    },
-    {
-     "id": "T-0022",
-     "date": "2023-03-20",
-     "entity": "Karuna Therapeutics (KarXT, EMERGENT-3)",
-     "event": "Karuna reports positive phase 3 EMERGENT-3, its third positive registrational KarXT trial; NDA planned for mid-2023.",
-     "source_url": "https://investors.karunatx.com/news-releases/news-release-details/karuna-therapeutics-announces-positive-results-phase-3-0/",
-     "source_org": "Karuna Therapeutics",
-     "key_number": "PANSS -8.4 points vs placebo at week 5; p<0.0001"
-    },
-    {
-     "id": "T-0031",
-     "date": "2023-07-21",
-     "entity": "Neurolief (Relivion DP, MOOD trial)",
-     "event": "Neurolief reports a positive interim analysis of its MOOD pivotal trial of at-home Relivion neuromodulation in major depression.",
-     "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOODdjRU5SdXdPd1JEM0xqdHpEWEYzMWVUVUFtS0w5MTBkNHRvZVdYc3FGTnR0dXRHeDREVEQ3bmNxWUNhVnFqMUZNRU9EXzd3bGdfYnJtZ0l5ZFVadHY3WGNHM0c5cHktQlpyNzN0QlFVRldQdFhKZWFuZE5OTjVtLWJiVTNDMThHZEFWbHdlSmN3WG4zT1VralVadmN2U3pRV1JtckZwZk5uTF9tMEY4NDVMY0pibnNZLW51dmF6RXZyci1pZnBz?oc=5",
-     "source_org": "NeuroNews International",
-     "key_number": "interim analysis positive (effect sizes not captured)"
-    },
-    {
-     "id": "T-0037",
-     "date": "2023-09-15",
-     "entity": "Neumora Therapeutics",
-     "event": "Neumora completes a $250M IPO to fund late-stage navacaprant depression trials.",
-     "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdHB4MVlGUlEwdzBIZGt2VXo2WEktM2h3M09wU0E1MWdqa0xxbWFwSkxEX3ZTa0JDS2tTTi1FS3RuY29Bd2dKY2FBSXNKZDE4dkhpRjY5ODNqYTc3eENDSmp1RWFfZzdVSFhIT0pxS1h6cXZQOGVPeEptMkZRc1RJRnBVcnNLem9HS1pyMFRhdFFQaW5NVXphMXhwS0RHVTJVZjByRzVDZDg3eFlNM2otSW1xaTh1TWRzYTNqM3dWdXBtb01UTDJZcElacGU?oc=5",
-     "source_org": "Renaissance Capital",
-     "key_number": "$250M IPO"
-    },
-    {
-     "id": "T-0048",
-     "date": "2023-12-22",
-     "entity": "Congress / President Biden",
-     "event": "FY2024 NDAA signed with Section 723: $10M and a DoD process for service members with PTSD or TBI to join trials of psilocybin, MDMA, ibogaine, 5-MeO-DMT and plant-based therapies.",
-     "source_url": "https://www.bradley.com/insights/publications/2024/01/defending-psychedelics-congress-includes-psychedelic-provisions-in-defense-authorization-act",
-     "source_org": "Bradley",
-     "key_number": "$10M; Sec. 723"
-    },
-    {
-     "id": "T-0052",
-     "date": "2024-01-05",
-     "entity": "Stanford Medicine / VETS (magnesium-ibogaine)",
-     "event": "Nature Medicine publishes Stanford's open-label magnesium-ibogaine study in 30 special-operations veterans with TBI, showing large drops in PTSD, depression, anxiety and disability.",
-     "source_url": "https://www.nature.com/articles/s41591-023-02705-w",
+     "id": "T-0001",
+     "date": "2021-05-10",
+     "entity": "MAPS PBC (MAPP1)",
+     "event": "Nature Medicine publishes MAPP1 phase 3: MDMA-assisted therapy beat placebo-with-therapy on CAPS-5 in 90 patients with severe chronic PTSD.",
+     "source_url": "https://www.nature.com/articles/s41591-021-01336-3",
      "source_org": "Nature Medicine",
-     "key_number": "n=30; one-month reductions ~88% PTSD, ~87% depression, ~81% anxiety"
+     "key_number": "67% vs 32% no longer met PTSD criteria; p<0.0001"
     },
-    {
-     "id": "T-0059",
-     "date": "2024-03-21",
-     "entity": "Utah Legislature",
-     "event": "SB 266 becomes law without the governor's signature, allowing large Utah health systems to run a psilocybin and MDMA treatment pilot.",
-     "source_url": "https://le.utah.gov/~2024/bills/static/SB0266.html",
-     "source_org": "Utah Legislature",
-     "key_number": "SB 266"
-    },
-    {
-     "id": "T-0060",
-     "date": "2024-03-26",
-     "entity": "ICER",
-     "event": "ICER draft evidence report finds evidence on MDMA-assisted psychotherapy for PTSD insufficient because of functional unblinding and trial-conduct concerns.",
-     "source_url": "https://icer.org/wp-content/uploads/2024/03/PTSD_Draft-Report_For-Publication_03262024.pdf",
-     "source_org": "ICER"
-    },
-    {
-     "id": "T-0070",
-     "date": "2024-08-09",
-     "entity": "FDA / Lykos Therapeutics",
-     "event": "FDA issues a complete response letter (dated August 8) for MDMA capsules for PTSD, requesting an additional Phase 3 trial and citing safety and data-integrity concerns.",
-     "source_url": "https://www.biospace.com/drug-development/FDA-Rejects-Lykos-MDMA-Assisted-PTSD-Therapy-After-Negative-Adcomm",
-     "source_org": "BioSpace"
-    },
-    {
-     "id": "T-0071",
-     "date": "2024-08-09",
-     "entity": "Lykos Therapeutics (midomafetamine)",
-     "event": "FDA issues a Complete Response Letter for MDMA-assisted therapy in PTSD and asks Lykos to run an additional phase 3 trial.",
-     "source_url": "https://www.ajmc.com/view/mdma-assisted-therapy-receives-a-complete-response-letter-from-the-fda",
-     "source_org": "AJMC",
-     "key_number": "additional phase 3 trial requested"
-    },
-    {
-     "id": "T-0073",
-     "date": "2024-08-12",
-     "entity": "Neuronetics / Greenbrook TMS",
-     "event": "Neuronetics agrees an all-stock merger with Greenbrook TMS, the largest US TMS clinic network; Neuronetics stock falls on the news.",
-     "source_url": "https://www.medtechdive.com/news/neuronetics-greenbrook-merger-neurostar/724049/",
-     "source_org": "MedTech Dive",
-     "key_number": "all-stock; ~57%/43% ownership split"
-    }
-   ]
-  },
-  {
-   "id": "E-0058",
-   "template": "drug_approval",
-   "area": "regulatory",
-   "asset": "COMP360 (synthetic psilocybin) new drug application for treatment-resistant depression: FDA action",
-   "entity": "US Food and Drug Administration",
-   "title": "FDA action (approval or complete response letter) on the COMP360 NDA for treatment-resistant depression",
-   "proposition": "The FDA issues its action (approval or complete response letter) on Compass Pathways' new drug application for COMP360 (psilocybin) in treatment-resistant depression.",
-   "criterion": "TRUE on the date of the FDA's first action on Compass Pathways' new drug application for COMP360 (psilocybin) in treatment-resistant depression, in either direction: the approval letter as dated in Drugs@FDA (or in Compass Pathways' approval announcement), or a complete response letter as dated in Compass Pathways' announcement of it. The event is about the FDA reaching its decision, not the direction. A filing acceptance, a PDUFA goal date, an advisory committee vote, a review extension, a refuse-to-file letter or withdrawal of the application is not an action; if the application is never submitted, no action occurs. FALSE at the deadline when neither an approval in Drugs@FDA nor an announced complete response letter is dated by then. Resolution source: Drugs@FDA for an approval; Compass Pathways' press release for a complete response letter.",
-   "resolution_source": {
-    "name": "Drugs@FDA (approval); Compass Pathways press release for a complete response letter",
-    "url": "https://www.accessdata.fda.gov/scripts/cder/daf/"
-   },
-   "base_rate_class": null,
-   "market_ref_id": null,
-   "quantity": null,
-   "readings": [
-    "Quoted words endorsed as his own. 'A decision' is any FDA action, not approval. 'Early next year' read via the year row.",
-    "'a decision' = an FDA action letter of either kind; this event is distinct from an approval event on COMP360."
-   ],
-   "created_by": "registry-consolidation",
-   "created_at": "2026-09-13",
-   "version": "1.0.0",
-   "related_timeline": [
     {
      "id": "T-0002",
      "date": "2021-10-29",
@@ -176,6 +51,24 @@
      "source_url": "https://gazette.gc.ca/rp-pr/p2/2022/2022-01-05/html/sor-dors271-eng.html",
      "source_org": "Canada Gazette",
      "key_number": "SOR/2021-271"
+    },
+    {
+     "id": "T-0007",
+     "date": "2022-08-08",
+     "entity": "Karuna Therapeutics (KarXT, EMERGENT-2)",
+     "event": "Karuna reports positive phase 3 EMERGENT-2: KarXT beat placebo on PANSS total score at week 5 in acute schizophrenia.",
+     "source_url": "https://ir.zailaboratory.com/news-releases/news-release-details/zai-lab-partner-karuna-therapeutics-announces-positive-results",
+     "source_org": "Karuna / Zai Lab",
+     "key_number": "PANSS -9.6 points vs placebo; p<0.0001"
+    },
+    {
+     "id": "T-0008",
+     "date": "2022-08-19",
+     "entity": "Axsome Therapeutics (Auvelity, AXS-05)",
+     "event": "FDA approves Auvelity (dextromethorphan-bupropion), the first oral NMDA receptor antagonist for MDD, with labeled symptom improvement from week 1.",
+     "source_url": "https://www.globenewswire.com/news-release/2022/08/19/2501453/33090/en/Axsome-Therapeutics-Announces-FDA-Approval-of-AUVELITY-the-First-and-Only-Oral-NMDA-Receptor-Antagonist-for-the-Treatment-of-Major-Depressive-Disorder-in-Adults.html",
+     "source_org": "Axsome Therapeutics",
+     "key_number": "first new oral MDD mechanism in 60+ years"
     },
     {
      "id": "T-0011",
@@ -229,64 +122,6 @@
      "source_org": "TGA"
     },
     {
-     "id": "T-0019",
-     "date": "2023-03-07",
-     "entity": "Sens. Booker and Paul; Reps. Mace and Dean",
-     "event": "Breakthrough Therapies Act reintroduced to let DEA move FDA breakthrough-designated Schedule I drugs such as MDMA and psilocybin to Schedule II; bill later dies in committee.",
-     "source_url": "https://mace.house.gov/media/press-releases/rep-mace-dean-sen-booker-paul-introduce-breakthrough-therapies-act-veterans",
-     "source_org": "Rep. Nancy Mace"
-    },
-    {
-     "id": "T-0020",
-     "date": "2023-03-07",
-     "entity": "Synthesis Institute",
-     "event": "Synthesis Institute, a psilocybin retreat operator and Oregon's largest facilitator-training program, confirms bankruptcy after running out of funding.",
-     "source_url": "https://psychedelicalpha.com/news/inside-synthesis-institutes-implosion/",
-     "source_org": "Psychedelic Alpha",
-     "key_number": "students locked out of curriculum"
-    },
-    {
-     "id": "T-0024",
-     "date": "2023-05-05",
-     "entity": "Oregon Psilocybin Services",
-     "event": "Oregon issues its first psilocybin service center license (EPIC Healing Eugene); first client sessions follow in June 2023.",
-     "source_url": "https://maps.org/news/bulletin/oregons-journey-the-implementation-of-ballot-measure-109-the-oregon-psilocybin-services-act/",
-     "source_org": "MAPS"
-    },
-    {
-     "id": "T-0027",
-     "date": "2023-05-24",
-     "entity": "ELEKT-D (ketamine vs ECT)",
-     "event": "NEJM publishes ELEKT-D: subanesthetic IV ketamine was noninferior to ECT in 403 nonpsychotic treatment-resistant depression patients.",
-     "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2302399",
-     "source_org": "NEJM",
-     "key_number": "response 55.4% ketamine vs 41.2% ECT"
-    }
-   ]
-  },
-  {
-   "id": "E-0059",
-   "template": "company_event",
-   "area": "company_market",
-   "asset": "AtaiBeckley common stock (Nasdaq: ATAI): addition to a major stock market index",
-   "entity": "AtaiBeckley (atai Life Sciences); the index provider decides",
-   "title": "AtaiBeckley (ATAI) added to a major stock index",
-   "proposition": "AtaiBeckley (atai Life Sciences, Nasdaq: ATAI) is added to a major stock market index, per the index provider's announcement.",
-   "criterion": "TRUE on the date of the index provider's announcement (an addition notice or a reconstitution list) that names AtaiBeckley (atai Life Sciences, Nasdaq: ATAI) as an addition to a major stock market index, read as: the S&P 500, S&P MidCap 400 or S&P SmallCap 600; the Russell 1000, 2000 or 3000; the Nasdaq-100 or the Nasdaq Biotechnology Index; or an MSCI standard or small-cap country, regional or world index. An index of which ATAI was already a constituent on the statement date, a thematic or custom index built for one fund, or a total-market index that admits every listed stock automatically (for example the Nasdaq Composite) does not count. FALSE at the deadline when no such announcement is dated by then. Resolution source: the index provider's announcement (S&P Dow Jones Indices, FTSE Russell, Nasdaq or MSCI); the company's press release or SEC filing as a secondary source.",
-   "resolution_source": {
-    "name": "Index provider announcements (S&P Dow Jones Indices, FTSE Russell, Nasdaq, MSCI); AtaiBeckley press release or SEC filing as a secondary source"
-   },
-   "base_rate_class": null,
-   "market_ref_id": null,
-   "quantity": null,
-   "readings": [
-    "'Over the coming months' is not a deadline; 'major' index is left to the resolution criterion."
-   ],
-   "created_by": "registry-consolidation",
-   "created_at": "2026-09-13",
-   "version": "1.0.0",
-   "related_timeline": [
-    {
      "id": "T-0018",
      "date": "2023-03-06",
      "entity": "atai Life Sciences",
@@ -294,395 +129,32 @@
      "source_url": "https://www.fiercebiotech.com/biotech/2-months-after-depression-fail-atai-lays-30-and-reviews-pipeline-again",
      "source_org": "Fierce Biotech",
      "key_number": "~30% of workforce"
-    },
-    {
-     "id": "T-0031",
-     "date": "2023-07-21",
-     "entity": "Neurolief (Relivion DP, MOOD trial)",
-     "event": "Neurolief reports a positive interim analysis of its MOOD pivotal trial of at-home Relivion neuromodulation in major depression.",
-     "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOODdjRU5SdXdPd1JEM0xqdHpEWEYzMWVUVUFtS0w5MTBkNHRvZVdYc3FGTnR0dXRHeDREVEQ3bmNxWUNhVnFqMUZNRU9EXzd3bGdfYnJtZ0l5ZFVadHY3WGNHM0c5cHktQlpyNzN0QlFVRldQdFhKZWFuZE5OTjVtLWJiVTNDMThHZEFWbHdlSmN3WG4zT1VralVadmN2U3pRV1JtckZwZk5uTF9tMEY4NDVMY0pibnNZLW51dmF6RXZyci1pZnBz?oc=5",
-     "source_org": "NeuroNews International",
-     "key_number": "interim analysis positive (effect sizes not captured)"
-    },
-    {
-     "id": "T-0041",
-     "date": "2023-10-10",
-     "entity": "FDA",
-     "event": "FDA warns patients and providers about risks of compounded ketamine products, including oral formulations used at home for psychiatric disorders via telemedicine.",
-     "source_url": "https://www.fda.gov/drugs/human-drug-compounding/compounding-risk-alerts",
-     "source_org": "FDA"
-    },
-    {
-     "id": "T-0043",
-     "date": "2023-10-26",
-     "entity": "Nue Life Health",
-     "event": "Venture studio Beckley Waves acquires ketamine telehealth company Nue Life after Nue Life's standalone model faltered.",
-     "source_url": "https://www.globenewswire.com/news-release/2023/10/26/2767610/0/en/beckley-waves-acquires-nue-life.html",
-     "source_org": "GlobeNewswire",
-     "key_number": "terms undisclosed"
-    },
-    {
-     "id": "T-0049",
-     "date": "2024-01-04",
-     "entity": "atai Life Sciences / Beckley Psytech",
-     "event": "atai makes a $50M strategic investment in Beckley Psytech, taking a minority stake in the 5-MeO-DMT developer.",
-     "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdlBCX3owb09jd2pXS0h5WlItZTY1dXRqendTanZYbXFxVkxIMWROUzMwZjlvS1cwbmNkMXR0enJ3aVlNVFROVWs0UGlRWThzRjdDazBGS3Q4WWg0UDRhT1VnMmQzbm45Z3NVdFpZX1B4WUQyVUZQdUFqQkcwQXZ5WkpaMzhSTFRFcllzRjRXZnhxM2ZNQ2NkVg?oc=5",
-     "source_org": "Psychedelic Alpha",
-     "key_number": "$50M; ~35.5% stake"
-    },
-    {
-     "id": "T-0056",
-     "date": "2024-03-13",
-     "entity": "FDA / Cybin",
-     "event": "FDA grants Breakthrough Therapy designation to CYB003 (deuterated psilocybin analog) as adjunctive treatment for major depressive disorder.",
-     "source_url": "https://en.wikipedia.org/wiki/Cybin",
-     "source_org": "Wikipedia (Cybin)"
-    },
-    {
-     "id": "T-0070",
-     "date": "2024-08-09",
-     "entity": "FDA / Lykos Therapeutics",
-     "event": "FDA issues a complete response letter (dated August 8) for MDMA capsules for PTSD, requesting an additional Phase 3 trial and citing safety and data-integrity concerns.",
-     "source_url": "https://www.biospace.com/drug-development/FDA-Rejects-Lykos-MDMA-Assisted-PTSD-Therapy-After-Negative-Adcomm",
-     "source_org": "BioSpace"
-    },
-    {
-     "id": "T-0071",
-     "date": "2024-08-09",
-     "entity": "Lykos Therapeutics (midomafetamine)",
-     "event": "FDA issues a Complete Response Letter for MDMA-assisted therapy in PTSD and asks Lykos to run an additional phase 3 trial.",
-     "source_url": "https://www.ajmc.com/view/mdma-assisted-therapy-receives-a-complete-response-letter-from-the-fda",
-     "source_org": "AJMC",
-     "key_number": "additional phase 3 trial requested"
-    },
-    {
-     "id": "T-0073",
-     "date": "2024-08-12",
-     "entity": "Neuronetics / Greenbrook TMS",
-     "event": "Neuronetics agrees an all-stock merger with Greenbrook TMS, the largest US TMS clinic network; Neuronetics stock falls on the news.",
-     "source_url": "https://www.medtechdive.com/news/neuronetics-greenbrook-merger-neurostar/724049/",
-     "source_org": "MedTech Dive",
-     "key_number": "all-stock; ~57%/43% ownership split"
-    },
-    {
-     "id": "T-0114",
-     "date": "2025-04-07",
-     "entity": "New Mexico Governor Lujan Grisham",
-     "event": "Governor signs SB 219, the Medical Psilocybin Act (effective June 20, 2025): DOH program for PTSD, TRD, SUD and end-of-life distress; $1M program and $0.5M UNM research funds.",
-     "source_url": "https://sourcenm.com/2025/04/10/medical-psilocybin-act-becomes-law-in-new-mexico-but-whats-next/",
-     "source_org": "Source New Mexico",
-     "key_number": "SB 219; $1.5M"
-    },
-    {
-     "id": "T-0120",
-     "date": "2025-06-02",
-     "entity": "atai Life Sciences / Beckley Psytech",
-     "event": "atai agrees an all-share combination with Beckley Psytech, contingent on BPL-003 phase 2b success, plus a $30M private placement.",
-     "source_url": "https://www.globenewswire.com/news-release/2025/06/02/3091657/0/en/atai-life-sciences-and-beckley-psytech-to-combine-creating-a-global-leader-in-psychedelic-mental-health-therapies.html",
-     "source_org": "atai Life Sciences",
-     "key_number": "Beckley valued ~$390M; ~31% of combined company; $30M PIPE"
-    },
-    {
-     "id": "T-0127",
-     "date": "2025-07-01",
-     "entity": "atai Life Sciences / Beckley Psytech (BPL-003)",
-     "event": "Phase 2b of single-dose intranasal BPL-003 (5-MeO-DMT) in TRD meets primary and all key secondary endpoints; 8 mg dose advances toward phase 3.",
-     "source_url": "https://www.globenewswire.com/news-release/2025/07/01/3108164/0/en/atai-Life-Sciences-and-Beckley-Psytech-Announce-Positive-Topline-Results-from-the-Phase-2b-Study-of-BPL-003-in-Patients-with-Treatment-Resistant-Depression.html",
-     "source_org": "atai Life Sciences",
-     "key_number": "n=193; 8 mg and 12 mg met primary MADRS endpoint at day 29"
     }
    ]
   },
   {
-   "id": "E-0060",
+   "id": "E-0127",
    "template": "trial_result",
    "area": "clinical_trial",
-   "asset": "Kale Award trial (bilateral versus unilateral TMS for suicidal ideation): primary outcome result",
-   "entity": "Kale Award trial investigators",
-   "title": "Kale Award trial (bilateral versus unilateral TMS for suicidal ideation) reports its primary result",
-   "proposition": "The Kale Award trial reports its primary comparison of bilateral versus unilateral stimulation for suicidal ideation (either direction).",
-   "criterion": "TRUE on the date of the first public report of the Kale Award trial's primary outcome result: the peer-reviewed primary results publication, the investigators' topline release, or a results posting in the trial's registry entry, whichever is first. The result may favour bilateral, unilateral or neither; the event is about a primary result being reported. A protocol publication, a recruitment update, an interim safety report or a conference abstract without the primary outcome estimate does not count. FALSE at the deadline when no such report is dated by then. Resolution source: the peer-reviewed primary results publication (PubMed), with the trial registry entry as the secondary source.",
+   "asset": "COMP360 (Compass Pathways' synthetic psilocybin): Phase 3 programme in treatment-resistant depression",
+   "entity": "Compass Pathways",
+   "title": "A COMP360 (psilocybin) Phase 3 trial in treatment-resistant depression meets its primary endpoint",
+   "proposition": "A Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression reports its prespecified primary efficacy endpoint met with statistical significance.",
+   "criterion": "TRUE on the date of the first Compass Pathways topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports a Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression as having met its prespecified primary efficacy endpoint with statistical significance against the control arm, as reported by the sponsor. A Phase 2 result, a secondary endpoint, an interim analysis, a long-term follow-up report and a conference abstract without the primary estimate do not count. Resolution source: Compass Pathways topline press releases, with ClinicalTrials.gov results as the secondary source. FALSE at the deadline when the first reported Phase 3 primary endpoint missed significance, or when no Phase 3 primary result is reported.",
    "resolution_source": {
-    "name": "Kale Award trial primary results publication (PubMed); trial registry entry as secondary source",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/"
+    "name": "Compass Pathways topline press releases; ClinicalTrials.gov results as the secondary source",
+    "url": "https://clinicaltrials.gov/"
    },
    "base_rate_class": null,
    "market_ref_id": null,
    "quantity": null,
    "readings": [
-    "The trial is identified only by the author's words: 'the Kale Award trial', designed to test whether bilateral stimulation is superior to unilateral for suicidal ideation, discussed in Paul Fitzgerald's Brain Stimulation 2025 session. No registry number or sponsor is given, so none is written.",
-    "The claim is about timing, so the event resolves on the first public report of the primary outcome in either direction, not on which arm wins.",
-    "'It's years out from results' is read as a denial that a primary result is reported within the undated 24-month window from the statement date (2026-02-25 to 2028-02-25). A coder who reads the sentence as relayed session information would reject as REPORT or NOT_FORECAST."
+    "'A successful phase three' reads as the prespecified primary efficacy endpoint met with statistical significance.",
+    "The first Phase 3 trial to report its primary result resolves the event."
    ],
    "created_by": "registry-consolidation",
-   "created_at": "2026-09-13",
-   "version": "1.0.0",
-   "related_timeline": [
-    {
-     "id": "T-0013",
-     "date": "2022-12-08",
-     "entity": "Relmada Therapeutics (REL-1017)",
-     "event": "Relmada's esmethadone fails a second large phase 3 depression trial two months after the October 2022 RELIANCE III miss; shares fall further.",
-     "source_url": "https://www.biopharmadive.com/news/relmada-rel-1017-depression-trial-failure/638504/",
-     "source_org": "BioPharma Dive",
-     "key_number": "two phase 3 misses in ~2 months"
-    },
-    {
-     "id": "T-0022",
-     "date": "2023-03-20",
-     "entity": "Karuna Therapeutics (KarXT, EMERGENT-3)",
-     "event": "Karuna reports positive phase 3 EMERGENT-3, its third positive registrational KarXT trial; NDA planned for mid-2023.",
-     "source_url": "https://investors.karunatx.com/news-releases/news-release-details/karuna-therapeutics-announces-positive-results-phase-3-0/",
-     "source_org": "Karuna Therapeutics",
-     "key_number": "PANSS -8.4 points vs placebo at week 5; p<0.0001"
-    },
-    {
-     "id": "T-0031",
-     "date": "2023-07-21",
-     "entity": "Neurolief (Relivion DP, MOOD trial)",
-     "event": "Neurolief reports a positive interim analysis of its MOOD pivotal trial of at-home Relivion neuromodulation in major depression.",
-     "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOODdjRU5SdXdPd1JEM0xqdHpEWEYzMWVUVUFtS0w5MTBkNHRvZVdYc3FGTnR0dXRHeDREVEQ3bmNxWUNhVnFqMUZNRU9EXzd3bGdfYnJtZ0l5ZFVadHY3WGNHM0c5cHktQlpyNzN0QlFVRldQdFhKZWFuZE5OTjVtLWJiVTNDMThHZEFWbHdlSmN3WG4zT1VralVadmN2U3pRV1JtckZwZk5uTF9tMEY4NDVMY0pibnNZLW51dmF6RXZyci1pZnBz?oc=5",
-     "source_org": "NeuroNews International",
-     "key_number": "interim analysis positive (effect sizes not captured)"
-    },
-    {
-     "id": "T-0037",
-     "date": "2023-09-15",
-     "entity": "Neumora Therapeutics",
-     "event": "Neumora completes a $250M IPO to fund late-stage navacaprant depression trials.",
-     "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdHB4MVlGUlEwdzBIZGt2VXo2WEktM2h3M09wU0E1MWdqa0xxbWFwSkxEX3ZTa0JDS2tTTi1FS3RuY29Bd2dKY2FBSXNKZDE4dkhpRjY5ODNqYTc3eENDSmp1RWFfZzdVSFhIT0pxS1h6cXZQOGVPeEptMkZRc1RJRnBVcnNLem9HS1pyMFRhdFFQaW5NVXphMXhwS0RHVTJVZjByRzVDZDg3eFlNM2otSW1xaTh1TWRzYTNqM3dWdXBtb01UTDJZcElacGU?oc=5",
-     "source_org": "Renaissance Capital",
-     "key_number": "$250M IPO"
-    },
-    {
-     "id": "T-0048",
-     "date": "2023-12-22",
-     "entity": "Congress / President Biden",
-     "event": "FY2024 NDAA signed with Section 723: $10M and a DoD process for service members with PTSD or TBI to join trials of psilocybin, MDMA, ibogaine, 5-MeO-DMT and plant-based therapies.",
-     "source_url": "https://www.bradley.com/insights/publications/2024/01/defending-psychedelics-congress-includes-psychedelic-provisions-in-defense-authorization-act",
-     "source_org": "Bradley",
-     "key_number": "$10M; Sec. 723"
-    },
-    {
-     "id": "T-0060",
-     "date": "2024-03-26",
-     "entity": "ICER",
-     "event": "ICER draft evidence report finds evidence on MDMA-assisted psychotherapy for PTSD insufficient because of functional unblinding and trial-conduct concerns.",
-     "source_url": "https://icer.org/wp-content/uploads/2024/03/PTSD_Draft-Report_For-Publication_03262024.pdf",
-     "source_org": "ICER"
-    },
-    {
-     "id": "T-0064",
-     "date": "2024-05-30",
-     "entity": "Johnson & Johnson (seltorexant, MDD3001)",
-     "event": "J&J reports phase 3 MDD3001: adjunctive seltorexant met all primary and secondary endpoints in MDD with insomnia symptoms.",
-     "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbUNpSVFudUsyZzdENzJJWUFGNFdoeXM0NXFnbnB5SWU3dmEtRGpreUdxOWtQcGFQZHl1UENmM2FBZEtCUzN3U2JlYjBJeUVqTjlxdk1zV202cEZ5V3V6akthci13eUZQSzFBOG9MNVVlWjd2dHhPZTZQdEVHMVFQVFdJRUpXTmV1?oc=5",
-     "source_org": "Clinical Trials Arena",
-     "key_number": "primary MADRS endpoint met at day 43"
-    },
-    {
-     "id": "T-0070",
-     "date": "2024-08-09",
-     "entity": "FDA / Lykos Therapeutics",
-     "event": "FDA issues a complete response letter (dated August 8) for MDMA capsules for PTSD, requesting an additional Phase 3 trial and citing safety and data-integrity concerns.",
-     "source_url": "https://www.biospace.com/drug-development/FDA-Rejects-Lykos-MDMA-Assisted-PTSD-Therapy-After-Negative-Adcomm",
-     "source_org": "BioSpace"
-    },
-    {
-     "id": "T-0071",
-     "date": "2024-08-09",
-     "entity": "Lykos Therapeutics (midomafetamine)",
-     "event": "FDA issues a Complete Response Letter for MDMA-assisted therapy in PTSD and asks Lykos to run an additional phase 3 trial.",
-     "source_url": "https://www.ajmc.com/view/mdma-assisted-therapy-receives-a-complete-response-letter-from-the-fda",
-     "source_org": "AJMC",
-     "key_number": "additional phase 3 trial requested"
-    },
-    {
-     "id": "T-0080",
-     "date": "2024-10-22",
-     "entity": "Alto Neuroscience (ALTO-100)",
-     "event": "Alto's biomarker-selected phase 2b of ALTO-100 in MDD misses its primary MADRS endpoint; shares plunge about 70%.",
-     "source_url": "https://investors.altoneuroscience.com/news/news-details/2024/Alto-Neuroscience-Reports-Topline-Results-from-a-Phase-2b-Trial-Evaluating-ALTO-100-as-a-Treatment-for-Major-Depressive-Disorder/default.aspx",
-     "source_org": "Alto Neuroscience",
-     "key_number": "n=301; primary not met; shares ~-70%"
-    },
-    {
-     "id": "T-0084",
-     "date": "2024-11-11",
-     "entity": "AbbVie (emraclidine, EMPOWER-1/2)",
-     "event": "AbbVie's muscarinic agonist emraclidine, acquired via the $8.7B Cerevel deal, fails both phase 2 EMPOWER schizophrenia trials on PANSS.",
-     "source_url": "https://www.biopharmadive.com/news/abbvie-emraclidine-failure-schizophrenia-bristol-myers-cobenfy/732534/",
-     "source_org": "BioPharma Dive",
-     "key_number": "both phase 2 trials missed primary"
-    },
-    {
-     "id": "T-0088",
-     "date": "2024-12-03",
-     "entity": "Department of Veterans Affairs",
-     "event": "VA awards up to $1.5M over five years for its first VA-funded psychedelic study: MDMA-assisted therapy for PTSD and alcohol use disorder at Providence and West Haven VAs.",
-     "source_url": "https://www.militarytimes.com/veterans/2024/12/03/va-awards-15-million-to-study-using-psychedelics-for-ptsd-treatment/",
-     "source_org": "Military Times",
-     "key_number": "$1.5M"
-    }
-   ]
-  },
-  {
-   "id": "E-0061",
-   "template": "rule_or_policy",
-   "area": "regulatory",
-   "asset": "Lawful pathway to ibogaine treatment in the United States outside registered clinical trials (FDA or DEA action)",
-   "entity": "US Food and Drug Administration or US Drug Enforcement Administration",
-   "title": "FDA or DEA opens a legal pathway to ibogaine treatment in the United States",
-   "proposition": "The FDA or the DEA issues a final rule, guidance, order or program that permits patients in the United States to receive ibogaine treatment lawfully outside a registered clinical trial.",
-   "criterion": "TRUE on the publication date, in the Federal Register or on the FDA or DEA site, of a final rule, final guidance, order, scheduling action or operational program from the FDA or the DEA under which a patient in the United States may lawfully receive ibogaine treatment outside a registered clinical trial (for example a Right to Try pathway as directed by the 18 April 2026 executive order). A proposed rule, draft guidance, request for comment, statement of intent or the executive order itself is not the pathway. A state law or a foreign program does not count. FALSE at the deadline when no such final action has been published by then. Resolution source: the Federal Register (FDA and DEA documents), with FDA and DEA announcements as secondary sources.",
-   "resolution_source": {
-    "name": "Federal Register (FDA and DEA documents); FDA and DEA announcements as secondary sources",
-    "url": "https://www.federalregister.gov/"
-   },
-   "base_rate_class": null,
-   "market_ref_id": null,
-   "quantity": null,
-   "readings": [
-    "'open a legal pathway to ibogaine treatment in the United States' = a final FDA or DEA action that makes lawful ibogaine treatment available to US patients outside a registered clinical trial; either agency counts ('A or B' is one event).",
-    "The executive order directs FDA and DEA to build a Right to Try pathway for investigational psychedelics including ibogaine (the authors' own context); a pathway covering investigational psychedelics generally counts if ibogaine is included."
-   ],
-   "created_by": "registry-consolidation",
-   "created_at": "2026-09-13",
-   "version": "1.0.0",
-   "related_timeline": [
-    {
-     "id": "T-0002",
-     "date": "2021-10-29",
-     "entity": "Stanford (SNT/SAINT)",
-     "event": "American Journal of Psychiatry publishes double-blind sham-controlled RCT of Stanford Neuromodulation Therapy (5-day accelerated iTBS) in treatment-resistant depression.",
-     "source_url": "https://www.psychiatryonline.org/doi/10.1176/appi.ajp.2021.20101429",
-     "source_org": "American Journal of Psychiatry",
-     "key_number": "remission 78.6% active vs 13.3% sham; n=29"
-    },
-    {
-     "id": "T-0003",
-     "date": "2022-01-05",
-     "entity": "Health Canada",
-     "event": "Canada Gazette publishes SOR/2021-271, restoring Special Access Program requests for restricted drugs such as psilocybin and MDMA for patients with serious conditions.",
-     "source_url": "https://gazette.gc.ca/rp-pr/p2/2022/2022-01-05/html/sor-dors271-eng.html",
-     "source_org": "Canada Gazette",
-     "key_number": "SOR/2021-271"
-    },
-    {
-     "id": "T-0011",
-     "date": "2022-11-03",
-     "entity": "Compass Pathways (COMP360 phase 2b)",
-     "event": "NEJM publishes Compass phase 2b: a single 25 mg COMP360 psilocybin dose beat 1 mg control on MADRS at week 3 in 233 TRD patients.",
-     "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2206443",
-     "source_org": "NEJM",
-     "key_number": "-6.6 MADRS vs 1 mg at week 3; p<0.001"
-    },
-    {
-     "id": "T-0019",
-     "date": "2023-03-07",
-     "entity": "Sens. Booker and Paul; Reps. Mace and Dean",
-     "event": "Breakthrough Therapies Act reintroduced to let DEA move FDA breakthrough-designated Schedule I drugs such as MDMA and psilocybin to Schedule II; bill later dies in committee.",
-     "source_url": "https://mace.house.gov/media/press-releases/rep-mace-dean-sen-booker-paul-introduce-breakthrough-therapies-act-veterans",
-     "source_org": "Rep. Nancy Mace"
-    },
-    {
-     "id": "T-0021",
-     "date": "2023-03-16",
-     "entity": "Ketamine Wellness Centers (Delic Holdings)",
-     "event": "Ketamine Wellness Centers, a Delic Holdings subsidiary, abruptly shuts all of its ketamine clinics across nine states.",
-     "source_url": "https://www.statnews.com/2023/03/16/ketamine-clinics-network-shuts-down-depression-treatment/",
-     "source_org": "STAT",
-     "key_number": "clinics in 9 states closed"
-    },
-    {
-     "id": "T-0027",
-     "date": "2023-05-24",
-     "entity": "ELEKT-D (ketamine vs ECT)",
-     "event": "NEJM publishes ELEKT-D: subanesthetic IV ketamine was noninferior to ECT in 403 nonpsychotic treatment-resistant depression patients.",
-     "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2302399",
-     "source_org": "NEJM",
-     "key_number": "response 55.4% ketamine vs 41.2% ECT"
-    },
-    {
-     "id": "T-0028",
-     "date": "2023-06-26",
-     "entity": "FDA",
-     "event": "FDA issues draft guidance 'Psychedelic Drugs: Considerations for Clinical Investigations' (docket FDA-2023-D-1987); comments due August 25, 2023.",
-     "source_url": "https://www.federalregister.gov/documents/2023/06/26/2023-13428/psychedelic-drugs-considerations-for-clinical-investigations-draft-guidance-for-industry",
-     "source_org": "Federal Register",
-     "key_number": "FDA-2023-D-1987"
-    },
-    {
-     "id": "T-0029",
-     "date": "2023-07-01",
-     "entity": "TGA (Australia)",
-     "event": "Rescheduling takes effect: authorised psychiatrists may prescribe MDMA for PTSD and psilocybin for treatment-resistant depression in Australia.",
-     "source_url": "https://www.tga.gov.au/news/news-articles/update-mdma-and-psilocybin-access-and-safeguards-1-july-2023",
-     "source_org": "TGA"
-    },
-    {
-     "id": "T-0032",
-     "date": "2023-08-04",
-     "entity": "Sage Therapeutics / Biogen (zuranolone)",
-     "event": "FDA approves Zurzuvae (zuranolone) as the first oral treatment for postpartum depression and issues a CRL for the MDD indication, requiring more studies.",
-     "source_url": "https://investors.biogen.com/news-releases/news-release-details/fda-approves-zurzuvaetm-zuranolone-first-and-only-oral-treatment",
-     "source_org": "Biogen",
-     "key_number": "PPD approved; MDD CRL"
-    },
-    {
-     "id": "T-0033",
-     "date": "2023-08-16",
-     "entity": "Compass Pathways",
-     "event": "Compass Pathways raises $285M in a private placement to fund the COMP360 phase 3 program.",
-     "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQU0lMTFVJMDdhNDQ0Nng2elJJWFRTbm43VkZQdVc4Yl92aXJKLW5YaGtmUDg0SzlKV3Y3aDAwNU9pMmRSVHdYdFdfTVk2bWN0ZlgwOG0wY01ZaXJpOUFOVFFQWEh4Nk53Ykwxam1DaDBhVWwtMnRhLVNrdlIzc1kyWnhpMW1fNlgtYzlNeGZRekpheWJVdUF4bzkwQl9RdXdpd0pFaklmRW9rMWJFYUZtbm9YRlhXcDZaS081REIxQQ?oc=5",
-     "source_org": "Behavioral Health Business",
-     "key_number": "$285M"
-    },
-    {
-     "id": "T-0037",
-     "date": "2023-09-15",
-     "entity": "Neumora Therapeutics",
-     "event": "Neumora completes a $250M IPO to fund late-stage navacaprant depression trials.",
-     "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdHB4MVlGUlEwdzBIZGt2VXo2WEktM2h3M09wU0E1MWdqa0xxbWFwSkxEX3ZTa0JDS2tTTi1FS3RuY29Bd2dKY2FBSXNKZDE4dkhpRjY5ODNqYTc3eENDSmp1RWFfZzdVSFhIT0pxS1h6cXZQOGVPeEptMkZRc1RJRnBVcnNLem9HS1pyMFRhdFFQaW5NVXphMXhwS0RHVTJVZjByRzVDZDg3eFlNM2otSW1xaTh1TWRzYTNqM3dWdXBtb01UTDJZcElacGU?oc=5",
-     "source_org": "Renaissance Capital",
-     "key_number": "$250M IPO"
-    },
-    {
-     "id": "T-0044",
-     "date": "2023-11-30",
-     "entity": "Cybin (CYB003)",
-     "event": "Cybin reports positive phase 2 topline for deuterated psilocybin analog CYB003 in MDD with no treatment-related serious adverse events.",
-     "source_url": "https://www.businesswire.com/news/home/20231130470838/en/Cybin-Reports-Positive-Topline-Data-from-Phase-2-Study-of-CYB003-in-Major-Depressive-Disorder-with-79-of-Patients-in-Remission-after-Two-12mg-Doses",
-     "source_org": "Cybin",
-     "key_number": "79% remission at 6 weeks after two 12 mg doses"
-    }
-   ]
-  },
-  {
-   "id": "E-0062",
-   "template": "coverage_decision",
-   "area": "payer_policy",
-   "asset": "Accelerated TMS (multiple sessions per day, such as SAINT/SNT or SWIFT) for PTSD, bipolar disorder, OCD or ADHD",
-   "entity": "US health plans (Blue Cross Blue Shield plans and other commercial or public payers)",
-   "title": "A US health plan covers accelerated TMS for PTSD, bipolar disorder, OCD or ADHD",
-   "proposition": "A US health plan publishes a medical policy that covers accelerated TMS as medically necessary for at least one of PTSD, bipolar disorder, OCD or ADHD.",
-   "criterion": "TRUE on the effective date of a published medical policy, coverage bulletin or fee schedule from a US health plan (a Blue Cross Blue Shield plan or another commercial or public payer) that lists an accelerated TMS protocol (multiple sessions per day, such as SAINT/SNT or SWIFT) as medically necessary for at least one of post-traumatic stress disorder, bipolar disorder, obsessive-compulsive disorder or attention-deficit/hyperactivity disorder. Coverage of conventional once-daily TMS for these indications does not count, and coverage of accelerated TMS for depression alone does not count. FALSE at the deadline when no such policy has taken effect by then. Resolved on the payer's published policy bulletin.",
-   "resolution_source": {
-    "name": "US health plan medical policy bulletins (Blue Cross Blue Shield plan policy libraries and other payer policy sites)"
-   },
-   "base_rate_class": null,
-   "market_ref_id": null,
-   "quantity": null,
-   "readings": [
-    "'PTSD, bipolar, depression, OCD, and even ADHD might be next' is read as one event satisfied by a policy on any one of the listed indications ('A or B' is one event).",
-    "'depression' in the list is read as already covered by the first clause ('a nationwide standard of medical necessity is being set in the treatment of depression') and is excluded; the new indications are PTSD, bipolar disorder, OCD and ADHD.",
-    "'next' = a coverage policy published after the depression policies the forecaster describes; the payer set is US health plans, as in the forecaster's BCBS examples.",
-    "The list is read as 'at least one of' PTSD, bipolar disorder, OCD or ADHD; depression is excluded as already covered per the author.",
-    "The first clause, on a depression standard being set, is description, not a coded forecast."
-   ],
-   "created_by": "registry-consolidation",
-   "created_at": "2026-09-13",
-   "version": "1.0.0",
+   "created_at": "2026-09-14",
+   "version": "1.1.0",
    "related_timeline": [
     {
      "id": "T-0001",
@@ -712,21 +184,22 @@
      "key_number": "SOR/2021-271"
     },
     {
-     "id": "T-0005",
-     "date": "2022-02-16",
-     "entity": "FDA",
-     "event": "FDA alerts health care professionals to potential risks of compounded ketamine nasal spray products.",
-     "source_url": "https://www.fda.gov/drugs/human-drug-compounding/compounding-risk-alerts",
-     "source_org": "FDA"
+     "id": "T-0007",
+     "date": "2022-08-08",
+     "entity": "Karuna Therapeutics (KarXT, EMERGENT-2)",
+     "event": "Karuna reports positive phase 3 EMERGENT-2: KarXT beat placebo on PANSS total score at week 5 in acute schizophrenia.",
+     "source_url": "https://ir.zailaboratory.com/news-releases/news-release-details/zai-lab-partner-karuna-therapeutics-announces-positive-results",
+     "source_org": "Karuna / Zai Lab",
+     "key_number": "PANSS -9.6 points vs placebo; p<0.0001"
     },
     {
-     "id": "T-0010",
-     "date": "2022-09-06",
-     "entity": "Magnus Medical (SAINT)",
-     "event": "FDA grants 510(k) clearance to Magnus Medical's SAINT Neuromodulation System (MRI-guided accelerated TMS) for MDD in adults who failed prior antidepressants.",
-     "source_url": "https://www.businesswire.com/news/home/20220906005228/en/Magnus-Medical-Receives-FDA-Clearance-for-the-SAINT-Neuromodulation-System-for-Non-Invasive-Individualized-and-Precise-Treatment-of-Severe-Depression",
-     "source_org": "Magnus Medical",
-     "key_number": "~80% remission vs 13% control in pivotal data"
+     "id": "T-0011",
+     "date": "2022-11-03",
+     "entity": "Compass Pathways (COMP360 phase 2b)",
+     "event": "NEJM publishes Compass phase 2b: a single 25 mg COMP360 psilocybin dose beat 1 mg control on MADRS at week 3 in 233 TRD patients.",
+     "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2206443",
+     "source_org": "NEJM",
+     "key_number": "-6.6 MADRS vs 1 mg at week 3; p<0.001"
     },
     {
      "id": "T-0012",
@@ -738,12 +211,29 @@
      "key_number": "Proposition 122"
     },
     {
+     "id": "T-0013",
+     "date": "2022-12-08",
+     "entity": "Relmada Therapeutics (REL-1017)",
+     "event": "Relmada's esmethadone fails a second large phase 3 depression trial two months after the October 2022 RELIANCE III miss; shares fall further.",
+     "source_url": "https://www.biopharmadive.com/news/relmada-rel-1017-depression-trial-failure/638504/",
+     "source_org": "BioPharma Dive",
+     "key_number": "two phase 3 misses in ~2 months"
+    },
+    {
      "id": "T-0014",
      "date": "2022-12-27",
      "entity": "Oregon Health Authority",
      "event": "OHA adopts final administrative rules implementing Measure 109 psilocybin services; license applications open January 2, 2023.",
      "source_url": "https://ktvz.com/news/oregon-northwest/2022/12/27/oregon-health-authority-adopts-final-rules-to-implement-psilocybin-services-act/",
      "source_org": "KTVZ"
+    },
+    {
+     "id": "T-0015",
+     "date": "2023-01-02",
+     "entity": "Oregon Psilocybin Services",
+     "event": "Oregon Psilocybin Services begins accepting applications for manufacturer, service center, facilitator and laboratory licenses.",
+     "source_url": "https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx",
+     "source_org": "Oregon Health Authority"
     },
     {
      "id": "T-0016",
@@ -754,50 +244,33 @@
      "source_org": "TGA"
     },
     {
+     "id": "T-0018",
+     "date": "2023-03-06",
+     "entity": "atai Life Sciences",
+     "event": "atai lays off about 30% of staff and reviews its pipeline two months after the PCN-101 (R-ketamine) phase 2a miss.",
+     "source_url": "https://www.fiercebiotech.com/biotech/2-months-after-depression-fail-atai-lays-30-and-reviews-pipeline-again",
+     "source_org": "Fierce Biotech",
+     "key_number": "~30% of workforce"
+    },
+    {
      "id": "T-0019",
      "date": "2023-03-07",
      "entity": "Sens. Booker and Paul; Reps. Mace and Dean",
      "event": "Breakthrough Therapies Act reintroduced to let DEA move FDA breakthrough-designated Schedule I drugs such as MDMA and psilocybin to Schedule II; bill later dies in committee.",
      "source_url": "https://mace.house.gov/media/press-releases/rep-mace-dean-sen-booker-paul-introduce-breakthrough-therapies-act-veterans",
      "source_org": "Rep. Nancy Mace"
-    },
-    {
-     "id": "T-0021",
-     "date": "2023-03-16",
-     "entity": "Ketamine Wellness Centers (Delic Holdings)",
-     "event": "Ketamine Wellness Centers, a Delic Holdings subsidiary, abruptly shuts all of its ketamine clinics across nine states.",
-     "source_url": "https://www.statnews.com/2023/03/16/ketamine-clinics-network-shuts-down-depression-treatment/",
-     "source_org": "STAT",
-     "key_number": "clinics in 9 states closed"
-    },
-    {
-     "id": "T-0023",
-     "date": "2023-03-22",
-     "entity": "Field Trip Health & Wellness",
-     "event": "Field Trip Health & Wellness obtains CCAA creditor protection from the Ontario Superior Court; PwC named monitor and a sale process starts.",
-     "source_url": "https://financialpost.com/globe-newswire/field-trip-health-wellness-obtains-ccaa-protection",
-     "source_org": "GlobeNewswire via Financial Post",
-     "key_number": "TSX-V: FTHW; 4 remaining clinics"
-    },
-    {
-     "id": "T-0024",
-     "date": "2023-05-05",
-     "entity": "Oregon Psilocybin Services",
-     "event": "Oregon issues its first psilocybin service center license (EPIC Healing Eugene); first client sessions follow in June 2023.",
-     "source_url": "https://maps.org/news/bulletin/oregons-journey-the-implementation-of-ballot-measure-109-the-oregon-psilocybin-services-act/",
-     "source_org": "MAPS"
     }
    ]
   },
   {
-   "id": "E-0063",
+   "id": "E-0128",
    "template": "device_authorization",
    "area": "regulatory",
-   "asset": "Transcranial magnetic stimulation (TMS, including iTBS) device for attention-deficit/hyperactivity disorder (ADHD)",
+   "asset": "Transcranial magnetic stimulation (TMS) devices, any manufacturer: authorization for a psychotic disorder indication (including auditory hallucinations)",
    "entity": "US Food and Drug Administration (CDRH)",
-   "title": "FDA authorizes a TMS device for ADHD",
-   "proposition": "The FDA grants a marketing authorization (510(k) clearance, De Novo grant or PMA approval) for a transcranial magnetic stimulation device whose indications for use include ADHD.",
-   "criterion": "TRUE on the decision date in the FDA 510(k), De Novo or PMA database of a marketing authorization for a transcranial magnetic stimulation device, from any sponsor, whose indications for use name attention-deficit/hyperactivity disorder (adult or pediatric). Any setting of use (clinic or home) counts, as the claim names none. A breakthrough device designation, an investigational device exemption, a trial result or a publication is not an authorization. Off-label use and clinical guidelines do not count. FALSE at the deadline when no such authorization decision is dated in the FDA databases by then. Resolution source: the FDA 510(k), De Novo and PMA databases.",
+   "title": "FDA authorizes a TMS device for psychosis",
+   "proposition": "The FDA authorizes a transcranial magnetic stimulation device for a psychotic disorder indication, including auditory hallucinations.",
+   "criterion": "TRUE on the decision date, in the FDA 510(k), De Novo or PMA database, of a marketing authorization dated after 2026-03-23 for a transcranial magnetic stimulation device whose indications-for-use statement names a psychotic disorder or a symptom of psychosis (for example schizophrenia, schizoaffective disorder, auditory hallucinations or auditory verbal hallucinations). A breakthrough device designation, a published trial, a professional-society guideline and off-label clinical use are not an authorization. Resolution source: the FDA device databases (510(k), De Novo, PMA). FALSE at the deadline when no such authorization is listed.",
    "resolution_source": {
     "name": "FDA 510(k), De Novo and PMA databases",
     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm"
@@ -806,22 +279,13 @@
    "market_ref_id": null,
    "quantity": null,
    "readings": [
-    "'an FDA label from somebody' = a marketing authorization for any sponsor's TMS device with ADHD in the indications for use; the forecaster names no company.",
-    "'it' in 'it's coming' = the FDA label for TMS in ADHD, per the surrounding sentences on the pediatric ADHD iTBS trials; a pediatric-only or an adult-only ADHD indication both count."
+    "'that's gonna include psychosis' reads as a TMS device authorized for a psychotic disorder indication; auditory hallucinations count as a psychotic symptom.",
+    "'and other conditions' names no countable set, so only the psychosis indication is coded."
    ],
    "created_by": "registry-consolidation",
-   "created_at": "2026-09-13",
-   "version": "1.0.0",
+   "created_at": "2026-09-14",
+   "version": "1.1.0",
    "related_timeline": [
-    {
-     "id": "T-0002",
-     "date": "2021-10-29",
-     "entity": "Stanford (SNT/SAINT)",
-     "event": "American Journal of Psychiatry publishes double-blind sham-controlled RCT of Stanford Neuromodulation Therapy (5-day accelerated iTBS) in treatment-resistant depression.",
-     "source_url": "https://www.psychiatryonline.org/doi/10.1176/appi.ajp.2021.20101429",
-     "source_org": "American Journal of Psychiatry",
-     "key_number": "remission 78.6% active vs 13.3% sham; n=29"
-    },
     {
      "id": "T-0003",
      "date": "2022-01-05",
@@ -830,6 +294,14 @@
      "source_url": "https://gazette.gc.ca/rp-pr/p2/2022/2022-01-05/html/sor-dors271-eng.html",
      "source_org": "Canada Gazette",
      "key_number": "SOR/2021-271"
+    },
+    {
+     "id": "T-0015",
+     "date": "2023-01-02",
+     "entity": "Oregon Psilocybin Services",
+     "event": "Oregon Psilocybin Services begins accepting applications for manufacturer, service center, facilitator and laboratory licenses.",
+     "source_url": "https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx",
+     "source_org": "Oregon Health Authority"
     },
     {
      "id": "T-0017",
@@ -848,6 +320,15 @@
      "source_org": "Rep. Nancy Mace"
     },
     {
+     "id": "T-0027",
+     "date": "2023-05-24",
+     "entity": "ELEKT-D (ketamine vs ECT)",
+     "event": "NEJM publishes ELEKT-D: subanesthetic IV ketamine was noninferior to ECT in 403 nonpsychotic treatment-resistant depression patients.",
+     "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2302399",
+     "source_org": "NEJM",
+     "key_number": "response 55.4% ketamine vs 41.2% ECT"
+    },
+    {
      "id": "T-0028",
      "date": "2023-06-26",
      "entity": "FDA",
@@ -855,6 +336,15 @@
      "source_url": "https://www.federalregister.gov/documents/2023/06/26/2023-13428/psychedelic-drugs-considerations-for-clinical-investigations-draft-guidance-for-industry",
      "source_org": "Federal Register",
      "key_number": "FDA-2023-D-1987"
+    },
+    {
+     "id": "T-0032",
+     "date": "2023-08-04",
+     "entity": "Sage Therapeutics / Biogen (zuranolone)",
+     "event": "FDA approves Zurzuvae (zuranolone) as the first oral treatment for postpartum depression and issues a CRL for the MDD indication, requiring more studies.",
+     "source_url": "https://investors.biogen.com/news-releases/news-release-details/fda-approves-zurzuvaetm-zuranolone-first-and-only-oral-treatment",
+     "source_org": "Biogen",
+     "key_number": "PPD approved; MDD CRL"
     },
     {
      "id": "T-0041",
@@ -897,154 +387,6 @@
      "source_url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-meeting-time-and-public-participation-information-june-4-2024-meeting-psychopharmacologic",
      "source_org": "FDA",
      "key_number": "2-9 efficacy; 1-10 benefit-risk"
-    },
-    {
-     "id": "T-0088",
-     "date": "2024-12-03",
-     "entity": "Department of Veterans Affairs",
-     "event": "VA awards up to $1.5M over five years for its first VA-funded psychedelic study: MDMA-assisted therapy for PTSD and alcohol use disorder at Providence and West Haven VAs.",
-     "source_url": "https://www.militarytimes.com/veterans/2024/12/03/va-awards-15-million-to-study-using-psychedelics-for-ptsd-treatment/",
-     "source_org": "Military Times",
-     "key_number": "$1.5M"
-    },
-    {
-     "id": "T-0089",
-     "date": "2024-12-03",
-     "entity": "US Department of Veterans Affairs",
-     "event": "VA announces funding for its first study of MDMA-assisted therapy in decades, for veterans with PTSD and alcohol use disorder.",
-     "source_url": "https://news.va.gov/press-room/va-funds-first-study-on-psychedelic-assisted-therapy-for-veterans/",
-     "source_org": "US Department of Veterans Affairs",
-     "key_number": "$1.5M"
-    }
-   ]
-  },
-  {
-   "id": "E-0064",
-   "template": "coverage_decision",
-   "area": "payer_policy",
-   "asset": "Accelerated TMS (multiple sessions per day, such as SAINT/SNT or SWIFT): coverage by an additional US health plan",
-   "entity": "US health plans beyond Premera, Highmark, CareFirst and the BCBS plans of California, South Carolina, Texas and Vermont",
-   "title": "An additional US health plan covers accelerated TMS",
-   "proposition": "A US health plan other than Premera, Highmark, CareFirst and the Blue Cross Blue Shield plans of California, South Carolina, Texas and Vermont publishes a medical policy that covers accelerated TMS.",
-   "criterion": "TRUE on the effective date of a published medical policy, coverage bulletin or fee schedule from a US health plan that is not one of the seven plans the forecaster listed on 16 May 2026 (Premera, Highmark, CareFirst, and the Blue Cross Blue Shield plans of California, South Carolina, Texas and Vermont) and that lists an accelerated TMS protocol (multiple sessions per day, such as SAINT/SNT or SWIFT) as medically necessary for any indication. A policy update or expansion by one of the seven listed plans does not count; coverage of conventional once-daily TMS does not count. FALSE at the deadline when no such policy has taken effect by then. Resolved on the payer's published policy bulletin.",
-   "resolution_source": {
-    "name": "US health plan medical policy bulletins (Blue Cross Blue Shield plan policy libraries and other payer policy sites)"
-   },
-   "base_rate_class": null,
-   "market_ref_id": null,
-   "quantity": null,
-   "readings": [
-    "'more to come' = at least one additional US health plan beyond the seven the forecaster named; the countable set is US health plans with a published accelerated TMS coverage policy.",
-    "'Premara' is read as Premera Blue Cross; 'California, South Carolina, Texas, Vermont' are read as the Blue Cross Blue Shield plans in those states, per the post context.",
-    "The forecaster names no indication, so a policy for any indication counts."
-   ],
-   "created_by": "registry-consolidation",
-   "created_at": "2026-09-13",
-   "version": "1.0.0",
-   "related_timeline": [
-    {
-     "id": "T-0002",
-     "date": "2021-10-29",
-     "entity": "Stanford (SNT/SAINT)",
-     "event": "American Journal of Psychiatry publishes double-blind sham-controlled RCT of Stanford Neuromodulation Therapy (5-day accelerated iTBS) in treatment-resistant depression.",
-     "source_url": "https://www.psychiatryonline.org/doi/10.1176/appi.ajp.2021.20101429",
-     "source_org": "American Journal of Psychiatry",
-     "key_number": "remission 78.6% active vs 13.3% sham; n=29"
-    },
-    {
-     "id": "T-0003",
-     "date": "2022-01-05",
-     "entity": "Health Canada",
-     "event": "Canada Gazette publishes SOR/2021-271, restoring Special Access Program requests for restricted drugs such as psilocybin and MDMA for patients with serious conditions.",
-     "source_url": "https://gazette.gc.ca/rp-pr/p2/2022/2022-01-05/html/sor-dors271-eng.html",
-     "source_org": "Canada Gazette",
-     "key_number": "SOR/2021-271"
-    },
-    {
-     "id": "T-0005",
-     "date": "2022-02-16",
-     "entity": "FDA",
-     "event": "FDA alerts health care professionals to potential risks of compounded ketamine nasal spray products.",
-     "source_url": "https://www.fda.gov/drugs/human-drug-compounding/compounding-risk-alerts",
-     "source_org": "FDA"
-    },
-    {
-     "id": "T-0010",
-     "date": "2022-09-06",
-     "entity": "Magnus Medical (SAINT)",
-     "event": "FDA grants 510(k) clearance to Magnus Medical's SAINT Neuromodulation System (MRI-guided accelerated TMS) for MDD in adults who failed prior antidepressants.",
-     "source_url": "https://www.businesswire.com/news/home/20220906005228/en/Magnus-Medical-Receives-FDA-Clearance-for-the-SAINT-Neuromodulation-System-for-Non-Invasive-Individualized-and-Precise-Treatment-of-Severe-Depression",
-     "source_org": "Magnus Medical",
-     "key_number": "~80% remission vs 13% control in pivotal data"
-    },
-    {
-     "id": "T-0012",
-     "date": "2022-11-08",
-     "entity": "Colorado voters",
-     "event": "Colorado voters approve Proposition 122 (Natural Medicine Health Act), decriminalizing five plant psychedelics and authorizing regulated psilocybin healing centers.",
-     "source_url": "https://en.wikipedia.org/wiki/Psilocybin_decriminalization_in_the_United_States",
-     "source_org": "Wikipedia",
-     "key_number": "Proposition 122"
-    },
-    {
-     "id": "T-0014",
-     "date": "2022-12-27",
-     "entity": "Oregon Health Authority",
-     "event": "OHA adopts final administrative rules implementing Measure 109 psilocybin services; license applications open January 2, 2023.",
-     "source_url": "https://ktvz.com/news/oregon-northwest/2022/12/27/oregon-health-authority-adopts-final-rules-to-implement-psilocybin-services-act/",
-     "source_org": "KTVZ"
-    },
-    {
-     "id": "T-0019",
-     "date": "2023-03-07",
-     "entity": "Sens. Booker and Paul; Reps. Mace and Dean",
-     "event": "Breakthrough Therapies Act reintroduced to let DEA move FDA breakthrough-designated Schedule I drugs such as MDMA and psilocybin to Schedule II; bill later dies in committee.",
-     "source_url": "https://mace.house.gov/media/press-releases/rep-mace-dean-sen-booker-paul-introduce-breakthrough-therapies-act-veterans",
-     "source_org": "Rep. Nancy Mace"
-    },
-    {
-     "id": "T-0022",
-     "date": "2023-03-20",
-     "entity": "Karuna Therapeutics (KarXT, EMERGENT-3)",
-     "event": "Karuna reports positive phase 3 EMERGENT-3, its third positive registrational KarXT trial; NDA planned for mid-2023.",
-     "source_url": "https://investors.karunatx.com/news-releases/news-release-details/karuna-therapeutics-announces-positive-results-phase-3-0/",
-     "source_org": "Karuna Therapeutics",
-     "key_number": "PANSS -8.4 points vs placebo at week 5; p<0.0001"
-    },
-    {
-     "id": "T-0023",
-     "date": "2023-03-22",
-     "entity": "Field Trip Health & Wellness",
-     "event": "Field Trip Health & Wellness obtains CCAA creditor protection from the Ontario Superior Court; PwC named monitor and a sale process starts.",
-     "source_url": "https://financialpost.com/globe-newswire/field-trip-health-wellness-obtains-ccaa-protection",
-     "source_org": "GlobeNewswire via Financial Post",
-     "key_number": "TSX-V: FTHW; 4 remaining clinics"
-    },
-    {
-     "id": "T-0024",
-     "date": "2023-05-05",
-     "entity": "Oregon Psilocybin Services",
-     "event": "Oregon issues its first psilocybin service center license (EPIC Healing Eugene); first client sessions follow in June 2023.",
-     "source_url": "https://maps.org/news/bulletin/oregons-journey-the-implementation-of-ballot-measure-109-the-oregon-psilocybin-services-act/",
-     "source_org": "MAPS"
-    },
-    {
-     "id": "T-0030",
-     "date": "2023-07-05",
-     "entity": "Wesana Health",
-     "event": "Wesana Health closes the sale of its SANA-013 assets, completing its exit from the psychedelics business.",
-     "source_url": "https://www.globenewswire.com/news-release/2023/07/05/2699429/0/en/Wesana-Health-Announces-Closing-of-Previously-Announced-SANA-013-Asset-Sale.html",
-     "source_org": "GlobeNewswire",
-     "key_number": "psychedelics unit discontinued in 2023"
-    },
-    {
-     "id": "T-0039",
-     "date": "2023-10-07",
-     "entity": "California Governor Newsom",
-     "event": "Newsom vetoes SB 58, which would have decriminalized psilocybin and other plant psychedelics, citing the need for dosing and patient-protection guidelines first.",
-     "source_url": "https://en.wikipedia.org/wiki/Psilocybin_decriminalization_in_the_United_States",
-     "source_org": "Wikipedia",
-     "key_number": "SB 58"
     }
    ]
   }

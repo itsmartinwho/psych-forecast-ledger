@@ -1,0 +1,41 @@
+{
+ "rechecker": "X2",
+ "run": "recheck-2-2026-09-14",
+ "rechecks": [
+  {
+   "event_id": "E-0054",
+   "challenged": "date",
+   "argument": "Argued the second qualifying case is not 2026-06-18. Checked whether either docket fails the criterion and whether an earlier second case exists. Both dockets hold. E.D. Pa.: DiRenzo, Matozzo and PA Norris were indicted for conspiracy to unlawfully distribute Schedule II drugs through a voicemail refill line, a clinic prescriber and its principals, announced 2026-06-23 in the national takedown. S.D. Tex.: Crowder, Durham and pharmacist Onuaguluchi were indicted over two Houston pill-mill clinics and a Conroe pharmacy, 3.4 million pills; distinct docket, different companies. Neither is a Done Global superseding indictment. I found no dated earlier 2026 filing that moves the second-case date back; searches returned 2024-2025 cases, pleas and convictions in existing dockets. Residual risk: the sweep is not exhaustive, and the statement date is not shown, so 'filed after the statement date' stays unverified.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0057",
+   "challenged": "date",
+   "argument": "Argued the date is wrong or the trial does not qualify. Three attacks failed. (1) Device: the PMC full text names the Monarch TNS System (NeuroSigma), the cleared device. (2) Size and design: ATTENS randomized 150 (75/75) against 62 in McGough 2019 (NCT02155608), the trial behind the April 2019 FDA clearance, and is described as a confirmatory replication, so it meets 'larger' and 'designed to test'. (3) Date: the window edge is tight, because the criterion needs a date after 2026-01-15 and the paper is Epub 2026-01-16. The Nature Medicine DOI carries a 2025 stem (s41591-025-04075-x), so I checked for an earlier online date; PubMed, PMC and Nature all give 16 January 2026, print Feb 2026;32(2):582-590. Nothing qualifying falls in the one-day gap, and UCLA NCT05374187 (n=218) has posted no results. The null primary result does not matter, because any direction counts.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0059",
+   "challenged": "date",
+   "argument": "Attacked the date. The gap the resolver left open breaks it. Nasdaq added Atai Beckley N.V. (ATAI) to the Nasdaq Biotechnology Index in the December 2025 annual reconstitution, effective before the open on 2025-12-22; the company confirmed this on 2025-12-23, and a peer addition release dated 2025-12-16 shows Nasdaq had announced the reconstitution by then. The NBI is a named qualifying index, so the first qualifying announcement is Nasdaq's December 2025 notice, about five months before the Russell 3000 preliminary list of 2026-05-22. The Russell facts themselves stand: ATAI is on the 2026-05-22 preliminary list and the final list, effective 2026-06-29. Which date is first-true turns on the statement date, which I cannot see. If the statement predates the December 2025 announcement, the date moves to that notice; if it postdates it, ATAI was already an NBI constituent, NBI is excluded and 2026-05-22 stands.",
+   "verdict": "escalated",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0062",
+   "challenged": "date",
+   "argument": "Attacked the 2023-02-03 date. The Premera policy history in the 2026-08-01 PDF does support it: the 11/01/22 entry says changes effective Feb. 3, 2023 made standard and deep TMS medically necessary for OCD and added criteria for accelerated intensive TMS. But the 2023 text gated accelerated TMS on hardship. The 05/01/23 entry adds hardship examples, and the 01/01/26 entry (approved 2025-12-09) says coverage was expanded 'by removing the hardship requirement'. So in 2023 Premera allowed a compressed schedule for a conventional course, not an accelerated protocol; SNT/SAINT was, and still is, investigational, and SWIFT was named medically necessary only on 2026-08-01. BrainsWay's 2026-01-07 release calls the January 2026 Premera policy the first coverage policy for accelerated deep TMS, which contradicts a 2023 first-true date. Candidate alternative: 2026-01-01. The sources conflict on what counts as a protocol.",
+   "verdict": "escalated",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0064",
+   "challenged": "criterion",
+   "argument": "Attacked the criterion and the 2024-07-01 date. The IBX facts hold: the provider notice revises 07.03.22f and MA07.035e to make accelerated theta burst stimulation (SAINT, 10 daily sessions over five days) medically necessary, retroactively effective 2024-07-01, with the final policy issued 2024-12-02. Two problems. First, 2024-07-01 is a retroactive effective date; no policy was published on that day, and the notice carries no publication date in the evidence, so 'the effective date of a published medical policy' is strained. Second, and larger, the criterion resolves TRUE almost two years before the 2026-05-16 statement it scores. The forecaster said 'more to come' after listing seven plans; a policy already in force in 2024 shows the list was incomplete, not that the forecast came true. The resolver also concedes that earlier policies from other plans were not ruled out, so 2024-07-01 is not established as first-true.",
+   "verdict": "escalated",
+   "corrected": null
+  }
+ ]
+}

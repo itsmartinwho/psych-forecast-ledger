@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "saint-us-payer-coverage",
+    "title": "A US payer pays for SAINT neuromodulation",
+    "template": "coverage_decision",
+    "area": "payer_policy",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": ["B:new:saint-payer-coverage"],
+    "inverted_refs": [],
+    "proposition": "A US health plan or Medicare adopts a coverage policy or payment rate that pays for treatment with the SAINT neuromodulation system.",
+    "statement_ids": ["owen-2436"],
+    "first_date": "2022-09-07"
+  },
+  {
+    "slug": "hhs-doj-hipaa-enforcement-betterhelp",
+    "title": "HIPAA enforcement action over the BetterHelp data disclosures",
+    "template": "court_outcome",
+    "area": "regulatory",
+    "gate": "OUT_OF_AREA",
+    "gate_reason": "A HIPAA enforcement action over BetterHelp's disclosure of user health information is a data-privacy matter, not a decision about a psychiatric drug, device or treatment or its payment.",
+    "refs": ["A:new:hipaa-enforcement-betterhelp", "B:new:hipaa-enforcement-betterhelp"],
+    "inverted_refs": [],
+    "proposition": "HHS or the DOJ brings a HIPAA enforcement action against BetterHelp or Teladoc Health over the data sharing described in the FTC complaint.",
+    "statement_ids": ["owen-0344"],
+    "first_date": "2023-03-12"
+  },
+  {
+    "slug": "psilocybin-prescriptions-exceed-classic-antidepressants",
+    "title": "Psilocybin prescriptions exceed classic antidepressant prescriptions",
+    "template": "quantity_threshold",
+    "area": "practice_adoption",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": ["B:new:psilocybin-prescriptions-exceed-classic-antidepressants"],
+    "inverted_refs": [],
+    "proposition": "Annual prescription volume of approved psilocybin drug products is at or above the annual prescription volume of classic antidepressants, per a named prescription-volume series.",
+    "statement_ids": ["angermayer-0064"],
+    "first_date": "2024-02-23"
+  },
+  {
+    "slug": "comp360-phase3-trd-primary-endpoint-met",
+    "title": "A COMP360 (psilocybin) Phase 3 trial in treatment-resistant depression meets its primary endpoint",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": ["A:new:comp360-phase3-primary-endpoint", "B:new:comp360-phase3-trd-primary-endpoint-met"],
+    "inverted_refs": [],
+    "proposition": "A Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression reports its prespecified primary efficacy endpoint met with statistical significance.",
+    "statement_ids": ["angermayer-0175"],
+    "first_date": "2024-05-08"
+  },
+  {
+    "slug": "comp360-first-phase3-topline-readout",
+    "title": "Compass Pathways reports its first COMP360 Phase 3 topline readout",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": ["A:new:comp360-phase3-first-readout", "B:new:comp360-phase3-first-topline-readout"],
+    "inverted_refs": [],
+    "proposition": "Compass Pathways reports the topline primary-endpoint result, in either direction, of the first Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression.",
+    "statement_ids": ["angermayer-0177"],
+    "first_date": "2024-05-08"
+  },
+  {
+    "slug": "atai-psychedelic-phase3-primary-endpoint-met",
+    "title": "An atai psychedelic programme reports a Phase 3 trial that meets its primary endpoint",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": ["B:new:atai-psychedelic-phase3-data-produced", "C:new:atai-psychedelic-phase3-primary-endpoint-met"],
+    "inverted_refs": [],
+    "proposition": "A Phase 3 trial of a psychedelic therapeutic developed, owned or partnered by atai Life Sciences reports its prespecified primary endpoint met.",
+    "statement_ids": ["angermayer-0176"],
+    "first_date": "2024-05-08"
+  },
+  {
+    "slug": "fda-tms-authorization-psychosis",
+    "title": "FDA authorizes a TMS device for psychosis",
+    "template": "device_authorization",
+    "area": "regulatory",
+    "gate": "in",
+    "gate_reason": null,
+    "refs": ["A:new:tms-psychosis-authorization", "B:new:fda-tms-psychosis-authorization"],
+    "inverted_refs": [],
+    "proposition": "The FDA authorizes a transcranial magnetic stimulation device for a psychotic disorder indication, including auditory hallucinations.",
+    "statement_ids": ["owen-2470"],
+    "first_date": "2026-03-23"
+  }
+]
