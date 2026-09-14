@@ -259,27 +259,27 @@
       ],
       "sensitivity": {
         "baseline": {
-          "brier": 0.48999999999999994,
+          "brier": null,
           "n_clusters": 1,
           "note": "Headline as published: dated items, lexicon v1.0.0"
         },
         "map_ends85": {
-          "brier": 0.48999999999999994,
+          "brier": null,
           "n_clusters": 1,
           "note": "Lexicon replaced by the ends85 map (0.85 / 0.7 / 0.5 / 0.3 / 0.15)"
         },
         "map_flat75": {
-          "brier": 0.5625,
+          "brier": null,
           "n_clusters": 1,
           "note": "Lexicon replaced by the flat75 map (0.75 / 0.75 / 0.5 / 0.25 / 0.25)"
         },
         "map_kent": {
-          "brier": 0.5625,
+          "brier": null,
           "n_clusters": 1,
           "note": "Lexicon replaced by the kent map (0.93 / 0.75 / 0.5 / 0.25 / 0.07)"
         },
         "non_affiliated": {
-          "brier": 0.48999999999999994,
+          "brier": null,
           "n_clusters": 1,
           "note": "Affiliated items removed"
         },
@@ -289,12 +289,12 @@
           "note": "Items frozen before their outcome was public"
         },
         "undated_36": {
-          "brier": 0.81,
+          "brier": null,
           "n_clusters": 1,
           "note": "Undated panel at 36 months"
         },
         "undated_pooled": {
-          "brier": 0.65,
+          "brier": null,
           "n_clusters": 1,
           "note": "Undated panel (24 months) pooled into the headline"
         }
@@ -594,22 +594,22 @@
       ],
       "sensitivity": {
         "baseline": {
-          "brier": 0.35088799799808806,
+          "brier": null,
           "n_clusters": 2,
           "note": "Headline as published: dated items, lexicon v1.0.0"
         },
         "map_ends85": {
-          "brier": 0.3476579930690375,
+          "brier": null,
           "n_clusters": 2,
           "note": "Lexicon replaced by the ends85 map (0.85 / 0.7 / 0.5 / 0.3 / 0.15)"
         },
         "map_flat75": {
-          "brier": 0.36548762508252236,
+          "brier": null,
           "n_clusters": 2,
           "note": "Lexicon replaced by the flat75 map (0.75 / 0.75 / 0.5 / 0.25 / 0.25)"
         },
         "map_kent": {
-          "brier": 0.3770563891784324,
+          "brier": null,
           "n_clusters": 2,
           "note": "Lexicon replaced by the kent map (0.93 / 0.75 / 0.5 / 0.25 / 0.07)"
         },
@@ -629,7 +629,7 @@
           "note": "Undated panel at 36 months"
         },
         "undated_pooled": {
-          "brier": 0.35088799799808806,
+          "brier": null,
           "n_clusters": 2,
           "note": "Undated panel (24 months) pooled into the headline"
         }
@@ -902,27 +902,27 @@
       ],
       "sensitivity": {
         "baseline": {
-          "brier": 0.4135502958579882,
+          "brier": null,
           "n_clusters": 2,
           "note": "Headline as published: dated items, lexicon v1.0.0"
         },
         "map_ends85": {
-          "brier": 0.37622781065088756,
+          "brier": null,
           "n_clusters": 2,
           "note": "Lexicon replaced by the ends85 map (0.85 / 0.7 / 0.5 / 0.3 / 0.15)"
         },
         "map_flat75": {
-          "brier": 0.3125,
+          "brier": null,
           "n_clusters": 2,
           "note": "Lexicon replaced by the flat75 map (0.75 / 0.75 / 0.5 / 0.25 / 0.25)"
         },
         "map_kent": {
-          "brier": 0.43722189349112434,
+          "brier": null,
           "n_clusters": 2,
           "note": "Lexicon replaced by the kent map (0.93 / 0.75 / 0.5 / 0.25 / 0.07)"
         },
         "non_affiliated": {
-          "brier": 0.4135502958579882,
+          "brier": null,
           "n_clusters": 2,
           "note": "Affiliated items removed"
         },
@@ -932,7 +932,7 @@
           "note": "Items frozen before their outcome was public"
         },
         "undated_36": {
-          "brier": 0.074,
+          "brier": null,
           "n_clusters": 5,
           "note": "Undated panel at 36 months"
         },

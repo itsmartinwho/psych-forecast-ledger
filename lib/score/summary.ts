@@ -117,15 +117,17 @@ export interface SensitivityInputs {
 
 export function sensitivity(inp: SensitivityInputs, th: Thresholds): ForecasterScores["sensitivity"] {
   const out: ForecasterScores["sensitivity"] = {};
-  const base = pointBrier(inp.headline);
+  // every variant reports null below the headline cluster minimum, as the methodology page states
+  const gate = <T extends { brier: number | null; n_clusters: number }>(r: T): T => ({ ...r, brier: r.n_clusters >= th.min_clusters_headline ? r.brier : null });
+  const base = gate(pointBrier(inp.headline));
   out.baseline = { ...base, note: "Headline as published: dated items, lexicon v" + inp.lexicon.version };
   for (const [name, map] of Object.entries(inp.lexicon.sensitivity_maps)) {
     const items = inp.recompute({ map: map as BinMap, useMapForP: true, panel: "headline" });
-    out[`map_${name}`] = { ...pointBrier(items), note: `Lexicon replaced by the ${name} map (${(["A", "B", "C", "D", "E"] as Bin[]).map((b) => (map as BinMap)[b]).join(" / ")})` };
+    out[`map_${name}`] = { ...gate(pointBrier(items)), note: `Lexicon replaced by the ${name} map (${(["A", "B", "C", "D", "E"] as Bin[]).map((b) => (map as BinMap)[b]).join(" / ")})` };
   }
-  out.non_affiliated = { ...pointBrier(inp.headline.filter((i) => !i.affiliated)), note: "Affiliated items removed" };
-  out.prospective_only = { ...pointBrier(inp.headline.filter((i) => i.tags.includes("prospective"))), note: "Items frozen before their outcome was public" };
-  out.undated_pooled = { ...pointBrier([...inp.headline, ...inp.undated]), note: `Undated panel (${th.undated_window_months} months) pooled into the headline` };
-  out.undated_36 = { ...pointBrier(inp.recompute({ undatedMonths: th.undated_sensitivity_months, panel: "undated" })), note: `Undated panel at ${th.undated_sensitivity_months} months` };
+  out.non_affiliated = { ...gate(pointBrier(inp.headline.filter((i) => !i.affiliated))), note: "Affiliated items removed" };
+  out.prospective_only = { ...gate(pointBrier(inp.headline.filter((i) => i.tags.includes("prospective")))), note: "Items frozen before their outcome was public" };
+  out.undated_pooled = { ...gate(pointBrier([...inp.headline, ...inp.undated])), note: `Undated panel (${th.undated_window_months} months) pooled into the headline` };
+  out.undated_36 = { ...gate(pointBrier(inp.recompute({ undatedMonths: th.undated_sensitivity_months, panel: "undated" }))), note: `Undated panel at ${th.undated_sensitivity_months} months` };
   return out;
 }
