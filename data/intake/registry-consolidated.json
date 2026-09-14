@@ -165,7 +165,8 @@
    "market_ref_id": null,
    "quantity": null,
    "readings": [
-    "'the fundamental rules around DEA licensure' read as the per-state physical-office registration requirement the post describes"
+    "'the fundamental rules around DEA licensure' read as the per-state physical-office registration requirement the post describes",
+    "'Not going to go down without a drawn out fight' is read as no removal within the undated 24-month window."
    ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
@@ -448,7 +449,9 @@
    "readings": [
     "'indications' = FDA-authorized indications for use of TMS devices. The forecaster lists the four conditions he treats as current; they are the FDA-cleared psychiatric and addiction indications at the statement date.",
     "'more indications' = at least one disease or condition new to TMS as a device class; one authorization for one new condition suffices. Any TMS manufacturer counts, since the forecaster names none.",
-    "A population expansion or a protocol change within an already authorized condition is not a new indication; a listed condition under another name (MDD for TRD) is not new."
+    "A population expansion or a protocol change within an already authorized condition is not a new indication; a listed condition under another name (MDD for TRD) is not new.",
+    "TRD counts as MDD.",
+    "The forecaster counts anxious depression as its own indication, so a new patient population for a listed disorder counts as a new indication."
    ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
@@ -565,7 +568,8 @@
    "market_ref_id": null,
    "quantity": null,
    "readings": [
-    "Same class reading as the main event."
+    "Same class reading as the main event.",
+    "Novel psychedelics reaching clinical care = FDA approval of a psychedelic for a psychiatric indication."
    ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
@@ -665,7 +669,9 @@
     "unit": "USD",
     "series": "Nasdaq closing price of ATAI multiplied by shares outstanding on the cover page of atai's most recent periodic SEC filing (SEC EDGAR)"
    },
-   "readings": [],
+   "readings": [
+    "'double-, triple-digit billion-dollar company' = market capitalization of at least USD 10 billion; the range's lower bound is the threshold."
+   ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
    "version": "1.0.0"
@@ -686,7 +692,9 @@
    "base_rate_class": null,
    "market_ref_id": null,
    "quantity": null,
-   "readings": [],
+   "readings": [
+    "'if we succeed, and if we medicalise psychedelics' = FDA approval of an atai-affiliated psychedelic; FDA, not atai, decides approval."
+   ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
    "version": "1.0.0"
@@ -782,7 +790,9 @@
    "quantity": null,
    "readings": [
     "'Yet more litigation' is read as a new parity complaint or enforcement action over the pre-payment review policy the post describes, after the 2021 DOL / New York AG settlement the author quotes. A private (individual or class) complaint or a public enforcement action both count.",
-    "court_outcome is the closest template for a litigation claim; the event resolves on initiation (docket date of the complaint or announcement of the enforcement action), not on a later ruling."
+    "court_outcome is the closest template for a litigation claim; the event resolves on initiation (docket date of the complaint or announcement of the enforcement action), not on a later ruling.",
+    "'yet more litigation' = a new parity suit or enforcement action on the pre-payment review policy; the 2021 settlement matter itself does not count.",
+    "Private, Department of Labor or state attorney general actions all count; the plaintiff is not named."
    ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
@@ -972,7 +982,8 @@
    "market_ref_id": null,
    "quantity": null,
    "readings": [
-    "The forecaster tied passage to a shutdown compromise ('as part of the compromise'); enactment by any legislative vehicle counts, and the vehicle is not part of the event."
+    "The forecaster tied passage to a shutdown compromise ('as part of the compromise'); enactment by any legislative vehicle counts, and the vehicle is not part of the event.",
+    "'as part of the compromise' names the expected vehicle, not a condition; enactment through any vehicle counts."
    ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
@@ -1328,7 +1339,9 @@
    "market_ref_id": null,
    "quantity": null,
    "readings": [
-    "Threshold 2 ('at least two'). 'DeathStance Health' is fictional and not an entity."
+    "Threshold 2 ('at least two'). 'DeathStance Health' is fictional and not an entity.",
+    "'pandemic-era' = founded or launched in 2020 to 2022.",
+    "'publicly cease operations' = a definitive public shutdown or liquidation announcement; the fictional company named is not a candidate."
    ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
@@ -1400,7 +1413,8 @@
    "market_ref_id": null,
    "quantity": null,
    "readings": [
-    "Quoted words endorsed as his own. 'A decision' is any FDA action, not approval. 'Early next year' read via the year row."
+    "Quoted words endorsed as his own. 'A decision' is any FDA action, not approval. 'Early next year' read via the year row.",
+    "'a decision' = an FDA action letter of either kind; this event is distinct from an approval event on COMP360."
    ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
@@ -1495,7 +1509,9 @@
    "readings": [
     "'PTSD, bipolar, depression, OCD, and even ADHD might be next' is read as one event satisfied by a policy on any one of the listed indications ('A or B' is one event).",
     "'depression' in the list is read as already covered by the first clause ('a nationwide standard of medical necessity is being set in the treatment of depression') and is excluded; the new indications are PTSD, bipolar disorder, OCD and ADHD.",
-    "'next' = a coverage policy published after the depression policies the forecaster describes; the payer set is US health plans, as in the forecaster's BCBS examples."
+    "'next' = a coverage policy published after the depression policies the forecaster describes; the payer set is US health plans, as in the forecaster's BCBS examples.",
+    "The list is read as 'at least one of' PTSD, bipolar disorder, OCD or ADHD; depression is excluded as already covered per the author.",
+    "The first clause, on a depression standard being set, is description, not a coded forecast."
    ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
@@ -1643,7 +1659,9 @@
    "market_ref_id": null,
    "quantity": null,
    "readings": [
-    "Split -a: 'will come with monitoring built in' as a denial. 'If the universe has been listening' is an aside, not a condition."
+    "Split -a: 'will come with monitoring built in' as a denial. 'If the universe has been listening' is an aside, not a condition.",
+    "'monitoring built in' = an FDA-required monitoring element (REMS or labeling), per the REMS section context; resolved on the first qualifying approval.",
+    "The auditable-video clause is split off as owen-2343-b."
    ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-13",
@@ -1692,6 +1710,7 @@
   "A:new:snt-aitbs-subsequent-rct-positive": "E-0006",
   "B:new:snt-subsequent-rct-significant": "E-0006",
   "A:new:dea-per-state-physical-registration-rule-rescinded": "E-0007",
+  "C:new:dea-physical-office-rule-removed": "E-0007",
   "A:new:saint-commercial-availability-us": "E-0008",
   "B:new:saint-commercial-availability": "E-0008",
   "A:new:mdma-at-ptsd-mapp2-primary-endpoint-met": "E-0009",
@@ -1713,6 +1732,7 @@
   "A:new:medicare-ntap-psychedelic-medicine": "E-0018",
   "B:new:medicare-ntap-psychedelic-medicine": "E-0018",
   "A:new:tms-new-fda-indication": "E-0019",
+  "C:new:fda-tms-additional-indication": "E-0019",
   "B:new:bpl-003-phase2b-trd-readout": "E-0020",
   "A:new:pcn-101-arketamine-program-discontinued": "E-0021",
   "B:new:pcn-101-arketamine-discontinued": "E-0021",
@@ -1722,6 +1742,7 @@
   "B:new:psychedelic-approvals-all-carry-rems": "E-0023",
   "B:new:psychedelic-approval-without-rems": "E-0023",
   "A:new:fda-approves-any-psychedelic-medicine": "E-0024",
+  "C:new:fda-approves-novel-psychedelic": "E-0024",
   "A:new:doj-second-telehealth-controlled-substance-prosecution": "E-0025",
   "B:new:doj-second-telehealth-controlled-substance-prosecution": "E-0025",
   "A:new:fda-prazosin-ptsd-approval": "E-0026",
@@ -1729,12 +1750,15 @@
   "A:new:fda-midomafetamine-nda-cites-insufficient-safety-data": "E-0027",
   "B:new:fda-crl-mdma-at-safety-data": "E-0027",
   "B:new:atai-market-cap-10b": "E-0028",
+  "C:new:atai-market-cap-10-billion": "E-0028",
   "B:new:regulator-approves-atai-psychedelic": "E-0029",
+  "C:new:fda-approves-atai-affiliated-psychedelic": "E-0029",
   "A:new:fda-midomafetamine-crl-appeal-granted": "E-0030",
   "B:new:fda-lykos-midomafetamine-crl-appeal": "E-0030",
   "A:new:acadia-healthcare-criminal-charges-involuntary-holds": "E-0031",
   "A:new:acadia-healthcare-litigation-involuntary-holds": "E-0032",
   "A:new:uhc-prepayment-review-parity-litigation": "E-0033",
+  "C:new:uhc-optum-prepayment-review-parity-case": "E-0033",
   "A:new:cobenfy-fda-approval-bipolar-disorder": "E-0034",
   "B:new:cobenfy-bipolar-approval": "E-0034",
   "A:new:early-tms-trial-primary-result-reported": "E-0035",
@@ -1749,6 +1773,7 @@
   "B:new:unitedhealthcare-covers-accelerated-tms": "E-0040",
   "B:new:uhc-covers-accelerated-tms": "E-0040",
   "A:new:congress-enacts-s1717-breakthrough-products-act": "E-0041",
+  "C:new:s1717-breakthrough-products-act-enacted": "E-0041",
   "B:new:emp-01-phase2-sad-readout": "E-0042",
   "A:new:done-global-mmw-2025-indictment-ends-without-conviction": "E-0043",
   "B:new:done-global-2025-indictment-dismissed-or-acquitted": "E-0043",
@@ -1775,16 +1800,19 @@
   "B:new:three-at-home-depression-devices-us-market": "E-0053",
   "B:new:two-new-criminal-cases-controlled-substance-companies": "E-0054",
   "B:new:two-pandemic-era-mental-health-companies-cease-operations": "E-0055",
+  "C:new:two-pandemic-era-mental-health-companies-shut-down-2026": "E-0055",
   "A:new:additional-health-plan-covers-tms-adolescent-depression": "E-0056",
   "B:new:additional-health-plan-covers-adolescent-tms": "E-0056",
   "A:new:monarch-etns-replication-rct-results-published": "E-0057",
   "B:new:monarch-etns-replication-trial-results-published": "E-0057",
   "B:new:fda-decision-comp360-trd": "E-0058",
+  "C:new:comp360-fda-decision-trd": "E-0058",
   "B:new:ataibeckley-major-index-inclusion": "E-0059",
   "A:new:kale-award-trial-primary-result-reported": "E-0060",
   "A:new:ibogaine-legal-pathway-us-fda-dea": "E-0061",
   "B:new:ibogaine-right-to-try-pathway": "E-0061",
   "A:new:accelerated-tms-coverage-ptsd-bipolar-ocd-adhd": "E-0062",
+  "C:new:accelerated-tms-coverage-ptsd-bipolar-ocd-adhd": "E-0062",
   "A:new:tms-fda-authorization-adhd": "E-0063",
   "B:new:fda-tms-adhd-authorization": "E-0063",
   "A:new:additional-health-plan-covers-accelerated-tms": "E-0064",
@@ -1795,6 +1823,7 @@
   "A:new:psilocybin-lsd-mdma-drug-dispensed-through-retail-pharmacy": "E-0067",
   "B:new:psychedelic-retail-pharmacy-dispensing": "E-0067",
   "B:new:psychedelic-approval-without-monitoring": "E-0068",
+  "C:new:next-novel-psychedelic-approval-requires-session-monitoring": "E-0068",
   "B:new:psychedelic-rems-video-monitoring": "E-0069",
   "A:new:erisa-post-dobbs-federal-enforcement": "OUT_OF_AREA",
   "B:new:erisa-enforcement-post-dobbs": "OUT_OF_AREA",
@@ -1815,6 +1844,7 @@
   "A:new:wells-fargo-erisa-health-plan-suit-defendant-loses": "OUT_OF_AREA",
   "B:new:wells-fargo-erisa-health-plan-case-adverse": "OUT_OF_AREA",
   "B:new:cms-pfs-cy2025-conversion-factor-cut": "OUT_OF_AREA",
+  "C:new:cms-cy2025-pfs-conversion-factor-cut": "OUT_OF_AREA",
   "A:new:aks-safe-harbor-pbm-rebates-removed": "OUT_OF_AREA",
   "B:new:pbm-rebate-safe-harbor-rescinded": "OUT_OF_AREA",
   "B:new:uhg-files-defamation-suit-potter": "OUT_OF_AREA",
@@ -1825,6 +1855,7 @@
   "B:new:psychedelic-approval-without-rems",
   "A:new:cigna-adolescent-tms-policy-prior-antidepressant-requirement-stands",
   "A:new:done-global-mmw-2025-indictment-ends-without-conviction",
-  "B:new:done-global-2025-indictment-dismissed-or-acquitted"
+  "B:new:done-global-2025-indictment-dismissed-or-acquitted",
+  "C:new:next-novel-psychedelic-approval-requires-session-monitoring"
  ]
 }

@@ -19,3 +19,7 @@
 {"at":"2026-09-14T00:47:42.446Z","script":"consolidate-registry assemble","groups":86,"in_scope":69,"out_of_area":17,"events":69,"mapped_refs":145,"inverted_refs":5}
 {"at":"2026-09-14T01:11:06.519Z","script":"build-tiebreak-packet","statements":2153,"splits":42,"packets":2}
 {"at":"2026-09-14T01:28:49.384Z","script":"consolidate-registry prep","proposals":157,"distinct_titles":154,"existing":0}
+{"at":"2026-09-14T01:31:20.774Z","script":"consolidate-registry assemble","groups":86,"in_scope":69,"out_of_area":17,"events":69,"mapped_refs":157,"inverted_refs":6}
+{"at":"2026-09-14T01:31:21.300Z","script":"consolidate-registry apply","added":69,"total":69,"mapped_refs":157,"out_of_area_refs":24}
+{"at":"2026-09-14T01:31:21.801Z","script":"link-market-refs","pairs":[{"id":"M-001","event_id":"E-0001"},{"id":"M-002","event_id":"E-0001"},{"id":"M-003","event_id":"E-0001"},{"id":"M-004","event_id":"E-0003"},{"id":"M-005","event_id":"E-0024"}]}
+{"at":"2026-09-14T01:31:22.999Z","script":"intake-merge","statements":2495,"admitted":67,"void_ambiguous":4,"not_admitted":2418,"gate_out_of_area":6,"split_to_c":0,"uncoded":0,"bin_mismatch":1,"undated":38,"dated":29}

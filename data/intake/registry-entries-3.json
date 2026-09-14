@@ -191,7 +191,9 @@
   "base_rate_class": null,
   "quantity": null,
   "readings": [
-   "Threshold 2 ('at least two'). 'DeathStance Health' is fictional and not an entity."
+   "Threshold 2 ('at least two'). 'DeathStance Health' is fictional and not an entity.",
+   "'pandemic-era' = founded or launched in 2020 to 2022.",
+   "'publicly cease operations' = a definitive public shutdown or liquidation announcement; the fictional company named is not a candidate."
   ]
  },
  {
@@ -251,7 +253,8 @@
   "base_rate_class": null,
   "quantity": null,
   "readings": [
-   "Quoted words endorsed as his own. 'A decision' is any FDA action, not approval. 'Early next year' read via the year row."
+   "Quoted words endorsed as his own. 'A decision' is any FDA action, not approval. 'Early next year' read via the year row.",
+   "'a decision' = an FDA action letter of either kind; this event is distinct from an approval event on COMP360."
   ]
  },
  {
@@ -330,7 +333,9 @@
   "readings": [
    "'PTSD, bipolar, depression, OCD, and even ADHD might be next' is read as one event satisfied by a policy on any one of the listed indications ('A or B' is one event).",
    "'depression' in the list is read as already covered by the first clause ('a nationwide standard of medical necessity is being set in the treatment of depression') and is excluded; the new indications are PTSD, bipolar disorder, OCD and ADHD.",
-   "'next' = a coverage policy published after the depression policies the forecaster describes; the payer set is US health plans, as in the forecaster's BCBS examples."
+   "'next' = a coverage policy published after the depression policies the forecaster describes; the payer set is US health plans, as in the forecaster's BCBS examples.",
+   "The list is read as 'at least one of' PTSD, bipolar disorder, OCD or ADHD; depression is excluded as already covered per the author.",
+   "The first clause, on a depression standard being set, is description, not a coded forecast."
   ]
  },
  {
@@ -454,7 +459,9 @@
   "base_rate_class": null,
   "quantity": null,
   "readings": [
-   "Split -a: 'will come with monitoring built in' as a denial. 'If the universe has been listening' is an aside, not a condition."
+   "Split -a: 'will come with monitoring built in' as a denial. 'If the universe has been listening' is an aside, not a condition.",
+   "'monitoring built in' = an FDA-required monitoring element (REMS or labeling), per the REMS section context; resolved on the first qualifying approval.",
+   "The auditable-video clause is split off as owen-2343-b."
   ]
  },
  {
