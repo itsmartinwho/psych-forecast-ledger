@@ -22,6 +22,16 @@ const registryIds = new Set(registry.map((e) => e.id));
 const registryArea = new Map(registry.map((e) => [e.id, e.area]));
 const map = fs.existsSync(rel("data/intake/registry-map.json")) ? readJson<Record<string, string>>(rel("data/intake/registry-map.json")) : {};
 const thresholds = readJson<{ undated_window_months: number; probability_clamp: [number, number] }>(rel("data/rules/thresholds.json"));
+// market references for an event: the item takes the reference whose deadline is nearest its own (the scorer
+// applies the deadline tolerance and the price lookback)
+const marketRefs = fs.existsSync(rel("data/market-refs.json")) ? readJson<{ id: string; event_id: string; deadline: string | null }[]>(rel("data/market-refs.json")) : [];
+const marketRefFor = (eventId: string, itemDeadline: string): string | null => {
+  const cands = marketRefs.filter((m) => m.event_id === eventId);
+  if (!cands.length) return null;
+  const scored = cands.map((m) => ({ id: m.id, gap: m.deadline ? Math.abs(monthsBetween(m.deadline, itemDeadline)) : 9999 }));
+  scored.sort((x, y) => x.gap - y.gap || (x.id < y.id ? -1 : 1));
+  return scored[0].id;
+};
 
 const loadCoder = <T extends { id: string }>(letter: string): Map<string, T> => {
   const m = new Map<string, T>();
@@ -104,6 +114,7 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
     let p = pP, p_note: string | undefined;
     if (pO !== null && Math.abs(pP - pO) > 1e-9 && psP === null) { p = (pP + pO) / 2; p_note = `coders disagreed on the bin (${primary.bin} vs ${other.bin}); mean of ${pP.toFixed(2)} and ${pO.toFixed(2)}`; stats.bin_mismatch++; }
     const panel = dlP ? "headline" : "undated";
+    const undatedEnd = addMonths(row.statement_date, thresholds.undated_window_months);
     if (panel === "headline") stats.dated++; else stats.undated++;
     const tags = new Set<string>(primary.tags ?? []);
     if (primary.affiliated) tags.add("affiliated");
@@ -125,7 +136,7 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
       area: (registryArea.get(evP) ?? "regulatory") as Item["area"], event_id: evP, condition_event_id: condRef && /^E-\d{4}$/.test(condRef) ? condRef : null,
       asserts: asP !== false, deadline: dlP, deadline_origin: dlP ? (primary.deadline_origin ?? "anchor") : null, deadline_text: primary.deadline_text ?? null, panel,
       p: clamp(p), p_origin: primary.p_stated !== null ? "stated" : "lexicon", p_note, bin: (primary.bin ?? null) as Item["bin"], phrase: primary.phrase ?? null, stated_number: primary.p_stated !== null ? String(primary.p_stated) : null,
-      tags: [...tags] as Item["tags"], base_rate, market_ref_id: null, coder: primary === a ? "A" : "C", rule_version: rules.version, intake_at: "2026-09-13", hindsight_scan: "clean", version: 1, history: [],
+      tags: [...tags] as Item["tags"], base_rate, market_ref_id: marketRefFor(evP, dlP ?? undatedEnd), coder: primary === a ? "A" : "C", rule_version: rules.version, intake_at: "2026-09-13", hindsight_scan: "clean", version: 1, history: [],
     };
     const parsed = Item.safeParse(item);
     if (!parsed.success) { console.error(`${row.id}: item fails schema: ${parsed.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`); statements.push({ ...base, status: "void", void_reason: "AMBIGUOUS", coders } as Statement); stats.void_ambiguous++; continue; }
