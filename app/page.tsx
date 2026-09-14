@@ -78,7 +78,7 @@ export default function Home() {
           plural(persons, "forecaster"),
           plural(ds.statements.length, "statement"),
           <span key="adm">
-            {fmtInt(ds.items.length)} <Term t="admitted">admitted</Term>
+            {fmtInt(ds.statements.filter((st) => st.status !== "not_admitted").length)} <Term t="admitted">admitted</Term>
           </span>,
           <span key="res">
             {fmtInt(resolvedEvents)} <Term t="resolved">resolved</Term> events
