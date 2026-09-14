@@ -5422,8 +5422,13 @@
    "note": "source confidence high; undated; event sweep target E-0067; The existing ledger holds five other quotes from this episode, none about pharmacy dispensing."
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "VAGUE",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "VAGUE",
+   "b_reason": "NOT_FORECAST"
+  }
  },
  {
   "id": "angermayer-0181",
@@ -5448,8 +5453,13 @@
    "note": "source confidence high; undated; event sweep target E-0068; The existing ledger holds three other quotes from this post, none about supervision."
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "NORMATIVE",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "NORMATIVE",
+   "b_reason": "NORMATIVE"
+  }
  },
  {
   "id": "angermayer-0182",
@@ -5475,7 +5485,12 @@
   },
   "status": "not_admitted",
   "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "coders": {
+   "a_admit": true,
+   "b_admit": false,
+   "tiebreak_admit": false,
+   "b_reason": "VAGUE"
+  }
  },
  {
   "id": "angermayer-0183",
@@ -5501,7 +5516,12 @@
   },
   "status": "not_admitted",
   "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "NOT_FORECAST",
+   "b_reason": "NOT_FORECAST"
+  }
  },
  {
   "id": "angermayer-0184",
@@ -5526,8 +5546,13 @@
    "note": "source confidence high; undated; event sweep target E-0022; Separate bullet of the same thread, not in the existing ledger."
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "CONTROL",
+   "b_reason": "NOT_FORECAST"
+  }
  },
  {
   "id": "angermayer-0185",
@@ -5553,7 +5578,12 @@
   },
   "status": "not_admitted",
   "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "NOT_FORECAST",
+   "b_reason": "NOT_FORECAST"
+  }
  },
  {
   "id": "angermayer-0186",
@@ -5578,8 +5608,13 @@
    "note": "source confidence high; undated; event sweep target E-0024; A goal statement, not a forecast with a date. It names FDA approval of psychedelics as the target. Low value for scoring; included because it is dated, verbatim and on-event"
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "NORMATIVE",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "NORMATIVE",
+   "b_reason": "NORMATIVE"
+  }
  },
  {
   "id": "angermayer-0187",
@@ -5604,8 +5639,13 @@
    "note": "source confidence high; dated_event; event sweep target E-0059; Fetched through https://api.fxtwitter.com/C_Angermayer/status/2006368173499801945. Not in existing-angermayer.json; the nearest existing rows are angermayer-0150 (2026-01-14"
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "VAGUE",
+  "coders": {
+   "a_admit": true,
+   "b_admit": false,
+   "tiebreak_admit": false,
+   "b_reason": "VAGUE"
+  }
  },
  {
   "id": "angermayer-0188",
@@ -5631,7 +5671,12 @@
   },
   "status": "not_admitted",
   "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "coders": {
+   "a_admit": true,
+   "b_admit": false,
+   "tiebreak_admit": false,
+   "b_reason": "NOT_FORECAST"
+  }
  },
  {
   "id": "angermayer-0189",
@@ -5656,8 +5701,13 @@
    "note": "source confidence high; dated_event; event sweep target other; Two dated claims in one quote: Q1 2026 release of the BPL-003 end-of-Phase-2b FDA meeting minutes, and Q1 2026 EMP-01 Phase 2 data. Neither is one of the five registry events"
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
+  }
  },
  {
   "id": "angermayer-0190",
@@ -5682,7 +5732,12 @@
    "note": "source confidence high; dated_event; event sweep target E-0024; Near-identical text is already logged as angermayer-0161 from the Substack post dated 2026-04-20. This X post is two days earlier and is a separate channel. Treat as a possi"
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "THIRD_PARTY",
+  "coders": {
+   "a_admit": true,
+   "b_admit": false,
+   "tiebreak_admit": false,
+   "b_reason": "THIRD_PARTY"
+  }
  }
 ]

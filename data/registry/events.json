@@ -3190,5 +3190,77 @@
   "created_by": "registry-consolidation",
   "created_at": "2026-09-14",
   "version": "1.1.0"
+ },
+ {
+  "id": "E-0129",
+  "template": "rule_or_policy",
+  "area": "regulatory",
+  "asset": "Telemedicine prescribing of controlled substances: a permanent DEA rule",
+  "entity": "US Drug Enforcement Administration (DEA)",
+  "title": "DEA adopts a permanent rule for telemedicine prescribing of controlled substances",
+  "proposition": "The DEA adopts a permanent final rule for the prescribing of controlled substances by telemedicine without a prior in-person medical evaluation.",
+  "criterion": "TRUE on the Federal Register publication date of a DEA final rule that sets a permanent framework for the prescribing of controlled substances by telemedicine without a prior in-person medical evaluation. A proposed rule, a temporary rule, and an extension of the COVID-era telemedicine flexibilities are not adoption. FALSE at the deadline when no such final rule has been published in the Federal Register. Resolution source: the Federal Register (DEA final rules).",
+  "resolution_source": {
+   "name": "Federal Register (DEA final rules)",
+   "url": "https://www.federalregister.gov/agencies/drug-enforcement-administration"
+  },
+  "base_rate_class": null,
+  "market_ref_id": null,
+  "quantity": null,
+  "readings": [
+   "'They' = the DEA, the only body in the immediate context on telehealth prescribing of controlled substances.",
+   "'Figure it out' = the DEA settles a permanent rule for telemedicine prescribing of controlled substances, per the immediate context.",
+   "A temporary rule or an extension of the COVID-era flexibilities is not the permanent rule the context names.",
+   "'Eventually' is not a deadline; the item goes to the undated panel."
+  ],
+  "created_by": "registry-consolidation",
+  "created_at": "2026-09-14",
+  "version": "1.1.0"
+ },
+ {
+  "id": "E-0130",
+  "template": "trial_result",
+  "area": "clinical_trial",
+  "asset": "SNT (Stanford Neuromodulation Therapy) or another accelerated TMS protocol for bipolar depression",
+  "entity": "Any sponsor of an accelerated TMS trial in bipolar depression",
+  "title": "Accelerated TMS (SNT) trial in bipolar depression meets its primary endpoint",
+  "proposition": "A randomized controlled trial of SNT or another accelerated TMS protocol in bipolar depression meets its prespecified primary efficacy endpoint.",
+  "criterion": "TRUE on the date of the first sponsor topline release, ClinicalTrials.gov results posting or peer-reviewed publication, dated after the statement date, that reports a randomized controlled trial of SNT or another accelerated TMS protocol (more than one session per day) in bipolar depression whose prespecified primary efficacy endpoint met statistical significance as reported by the sponsor. Open-label series, single-arm series and secondary endpoints do not count. FALSE at the deadline when no such result is reported. Resolved on ClinicalTrials.gov results postings and the first peer-reviewed publication or sponsor release.",
+  "resolution_source": {
+   "name": "ClinicalTrials.gov results posting; peer-reviewed publication or sponsor release",
+   "url": "https://clinicaltrials.gov/"
+  },
+  "base_rate_class": null,
+  "market_ref_id": null,
+  "quantity": null,
+  "readings": [],
+  "created_by": "registry-consolidation",
+  "created_at": "2026-09-14",
+  "version": "1.1.0"
+ },
+ {
+  "id": "E-0131",
+  "template": "coverage_decision",
+  "area": "payer_policy",
+  "asset": "Intravenous (IV) ketamine for bipolar depression: US health plan coverage",
+  "entity": "US health insurers, health plans and public programs (commercial plans, Medicare, Medicaid or the VA)",
+  "title": "A US health plan covers intravenous ketamine for bipolar depression",
+  "proposition": "A US health insurer, health plan or public program publishes a coverage policy that covers intravenous ketamine for bipolar depression.",
+  "criterion": "TRUE on the effective date of a published medical or coverage policy, fee schedule entry, national coverage determination, local coverage determination or public policy bulletin from a US health insurer, health plan or public program (a commercial plan, Medicare, Medicaid or the VA) that lists intravenous ketamine as covered or medically necessary for bipolar depression. A policy that covers esketamine (Spravato), a policy limited to major depressive disorder, an individual case exception, coverage limited to a clinical trial, and a payment for the infusion visit without the drug do not count. FALSE at the deadline when no such policy is in force. Resolved on the payer's published policy bulletin and the CMS Medicare Coverage Database.",
+  "resolution_source": {
+   "name": "Payer medical policy bulletins; CMS Medicare Coverage Database",
+   "url": "https://www.cms.gov/medicare-coverage-database/"
+  },
+  "base_rate_class": null,
+  "market_ref_id": null,
+  "quantity": null,
+  "readings": [
+   "'Meaningful coverage' is read as at least one published US health plan coverage policy for the indication; the forecaster names no payer, so any US health plan or public program counts, as in E-0116.",
+   "'IV ketamine. For bipolar depression.' fixes the asset and the indication; esketamine is a different product and does not count.",
+   "The KET-BD trial result is the reason the forecaster gives, not part of the criterion."
+  ],
+  "created_by": "registry-consolidation",
+  "created_at": "2026-09-14",
+  "version": "1.1.0"
  }
 ]

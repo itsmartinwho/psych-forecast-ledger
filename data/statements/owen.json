@@ -12800,6 +12800,7 @@
   "coders": {
    "a_admit": true,
    "b_admit": false,
+   "tiebreak_admit": false,
    "b_reason": "VAGUE"
   }
  },
@@ -13976,11 +13977,12 @@
    "area_guess": "regulatory",
    "note": "Third of three linked calls; vague resolution criterion."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "void",
+  "void_reason": "AMBIGUOUS",
   "coders": {
    "a_admit": true,
    "b_admit": false,
+   "tiebreak_admit": true,
    "b_reason": "VAGUE"
   }
  },
@@ -26591,6 +26593,7 @@
   "coders": {
    "a_admit": false,
    "b_admit": true,
+   "tiebreak_admit": false,
    "a_reason": "VAGUE"
   }
  },
@@ -48776,6 +48779,7 @@
   "coders": {
    "a_admit": false,
    "b_admit": true,
+   "tiebreak_admit": false,
    "a_reason": "VAGUE"
   }
  },
@@ -55316,11 +55320,11 @@
    "area_guess": "company_market",
    "note": "Paired with the next sentence about United not budging on human coverage."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
    "a_admit": false,
    "b_admit": true,
+   "tiebreak_admit": true,
    "a_reason": "VAGUE"
   }
  },
@@ -58668,6 +58672,7 @@
   "coders": {
    "a_admit": true,
    "b_admit": false,
+   "tiebreak_admit": false,
    "b_reason": "VAGUE"
   }
  },
@@ -70305,6 +70310,7 @@
   "coders": {
    "a_admit": true,
    "b_admit": false,
+   "tiebreak_admit": false,
    "b_reason": "VAGUE"
   }
  },
@@ -71352,7 +71358,7 @@
    "a_admit": false,
    "b_admit": false,
    "a_reason": "VAGUE",
-   "b_reason": "NORMATIVE"
+   "b_reason": "VAGUE"
   }
  },
  {
@@ -71780,12 +71786,10 @@
    "area_guess": "payer_policy",
    "note": "Restates the no-retail-pharmacy call."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
    "a_admit": true,
-   "b_admit": false,
-   "b_reason": "VAGUE"
+   "b_admit": true
   }
  },
  {
@@ -72052,12 +72056,11 @@
    "area_guess": "clinical_trial",
    "note": "Restatement of an earlier call the author references ('I've previously written'). Efficacy claim; the label-change pathway is logged separately."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "void",
+  "void_reason": "AMBIGUOUS",
   "coders": {
    "a_admit": true,
-   "b_admit": false,
-   "b_reason": "VAGUE"
+   "b_admit": true
   }
  },
  {
@@ -72113,12 +72116,10 @@
    "area_guess": "payer_policy",
    "note": "Negative call on coverage; reasoning given is that an investigator-led study of a generic drug does not move payers."
   },
-  "status": "not_admitted",
-  "reason_code": "VAGUE",
+  "status": "admitted",
   "coders": {
    "a_admit": true,
-   "b_admit": false,
-   "b_reason": "VAGUE"
+   "b_admit": true
   }
  },
  {

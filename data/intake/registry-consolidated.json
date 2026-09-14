@@ -1,142 +1,72 @@
 {
  "events": [
   {
-   "id": "E-0123",
+   "id": "E-0129",
+   "template": "rule_or_policy",
+   "area": "regulatory",
+   "asset": "Telemedicine prescribing of controlled substances: a permanent DEA rule",
+   "entity": "US Drug Enforcement Administration (DEA)",
+   "title": "DEA adopts a permanent rule for telemedicine prescribing of controlled substances",
+   "proposition": "The DEA adopts a permanent final rule for the prescribing of controlled substances by telemedicine without a prior in-person medical evaluation.",
+   "criterion": "TRUE on the Federal Register publication date of a DEA final rule that sets a permanent framework for the prescribing of controlled substances by telemedicine without a prior in-person medical evaluation. A proposed rule, a temporary rule, and an extension of the COVID-era telemedicine flexibilities are not adoption. FALSE at the deadline when no such final rule has been published in the Federal Register. Resolution source: the Federal Register (DEA final rules).",
+   "resolution_source": {
+    "name": "Federal Register (DEA final rules)",
+    "url": "https://www.federalregister.gov/agencies/drug-enforcement-administration"
+   },
+   "base_rate_class": null,
+   "market_ref_id": null,
+   "quantity": null,
+   "readings": [
+    "'They' = the DEA, the only body in the immediate context on telehealth prescribing of controlled substances.",
+    "'Figure it out' = the DEA settles a permanent rule for telemedicine prescribing of controlled substances, per the immediate context.",
+    "A temporary rule or an extension of the COVID-era flexibilities is not the permanent rule the context names.",
+    "'Eventually' is not a deadline; the item goes to the undated panel."
+   ],
+   "created_by": "registry-consolidation",
+   "created_at": "2026-09-14",
+   "version": "1.1.0"
+  },
+  {
+   "id": "E-0130",
+   "template": "trial_result",
+   "area": "clinical_trial",
+   "asset": "SNT (Stanford Neuromodulation Therapy) or another accelerated TMS protocol for bipolar depression",
+   "entity": "Any sponsor of an accelerated TMS trial in bipolar depression",
+   "title": "Accelerated TMS (SNT) trial in bipolar depression meets its primary endpoint",
+   "proposition": "A randomized controlled trial of SNT or another accelerated TMS protocol in bipolar depression meets its prespecified primary efficacy endpoint.",
+   "criterion": "TRUE on the date of the first sponsor topline release, ClinicalTrials.gov results posting or peer-reviewed publication, dated after the statement date, that reports a randomized controlled trial of SNT or another accelerated TMS protocol (more than one session per day) in bipolar depression whose prespecified primary efficacy endpoint met statistical significance as reported by the sponsor. Open-label series, single-arm series and secondary endpoints do not count. FALSE at the deadline when no such result is reported. Resolved on ClinicalTrials.gov results postings and the first peer-reviewed publication or sponsor release.",
+   "resolution_source": {
+    "name": "ClinicalTrials.gov results posting; peer-reviewed publication or sponsor release",
+    "url": "https://clinicaltrials.gov/"
+   },
+   "base_rate_class": null,
+   "market_ref_id": null,
+   "quantity": null,
+   "readings": [],
+   "created_by": "registry-consolidation",
+   "created_at": "2026-09-14",
+   "version": "1.1.0"
+  },
+  {
+   "id": "E-0131",
    "template": "coverage_decision",
    "area": "payer_policy",
-   "asset": "SAINT neuromodulation system (fMRI-guided accelerated intermittent theta-burst stimulation, Magnus Medical): payment by a US health plan or Medicare",
-   "entity": "US health plans and Medicare (Centers for Medicare & Medicaid Services)",
-   "title": "A US payer pays for SAINT neuromodulation",
-   "proposition": "A US health plan or Medicare adopts a coverage policy or payment rate that pays for treatment with the SAINT neuromodulation system.",
-   "criterion": "TRUE on the effective date of a published payer policy document, dated after 2022-09-07, under which a US health plan or Medicare pays for treatment with the SAINT neuromodulation system (fMRI-guided accelerated intermittent theta-burst stimulation, Magnus Medical): a national or local coverage determination, a Medicare fee schedule or add-on payment, or a commercial plan's public medical policy bulletin that lists the treatment as covered. A CPT or HCPCS code assignment on its own, a proposed rule, a pilot, a single case-by-case or appeal approval, and a manufacturer statement are not a coverage policy. Resolution source: the CMS Medicare Coverage Database for Medicare policies, and the payer's own public medical policy bulletin for a commercial plan. FALSE at the deadline when no such policy is published.",
+   "asset": "Intravenous (IV) ketamine for bipolar depression: US health plan coverage",
+   "entity": "US health insurers, health plans and public programs (commercial plans, Medicare, Medicaid or the VA)",
+   "title": "A US health plan covers intravenous ketamine for bipolar depression",
+   "proposition": "A US health insurer, health plan or public program publishes a coverage policy that covers intravenous ketamine for bipolar depression.",
+   "criterion": "TRUE on the effective date of a published medical or coverage policy, fee schedule entry, national coverage determination, local coverage determination or public policy bulletin from a US health insurer, health plan or public program (a commercial plan, Medicare, Medicaid or the VA) that lists intravenous ketamine as covered or medically necessary for bipolar depression. A policy that covers esketamine (Spravato), a policy limited to major depressive disorder, an individual case exception, coverage limited to a clinical trial, and a payment for the infusion visit without the drug do not count. FALSE at the deadline when no such policy is in force. Resolved on the payer's published policy bulletin and the CMS Medicare Coverage Database.",
    "resolution_source": {
-    "name": "CMS Medicare Coverage Database (NCD and LCD records and fee schedule rules), and the payer's own public medical policy bulletin for a commercial plan",
+    "name": "Payer medical policy bulletins; CMS Medicare Coverage Database",
     "url": "https://www.cms.gov/medicare-coverage-database/"
    },
    "base_rate_class": null,
    "market_ref_id": null,
    "quantity": null,
-   "readings": [],
-   "created_by": "registry-consolidation",
-   "created_at": "2026-09-14",
-   "version": "1.1.0"
-  },
-  {
-   "id": "E-0124",
-   "template": "quantity_threshold",
-   "area": "practice_adoption",
-   "asset": "Approved psilocybin drug products versus classic antidepressants (SSRIs, SNRIs, tricyclics and MAOIs): annual US prescription volume",
-   "entity": "IQVIA (publisher of the named prescription-volume series)",
-   "title": "Psilocybin prescriptions exceed classic antidepressant prescriptions",
-   "proposition": "Annual prescription volume of approved psilocybin drug products is at or above the annual prescription volume of classic antidepressants, per a named prescription-volume series.",
-   "criterion": "Resolved on the named data series only: annual US prescription counts in the IQVIA National Prescription Audit. TRUE for the first calendar year in which that series reports prescriptions dispensed for approved psilocybin drug products at or above prescriptions dispensed for classic antidepressants (SSRIs, SNRIs, tricyclics and MAOIs) in the same year and the same series. The threshold is a comparison of the two counts, so it resolves as binary at a ratio of 1, with no band. A year with no dispensed psilocybin prescriptions resolves FALSE for that year. FALSE at the deadline when no published year meets the comparison. If the series has not published the figures for the deadline year 12 months after the deadline, the event is unresolvable. Realized values are stored, not scored.",
-   "resolution_source": {
-    "name": "IQVIA National Prescription Audit, annual US prescription counts by product class"
-   },
-   "base_rate_class": null,
-   "market_ref_id": null,
-   "quantity": {
-    "metric": "Annual US prescriptions dispensed for approved psilocybin drug products, divided by annual US prescriptions dispensed for classic antidepressants (SSRIs, SNRIs, tricyclics and MAOIs)",
-    "threshold": 1,
-    "direction": ">=",
-    "unit": "ratio",
-    "series": "IQVIA National Prescription Audit, annual US prescription counts by product class"
-   },
-   "readings": [],
-   "created_by": "registry-consolidation",
-   "created_at": "2026-09-14",
-   "version": "1.1.0"
-  },
-  {
-   "id": "E-0125",
-   "template": "trial_result",
-   "area": "clinical_trial",
-   "asset": "Any psychedelic therapeutic developed, owned or partnered by atai Life Sciences: a Phase 3 trial that meets its primary endpoint",
-   "entity": "atai Life Sciences (sponsor, or its subsidiary, successor or partner)",
-   "title": "An atai psychedelic programme reports a Phase 3 trial that meets its primary endpoint",
-   "proposition": "A Phase 3 trial of a psychedelic therapeutic developed, owned or partnered by atai Life Sciences reports its prespecified primary endpoint met.",
-   "criterion": "TRUE on the date of the sponsor's topline press release, or the publication, that first reports a Phase 3 trial of a psychedelic therapeutic developed, owned or partnered by atai Life Sciences (or its subsidiary, successor or partner) with its prespecified primary endpoint met with statistical significance, as reported by the sponsor. A psychedelic therapeutic is a compound its sponsor or the regulator describes as a psychedelic or an entactogen; esketamine and ketamine are excluded. A Phase 2 result, an open-label result, an interim analysis or a secondary endpoint is not a Phase 3 primary result. Resolution source: the sponsor's topline press release, with ClinicalTrials.gov results as a secondary source. FALSE at the deadline when no such Phase 3 result has been reported.",
-   "resolution_source": {
-    "name": "Sponsor topline press release; ClinicalTrials.gov results as a secondary source",
-    "url": "https://clinicaltrials.gov/"
-   },
-   "base_rate_class": null,
-   "market_ref_id": null,
-   "quantity": null,
    "readings": [
-    "'if we produce the clinical data in phase three' = an atai Phase 3 trial meets its prespecified primary endpoint; the trial result is decided by the data, not by an atai decision, so the condition is observable and outside the forecaster's control.",
-    "No compound is named; on the statement date no atai program had a Phase 3 trial, so any atai psychedelic program counts."
-   ],
-   "created_by": "registry-consolidation",
-   "created_at": "2026-09-14",
-   "version": "1.1.0"
-  },
-  {
-   "id": "E-0126",
-   "template": "trial_result",
-   "area": "clinical_trial",
-   "asset": "COMP360 (Compass Pathways' synthetic psilocybin): the first Phase 3 topline readout in treatment-resistant depression",
-   "entity": "Compass Pathways",
-   "title": "Compass Pathways reports its first COMP360 Phase 3 topline readout",
-   "proposition": "Compass Pathways reports the topline primary-endpoint result, in either direction, of the first Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression.",
-   "criterion": "TRUE on the date of the first Compass Pathways topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports the primary endpoint result, in either direction, of a Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression. A Phase 2 result, an enrollment or trial-start announcement, a guidance statement on the expected readout date, an interim safety report and a conference abstract without the primary estimate do not count. Resolution source: Compass Pathways press releases, with ClinicalTrials.gov results as the secondary source. FALSE at the deadline when no such report is dated by then.",
-   "resolution_source": {
-    "name": "Compass Pathways topline press releases; ClinicalTrials.gov results as the secondary source",
-    "url": "https://clinicaltrials.gov/"
-   },
-   "base_rate_class": null,
-   "market_ref_id": null,
-   "quantity": null,
-   "readings": [
-    "'Readout' reads as the sponsor's first public report of the trial's primary endpoint result, in either direction."
-   ],
-   "created_by": "registry-consolidation",
-   "created_at": "2026-09-14",
-   "version": "1.1.0"
-  },
-  {
-   "id": "E-0127",
-   "template": "trial_result",
-   "area": "clinical_trial",
-   "asset": "COMP360 (Compass Pathways' synthetic psilocybin): Phase 3 programme in treatment-resistant depression",
-   "entity": "Compass Pathways",
-   "title": "A COMP360 (psilocybin) Phase 3 trial in treatment-resistant depression meets its primary endpoint",
-   "proposition": "A Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression reports its prespecified primary efficacy endpoint met with statistical significance.",
-   "criterion": "TRUE on the date of the first Compass Pathways topline press release, ClinicalTrials.gov results posting or peer-reviewed publication that reports a Phase 3 trial of COMP360 (synthetic psilocybin) in treatment-resistant depression as having met its prespecified primary efficacy endpoint with statistical significance against the control arm, as reported by the sponsor. A Phase 2 result, a secondary endpoint, an interim analysis, a long-term follow-up report and a conference abstract without the primary estimate do not count. Resolution source: Compass Pathways topline press releases, with ClinicalTrials.gov results as the secondary source. FALSE at the deadline when the first reported Phase 3 primary endpoint missed significance, or when no Phase 3 primary result is reported.",
-   "resolution_source": {
-    "name": "Compass Pathways topline press releases; ClinicalTrials.gov results as the secondary source",
-    "url": "https://clinicaltrials.gov/"
-   },
-   "base_rate_class": null,
-   "market_ref_id": null,
-   "quantity": null,
-   "readings": [
-    "'A successful phase three' reads as the prespecified primary efficacy endpoint met with statistical significance.",
-    "The first Phase 3 trial to report its primary result resolves the event."
-   ],
-   "created_by": "registry-consolidation",
-   "created_at": "2026-09-14",
-   "version": "1.1.0"
-  },
-  {
-   "id": "E-0128",
-   "template": "device_authorization",
-   "area": "regulatory",
-   "asset": "Transcranial magnetic stimulation (TMS) devices, any manufacturer: authorization for a psychotic disorder indication (including auditory hallucinations)",
-   "entity": "US Food and Drug Administration (CDRH)",
-   "title": "FDA authorizes a TMS device for psychosis",
-   "proposition": "The FDA authorizes a transcranial magnetic stimulation device for a psychotic disorder indication, including auditory hallucinations.",
-   "criterion": "TRUE on the decision date, in the FDA 510(k), De Novo or PMA database, of a marketing authorization dated after 2026-03-23 for a transcranial magnetic stimulation device whose indications-for-use statement names a psychotic disorder or a symptom of psychosis (for example schizophrenia, schizoaffective disorder, auditory hallucinations or auditory verbal hallucinations). A breakthrough device designation, a published trial, a professional-society guideline and off-label clinical use are not an authorization. Resolution source: the FDA device databases (510(k), De Novo, PMA). FALSE at the deadline when no such authorization is listed.",
-   "resolution_source": {
-    "name": "FDA 510(k), De Novo and PMA databases",
-    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm"
-   },
-   "base_rate_class": null,
-   "market_ref_id": null,
-   "quantity": null,
-   "readings": [
-    "'that's gonna include psychosis' reads as a TMS device authorized for a psychotic disorder indication; auditory hallucinations count as a psychotic symptom.",
-    "'and other conditions' names no countable set, so only the psychosis indication is coded."
+    "'Meaningful coverage' is read as at least one published US health plan coverage policy for the indication; the forecaster names no payer, so any US health plan or public program counts, as in E-0116.",
+    "'IV ketamine. For bipolar depression.' fixes the asset and the indication; esketamine is a different product and does not count.",
+    "The KET-BD trial result is the reason the forecaster gives, not part of the criterion."
    ],
    "created_by": "registry-consolidation",
    "created_at": "2026-09-14",
@@ -144,18 +74,10 @@
   }
  ],
  "map": {
-  "B:new:saint-payer-coverage": "E-0123",
-  "B:new:psilocybin-prescriptions-exceed-classic-antidepressants": "E-0124",
-  "B:new:atai-psychedelic-phase3-data-produced": "E-0125",
-  "C:new:atai-psychedelic-phase3-primary-endpoint-met": "E-0125",
-  "A:new:comp360-phase3-first-readout": "E-0126",
-  "B:new:comp360-phase3-first-topline-readout": "E-0126",
-  "A:new:comp360-phase3-primary-endpoint": "E-0127",
-  "B:new:comp360-phase3-trd-primary-endpoint-met": "E-0127",
-  "A:new:tms-psychosis-authorization": "E-0128",
-  "B:new:fda-tms-psychosis-authorization": "E-0128",
-  "A:new:hipaa-enforcement-betterhelp": "OUT_OF_AREA",
-  "B:new:hipaa-enforcement-betterhelp": "OUT_OF_AREA"
+  "C:new:dea-permanent-telemedicine-controlled-substance-rule": "E-0129",
+  "B:new:accelerated-tms-bipolar-depression-trial": "E-0130",
+  "A:new:us-health-plan-covers-iv-ketamine-bipolar-depression": "E-0131",
+  "B:new:iv-ketamine-bipolar-depression-coverage": "E-0131"
  },
  "inverted": []
 }

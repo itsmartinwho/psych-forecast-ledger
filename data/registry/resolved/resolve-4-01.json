@@ -1,0 +1,106 @@
+{
+  "resolver": "R2",
+  "run": "resolve-4-2026-09-14",
+  "outcomes": [
+    {
+      "event_id": "E-0129",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24123/fourth-temporary-extension-of-covid-19-telemedicine-flexibilities-for-prescription-of-controlled",
+          "title": "Fourth Temporary Extension of COVID-19 Telemedicine Flexibilities for Prescription of Controlled Medications",
+          "publisher": "Federal Register (DEA and HHS)",
+          "date": "2025-12-31",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.federalregister.gov/documents/2025/01/17/2025-01099/special-registrations-for-telemedicine-and-limited-state-telemedicine-registrations",
+          "title": "Special Registrations for Telemedicine and Limited State Telemedicine Registrations (proposed rule)",
+          "publisher": "Federal Register (DEA)",
+          "date": "2025-01-17",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
+          "title": "Drug Enforcement Administration final rules (agency document list, queried for telemedicine, 2025-01-01 to 2026-09-14)",
+          "publisher": "Federal Register",
+          "date": "2026-09-14",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "No DEA final rule that sets a permanent telemedicine prescribing framework is in the Federal Register as of 2026-09-14. A Federal Register query of DEA rules for 2025-01-01 to 2026-09-14 returns only: the buprenorphine and VA continuity-of-care telemedicine rules of 2025-01-17 (narrow, drug- and population-specific, not a general framework), their delay rules, the Fourth Temporary Extension published 2025-12-31 that keeps the COVID-era flexibilities to 2026-12-31, and a SUPPORT Act medication-assisted treatment rule published 2026-06-09. The general framework exists only as the proposed rule of 2025-01-17. Its final version is still under review at OIRA. A temporary rule and an extension are not adoption. This states nothing about later dates."
+    },
+    {
+      "event_id": "E-0130",
+      "state": "occurred",
+      "date": "2024-07-10",
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2821077",
+          "title": "Accelerated Intermittent Theta-Burst Stimulation and Treatment-Refractory Bipolar Depression: A Randomized Clinical Trial",
+          "publisher": "JAMA Psychiatry",
+          "date": "2024-07-10",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT05228457",
+          "title": "Intensive TMS for Bipolar Depression (NCT05228457), posted results",
+          "publisher": "ClinicalTrials.gov (University of Pennsylvania)",
+          "date": "2025-03-12",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38985492/",
+          "title": "Accelerated Intermittent Theta-Burst Stimulation and Treatment-Refractory Bipolar Depression: A Randomized Clinical Trial (PMID 38985492)",
+          "publisher": "PubMed (National Library of Medicine)",
+          "date": "2024-07-10",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "University of Pennsylvania trial NCT05228457, a randomized, triple-masked, sham-controlled RCT of imaging-guided accelerated iTBS (SNT-type protocol: 10 sessions per day for 5 days, 90000 pulses) in treatment-refractory bipolar depression. The prespecified primary outcome was repeated MADRS before and after treatment. It met significance: active 30.4 to 10.5, sham 28.0 to 25.3, difference -14.75 (95% CI -19.73 to -9.77), P<.001, n=24 analysed. First public report: JAMA Psychiatry online, 2024-07-10; ClinicalTrials.gov results posted 2025-03-12. The criterion also requires a date after the statement date, which this resolver does not see. Two other candidates fail: the JAMA Network Open aiTBS bipolar RCT of 2025-02-11 missed its primary endpoint, and the BMC Psychiatry adolescent trial of 2025-12-22 used one session per day."
+    },
+    {
+      "event_id": "E-0131",
+      "state": "not_occurred",
+      "date": null,
+      "checked_through": "2026-09-14",
+      "realized_value": null,
+      "evidence": [
+        {
+          "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/medicaid-comm-plan/ketalar-spravato-cs.pdf",
+          "title": "Ketalar (Ketamine) and Spravato (Esketamine), Community Plan Medical Benefit Drug Policy CS2026D0069AA",
+          "publisher": "UnitedHealthcare Community Plan",
+          "date": "2026-05-01",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.excellusbcbs.com/documents/d/global/exc-prv-ketamine-for-the-treatment-of-psychiatric-disorders",
+          "title": "Ketamine for the Treatment of Psychiatric Disorders, Medical Policy 3.01.13",
+          "publisher": "Excellus BlueCross BlueShield",
+          "date": "2026-01-22",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://www.forwardhealth.wi.gov/kw/pdf/2024-53.pdf",
+          "title": "Coverage Policy for IV Ketamine Infusion Therapy for Major Depressive Disorder With or Without Suicidality, ForwardHealth Update 2024-53",
+          "publisher": "Wisconsin ForwardHealth (BadgerCare Plus and Medicaid)",
+          "date": "2024-12-01",
+          "accessed": "2026-09-14"
+        },
+        {
+          "url": "https://wa-provider.kaiserpermanente.org/static/pdf/hosting/clinical/criteria/pdf/ketamine.pdf",
+          "title": "Clinical Review Criteria: Ketamine for the Treatment of Depression and Other Psychiatric Disorders",
+          "publisher": "Kaiser Foundation Health Plan of Washington",
+          "date": "2025-12-02",
+          "accessed": "2026-09-14"
+        }
+      ],
+      "note": "No US health plan policy that lists IV ketamine as covered for bipolar depression was found in force on 2026-09-14. Checked: UnitedHealthcare Community Plan CS2026D0069AA, effective 2026-05-01, calls ketamine injection investigational for psychiatric disorders, and names bipolar disorder; Excellus BCBS 3.01.13, effective 2026-01-22, calls it investigational for all diagnosis codes; Wisconsin Medicaid (ForwardHealth Update 2024-53, effective 2025-01-01) covers IV ketamine only for major depressive disorder and refuses prior authorization for any other off-label indication, so it is excluded; Kaiser Washington criteria, last reviewed 2025-12-02, are non-coverage and record no Medicare NCD or LCD. The Ket-BD RCT published in JAMA Psychiatry in 2026 has not yet produced a payer policy. This states nothing about later dates."
+    }
+  ]
+}

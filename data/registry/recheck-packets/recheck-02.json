@@ -539,6 +539,63 @@
     "resolved_at": "2026-09-13",
     "version": 1
    }
+  },
+  {
+   "event": {
+    "id": "E-0130",
+    "template": "trial_result",
+    "area": "clinical_trial",
+    "asset": "SNT (Stanford Neuromodulation Therapy) or another accelerated TMS protocol for bipolar depression",
+    "entity": "Any sponsor of an accelerated TMS trial in bipolar depression",
+    "title": "Accelerated TMS (SNT) trial in bipolar depression meets its primary endpoint",
+    "proposition": "A randomized controlled trial of SNT or another accelerated TMS protocol in bipolar depression meets its prespecified primary efficacy endpoint.",
+    "criterion": "TRUE on the date of the first sponsor topline release, ClinicalTrials.gov results posting or peer-reviewed publication, dated after the statement date, that reports a randomized controlled trial of SNT or another accelerated TMS protocol (more than one session per day) in bipolar depression whose prespecified primary efficacy endpoint met statistical significance as reported by the sponsor. Open-label series, single-arm series and secondary endpoints do not count. FALSE at the deadline when no such result is reported. Resolved on ClinicalTrials.gov results postings and the first peer-reviewed publication or sponsor release.",
+    "resolution_source": {
+     "name": "ClinicalTrials.gov results posting; peer-reviewed publication or sponsor release",
+     "url": "https://clinicaltrials.gov/"
+    },
+    "base_rate_class": null,
+    "market_ref_id": null,
+    "quantity": null,
+    "readings": [],
+    "created_by": "registry-consolidation",
+    "created_at": "2026-09-14",
+    "version": "1.1.0"
+   },
+   "outcome": {
+    "event_id": "E-0130",
+    "state": "occurred",
+    "date": "2024-07-10",
+    "checked_through": "2026-09-14",
+    "realized_value": null,
+    "evidence": [
+     {
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2821077",
+      "title": "Accelerated Intermittent Theta-Burst Stimulation and Treatment-Refractory Bipolar Depression: A Randomized Clinical Trial",
+      "publisher": "JAMA Psychiatry",
+      "date": "2024-07-10",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://clinicaltrials.gov/study/NCT05228457",
+      "title": "Intensive TMS for Bipolar Depression (NCT05228457), posted results",
+      "publisher": "ClinicalTrials.gov (University of Pennsylvania)",
+      "date": "2025-03-12",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38985492/",
+      "title": "Accelerated Intermittent Theta-Burst Stimulation and Treatment-Refractory Bipolar Depression: A Randomized Clinical Trial (PMID 38985492)",
+      "publisher": "PubMed (National Library of Medicine)",
+      "date": "2024-07-10",
+      "accessed": "2026-09-14"
+     }
+    ],
+    "note": "University of Pennsylvania trial NCT05228457, a randomized, triple-masked, sham-controlled RCT of imaging-guided accelerated iTBS (SNT-type protocol: 10 sessions per day for 5 days, 90000 pulses) in treatment-refractory bipolar depression. The prespecified primary outcome was repeated MADRS before and after treatment. It met significance: active 30.4 to 10.5, sham 28.0 to 25.3, difference -14.75 (95% CI -19.73 to -9.77), P<.001, n=24 analysed. First public report: JAMA Psychiatry online, 2024-07-10; ClinicalTrials.gov results posted 2025-03-12. The criterion also requires a date after the statement date, which this resolver does not see. Two other candidates fail: the JAMA Network Open aiTBS bipolar RCT of 2025-02-11 missed its primary endpoint, and the BMC Psychiatry adolescent trial of 2025-12-22 used one session per day.",
+    "resolver": "R2",
+    "resolved_at": "2026-09-13",
+    "version": 1
+   }
   }
  ]
 }

@@ -7365,9 +7365,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; undated; event sweep target E-0067; Same interview text also appears at refractor.io, which the ledger already cites for a different quote (doblin-0002). This take-home/pharmacy sentence is not in the existing"
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0246",
@@ -7393,7 +7395,12 @@
   },
   "status": "not_admitted",
   "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "NOT_FORECAST",
+   "b_reason": "NOT_FORECAST"
+  }
  },
  {
   "id": "doblin-0247",
@@ -7417,9 +7424,11 @@
    "area_guess": "clinical_trial",
    "note": "source confidence high; undated; event sweep target E-0002; The page uses curly quotation marks around 'interim analysis'."
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0248",
@@ -7445,7 +7454,12 @@
   },
   "status": "not_admitted",
   "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "NOT_FORECAST",
+   "b_reason": "NOT_FORECAST"
+  }
  },
  {
   "id": "doblin-0249",
@@ -7469,9 +7483,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; undated; event sweep target E-0068; Also bears on E-0067 (no take-home dispensing)."
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0250",
@@ -7496,8 +7512,13 @@
    "note": "source confidence high; undated; event sweep target E-0068; The existing ledger has other quotes from this URL under dates 2020-05-01 and 2020-05-28; this REMS passage is not among them."
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": true,
+   "b_admit": false,
+   "tiebreak_admit": false,
+   "b_reason": "NOT_FORECAST"
+  }
  },
  {
   "id": "doblin-0251",
@@ -7521,9 +7542,11 @@
    "area_guess": "clinical_trial",
    "note": "source confidence high; undated; event sweep target E-0002; Transcript line under 'Dr. Rick Doblin'. Same claim as an existing Tim Ferriss row, but a different source and date."
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0252",
@@ -7548,8 +7571,13 @@
    "note": "source confidence high; dated_event; event sweep target E-0002; "
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": false,
+   "b_admit": true,
+   "tiebreak_admit": false,
+   "a_reason": "CONTROL"
+  }
  },
  {
   "id": "doblin-0253",
@@ -7574,8 +7602,13 @@
    "note": "source confidence high; dated_event; event sweep target E-0009; "
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
+  }
  },
  {
   "id": "doblin-0254",
@@ -7599,9 +7632,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; undated; event sweep target E-0023; Strongest REMS statement found in Doblin's own words. The existing ledger holds only one REMS item (2017 MAPS financial report), so this is new. Transcript is machine-made; "
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0255",
@@ -7626,8 +7661,13 @@
    "note": "source confidence high; dated_event; event sweep target E-0002; Transcript line under 'Rick Doblin:'. Punctuation is as the published transcript prints it."
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": false,
+   "b_admit": true,
+   "tiebreak_admit": false,
+   "a_reason": "CONTROL"
+  }
  },
  {
   "id": "doblin-0256",
@@ -7652,8 +7692,13 @@
    "note": "source confidence high; dated_event; event sweep target other; Not one of the five events; a separate dated, checkable claim."
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
+  }
  },
  {
   "id": "doblin-0257",
@@ -7677,9 +7722,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; dated_event; event sweep target E-0066; Also bears on E-0024. Lex Fridman episode is not among the sources in the existing Doblin file. Machine transcript; wording copied exactly, including the missing sentence br"
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0258",
@@ -7703,9 +7750,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; dated_event; event sweep target E-0066; Covers both an MDMA product and a psilocybin product, so it also bears on E-0024."
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0259",
@@ -7729,9 +7778,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; dated_event; event sweep target other; Quote printed in the episode page's Quotes section at 51:18; bracketed insertion is the publisher's."
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0260",
@@ -7755,9 +7806,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; undated; event sweep target other; Quote printed in the episode page's Quotes section at 40:27."
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0261",
@@ -7782,8 +7835,13 @@
    "note": "source confidence high; dated_event; event sweep target other; Doblin gave this to the outlet directly; not one of the five events."
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "VAGUE",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "VAGUE",
+   "b_reason": "VAGUE"
+  }
  },
  {
   "id": "doblin-0262",
@@ -7808,8 +7866,13 @@
    "note": "source confidence high; dated_event; event sweep target other; Two quoted sentences from the same passage joined with ' ... '."
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "CONTROL",
+   "b_reason": "CONTROL"
+  }
  },
  {
   "id": "doblin-0263",
@@ -7834,8 +7897,13 @@
    "note": "source confidence high; dated_event; event sweep target other; The outlet also quotes his word 'major' for the consolidation."
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "VAGUE",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "VAGUE",
+   "b_reason": "VAGUE"
+  }
  },
  {
   "id": "doblin-0264",
@@ -7859,9 +7927,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; undated; event sweep target E-0067; Not in the existing file. Also bears on E-0068."
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0265",
@@ -7885,9 +7955,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; undated; event sweep target E-0068; The ledger holds no rows from this episode. Also bears on E-0067."
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0266",
@@ -7913,7 +7985,12 @@
   },
   "status": "not_admitted",
   "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "NOT_FORECAST",
+   "b_reason": "CONTROL"
+  }
  },
  {
   "id": "doblin-0267",
@@ -7937,9 +8014,12 @@
    "area_guess": "regulatory",
    "note": "source confidence high; dated_event; event sweep target E-0030; Only Doblin statement found that names the Lykos appeal of the 2024 CRL. The existing Doblin file holds no statement mentioning an appeal or dispute resolution."
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "void",
+  "void_reason": "AMBIGUOUS",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0268",
@@ -7963,9 +8043,11 @@
    "area_guess": "regulatory",
    "note": "source confidence high; dated_event; event sweep target E-0022; "
   },
-  "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "status": "admitted",
+  "coders": {
+   "a_admit": true,
+   "b_admit": true
+  }
  },
  {
   "id": "doblin-0269",
@@ -7991,7 +8073,12 @@
   },
   "status": "not_admitted",
   "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "NOT_FORECAST",
+   "b_reason": "NOT_FORECAST"
+  }
  },
  {
   "id": "doblin-0270",
@@ -8016,7 +8103,12 @@
    "note": "source confidence high; undated; event sweep target E-0022; Attributed block quote signed '- Rick Doblin, Ph.D., Founder and President, MAPS'. A denial that a new Phase 3 trial will report."
   },
   "status": "not_admitted",
-  "reason_code": "NOT_FORECAST",
-  "coders": {}
+  "reason_code": "CONTROL",
+  "coders": {
+   "a_admit": false,
+   "b_admit": false,
+   "a_reason": "CONTROL",
+   "b_reason": "NOT_FORECAST"
+  }
  }
 ]

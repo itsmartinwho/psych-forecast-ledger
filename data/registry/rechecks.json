@@ -214,5 +214,185 @@
   "applied": false,
   "rechecker": "X2",
   "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0073",
+  "challenged": "date",
+  "argument": "Case for an earlier date: NPR, MJBizDaily and law-firm posts all report that DEA 'approved' Scottsdale Research Institute and Biopharmaceutical Research Company in May 2021, and DEA's own 2021-05-14 story says growers were being brought on. If any of that was a registration, the first-true date is May 2021, not 2021-06-26. The case fails on the documents. The Yetter Coleman post of 2021-05-26 says SRI received a draft agreement, i.e. a memorandum of agreement, which the criterion excludes. DEA's Notices of Registration are the registrations: Groff NA Hemplex LLC (DRG-21-0191/DRG-21-0065, answering 85 FR 21889) and Biopharmaceutical Research Company LLC (DRG-17-0182/DRG-19-0034, answering 84 FR 44920) are both dated 6/26/2021. A separate BRC notice at DRG-17-0182 is dated 9/8/2021, later. SRI's own bulk-manufacturer notice is 2022. No 2021 notice predates 26 June.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0074",
+  "challenged": "date",
+  "argument": "Case against 2021-05-03: the readout that counts could be the Nature Medicine paper of 2021-05-10, or an earlier Phase 3 of another psychedelic given with psychotherapy. Both fail. The MAPS page of 2021-05-03 is the sponsor's own topline release and states the prespecified primary endpoint was met, CAPS-5 severity falling more with MDMA-assisted therapy than with placebo plus therapy at p<0.0001; the criterion takes the first of release, results posting or publication, so the release precedes the paper of 2021-05-10 and the ClinicalTrials.gov results submitted 2021-08-18. No earlier candidate exists: MAPP1 (NCT03537014) is the first Phase 3 in the class, started 2018-11-21, and the only earlier Phase 3 psychotherapy-paired readouts are esketamine, which is neither a classic psychedelic nor an entactogen and was not given with psychotherapy. State and date stand.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0075",
+  "challenged": "date",
+  "argument": "The state is safe: the complete response letter for NDA 215455 does name functional unblinding as a deficiency, saying participants with prior midomafetamine use are 'more likely to recognize the effects of midomafetamine (i.e., leading to functional unblinding)', and that 'These limitations impact the interpretability of MAPP1 and MAPP2 and ... preclude the ability to establish substantial evidence of effectiveness.' The date is wrong. The criterion fixes TRUE on the date of the FDA written action, not the date the sponsor disclosed it. FDA's released letter carries one date only: the electronic signature reads 08/08/2024 02:39:42 PM, and openFDA records letter_date 08/08/2024. The sponsor release of 2024-08-09 is secondary. The same registry dates the same letter 2024-08-08 at E-0090. The earlier 2024-06-04 briefing document does not qualify: it poses questions and calls the two studies positive.",
+  "verdict": "overturned",
+  "applied": true,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0081",
+  "challenged": "criterion",
+  "argument": "Case for an earlier date: ClinicalTrials.gov holds NCT06189027, an interventional Phase 3 study titled 'Epigenetics and MDMA-Assisted Psychotherapy for PTSD', lead sponsor University of Southern California, with MDMA listed as a drug intervention and an actual start of 2018-11-20. Read literally, criterion (a) is met there, five years earlier. The record defeats the reading: the summary says it is 'an add-on substudy to an already-approved clinical trial' NCT03537014, the MAPS trial MAPP1, with MAPS as collaborator. USC collects saliva; the drug arms it lists are the parent trial's. It generates no MDMA-for-PTSD clinical data of its own, which the reading requires. A weaker attack on NCT05979844, that Resilient (ex-Lykos) supplies drug as a collaborator, also fails: the criterion excludes only MAPS, MAPS PBC, a successor or a licensee, and Dr. Leslie Morland is the sponsor. Phase 3, actual start 2023-10-06 confirmed.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0084",
+  "challenged": "date",
+  "argument": "Case for an earlier date: the same record gives an actual study start of 2021-11-08, eight days earlier, and dosing MDMA needs the registration, so the grant is earlier still; the MAPS site-initiation post of 2021-09-22 could also be read as the study beginning. The record history refuses both. Version 4, submitted 2021-11-09 and posted 2021-11-10, still shows overall status NOT_YET_RECRUITING, no site listed, and an estimated start of 2021-12-18. Version 5, submitted 2021-11-16 and posted 2021-11-17, is the first to show status RECRUITING, the James J. Peters VA Medical Center site RECRUITING, and the actual start of 2021-11-08. Criteria (b) and (c) both key on the date of the announcement or listing, not on the event reported, so 2021-11-17 is the first verifiable date. No MAPS statement announces the grant; the Winter 2021 bulletin (15 March 2021) still calls it pending.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0090",
+  "challenged": "date",
+  "argument": "Case for 2024-08-09: the criterion dates the action 'as dated in Drugs@FDA or announced by the sponsor', and Drugs@FDA carries no action letter for an unapproved NDA, which would leave the sponsor's announcement of 2024-08-09 as the only admissible date. The argument fails because the event is the FDA's first action letter, and that letter carries its own date. FDA's released letter for NDA 215455 is signed electronically 08/08/2024 02:39:42 PM, and the openFDA transparency CRL dataset records letter_date 08/08/2024 for Lykos Therapeutics, status Unapproved. The sponsor's 2024-08-09 release reports receipt, one day later. No earlier action exists: the NDA was accepted for filing with priority review, so no refuse-to-file letter intervenes, and the June 2024 advisory committee is excluded by the criterion.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0092",
+  "challenged": "date",
+  "argument": "Case for an earlier date: Spravato sales were running above US$250 million a quarter through 2024, so a rolling four-quarter total crossed US$1 billion inside 2024, and the Q3 2024 Form 10-Q would then be the first report showing it. The criterion blocks this: it asks for Spravato worldwide net sales at or above US$1 billion 'for a calendar year' in the named series, and no J&J report before the 2024 full-year figures states one. The Form 8-K Exhibit 99.2 supplementary sales data filed 2025-01-22 gives SPRAVATO worldwide US$1,077 million for full-year 2024 against US$689 million for 2023, up 56.4%. 2023 is below the threshold, so 2024 is the first qualifying calendar year and 2025-01-22 the first report of it. The FY2024 Form 10-K of 2025-02-13 repeats it; FY2025 at US$1,696 million confirms the series. State, date and realized value stand.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0095",
+  "challenged": "date",
+  "argument": "Case for an earlier date: press coverage from January 2025 reports Antonio Gracias moving to take control of Lykos with US$100 million, and March 2025 reports the takeover under way, both after 31 October 2024. If any of that was a completed financing, the first-true date is months earlier. It was not. The January and March reports describe a plan and a takeover in progress, which the criterion excludes as a letter of intent or rumour, and neither is a sponsor announcement. The first definitive sponsor announcement of a completed financing is the Lykos release of 2025-05-30, first close of a Series B, US$50 million, co-led by the Gracias Family Foundation and the CH Foundation; Psychedelic Alpha reports the same amount, investors and date. EDGAR company search returns no Form D for Lykos Therapeutics or Resilient Pharmaceuticals, so no filed financing predates it.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0096",
+  "challenged": "date",
+  "argument": "Case for an earlier date: the release is headed 'Provides Update', not 'topline results', so the real readout could be an earlier atai corporate update, a conference disclosure or last-patient-out news; and the trial missed its endpoint, which could be read as no topline result. Both fail. The criterion states the direction of the result does not matter and the event is the readout. The Recognify release of 2025-07-25 reports the primary-endpoint outcome itself: the randomized, double-blind, placebo-controlled Phase 2b of inidascamine (formerly RL-007) in 242 patients did not meet its primary endpoint, the MCCB neurocognitive composite at week 6, with modest numerical improvement in subdomains. Trade coverage on the same day carries the same result. No earlier public report of that primary-endpoint result exists; atai's guidance before it only anticipated a mid-2025 readout.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0100",
+  "challenged": "criterion",
+  "argument": "Strongest attack: the 2025-05-20 release reports Part 2 of Phase 2a study NCT05660642, whose Part 1 topline came in March 2024. Read as 'each trial counts once', that trial had already read out, which would leave three qualifying releases and make the event FALSE at the 2026-03-20 window end. I reject it: the counting window is 2025-03-20 to 2026-03-20, the March 2024 announcement falls outside and consumes no count, and the 2025-05-20 release is the sponsor's topline of a distinct study part. I also looked for a fourth release earlier than 2026-02-26 that would pull the date back. The BPL-003 alcohol-use-disorder Phase 2a topline is 2025-01-28 and the ELE-101 Phase 2a topline 2024-12-16, both before the window; the 2025-11-10 BPL-003 report is an open-label extension, excluded; VLS-01 topline is now guided to Q4 2026. Four stands, fixed on 2026-02-26.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0103",
+  "challenged": "date",
+  "argument": "Attacked the first-true date: the 2025-07-01 Phase 2b topline and the mid-July financing both moved ATAI sharply, so an earlier close could have crossed 2.0x. It did not. The Nasdaq daily close series (Yahoo Finance chart data, NasdaqGM) gives 2025-05-16 = 1.65, so the threshold is 3.30. Every close from 2025-05-19 to 2025-07-17 stays below it; the post-topline peak is 2.79 on 2025-07-17, and 2025-07-18 closes at 3.23 (confirmed at 3.22-3.23 by a third-party report of that session). The first close at or above 3.30 is 2025-07-21 at 3.53, a ratio of 2.14. No split or reverse split appears in the series, so no adjustment changes the ratio. Reference and threshold both rest on closing prices only, as the criterion requires. Recorded state and date stand.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0106",
+  "challenged": "state",
+  "argument": "Argued not_occurred on the criterion words 'at the primary timepoint'. The Phase 2b primary timepoint is Day 29; the 2025-09-23 Phase 2a two-dose release reports Day 2, Day 8, one week after the second dose and Week 12, but no Day 29 value, so a strict same-timepoint comparison has no matching number. The argument fails on the size of the gap. Phase 2b single active doses: 12.1 points (8 mg) and 11.1 points (12 mg) at Day 29. Phase 2a two-dose induction (8 mg then 12 mg): 19.0 points one week after the second dose and 13.7 points at Week 12, both larger than either single-dose estimate; even the pre-second-dose Day 8 value, 12.9, exceeds them. The criterion asks only for a larger point estimate, not significance and not a matched day. No earlier two-dose induction report exists. Upheld.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0108",
+  "challenged": "criterion",
+  "argument": "The criterion's operative sentence is wider than the asset. It makes TRUE the first sponsor report of 'outcome data from open-label dosing of BPL-003 ... including an open-label extension of the Phase 2b programme', with one quantitative outcome. Three sponsor releases meet that wording before 2025-11-10: 2024-03-27, initial Phase 2a open-label results (mean MADRS reduction 18 points at day 1, 19 at one month, 18 at three months); 2025-05-20, Phase 2a Part 2 with SSRIs; and 2025-09-23, the Phase 2a two-dose induction (NCT05660642, open-label, 13.3, 12.9, 19.0 and 13.7 points). Under the asset line, which names the Phase 2b programme, the 2025-11-10 OLE topline is right and its data are as recorded. The two readings give dates 20 months apart, and the resolver flagged the same split. This needs the statement date and a scope ruling, not a rechecker's guess.",
+  "verdict": "escalated",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0110",
+  "challenged": "criterion",
+  "argument": "The criterion names four deal types: partnership, collaboration, co-development, licensing. The Lilly transaction is none of them. It is an Agreement and Plan of Merger signed 2026-07-15 and announced 2026-07-16, under which Lilly buys all shares for 6.75 US dollars plus a 2.50 CVR; the company is bought, not partnered with. The criterion also strikes out an equity investment or financing with no program agreement, which shows the drafter meant a narrow set of program deals. On that reading the state is not_occurred, because no other qualifying deal exists: the only big-pharma program agreement on record, Otsuka and Perception for arketamine, dates from 2021 and was terminated effective 2025-04-24. The event's own readings pull the other way, reading the words as 'an announced agreement between atai and a large pharmaceutical company', which an acquisition satisfies. Criterion and readings conflict; an adjudicator must pick.",
+  "verdict": "escalated",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0114",
+  "challenged": "date",
+  "argument": "Attacked the date two ways. First, that the release states a meeting date earlier than the announcement: it does not. The 2026-03-03 release says only that the sponsor 'today announced a successful End-of-Phase 2 (EOP2) meeting' and cites minutes, with no meeting date or month, so the criterion's fallback applies and the announcement date counts. Second, that the sponsor said earlier that the meeting had been held: the Q4 and full-year 2025 results came on 2026-03-06 and the Investor Day release on 2026-03-10, both after. The release describes FDA feedback and alignment on a two-study Phase 3 programme, so it reports a held meeting, not a granted request. State and date stand. One evidence defect: the Investor Day item is recorded as 2026-03-03 but is dated 2026-03-10, and both ir.ataibeckley.com links did not resolve on recheck.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0119",
+  "challenged": "date",
+  "argument": "Attacked the 'first topline after 2026-05-07' clause, since a GAD readout was guided for the first half of 2026 and could have come before Emerge. It did not. The sponsor's press-release list shows no release between 2026-05-07 and the Emerge topline of 2026-06-22; Voyage (GAD) reported on 2026-08-12 and Panorama (GAD) on 2026-09-14, both later. Emerge is therefore the first DT120 Phase 3 topline after the statement date, and it is positive: single 100 microgram dose in MDD, MADRS change from baseline at week 6, 8.1 points better than placebo, p<0.0001, with all key secondary endpoints met, as the sponsor states. A later Breakthrough Therapy designation on 2026-09-08 cites the same positive Phase 3 result. Recorded state and date stand.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0123",
+  "challenged": "date",
+  "argument": "The recorded date is too late. The criterion counts 'a Medicare fee schedule or add-on payment', and Medicare was already paying for SAINT nine months before the July 2024 OPPS update. In the FY2024 IPPS/LTCH final rule, published 2023-08-28 and effective 2023-10-01, CMS states: 'we are finalizing our proposal to approve new technology add-on payments for the SAINT Neuromodulation System for FY 2024', sets the maximum add-on payment at 12,675.00 US dollars per case (65 percent of a 19,500.00 cost per case) and names ICD-10-PCS code X0Z0X18 for eligible cases. That is a published Medicare payment policy with an effective date, dated after 2022-09-07, not a bare code assignment. Magnus confirmed on 2024-04-30 that it held the NTAP. The 2024-07-01 OPPS assignment (status S, APCs 1511 and 1522, confirmed in Transmittal 12665) is real but second.",
+  "verdict": "overturned",
+  "applied": true,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0126",
+  "challenged": "date",
+  "argument": "Attacked the date, since a leak, an 8-K or a conference slide could have carried the primary estimate first, and one secondary report gives 2025-06-24. The sponsor release carries the dateline 2025-06-23 and reports the primary endpoint: MADRS change from baseline at week 6, a mean difference of -3.6 points for COMP360 25 mg versus placebo, p<0.001, in COMP005 (NCT05624268). Earlier COMP005 releases in 2025 announced completion of recruitment and completion of Part A dosing only, with no primary estimate, which the criterion excludes. The 2025-06-24 date in a third-party summary is a next-day pickup, not a separate report. ClinicalTrials.gov still shows the trial completed with no results posted, so the sponsor release is the resolving source. State and date stand.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0127",
+  "challenged": "state",
+  "argument": "Argued the state should be not_occurred, on the ground that a topline press release is the sponsor's own claim and no results are posted on ClinicalTrials.gov. The criterion settles it: the endpoint must be met 'as reported by the sponsor'. Compass Pathways reports COMP005 (NCT05624268, 258 participants) as achieving its prespecified primary efficacy endpoint against the placebo control, MADRS change from baseline at week 6, mean difference -3.6 points for 25 mg versus placebo, p<0.001, on 2025-06-23. That is the first Phase 3 primary result reported for COMP360 in TRD, so it fixes the date; the second trial, COMP006, only confirms the direction. State and date stand. One evidence defect: the COMP006 item carries 2026-09-14, the access date, in place of its publication date.",
+  "verdict": "upheld",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
+ },
+ {
+  "event_id": "E-0130",
+  "challenged": "criterion",
+  "argument": "The trial facts hold: the University of Pennsylvania RCT (NCT05228457) was randomized, triple-masked and sham-controlled, used 10 sessions per day for 5 days, and met its prespecified MADRS primary outcome (active 30.4 to 10.5, sham 28.0 to 25.3; difference -14.8, P<.001; 24 analysed), first published in JAMA Psychiatry on 2024-07-10, with results posted on 2025-03-12. The criterion clause that fails is 'dated after the statement date'. The resolver says it cannot see that date, and neither can I. Every other case in this packet resolves on 2025 or 2026 evidence, so a 2024-07-10 publication is likely to predate the statement it resolves; if it does, this report cannot make the event TRUE and the event is still open. Note also that the trial has no commercial sponsor, so 'sponsor topline release' maps onto an investigator publication.",
+  "verdict": "escalated",
+  "applied": false,
+  "rechecker": "X2",
+  "rechecked_at": "2026-09-13"
  }
 ]

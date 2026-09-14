@@ -1,0 +1,95 @@
+{
+ "rechecker": "X2",
+ "run": "recheck-4-2026-09-14",
+ "rechecks": [
+  {
+   "event_id": "E-0073",
+   "challenged": "date",
+   "argument": "Case for an earlier date: NPR, MJBizDaily and law-firm posts all report that DEA 'approved' Scottsdale Research Institute and Biopharmaceutical Research Company in May 2021, and DEA's own 2021-05-14 story says growers were being brought on. If any of that was a registration, the first-true date is May 2021, not 2021-06-26. The case fails on the documents. The Yetter Coleman post of 2021-05-26 says SRI received a draft agreement, i.e. a memorandum of agreement, which the criterion excludes. DEA's Notices of Registration are the registrations: Groff NA Hemplex LLC (DRG-21-0191/DRG-21-0065, answering 85 FR 21889) and Biopharmaceutical Research Company LLC (DRG-17-0182/DRG-19-0034, answering 84 FR 44920) are both dated 6/26/2021. A separate BRC notice at DRG-17-0182 is dated 9/8/2021, later. SRI's own bulk-manufacturer notice is 2022. No 2021 notice predates 26 June.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0074",
+   "challenged": "date",
+   "argument": "Case against 2021-05-03: the readout that counts could be the Nature Medicine paper of 2021-05-10, or an earlier Phase 3 of another psychedelic given with psychotherapy. Both fail. The MAPS page of 2021-05-03 is the sponsor's own topline release and states the prespecified primary endpoint was met, CAPS-5 severity falling more with MDMA-assisted therapy than with placebo plus therapy at p<0.0001; the criterion takes the first of release, results posting or publication, so the release precedes the paper of 2021-05-10 and the ClinicalTrials.gov results submitted 2021-08-18. No earlier candidate exists: MAPP1 (NCT03537014) is the first Phase 3 in the class, started 2018-11-21, and the only earlier Phase 3 psychotherapy-paired readouts are esketamine, which is neither a classic psychedelic nor an entactogen and was not given with psychotherapy. State and date stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0075",
+   "challenged": "date",
+   "argument": "The state is safe: the complete response letter for NDA 215455 does name functional unblinding as a deficiency, saying participants with prior midomafetamine use are 'more likely to recognize the effects of midomafetamine (i.e., leading to functional unblinding)', and that 'These limitations impact the interpretability of MAPP1 and MAPP2 and ... preclude the ability to establish substantial evidence of effectiveness.' The date is wrong. The criterion fixes TRUE on the date of the FDA written action, not the date the sponsor disclosed it. FDA's released letter carries one date only: the electronic signature reads 08/08/2024 02:39:42 PM, and openFDA records letter_date 08/08/2024. The sponsor release of 2024-08-09 is secondary. The same registry dates the same letter 2024-08-08 at E-0090. The earlier 2024-06-04 briefing document does not qualify: it poses questions and calls the two studies positive.",
+   "verdict": "overturned",
+   "corrected": {
+    "state": "occurred",
+    "date": "2024-08-08",
+    "evidence": [
+     {
+      "url": "https://download.open.fda.gov/crl/CRL_NDA215455_20240808.pdf",
+      "title": "Complete Response Letter, NDA 215455 (midomafetamine capsules), Lykos Therapeutics; deficiency cites functional unblinding; electronic signature dated 08/08/2024",
+      "publisher": "US Food and Drug Administration (openFDA complete response letter release)",
+      "date": "2024-08-08",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.fda.gov/media/178984/download",
+      "title": "FDA Briefing Document, NDA 215455 midomafetamine, Psychopharmacologic Drugs Advisory Committee (poses unblinding as a question for discussion, not a deficiency)",
+      "publisher": "US Food and Drug Administration",
+      "date": "2024-06-04",
+      "accessed": "2026-09-14"
+     }
+    ]
+   }
+  },
+  {
+   "event_id": "E-0081",
+   "challenged": "criterion",
+   "argument": "Case for an earlier date: ClinicalTrials.gov holds NCT06189027, an interventional Phase 3 study titled 'Epigenetics and MDMA-Assisted Psychotherapy for PTSD', lead sponsor University of Southern California, with MDMA listed as a drug intervention and an actual start of 2018-11-20. Read literally, criterion (a) is met there, five years earlier. The record defeats the reading: the summary says it is 'an add-on substudy to an already-approved clinical trial' NCT03537014, the MAPS trial MAPP1, with MAPS as collaborator. USC collects saliva; the drug arms it lists are the parent trial's. It generates no MDMA-for-PTSD clinical data of its own, which the reading requires. A weaker attack on NCT05979844, that Resilient (ex-Lykos) supplies drug as a collaborator, also fails: the criterion excludes only MAPS, MAPS PBC, a successor or a licensee, and Dr. Leslie Morland is the sponsor. Phase 3, actual start 2023-10-06 confirmed.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0084",
+   "challenged": "date",
+   "argument": "Case for an earlier date: the same record gives an actual study start of 2021-11-08, eight days earlier, and dosing MDMA needs the registration, so the grant is earlier still; the MAPS site-initiation post of 2021-09-22 could also be read as the study beginning. The record history refuses both. Version 4, submitted 2021-11-09 and posted 2021-11-10, still shows overall status NOT_YET_RECRUITING, no site listed, and an estimated start of 2021-12-18. Version 5, submitted 2021-11-16 and posted 2021-11-17, is the first to show status RECRUITING, the James J. Peters VA Medical Center site RECRUITING, and the actual start of 2021-11-08. Criteria (b) and (c) both key on the date of the announcement or listing, not on the event reported, so 2021-11-17 is the first verifiable date. No MAPS statement announces the grant; the Winter 2021 bulletin (15 March 2021) still calls it pending.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0090",
+   "challenged": "date",
+   "argument": "Case for 2024-08-09: the criterion dates the action 'as dated in Drugs@FDA or announced by the sponsor', and Drugs@FDA carries no action letter for an unapproved NDA, which would leave the sponsor's announcement of 2024-08-09 as the only admissible date. The argument fails because the event is the FDA's first action letter, and that letter carries its own date. FDA's released letter for NDA 215455 is signed electronically 08/08/2024 02:39:42 PM, and the openFDA transparency CRL dataset records letter_date 08/08/2024 for Lykos Therapeutics, status Unapproved. The sponsor's 2024-08-09 release reports receipt, one day later. No earlier action exists: the NDA was accepted for filing with priority review, so no refuse-to-file letter intervenes, and the June 2024 advisory committee is excluded by the criterion.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0092",
+   "challenged": "date",
+   "argument": "Case for an earlier date: Spravato sales were running above US$250 million a quarter through 2024, so a rolling four-quarter total crossed US$1 billion inside 2024, and the Q3 2024 Form 10-Q would then be the first report showing it. The criterion blocks this: it asks for Spravato worldwide net sales at or above US$1 billion 'for a calendar year' in the named series, and no J&J report before the 2024 full-year figures states one. The Form 8-K Exhibit 99.2 supplementary sales data filed 2025-01-22 gives SPRAVATO worldwide US$1,077 million for full-year 2024 against US$689 million for 2023, up 56.4%. 2023 is below the threshold, so 2024 is the first qualifying calendar year and 2025-01-22 the first report of it. The FY2024 Form 10-K of 2025-02-13 repeats it; FY2025 at US$1,696 million confirms the series. State, date and realized value stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0095",
+   "challenged": "date",
+   "argument": "Case for an earlier date: press coverage from January 2025 reports Antonio Gracias moving to take control of Lykos with US$100 million, and March 2025 reports the takeover under way, both after 31 October 2024. If any of that was a completed financing, the first-true date is months earlier. It was not. The January and March reports describe a plan and a takeover in progress, which the criterion excludes as a letter of intent or rumour, and neither is a sponsor announcement. The first definitive sponsor announcement of a completed financing is the Lykos release of 2025-05-30, first close of a Series B, US$50 million, co-led by the Gracias Family Foundation and the CH Foundation; Psychedelic Alpha reports the same amount, investors and date. EDGAR company search returns no Form D for Lykos Therapeutics or Resilient Pharmaceuticals, so no filed financing predates it.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0096",
+   "challenged": "date",
+   "argument": "Case for an earlier date: the release is headed 'Provides Update', not 'topline results', so the real readout could be an earlier atai corporate update, a conference disclosure or last-patient-out news; and the trial missed its endpoint, which could be read as no topline result. Both fail. The criterion states the direction of the result does not matter and the event is the readout. The Recognify release of 2025-07-25 reports the primary-endpoint outcome itself: the randomized, double-blind, placebo-controlled Phase 2b of inidascamine (formerly RL-007) in 242 patients did not meet its primary endpoint, the MCCB neurocognitive composite at week 6, with modest numerical improvement in subdomains. Trade coverage on the same day carries the same result. No earlier public report of that primary-endpoint result exists; atai's guidance before it only anticipated a mid-2025 readout.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0100",
+   "challenged": "criterion",
+   "argument": "Strongest attack: the 2025-05-20 release reports Part 2 of Phase 2a study NCT05660642, whose Part 1 topline came in March 2024. Read as 'each trial counts once', that trial had already read out, which would leave three qualifying releases and make the event FALSE at the 2026-03-20 window end. I reject it: the counting window is 2025-03-20 to 2026-03-20, the March 2024 announcement falls outside and consumes no count, and the 2025-05-20 release is the sponsor's topline of a distinct study part. I also looked for a fourth release earlier than 2026-02-26 that would pull the date back. The BPL-003 alcohol-use-disorder Phase 2a topline is 2025-01-28 and the ELE-101 Phase 2a topline 2024-12-16, both before the window; the 2025-11-10 BPL-003 report is an open-label extension, excluded; VLS-01 topline is now guided to Q4 2026. Four stands, fixed on 2026-02-26.",
+   "verdict": "upheld",
+   "corrected": null
+  }
+ ]
+}

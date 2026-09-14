@@ -1,0 +1,102 @@
+{
+ "rechecker": "X2",
+ "run": "recheck-4-2026-09-14",
+ "rechecks": [
+  {
+   "event_id": "E-0103",
+   "challenged": "date",
+   "argument": "Attacked the first-true date: the 2025-07-01 Phase 2b topline and the mid-July financing both moved ATAI sharply, so an earlier close could have crossed 2.0x. It did not. The Nasdaq daily close series (Yahoo Finance chart data, NasdaqGM) gives 2025-05-16 = 1.65, so the threshold is 3.30. Every close from 2025-05-19 to 2025-07-17 stays below it; the post-topline peak is 2.79 on 2025-07-17, and 2025-07-18 closes at 3.23 (confirmed at 3.22-3.23 by a third-party report of that session). The first close at or above 3.30 is 2025-07-21 at 3.53, a ratio of 2.14. No split or reverse split appears in the series, so no adjustment changes the ratio. Reference and threshold both rest on closing prices only, as the criterion requires. Recorded state and date stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0106",
+   "challenged": "state",
+   "argument": "Argued not_occurred on the criterion words 'at the primary timepoint'. The Phase 2b primary timepoint is Day 29; the 2025-09-23 Phase 2a two-dose release reports Day 2, Day 8, one week after the second dose and Week 12, but no Day 29 value, so a strict same-timepoint comparison has no matching number. The argument fails on the size of the gap. Phase 2b single active doses: 12.1 points (8 mg) and 11.1 points (12 mg) at Day 29. Phase 2a two-dose induction (8 mg then 12 mg): 19.0 points one week after the second dose and 13.7 points at Week 12, both larger than either single-dose estimate; even the pre-second-dose Day 8 value, 12.9, exceeds them. The criterion asks only for a larger point estimate, not significance and not a matched day. No earlier two-dose induction report exists. Upheld.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0108",
+   "challenged": "criterion",
+   "argument": "The criterion's operative sentence is wider than the asset. It makes TRUE the first sponsor report of 'outcome data from open-label dosing of BPL-003 ... including an open-label extension of the Phase 2b programme', with one quantitative outcome. Three sponsor releases meet that wording before 2025-11-10: 2024-03-27, initial Phase 2a open-label results (mean MADRS reduction 18 points at day 1, 19 at one month, 18 at three months); 2025-05-20, Phase 2a Part 2 with SSRIs; and 2025-09-23, the Phase 2a two-dose induction (NCT05660642, open-label, 13.3, 12.9, 19.0 and 13.7 points). Under the asset line, which names the Phase 2b programme, the 2025-11-10 OLE topline is right and its data are as recorded. The two readings give dates 20 months apart, and the resolver flagged the same split. This needs the statement date and a scope ruling, not a rechecker's guess.",
+   "verdict": "escalated",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0110",
+   "challenged": "criterion",
+   "argument": "The criterion names four deal types: partnership, collaboration, co-development, licensing. The Lilly transaction is none of them. It is an Agreement and Plan of Merger signed 2026-07-15 and announced 2026-07-16, under which Lilly buys all shares for 6.75 US dollars plus a 2.50 CVR; the company is bought, not partnered with. The criterion also strikes out an equity investment or financing with no program agreement, which shows the drafter meant a narrow set of program deals. On that reading the state is not_occurred, because no other qualifying deal exists: the only big-pharma program agreement on record, Otsuka and Perception for arketamine, dates from 2021 and was terminated effective 2025-04-24. The event's own readings pull the other way, reading the words as 'an announced agreement between atai and a large pharmaceutical company', which an acquisition satisfies. Criterion and readings conflict; an adjudicator must pick.",
+   "verdict": "escalated",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0114",
+   "challenged": "date",
+   "argument": "Attacked the date two ways. First, that the release states a meeting date earlier than the announcement: it does not. The 2026-03-03 release says only that the sponsor 'today announced a successful End-of-Phase 2 (EOP2) meeting' and cites minutes, with no meeting date or month, so the criterion's fallback applies and the announcement date counts. Second, that the sponsor said earlier that the meeting had been held: the Q4 and full-year 2025 results came on 2026-03-06 and the Investor Day release on 2026-03-10, both after. The release describes FDA feedback and alignment on a two-study Phase 3 programme, so it reports a held meeting, not a granted request. State and date stand. One evidence defect: the Investor Day item is recorded as 2026-03-03 but is dated 2026-03-10, and both ir.ataibeckley.com links did not resolve on recheck.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0119",
+   "challenged": "date",
+   "argument": "Attacked the 'first topline after 2026-05-07' clause, since a GAD readout was guided for the first half of 2026 and could have come before Emerge. It did not. The sponsor's press-release list shows no release between 2026-05-07 and the Emerge topline of 2026-06-22; Voyage (GAD) reported on 2026-08-12 and Panorama (GAD) on 2026-09-14, both later. Emerge is therefore the first DT120 Phase 3 topline after the statement date, and it is positive: single 100 microgram dose in MDD, MADRS change from baseline at week 6, 8.1 points better than placebo, p<0.0001, with all key secondary endpoints met, as the sponsor states. A later Breakthrough Therapy designation on 2026-09-08 cites the same positive Phase 3 result. Recorded state and date stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0123",
+   "challenged": "date",
+   "argument": "The recorded date is too late. The criterion counts 'a Medicare fee schedule or add-on payment', and Medicare was already paying for SAINT nine months before the July 2024 OPPS update. In the FY2024 IPPS/LTCH final rule, published 2023-08-28 and effective 2023-10-01, CMS states: 'we are finalizing our proposal to approve new technology add-on payments for the SAINT Neuromodulation System for FY 2024', sets the maximum add-on payment at 12,675.00 US dollars per case (65 percent of a 19,500.00 cost per case) and names ICD-10-PCS code X0Z0X18 for eligible cases. That is a published Medicare payment policy with an effective date, dated after 2022-09-07, not a bare code assignment. Magnus confirmed on 2024-04-30 that it held the NTAP. The 2024-07-01 OPPS assignment (status S, APCs 1511 and 1522, confirmed in Transmittal 12665) is real but second.",
+   "verdict": "overturned",
+   "corrected": {
+    "state": "occurred",
+    "date": "2023-10-01",
+    "evidence": [
+     {
+      "url": "https://www.federalregister.gov/documents/2023/08/28/2023-16252/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-and-the",
+      "title": "Medicare Program; Hospital Inpatient Prospective Payment Systems ... Fiscal Year 2024 Rates (FY2024 IPPS/LTCH PPS final rule; SAINT Neuromodulation System new technology add-on payment approved, maximum $12,675, ICD-10-PCS X0Z0X18; effective 2023-10-01)",
+      "publisher": "Centers for Medicare & Medicaid Services via the Federal Register",
+      "date": "2023-08-28",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.federalregister.gov/documents/full_text/text/2023/08/28/2023-16252.txt",
+      "title": "Full text of the FY2024 IPPS/LTCH PPS final rule, section on the SAINT Neuromodulation System NTAP application and approval",
+      "publisher": "Federal Register (Government Publishing Office)",
+      "date": "2023-08-28",
+      "accessed": "2026-09-14"
+     },
+     {
+      "url": "https://www.cms.gov/files/document/r12665cp.pdf",
+      "title": "Transmittal 12665, Change Request 13632: July 2024 Update of the Hospital Outpatient Prospective Payment System (0889T status S APC 1511; 0890T, 0891T, 0892T status S APC 1522)",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "date": "2024-05-31",
+      "accessed": "2026-09-14"
+     }
+    ]
+   }
+  },
+  {
+   "event_id": "E-0126",
+   "challenged": "date",
+   "argument": "Attacked the date, since a leak, an 8-K or a conference slide could have carried the primary estimate first, and one secondary report gives 2025-06-24. The sponsor release carries the dateline 2025-06-23 and reports the primary endpoint: MADRS change from baseline at week 6, a mean difference of -3.6 points for COMP360 25 mg versus placebo, p<0.001, in COMP005 (NCT05624268). Earlier COMP005 releases in 2025 announced completion of recruitment and completion of Part A dosing only, with no primary estimate, which the criterion excludes. The 2025-06-24 date in a third-party summary is a next-day pickup, not a separate report. ClinicalTrials.gov still shows the trial completed with no results posted, so the sponsor release is the resolving source. State and date stand.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0127",
+   "challenged": "state",
+   "argument": "Argued the state should be not_occurred, on the ground that a topline press release is the sponsor's own claim and no results are posted on ClinicalTrials.gov. The criterion settles it: the endpoint must be met 'as reported by the sponsor'. Compass Pathways reports COMP005 (NCT05624268, 258 participants) as achieving its prespecified primary efficacy endpoint against the placebo control, MADRS change from baseline at week 6, mean difference -3.6 points for 25 mg versus placebo, p<0.001, on 2025-06-23. That is the first Phase 3 primary result reported for COMP360 in TRD, so it fixes the date; the second trial, COMP006, only confirms the direction. State and date stand. One evidence defect: the COMP006 item carries 2026-09-14, the access date, in place of its publication date.",
+   "verdict": "upheld",
+   "corrected": null
+  },
+  {
+   "event_id": "E-0130",
+   "challenged": "criterion",
+   "argument": "The trial facts hold: the University of Pennsylvania RCT (NCT05228457) was randomized, triple-masked and sham-controlled, used 10 sessions per day for 5 days, and met its prespecified MADRS primary outcome (active 30.4 to 10.5, sham 28.0 to 25.3; difference -14.8, P<.001; 24 analysed), first published in JAMA Psychiatry on 2024-07-10, with results posted on 2025-03-12. The criterion clause that fails is 'dated after the statement date'. The resolver says it cannot see that date, and neither can I. Every other case in this packet resolves on 2025 or 2026 evidence, so a 2024-07-10 publication is likely to predate the statement it resolves; if it does, this report cannot make the event TRUE and the event is still open. Note also that the trial has no commercial sponsor, so 'sponsor topline release' maps onto an investigator publication.",
+   "verdict": "escalated",
+   "corrected": null
+  }
+ ]
+}
