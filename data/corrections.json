@@ -6,5 +6,13 @@
   "reason": "The merge script wrote the match file only for admitted-path statements, which biased the admission denominator.",
   "version_from": "1.0.0",
   "version_to": "1.0.1"
+ },
+ {
+  "date": "2026-09-14",
+  "scope": "Denial tag on two inverted items (owen-0454, owen-0457)",
+  "change": "The denial tag now follows the asserts flag after the registry polarity flip; both items keep p 0.70 and 0.90 on the extension event E-0014. Only the sensitivity variants that read the tag change.",
+  "reason": "The merge script added the denial tag from the coder record but did not remove it when the consolidation inverted the proposal.",
+  "version_from": "1.0.1",
+  "version_to": "1.0.2"
  }
 ]

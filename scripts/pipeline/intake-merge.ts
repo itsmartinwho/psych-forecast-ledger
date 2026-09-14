@@ -120,7 +120,7 @@ for (const slug of ["owen", "angermayer", "doblin"] as const) {
     if (panel === "headline") stats.dated++; else stats.undated++;
     const tags = new Set<string>(primary.tags ?? []);
     if (primary.affiliated) tags.add("affiliated");
-    if (asP === false) tags.add("denial");
+    if (asP === false) tags.add("denial"); else tags.delete("denial"); // the tag follows the flag after any polarity flip
     if (primary.p_stated !== null) tags.add("stated_number");
     if (primary.condition) tags.add("conditional");
     if (primary.deadline_origin === "table") tags.add("table_dated");
